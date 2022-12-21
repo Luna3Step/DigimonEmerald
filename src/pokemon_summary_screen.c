@@ -3840,7 +3840,7 @@ static void SetMonTypeIcons(void)
         else
         {
             SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 1, TRUE);
-            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].type3, 10, 48, SPRITE_ARR_ID_TYPE + 2);
+            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].type3, 160, 48, SPRITE_ARR_ID_TYPE + 2);
         }
     }
 }
