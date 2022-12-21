@@ -2773,7 +2773,7 @@ static void CursorCb_Summary(u8 taskId)
     Task_ClosePartyMenu(taskId);
 }
 
-void SwitchToEvolveMenu(void);
+void ChangePokemonNickname(void);
 static void CursorCb_Evolve(u8 taskId)
 {
     PlaySE(SE_SELECT);
