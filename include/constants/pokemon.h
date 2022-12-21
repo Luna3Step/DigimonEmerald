@@ -21,7 +21,14 @@
 #define TYPE_ICE              15
 #define TYPE_DRAGON           16
 #define TYPE_DARK             17
-#define NUMBER_OF_MON_TYPES   18
+#define TYPE_FAIRY            18
+#define TYPE_LIGHT            19
+#define TYPE_VACCNE           20
+#define TYPE_VIRUS            21
+#define TYPE_DATA             22
+#define TYPE_FREE             23
+#define TYPE_UKNOWN           24
+#define NUMBER_OF_MON_TYPES   25
 
 // Pokemon egg groups
 #define EGG_GROUP_NONE          0
