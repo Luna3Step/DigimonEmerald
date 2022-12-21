@@ -254,6 +254,12 @@
 #define EVO_LEVEL_NINJASK    13 // Pokémon reaches the specified level (special value for Ninjask)
 #define EVO_LEVEL_SHEDINJA   14 // Pokémon reaches the specified level (special value for Shedinja)
 #define EVO_BEAUTY           15 // Pokémon levels up with beauty ≥ specified value
+#define EVO_ATTACK           16 // Species attack is at certain level
+#define EVO_DEFENSE          17 // Species defense is at certain level
+#define EVO_SPATTACK         18 // Species special attack is at certain level
+#define EVO_SPDEFENSE        19 // Species special defense is at certain level
+#define EVO_SPEED            20 // Species speed is at certain level
+#define EVO_HEALTH           21 // Species health is at certain level
 
 #define EVOS_PER_MON 5
 

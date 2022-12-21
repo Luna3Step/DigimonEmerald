@@ -1026,6 +1026,7 @@ GiveMePokemon::
 	givemon SPECIES_IVYSAUR, 5
 	givemon SPECIES_VENUSAUR, 5
 	givemon SPECIES_CHARMANDER, 5
+	giveitem ITEM_RARE_CANDY, 99
 	waitmessage
 	releaseall
 	return

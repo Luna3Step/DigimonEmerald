@@ -5461,6 +5461,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
     u8 beauty = GetMonData(mon, MON_DATA_BEAUTY, 0);
     u16 upperPersonality = personality >> 16;
     u8 holdEffect;
+    u16 attack;
+    u16 defense;
+    u16 spatk;
+    u16 spdef;
+    u16 speed;
+    u16 health;
 
     if (heldItem == ITEM_ENIGMA_BERRY)
         holdEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
@@ -5476,6 +5482,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
     case EVO_MODE_NORMAL:
         level = GetMonData(mon, MON_DATA_LEVEL, 0);
         friendship = GetMonData(mon, MON_DATA_FRIENDSHIP, 0);
+        attack = GetMonData(mon, MON_DATA_ATK, 0);
+        defense = GetMonData(mon, MON_DATA_DEF, 0);
+        spatk = GetMonData(mon, MON_DATA_SPATK, 0);
+        spdef = GetMonData(mon, MON_DATA_SPDEF, 0);
+        speed = GetMonData(mon, MON_DATA_SPEED, 0);
+        health = GetMonData(mon, MON_DATA_HP, 0);
 
         for (i = 0; i < EVOS_PER_MON; i++)
         {
@@ -5529,6 +5541,36 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
             case EVO_BEAUTY:
                 if (gEvolutionTable[species][i].param <= beauty)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_ATTACK:
+                if (gEvolutionTable[species][i].param <= attack)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_DEFENSE:
+                if (gEvolutionTable[species][i].param <= defense)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_SPATTACK:
+                if (gEvolutionTable[species][i].param <= spatk)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_SPDEFENSE:
+                if (gEvolutionTable[species][i].param <= spdef)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_SPEED:
+                if (gEvolutionTable[species][i].param <= speed)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_HEALTH:
+                if (gEvolutionTable[species][i].param <= health)
+                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
+                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
         }
