@@ -1019,3 +1019,17 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+GiveMePokemon::
+	lockall
+	msgbox GiveMePokemon_Text_0
+	givemon SPECIES_BULBASAUR, 5
+	givemon SPECIES_IVYSAUR, 5
+	givemon SPECIES_VENUSAUR, 5
+	givemon SPECIES_CHARMANDER, 5
+	waitmessage
+	releaseall
+	return
+
+
+GiveMePokemon_Text_0:
+	.string "Have this!$"
