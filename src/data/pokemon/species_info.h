@@ -48,6 +48,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 65,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_LIGHT,
+        .type3 = TYPE_DRAGON,
         .catchRate = 45,
         .expYield = 64,
         .evYield_HP        = 0,

@@ -3835,10 +3835,12 @@ static void SetMonTypeIcons(void)
         {
             SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].type2, 160, 48, SPRITE_ARR_ID_TYPE + 1);
             SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 1, FALSE);
+            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].type3, 200, 48, SPRITE_ARR_ID_TYPE + 2);
         }
         else
         {
             SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 1, TRUE);
+            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].type3, 10, 48, SPRITE_ARR_ID_TYPE + 2);
         }
     }
 }

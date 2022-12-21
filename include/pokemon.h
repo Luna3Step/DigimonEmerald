@@ -297,6 +297,7 @@ struct SpeciesInfo
  /* 0x05 */ u8 baseSpDefense;
  /* 0x06 */ u8 type1;
  /* 0x07 */ u8 type2;
+            u8 type3;
  /* 0x08 */ u8 catchRate;
  /* 0x09 */ u8 expYield;
  /* 0x0A */ u16 evYield_HP:2;
