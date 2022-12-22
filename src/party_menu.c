@@ -2773,12 +2773,12 @@ static void CursorCb_Summary(u8 taskId)
     Task_ClosePartyMenu(taskId);
 }
 
-void ChangePokemonNickname(void);
+void Menu_Init(void);
 static void CursorCb_Evolve(u8 taskId)
 {
     PlaySE(SE_SELECT);
     gSpecialVar_0x8004 = gPartyMenu.slotId;
-    sPartyMenuInternal->exitCallback = ChangePokemonNickname;
+    sPartyMenuInternal->exitCallback = Menu_Init;
     Task_ClosePartyMenu(taskId);
 }
 
