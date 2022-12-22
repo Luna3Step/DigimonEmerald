@@ -999,3 +999,11 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
+QuickNatDex::
+	lockall
+	call LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex
+	waitmessage
+	releaseall
+	return
+

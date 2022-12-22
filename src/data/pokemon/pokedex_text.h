@@ -5,10 +5,10 @@ const u8 gDummyPokedexText[] = _(
     "at this time.");
 
 const u8 gArgomonPokedexText[] = _(
-    "BULBASAUR can be seen napping in bright\n"
-    "sunlight. There is a seed on its back.\n"
-    "By soaking up the sun's rays, the seed\n"
-    "grows progressively larger.");
+    "Argomon has a habit of finding and \n"
+    "converging at places with high data\n"
+    "capacity. They generally gather up\n"
+    "and become a horde quickly.");
 
 const u8 gIvysaurPokedexText[] = _(
     "To support its bulb, IVYSAUR's legs\n"
