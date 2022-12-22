@@ -1025,7 +1025,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 script GiveMePokemon {
     lockall
     msgbox(format("Have this!"))
-    givemon(SPECIES_BULBASAUR, 5)
+    givemon(SPECIES_ARGOMON, 5)
     givemon(SPECIES_IVYSAUR, 5)
     givemon(SPECIES_VENUSAUR, 5)
     givemon(SPECIES_CHARMANDER, 5)

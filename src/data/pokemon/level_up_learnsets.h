@@ -1,6 +1,6 @@
 #define LEVEL_UP_MOVE(lvl, move) ((lvl << 9) | move)
 
-static const u16 sBulbasaurLevelUpLearnset[] = {
+static const u16 sArgomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_GROWL),
     LEVEL_UP_MOVE( 7, MOVE_LEECH_SEED),

@@ -38,7 +38,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] = {0},
 
-    [SPECIES_BULBASAUR] =
+    [SPECIES_ARGOMON] =
     {
         .baseHP        = 45,
         .baseAttack    = 49,
@@ -46,9 +46,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpeed     = 45,
         .baseSpAttack  = 65,
         .baseSpDefense = 65,
-        .type1 = TYPE_FAIRY,
-        .type2 = TYPE_LIGHT,
-        .type3 = TYPE_DRAGON,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_GRASS,
+        .type3 = TYPE_FREE,
         .catchRate = 45,
         .expYield = 64,
         .evYield_HP        = 0,

@@ -99,7 +99,7 @@ static const struct CombinedMove sCombinedMoves[2] =
 // Assigns all species to the Hoenn Dex Index (Summary No. for Hoenn Dex)
 static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
 {
-    SPECIES_TO_HOENN(BULBASAUR),
+    SPECIES_TO_HOENN(ARGOMON),
     SPECIES_TO_HOENN(IVYSAUR),
     SPECIES_TO_HOENN(VENUSAUR),
     SPECIES_TO_HOENN(CHARMANDER),
@@ -515,7 +515,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
 // Assigns all species to the National Dex Index (Summary No. for National Dex)
 static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
 {
-    SPECIES_TO_NATIONAL(BULBASAUR),
+    SPECIES_TO_NATIONAL(ARGOMON),
     SPECIES_TO_NATIONAL(IVYSAUR),
     SPECIES_TO_NATIONAL(VENUSAUR),
     SPECIES_TO_NATIONAL(CHARMANDER),
@@ -1133,7 +1133,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(RAYQUAZA),
     HOENN_TO_NATIONAL(JIRACHI),
     HOENN_TO_NATIONAL(DEOXYS),
-    HOENN_TO_NATIONAL(BULBASAUR), // Pokémon from here onwards are UNSEEN in the HoennDex.
+    HOENN_TO_NATIONAL(ARGOMON), // Pokémon from here onwards are UNSEEN in the HoennDex.
     HOENN_TO_NATIONAL(IVYSAUR),
     HOENN_TO_NATIONAL(VENUSAUR),
     HOENN_TO_NATIONAL(CHARMANDER),
@@ -1397,7 +1397,7 @@ const s8 gNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 
 static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
 {
-    [SPECIES_BULBASAUR - 1]   = ANIM_V_JUMPS_H_JUMPS,
+    [SPECIES_ARGOMON - 1]   = ANIM_V_JUMPS_H_JUMPS,
     [SPECIES_IVYSAUR - 1]     = ANIM_V_STRETCH,
     [SPECIES_VENUSAUR - 1]    = ANIM_ROTATE_UP_SLAM_DOWN,
     [SPECIES_CHARMANDER - 1]  = ANIM_V_JUMPS_SMALL,

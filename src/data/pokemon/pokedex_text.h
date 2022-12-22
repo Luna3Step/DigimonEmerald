@@ -4,7 +4,7 @@ const u8 gDummyPokedexText[] = _(
     "No detailed information is available\n"
     "at this time.");
 
-const u8 gBulbasaurPokedexText[] = _(
+const u8 gArgomonPokedexText[] = _(
     "BULBASAUR can be seen napping in bright\n"
     "sunlight. There is a seed on its back.\n"
     "By soaking up the sun's rays, the seed\n"

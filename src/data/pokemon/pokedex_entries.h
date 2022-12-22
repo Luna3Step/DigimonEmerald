@@ -12,12 +12,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BULBASAUR] =
+    [NATIONAL_DEX_ARGOMON] =
     {
-        .categoryName = _("SEED"),
+        .categoryName = _("MUTANT"),
         .height = 7,
         .weight = 69,
-        .description = gBulbasaurPokedexText,
+        .description = gArgomonPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
