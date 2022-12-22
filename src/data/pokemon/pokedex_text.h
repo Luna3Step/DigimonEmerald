@@ -16,11 +16,11 @@ const u8 gBombmonPokedexText[] = _(
     "notice. Although the explosions are \n"
     "particularly weak.");
 
-const u8 gVenusaurPokedexText[] = _(
-    "VENUSAUR's flower is said to take on vivid\n"
-    "colors if it gets plenty of nutrition and\n"
-    "sunlight. The flower's aroma soothes the\n"
-    "emotions of people.");
+const u8 gBommonPokedexText[] = _(
+    "Bommons tail ignites from the moment it's\n"
+    "born but because of it's fast growth it\n"
+    "is said that no one has ever seen what\n"
+    "happens when it's tail goes out.");
 
 const u8 gCharmanderPokedexText[] = _(
     "The flame that burns at the tip of its\n"

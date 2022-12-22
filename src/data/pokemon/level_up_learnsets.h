@@ -32,7 +32,7 @@ static const u16 sBombmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVenusaurLevelUpLearnset[] = {
+static const u16 sBommonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_LEECH_SEED),

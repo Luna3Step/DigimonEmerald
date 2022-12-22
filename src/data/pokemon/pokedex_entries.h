@@ -16,7 +16,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("MUTANT"),
         .height = 3,
-        .weight = 69,
+        .weight = 40,
         .description = gArgomonPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
@@ -28,7 +28,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("BOMB"),
         .height = 3,
-        .weight = 130,
+        .weight = 40,
         .description = gBombmonPokedexText,
         .pokemonScale = 335,
         .pokemonOffset = 13,
@@ -36,12 +36,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VENUSAUR] =
+    [NATIONAL_DEX_BOMMON] =
     {
-        .categoryName = _("SEED"),
-        .height = 20,
-        .weight = 1000,
-        .description = gVenusaurPokedexText,
+        .categoryName = _("BOMB"),
+        .height = 3,
+        .weight = 40,
+        .description = gBommonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 388,
