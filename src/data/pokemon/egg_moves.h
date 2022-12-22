@@ -13,7 +13,7 @@ const u16 gEggMoves[] = {
               MOVE_GRASS_WHISTLE,
               MOVE_CURSE),
 
-    egg_moves(CHARMANDER,
+    egg_moves(BOTAMON,
               MOVE_BELLY_DRUM,
               MOVE_ANCIENT_POWER,
               MOVE_ROCK_SLIDE,

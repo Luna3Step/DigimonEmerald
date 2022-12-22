@@ -89,7 +89,7 @@
 #define FRONTIER_MON_NUMEL          85
 #define FRONTIER_MON_CARVANHA       86
 #define FRONTIER_MON_CORPHISH       87
-#define FRONTIER_MON_CHARMANDER     88
+#define FRONTIER_MON_BOTAMON     88
 #define FRONTIER_MON_CYNDAQUIL      89
 #define FRONTIER_MON_ABRA           90
 #define FRONTIER_MON_DODUO          91

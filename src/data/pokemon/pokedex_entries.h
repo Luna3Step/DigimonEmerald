@@ -48,12 +48,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_CHARMANDER] =
+    [NATIONAL_DEX_BOTAMON] =
     {
-        .categoryName = _("LIZARD"),
-        .height = 6,
-        .weight = 85,
-        .description = gCharmanderPokedexText,
+        .categoryName = _("FUZZ"),
+        .height = 3,
+        .weight = 40,
+        .description = gBotamonPokedexText,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

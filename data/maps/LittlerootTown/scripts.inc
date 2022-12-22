@@ -1025,7 +1025,7 @@ GiveMePokemon::
 	givemon SPECIES_ARGOMON, 5
 	givemon SPECIES_BOMBMON, 5
 	givemon SPECIES_BOMMON, 5
-	givemon SPECIES_CHARMANDER, 5
+	givemon SPECIES_BOTAMON, 5
 	giveitem ITEM_RARE_CANDY, 99
 	waitmessage
 	releaseall

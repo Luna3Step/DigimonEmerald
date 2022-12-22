@@ -22,11 +22,11 @@ const u8 gBommonPokedexText[] = _(
     "is said that no one has ever seen what\n"
     "happens when it's tail goes out.");
 
-const u8 gCharmanderPokedexText[] = _(
-    "The flame that burns at the tip of its\n"
-    "tail is an indication of its emotions.\n"
-    "The flame wavers when CHARMANDER is\n"
-    "happy, and blazes when it is enraged.");
+const u8 gBotamonPokedexText[] = _(
+    "Botamon's surface is made up of slime but\n"
+    "it has also grown a thick black fuzz atop\n"
+    "the slime. It is unable to battle as it's\n"
+    "so freshly hatched.");
 
 const u8 gCharmeleonPokedexText[] = _(
     "Without pity, its sharp claws destroy foes.\n"

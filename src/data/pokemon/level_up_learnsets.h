@@ -50,7 +50,7 @@ static const u16 sBommonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCharmanderLevelUpLearnset[] = {
+static const u16 sBotamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 7, MOVE_EMBER),
