@@ -26,7 +26,7 @@ const u8 *const gMonIconTable[] =
 {
     [SPECIES_NONE] = gMonIcon_Bulbasaur,
     [SPECIES_ARGOMON] = gMonIcon_Bulbasaur,
-    [SPECIES_IVYSAUR] = gMonIcon_Ivysaur,
+    [SPECIES_BOMBMON] = gMonIcon_Ivysaur,
     [SPECIES_VENUSAUR] = gMonIcon_Venusaur,
     [SPECIES_CHARMANDER] = gMonIcon_Charmander,
     [SPECIES_CHARMELEON] = gMonIcon_Charmeleon,
@@ -470,7 +470,7 @@ const u8 gMonIconPaletteIndices[] =
 {
     [SPECIES_NONE] = 0,
     [SPECIES_ARGOMON] = 1,
-    [SPECIES_IVYSAUR] = 1,
+    [SPECIES_BOMBMON] = 1,
     [SPECIES_VENUSAUR] = 1,
     [SPECIES_CHARMANDER] = 0,
     [SPECIES_CHARMELEON] = 0,

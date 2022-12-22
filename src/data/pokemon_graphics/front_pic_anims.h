@@ -5256,7 +5256,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 {
     [SPECIES_NONE]        = sAnims_None,
     [SPECIES_ARGOMON]   = sAnims_Bulbasaur,
-    [SPECIES_IVYSAUR]     = sAnims_Ivysaur,
+    [SPECIES_BOMBMON]     = sAnims_Ivysaur,
     [SPECIES_VENUSAUR]    = sAnims_Venusaur,
     [SPECIES_CHARMANDER]  = sAnims_Charmander,
     [SPECIES_CHARMELEON]  = sAnims_Charmeleon,

@@ -10,11 +10,11 @@ const u8 gArgomonPokedexText[] = _(
     "capacity. They generally gather up\n"
     "and become a horde quickly.");
 
-const u8 gIvysaurPokedexText[] = _(
-    "To support its bulb, IVYSAUR's legs\n"
-    "grow sturdy. If it spends more time lying in\n"
-    "the sunlight, the bud will soon bloom into\n"
-    "a large flower.");
+const u8 gBombmonPokedexText[] = _(
+    "Bombmon is a short tempered Digimon\n"
+    "with a tendency to blow up on short\n"
+    "notice. Although the explosions are \n"
+    "particularly weak.");
 
 const u8 gVenusaurPokedexText[] = _(
     "VENUSAUR's flower is said to take on vivid\n"

@@ -1383,7 +1383,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
 {
     [SPECIES_NONE] = sUnusedAnims_None,
     [SPECIES_ARGOMON] = sUnusedAnims_Bulbasaur,
-    [SPECIES_IVYSAUR] = sUnusedAnims_Ivysaur,
+    [SPECIES_BOMBMON] = sUnusedAnims_Ivysaur,
     [SPECIES_VENUSAUR] = sUnusedAnims_Venusaur,
     [SPECIES_CHARMANDER] = sUnusedAnims_Charmander,
     [SPECIES_CHARMELEON] = sUnusedAnims_Charmeleon,

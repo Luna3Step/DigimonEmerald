@@ -806,7 +806,7 @@ const u16 gEasyChatWordsByLetter_I[] = {
     EC_WORD_IT,
     EC_WORD_IT_S,
     EC_WORD_ITEM,
-    EC_POKEMON_NATIONAL(IVYSAUR),
+    EC_POKEMON_NATIONAL(BOMBMON),
 };
 
 const u16 gEasyChatWordsByLetter_J[] = {
@@ -2042,7 +2042,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_POKEMON(WIGGLYTUFF),
     EC_MOVE2(BEAT_UP),
     EC_WORD_MYSTERY,
-    EC_POKEMON_NATIONAL(IVYSAUR),
+    EC_POKEMON_NATIONAL(BOMBMON),
     EC_POKEMON_NATIONAL(ARGOMON),
     EC_WORD_MARVEL_SCALE,
     EC_WORD_WONDER_GUARD,

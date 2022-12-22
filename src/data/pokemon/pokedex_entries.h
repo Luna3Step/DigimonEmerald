@@ -15,7 +15,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_ARGOMON] =
     {
         .categoryName = _("MUTANT"),
-        .height = 7,
+        .height = 3,
         .weight = 69,
         .description = gArgomonPokedexText,
         .pokemonScale = 356,
@@ -24,12 +24,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_IVYSAUR] =
+    [NATIONAL_DEX_BOMBMON] =
     {
-        .categoryName = _("SEED"),
-        .height = 10,
+        .categoryName = _("BOMB"),
+        .height = 3,
         .weight = 130,
-        .description = gIvysaurPokedexText,
+        .description = gBombmonPokedexText,
         .pokemonScale = 335,
         .pokemonOffset = 13,
         .trainerScale = 256,

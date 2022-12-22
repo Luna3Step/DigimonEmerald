@@ -6,7 +6,7 @@ enum {
     NATIONAL_DEX_NONE,
     // Kanto
     NATIONAL_DEX_ARGOMON,
-    NATIONAL_DEX_IVYSAUR,
+    NATIONAL_DEX_BOMBMON,
     NATIONAL_DEX_VENUSAUR,
     NATIONAL_DEX_CHARMANDER,
     NATIONAL_DEX_CHARMELEON,
@@ -633,7 +633,7 @@ enum {
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
     // Here below have values but are excluded from the Pokedex
     HOENN_DEX_ARGOMON,
-    HOENN_DEX_IVYSAUR,
+    HOENN_DEX_BOMBMON,
     HOENN_DEX_VENUSAUR,
     HOENN_DEX_CHARMANDER,
     HOENN_DEX_CHARMELEON,
