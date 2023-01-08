@@ -70,11 +70,11 @@ const u8 gDodomonPokedexText[] = _(
     "called Mithril Hair, providing it strong\n"
     "defensive capabilities from hatching.");
 
-const u8 gButterfreePokedexText[] = _(
-    "It has a superior ability to search for\n"
-    "delicious honey from flowers. It can seek,\n"
-    "extract, and carry honey from flowers\n"
-    "blooming over six miles away.");
+const u8 gDokimonPokedexText[] = _(
+    "Dokimon is said to have been born from\n"
+    "human vital data. It beats at a constant\n"
+    "rhythm which seems to reflect the\n"
+    "heartbeat of the person holding it.");
 
 const u8 gWeedlePokedexText[] = _(
     "A WEEDLE has an extremely acute sense\n"
