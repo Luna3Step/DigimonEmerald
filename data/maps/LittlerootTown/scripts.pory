@@ -1033,3 +1033,11 @@ script GiveMePokemon {
     waitmessage
     releaseall
 }
+
+script CompleteDex {
+	lockall
+	msgbox(format("Complete dex ay?"))
+	special(FillPokedex)
+	waitmessage
+	releaseall
+}

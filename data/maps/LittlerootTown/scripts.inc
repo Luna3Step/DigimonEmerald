@@ -1032,5 +1032,17 @@ GiveMePokemon::
 	return
 
 
+CompleteDex::
+	lockall
+	msgbox CompleteDex_Text_0
+	special FillPokedex
+	waitmessage
+	releaseall
+	return
+
+
 GiveMePokemon_Text_0:
 	.string "Have this!$"
+
+CompleteDex_Text_0:
+	.string "Complete dex ay?$"
