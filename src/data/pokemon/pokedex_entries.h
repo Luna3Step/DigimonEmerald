@@ -96,12 +96,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WARTORTLE] =
+    [NATIONAL_DEX_COTSUCOMON] =
     {
-        .categoryName = _("TURTLE"),
-        .height = 10,
-        .weight = 225,
-        .description = gWartortlePokedexText,
+        .categoryName = _("ARMOUR"),
+        .height = 3,
+        .weight = 40,
+        .description = gCotsucomonPokedexText,
         .pokemonScale = 332,
         .pokemonOffset = 10,
         .trainerScale = 256,

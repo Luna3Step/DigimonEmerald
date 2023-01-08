@@ -46,11 +46,11 @@ const u8 gConomonPokedexText[] = _(
     "Zerimon, the three horned conomon is\n"
     "relatively docile.");
 
-const u8 gWartortlePokedexText[] = _(
-    "Its large tail is covered with rich, thick\n"
-    "fur that deepens in color with age.\n"
-    "The scratches on its shell are evidence\n"
-    "of this POKéMON's toughness in battle.");
+const u8 gCotsucomonPokedexText[] = _(
+    "Cotsucomon are born wearing a leather\n"
+    "cap. Although the cap looks strong\n"
+    "it is actually very weak due to the\n"
+    "soft material that makes it up.");
 
 const u8 gBlastoisePokedexText[] = _(
     "The waterspouts that protrude from its\n"
