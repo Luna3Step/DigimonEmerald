@@ -64,11 +64,11 @@ const u8 gDatirimonPokedexText[] = _(
     "appear to those who have lost and\n"
     "regained their hope.");
 
-const u8 gMetapodPokedexText[] = _(
-    "Its shell is as hard as an iron slab.\n"
-    "A METAPOD does not move very much\n"
-    "because it is preparing its soft innards\n"
-    "for evolution inside the shell.");
+const u8 gDodomonPokedexText[] = _(
+    "Dodomon is a carrier of the X Antibody.\n"
+    "It's whole fur is covered in something\n"
+    "called Mithril Hair, providing it strong\n"
+    "defensive capabilities from hatching.");
 
 const u8 gButterfreePokedexText[] = _(
     "It has a superior ability to search for\n"

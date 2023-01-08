@@ -132,12 +132,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_METAPOD] =
+    [NATIONAL_DEX_DODOMON] =
     {
-        .categoryName = _("COCOON"),
-        .height = 7,
-        .weight = 99,
-        .description = gMetapodPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 3,
+        .weight = 40,
+        .description = gDodomonPokedexText,
         .pokemonScale = 350,
         .pokemonOffset = 18,
         .trainerScale = 256,

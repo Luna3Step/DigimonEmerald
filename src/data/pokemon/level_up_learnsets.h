@@ -152,7 +152,7 @@ static const u16 sDatirimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMetapodLevelUpLearnset[] = {
+static const u16 sDodomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_END

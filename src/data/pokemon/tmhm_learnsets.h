@@ -228,7 +228,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_DATIRIMON]    = TMHM_LEARNSET(0),
 
-    [SPECIES_METAPOD]     = TMHM_LEARNSET(0),
+    [SPECIES_DODOMON]     = TMHM_LEARNSET(0),
 
     [SPECIES_BUTTERFREE]  = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

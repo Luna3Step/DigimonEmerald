@@ -9,7 +9,7 @@
 #define FRONTIER_MON_RALTS          5
 #define FRONTIER_MON_MAGIKARP       6
 #define FRONTIER_MON_FEEBAS         7
-#define FRONTIER_MON_METAPOD        8
+#define FRONTIER_MON_DODOMON        8
 #define FRONTIER_MON_KAKUNA         9
 #define FRONTIER_MON_PICHU          10
 #define FRONTIER_MON_SILCOON        11

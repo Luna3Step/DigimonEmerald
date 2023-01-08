@@ -11,7 +11,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(COTSUCOMON, gMonBackPic_Wartortle),
     SPECIES_SPRITE(CURIMON, gMonBackPic_Blastoise),
     SPECIES_SPRITE(DATIRIMON, gMonBackPic_Caterpie),
-    SPECIES_SPRITE(METAPOD, gMonBackPic_Metapod),
+    SPECIES_SPRITE(DODOMON, gMonBackPic_Metapod),
     SPECIES_SPRITE(BUTTERFREE, gMonBackPic_Butterfree),
     SPECIES_SPRITE(WEEDLE, gMonBackPic_Weedle),
     SPECIES_SPRITE(KAKUNA, gMonBackPic_Kakuna),

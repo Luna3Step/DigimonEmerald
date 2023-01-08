@@ -199,7 +199,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_DATIRIMON]         = (0),
 
-    [SPECIES_METAPOD]          = (0),
+    [SPECIES_DODOMON]          = (0),
 
     [SPECIES_BUTTERFREE]       = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
