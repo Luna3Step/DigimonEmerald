@@ -28,11 +28,11 @@ const u8 gBotamonPokedexText[] = _(
     "the slime. It is unable to battle as it's\n"
     "so freshly hatched.");
 
-const u8 gCharmeleonPokedexText[] = _(
-    "Without pity, its sharp claws destroy foes.\n"
-    "If it encounters a strong enemy, it\n"
-    "becomes agitated, and the flame on its\n"
-    "tail flares with a bluish white color.");
+const u8 gChibickmonPokedexText[] = _(
+    "Chibickmon is a socialable digimon with\n"
+    "a deep desire to help out. Large groups of\n"
+    "them will appear to help out before knowing\n"
+    "what needs to be done.");
 
 const u8 gCharizardPokedexText[] = _(
     "A CHARIZARD flies about in search of\n"

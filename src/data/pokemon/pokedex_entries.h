@@ -60,12 +60,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CHARMELEON] =
+    [NATIONAL_DEX_CHIBICKMON] =
     {
-        .categoryName = _("FLAME"),
-        .height = 11,
-        .weight = 190,
-        .description = gCharmeleonPokedexText,
+        .categoryName = _("SOCIAL"),
+        .height = 3,
+        .weight = 40,
+        .description = gChibickmonPokedexText,
         .pokemonScale = 302,
         .pokemonOffset = 9,
         .trainerScale = 256,
