@@ -3136,8 +3136,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_BLASTOISE_1] = {
-        .species = SPECIES_BLASTOISE,
+    [FRONTIER_MON_CURIMON_1] = {
+        .species = SPECIES_CURIMON,
         .moves = {MOVE_HYDRO_PUMP, MOVE_RAIN_DANCE, MOVE_BITE, MOVE_SEISMIC_TOSS},
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -3808,8 +3808,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_BLASTOISE_2] = {
-        .species = SPECIES_BLASTOISE,
+    [FRONTIER_MON_CURIMON_2] = {
+        .species = SPECIES_CURIMON,
         .moves = {MOVE_HYDRO_PUMP, MOVE_MEGA_KICK, MOVE_BRICK_BREAK, MOVE_MIRROR_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -4480,8 +4480,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_BLASTOISE_3] = {
-        .species = SPECIES_BLASTOISE,
+    [FRONTIER_MON_CURIMON_3] = {
+        .species = SPECIES_CURIMON,
         .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_COUNTER},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -5152,8 +5152,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_BLASTOISE_4] = {
-        .species = SPECIES_BLASTOISE,
+    [FRONTIER_MON_CURIMON_4] = {
+        .species = SPECIES_CURIMON,
         .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_MIRROR_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

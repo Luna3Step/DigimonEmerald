@@ -108,12 +108,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLASTOISE] =
+    [NATIONAL_DEX_CURIMON] =
     {
-        .categoryName = _("SHELLFISH"),
-        .height = 16,
-        .weight = 855,
-        .description = gBlastoisePokedexText,
+        .categoryName = _("ENERGETIC"),
+        .height = 3,
+        .weight = 40,
+        .description = gCurimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 293,

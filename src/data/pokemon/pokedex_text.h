@@ -52,11 +52,11 @@ const u8 gCotsucomonPokedexText[] = _(
     "it is actually very weak due to the\n"
     "soft material that makes it up.");
 
-const u8 gBlastoisePokedexText[] = _(
-    "The waterspouts that protrude from its\n"
-    "shell are highly accurate. Their bullets of\n"
-    "water can precisely nail tin cans from\n"
-    "a distance of over 160 feet.");
+const u8 gCurimonPokedexText[] = _(
+    "Even before hatching, Curimon is so \n"
+    "energetic that it's Digi-Egg bounces.\n"
+    "After hatcing, it will move around \n"
+    "vigorously, making it hard to care for.");
 
 const u8 gCaterpiePokedexText[] = _(
     "Its voracious appetite compels it to\n"
