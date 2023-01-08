@@ -2,7 +2,7 @@
 #define FRONTIER_MONS_YOUNGSTER_LASS_1 \
     FRONTIER_MON_SUNKERN,       \
     FRONTIER_MON_AZURILL,       \
-    FRONTIER_MON_CATERPIE,      \
+    FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_WEEDLE,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_RALTS,         \
@@ -429,7 +429,7 @@
     -1
 
 #define FRONTIER_MONS_BUG_CATCHER_1 \
-    FRONTIER_MON_CATERPIE,      \
+    FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_WEEDLE,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_SHEDINJA,      \
@@ -456,7 +456,7 @@
 
 // Identical to above with 2 additions. Might be possible to merge the two
 #define FRONTIER_MONS_BUG_CATCHER_1_EXTRA(species1, species2) \
-    FRONTIER_MON_CATERPIE,      \
+    FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_WEEDLE,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_##species1,    \

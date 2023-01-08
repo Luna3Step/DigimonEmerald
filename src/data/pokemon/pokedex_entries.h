@@ -120,12 +120,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_CATERPIE] =
+    [NATIONAL_DEX_DATIRIMON] =
     {
-        .categoryName = _("WORM"),
+        .categoryName = _("FRUIT"),
         .height = 3,
-        .weight = 29,
-        .description = gCaterpiePokedexText,
+        .weight = 40,
+        .description = gDatirimonPokedexText,
         .pokemonScale = 549,
         .pokemonOffset = 22,
         .trainerScale = 256,

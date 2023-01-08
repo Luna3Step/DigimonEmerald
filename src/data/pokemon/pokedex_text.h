@@ -58,11 +58,11 @@ const u8 gCurimonPokedexText[] = _(
     "After hatcing, it will move around \n"
     "vigorously, making it hard to care for.");
 
-const u8 gCaterpiePokedexText[] = _(
-    "Its voracious appetite compels it to\n"
-    "devour leaves bigger than itself without\n"
-    "hesitation. It releases a terribly strong\n"
-    "odor from its antennae.");
+const u8 gDatirimonPokedexText[] = _(
+    "Datirimon are born from the fruit of\n"
+    "largetrees. Legend has it that it will\n"
+    "appear to those who have lost and\n"
+    "regained their hope.");
 
 const u8 gMetapodPokedexText[] = _(
     "Its shell is as hard as an iron slab.\n"

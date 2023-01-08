@@ -14,8 +14,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_RASH
     },
-    [FRONTIER_MON_CATERPIE] = {
-        .species = SPECIES_CATERPIE,
+    [FRONTIER_MON_DATIRIMON] = {
+        .species = SPECIES_DATIRIMON,
         .moves = {MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_NONE, MOVE_NONE},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

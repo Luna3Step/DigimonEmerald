@@ -226,7 +226,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_CATERPIE]    = TMHM_LEARNSET(0),
+    [SPECIES_DATIRIMON]    = TMHM_LEARNSET(0),
 
     [SPECIES_METAPOD]     = TMHM_LEARNSET(0),
 
