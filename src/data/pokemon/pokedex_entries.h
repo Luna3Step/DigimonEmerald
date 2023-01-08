@@ -84,12 +84,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_SQUIRTLE] =
+    [NATIONAL_DEX_CONOMON] =
     {
-        .categoryName = _("TINY TURTLE"),
-        .height = 5,
-        .weight = 90,
-        .description = gSquirtlePokedexText,
+        .categoryName = _("TWIN"),
+        .height = 3,
+        .weight = 40,
+        .description = gConomonPokedexText,
         .pokemonScale = 412,
         .pokemonOffset = 18,
         .trainerScale = 256,

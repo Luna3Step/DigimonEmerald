@@ -1,43 +1,43 @@
-replace "FRONTIER_MON_SQUIRTLE"
+replace "FRONTIER_MON_CONOMON"
 with "FRONTIER_MON_CONOMON"
 
-replace "gSquirtlePokedexText"
+replace "gConomonPokedexText"
 with "gConomonPokedexText"
 
-replace "NATIONAL_DEX_SQUIRTLE"
+replace "NATIONAL_DEX_CONOMON"
 with "NATIONAL_DEX_CONOMON"
 
-replace "SPECIES_SQUIRTLE"
+replace "SPECIES_CONOMON"
 with "SPECIES_CONOMON"
 
-replace "HOENN_DEX_SQUIRTLE"
+replace "HOENN_DEX_CONOMON"
 with "HOENN_DEX_CONOMON"
 
-replace "SPECIES_TO_HOENN(SQUIRTLE),"
+replace "SPECIES_TO_HOENN(CONOMON),"
 with "SPECIES_TO_HOENN(CONOMON),"
 
-replace "SPECIES_TO_NATIONAL(SQUIRTLE),"
+replace "SPECIES_TO_NATIONAL(CONOMON),"
 with "SPECIES_TO_NATIONAL(CONOMON),"
 
-replace "HOENN_TO_NATIONAL(SQUIRTLE),"
+replace "HOENN_TO_NATIONAL(CONOMON),"
 with "HOENN_TO_NATIONAL(CONOMON),"
 
-replace "EC_POKEMON_NATIONAL(SQUIRTLE),"
+replace "EC_POKEMON_NATIONAL(CONOMON),"
 with "EC_POKEMON_NATIONAL(CONOMON),"
 
-replace "egg_moves(SQUIRTLE,"
+replace "egg_moves(CONOMON,"
 with "egg_moves(CONOMON,"
 
-replace "sSquirtleLevelUpLearnset"
+replace "sConomonLevelUpLearnset"
 with "sConomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SQUIRTLE"
+replace "SPECIES_SPRITE(CONOMON"
 with "SPECIES_SPRITE(CONOMON"
 
-replace "SPECIES_PAL(SQUIRTLE,"
+replace "SPECIES_PAL(CONOMON,"
 with "SPECIES_PAL(CONOMON,"
 
-replace "SPECIES_SHINY_PAL(SQUIRTLE,"
+replace "SPECIES_SHINY_PAL(CONOMON,"
 with "SPECIES_SHINY_PAL(CONOMON,"
 
 

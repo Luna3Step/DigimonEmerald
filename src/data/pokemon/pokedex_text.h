@@ -40,11 +40,11 @@ const u8 gChibomonPokedexText[] = _(
     "This make's it extremely valuable for Tamers\n"
     "and others looking to use it's talents.");
 
-const u8 gSquirtlePokedexText[] = _(
-    "Its shell is not just for protection.\n"
-    "Its rounded shape and the grooves on its\n"
-    "surface minimize resistance in water,\n"
-    "enabling SQUIRTLE to swim at high speeds.");
+const u8 gConomonPokedexText[] = _(
+    "Conomon is an extremely rare digimon born\n"
+    "as a twin with Zerimon. Unlike the one horned\n"
+    "Zerimon, the three horned conomon is\n"
+    "relatively docile.");
 
 const u8 gWartortlePokedexText[] = _(
     "Its large tail is covered with rich, thick\n"

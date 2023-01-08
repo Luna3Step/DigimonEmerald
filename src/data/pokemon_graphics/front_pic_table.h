@@ -7,7 +7,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(BOTAMON, gMonFrontPic_Charmander),
     SPECIES_SPRITE(CHIBICKMON, gMonFrontPic_Charmeleon),
     SPECIES_SPRITE(CHIBOMON, gMonFrontPic_Charizard),
-    SPECIES_SPRITE(SQUIRTLE, gMonFrontPic_Squirtle),
+    SPECIES_SPRITE(CONOMON, gMonFrontPic_Squirtle),
     SPECIES_SPRITE(WARTORTLE, gMonFrontPic_Wartortle),
     SPECIES_SPRITE(BLASTOISE, gMonFrontPic_Blastoise),
     SPECIES_SPRITE(CATERPIE, gMonFrontPic_Caterpie),
