@@ -3,7 +3,7 @@
     FRONTIER_MON_SUNKERN,       \
     FRONTIER_MON_AZURILL,       \
     FRONTIER_MON_DATIRIMON,      \
-    FRONTIER_MON_WEEDLE,        \
+    FRONTIER_MON_FUFUMON,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_MAGIKARP,      \
@@ -430,7 +430,7 @@
 
 #define FRONTIER_MONS_BUG_CATCHER_1 \
     FRONTIER_MON_DATIRIMON,      \
-    FRONTIER_MON_WEEDLE,        \
+    FRONTIER_MON_FUFUMON,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_SPINARAK,      \
@@ -457,7 +457,7 @@
 // Identical to above with 2 additions. Might be possible to merge the two
 #define FRONTIER_MONS_BUG_CATCHER_1_EXTRA(species1, species2) \
     FRONTIER_MON_DATIRIMON,      \
-    FRONTIER_MON_WEEDLE,        \
+    FRONTIER_MON_FUFUMON,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_##species1,    \
     FRONTIER_MON_##species2,    \

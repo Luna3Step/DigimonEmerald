@@ -156,12 +156,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WEEDLE] =
+    [NATIONAL_DEX_FUFUMON] =
     {
-        .categoryName = _("HAIRY BUG"),
+        .categoryName = _("X ANTIBODY"),
         .height = 3,
-        .weight = 32,
-        .description = gWeedlePokedexText,
+        .weight = 40,
+        .description = gFufumonPokedexText,
         .pokemonScale = 455,
         .pokemonOffset = 22,
         .trainerScale = 256,

@@ -173,7 +173,7 @@ static const u16 sDokimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWeedleLevelUpLearnset[] = {
+static const u16 sFufumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_END

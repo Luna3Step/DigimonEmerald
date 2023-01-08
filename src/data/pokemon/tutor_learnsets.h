@@ -211,7 +211,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_SWIFT)),
 
-    [SPECIES_WEEDLE]           = (0),
+    [SPECIES_FUFUMON]           = (0),
 
     [SPECIES_KAKUNA]           = (0),
 

@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_DOKIMON"
-with "FRONTIER_MON_DOKIMON"
+replace "FRONTIER_MON_WEEDLE"
+with "FRONTIER_MON_FUFUMON"
 
-replace "gDokimonPokedexText"
-with "gDokimonPokedexText"
+replace "gWeedlePokedexText"
+with "gFufumonPokedexText"
 
-replace "NATIONAL_DEX_DOKIMON"
-with "NATIONAL_DEX_DOKIMON"
+replace "NATIONAL_DEX_WEEDLE"
+with "NATIONAL_DEX_FUFUMON"
 
-replace "SPECIES_DOKIMON"
-with "SPECIES_DOKIMON"
+replace "SPECIES_WEEDLE"
+with "SPECIES_FUFUMON"
 
-replace "HOENN_DEX_DOKIMON"
-with "HOENN_DEX_DOKIMON"
+replace "HOENN_DEX_WEEDLE"
+with "HOENN_DEX_FUFUMON"
 
-replace "SPECIES_TO_HOENN(DOKIMON),"
-with "SPECIES_TO_HOENN(DOKIMON),"
+replace "SPECIES_TO_HOENN(WEEDLE),"
+with "SPECIES_TO_HOENN(FUFUMON),"
 
-replace "SPECIES_TO_NATIONAL(DOKIMON),"
-with "SPECIES_TO_NATIONAL(DOKIMON),"
+replace "SPECIES_TO_NATIONAL(WEEDLE),"
+with "SPECIES_TO_NATIONAL(FUFUMON),"
 
-replace "HOENN_TO_NATIONAL(DOKIMON),"
-with "HOENN_TO_NATIONAL(DOKIMON),"
+replace "HOENN_TO_NATIONAL(WEEDLE),"
+with "HOENN_TO_NATIONAL(FUFUMON),"
 
-replace "EC_POKEMON_NATIONAL(DOKIMON),"
-with "EC_POKEMON_NATIONAL(DOKIMON),"
+replace "EC_POKEMON_NATIONAL(WEEDLE),"
+with "EC_POKEMON_NATIONAL(FUFUMON),"
 
-replace "egg_moves(DOKIMON,"
-with "egg_moves(DOKIMON,"
+replace "egg_moves(WEEDLE,"
+with "egg_moves(FUFUMON,"
 
-replace "sDokimonLevelUpLearnset"
-with "sDokimonLevelUpLearnset"
+replace "sWeedleLevelUpLearnset"
+with "sFufumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DOKIMON"
-with "SPECIES_SPRITE(DOKIMON"
+replace "SPECIES_SPRITE(WEEDLE"
+with "SPECIES_SPRITE(FUFUMON"
 
-replace "SPECIES_PAL(DOKIMON,"
-with "SPECIES_PAL(DOKIMON,"
+replace "SPECIES_PAL(WEEDLE,"
+with "SPECIES_PAL(FUFUMON,"
 
-replace "SPECIES_SHINY_PAL(DOKIMON,"
-with "SPECIES_SHINY_PAL(DOKIMON,"
+replace "SPECIES_SHINY_PAL(WEEDLE,"
+with "SPECIES_SHINY_PAL(FUFUMON,"
 
 
 

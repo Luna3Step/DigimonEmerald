@@ -253,7 +253,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM48_SKILL_SWAP)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_WEEDLE]      = TMHM_LEARNSET(0),
+    [SPECIES_FUFUMON]      = TMHM_LEARNSET(0),
 
     [SPECIES_KAKUNA]      = TMHM_LEARNSET(0),
 

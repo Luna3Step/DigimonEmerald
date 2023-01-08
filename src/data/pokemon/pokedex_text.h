@@ -76,11 +76,11 @@ const u8 gDokimonPokedexText[] = _(
     "rhythm which seems to reflect the\n"
     "heartbeat of the person holding it.");
 
-const u8 gWeedlePokedexText[] = _(
-    "A WEEDLE has an extremely acute sense\n"
-    "of smell. It distinguishes its favorite\n"
-    "kinds of leaves from those it dislikes by\n"
-    "sniffing with its big red proboscis (nose).");
+const u8 gFufumonPokedexText[] = _(
+    "Fufumon's body is so light that it floats\n"
+    "through the air from birth. But due to it's\n"
+    "slow floating, it is an easy target for \n"
+    "attacks from predators.");
 
 const u8 gKakunaPokedexText[] = _(
     "It remains virtually immobile while it\n"
