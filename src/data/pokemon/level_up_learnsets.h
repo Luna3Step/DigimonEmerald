@@ -79,7 +79,7 @@ static const u16 sChibickmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCharizardLevelUpLearnset[] = {
+static const u16 sChibomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),

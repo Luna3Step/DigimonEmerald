@@ -34,11 +34,11 @@ const u8 gChibickmonPokedexText[] = _(
     "them will appear to help out before knowing\n"
     "what needs to be done.");
 
-const u8 gCharizardPokedexText[] = _(
-    "A CHARIZARD flies about in search of\n"
-    "strong opponents. It breathes intense\n"
-    "flames that can melt any material. However,\n"
-    "it will never torch a weaker foe.");
+const u8 gChibomonPokedexText[] = _(
+    "Chibomon is said to have the potential to\n"
+    "digivolve into every single dragon digimon.\n"
+    "This make's it extremely valuable for Tamers\n"
+    "and others looking to use it's talents.");
 
 const u8 gSquirtlePokedexText[] = _(
     "Its shell is not just for protection.\n"

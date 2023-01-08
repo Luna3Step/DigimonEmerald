@@ -72,12 +72,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CHARIZARD] =
+    [NATIONAL_DEX_CHIBOMON] =
     {
-        .categoryName = _("FLAME"),
-        .height = 17,
-        .weight = 905,
-        .description = gCharizardPokedexText,
+        .categoryName = _("DRAGON"),
+        .height = 3,
+        .weight = 40,
+        .description = gChibomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 302,
