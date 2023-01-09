@@ -153,7 +153,7 @@ const u16 gEggMoves[] = {
               MOVE_PSYCH_UP,
               MOVE_ASSIST),
 
-    egg_moves(PSYDUCK,
+    egg_moves(CHICCHIMON,
               MOVE_HYPNOSIS,
               MOVE_PSYBEAM,
               MOVE_FORESIGHT,

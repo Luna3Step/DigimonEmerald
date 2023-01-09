@@ -648,12 +648,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PSYDUCK] =
+    [NATIONAL_DEX_CHICCHIMON] =
     {
-        .categoryName = _("DUCK"),
-        .height = 8,
-        .weight = 196,
-        .description = gPsyduckPokedexText,
+        .categoryName = _("CHICK"),
+        .height = 6,
+        .weight = 60,
+        .description = gChicchimonPokedexText,
         .pokemonScale = 369,
         .pokemonOffset = 15,
         .trainerScale = 256,

@@ -322,11 +322,11 @@ const u8 gChapmonPokedexText[] = _(
     "digimon. When it sleeps, it will only \n"
     "poke it's face out of the water surface.");
 
-const u8 gPsyduckPokedexText[] = _(
-    "When its headache intensifies, it starts\n"
-    "using strange powers. However, it has no\n"
-    "recollection of its powers, so it always\n"
-    "looks befuddled and bewildered.");
+const u8 gChicchimonPokedexText[] = _(
+    "Due to Chicchimon's small wing size, it\n"
+    "is not yet able to take flight. It can\n"
+    "however jump extra high and float down\n"
+    "to the ground.");
 
 const u8 gGolduckPokedexText[] = _(
     "A GOLDUCK is an adept swimmer.\n"
