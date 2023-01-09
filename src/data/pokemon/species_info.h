@@ -38,7 +38,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] = {0},
 
-    [SPECIES_ARGOMON] =
+    [SPECIES_ARGOMON_F] =
     {
         .baseHP        = 8,
         .baseAttack    = 8,
@@ -1104,7 +1104,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 12,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_FLYING,
-        .type3 = TYPE_FREE
+        .type3 = TYPE_FREE,
         .catchRate = 255,
         .expYield = 30,
         .evYield_HP        = 0,
@@ -1467,7 +1467,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 11,
         .type1 = TYPE_DARK,
         .type2 = TYPE_POISON,
-        .type3 = TYPE_FREE
+        .type3 = TYPE_FREE,
         .catchRate = 255,
         .expYield = 25,
         .evYield_HP        = 0,

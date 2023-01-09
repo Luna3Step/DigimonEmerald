@@ -1382,7 +1382,7 @@ static const union AnimCmd *const sUnusedAnims_UnownQMark[] = {sAnim_GeneralFram
 static const union AnimCmd *const *const sUnusedAnimsTable[] =
 {
     [SPECIES_NONE] = sUnusedAnims_None,
-    [SPECIES_ARGOMON] = sUnusedAnims_Bulbasaur,
+    [SPECIES_ARGOMON_F] = sUnusedAnims_Bulbasaur,
     [SPECIES_BOMBMON] = sUnusedAnims_Ivysaur,
     [SPECIES_BOMMON] = sUnusedAnims_Venusaur,
     [SPECIES_BOTAMON] = sUnusedAnims_Charmander,

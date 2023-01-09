@@ -1,6 +1,6 @@
 const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_NONE] = _("??????????"),
-    [SPECIES_ARGOMON] = _("ARGOMON"),
+    [SPECIES_ARGOMON_F] = _("ARGOMON"),
     [SPECIES_BOMBMON] = _("BOMBMON"),
     [SPECIES_BOMMON] = _("BOMMON"),
     [SPECIES_BOTAMON] = _("BOTAMON"),

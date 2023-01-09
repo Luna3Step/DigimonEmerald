@@ -4,7 +4,7 @@ const u8 gDummyPokedexText[] = _(
     "No detailed information is available\n"
     "at this time.");
 
-const u8 gArgomonPokedexText[] = _(
+const u8 gArgomon_fPokedexText[] = _(
     "Argomon has a habit of finding and \n"
     "converging at places with high data\n"
     "capacity. They generally gather up\n"
@@ -272,7 +272,7 @@ const u8 gArcadiamon_itPokedexText[] = _(
     "Arcadiamon is an artificial digimon \n"
     "that was created to make the ultimate\n"
     "digimon. Despite only being In-Training,\n"
-    "it has incredibly physical abilities.");
+    "it has incredible physical abilities.");
 
 const u8 gParasPokedexText[] = _(
     "A PARAS has parasitic tochukaso\n"

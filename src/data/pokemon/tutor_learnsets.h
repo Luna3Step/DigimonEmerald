@@ -38,7 +38,7 @@ static const u32 sTutorLearnsets[] =
 {
     [SPECIES_NONE]             = (0),
 
-    [SPECIES_ARGOMON]        = (TUTOR(MOVE_SWORDS_DANCE)
+    [SPECIES_ARGOMON_F]        = (TUTOR(MOVE_SWORDS_DANCE)
                                 | TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)

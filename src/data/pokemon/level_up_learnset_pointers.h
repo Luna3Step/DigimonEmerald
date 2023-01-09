@@ -1,7 +1,7 @@
 const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
 {
-    [SPECIES_NONE] = sArgomonLevelUpLearnset,
-    [SPECIES_ARGOMON] = sArgomonLevelUpLearnset,
+    [SPECIES_NONE] = sArgomon_fLevelUpLearnset,
+    [SPECIES_ARGOMON_F] = sArgomon_fLevelUpLearnset,
     [SPECIES_BOMBMON] = sBombmonLevelUpLearnset,
     [SPECIES_BOMMON] = sBommonLevelUpLearnset,
     [SPECIES_BOTAMON] = sBotamonLevelUpLearnset,

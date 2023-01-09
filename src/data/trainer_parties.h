@@ -12415,7 +12415,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leaf[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_ARGOMON,
+    .species = SPECIES_ARGOMON_F,
     }
 };
 

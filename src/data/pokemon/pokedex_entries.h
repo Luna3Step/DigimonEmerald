@@ -12,12 +12,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARGOMON] =
+    [NATIONAL_DEX_ARGOMON_F] =
     {
         .categoryName = _("MUTANT"),
         .height = 3,
         .weight = 40,
-        .description = gArgomonPokedexText,
+        .description = gArgomon_fPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -302,7 +302,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_PETITMON] =
     {
-        .categoryName = _("SMALL DRAGON"),
+        .categoryName = _("TINY DRAGON"),
         .height = 3,
         .weight = 40,
         .description = gPetitmonPokedexText,

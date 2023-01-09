@@ -3,7 +3,7 @@
 #define egg_moves(species, moves...) (SPECIES_##species + EGG_MOVES_SPECIES_OFFSET), moves
 
 const u16 gEggMoves[] = {
-    egg_moves(ARGOMON,
+    egg_moves(ARGOMON_F,
               MOVE_LIGHT_SCREEN,
               MOVE_SKULL_BASH,
               MOVE_SAFEGUARD,

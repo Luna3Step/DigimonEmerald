@@ -8,7 +8,7 @@ const u32 gTMHMLearnsets[][2] =
 {
     [SPECIES_NONE]        = TMHM_LEARNSET(0),
 
-    [SPECIES_ARGOMON]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_ARGOMON_F]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM09_BULLET_SEED)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)

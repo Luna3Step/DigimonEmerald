@@ -5,7 +5,7 @@
 enum {
     NATIONAL_DEX_NONE,
     // Kanto
-    NATIONAL_DEX_ARGOMON,
+    NATIONAL_DEX_ARGOMON_F,
     NATIONAL_DEX_BOMBMON,
     NATIONAL_DEX_BOMMON,
     NATIONAL_DEX_BOTAMON,
@@ -632,7 +632,7 @@ enum {
     HOENN_DEX_DEOXYS,
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
     // Here below have values but are excluded from the Pokedex
-    HOENN_DEX_ARGOMON,
+    HOENN_DEX_ARGOMON_F,
     HOENN_DEX_BOMBMON,
     HOENN_DEX_BOMMON,
     HOENN_DEX_BOTAMON,

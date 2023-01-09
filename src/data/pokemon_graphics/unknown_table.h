@@ -2,7 +2,7 @@
 static const u32 sUnused[] =
 {
     [SPECIES_NONE]        = 0x888,
-    [SPECIES_ARGOMON]   = 0x888,
+    [SPECIES_ARGOMON_F]   = 0x888,
     [SPECIES_BOMBMON]     = 0x888,
     [SPECIES_BOMMON]    = 0x888,
     [SPECIES_BOTAMON]  = 0x88,

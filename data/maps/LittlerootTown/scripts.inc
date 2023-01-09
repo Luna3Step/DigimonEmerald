@@ -1022,7 +1022,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
-	givemon SPECIES_ARGOMON, 5
+	givemon SPECIES_ARGOMON_F, 5
 	givemon SPECIES_BOMBMON, 5
 	givemon SPECIES_BOMMON, 5
 	givemon SPECIES_BOTAMON, 5

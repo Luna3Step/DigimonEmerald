@@ -426,7 +426,7 @@ EWRAM_DATA static struct PokemonJumpGfx *sPokemonJumpGfx = NULL;
 */
 static const struct PokemonJumpMons sPokeJumpMons[] =
 {
-    { .species = SPECIES_ARGOMON,  .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_ARGOMON_F,  .jumpType = JUMP_TYPE_SLOW, },
     { .species = SPECIES_BOTAMON, .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_CONOMON,   .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_DATIRIMON,   .jumpType = JUMP_TYPE_FAST, },

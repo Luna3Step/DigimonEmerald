@@ -5,7 +5,7 @@
 const struct MonCoords gMonFrontPicCoords[] =
 {
     [SPECIES_NONE]        = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
-    [SPECIES_ARGOMON]   = { .size = MON_COORDS_SIZE(32, 40), .y_offset = 14 },
+    [SPECIES_ARGOMON_F]   = { .size = MON_COORDS_SIZE(32, 40), .y_offset = 14 },
     [SPECIES_BOMBMON]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset = 10 },
     [SPECIES_BOMMON]    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
     [SPECIES_BOTAMON]  = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
