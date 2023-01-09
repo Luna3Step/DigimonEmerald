@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_ARBOK"
-with "FRONTIER_MON_PAOMON"
+replace "FRONTIER_MON_PIKACHU"
+with "FRONTIER_MON_PETITMON"
 
-replace "gArbokPokedexText"
-with "gPaomonPokedexText"
+replace "gPikachuPokedexText"
+with "gPetitmonPokedexText"
 
-replace "NATIONAL_DEX_ARBOK"
-with "NATIONAL_DEX_PAOMON"
+replace "NATIONAL_DEX_PIKACHU"
+with "NATIONAL_DEX_PETITMON"
 
-replace "SPECIES_ARBOK"
-with "SPECIES_PAOMON"
+replace "SPECIES_PIKACHU"
+with "SPECIES_PETITMON"
 
-replace "HOENN_DEX_ARBOK"
-with "HOENN_DEX_PAOMON"
+replace "HOENN_DEX_PIKACHU"
+with "HOENN_DEX_PETITMON"
 
-replace "SPECIES_TO_HOENN(ARBOK),"
-with "SPECIES_TO_HOENN(PAOMON),"
+replace "SPECIES_TO_HOENN(PIKACHU),"
+with "SPECIES_TO_HOENN(PETITMON),"
 
-replace "SPECIES_TO_NATIONAL(ARBOK),"
-with "SPECIES_TO_NATIONAL(PAOMON),"
+replace "SPECIES_TO_NATIONAL(PIKACHU),"
+with "SPECIES_TO_NATIONAL(PETITMON),"
 
-replace "HOENN_TO_NATIONAL(ARBOK),"
-with "HOENN_TO_NATIONAL(PAOMON),"
+replace "HOENN_TO_NATIONAL(PIKACHU),"
+with "HOENN_TO_NATIONAL(PETITMON),"
 
-replace "EC_POKEMON_NATIONAL(ARBOK),"
-with "EC_POKEMON_NATIONAL(PAOMON),"
+replace "EC_POKEMON_NATIONAL(PIKACHU),"
+with "EC_POKEMON_NATIONAL(PETITMON),"
 
-replace "egg_moves(ARBOK,"
-with "egg_moves(PAOMON,"
+replace "egg_moves(PIKACHU,"
+with "egg_moves(PETITMON,"
 
-replace "sArbokLevelUpLearnset"
-with "sPaomonLevelUpLearnset"
+replace "sPikachuLevelUpLearnset"
+with "sPetitmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ARBOK"
-with "SPECIES_SPRITE(PAOMON"
+replace "SPECIES_SPRITE(PIKACHU"
+with "SPECIES_SPRITE(PETITMON"
 
-replace "SPECIES_PAL(ARBOK,"
-with "SPECIES_PAL(PAOMON,"
+replace "SPECIES_PAL(PIKACHU,"
+with "SPECIES_PAL(PETITMON,"
 
-replace "SPECIES_SHINY_PAL(ARBOK,"
-with "SPECIES_SHINY_PAL(PAOMON,"
+replace "SPECIES_SHINY_PAL(PIKACHU,"
+with "SPECIES_SHINY_PAL(PETITMON,"
 
 
 

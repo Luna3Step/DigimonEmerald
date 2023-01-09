@@ -123,7 +123,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(PABUMON),
     SPECIES_TO_HOENN(PAFUMON),
     SPECIES_TO_HOENN(PAOMON),
-    SPECIES_TO_HOENN(PIKACHU),
+    SPECIES_TO_HOENN(PETITMON),
     SPECIES_TO_HOENN(RAICHU),
     SPECIES_TO_HOENN(SANDSHREW),
     SPECIES_TO_HOENN(SANDSLASH),
@@ -539,7 +539,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(PABUMON),
     SPECIES_TO_NATIONAL(PAFUMON),
     SPECIES_TO_NATIONAL(PAOMON),
-    SPECIES_TO_NATIONAL(PIKACHU),
+    SPECIES_TO_NATIONAL(PETITMON),
     SPECIES_TO_NATIONAL(RAICHU),
     SPECIES_TO_NATIONAL(SANDSHREW),
     SPECIES_TO_NATIONAL(SANDSLASH),
@@ -1086,7 +1086,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(VULPIX),
     HOENN_TO_NATIONAL(NINETALES),
     HOENN_TO_NATIONAL(PICHU),
-    HOENN_TO_NATIONAL(PIKACHU),
+    HOENN_TO_NATIONAL(PETITMON),
     HOENN_TO_NATIONAL(RAICHU),
     HOENN_TO_NATIONAL(PSYDUCK),
     HOENN_TO_NATIONAL(GOLDUCK),
@@ -1421,7 +1421,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_PABUMON - 1]      = ANIM_FIGURE_8,
     [SPECIES_PAFUMON - 1]       = ANIM_H_STRETCH,
     [SPECIES_PAOMON - 1]       = ANIM_V_STRETCH,
-    [SPECIES_PIKACHU - 1]     = ANIM_FLASH_YELLOW,
+    [SPECIES_PETITMON - 1]     = ANIM_FLASH_YELLOW,
     [SPECIES_RAICHU - 1]      = ANIM_V_STRETCH,
     [SPECIES_SANDSHREW - 1]   = ANIM_SWING_CONCAVE_FAST_SHORT,
     [SPECIES_SANDSLASH - 1]   = ANIM_V_STRETCH,
@@ -3180,7 +3180,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         spAttack *= 2;
     if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_CLAMPERL)
         spDefense *= 2;
-    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PIKACHU)
+    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PETITMON)
         spAttack *= 2;
     if (defenderHoldEffect == HOLD_EFFECT_METAL_POWDER && defender->species == SPECIES_DITTO)
         defense *= 2;

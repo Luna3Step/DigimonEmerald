@@ -462,8 +462,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_PIKACHU] = {
-        .species = SPECIES_PIKACHU,
+    [FRONTIER_MON_PETITMON] = {
+        .species = SPECIES_PETITMON,
         .moves = {MOVE_THUNDER_PUNCH, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM, MOVE_QUICK_ATTACK},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIGHT_BALL,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,

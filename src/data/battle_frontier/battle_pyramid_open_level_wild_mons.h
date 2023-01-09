@@ -13,7 +13,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round1[] =
         .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_QUICK_ATTACK, MOVE_NONE}
     },
     {
-        .species = SPECIES_PIKACHU,
+        .species = SPECIES_PETITMON,
         .lvl = 13,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_SLAM, MOVE_NONE}

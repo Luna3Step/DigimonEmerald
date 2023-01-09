@@ -3984,7 +3984,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Vanessa[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_PIKACHU,
+    .species = SPECIES_PETITMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -10630,7 +10630,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     {
     .iv = 255,
     .lvl = 39,
-    .species = SPECIES_PIKACHU,
+    .species = SPECIES_PETITMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_SLAM, MOVE_RAIN_DANCE, MOVE_SHOCK_WAVE}
     },

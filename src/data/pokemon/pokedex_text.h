@@ -148,11 +148,11 @@ const u8 gPaomonPokedexText[] = _(
     "are that it was created between groups\n"
     "from Shanghai, Taiwan and Okinawa.");
 
-const u8 gPikachuPokedexText[] = _(
-    "It stores electricity in the electric sacs\n"
-    "on its cheeks. When it releases pent-up\n"
-    "energy in a burst, the electric power is\n"
-    "equal to a lightning bolt.");
+const u8 gPetitmonPokedexText[] = _(
+    "Although Petitmon is small in size, it\n"
+    "can use it's fire to both defend itself\n"
+    "and flee. It is also known for having\n"
+    "a cheerful personality.");
 
 const u8 gRaichuPokedexText[] = _(
     "If it stores too much electricity, its\n"

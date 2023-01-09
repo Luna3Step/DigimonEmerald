@@ -66,7 +66,7 @@
 
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
 #define FRONTIER_MONS_SCHOOL_KID_1 \
-    FRONTIER_MON_PIKACHU,       \
+    FRONTIER_MON_PETITMON,       \
     FRONTIER_MON_SANDSHREW,     \
     FRONTIER_MON_POLIWAG,       \
     FRONTIER_MON_BELLSPROUT,    \
@@ -420,7 +420,7 @@
     FRONTIER_MON_SPHEAL,        \
     FRONTIER_MON_SHROOMISH,     \
     FRONTIER_MON_VULPIX,        \
-    FRONTIER_MON_PIKACHU,       \
+    FRONTIER_MON_PETITMON,       \
     FRONTIER_MON_SANDSHREW,     \
     FRONTIER_MON_POLIWAG,       \
     FRONTIER_MON_DRATINI,       \
@@ -676,7 +676,7 @@
     FRONTIER_MON_SHUPPET,       \
     FRONTIER_MON_DUSKULL,       \
     FRONTIER_MON_ELECTRIKE,     \
-    FRONTIER_MON_PIKACHU,       \
+    FRONTIER_MON_PETITMON,       \
     FRONTIER_MON_DRATINI,       \
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BAGON,         \
@@ -914,7 +914,7 @@
     FRONTIER_MON_MAREEP,        \
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_ELECTRIKE,     \
-    FRONTIER_MON_PIKACHU,       \
+    FRONTIER_MON_PETITMON,       \
     FRONTIER_MON_DRATINI,       \
     FRONTIER_MON_SNUBBULL,      \
     FRONTIER_MON_BAGON,         \

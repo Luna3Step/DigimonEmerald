@@ -300,12 +300,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_PIKACHU] =
+    [NATIONAL_DEX_PETITMON] =
     {
-        .categoryName = _("MOUSE"),
-        .height = 4,
-        .weight = 60,
-        .description = gPikachuPokedexText,
+        .categoryName = _("SMALL DRAGON"),
+        .height = 3,
+        .weight = 40,
+        .description = gPetitmonPokedexText,
         .pokemonScale = 479,
         .pokemonOffset = 19,
         .trainerScale = 256,
