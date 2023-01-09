@@ -142,11 +142,11 @@ const u8 gPafumonPokedexText[] = _(
     "drifting through the air. It dislikes\n"
     "fighting a lot.");
 
-const u8 gArbokPokedexText[] = _(
-    "This POKéMON has a terrifically strong\n"
-    "constricting power. It can even flatten\n"
-    "steel oil drums. Once it wraps its body\n"
-    "around its foe, escaping is impossible.");
+const u8 gPaomonPokedexText[] = _(
+    "Paomon is an artificial digimon that was\n"
+    "created for aesthetic reasons. Rumours \n"
+    "are that it was created between groups\n"
+    "from Shanghai, Taiwan and Okinawa.");
 
 const u8 gPikachuPokedexText[] = _(
     "It stores electricity in the electric sacs\n"

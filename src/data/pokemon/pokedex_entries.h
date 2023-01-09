@@ -288,12 +288,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARBOK] =
+    [NATIONAL_DEX_PAOMON] =
     {
-        .categoryName = _("COBRA"),
-        .height = 35,
-        .weight = 650,
-        .description = gArbokPokedexText,
+        .categoryName = _("ARTIFICIAL"),
+        .height = 3,
+        .weight = 40,
+        .description = gPaomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 296,
