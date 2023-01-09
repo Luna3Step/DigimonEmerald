@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_RATTATA"
-with "FRONTIER_MON_CHOROMON"
+replace "FRONTIER_MON_RATICATE"
+with "FRONTIER_MON_MOKUMON"
 
-replace "gRattataPokedexText"
-with "gChoromonPokedexText"
+replace "gRaticatePokedexText"
+with "gMokumonPokedexText"
 
-replace "NATIONAL_DEX_RATTATA"
-with "NATIONAL_DEX_CHOROMON"
+replace "NATIONAL_DEX_RATICATE"
+with "NATIONAL_DEX_MOKUMON"
 
-replace "SPECIES_RATTATA"
-with "SPECIES_CHOROMON"
+replace "SPECIES_RATICATE"
+with "SPECIES_MOKUMON"
 
-replace "HOENN_DEX_RATTATA"
-with "HOENN_DEX_CHOROMON"
+replace "HOENN_DEX_RATICATE"
+with "HOENN_DEX_MOKUMON"
 
-replace "SPECIES_TO_HOENN(RATTATA),"
-with "SPECIES_TO_HOENN(CHOROMON),"
+replace "SPECIES_TO_HOENN(RATICATE),"
+with "SPECIES_TO_HOENN(MOKUMON),"
 
-replace "SPECIES_TO_NATIONAL(RATTATA),"
-with "SPECIES_TO_NATIONAL(CHOROMON),"
+replace "SPECIES_TO_NATIONAL(RATICATE),"
+with "SPECIES_TO_NATIONAL(MOKUMON),"
 
-replace "HOENN_TO_NATIONAL(RATTATA),"
-with "HOENN_TO_NATIONAL(CHOROMON),"
+replace "HOENN_TO_NATIONAL(RATICATE),"
+with "HOENN_TO_NATIONAL(MOKUMON),"
 
-replace "EC_POKEMON_NATIONAL(RATTATA),"
-with "EC_POKEMON_NATIONAL(CHOROMON),"
+replace "EC_POKEMON_NATIONAL(RATICATE),"
+with "EC_POKEMON_NATIONAL(MOKUMON),"
 
-replace "egg_moves(RATTATA,"
-with "egg_moves(CHOROMON,"
+replace "egg_moves(RATICATE,"
+with "egg_moves(MOKUMON,"
 
-replace "sRattataLevelUpLearnset"
-with "sChoromonLevelUpLearnset"
+replace "sRaticateLevelUpLearnset"
+with "sMokumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RATTATA"
-with "SPECIES_SPRITE(CHOROMON"
+replace "SPECIES_SPRITE(RATICATE"
+with "SPECIES_SPRITE(MOKUMON"
 
-replace "SPECIES_PAL(RATTATA,"
-with "SPECIES_PAL(CHOROMON,"
+replace "SPECIES_PAL(RATICATE,"
+with "SPECIES_PAL(MOKUMON,"
 
-replace "SPECIES_SHINY_PAL(RATTATA,"
-with "SPECIES_SHINY_PAL(CHOROMON,"
+replace "SPECIES_SHINY_PAL(RATICATE,"
+with "SPECIES_SHINY_PAL(MOKUMON,"
 
 
 

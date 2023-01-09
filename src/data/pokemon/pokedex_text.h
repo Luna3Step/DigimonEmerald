@@ -118,11 +118,11 @@ const u8 gChoromonPokedexText[] = _(
     "because of it's simple programming\n"
     "making it move whenever there is light.");
 
-const u8 gRaticatePokedexText[] = _(
-    "A RATICATE's sturdy fangs grow steadily.\n"
-    "To keep them ground down, it gnaws on\n"
-    "rocks and logs. It may even chew on the\n"
-    "walls of houses.");
+const u8 gMokumonPokedexText[] = _(
+    "Mokumon is a unique digimon who lacks a\n"
+    "wire-frame model, leaving it's core\n"
+    "unprotected. It use's the smoke from\n"
+    "burning it's core to obscure itself.");
 
 const u8 gSpearowPokedexText[] = _(
     "Its loud cry can be heard over half a mile\n"
