@@ -396,12 +396,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINO] =
+    [NATIONAL_DEX_PUTTIMON] =
     {
-        .categoryName = _("POISON PIN"),
-        .height = 9,
-        .weight = 195,
-        .description = gNidorinoPokedexText,
+        .categoryName = _("ANGEL"),
+        .height = 3,
+        .weight = 40,
+        .description = gPuttimonPokedexText,
         .pokemonScale = 408,
         .pokemonOffset = 15,
         .trainerScale = 256,

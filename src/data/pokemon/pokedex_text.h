@@ -196,11 +196,11 @@ const u8 gPusumonPokedexText[] = _(
     "fairly hard. It is inconsolable when it\n"
     "loses it's pacifier.");
 
-const u8 gNidorinoPokedexText[] = _(
-    "Its horn is harder than a diamond.\n"
-    "If it senses a hostile presence, all the\n"
-    "barbs on its back bristle up at once, and it\n"
-    "challenges the foe with all its might.");
+const u8 gPuttimonPokedexText[] = _(
+    "Puttimon is said to be template for all\n"
+    "angel like digimon. Although it is Light\n"
+    "type, it has a mischievous side to it \n"
+    "that is quite adorable.");
 
 const u8 gNidokingPokedexText[] = _(
     "A NIDOKING's thick tail packs enormously\n"

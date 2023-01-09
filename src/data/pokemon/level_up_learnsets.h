@@ -428,7 +428,7 @@ static const u16 sNidoranMLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNidorinoLevelUpLearnset[] = {
+static const u16 sPuttimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 8, MOVE_FOCUS_ENERGY),
