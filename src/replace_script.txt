@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_SANDSLASH"
-with "FRONTIER_MON_POYOMON"
+replace "FRONTIER_MON_NIDORAN_F"
+with "FRONTIER_MON_PUNIMON"
 
-replace "gSandslashPokedexText"
-with "gPoyomonPokedexText"
+replace "gNidoran_fPokedexText"
+with "gPunimonPokedexText"
 
-replace "NATIONAL_DEX_SANDSLASH"
-with "NATIONAL_DEX_POYOMON"
+replace "NATIONAL_DEX_NIDORAN_F"
+with "NATIONAL_DEX_PUNIMON"
 
-replace "SPECIES_SANDSLASH"
-with "SPECIES_POYOMON"
+replace "SPECIES_NIDORAN_F"
+with "SPECIES_PUNIMON"
 
-replace "HOENN_DEX_SANDSLASH"
-with "HOENN_DEX_POYOMON"
+replace "HOENN_DEX_NIDORAN_F"
+with "HOENN_DEX_PUNIMON"
 
-replace "SPECIES_TO_HOENN(SANDSLASH),"
-with "SPECIES_TO_HOENN(POYOMON),"
+replace "SPECIES_TO_HOENN(NIDORAN_F),"
+with "SPECIES_TO_HOENN(PUNIMON),"
 
-replace "SPECIES_TO_NATIONAL(SANDSLASH),"
-with "SPECIES_TO_NATIONAL(POYOMON),"
+replace "SPECIES_TO_NATIONAL(NIDORAN_F),"
+with "SPECIES_TO_NATIONAL(PUNIMON),"
 
-replace "HOENN_TO_NATIONAL(SANDSLASH),"
-with "HOENN_TO_NATIONAL(POYOMON),"
+replace "HOENN_TO_NATIONAL(NIDORAN_F),"
+with "HOENN_TO_NATIONAL(PUNIMON),"
 
-replace "EC_POKEMON_NATIONAL(SANDSLASH),"
-with "EC_POKEMON_NATIONAL(POYOMON),"
+replace "EC_POKEMON_NATIONAL(NIDORAN_F),"
+with "EC_POKEMON_NATIONAL(PUNIMON),"
 
-replace "egg_moves(SANDSLASH,"
-with "egg_moves(POYOMON,"
+replace "egg_moves(NIDORAN_F,"
+with "egg_moves(PUNIMON,"
 
-replace "sSandslashLevelUpLearnset"
-with "sPoyomonLevelUpLearnset"
+replace "sNidoran_fLevelUpLearnset"
+with "sPunimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SANDSLASH"
-with "SPECIES_SPRITE(POYOMON"
+replace "SPECIES_SPRITE(NIDORAN_F"
+with "SPECIES_SPRITE(PUNIMON"
 
-replace "SPECIES_PAL(SANDSLASH,"
-with "SPECIES_PAL(POYOMON,"
+replace "SPECIES_PAL(NIDORAN_F,"
+with "SPECIES_PAL(PUNIMON,"
 
-replace "SPECIES_SHINY_PAL(SANDSLASH,"
-with "SPECIES_SHINY_PAL(POYOMON,"
+replace "SPECIES_SHINY_PAL(NIDORAN_F,"
+with "SPECIES_SHINY_PAL(PUNIMON,"
 
 
 

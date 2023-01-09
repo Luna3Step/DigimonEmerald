@@ -2815,7 +2815,7 @@ static void PrintEggInfo(void)
 
 static void PrintGenderSymbol(struct Pokemon *mon, u16 species)
 {
-    if (species != SPECIES_NIDORAN_M && species != SPECIES_NIDORAN_F)
+    if (species != SPECIES_NIDORAN_M && species != SPECIES_PUNIMON)
     {
         switch (GetMonGender(mon))
         {

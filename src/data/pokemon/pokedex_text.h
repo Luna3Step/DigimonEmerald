@@ -172,11 +172,11 @@ const u8 gPoyomonPokedexText[] = _(
     "Researchers consider it the missing\n"
     "link to solving the origin of digimon.");
 
-const u8 gNidoranFPokedexText[] = _(
-    "Its highly toxic barbs are thought to have\n"
-    "developed as protection for this small-\n"
-    "bodied POKéMON. When enraged, it releases\n"
-    "a horrible toxin from its horn.");
+const u8 gPunimonPokedexText[] = _(
+    "Punimon is new kind of fresh digimon.\n"
+    "It's body is squishy it has three \n"
+    "feeler-like things atop it's head. \n"
+    "It's bubbles are very acidic.");
 
 const u8 gNidorinaPokedexText[] = _(
     "When it is with its friends or\n"

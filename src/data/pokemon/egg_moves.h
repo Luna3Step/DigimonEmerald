@@ -76,7 +76,7 @@ const u16 gEggMoves[] = {
               MOVE_SWORDS_DANCE,
               MOVE_CRUSH_CLAW),
 
-    egg_moves(NIDORAN_F,
+    egg_moves(PUNIMON,
               MOVE_SUPERSONIC,
               MOVE_DISABLE,
               MOVE_TAKE_DOWN,

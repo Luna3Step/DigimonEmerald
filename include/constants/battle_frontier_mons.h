@@ -48,7 +48,7 @@
 #define FRONTIER_MON_TAILLOW        44
 #define FRONTIER_MON_WINGULL        45
 #define FRONTIER_MON_NIDORAN_M      46
-#define FRONTIER_MON_NIDORAN_F      47
+#define FRONTIER_MON_PUNIMON      47
 #define FRONTIER_MON_KIRLIA         48
 #define FRONTIER_MON_MAREEP         49
 #define FRONTIER_MON_MEDITITE       50

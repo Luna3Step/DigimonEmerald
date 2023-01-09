@@ -348,12 +348,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORAN_F] =
+    [NATIONAL_DEX_PUNIMON] =
     {
-        .categoryName = _("POISON PIN"),
-        .height = 4,
-        .weight = 70,
-        .description = gNidoranFPokedexText,
+        .categoryName = _("ACID"),
+        .height = 3,
+        .weight = 40,
+        .description = gPunimonPokedexText,
         .pokemonScale = 488,
         .pokemonOffset = 21,
         .trainerScale = 256,
