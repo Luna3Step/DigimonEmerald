@@ -3637,7 +3637,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Paul[] = {
     {
     .iv = 10,
     .lvl = 15,
-    .species = SPECIES_ODDISH,
+    .species = SPECIES_ZERIMON,
     },
     {
     .iv = 10,
@@ -6137,7 +6137,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana1[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_ODDISH,
+    .species = SPECIES_ZERIMON,
     },
     {
     .iv = 0,
@@ -8104,7 +8104,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sally[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_ODDISH,
+    .species = SPECIES_ZERIMON,
     }
 };
 

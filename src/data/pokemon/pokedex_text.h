@@ -256,11 +256,11 @@ const u8 gYuramonPokedexText[] = _(
     "it hatches, it will seek a suitable\n"
     "environment to grow.");
 
-const u8 gOddishPokedexText[] = _(
-    "This POKéMON grows by absorbing moonlight.\n"
-    "During the daytime, it buries itself in the\n"
-    "ground, leaving only its leaves exposed to\n"
-    "avoid detection by its enemies.");
+const u8 gZerimonPokedexText[] = _(
+    "Zerimon is an extremely rare digimon born\n"
+    "as a twin with Conomon. Unlike the three\n"
+    "horned Conomon, the one horned Zerimon\n"
+    "is very energetic.");
 
 const u8 gGloomPokedexText[] = _(
     "A horribly noxious honey drools from its\n"

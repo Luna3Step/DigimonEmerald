@@ -554,7 +554,7 @@ static const u16 sYuramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sOddishLevelUpLearnset[] = {
+static const u16 sZerimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 7, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE(14, MOVE_POISON_POWDER),

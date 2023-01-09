@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_GOLBAT"
-with "FRONTIER_MON_YURAMON"
+replace "FRONTIER_MON_ODDISH"
+with "FRONTIER_MON_ZERIMON"
 
-replace "gGolbatPokedexText"
-with "gYuramonPokedexText"
+replace "gOddishPokedexText"
+with "gZerimonPokedexText"
 
-replace "NATIONAL_DEX_GOLBAT"
-with "NATIONAL_DEX_YURAMON"
+replace "NATIONAL_DEX_ODDISH"
+with "NATIONAL_DEX_ZERIMON"
 
-replace "SPECIES_GOLBAT"
-with "SPECIES_YURAMON"
+replace "SPECIES_ODDISH"
+with "SPECIES_ZERIMON"
 
-replace "HOENN_DEX_GOLBAT"
-with "HOENN_DEX_YURAMON"
+replace "HOENN_DEX_ODDISH"
+with "HOENN_DEX_ZERIMON"
 
-replace "SPECIES_TO_HOENN(GOLBAT),"
-with "SPECIES_TO_HOENN(YURAMON),"
+replace "SPECIES_TO_HOENN(ODDISH),"
+with "SPECIES_TO_HOENN(ZERIMON),"
 
-replace "SPECIES_TO_NATIONAL(GOLBAT),"
-with "SPECIES_TO_NATIONAL(YURAMON),"
+replace "SPECIES_TO_NATIONAL(ODDISH),"
+with "SPECIES_TO_NATIONAL(ZERIMON),"
 
-replace "HOENN_TO_NATIONAL(GOLBAT),"
-with "HOENN_TO_NATIONAL(YURAMON),"
+replace "HOENN_TO_NATIONAL(ODDISH),"
+with "HOENN_TO_NATIONAL(ZERIMON),"
 
-replace "EC_POKEMON_NATIONAL(GOLBAT),"
-with "EC_POKEMON_NATIONAL(YURAMON),"
+replace "EC_POKEMON_NATIONAL(ODDISH),"
+with "EC_POKEMON_NATIONAL(ZERIMON),"
 
-replace "egg_moves(GOLBAT,"
-with "egg_moves(YURAMON,"
+replace "egg_moves(ODDISH,"
+with "egg_moves(ZERIMON,"
 
-replace "sGolbatLevelUpLearnset"
-with "sYuramonLevelUpLearnset"
+replace "sOddishLevelUpLearnset"
+with "sZerimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GOLBAT"
-with "SPECIES_SPRITE(YURAMON"
+replace "SPECIES_SPRITE(ODDISH"
+with "SPECIES_SPRITE(ZERIMON"
 
-replace "SPECIES_PAL(GOLBAT,"
-with "SPECIES_PAL(YURAMON,"
+replace "SPECIES_PAL(ODDISH,"
+with "SPECIES_PAL(ZERIMON,"
 
-replace "SPECIES_SHINY_PAL(GOLBAT,"
-with "SPECIES_SHINY_PAL(YURAMON,"
+replace "SPECIES_SHINY_PAL(ODDISH,"
+with "SPECIES_SHINY_PAL(ZERIMON,"
 
 
 

@@ -112,7 +112,7 @@ const u16 gEggMoves[] = {
               MOVE_WHIRLWIND,
               MOVE_CURSE),
 
-    egg_moves(ODDISH,
+    egg_moves(ZERIMON,
               MOVE_SWORDS_DANCE,
               MOVE_RAZOR_LEAF,
               MOVE_FLAIL,
