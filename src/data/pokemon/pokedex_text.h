@@ -268,11 +268,11 @@ const u8 gZurumonPokedexText[] = _(
     "a toxic slime substance. It has skillful\n"
     "control of it's body.");
 
-const u8 gVileplumePokedexText[] = _(
-    "In seasons when it produces more pollen,\n"
-    "the air around a VILEPLUME turns yellow\n"
-    "with the powder as it walks. The pollen is\n"
-    "highly toxic and causes paralysis.");
+const u8 gArcadiamon_itPokedexText[] = _(
+    "Arcadiamon is an artificial digimon \n"
+    "that was created to make the ultimate\n"
+    "digimon. Despite only being In-Training,\n"
+    "it has incredibly physical abilities.");
 
 const u8 gParasPokedexText[] = _(
     "A PARAS has parasitic tochukaso\n"

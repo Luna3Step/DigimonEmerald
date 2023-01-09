@@ -540,12 +540,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VILEPLUME] =
+    [NATIONAL_DEX_ARCADIAMON_IT] =
     {
-        .categoryName = _("FLOWER"),
-        .height = 12,
-        .weight = 186,
-        .description = gVileplumePokedexText,
+        .categoryName = _("ULTIMATE"),
+        .height = 6,
+        .weight = 60,
+        .description = gArcadiamon_itPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_GLOOM"
-with "FRONTIER_MON_ZURUMON"
+replace "FRONTIER_MON_VILEPLUME"
+with "FRONTIER_MON_ARCADIAMON_IT"
 
-replace "gGloomPokedexText"
-with "gZurumonPokedexText"
+replace "gVileplumePokedexText"
+with "gArcadiamon_itPokedexText"
 
-replace "NATIONAL_DEX_GLOOM"
-with "NATIONAL_DEX_ZURUMON"
+replace "NATIONAL_DEX_VILEPLUME"
+with "NATIONAL_DEX_ARCADIAMON_IT"
 
-replace "SPECIES_GLOOM"
-with "SPECIES_ZURUMON"
+replace "SPECIES_VILEPLUME"
+with "SPECIES_ARCADIAMON_IT"
 
-replace "HOENN_DEX_GLOOM"
-with "HOENN_DEX_ZURUMON"
+replace "HOENN_DEX_VILEPLUME"
+with "HOENN_DEX_ARCADIAMON_IT"
 
-replace "SPECIES_TO_HOENN(GLOOM),"
-with "SPECIES_TO_HOENN(ZURUMON),"
+replace "SPECIES_TO_HOENN(VILEPLUME),"
+with "SPECIES_TO_HOENN(ARCADIAMON_IT),"
 
-replace "SPECIES_TO_NATIONAL(GLOOM),"
-with "SPECIES_TO_NATIONAL(ZURUMON),"
+replace "SPECIES_TO_NATIONAL(VILEPLUME),"
+with "SPECIES_TO_NATIONAL(ARCADIAMON_IT),"
 
-replace "HOENN_TO_NATIONAL(GLOOM),"
-with "HOENN_TO_NATIONAL(ZURUMON),"
+replace "HOENN_TO_NATIONAL(VILEPLUME),"
+with "HOENN_TO_NATIONAL(ARCADIAMON_IT),"
 
-replace "EC_POKEMON_NATIONAL(GLOOM),"
-with "EC_POKEMON_NATIONAL(ZURUMON),"
+replace "EC_POKEMON_NATIONAL(VILEPLUME),"
+with "EC_POKEMON_NATIONAL(ARCADIAMON_IT),"
 
-replace "egg_moves(GLOOM,"
-with "egg_moves(ZURUMON,"
+replace "egg_moves(VILEPLUME,"
+with "egg_moves(ARCADIAMON_IT,"
 
-replace "sGloomLevelUpLearnset"
-with "sZurumonLevelUpLearnset"
+replace "sVileplumeLevelUpLearnset"
+with "sArcadiamon_itLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GLOOM"
-with "SPECIES_SPRITE(ZURUMON"
+replace "SPECIES_SPRITE(VILEPLUME"
+with "SPECIES_SPRITE(ARCADIAMON_IT"
 
-replace "SPECIES_PAL(GLOOM,"
-with "SPECIES_PAL(ZURUMON,"
+replace "SPECIES_PAL(VILEPLUME,"
+with "SPECIES_PAL(ARCADIAMON_IT,"
 
-replace "SPECIES_SHINY_PAL(GLOOM,"
-with "SPECIES_SHINY_PAL(ZURUMON,"
+replace "SPECIES_SHINY_PAL(VILEPLUME,"
+with "SPECIES_SHINY_PAL(ARCADIAMON_IT,"
 
 
 
