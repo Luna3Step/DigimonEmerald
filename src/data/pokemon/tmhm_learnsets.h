@@ -1127,7 +1127,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_DUGTRIO]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_BUKAMON]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)

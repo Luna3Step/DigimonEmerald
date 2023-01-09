@@ -663,7 +663,7 @@ static const u16 sBudmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDugtrioLevelUpLearnset[] = {
+static const u16 sBukamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TRI_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),

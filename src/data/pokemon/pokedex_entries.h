@@ -612,12 +612,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUGTRIO] =
+    [NATIONAL_DEX_BUKAMON] =
     {
-        .categoryName = _("MOLE"),
-        .height = 7,
-        .weight = 333,
-        .description = gDugtrioPokedexText,
+        .categoryName = _("SEAL"),
+        .height = 6,
+        .weight = 60,
+        .description = gBukamonPokedexText,
         .pokemonScale = 406,
         .pokemonOffset = 18,
         .trainerScale = 256,

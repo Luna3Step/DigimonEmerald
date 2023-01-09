@@ -304,11 +304,11 @@ const u8 gBudmonPokedexText[] = _(
     "digital world. It usually drifts \n"
     "through the air by its leaf.");
 
-const u8 gDugtrioPokedexText[] = _(
-    "Because the triplets originally split from\n"
-    "one body, they think exactly alike.\n"
-    "They work cooperatively to burrow\n"
-    "endlessly through the ground.");
+const u8 gBukamonPokedexText[] = _(
+    "Although Bukamon looks like an aquatic\n"
+    "dinosaur, it currently does not have\n"
+    "any relation to Dinosaur Digimon. It\n"
+    "is also a very shy Digimon.");
 
 const u8 gMeowthPokedexText[] = _(
     "MEOWTH withdraw their sharp claws into\n"

@@ -4342,7 +4342,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_DUGTRIO,
+                                            .species = SPECIES_BUKAMON,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_DOUBLE_TEAM, MOVE_PROTECT, MOVE_RETURN, MOVE_SLUDGE_BOMB},
                                             .hpEV = 6,

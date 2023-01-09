@@ -1,48 +1,48 @@
-replace "FRONTIER_MON_DIGLETT"
-with "FRONTIER_MON_BUDMON"
+replace "FRONTIER_MON_MEOWTH"
+with "FRONTIER_MON_CALUMON"
 
-replace "gDiglettPokedexText"
-with "gBudmonPokedexText"
+replace "gMeowthPokedexText"
+with "gCalumonPokedexText"
 
-replace "NATIONAL_DEX_DIGLETT"
-with "NATIONAL_DEX_BUDMON"
+replace "NATIONAL_DEX_MEOWTH"
+with "NATIONAL_DEX_CALUMON"
 
-replace "SPECIES_DIGLETT"
-with "SPECIES_BUDMON"
+replace "SPECIES_MEOWTH"
+with "SPECIES_CALUMON"
 
-replace "HOENN_DEX_DIGLETT"
-with "HOENN_DEX_BUDMON"
+replace "HOENN_DEX_MEOWTH"
+with "HOENN_DEX_CALUMON"
 
-replace "SPECIES_TO_HOENN(DIGLETT),"
-with "SPECIES_TO_HOENN(BUDMON),"
+replace "SPECIES_TO_HOENN(MEOWTH),"
+with "SPECIES_TO_HOENN(CALUMON),"
 
-replace "SPECIES_TO_NATIONAL(DIGLETT),"
-with "SPECIES_TO_NATIONAL(BUDMON),"
+replace "SPECIES_TO_NATIONAL(MEOWTH),"
+with "SPECIES_TO_NATIONAL(CALUMON),"
 
-replace "HOENN_TO_NATIONAL(DIGLETT),"
-with "HOENN_TO_NATIONAL(BUDMON),"
+replace "HOENN_TO_NATIONAL(MEOWTH),"
+with "HOENN_TO_NATIONAL(CALUMON),"
 
-replace "EC_POKEMON_NATIONAL(DIGLETT),"
-with "EC_POKEMON_NATIONAL(BUDMON),"
+replace "EC_POKEMON_NATIONAL(MEOWTH),"
+with "EC_POKEMON_NATIONAL(CALUMON),"
 
-replace "egg_moves(DIGLETT,"
-with "egg_moves(BUDMON,"
+replace "egg_moves(MEOWTH,"
+with "egg_moves(CALUMON,"
 
-replace "sDiglettLevelUpLearnset"
-with "sBudmonLevelUpLearnset"
+replace "sMeowthLevelUpLearnset"
+with "sCalumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DIGLETT"
-with "SPECIES_SPRITE(BUDMON"
+replace "SPECIES_SPRITE(MEOWTH"
+with "SPECIES_SPRITE(CALUMON"
 
-replace "SPECIES_PAL(DIGLETT,"
-with "SPECIES_PAL(BUDMON,"
+replace "SPECIES_PAL(MEOWTH,"
+with "SPECIES_PAL(CALUMON,"
 
-replace "SPECIES_SHINY_PAL(DIGLETT,"
-with "SPECIES_SHINY_PAL(BUDMON,"
+replace "SPECIES_SHINY_PAL(MEOWTH,"
+with "SPECIES_SHINY_PAL(CALUMON,"
 
-replace "EC_POKEMON(DIGLETT)"
-with "EC_POKEMON(BUDMON)"
+replace "EC_POKEMON(MEOWTH)"
+with "EC_POKEMON(CALUMON)"
 
-replace "EC_POKEMON_NATIONAL(DIGLETT)"
-with "EC_POKEMON_NATIONAL(BUDMON)"
+replace "EC_POKEMON_NATIONAL(MEOWTH)"
+with "EC_POKEMON_NATIONAL(CALUMON)"
 
