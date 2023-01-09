@@ -624,12 +624,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MEOWTH] =
+    [NATIONAL_DEX_CALUMON] =
     {
-        .categoryName = _("SCRATCH CAT"),
-        .height = 4,
-        .weight = 42,
-        .description = gMeowthPokedexText,
+        .categoryName = _("EVOLUTION"),
+        .height = 6,
+        .weight = 60,
+        .description = gCalumonPokedexText,
         .pokemonScale = 480,
         .pokemonOffset = 19,
         .trainerScale = 256,

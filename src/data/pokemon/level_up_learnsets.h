@@ -679,7 +679,7 @@ static const u16 sBukamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMeowthLevelUpLearnset[] = {
+static const u16 sCalumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE(11, MOVE_BITE),

@@ -145,7 +145,7 @@ const u16 gEggMoves[] = {
               MOVE_UPROAR,
               MOVE_ROCK_SLIDE),
 
-    egg_moves(MEOWTH,
+    egg_moves(CALUMON,
               MOVE_SPITE,
               MOVE_CHARM,
               MOVE_HYPNOSIS,

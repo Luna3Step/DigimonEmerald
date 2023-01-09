@@ -52,7 +52,7 @@
     FRONTIER_MON_PAFUMON,         \
     FRONTIER_MON_DITTO,         \
     FRONTIER_MON_BARBOACH,      \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_PINECO,        \
     FRONTIER_MON_TRAPINCH,      \
     FRONTIER_MON_SPHEAL,        \
@@ -259,7 +259,7 @@
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_DITTO,         \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_POLIWAG,       \
     FRONTIER_MON_SNUBBULL,      \
     FRONTIER_MON_REMORAID,      \
@@ -309,7 +309,7 @@
     FRONTIER_MON_SANDMON,    \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_DITTO,         \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_POLIWAG,       \
     FRONTIER_MON_SNUBBULL,      \
     FRONTIER_MON_REMORAID,      \
@@ -416,7 +416,7 @@
     FRONTIER_MON_KIRLIA,        \
     FRONTIER_MON_MAREEP,        \
     FRONTIER_MON_DITTO,         \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_SPHEAL,        \
     FRONTIER_MON_SHROOMISH,     \
     FRONTIER_MON_RELEMON,        \
@@ -719,7 +719,7 @@
     FRONTIER_MON_WINGULL,       \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_DITTO,         \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_SNUBBULL,      \
     FRONTIER_MON_DODUO,         \
     FRONTIER_MON_SWABLU,        \
@@ -846,7 +846,7 @@
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_DITTO,         \
-    FRONTIER_MON_MEOWTH,        \
+    FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_POPOMON,     \
     FRONTIER_MON_GEODUDE,       \
     FRONTIER_MON_SNUBBULL,      \

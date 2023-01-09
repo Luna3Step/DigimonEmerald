@@ -310,11 +310,11 @@ const u8 gBukamonPokedexText[] = _(
     "any relation to Dinosaur Digimon. It\n"
     "is also a very shy Digimon.");
 
-const u8 gMeowthPokedexText[] = _(
-    "MEOWTH withdraw their sharp claws into\n"
-    "their paws to silently sneak about.\n"
-    "For some reason, this POKéMON loves\n"
-    "shiny coins that glitter with light.");
+const u8 gCalumonPokedexText[] = _(
+    "Calumon is a digimon shrouded in \n"
+    "mystery. Current research points to\n"
+    "the possibility that it is \n"
+    "digivolution given form.");
 
 const u8 gPersianPokedexText[] = _(
     "A PERSIAN's six bold whiskers sense air\n"

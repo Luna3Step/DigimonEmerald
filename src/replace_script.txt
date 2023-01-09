@@ -1,48 +1,48 @@
-replace "FRONTIER_MON_MEOWTH"
+replace "FRONTIER_MON_CALUMON"
 with "FRONTIER_MON_CALUMON"
 
-replace "gMeowthPokedexText"
+replace "gCalumonPokedexText"
 with "gCalumonPokedexText"
 
-replace "NATIONAL_DEX_MEOWTH"
+replace "NATIONAL_DEX_CALUMON"
 with "NATIONAL_DEX_CALUMON"
 
-replace "SPECIES_MEOWTH"
+replace "SPECIES_CALUMON"
 with "SPECIES_CALUMON"
 
-replace "HOENN_DEX_MEOWTH"
+replace "HOENN_DEX_CALUMON"
 with "HOENN_DEX_CALUMON"
 
-replace "SPECIES_TO_HOENN(MEOWTH),"
+replace "SPECIES_TO_HOENN(CALUMON),"
 with "SPECIES_TO_HOENN(CALUMON),"
 
-replace "SPECIES_TO_NATIONAL(MEOWTH),"
+replace "SPECIES_TO_NATIONAL(CALUMON),"
 with "SPECIES_TO_NATIONAL(CALUMON),"
 
-replace "HOENN_TO_NATIONAL(MEOWTH),"
+replace "HOENN_TO_NATIONAL(CALUMON),"
 with "HOENN_TO_NATIONAL(CALUMON),"
 
-replace "EC_POKEMON_NATIONAL(MEOWTH),"
+replace "EC_POKEMON_NATIONAL(CALUMON),"
 with "EC_POKEMON_NATIONAL(CALUMON),"
 
-replace "egg_moves(MEOWTH,"
+replace "egg_moves(CALUMON,"
 with "egg_moves(CALUMON,"
 
-replace "sMeowthLevelUpLearnset"
+replace "sCalumonLevelUpLearnset"
 with "sCalumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MEOWTH"
+replace "SPECIES_SPRITE(CALUMON"
 with "SPECIES_SPRITE(CALUMON"
 
-replace "SPECIES_PAL(MEOWTH,"
+replace "SPECIES_PAL(CALUMON,"
 with "SPECIES_PAL(CALUMON,"
 
-replace "SPECIES_SHINY_PAL(MEOWTH,"
+replace "SPECIES_SHINY_PAL(CALUMON,"
 with "SPECIES_SHINY_PAL(CALUMON,"
 
-replace "EC_POKEMON(MEOWTH)"
+replace "EC_POKEMON(CALUMON)"
 with "EC_POKEMON(CALUMON)"
 
-replace "EC_POKEMON_NATIONAL(MEOWTH)"
+replace "EC_POKEMON_NATIONAL(CALUMON)"
 with "EC_POKEMON_NATIONAL(CALUMON)"
 
