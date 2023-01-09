@@ -448,11 +448,11 @@ const u8 gMonimonPokedexText[] = _(
     "generally project onto it's face in\n"
     "the shape of emoticons.");
 
-const u8 gGravelerPokedexText[] = _(
-    "They descend from mountains by tumbling\n"
-    "down steep slopes. They are so brutal,\n"
-    "they smash aside obstructing trees and\n"
-    "massive boulders with thunderous tackles.");
+const u8 gMoonmonPokedexText[] = _(
+    "Moonmon's is made up of a transparent\n"
+    "body and has a pure heart. Moonmon \n"
+    "who are raised by tamers often share the\n"
+    "the same personality as their tamer.");
 
 const u8 gGolemPokedexText[] = _(
     "It is said to live in volcanic craters\n"

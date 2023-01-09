@@ -900,12 +900,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRAVELER] =
+    [NATIONAL_DEX_MOONMON] =
     {
-        .categoryName = _("ROCK"),
-        .height = 10,
-        .weight = 1050,
-        .description = gGravelerPokedexText,
+        .categoryName = _("MOON DROP"),
+        .height = 6,
+        .weight = 60,
+        .description = gMoonmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 256,

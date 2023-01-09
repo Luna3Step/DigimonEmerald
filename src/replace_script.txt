@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_GEODUDE"
-with "FRONTIER_MON_MONIMON"
+replace "FRONTIER_MON_GRAVELER"
+with "FRONTIER_MON_MOONMON"
 
-replace "gGeodudePokedexText"
-with "gMonimonPokedexText"
+replace "gGravelerPokedexText"
+with "gMoonmonPokedexText"
 
-replace "NATIONAL_DEX_GEODUDE"
-with "NATIONAL_DEX_MONIMON"
+replace "NATIONAL_DEX_GRAVELER"
+with "NATIONAL_DEX_MOONMON"
 
-replace "SPECIES_GEODUDE"
-with "SPECIES_MONIMON"
+replace "SPECIES_GRAVELER"
+with "SPECIES_MOONMON"
 
-replace "HOENN_DEX_GEODUDE"
-with "HOENN_DEX_MONIMON"
+replace "HOENN_DEX_GRAVELER"
+with "HOENN_DEX_MOONMON"
 
-replace "SPECIES_TO_HOENN(GEODUDE),"
-with "SPECIES_TO_HOENN(MONIMON),"
+replace "SPECIES_TO_HOENN(GRAVELER),"
+with "SPECIES_TO_HOENN(MOONMON),"
 
-replace "SPECIES_TO_NATIONAL(GEODUDE),"
-with "SPECIES_TO_NATIONAL(MONIMON),"
+replace "SPECIES_TO_NATIONAL(GRAVELER),"
+with "SPECIES_TO_NATIONAL(MOONMON),"
 
-replace "HOENN_TO_NATIONAL(GEODUDE),"
-with "HOENN_TO_NATIONAL(MONIMON),"
+replace "HOENN_TO_NATIONAL(GRAVELER),"
+with "HOENN_TO_NATIONAL(MOONMON),"
 
-replace "EC_POKEMON_NATIONAL(GEODUDE),"
-with "EC_POKEMON_NATIONAL(MONIMON),"
+replace "EC_POKEMON_NATIONAL(GRAVELER),"
+with "EC_POKEMON_NATIONAL(MOONMON),"
 
-replace "egg_moves(GEODUDE,"
-with "egg_moves(MONIMON,"
+replace "egg_moves(GRAVELER,"
+with "egg_moves(MOONMON,"
 
-replace "sGeodudeLevelUpLearnset"
-with "sMonimonLevelUpLearnset"
+replace "sGravelerLevelUpLearnset"
+with "sMoonmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GEODUDE"
-with "SPECIES_SPRITE(MONIMON"
+replace "SPECIES_SPRITE(GRAVELER"
+with "SPECIES_SPRITE(MOONMON"
 
-replace "SPECIES_PAL(GEODUDE,"
-with "SPECIES_PAL(MONIMON,"
+replace "SPECIES_PAL(GRAVELER,"
+with "SPECIES_PAL(MOONMON,"
 
-replace "SPECIES_SHINY_PAL(GEODUDE,"
-with "SPECIES_SHINY_PAL(MONIMON,"
+replace "SPECIES_SHINY_PAL(GRAVELER,"
+with "SPECIES_SHINY_PAL(MOONMON,"
 
-replace "EC_POKEMON(GEODUDE)"
-with "EC_POKEMON(MONIMON)"
+replace "EC_POKEMON(GRAVELER)"
+with "EC_POKEMON(MOONMON)"
 
-replace "EC_POKEMON_NATIONAL(GEODUDE)"
-with "EC_POKEMON_NATIONAL(MONIMON)"
+replace "EC_POKEMON_NATIONAL(GRAVELER)"
+with "EC_POKEMON_NATIONAL(MOONMON)"
 
 in "src/data/text/species_names.h"
-replace "GEODUDE"
-with "MONIMON"
+replace "GRAVELER"
+with "MOONMON"
