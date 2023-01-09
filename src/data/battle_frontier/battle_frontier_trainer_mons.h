@@ -6108,7 +6108,7 @@ const u16 gBattleFrontierTrainerMons_Marisa[] =
 
 const u16 gBattleFrontierTrainerMons_Lewis[] =
 {
-    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(METAPOD, KAKUNA)
+    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(SHEDINJA, WURMPLE)
 };
 
 const u16 gBattleFrontierTrainerMons_Yoshi[] =
