@@ -316,11 +316,11 @@ const u8 gCalumonPokedexText[] = _(
     "the possibility that it is \n"
     "digivolution given form.");
 
-const u8 gPersianPokedexText[] = _(
-    "A PERSIAN's six bold whiskers sense air\n"
-    "movements to determine what is in its\n"
-    "vicinity. It becomes docile if grabbed\n"
-    "by the whiskers.");
+const u8 gChapmonPokedexText[] = _(
+    "Chapmon refuses to live in water that\n"
+    "isn't clear, this makes it a very rare\n"
+    "digimon. When it sleeps, it will only \n"
+    "poke it's face out of the water surface.");
 
 const u8 gPsyduckPokedexText[] = _(
     "When its headache intensifies, it starts\n"

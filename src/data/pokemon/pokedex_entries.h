@@ -636,12 +636,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PERSIAN] =
+    [NATIONAL_DEX_CHAPMON] =
     {
-        .categoryName = _("CLASSY CAT"),
-        .height = 10,
-        .weight = 320,
-        .description = gPersianPokedexText,
+        .categoryName = _("KAPPA"),
+        .height = 6,
+        .weight = 60,
+        .description = gChapmonPokedexText,
         .pokemonScale = 320,
         .pokemonOffset = 10,
         .trainerScale = 256,
