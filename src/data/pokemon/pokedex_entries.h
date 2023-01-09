@@ -456,12 +456,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NINETALES] =
+    [NATIONAL_DEX_SAKUMON] =
     {
-        .categoryName = _("FOX"),
-        .height = 11,
-        .weight = 199,
-        .description = gNinetalesPokedexText,
+        .categoryName = _("GOLD BLADE"),
+        .height = 3,
+        .weight = 60,
+        .description = gSakumonPokedexText,
         .pokemonScale = 339,
         .pokemonOffset = 10,
         .trainerScale = 256,

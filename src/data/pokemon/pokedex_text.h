@@ -226,11 +226,11 @@ const u8 gRelemonPokedexText[] = _(
     "are also said to have great magical\n"
     "powers.");
 
-const u8 gNinetalesPokedexText[] = _(
-    "It has long been said that each of the\n"
-    "nine tails embody an enchanted power.\n"
-    "A long-lived NINETALES will have fur that\n"
-    "shines like gold.");
+const u8 gSakumonPokedexText[] = _(
+    "Sakumon's is a mischievous digimon that\n"
+    "is known to cause trouble. When running\n"
+    "away, it generally struggles as the\n"
+    "heavy blade keeps it off balance.");
 
 const u8 gJigglypuffPokedexText[] = _(
     "Nothing can avoid falling asleep hearing a\n"

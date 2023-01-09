@@ -491,7 +491,7 @@ static const u16 sRelemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNinetalesLevelUpLearnset[] = {
+static const u16 sSakumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),

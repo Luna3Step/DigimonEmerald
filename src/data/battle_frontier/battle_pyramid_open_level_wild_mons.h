@@ -123,7 +123,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round3[] =
         .moves = {MOVE_FLAMETHROWER, MOVE_ROCK_SLIDE, MOVE_PROTECT, MOVE_NONE}
     },
     {
-        .species = SPECIES_NINETALES,
+        .species = SPECIES_SAKUMON,
         .lvl = 11,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_WILL_O_WISP, MOVE_QUICK_ATTACK, MOVE_FLAMETHROWER, MOVE_NONE}
@@ -175,7 +175,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round4[] =
         .moves = {MOVE_GRUDGE, MOVE_SPITE, MOVE_SHADOW_BALL, MOVE_NONE}
     },
     {
-        .species = SPECIES_NINETALES,
+        .species = SPECIES_SAKUMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_GRUDGE, MOVE_WILL_O_WISP, MOVE_OVERHEAT, MOVE_NONE}
@@ -973,7 +973,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round19[] =
         .moves = {MOVE_FLAMETHROWER, MOVE_BITE, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_NINETALES,
+        .species = SPECIES_SAKUMON,
         .lvl = 5,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_PROTECT, MOVE_NONE}
