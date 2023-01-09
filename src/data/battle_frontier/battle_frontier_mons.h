@@ -1834,8 +1834,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_POLIWRATH_1] = {
-        .species = SPECIES_POLIWRATH,
+    [FRONTIER_MON_HIYARIMON_1] = {
+        .species = SPECIES_HIYARIMON,
         .moves = {MOVE_SUBMISSION, MOVE_DIG, MOVE_ROCK_TOMB, MOVE_BUBBLE_BEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_BLACK_BELT,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2569,8 +2569,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_POLIWRATH_2] = {
-        .species = SPECIES_POLIWRATH,
+    [FRONTIER_MON_HIYARIMON_2] = {
+        .species = SPECIES_HIYARIMON,
         .moves = {MOVE_BRICK_BREAK, MOVE_HYPNOSIS, MOVE_REST, MOVE_BELLY_DRUM},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

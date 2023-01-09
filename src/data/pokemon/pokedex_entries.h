@@ -744,12 +744,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_POLIWRATH] =
+    [NATIONAL_DEX_HIYARIMON] =
     {
-        .categoryName = _("TADPOLE"),
-        .height = 13,
-        .weight = 540,
-        .description = gPoliwrathPokedexText,
+        .categoryName = _("ICE PENGUIN"),
+        .height = 6,
+        .weight = 60,
+        .description = gHiyarimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 256,

@@ -370,11 +370,11 @@ const u8 gGurimonPokedexText[] = _(
     "and will strike them with it's horns. It\n"
     "also has a hard frill to protect it's body.");
 
-const u8 gPoliwrathPokedexText[] = _(
-    "Its highly developed muscles never grow\n"
-    "fatigued, however much it exercises.\n"
-    "This POKéMON can swim back and forth\n"
-    "across the Pacific Ocean without effort.");
+const u8 gHiyarimonPokedexText[] = _(
+    "Hiyarimon's body is constantly covered \n"
+    "in snow. It is likely that the bigger \n"
+    "icicle on the tip of its beak, the more\n"
+    "energy it has.");
 
 const u8 gAbraPokedexText[] = _(
     "A POKéMON that sleeps 18 hours a day.\n"
