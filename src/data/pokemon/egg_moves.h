@@ -85,7 +85,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_BEAT_UP),
 
-    egg_moves(NIDORAN_M,
+    egg_moves(PUSUMON,
               MOVE_COUNTER,
               MOVE_DISABLE,
               MOVE_SUPERSONIC,

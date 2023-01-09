@@ -190,11 +190,11 @@ const u8 gPururumonPokedexText[] = _(
     "instead jiggles along the floor. It \n"
     "loves the smell of grass.");
 
-const u8 gNidoranMPokedexText[] = _(
-    "The male NIDORAN has developed muscles\n"
-    "that freely move its ears in any direction.\n"
-    "Even the slightest sound does not escape\n"
-    "this POKéMON's notice.");
+const u8 gPusumonPokedexText[] = _(
+    "Pusumon's body is covered in a soft fur\n"
+    "however the yellow hairs on it's head are\n"
+    "fairly hard. It is inconsolable when it\n"
+    "loses it's pacifier.");
 
 const u8 gNidorinoPokedexText[] = _(
     "Its horn is harder than a diamond.\n"

@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_PURURUMON"
-with "FRONTIER_MON_PURURUMON"
+replace "FRONTIER_MON_NIDORAN_M"
+with "FRONTIER_MON_PUSUMON"
 
-replace "gPururumonPokedexText"
-with "gPururumonPokedexText"
+replace "gNidoran_mPokedexText"
+with "gPusumonPokedexText"
 
-replace "NATIONAL_DEX_PURURUMON"
-with "NATIONAL_DEX_PURURUMON"
+replace "NATIONAL_DEX_NIDORAN_M"
+with "NATIONAL_DEX_PUSUMON"
 
-replace "SPECIES_PURURUMON"
-with "SPECIES_PURURUMON"
+replace "SPECIES_NIDORAN_M"
+with "SPECIES_PUSUMON"
 
-replace "HOENN_DEX_PURURUMON"
-with "HOENN_DEX_PURURUMON"
+replace "HOENN_DEX_NIDORAN_M"
+with "HOENN_DEX_PUSUMON"
 
-replace "SPECIES_TO_HOENN(PURURUMON),"
-with "SPECIES_TO_HOENN(PURURUMON),"
+replace "SPECIES_TO_HOENN(NIDORAN_M),"
+with "SPECIES_TO_HOENN(PUSUMON),"
 
-replace "SPECIES_TO_NATIONAL(PURURUMON),"
-with "SPECIES_TO_NATIONAL(PURURUMON),"
+replace "SPECIES_TO_NATIONAL(NIDORAN_M),"
+with "SPECIES_TO_NATIONAL(PUSUMON),"
 
-replace "HOENN_TO_NATIONAL(PURURUMON),"
-with "HOENN_TO_NATIONAL(PURURUMON),"
+replace "HOENN_TO_NATIONAL(NIDORAN_M),"
+with "HOENN_TO_NATIONAL(PUSUMON),"
 
-replace "EC_POKEMON_NATIONAL(PURURUMON),"
-with "EC_POKEMON_NATIONAL(PURURUMON),"
+replace "EC_POKEMON_NATIONAL(NIDORAN_M),"
+with "EC_POKEMON_NATIONAL(PUSUMON),"
 
-replace "egg_moves(PURURUMON,"
-with "egg_moves(PURURUMON,"
+replace "egg_moves(NIDORAN_M,"
+with "egg_moves(PUSUMON,"
 
-replace "sPururumonLevelUpLearnset"
-with "sPururumonLevelUpLearnset"
+replace "sNidoran_mLevelUpLearnset"
+with "sPusumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PURURUMON"
-with "SPECIES_SPRITE(PURURUMON"
+replace "SPECIES_SPRITE(NIDORAN_M"
+with "SPECIES_SPRITE(PUSUMON"
 
-replace "SPECIES_PAL(PURURUMON,"
-with "SPECIES_PAL(PURURUMON,"
+replace "SPECIES_PAL(NIDORAN_M,"
+with "SPECIES_PAL(PUSUMON,"
 
-replace "SPECIES_SHINY_PAL(PURURUMON,"
-with "SPECIES_SHINY_PAL(PURURUMON,"
+replace "SPECIES_SHINY_PAL(NIDORAN_M,"
+with "SPECIES_SHINY_PAL(PUSUMON,"
 
 
 
