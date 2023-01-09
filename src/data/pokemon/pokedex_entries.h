@@ -876,12 +876,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TENTACRUEL] =
+    [NATIONAL_DEX_MISSIMON] =
     {
-        .categoryName = _("JELLYFISH"),
-        .height = 16,
-        .weight = 550,
-        .description = gTentacruelPokedexText,
+        .categoryName = _("MISSILE"),
+        .height = 5,
+        .weight = 70,
+        .description = gMissimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 312,

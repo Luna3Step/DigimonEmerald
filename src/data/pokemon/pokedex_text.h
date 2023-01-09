@@ -436,11 +436,11 @@ const u8 gMinomonPokedexText[] = _(
     "to it's personality, it does not show \n"
     "its emotions very well.");
 
-const u8 gTentacruelPokedexText[] = _(
-    "It lives in complex rock formations on\n"
-    "the ocean floor and traps prey using its\n"
-    "80 tentacles. Its red orbs glow when it\n"
-    "grows excited or agitated.");
+const u8 gMissimonPokedexText[] = _(
+    "From the moment it digivolves, Missimon\n"
+    "will fly non-stop. When it attacks, it\n"
+    "has extremely bad accuracy and often\n"
+    "misses most attacks..");
 
 const u8 gGeodudePokedexText[] = _(
     "It climbs mountain paths using only the\n"
