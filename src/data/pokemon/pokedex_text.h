@@ -430,11 +430,11 @@ const u8 gKyupimonPokedexText[] = _(
     "charity'. It is said that it's love can\n"
     "stop any digimon from fighting it.");
 
-const u8 gTentacoolPokedexText[] = _(
-    "Its body is almost entirely composed of\n"
-    "water. It ensnares its foe with its two\n"
-    "long tentacles, then stabs with the poison\n"
-    "stingers at their tips.");
+const u8 gMinomonPokedexText[] = _(
+    "On good days, Minomon will stick its\n"
+    "face out of its shell and vegetate. Due\n"
+    "to it's personality, it does not show \n"
+    "its emotions very well.");
 
 const u8 gTentacruelPokedexText[] = _(
     "It lives in complex rock formations on\n"

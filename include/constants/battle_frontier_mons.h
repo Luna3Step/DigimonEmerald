@@ -125,7 +125,7 @@
 #define FRONTIER_MON_SPOINK         121
 #define FRONTIER_MON_ARON           122
 #define FRONTIER_MON_LUVDISC        123
-#define FRONTIER_MON_TENTACOOL      124
+#define FRONTIER_MON_MINOMON      124
 #define FRONTIER_MON_CACNEA         125
 #define FRONTIER_MON_UNOWN          126
 #define FRONTIER_MON_KOFFING        127

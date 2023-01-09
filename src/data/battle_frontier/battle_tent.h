@@ -1020,7 +1020,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_TENTACOOL] = {
-        .species = SPECIES_TENTACOOL,
+        .species = SPECIES_MINOMON,
         .moves = {MOVE_SCREECH, MOVE_BUBBLE_BEAM, MOVE_ACID, MOVE_BARRIER},
         .itemTableId = BATTLE_FRONTIER_ITEM_POISON_BARB,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2073,7 +2073,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_NAUGHTY
     },
     [VERDANTURF_TENT_MON_TENTACOOL] = {
-        .species = SPECIES_TENTACOOL,
+        .species = SPECIES_MINOMON,
         .moves = {MOVE_SCREECH, MOVE_CONFUSE_RAY, MOVE_WRAP, MOVE_ATTRACT},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

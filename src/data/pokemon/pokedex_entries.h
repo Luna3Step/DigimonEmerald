@@ -864,12 +864,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_TENTACOOL] =
+    [NATIONAL_DEX_MINOMON] =
     {
-        .categoryName = _("JELLYFISH"),
-        .height = 9,
-        .weight = 455,
-        .description = gTentacoolPokedexText,
+        .categoryName = _("LARVA"),
+        .height = 6,
+        .weight = 60,
+        .description = gMinomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

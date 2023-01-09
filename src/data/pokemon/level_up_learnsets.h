@@ -949,7 +949,7 @@ static const u16 sKyupimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTentacoolLevelUpLearnset[] = {
+static const u16 sMinomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 6, MOVE_SUPERSONIC),
     LEVEL_UP_MOVE(12, MOVE_CONSTRICT),

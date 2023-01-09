@@ -217,7 +217,7 @@ const u16 gEggMoves[] = {
               MOVE_INGRAIN,
               MOVE_MAGICAL_LEAF),
 
-    egg_moves(TENTACOOL,
+    egg_moves(MINOMON,
               MOVE_AURORA_BEAM,
               MOVE_MIRROR_COAT,
               MOVE_RAPID_SPIN,
