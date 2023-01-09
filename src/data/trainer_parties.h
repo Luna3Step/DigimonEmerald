@@ -18,7 +18,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout2[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -31,7 +31,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout3[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -63,7 +63,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern3[] =
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -175,7 +175,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst1[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -206,7 +206,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst3[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -227,7 +227,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMuseum2[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -248,7 +248,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre1[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -293,7 +293,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout6[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -2321,7 +2321,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout7[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7616,7 +7616,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntUnused[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7629,7 +7629,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre4[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7728,7 +7728,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney2[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7784,7 +7784,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter3[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -7805,7 +7805,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter5[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7884,7 +7884,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 0,
@@ -7912,7 +7912,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMtChimney[] = {
     {
     .iv = 50,
     .lvl = 22,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -7982,7 +7982,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
     {
     .iv = 150,
     .lvl = 24,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 150,
@@ -9649,7 +9649,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout1[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -9678,7 +9678,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout4[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -9707,7 +9707,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout7[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -9723,7 +9723,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout9[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -9755,7 +9755,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout13[] = 
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     }
 };
 
@@ -9797,7 +9797,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMagmaHideout[] = 
     {
     .iv = 75,
     .lvl = 30,
-    .species = SPECIES_ZUBAT,
+    .species = SPECIES_ICEBOTAMON,
     },
     {
     .iv = 75,

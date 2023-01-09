@@ -249,5 +249,5 @@ const u16 gEasyChatGroup_Pokemon2[] = {
     SPECIES_XATU,
     SPECIES_YANMA,
     SPECIES_ZAPDOS,
-    SPECIES_ZUBAT,
+    SPECIES_ICEBOTAMON,
 };

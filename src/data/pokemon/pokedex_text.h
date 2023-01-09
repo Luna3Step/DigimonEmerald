@@ -244,11 +244,11 @@ const u8 gTsubumonPokedexText[] = _(
     "and that it is often sent flying with \n"
     "strong gusts of wind.");
 
-const u8 gZubatPokedexText[] = _(
-    "While living in pitch-black caverns, their\n"
-    "eyes gradually grew shut and deprived\n"
-    "them of vision. They use ultrasonic waves\n"
-    "to detect obstacles.");
+const u8 gIceBotamonPokedexText[] = _(
+    "IceBotamon is considered a species of\n"
+    "Botamon that has adapted for the cold\n"
+    "climate. It's breath freezes the \n"
+    "moisture in the air.");
 
 const u8 gGolbatPokedexText[] = _(
     "Its fangs easily puncture even thick\n"

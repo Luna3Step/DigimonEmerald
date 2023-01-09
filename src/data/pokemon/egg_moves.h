@@ -104,7 +104,7 @@ const u16 gEggMoves[] = {
               MOVE_PSYCH_UP,
               MOVE_HEAT_WAVE),
 
-    egg_moves(ZUBAT,
+    egg_moves(ICEBOTAMON,
               MOVE_QUICK_ATTACK,
               MOVE_PURSUIT,
               MOVE_FAINT_ATTACK,

@@ -175,8 +175,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_TIMID
     },
-    [FRONTIER_MON_ZUBAT] = {
-        .species = SPECIES_ZUBAT,
+    [FRONTIER_MON_ICEBOTAMON] = {
+        .species = SPECIES_ICEBOTAMON,
         .moves = {MOVE_POISON_FANG, MOVE_WHIRLWIND, MOVE_CONFUSE_RAY, MOVE_AERIAL_ACE},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHERI_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

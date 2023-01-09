@@ -523,7 +523,7 @@ static const u16 sTsubumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sZubatLevelUpLearnset[] = {
+static const u16 sIceBotamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEECH_LIFE),
     LEVEL_UP_MOVE( 6, MOVE_SUPERSONIC),
     LEVEL_UP_MOVE(11, MOVE_ASTONISH),

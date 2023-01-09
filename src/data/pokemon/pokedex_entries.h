@@ -492,12 +492,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ZUBAT] =
+    [NATIONAL_DEX_ICEBOTAMON] =
     {
-        .categoryName = _("BAT"),
-        .height = 8,
-        .weight = 75,
-        .description = gZubatPokedexText,
+        .categoryName = _("SNOW"),
+        .height = 3,
+        .weight = 40,
+        .description = gIceBotamonPokedexText,
         .pokemonScale = 362,
         .pokemonOffset = -5,
         .trainerScale = 256,
