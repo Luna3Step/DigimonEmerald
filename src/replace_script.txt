@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MACHOP"
-with "FRONTIER_MON_KOKOMON"
+replace "FRONTIER_MON_MACHOKE"
+with "FRONTIER_MON_KOROMON"
 
-replace "gMachopPokedexText"
-with "gKokomonPokedexText"
+replace "gMachokePokedexText"
+with "gKoromonPokedexText"
 
-replace "NATIONAL_DEX_MACHOP"
-with "NATIONAL_DEX_KOKOMON"
+replace "NATIONAL_DEX_MACHOKE"
+with "NATIONAL_DEX_KOROMON"
 
-replace "SPECIES_MACHOP"
-with "SPECIES_KOKOMON"
+replace "SPECIES_MACHOKE"
+with "SPECIES_KOROMON"
 
-replace "HOENN_DEX_MACHOP"
-with "HOENN_DEX_KOKOMON"
+replace "HOENN_DEX_MACHOKE"
+with "HOENN_DEX_KOROMON"
 
-replace "SPECIES_TO_HOENN(MACHOP),"
-with "SPECIES_TO_HOENN(KOKOMON),"
+replace "SPECIES_TO_HOENN(MACHOKE),"
+with "SPECIES_TO_HOENN(KOROMON),"
 
-replace "SPECIES_TO_NATIONAL(MACHOP),"
-with "SPECIES_TO_NATIONAL(KOKOMON),"
+replace "SPECIES_TO_NATIONAL(MACHOKE),"
+with "SPECIES_TO_NATIONAL(KOROMON),"
 
-replace "HOENN_TO_NATIONAL(MACHOP),"
-with "HOENN_TO_NATIONAL(KOKOMON),"
+replace "HOENN_TO_NATIONAL(MACHOKE),"
+with "HOENN_TO_NATIONAL(KOROMON),"
 
-replace "EC_POKEMON_NATIONAL(MACHOP),"
-with "EC_POKEMON_NATIONAL(KOKOMON),"
+replace "EC_POKEMON_NATIONAL(MACHOKE),"
+with "EC_POKEMON_NATIONAL(KOROMON),"
 
-replace "egg_moves(MACHOP,"
-with "egg_moves(KOKOMON,"
+replace "egg_moves(MACHOKE,"
+with "egg_moves(KOROMON,"
 
-replace "sMachopLevelUpLearnset"
-with "sKokomonLevelUpLearnset"
+replace "sMachokeLevelUpLearnset"
+with "sKoromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MACHOP"
-with "SPECIES_SPRITE(KOKOMON"
+replace "SPECIES_SPRITE(MACHOKE"
+with "SPECIES_SPRITE(KOROMON"
 
-replace "SPECIES_PAL(MACHOP,"
-with "SPECIES_PAL(KOKOMON,"
+replace "SPECIES_PAL(MACHOKE,"
+with "SPECIES_PAL(KOROMON,"
 
-replace "SPECIES_SHINY_PAL(MACHOP,"
-with "SPECIES_SHINY_PAL(KOKOMON,"
+replace "SPECIES_SHINY_PAL(MACHOKE,"
+with "SPECIES_SHINY_PAL(KOROMON,"
 
-replace "EC_POKEMON(MACHOP)"
-with "EC_POKEMON(KOKOMON)"
+replace "EC_POKEMON(MACHOKE)"
+with "EC_POKEMON(KOROMON)"
 
-replace "EC_POKEMON_NATIONAL(MACHOP)"
-with "EC_POKEMON_NATIONAL(KOKOMON)"
+replace "EC_POKEMON_NATIONAL(MACHOKE)"
+with "EC_POKEMON_NATIONAL(KOROMON)"
 
 in "src/data/text/species_names.h"
-replace "MACHOP"
-with "KOKOMON"
+replace "MACHOKE"
+with "KOROMON"

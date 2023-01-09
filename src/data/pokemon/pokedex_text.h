@@ -400,11 +400,11 @@ const u8 gKokomonPokedexText[] = _(
     "it gets considerably weaker when\n"
     "seperated due to loneliness.");
 
-const u8 gMachokePokedexText[] = _(
-    "A belt is worn by a MACHOKE to keep its\n"
-    "overwhelming power under control.\n"
-    "Because it is so dangerous, no one has\n"
-    "ever removed the belt.");
+const u8 gKoromonPokedexText[] = _(
+    "Koromon is a digimon that shed the \n"
+    "fuzz that was covering it's skin. \n"
+    "Although it is now larger, it is still\n"
+    "very weak in battle.");
 
 const u8 gMachampPokedexText[] = _(
     "It is impossible to defend against punches\n"

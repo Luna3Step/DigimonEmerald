@@ -804,12 +804,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MACHOKE] =
+    [NATIONAL_DEX_KOROMON] =
     {
-        .categoryName = _("SUPERPOWER"),
-        .height = 15,
-        .weight = 705,
-        .description = gMachokePokedexText,
+        .categoryName = _("ROUND"),
+        .height = 6,
+        .weight = 60,
+        .description = gKoromonPokedexText,
         .pokemonScale = 323,
         .pokemonOffset = 9,
         .trainerScale = 257,
