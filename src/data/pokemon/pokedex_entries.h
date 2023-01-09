@@ -336,12 +336,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSLASH] =
+    [NATIONAL_DEX_POYOMON] =
     {
-        .categoryName = _("MOUSE"),
-        .height = 10,
-        .weight = 295,
-        .description = gSandslashPokedexText,
+        .categoryName = _("JELLYFISH"),
+        .height = 3,
+        .weight = 10,
+        .description = gPoyomonPokedexText,
         .pokemonScale = 341,
         .pokemonOffset = 11,
         .trainerScale = 256,

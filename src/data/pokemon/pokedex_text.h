@@ -166,11 +166,11 @@ const u8 gPopomonPokedexText[] = _(
     "leaf. It is a very shy digimon but it\n"
     "is very loyal to those it trusts.");
 
-const u8 gSandslashPokedexText[] = _(
-    "It curls up in a ball to protect itself from\n"
-    "enemy attacks. It also curls up to prevent\n"
-    "heatstroke during the daytime when\n"
-    "temperatures rise sharply.");
+const u8 gPoyomonPokedexText[] = _(
+    "Poyomon can commonly be found drifting\n"
+    "through the net ocean like a jellyfish.\n"
+    "Researchers consider it the missing\n"
+    "link to solving the origin of digimon.");
 
 const u8 gNidoranFPokedexText[] = _(
     "Its highly toxic barbs are thought to have\n"

@@ -999,7 +999,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CASSIDY] = {
-        .species = SPECIES_SANDSLASH,
+        .species = SPECIES_POYOMON,
         .nickname = _("SHRAND"),
         .trainerName = _("CASSIDY"),
         .trainerGfxId = OBJ_EVENT_GFX_POKEFAN_F,
