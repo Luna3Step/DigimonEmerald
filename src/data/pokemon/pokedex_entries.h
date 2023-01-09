@@ -420,12 +420,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFAIRY] =
+    [NATIONAL_DEX_PUYOMON] =
     {
-        .categoryName = _("FAIRY"),
-        .height = 6,
-        .weight = 75,
-        .description = gClefairyPokedexText,
+        .categoryName = _("JELLYFISH"),
+        .height = 3,
+        .weight = 10,
+        .description = gPuyomonPokedexText,
         .pokemonScale = 441,
         .pokemonOffset = 20,
         .trainerScale = 256,

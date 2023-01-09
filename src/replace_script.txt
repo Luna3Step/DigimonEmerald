@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_NIDOKING"
-with "FRONTIER_MON_PUWAMON"
+replace "FRONTIER_MON_CLEFAIRY"
+with "FRONTIER_MON_PUYOMON"
 
-replace "gNidokingPokedexText"
-with "gPuwamonPokedexText"
+replace "gClefairyPokedexText"
+with "gPuyomonPokedexText"
 
-replace "NATIONAL_DEX_NIDOKING"
-with "NATIONAL_DEX_PUWAMON"
+replace "NATIONAL_DEX_CLEFAIRY"
+with "NATIONAL_DEX_PUYOMON"
 
-replace "SPECIES_NIDOKING"
-with "SPECIES_PUWAMON"
+replace "SPECIES_CLEFAIRY"
+with "SPECIES_PUYOMON"
 
-replace "HOENN_DEX_NIDOKING"
-with "HOENN_DEX_PUWAMON"
+replace "HOENN_DEX_CLEFAIRY"
+with "HOENN_DEX_PUYOMON"
 
-replace "SPECIES_TO_HOENN(NIDOKING),"
-with "SPECIES_TO_HOENN(PUWAMON),"
+replace "SPECIES_TO_HOENN(CLEFAIRY),"
+with "SPECIES_TO_HOENN(PUYOMON),"
 
-replace "SPECIES_TO_NATIONAL(NIDOKING),"
-with "SPECIES_TO_NATIONAL(PUWAMON),"
+replace "SPECIES_TO_NATIONAL(CLEFAIRY),"
+with "SPECIES_TO_NATIONAL(PUYOMON),"
 
-replace "HOENN_TO_NATIONAL(NIDOKING),"
-with "HOENN_TO_NATIONAL(PUWAMON),"
+replace "HOENN_TO_NATIONAL(CLEFAIRY),"
+with "HOENN_TO_NATIONAL(PUYOMON),"
 
-replace "EC_POKEMON_NATIONAL(NIDOKING),"
-with "EC_POKEMON_NATIONAL(PUWAMON),"
+replace "EC_POKEMON_NATIONAL(CLEFAIRY),"
+with "EC_POKEMON_NATIONAL(PUYOMON),"
 
-replace "egg_moves(NIDOKING,"
-with "egg_moves(PUWAMON,"
+replace "egg_moves(CLEFAIRY,"
+with "egg_moves(PUYOMON,"
 
-replace "sNidokingLevelUpLearnset"
-with "sPuwamonLevelUpLearnset"
+replace "sClefairyLevelUpLearnset"
+with "sPuyomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(NIDOKING"
-with "SPECIES_SPRITE(PUWAMON"
+replace "SPECIES_SPRITE(CLEFAIRY"
+with "SPECIES_SPRITE(PUYOMON"
 
-replace "SPECIES_PAL(NIDOKING,"
-with "SPECIES_PAL(PUWAMON,"
+replace "SPECIES_PAL(CLEFAIRY,"
+with "SPECIES_PAL(PUYOMON,"
 
-replace "SPECIES_SHINY_PAL(NIDOKING,"
-with "SPECIES_SHINY_PAL(PUWAMON,"
+replace "SPECIES_SHINY_PAL(CLEFAIRY,"
+with "SPECIES_SHINY_PAL(PUYOMON,"
 
 
 

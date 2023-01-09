@@ -208,11 +208,11 @@ const u8 gPuwamonPokedexText[] = _(
     "curious personality and lacks any\n"
     "shyness making it a tamer favourite.");
 
-const u8 gClefairyPokedexText[] = _(
-    "On every night of a full moon, they come\n"
-    "out to play. When dawn arrives, the tired\n"
-    "CLEFAIRY go to sleep nestled up against\n"
-    "each other in deep and quiet mountains.");
+const u8 gPuyomonPokedexText[] = _(
+    "Puyomon is another species of Jellyfish \n"
+    "digimon found in the Net Ocean. It has\n"
+    "a singular lens but it lacks any \n"
+    "emotional expression.");
 
 const u8 gClefablePokedexText[] = _(
     "A CLEFABLE uses its wings to skip lightly \n"

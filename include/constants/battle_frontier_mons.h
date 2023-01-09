@@ -108,7 +108,7 @@
 #define FRONTIER_MON_CUBONE         104
 #define FRONTIER_MON_GOLDEEN        105
 #define FRONTIER_MON_NATU           106
-#define FRONTIER_MON_CLEFAIRY       107
+#define FRONTIER_MON_PUYOMON       107
 #define FRONTIER_MON_MAGNEMITE      108
 #define FRONTIER_MON_SEEL           109
 #define FRONTIER_MON_GRIMER         110

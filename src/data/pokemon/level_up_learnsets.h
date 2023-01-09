@@ -451,7 +451,7 @@ static const u16 sPuwamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sClefairyLevelUpLearnset[] = {
+static const u16 sPuyomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 5, MOVE_ENCORE),

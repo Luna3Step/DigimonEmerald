@@ -107,7 +107,7 @@
     FRONTIER_MON_CUBONE,        \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_NATU,          \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_MAGNEMITE,     \
     FRONTIER_MON_SEEL,          \
     -1
@@ -274,7 +274,7 @@
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_PSYDUCK,       \
     FRONTIER_MON_GOLDEEN,       \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_SEEL,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
@@ -324,7 +324,7 @@
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_PSYDUCK,       \
     FRONTIER_MON_GOLDEEN,       \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_SEEL,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
@@ -364,7 +364,7 @@
     FRONTIER_MON_PSYDUCK,       \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_NATU,          \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_SEEL,          \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_EEVEE,         \
@@ -725,7 +725,7 @@
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_TORCHIC,       \
     FRONTIER_MON_NATU,          \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
     FRONTIER_MON_DELIBIRD,      \
@@ -858,7 +858,7 @@
     FRONTIER_MON_DODUO,         \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_CUBONE,        \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
     FRONTIER_MON_PHANPY,        \
@@ -890,7 +890,7 @@
     FRONTIER_MON_TOTODILE,      \
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_PSYDUCK,       \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_SEEL,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
@@ -923,7 +923,7 @@
     FRONTIER_MON_MACHOP,        \
     FRONTIER_MON_DODUO,         \
     FRONTIER_MON_SWABLU,        \
-    FRONTIER_MON_CLEFAIRY,      \
+    FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_MAGNEMITE,     \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_VOLTORB,       \
