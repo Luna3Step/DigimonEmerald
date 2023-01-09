@@ -412,11 +412,11 @@ const u8 gKozenimonPokedexText[] = _(
     "appearence with japanese currency. It's\n"
     "only strength is it's willpower.");
 
-const u8 gBellsproutPokedexText[] = _(
-    "A BELLSPROUT's thin and flexible body lets\n"
-    "it bend and sway to avoid any attack,\n"
-    "however strong it may be. From its mouth,\n"
-    "it leaks a fluid that melts even iron.");
+const u8 gKyaromonPokedexText[] = _(
+    "Kyaromon are very active digimon that\n"
+    "will often bounce between interests. It\n"
+    "has been observed that they are mostly\n"
+    "ampty inside and bounce like rubber balls.");
 
 const u8 gWeepinbellPokedexText[] = _(
     "At night, a WEEPINBELL hangs on to a tree\n"

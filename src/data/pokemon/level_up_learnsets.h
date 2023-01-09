@@ -911,7 +911,7 @@ static const u16 sKozenimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBellsproutLevelUpLearnset[] = {
+static const u16 sKyaromonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE( 6, MOVE_GROWTH),
     LEVEL_UP_MOVE(11, MOVE_WRAP),

@@ -828,12 +828,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = -1,
     },
 
-    [NATIONAL_DEX_BELLSPROUT] =
+    [NATIONAL_DEX_KYAROMON] =
     {
-        .categoryName = _("FLOWER"),
-        .height = 7,
-        .weight = 40,
-        .description = gBellsproutPokedexText,
+        .categoryName = _("RUBBER BALL"),
+        .height = 6,
+        .weight = 30,
+        .description = gKyaromonPokedexText,
         .pokemonScale = 354,
         .pokemonOffset = 16,
         .trainerScale = 256,

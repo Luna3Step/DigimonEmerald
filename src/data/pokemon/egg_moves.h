@@ -208,7 +208,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_ROCK_SLIDE),
 
-    egg_moves(BELLSPROUT,
+    egg_moves(KYAROMON,
               MOVE_SWORDS_DANCE,
               MOVE_ENCORE,
               MOVE_REFLECT,
