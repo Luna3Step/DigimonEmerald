@@ -238,11 +238,11 @@ const u8 gSandmonPokedexText[] = _(
     "harden or soften it's body at will to\n"
     "fit its needs in the moment.");
 
-const u8 gWigglytuffPokedexText[] = _(
-    "Its fur is the ultimate in luxuriousness.\n"
-    "Sleeping alongside a WIGGLYTUFF is simply\n"
-    "divine. Its body expands seemingly without\n"
-    "end when it inhales.");
+const u8 gTsubumonPokedexText[] = _(
+    "Tsubumon is often mistaken to be a grass\n"
+    "type digimon due it's seed like appearance\n"
+    "and that it is often sent flying with \n"
+    "strong gusts of wind.");
 
 const u8 gZubatPokedexText[] = _(
     "While living in pitch-black caverns, their\n"

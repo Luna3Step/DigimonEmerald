@@ -480,12 +480,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WIGGLYTUFF] =
+    [NATIONAL_DEX_TSUBUMON] =
     {
-        .categoryName = _("BALLOON"),
-        .height = 10,
-        .weight = 120,
-        .description = gWigglytuffPokedexText,
+        .categoryName = _("FAKE SEED"),
+        .height = 3,
+        .weight = 30,
+        .description = gTsubumonPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 11,
         .trainerScale = 256,
