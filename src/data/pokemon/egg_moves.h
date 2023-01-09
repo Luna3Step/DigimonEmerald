@@ -120,7 +120,7 @@ const u16 gEggMoves[] = {
               MOVE_CHARM,
               MOVE_INGRAIN),
 
-    egg_moves(PARAS,
+    egg_moves(ARGOMON_IT,
               MOVE_FALSE_SWIPE,
               MOVE_SCREECH,
               MOVE_COUNTER,

@@ -1180,7 +1180,7 @@ const u16 gEasyChatWordsByLetter_O[] = {
 
 const u16 gEasyChatWordsByLetter_P[] = {
     EC_MOVE(PAIN_SPLIT),
-    EC_POKEMON_NATIONAL(PARAS),
+    EC_POKEMON_NATIONAL(ARGOMON_IT),
     EC_POKEMON_NATIONAL(PARASECT),
     EC_WORD_PARDON,
     EC_WORD_PARENT,

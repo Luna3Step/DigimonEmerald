@@ -589,7 +589,7 @@ static const u16 sArcadiamon_itLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sParasLevelUpLearnset[] = {
+static const u16 sArgomon_itLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 7, MOVE_STUN_SPORE),
     LEVEL_UP_MOVE(13, MOVE_POISON_POWDER),

@@ -274,11 +274,11 @@ const u8 gArcadiamon_itPokedexText[] = _(
     "digimon. Despite only being In-Training,\n"
     "it has incredible physical abilities.");
 
-const u8 gParasPokedexText[] = _(
-    "A PARAS has parasitic tochukaso\n"
-    "mushrooms growing on its back. They grow\n"
-    "by drawing nutrients from the host. They\n"
-    "are valued as a medicine for long life.");
+const u8 gArgomon_itPokedexText[] = _(
+    "Argomon is often seen attached to places \n"
+    "where large volumes of data flow. They \n"
+    "use the mouth on it's underside to \n"
+    "consume that data.");
 
 const u8 gParasectPokedexText[] = _(
     "PARASECT are known to infest the roots of\n"

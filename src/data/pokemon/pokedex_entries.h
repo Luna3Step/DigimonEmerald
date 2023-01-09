@@ -552,19 +552,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PARAS] =
+    [NATIONAL_DEX_ARGOMON_IT] =
     {
-        .categoryName = _("MUSHROOM"),
-        .height = 3,
-        .weight = 54,
-        .description = gParasPokedexText,
+        .categoryName = _("MUTANT"),
+        .height = 6,
+        .weight = 60,
+        .description = gArgomon_itPokedexText,
         .pokemonScale = 593,
         .pokemonOffset = 22,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PARASECT] =
+    [NATIONAL_DEX_ARGOMON_ITECT] =
     {
         .categoryName = _("MUSHROOM"),
         .height = 10,
