@@ -22,7 +22,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_KEEMON]    = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  9 },
     [SPECIES_KETOMON]      = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_KURAMON]   = { .size = MON_COORDS_SIZE(48, 56), .y_offset = 11 },
-    [SPECIES_PIDGEOT]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },
+    [SPECIES_LEAFMON]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },
     [SPECIES_RATTATA]     = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 16 },
     [SPECIES_RATICATE]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_SPEAROW]     = { .size = MON_COORDS_SIZE(32, 40), .y_offset = 15 },

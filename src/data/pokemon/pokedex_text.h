@@ -106,11 +106,11 @@ const u8 gKuramonPokedexText[] = _(
     "internet. It multiplies incredibly fast,\n"
     "consuming all data it finds.");
 
-const u8 gPidgeotPokedexText[] = _(
-    "This POKéMON has gorgeous, glossy\n"
-    "feathers. Many TRAINERS are so captivated\n"
-    "by the beautiful feathers on its head that\n"
-    "they choose PIDGEOT as their POKéMON.");
+const u8 gLeafmonPokedexText[] = _(
+    "Leafmons body is almost identical to the\n"
+    "make-up of a plant. It has a leaf shaped\n"
+    "tail that is use's to protect itself \n"
+    "from the elements.");
 
 const u8 gRattataPokedexText[] = _(
     "A RATTATA is cautious in the extreme.\n"

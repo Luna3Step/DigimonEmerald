@@ -216,12 +216,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PIDGEOT] =
+    [NATIONAL_DEX_LEAFMON] =
     {
-        .categoryName = _("BIRD"),
-        .height = 15,
-        .weight = 395,
-        .description = gPidgeotPokedexText,
+        .categoryName = _("LEAF"),
+        .height = 3,
+        .weight = 40,
+        .description = gLeafmonPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 0,
         .trainerScale = 256,
