@@ -81,7 +81,7 @@
 #define FRONTIER_MON_BAGON          77
 #define FRONTIER_MON_BELDUM         78
 #define FRONTIER_MON_GULPIN         79
-#define FRONTIER_MON_VENONAT        80
+#define FRONTIER_MON_BIBIMON        80
 #define FRONTIER_MON_MANKEY         81
 #define FRONTIER_MON_MACHOP         82
 #define FRONTIER_MON_SHELLDER       83

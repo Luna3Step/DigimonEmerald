@@ -576,12 +576,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VENONAT] =
+    [NATIONAL_DEX_BIBIMON] =
     {
-        .categoryName = _("INSECT"),
-        .height = 10,
-        .weight = 300,
-        .description = gVenonatPokedexText,
+        .categoryName = _("HEART RATE"),
+        .height = 6,
+        .weight = 60,
+        .description = gBibimonPokedexText,
         .pokemonScale = 360,
         .pokemonOffset = 0,
         .trainerScale = 256,

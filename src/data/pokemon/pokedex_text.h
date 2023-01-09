@@ -286,11 +286,11 @@ const u8 gBabydmonPokedexText[] = _(
     "ancient and long lost Digimon. It is\n"
     "very ferocious despite it's size.");
 
-const u8 gVenonatPokedexText[] = _(
-    "Its coat of thin, stiff hair that covers\n"
-    "its entire body is said to have evolved\n"
-    "for protection. Its large eyes never fail\n"
-    "to spot even miniscule prey.");
+const u8 gBibimonPokedexText[] = _(
+    "Bibimon lacks composure and is often \n"
+    "seen stumbling around. This is because\n"
+    "it is not yet used to having four \n"
+    "limbs yet.");
 
 const u8 gVenomothPokedexText[] = _(
     "VENOMOTH are nocturnal--they only are\n"

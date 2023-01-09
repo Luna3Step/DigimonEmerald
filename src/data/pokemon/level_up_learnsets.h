@@ -617,7 +617,7 @@ static const u16 sBabydmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVenonatLevelUpLearnset[] = {
+static const u16 sBibimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_DISABLE),
     LEVEL_UP_MOVE( 1, MOVE_FORESIGHT),

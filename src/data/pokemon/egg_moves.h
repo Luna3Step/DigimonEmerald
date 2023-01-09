@@ -130,7 +130,7 @@ const u16 gEggMoves[] = {
               MOVE_LIGHT_SCREEN,
               MOVE_PURSUIT),
 
-    egg_moves(VENONAT,
+    egg_moves(BIBIMON,
               MOVE_BATON_PASS,
               MOVE_SCREECH,
               MOVE_GIGA_DRAIN,
