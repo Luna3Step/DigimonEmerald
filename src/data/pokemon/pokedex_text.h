@@ -382,11 +382,11 @@ const u8 gHopmonPokedexText[] = _(
     "naked eye. It also has a strong\n"
     "sense of justice.");
 
-const u8 gKadabraPokedexText[] = _(
-    "It is rumored that a boy with psychic\n"
-    "abilities suddenly transformed into\n"
-    "KADABRA while he was assisting research\n"
-    "into extrasensory powers.");
+const u8 gKakkinmonPokedexText[] = _(
+    "Kakkinmon's hat is actually a copper \n"
+    "shield that provides moderate protection.\n"
+    "However Kakkinmon has been known to\n"
+    "trust its hats strength in battle.");
 
 const u8 gAlakazamPokedexText[] = _(
     "While it has strong psychic abilities and\n"

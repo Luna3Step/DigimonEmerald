@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ABRA"
-with "FRONTIER_MON_HOPMON"
+replace "FRONTIER_MON_KADABRA"
+with "FRONTIER_MON_KAKKINMON"
 
-replace "gAbraPokedexText"
-with "gHopmonPokedexText"
+replace "gKadabraPokedexText"
+with "gKakkinmonPokedexText"
 
-replace "NATIONAL_DEX_ABRA"
-with "NATIONAL_DEX_HOPMON"
+replace "NATIONAL_DEX_KADABRA"
+with "NATIONAL_DEX_KAKKINMON"
 
-replace "SPECIES_ABRA"
-with "SPECIES_HOPMON"
+replace "SPECIES_KADABRA"
+with "SPECIES_KAKKINMON"
 
-replace "HOENN_DEX_ABRA"
-with "HOENN_DEX_HOPMON"
+replace "HOENN_DEX_KADABRA"
+with "HOENN_DEX_KAKKINMON"
 
-replace "SPECIES_TO_HOENN(ABRA),"
-with "SPECIES_TO_HOENN(HOPMON),"
+replace "SPECIES_TO_HOENN(KADABRA),"
+with "SPECIES_TO_HOENN(KAKKINMON),"
 
-replace "SPECIES_TO_NATIONAL(ABRA),"
-with "SPECIES_TO_NATIONAL(HOPMON),"
+replace "SPECIES_TO_NATIONAL(KADABRA),"
+with "SPECIES_TO_NATIONAL(KAKKINMON),"
 
-replace "HOENN_TO_NATIONAL(ABRA),"
-with "HOENN_TO_NATIONAL(HOPMON),"
+replace "HOENN_TO_NATIONAL(KADABRA),"
+with "HOENN_TO_NATIONAL(KAKKINMON),"
 
-replace "EC_POKEMON_NATIONAL(ABRA),"
-with "EC_POKEMON_NATIONAL(HOPMON),"
+replace "EC_POKEMON_NATIONAL(KADABRA),"
+with "EC_POKEMON_NATIONAL(KAKKINMON),"
 
-replace "egg_moves(ABRA,"
-with "egg_moves(HOPMON,"
+replace "egg_moves(KADABRA,"
+with "egg_moves(KAKKINMON,"
 
-replace "sAbraLevelUpLearnset"
-with "sHopmonLevelUpLearnset"
+replace "sKadabraLevelUpLearnset"
+with "sKakkinmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ABRA"
-with "SPECIES_SPRITE(HOPMON"
+replace "SPECIES_SPRITE(KADABRA"
+with "SPECIES_SPRITE(KAKKINMON"
 
-replace "SPECIES_PAL(ABRA,"
-with "SPECIES_PAL(HOPMON,"
+replace "SPECIES_PAL(KADABRA,"
+with "SPECIES_PAL(KAKKINMON,"
 
-replace "SPECIES_SHINY_PAL(ABRA,"
-with "SPECIES_SHINY_PAL(HOPMON,"
+replace "SPECIES_SHINY_PAL(KADABRA,"
+with "SPECIES_SHINY_PAL(KAKKINMON,"
 
-replace "EC_POKEMON(ABRA)"
-with "EC_POKEMON(HOPMON)"
+replace "EC_POKEMON(KADABRA)"
+with "EC_POKEMON(KAKKINMON)"
 
-replace "EC_POKEMON_NATIONAL(ABRA)"
-with "EC_POKEMON_NATIONAL(HOPMON)"
+replace "EC_POKEMON_NATIONAL(KADABRA)"
+with "EC_POKEMON_NATIONAL(KAKKINMON)"
 
 in "src/data/text/species_names.h"
-replace "ABRA"
-with "HOPMON"
+replace "KADABRA"
+with "KAKKINMON"

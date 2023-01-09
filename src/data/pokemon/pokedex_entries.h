@@ -768,12 +768,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KADABRA] =
+    [NATIONAL_DEX_KAKKINMON] =
     {
-        .categoryName = _("PSI"),
-        .height = 13,
-        .weight = 565,
-        .description = gKadabraPokedexText,
+        .categoryName = _("ARMOUR"),
+        .height = 6,
+        .weight = 80,
+        .description = gKakkinmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 256,
