@@ -732,12 +732,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_POLIWHIRL] =
+    [NATIONAL_DEX_GURIMON] =
     {
-        .categoryName = _("TADPOLE"),
-        .height = 10,
-        .weight = 200,
-        .description = gPoliwhirlPokedexText,
+        .categoryName = _("HORN"),
+        .height = 6,
+        .weight = 60,
+        .description = gGurimonPokedexText,
         .pokemonScale = 288,
         .pokemonOffset = 11,
         .trainerScale = 256,

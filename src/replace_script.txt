@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_POLIWAG"
-with "FRONTIER_MON_GUMMYMON"
+replace "FRONTIER_MON_POLIWHIRL"
+with "FRONTIER_MON_GURIMON"
 
-replace "gPoliwagPokedexText"
-with "gGummymonPokedexText"
+replace "gPoliwhirlPokedexText"
+with "gGurimonPokedexText"
 
-replace "NATIONAL_DEX_POLIWAG"
-with "NATIONAL_DEX_GUMMYMON"
+replace "NATIONAL_DEX_POLIWHIRL"
+with "NATIONAL_DEX_GURIMON"
 
-replace "SPECIES_POLIWAG"
-with "SPECIES_GUMMYMON"
+replace "SPECIES_POLIWHIRL"
+with "SPECIES_GURIMON"
 
-replace "HOENN_DEX_POLIWAG"
-with "HOENN_DEX_GUMMYMON"
+replace "HOENN_DEX_POLIWHIRL"
+with "HOENN_DEX_GURIMON"
 
-replace "SPECIES_TO_HOENN(POLIWAG),"
-with "SPECIES_TO_HOENN(GUMMYMON),"
+replace "SPECIES_TO_HOENN(POLIWHIRL),"
+with "SPECIES_TO_HOENN(GURIMON),"
 
-replace "SPECIES_TO_NATIONAL(POLIWAG),"
-with "SPECIES_TO_NATIONAL(GUMMYMON),"
+replace "SPECIES_TO_NATIONAL(POLIWHIRL),"
+with "SPECIES_TO_NATIONAL(GURIMON),"
 
-replace "HOENN_TO_NATIONAL(POLIWAG),"
-with "HOENN_TO_NATIONAL(GUMMYMON),"
+replace "HOENN_TO_NATIONAL(POLIWHIRL),"
+with "HOENN_TO_NATIONAL(GURIMON),"
 
-replace "EC_POKEMON_NATIONAL(POLIWAG),"
-with "EC_POKEMON_NATIONAL(GUMMYMON),"
+replace "EC_POKEMON_NATIONAL(POLIWHIRL),"
+with "EC_POKEMON_NATIONAL(GURIMON),"
 
-replace "egg_moves(POLIWAG,"
-with "egg_moves(GUMMYMON,"
+replace "egg_moves(POLIWHIRL,"
+with "egg_moves(GURIMON,"
 
-replace "sPoliwagLevelUpLearnset"
-with "sGummymonLevelUpLearnset"
+replace "sPoliwhirlLevelUpLearnset"
+with "sGurimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(POLIWAG"
-with "SPECIES_SPRITE(GUMMYMON"
+replace "SPECIES_SPRITE(POLIWHIRL"
+with "SPECIES_SPRITE(GURIMON"
 
-replace "SPECIES_PAL(POLIWAG,"
-with "SPECIES_PAL(GUMMYMON,"
+replace "SPECIES_PAL(POLIWHIRL,"
+with "SPECIES_PAL(GURIMON,"
 
-replace "SPECIES_SHINY_PAL(POLIWAG,"
-with "SPECIES_SHINY_PAL(GUMMYMON,"
+replace "SPECIES_SHINY_PAL(POLIWHIRL,"
+with "SPECIES_SHINY_PAL(GURIMON,"
 
-replace "EC_POKEMON(POLIWAG)"
-with "EC_POKEMON(GUMMYMON)"
+replace "EC_POKEMON(POLIWHIRL)"
+with "EC_POKEMON(GURIMON)"
 
-replace "EC_POKEMON_NATIONAL(POLIWAG)"
-with "EC_POKEMON_NATIONAL(GUMMYMON)"
+replace "EC_POKEMON_NATIONAL(POLIWHIRL)"
+with "EC_POKEMON_NATIONAL(GURIMON)"
 
 in "src/data/text/species_names.h"
-replace "POLIWAG"
-with "GUMMYMON"
+replace "POLIWHIRL"
+with "GURIMON"

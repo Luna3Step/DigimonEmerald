@@ -364,11 +364,11 @@ const u8 gGummymonPokedexText[] = _(
     "unstable however it's horn is hardened.\n"
     "providing some option for offense.");
 
-const u8 gPoliwhirlPokedexText[] = _(
-    "Its body surface is always wet and slick\n"
-    "with an oily fluid. Because of this greasy\n"
-    "covering, it can easily slip and slide out\n"
-    "of the clutches of any enemy in battle.");
+const u8 gGurimonPokedexText[] = _(
+    "Gurimon can be seen often bouncing around\n"
+    "energetically. It loves large, hard rocks\n"
+    "and will strike them with it's horns. It\n"
+    "also has a hard frill to protect it's body.");
 
 const u8 gPoliwrathPokedexText[] = _(
     "Its highly developed muscles never grow\n"
