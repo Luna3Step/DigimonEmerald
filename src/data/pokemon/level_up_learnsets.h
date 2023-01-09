@@ -650,7 +650,7 @@ static const u16 sBosamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDiglettLevelUpLearnset[] = {
+static const u16 sBudmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),

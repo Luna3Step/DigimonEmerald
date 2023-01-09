@@ -298,11 +298,11 @@ const u8 gBosamonPokedexText[] = _(
     "personality has become calm instead.\n"
     "It's now has even greater hearing.");
 
-const u8 gDiglettPokedexText[] = _(
-    "DIGLETT are raised in most farms.\n"
-    "The reason is simple--wherever they\n"
-    "burrow, the soil is left perfectly tilled\n"
-    "for growing delicious crops.");
+const u8 gBudmonPokedexText[] = _(
+    "Budmon is made up of the data from \n"
+    "various poisonous plants from the\n"
+    "digital world. It usually drifts \n"
+    "through the air by its leaf.");
 
 const u8 gDugtrioPokedexText[] = _(
     "Because the triplets originally split from\n"

@@ -261,7 +261,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round5[] =
 static const struct PyramidWildMon sLevel50WildMons_Round6[] =
 {
     {
-        .species = SPECIES_DIGLETT,
+        .species = SPECIES_BUDMON,
         .lvl = 41,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_ROCK_SLIDE, MOVE_SLASH, MOVE_DIG, MOVE_NONE}
@@ -279,7 +279,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round6[] =
         .moves = {MOVE_DESTINY_BOND, MOVE_SPLASH, MOVE_COUNTER, MOVE_MIRROR_COAT}
     },
     {
-        .species = SPECIES_DIGLETT,
+        .species = SPECIES_BUDMON,
         .lvl = 42,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_MAGNITUDE, MOVE_TOXIC}

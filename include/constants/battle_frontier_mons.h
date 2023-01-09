@@ -40,7 +40,7 @@
 #define FRONTIER_MON_SKITTY         36
 #define FRONTIER_MON_NYOKIMON        37
 #define FRONTIER_MON_HOOTHOOT       38
-#define FRONTIER_MON_DIGLETT        39
+#define FRONTIER_MON_BUDMON        39
 #define FRONTIER_MON_LEDYBA         40
 #define FRONTIER_MON_NINCADA        41
 #define FRONTIER_MON_SURSKIT        42

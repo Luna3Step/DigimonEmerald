@@ -136,7 +136,7 @@ const u16 gEggMoves[] = {
               MOVE_GIGA_DRAIN,
               MOVE_SIGNAL_BEAM),
 
-    egg_moves(DIGLETT,
+    egg_moves(BUDMON,
               MOVE_FAINT_ATTACK,
               MOVE_SCREECH,
               MOVE_ANCIENT_POWER,

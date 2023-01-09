@@ -600,12 +600,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_DIGLETT] =
+    [NATIONAL_DEX_BUDMON] =
     {
-        .categoryName = _("MOLE"),
-        .height = 2,
-        .weight = 8,
-        .description = gDiglettPokedexText,
+        .categoryName = _("POISON SEED"),
+        .height = 6,
+        .weight = 60,
+        .description = gBudmonPokedexText,
         .pokemonScale = 833,
         .pokemonOffset = 25,
         .trainerScale = 256,
