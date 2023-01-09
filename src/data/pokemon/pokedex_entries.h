@@ -432,12 +432,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFABLE] =
+    [NATIONAL_DEX_PYONMON] =
     {
-        .categoryName = _("FAIRY"),
-        .height = 13,
-        .weight = 400,
-        .description = gClefablePokedexText,
+        .categoryName = _("LARGE EAR"),
+        .height = 3,
+        .weight = 40,
+        .description = gPyonmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 5,
         .trainerScale = 256,

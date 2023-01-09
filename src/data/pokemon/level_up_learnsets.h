@@ -468,7 +468,7 @@ static const u16 sPuyomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sClefableLevelUpLearnset[] = {
+static const u16 sPyonmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_MINIMIZE),

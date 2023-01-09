@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_CLEFAIRY"
-with "FRONTIER_MON_PUYOMON"
+replace "FRONTIER_MON_CLEFABLE"
+with "FRONTIER_MON_PYONMON"
 
-replace "gClefairyPokedexText"
-with "gPuyomonPokedexText"
+replace "gClefablePokedexText"
+with "gPyonmonPokedexText"
 
-replace "NATIONAL_DEX_CLEFAIRY"
-with "NATIONAL_DEX_PUYOMON"
+replace "NATIONAL_DEX_CLEFABLE"
+with "NATIONAL_DEX_PYONMON"
 
-replace "SPECIES_CLEFAIRY"
-with "SPECIES_PUYOMON"
+replace "SPECIES_CLEFABLE"
+with "SPECIES_PYONMON"
 
-replace "HOENN_DEX_CLEFAIRY"
-with "HOENN_DEX_PUYOMON"
+replace "HOENN_DEX_CLEFABLE"
+with "HOENN_DEX_PYONMON"
 
-replace "SPECIES_TO_HOENN(CLEFAIRY),"
-with "SPECIES_TO_HOENN(PUYOMON),"
+replace "SPECIES_TO_HOENN(CLEFABLE),"
+with "SPECIES_TO_HOENN(PYONMON),"
 
-replace "SPECIES_TO_NATIONAL(CLEFAIRY),"
-with "SPECIES_TO_NATIONAL(PUYOMON),"
+replace "SPECIES_TO_NATIONAL(CLEFABLE),"
+with "SPECIES_TO_NATIONAL(PYONMON),"
 
-replace "HOENN_TO_NATIONAL(CLEFAIRY),"
-with "HOENN_TO_NATIONAL(PUYOMON),"
+replace "HOENN_TO_NATIONAL(CLEFABLE),"
+with "HOENN_TO_NATIONAL(PYONMON),"
 
-replace "EC_POKEMON_NATIONAL(CLEFAIRY),"
-with "EC_POKEMON_NATIONAL(PUYOMON),"
+replace "EC_POKEMON_NATIONAL(CLEFABLE),"
+with "EC_POKEMON_NATIONAL(PYONMON),"
 
-replace "egg_moves(CLEFAIRY,"
-with "egg_moves(PUYOMON,"
+replace "egg_moves(CLEFABLE,"
+with "egg_moves(PYONMON,"
 
-replace "sClefairyLevelUpLearnset"
-with "sPuyomonLevelUpLearnset"
+replace "sClefableLevelUpLearnset"
+with "sPyonmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CLEFAIRY"
-with "SPECIES_SPRITE(PUYOMON"
+replace "SPECIES_SPRITE(CLEFABLE"
+with "SPECIES_SPRITE(PYONMON"
 
-replace "SPECIES_PAL(CLEFAIRY,"
-with "SPECIES_PAL(PUYOMON,"
+replace "SPECIES_PAL(CLEFABLE,"
+with "SPECIES_PAL(PYONMON,"
 
-replace "SPECIES_SHINY_PAL(CLEFAIRY,"
-with "SPECIES_SHINY_PAL(PUYOMON,"
+replace "SPECIES_SHINY_PAL(CLEFABLE,"
+with "SPECIES_SHINY_PAL(PYONMON,"
 
 
 

@@ -214,11 +214,11 @@ const u8 gPuyomonPokedexText[] = _(
     "a singular lens but it lacks any \n"
     "emotional expression.");
 
-const u8 gClefablePokedexText[] = _(
-    "A CLEFABLE uses its wings to skip lightly \n"
-    "as if it were flying. Its bouncy step\n"
-    "lets it even walk on water. On quiet,\n"
-    "moonlit nights, it strolls on lakes.");
+const u8 gPyonmonPokedexText[] = _(
+    "Pyonmon is covered in tufty body hair\n"
+    "and has a singular large ear. When it\n"
+    "attacks, it uses its ear which has \n"
+    "enough power to blow away Rookies.");
 
 const u8 gVulpixPokedexText[] = _(
     "It can freely control fire, making fiery\n"
