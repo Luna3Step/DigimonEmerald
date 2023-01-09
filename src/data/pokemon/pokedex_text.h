@@ -346,11 +346,11 @@ const u8 gDorimonPokedexText[] = _(
     "it hits something while charging, it\n"
     "can deal considerable damage.");
 
-const u8 gGrowlithePokedexText[] = _(
-    "Its superb sense of smell ensures that\n"
-    "this POKéMON won't forget any scent,\n"
-    "no matter what. It uses its sense of smell\n"
-    "to detect the emotions of others.");
+const u8 gFrimonPokedexText[] = _(
+    "Frimon possesses a frill on its neck\n"
+    "that's hardness can be changed at will.\n"
+    "It can be seen chasing it's own tail\n"
+    "when it get's bored.");
 
 const u8 gArcaninePokedexText[] = _(
     "This fleet-footed POKéMON is said to run\n"

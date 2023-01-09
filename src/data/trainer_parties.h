@@ -10782,7 +10782,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery3[] = {
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_GROWLITHE,
+    .species = SPECIES_FRIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_ROAR, MOVE_SUNNY_DAY}
     },
@@ -10827,7 +10827,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery4[] = {
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_GROWLITHE,
+    .species = SPECIES_FRIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_ROAR}
     },

@@ -696,12 +696,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GROWLITHE] =
+    [NATIONAL_DEX_FRIMON] =
     {
-        .categoryName = _("PUPPY"),
-        .height = 7,
-        .weight = 190,
-        .description = gGrowlithePokedexText,
+        .categoryName = _("FRILL"),
+        .height = 6,
+        .weight = 60,
+        .description = gFrimonPokedexText,
         .pokemonScale = 346,
         .pokemonOffset = 14,
         .trainerScale = 256,

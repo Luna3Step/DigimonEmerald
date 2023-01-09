@@ -173,7 +173,7 @@ const u16 gEggMoves[] = {
               MOVE_REVENGE,
               MOVE_SMELLING_SALT),
 
-    egg_moves(GROWLITHE,
+    egg_moves(FRIMON,
               MOVE_BODY_SLAM,
               MOVE_SAFEGUARD,
               MOVE_CRUNCH,

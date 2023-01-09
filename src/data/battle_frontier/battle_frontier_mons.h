@@ -952,8 +952,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_QUIRKY
     },
-    [FRONTIER_MON_GROWLITHE] = {
-        .species = SPECIES_GROWLITHE,
+    [FRONTIER_MON_FRIMON] = {
+        .species = SPECIES_FRIMON,
         .moves = {MOVE_FLAME_WHEEL, MOVE_BITE, MOVE_ROAR, MOVE_AGILITY},
         .itemTableId = BATTLE_FRONTIER_ITEM_RAWST_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
