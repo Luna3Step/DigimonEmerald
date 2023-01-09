@@ -442,7 +442,7 @@ static const u16 sPuttimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNidokingLevelUpLearnset[] = {
+static const u16 sPuwamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_KICK),

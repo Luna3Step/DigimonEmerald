@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_NIDORINO"
-with "FRONTIER_MON_PUTTIMON"
+replace "FRONTIER_MON_NIDOKING"
+with "FRONTIER_MON_PUWAMON"
 
-replace "gNidorinoPokedexText"
-with "gPuttimonPokedexText"
+replace "gNidokingPokedexText"
+with "gPuwamonPokedexText"
 
-replace "NATIONAL_DEX_NIDORINO"
-with "NATIONAL_DEX_PUTTIMON"
+replace "NATIONAL_DEX_NIDOKING"
+with "NATIONAL_DEX_PUWAMON"
 
-replace "SPECIES_NIDORINO"
-with "SPECIES_PUTTIMON"
+replace "SPECIES_NIDOKING"
+with "SPECIES_PUWAMON"
 
-replace "HOENN_DEX_NIDORINO"
-with "HOENN_DEX_PUTTIMON"
+replace "HOENN_DEX_NIDOKING"
+with "HOENN_DEX_PUWAMON"
 
-replace "SPECIES_TO_HOENN(NIDORINO),"
-with "SPECIES_TO_HOENN(PUTTIMON),"
+replace "SPECIES_TO_HOENN(NIDOKING),"
+with "SPECIES_TO_HOENN(PUWAMON),"
 
-replace "SPECIES_TO_NATIONAL(NIDORINO),"
-with "SPECIES_TO_NATIONAL(PUTTIMON),"
+replace "SPECIES_TO_NATIONAL(NIDOKING),"
+with "SPECIES_TO_NATIONAL(PUWAMON),"
 
-replace "HOENN_TO_NATIONAL(NIDORINO),"
-with "HOENN_TO_NATIONAL(PUTTIMON),"
+replace "HOENN_TO_NATIONAL(NIDOKING),"
+with "HOENN_TO_NATIONAL(PUWAMON),"
 
-replace "EC_POKEMON_NATIONAL(NIDORINO),"
-with "EC_POKEMON_NATIONAL(PUTTIMON),"
+replace "EC_POKEMON_NATIONAL(NIDOKING),"
+with "EC_POKEMON_NATIONAL(PUWAMON),"
 
-replace "egg_moves(NIDORINO,"
-with "egg_moves(PUTTIMON,"
+replace "egg_moves(NIDOKING,"
+with "egg_moves(PUWAMON,"
 
-replace "sNidorinoLevelUpLearnset"
-with "sPuttimonLevelUpLearnset"
+replace "sNidokingLevelUpLearnset"
+with "sPuwamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(NIDORINO"
-with "SPECIES_SPRITE(PUTTIMON"
+replace "SPECIES_SPRITE(NIDOKING"
+with "SPECIES_SPRITE(PUWAMON"
 
-replace "SPECIES_PAL(NIDORINO,"
-with "SPECIES_PAL(PUTTIMON,"
+replace "SPECIES_PAL(NIDOKING,"
+with "SPECIES_PAL(PUWAMON,"
 
-replace "SPECIES_SHINY_PAL(NIDORINO,"
-with "SPECIES_SHINY_PAL(PUTTIMON,"
+replace "SPECIES_SHINY_PAL(NIDOKING,"
+with "SPECIES_SHINY_PAL(PUWAMON,"
 
 
 

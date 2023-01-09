@@ -408,12 +408,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOKING] =
+    [NATIONAL_DEX_PUWAMON] =
     {
-        .categoryName = _("DRILL"),
-        .height = 14,
-        .weight = 620,
-        .description = gNidokingPokedexText,
+        .categoryName = _("OWLET"),
+        .height = 3,
+        .weight = 40,
+        .description = gPuwamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

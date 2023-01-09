@@ -202,11 +202,11 @@ const u8 gPuttimonPokedexText[] = _(
     "type, it has a mischievous side to it \n"
     "that is quite adorable.");
 
-const u8 gNidokingPokedexText[] = _(
-    "A NIDOKING's thick tail packs enormously\n"
-    "destructive power capable of toppling\n"
-    "a metal transmission tower. Once it goes\n"
-    "on a rampage, there is no stopping it.");
+const u8 gPuwamonPokedexText[] = _(
+    "Puwamon has incredibly strong eyesight \n"
+    "despite it's tiny size. It also has a\n"
+    "curious personality and lacks any\n"
+    "shyness making it a tamer favourite.");
 
 const u8 gClefairyPokedexText[] = _(
     "On every night of a full moon, they come\n"
