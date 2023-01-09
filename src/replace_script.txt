@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_WEEDLE"
-with "FRONTIER_MON_FUFUMON"
+replace "FRONTIER_MON_BEEDRILL"
+with "FRONTIER_MON_KEEMON"
 
-replace "gWeedlePokedexText"
-with "gFufumonPokedexText"
+replace "gBeedrillPokedexText"
+with "gKeemonPokedexText"
 
-replace "NATIONAL_DEX_WEEDLE"
-with "NATIONAL_DEX_FUFUMON"
+replace "NATIONAL_DEX_BEEDRILL"
+with "NATIONAL_DEX_KEEMON"
 
-replace "SPECIES_WEEDLE"
-with "SPECIES_FUFUMON"
+replace "SPECIES_BEEDRILL"
+with "SPECIES_KEEMON"
 
-replace "HOENN_DEX_WEEDLE"
-with "HOENN_DEX_FUFUMON"
+replace "HOENN_DEX_BEEDRILL"
+with "HOENN_DEX_KEEMON"
 
-replace "SPECIES_TO_HOENN(WEEDLE),"
-with "SPECIES_TO_HOENN(FUFUMON),"
+replace "SPECIES_TO_HOENN(BEEDRILL),"
+with "SPECIES_TO_HOENN(KEEMON),"
 
-replace "SPECIES_TO_NATIONAL(WEEDLE),"
-with "SPECIES_TO_NATIONAL(FUFUMON),"
+replace "SPECIES_TO_NATIONAL(BEEDRILL),"
+with "SPECIES_TO_NATIONAL(KEEMON),"
 
-replace "HOENN_TO_NATIONAL(WEEDLE),"
-with "HOENN_TO_NATIONAL(FUFUMON),"
+replace "HOENN_TO_NATIONAL(BEEDRILL),"
+with "HOENN_TO_NATIONAL(KEEMON),"
 
-replace "EC_POKEMON_NATIONAL(WEEDLE),"
-with "EC_POKEMON_NATIONAL(FUFUMON),"
+replace "EC_POKEMON_NATIONAL(BEEDRILL),"
+with "EC_POKEMON_NATIONAL(KEEMON),"
 
-replace "egg_moves(WEEDLE,"
-with "egg_moves(FUFUMON,"
+replace "egg_moves(BEEDRILL,"
+with "egg_moves(KEEMON,"
 
-replace "sWeedleLevelUpLearnset"
-with "sFufumonLevelUpLearnset"
+replace "sBeedrillLevelUpLearnset"
+with "sKeemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(WEEDLE"
-with "SPECIES_SPRITE(FUFUMON"
+replace "SPECIES_SPRITE(BEEDRILL"
+with "SPECIES_SPRITE(KEEMON"
 
-replace "SPECIES_PAL(WEEDLE,"
-with "SPECIES_PAL(FUFUMON,"
+replace "SPECIES_PAL(BEEDRILL,"
+with "SPECIES_PAL(KEEMON,"
 
-replace "SPECIES_SHINY_PAL(WEEDLE,"
-with "SPECIES_SHINY_PAL(FUFUMON,"
+replace "SPECIES_SHINY_PAL(BEEDRILL,"
+with "SPECIES_SHINY_PAL(KEEMON,"
 
 
 

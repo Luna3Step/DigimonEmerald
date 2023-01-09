@@ -82,11 +82,11 @@ const u8 gFufumonPokedexText[] = _(
     "slow floating, it is an easy target for \n"
     "attacks from predators.");
 
-const u8 gKakunaPokedexText[] = _(
-    "It remains virtually immobile while it\n"
-    "clings to a tree. However, on the inside,\n"
-    "it busily prepares for evolution. This is\n"
-    "evident from how hot its shell becomes.");
+const u8 gJyarimonPokedexText[] = _(
+    "Jyarimon are an incredibly scarce Digimon\n"
+    "with the power to evolve into a strong \n"
+    "Dragon Digimon. At this stage however it\n"
+    "only has tiny fangs.");
 
 const u8 gBeedrillPokedexText[] = _(
     "A BEEDRILL is extremely territorial.\n"

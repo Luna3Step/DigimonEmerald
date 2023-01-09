@@ -255,7 +255,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_FUFUMON]      = TMHM_LEARNSET(0),
 
-    [SPECIES_KAKUNA]      = TMHM_LEARNSET(0),
+    [SPECIES_JYARIMON]      = TMHM_LEARNSET(0),
 
     [SPECIES_BEEDRILL]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

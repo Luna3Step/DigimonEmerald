@@ -179,7 +179,7 @@ static const u16 sFufumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKakunaLevelUpLearnset[] = {
+static const u16 sJyarimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_END

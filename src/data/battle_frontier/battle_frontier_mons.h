@@ -63,8 +63,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BASHFUL
     },
-    [FRONTIER_MON_KAKUNA] = {
-        .species = SPECIES_KAKUNA,
+    [FRONTIER_MON_JYARIMON] = {
+        .species = SPECIES_JYARIMON,
         .moves = {MOVE_HARDEN, MOVE_NONE, MOVE_NONE, MOVE_NONE},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,

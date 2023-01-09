@@ -168,12 +168,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KAKUNA] =
+    [NATIONAL_DEX_JYARIMON] =
     {
-        .categoryName = _("COCOON"),
-        .height = 6,
-        .weight = 100,
-        .description = gKakunaPokedexText,
+        .categoryName = _("FIRE DRAGON"),
+        .height = 3,
+        .weight = 40,
+        .description = gJyarimonPokedexText,
         .pokemonScale = 424,
         .pokemonOffset = 17,
         .trainerScale = 256,
