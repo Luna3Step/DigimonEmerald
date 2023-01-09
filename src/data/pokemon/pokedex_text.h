@@ -442,11 +442,11 @@ const u8 gMissimonPokedexText[] = _(
     "has extremely bad accuracy and often\n"
     "misses most attacks..");
 
-const u8 gGeodudePokedexText[] = _(
-    "It climbs mountain paths using only the\n"
-    "power of its arms. Because they look just\n"
-    "like boulders lining paths, hikers may step\n"
-    "on them without noticing.");
+const u8 gMonimonPokedexText[] = _(
+    "Monimon is a low ranking ninja digimon \n"
+    "that operates in a group. It's emotions\n"
+    "generally project onto it's face in\n"
+    "the shape of emoticons.");
 
 const u8 gGravelerPokedexText[] = _(
     "They descend from mountains by tumbling\n"

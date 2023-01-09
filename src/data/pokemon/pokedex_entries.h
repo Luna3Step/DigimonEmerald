@@ -888,12 +888,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_GEODUDE] =
+    [NATIONAL_DEX_MONIMON] =
     {
-        .categoryName = _("ROCK"),
-        .height = 4,
-        .weight = 200,
-        .description = gGeodudePokedexText,
+        .categoryName = _("TELEVISION"),
+        .height = 6,
+        .weight = 60,
+        .description = gMonimonPokedexText,
         .pokemonScale = 347,
         .pokemonOffset = 18,
         .trainerScale = 256,

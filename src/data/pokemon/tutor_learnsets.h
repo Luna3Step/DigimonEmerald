@@ -1076,7 +1076,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWAGGER)
                                 | TUTOR(MOVE_SLEEP_TALK)),
 
-    [SPECIES_GEODUDE]          = (TUTOR(MOVE_MEGA_PUNCH)
+    [SPECIES_MONIMON]          = (TUTOR(MOVE_MEGA_PUNCH)
                                 | TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_COUNTER)

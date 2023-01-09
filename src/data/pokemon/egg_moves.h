@@ -225,7 +225,7 @@ const u16 gEggMoves[] = {
               MOVE_SAFEGUARD,
               MOVE_CONFUSE_RAY),
 
-    egg_moves(GEODUDE,
+    egg_moves(MONIMON,
               MOVE_MEGA_PUNCH,
               MOVE_ROCK_SLIDE,
               MOVE_BLOCK),

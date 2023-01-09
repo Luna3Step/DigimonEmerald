@@ -2,7 +2,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer1[] = {
     {
     .iv = 0,
     .lvl = 21,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -3368,14 +3368,14 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
     .lvl = 12,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB}
     },
     {
     .iv = 100,
     .lvl = 12,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB}
     },
@@ -4228,7 +4228,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     {
     .iv = 100,
     .lvl = 10,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     .moves = {MOVE_TACKLE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -4237,12 +4237,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
     {
     .iv = 110,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 120,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -7650,12 +7650,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
     {
     .iv = 120,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 130,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -8322,17 +8322,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent1[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -8340,7 +8340,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lenny[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
@@ -8353,7 +8353,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lucas1[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
@@ -8366,7 +8366,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alan[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
@@ -8384,7 +8384,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Clark[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -8392,7 +8392,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eric[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
@@ -8429,12 +8429,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mike2[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
@@ -8447,17 +8447,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent2[] = {
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 10,
@@ -8470,12 +8470,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent3[] = {
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 20,
@@ -8493,7 +8493,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent4[] = {
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 30,
@@ -10070,12 +10070,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Devan[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     }
 };
 
@@ -12112,7 +12112,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MONIMON,
     },
     {
     .iv = 10,
