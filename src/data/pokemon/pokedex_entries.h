@@ -684,12 +684,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PRIMEAPE] =
+    [NATIONAL_DEX_DORIMON] =
     {
-        .categoryName = _("PIG MONKEY"),
-        .height = 10,
-        .weight = 320,
-        .description = gPrimeapePokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 6,
+        .weight = 60,
+        .description = gDorimonPokedexText,
         .pokemonScale = 326,
         .pokemonOffset = 10,
         .trainerScale = 256,

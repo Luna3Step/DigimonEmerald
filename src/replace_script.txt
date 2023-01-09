@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MANKEY"
-with "FRONTIER_MON_DEMIVEEMON"
+replace "FRONTIER_MON_PRIMEAPE"
+with "FRONTIER_MON_DORIMON"
 
-replace "gMankeyPokedexText"
-with "gDemiveemonPokedexText"
+replace "gPrimeapePokedexText"
+with "gDorimonPokedexText"
 
-replace "NATIONAL_DEX_MANKEY"
-with "NATIONAL_DEX_DEMIVEEMON"
+replace "NATIONAL_DEX_PRIMEAPE"
+with "NATIONAL_DEX_DORIMON"
 
-replace "SPECIES_MANKEY"
-with "SPECIES_DEMIVEEMON"
+replace "SPECIES_PRIMEAPE"
+with "SPECIES_DORIMON"
 
-replace "HOENN_DEX_MANKEY"
-with "HOENN_DEX_DEMIVEEMON"
+replace "HOENN_DEX_PRIMEAPE"
+with "HOENN_DEX_DORIMON"
 
-replace "SPECIES_TO_HOENN(MANKEY),"
-with "SPECIES_TO_HOENN(DEMIVEEMON),"
+replace "SPECIES_TO_HOENN(PRIMEAPE),"
+with "SPECIES_TO_HOENN(DORIMON),"
 
-replace "SPECIES_TO_NATIONAL(MANKEY),"
-with "SPECIES_TO_NATIONAL(DEMIVEEMON),"
+replace "SPECIES_TO_NATIONAL(PRIMEAPE),"
+with "SPECIES_TO_NATIONAL(DORIMON),"
 
-replace "HOENN_TO_NATIONAL(MANKEY),"
-with "HOENN_TO_NATIONAL(DEMIVEEMON),"
+replace "HOENN_TO_NATIONAL(PRIMEAPE),"
+with "HOENN_TO_NATIONAL(DORIMON),"
 
-replace "EC_POKEMON_NATIONAL(MANKEY),"
-with "EC_POKEMON_NATIONAL(DEMIVEEMON),"
+replace "EC_POKEMON_NATIONAL(PRIMEAPE),"
+with "EC_POKEMON_NATIONAL(DORIMON),"
 
-replace "egg_moves(MANKEY,"
-with "egg_moves(DEMIVEEMON,"
+replace "egg_moves(PRIMEAPE,"
+with "egg_moves(DORIMON,"
 
-replace "sMankeyLevelUpLearnset"
-with "sDemiveemonLevelUpLearnset"
+replace "sPrimeapeLevelUpLearnset"
+with "sDorimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MANKEY"
-with "SPECIES_SPRITE(DEMIVEEMON"
+replace "SPECIES_SPRITE(PRIMEAPE"
+with "SPECIES_SPRITE(DORIMON"
 
-replace "SPECIES_PAL(MANKEY,"
-with "SPECIES_PAL(DEMIVEEMON,"
+replace "SPECIES_PAL(PRIMEAPE,"
+with "SPECIES_PAL(DORIMON,"
 
-replace "SPECIES_SHINY_PAL(MANKEY,"
-with "SPECIES_SHINY_PAL(DEMIVEEMON,"
+replace "SPECIES_SHINY_PAL(PRIMEAPE,"
+with "SPECIES_SHINY_PAL(DORIMON,"
 
-replace "EC_POKEMON(MANKEY)"
-with "EC_POKEMON(DEMIVEEMON)"
+replace "EC_POKEMON(PRIMEAPE)"
+with "EC_POKEMON(DORIMON)"
 
-replace "EC_POKEMON_NATIONAL(MANKEY)"
-with "EC_POKEMON_NATIONAL(DEMIVEEMON)"
+replace "EC_POKEMON_NATIONAL(PRIMEAPE)"
+with "EC_POKEMON_NATIONAL(DORIMON)"
 
 in "src/data/text/species_names.h"
-replace "MANKEY"
-with "DEMIVEEMON"
+replace "PRIMEAPE"
+with "DORIMON"

@@ -340,11 +340,11 @@ const u8 gDemiveemonPokedexText[] = _(
     "whole body letting it grip objects\n"
     "and hop about without worry.");
 
-const u8 gPrimeapePokedexText[] = _(
-    "When it becomes furious, its blood\n"
-    "circulation becomes more robust, and\n"
-    "its muscles are made stronger. But it\n"
-    "also becomes much less intelligent.");
+const u8 gDorimonPokedexText[] = _(
+    "Despites it's small size, Dorimon can\n"
+    "quickly build up lots of speed. If \n"
+    "it hits something while charging, it\n"
+    "can deal considerable damage.");
 
 const u8 gGrowlithePokedexText[] = _(
     "Its superb sense of smell ensures that\n"
