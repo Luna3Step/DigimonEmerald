@@ -925,7 +925,7 @@ static const u16 sKyaromonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWeepinbellLevelUpLearnset[] = {
+static const u16 sKyokyomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 1, MOVE_WRAP),

@@ -418,11 +418,11 @@ const u8 gKyaromonPokedexText[] = _(
     "has been observed that they are mostly\n"
     "ampty inside and bounce like rubber balls.");
 
-const u8 gWeepinbellPokedexText[] = _(
-    "At night, a WEEPINBELL hangs on to a tree\n"
-    "branch with its hooked rear and sleeps.\n"
-    "If it moves around in its sleep, it may\n"
-    "wake up to find itself on the ground.");
+const u8 gKyokyomonPokedexText[] = _(
+    "Kyokyomon has a long body that it can\n"
+    "stretch at will. When angry, it can\n"
+    "stretch upto nine times its body length.\n"
+    "It is a popular digimon for shogi players.");
 
 const u8 gVictreebelPokedexText[] = _(
     "The long vine extending from its head is\n"

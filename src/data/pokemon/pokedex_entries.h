@@ -840,12 +840,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WEEPINBELL] =
+    [NATIONAL_DEX_KYOKYOMON] =
     {
-        .categoryName = _("FLYCATCHER"),
-        .height = 10,
-        .weight = 64,
-        .description = gWeepinbellPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 6,
+        .weight = 60,
+        .description = gKyokyomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
