@@ -476,8 +476,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_POLIWAG] = {
-        .species = SPECIES_POLIWAG,
+    [FRONTIER_MON_GUMMYMON] = {
+        .species = SPECIES_GUMMYMON,
         .moves = {MOVE_HYPNOSIS, MOVE_ICY_WIND, MOVE_WATER_GUN, MOVE_RAIN_DANCE},
         .itemTableId = BATTLE_FRONTIER_ITEM_MYSTIC_WATER,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,

@@ -788,7 +788,7 @@ static const u16 sGigimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPoliwagLevelUpLearnset[] = {
+static const u16 sGummymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 7, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(13, MOVE_WATER_GUN),

@@ -720,12 +720,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_POLIWAG] =
+    [NATIONAL_DEX_GUMMYMON] =
     {
-        .categoryName = _("TADPOLE"),
+        .categoryName = _("GUMMY"),
         .height = 6,
-        .weight = 124,
-        .description = gPoliwagPokedexText,
+        .weight = 60,
+        .description = gGummymonPokedexText,
         .pokemonScale = 369,
         .pokemonOffset = 20,
         .trainerScale = 256,

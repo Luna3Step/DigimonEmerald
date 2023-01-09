@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ARCANINE"
-with "FRONTIER_MON_GIGIMON"
+replace "FRONTIER_MON_POLIWAG"
+with "FRONTIER_MON_GUMMYMON"
 
-replace "gArcaninePokedexText"
-with "gGigimonPokedexText"
+replace "gPoliwagPokedexText"
+with "gGummymonPokedexText"
 
-replace "NATIONAL_DEX_ARCANINE"
-with "NATIONAL_DEX_GIGIMON"
+replace "NATIONAL_DEX_POLIWAG"
+with "NATIONAL_DEX_GUMMYMON"
 
-replace "SPECIES_ARCANINE"
-with "SPECIES_GIGIMON"
+replace "SPECIES_POLIWAG"
+with "SPECIES_GUMMYMON"
 
-replace "HOENN_DEX_ARCANINE"
-with "HOENN_DEX_GIGIMON"
+replace "HOENN_DEX_POLIWAG"
+with "HOENN_DEX_GUMMYMON"
 
-replace "SPECIES_TO_HOENN(ARCANINE),"
-with "SPECIES_TO_HOENN(GIGIMON),"
+replace "SPECIES_TO_HOENN(POLIWAG),"
+with "SPECIES_TO_HOENN(GUMMYMON),"
 
-replace "SPECIES_TO_NATIONAL(ARCANINE),"
-with "SPECIES_TO_NATIONAL(GIGIMON),"
+replace "SPECIES_TO_NATIONAL(POLIWAG),"
+with "SPECIES_TO_NATIONAL(GUMMYMON),"
 
-replace "HOENN_TO_NATIONAL(ARCANINE),"
-with "HOENN_TO_NATIONAL(GIGIMON),"
+replace "HOENN_TO_NATIONAL(POLIWAG),"
+with "HOENN_TO_NATIONAL(GUMMYMON),"
 
-replace "EC_POKEMON_NATIONAL(ARCANINE),"
-with "EC_POKEMON_NATIONAL(GIGIMON),"
+replace "EC_POKEMON_NATIONAL(POLIWAG),"
+with "EC_POKEMON_NATIONAL(GUMMYMON),"
 
-replace "egg_moves(ARCANINE,"
-with "egg_moves(GIGIMON,"
+replace "egg_moves(POLIWAG,"
+with "egg_moves(GUMMYMON,"
 
-replace "sArcanineLevelUpLearnset"
-with "sGigimonLevelUpLearnset"
+replace "sPoliwagLevelUpLearnset"
+with "sGummymonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ARCANINE"
-with "SPECIES_SPRITE(GIGIMON"
+replace "SPECIES_SPRITE(POLIWAG"
+with "SPECIES_SPRITE(GUMMYMON"
 
-replace "SPECIES_PAL(ARCANINE,"
-with "SPECIES_PAL(GIGIMON,"
+replace "SPECIES_PAL(POLIWAG,"
+with "SPECIES_PAL(GUMMYMON,"
 
-replace "SPECIES_SHINY_PAL(ARCANINE,"
-with "SPECIES_SHINY_PAL(GIGIMON,"
+replace "SPECIES_SHINY_PAL(POLIWAG,"
+with "SPECIES_SHINY_PAL(GUMMYMON,"
 
-replace "EC_POKEMON(ARCANINE)"
-with "EC_POKEMON(GIGIMON)"
+replace "EC_POKEMON(POLIWAG)"
+with "EC_POKEMON(GUMMYMON)"
 
-replace "EC_POKEMON_NATIONAL(ARCANINE)"
-with "EC_POKEMON_NATIONAL(GIGIMON)"
+replace "EC_POKEMON_NATIONAL(POLIWAG)"
+with "EC_POKEMON_NATIONAL(GUMMYMON)"
 
 in "src/data/text/species_names.h"
-replace "ARCANINE"
-with "GIGIMON"
+replace "POLIWAG"
+with "GUMMYMON"

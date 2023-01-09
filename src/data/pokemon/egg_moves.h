@@ -182,7 +182,7 @@ const u16 gEggMoves[] = {
               MOVE_HOWL,
               MOVE_HEAT_WAVE),
 
-    egg_moves(POLIWAG,
+    egg_moves(GUMMYMON,
               MOVE_MIST,
               MOVE_SPLASH,
               MOVE_BUBBLE_BEAM,

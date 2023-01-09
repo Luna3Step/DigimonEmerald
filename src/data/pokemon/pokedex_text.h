@@ -358,11 +358,11 @@ const u8 gGigimonPokedexText[] = _(
     "leave burn scars. It is said to evolve\n"
     "into a noble and powerful dragon Digimon.");
 
-const u8 gPoliwagPokedexText[] = _(
-    "It is possible to see this POKéMON's spiral\n"
-    "innards right through its thin skin.\n"
-    "However, the skin is also very flexible.\n"
-    "Even sharp fangs bounce right off it.");
+const u8 gGummymonPokedexText[] = _(
+    "Gummymon always has an energetic\n"
+    "personality. It's body tissue is still\n"
+    "unstable however it's horn is hardened.\n"
+    "providing some option for offense.");
 
 const u8 gPoliwhirlPokedexText[] = _(
     "Its body surface is always wet and slick\n"
