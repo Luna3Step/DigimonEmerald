@@ -228,12 +228,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RATTATA] =
+    [NATIONAL_DEX_CHOROMON] =
     {
-        .categoryName = _("MOUSE"),
+        .categoryName = _("DARTING"),
         .height = 3,
-        .weight = 35,
-        .description = gRattataPokedexText,
+        .weight = 40,
+        .description = gChoromonPokedexText,
         .pokemonScale = 481,
         .pokemonOffset = 21,
         .trainerScale = 256,

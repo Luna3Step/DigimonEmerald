@@ -40,7 +40,7 @@ const u16 gEggMoves[] = {
               MOVE_STEEL_WING,
               MOVE_AIR_CUTTER),
 
-    egg_moves(RATTATA,
+    egg_moves(CHOROMON,
               MOVE_SCREECH,
               MOVE_FLAME_WHEEL,
               MOVE_FURY_SWIPES,

@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_PIDGEOT"
-with "FRONTIER_MON_LEAFMON"
+replace "FRONTIER_MON_RATTATA"
+with "FRONTIER_MON_CHOROMON"
 
-replace "gPidgeotPokedexText"
-with "gLeafmonPokedexText"
+replace "gRattataPokedexText"
+with "gChoromonPokedexText"
 
-replace "NATIONAL_DEX_PIDGEOT"
-with "NATIONAL_DEX_LEAFMON"
+replace "NATIONAL_DEX_RATTATA"
+with "NATIONAL_DEX_CHOROMON"
 
-replace "SPECIES_PIDGEOT"
-with "SPECIES_LEAFMON"
+replace "SPECIES_RATTATA"
+with "SPECIES_CHOROMON"
 
-replace "HOENN_DEX_PIDGEOT"
-with "HOENN_DEX_LEAFMON"
+replace "HOENN_DEX_RATTATA"
+with "HOENN_DEX_CHOROMON"
 
-replace "SPECIES_TO_HOENN(PIDGEOT),"
-with "SPECIES_TO_HOENN(LEAFMON),"
+replace "SPECIES_TO_HOENN(RATTATA),"
+with "SPECIES_TO_HOENN(CHOROMON),"
 
-replace "SPECIES_TO_NATIONAL(PIDGEOT),"
-with "SPECIES_TO_NATIONAL(LEAFMON),"
+replace "SPECIES_TO_NATIONAL(RATTATA),"
+with "SPECIES_TO_NATIONAL(CHOROMON),"
 
-replace "HOENN_TO_NATIONAL(PIDGEOT),"
-with "HOENN_TO_NATIONAL(LEAFMON),"
+replace "HOENN_TO_NATIONAL(RATTATA),"
+with "HOENN_TO_NATIONAL(CHOROMON),"
 
-replace "EC_POKEMON_NATIONAL(PIDGEOT),"
-with "EC_POKEMON_NATIONAL(LEAFMON),"
+replace "EC_POKEMON_NATIONAL(RATTATA),"
+with "EC_POKEMON_NATIONAL(CHOROMON),"
 
-replace "egg_moves(PIDGEOT,"
-with "egg_moves(LEAFMON,"
+replace "egg_moves(RATTATA,"
+with "egg_moves(CHOROMON,"
 
-replace "sPidgeotLevelUpLearnset"
-with "sLeafmonLevelUpLearnset"
+replace "sRattataLevelUpLearnset"
+with "sChoromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PIDGEOT"
-with "SPECIES_SPRITE(LEAFMON"
+replace "SPECIES_SPRITE(RATTATA"
+with "SPECIES_SPRITE(CHOROMON"
 
-replace "SPECIES_PAL(PIDGEOT,"
-with "SPECIES_PAL(LEAFMON,"
+replace "SPECIES_PAL(RATTATA,"
+with "SPECIES_PAL(CHOROMON,"
 
-replace "SPECIES_SHINY_PAL(PIDGEOT,"
-with "SPECIES_SHINY_PAL(LEAFMON,"
+replace "SPECIES_SHINY_PAL(RATTATA,"
+with "SPECIES_SHINY_PAL(CHOROMON,"
 
 
 

@@ -112,11 +112,11 @@ const u8 gLeafmonPokedexText[] = _(
     "tail that is use's to protect itself \n"
     "from the elements.");
 
-const u8 gRattataPokedexText[] = _(
-    "A RATTATA is cautious in the extreme.\n"
-    "Even while it is asleep, it constantly\n"
-    "moves its ears and listens for danger.\n"
-    "It will make its nest anywhere.");
+const u8 gChoromonPokedexText[] = _(
+    "Choromon's is mistaken to be a very.\n"
+    "energetic digimon however that is\n"
+    "because of it's simple programming\n"
+    "making it move whenever there is light.");
 
 const u8 gRaticatePokedexText[] = _(
     "A RATICATE's sturdy fangs grow steadily.\n"
