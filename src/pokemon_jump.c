@@ -436,7 +436,7 @@ static const struct PokemonJumpMons sPokeJumpMons[] =
     { .species = SPECIES_CHOROMON,    .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_MOKUMON,   .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_PETITMON,    .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_SANDSHREW,  .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_POPOMON,  .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_NIDORAN_F,  .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_NIDORAN_M,  .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_CLEFAIRY,   .jumpType = JUMP_TYPE_NORMAL, },

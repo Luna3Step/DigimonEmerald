@@ -66,7 +66,7 @@ const u16 gEggMoves[] = {
               MOVE_BEAT_UP,
               MOVE_POISON_FANG),
 
-    egg_moves(SANDSHREW,
+    egg_moves(POPOMON,
               MOVE_FLAIL,
               MOVE_SAFEGUARD,
               MOVE_COUNTER,

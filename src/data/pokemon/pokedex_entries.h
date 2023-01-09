@@ -324,12 +324,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSHREW] =
+    [NATIONAL_DEX_POPOMON] =
     {
-        .categoryName = _("MOUSE"),
-        .height = 6,
-        .weight = 120,
-        .description = gSandshrewPokedexText,
+        .categoryName = _("PLANT"),
+        .height = 3,
+        .weight = 40,
+        .description = gPopomonPokedexText,
         .pokemonScale = 365,
         .pokemonOffset = 18,
         .trainerScale = 256,

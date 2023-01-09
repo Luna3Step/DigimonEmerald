@@ -160,11 +160,11 @@ const u8 gPichimonPokedexText[] = _(
     "size. Due it's simplicity, it's actions\n"
     "change very frequently.");
 
-const u8 gSandshrewPokedexText[] = _(
-    "When it curls up in a ball, it can make any\n"
-    "attack bounce off harmlessly. Its hide has\n"
-    "turned tough and solid as a result of\n"
-    "living in the desert.");
+const u8 gPopomonPokedexText[] = _(
+    "Popomon looks like a plant, including its\n"
+    "tail which has the characteristics of a\n"
+    "leaf. It is a very shy digimon but it\n"
+    "is very loyal to those it trusts.");
 
 const u8 gSandslashPokedexText[] = _(
     "It curls up in a ball to protect itself from\n"

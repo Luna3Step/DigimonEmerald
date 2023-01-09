@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_RAICHU"
-with "FRONTIER_MON_PICHIMON"
+replace "FRONTIER_MON_SANDSHREW"
+with "FRONTIER_MON_POPOMON"
 
-replace "gRaichuPokedexText"
-with "gPichimonPokedexText"
+replace "gSandshrewPokedexText"
+with "gPopomonPokedexText"
 
-replace "NATIONAL_DEX_RAICHU"
-with "NATIONAL_DEX_PICHIMON"
+replace "NATIONAL_DEX_SANDSHREW"
+with "NATIONAL_DEX_POPOMON"
 
-replace "SPECIES_RAICHU"
-with "SPECIES_PICHIMON"
+replace "SPECIES_SANDSHREW"
+with "SPECIES_POPOMON"
 
-replace "HOENN_DEX_RAICHU"
-with "HOENN_DEX_PICHIMON"
+replace "HOENN_DEX_SANDSHREW"
+with "HOENN_DEX_POPOMON"
 
-replace "SPECIES_TO_HOENN(RAICHU),"
-with "SPECIES_TO_HOENN(PICHIMON),"
+replace "SPECIES_TO_HOENN(SANDSHREW),"
+with "SPECIES_TO_HOENN(POPOMON),"
 
-replace "SPECIES_TO_NATIONAL(RAICHU),"
-with "SPECIES_TO_NATIONAL(PICHIMON),"
+replace "SPECIES_TO_NATIONAL(SANDSHREW),"
+with "SPECIES_TO_NATIONAL(POPOMON),"
 
-replace "HOENN_TO_NATIONAL(RAICHU),"
-with "HOENN_TO_NATIONAL(PICHIMON),"
+replace "HOENN_TO_NATIONAL(SANDSHREW),"
+with "HOENN_TO_NATIONAL(POPOMON),"
 
-replace "EC_POKEMON_NATIONAL(RAICHU),"
-with "EC_POKEMON_NATIONAL(PICHIMON),"
+replace "EC_POKEMON_NATIONAL(SANDSHREW),"
+with "EC_POKEMON_NATIONAL(POPOMON),"
 
-replace "egg_moves(RAICHU,"
-with "egg_moves(PICHIMON,"
+replace "egg_moves(SANDSHREW,"
+with "egg_moves(POPOMON,"
 
-replace "sRaichuLevelUpLearnset"
-with "sPichimonLevelUpLearnset"
+replace "sSandshrewLevelUpLearnset"
+with "sPopomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RAICHU"
-with "SPECIES_SPRITE(PICHIMON"
+replace "SPECIES_SPRITE(SANDSHREW"
+with "SPECIES_SPRITE(POPOMON"
 
-replace "SPECIES_PAL(RAICHU,"
-with "SPECIES_PAL(PICHIMON,"
+replace "SPECIES_PAL(SANDSHREW,"
+with "SPECIES_PAL(POPOMON,"
 
-replace "SPECIES_SHINY_PAL(RAICHU,"
-with "SPECIES_SHINY_PAL(PICHIMON,"
+replace "SPECIES_SHINY_PAL(SANDSHREW,"
+with "SPECIES_SHINY_PAL(POPOMON,"
 
 
 
