@@ -588,12 +588,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = -1,
     },
 
-    [NATIONAL_DEX_VENOMOTH] =
+    [NATIONAL_DEX_BOSAMON] =
     {
-        .categoryName = _("POISON MOTH"),
-        .height = 15,
-        .weight = 125,
-        .description = gVenomothPokedexText,
+        .categoryName = _("BIG EAR"),
+        .height = 6,
+        .weight = 60,
+        .description = gBosamonPokedexText,
         .pokemonScale = 285,
         .pokemonOffset = 2,
         .trainerScale = 256,

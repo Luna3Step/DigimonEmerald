@@ -292,11 +292,11 @@ const u8 gBibimonPokedexText[] = _(
     "it is not yet used to having four \n"
     "limbs yet.");
 
-const u8 gVenomothPokedexText[] = _(
-    "VENOMOTH are nocturnal--they only are\n"
-    "active at night. Their favorite prey are\n"
-    "insects that gather around streetlights,\n"
-    "attracted by the light in the darkness.");
+const u8 gBosamonPokedexText[] = _(
+    "Unlike it's younger self, Bosamon has\n"
+    "grown out it's bangs and it's shy \n"
+    "personality has become calm instead.\n"
+    "It's now has even greater hearing.");
 
 const u8 gDiglettPokedexText[] = _(
     "DIGLETT are raised in most farms.\n"
