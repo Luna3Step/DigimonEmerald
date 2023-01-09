@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_GROWLITHE"
-with "FRONTIER_MON_FRIMON"
+replace "FRONTIER_MON_ARCANINE"
+with "FRONTIER_MON_GIGIMON"
 
-replace "gGrowlithePokedexText"
-with "gFrimonPokedexText"
+replace "gArcaninePokedexText"
+with "gGigimonPokedexText"
 
-replace "NATIONAL_DEX_GROWLITHE"
-with "NATIONAL_DEX_FRIMON"
+replace "NATIONAL_DEX_ARCANINE"
+with "NATIONAL_DEX_GIGIMON"
 
-replace "SPECIES_GROWLITHE"
-with "SPECIES_FRIMON"
+replace "SPECIES_ARCANINE"
+with "SPECIES_GIGIMON"
 
-replace "HOENN_DEX_GROWLITHE"
-with "HOENN_DEX_FRIMON"
+replace "HOENN_DEX_ARCANINE"
+with "HOENN_DEX_GIGIMON"
 
-replace "SPECIES_TO_HOENN(GROWLITHE),"
-with "SPECIES_TO_HOENN(FRIMON),"
+replace "SPECIES_TO_HOENN(ARCANINE),"
+with "SPECIES_TO_HOENN(GIGIMON),"
 
-replace "SPECIES_TO_NATIONAL(GROWLITHE),"
-with "SPECIES_TO_NATIONAL(FRIMON),"
+replace "SPECIES_TO_NATIONAL(ARCANINE),"
+with "SPECIES_TO_NATIONAL(GIGIMON),"
 
-replace "HOENN_TO_NATIONAL(GROWLITHE),"
-with "HOENN_TO_NATIONAL(FRIMON),"
+replace "HOENN_TO_NATIONAL(ARCANINE),"
+with "HOENN_TO_NATIONAL(GIGIMON),"
 
-replace "EC_POKEMON_NATIONAL(GROWLITHE),"
-with "EC_POKEMON_NATIONAL(FRIMON),"
+replace "EC_POKEMON_NATIONAL(ARCANINE),"
+with "EC_POKEMON_NATIONAL(GIGIMON),"
 
-replace "egg_moves(GROWLITHE,"
-with "egg_moves(FRIMON,"
+replace "egg_moves(ARCANINE,"
+with "egg_moves(GIGIMON,"
 
-replace "sGrowlitheLevelUpLearnset"
-with "sFrimonLevelUpLearnset"
+replace "sArcanineLevelUpLearnset"
+with "sGigimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GROWLITHE"
-with "SPECIES_SPRITE(FRIMON"
+replace "SPECIES_SPRITE(ARCANINE"
+with "SPECIES_SPRITE(GIGIMON"
 
-replace "SPECIES_PAL(GROWLITHE,"
-with "SPECIES_PAL(FRIMON,"
+replace "SPECIES_PAL(ARCANINE,"
+with "SPECIES_PAL(GIGIMON,"
 
-replace "SPECIES_SHINY_PAL(GROWLITHE,"
-with "SPECIES_SHINY_PAL(FRIMON,"
+replace "SPECIES_SHINY_PAL(ARCANINE,"
+with "SPECIES_SHINY_PAL(GIGIMON,"
 
-replace "EC_POKEMON(GROWLITHE)"
-with "EC_POKEMON(FRIMON)"
+replace "EC_POKEMON(ARCANINE)"
+with "EC_POKEMON(GIGIMON)"
 
-replace "EC_POKEMON_NATIONAL(GROWLITHE)"
-with "EC_POKEMON_NATIONAL(FRIMON)"
+replace "EC_POKEMON_NATIONAL(ARCANINE)"
+with "EC_POKEMON_NATIONAL(GIGIMON)"
 
 in "src/data/text/species_names.h"
-replace "GROWLITHE"
-with "FRIMON"
+replace "ARCANINE"
+with "GIGIMON"

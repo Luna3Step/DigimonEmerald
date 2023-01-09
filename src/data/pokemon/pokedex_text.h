@@ -352,11 +352,11 @@ const u8 gFrimonPokedexText[] = _(
     "It can be seen chasing it's own tail\n"
     "when it get's bored.");
 
-const u8 gArcaninePokedexText[] = _(
-    "This fleet-footed POKéMON is said to run\n"
-    "over 6,200 miles in a single day and night.\n"
-    "The fire that blazes wildly within its body\n"
-    "is its source of power.");
+const u8 gGigimonPokedexText[] = _(
+    "Despite it's deceptively small appearance,\n"
+    "Gigimon packs a ferocious bite that can\n"
+    "leave burn scars. It is said to evolve\n"
+    "into a noble and powerful dragon Digimon.");
 
 const u8 gPoliwagPokedexText[] = _(
     "It is possible to see this POKéMON's spiral\n"

@@ -779,7 +779,7 @@ static const u16 sFrimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sArcanineLevelUpLearnset[] = {
+static const u16 sGigimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_ROAR),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),

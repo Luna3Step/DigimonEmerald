@@ -708,12 +708,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARCANINE] =
+    [NATIONAL_DEX_GIGIMON] =
     {
-        .categoryName = _("LEGENDARY"),
-        .height = 19,
-        .weight = 1550,
-        .description = gArcaninePokedexText,
+        .categoryName = _("FIRE DRAGON"),
+        .height = 6,
+        .weight = 60,
+        .description = gGigimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 312,
