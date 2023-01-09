@@ -101,7 +101,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Silver Symbol.
         {
             {
-                .species = SPECIES_ALAKAZAM,
+                .species = SPECIES_KAPURIMON,
                 .heldItem = ITEM_BRIGHT_POWDER,
                 .fixedIV = 24,
                 .nature = NATURE_MODEST,

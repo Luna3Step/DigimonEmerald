@@ -780,12 +780,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ALAKAZAM] =
+    [NATIONAL_DEX_KAPURIMON] =
     {
-        .categoryName = _("PSI"),
-        .height = 15,
-        .weight = 480,
-        .description = gAlakazamPokedexText,
+        .categoryName = _("METAL CAP"),
+        .height = 6,
+        .weight = 75,
+        .description = gKapurimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 256,

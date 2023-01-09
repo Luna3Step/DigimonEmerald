@@ -388,11 +388,11 @@ const u8 gKakkinmonPokedexText[] = _(
     "However Kakkinmon has been known to\n"
     "trust its hats strength in battle.");
 
-const u8 gAlakazamPokedexText[] = _(
-    "While it has strong psychic abilities and\n"
-    "high intelligence, an ALAKAZAM's muscles\n"
-    "are very weak. It uses psychic power to\n"
-    "move its body.");
+const u8 gKapurimonPokedexText[] = _(
+    "Kapurimon's has a metallic helmet and\n"
+    "its two horns have antennae. Kapurimon\n"
+    "has many bat-like features like weak\n"
+    "eyesight or the use of ultrasonic waves.");
 
 const u8 gMachopPokedexText[] = _(
     "It continually undertakes strenuous\n"

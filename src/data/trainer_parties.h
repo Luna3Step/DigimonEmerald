@@ -2991,7 +2991,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cameron5[] = {
     {
     .iv = 40,
     .lvl = 45,
-    .species = SPECIES_ALAKAZAM,
+    .species = SPECIES_KAPURIMON,
     }
 };
 
@@ -3120,7 +3120,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_ALAKAZAM,
+    .species = SPECIES_KAPURIMON,
     }
 };
 
