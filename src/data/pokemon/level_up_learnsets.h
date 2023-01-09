@@ -280,7 +280,7 @@ static const u16 sNyokimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFearowLevelUpLearnset[] = {
+static const u16 sPabumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_LEER),

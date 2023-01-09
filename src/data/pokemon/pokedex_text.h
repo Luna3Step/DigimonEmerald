@@ -130,11 +130,11 @@ const u8 gNyokimonPokedexText[] = _(
     "similiar body to Botamon. Many believe\n"
     "this make's it a cousin to Botamon.");
 
-const u8 gFearowPokedexText[] = _(
-    "Its long neck and elongated beak are\n"
-    "ideal for catching prey in soil or water.\n"
-    "It deftly moves this extended and skinny\n"
-    "beak to pluck prey.");
+const u8 gPabumonPokedexText[] = _(
+    "Pabumon is well known for being a very\n"
+    "expressive digimon. It's surface has not\n"
+    "hardened yet giving it very little\n"
+    "defensive power.");
 
 const u8 gEkansPokedexText[] = _(
     "An EKANS curls itself up in a spiral while\n"

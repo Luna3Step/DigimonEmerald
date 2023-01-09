@@ -1019,7 +1019,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round20[] =
         .moves = {MOVE_EARTHQUAKE, MOVE_HYPER_BEAM, MOVE_SURF, MOVE_THUNDERBOLT}
     },
     {
-        .species = SPECIES_FEAROW,
+        .species = SPECIES_PABUMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_HYPER_BEAM, MOVE_FLY, MOVE_MIRROR_MOVE, MOVE_PROTECT}

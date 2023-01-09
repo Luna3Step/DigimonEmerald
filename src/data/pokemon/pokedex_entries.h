@@ -264,12 +264,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FEAROW] =
+    [NATIONAL_DEX_PABUMON] =
     {
-        .categoryName = _("BEAK"),
-        .height = 12,
-        .weight = 380,
-        .description = gFearowPokedexText,
+        .categoryName = _("SLIME"),
+        .height = 3,
+        .weight = 40,
+        .description = gPabumonPokedexText,
         .pokemonScale = 278,
         .pokemonOffset = 1,
         .trainerScale = 256,
