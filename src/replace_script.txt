@@ -1,43 +1,43 @@
-replace "FRONTIER_MON_BEEDRILL"
+replace "FRONTIER_MON_KEEMON"
 with "FRONTIER_MON_KEEMON"
 
-replace "gBeedrillPokedexText"
+replace "gKeemonPokedexText"
 with "gKeemonPokedexText"
 
-replace "NATIONAL_DEX_BEEDRILL"
+replace "NATIONAL_DEX_KEEMON"
 with "NATIONAL_DEX_KEEMON"
 
-replace "SPECIES_BEEDRILL"
+replace "SPECIES_KEEMON"
 with "SPECIES_KEEMON"
 
-replace "HOENN_DEX_BEEDRILL"
+replace "HOENN_DEX_KEEMON"
 with "HOENN_DEX_KEEMON"
 
-replace "SPECIES_TO_HOENN(BEEDRILL),"
+replace "SPECIES_TO_HOENN(KEEMON),"
 with "SPECIES_TO_HOENN(KEEMON),"
 
-replace "SPECIES_TO_NATIONAL(BEEDRILL),"
+replace "SPECIES_TO_NATIONAL(KEEMON),"
 with "SPECIES_TO_NATIONAL(KEEMON),"
 
-replace "HOENN_TO_NATIONAL(BEEDRILL),"
+replace "HOENN_TO_NATIONAL(KEEMON),"
 with "HOENN_TO_NATIONAL(KEEMON),"
 
-replace "EC_POKEMON_NATIONAL(BEEDRILL),"
+replace "EC_POKEMON_NATIONAL(KEEMON),"
 with "EC_POKEMON_NATIONAL(KEEMON),"
 
-replace "egg_moves(BEEDRILL,"
+replace "egg_moves(KEEMON,"
 with "egg_moves(KEEMON,"
 
-replace "sBeedrillLevelUpLearnset"
+replace "sKeemonLevelUpLearnset"
 with "sKeemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BEEDRILL"
+replace "SPECIES_SPRITE(KEEMON"
 with "SPECIES_SPRITE(KEEMON"
 
-replace "SPECIES_PAL(BEEDRILL,"
+replace "SPECIES_PAL(KEEMON,"
 with "SPECIES_PAL(KEEMON,"
 
-replace "SPECIES_SHINY_PAL(BEEDRILL,"
+replace "SPECIES_SHINY_PAL(KEEMON,"
 with "SPECIES_SHINY_PAL(KEEMON,"
 
 

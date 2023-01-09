@@ -215,7 +215,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_JYARIMON]           = (0),
 
-    [SPECIES_BEEDRILL]         = (TUTOR(MOVE_SWORDS_DANCE)
+    [SPECIES_KEEMON]         = (TUTOR(MOVE_SWORDS_DANCE)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_SUBSTITUTE)

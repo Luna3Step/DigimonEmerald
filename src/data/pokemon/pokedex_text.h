@@ -88,11 +88,11 @@ const u8 gJyarimonPokedexText[] = _(
     "Dragon Digimon. At this stage however it\n"
     "only has tiny fangs.");
 
-const u8 gBeedrillPokedexText[] = _(
-    "A BEEDRILL is extremely territorial.\n"
-    "For safety reasons, no one should \n"
-    "ever approach its nest. If angered,\n"
-    "they will attack in a swarm.");
+const u8 gKeemonPokedexText[] = _(
+    "Keemon is always seen scowling even\n"
+    "though it is very young. It hates being \n"
+    "crowded by others and opts for living as\n"
+    "a hermit.");
 
 const u8 gPidgeyPokedexText[] = _(
     "It has an extremely sharp sense of\n"

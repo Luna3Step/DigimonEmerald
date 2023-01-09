@@ -180,12 +180,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BEEDRILL] =
+    [NATIONAL_DEX_KEEMON] =
     {
-        .categoryName = _("POISON BEE"),
-        .height = 10,
-        .weight = 295,
-        .description = gBeedrillPokedexText,
+        .categoryName = _("EVIL EYED"),
+        .height = 3,
+        .weight = 40,
+        .description = gKeemonPokedexText,
         .pokemonScale = 366,
         .pokemonOffset = 2,
         .trainerScale = 256,

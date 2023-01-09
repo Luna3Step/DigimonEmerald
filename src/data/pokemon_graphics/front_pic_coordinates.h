@@ -19,7 +19,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_DOKIMON]  = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  9 },
     [SPECIES_FUFUMON]      = { .size = MON_COORDS_SIZE(40, 32), .y_offset = 18 },
     [SPECIES_JYARIMON]      = { .size = MON_COORDS_SIZE(32, 40), .y_offset = 14 },
-    [SPECIES_BEEDRILL]    = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  9 },
+    [SPECIES_KEEMON]    = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  9 },
     [SPECIES_PIDGEY]      = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_PIDGEOTTO]   = { .size = MON_COORDS_SIZE(48, 56), .y_offset = 11 },
     [SPECIES_PIDGEOT]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },
