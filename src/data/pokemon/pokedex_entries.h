@@ -312,12 +312,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RAICHU] =
+    [NATIONAL_DEX_PICHIMON] =
     {
-        .categoryName = _("MOUSE"),
-        .height = 8,
-        .weight = 300,
-        .description = gRaichuPokedexText,
+        .categoryName = _("MICRO"),
+        .height = 1,
+        .weight = 10,
+        .description = gPichimonPokedexText,
         .pokemonScale = 426,
         .pokemonOffset = 13,
         .trainerScale = 256,

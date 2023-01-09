@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_PIKACHU"
-with "FRONTIER_MON_PETITMON"
+replace "FRONTIER_MON_RAICHU"
+with "FRONTIER_MON_PICHIMON"
 
-replace "gPikachuPokedexText"
-with "gPetitmonPokedexText"
+replace "gRaichuPokedexText"
+with "gPichimonPokedexText"
 
-replace "NATIONAL_DEX_PIKACHU"
-with "NATIONAL_DEX_PETITMON"
+replace "NATIONAL_DEX_RAICHU"
+with "NATIONAL_DEX_PICHIMON"
 
-replace "SPECIES_PIKACHU"
-with "SPECIES_PETITMON"
+replace "SPECIES_RAICHU"
+with "SPECIES_PICHIMON"
 
-replace "HOENN_DEX_PIKACHU"
-with "HOENN_DEX_PETITMON"
+replace "HOENN_DEX_RAICHU"
+with "HOENN_DEX_PICHIMON"
 
-replace "SPECIES_TO_HOENN(PIKACHU),"
-with "SPECIES_TO_HOENN(PETITMON),"
+replace "SPECIES_TO_HOENN(RAICHU),"
+with "SPECIES_TO_HOENN(PICHIMON),"
 
-replace "SPECIES_TO_NATIONAL(PIKACHU),"
-with "SPECIES_TO_NATIONAL(PETITMON),"
+replace "SPECIES_TO_NATIONAL(RAICHU),"
+with "SPECIES_TO_NATIONAL(PICHIMON),"
 
-replace "HOENN_TO_NATIONAL(PIKACHU),"
-with "HOENN_TO_NATIONAL(PETITMON),"
+replace "HOENN_TO_NATIONAL(RAICHU),"
+with "HOENN_TO_NATIONAL(PICHIMON),"
 
-replace "EC_POKEMON_NATIONAL(PIKACHU),"
-with "EC_POKEMON_NATIONAL(PETITMON),"
+replace "EC_POKEMON_NATIONAL(RAICHU),"
+with "EC_POKEMON_NATIONAL(PICHIMON),"
 
-replace "egg_moves(PIKACHU,"
-with "egg_moves(PETITMON,"
+replace "egg_moves(RAICHU,"
+with "egg_moves(PICHIMON,"
 
-replace "sPikachuLevelUpLearnset"
-with "sPetitmonLevelUpLearnset"
+replace "sRaichuLevelUpLearnset"
+with "sPichimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PIKACHU"
-with "SPECIES_SPRITE(PETITMON"
+replace "SPECIES_SPRITE(RAICHU"
+with "SPECIES_SPRITE(PICHIMON"
 
-replace "SPECIES_PAL(PIKACHU,"
-with "SPECIES_PAL(PETITMON,"
+replace "SPECIES_PAL(RAICHU,"
+with "SPECIES_PAL(PICHIMON,"
 
-replace "SPECIES_SHINY_PAL(PIKACHU,"
-with "SPECIES_SHINY_PAL(PETITMON,"
+replace "SPECIES_SHINY_PAL(RAICHU,"
+with "SPECIES_SHINY_PAL(PICHIMON,"
 
 
 

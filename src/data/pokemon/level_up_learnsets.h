@@ -341,7 +341,7 @@ static const u16 sPetitmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRaichuLevelUpLearnset[] = {
+static const u16 sPichimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),

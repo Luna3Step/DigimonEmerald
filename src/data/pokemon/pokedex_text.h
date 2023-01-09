@@ -154,11 +154,11 @@ const u8 gPetitmonPokedexText[] = _(
     "and flee. It is also known for having\n"
     "a cheerful personality.");
 
-const u8 gRaichuPokedexText[] = _(
-    "If it stores too much electricity, its\n"
-    "behavior turns aggressive. To avoid this,\n"
-    "it occasionally discharges excess energy\n"
-    "and calms itself down.");
+const u8 gPichimonPokedexText[] = _(
+    "Pichimon is considered to be a\n"
+    "microorganism digimon due to it's small\n"
+    "size. Due it's simplicity, it's actions\n"
+    "change very frequently.");
 
 const u8 gSandshrewPokedexText[] = _(
     "When it curls up in a ball, it can make any\n"
