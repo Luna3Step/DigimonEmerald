@@ -564,12 +564,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARGOMON_ITECT] =
+    [NATIONAL_DEX_BABYDMON] =
     {
-        .categoryName = _("MUSHROOM"),
-        .height = 10,
-        .weight = 295,
-        .description = gParasectPokedexText,
+        .categoryName = _("BABY DRAGON"),
+        .height = 6,
+        .weight = 60,
+        .description = gBabydmonPokedexText,
         .pokemonScale = 307,
         .pokemonOffset = 8,
         .trainerScale = 256,

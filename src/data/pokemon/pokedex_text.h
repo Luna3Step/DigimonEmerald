@@ -280,11 +280,11 @@ const u8 gArgomon_itPokedexText[] = _(
     "use the mouth on it's underside to \n"
     "consume that data.");
 
-const u8 gParasectPokedexText[] = _(
-    "PARASECT are known to infest the roots of\n"
-    "large trees en masse and drain nutrients.\n"
-    "When an infested tree dies, they move\n"
-    "onto another tree all at once.");
+const u8 gBabydmonPokedexText[] = _(
+    "Only discovered recently, Babydmon is\n"
+    "likely to contain's evolutionairy ties\n"
+    "ancient and long lost Digimon. It is\n"
+    "very ferocious despite it's size.");
 
 const u8 gVenonatPokedexText[] = _(
     "Its coat of thin, stiff hair that covers\n"
