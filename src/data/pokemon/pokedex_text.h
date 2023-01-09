@@ -328,11 +328,11 @@ const u8 gChicchimonPokedexText[] = _(
     "however jump extra high and float down\n"
     "to the ground.");
 
-const u8 gGolduckPokedexText[] = _(
-    "A GOLDUCK is an adept swimmer.\n"
-    "It sometimes joins competitive swimmers\n"
-    "in training. It uses psychic powers when\n"
-    "its forehead shimmers with light.");
+const u8 gDemmeramonPokedexText[] = _(
+    "Demimeramon's whole body is ablaze\n"
+    "at all times. It has a wild temperament\n"
+    "and will attack anything in sight\n"
+    "despite it's small body size.");
 
 const u8 gMankeyPokedexText[] = _(
     "When it starts shaking and its nasal\n"

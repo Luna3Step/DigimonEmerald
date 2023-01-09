@@ -660,12 +660,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOLDUCK] =
+    [NATIONAL_DEX_DEMMERAMON] =
     {
-        .categoryName = _("DUCK"),
-        .height = 17,
-        .weight = 766,
-        .description = gGolduckPokedexText,
+        .categoryName = _("FLAMING"),
+        .height = 6,
+        .weight = 60,
+        .description = gDemmeramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 273,
