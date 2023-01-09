@@ -199,7 +199,7 @@ const u16 gEggMoves[] = {
               MOVE_THUNDER_PUNCH,
               MOVE_ICE_PUNCH),
 
-    egg_moves(MACHOP,
+    egg_moves(KOKOMON,
               MOVE_LIGHT_SCREEN,
               MOVE_MEDITATE,
               MOVE_ROLLING_KICK,

@@ -792,12 +792,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MACHOP] =
+    [NATIONAL_DEX_KOKOMON] =
     {
-        .categoryName = _("SUPERPOWER"),
-        .height = 8,
-        .weight = 195,
-        .description = gMachopPokedexText,
+        .categoryName = _("TWIN"),
+        .height = 6,
+        .weight = 60,
+        .description = gKokomonPokedexText,
         .pokemonScale = 342,
         .pokemonOffset = 14,
         .trainerScale = 256,

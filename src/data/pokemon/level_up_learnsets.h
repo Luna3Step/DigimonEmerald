@@ -861,7 +861,7 @@ static const u16 sKapurimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMachopLevelUpLearnset[] = {
+static const u16 sKokomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LOW_KICK),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 7, MOVE_FOCUS_ENERGY),

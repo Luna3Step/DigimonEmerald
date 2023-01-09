@@ -394,11 +394,11 @@ const u8 gKapurimonPokedexText[] = _(
     "has many bat-like features like weak\n"
     "eyesight or the use of ultrasonic waves.");
 
-const u8 gMachopPokedexText[] = _(
-    "It continually undertakes strenuous\n"
-    "training to master all forms of martial\n"
-    "arts. Its strength lets it easily hoist\n"
-    "a sumo wrestler onto its shoulders.");
+const u8 gKokomonPokedexText[] = _(
+    "Kokomon get's along very well with \n"
+    "Gummymon. It gets along so well that\n"
+    "it gets considerably weaker when\n"
+    "seperated due to loneliness.");
 
 const u8 gMachokePokedexText[] = _(
     "A belt is worn by a MACHOKE to keep its\n"
