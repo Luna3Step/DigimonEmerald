@@ -94,11 +94,11 @@ const u8 gKeemonPokedexText[] = _(
     "crowded by others and opts for living as\n"
     "a hermit.");
 
-const u8 gPidgeyPokedexText[] = _(
-    "It has an extremely sharp sense of\n"
-    "direction. It can unerringly return home to\n"
-    "its nest, however far it may be removed\n"
-    "from its familiar surroundings.");
+const u8 gKetomonPokedexText[] = _(
+    "Ketomon's large eye's are its \n"
+    "defining characteristic feature. They\n"
+    "give it the ability to discern the\n"
+    "nature of Digimon.");
 
 const u8 gPidgeottoPokedexText[] = _(
     "This POKéMON flies around, patrolling its\n"

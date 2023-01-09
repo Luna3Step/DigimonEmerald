@@ -198,7 +198,7 @@ static const u16 sKeemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPidgeyLevelUpLearnset[] = {
+static const u16 sKetomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 9, MOVE_GUST),

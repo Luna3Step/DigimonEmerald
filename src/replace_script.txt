@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_KEEMON"
-with "FRONTIER_MON_KEEMON"
+replace "FRONTIER_MON_PIDGEY"
+with "FRONTIER_MON_KETOMON"
 
-replace "gKeemonPokedexText"
-with "gKeemonPokedexText"
+replace "gPidgeyPokedexText"
+with "gKetomonPokedexText"
 
-replace "NATIONAL_DEX_KEEMON"
-with "NATIONAL_DEX_KEEMON"
+replace "NATIONAL_DEX_PIDGEY"
+with "NATIONAL_DEX_KETOMON"
 
-replace "SPECIES_KEEMON"
-with "SPECIES_KEEMON"
+replace "SPECIES_PIDGEY"
+with "SPECIES_KETOMON"
 
-replace "HOENN_DEX_KEEMON"
-with "HOENN_DEX_KEEMON"
+replace "HOENN_DEX_PIDGEY"
+with "HOENN_DEX_KETOMON"
 
-replace "SPECIES_TO_HOENN(KEEMON),"
-with "SPECIES_TO_HOENN(KEEMON),"
+replace "SPECIES_TO_HOENN(PIDGEY),"
+with "SPECIES_TO_HOENN(KETOMON),"
 
-replace "SPECIES_TO_NATIONAL(KEEMON),"
-with "SPECIES_TO_NATIONAL(KEEMON),"
+replace "SPECIES_TO_NATIONAL(PIDGEY),"
+with "SPECIES_TO_NATIONAL(KETOMON),"
 
-replace "HOENN_TO_NATIONAL(KEEMON),"
-with "HOENN_TO_NATIONAL(KEEMON),"
+replace "HOENN_TO_NATIONAL(PIDGEY),"
+with "HOENN_TO_NATIONAL(KETOMON),"
 
-replace "EC_POKEMON_NATIONAL(KEEMON),"
-with "EC_POKEMON_NATIONAL(KEEMON),"
+replace "EC_POKEMON_NATIONAL(PIDGEY),"
+with "EC_POKEMON_NATIONAL(KETOMON),"
 
-replace "egg_moves(KEEMON,"
-with "egg_moves(KEEMON,"
+replace "egg_moves(PIDGEY,"
+with "egg_moves(KETOMON,"
 
-replace "sKeemonLevelUpLearnset"
-with "sKeemonLevelUpLearnset"
+replace "sPidgeyLevelUpLearnset"
+with "sKetomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(KEEMON"
-with "SPECIES_SPRITE(KEEMON"
+replace "SPECIES_SPRITE(PIDGEY"
+with "SPECIES_SPRITE(KETOMON"
 
-replace "SPECIES_PAL(KEEMON,"
-with "SPECIES_PAL(KEEMON,"
+replace "SPECIES_PAL(PIDGEY,"
+with "SPECIES_PAL(KETOMON,"
 
-replace "SPECIES_SHINY_PAL(KEEMON,"
-with "SPECIES_SHINY_PAL(KEEMON,"
+replace "SPECIES_SHINY_PAL(PIDGEY,"
+with "SPECIES_SHINY_PAL(KETOMON,"
 
 
 

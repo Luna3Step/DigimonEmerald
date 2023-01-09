@@ -29,7 +29,7 @@
     FRONTIER_MON_SLUGMA,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
-    FRONTIER_MON_PIDGEY,        \
+    FRONTIER_MON_KETOMON,        \
     FRONTIER_MON_RATTATA,       \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_SKITTY,        \
@@ -403,7 +403,7 @@
     FRONTIER_MON_HOPPIP,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
-    FRONTIER_MON_PIDGEY,        \
+    FRONTIER_MON_KETOMON,        \
     FRONTIER_MON_RATTATA,       \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_SKITTY,        \
@@ -709,7 +709,7 @@
     FRONTIER_MON_ZUBAT,         \
     FRONTIER_MON_TOGEPI,        \
     FRONTIER_MON_SMEARGLE,      \
-    FRONTIER_MON_PIDGEY,        \
+    FRONTIER_MON_KETOMON,        \
     FRONTIER_MON_RATTATA,       \
     FRONTIER_MON_SKITTY,        \
     FRONTIER_MON_SPEAROW,       \
@@ -836,7 +836,7 @@
     FRONTIER_MON_ZIGZAGOON,     \
     FRONTIER_MON_TOGEPI,        \
     FRONTIER_MON_SMEARGLE,      \
-    FRONTIER_MON_PIDGEY,        \
+    FRONTIER_MON_KETOMON,        \
     FRONTIER_MON_RATTATA,       \
     FRONTIER_MON_SKITTY,        \
     FRONTIER_MON_SPEAROW,       \

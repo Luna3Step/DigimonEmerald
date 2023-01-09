@@ -192,12 +192,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PIDGEY] =
+    [NATIONAL_DEX_KETOMON] =
     {
-        .categoryName = _("TINY BIRD"),
+        .categoryName = _("LARGE EYES"),
         .height = 3,
-        .weight = 18,
-        .description = gPidgeyPokedexText,
+        .weight = 40,
+        .description = gKetomonPokedexText,
         .pokemonScale = 508,
         .pokemonOffset = -3,
         .trainerScale = 256,
