@@ -376,11 +376,11 @@ const u8 gHiyarimonPokedexText[] = _(
     "icicle on the tip of its beak, the more\n"
     "energy it has.");
 
-const u8 gAbraPokedexText[] = _(
-    "A POKéMON that sleeps 18 hours a day.\n"
-    "Observation revealed that it uses\n"
-    "TELEPORT to change its location once\n"
-    "every hour.");
+const u8 gHopmonPokedexText[] = _(
+    "Hopmon's entire body is covered in\n"
+    "tiny scales that are invisible to the\n"
+    "naked eye. It also has a strong\n"
+    "sense of justice.");
 
 const u8 gKadabraPokedexText[] = _(
     "It is rumored that a boy with psychic\n"

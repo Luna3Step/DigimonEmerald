@@ -2875,7 +2875,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Edward[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_ABRA,
+    .species = SPECIES_HOPMON,
     .moves = {MOVE_HIDDEN_POWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -2999,7 +2999,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jaclyn[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_ABRA,
+    .species = SPECIES_HOPMON,
     .moves = {MOVE_HIDDEN_POWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };

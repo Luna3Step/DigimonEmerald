@@ -824,7 +824,7 @@ static const u16 sHiyarimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAbraLevelUpLearnset[] = {
+static const u16 sHopmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TELEPORT),
     LEVEL_UP_END
 };

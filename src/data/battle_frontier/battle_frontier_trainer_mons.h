@@ -90,7 +90,7 @@
     FRONTIER_MON_CORPHISH,      \
     FRONTIER_MON_BOTAMON,    \
     FRONTIER_MON_CYNDAQUIL,     \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_DODUO,         \
     FRONTIER_MON_GASTLY,        \
     FRONTIER_MON_SWABLU,        \
@@ -132,7 +132,7 @@
     FRONTIER_MON_GULPIN,        \
     FRONTIER_MON_BIBIMON,       \
     FRONTIER_MON_SMOOCHUM,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_GASTLY,        \
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_ARGOMON_F,     \
@@ -228,7 +228,7 @@
     FRONTIER_MON_SMOOCHUM,      \
     FRONTIER_MON_CARVANHA,      \
     FRONTIER_MON_CORPHISH,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_MUDKIP,        \
     FRONTIER_MON_CONOMON,      \
     FRONTIER_MON_TOTODILE,      \
@@ -509,7 +509,7 @@
     FRONTIER_MON_GULPIN,        \
     FRONTIER_MON_BIBIMON,       \
     FRONTIER_MON_SMOOCHUM,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_GASTLY,        \
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_ARGOMON_F,     \
@@ -648,7 +648,7 @@
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_SMOOCHUM,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_TREECKO,       \
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_ARGOMON_F,     \
@@ -682,7 +682,7 @@
     FRONTIER_MON_BAGON,         \
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_SMOOCHUM,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_HOPMON,          \
     FRONTIER_MON_GASTLY,        \
     FRONTIER_MON_SLOWPOKE,      \
     FRONTIER_MON_NATU,          \

@@ -91,7 +91,7 @@
 #define FRONTIER_MON_CORPHISH       87
 #define FRONTIER_MON_BOTAMON     88
 #define FRONTIER_MON_CYNDAQUIL      89
-#define FRONTIER_MON_ABRA           90
+#define FRONTIER_MON_HOPMON           90
 #define FRONTIER_MON_DODUO          91
 #define FRONTIER_MON_GASTLY         92
 #define FRONTIER_MON_SWABLU         93

@@ -756,12 +756,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABRA] =
+    [NATIONAL_DEX_HOPMON] =
     {
-        .categoryName = _("PSI"),
-        .height = 9,
-        .weight = 195,
-        .description = gAbraPokedexText,
+        .categoryName = _("BABY DRAGON"),
+        .height = 6,
+        .weight = 60,
+        .description = gHopmonPokedexText,
         .pokemonScale = 363,
         .pokemonOffset = 14,
         .trainerScale = 256,

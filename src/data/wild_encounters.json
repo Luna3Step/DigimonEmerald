@@ -1380,7 +1380,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_HOPMON"
               },
               {
                 "min_level": 7,
@@ -1994,7 +1994,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_HOPMON"
               },
               {
                 "min_level": 10,
@@ -2063,7 +2063,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_HOPMON"
               },
               {
                 "min_level": 10,
@@ -2462,7 +2462,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_HOPMON"
               },
               {
                 "min_level": 10,
@@ -4620,7 +4620,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_HOPMON"
               },
               {
                 "min_level": 10,

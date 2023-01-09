@@ -191,7 +191,7 @@ const u16 gEggMoves[] = {
               MOVE_WATER_SPORT,
               MOVE_ICE_BALL),
 
-    egg_moves(ABRA,
+    egg_moves(HOPMON,
               MOVE_ENCORE,
               MOVE_BARRIER,
               MOVE_KNOCK_OFF,
