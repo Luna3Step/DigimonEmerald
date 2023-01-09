@@ -852,12 +852,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VICTREEBEL] =
+    [NATIONAL_DEX_KYUPIMON] =
     {
-        .categoryName = _("FLYCATCHER"),
-        .height = 17,
-        .weight = 155,
-        .description = gVictreebelPokedexText,
+        .categoryName = _("CHARITY"),
+        .height = 6,
+        .weight = 60,
+        .description = gKyupimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 312,

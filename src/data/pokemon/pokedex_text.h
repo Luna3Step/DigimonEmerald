@@ -424,11 +424,11 @@ const u8 gKyokyomonPokedexText[] = _(
     "stretch upto nine times its body length.\n"
     "It is a popular digimon for shogi players.");
 
-const u8 gVictreebelPokedexText[] = _(
-    "The long vine extending from its head is\n"
-    "waved about as if it were a living thing to\n"
-    "attract prey. When an unsuspecting victim\n"
-    "approaches, it is swallowed whole.");
+const u8 gKyupimonPokedexText[] = _(
+    "Kyupimon love's good deeds, it loves them\n"
+    "so much that is is called the 'angel of\n"
+    "charity'. It is said that it's love can\n"
+    "stop any digimon from fighting it.");
 
 const u8 gTentacoolPokedexText[] = _(
     "Its body is almost entirely composed of\n"
