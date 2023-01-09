@@ -61,7 +61,7 @@
     FRONTIER_MON_SHUPPET,       \
     FRONTIER_MON_DUSKULL,       \
     FRONTIER_MON_ELECTRIKE,     \
-    FRONTIER_MON_VULPIX,        \
+    FRONTIER_MON_RELEMON,        \
     -1
 
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
@@ -419,7 +419,7 @@
     FRONTIER_MON_MEOWTH,        \
     FRONTIER_MON_SPHEAL,        \
     FRONTIER_MON_SHROOMISH,     \
-    FRONTIER_MON_VULPIX,        \
+    FRONTIER_MON_RELEMON,        \
     FRONTIER_MON_PETITMON,       \
     FRONTIER_MON_POPOMON,     \
     FRONTIER_MON_POLIWAG,       \
@@ -805,7 +805,7 @@
     FRONTIER_MON_SLUGMA,        \
     FRONTIER_MON_SHUPPET,       \
     FRONTIER_MON_DUSKULL,       \
-    FRONTIER_MON_VULPIX,        \
+    FRONTIER_MON_RELEMON,        \
     FRONTIER_MON_GEODUDE,       \
     FRONTIER_MON_LARVITAR,      \
     FRONTIER_MON_BAGON,         \

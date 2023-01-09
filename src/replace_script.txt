@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_CLEFABLE"
-with "FRONTIER_MON_PYONMON"
+replace "FRONTIER_MON_VULPIX"
+with "FRONTIER_MON_RELEMON"
 
-replace "gClefablePokedexText"
-with "gPyonmonPokedexText"
+replace "gVulpixPokedexText"
+with "gRelemonPokedexText"
 
-replace "NATIONAL_DEX_CLEFABLE"
-with "NATIONAL_DEX_PYONMON"
+replace "NATIONAL_DEX_VULPIX"
+with "NATIONAL_DEX_RELEMON"
 
-replace "SPECIES_CLEFABLE"
-with "SPECIES_PYONMON"
+replace "SPECIES_VULPIX"
+with "SPECIES_RELEMON"
 
-replace "HOENN_DEX_CLEFABLE"
-with "HOENN_DEX_PYONMON"
+replace "HOENN_DEX_VULPIX"
+with "HOENN_DEX_RELEMON"
 
-replace "SPECIES_TO_HOENN(CLEFABLE),"
-with "SPECIES_TO_HOENN(PYONMON),"
+replace "SPECIES_TO_HOENN(VULPIX),"
+with "SPECIES_TO_HOENN(RELEMON),"
 
-replace "SPECIES_TO_NATIONAL(CLEFABLE),"
-with "SPECIES_TO_NATIONAL(PYONMON),"
+replace "SPECIES_TO_NATIONAL(VULPIX),"
+with "SPECIES_TO_NATIONAL(RELEMON),"
 
-replace "HOENN_TO_NATIONAL(CLEFABLE),"
-with "HOENN_TO_NATIONAL(PYONMON),"
+replace "HOENN_TO_NATIONAL(VULPIX),"
+with "HOENN_TO_NATIONAL(RELEMON),"
 
-replace "EC_POKEMON_NATIONAL(CLEFABLE),"
-with "EC_POKEMON_NATIONAL(PYONMON),"
+replace "EC_POKEMON_NATIONAL(VULPIX),"
+with "EC_POKEMON_NATIONAL(RELEMON),"
 
-replace "egg_moves(CLEFABLE,"
-with "egg_moves(PYONMON,"
+replace "egg_moves(VULPIX,"
+with "egg_moves(RELEMON,"
 
-replace "sClefableLevelUpLearnset"
-with "sPyonmonLevelUpLearnset"
+replace "sVulpixLevelUpLearnset"
+with "sRelemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CLEFABLE"
-with "SPECIES_SPRITE(PYONMON"
+replace "SPECIES_SPRITE(VULPIX"
+with "SPECIES_SPRITE(RELEMON"
 
-replace "SPECIES_PAL(CLEFABLE,"
-with "SPECIES_PAL(PYONMON,"
+replace "SPECIES_PAL(VULPIX,"
+with "SPECIES_PAL(RELEMON,"
 
-replace "SPECIES_SHINY_PAL(CLEFABLE,"
-with "SPECIES_SHINY_PAL(PYONMON,"
+replace "SPECIES_SHINY_PAL(VULPIX,"
+with "SPECIES_SHINY_PAL(RELEMON,"
 
 
 

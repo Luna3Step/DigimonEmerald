@@ -476,7 +476,7 @@ static const u16 sPyonmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVulpixLevelUpLearnset[] = {
+static const u16 sRelemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 5, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 9, MOVE_ROAR),

@@ -94,7 +94,7 @@ const u16 gEggMoves[] = {
               MOVE_CONFUSION,
               MOVE_BEAT_UP),
 
-    egg_moves(VULPIX,
+    egg_moves(RELEMON,
               MOVE_FAINT_ATTACK,
               MOVE_HYPNOSIS,
               MOVE_FLAIL,

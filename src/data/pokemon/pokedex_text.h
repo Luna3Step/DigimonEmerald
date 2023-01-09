@@ -220,11 +220,11 @@ const u8 gPyonmonPokedexText[] = _(
     "attacks, it uses its ear which has \n"
     "enough power to blow away Rookies.");
 
-const u8 gVulpixPokedexText[] = _(
-    "It can freely control fire, making fiery\n"
-    "orbs fly like will-o'-the-wisps. Just\n"
-    "before evolution, its six tails grow hot \n"
-    "as if on fire.");
+const u8 gRelemonPokedexText[] = _(
+    "Relemon are said to be only born on\n"
+    "moonlit nights. Those born on fullmoons\n"
+    "are also said to have great magical\n"
+    "powers.");
 
 const u8 gNinetalesPokedexText[] = _(
     "It has long been said that each of the\n"

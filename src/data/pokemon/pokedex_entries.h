@@ -444,12 +444,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VULPIX] =
+    [NATIONAL_DEX_RELEMON] =
     {
         .categoryName = _("FOX"),
-        .height = 6,
-        .weight = 99,
-        .description = gVulpixPokedexText,
+        .height = 3,
+        .weight = 40,
+        .description = gRelemonPokedexText,
         .pokemonScale = 542,
         .pokemonOffset = 19,
         .trainerScale = 256,
