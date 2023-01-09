@@ -262,11 +262,11 @@ const u8 gZerimonPokedexText[] = _(
     "horned Conomon, the one horned Zerimon\n"
     "is very energetic.");
 
-const u8 gGloomPokedexText[] = _(
-    "A horribly noxious honey drools from its\n"
-    "mouth. One whiff of the honey can result\n"
-    "in memory loss. Some fans are said to\n"
-    "enjoy this overwhelming stink, however.");
+const u8 gZurumonPokedexText[] = _(
+    "Zurumon was produced by hackers with\n"
+    "evil desires. It's body is made up of \n"
+    "a toxic slime substance. It has skillful\n"
+    "control of it's body.");
 
 const u8 gVileplumePokedexText[] = _(
     "In seasons when it produces more pollen,\n"

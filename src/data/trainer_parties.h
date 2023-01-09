@@ -438,7 +438,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Violet[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     }
 };
 
@@ -464,7 +464,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 20,
@@ -482,7 +482,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 30,
@@ -500,7 +500,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 40,
@@ -6177,7 +6177,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana2[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 10,
@@ -6195,7 +6195,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 20,
@@ -6213,7 +6213,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 30,
@@ -7494,7 +7494,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine1[] = {
     {
     .iv = 50,
     .lvl = 26,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 50,
@@ -7538,7 +7538,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine2[] = {
     {
     .iv = 60,
     .lvl = 30,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 60,
@@ -7551,7 +7551,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine3[] = {
     {
     .iv = 70,
     .lvl = 33,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 70,
@@ -7564,7 +7564,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine4[] = {
     {
     .iv = 80,
     .lvl = 36,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 80,
@@ -9074,7 +9074,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alexa[] = {
     {
     .iv = 100,
     .lvl = 34,
-    .species = SPECIES_GLOOM,
+    .species = SPECIES_ZURUMON,
     },
     {
     .iv = 100,

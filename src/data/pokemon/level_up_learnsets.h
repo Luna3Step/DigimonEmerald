@@ -566,7 +566,7 @@ static const u16 sZerimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGloomLevelUpLearnset[] = {
+static const u16 sZurumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 1, MOVE_POISON_POWDER),

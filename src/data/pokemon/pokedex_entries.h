@@ -528,12 +528,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GLOOM] =
+    [NATIONAL_DEX_ZURUMON] =
     {
-        .categoryName = _("WEED"),
-        .height = 8,
-        .weight = 86,
-        .description = gGloomPokedexText,
+        .categoryName = _("TOXIC VIRUS"),
+        .height = 3,
+        .weight = 40,
+        .description = gZurumonPokedexText,
         .pokemonScale = 329,
         .pokemonOffset = 13,
         .trainerScale = 256,

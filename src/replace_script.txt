@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_ODDISH"
-with "FRONTIER_MON_ZERIMON"
+replace "FRONTIER_MON_GLOOM"
+with "FRONTIER_MON_ZURUMON"
 
-replace "gOddishPokedexText"
-with "gZerimonPokedexText"
+replace "gGloomPokedexText"
+with "gZurumonPokedexText"
 
-replace "NATIONAL_DEX_ODDISH"
-with "NATIONAL_DEX_ZERIMON"
+replace "NATIONAL_DEX_GLOOM"
+with "NATIONAL_DEX_ZURUMON"
 
-replace "SPECIES_ODDISH"
-with "SPECIES_ZERIMON"
+replace "SPECIES_GLOOM"
+with "SPECIES_ZURUMON"
 
-replace "HOENN_DEX_ODDISH"
-with "HOENN_DEX_ZERIMON"
+replace "HOENN_DEX_GLOOM"
+with "HOENN_DEX_ZURUMON"
 
-replace "SPECIES_TO_HOENN(ODDISH),"
-with "SPECIES_TO_HOENN(ZERIMON),"
+replace "SPECIES_TO_HOENN(GLOOM),"
+with "SPECIES_TO_HOENN(ZURUMON),"
 
-replace "SPECIES_TO_NATIONAL(ODDISH),"
-with "SPECIES_TO_NATIONAL(ZERIMON),"
+replace "SPECIES_TO_NATIONAL(GLOOM),"
+with "SPECIES_TO_NATIONAL(ZURUMON),"
 
-replace "HOENN_TO_NATIONAL(ODDISH),"
-with "HOENN_TO_NATIONAL(ZERIMON),"
+replace "HOENN_TO_NATIONAL(GLOOM),"
+with "HOENN_TO_NATIONAL(ZURUMON),"
 
-replace "EC_POKEMON_NATIONAL(ODDISH),"
-with "EC_POKEMON_NATIONAL(ZERIMON),"
+replace "EC_POKEMON_NATIONAL(GLOOM),"
+with "EC_POKEMON_NATIONAL(ZURUMON),"
 
-replace "egg_moves(ODDISH,"
-with "egg_moves(ZERIMON,"
+replace "egg_moves(GLOOM,"
+with "egg_moves(ZURUMON,"
 
-replace "sOddishLevelUpLearnset"
-with "sZerimonLevelUpLearnset"
+replace "sGloomLevelUpLearnset"
+with "sZurumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ODDISH"
-with "SPECIES_SPRITE(ZERIMON"
+replace "SPECIES_SPRITE(GLOOM"
+with "SPECIES_SPRITE(ZURUMON"
 
-replace "SPECIES_PAL(ODDISH,"
-with "SPECIES_PAL(ZERIMON,"
+replace "SPECIES_PAL(GLOOM,"
+with "SPECIES_PAL(ZURUMON,"
 
-replace "SPECIES_SHINY_PAL(ODDISH,"
-with "SPECIES_SHINY_PAL(ZERIMON,"
+replace "SPECIES_SHINY_PAL(GLOOM,"
+with "SPECIES_SHINY_PAL(ZURUMON,"
 
 
 

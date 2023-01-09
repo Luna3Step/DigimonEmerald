@@ -2275,7 +2275,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 27,
@@ -3750,7 +3750,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 26,
@@ -3993,7 +3993,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 26,
@@ -6963,7 +6963,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 27,
@@ -7112,12 +7112,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 29,
@@ -7211,12 +7211,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_GLOOM"
+                "species": "SPECIES_ZURUMON"
               },
               {
                 "min_level": 29,
