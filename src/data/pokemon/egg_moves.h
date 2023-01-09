@@ -163,7 +163,7 @@ const u16 gEggMoves[] = {
               MOVE_CROSS_CHOP,
               MOVE_REFRESH),
 
-    egg_moves(MANKEY,
+    egg_moves(DEMIVEEMON,
               MOVE_ROCK_SLIDE,
               MOVE_FORESIGHT,
               MOVE_MEDITATE,

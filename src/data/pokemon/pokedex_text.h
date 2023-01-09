@@ -334,11 +334,11 @@ const u8 gDemmeramonPokedexText[] = _(
     "and will attack anything in sight\n"
     "despite it's small body size.");
 
-const u8 gMankeyPokedexText[] = _(
-    "When it starts shaking and its nasal\n"
-    "breathing turns rough, it's a sure sign\n"
-    "of anger. However, since this happens\n"
-    "instantly, there is no time to flee.");
+const u8 gDemiveemonPokedexText[] = _(
+    "Unlike most other In-Training Digimon,\n"
+    "DemiVeemon has great control of it's \n"
+    "whole body letting it grip objects\n"
+    "and hop about without worry.");
 
 const u8 gPrimeapePokedexText[] = _(
     "When it becomes furious, its blood\n"

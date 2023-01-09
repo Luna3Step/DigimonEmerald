@@ -672,12 +672,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_MANKEY] =
+    [NATIONAL_DEX_DEMIVEEMON] =
     {
-        .categoryName = _("PIG MONKEY"),
-        .height = 5,
-        .weight = 280,
-        .description = gMankeyPokedexText,
+        .categoryName = _("HOPPING"),
+        .height = 6,
+        .weight = 60,
+        .description = gDemiveemonPokedexText,
         .pokemonScale = 404,
         .pokemonOffset = 19,
         .trainerScale = 256,
