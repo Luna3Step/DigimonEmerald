@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_ZUBAT"
-with "FRONTIER_MON_ICEBOTAMON"
+replace "FRONTIER_MON_GOLBAT"
+with "FRONTIER_MON_YURAMON"
 
-replace "gZubatPokedexText"
-with "gIceBotamonPokedexText"
+replace "gGolbatPokedexText"
+with "gYuramonPokedexText"
 
-replace "NATIONAL_DEX_ZUBAT"
-with "NATIONAL_DEX_ICEBOTAMON"
+replace "NATIONAL_DEX_GOLBAT"
+with "NATIONAL_DEX_YURAMON"
 
-replace "SPECIES_ZUBAT"
-with "SPECIES_ICEBOTAMON"
+replace "SPECIES_GOLBAT"
+with "SPECIES_YURAMON"
 
-replace "HOENN_DEX_ZUBAT"
-with "HOENN_DEX_ICEBOTAMON"
+replace "HOENN_DEX_GOLBAT"
+with "HOENN_DEX_YURAMON"
 
-replace "SPECIES_TO_HOENN(ZUBAT),"
-with "SPECIES_TO_HOENN(ICEBOTAMON),"
+replace "SPECIES_TO_HOENN(GOLBAT),"
+with "SPECIES_TO_HOENN(YURAMON),"
 
-replace "SPECIES_TO_NATIONAL(ZUBAT),"
-with "SPECIES_TO_NATIONAL(ICEBOTAMON),"
+replace "SPECIES_TO_NATIONAL(GOLBAT),"
+with "SPECIES_TO_NATIONAL(YURAMON),"
 
-replace "HOENN_TO_NATIONAL(ZUBAT),"
-with "HOENN_TO_NATIONAL(ICEBOTAMON),"
+replace "HOENN_TO_NATIONAL(GOLBAT),"
+with "HOENN_TO_NATIONAL(YURAMON),"
 
-replace "EC_POKEMON_NATIONAL(ZUBAT),"
-with "EC_POKEMON_NATIONAL(ICEBOTAMON),"
+replace "EC_POKEMON_NATIONAL(GOLBAT),"
+with "EC_POKEMON_NATIONAL(YURAMON),"
 
-replace "egg_moves(ZUBAT,"
-with "egg_moves(ICEBOTAMON,"
+replace "egg_moves(GOLBAT,"
+with "egg_moves(YURAMON,"
 
-replace "sZubatLevelUpLearnset"
-with "sIceBotamonLevelUpLearnset"
+replace "sGolbatLevelUpLearnset"
+with "sYuramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ZUBAT"
-with "SPECIES_SPRITE(ICEBOTAMON"
+replace "SPECIES_SPRITE(GOLBAT"
+with "SPECIES_SPRITE(YURAMON"
 
-replace "SPECIES_PAL(ZUBAT,"
-with "SPECIES_PAL(ICEBOTAMON,"
+replace "SPECIES_PAL(GOLBAT,"
+with "SPECIES_PAL(YURAMON,"
 
-replace "SPECIES_SHINY_PAL(ZUBAT,"
-with "SPECIES_SHINY_PAL(ICEBOTAMON,"
+replace "SPECIES_SHINY_PAL(GOLBAT,"
+with "SPECIES_SHINY_PAL(YURAMON,"
 
 
 

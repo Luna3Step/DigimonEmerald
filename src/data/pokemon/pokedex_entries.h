@@ -504,12 +504,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOLBAT] =
+    [NATIONAL_DEX_YURAMON] =
     {
-        .categoryName = _("BAT"),
-        .height = 16,
-        .weight = 550,
-        .description = gGolbatPokedexText,
+        .categoryName = _("SEED"),
+        .height = 3,
+        .weight = 40,
+        .description = gYuramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 256,

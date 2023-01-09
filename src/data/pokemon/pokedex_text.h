@@ -250,11 +250,11 @@ const u8 gIceBotamonPokedexText[] = _(
     "climate. It's breath freezes the \n"
     "moisture in the air.");
 
-const u8 gGolbatPokedexText[] = _(
-    "Its fangs easily puncture even thick\n"
-    "animal hide. It loves to feast on the blood\n"
-    "of people and POKéMON. It flits about in\n"
-    "darkness and strikes from behind.");
+const u8 gYuramonPokedexText[] = _(
+    "Yuramon is a seed digimon, its body seems\n"
+    "to be covered in long, soft hair. When\n"
+    "it hatches, it will seek a suitable\n"
+    "environment to grow.");
 
 const u8 gOddishPokedexText[] = _(
     "This POKéMON grows by absorbing moonlight.\n"
