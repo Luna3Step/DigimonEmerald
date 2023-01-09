@@ -252,12 +252,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPEAROW] =
+    [NATIONAL_DEX_NYOKIMON] =
     {
-        .categoryName = _("TINY BIRD"),
+        .categoryName = _("SEED"),
         .height = 3,
-        .weight = 20,
-        .description = gSpearowPokedexText,
+        .weight = 40,
+        .description = gNyokimonPokedexText,
         .pokemonScale = 571,
         .pokemonOffset = 22,
         .trainerScale = 256,

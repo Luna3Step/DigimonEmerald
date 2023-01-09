@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_RATICATE"
-with "FRONTIER_MON_MOKUMON"
+replace "FRONTIER_MON_SPEAROW"
+with "FRONTIER_MON_NYOKIMON"
 
-replace "gRaticatePokedexText"
-with "gMokumonPokedexText"
+replace "gSpearowPokedexText"
+with "gNyokimonPokedexText"
 
-replace "NATIONAL_DEX_RATICATE"
-with "NATIONAL_DEX_MOKUMON"
+replace "NATIONAL_DEX_SPEAROW"
+with "NATIONAL_DEX_NYOKIMON"
 
-replace "SPECIES_RATICATE"
-with "SPECIES_MOKUMON"
+replace "SPECIES_SPEAROW"
+with "SPECIES_NYOKIMON"
 
-replace "HOENN_DEX_RATICATE"
-with "HOENN_DEX_MOKUMON"
+replace "HOENN_DEX_SPEAROW"
+with "HOENN_DEX_NYOKIMON"
 
-replace "SPECIES_TO_HOENN(RATICATE),"
-with "SPECIES_TO_HOENN(MOKUMON),"
+replace "SPECIES_TO_HOENN(SPEAROW),"
+with "SPECIES_TO_HOENN(NYOKIMON),"
 
-replace "SPECIES_TO_NATIONAL(RATICATE),"
-with "SPECIES_TO_NATIONAL(MOKUMON),"
+replace "SPECIES_TO_NATIONAL(SPEAROW),"
+with "SPECIES_TO_NATIONAL(NYOKIMON),"
 
-replace "HOENN_TO_NATIONAL(RATICATE),"
-with "HOENN_TO_NATIONAL(MOKUMON),"
+replace "HOENN_TO_NATIONAL(SPEAROW),"
+with "HOENN_TO_NATIONAL(NYOKIMON),"
 
-replace "EC_POKEMON_NATIONAL(RATICATE),"
-with "EC_POKEMON_NATIONAL(MOKUMON),"
+replace "EC_POKEMON_NATIONAL(SPEAROW),"
+with "EC_POKEMON_NATIONAL(NYOKIMON),"
 
-replace "egg_moves(RATICATE,"
-with "egg_moves(MOKUMON,"
+replace "egg_moves(SPEAROW,"
+with "egg_moves(NYOKIMON,"
 
-replace "sRaticateLevelUpLearnset"
-with "sMokumonLevelUpLearnset"
+replace "sSpearowLevelUpLearnset"
+with "sNyokimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RATICATE"
-with "SPECIES_SPRITE(MOKUMON"
+replace "SPECIES_SPRITE(SPEAROW"
+with "SPECIES_SPRITE(NYOKIMON"
 
-replace "SPECIES_PAL(RATICATE,"
-with "SPECIES_PAL(MOKUMON,"
+replace "SPECIES_PAL(SPEAROW,"
+with "SPECIES_PAL(NYOKIMON,"
 
-replace "SPECIES_SHINY_PAL(RATICATE,"
-with "SPECIES_SHINY_PAL(MOKUMON,"
+replace "SPECIES_SHINY_PAL(SPEAROW,"
+with "SPECIES_SHINY_PAL(NYOKIMON,"
 
 
 

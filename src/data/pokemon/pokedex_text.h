@@ -124,11 +124,11 @@ const u8 gMokumonPokedexText[] = _(
     "unprotected. It use's the smoke from\n"
     "burning it's core to obscure itself.");
 
-const u8 gSpearowPokedexText[] = _(
-    "Its loud cry can be heard over half a mile\n"
-    "away. If its high, keening cry is heard\n"
-    "echoing all around, it is a sign that they\n"
-    "are warning each other of danger.");
+const u8 gNyokimonPokedexText[] = _(
+    "Nyokimon is covered in a transparent \n"
+    "tissue. Inside that tissue, it has a very\n"
+    "similiar body to Botamon. Many believe\n"
+    "this make's it a cousin to Botamon.");
 
 const u8 gFearowPokedexText[] = _(
     "Its long neck and elongated beak are\n"

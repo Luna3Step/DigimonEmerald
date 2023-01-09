@@ -38,7 +38,7 @@
 #define FRONTIER_MON_CHOROMON        34
 #define FRONTIER_MON_WYNAUT         35
 #define FRONTIER_MON_SKITTY         36
-#define FRONTIER_MON_SPEAROW        37
+#define FRONTIER_MON_NYOKIMON        37
 #define FRONTIER_MON_HOOTHOOT       38
 #define FRONTIER_MON_DIGLETT        39
 #define FRONTIER_MON_LEDYBA         40
