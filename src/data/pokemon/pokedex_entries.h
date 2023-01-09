@@ -360,12 +360,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINA] =
+    [NATIONAL_DEX_PUPUMON] =
     {
-        .categoryName = _("POISON PIN"),
-        .height = 8,
-        .weight = 200,
-        .description = gNidorinaPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 3,
+        .weight = 20,
+        .description = gPupumonPokedexText,
         .pokemonScale = 381,
         .pokemonOffset = 15,
         .trainerScale = 256,

@@ -178,11 +178,11 @@ const u8 gPunimonPokedexText[] = _(
     "feeler-like things atop it's head. \n"
     "It's bubbles are very acidic.");
 
-const u8 gNidorinaPokedexText[] = _(
-    "When it is with its friends or\n"
-    "family, its barbs are tucked away to\n"
-    "prevent injury. It appears to become\n"
-    "nervous if separated from the others.");
+const u8 gPupumonPokedexText[] = _(
+    "Pupumon's body is as light as a \n"
+    "bubble. However it is very sensitive\n"
+    "to movement and will run if detected.\n"
+    "It will still counterattack though.");
 
 const u8 gNidoqueenPokedexText[] = _(
     "It is adept at sending foes flying with\n"
