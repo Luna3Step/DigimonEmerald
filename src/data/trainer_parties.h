@@ -8531,7 +8531,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     }
 };
 
@@ -10302,7 +10302,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     {
     .iv = 255,
     .lvl = 32,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
     },
@@ -10340,7 +10340,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
     },
@@ -10378,7 +10378,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
@@ -10416,7 +10416,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
@@ -12171,7 +12171,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_GOLEM,
+    .species = SPECIES_MOTIMON,
     }
 };
 

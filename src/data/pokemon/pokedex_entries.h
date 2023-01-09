@@ -912,12 +912,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOLEM] =
+    [NATIONAL_DEX_MOTIMON] =
     {
-        .categoryName = _("MEGATON"),
-        .height = 14,
-        .weight = 3000,
-        .description = gGolemPokedexText,
+        .categoryName = _("MOCHI"),
+        .height = 6,
+        .weight = 60,
+        .description = gMotimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 296,

@@ -80,7 +80,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_MISSIMON]  = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 11 },
     [SPECIES_MONIMON]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_MOONMON]    = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 12 },
-    [SPECIES_GOLEM]       = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 16 },
+    [SPECIES_MOTIMON]       = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 16 },
     [SPECIES_PONYTA]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
     [SPECIES_RAPIDASH]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
     [SPECIES_SLOWPOKE]    = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 14 },

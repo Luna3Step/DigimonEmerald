@@ -383,7 +383,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round8[] =
         .moves = {MOVE_DESTINY_BOND, MOVE_LICK, MOVE_SHADOW_BALL, MOVE_NONE}
     },
     {
-        .species = SPECIES_GOLEM,
+        .species = SPECIES_MOTIMON,
         .lvl = 42,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SELF_DESTRUCT, MOVE_PROTECT, MOVE_EARTHQUAKE, MOVE_NONE}
@@ -469,7 +469,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round9[] =
 static const struct PyramidWildMon sLevel50WildMons_Round10[] =
 {
     {
-        .species = SPECIES_GOLEM,
+        .species = SPECIES_MOTIMON,
         .lvl = 41,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SELF_DESTRUCT, MOVE_EARTHQUAKE, MOVE_PROTECT, MOVE_NONE}

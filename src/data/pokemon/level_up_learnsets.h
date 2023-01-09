@@ -1009,7 +1009,7 @@ static const u16 sMoonmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGolemLevelUpLearnset[] = {
+static const u16 sMotimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SPORT),

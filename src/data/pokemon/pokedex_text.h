@@ -454,11 +454,11 @@ const u8 gMoonmonPokedexText[] = _(
     "who are raised by tamers often share the\n"
     "the same personality as their tamer.");
 
-const u8 gGolemPokedexText[] = _(
-    "It is said to live in volcanic craters\n"
-    "on mountain peaks. Once a year, it sheds\n"
-    "its hide and grows larger. The shed hide\n"
-    "crumbles and returns to the soil.");
+const u8 gMotimonPokedexText[] = _(
+    "Motimon is a surprisingly intelligent\n"
+    "digimon. It is theorised that Motimon\n"
+    "was produced from the data of \n"
+    "dictionary software.");
 
 const u8 gPonytaPokedexText[] = _(
     "A PONYTA is very weak at birth. It can\n"

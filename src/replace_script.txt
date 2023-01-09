@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_GRAVELER"
-with "FRONTIER_MON_MOONMON"
+replace "FRONTIER_MON_GOLEM"
+with "FRONTIER_MON_MOTIMON"
 
-replace "gGravelerPokedexText"
-with "gMoonmonPokedexText"
+replace "gGolemPokedexText"
+with "gMotimonPokedexText"
 
-replace "NATIONAL_DEX_GRAVELER"
-with "NATIONAL_DEX_MOONMON"
+replace "NATIONAL_DEX_GOLEM"
+with "NATIONAL_DEX_MOTIMON"
 
-replace "SPECIES_GRAVELER"
-with "SPECIES_MOONMON"
+replace "SPECIES_GOLEM"
+with "SPECIES_MOTIMON"
 
-replace "HOENN_DEX_GRAVELER"
-with "HOENN_DEX_MOONMON"
+replace "HOENN_DEX_GOLEM"
+with "HOENN_DEX_MOTIMON"
 
-replace "SPECIES_TO_HOENN(GRAVELER),"
-with "SPECIES_TO_HOENN(MOONMON),"
+replace "SPECIES_TO_HOENN(GOLEM),"
+with "SPECIES_TO_HOENN(MOTIMON),"
 
-replace "SPECIES_TO_NATIONAL(GRAVELER),"
-with "SPECIES_TO_NATIONAL(MOONMON),"
+replace "SPECIES_TO_NATIONAL(GOLEM),"
+with "SPECIES_TO_NATIONAL(MOTIMON),"
 
-replace "HOENN_TO_NATIONAL(GRAVELER),"
-with "HOENN_TO_NATIONAL(MOONMON),"
+replace "HOENN_TO_NATIONAL(GOLEM),"
+with "HOENN_TO_NATIONAL(MOTIMON),"
 
-replace "EC_POKEMON_NATIONAL(GRAVELER),"
-with "EC_POKEMON_NATIONAL(MOONMON),"
+replace "EC_POKEMON_NATIONAL(GOLEM),"
+with "EC_POKEMON_NATIONAL(MOTIMON),"
 
-replace "egg_moves(GRAVELER,"
-with "egg_moves(MOONMON,"
+replace "egg_moves(GOLEM,"
+with "egg_moves(MOTIMON,"
 
-replace "sGravelerLevelUpLearnset"
-with "sMoonmonLevelUpLearnset"
+replace "sGolemLevelUpLearnset"
+with "sMotimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GRAVELER"
-with "SPECIES_SPRITE(MOONMON"
+replace "SPECIES_SPRITE(GOLEM"
+with "SPECIES_SPRITE(MOTIMON"
 
-replace "SPECIES_PAL(GRAVELER,"
-with "SPECIES_PAL(MOONMON,"
+replace "SPECIES_PAL(GOLEM,"
+with "SPECIES_PAL(MOTIMON,"
 
-replace "SPECIES_SHINY_PAL(GRAVELER,"
-with "SPECIES_SHINY_PAL(MOONMON,"
+replace "SPECIES_SHINY_PAL(GOLEM,"
+with "SPECIES_SHINY_PAL(MOTIMON,"
 
-replace "EC_POKEMON(GRAVELER)"
-with "EC_POKEMON(MOONMON)"
+replace "EC_POKEMON(GOLEM)"
+with "EC_POKEMON(MOTIMON)"
 
-replace "EC_POKEMON_NATIONAL(GRAVELER)"
-with "EC_POKEMON_NATIONAL(MOONMON)"
+replace "EC_POKEMON_NATIONAL(GOLEM)"
+with "EC_POKEMON_NATIONAL(MOTIMON)"
 
 in "src/data/text/species_names.h"
-replace "GRAVELER"
-with "MOONMON"
+replace "GOLEM"
+with "MOTIMON"
