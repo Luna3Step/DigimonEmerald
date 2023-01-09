@@ -406,11 +406,11 @@ const u8 gKoromonPokedexText[] = _(
     "Although it is now larger, it is still\n"
     "very weak in battle.");
 
-const u8 gMachampPokedexText[] = _(
-    "It is impossible to defend against punches\n"
-    "and chops doled out by its four arms.\n"
-    "Its fighting spirit flares up when it faces\n"
-    "a tough opponent.");
+const u8 gKozenimonPokedexText[] = _(
+    "Kozenimon is in the shape of the one yen\n"
+    "coin. It is not known why it shares an\n"
+    "appearence with japanese currency. It's\n"
+    "only strength is it's willpower.");
 
 const u8 gBellsproutPokedexText[] = _(
     "A BELLSPROUT's thin and flexible body lets\n"

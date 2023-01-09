@@ -816,12 +816,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MACHAMP] =
+    [NATIONAL_DEX_KOZENIMON] =
     {
-        .categoryName = _("SUPERPOWER"),
-        .height = 16,
-        .weight = 1300,
-        .description = gMachampPokedexText,
+        .categoryName = _("ONE YEN"),
+        .height = 2,
+        .weight = 20,
+        .description = gKozenimonPokedexText,
         .pokemonScale = 280,
         .pokemonOffset = 1,
         .trainerScale = 269,
