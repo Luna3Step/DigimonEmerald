@@ -1571,7 +1571,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_JIGGLYPUFF,
+                                            .species = SPECIES_SANDMON,
                                             .heldItem = ITEM_SITRUS_BERRY,
                                             .moves = {MOVE_PRESENT, MOVE_SING, MOVE_DISABLE, MOVE_REST},
                                             .attackEV = 255,
@@ -1762,7 +1762,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_JIGGLYPUFF,
+                                            .species = SPECIES_SANDMON,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_SING, MOVE_HYPER_VOICE, MOVE_ATTRACT, MOVE_NONE},
                                             .hpEV = 85,

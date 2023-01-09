@@ -500,7 +500,7 @@ static const u16 sSakumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sJigglypuffLevelUpLearnset[] = {
+static const u16 sSandmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 4, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 9, MOVE_POUND),

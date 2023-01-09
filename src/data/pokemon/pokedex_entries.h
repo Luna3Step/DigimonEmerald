@@ -468,12 +468,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_JIGGLYPUFF] =
+    [NATIONAL_DEX_SANDMON] =
     {
-        .categoryName = _("BALLOON"),
-        .height = 5,
-        .weight = 55,
-        .description = gJigglypuffPokedexText,
+        .categoryName = _("SAND"),
+        .height = 3,
+        .weight = 30,
+        .description = gSandmonPokedexText,
         .pokemonScale = 433,
         .pokemonOffset = 2,
         .trainerScale = 256,

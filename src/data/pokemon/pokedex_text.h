@@ -232,11 +232,11 @@ const u8 gSakumonPokedexText[] = _(
     "away, it generally struggles as the\n"
     "heavy blade keeps it off balance.");
 
-const u8 gJigglypuffPokedexText[] = _(
-    "Nothing can avoid falling asleep hearing a\n"
-    "JIGGLYPUFF's song. The sound waves of its\n"
-    "singing voice match the brain waves of\n"
-    "someone in a deep sleep.");
+const u8 gSandmonPokedexText[] = _(
+    "As the name implies, Sandmons body is \n"
+    "completely made up of sand. It can \n"
+    "harden or soften it's body at will to\n"
+    "fit its needs in the moment.");
 
 const u8 gWigglytuffPokedexText[] = _(
     "Its fur is the ultimate in luxuriousness.\n"
