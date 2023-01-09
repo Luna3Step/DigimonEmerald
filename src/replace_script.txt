@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_PIDGEY"
-with "FRONTIER_MON_KETOMON"
+replace "FRONTIER_MON_PIDGEOTTO"
+with "FRONTIER_MON_KURAMON"
 
-replace "gPidgeyPokedexText"
-with "gKetomonPokedexText"
+replace "gPidgeottoPokedexText"
+with "gKuramonPokedexText"
 
-replace "NATIONAL_DEX_PIDGEY"
-with "NATIONAL_DEX_KETOMON"
+replace "NATIONAL_DEX_PIDGEOTTO"
+with "NATIONAL_DEX_KURAMON"
 
-replace "SPECIES_PIDGEY"
-with "SPECIES_KETOMON"
+replace "SPECIES_PIDGEOTTO"
+with "SPECIES_KURAMON"
 
-replace "HOENN_DEX_PIDGEY"
-with "HOENN_DEX_KETOMON"
+replace "HOENN_DEX_PIDGEOTTO"
+with "HOENN_DEX_KURAMON"
 
-replace "SPECIES_TO_HOENN(PIDGEY),"
-with "SPECIES_TO_HOENN(KETOMON),"
+replace "SPECIES_TO_HOENN(PIDGEOTTO),"
+with "SPECIES_TO_HOENN(KURAMON),"
 
-replace "SPECIES_TO_NATIONAL(PIDGEY),"
-with "SPECIES_TO_NATIONAL(KETOMON),"
+replace "SPECIES_TO_NATIONAL(PIDGEOTTO),"
+with "SPECIES_TO_NATIONAL(KURAMON),"
 
-replace "HOENN_TO_NATIONAL(PIDGEY),"
-with "HOENN_TO_NATIONAL(KETOMON),"
+replace "HOENN_TO_NATIONAL(PIDGEOTTO),"
+with "HOENN_TO_NATIONAL(KURAMON),"
 
-replace "EC_POKEMON_NATIONAL(PIDGEY),"
-with "EC_POKEMON_NATIONAL(KETOMON),"
+replace "EC_POKEMON_NATIONAL(PIDGEOTTO),"
+with "EC_POKEMON_NATIONAL(KURAMON),"
 
-replace "egg_moves(PIDGEY,"
-with "egg_moves(KETOMON,"
+replace "egg_moves(PIDGEOTTO,"
+with "egg_moves(KURAMON,"
 
-replace "sPidgeyLevelUpLearnset"
-with "sKetomonLevelUpLearnset"
+replace "sPidgeottoLevelUpLearnset"
+with "sKuramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PIDGEY"
-with "SPECIES_SPRITE(KETOMON"
+replace "SPECIES_SPRITE(PIDGEOTTO"
+with "SPECIES_SPRITE(KURAMON"
 
-replace "SPECIES_PAL(PIDGEY,"
-with "SPECIES_PAL(KETOMON,"
+replace "SPECIES_PAL(PIDGEOTTO,"
+with "SPECIES_PAL(KURAMON,"
 
-replace "SPECIES_SHINY_PAL(PIDGEY,"
-with "SPECIES_SHINY_PAL(KETOMON,"
+replace "SPECIES_SHINY_PAL(PIDGEOTTO,"
+with "SPECIES_SHINY_PAL(KURAMON,"
 
 
 

@@ -100,11 +100,11 @@ const u8 gKetomonPokedexText[] = _(
     "give it the ability to discern the\n"
     "nature of Digimon.");
 
-const u8 gPidgeottoPokedexText[] = _(
-    "This POKéMON flies around, patrolling its\n"
-    "large territory. If its living space is\n"
-    "violated, it shows no mercy in thoroughly\n"
-    "punishing the foe with its sharp claws.");
+const u8 gKuramonPokedexText[] = _(
+    "Kuramon is said to have been born from\n"
+    "humanities malicious nature from the\n"
+    "internet. It multiplies incredibly fast,\n"
+    "consuming all data it finds.");
 
 const u8 gPidgeotPokedexText[] = _(
     "This POKéMON has gorgeous, glossy\n"
