@@ -372,12 +372,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOQUEEN] =
+    [NATIONAL_DEX_PURURUMON] =
     {
-        .categoryName = _("DRILL"),
-        .height = 13,
-        .weight = 600,
-        .description = gNidoqueenPokedexText,
+        .categoryName = _("CHICK"),
+        .height = 3,
+        .weight = 40,
+        .description = gPururumonPokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 4,
         .trainerScale = 256,

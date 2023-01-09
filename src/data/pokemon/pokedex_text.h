@@ -184,11 +184,11 @@ const u8 gPupumonPokedexText[] = _(
     "to movement and will run if detected.\n"
     "It will still counterattack though.");
 
-const u8 gNidoqueenPokedexText[] = _(
-    "It is adept at sending foes flying with\n"
-    "harsh tackles using its tough, scaly body.\n"
-    "This POKéMON is at its strongest when\n"
-    "it is defending its young.");
+const u8 gPururumonPokedexText[] = _(
+    "Although Pururumon is a flying type, it\n"
+    "does not have the ability to fly and.\n"
+    "instead jiggles along the floor. It \n"
+    "loves the smell of grass.");
 
 const u8 gNidoranMPokedexText[] = _(
     "The male NIDORAN has developed muscles\n"
