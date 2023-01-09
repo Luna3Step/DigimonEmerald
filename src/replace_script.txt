@@ -1,44 +1,44 @@
-replace "FRONTIER_MON_FEAROW"
-with "FRONTIER_MON_PABUMON"
+replace "FRONTIER_MON_EKANS"
+with "FRONTIER_MON_PAFUMON"
 
-replace "gFearowPokedexText"
-with "gPabumonPokedexText"
+replace "gEkansPokedexText"
+with "gPafumonPokedexText"
 
-replace "NATIONAL_DEX_FEAROW"
-with "NATIONAL_DEX_PABUMON"
+replace "NATIONAL_DEX_EKANS"
+with "NATIONAL_DEX_PAFUMON"
 
-replace "SPECIES_FEAROW"
-with "SPECIES_PABUMON"
+replace "SPECIES_EKANS"
+with "SPECIES_PAFUMON"
 
-replace "HOENN_DEX_FEAROW"
-with "HOENN_DEX_PABUMON"
+replace "HOENN_DEX_EKANS"
+with "HOENN_DEX_PAFUMON"
 
-replace "SPECIES_TO_HOENN(FEAROW),"
-with "SPECIES_TO_HOENN(PABUMON),"
+replace "SPECIES_TO_HOENN(EKANS),"
+with "SPECIES_TO_HOENN(PAFUMON),"
 
-replace "SPECIES_TO_NATIONAL(FEAROW),"
-with "SPECIES_TO_NATIONAL(PABUMON),"
+replace "SPECIES_TO_NATIONAL(EKANS),"
+with "SPECIES_TO_NATIONAL(PAFUMON),"
 
-replace "HOENN_TO_NATIONAL(FEAROW),"
-with "HOENN_TO_NATIONAL(PABUMON),"
+replace "HOENN_TO_NATIONAL(EKANS),"
+with "HOENN_TO_NATIONAL(PAFUMON),"
 
-replace "EC_POKEMON_NATIONAL(FEAROW),"
-with "EC_POKEMON_NATIONAL(PABUMON),"
+replace "EC_POKEMON_NATIONAL(EKANS),"
+with "EC_POKEMON_NATIONAL(PAFUMON),"
 
-replace "egg_moves(FEAROW,"
-with "egg_moves(PABUMON,"
+replace "egg_moves(EKANS,"
+with "egg_moves(PAFUMON,"
 
-replace "sFearowLevelUpLearnset"
-with "sPabumonLevelUpLearnset"
+replace "sEkansLevelUpLearnset"
+with "sPafumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(FEAROW"
-with "SPECIES_SPRITE(PABUMON"
+replace "SPECIES_SPRITE(EKANS"
+with "SPECIES_SPRITE(PAFUMON"
 
-replace "SPECIES_PAL(FEAROW,"
-with "SPECIES_PAL(PABUMON,"
+replace "SPECIES_PAL(EKANS,"
+with "SPECIES_PAL(PAFUMON,"
 
-replace "SPECIES_SHINY_PAL(FEAROW,"
-with "SPECIES_SHINY_PAL(PABUMON,"
+replace "SPECIES_SHINY_PAL(EKANS,"
+with "SPECIES_SHINY_PAL(PAFUMON,"
 
 
 

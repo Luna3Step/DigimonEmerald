@@ -276,12 +276,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EKANS] =
+    [NATIONAL_DEX_PAFUMON] =
     {
-        .categoryName = _("SNAKE"),
-        .height = 20,
-        .weight = 69,
-        .description = gEkansPokedexText,
+        .categoryName = _("SPIRIT"),
+        .height = 3,
+        .weight = 40,
+        .description = gPafumonPokedexText,
         .pokemonScale = 298,
         .pokemonOffset = 12,
         .trainerScale = 256,

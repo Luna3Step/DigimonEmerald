@@ -59,7 +59,7 @@ const u16 gEggMoves[] = {
               MOVE_ASTONISH,
               MOVE_SKY_ATTACK),
 
-    egg_moves(EKANS,
+    egg_moves(PAFUMON,
               MOVE_PURSUIT,
               MOVE_SLAM,
               MOVE_SPITE,

@@ -49,7 +49,7 @@
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_PARAS,         \
-    FRONTIER_MON_EKANS,         \
+    FRONTIER_MON_PAFUMON,         \
     FRONTIER_MON_DITTO,         \
     FRONTIER_MON_BARBOACH,      \
     FRONTIER_MON_MEOWTH,        \
@@ -123,7 +123,7 @@
     FRONTIER_MON_NIDORAN_F,     \
     FRONTIER_MON_KIRLIA,        \
     FRONTIER_MON_MEDITITE,      \
-    FRONTIER_MON_EKANS,         \
+    FRONTIER_MON_PAFUMON,         \
     FRONTIER_MON_SHUPPET,       \
     FRONTIER_MON_DUSKULL,       \
     FRONTIER_MON_BELLSPROUT,    \
@@ -498,7 +498,7 @@
     FRONTIER_MON_KIRLIA,        \
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_PARAS,         \
-    FRONTIER_MON_EKANS,         \
+    FRONTIER_MON_PAFUMON,         \
     FRONTIER_MON_PINECO,        \
     FRONTIER_MON_TRAPINCH,      \
     FRONTIER_MON_SHUPPET,       \

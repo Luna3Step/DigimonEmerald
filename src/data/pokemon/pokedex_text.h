@@ -136,11 +136,11 @@ const u8 gPabumonPokedexText[] = _(
     "hardened yet giving it very little\n"
     "defensive power.");
 
-const u8 gEkansPokedexText[] = _(
-    "An EKANS curls itself up in a spiral while\n"
-    "it rests. This position allows it to quickly\n"
-    "respond to an enemy from any direction\n"
-    "with a threat from its upraised head.");
+const u8 gPafumonPokedexText[] = _(
+    "Pafumon possesses a light translucent\n"
+    "body, meaning it is constantly \n"
+    "drifting through the air. It dislikes\n"
+    "fighting a lot.");
 
 const u8 gArbokPokedexText[] = _(
     "This POKéMON has a terrifically strong\n"

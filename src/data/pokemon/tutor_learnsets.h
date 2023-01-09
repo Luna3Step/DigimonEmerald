@@ -306,7 +306,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_SWIFT)),
 
-    [SPECIES_EKANS]            = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_PAFUMON]            = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_ROCK_SLIDE)

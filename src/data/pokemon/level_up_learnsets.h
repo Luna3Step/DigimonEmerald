@@ -294,7 +294,7 @@ static const u16 sPabumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sEkansLevelUpLearnset[] = {
+static const u16 sPafumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WRAP),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 8, MOVE_POISON_STING),
