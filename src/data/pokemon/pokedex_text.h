@@ -508,11 +508,11 @@ const u8 gPoromonPokedexText[] = _(
     "a very tide digimon, sometime's causing \n"
     "fights over their need for tidiness.");
 
-const u8 gDodrioPokedexText[] = _(
-    "A peculiar POKéMON species with three\n"
-    "heads. It vigorously races across grassy\n"
-    "plains even in arid seasons with little\n"
-    "rainfall.");
+const u8 gPuroromonPokedexText[] = _(
+    "Although it is tiny in size, it is very\n"
+    "hard to catch due it's fast and irratic\n"
+    "flying. It is very weak in battle, only\n"
+    "being a nuisance for it's opponents.");
 
 const u8 gSeelPokedexText[] = _(
     "SEEL hunt for prey in frigid, ice-covered\n"

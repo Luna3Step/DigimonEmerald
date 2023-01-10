@@ -955,7 +955,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                     },
                     [1] =
                     {
-                        .species = SPECIES_DODRIO,
+                        .species = SPECIES_PUROROMON,
                         .heldItem = ITEM_KINGS_ROCK,
                         .moves = {MOVE_HAZE, MOVE_TRI_ATTACK, MOVE_TAUNT, MOVE_TORMENT},
                         .hpEV = 252,

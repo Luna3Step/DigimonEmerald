@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_DODUO"
-with "FRONTIER_MON_POROMON"
+replace "FRONTIER_MON_DODRIO"
+with "FRONTIER_MON_PUROROMON"
 
-replace "gDoduoPokedexText"
-with "gPoromonPokedexText"
+replace "gDodrioPokedexText"
+with "gPuroromonPokedexText"
 
-replace "NATIONAL_DEX_DODUO"
-with "NATIONAL_DEX_POROMON"
+replace "NATIONAL_DEX_DODRIO"
+with "NATIONAL_DEX_PUROROMON"
 
-replace "SPECIES_DODUO"
-with "SPECIES_POROMON"
+replace "SPECIES_DODRIO"
+with "SPECIES_PUROROMON"
 
-replace "HOENN_DEX_DODUO"
-with "HOENN_DEX_POROMON"
+replace "HOENN_DEX_DODRIO"
+with "HOENN_DEX_PUROROMON"
 
-replace "SPECIES_TO_HOENN(DODUO),"
-with "SPECIES_TO_HOENN(POROMON),"
+replace "SPECIES_TO_HOENN(DODRIO),"
+with "SPECIES_TO_HOENN(PUROROMON),"
 
-replace "SPECIES_TO_NATIONAL(DODUO),"
-with "SPECIES_TO_NATIONAL(POROMON),"
+replace "SPECIES_TO_NATIONAL(DODRIO),"
+with "SPECIES_TO_NATIONAL(PUROROMON),"
 
-replace "HOENN_TO_NATIONAL(DODUO),"
-with "HOENN_TO_NATIONAL(POROMON),"
+replace "HOENN_TO_NATIONAL(DODRIO),"
+with "HOENN_TO_NATIONAL(PUROROMON),"
 
-replace "EC_POKEMON_NATIONAL(DODUO),"
-with "EC_POKEMON_NATIONAL(POROMON),"
+replace "EC_POKEMON_NATIONAL(DODRIO),"
+with "EC_POKEMON_NATIONAL(PUROROMON),"
 
-replace "egg_moves(DODUO,"
-with "egg_moves(POROMON,"
+replace "egg_moves(DODRIO,"
+with "egg_moves(PUROROMON,"
 
-replace "sDoduoLevelUpLearnset"
-with "sPoromonLevelUpLearnset"
+replace "sDodrioLevelUpLearnset"
+with "sPuroromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DODUO"
-with "SPECIES_SPRITE(POROMON"
+replace "SPECIES_SPRITE(DODRIO"
+with "SPECIES_SPRITE(PUROROMON"
 
-replace "SPECIES_PAL(DODUO,"
-with "SPECIES_PAL(POROMON,"
+replace "SPECIES_PAL(DODRIO,"
+with "SPECIES_PAL(PUROROMON,"
 
-replace "SPECIES_SHINY_PAL(DODUO,"
-with "SPECIES_SHINY_PAL(POROMON,"
+replace "SPECIES_SHINY_PAL(DODRIO,"
+with "SPECIES_SHINY_PAL(PUROROMON,"
 
-replace "EC_POKEMON(DODUO)"
-with "EC_POKEMON(POROMON)"
+replace "EC_POKEMON(DODRIO)"
+with "EC_POKEMON(PUROROMON)"
 
-replace "EC_POKEMON_NATIONAL(DODUO)"
-with "EC_POKEMON_NATIONAL(POROMON)"
+replace "EC_POKEMON_NATIONAL(DODRIO)"
+with "EC_POKEMON_NATIONAL(PUROROMON)"
 
 in "src/data/text/species_names.h"
-replace "DODUO"
-with "POROMON"
+replace "DODRIO"
+with "PUROROMON"

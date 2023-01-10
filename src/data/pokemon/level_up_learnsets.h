@@ -1147,7 +1147,7 @@ static const u16 sPoromonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDodrioLevelUpLearnset[] = {
+static const u16 sPuroromonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_PURSUIT),

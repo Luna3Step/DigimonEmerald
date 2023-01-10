@@ -1020,12 +1020,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = -1,
     },
 
-    [NATIONAL_DEX_DODRIO] =
+    [NATIONAL_DEX_PUROROMON] =
     {
-        .categoryName = _("TRIPLE BIRD"),
-        .height = 18,
-        .weight = 852,
-        .description = gDodrioPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 2,
+        .weight = 10,
+        .description = gPuroromonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,

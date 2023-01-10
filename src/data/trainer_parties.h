@@ -987,7 +987,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vito[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     },
     {
     .iv = 100,
@@ -4878,7 +4878,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     }
 };
 
@@ -4886,7 +4886,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     }
 };
 
@@ -4918,7 +4918,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     }
 };
 
@@ -4926,7 +4926,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     }
 };
 
@@ -10010,7 +10010,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyra[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_DODRIO,
+    .species = SPECIES_PUROROMON,
     }
 };
 
