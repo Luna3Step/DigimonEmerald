@@ -1162,7 +1162,7 @@ static const u16 sPuroromonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSeelLevelUpLearnset[] = {
+static const u16 sPusurimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HEADBUTT),
     LEVEL_UP_MOVE( 9, MOVE_GROWL),
     LEVEL_UP_MOVE(17, MOVE_ICY_WIND),

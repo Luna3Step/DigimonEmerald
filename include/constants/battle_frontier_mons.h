@@ -110,7 +110,7 @@
 #define FRONTIER_MON_NATU           106
 #define FRONTIER_MON_PUYOMON       107
 #define FRONTIER_MON_PICKMON_WHITE      108
-#define FRONTIER_MON_SEEL           109
+#define FRONTIER_MON_PUSURIMON           109
 #define FRONTIER_MON_GRIMER         110
 #define FRONTIER_MON_KRABBY         111
 #define FRONTIER_MON_EXEGGCUTE      112

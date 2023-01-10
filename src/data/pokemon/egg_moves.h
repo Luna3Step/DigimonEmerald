@@ -265,7 +265,7 @@ const u16 gEggMoves[] = {
               MOVE_FLAIL,
               MOVE_ENDEAVOR),
 
-    egg_moves(SEEL,
+    egg_moves(PUSURIMON,
               MOVE_LICK,
               MOVE_PERISH_SONG,
               MOVE_DISABLE,

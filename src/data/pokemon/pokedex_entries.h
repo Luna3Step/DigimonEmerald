@@ -1032,12 +1032,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SEEL] =
+    [NATIONAL_DEX_PUSURIMON] =
     {
-        .categoryName = _("SEA LION"),
-        .height = 11,
-        .weight = 900,
-        .description = gSeelPokedexText,
+        .categoryName = _("PRICKLY"),
+        .height = 6,
+        .weight = 60,
+        .description = gPusurimonPokedexText,
         .pokemonScale = 297,
         .pokemonOffset = 8,
         .trainerScale = 256,

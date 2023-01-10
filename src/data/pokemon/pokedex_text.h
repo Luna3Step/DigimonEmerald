@@ -514,11 +514,11 @@ const u8 gPuroromonPokedexText[] = _(
     "flying. It is very weak in battle, only\n"
     "being a nuisance for it's opponents.");
 
-const u8 gSeelPokedexText[] = _(
-    "SEEL hunt for prey in frigid, ice-covered\n"
-    "seas. When it needs to breathe, it punches\n"
-    "a hole through the ice with the sharply\n"
-    "protruding section of its head.");
+const u8 gPusurimonPokedexText[] = _(
+    "Pusurimon is almost aways seen running\n"
+    "around energetically. Sometimes when\n"
+    "it stops, it has just fallen asleep\n"
+    "on the spot.");
 
 const u8 gDewgongPokedexText[] = _(
     "It loves to snooze on bitterly cold ice.\n"

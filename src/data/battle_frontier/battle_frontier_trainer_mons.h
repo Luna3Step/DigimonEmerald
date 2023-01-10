@@ -109,7 +109,7 @@
     FRONTIER_MON_NATU,          \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_PICKMON_WHITE,     \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     -1
 
 #define FRONTIER_MONS_RICH_BOY_LADY_1 \
@@ -236,7 +236,7 @@
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_NATU,          \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_DROWZEE,       \
     FRONTIER_MON_SPOINK,        \
@@ -275,7 +275,7 @@
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_PUYOMON,      \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_CHINCHOU,      \
@@ -325,7 +325,7 @@
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_PUYOMON,      \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_CHINCHOU,      \
@@ -365,7 +365,7 @@
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_NATU,          \
     FRONTIER_MON_PUYOMON,      \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
@@ -756,7 +756,7 @@
     FRONTIER_MON_PAGUMON,      \
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_CUBONE,        \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_PHANPY,        \
     FRONTIER_MON_MINOMON,     \
@@ -891,7 +891,7 @@
     FRONTIER_MON_PAGUMON,      \
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_PUYOMON,      \
-    FRONTIER_MON_SEEL,          \
+    FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
