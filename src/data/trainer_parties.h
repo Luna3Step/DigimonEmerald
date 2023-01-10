@@ -10758,7 +10758,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
     .iv = 255,
     .lvl = 36,
-    .species = SPECIES_PONYTA,
+    .species = SPECIES_NEGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },
@@ -10796,7 +10796,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery3[] = {
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_PONYTA,
+    .species = SPECIES_NEGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },

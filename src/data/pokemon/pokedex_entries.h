@@ -924,12 +924,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_PONYTA] =
+    [NATIONAL_DEX_NEGAMON] =
     {
-        .categoryName = _("FIRE HORSE"),
-        .height = 10,
-        .weight = 300,
-        .description = gPonytaPokedexText,
+        .categoryName = _("NEGATIVE"),
+        .height = 6,
+        .weight = 60,
+        .description = gNegamonPokedexText,
         .pokemonScale = 283,
         .pokemonOffset = 8,
         .trainerScale = 256,

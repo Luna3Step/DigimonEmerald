@@ -460,11 +460,11 @@ const u8 gMotimonPokedexText[] = _(
     "was produced from the data of \n"
     "dictionary software.");
 
-const u8 gPonytaPokedexText[] = _(
-    "A PONYTA is very weak at birth. It can\n"
-    "barely stand up. Its legs become stronger\n"
-    "as it stumbles and falls while trying to\n"
-    "keep up with its parent.");
+const u8 gNegamonPokedexText[] = _(
+    "Negamon grow up immersed in negative\n"
+    "data from the Network. It will constantly\n"
+    "wish for it's destruction and lives a\n"
+    "quiet life in darkness.");
 
 const u8 gRapidashPokedexText[] = _(
     "It usually canters casually in the fields\n"

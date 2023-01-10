@@ -1337,8 +1337,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_PONYTA_1] = {
-        .species = SPECIES_PONYTA,
+    [FRONTIER_MON_NEGAMON_1] = {
+        .species = SPECIES_NEGAMON,
         .moves = {MOVE_FIRE_SPIN, MOVE_BOUNCE, MOVE_QUICK_ATTACK, MOVE_TAIL_WHIP},
         .itemTableId = BATTLE_FRONTIER_ITEM_RAWST_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2072,8 +2072,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_PONYTA_2] = {
-        .species = SPECIES_PONYTA,
+    [FRONTIER_MON_NEGAMON_2] = {
+        .species = SPECIES_NEGAMON,
         .moves = {MOVE_FLAMETHROWER, MOVE_BODY_SLAM, MOVE_DOUBLE_KICK, MOVE_DOUBLE_TEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

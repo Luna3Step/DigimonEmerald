@@ -230,7 +230,7 @@ const u16 gEggMoves[] = {
               MOVE_ROCK_SLIDE,
               MOVE_BLOCK),
 
-    egg_moves(PONYTA,
+    egg_moves(NEGAMON,
               MOVE_FLAME_WHEEL,
               MOVE_THRASH,
               MOVE_DOUBLE_KICK,

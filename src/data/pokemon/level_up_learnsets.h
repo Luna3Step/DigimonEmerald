@@ -1026,7 +1026,7 @@ static const u16 sMotimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPonytaLevelUpLearnset[] = {
+static const u16 sNegamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE( 9, MOVE_TAIL_WHIP),
