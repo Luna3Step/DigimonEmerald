@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_GENGAR"
-with "FRONTIER_MON_TSUMEMON"
+replace "FRONTIER_MON_ONIX"
+with "FRONTIER_MON_TSUNOMON"
 
-replace "gGengarPokedexText"
-with "gTsumemonPokedexText"
+replace "gOnixPokedexText"
+with "gTsunomonPokedexText"
 
-replace "NATIONAL_DEX_GENGAR"
-with "NATIONAL_DEX_TSUMEMON"
+replace "NATIONAL_DEX_ONIX"
+with "NATIONAL_DEX_TSUNOMON"
 
-replace "SPECIES_GENGAR"
-with "SPECIES_TSUMEMON"
+replace "SPECIES_ONIX"
+with "SPECIES_TSUNOMON"
 
-replace "HOENN_DEX_GENGAR"
-with "HOENN_DEX_TSUMEMON"
+replace "HOENN_DEX_ONIX"
+with "HOENN_DEX_TSUNOMON"
 
-replace "SPECIES_TO_HOENN(GENGAR),"
-with "SPECIES_TO_HOENN(TSUMEMON),"
+replace "SPECIES_TO_HOENN(ONIX),"
+with "SPECIES_TO_HOENN(TSUNOMON),"
 
-replace "SPECIES_TO_NATIONAL(GENGAR),"
-with "SPECIES_TO_NATIONAL(TSUMEMON),"
+replace "SPECIES_TO_NATIONAL(ONIX),"
+with "SPECIES_TO_NATIONAL(TSUNOMON),"
 
-replace "HOENN_TO_NATIONAL(GENGAR),"
-with "HOENN_TO_NATIONAL(TSUMEMON),"
+replace "HOENN_TO_NATIONAL(ONIX),"
+with "HOENN_TO_NATIONAL(TSUNOMON),"
 
-replace "EC_POKEMON_NATIONAL(GENGAR),"
-with "EC_POKEMON_NATIONAL(TSUMEMON),"
+replace "EC_POKEMON_NATIONAL(ONIX),"
+with "EC_POKEMON_NATIONAL(TSUNOMON),"
 
-replace "egg_moves(GENGAR,"
-with "egg_moves(TSUMEMON,"
+replace "egg_moves(ONIX,"
+with "egg_moves(TSUNOMON,"
 
-replace "sGengarLevelUpLearnset"
-with "sTsumemonLevelUpLearnset"
+replace "sOnixLevelUpLearnset"
+with "sTsunomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GENGAR"
-with "SPECIES_SPRITE(TSUMEMON"
+replace "SPECIES_SPRITE(ONIX"
+with "SPECIES_SPRITE(TSUNOMON"
 
-replace "SPECIES_PAL(GENGAR,"
-with "SPECIES_PAL(TSUMEMON,"
+replace "SPECIES_PAL(ONIX,"
+with "SPECIES_PAL(TSUNOMON,"
 
-replace "SPECIES_SHINY_PAL(GENGAR,"
-with "SPECIES_SHINY_PAL(TSUMEMON,"
+replace "SPECIES_SHINY_PAL(ONIX,"
+with "SPECIES_SHINY_PAL(TSUNOMON,"
 
-replace "EC_POKEMON(GENGAR)"
-with "EC_POKEMON(TSUMEMON)"
+replace "EC_POKEMON(ONIX)"
+with "EC_POKEMON(TSUNOMON)"
 
-replace "EC_POKEMON_NATIONAL(GENGAR)"
-with "EC_POKEMON_NATIONAL(TSUMEMON)"
+replace "EC_POKEMON_NATIONAL(ONIX)"
+with "EC_POKEMON_NATIONAL(TSUNOMON)"
 
 in "src/data/text/species_names.h"
-replace "GENGAR"
-with "TSUMEMON"
+replace "ONIX"
+with "TSUNOMON"

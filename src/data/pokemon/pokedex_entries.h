@@ -1140,12 +1140,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_ONIX] =
+    [NATIONAL_DEX_TSUNOMON] =
     {
-        .categoryName = _("ROCK SNAKE"),
-        .height = 88,
-        .weight = 2100,
-        .description = gOnixPokedexText,
+        .categoryName = _("HORN"),
+        .height = 6,
+        .weight = 60,
+        .description = gTsunomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 515,

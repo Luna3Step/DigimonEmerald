@@ -99,7 +99,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_TOKOMON_X]      = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
     [SPECIES_TORBALLMON]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  5 },
     [SPECIES_TSUMEMON]      = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  5 },
-    [SPECIES_ONIX]        = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  2 },
+    [SPECIES_TSUNOMON]        = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  2 },
     [SPECIES_DROWZEE]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  7 },
     [SPECIES_HYPNO]       = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_KRABBY]      = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },

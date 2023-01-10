@@ -1284,7 +1284,7 @@ static const u16 sTsumemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sOnixLevelUpLearnset[] = {
+static const u16 sTsunomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SCREECH),
     LEVEL_UP_MOVE( 9, MOVE_BIND),

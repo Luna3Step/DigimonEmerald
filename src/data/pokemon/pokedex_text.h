@@ -568,11 +568,11 @@ const u8 gTsumemonPokedexText[] = _(
     "to corrode data. They are rarely tamed as\n"
     "it's too fast for tamers or digimon.");
 
-const u8 gOnixPokedexText[] = _(
-    "There is a magnet in its brain that\n"
-    "prevents an ONIX from losing direction\n"
-    "while tunneling. As it grows older, its body\n"
-    "becomes steadily rounder and smoother.");
+const u8 gTsunomonPokedexText[] = _(
+    "Tsunomon has a playful personality and\n"
+    "loves pulling pranks on other digimon.\n"
+    "Unlike many In-Training digimon, it has\n"
+    "good battle sense as well.");
 
 const u8 gDrowzeePokedexText[] = _(
     "If your nose becomes itchy while you are\n"

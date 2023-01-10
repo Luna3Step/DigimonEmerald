@@ -199,7 +199,7 @@
     FRONTIER_MON_DOKIMON,    \
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_GURIMON,     \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_LEDIAN,        \
@@ -611,7 +611,7 @@
     FRONTIER_MON_NOSEPASS,      \
     FRONTIER_MON_CORSOLA,       \
     FRONTIER_MON_MAWILE,        \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     -1
 
 #define FRONTIER_MONS_PARASOL_LADY_1 \
@@ -629,7 +629,7 @@
     FRONTIER_MON_PHANPY,        \
     FRONTIER_MON_LUVDISC,       \
     FRONTIER_MON_GURIMON,     \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     FRONTIER_MON_SUDOWOODO_1,   \
     -1
 
@@ -768,7 +768,7 @@
     FRONTIER_MON_KABUTO,        \
     FRONTIER_MON_CORSOLA,       \
     FRONTIER_MON_GURIMON,     \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     -1
 
 #define FRONTIER_MONS_HIKER_1   \
@@ -798,7 +798,7 @@
     FRONTIER_MON_AIPOM,         \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_NOSEPASS,      \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     -1
 
 #define FRONTIER_MONS_KINDLER_1 \
@@ -822,7 +822,7 @@
     FRONTIER_MON_MAGBY,         \
     FRONTIER_MON_NOSEPASS,      \
     FRONTIER_MON_MAWILE,        \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     -1
 
 #define FRONTIER_MONS_RUNNING_TRIATHLETE_1 \
@@ -869,7 +869,7 @@
     FRONTIER_MON_AIPOM,         \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_ONIX,          \
+    FRONTIER_MON_TSUNOMON,          \
     -1
 
 #define FRONTIER_MONS_SWIMMING_TRIATHLETE_1 \

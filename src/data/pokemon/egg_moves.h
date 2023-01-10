@@ -301,7 +301,7 @@ const u16 gEggMoves[] = {
               MOVE_GRUDGE,
               MOVE_EXPLOSION),
 
-    egg_moves(ONIX,
+    egg_moves(TSUNOMON,
               MOVE_ROCK_SLIDE,
               MOVE_FLAIL,
               MOVE_EXPLOSION,
