@@ -544,11 +544,11 @@ const u8 gTanemonPokedexText[] = _(
     "surrounding foliage. However it\n"
     "struggles against herbivore digimon.");
 
-const u8 gCloysterPokedexText[] = _(
-    "It swims in the sea by swallowing water,\n"
-    "then jetting it out toward the rear.\n"
-    "The CLOYSTER shoots spikes from its\n"
-    "shell using the same system.");
+const u8 gTokomonPokedexText[] = _(
+    "While Tokomon is very cute, tamers \n"
+    "should be wary as it can suddenly snap\n"
+    "at you with it's fangs which are very\n"
+    "sharp and closely packed.");
 
 const u8 gGastlyPokedexText[] = _(
     "When exposed to a strong wind, a GASTLY's\n"

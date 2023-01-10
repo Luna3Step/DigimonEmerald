@@ -1092,12 +1092,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLOYSTER] =
+    [NATIONAL_DEX_TOKOMON] =
     {
-        .categoryName = _("BIVALVE"),
-        .height = 15,
-        .weight = 1325,
-        .description = gCloysterPokedexText,
+        .categoryName = _("BITING"),
+        .height = 6,
+        .weight = 60,
+        .description = gTokomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 269,
