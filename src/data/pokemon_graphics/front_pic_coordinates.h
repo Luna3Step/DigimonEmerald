@@ -86,7 +86,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_PAGUMON]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_PICKMON_SILVER]     = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  8 },
     [SPECIES_PICKMON_WHITE]   = { .size = MON_COORDS_SIZE(32, 24), .y_offset = 21 },
-    [SPECIES_MAGNETON]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  8 },
+    [SPECIES_PICKMON_RED]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  8 },
     [SPECIES_FARFETCHD]   = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
     [SPECIES_DODUO]       = { .size = MON_COORDS_SIZE(40, 56), .y_offset =  5 },
     [SPECIES_DODRIO]      = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },

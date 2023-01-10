@@ -984,12 +984,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAGNETON] =
+    [NATIONAL_DEX_PICKMON_RED] =
     {
-        .categoryName = _("MAGNET"),
-        .height = 10,
-        .weight = 600,
-        .description = gMagnetonPokedexText,
+        .categoryName = _("RED PICK"),
+        .height = 6,
+        .weight = 60,
+        .description = gPickmon_redPokedexText,
         .pokemonScale = 292,
         .pokemonOffset = 1,
         .trainerScale = 256,

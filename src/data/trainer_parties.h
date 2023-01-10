@@ -620,7 +620,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 150,
     .lvl = 30,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 150,
@@ -633,7 +633,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 200,
     .lvl = 33,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 200,
@@ -646,7 +646,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 250,
     .lvl = 36,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 250,
@@ -659,7 +659,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 250,
     .lvl = 39,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SONIC_BOOM, MOVE_THUNDER_WAVE, MOVE_METAL_SOUND, MOVE_THUNDERBOLT}
     },
     {
@@ -879,7 +879,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Braxton[] = {
     {
     .iv = 100,
     .lvl = 28,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_THUNDERBOLT, MOVE_SUPERSONIC, MOVE_THUNDER_WAVE, MOVE_SONIC_BOOM}
     },
     {
@@ -956,7 +956,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Albert[] = {
     {
     .iv = 100,
     .lvl = 43,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 100,
@@ -2412,7 +2412,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 30,
@@ -2422,7 +2422,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -2430,7 +2430,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     },
     {
     .iv = 40,
@@ -2440,7 +2440,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -3430,7 +3430,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 220,
     .lvl = 22,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUPERSONIC, MOVE_SHOCK_WAVE, MOVE_THUNDER_WAVE, MOVE_SONIC_BOOM}
     },
@@ -4780,7 +4780,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -4788,7 +4788,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin5[] = {
     {
     .iv = 40,
     .lvl = 39,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -4838,7 +4838,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -4846,7 +4846,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     }
 };
 
@@ -6770,7 +6770,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 150,
     .lvl = 41,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
@@ -8773,7 +8773,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR2[] = {
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
@@ -8806,7 +8806,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR3[] = {
     {
     .iv = 150,
     .lvl = 47,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
@@ -8839,7 +8839,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR4[] = {
     {
     .iv = 150,
     .lvl = 50,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
@@ -8872,7 +8872,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR5[] = {
     {
     .iv = 150,
     .lvl = 53,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
@@ -10613,7 +10613,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
@@ -10651,7 +10651,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
@@ -10689,7 +10689,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson4[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
@@ -10734,7 +10734,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_PICKMON_RED,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },

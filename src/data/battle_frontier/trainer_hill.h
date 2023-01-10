@@ -590,7 +590,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                     },
                     [4] =
                     {
-                        .species = SPECIES_MAGNETON,
+                        .species = SPECIES_PICKMON_RED,
                         .heldItem = ITEM_MAGNET,
                         .moves = {MOVE_ZAP_CANNON, MOVE_THUNDER_WAVE, MOVE_SCREECH, MOVE_METAL_SOUND},
                         .speedEV = 255,

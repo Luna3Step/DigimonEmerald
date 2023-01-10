@@ -490,11 +490,11 @@ const u8 gPickmon_whitePokedexText[] = _(
     "in the Starmon Corps however they are\n"
     "incredibly loyal and have a strong will.");
 
-const u8 gMagnetonPokedexText[] = _(
-    "It is actually three MAGNEMITE linked\n"
-    "by magnetism. It generates powerful radio\n"
-    "waves that raise temperatures by 3.6\n"
-    "degrees F within a 3,300-foot radius.");
+const u8 gPickmon_redPokedexText[] = _(
+    "Pickmon can come in many colours. Red\n"
+    "pickmon, while weak, are very aggressive\n"
+    "and loud. Despite this, they are a\n"
+    "favourite for 'obnoxious' tamers.");
 
 const u8 gFarfetchdPokedexText[] = _(
     "It is always seen with a stick from a plant.\n"
