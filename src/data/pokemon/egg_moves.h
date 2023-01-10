@@ -360,7 +360,7 @@ const u16 gEggMoves[] = {
               MOVE_PAIN_SPLIT,
               MOVE_WILL_O_WISP),
 
-    egg_moves(RHYHORN,
+    egg_moves(ARURAUMON,
               MOVE_CRUNCH,
               MOVE_REVERSAL,
               MOVE_ROCK_SLIDE,

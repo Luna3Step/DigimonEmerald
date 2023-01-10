@@ -2139,7 +2139,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_RHYHORN,
+                                            .species = SPECIES_ARURAUMON,
                                             .heldItem = ITEM_SOFT_SAND,
                                             .moves = {MOVE_EARTHQUAKE, MOVE_MAGNITUDE, MOVE_NONE, MOVE_NONE},
                                             .hpEV = 6,

@@ -664,11 +664,11 @@ const u8 gArmadilmonPokedexText[] = _(
     "They have a very carefree personality\n"
     "and quickly charms any tamer it likes.");
 
-const u8 gRhyhornPokedexText[] = _(
-    "Once it starts running, it doesn't stop.\n"
-    "Its tiny brain makes it so stupid that it\n"
-    "can't remember why it started running in\n"
-    "the first place.");
+const u8 gAruraumonPokedexText[] = _(
+    "Often mistaken as a Palmon, Aruraumon is\n"
+    "believed to have accomplished a similiar\n"
+    "digivolution. It's flower gives a foul\n"
+    "stench that can waft off predators.");
 
 const u8 gRhydonPokedexText[] = _(
     "Its horn, which rotates like a drill,\n"

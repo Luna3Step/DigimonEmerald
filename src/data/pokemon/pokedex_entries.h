@@ -1332,12 +1332,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RHYHORN] =
+    [NATIONAL_DEX_ARURAUMON] =
     {
-        .categoryName = _("SPIKES"),
-        .height = 10,
-        .weight = 1150,
-        .description = gRhyhornPokedexText,
+        .categoryName = _("MANDRAGORA"),
+        .height = 13,
+        .weight = 410,
+        .description = gAruraumonPokedexText,
         .pokemonScale = 267,
         .pokemonOffset = 6,
         .trainerScale = 256,

@@ -1799,7 +1799,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_RHYHORN,
+    .species = SPECIES_ARURAUMON,
     }
 };
 
@@ -1828,7 +1828,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_RHYHORN,
+    .species = SPECIES_ARURAUMON,
     }
 };
 
@@ -1841,7 +1841,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_RHYHORN,
+    .species = SPECIES_ARURAUMON,
     }
 };
 

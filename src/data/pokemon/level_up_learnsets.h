@@ -1524,7 +1524,7 @@ static const u16 sArmadilmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRhyhornLevelUpLearnset[] = {
+static const u16 sAruraumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE(10, MOVE_STOMP),
