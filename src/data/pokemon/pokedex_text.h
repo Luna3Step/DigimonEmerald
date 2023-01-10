@@ -472,11 +472,11 @@ const u8 gNyaromonPokedexText[] = _(
     "having a very curious personality but\n"
     "can also have a lonely side.");
 
-const u8 gSlowpokePokedexText[] = _(
-    "It catches prey by dipping its tail in\n"
-    "water at the side of a river. But it often\n"
-    "forgets what it is doing and spends entire\n"
-    "days just loafing at water's edge.");
+const u8 gPagumonPokedexText[] = _(
+    "Pagumon are known for having a malicious\n"
+    "personality, often chasing after weaker\n"
+    "digimon. It will use it's hand like ears\n"
+    "to taunt other digimon.");
 
 const u8 gSlowbroPokedexText[] = _(
     "Its tail has a SHELLDER firmly attached\n"

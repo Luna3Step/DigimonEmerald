@@ -948,12 +948,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_SLOWPOKE] =
+    [NATIONAL_DEX_PAGUMON] =
     {
-        .categoryName = _("DOPEY"),
-        .height = 12,
-        .weight = 360,
-        .description = gSlowpokePokedexText,
+        .categoryName = _("SMUG"),
+        .height = 6,
+        .weight = 60,
+        .description = gPagumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 10,
         .trainerScale = 256,

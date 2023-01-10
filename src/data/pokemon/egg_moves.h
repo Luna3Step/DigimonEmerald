@@ -238,7 +238,7 @@ const u16 gEggMoves[] = {
               MOVE_CHARM,
               MOVE_DOUBLE_EDGE),
 
-    egg_moves(SLOWPOKE,
+    egg_moves(PAGUMON,
               MOVE_SAFEGUARD,
               MOVE_BELLY_DRUM,
               MOVE_FUTURE_SIGHT,

@@ -83,7 +83,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_MOTIMON]       = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 16 },
     [SPECIES_NEGAMON]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
     [SPECIES_NYAROMON]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
-    [SPECIES_SLOWPOKE]    = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 14 },
+    [SPECIES_PAGUMON]    = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 14 },
     [SPECIES_SLOWBRO]     = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 10 },
     [SPECIES_MAGNEMITE]   = { .size = MON_COORDS_SIZE(32, 24), .y_offset = 20 },
     [SPECIES_MAGNETON]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
