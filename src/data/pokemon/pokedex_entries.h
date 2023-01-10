@@ -1284,12 +1284,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_HITMONCHAN] =
+    [NATIONAL_DEX_ANGORAMON] =
     {
-        .categoryName = _("PUNCHING"),
-        .height = 14,
-        .weight = 502,
-        .description = gHitmonchanPokedexText,
+        .categoryName = _("RABBIT"),
+        .height = 15,
+        .weight = 520,
+        .description = gAngoramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 277,

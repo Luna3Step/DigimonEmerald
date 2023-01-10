@@ -640,11 +640,11 @@ const u8 gAgumon_XPokedexText[] = _(
     "its common digivolution, Greymon. Its\n"
     "claws are now longer and sharper.");
 
-const u8 gHitmonchanPokedexText[] = _(
-    "A HITMONCHAN is said to possess the\n"
-    "spirit of a boxer who aimed to become the\n"
-    "world champion. Having an indomitable\n"
-    "spirit means that it will never give up.");
+const u8 gAngoramonPokedexText[] = _(
+    "Although it wouldn't like it, Angoramon\n"
+    "has good capabilities to fly using its\n"
+    "large ears that spin. Those same ears also\n"
+    "have great hearing capabilities.");
 
 const u8 gLickitungPokedexText[] = _(
     "Whenever it sees something unfamiliar,\n"
