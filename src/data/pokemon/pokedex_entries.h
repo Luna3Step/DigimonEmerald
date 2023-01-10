@@ -1260,12 +1260,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAROWAK] =
+    [NATIONAL_DEX_AGUMON_EXPERT] =
     {
-        .categoryName = _("BONE KEEPER"),
-        .height = 10,
-        .weight = 450,
-        .description = gMarowakPokedexText,
+        .categoryName = _("T-REX"),
+        .height = 12,
+        .weight = 420,
+        .description = gAgumon_expertPokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 12,
         .trainerScale = 256,

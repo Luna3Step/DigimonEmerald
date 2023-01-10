@@ -628,11 +628,11 @@ const u8 gAgumon_06PokedexText[] = _(
     "red straps on its hands seem to unlock\n"
     "the potential for a new digivolution.");
 
-const u8 gMarowakPokedexText[] = _(
-    "A MAROWAK is the evolved form of a CUBONE\n"
-    "that has grown tough by overcoming the\n"
-    "grief of losing its mother. Its tempered\n"
-    "and hardened spirit is not easily broken.");
+const u8 gAgumon_expertPokedexText[] = _(
+    "Many mistake Agumon Expert as just a\n"
+    "normal Agumon having a laugh, it is \n"
+    "actually a very smart digimon, having its\n"
+    "own Doctorate from Digital World Academy.");
 
 const u8 gHitmonleePokedexText[] = _(
     "Its legs freely stretch and contract.\n"

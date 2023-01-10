@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CUBONE"
-with "FRONTIER_MON_AGUMON_06"
+replace "FRONTIER_MON_MAROWAK"
+with "FRONTIER_MON_AGUMON_EXPERT"
 
-replace "gCubonePokedexText"
-with "gAgumon_06PokedexText"
+replace "gMarowakPokedexText"
+with "gAgumon_expertPokedexText"
 
-replace "NATIONAL_DEX_CUBONE"
-with "NATIONAL_DEX_AGUMON_06"
+replace "NATIONAL_DEX_MAROWAK"
+with "NATIONAL_DEX_AGUMON_EXPERT"
 
-replace "SPECIES_CUBONE"
-with "SPECIES_AGUMON_06"
+replace "SPECIES_MAROWAK"
+with "SPECIES_AGUMON_EXPERT"
 
-replace "HOENN_DEX_CUBONE"
-with "HOENN_DEX_AGUMON_06"
+replace "HOENN_DEX_MAROWAK"
+with "HOENN_DEX_AGUMON_EXPERT"
 
-replace "SPECIES_TO_HOENN(CUBONE),"
-with "SPECIES_TO_HOENN(AGUMON_06),"
+replace "SPECIES_TO_HOENN(MAROWAK),"
+with "SPECIES_TO_HOENN(AGUMON_EXPERT),"
 
-replace "SPECIES_TO_NATIONAL(CUBONE),"
-with "SPECIES_TO_NATIONAL(AGUMON_06),"
+replace "SPECIES_TO_NATIONAL(MAROWAK),"
+with "SPECIES_TO_NATIONAL(AGUMON_EXPERT),"
 
-replace "HOENN_TO_NATIONAL(CUBONE),"
-with "HOENN_TO_NATIONAL(AGUMON_06),"
+replace "HOENN_TO_NATIONAL(MAROWAK),"
+with "HOENN_TO_NATIONAL(AGUMON_EXPERT),"
 
-replace "EC_POKEMON_NATIONAL(CUBONE),"
-with "EC_POKEMON_NATIONAL(AGUMON_06),"
+replace "EC_POKEMON_NATIONAL(MAROWAK),"
+with "EC_POKEMON_NATIONAL(AGUMON_EXPERT),"
 
-replace "egg_moves(CUBONE,"
-with "egg_moves(AGUMON_06,"
+replace "egg_moves(MAROWAK,"
+with "egg_moves(AGUMON_EXPERT,"
 
-replace "sCuboneLevelUpLearnset"
-with "sAgumon_06LevelUpLearnset"
+replace "sMarowakLevelUpLearnset"
+with "sAgumon_expertLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CUBONE"
-with "SPECIES_SPRITE(AGUMON_06"
+replace "SPECIES_SPRITE(MAROWAK"
+with "SPECIES_SPRITE(AGUMON_EXPERT"
 
-replace "SPECIES_PAL(CUBONE,"
-with "SPECIES_PAL(AGUMON_06,"
+replace "SPECIES_PAL(MAROWAK,"
+with "SPECIES_PAL(AGUMON_EXPERT,"
 
-replace "SPECIES_SHINY_PAL(CUBONE,"
-with "SPECIES_SHINY_PAL(AGUMON_06,"
+replace "SPECIES_SHINY_PAL(MAROWAK,"
+with "SPECIES_SHINY_PAL(AGUMON_EXPERT,"
 
-replace "EC_POKEMON(CUBONE)"
-with "EC_POKEMON(AGUMON_06)"
+replace "EC_POKEMON(MAROWAK)"
+with "EC_POKEMON(AGUMON_EXPERT)"
 
-replace "EC_POKEMON_NATIONAL(CUBONE)"
-with "EC_POKEMON_NATIONAL(AGUMON_06)"
+replace "EC_POKEMON_NATIONAL(MAROWAK)"
+with "EC_POKEMON_NATIONAL(AGUMON_EXPERT)"
 
 in "src/data/text/species_names.h"
-replace "CUBONE"
-with "AGUMON_06"
+replace "MAROWAK"
+with "AGUMON_EXPERT"

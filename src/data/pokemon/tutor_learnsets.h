@@ -1510,7 +1510,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_THUNDER_PUNCH)
                                 | TUTOR(MOVE_FIRE_PUNCH)),
 
-    [SPECIES_MAROWAK]          = (TUTOR(MOVE_MEGA_PUNCH)
+    [SPECIES_AGUMON_EXPERT]          = (TUTOR(MOVE_MEGA_PUNCH)
                                 | TUTOR(MOVE_SWORDS_DANCE)
                                 | TUTOR(MOVE_MEGA_KICK)
                                 | TUTOR(MOVE_BODY_SLAM)

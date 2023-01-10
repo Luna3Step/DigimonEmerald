@@ -2709,8 +2709,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_MAROWAK_1] = {
-        .species = SPECIES_MAROWAK,
+    [FRONTIER_MON_AGUMON_EXPERT_1] = {
+        .species = SPECIES_AGUMON_EXPERT,
         .moves = {MOVE_BONEMERANG, MOVE_ROCK_SLIDE, MOVE_ICY_WIND, MOVE_HEADBUTT},
         .itemTableId = BATTLE_FRONTIER_ITEM_THICK_CLUB,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -3290,8 +3290,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_MAROWAK_2] = {
-        .species = SPECIES_MAROWAK,
+    [FRONTIER_MON_AGUMON_EXPERT_2] = {
+        .species = SPECIES_AGUMON_EXPERT,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SWORDS_DANCE, MOVE_ICY_WIND},
         .itemTableId = BATTLE_FRONTIER_ITEM_THICK_CLUB,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -4053,8 +4053,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_CAREFUL
     },
-    [FRONTIER_MON_MAROWAK_3] = {
-        .species = SPECIES_MAROWAK,
+    [FRONTIER_MON_AGUMON_EXPERT_3] = {
+        .species = SPECIES_AGUMON_EXPERT,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SWORDS_DANCE, MOVE_BRICK_BREAK},
         .itemTableId = BATTLE_FRONTIER_ITEM_THICK_CLUB,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -4725,8 +4725,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_MAROWAK_4] = {
-        .species = SPECIES_MAROWAK,
+    [FRONTIER_MON_AGUMON_EXPERT_4] = {
+        .species = SPECIES_AGUMON_EXPERT,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SWORDS_DANCE, MOVE_MEGA_KICK},
         .itemTableId = BATTLE_FRONTIER_ITEM_THICK_CLUB,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
