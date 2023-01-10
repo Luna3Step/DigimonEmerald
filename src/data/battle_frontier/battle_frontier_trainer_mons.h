@@ -91,7 +91,7 @@
     FRONTIER_MON_BOTAMON,    \
     FRONTIER_MON_CYNDAQUIL,     \
     FRONTIER_MON_HOPMON,          \
-    FRONTIER_MON_DODUO,         \
+    FRONTIER_MON_POROMON,         \
     FRONTIER_MON_GASTLY,        \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_TREECKO,       \
@@ -721,7 +721,7 @@
     FRONTIER_MON_DITTO,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_SNUBBULL,      \
-    FRONTIER_MON_DODUO,         \
+    FRONTIER_MON_POROMON,         \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_TORCHIC,       \
     FRONTIER_MON_NATU,          \
@@ -855,7 +855,7 @@
     FRONTIER_MON_DEMIVEEMON,        \
     FRONTIER_MON_KOKOMON,        \
     FRONTIER_MON_NUMEL,         \
-    FRONTIER_MON_DODUO,         \
+    FRONTIER_MON_POROMON,         \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_CUBONE,        \
     FRONTIER_MON_PUYOMON,      \
@@ -921,7 +921,7 @@
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_DEMIVEEMON,        \
     FRONTIER_MON_KOKOMON,        \
-    FRONTIER_MON_DODUO,         \
+    FRONTIER_MON_POROMON,         \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_PICKMON_WHITE,     \

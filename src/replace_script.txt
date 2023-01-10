@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_FARFETCHD"
-with "FRONTIER_MON_PINAMON"
+replace "FRONTIER_MON_DODUO"
+with "FRONTIER_MON_POROMON"
 
-replace "gFarfetchdPokedexText"
-with "gPinamonPokedexText"
+replace "gDoduoPokedexText"
+with "gPoromonPokedexText"
 
-replace "NATIONAL_DEX_FARFETCHD"
-with "NATIONAL_DEX_PINAMON"
+replace "NATIONAL_DEX_DODUO"
+with "NATIONAL_DEX_POROMON"
 
-replace "SPECIES_FARFETCHD"
-with "SPECIES_PINAMON"
+replace "SPECIES_DODUO"
+with "SPECIES_POROMON"
 
-replace "HOENN_DEX_FARFETCHD"
-with "HOENN_DEX_PINAMON"
+replace "HOENN_DEX_DODUO"
+with "HOENN_DEX_POROMON"
 
-replace "SPECIES_TO_HOENN(FARFETCHD),"
-with "SPECIES_TO_HOENN(PINAMON),"
+replace "SPECIES_TO_HOENN(DODUO),"
+with "SPECIES_TO_HOENN(POROMON),"
 
-replace "SPECIES_TO_NATIONAL(FARFETCHD),"
-with "SPECIES_TO_NATIONAL(PINAMON),"
+replace "SPECIES_TO_NATIONAL(DODUO),"
+with "SPECIES_TO_NATIONAL(POROMON),"
 
-replace "HOENN_TO_NATIONAL(FARFETCHD),"
-with "HOENN_TO_NATIONAL(PINAMON),"
+replace "HOENN_TO_NATIONAL(DODUO),"
+with "HOENN_TO_NATIONAL(POROMON),"
 
-replace "EC_POKEMON_NATIONAL(FARFETCHD),"
-with "EC_POKEMON_NATIONAL(PINAMON),"
+replace "EC_POKEMON_NATIONAL(DODUO),"
+with "EC_POKEMON_NATIONAL(POROMON),"
 
-replace "egg_moves(FARFETCHD,"
-with "egg_moves(PINAMON,"
+replace "egg_moves(DODUO,"
+with "egg_moves(POROMON,"
 
-replace "sFarfetchdLevelUpLearnset"
-with "sPinamonLevelUpLearnset"
+replace "sDoduoLevelUpLearnset"
+with "sPoromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(FARFETCHD"
-with "SPECIES_SPRITE(PINAMON"
+replace "SPECIES_SPRITE(DODUO"
+with "SPECIES_SPRITE(POROMON"
 
-replace "SPECIES_PAL(FARFETCHD,"
-with "SPECIES_PAL(PINAMON,"
+replace "SPECIES_PAL(DODUO,"
+with "SPECIES_PAL(POROMON,"
 
-replace "SPECIES_SHINY_PAL(FARFETCHD,"
-with "SPECIES_SHINY_PAL(PINAMON,"
+replace "SPECIES_SHINY_PAL(DODUO,"
+with "SPECIES_SHINY_PAL(POROMON,"
 
-replace "EC_POKEMON(FARFETCHD)"
-with "EC_POKEMON(PINAMON)"
+replace "EC_POKEMON(DODUO)"
+with "EC_POKEMON(POROMON)"
 
-replace "EC_POKEMON_NATIONAL(FARFETCHD)"
-with "EC_POKEMON_NATIONAL(PINAMON)"
+replace "EC_POKEMON_NATIONAL(DODUO)"
+with "EC_POKEMON_NATIONAL(POROMON)"
 
 in "src/data/text/species_names.h"
-replace "FARFETCHD"
-with "PINAMON"
+replace "DODUO"
+with "POROMON"

@@ -502,11 +502,11 @@ const u8 gPinamonPokedexText[] = _(
     "is when it's bored or sleeping. Many\n"
     "tamers struggle to bond with this digimon.");
 
-const u8 gDoduoPokedexText[] = _(
-    "Even while eating or sleeping, one of the\n"
-    "heads remains always vigilant for any sign\n"
-    "of danger. When threatened, it flees at\n"
-    "over 60 miles per hour.");
+const u8 gPoromonPokedexText[] = _(
+    "Despire having functioning wings, Poromon\n"
+    "can only fly at low altitudes. They are\n"
+    "a very tide digimon, sometime's causing \n"
+    "fights over their need for tidiness.");
 
 const u8 gDodrioPokedexText[] = _(
     "A peculiar POKéMON species with three\n"

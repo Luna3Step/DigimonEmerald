@@ -1008,12 +1008,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_DODUO] =
+    [NATIONAL_DEX_POROMON] =
     {
-        .categoryName = _("TWIN BIRD"),
-        .height = 14,
-        .weight = 392,
-        .description = gDoduoPokedexText,
+        .categoryName = _("SMALL BIRD"),
+        .height = 6,
+        .weight = 60,
+        .description = gPoromonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 257,

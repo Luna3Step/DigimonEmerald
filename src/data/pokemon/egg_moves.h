@@ -257,7 +257,7 @@ const u16 gEggMoves[] = {
               MOVE_FEATHER_DANCE,
               MOVE_CURSE),
 
-    egg_moves(DODUO,
+    egg_moves(POROMON,
               MOVE_QUICK_ATTACK,
               MOVE_SUPERSONIC,
               MOVE_HAZE,
