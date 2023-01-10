@@ -93,7 +93,7 @@
 #define FRONTIER_MON_CYNDAQUIL      89
 #define FRONTIER_MON_HOPMON           90
 #define FRONTIER_MON_POROMON          91
-#define FRONTIER_MON_GASTLY         92
+#define FRONTIER_MON_TOKOMON_X         92
 #define FRONTIER_MON_SWABLU         93
 #define FRONTIER_MON_TREECKO        94
 #define FRONTIER_MON_TORCHIC        95

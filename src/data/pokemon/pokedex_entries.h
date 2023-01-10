@@ -1104,12 +1104,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_GASTLY] =
+    [NATIONAL_DEX_TOKOMON_X] =
     {
-        .categoryName = _("GAS"),
-        .height = 13,
-        .weight = 1,
-        .description = gGastlyPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 6,
+        .weight = 60,
+        .description = gTokomon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

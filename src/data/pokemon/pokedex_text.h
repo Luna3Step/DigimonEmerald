@@ -550,11 +550,11 @@ const u8 gTokomonPokedexText[] = _(
     "at you with it's fangs which are very\n"
     "sharp and closely packed.");
 
-const u8 gGastlyPokedexText[] = _(
-    "When exposed to a strong wind, a GASTLY's\n"
-    "gaseous body quickly dwindles away.\n"
-    "They cluster under the eaves of houses\n"
-    "to escape the ravages of wind.");
+const u8 gTokomon_xPokedexText[] = _(
+    "Tokomon X is even more valiant than\n"
+    "its normal counterpart. No matter the\n"
+    "setbacks, it will not be discouraged\n"
+    "in battle.");
 
 const u8 gHaunterPokedexText[] = _(
     "If a HAUNTER beckons you while it is\n"

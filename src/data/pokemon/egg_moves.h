@@ -292,7 +292,7 @@ const u16 gEggMoves[] = {
               MOVE_SCREECH,
               MOVE_ICICLE_SPEAR),
 
-    egg_moves(GASTLY,
+    egg_moves(TOKOMON_X,
               MOVE_PSYWAVE,
               MOVE_PERISH_SONG,
               MOVE_HAZE,

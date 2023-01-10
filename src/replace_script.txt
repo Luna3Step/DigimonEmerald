@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CLOYSTER"
-with "FRONTIER_MON_TOKOMON"
+replace "FRONTIER_MON_GASTLY"
+with "FRONTIER_MON_TOKOMON_X"
 
-replace "gCloysterPokedexText"
-with "gTokomonPokedexText"
+replace "gGastlyPokedexText"
+with "gTokomon_xPokedexText"
 
-replace "NATIONAL_DEX_CLOYSTER"
-with "NATIONAL_DEX_TOKOMON"
+replace "NATIONAL_DEX_GASTLY"
+with "NATIONAL_DEX_TOKOMON_X"
 
-replace "SPECIES_CLOYSTER"
-with "SPECIES_TOKOMON"
+replace "SPECIES_GASTLY"
+with "SPECIES_TOKOMON_X"
 
-replace "HOENN_DEX_CLOYSTER"
-with "HOENN_DEX_TOKOMON"
+replace "HOENN_DEX_GASTLY"
+with "HOENN_DEX_TOKOMON_X"
 
-replace "SPECIES_TO_HOENN(CLOYSTER),"
-with "SPECIES_TO_HOENN(TOKOMON),"
+replace "SPECIES_TO_HOENN(GASTLY),"
+with "SPECIES_TO_HOENN(TOKOMON_X),"
 
-replace "SPECIES_TO_NATIONAL(CLOYSTER),"
-with "SPECIES_TO_NATIONAL(TOKOMON),"
+replace "SPECIES_TO_NATIONAL(GASTLY),"
+with "SPECIES_TO_NATIONAL(TOKOMON_X),"
 
-replace "HOENN_TO_NATIONAL(CLOYSTER),"
-with "HOENN_TO_NATIONAL(TOKOMON),"
+replace "HOENN_TO_NATIONAL(GASTLY),"
+with "HOENN_TO_NATIONAL(TOKOMON_X),"
 
-replace "EC_POKEMON_NATIONAL(CLOYSTER),"
-with "EC_POKEMON_NATIONAL(TOKOMON),"
+replace "EC_POKEMON_NATIONAL(GASTLY),"
+with "EC_POKEMON_NATIONAL(TOKOMON_X),"
 
-replace "egg_moves(CLOYSTER,"
-with "egg_moves(TOKOMON,"
+replace "egg_moves(GASTLY,"
+with "egg_moves(TOKOMON_X,"
 
-replace "sCloysterLevelUpLearnset"
-with "sTokomonLevelUpLearnset"
+replace "sGastlyLevelUpLearnset"
+with "sTokomon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CLOYSTER"
-with "SPECIES_SPRITE(TOKOMON"
+replace "SPECIES_SPRITE(GASTLY"
+with "SPECIES_SPRITE(TOKOMON_X"
 
-replace "SPECIES_PAL(CLOYSTER,"
-with "SPECIES_PAL(TOKOMON,"
+replace "SPECIES_PAL(GASTLY,"
+with "SPECIES_PAL(TOKOMON_X,"
 
-replace "SPECIES_SHINY_PAL(CLOYSTER,"
-with "SPECIES_SHINY_PAL(TOKOMON,"
+replace "SPECIES_SHINY_PAL(GASTLY,"
+with "SPECIES_SHINY_PAL(TOKOMON_X,"
 
-replace "EC_POKEMON(CLOYSTER)"
-with "EC_POKEMON(TOKOMON)"
+replace "EC_POKEMON(GASTLY)"
+with "EC_POKEMON(TOKOMON_X)"
 
-replace "EC_POKEMON_NATIONAL(CLOYSTER)"
-with "EC_POKEMON_NATIONAL(TOKOMON)"
+replace "EC_POKEMON_NATIONAL(GASTLY)"
+with "EC_POKEMON_NATIONAL(TOKOMON_X)"
 
 in "src/data/text/species_names.h"
-replace "CLOYSTER"
+replace "GASTLY"
 with "TOKOMON"

@@ -1241,7 +1241,7 @@ static const u16 sTokomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGastlyLevelUpLearnset[] = {
+static const u16 sTokomon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 8, MOVE_SPITE),
