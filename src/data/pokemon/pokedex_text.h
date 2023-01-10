@@ -574,11 +574,11 @@ const u8 gTsunomonPokedexText[] = _(
     "Unlike many In-Training digimon, it has\n"
     "good battle sense as well.");
 
-const u8 gDrowzeePokedexText[] = _(
-    "If your nose becomes itchy while you are\n"
-    "sleeping, it's a sure sign that a DROWZEE is\n"
-    "standing above your pillow and trying to\n"
-    "eat your dream through your nostrils.");
+const u8 gTumblemonPokedexText[] = _(
+    "Tumblemon grows by eating rocks. It stores\n"
+    "a small bit of ore in it's body for \n"
+    "nourishment. When it eats, it turns blind\n"
+    "as it's eye is in its mouth.");
 
 const u8 gHypnoPokedexText[] = _(
     "The arcing movement and glitter of the\n"

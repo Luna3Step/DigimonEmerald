@@ -307,7 +307,7 @@ const u16 gEggMoves[] = {
               MOVE_EXPLOSION,
               MOVE_BLOCK),
 
-    egg_moves(DROWZEE,
+    egg_moves(TUMBLEMON,
               MOVE_BARRIER,
               MOVE_ASSIST,
               MOVE_ROLE_PLAY,

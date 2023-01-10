@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ONIX"
-with "FRONTIER_MON_TSUNOMON"
+replace "FRONTIER_MON_DROWZEE"
+with "FRONTIER_MON_TUMBLEMON"
 
-replace "gOnixPokedexText"
-with "gTsunomonPokedexText"
+replace "gDrowzeePokedexText"
+with "gTumblemonPokedexText"
 
-replace "NATIONAL_DEX_ONIX"
-with "NATIONAL_DEX_TSUNOMON"
+replace "NATIONAL_DEX_DROWZEE"
+with "NATIONAL_DEX_TUMBLEMON"
 
-replace "SPECIES_ONIX"
-with "SPECIES_TSUNOMON"
+replace "SPECIES_DROWZEE"
+with "SPECIES_TUMBLEMON"
 
-replace "HOENN_DEX_ONIX"
-with "HOENN_DEX_TSUNOMON"
+replace "HOENN_DEX_DROWZEE"
+with "HOENN_DEX_TUMBLEMON"
 
-replace "SPECIES_TO_HOENN(ONIX),"
-with "SPECIES_TO_HOENN(TSUNOMON),"
+replace "SPECIES_TO_HOENN(DROWZEE),"
+with "SPECIES_TO_HOENN(TUMBLEMON),"
 
-replace "SPECIES_TO_NATIONAL(ONIX),"
-with "SPECIES_TO_NATIONAL(TSUNOMON),"
+replace "SPECIES_TO_NATIONAL(DROWZEE),"
+with "SPECIES_TO_NATIONAL(TUMBLEMON),"
 
-replace "HOENN_TO_NATIONAL(ONIX),"
-with "HOENN_TO_NATIONAL(TSUNOMON),"
+replace "HOENN_TO_NATIONAL(DROWZEE),"
+with "HOENN_TO_NATIONAL(TUMBLEMON),"
 
-replace "EC_POKEMON_NATIONAL(ONIX),"
-with "EC_POKEMON_NATIONAL(TSUNOMON),"
+replace "EC_POKEMON_NATIONAL(DROWZEE),"
+with "EC_POKEMON_NATIONAL(TUMBLEMON),"
 
-replace "egg_moves(ONIX,"
-with "egg_moves(TSUNOMON,"
+replace "egg_moves(DROWZEE,"
+with "egg_moves(TUMBLEMON,"
 
-replace "sOnixLevelUpLearnset"
-with "sTsunomonLevelUpLearnset"
+replace "sDrowzeeLevelUpLearnset"
+with "sTumblemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ONIX"
-with "SPECIES_SPRITE(TSUNOMON"
+replace "SPECIES_SPRITE(DROWZEE"
+with "SPECIES_SPRITE(TUMBLEMON"
 
-replace "SPECIES_PAL(ONIX,"
-with "SPECIES_PAL(TSUNOMON,"
+replace "SPECIES_PAL(DROWZEE,"
+with "SPECIES_PAL(TUMBLEMON,"
 
-replace "SPECIES_SHINY_PAL(ONIX,"
-with "SPECIES_SHINY_PAL(TSUNOMON,"
+replace "SPECIES_SHINY_PAL(DROWZEE,"
+with "SPECIES_SHINY_PAL(TUMBLEMON,"
 
-replace "EC_POKEMON(ONIX)"
-with "EC_POKEMON(TSUNOMON)"
+replace "EC_POKEMON(DROWZEE)"
+with "EC_POKEMON(TUMBLEMON)"
 
-replace "EC_POKEMON_NATIONAL(ONIX)"
-with "EC_POKEMON_NATIONAL(TSUNOMON)"
+replace "EC_POKEMON_NATIONAL(DROWZEE)"
+with "EC_POKEMON_NATIONAL(TUMBLEMON)"
 
 in "src/data/text/species_names.h"
-replace "ONIX"
-with "TSUNOMON"
+replace "DROWZEE"
+with "TUMBLEMON"

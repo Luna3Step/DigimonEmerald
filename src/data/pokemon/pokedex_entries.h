@@ -1152,12 +1152,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 14,
     },
 
-    [NATIONAL_DEX_DROWZEE] =
+    [NATIONAL_DEX_TUMBLEMON] =
     {
-        .categoryName = _("HYPNOSIS"),
-        .height = 10,
-        .weight = 324,
-        .description = gDrowzeePokedexText,
+        .categoryName = _("ORE"),
+        .height = 6,
+        .weight = 65,
+        .description = gTumblemonPokedexText,
         .pokemonScale = 274,
         .pokemonOffset = 6,
         .trainerScale = 256,
