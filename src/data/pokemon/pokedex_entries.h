@@ -1128,12 +1128,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_GENGAR] =
+    [NATIONAL_DEX_TSUMEMON] =
     {
-        .categoryName = _("SHADOW"),
-        .height = 15,
-        .weight = 405,
-        .description = gGengarPokedexText,
+        .categoryName = _("VIRUS"),
+        .height = 6,
+        .weight = 60,
+        .description = gTsumemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 302,

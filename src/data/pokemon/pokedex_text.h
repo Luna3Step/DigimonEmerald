@@ -562,11 +562,11 @@ const u8 gTorBallmonPokedexText[] = _(
     "scent is often used by tamers to either\n"
     "weaken or lure digimon.");
 
-const u8 gGengarPokedexText[] = _(
-    "Deep in the night, your shadow cast by\n"
-    "a streetlight may suddenly overtake you.\n"
-    "It is actually a GENGAR running past\n"
-    "you, pretending to be your shadow.");
+const u8 gTsumemonPokedexText[] = _(
+    "Tsumemon is very ferocious digimon that\n"
+    "uses the claws on the tips of its feelers.\n"
+    "to corrode data. They are rarely tamed as\n"
+    "it's too fast for tamers or digimon.");
 
 const u8 gOnixPokedexText[] = _(
     "There is a magnet in its brain that\n"
