@@ -1236,12 +1236,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EXEGGUTOR] =
+    [NATIONAL_DEX_AGUMON] =
     {
-        .categoryName = _("COCONUT"),
-        .height = 20,
-        .weight = 1200,
-        .description = gExeggutorPokedexText,
+        .categoryName = _("T-REX"),
+        .height = 12,
+        .weight = 420,
+        .description = gAgumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 309,

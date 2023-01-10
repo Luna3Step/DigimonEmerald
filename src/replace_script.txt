@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_EXEGGCUTE"
-with "FRONTIER_MON_YOKOMON"
+replace "FRONTIER_MON_EXEGGUTOR"
+with "FRONTIER_MON_AGUMON"
 
-replace "gExeggcutePokedexText"
-with "gYokomonPokedexText"
+replace "gExeggutorPokedexText"
+with "gAgumonPokedexText"
 
-replace "NATIONAL_DEX_EXEGGCUTE"
-with "NATIONAL_DEX_YOKOMON"
+replace "NATIONAL_DEX_EXEGGUTOR"
+with "NATIONAL_DEX_AGUMON"
 
-replace "SPECIES_EXEGGCUTE"
-with "SPECIES_YOKOMON"
+replace "SPECIES_EXEGGUTOR"
+with "SPECIES_AGUMON"
 
-replace "HOENN_DEX_EXEGGCUTE"
-with "HOENN_DEX_YOKOMON"
+replace "HOENN_DEX_EXEGGUTOR"
+with "HOENN_DEX_AGUMON"
 
-replace "SPECIES_TO_HOENN(EXEGGCUTE),"
-with "SPECIES_TO_HOENN(YOKOMON),"
+replace "SPECIES_TO_HOENN(EXEGGUTOR),"
+with "SPECIES_TO_HOENN(AGUMON),"
 
-replace "SPECIES_TO_NATIONAL(EXEGGCUTE),"
-with "SPECIES_TO_NATIONAL(YOKOMON),"
+replace "SPECIES_TO_NATIONAL(EXEGGUTOR),"
+with "SPECIES_TO_NATIONAL(AGUMON),"
 
-replace "HOENN_TO_NATIONAL(EXEGGCUTE),"
-with "HOENN_TO_NATIONAL(YOKOMON),"
+replace "HOENN_TO_NATIONAL(EXEGGUTOR),"
+with "HOENN_TO_NATIONAL(AGUMON),"
 
-replace "EC_POKEMON_NATIONAL(EXEGGCUTE),"
-with "EC_POKEMON_NATIONAL(YOKOMON),"
+replace "EC_POKEMON_NATIONAL(EXEGGUTOR),"
+with "EC_POKEMON_NATIONAL(AGUMON),"
 
-replace "egg_moves(EXEGGCUTE,"
-with "egg_moves(YOKOMON,"
+replace "egg_moves(EXEGGUTOR,"
+with "egg_moves(AGUMON,"
 
-replace "sExeggcuteLevelUpLearnset"
-with "sYokomonLevelUpLearnset"
+replace "sExeggutorLevelUpLearnset"
+with "sAgumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(EXEGGCUTE"
-with "SPECIES_SPRITE(YOKOMON"
+replace "SPECIES_SPRITE(EXEGGUTOR"
+with "SPECIES_SPRITE(AGUMON"
 
-replace "SPECIES_PAL(EXEGGCUTE,"
-with "SPECIES_PAL(YOKOMON,"
+replace "SPECIES_PAL(EXEGGUTOR,"
+with "SPECIES_PAL(AGUMON,"
 
-replace "SPECIES_SHINY_PAL(EXEGGCUTE,"
-with "SPECIES_SHINY_PAL(YOKOMON,"
+replace "SPECIES_SHINY_PAL(EXEGGUTOR,"
+with "SPECIES_SHINY_PAL(AGUMON,"
 
-replace "EC_POKEMON(EXEGGCUTE)"
-with "EC_POKEMON(YOKOMON)"
+replace "EC_POKEMON(EXEGGUTOR)"
+with "EC_POKEMON(AGUMON)"
 
-replace "EC_POKEMON_NATIONAL(EXEGGCUTE)"
-with "EC_POKEMON_NATIONAL(YOKOMON)"
+replace "EC_POKEMON_NATIONAL(EXEGGUTOR)"
+with "EC_POKEMON_NATIONAL(AGUMON)"
 
 in "src/data/text/species_names.h"
-replace "EXEGGCUTE"
-with "YOKOMON"
+replace "EXEGGUTOR"
+with "AGUMON"

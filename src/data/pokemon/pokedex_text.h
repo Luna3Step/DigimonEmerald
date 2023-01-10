@@ -616,11 +616,11 @@ const u8 gYokomonPokedexText[] = _(
     "to live in flocks, the flocks are known\n"
     "to grow up to a few hundred quickly.");
 
-const u8 gExeggutorPokedexText[] = _(
-    "Originally from the tropics, EXEGGUTOR's\n"
-    "heads grow larger from exposure to strong\n"
-    "sunlight. It is said that when the heads\n"
-    "fall, they group to form an EXEGGCUTE.");
+const u8 gAgumonPokedexText[] = _(
+    "Agumon are thought to be very arrogant\n"
+    "digimon due to their frequency of fighting\n"
+    "stronger digimon but it's actually because\n"
+    "they lack any understanding of fear.");
 
 const u8 gCubonePokedexText[] = _(
     "It pines for the mother it will never see\n"
