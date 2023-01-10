@@ -556,11 +556,11 @@ const u8 gTokomon_xPokedexText[] = _(
     "setbacks, it will not be discouraged\n"
     "in battle.");
 
-const u8 gHaunterPokedexText[] = _(
-    "If a HAUNTER beckons you while it is\n"
-    "floating in darkness, don't approach it.\n"
-    "This POKéMON will try to lick you with its\n"
-    "tongue and steal your life away.");
+const u8 gTorBallmonPokedexText[] = _(
+    "TorikaBallmon is digimon that was likely\n"
+    "born from a deep-fried food recipe. Its\n"
+    "scent is often used by tamers to either\n"
+    "weaken or lure digimon.");
 
 const u8 gGengarPokedexText[] = _(
     "Deep in the night, your shadow cast by\n"

@@ -1116,12 +1116,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HAUNTER] =
+    [NATIONAL_DEX_TORBALLMON] =
     {
-        .categoryName = _("GAS"),
-        .height = 16,
-        .weight = 1,
-        .description = gHaunterPokedexText,
+        .categoryName = _("DEEP FRIED"),
+        .height = 6,
+        .weight = 60,
+        .description = gTorBallmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 293,
