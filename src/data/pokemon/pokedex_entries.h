@@ -1272,12 +1272,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HITMONLEE] =
+    [NATIONAL_DEX_AGUMON_X] =
     {
-        .categoryName = _("KICKING"),
-        .height = 15,
-        .weight = 498,
-        .description = gHitmonleePokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 12,
+        .weight = 430,
+        .description = gAgumon_XPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 259,

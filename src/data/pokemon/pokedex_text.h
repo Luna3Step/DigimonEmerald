@@ -634,11 +634,11 @@ const u8 gAgumon_expertPokedexText[] = _(
     "actually a very smart digimon, having its\n"
     "own Doctorate from Digital World Academy.");
 
-const u8 gHitmonleePokedexText[] = _(
-    "Its legs freely stretch and contract.\n"
-    "Using these springlike limbs, it bowls over\n"
-    "foes with devastating kicks. After battle,\n"
-    "it rubs down its tired legs.");
+const u8 gAgumon_XPokedexText[] = _(
+    "This Agumon has developed unique blue lines\n"
+    "across it's body, making it more akin to\n"
+    "its common digivolution, Greymon. Its\n"
+    "claws are now longer and sharper.");
 
 const u8 gHitmonchanPokedexText[] = _(
     "A HITMONCHAN is said to possess the\n"

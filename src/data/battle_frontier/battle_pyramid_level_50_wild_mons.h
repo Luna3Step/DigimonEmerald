@@ -551,7 +551,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round11[] =
         .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_FOCUS_PUNCH}
     },
     {
-        .species = SPECIES_HITMONLEE,
+        .species = SPECIES_AGUMON_X,
         .lvl = 44,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_NONE, MOVE_NONE}

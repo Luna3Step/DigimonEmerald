@@ -1447,7 +1447,7 @@ static const u16 sAgumon_expertLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHitmonleeLevelUpLearnset[] = {
+static const u16 sAgumon_XLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_REVENGE),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_KICK),
     LEVEL_UP_MOVE( 6, MOVE_MEDITATE),

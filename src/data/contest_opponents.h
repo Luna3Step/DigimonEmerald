@@ -2035,7 +2035,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_ELLIE] = {
-        .species = SPECIES_HITMONLEE,
+        .species = SPECIES_AGUMON_X,
         .nickname = _("HITMON"),
         .trainerName = _("ELLIE"),
         .trainerGfxId = OBJ_EVENT_GFX_EXPERT_F,
