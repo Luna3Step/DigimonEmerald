@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_KRABBY"
-with "FRONTIER_MON_VIXIMON"
+replace "FRONTIER_MON_KINGLER"
+with "FRONTIER_MON_WANYAMON"
 
-replace "gKrabbyPokedexText"
-with "gViximonPokedexText"
+replace "gKinglerPokedexText"
+with "gWanyamonPokedexText"
 
-replace "NATIONAL_DEX_KRABBY"
-with "NATIONAL_DEX_VIXIMON"
+replace "NATIONAL_DEX_KINGLER"
+with "NATIONAL_DEX_WANYAMON"
 
-replace "SPECIES_KRABBY"
-with "SPECIES_VIXIMON"
+replace "SPECIES_KINGLER"
+with "SPECIES_WANYAMON"
 
-replace "HOENN_DEX_KRABBY"
-with "HOENN_DEX_VIXIMON"
+replace "HOENN_DEX_KINGLER"
+with "HOENN_DEX_WANYAMON"
 
-replace "SPECIES_TO_HOENN(KRABBY),"
-with "SPECIES_TO_HOENN(VIXIMON),"
+replace "SPECIES_TO_HOENN(KINGLER),"
+with "SPECIES_TO_HOENN(WANYAMON),"
 
-replace "SPECIES_TO_NATIONAL(KRABBY),"
-with "SPECIES_TO_NATIONAL(VIXIMON),"
+replace "SPECIES_TO_NATIONAL(KINGLER),"
+with "SPECIES_TO_NATIONAL(WANYAMON),"
 
-replace "HOENN_TO_NATIONAL(KRABBY),"
-with "HOENN_TO_NATIONAL(VIXIMON),"
+replace "HOENN_TO_NATIONAL(KINGLER),"
+with "HOENN_TO_NATIONAL(WANYAMON),"
 
-replace "EC_POKEMON_NATIONAL(KRABBY),"
-with "EC_POKEMON_NATIONAL(VIXIMON),"
+replace "EC_POKEMON_NATIONAL(KINGLER),"
+with "EC_POKEMON_NATIONAL(WANYAMON),"
 
-replace "egg_moves(KRABBY,"
-with "egg_moves(VIXIMON,"
+replace "egg_moves(KINGLER,"
+with "egg_moves(WANYAMON,"
 
-replace "sKrabbyLevelUpLearnset"
-with "sViximonLevelUpLearnset"
+replace "sKinglerLevelUpLearnset"
+with "sWanyamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(KRABBY"
-with "SPECIES_SPRITE(VIXIMON"
+replace "SPECIES_SPRITE(KINGLER"
+with "SPECIES_SPRITE(WANYAMON"
 
-replace "SPECIES_PAL(KRABBY,"
-with "SPECIES_PAL(VIXIMON,"
+replace "SPECIES_PAL(KINGLER,"
+with "SPECIES_PAL(WANYAMON,"
 
-replace "SPECIES_SHINY_PAL(KRABBY,"
-with "SPECIES_SHINY_PAL(VIXIMON,"
+replace "SPECIES_SHINY_PAL(KINGLER,"
+with "SPECIES_SHINY_PAL(WANYAMON,"
 
-replace "EC_POKEMON(KRABBY)"
-with "EC_POKEMON(VIXIMON)"
+replace "EC_POKEMON(KINGLER)"
+with "EC_POKEMON(WANYAMON)"
 
-replace "EC_POKEMON_NATIONAL(KRABBY)"
-with "EC_POKEMON_NATIONAL(VIXIMON)"
+replace "EC_POKEMON_NATIONAL(KINGLER)"
+with "EC_POKEMON_NATIONAL(WANYAMON)"
 
 in "src/data/text/species_names.h"
-replace "KRABBY"
-with "VIXIMON"
+replace "KINGLER"
+with "WANYAMON"

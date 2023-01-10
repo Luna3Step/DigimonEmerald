@@ -1188,12 +1188,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KINGLER] =
+    [NATIONAL_DEX_WANYAMON] =
     {
-        .categoryName = _("PINCER"),
-        .height = 13,
-        .weight = 600,
-        .description = gKinglerPokedexText,
+        .categoryName = _("DOG"),
+        .height = 6,
+        .weight = 60,
+        .description = gWanyamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 256,

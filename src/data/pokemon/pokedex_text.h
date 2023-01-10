@@ -592,11 +592,11 @@ const u8 gViximonPokedexText[] = _(
     "favourite food. They only act in the\n"
     "evening and moonlit nights.");
 
-const u8 gKinglerPokedexText[] = _(
-    "It waves its huge, oversized claw in the\n"
-    "air to communicate with others.\n"
-    "But since the claw is so heavy, this\n"
-    "POKéMON quickly tires.");
+const u8 gWanyamonPokedexText[] = _(
+    "Wanyamon is very standoffish digimon\n"
+    "when found in the wild however once\n"
+    "show affection, it becomes attached\n"
+    "like a pet.");
 
 const u8 gVoltorbPokedexText[] = _(
     "It bears an uncanny and unexplained\n"
