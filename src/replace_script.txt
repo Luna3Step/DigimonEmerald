@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_GRIMER"
-with "FRONTIER_MON_SAKUTTOMON"
+replace "FRONTIER_MON_MUK"
+with "FRONTIER_MON_SUNMON"
 
-replace "gGrimerPokedexText"
-with "gSakuttomonPokedexText"
+replace "gMukPokedexText"
+with "gSunmonPokedexText"
 
-replace "NATIONAL_DEX_GRIMER"
-with "NATIONAL_DEX_SAKUTTOMON"
+replace "NATIONAL_DEX_MUK"
+with "NATIONAL_DEX_SUNMON"
 
-replace "SPECIES_GRIMER"
-with "SPECIES_SAKUTTOMON"
+replace "SPECIES_MUK"
+with "SPECIES_SUNMON"
 
-replace "HOENN_DEX_GRIMER"
-with "HOENN_DEX_SAKUTTOMON"
+replace "HOENN_DEX_MUK"
+with "HOENN_DEX_SUNMON"
 
-replace "SPECIES_TO_HOENN(GRIMER),"
-with "SPECIES_TO_HOENN(SAKUTTOMON),"
+replace "SPECIES_TO_HOENN(MUK),"
+with "SPECIES_TO_HOENN(SUNMON),"
 
-replace "SPECIES_TO_NATIONAL(GRIMER),"
-with "SPECIES_TO_NATIONAL(SAKUTTOMON),"
+replace "SPECIES_TO_NATIONAL(MUK),"
+with "SPECIES_TO_NATIONAL(SUNMON),"
 
-replace "HOENN_TO_NATIONAL(GRIMER),"
-with "HOENN_TO_NATIONAL(SAKUTTOMON),"
+replace "HOENN_TO_NATIONAL(MUK),"
+with "HOENN_TO_NATIONAL(SUNMON),"
 
-replace "EC_POKEMON_NATIONAL(GRIMER),"
-with "EC_POKEMON_NATIONAL(SAKUTTOMON),"
+replace "EC_POKEMON_NATIONAL(MUK),"
+with "EC_POKEMON_NATIONAL(SUNMON),"
 
-replace "egg_moves(GRIMER,"
-with "egg_moves(SAKUTTOMON,"
+replace "egg_moves(MUK,"
+with "egg_moves(SUNMON,"
 
-replace "sGrimerLevelUpLearnset"
-with "sSakuttomonLevelUpLearnset"
+replace "sMukLevelUpLearnset"
+with "sSunmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(GRIMER"
-with "SPECIES_SPRITE(SAKUTTOMON"
+replace "SPECIES_SPRITE(MUK"
+with "SPECIES_SPRITE(SUNMON"
 
-replace "SPECIES_PAL(GRIMER,"
-with "SPECIES_PAL(SAKUTTOMON,"
+replace "SPECIES_PAL(MUK,"
+with "SPECIES_PAL(SUNMON,"
 
-replace "SPECIES_SHINY_PAL(GRIMER,"
-with "SPECIES_SHINY_PAL(SAKUTTOMON,"
+replace "SPECIES_SHINY_PAL(MUK,"
+with "SPECIES_SHINY_PAL(SUNMON,"
 
-replace "EC_POKEMON(GRIMER)"
-with "EC_POKEMON(SAKUTTOMON)"
+replace "EC_POKEMON(MUK)"
+with "EC_POKEMON(SUNMON)"
 
-replace "EC_POKEMON_NATIONAL(GRIMER)"
-with "EC_POKEMON_NATIONAL(SAKUTTOMON)"
+replace "EC_POKEMON_NATIONAL(MUK)"
+with "EC_POKEMON_NATIONAL(SUNMON)"
 
 in "src/data/text/species_names.h"
-replace "GRIMER"
-with "SAKUTTOMON"
+replace "MUK"
+with "SUNMON"

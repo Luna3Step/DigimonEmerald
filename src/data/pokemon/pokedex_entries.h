@@ -1068,12 +1068,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MUK] =
+    [NATIONAL_DEX_SUNMON] =
     {
-        .categoryName = _("SLUDGE"),
-        .height = 12,
-        .weight = 300,
-        .description = gMukPokedexText,
+        .categoryName = _("SUN"),
+        .height = 6,
+        .weight = 100,
+        .description = gSunmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 256,

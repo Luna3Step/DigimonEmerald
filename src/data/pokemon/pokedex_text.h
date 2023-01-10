@@ -532,11 +532,11 @@ const u8 gSakuttomonPokedexText[] = _(
     "blades. Adorably enough, it is sometimes\n"
     "found stuck in walls and ceilings.");
 
-const u8 gMukPokedexText[] = _(
-    "It prefers warm and humid habitats.\n"
-    "In the summertime, the toxic substances\n"
-    "in its body intensify, making MUK reek like\n"
-    "putrid kitchen garbage.");
+const u8 gSunmonPokedexText[] = _(
+    "Sunmon have very bright personalities \n"
+    "and just general joys to be around. The\n"
+    "flame on it's head have been known to\n"
+    "burn down tamer homes and forests.");
 
 const u8 gShellderPokedexText[] = _(
     "At night, it burrows a hole in the seafloor\n"
