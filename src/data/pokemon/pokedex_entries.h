@@ -1296,12 +1296,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_LICKITUNG] =
+    [NATIONAL_DEX_ARCADIAMON_ROOKIE] =
     {
-        .categoryName = _("LICKING"),
+        .categoryName = _("ULTIMATE"),
         .height = 12,
-        .weight = 655,
-        .description = gLickitungPokedexText,
+        .weight = 465,
+        .description = gArcadiamon_rookiePokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

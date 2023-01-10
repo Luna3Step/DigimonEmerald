@@ -646,11 +646,11 @@ const u8 gAngoramonPokedexText[] = _(
     "large ears that spin. Those same ears also\n"
     "have great hearing capabilities.");
 
-const u8 gLickitungPokedexText[] = _(
-    "Whenever it sees something unfamiliar,\n"
-    "it always licks the object because it\n"
-    "memorizes things by texture and taste.\n"
-    "It is somewhat put off by sour things.");
+const u8 gArcadiamon_rookiePokedexText[] = _(
+    "Unlike other Digimon, Arcadiamon can\n"
+    "only evolve by absorbing other digimon\n"
+    "data. It is also not clear if Arcadiamon\n"
+    "has a sense of self.");
 
 const u8 gKoffingPokedexText[] = _(
     "Getting up close to a KOFFING will give\n"

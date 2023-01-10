@@ -1480,7 +1480,7 @@ static const u16 sAngoramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLickitungLevelUpLearnset[] = {
+static const u16 sArcadiamon_rookieLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 7, MOVE_SUPERSONIC),
     LEVEL_UP_MOVE(12, MOVE_DEFENSE_CURL),
