@@ -155,7 +155,7 @@
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
 #define FRONTIER_MONS_CAMPER_PICNICKER_1 \
     FRONTIER_MON_SAKUTTOMON,        \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TUMBLEMON,       \
@@ -276,7 +276,7 @@
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_PUSURIMON,          \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_CHINCHOU,      \
     FRONTIER_MON_TEDDIURSA,     \
@@ -326,7 +326,7 @@
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_PUSURIMON,          \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_CHINCHOU,      \
     FRONTIER_MON_TEDDIURSA,     \
@@ -578,7 +578,7 @@
     FRONTIER_MON_CARVANHA,      \
     FRONTIER_MON_CORPHISH,      \
     FRONTIER_MON_GOLDEEN,       \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_CHINCHOU,      \
     FRONTIER_MON_LUVDISC,       \
     FRONTIER_MON_MINOMON,     \
@@ -757,7 +757,7 @@
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_CUBONE,        \
     FRONTIER_MON_PUSURIMON,          \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_PHANPY,        \
     FRONTIER_MON_MINOMON,     \
     FRONTIER_MON_STARYU,        \
@@ -892,7 +892,7 @@
     FRONTIER_MON_CHICCHIMON,       \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_PUSURIMON,          \
-    FRONTIER_MON_KRABBY,        \
+    FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
     FRONTIER_MON_DELIBIRD,      \

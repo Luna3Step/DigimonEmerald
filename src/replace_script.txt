@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HYPNO"
-with "FRONTIER_MON_UPAMON"
+replace "FRONTIER_MON_KRABBY"
+with "FRONTIER_MON_VIXIMON"
 
-replace "gHypnoPokedexText"
-with "gUpamonPokedexText"
+replace "gKrabbyPokedexText"
+with "gViximonPokedexText"
 
-replace "NATIONAL_DEX_HYPNO"
-with "NATIONAL_DEX_UPAMON"
+replace "NATIONAL_DEX_KRABBY"
+with "NATIONAL_DEX_VIXIMON"
 
-replace "SPECIES_HYPNO"
-with "SPECIES_UPAMON"
+replace "SPECIES_KRABBY"
+with "SPECIES_VIXIMON"
 
-replace "HOENN_DEX_HYPNO"
-with "HOENN_DEX_UPAMON"
+replace "HOENN_DEX_KRABBY"
+with "HOENN_DEX_VIXIMON"
 
-replace "SPECIES_TO_HOENN(HYPNO),"
-with "SPECIES_TO_HOENN(UPAMON),"
+replace "SPECIES_TO_HOENN(KRABBY),"
+with "SPECIES_TO_HOENN(VIXIMON),"
 
-replace "SPECIES_TO_NATIONAL(HYPNO),"
-with "SPECIES_TO_NATIONAL(UPAMON),"
+replace "SPECIES_TO_NATIONAL(KRABBY),"
+with "SPECIES_TO_NATIONAL(VIXIMON),"
 
-replace "HOENN_TO_NATIONAL(HYPNO),"
-with "HOENN_TO_NATIONAL(UPAMON),"
+replace "HOENN_TO_NATIONAL(KRABBY),"
+with "HOENN_TO_NATIONAL(VIXIMON),"
 
-replace "EC_POKEMON_NATIONAL(HYPNO),"
-with "EC_POKEMON_NATIONAL(UPAMON),"
+replace "EC_POKEMON_NATIONAL(KRABBY),"
+with "EC_POKEMON_NATIONAL(VIXIMON),"
 
-replace "egg_moves(HYPNO,"
-with "egg_moves(UPAMON,"
+replace "egg_moves(KRABBY,"
+with "egg_moves(VIXIMON,"
 
-replace "sHypnoLevelUpLearnset"
-with "sUpamonLevelUpLearnset"
+replace "sKrabbyLevelUpLearnset"
+with "sViximonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HYPNO"
-with "SPECIES_SPRITE(UPAMON"
+replace "SPECIES_SPRITE(KRABBY"
+with "SPECIES_SPRITE(VIXIMON"
 
-replace "SPECIES_PAL(HYPNO,"
-with "SPECIES_PAL(UPAMON,"
+replace "SPECIES_PAL(KRABBY,"
+with "SPECIES_PAL(VIXIMON,"
 
-replace "SPECIES_SHINY_PAL(HYPNO,"
-with "SPECIES_SHINY_PAL(UPAMON,"
+replace "SPECIES_SHINY_PAL(KRABBY,"
+with "SPECIES_SHINY_PAL(VIXIMON,"
 
-replace "EC_POKEMON(HYPNO)"
-with "EC_POKEMON(UPAMON)"
+replace "EC_POKEMON(KRABBY)"
+with "EC_POKEMON(VIXIMON)"
 
-replace "EC_POKEMON_NATIONAL(HYPNO)"
-with "EC_POKEMON_NATIONAL(UPAMON)"
+replace "EC_POKEMON_NATIONAL(KRABBY)"
+with "EC_POKEMON_NATIONAL(VIXIMON)"
 
 in "src/data/text/species_names.h"
-replace "HYPNO"
-with "UPAMON"
+replace "KRABBY"
+with "VIXIMON"

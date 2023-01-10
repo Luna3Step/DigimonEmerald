@@ -586,11 +586,11 @@ const u8 gUpamonPokedexText[] = _(
     "is often bullied by other digimon however\n"
     "it mistakes it for being played with.");
 
-const u8 gKrabbyPokedexText[] = _(
-    "KRABBY live in holes dug into beaches.\n"
-    "On sandy shores with little in the way\n"
-    "of food, they can be seen squabbling with\n"
-    "each other over territory.");
+const u8 gViximonPokedexText[] = _(
+    "Although erratic and hard to catch, \n"
+    "Viximon can be easily lured by the its\n"
+    "favourite food. They only act in the\n"
+    "evening and moonlit nights.");
 
 const u8 gKinglerPokedexText[] = _(
     "It waves its huge, oversized claw in the\n"

@@ -1329,7 +1329,7 @@ static const u16 sUpamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKrabbyLevelUpLearnset[] = {
+static const u16 sViximonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 5, MOVE_LEER),
     LEVEL_UP_MOVE(12, MOVE_VICE_GRIP),

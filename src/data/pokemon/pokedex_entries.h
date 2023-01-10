@@ -1176,12 +1176,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KRABBY] =
+    [NATIONAL_DEX_VIXIMON] =
     {
-        .categoryName = _("RIVER CRAB"),
-        .height = 4,
-        .weight = 65,
-        .description = gKrabbyPokedexText,
+        .categoryName = _("FOX"),
+        .height = 6,
+        .weight = 60,
+        .description = gViximonPokedexText,
         .pokemonScale = 469,
         .pokemonOffset = 20,
         .trainerScale = 256,

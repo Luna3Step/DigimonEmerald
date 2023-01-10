@@ -315,7 +315,7 @@ const u16 gEggMoves[] = {
               MOVE_THUNDER_PUNCH,
               MOVE_ICE_PUNCH),
 
-    egg_moves(KRABBY,
+    egg_moves(VIXIMON,
               MOVE_DIG,
               MOVE_HAZE,
               MOVE_AMNESIA,
