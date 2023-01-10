@@ -1040,7 +1040,7 @@ static const u16 sNegamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRapidashLevelUpLearnset[] = {
+static const u16 sNyaromonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),

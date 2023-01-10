@@ -466,11 +466,11 @@ const u8 gNegamonPokedexText[] = _(
     "wish for it's destruction and lives a\n"
     "quiet life in darkness.");
 
-const u8 gRapidashPokedexText[] = _(
-    "It usually canters casually in the fields\n"
-    "and plains. But once a RAPIDASH turns\n"
-    "serious, its fiery manes flare and blaze\n"
-    "as it gallops its way up to 150 mph.");
+const u8 gNyaromonPokedexText[] = _(
+    "Nyaromon is a small digimon with a\n"
+    "cat-like appearance. They are known for \n"
+    "having a very curious personality but\n"
+    "can also have a lonely side.");
 
 const u8 gSlowpokePokedexText[] = _(
     "It catches prey by dipping its tail in\n"

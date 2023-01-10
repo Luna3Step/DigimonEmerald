@@ -936,12 +936,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RAPIDASH] =
+    [NATIONAL_DEX_NYAROMON] =
     {
-        .categoryName = _("FIRE HORSE"),
-        .height = 17,
-        .weight = 950,
-        .description = gRapidashPokedexText,
+        .categoryName = _("CAT"),
+        .height = 6,
+        .weight = 60,
+        .description = gNyaromonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 289,

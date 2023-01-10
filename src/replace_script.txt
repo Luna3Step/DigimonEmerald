@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PONYTA"
-with "FRONTIER_MON_NEGAMON"
+replace "FRONTIER_MON_RAPIDASH"
+with "FRONTIER_MON_NYAROMON"
 
-replace "gPonytaPokedexText"
-with "gNegamonPokedexText"
+replace "gRapidashPokedexText"
+with "gNyaromonPokedexText"
 
-replace "NATIONAL_DEX_PONYTA"
-with "NATIONAL_DEX_NEGAMON"
+replace "NATIONAL_DEX_RAPIDASH"
+with "NATIONAL_DEX_NYAROMON"
 
-replace "SPECIES_PONYTA"
-with "SPECIES_NEGAMON"
+replace "SPECIES_RAPIDASH"
+with "SPECIES_NYAROMON"
 
-replace "HOENN_DEX_PONYTA"
-with "HOENN_DEX_NEGAMON"
+replace "HOENN_DEX_RAPIDASH"
+with "HOENN_DEX_NYAROMON"
 
-replace "SPECIES_TO_HOENN(PONYTA),"
-with "SPECIES_TO_HOENN(NEGAMON),"
+replace "SPECIES_TO_HOENN(RAPIDASH),"
+with "SPECIES_TO_HOENN(NYAROMON),"
 
-replace "SPECIES_TO_NATIONAL(PONYTA),"
-with "SPECIES_TO_NATIONAL(NEGAMON),"
+replace "SPECIES_TO_NATIONAL(RAPIDASH),"
+with "SPECIES_TO_NATIONAL(NYAROMON),"
 
-replace "HOENN_TO_NATIONAL(PONYTA),"
-with "HOENN_TO_NATIONAL(NEGAMON),"
+replace "HOENN_TO_NATIONAL(RAPIDASH),"
+with "HOENN_TO_NATIONAL(NYAROMON),"
 
-replace "EC_POKEMON_NATIONAL(PONYTA),"
-with "EC_POKEMON_NATIONAL(NEGAMON),"
+replace "EC_POKEMON_NATIONAL(RAPIDASH),"
+with "EC_POKEMON_NATIONAL(NYAROMON),"
 
-replace "egg_moves(PONYTA,"
-with "egg_moves(NEGAMON,"
+replace "egg_moves(RAPIDASH,"
+with "egg_moves(NYAROMON,"
 
-replace "sPonytaLevelUpLearnset"
-with "sNegamonLevelUpLearnset"
+replace "sRapidashLevelUpLearnset"
+with "sNyaromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PONYTA"
-with "SPECIES_SPRITE(NEGAMON"
+replace "SPECIES_SPRITE(RAPIDASH"
+with "SPECIES_SPRITE(NYAROMON"
 
-replace "SPECIES_PAL(PONYTA,"
-with "SPECIES_PAL(NEGAMON,"
+replace "SPECIES_PAL(RAPIDASH,"
+with "SPECIES_PAL(NYAROMON,"
 
-replace "SPECIES_SHINY_PAL(PONYTA,"
-with "SPECIES_SHINY_PAL(NEGAMON,"
+replace "SPECIES_SHINY_PAL(RAPIDASH,"
+with "SPECIES_SHINY_PAL(NYAROMON,"
 
-replace "EC_POKEMON(PONYTA)"
-with "EC_POKEMON(NEGAMON)"
+replace "EC_POKEMON(RAPIDASH)"
+with "EC_POKEMON(NYAROMON)"
 
-replace "EC_POKEMON_NATIONAL(PONYTA)"
-with "EC_POKEMON_NATIONAL(NEGAMON)"
+replace "EC_POKEMON_NATIONAL(RAPIDASH)"
+with "EC_POKEMON_NATIONAL(NYAROMON)"
 
 in "src/data/text/species_names.h"
-replace "PONYTA"
-with "NEGAMON"
+replace "RAPIDASH"
+with "NYAROMON"
