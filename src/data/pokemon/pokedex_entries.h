@@ -972,12 +972,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_MAGNEMITE] =
+    [NATIONAL_DEX_PICKMON_WHITE] =
     {
-        .categoryName = _("MAGNET"),
-        .height = 3,
+        .categoryName = _("WHITE PICK"),
+        .height = 6,
         .weight = 60,
-        .description = gMagnemitePokedexText,
+        .description = gPickmon_whitePokedexText,
         .pokemonScale = 288,
         .pokemonOffset = -9,
         .trainerScale = 256,

@@ -484,11 +484,11 @@ const u8 gPickmon_silverPokedexText[] = _(
     "one of the highest in the Starmon Corps\n"
     "heirarchy for a pickmon.");
 
-const u8 gMagnemitePokedexText[] = _(
-    "The units at its sides are extremely\n"
-    "powerful magnets. They generate enough\n"
-    "magnetism to draw in iron objects from\n"
-    "over 300 feet away.");
+const u8 gPickmon_whitePokedexText[] = _(
+    "Pickmon can come in many colours. White\n"
+    "pickmon are particularly weak and low\n"
+    "in the Starmon Corps however they are\n"
+    "incredibly loyal and have a strong will.");
 
 const u8 gMagnetonPokedexText[] = _(
     "It is actually three MAGNEMITE linked\n"

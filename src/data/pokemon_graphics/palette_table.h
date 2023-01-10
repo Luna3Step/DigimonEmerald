@@ -81,7 +81,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(NYAROMON, gMonPalette_Rapidash),
     SPECIES_PAL(PAGUMON, gMonPalette_Slowpoke),
     SPECIES_PAL(PICKMON_SILVER, gMonPalette_Slowbro),
-    SPECIES_PAL(MAGNEMITE, gMonPalette_Magnemite),
+    SPECIES_PAL(PICKMON_WHITE, gMonPalette_Magnemite),
     SPECIES_PAL(MAGNETON, gMonPalette_Magneton),
     SPECIES_PAL(FARFETCHD, gMonPalette_Farfetchd),
     SPECIES_PAL(DODUO, gMonPalette_Doduo),

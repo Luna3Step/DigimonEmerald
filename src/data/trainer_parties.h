@@ -594,7 +594,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GabbyAndTy1[] = {
     {
     .iv = 50,
     .lvl = 17,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 50,
@@ -607,7 +607,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GabbyAndTy2[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 100,
@@ -2342,7 +2342,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -2363,7 +2363,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton1[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 0,
@@ -2376,7 +2376,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton2[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 10,
@@ -2386,7 +2386,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton2[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -2394,7 +2394,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 20,
@@ -2404,7 +2404,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4735,7 +4735,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacob[] = {
     {
     .iv = 200,
     .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4743,12 +4743,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Anthony[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4756,7 +4756,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin1[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4764,7 +4764,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin2[] = {
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4772,7 +4772,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4796,7 +4796,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail1[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4804,12 +4804,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jasmine[] = {
     {
     .iv = 80,
     .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 80,
     .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     },
     {
     .iv = 0,
@@ -4822,7 +4822,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail2[] = {
     {
     .iv = 10,
     .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -4830,7 +4830,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail3[] = {
     {
     .iv = 20,
     .lvl = 31,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -7590,7 +7590,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julio[] = {
     {
     .iv = 0,
     .lvl = 21,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 
@@ -9494,7 +9494,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alyssa[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_PICKMON_WHITE,
     }
 };
 

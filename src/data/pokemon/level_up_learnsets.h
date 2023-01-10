@@ -1088,7 +1088,7 @@ static const u16 sPickmon_silverLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMagnemiteLevelUpLearnset[] = {
+static const u16 sPickmon_whiteLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_METAL_SOUND),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 6, MOVE_THUNDER_SHOCK),
