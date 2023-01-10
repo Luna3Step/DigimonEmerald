@@ -622,11 +622,11 @@ const u8 gAgumonPokedexText[] = _(
     "stronger digimon but it's actually because\n"
     "they lack any understanding of fear.");
 
-const u8 gCubonePokedexText[] = _(
-    "It pines for the mother it will never see\n"
-    "again. Seeing a likeness of its mother in\n"
-    "the full moon, it cries. The stains on the\n"
-    "skull it wears are from its tears.");
+const u8 gAgumon_06PokedexText[] = _(
+    "This Agumon is exactly the same in nearly\n"
+    "every way as a normal Agumon however the\n"
+    "red straps on its hands seem to unlock\n"
+    "the potential for a new digivolution.");
 
 const u8 gMarowakPokedexText[] = _(
     "A MAROWAK is the evolved form of a CUBONE\n"

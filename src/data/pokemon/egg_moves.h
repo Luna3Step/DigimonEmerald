@@ -333,7 +333,7 @@ const u16 gEggMoves[] = {
               MOVE_INGRAIN,
               MOVE_CURSE),
 
-    egg_moves(CUBONE,
+    egg_moves(AGUMON_06,
               MOVE_ROCK_SLIDE,
               MOVE_ANCIENT_POWER,
               MOVE_BELLY_DRUM,

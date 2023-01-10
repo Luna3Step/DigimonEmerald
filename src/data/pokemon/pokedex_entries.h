@@ -1248,12 +1248,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 5,
     },
 
-    [NATIONAL_DEX_CUBONE] =
+    [NATIONAL_DEX_AGUMON_06] =
     {
-        .categoryName = _("LONELY"),
-        .height = 4,
-        .weight = 65,
-        .description = gCubonePokedexText,
+        .categoryName = _("T-REX"),
+        .height = 12,
+        .weight = 420,
+        .description = gAgumon_06PokedexText,
         .pokemonScale = 545,
         .pokemonOffset = 21,
         .trainerScale = 256,

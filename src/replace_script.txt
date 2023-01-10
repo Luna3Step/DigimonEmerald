@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_EXEGGUTOR"
-with "FRONTIER_MON_AGUMON"
+replace "FRONTIER_MON_CUBONE"
+with "FRONTIER_MON_AGUMON_06"
 
-replace "gExeggutorPokedexText"
-with "gAgumonPokedexText"
+replace "gCubonePokedexText"
+with "gAgumon_06PokedexText"
 
-replace "NATIONAL_DEX_EXEGGUTOR"
-with "NATIONAL_DEX_AGUMON"
+replace "NATIONAL_DEX_CUBONE"
+with "NATIONAL_DEX_AGUMON_06"
 
-replace "SPECIES_EXEGGUTOR"
-with "SPECIES_AGUMON"
+replace "SPECIES_CUBONE"
+with "SPECIES_AGUMON_06"
 
-replace "HOENN_DEX_EXEGGUTOR"
-with "HOENN_DEX_AGUMON"
+replace "HOENN_DEX_CUBONE"
+with "HOENN_DEX_AGUMON_06"
 
-replace "SPECIES_TO_HOENN(EXEGGUTOR),"
-with "SPECIES_TO_HOENN(AGUMON),"
+replace "SPECIES_TO_HOENN(CUBONE),"
+with "SPECIES_TO_HOENN(AGUMON_06),"
 
-replace "SPECIES_TO_NATIONAL(EXEGGUTOR),"
-with "SPECIES_TO_NATIONAL(AGUMON),"
+replace "SPECIES_TO_NATIONAL(CUBONE),"
+with "SPECIES_TO_NATIONAL(AGUMON_06),"
 
-replace "HOENN_TO_NATIONAL(EXEGGUTOR),"
-with "HOENN_TO_NATIONAL(AGUMON),"
+replace "HOENN_TO_NATIONAL(CUBONE),"
+with "HOENN_TO_NATIONAL(AGUMON_06),"
 
-replace "EC_POKEMON_NATIONAL(EXEGGUTOR),"
-with "EC_POKEMON_NATIONAL(AGUMON),"
+replace "EC_POKEMON_NATIONAL(CUBONE),"
+with "EC_POKEMON_NATIONAL(AGUMON_06),"
 
-replace "egg_moves(EXEGGUTOR,"
-with "egg_moves(AGUMON,"
+replace "egg_moves(CUBONE,"
+with "egg_moves(AGUMON_06,"
 
-replace "sExeggutorLevelUpLearnset"
-with "sAgumonLevelUpLearnset"
+replace "sCuboneLevelUpLearnset"
+with "sAgumon_06LevelUpLearnset"
 
-replace "SPECIES_SPRITE(EXEGGUTOR"
-with "SPECIES_SPRITE(AGUMON"
+replace "SPECIES_SPRITE(CUBONE"
+with "SPECIES_SPRITE(AGUMON_06"
 
-replace "SPECIES_PAL(EXEGGUTOR,"
-with "SPECIES_PAL(AGUMON,"
+replace "SPECIES_PAL(CUBONE,"
+with "SPECIES_PAL(AGUMON_06,"
 
-replace "SPECIES_SHINY_PAL(EXEGGUTOR,"
-with "SPECIES_SHINY_PAL(AGUMON,"
+replace "SPECIES_SHINY_PAL(CUBONE,"
+with "SPECIES_SHINY_PAL(AGUMON_06,"
 
-replace "EC_POKEMON(EXEGGUTOR)"
-with "EC_POKEMON(AGUMON)"
+replace "EC_POKEMON(CUBONE)"
+with "EC_POKEMON(AGUMON_06)"
 
-replace "EC_POKEMON_NATIONAL(EXEGGUTOR)"
-with "EC_POKEMON_NATIONAL(AGUMON)"
+replace "EC_POKEMON_NATIONAL(CUBONE)"
+with "EC_POKEMON_NATIONAL(AGUMON_06)"
 
 in "src/data/text/species_names.h"
-replace "EXEGGUTOR"
-with "AGUMON"
+replace "CUBONE"
+with "AGUMON_06"

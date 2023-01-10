@@ -104,7 +104,7 @@
     FRONTIER_MON_CHIKORITA,     \
     FRONTIER_MON_ZERIMON,        \
     FRONTIER_MON_CHICCHIMON,       \
-    FRONTIER_MON_CUBONE,        \
+    FRONTIER_MON_AGUMON_06,        \
     FRONTIER_MON_GOLDEEN,       \
     FRONTIER_MON_NATU,          \
     FRONTIER_MON_PUYOMON,      \
@@ -599,7 +599,7 @@
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_NUMEL,         \
-    FRONTIER_MON_CUBONE,        \
+    FRONTIER_MON_AGUMON_06,        \
     FRONTIER_MON_PICKMON_WHITE,     \
     FRONTIER_MON_PHANPY,        \
     FRONTIER_MON_ARON,          \
@@ -755,7 +755,7 @@
     FRONTIER_MON_TOTODILE,      \
     FRONTIER_MON_PAGUMON,      \
     FRONTIER_MON_CHICCHIMON,       \
-    FRONTIER_MON_CUBONE,        \
+    FRONTIER_MON_AGUMON_06,        \
     FRONTIER_MON_PUSURIMON,          \
     FRONTIER_MON_VIXIMON,        \
     FRONTIER_MON_PHANPY,        \
@@ -786,7 +786,7 @@
     FRONTIER_MON_DEMIVEEMON,        \
     FRONTIER_MON_KOKOMON,        \
     FRONTIER_MON_NUMEL,         \
-    FRONTIER_MON_CUBONE,        \
+    FRONTIER_MON_AGUMON_06,        \
     FRONTIER_MON_PHANPY,        \
     FRONTIER_MON_ARON,          \
     FRONTIER_MON_VIBRAVA,       \
@@ -857,7 +857,7 @@
     FRONTIER_MON_NUMEL,         \
     FRONTIER_MON_POROMON,         \
     FRONTIER_MON_SWABLU,        \
-    FRONTIER_MON_CUBONE,        \
+    FRONTIER_MON_AGUMON_06,        \
     FRONTIER_MON_PUYOMON,      \
     FRONTIER_MON_EEVEE,         \
     FRONTIER_MON_TEDDIURSA,     \
