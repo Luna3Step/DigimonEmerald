@@ -122,7 +122,7 @@ static const struct PikeWildMon sLvl50_Mons2[] =
         .moves = {MOVE_TOXIC, MOVE_HYPNOSIS, MOVE_BODY_SLAM, MOVE_SURF}
     },
     {
-        .species = SPECIES_ELECTRODE,
+        .species = SPECIES_YAAMON,
         .levelDelta = 5,
         .moves = {MOVE_EXPLOSION, MOVE_SELF_DESTRUCT, MOVE_THUNDER, MOVE_TOXIC}
     }
@@ -206,7 +206,7 @@ static const struct PikeWildMon sLvlOpen_Mons2[] =
         .moves = {MOVE_TOXIC, MOVE_HYPNOSIS, MOVE_BODY_SLAM, MOVE_ICE_BEAM}
     },
     {
-        .species = SPECIES_ELECTRODE,
+        .species = SPECIES_YAAMON,
         .levelDelta = 5,
         .moves = {MOVE_EXPLOSION, MOVE_SELF_DESTRUCT, MOVE_THUNDER, MOVE_TOXIC}
     }

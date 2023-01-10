@@ -604,11 +604,11 @@ const u8 gXiaomonPokedexText[] = _(
     "strong attachments to people and is \n"
     "considered one of the easiest to train.");
 
-const u8 gElectrodePokedexText[] = _(
-    "They appear in great numbers at electric\n"
-    "power plants. Because they feed on\n"
-    "electricity, they cause massive and\n"
-    "chaotic blackouts in nearby cities.");
+const u8 gYaamonPokedexText[] = _(
+    "Yaamon is twisted digimon that will do\n"
+    "anything to have it's own fun including\n"
+    "tormenting digimon. It will then mock\n"
+    "the stunned digimon.");
 
 const u8 gExeggcutePokedexText[] = _(
     "It consists of six eggs that care for each\n"

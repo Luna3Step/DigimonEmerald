@@ -1212,12 +1212,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ELECTRODE] =
+    [NATIONAL_DEX_YAAMON] =
     {
-        .categoryName = _("BALL"),
-        .height = 12,
-        .weight = 666,
-        .description = gElectrodePokedexText,
+        .categoryName = _("TWISTED"),
+        .height = 6,
+        .weight = 60,
+        .description = gYaamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
