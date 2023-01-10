@@ -1389,7 +1389,7 @@ static const u16 sYaamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sExeggcuteLevelUpLearnset[] = {
+static const u16 sYokomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
     LEVEL_UP_MOVE( 1, MOVE_UPROAR),
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),

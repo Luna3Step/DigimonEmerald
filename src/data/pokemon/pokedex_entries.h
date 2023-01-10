@@ -1224,12 +1224,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EXEGGCUTE] =
+    [NATIONAL_DEX_YOKOMON] =
     {
-        .categoryName = _("EGG"),
-        .height = 4,
-        .weight = 25,
-        .description = gExeggcutePokedexText,
+        .categoryName = _("BULB"),
+        .height = 6,
+        .weight = 45,
+        .description = gYokomonPokedexText,
         .pokemonScale = 489,
         .pokemonOffset = -4,
         .trainerScale = 256,

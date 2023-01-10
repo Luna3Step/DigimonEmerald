@@ -324,7 +324,7 @@ const u16 gEggMoves[] = {
               MOVE_KNOCK_OFF,
               MOVE_SWORDS_DANCE),
 
-    egg_moves(EXEGGCUTE,
+    egg_moves(YOKOMON,
               MOVE_SYNTHESIS,
               MOVE_MOONLIGHT,
               MOVE_REFLECT,

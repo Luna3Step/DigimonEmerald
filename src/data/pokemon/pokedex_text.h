@@ -610,11 +610,11 @@ const u8 gYaamonPokedexText[] = _(
     "tormenting digimon. It will then mock\n"
     "the stunned digimon.");
 
-const u8 gExeggcutePokedexText[] = _(
-    "It consists of six eggs that care for each\n"
-    "other. The eggs attract each other and\n"
-    "spin around. When cracks increasingly\n"
-    "appear, it is close to evolution.");
+const u8 gYokomonPokedexText[] = _(
+    "Yokomon is able to move skillfully by \n"
+    "using it's root-like tentacles. They like\n"
+    "to live in flocks, the flocks are known\n"
+    "to grow up to a few hundred quickly.");
 
 const u8 gExeggutorPokedexText[] = _(
     "Originally from the tropics, EXEGGUTOR's\n"

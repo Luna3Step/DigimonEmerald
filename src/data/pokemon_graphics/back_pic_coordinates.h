@@ -106,7 +106,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_WANYAMON]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_XIAOMON]     = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 14 },
     [SPECIES_YAAMON]   = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
-    [SPECIES_EXEGGCUTE]   = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
+    [SPECIES_YOKOMON]   = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_EXEGGUTOR]   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_CUBONE]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_MAROWAK]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
