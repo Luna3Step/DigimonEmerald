@@ -1056,12 +1056,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRIMER] =
+    [NATIONAL_DEX_SAKUTTOMON] =
     {
-        .categoryName = _("SLUDGE"),
-        .height = 9,
-        .weight = 300,
-        .description = gGrimerPokedexText,
+        .categoryName = _("HORN BLADE"),
+        .height = 6,
+        .weight = 90,
+        .description = gSakuttomonPokedexText,
         .pokemonScale = 258,
         .pokemonOffset = 10,
         .trainerScale = 256,

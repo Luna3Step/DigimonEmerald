@@ -526,11 +526,11 @@ const u8 gPuyoyomonPokedexText[] = _(
     "likes, it will stick to it until it\n"
     "is bored.");
 
-const u8 gGrimerPokedexText[] = _(
-    "Born from polluted sludge in the sea,\n"
-    "GRIMER's favorite food is anything filthy.\n"
-    "They feed on wastewater pumped out from\n"
-    "factories.");
+const u8 gSakuttomonPokedexText[] = _(
+    "Unlike it's younger self, Sakuttomon has\n"
+    "finally stabillised itself with two\n"
+    "blades. Adorably enough, it is sometimes\n"
+    "found stuck in walls and ceilings.");
 
 const u8 gMukPokedexText[] = _(
     "It prefers warm and humid habitats.\n"

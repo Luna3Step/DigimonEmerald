@@ -275,7 +275,7 @@ const u16 gEggMoves[] = {
               MOVE_FAKE_OUT,
               MOVE_ICICLE_SPEAR),
 
-    egg_moves(GRIMER,
+    egg_moves(SAKUTTOMON,
               MOVE_HAZE,
               MOVE_MEAN_LOOK,
               MOVE_LICK,
