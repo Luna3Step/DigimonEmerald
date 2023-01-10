@@ -598,11 +598,11 @@ const u8 gWanyamonPokedexText[] = _(
     "show affection, it becomes attached\n"
     "like a pet.");
 
-const u8 gVoltorbPokedexText[] = _(
-    "It bears an uncanny and unexplained\n"
-    "resemblance to a POKé BALL. Because it\n"
-    "explodes at the slightest shock, even\n"
-    "veteran TRAINERS treat it with caution.");
+const u8 gXiaomonPokedexText[] = _(
+    "Xiaomon is one of the most commonly \n"
+    "created artificial digimon. It forms very\n"
+    "strong attachments to people and is \n"
+    "considered one of the easiest to train.");
 
 const u8 gElectrodePokedexText[] = _(
     "They appear in great numbers at electric\n"

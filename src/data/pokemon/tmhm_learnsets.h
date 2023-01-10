@@ -2301,7 +2301,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM06_ROCK_SMASH)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_VOLTORB]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_XIAOMON]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM12_TAUNT)
                                         | TMHM(TM16_LIGHT_SCREEN)

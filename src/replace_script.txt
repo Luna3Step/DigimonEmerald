@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_KINGLER"
-with "FRONTIER_MON_WANYAMON"
+replace "FRONTIER_MON_VOLTORB"
+with "FRONTIER_MON_XIAOMON"
 
-replace "gKinglerPokedexText"
-with "gWanyamonPokedexText"
+replace "gVoltorbPokedexText"
+with "gXiaomonPokedexText"
 
-replace "NATIONAL_DEX_KINGLER"
-with "NATIONAL_DEX_WANYAMON"
+replace "NATIONAL_DEX_VOLTORB"
+with "NATIONAL_DEX_XIAOMON"
 
-replace "SPECIES_KINGLER"
-with "SPECIES_WANYAMON"
+replace "SPECIES_VOLTORB"
+with "SPECIES_XIAOMON"
 
-replace "HOENN_DEX_KINGLER"
-with "HOENN_DEX_WANYAMON"
+replace "HOENN_DEX_VOLTORB"
+with "HOENN_DEX_XIAOMON"
 
-replace "SPECIES_TO_HOENN(KINGLER),"
-with "SPECIES_TO_HOENN(WANYAMON),"
+replace "SPECIES_TO_HOENN(VOLTORB),"
+with "SPECIES_TO_HOENN(XIAOMON),"
 
-replace "SPECIES_TO_NATIONAL(KINGLER),"
-with "SPECIES_TO_NATIONAL(WANYAMON),"
+replace "SPECIES_TO_NATIONAL(VOLTORB),"
+with "SPECIES_TO_NATIONAL(XIAOMON),"
 
-replace "HOENN_TO_NATIONAL(KINGLER),"
-with "HOENN_TO_NATIONAL(WANYAMON),"
+replace "HOENN_TO_NATIONAL(VOLTORB),"
+with "HOENN_TO_NATIONAL(XIAOMON),"
 
-replace "EC_POKEMON_NATIONAL(KINGLER),"
-with "EC_POKEMON_NATIONAL(WANYAMON),"
+replace "EC_POKEMON_NATIONAL(VOLTORB),"
+with "EC_POKEMON_NATIONAL(XIAOMON),"
 
-replace "egg_moves(KINGLER,"
-with "egg_moves(WANYAMON,"
+replace "egg_moves(VOLTORB,"
+with "egg_moves(XIAOMON,"
 
-replace "sKinglerLevelUpLearnset"
-with "sWanyamonLevelUpLearnset"
+replace "sVoltorbLevelUpLearnset"
+with "sXiaomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(KINGLER"
-with "SPECIES_SPRITE(WANYAMON"
+replace "SPECIES_SPRITE(VOLTORB"
+with "SPECIES_SPRITE(XIAOMON"
 
-replace "SPECIES_PAL(KINGLER,"
-with "SPECIES_PAL(WANYAMON,"
+replace "SPECIES_PAL(VOLTORB,"
+with "SPECIES_PAL(XIAOMON,"
 
-replace "SPECIES_SHINY_PAL(KINGLER,"
-with "SPECIES_SHINY_PAL(WANYAMON,"
+replace "SPECIES_SHINY_PAL(VOLTORB,"
+with "SPECIES_SHINY_PAL(XIAOMON,"
 
-replace "EC_POKEMON(KINGLER)"
-with "EC_POKEMON(WANYAMON)"
+replace "EC_POKEMON(VOLTORB)"
+with "EC_POKEMON(XIAOMON)"
 
-replace "EC_POKEMON_NATIONAL(KINGLER)"
-with "EC_POKEMON_NATIONAL(WANYAMON)"
+replace "EC_POKEMON_NATIONAL(VOLTORB)"
+with "EC_POKEMON_NATIONAL(XIAOMON)"
 
 in "src/data/text/species_names.h"
-replace "KINGLER"
-with "WANYAMON"
+replace "VOLTORB"
+with "XIAOMON"

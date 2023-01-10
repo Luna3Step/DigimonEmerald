@@ -1200,12 +1200,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VOLTORB] =
+    [NATIONAL_DEX_XIAOMON] =
     {
-        .categoryName = _("BALL"),
-        .height = 5,
-        .weight = 104,
-        .description = gVoltorbPokedexText,
+        .categoryName = _("ARTIFICIAL"),
+        .height = 6,
+        .weight = 60,
+        .description = gXiaomonPokedexText,
         .pokemonScale = 364,
         .pokemonOffset = -8,
         .trainerScale = 256,

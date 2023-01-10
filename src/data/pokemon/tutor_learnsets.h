@@ -1444,7 +1444,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_FURY_CUTTER)),
 
-    [SPECIES_VOLTORB]          = (TUTOR(MOVE_MIMIC)
+    [SPECIES_XIAOMON]          = (TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_THUNDER_WAVE)
                                 | TUTOR(MOVE_EXPLOSION)
                                 | TUTOR(MOVE_SUBSTITUTE)

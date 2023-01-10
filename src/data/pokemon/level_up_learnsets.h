@@ -1357,7 +1357,7 @@ static const u16 sWanyamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVoltorbLevelUpLearnset[] = {
+static const u16 sXiaomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CHARGE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 8, MOVE_SCREECH),

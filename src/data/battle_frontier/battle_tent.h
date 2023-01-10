@@ -915,7 +915,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_MODEST
     },
     [SLATEPORT_TENT_MON_VOLTORB] = {
-        .species = SPECIES_VOLTORB,
+        .species = SPECIES_XIAOMON,
         .moves = {MOVE_SPARK, MOVE_ROLLOUT, MOVE_CHARGE, MOVE_SCREECH},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK,
@@ -2031,7 +2031,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_QUIET
     },
     [VERDANTURF_TENT_MON_VOLTORB] = {
-        .species = SPECIES_VOLTORB,
+        .species = SPECIES_XIAOMON,
         .moves = {MOVE_PROTECT, MOVE_SELF_DESTRUCT, MOVE_SPARK, MOVE_SCREECH},
         .itemTableId = BATTLE_FRONTIER_ITEM_SCOPE_LENS,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -2828,7 +2828,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_QUIET
     },
     [FALLARBOR_TENT_MON_VOLTORB] = {
-        .species = SPECIES_VOLTORB,
+        .species = SPECIES_XIAOMON,
         .moves = {MOVE_CHARGE, MOVE_SPARK, MOVE_SCREECH, MOVE_SONIC_BOOM},
         .itemTableId = BATTLE_FRONTIER_ITEM_ASPEAR_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

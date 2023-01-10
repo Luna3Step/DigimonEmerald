@@ -2307,7 +2307,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kirk[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     .moves = {MOVE_CHARGE, MOVE_SHOCK_WAVE, MOVE_SCREECH, MOVE_NONE}
     }
 };
@@ -2337,7 +2337,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     },
     {
     .iv = 100,
@@ -3416,7 +3416,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 200,
     .lvl = 20,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROLLOUT, MOVE_SPARK, MOVE_SELF_DESTRUCT, MOVE_SHOCK_WAVE}
     },
@@ -4725,12 +4725,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacob[] = {
     {
     .iv = 20,
     .lvl = 6,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     },
     {
     .iv = 20,
     .lvl = 6,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     },
     {
     .iv = 200,
@@ -4814,7 +4814,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jasmine[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     }
 };
 
@@ -9486,7 +9486,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joseph[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     }
 };
 
@@ -9502,7 +9502,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
     {
     .iv = 100,
     .lvl = 15,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_XIAOMON,
     }
 };
 
