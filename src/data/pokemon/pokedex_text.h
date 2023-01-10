@@ -478,11 +478,11 @@ const u8 gPagumonPokedexText[] = _(
     "digimon. It will use it's hand like ears\n"
     "to taunt other digimon.");
 
-const u8 gSlowbroPokedexText[] = _(
-    "Its tail has a SHELLDER firmly attached\n"
-    "with a bite. As a result, the tail can't be\n"
-    "used for fishing anymore. This forces it\n"
-    "to reluctantly swim and catch prey.");
+const u8 gPickmon_silverPokedexText[] = _(
+    "Pickmon can come in many colours. Silver\n"
+    "pickmon are known to wear shades and\n"
+    "one of the highest in the Starmon Corps\n"
+    "heirarchy for a pickmon.");
 
 const u8 gMagnemitePokedexText[] = _(
     "The units at its sides are extremely\n"

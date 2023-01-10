@@ -960,12 +960,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SLOWBRO] =
+    [NATIONAL_DEX_PICKMON_SILVER] =
     {
-        .categoryName = _("HERMIT CRAB"),
-        .height = 16,
-        .weight = 785,
-        .description = gSlowbroPokedexText,
+        .categoryName = _("SILVER PICK"),
+        .height = 6,
+        .weight = 80,
+        .description = gPickmon_silverPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 296,
