@@ -996,12 +996,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FARFETCHD] =
+    [NATIONAL_DEX_PINAMON] =
     {
-        .categoryName = _("WILD DUCK"),
-        .height = 8,
-        .weight = 150,
-        .description = gFarfetchdPokedexText,
+        .categoryName = _("CHICK"),
+        .height = 6,
+        .weight = 50,
+        .description = gPinamonPokedexText,
         .pokemonScale = 330,
         .pokemonOffset = 2,
         .trainerScale = 293,

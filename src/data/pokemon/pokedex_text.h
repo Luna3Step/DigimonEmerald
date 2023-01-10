@@ -496,11 +496,11 @@ const u8 gPickmon_redPokedexText[] = _(
     "and loud. Despite this, they are a\n"
     "favourite for 'obnoxious' tamers.");
 
-const u8 gFarfetchdPokedexText[] = _(
-    "It is always seen with a stick from a plant.\n"
-    "Apparently, there are good sticks and bad\n"
-    "sticks. This POKéMON occasionally fights\n"
-    "with others over choice sticks.");
+const u8 gPinamonPokedexText[] = _(
+    "Pinamon are always seen running around\n"
+    "restlessly. The only time's it is still\n"
+    "is when it's bored or sleeping. Many\n"
+    "tamers struggle to bond with this digimon.");
 
 const u8 gDoduoPokedexText[] = _(
     "Even while eating or sleeping, one of the\n"

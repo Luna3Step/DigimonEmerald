@@ -1120,7 +1120,7 @@ static const u16 sPickmon_redLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFarfetchdLevelUpLearnset[] = {
+static const u16 sPinamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 6, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE(11, MOVE_LEER),

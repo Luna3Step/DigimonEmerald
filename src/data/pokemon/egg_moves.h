@@ -247,7 +247,7 @@ const u16 gEggMoves[] = {
               MOVE_SLEEP_TALK,
               MOVE_SNORE),
 
-    egg_moves(FARFETCHD,
+    egg_moves(PINAMON,
               MOVE_STEEL_WING,
               MOVE_FORESIGHT,
               MOVE_MIRROR_MOVE,
