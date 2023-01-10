@@ -2541,7 +2541,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_ARGOMON_ROOKIE"
               },
               {
                 "min_level": 16,
@@ -2566,7 +2566,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_ARGOMON_ROOKIE"
               },
               {
                 "min_level": 16,

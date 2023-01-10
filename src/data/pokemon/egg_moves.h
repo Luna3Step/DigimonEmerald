@@ -352,7 +352,7 @@ const u16 gEggMoves[] = {
               MOVE_SNORE,
               MOVE_SUBSTITUTE),
 
-    egg_moves(KOFFING,
+    egg_moves(ARGOMON_ROOKIE,
               MOVE_SCREECH,
               MOVE_PSYWAVE,
               MOVE_PSYBEAM,

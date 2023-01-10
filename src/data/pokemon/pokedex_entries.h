@@ -1308,12 +1308,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KOFFING] =
+    [NATIONAL_DEX_ARGOMON_ROOKIE] =
     {
-        .categoryName = _("POISON GAS"),
-        .height = 6,
-        .weight = 10,
-        .description = gKoffingPokedexText,
+        .categoryName = _("MUTANT"),
+        .height = 11,
+        .weight = 390,
+        .description = gArgomon_rookiePokedexText,
         .pokemonScale = 369,
         .pokemonOffset = -1,
         .trainerScale = 256,

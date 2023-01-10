@@ -652,11 +652,11 @@ const u8 gArcadiamon_rookiePokedexText[] = _(
     "data. It is also not clear if Arcadiamon\n"
     "has a sense of self.");
 
-const u8 gKoffingPokedexText[] = _(
-    "Getting up close to a KOFFING will give\n"
-    "you a chance to observe, through its thin\n"
-    "skin, the toxic gases swirling inside. It\n"
-    "blows up at the slightest stimulation.");
+const u8 gArgomon_rookiePokedexText[] = _(
+    "Rookie Argomon are seen often protecting\n"
+    "younger Argomon while they are feeding on\n"
+    "data. There tendacy to protect means \n"
+    "they sometimes attack inanimate objects.");
 
 const u8 gWeezingPokedexText[] = _(
     "By diluting its toxic gases with a special\n"
