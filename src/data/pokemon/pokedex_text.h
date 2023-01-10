@@ -580,11 +580,11 @@ const u8 gTumblemonPokedexText[] = _(
     "nourishment. When it eats, it turns blind\n"
     "as it's eye is in its mouth.");
 
-const u8 gHypnoPokedexText[] = _(
-    "The arcing movement and glitter of the\n"
-    "pendulum in a HYPNO's hand lull the foe\n"
-    "into deep hypnosis. While searching for\n"
-    "prey, it polishes the pendulum.");
+const u8 gUpamonPokedexText[] = _(
+    "Although Upamon can live on both land and\n"
+    "water, it prefer's to stick to land. It\n"
+    "is often bullied by other digimon however\n"
+    "it mistakes it for being played with.");
 
 const u8 gKrabbyPokedexText[] = _(
     "KRABBY live in holes dug into beaches.\n"

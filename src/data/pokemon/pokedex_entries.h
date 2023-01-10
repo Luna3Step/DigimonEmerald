@@ -1164,12 +1164,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HYPNO] =
+    [NATIONAL_DEX_UPAMON] =
     {
-        .categoryName = _("HYPNOSIS"),
-        .height = 16,
-        .weight = 756,
-        .description = gHypnoPokedexText,
+        .categoryName = _("AXOLOTL"),
+        .height = 6,
+        .weight = 60,
+        .description = gUpamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 257,

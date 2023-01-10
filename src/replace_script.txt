@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_DROWZEE"
-with "FRONTIER_MON_TUMBLEMON"
+replace "FRONTIER_MON_HYPNO"
+with "FRONTIER_MON_UPAMON"
 
-replace "gDrowzeePokedexText"
-with "gTumblemonPokedexText"
+replace "gHypnoPokedexText"
+with "gUpamonPokedexText"
 
-replace "NATIONAL_DEX_DROWZEE"
-with "NATIONAL_DEX_TUMBLEMON"
+replace "NATIONAL_DEX_HYPNO"
+with "NATIONAL_DEX_UPAMON"
 
-replace "SPECIES_DROWZEE"
-with "SPECIES_TUMBLEMON"
+replace "SPECIES_HYPNO"
+with "SPECIES_UPAMON"
 
-replace "HOENN_DEX_DROWZEE"
-with "HOENN_DEX_TUMBLEMON"
+replace "HOENN_DEX_HYPNO"
+with "HOENN_DEX_UPAMON"
 
-replace "SPECIES_TO_HOENN(DROWZEE),"
-with "SPECIES_TO_HOENN(TUMBLEMON),"
+replace "SPECIES_TO_HOENN(HYPNO),"
+with "SPECIES_TO_HOENN(UPAMON),"
 
-replace "SPECIES_TO_NATIONAL(DROWZEE),"
-with "SPECIES_TO_NATIONAL(TUMBLEMON),"
+replace "SPECIES_TO_NATIONAL(HYPNO),"
+with "SPECIES_TO_NATIONAL(UPAMON),"
 
-replace "HOENN_TO_NATIONAL(DROWZEE),"
-with "HOENN_TO_NATIONAL(TUMBLEMON),"
+replace "HOENN_TO_NATIONAL(HYPNO),"
+with "HOENN_TO_NATIONAL(UPAMON),"
 
-replace "EC_POKEMON_NATIONAL(DROWZEE),"
-with "EC_POKEMON_NATIONAL(TUMBLEMON),"
+replace "EC_POKEMON_NATIONAL(HYPNO),"
+with "EC_POKEMON_NATIONAL(UPAMON),"
 
-replace "egg_moves(DROWZEE,"
-with "egg_moves(TUMBLEMON,"
+replace "egg_moves(HYPNO,"
+with "egg_moves(UPAMON,"
 
-replace "sDrowzeeLevelUpLearnset"
-with "sTumblemonLevelUpLearnset"
+replace "sHypnoLevelUpLearnset"
+with "sUpamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DROWZEE"
-with "SPECIES_SPRITE(TUMBLEMON"
+replace "SPECIES_SPRITE(HYPNO"
+with "SPECIES_SPRITE(UPAMON"
 
-replace "SPECIES_PAL(DROWZEE,"
-with "SPECIES_PAL(TUMBLEMON,"
+replace "SPECIES_PAL(HYPNO,"
+with "SPECIES_PAL(UPAMON,"
 
-replace "SPECIES_SHINY_PAL(DROWZEE,"
-with "SPECIES_SHINY_PAL(TUMBLEMON,"
+replace "SPECIES_SHINY_PAL(HYPNO,"
+with "SPECIES_SHINY_PAL(UPAMON,"
 
-replace "EC_POKEMON(DROWZEE)"
-with "EC_POKEMON(TUMBLEMON)"
+replace "EC_POKEMON(HYPNO)"
+with "EC_POKEMON(UPAMON)"
 
-replace "EC_POKEMON_NATIONAL(DROWZEE)"
-with "EC_POKEMON_NATIONAL(TUMBLEMON)"
+replace "EC_POKEMON_NATIONAL(HYPNO)"
+with "EC_POKEMON_NATIONAL(UPAMON)"
 
 in "src/data/text/species_names.h"
-replace "DROWZEE"
-with "TUMBLEMON"
+replace "HYPNO"
+with "UPAMON"
