@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MUK"
-with "FRONTIER_MON_SUNMON"
+replace "FRONTIER_MON_SHELLDER"
+with "FRONTIER_MON_TANEMON"
 
-replace "gMukPokedexText"
-with "gSunmonPokedexText"
+replace "gShellderPokedexText"
+with "gTanemonPokedexText"
 
-replace "NATIONAL_DEX_MUK"
-with "NATIONAL_DEX_SUNMON"
+replace "NATIONAL_DEX_SHELLDER"
+with "NATIONAL_DEX_TANEMON"
 
-replace "SPECIES_MUK"
-with "SPECIES_SUNMON"
+replace "SPECIES_SHELLDER"
+with "SPECIES_TANEMON"
 
-replace "HOENN_DEX_MUK"
-with "HOENN_DEX_SUNMON"
+replace "HOENN_DEX_SHELLDER"
+with "HOENN_DEX_TANEMON"
 
-replace "SPECIES_TO_HOENN(MUK),"
-with "SPECIES_TO_HOENN(SUNMON),"
+replace "SPECIES_TO_HOENN(SHELLDER),"
+with "SPECIES_TO_HOENN(TANEMON),"
 
-replace "SPECIES_TO_NATIONAL(MUK),"
-with "SPECIES_TO_NATIONAL(SUNMON),"
+replace "SPECIES_TO_NATIONAL(SHELLDER),"
+with "SPECIES_TO_NATIONAL(TANEMON),"
 
-replace "HOENN_TO_NATIONAL(MUK),"
-with "HOENN_TO_NATIONAL(SUNMON),"
+replace "HOENN_TO_NATIONAL(SHELLDER),"
+with "HOENN_TO_NATIONAL(TANEMON),"
 
-replace "EC_POKEMON_NATIONAL(MUK),"
-with "EC_POKEMON_NATIONAL(SUNMON),"
+replace "EC_POKEMON_NATIONAL(SHELLDER),"
+with "EC_POKEMON_NATIONAL(TANEMON),"
 
-replace "egg_moves(MUK,"
-with "egg_moves(SUNMON,"
+replace "egg_moves(SHELLDER,"
+with "egg_moves(TANEMON,"
 
-replace "sMukLevelUpLearnset"
-with "sSunmonLevelUpLearnset"
+replace "sShellderLevelUpLearnset"
+with "sTanemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MUK"
-with "SPECIES_SPRITE(SUNMON"
+replace "SPECIES_SPRITE(SHELLDER"
+with "SPECIES_SPRITE(TANEMON"
 
-replace "SPECIES_PAL(MUK,"
-with "SPECIES_PAL(SUNMON,"
+replace "SPECIES_PAL(SHELLDER,"
+with "SPECIES_PAL(TANEMON,"
 
-replace "SPECIES_SHINY_PAL(MUK,"
-with "SPECIES_SHINY_PAL(SUNMON,"
+replace "SPECIES_SHINY_PAL(SHELLDER,"
+with "SPECIES_SHINY_PAL(TANEMON,"
 
-replace "EC_POKEMON(MUK)"
-with "EC_POKEMON(SUNMON)"
+replace "EC_POKEMON(SHELLDER)"
+with "EC_POKEMON(TANEMON)"
 
-replace "EC_POKEMON_NATIONAL(MUK)"
-with "EC_POKEMON_NATIONAL(SUNMON)"
+replace "EC_POKEMON_NATIONAL(SHELLDER)"
+with "EC_POKEMON_NATIONAL(TANEMON)"
 
 in "src/data/text/species_names.h"
-replace "MUK"
-with "SUNMON"
+replace "SHELLDER"
+with "TANEMON"

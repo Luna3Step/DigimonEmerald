@@ -84,7 +84,7 @@
 #define FRONTIER_MON_BIBIMON        80
 #define FRONTIER_MON_DEMIVEEMON         81
 #define FRONTIER_MON_KOKOMON         82
-#define FRONTIER_MON_SHELLDER       83
+#define FRONTIER_MON_TANEMON       83
 #define FRONTIER_MON_SMOOCHUM       84
 #define FRONTIER_MON_NUMEL          85
 #define FRONTIER_MON_CARVANHA       86

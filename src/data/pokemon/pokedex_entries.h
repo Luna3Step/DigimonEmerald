@@ -1080,12 +1080,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHELLDER] =
+    [NATIONAL_DEX_TANEMON] =
     {
-        .categoryName = _("BIVALVE"),
-        .height = 3,
-        .weight = 40,
-        .description = gShellderPokedexText,
+        .categoryName = _("FOLIAGE"),
+        .height = 6,
+        .weight = 60,
+        .description = gTanemonPokedexText,
         .pokemonScale = 675,
         .pokemonOffset = 24,
         .trainerScale = 256,

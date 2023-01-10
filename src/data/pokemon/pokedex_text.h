@@ -538,11 +538,11 @@ const u8 gSunmonPokedexText[] = _(
     "flame on it's head have been known to\n"
     "burn down tamer homes and forests.");
 
-const u8 gShellderPokedexText[] = _(
-    "At night, it burrows a hole in the seafloor\n"
-    "with its broad tongue to make a place to\n"
-    "sleep. While asleep, it closes its shell,\n"
-    "but leaves its tongue hanging out.");
+const u8 gTanemonPokedexText[] = _(
+    "Tanemon have incredibly good hiding \n"
+    "capabilites, with it disguising well in\n"
+    "surrounding foliage. However it\n"
+    "struggles against herbivore digimon.");
 
 const u8 gCloysterPokedexText[] = _(
     "It swims in the sea by swallowing water,\n"

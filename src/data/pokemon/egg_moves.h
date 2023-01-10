@@ -284,7 +284,7 @@ const u16 gEggMoves[] = {
               MOVE_SHADOW_PUNCH,
               MOVE_EXPLOSION),
 
-    egg_moves(SHELLDER,
+    egg_moves(TANEMON,
               MOVE_BUBBLE_BEAM,
               MOVE_TAKE_DOWN,
               MOVE_BARRIER,
