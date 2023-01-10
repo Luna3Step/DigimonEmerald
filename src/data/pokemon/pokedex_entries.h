@@ -1320,12 +1320,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WEEZING] =
+    [NATIONAL_DEX_ARMADILMON] =
     {
-        .categoryName = _("POISON GAS"),
-        .height = 12,
-        .weight = 95,
-        .description = gWeezingPokedexText,
+        .categoryName = _("ARMADILLO"),
+        .height = 8,
+        .weight = 495,
+        .description = gArmadilmonPokedexText,
         .pokemonScale = 305,
         .pokemonOffset = 3,
         .trainerScale = 256,

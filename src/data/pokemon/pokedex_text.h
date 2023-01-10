@@ -658,11 +658,11 @@ const u8 gArgomon_rookiePokedexText[] = _(
     "data. There tendacy to protect means \n"
     "they sometimes attack inanimate objects.");
 
-const u8 gWeezingPokedexText[] = _(
-    "By diluting its toxic gases with a special\n"
-    "process, the highest grade of perfume can\n"
-    "be extracted. To WEEZING, gases emanating\n"
-    "from garbage are the ultimate feast.");
+const u8 gArmadilmonPokedexText[] = _(
+    "Armadillomon is an ancient species of \n"
+    "digimon that can access rarer digivolutions.\n"
+    "They have a very carefree personality\n"
+    "and quickly charms any tamer it likes.");
 
 const u8 gRhyhornPokedexText[] = _(
     "Once it starts running, it doesn't stop.\n"

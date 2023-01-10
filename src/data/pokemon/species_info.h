@@ -3610,7 +3610,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 48,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_GRASS,
-        .type3 = TYPE_VIRUS
+        .type3 = TYPE_VIRUS,
         .catchRate = 180,
         .expYield = 85,
         .evYield_HP        = 0,
@@ -3633,21 +3633,22 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WEEZING] =
+    [SPECIES_ARMADILMON] =
     {
         .baseHP        = 65,
-        .baseAttack    = 90,
-        .baseDefense   = 120,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 70,
-        .type1 = TYPE_POISON,
-        .type2 = TYPE_POISON,
-        .catchRate = 60,
-        .expYield = 173,
+        .baseAttack    = 53,
+        .baseDefense   = 75,
+        .baseSpeed     = 49,
+        .baseSpAttack  = 44,
+        .baseSpDefense = 48,
+        .type1 = TYPE_ROCK,
+        .type2 = TYPE_GROUND,
+        .type3 = TYPE_VACCNE
+        .catchRate = 155,
+        .expYield = 100,
         .evYield_HP        = 0,
         .evYield_Attack    = 0,
-        .evYield_Defense   = 2,
+        .evYield_Defense   = 3,
         .evYield_Speed     = 0,
         .evYield_SpAttack  = 0,
         .evYield_SpDefense = 0,
@@ -3661,7 +3662,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 

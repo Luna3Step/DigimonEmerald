@@ -135,7 +135,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round3[] =
         .moves = {MOVE_FIRE_PUNCH, MOVE_HI_JUMP_KICK, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_WEEZING,
+        .species = SPECIES_ARMADILMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_WILL_O_WISP, MOVE_FLAMETHROWER, MOVE_PROTECT, MOVE_NONE}
@@ -239,7 +239,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round5[] =
         .moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_SELF_DESTRUCT, MOVE_PSYCHIC}
     },
     {
-        .species = SPECIES_WEEZING,
+        .species = SPECIES_ARMADILMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_PROTECT, MOVE_NONE}
@@ -365,7 +365,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round7[] =
 static const struct PyramidWildMon sOpenLevelWildMons_Round8[] =
 {
     {
-        .species = SPECIES_WEEZING,
+        .species = SPECIES_ARMADILMON,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SELF_DESTRUCT, MOVE_SLUDGE_BOMB, MOVE_FIRE_BLAST, MOVE_NONE}
