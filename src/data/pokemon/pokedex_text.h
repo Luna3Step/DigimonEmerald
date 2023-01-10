@@ -520,11 +520,11 @@ const u8 gPusurimonPokedexText[] = _(
     "it stops, it has just fallen asleep\n"
     "on the spot.");
 
-const u8 gDewgongPokedexText[] = _(
-    "It loves to snooze on bitterly cold ice.\n"
-    "The sight of this POKéMON sleeping on\n"
-    "a glacier was mistakenly thought to be\n"
-    "a mermaid by a mariner long ago.");
+const u8 gPuyoyomonPokedexText[] = _(
+    "Puyoyomon are always brimming with\n"
+    "curiosity. Once it finds something it\n"
+    "likes, it will stick to it until it\n"
+    "is bored.");
 
 const u8 gGrimerPokedexText[] = _(
     "Born from polluted sludge in the sea,\n"

@@ -1044,12 +1044,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DEWGONG] =
+    [NATIONAL_DEX_PUYOYOMON] =
     {
-        .categoryName = _("SEA LION"),
-        .height = 17,
-        .weight = 1200,
-        .description = gDewgongPokedexText,
+        .categoryName = _("JELLYFISH"),
+        .height = 6,
+        .weight = 20,
+        .description = gPuyoyomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 275,

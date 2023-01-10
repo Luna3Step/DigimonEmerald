@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SEEL"
-with "FRONTIER_MON_PUSURIMON"
+replace "FRONTIER_MON_DEWGONG"
+with "FRONTIER_MON_PUYOYOMON"
 
-replace "gSeelPokedexText"
-with "gPusurimonPokedexText"
+replace "gDewgongPokedexText"
+with "gPuyoyomonPokedexText"
 
-replace "NATIONAL_DEX_SEEL"
-with "NATIONAL_DEX_PUSURIMON"
+replace "NATIONAL_DEX_DEWGONG"
+with "NATIONAL_DEX_PUYOYOMON"
 
-replace "SPECIES_SEEL"
-with "SPECIES_PUSURIMON"
+replace "SPECIES_DEWGONG"
+with "SPECIES_PUYOYOMON"
 
-replace "HOENN_DEX_SEEL"
-with "HOENN_DEX_PUSURIMON"
+replace "HOENN_DEX_DEWGONG"
+with "HOENN_DEX_PUYOYOMON"
 
-replace "SPECIES_TO_HOENN(SEEL),"
-with "SPECIES_TO_HOENN(PUSURIMON),"
+replace "SPECIES_TO_HOENN(DEWGONG),"
+with "SPECIES_TO_HOENN(PUYOYOMON),"
 
-replace "SPECIES_TO_NATIONAL(SEEL),"
-with "SPECIES_TO_NATIONAL(PUSURIMON),"
+replace "SPECIES_TO_NATIONAL(DEWGONG),"
+with "SPECIES_TO_NATIONAL(PUYOYOMON),"
 
-replace "HOENN_TO_NATIONAL(SEEL),"
-with "HOENN_TO_NATIONAL(PUSURIMON),"
+replace "HOENN_TO_NATIONAL(DEWGONG),"
+with "HOENN_TO_NATIONAL(PUYOYOMON),"
 
-replace "EC_POKEMON_NATIONAL(SEEL),"
-with "EC_POKEMON_NATIONAL(PUSURIMON),"
+replace "EC_POKEMON_NATIONAL(DEWGONG),"
+with "EC_POKEMON_NATIONAL(PUYOYOMON),"
 
-replace "egg_moves(SEEL,"
-with "egg_moves(PUSURIMON,"
+replace "egg_moves(DEWGONG,"
+with "egg_moves(PUYOYOMON,"
 
-replace "sSeelLevelUpLearnset"
-with "sPusurimonLevelUpLearnset"
+replace "sDewgongLevelUpLearnset"
+with "sPuyoyomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SEEL"
-with "SPECIES_SPRITE(PUSURIMON"
+replace "SPECIES_SPRITE(DEWGONG"
+with "SPECIES_SPRITE(PUYOYOMON"
 
-replace "SPECIES_PAL(SEEL,"
-with "SPECIES_PAL(PUSURIMON,"
+replace "SPECIES_PAL(DEWGONG,"
+with "SPECIES_PAL(PUYOYOMON,"
 
-replace "SPECIES_SHINY_PAL(SEEL,"
-with "SPECIES_SHINY_PAL(PUSURIMON,"
+replace "SPECIES_SHINY_PAL(DEWGONG,"
+with "SPECIES_SHINY_PAL(PUYOYOMON,"
 
-replace "EC_POKEMON(SEEL)"
-with "EC_POKEMON(PUSURIMON)"
+replace "EC_POKEMON(DEWGONG)"
+with "EC_POKEMON(PUYOYOMON)"
 
-replace "EC_POKEMON_NATIONAL(SEEL)"
-with "EC_POKEMON_NATIONAL(PUSURIMON)"
+replace "EC_POKEMON_NATIONAL(DEWGONG)"
+with "EC_POKEMON_NATIONAL(PUYOYOMON)"
 
 in "src/data/text/species_names.h"
-replace "SEEL"
-with "PUSURIMON"
+replace "DEWGONG"
+with "PUYOYOMON"

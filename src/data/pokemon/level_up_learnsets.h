@@ -1174,7 +1174,7 @@ static const u16 sPusurimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDewgongLevelUpLearnset[] = {
+static const u16 sPuyoyomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HEADBUTT),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_ICY_WIND),

@@ -325,7 +325,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round7[] =
         .moves = {MOVE_ICE_BEAM, MOVE_CRUSH_CLAW, MOVE_SPITE, MOVE_NONE}
     },
     {
-        .species = SPECIES_DEWGONG,
+        .species = SPECIES_PUYOYOMON,
         .lvl = 42,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_BLIZZARD, MOVE_DOUBLE_EDGE, MOVE_SURF, MOVE_NONE}
@@ -735,7 +735,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round15[] =
         .moves = {MOVE_OCTAZOOKA, MOVE_ICE_BEAM, MOVE_FIRE_BLAST, MOVE_NONE}
     },
     {
-        .species = SPECIES_DEWGONG,
+        .species = SPECIES_PUYOYOMON,
         .lvl = 42,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_WATER_PULSE, MOVE_ICE_BEAM, MOVE_HEADBUTT, MOVE_NONE}
