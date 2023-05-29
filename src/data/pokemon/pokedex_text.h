@@ -678,15 +678,15 @@ const u8 gBakomonPokedexText[] = _(
 
 const u8 gBearmonPokedexText[] = _(
     "Despite being a bear Digimon, Bearmon is\n"
-    "actually very friendly. However this should\n"
+    "actually very friendly. However this\n"
     "friendliness should not be mistaken for being\n"
     "weak as Bearmon has incredible strength.");
 
-const u8 gTangelaPokedexText[] = _(
-    "Its vines snap off easily and painlessly\n"
-    "if they are grabbed, allowing it to make a\n"
-    "quick getaway. The lost vines are replaced\n"
-    "by new growth the very next day.");
+const u8 gBetamonPokedexText[] = _(
+    "Betamon is an amphibious Digimon that walks\n"
+    "on four legs. It is a gentle Digimon that\n"
+    "often be seen floating in the water however\n"
+    "it is not a weak Digimon.");
 
 const u8 gKangaskhanPokedexText[] = _(
     "If you come across a young KANGASKHAN\n"

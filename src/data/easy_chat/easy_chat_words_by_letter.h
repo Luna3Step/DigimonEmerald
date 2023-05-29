@@ -1634,7 +1634,7 @@ const u16 gEasyChatWordsByLetter_T[] = {
     EC_WORD_TALENT,
     EC_WORD_TALK,
     EC_WORD_TALKING,
-    EC_POKEMON_NATIONAL(TANGELA),
+    EC_POKEMON_NATIONAL(BETAMON),
     EC_WORD_TASTY,
     EC_MOVE2(TAUNT),
     EC_POKEMON_NATIONAL(TAUROS),
@@ -2354,7 +2354,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMo[] = {
     EC_WORD_RECEIVED,
     EC_POKEMON_NATIONAL(BOSAMON),
     EC_WORD_DOESN_T,
-    EC_POKEMON_NATIONAL(TANGELA),
+    EC_POKEMON_NATIONAL(BETAMON),
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {

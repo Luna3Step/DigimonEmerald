@@ -1570,7 +1570,7 @@ static const u16 sBearmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTangelaLevelUpLearnset[] = {
+static const u16 sBetamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_INGRAIN),
     LEVEL_UP_MOVE( 1, MOVE_CONSTRICT),
     LEVEL_UP_MOVE( 4, MOVE_SLEEP_POWDER),

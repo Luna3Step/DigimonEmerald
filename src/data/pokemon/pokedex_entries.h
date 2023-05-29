@@ -1368,12 +1368,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TANGELA] =
+    [NATIONAL_DEX_BETAMON] =
     {
-        .categoryName = _("VINE"),
-        .height = 10,
-        .weight = 350,
-        .description = gTangelaPokedexText,
+        .categoryName = _("AMPHIBIAN"),
+        .height = 7,
+        .weight = 360,
+        .description = gBetamonPokedexText,
         .pokemonScale = 304,
         .pokemonOffset = 1,
         .trainerScale = 256,

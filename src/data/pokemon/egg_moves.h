@@ -377,7 +377,7 @@ const u16 gEggMoves[] = {
               MOVE_AROMATHERAPY,
               MOVE_SUBSTITUTE),
 
-    egg_moves(TANGELA,
+    egg_moves(BETAMON,
               MOVE_FLAIL,
               MOVE_CONFUSION,
               MOVE_MEGA_DRAIN,
