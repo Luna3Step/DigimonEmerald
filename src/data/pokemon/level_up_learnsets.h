@@ -1612,7 +1612,7 @@ static const u16 sBiyomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSeadraLevelUpLearnset[] = {
+static const u16 sBlkagumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
     LEVEL_UP_MOVE( 1, MOVE_LEER),

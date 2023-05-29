@@ -5974,7 +5974,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Linda[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_SEADRA,
+    .species = SPECIES_BLKAGUMON,
     }
 };
 
@@ -12334,7 +12334,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia3[] = {
     {
     .iv = 20,
     .lvl = 36,
-    .species = SPECIES_SEADRA,
+    .species = SPECIES_BLKAGUMON,
     }
 };
 
@@ -12352,7 +12352,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia4[] = {
     {
     .iv = 30,
     .lvl = 38,
-    .species = SPECIES_SEADRA,
+    .species = SPECIES_BLKAGUMON,
     }
 };
 

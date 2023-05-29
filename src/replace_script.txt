@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HORSEA"
-with "FRONTIER_MON_BIYOMON"
+replace "FRONTIER_MON_SEADRA"
+with "FRONTIER_MON_BLKAGUMON"
 
-replace "gHorseaPokedexText"
-with "gBiyomonPokedexText"
+replace "gSeadraPokedexText"
+with "gBlkagumonPokedexText"
 
-replace "NATIONAL_DEX_HORSEA"
-with "NATIONAL_DEX_BIYOMON"
+replace "NATIONAL_DEX_SEADRA"
+with "NATIONAL_DEX_BLKAGUMON"
 
-replace "SPECIES_HORSEA"
-with "SPECIES_BIYOMON"
+replace "SPECIES_SEADRA"
+with "SPECIES_BLKAGUMON"
 
-replace "HOENN_DEX_HORSEA"
-with "HOENN_DEX_BIYOMON"
+replace "HOENN_DEX_SEADRA"
+with "HOENN_DEX_BLKAGUMON"
 
-replace "SPECIES_TO_HOENN(HORSEA),"
-with "SPECIES_TO_HOENN(BIYOMON),"
+replace "SPECIES_TO_HOENN(SEADRA),"
+with "SPECIES_TO_HOENN(BLKAGUMON),"
 
-replace "SPECIES_TO_NATIONAL(HORSEA),"
-with "SPECIES_TO_NATIONAL(BIYOMON),"
+replace "SPECIES_TO_NATIONAL(SEADRA),"
+with "SPECIES_TO_NATIONAL(BLKAGUMON),"
 
-replace "HOENN_TO_NATIONAL(HORSEA),"
-with "HOENN_TO_NATIONAL(BIYOMON),"
+replace "HOENN_TO_NATIONAL(SEADRA),"
+with "HOENN_TO_NATIONAL(BLKAGUMON),"
 
-replace "EC_POKEMON_NATIONAL(HORSEA),"
-with "EC_POKEMON_NATIONAL(BIYOMON),"
+replace "EC_POKEMON_NATIONAL(SEADRA),"
+with "EC_POKEMON_NATIONAL(BLKAGUMON),"
 
-replace "egg_moves(HORSEA,"
-with "egg_moves(BIYOMON,"
+replace "egg_moves(SEADRA,"
+with "egg_moves(BLKAGUMON,"
 
-replace "sHorseaLevelUpLearnset"
-with "sBiyomonLevelUpLearnset"
+replace "sSeadraLevelUpLearnset"
+with "sBlkagumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HORSEA"
-with "SPECIES_SPRITE(BIYOMON"
+replace "SPECIES_SPRITE(SEADRA"
+with "SPECIES_SPRITE(BLKAGUMON"
 
-replace "SPECIES_PAL(HORSEA,"
-with "SPECIES_PAL(BIYOMON,"
+replace "SPECIES_PAL(SEADRA,"
+with "SPECIES_PAL(BLKAGUMON,"
 
-replace "SPECIES_SHINY_PAL(HORSEA,"
-with "SPECIES_SHINY_PAL(BIYOMON,"
+replace "SPECIES_SHINY_PAL(SEADRA,"
+with "SPECIES_SHINY_PAL(BLKAGUMON,"
 
-replace "EC_POKEMON(HORSEA)"
-with "EC_POKEMON(BIYOMON)"
+replace "EC_POKEMON(SEADRA)"
+with "EC_POKEMON(BLKAGUMON)"
 
-replace "EC_POKEMON_NATIONAL(HORSEA)"
-with "EC_POKEMON_NATIONAL(BIYOMON)"
+replace "EC_POKEMON_NATIONAL(SEADRA)"
+with "EC_POKEMON_NATIONAL(BLKAGUMON)"
 
 in "src/data/text/species_names.h"
-replace "HORSEA"
-with "BIYOMON"
+replace "SEADRA"
+with "BLKAGUMON"

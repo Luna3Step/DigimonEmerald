@@ -1404,12 +1404,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SEADRA] =
+    [NATIONAL_DEX_BLKAGUMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 12,
+        .categoryName = _("T-REX"),
+        .height = 10,
         .weight = 250,
-        .description = gSeadraPokedexText,
+        .description = gBlkagumonPokedexText,
         .pokemonScale = 299,
         .pokemonOffset = 3,
         .trainerScale = 256,

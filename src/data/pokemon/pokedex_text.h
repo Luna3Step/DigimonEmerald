@@ -700,11 +700,11 @@ const u8 gBiyomonPokedexText[] = _(
     "this reason that it often has rilvaries\n"
     "with Patamon as they are similiar.");
 
-const u8 gSeadraPokedexText[] = _(
-    "The poisonous barbs all over its body are\n"
-    "highly valued as ingredients for making\n"
-    "traditional herbal medicine. It shows no\n"
-    "mercy to anything approaching its nest.");
+const u8 gBlkagumonPokedexText[] = _(
+    "BlackAgumon are a much more ferocious\n"
+    "digimon that seeks out fights for the sake\n"
+    "of fighting. However it is not stronger\n"
+    "than Agumon so it often loses.");
 
 const u8 gGoldeenPokedexText[] = _(
     "In the springtime, schools of GOLDEEN\n"
