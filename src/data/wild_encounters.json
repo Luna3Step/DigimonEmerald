@@ -83,63 +83,63 @@
             "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 2,
-                "max_level": 2,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ARCADIAMON_ROOKIE"
               }
             ]

@@ -1299,6 +1299,12 @@ static void Cmd_damagecalc(void)
         gBattleMoveDamage *= 2;
     if (gProtectStructs[gBattlerAttacker].helpingHand)
         gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+    if (gBattleMons[gBattlerAttacker].type3 == TYPE_VACCNE && gBattleMons[gBattlerTarget].type3 == TYPE_VIRUS)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+    if (gBattleMons[gBattlerAttacker].type3 == TYPE_VIRUS && gBattleMons[gBattlerTarget].type3 == TYPE_DATA)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+    if (gBattleMons[gBattlerAttacker].type3 == TYPE_DATA && gBattleMons[gBattlerTarget].type3 == TYPE_VACCNE)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
 
     gBattlescriptCurrInstr++;
 }
@@ -1316,6 +1322,15 @@ void AI_CalcDmg(u8 attacker, u8 defender)
         gBattleMoveDamage *= 2;
     if (gProtectStructs[attacker].helpingHand)
         gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+    if (gBattleMons[attacker].type3 == TYPE_VACCNE && gBattleMons[defender].type3 == TYPE_VIRUS)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+        gMoveResultFlags &= MOVE_RESULT_SUPER_EFFECTIVE;
+    if (gBattleMons[attacker].type3 == TYPE_VIRUS && gBattleMons[defender].type3 == TYPE_DATA)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+        gMoveResultFlags &= MOVE_RESULT_SUPER_EFFECTIVE;
+    if (gBattleMons[attacker].type3 == TYPE_DATA && gBattleMons[defender].type3 == TYPE_VACCNE)
+        gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
+        gMoveResultFlags &= MOVE_RESULT_SUPER_EFFECTIVE;
 }
 
 static void ModulateDmgByType(u8 multiplier)

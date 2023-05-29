@@ -1022,7 +1022,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
-	givemon SPECIES_AGUMON, 5
+	givemon SPECIES_AGUMON, 3
 	waitmessage
 	releaseall
 	return
