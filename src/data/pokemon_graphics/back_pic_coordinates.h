@@ -137,7 +137,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_COMMDRAMON]    = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  0 },
     [SPECIES_CORONAMON]      = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_CRABMON]       = { .size = MON_COORDS_SIZE(40, 32), .y_offset = 17 },
-    [SPECIES_EEVEE]       = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
+    [SPECIES_CRABMON_X]       = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_VAPOREON]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_JOLTEON]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
     [SPECIES_FLAREON]     = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },

@@ -446,7 +446,7 @@ const u16 gEggMoves[] = {
               MOVE_SLEEP_TALK,
               MOVE_HORN_DRILL),
 
-    egg_moves(EEVEE,
+    egg_moves(CRABMON_X,
               MOVE_CHARM,
               MOVE_FLAIL,
               MOVE_ENDURE,

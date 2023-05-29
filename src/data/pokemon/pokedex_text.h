@@ -796,11 +796,11 @@ const u8 gCrabmonPokedexText[] = _(
     "over time. This strenght gives it lots of\n"
     "confidence in battle.");
 
-const u8 gEeveePokedexText[] = _(
-    "An EEVEE has an unstable genetic makeup\n"
-    "that suddenly mutates due to its\n"
-    "environment. Radiation from various\n"
-    "STONES causes this POKéMON to evolve.");
+const u8 gCrabmon_xPokedexText[] = _(
+    "Crabmon X has gained the ability to\n"
+    "instantly restore parts of it's body. Its\n"
+    "claw has also grown in size letting it\n"
+    "quickly overpower digimon of larger size.");
 
 const u8 gVaporeonPokedexText[] = _(
     "VAPOREON underwent a spontaneous\n"

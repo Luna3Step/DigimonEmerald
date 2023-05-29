@@ -1576,7 +1576,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("SUN"),
         .height = 8,
-        .weight = 2200,
+        .weight = 225,
         .description = gCoronamonPokedexText,
         .pokemonScale = 257,
         .pokemonOffset = 10,
@@ -1588,7 +1588,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("CRAB"),
         .height = 6,
-        .weight = 40,
+        .weight = 310,
         .description = gCrabmonPokedexText,
         .pokemonScale = 633,
         .pokemonOffset = 23,
@@ -1596,12 +1596,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EEVEE] =
+    [NATIONAL_DEX_CRABMON_X] =
     {
-        .categoryName = _("EVOLUTION"),
-        .height = 3,
-        .weight = 65,
-        .description = gEeveePokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 7,
+        .weight = 365,
+        .description = gCrabmon_xPokedexText,
         .pokemonScale = 476,
         .pokemonOffset = 18,
         .trainerScale = 256,

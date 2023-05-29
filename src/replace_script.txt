@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_DITTO"
-with "FRONTIER_MON_CRABMON"
+replace "FRONTIER_MON_EEVEE"
+with "FRONTIER_MON_CRABMON_X"
 
-replace "gDittoPokedexText"
-with "gCrabmonPokedexText"
+replace "gEeveePokedexText"
+with "gCrabmon_xPokedexText"
 
-replace "NATIONAL_DEX_DITTO"
-with "NATIONAL_DEX_CRABMON"
+replace "NATIONAL_DEX_EEVEE"
+with "NATIONAL_DEX_CRABMON_X"
 
-replace "SPECIES_DITTO"
-with "SPECIES_CRABMON"
+replace "SPECIES_EEVEE"
+with "SPECIES_CRABMON_X"
 
-replace "HOENN_DEX_DITTO"
-with "HOENN_DEX_CRABMON"
+replace "HOENN_DEX_EEVEE"
+with "HOENN_DEX_CRABMON_X"
 
-replace "SPECIES_TO_HOENN(DITTO),"
-with "SPECIES_TO_HOENN(CRABMON),"
+replace "SPECIES_TO_HOENN(EEVEE),"
+with "SPECIES_TO_HOENN(CRABMON_X),"
 
-replace "SPECIES_TO_NATIONAL(DITTO),"
-with "SPECIES_TO_NATIONAL(CRABMON),"
+replace "SPECIES_TO_NATIONAL(EEVEE),"
+with "SPECIES_TO_NATIONAL(CRABMON_X),"
 
-replace "HOENN_TO_NATIONAL(DITTO),"
-with "HOENN_TO_NATIONAL(CRABMON),"
+replace "HOENN_TO_NATIONAL(EEVEE),"
+with "HOENN_TO_NATIONAL(CRABMON_X),"
 
-replace "EC_POKEMON_NATIONAL(DITTO),"
-with "EC_POKEMON_NATIONAL(CRABMON),"
+replace "EC_POKEMON_NATIONAL(EEVEE),"
+with "EC_POKEMON_NATIONAL(CRABMON_X),"
 
-replace "egg_moves(DITTO,"
-with "egg_moves(CRABMON,"
+replace "egg_moves(EEVEE,"
+with "egg_moves(CRABMON_X,"
 
-replace "sDittoLevelUpLearnset"
-with "sCrabmonLevelUpLearnset"
+replace "sEeveeLevelUpLearnset"
+with "sCrabmon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DITTO"
-with "SPECIES_SPRITE(CRABMON"
+replace "SPECIES_SPRITE(EEVEE"
+with "SPECIES_SPRITE(CRABMON_X"
 
-replace "SPECIES_PAL(DITTO,"
-with "SPECIES_PAL(CRABMON,"
+replace "SPECIES_PAL(EEVEE,"
+with "SPECIES_PAL(CRABMON_X,"
 
-replace "SPECIES_SHINY_PAL(DITTO,"
-with "SPECIES_SHINY_PAL(CRABMON,"
+replace "SPECIES_SHINY_PAL(EEVEE,"
+with "SPECIES_SHINY_PAL(CRABMON_X,"
 
-replace "EC_POKEMON(DITTO)"
-with "EC_POKEMON(CRABMON)"
+replace "EC_POKEMON(EEVEE)"
+with "EC_POKEMON(CRABMON_X)"
 
-replace "EC_POKEMON_NATIONAL(DITTO)"
-with "EC_POKEMON_NATIONAL(CRABMON)"
+replace "EC_POKEMON_NATIONAL(EEVEE)"
+with "EC_POKEMON_NATIONAL(CRABMON_X)"
 
 in "src/data/text/species_names.h"
-replace "DITTO"
+replace "EEVEE"
 with "CRABMON"

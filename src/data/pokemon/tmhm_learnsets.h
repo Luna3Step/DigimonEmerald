@@ -3105,7 +3105,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CRABMON]       = TMHM_LEARNSET(0),
 
-    [SPECIES_EEVEE]       = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_CRABMON_X]       = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
