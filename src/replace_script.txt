@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MAGMAR"
-with "FRONTIER_MON_CHIKURIMON"
+replace "FRONTIER_MON_PINSIR"
+with "FRONTIER_MON_TYUTYUMON"
 
-replace "gMagmarPokedexText"
-with "gChikurimonPokedexText"
+replace "gPinsirPokedexText"
+with "gTyutyumonPokedexText"
 
-replace "NATIONAL_DEX_MAGMAR"
-with "NATIONAL_DEX_CHIKURIMON"
+replace "NATIONAL_DEX_PINSIR"
+with "NATIONAL_DEX_TYUTYUMON"
 
-replace "SPECIES_MAGMAR"
-with "SPECIES_CHIKURIMON"
+replace "SPECIES_PINSIR"
+with "SPECIES_TYUTYUMON"
 
-replace "HOENN_DEX_MAGMAR"
-with "HOENN_DEX_CHIKURIMON"
+replace "HOENN_DEX_PINSIR"
+with "HOENN_DEX_TYUTYUMON"
 
-replace "SPECIES_TO_HOENN(MAGMAR),"
-with "SPECIES_TO_HOENN(CHIKURIMON),"
+replace "SPECIES_TO_HOENN(PINSIR),"
+with "SPECIES_TO_HOENN(TYUTYUMON),"
 
-replace "SPECIES_TO_NATIONAL(MAGMAR),"
-with "SPECIES_TO_NATIONAL(CHIKURIMON),"
+replace "SPECIES_TO_NATIONAL(PINSIR),"
+with "SPECIES_TO_NATIONAL(TYUTYUMON),"
 
-replace "HOENN_TO_NATIONAL(MAGMAR),"
-with "HOENN_TO_NATIONAL(CHIKURIMON),"
+replace "HOENN_TO_NATIONAL(PINSIR),"
+with "HOENN_TO_NATIONAL(TYUTYUMON),"
 
-replace "EC_POKEMON_NATIONAL(MAGMAR),"
-with "EC_POKEMON_NATIONAL(CHIKURIMON),"
+replace "EC_POKEMON_NATIONAL(PINSIR),"
+with "EC_POKEMON_NATIONAL(TYUTYUMON),"
 
-replace "egg_moves(MAGMAR,"
-with "egg_moves(CHIKURIMON,"
+replace "egg_moves(PINSIR,"
+with "egg_moves(TYUTYUMON,"
 
-replace "sMagmarLevelUpLearnset"
-with "sChikurimonLevelUpLearnset"
+replace "sPinsirLevelUpLearnset"
+with "sTyutyumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MAGMAR"
-with "SPECIES_SPRITE(CHIKURIMON"
+replace "SPECIES_SPRITE(PINSIR"
+with "SPECIES_SPRITE(TYUTYUMON"
 
-replace "SPECIES_PAL(MAGMAR,"
-with "SPECIES_PAL(CHIKURIMON,"
+replace "SPECIES_PAL(PINSIR,"
+with "SPECIES_PAL(TYUTYUMON,"
 
-replace "SPECIES_SHINY_PAL(MAGMAR,"
-with "SPECIES_SHINY_PAL(CHIKURIMON,"
+replace "SPECIES_SHINY_PAL(PINSIR,"
+with "SPECIES_SHINY_PAL(TYUTYUMON,"
 
-replace "EC_POKEMON(MAGMAR)"
-with "EC_POKEMON(CHIKURIMON)"
+replace "EC_POKEMON(PINSIR)"
+with "EC_POKEMON(TYUTYUMON)"
 
-replace "EC_POKEMON_NATIONAL(MAGMAR)"
-with "EC_POKEMON_NATIONAL(CHIKURIMON)"
+replace "EC_POKEMON_NATIONAL(PINSIR)"
+with "EC_POKEMON_NATIONAL(TYUTYUMON)"
 
 in "src/data/text/species_names.h"
-replace "MAGMAR"
-with "CHIKURIMON"
+replace "PINSIR"
+with "TYUTYUMON"

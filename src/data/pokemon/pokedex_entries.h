@@ -1524,12 +1524,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PINSIR] =
+    [NATIONAL_DEX_TYUTYUMON] =
     {
-        .categoryName = _("STAG BEETLE"),
-        .height = 15,
-        .weight = 550,
-        .description = gPinsirPokedexText,
+        .categoryName = _("TACTICIAN"),
+        .height = 2,
+        .weight = 185,
+        .description = gTyutyumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 257,

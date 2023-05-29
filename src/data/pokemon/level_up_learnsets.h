@@ -1761,7 +1761,7 @@ static const u16 sChikurimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPinsirLevelUpLearnset[] = {
+static const u16 sTyutyumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_VICE_GRIP),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 7, MOVE_BIND),

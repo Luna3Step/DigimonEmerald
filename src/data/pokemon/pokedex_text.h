@@ -760,11 +760,11 @@ const u8 gChikurimonPokedexText[] = _(
     "a Chikurimon should avoid eye contact and\n"
     "back away slowly as they will explode.");
 
-const u8 gPinsirPokedexText[] = _(
-    "Their pincers are strong enough to\n"
-    "shatter thick logs. Because they dislike\n"
-    "cold, PINSIR burrow and sleep under\n"
-    "the ground on chilly nights.");
+const u8 gTyutyumonPokedexText[] = _(
+    "Despite its small size, TyuTyumon is a very\n"
+    "smart and shrewd Digimon. When it makes a\n"
+    "plan, it almost always goes off without\n"
+    "a single unplanned deviation.");
 
 const u8 gTaurosPokedexText[] = _(
     "It is not satisfied unless it is rampaging\n"

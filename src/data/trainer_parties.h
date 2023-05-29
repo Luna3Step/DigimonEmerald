@@ -7082,7 +7082,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Davis[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_PINSIR,
+    .species = SPECIES_TYUTYUMON,
     }
 };
 

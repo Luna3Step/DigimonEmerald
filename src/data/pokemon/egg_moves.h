@@ -430,7 +430,7 @@ const u16 gEggMoves[] = {
               MOVE_ENDURE,
               MOVE_SILVER_WIND),
 
-    egg_moves(PINSIR,
+    egg_moves(TYUTYUMON,
               MOVE_FURY_ATTACK,
               MOVE_FLAIL,
               MOVE_FALSE_SWIPE,
