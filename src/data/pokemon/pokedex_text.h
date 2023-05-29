@@ -712,11 +712,11 @@ const u8 gBlkagumon_xPokedexText[] = _(
     "all strategy and defense for a full on\n"
     "barrage of offensive attacks.");
 
-const u8 gSeakingPokedexText[] = _(
-    "It punches holes in boulders on stream-\n"
-    "beds. This is a clever innovation that\n"
-    "prevents its eggs from being attacked or\n"
-    "washed away by the current.");
+const u8 gBlkgabumonPokedexText[] = _(
+    "It's pelt is made up of Garurumon data\n"
+    "that it has collected. If you remove its\n"
+    "pelt, it becomes very bashful unlike its\n"
+    "usual hooligan self.");
 
 const u8 gStaryuPokedexText[] = _(
     "It gathers with others in the night and\n"

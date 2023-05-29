@@ -1641,7 +1641,7 @@ static const u16 sBlkagumon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSeakingLevelUpLearnset[] = {
+static const u16 sBlkgabumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_WATER_SPORT),

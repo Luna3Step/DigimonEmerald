@@ -123,7 +123,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_BIYOMON]      = { .size = MON_COORDS_SIZE(32, 40), .y_offset = 15 },
     [SPECIES_BLKAGUMON]      = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  7 },
     [SPECIES_BLKAGUMON_X]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
-    [SPECIES_SEAKING]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
+    [SPECIES_BLKGABUMON]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_STARYU]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_STARMIE]     = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
     [SPECIES_MR_MIME]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },

@@ -1506,7 +1506,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Brianna[] = {
     {
     .iv = 150,
     .lvl = 40,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -5882,7 +5882,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sharon[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     }
 };
 
@@ -5932,7 +5932,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kara[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     }
 };
 
@@ -5961,7 +5961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Debra[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     }
 };
 
@@ -6008,7 +6008,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carlee[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     }
 };
 
@@ -7415,7 +7415,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_BLKGABUMON,
     }
 };
 

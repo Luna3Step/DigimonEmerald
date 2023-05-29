@@ -1428,12 +1428,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SEAKING] =
+    [NATIONAL_DEX_BLKGABUMON] =
     {
-        .categoryName = _("GOLDFISH"),
+        .categoryName = _("PELT"),
         .height = 13,
-        .weight = 390,
-        .description = gSeakingPokedexText,
+        .weight = 510,
+        .description = gBlkgabumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 256,

@@ -1596,8 +1596,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_RELAXED
     },
-    [FRONTIER_MON_SEAKING_1] = {
-        .species = SPECIES_SEAKING,
+    [FRONTIER_MON_BLKGABUMON_1] = {
+        .species = SPECIES_BLKGABUMON,
         .moves = {MOVE_WATER_PULSE, MOVE_PSYBEAM, MOVE_SWIFT, MOVE_AGILITY},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
@@ -2331,8 +2331,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_RELAXED
     },
-    [FRONTIER_MON_SEAKING_2] = {
-        .species = SPECIES_SEAKING,
+    [FRONTIER_MON_BLKGABUMON_2] = {
+        .species = SPECIES_BLKGABUMON,
         .moves = {MOVE_HORN_DRILL, MOVE_MEGAHORN, MOVE_SLEEP_TALK, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
