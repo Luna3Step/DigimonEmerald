@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_JOLTEON"
-with "FRONTIER_MON_DAMEMON"
+replace "FRONTIER_MON_FLAREON"
+with "FRONTIER_MON_DEMIDEVMON"
 
-replace "gJolteonPokedexText"
-with "gDamemonPokedexText"
+replace "gFlareonPokedexText"
+with "gDemidevmonPokedexText"
 
-replace "NATIONAL_DEX_JOLTEON"
-with "NATIONAL_DEX_DAMEMON"
+replace "NATIONAL_DEX_FLAREON"
+with "NATIONAL_DEX_DEMIDEVMON"
 
-replace "SPECIES_JOLTEON"
-with "SPECIES_DAMEMON"
+replace "SPECIES_FLAREON"
+with "SPECIES_DEMIDEVMON"
 
-replace "HOENN_DEX_JOLTEON"
-with "HOENN_DEX_DAMEMON"
+replace "HOENN_DEX_FLAREON"
+with "HOENN_DEX_DEMIDEVMON"
 
-replace "SPECIES_TO_HOENN(JOLTEON),"
-with "SPECIES_TO_HOENN(DAMEMON),"
+replace "SPECIES_TO_HOENN(FLAREON),"
+with "SPECIES_TO_HOENN(DEMIDEVMON),"
 
-replace "SPECIES_TO_NATIONAL(JOLTEON),"
-with "SPECIES_TO_NATIONAL(DAMEMON),"
+replace "SPECIES_TO_NATIONAL(FLAREON),"
+with "SPECIES_TO_NATIONAL(DEMIDEVMON),"
 
-replace "HOENN_TO_NATIONAL(JOLTEON),"
-with "HOENN_TO_NATIONAL(DAMEMON),"
+replace "HOENN_TO_NATIONAL(FLAREON),"
+with "HOENN_TO_NATIONAL(DEMIDEVMON),"
 
-replace "EC_POKEMON_NATIONAL(JOLTEON),"
-with "EC_POKEMON_NATIONAL(DAMEMON),"
+replace "EC_POKEMON_NATIONAL(FLAREON),"
+with "EC_POKEMON_NATIONAL(DEMIDEVMON),"
 
-replace "egg_moves(JOLTEON,"
-with "egg_moves(DAMEMON,"
+replace "egg_moves(FLAREON,"
+with "egg_moves(DEMIDEVMON,"
 
-replace "sJolteonLevelUpLearnset"
-with "sDamemonLevelUpLearnset"
+replace "sFlareonLevelUpLearnset"
+with "sDemidevmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(JOLTEON"
-with "SPECIES_SPRITE(DAMEMON"
+replace "SPECIES_SPRITE(FLAREON"
+with "SPECIES_SPRITE(DEMIDEVMON"
 
-replace "SPECIES_PAL(JOLTEON,"
-with "SPECIES_PAL(DAMEMON,"
+replace "SPECIES_PAL(FLAREON,"
+with "SPECIES_PAL(DEMIDEVMON,"
 
-replace "SPECIES_SHINY_PAL(JOLTEON,"
-with "SPECIES_SHINY_PAL(DAMEMON,"
+replace "SPECIES_SHINY_PAL(FLAREON,"
+with "SPECIES_SHINY_PAL(DEMIDEVMON,"
 
-replace "EC_POKEMON(JOLTEON)"
-with "EC_POKEMON(DAMEMON)"
+replace "EC_POKEMON(FLAREON)"
+with "EC_POKEMON(DEMIDEVMON)"
 
-replace "EC_POKEMON_NATIONAL(JOLTEON)"
-with "EC_POKEMON_NATIONAL(DAMEMON)"
+replace "EC_POKEMON_NATIONAL(FLAREON)"
+with "EC_POKEMON_NATIONAL(DEMIDEVMON)"
 
 in "src/data/text/species_names.h"
-replace "JOLTEON"
-with "DAMEMON"
+replace "FLAREON"
+with "DEMIDEVMON"

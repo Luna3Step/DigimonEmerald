@@ -1632,12 +1632,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FLAREON] =
+    [NATIONAL_DEX_DEMIDEVMON] =
     {
-        .categoryName = _("FLAME"),
-        .height = 9,
+        .categoryName = _("TINY DEVIL"),
+        .height = 4,
         .weight = 250,
-        .description = gFlareonPokedexText,
+        .description = gDemidevmonPokedexText,
         .pokemonScale = 306,
         .pokemonOffset = 12,
         .trainerScale = 256,

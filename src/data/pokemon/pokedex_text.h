@@ -814,11 +814,11 @@ const u8 gDamemonPokedexText[] = _(
     "an unnatural fusion of Koromon and Agumon\n"
     "data making it a very rare digimon.");
 
-const u8 gFlareonPokedexText[] = _(
-    "FLAREON's fluffy fur releases heat into\n"
-    "the air so that its body does not get\n"
-    "excessively hot. Its body temperature can\n"
-    "rise to a maximum of 1,650 degrees F.");
+const u8 gDemidevmonPokedexText[] = _(
+    "DemiDevimon is a tiny familiar digimon that\n"
+    "serves under stronger digimon like Devimon\n"
+    "and Myotismon. It is not a strong digimon\n"
+    "however it is cunning and quickwitted.");
 
 const u8 gPorygonPokedexText[] = _(
     "It is capable of reverting itself entirely\n"
