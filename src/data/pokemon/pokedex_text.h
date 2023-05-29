@@ -808,11 +808,11 @@ const u8 gCutemonPokedexText[] = _(
     "one, be wary as it may be leading you to\n"
     "a trap. Its ears are actually a sense organ");
 
-const u8 gJolteonPokedexText[] = _(
-    "Its cells generate weak power that is\n"
-    "amplified by its fur's static electricity\n"
-    "to drop thunderbolts. The bristling fur is\n"
-    "made of electrically charged needles.");
+const u8 gDamemonPokedexText[] = _(
+    "Damemon is a glitch digimon that should\n"
+    "not exist. Scientists theorise that it is\n"
+    "an unnatural fusion of Koromon and Agumon\n"
+    "data making it a very rare digimon.");
 
 const u8 gFlareonPokedexText[] = _(
     "FLAREON's fluffy fur releases heat into\n"

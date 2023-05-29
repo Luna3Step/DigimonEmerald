@@ -1620,12 +1620,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_JOLTEON] =
+    [NATIONAL_DEX_DAMEMON] =
     {
-        .categoryName = _("LIGHTNING"),
+        .categoryName = _("NO GOOD"),
         .height = 8,
         .weight = 245,
-        .description = gJolteonPokedexText,
+        .description = gDamemonPokedexText,
         .pokemonScale = 283,
         .pokemonOffset = 8,
         .trainerScale = 256,

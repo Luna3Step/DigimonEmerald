@@ -1857,7 +1857,7 @@ static const u16 sCutemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sJolteonLevelUpLearnset[] = {
+static const u16 sDamemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
