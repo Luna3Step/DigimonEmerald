@@ -742,11 +742,11 @@ const u8 gBurgermonPokedexText[] = _(
     "to spend all its time learning to make\n"
     "the perfect hamburger for other Digimon.");
 
-const u8 gJynxPokedexText[] = _(
-    "A JYNX sashays rhythmically as if it were\n"
-    "dancing. Its motions are so bouncingly\n"
-    "alluring, people seeing it are compelled to\n"
-    "shake their hips without noticing.");
+const u8 gSamuAgumonPokedexText[] = _(
+    "Although the school it says it is a part\n"
+    "of does not exist, BushiAgumons\n"
+    "swordsmanship is first-rate with very\n"
+    "few digimon being able to compete.");
 
 const u8 gElectabuzzPokedexText[] = _(
     "When a storm approaches, it competes with\n"

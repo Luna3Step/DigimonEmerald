@@ -821,7 +821,7 @@ const u16 gEasyChatWordsByLetter_J[] = {
     EC_MOVE2(JUMP_KICK),
     EC_POKEMON_NATIONAL(JUMPLUFF),
     EC_WORD_JUST,
-    EC_POKEMON_NATIONAL(JYNX),
+    EC_POKEMON_NATIONAL(SAMUAGUMON),
 };
 
 const u16 gEasyChatWordsByLetter_K[] = {
@@ -2487,7 +2487,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRi[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseRu[] = {
-    EC_POKEMON_NATIONAL(JYNX),
+    EC_POKEMON_NATIONAL(SAMUAGUMON),
     EC_WORD_ROOM,
     EC_WORD_RULE,
     EC_POKEMON_NATIONAL(LUGIA),

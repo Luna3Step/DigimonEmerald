@@ -1488,12 +1488,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_JYNX] =
+    [NATIONAL_DEX_SAMUAGUMON] =
     {
-        .categoryName = _("HUMAN SHAPE"),
-        .height = 14,
+        .categoryName = _("SAMURAI"),
+        .height = 10,
         .weight = 406,
-        .description = gJynxPokedexText,
+        .description = gSamuAgumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 300,

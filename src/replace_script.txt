@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SCYTHER"
-with "FRONTIER_MON_BURGERMON"
+replace "FRONTIER_MON_JYNX"
+with "FRONTIER_MON_SAMUAGUMON"
 
-replace "gScytherPokedexText"
-with "gBurgermonPokedexText"
+replace "gJynxPokedexText"
+with "gSamuAgumonPokedexText"
 
-replace "NATIONAL_DEX_SCYTHER"
-with "NATIONAL_DEX_BURGERMON"
+replace "NATIONAL_DEX_JYNX"
+with "NATIONAL_DEX_SAMUAGUMON"
 
-replace "SPECIES_SCYTHER"
-with "SPECIES_BURGERMON"
+replace "SPECIES_JYNX"
+with "SPECIES_SAMUAGUMON"
 
-replace "HOENN_DEX_SCYTHER"
-with "HOENN_DEX_BURGERMON"
+replace "HOENN_DEX_JYNX"
+with "HOENN_DEX_SAMUAGUMON"
 
-replace "SPECIES_TO_HOENN(SCYTHER),"
-with "SPECIES_TO_HOENN(BURGERMON),"
+replace "SPECIES_TO_HOENN(JYNX),"
+with "SPECIES_TO_HOENN(SAMUAGUMON),"
 
-replace "SPECIES_TO_NATIONAL(SCYTHER),"
-with "SPECIES_TO_NATIONAL(BURGERMON),"
+replace "SPECIES_TO_NATIONAL(JYNX),"
+with "SPECIES_TO_NATIONAL(SAMUAGUMON),"
 
-replace "HOENN_TO_NATIONAL(SCYTHER),"
-with "HOENN_TO_NATIONAL(BURGERMON),"
+replace "HOENN_TO_NATIONAL(JYNX),"
+with "HOENN_TO_NATIONAL(SAMUAGUMON),"
 
-replace "EC_POKEMON_NATIONAL(SCYTHER),"
-with "EC_POKEMON_NATIONAL(BURGERMON),"
+replace "EC_POKEMON_NATIONAL(JYNX),"
+with "EC_POKEMON_NATIONAL(SAMUAGUMON),"
 
-replace "egg_moves(SCYTHER,"
-with "egg_moves(BURGERMON,"
+replace "egg_moves(JYNX,"
+with "egg_moves(SAMUAGUMON,"
 
-replace "sScytherLevelUpLearnset"
-with "sBurgermonLevelUpLearnset"
+replace "sJynxLevelUpLearnset"
+with "sSamuAgumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SCYTHER"
-with "SPECIES_SPRITE(BURGERMON"
+replace "SPECIES_SPRITE(JYNX"
+with "SPECIES_SPRITE(SAMUAGUMON"
 
-replace "SPECIES_PAL(SCYTHER,"
-with "SPECIES_PAL(BURGERMON,"
+replace "SPECIES_PAL(JYNX,"
+with "SPECIES_PAL(SAMUAGUMON,"
 
-replace "SPECIES_SHINY_PAL(SCYTHER,"
-with "SPECIES_SHINY_PAL(BURGERMON,"
+replace "SPECIES_SHINY_PAL(JYNX,"
+with "SPECIES_SHINY_PAL(SAMUAGUMON,"
 
-replace "EC_POKEMON(SCYTHER)"
-with "EC_POKEMON(BURGERMON)"
+replace "EC_POKEMON(JYNX)"
+with "EC_POKEMON(SAMUAGUMON)"
 
-replace "EC_POKEMON_NATIONAL(SCYTHER)"
-with "EC_POKEMON_NATIONAL(BURGERMON)"
+replace "EC_POKEMON_NATIONAL(JYNX)"
+with "EC_POKEMON_NATIONAL(SAMUAGUMON)"
 
 in "src/data/text/species_names.h"
-replace "SCYTHER"
-with "BURGERMON"
+replace "JYNX"
+with "SAMUAGUMON"
