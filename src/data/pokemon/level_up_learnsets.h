@@ -1656,7 +1656,7 @@ static const u16 sBlkgabumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBlkgatomonLevelUpLearnset[] = {
+static const u16 sBlkguilmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 6, MOVE_WATER_GUN),

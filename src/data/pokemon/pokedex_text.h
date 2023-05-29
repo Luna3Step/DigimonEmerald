@@ -718,11 +718,11 @@ const u8 gBlkgabumonPokedexText[] = _(
     "pelt, it becomes very bashful unlike its\n"
     "usual hooligan self.");
 
-const u8 gBlkgatomonPokedexText[] = _(
-    "It gathers with others in the night and\n"
-    "makes its red core glow on and off with\n"
-    "the twinkling stars. It can regenerate\n"
-    "limbs if they are severed from its body.");
+const u8 gBlkguilmonPokedexText[] = _(
+    "BlackGuilmon is a very confident fighter,\n"
+    "often using a mixture of explosive and\n"
+    "breath attacks. It is unknown why it\n"
+    "has hazard and zero unit symbols on it.");
 
 const u8 gStarmiePokedexText[] = _(
     "People in ancient times imagined that\n"

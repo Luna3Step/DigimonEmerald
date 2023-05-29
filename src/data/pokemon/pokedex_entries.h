@@ -1440,12 +1440,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLKGATOMON] =
+    [NATIONAL_DEX_BLKGUILMON] =
     {
-        .categoryName = _("STAR SHAPE"),
-        .height = 8,
+        .categoryName = _("DARK HAZARD"),
+        .height = 14,
         .weight = 345,
-        .description = gBlkgatomonPokedexText,
+        .description = gBlkguilmonPokedexText,
         .pokemonScale = 326,
         .pokemonOffset = 1,
         .trainerScale = 256,
