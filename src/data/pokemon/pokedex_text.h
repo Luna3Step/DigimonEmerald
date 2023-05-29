@@ -724,11 +724,11 @@ const u8 gBlkguilmonPokedexText[] = _(
     "breath attacks. It is unknown why it\n"
     "has hazard and zero unit symbols on it.");
 
-const u8 gStarmiePokedexText[] = _(
-    "People in ancient times imagined that\n"
-    "STARMIE were transformed from the\n"
-    "reflections of stars that twinkled on\n"
-    "gentle waves at night.");
+const u8 gBokomonPokedexText[] = _(
+    "Bokomon has many tendancies like an old\n"
+    "man and is well respected by younger\n"
+    "Digimon. It is very bad at fighting \n"
+    "and will avoid it as much as possible.");
 
 const u8 gMrmimePokedexText[] = _(
     "A MR. MIME is a master of pantomime. It can\n"

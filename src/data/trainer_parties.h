@@ -917,7 +917,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leroy[] = {
     {
     .iv = 100,
     .lvl = 46,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -2143,7 +2143,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tony5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     },
     {
     .iv = 40,
@@ -5010,7 +5010,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah4[] = {
     {
     .iv = 30,
     .lvl = 45,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -5018,7 +5018,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah5[] = {
     {
     .iv = 40,
     .lvl = 48,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -5092,7 +5092,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn4[] = {
     {
     .iv = 30,
     .lvl = 45,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -5100,7 +5100,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn5[] = {
     {
     .iv = 40,
     .lvl = 48,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -6055,7 +6055,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny5[] = {
     {
     .iv = 0,
     .lvl = 45,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 
@@ -11893,12 +11893,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     },
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_STARMIE,
+    .species = SPECIES_BOKOMON,
     }
 };
 

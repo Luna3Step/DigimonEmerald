@@ -1444,7 +1444,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("DARK HAZARD"),
         .height = 14,
-        .weight = 345,
+        .weight = 500,
         .description = gBlkguilmonPokedexText,
         .pokemonScale = 326,
         .pokemonOffset = 1,
@@ -1452,12 +1452,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_STARMIE] =
+    [NATIONAL_DEX_BOKOMON] =
     {
-        .categoryName = _("MYSTERIOUS"),
-        .height = 11,
-        .weight = 800,
-        .description = gStarmiePokedexText,
+        .categoryName = _("HARAMAKI"),
+        .height = 8,
+        .weight = 220,
+        .description = gBokomonPokedexText,
         .pokemonScale = 301,
         .pokemonOffset = 3,
         .trainerScale = 256,
