@@ -1476,12 +1476,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SCYTHER] =
+    [NATIONAL_DEX_BURGERMON] =
     {
-        .categoryName = _("MANTIS"),
-        .height = 15,
-        .weight = 560,
-        .description = gScytherPokedexText,
+        .categoryName = _("BURGER"),
+        .height = 7,
+        .weight = 295,
+        .description = gBurgermonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 293,

@@ -420,7 +420,7 @@ const u16 gEggMoves[] = {
               MOVE_FAKE_OUT,
               MOVE_TRICK),
 
-    egg_moves(SCYTHER,
+    egg_moves(BURGERMON,
               MOVE_COUNTER,
               MOVE_SAFEGUARD,
               MOVE_BATON_PASS,

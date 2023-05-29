@@ -988,7 +988,7 @@ const struct BardSound gBardSounds_Pokemon[NUM_SPECIES][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
-    [SPECIES_SCYTHER] = {
+    [SPECIES_BURGERMON] = {
         { .songLengthId = 18 },
         { .songLengthId = 48 },
         { .songLengthId = 51 },

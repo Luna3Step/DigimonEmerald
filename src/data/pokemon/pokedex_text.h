@@ -736,11 +736,11 @@ const u8 gBulucomonPokedexText[] = _(
     "environment. However due to being made\n"
     "of ice, it is weak to high temperatures.");
 
-const u8 gScytherPokedexText[] = _(
-    "Its blindingly fast speed adds to the\n"
-    "sharpness of its twin forearm scythes.\n"
-    "The scythes can slice through thick logs\n"
-    "in one wicked stroke.");
+const u8 gBurgermonPokedexText[] = _(
+    "Unlike most Digimon, Burgerman shares no\n"
+    "interest in fighting, rather it prefers\n"
+    "to spend all its time learning to make\n"
+    "the perfect hamburger for other Digimon.");
 
 const u8 gJynxPokedexText[] = _(
     "A JYNX sashays rhythmically as if it were\n"
