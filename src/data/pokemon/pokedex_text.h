@@ -784,11 +784,11 @@ const u8 gCommdramonPokedexText[] = _(
     "Their skin is modified to detect the \n"
     "surrounding colors and camouflage.");
 
-const u8 gLaprasPokedexText[] = _(
-    "People have driven LAPRAS almost to the\n"
-    "point of extinction. In the evenings,\n"
-    "it is said to sing plaintively as it seeks\n"
-    "what few others of its kind still remain.");
+const u8 gCoronamonPokedexText[] = _(
+    "Often seen with first time tamers,\n"
+    "Coronamon is a very innocent digimon that\n"
+    "likes to play a lot. It's sense of justice\n"
+    "is also powerfully sincere.");
 
 const u8 gDittoPokedexText[] = _(
     "A DITTO rearranges its cell structure to\n"

@@ -1572,12 +1572,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 13,
     },
 
-    [NATIONAL_DEX_LAPRAS] =
+    [NATIONAL_DEX_CORONAMON] =
     {
-        .categoryName = _("TRANSPORT"),
-        .height = 25,
+        .categoryName = _("SUN"),
+        .height = 8,
         .weight = 2200,
-        .description = gLaprasPokedexText,
+        .description = gCoronamonPokedexText,
         .pokemonScale = 257,
         .pokemonOffset = 10,
         .trainerScale = 423,

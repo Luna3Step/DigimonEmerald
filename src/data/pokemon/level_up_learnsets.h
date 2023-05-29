@@ -1808,7 +1808,7 @@ static const u16 sCommdramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLaprasLevelUpLearnset[] = {
+static const u16 sCoronamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_SING),

@@ -436,7 +436,7 @@ const u16 gEggMoves[] = {
               MOVE_FALSE_SWIPE,
               MOVE_FAINT_ATTACK),
 
-    egg_moves(LAPRAS,
+    egg_moves(CORONAMON,
               MOVE_FORESIGHT,
               MOVE_SUBSTITUTE,
               MOVE_TICKLE,
