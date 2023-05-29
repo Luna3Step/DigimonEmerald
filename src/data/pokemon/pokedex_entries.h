@@ -1500,12 +1500,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_ELECTABUZZ] =
+    [NATIONAL_DEX_CANDLEMON] =
     {
-        .categoryName = _("ELECTRIC"),
-        .height = 11,
-        .weight = 300,
-        .description = gElectabuzzPokedexText,
+        .categoryName = _("CANDLE"),
+        .height = 20,
+        .weight = 330,
+        .description = gCandlemonPokedexText,
         .pokemonScale = 351,
         .pokemonOffset = 8,
         .trainerScale = 256,

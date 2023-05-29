@@ -748,11 +748,11 @@ const u8 gSamuAgumonPokedexText[] = _(
     "swordsmanship is first-rate with very\n"
     "few digimon being able to compete.");
 
-const u8 gElectabuzzPokedexText[] = _(
-    "When a storm approaches, it competes with\n"
-    "others to scale heights that are likely to\n"
-    "be stricken by lightning. Some towns use\n"
-    "ELECTABUZZ in place of lightning rods.");
+const u8 gCandlemonPokedexText[] = _(
+    "It is unknown which part of its body is the\n"
+    "actual body. It was widely believed that\n"
+    "wax was however it is recently been\n"
+    "suggested that the flame is the body.");
 
 const u8 gMagmarPokedexText[] = _(
     "In battle, it blows out intense flames from\n"
