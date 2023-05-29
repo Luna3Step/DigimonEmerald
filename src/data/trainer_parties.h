@@ -1854,7 +1854,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve5[] = {
     {
     .iv = 40,
     .lvl = 35,
-    .species = SPECIES_RHYDON,
+    .species = SPECIES_BAKOMON,
     }
 };
 

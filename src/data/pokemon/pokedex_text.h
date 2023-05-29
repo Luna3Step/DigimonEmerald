@@ -670,11 +670,11 @@ const u8 gAruraumonPokedexText[] = _(
     "digivolution. It's flower gives a foul\n"
     "stench that can waft off predators.");
 
-const u8 gRhydonPokedexText[] = _(
-    "Its horn, which rotates like a drill,\n"
-    "destroys tall buildings with one strike.\n"
-    "It stands on its hind legs, and its brain\n"
-    "is well developed.");
+const u8 gBakomonPokedexText[] = _(
+    "Although it may look innocent at first\n"
+    "glance, Bakomon is actually an fearsome\n"
+    "Digimon to encounter. Anyone who peeks\n"
+    "inside one of it's boxes will be trapped.");
 
 const u8 gChanseyPokedexText[] = _(
     "CHANSEY lay nutritionally excellent eggs\n"

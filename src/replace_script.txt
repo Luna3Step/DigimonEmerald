@@ -1,49 +1,49 @@
-replace "FRONTIER_MON_RHYDON"
+replace "FRONTIER_MON_BAKOMON"
 with "FRONTIER_MON_BAKOMON"
 
-replace "gRhydonPokedexText"
+replace "gBakomonPokedexText"
 with "gBakomonPokedexText"
 
-replace "NATIONAL_DEX_RHYDON"
+replace "NATIONAL_DEX_BAKOMON"
 with "NATIONAL_DEX_BAKOMON"
 
-replace "SPECIES_RHYDON"
+replace "SPECIES_BAKOMON"
 with "SPECIES_BAKOMON"
 
-replace "HOENN_DEX_RHYDON"
+replace "HOENN_DEX_BAKOMON"
 with "HOENN_DEX_BAKOMON"
 
-replace "SPECIES_TO_HOENN(RHYDON),"
+replace "SPECIES_TO_HOENN(BAKOMON),"
 with "SPECIES_TO_HOENN(BAKOMON),"
 
-replace "SPECIES_TO_NATIONAL(RHYDON),"
+replace "SPECIES_TO_NATIONAL(BAKOMON),"
 with "SPECIES_TO_NATIONAL(BAKOMON),"
 
-replace "HOENN_TO_NATIONAL(RHYDON),"
+replace "HOENN_TO_NATIONAL(BAKOMON),"
 with "HOENN_TO_NATIONAL(BAKOMON),"
 
-replace "EC_POKEMON_NATIONAL(RHYDON),"
+replace "EC_POKEMON_NATIONAL(BAKOMON),"
 with "EC_POKEMON_NATIONAL(BAKOMON),"
 
-replace "egg_moves(RHYDON,"
+replace "egg_moves(BAKOMON,"
 with "egg_moves(BAKOMON,"
 
-replace "sRhydonLevelUpLearnset"
+replace "sBakomonLevelUpLearnset"
 with "sBakomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RHYDON"
+replace "SPECIES_SPRITE(BAKOMON"
 with "SPECIES_SPRITE(BAKOMON"
 
-replace "SPECIES_PAL(RHYDON,"
+replace "SPECIES_PAL(BAKOMON,"
 with "SPECIES_PAL(BAKOMON,"
 
-replace "SPECIES_SHINY_PAL(RHYDON,"
+replace "SPECIES_SHINY_PAL(BAKOMON,"
 with "SPECIES_SHINY_PAL(BAKOMON,"
 
-replace "EC_POKEMON(RHYDON)"
+replace "EC_POKEMON(BAKOMON)"
 with "EC_POKEMON(BAKOMON)"
 
-replace "EC_POKEMON_NATIONAL(RHYDON)"
+replace "EC_POKEMON_NATIONAL(BAKOMON)"
 with "EC_POKEMON_NATIONAL(BAKOMON)"
 
 in "src/data/text/species_names.h"
