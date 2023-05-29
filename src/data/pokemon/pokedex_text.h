@@ -754,11 +754,11 @@ const u8 gCandlemonPokedexText[] = _(
     "wax was however it is recently been\n"
     "suggested that the flame is the body.");
 
-const u8 gMagmarPokedexText[] = _(
-    "In battle, it blows out intense flames from\n"
-    "all over its body to intimidate its foe.\n"
-    "These fiery bursts create heat waves that\n"
-    "ignite grass and trees in the area.");
+const u8 gChikurimonPokedexText[] = _(
+    "Chikurimon can often be found lurking in\n"
+    "water or under rocks. Anyone that finds\n"
+    "a Chikurimon should avoid eye contact and\n"
+    "back away slowly as they will explode.");
 
 const u8 gPinsirPokedexText[] = _(
     "Their pincers are strong enough to\n"

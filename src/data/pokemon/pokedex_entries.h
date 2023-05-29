@@ -1512,12 +1512,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAGMAR] =
+    [NATIONAL_DEX_CHIKURIMON] =
     {
-        .categoryName = _("SPITFIRE"),
-        .height = 13,
-        .weight = 445,
-        .description = gMagmarPokedexText,
+        .categoryName = _("MINE"),
+        .height = 4,
+        .weight = 390,
+        .description = gChikurimonPokedexText,
         .pokemonScale = 277,
         .pokemonOffset = 5,
         .trainerScale = 256,
