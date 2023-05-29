@@ -1882,7 +1882,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWAGGER)
                                 | TUTOR(MOVE_SLEEP_TALK)),
 
-    [SPECIES_MAGIKARP]         = (0),
+    [SPECIES_HAZYAGUMON]         = (0),
 
     [SPECIES_GYARADOS]         = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)

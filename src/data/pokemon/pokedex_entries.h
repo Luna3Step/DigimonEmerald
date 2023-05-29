@@ -1548,12 +1548,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAGIKARP] =
+    [NATIONAL_DEX_HAZYAGUMON] =
     {
-        .categoryName = _("FISH"),
-        .height = 9,
+        .categoryName = _("CLEAR TOY"),
+        .height = 10,
         .weight = 100,
-        .description = gMagikarpPokedexText,
+        .description = gHazyAgumonPokedexText,
         .pokemonScale = 310,
         .pokemonOffset = 4,
         .trainerScale = 256,

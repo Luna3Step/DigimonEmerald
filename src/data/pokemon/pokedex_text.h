@@ -772,11 +772,11 @@ const u8 gChuumonPokedexText[] = _(
     "where trouble is rife. Chuumon does not.\n"
     "fight, instead coaxing Sukamon into it.");
 
-const u8 gMagikarpPokedexText[] = _(
-    "Its swimming muscles are weak, so it is\n"
-    "easily washed away by currents. In places\n"
-    "where water pools, you can see many\n"
-    "MAGIKARP deposited there by the flow.");
+const u8 gHazyAgumonPokedexText[] = _(
+    "HazyAgumon is an incredibly rare digimon\n"
+    "that most will not see ever in their lives.\n"
+    "Despite it's cowardly nature, it possesses\n"
+    "a heart of justice and will fight.");
 
 const u8 gGyaradosPokedexText[] = _(
     "It is an extremely vicious and violent\n"

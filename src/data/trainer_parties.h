@@ -4460,7 +4460,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andrew[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -4470,7 +4470,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andrew[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     }
 };
 
@@ -4478,17 +4478,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ivan[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     }
 };
 
@@ -4496,7 +4496,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Claude[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -4514,7 +4514,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -4524,7 +4524,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     }
 };
 
@@ -4692,7 +4692,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ronald[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -9056,12 +9056,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Roger[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -9384,7 +9384,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chris[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     },
     {
     .iv = 0,
@@ -9437,7 +9437,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darian[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_HAZYAGUMON,
     }
 };
 
