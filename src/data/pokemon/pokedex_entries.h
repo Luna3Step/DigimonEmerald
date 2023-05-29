@@ -1584,12 +1584,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 8,
     },
 
-    [NATIONAL_DEX_DITTO] =
+    [NATIONAL_DEX_CRABMON] =
     {
-        .categoryName = _("TRANSFORM"),
-        .height = 3,
+        .categoryName = _("CRAB"),
+        .height = 6,
         .weight = 40,
-        .description = gDittoPokedexText,
+        .description = gCrabmonPokedexText,
         .pokemonScale = 633,
         .pokemonOffset = 23,
         .trainerScale = 256,

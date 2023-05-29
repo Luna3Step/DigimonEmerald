@@ -1824,7 +1824,7 @@ static const u16 sCoronamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDittoLevelUpLearnset[] = {
+static const u16 sCrabmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TRANSFORM),
     LEVEL_UP_END
 };

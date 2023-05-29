@@ -3103,7 +3103,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_DITTO]       = TMHM_LEARNSET(0),
+    [SPECIES_CRABMON]       = TMHM_LEARNSET(0),
 
     [SPECIES_EEVEE]       = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

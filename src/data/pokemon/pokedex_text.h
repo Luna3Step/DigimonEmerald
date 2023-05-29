@@ -790,11 +790,11 @@ const u8 gCoronamonPokedexText[] = _(
     "likes to play a lot. It's sense of justice\n"
     "is also powerfully sincere.");
 
-const u8 gDittoPokedexText[] = _(
-    "A DITTO rearranges its cell structure to\n"
-    "transform itself. However, if it tries to\n"
-    "change based on its memory, it will get\n"
-    "details wrong.");
+const u8 gCrabmonPokedexText[] = _(
+    "Crabmon are a fast growing species of\n"
+    "Digimon that will quickly grow stronger\n"
+    "over time. This strenght gives it lots of\n"
+    "confidence in battle.");
 
 const u8 gEeveePokedexText[] = _(
     "An EEVEE has an unstable genetic makeup\n"

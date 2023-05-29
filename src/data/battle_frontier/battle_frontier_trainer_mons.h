@@ -50,7 +50,7 @@
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_ARGOMON_IT,         \
     FRONTIER_MON_PAFUMON,         \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_BARBOACH,      \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_PINECO,        \
@@ -258,7 +258,7 @@
     FRONTIER_MON_SANDMON,    \
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_GUMMYMON,       \
     FRONTIER_MON_SNUBBULL,      \
@@ -308,7 +308,7 @@
     FRONTIER_MON_SKITTY,        \
     FRONTIER_MON_SANDMON,    \
     FRONTIER_MON_SLAKOTH,       \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_GUMMYMON,       \
     FRONTIER_MON_SNUBBULL,      \
@@ -415,7 +415,7 @@
     FRONTIER_MON_PUNIMON,     \
     FRONTIER_MON_KIRLIA,        \
     FRONTIER_MON_MAREEP,        \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_SPHEAL,        \
     FRONTIER_MON_SHROOMISH,     \
@@ -718,7 +718,7 @@
     FRONTIER_MON_TAILLOW,       \
     FRONTIER_MON_WINGULL,       \
     FRONTIER_MON_SLAKOTH,       \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_SNUBBULL,      \
     FRONTIER_MON_POROMON,         \
@@ -845,7 +845,7 @@
     FRONTIER_MON_TAILLOW,       \
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
-    FRONTIER_MON_DITTO,         \
+    FRONTIER_MON_CRABMON,         \
     FRONTIER_MON_CALUMON,        \
     FRONTIER_MON_POPOMON,     \
     FRONTIER_MON_MONIMON,       \

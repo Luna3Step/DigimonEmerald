@@ -431,7 +431,7 @@ static s32 GetParentToInheritNature(struct DayCare *daycare)
     for (dittoCount = 0, i = 0; i < DAYCARE_MON_COUNT; i++)
     {
         species[i] = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES);
-        if (species[i] == SPECIES_DITTO)
+        if (species[i] == SPECIES_CRABMON)
             dittoCount++, parent = i;
     }
 
@@ -771,7 +771,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     for (i = 0; i < DAYCARE_MON_COUNT; i++)
     {
         species[i] = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES);
-        if (species[i] == SPECIES_DITTO)
+        if (species[i] == SPECIES_CRABMON)
         {
             parentSlots[0] = i ^ 1;
             parentSlots[1] = i;
@@ -794,7 +794,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     }
 
     // Make Ditto the "mother" slot if the other daycare mon is male.
-    if (species[parentSlots[1]] == SPECIES_DITTO && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
+    if (species[parentSlots[1]] == SPECIES_CRABMON && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
     {
         u8 ditto = parentSlots[1];
         parentSlots[1] = parentSlots[0];

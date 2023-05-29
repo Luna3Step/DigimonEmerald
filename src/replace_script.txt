@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LAPRAS"
-with "FRONTIER_MON_CORONAMON"
+replace "FRONTIER_MON_DITTO"
+with "FRONTIER_MON_CRABMON"
 
-replace "gLaprasPokedexText"
-with "gCoronamonPokedexText"
+replace "gDittoPokedexText"
+with "gCrabmonPokedexText"
 
-replace "NATIONAL_DEX_LAPRAS"
-with "NATIONAL_DEX_CORONAMON"
+replace "NATIONAL_DEX_DITTO"
+with "NATIONAL_DEX_CRABMON"
 
-replace "SPECIES_LAPRAS"
-with "SPECIES_CORONAMON"
+replace "SPECIES_DITTO"
+with "SPECIES_CRABMON"
 
-replace "HOENN_DEX_LAPRAS"
-with "HOENN_DEX_CORONAMON"
+replace "HOENN_DEX_DITTO"
+with "HOENN_DEX_CRABMON"
 
-replace "SPECIES_TO_HOENN(LAPRAS),"
-with "SPECIES_TO_HOENN(CORONAMON),"
+replace "SPECIES_TO_HOENN(DITTO),"
+with "SPECIES_TO_HOENN(CRABMON),"
 
-replace "SPECIES_TO_NATIONAL(LAPRAS),"
-with "SPECIES_TO_NATIONAL(CORONAMON),"
+replace "SPECIES_TO_NATIONAL(DITTO),"
+with "SPECIES_TO_NATIONAL(CRABMON),"
 
-replace "HOENN_TO_NATIONAL(LAPRAS),"
-with "HOENN_TO_NATIONAL(CORONAMON),"
+replace "HOENN_TO_NATIONAL(DITTO),"
+with "HOENN_TO_NATIONAL(CRABMON),"
 
-replace "EC_POKEMON_NATIONAL(LAPRAS),"
-with "EC_POKEMON_NATIONAL(CORONAMON),"
+replace "EC_POKEMON_NATIONAL(DITTO),"
+with "EC_POKEMON_NATIONAL(CRABMON),"
 
-replace "egg_moves(LAPRAS,"
-with "egg_moves(CORONAMON,"
+replace "egg_moves(DITTO,"
+with "egg_moves(CRABMON,"
 
-replace "sLaprasLevelUpLearnset"
-with "sCoronamonLevelUpLearnset"
+replace "sDittoLevelUpLearnset"
+with "sCrabmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LAPRAS"
-with "SPECIES_SPRITE(CORONAMON"
+replace "SPECIES_SPRITE(DITTO"
+with "SPECIES_SPRITE(CRABMON"
 
-replace "SPECIES_PAL(LAPRAS,"
-with "SPECIES_PAL(CORONAMON,"
+replace "SPECIES_PAL(DITTO,"
+with "SPECIES_PAL(CRABMON,"
 
-replace "SPECIES_SHINY_PAL(LAPRAS,"
-with "SPECIES_SHINY_PAL(CORONAMON,"
+replace "SPECIES_SHINY_PAL(DITTO,"
+with "SPECIES_SHINY_PAL(CRABMON,"
 
-replace "EC_POKEMON(LAPRAS)"
-with "EC_POKEMON(CORONAMON)"
+replace "EC_POKEMON(DITTO)"
+with "EC_POKEMON(CRABMON)"
 
-replace "EC_POKEMON_NATIONAL(LAPRAS)"
-with "EC_POKEMON_NATIONAL(CORONAMON)"
+replace "EC_POKEMON_NATIONAL(DITTO)"
+with "EC_POKEMON_NATIONAL(CRABMON)"
 
 in "src/data/text/species_names.h"
-replace "LAPRAS"
-with "CORONAMON"
+replace "DITTO"
+with "CRABMON"
