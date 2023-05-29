@@ -3043,7 +3043,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HAZYAGUMON]    = TMHM_LEARNSET(0),
 
-    [SPECIES_GYARADOS]    = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
+    [SPECIES_COMMDRAMON]    = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM07_HAIL)

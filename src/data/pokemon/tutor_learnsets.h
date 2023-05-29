@@ -1884,7 +1884,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_HAZYAGUMON]         = (0),
 
-    [SPECIES_GYARADOS]         = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_COMMDRAMON]         = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_THUNDER_WAVE)

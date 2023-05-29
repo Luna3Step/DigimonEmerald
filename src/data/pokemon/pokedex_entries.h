@@ -1560,12 +1560,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GYARADOS] =
+    [NATIONAL_DEX_COMMDRAMON] =
     {
-        .categoryName = _("ATROCIOUS"),
-        .height = 65,
-        .weight = 2350,
-        .description = gGyaradosPokedexText,
+        .categoryName = _("COMMANDO"),
+        .height = 12,
+        .weight = 550,
+        .description = gCommdramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 481,

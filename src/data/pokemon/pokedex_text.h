@@ -778,11 +778,11 @@ const u8 gHazyAgumonPokedexText[] = _(
     "Despite it's cowardly nature, it possesses\n"
     "a heart of justice and will fight.");
 
-const u8 gGyaradosPokedexText[] = _(
-    "It is an extremely vicious and violent\n"
-    "POKéMON. When humans begin to fight,\n"
-    "it will appear and burn everything to the\n"
-    "ground with intensely hot flames.");
+const u8 gCommdramonPokedexText[] = _(
+    "Commdramon are an infantry digimon that\n"
+    "will often partake in organised missions.\n"
+    "Their skin is modified to detect the \n"
+    "surrounding colors and camouflage.");
 
 const u8 gLaprasPokedexText[] = _(
     "People have driven LAPRAS almost to the\n"

@@ -159,7 +159,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -1983,7 +1983,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Barry[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -2009,7 +2009,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rodney[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -2075,7 +2075,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jack[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -4443,7 +4443,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM, MOVE_SURF}
     },
@@ -4610,12 +4610,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -4623,7 +4623,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 20,
@@ -4638,7 +4638,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -4646,7 +4646,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 30,
@@ -4661,7 +4661,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot4[] = {
     {
     .iv = 31,
     .lvl = 31,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -4669,7 +4669,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 40,
@@ -4679,7 +4679,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 40,
@@ -4697,27 +4697,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ronald[] = {
     {
     .iv = 0,
     .lvl = 21,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 0,
     .lvl = 23,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 
@@ -9066,7 +9066,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Roger[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_COMMDRAMON,
     }
 };
 

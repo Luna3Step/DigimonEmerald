@@ -1795,7 +1795,7 @@ static const u16 sHazyAgumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGyaradosLevelUpLearnset[] = {
+static const u16 sCommdramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_THRASH),
     LEVEL_UP_MOVE(20, MOVE_BITE),
     LEVEL_UP_MOVE(25, MOVE_DRAGON_RAGE),
