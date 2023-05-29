@@ -1536,12 +1536,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TAUROS] =
+    [NATIONAL_DEX_CHUUMON] =
     {
-        .categoryName = _("WILD BULL"),
-        .height = 14,
-        .weight = 884,
-        .description = gTaurosPokedexText,
+        .categoryName = _("RAT"),
+        .height = 5,
+        .weight = 280,
+        .description = gChuumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

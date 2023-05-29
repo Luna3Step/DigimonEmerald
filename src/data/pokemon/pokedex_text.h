@@ -766,11 +766,11 @@ const u8 gTyutyumonPokedexText[] = _(
     "plan, it almost always goes off without\n"
     "a single unplanned deviation.");
 
-const u8 gTaurosPokedexText[] = _(
-    "It is not satisfied unless it is rampaging\n"
-    "at all times. If there is no opponent for\n"
-    "TAUROS to battle, it will charge at thick\n"
-    "trees and knock them down to calm itself.");
+const u8 gChuumonPokedexText[] = _(
+    "Chuumon can often be found with a Sukamon,\n"
+    "this partnership is usually a unruly one\n"
+    "where trouble is rife. Chuumon does not.\n"
+    "fight, instead coaxing Sukamon into it.");
 
 const u8 gMagikarpPokedexText[] = _(
     "Its swimming muscles are weak, so it is\n"

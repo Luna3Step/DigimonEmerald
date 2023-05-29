@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PINSIR"
-with "FRONTIER_MON_TYUTYUMON"
+replace "FRONTIER_MON_TAUROS"
+with "FRONTIER_MON_CHUUMON"
 
-replace "gPinsirPokedexText"
-with "gTyutyumonPokedexText"
+replace "gTaurosPokedexText"
+with "gChuumonPokedexText"
 
-replace "NATIONAL_DEX_PINSIR"
-with "NATIONAL_DEX_TYUTYUMON"
+replace "NATIONAL_DEX_TAUROS"
+with "NATIONAL_DEX_CHUUMON"
 
-replace "SPECIES_PINSIR"
-with "SPECIES_TYUTYUMON"
+replace "SPECIES_TAUROS"
+with "SPECIES_CHUUMON"
 
-replace "HOENN_DEX_PINSIR"
-with "HOENN_DEX_TYUTYUMON"
+replace "HOENN_DEX_TAUROS"
+with "HOENN_DEX_CHUUMON"
 
-replace "SPECIES_TO_HOENN(PINSIR),"
-with "SPECIES_TO_HOENN(TYUTYUMON),"
+replace "SPECIES_TO_HOENN(TAUROS),"
+with "SPECIES_TO_HOENN(CHUUMON),"
 
-replace "SPECIES_TO_NATIONAL(PINSIR),"
-with "SPECIES_TO_NATIONAL(TYUTYUMON),"
+replace "SPECIES_TO_NATIONAL(TAUROS),"
+with "SPECIES_TO_NATIONAL(CHUUMON),"
 
-replace "HOENN_TO_NATIONAL(PINSIR),"
-with "HOENN_TO_NATIONAL(TYUTYUMON),"
+replace "HOENN_TO_NATIONAL(TAUROS),"
+with "HOENN_TO_NATIONAL(CHUUMON),"
 
-replace "EC_POKEMON_NATIONAL(PINSIR),"
-with "EC_POKEMON_NATIONAL(TYUTYUMON),"
+replace "EC_POKEMON_NATIONAL(TAUROS),"
+with "EC_POKEMON_NATIONAL(CHUUMON),"
 
-replace "egg_moves(PINSIR,"
-with "egg_moves(TYUTYUMON,"
+replace "egg_moves(TAUROS,"
+with "egg_moves(CHUUMON,"
 
-replace "sPinsirLevelUpLearnset"
-with "sTyutyumonLevelUpLearnset"
+replace "sTaurosLevelUpLearnset"
+with "sChuumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PINSIR"
-with "SPECIES_SPRITE(TYUTYUMON"
+replace "SPECIES_SPRITE(TAUROS"
+with "SPECIES_SPRITE(CHUUMON"
 
-replace "SPECIES_PAL(PINSIR,"
-with "SPECIES_PAL(TYUTYUMON,"
+replace "SPECIES_PAL(TAUROS,"
+with "SPECIES_PAL(CHUUMON,"
 
-replace "SPECIES_SHINY_PAL(PINSIR,"
-with "SPECIES_SHINY_PAL(TYUTYUMON,"
+replace "SPECIES_SHINY_PAL(TAUROS,"
+with "SPECIES_SHINY_PAL(CHUUMON,"
 
-replace "EC_POKEMON(PINSIR)"
-with "EC_POKEMON(TYUTYUMON)"
+replace "EC_POKEMON(TAUROS)"
+with "EC_POKEMON(CHUUMON)"
 
-replace "EC_POKEMON_NATIONAL(PINSIR)"
-with "EC_POKEMON_NATIONAL(TYUTYUMON)"
+replace "EC_POKEMON_NATIONAL(TAUROS)"
+with "EC_POKEMON_NATIONAL(CHUUMON)"
 
 in "src/data/text/species_names.h"
-replace "PINSIR"
-with "TYUTYUMON"
+replace "TAUROS"
+with "CHUUMON"

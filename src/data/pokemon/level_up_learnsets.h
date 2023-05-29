@@ -1775,7 +1775,7 @@ static const u16 sTyutyumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTaurosLevelUpLearnset[] = {
+static const u16 sChuumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 8, MOVE_RAGE),
