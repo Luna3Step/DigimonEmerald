@@ -1392,12 +1392,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 8,
     },
 
-    [NATIONAL_DEX_HORSEA] =
+    [NATIONAL_DEX_BIYOMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 4,
-        .weight = 80,
-        .description = gHorseaPokedexText,
+        .categoryName = _("PINK BIRD"),
+        .height = 10,
+        .weight = 320,
+        .description = gBiyomonPokedexText,
         .pokemonScale = 399,
         .pokemonOffset = -1,
         .trainerScale = 256,

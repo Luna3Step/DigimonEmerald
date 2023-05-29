@@ -694,11 +694,11 @@ const u8 gBetamon_xPokedexText[] = _(
     "overhunted for it's looks. This in spite of\n"
     "its longer claws and stronger attacks.");
 
-const u8 gHorseaPokedexText[] = _(
-    "By cleverly flicking the fins on its back\n"
-    "side to side, it moves in any direction\n"
-    "while facing forward. It spits ink to\n"
-    "escape if it senses danger.");
+const u8 gBiyomonPokedexText[] = _(
+    "Despite being a flying Digimon, Biyomon\n"
+    "has poor flying capabilities. It's for\n"
+    "this reason that it often has rilvaries\n"
+    "with Patamon as they are similiar.");
 
 const u8 gSeadraPokedexText[] = _(
     "The poisonous barbs all over its body are\n"

@@ -61,7 +61,7 @@
 #define FRONTIER_MON_PINECO         57
 #define FRONTIER_MON_TRAPINCH       58
 #define FRONTIER_MON_SPHEAL         59
-#define FRONTIER_MON_HORSEA         60
+#define FRONTIER_MON_BIYOMON         60
 #define FRONTIER_MON_SHROOMISH      61
 #define FRONTIER_MON_SHUPPET        62
 #define FRONTIER_MON_DUSKULL        63
