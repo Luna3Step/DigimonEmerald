@@ -1401,6 +1401,9 @@ static void Cmd_typecalc(void)
                 if (TYPE_EFFECT_DEF_TYPE(i) == gBattleMons[gBattlerTarget].type2 &&
                     gBattleMons[gBattlerTarget].type1 != gBattleMons[gBattlerTarget].type2)
                     ModulateDmgByType(TYPE_EFFECT_MULTIPLIER(i));
+                // check type3
+                if (gBattleMons[gActiveBattler].type3 == gBattleMons[gBattlerTarget].type3)
+                    ModulateDmgByType(TYPE_EFFECT_MULTIPLIER(i));
             }
             i += 3;
         }
@@ -1483,6 +1486,7 @@ static void CheckWonderGuardAndLevitate(void)
              && gBattleMons[gBattlerTarget].type1 != gBattleMons[gBattlerTarget].type2
              && TYPE_EFFECT_MULTIPLIER(i) == TYPE_MUL_NOT_EFFECTIVE)
                 flags |= 2;
+
         }
         i += 3;
     }
@@ -4539,6 +4543,22 @@ static void Cmd_typecalc2(void)
                         flags |= MOVE_RESULT_SUPER_EFFECTIVE;
                     }
                 }
+                if (gBattleMons[gActiveBattler].type3 == gBattleMons[gBattlerTarget].type3)
+                {
+                    if (TYPE_EFFECT_MULTIPLIER(i) == TYPE_MUL_NO_EFFECT)
+                    {
+                        gMoveResultFlags |= MOVE_RESULT_DOESNT_AFFECT_FOE;
+                        break;
+                    }
+                    if (TYPE_EFFECT_MULTIPLIER(i) == TYPE_MUL_NOT_EFFECTIVE)
+                    {
+                        flags |= MOVE_RESULT_NOT_VERY_EFFECTIVE;
+                    }
+                    if (TYPE_EFFECT_MULTIPLIER(i) == TYPE_MUL_SUPER_EFFECTIVE)
+                    {
+                        flags |= MOVE_RESULT_SUPER_EFFECTIVE;
+                    }
+                }
             }
             i += 3;
         }
@@ -4606,6 +4626,7 @@ static void Cmd_switchindataupdate(void)
 
     gBattleMons[gActiveBattler].type1 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type1;
     gBattleMons[gActiveBattler].type2 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type2;
+    gBattleMons[gActiveBattler].type3 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type3;
     gBattleMons[gActiveBattler].ability = GetAbilityBySpecies(gBattleMons[gActiveBattler].species, gBattleMons[gActiveBattler].abilityNum);
 
     // check knocked off item

@@ -3569,7 +3569,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARCADIAMON_ROOKIE] =
     {
-        .baseHP        = 54,
+        .baseHP        = 52,
         .baseAttack    = 71,
         .baseDefense   = 55,
         .baseSpeed     = 60,

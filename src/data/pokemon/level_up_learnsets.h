@@ -1404,7 +1404,7 @@ static const u16 sYokomonLevelUpLearnset[] = {
 };
 
 static const u16 sAgumonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE(19, MOVE_STOMP),

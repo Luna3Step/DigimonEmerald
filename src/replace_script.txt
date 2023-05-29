@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_RHYHORN"
-with "FRONTIER_MON_ARURAUMON"
+replace "FRONTIER_MON_RHYDON"
+with "FRONTIER_MON_BAKOMON"
 
-replace "gRhyhornPokedexText"
-with "gAruraumonPokedexText"
+replace "gRhydonPokedexText"
+with "gBakomonPokedexText"
 
-replace "NATIONAL_DEX_RHYHORN"
-with "NATIONAL_DEX_ARURAUMON"
+replace "NATIONAL_DEX_RHYDON"
+with "NATIONAL_DEX_BAKOMON"
 
-replace "SPECIES_RHYHORN"
-with "SPECIES_ARURAUMON"
+replace "SPECIES_RHYDON"
+with "SPECIES_BAKOMON"
 
-replace "HOENN_DEX_RHYHORN"
-with "HOENN_DEX_ARURAUMON"
+replace "HOENN_DEX_RHYDON"
+with "HOENN_DEX_BAKOMON"
 
-replace "SPECIES_TO_HOENN(RHYHORN),"
-with "SPECIES_TO_HOENN(ARURAUMON),"
+replace "SPECIES_TO_HOENN(RHYDON),"
+with "SPECIES_TO_HOENN(BAKOMON),"
 
-replace "SPECIES_TO_NATIONAL(RHYHORN),"
-with "SPECIES_TO_NATIONAL(ARURAUMON),"
+replace "SPECIES_TO_NATIONAL(RHYDON),"
+with "SPECIES_TO_NATIONAL(BAKOMON),"
 
-replace "HOENN_TO_NATIONAL(RHYHORN),"
-with "HOENN_TO_NATIONAL(ARURAUMON),"
+replace "HOENN_TO_NATIONAL(RHYDON),"
+with "HOENN_TO_NATIONAL(BAKOMON),"
 
-replace "EC_POKEMON_NATIONAL(RHYHORN),"
-with "EC_POKEMON_NATIONAL(ARURAUMON),"
+replace "EC_POKEMON_NATIONAL(RHYDON),"
+with "EC_POKEMON_NATIONAL(BAKOMON),"
 
-replace "egg_moves(RHYHORN,"
-with "egg_moves(ARURAUMON,"
+replace "egg_moves(RHYDON,"
+with "egg_moves(BAKOMON,"
 
-replace "sRhyhornLevelUpLearnset"
-with "sAruraumonLevelUpLearnset"
+replace "sRhydonLevelUpLearnset"
+with "sBakomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RHYHORN"
-with "SPECIES_SPRITE(ARURAUMON"
+replace "SPECIES_SPRITE(RHYDON"
+with "SPECIES_SPRITE(BAKOMON"
 
-replace "SPECIES_PAL(RHYHORN,"
-with "SPECIES_PAL(ARURAUMON,"
+replace "SPECIES_PAL(RHYDON,"
+with "SPECIES_PAL(BAKOMON,"
 
-replace "SPECIES_SHINY_PAL(RHYHORN,"
-with "SPECIES_SHINY_PAL(ARURAUMON,"
+replace "SPECIES_SHINY_PAL(RHYDON,"
+with "SPECIES_SHINY_PAL(BAKOMON,"
 
-replace "EC_POKEMON(RHYHORN)"
-with "EC_POKEMON(ARURAUMON)"
+replace "EC_POKEMON(RHYDON)"
+with "EC_POKEMON(BAKOMON)"
 
-replace "EC_POKEMON_NATIONAL(RHYHORN)"
-with "EC_POKEMON_NATIONAL(ARURAUMON)"
+replace "EC_POKEMON_NATIONAL(RHYDON)"
+with "EC_POKEMON_NATIONAL(BAKOMON)"
 
 in "src/data/text/species_names.h"
-replace "RHYHORN"
-with "ARURAUMON"
+replace "RHYDON"
+with "BAKOMON"

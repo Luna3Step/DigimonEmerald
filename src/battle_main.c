@@ -3372,6 +3372,7 @@ void FaintClearSetData(void)
 
     gBattleMons[gActiveBattler].type1 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type1;
     gBattleMons[gActiveBattler].type2 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type2;
+    gBattleMons[gActiveBattler].type3 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type3;
 
     ClearBattlerMoveHistory(gActiveBattler);
     ClearBattlerAbilityHistory(gActiveBattler);
@@ -3440,6 +3441,7 @@ static void BattleIntroDrawTrainersOrMonsSprites(void)
 
             gBattleMons[gActiveBattler].type1 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type1;
             gBattleMons[gActiveBattler].type2 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type2;
+            gBattleMons[gActiveBattler].type3 = gSpeciesInfo[gBattleMons[gActiveBattler].species].type3;
             gBattleMons[gActiveBattler].ability = GetAbilityBySpecies(gBattleMons[gActiveBattler].species, gBattleMons[gActiveBattler].abilityNum);
             hpOnSwitchout = &gBattleStruct->hpOnSwitchout[GetBattlerSide(gActiveBattler)];
             *hpOnSwitchout = gBattleMons[gActiveBattler].hp;
@@ -4204,6 +4206,7 @@ static void HandleTurnActionSelectionState(void)
                         moveInfo.species = gBattleMons[gActiveBattler].species;
                         moveInfo.monType1 = gBattleMons[gActiveBattler].type1;
                         moveInfo.monType2 = gBattleMons[gActiveBattler].type2;
+                        moveInfo.monType3 = gBattleMons[gActiveBattler].type3;
 
                         for (i = 0; i < MAX_MON_MOVES; i++)
                         {
