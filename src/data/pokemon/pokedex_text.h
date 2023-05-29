@@ -802,11 +802,11 @@ const u8 gCrabmon_xPokedexText[] = _(
     "claw has also grown in size letting it\n"
     "quickly overpower digimon of larger size.");
 
-const u8 gVaporeonPokedexText[] = _(
-    "VAPOREON underwent a spontaneous\n"
-    "mutation and grew fins and gills that\n"
-    "allow them to live underwater. They have\n"
-    "the ability to freely control water.");
+const u8 gCutemonPokedexText[] = _(
+    "Despite its adorable looks, Cutemon is\n"
+    "often a mischievious Digimon. If you see\n"
+    "one, be wary as it may be leading you to\n"
+    "a trap. Its ears are actually a sense organ");
 
 const u8 gJolteonPokedexText[] = _(
     "Its cells generate weak power that is\n"

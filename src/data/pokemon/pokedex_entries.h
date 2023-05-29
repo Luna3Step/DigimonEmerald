@@ -1608,12 +1608,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VAPOREON] =
+    [NATIONAL_DEX_CUTEMON] =
     {
-        .categoryName = _("BUBBLE JET"),
-        .height = 10,
+        .categoryName = _("CUTE"),
+        .height = 6,
         .weight = 290,
-        .description = gVaporeonPokedexText,
+        .description = gCutemonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 8,
         .trainerScale = 256,
