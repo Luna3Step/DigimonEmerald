@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TANGELA"
-with "FRONTIER_MON_BETAMON"
+replace "FRONTIER_MON_KANGASKHAN"
+with "FRONTIER_MON_BETAMON_X"
 
-replace "gTangelaPokedexText"
-with "gBetamonPokedexText"
+replace "gKangaskhanPokedexText"
+with "gBetamon_xPokedexText"
 
-replace "NATIONAL_DEX_TANGELA"
-with "NATIONAL_DEX_BETAMON"
+replace "NATIONAL_DEX_KANGASKHAN"
+with "NATIONAL_DEX_BETAMON_X"
 
-replace "SPECIES_TANGELA"
-with "SPECIES_BETAMON"
+replace "SPECIES_KANGASKHAN"
+with "SPECIES_BETAMON_X"
 
-replace "HOENN_DEX_TANGELA"
-with "HOENN_DEX_BETAMON"
+replace "HOENN_DEX_KANGASKHAN"
+with "HOENN_DEX_BETAMON_X"
 
-replace "SPECIES_TO_HOENN(TANGELA),"
-with "SPECIES_TO_HOENN(BETAMON),"
+replace "SPECIES_TO_HOENN(KANGASKHAN),"
+with "SPECIES_TO_HOENN(BETAMON_X),"
 
-replace "SPECIES_TO_NATIONAL(TANGELA),"
-with "SPECIES_TO_NATIONAL(BETAMON),"
+replace "SPECIES_TO_NATIONAL(KANGASKHAN),"
+with "SPECIES_TO_NATIONAL(BETAMON_X),"
 
-replace "HOENN_TO_NATIONAL(TANGELA),"
-with "HOENN_TO_NATIONAL(BETAMON),"
+replace "HOENN_TO_NATIONAL(KANGASKHAN),"
+with "HOENN_TO_NATIONAL(BETAMON_X),"
 
-replace "EC_POKEMON_NATIONAL(TANGELA),"
-with "EC_POKEMON_NATIONAL(BETAMON),"
+replace "EC_POKEMON_NATIONAL(KANGASKHAN),"
+with "EC_POKEMON_NATIONAL(BETAMON_X),"
 
-replace "egg_moves(TANGELA,"
-with "egg_moves(BETAMON,"
+replace "egg_moves(KANGASKHAN,"
+with "egg_moves(BETAMON_X,"
 
-replace "sTangelaLevelUpLearnset"
-with "sBetamonLevelUpLearnset"
+replace "sKangaskhanLevelUpLearnset"
+with "sBetamon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TANGELA"
-with "SPECIES_SPRITE(BETAMON"
+replace "SPECIES_SPRITE(KANGASKHAN"
+with "SPECIES_SPRITE(BETAMON_X"
 
-replace "SPECIES_PAL(TANGELA,"
-with "SPECIES_PAL(BETAMON,"
+replace "SPECIES_PAL(KANGASKHAN,"
+with "SPECIES_PAL(BETAMON_X,"
 
-replace "SPECIES_SHINY_PAL(TANGELA,"
-with "SPECIES_SHINY_PAL(BETAMON,"
+replace "SPECIES_SHINY_PAL(KANGASKHAN,"
+with "SPECIES_SHINY_PAL(BETAMON_X,"
 
-replace "EC_POKEMON(TANGELA)"
-with "EC_POKEMON(BETAMON)"
+replace "EC_POKEMON(KANGASKHAN)"
+with "EC_POKEMON(BETAMON_X)"
 
-replace "EC_POKEMON_NATIONAL(TANGELA)"
-with "EC_POKEMON_NATIONAL(BETAMON)"
+replace "EC_POKEMON_NATIONAL(KANGASKHAN)"
+with "EC_POKEMON_NATIONAL(BETAMON_X)"
 
 in "src/data/text/species_names.h"
-replace "TANGELA"
+replace "KANGASKHAN"
 with "BETAMON"

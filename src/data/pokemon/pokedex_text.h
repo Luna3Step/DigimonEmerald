@@ -688,11 +688,11 @@ const u8 gBetamonPokedexText[] = _(
     "often be seen floating in the water however\n"
     "it is not a weak Digimon.");
 
-const u8 gKangaskhanPokedexText[] = _(
-    "If you come across a young KANGASKHAN\n"
-    "playing by itself, never try to catch it.\n"
-    "The baby's parent is sure to be in the area,\n"
-    "and it will become violently enraged.");
+const u8 gBetamon_xPokedexText[] = _(
+    "Although stronger than it's normal form,\n"
+    "Betamon X is an endangered species often\n"
+    "overhunted for it's looks. This in spite of\n"
+    "its longer claws and stronger attacks.");
 
 const u8 gHorseaPokedexText[] = _(
     "By cleverly flicking the fins on its back\n"

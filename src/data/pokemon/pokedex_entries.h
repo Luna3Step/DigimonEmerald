@@ -1380,12 +1380,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KANGASKHAN] =
+    [NATIONAL_DEX_BETAMON_X] =
     {
-        .categoryName = _("PARENT"),
-        .height = 22,
-        .weight = 800,
-        .description = gKangaskhanPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 7,
+        .weight = 380,
+        .description = gBetamon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 387,

@@ -386,7 +386,7 @@ const u16 gEggMoves[] = {
               MOVE_LEECH_SEED,
               MOVE_NATURE_POWER),
 
-    egg_moves(KANGASKHAN,
+    egg_moves(BETAMON_X,
               MOVE_STOMP,
               MOVE_FORESIGHT,
               MOVE_FOCUS_ENERGY,
