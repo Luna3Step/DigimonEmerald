@@ -412,7 +412,7 @@ const u16 gEggMoves[] = {
               MOVE_SLEEP_TALK,
               MOVE_MUD_SPORT),
 
-    egg_moves(MR_MIME,
+    egg_moves(BULUCOMON,
               MOVE_FUTURE_SIGHT,
               MOVE_HYPNOSIS,
               MOVE_MIMIC,

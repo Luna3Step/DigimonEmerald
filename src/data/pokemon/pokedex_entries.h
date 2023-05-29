@@ -1464,12 +1464,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MR_MIME] =
+    [NATIONAL_DEX_BULUCOMON] =
     {
-        .categoryName = _("BARRIER"),
-        .height = 13,
+        .categoryName = _("ICE DRAGON"),
+        .height = 14,
         .weight = 545,
-        .description = gMrmimePokedexText,
+        .description = gBulucomonPokedexText,
         .pokemonScale = 258,
         .pokemonOffset = 6,
         .trainerScale = 256,

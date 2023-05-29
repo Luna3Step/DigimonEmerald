@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_STARMIE"
-with "FRONTIER_MON_BOKOMON"
+replace "FRONTIER_MON_MR_MIME"
+with "FRONTIER_MON_BULUCOMON"
 
-replace "gStarmiePokedexText"
-with "gBokomonPokedexText"
+replace "gMr_mimePokedexText"
+with "gBulucomonPokedexText"
 
-replace "NATIONAL_DEX_STARMIE"
-with "NATIONAL_DEX_BOKOMON"
+replace "NATIONAL_DEX_MR_MIME"
+with "NATIONAL_DEX_BULUCOMON"
 
-replace "SPECIES_STARMIE"
-with "SPECIES_BOKOMON"
+replace "SPECIES_MR_MIME"
+with "SPECIES_BULUCOMON"
 
-replace "HOENN_DEX_STARMIE"
-with "HOENN_DEX_BOKOMON"
+replace "HOENN_DEX_MR_MIME"
+with "HOENN_DEX_BULUCOMON"
 
-replace "SPECIES_TO_HOENN(STARMIE),"
-with "SPECIES_TO_HOENN(BOKOMON),"
+replace "SPECIES_TO_HOENN(MR_MIME),"
+with "SPECIES_TO_HOENN(BULUCOMON),"
 
-replace "SPECIES_TO_NATIONAL(STARMIE),"
-with "SPECIES_TO_NATIONAL(BOKOMON),"
+replace "SPECIES_TO_NATIONAL(MR_MIME),"
+with "SPECIES_TO_NATIONAL(BULUCOMON),"
 
-replace "HOENN_TO_NATIONAL(STARMIE),"
-with "HOENN_TO_NATIONAL(BOKOMON),"
+replace "HOENN_TO_NATIONAL(MR_MIME),"
+with "HOENN_TO_NATIONAL(BULUCOMON),"
 
-replace "EC_POKEMON_NATIONAL(STARMIE),"
-with "EC_POKEMON_NATIONAL(BOKOMON),"
+replace "EC_POKEMON_NATIONAL(MR_MIME),"
+with "EC_POKEMON_NATIONAL(BULUCOMON),"
 
-replace "egg_moves(STARMIE,"
-with "egg_moves(BOKOMON,"
+replace "egg_moves(MR_MIME,"
+with "egg_moves(BULUCOMON,"
 
-replace "sStarmieLevelUpLearnset"
-with "sBokomonLevelUpLearnset"
+replace "sMr_mimeLevelUpLearnset"
+with "sBulucomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(STARMIE"
-with "SPECIES_SPRITE(BOKOMON"
+replace "SPECIES_SPRITE(MR_MIME"
+with "SPECIES_SPRITE(BULUCOMON"
 
-replace "SPECIES_PAL(STARMIE,"
-with "SPECIES_PAL(BOKOMON,"
+replace "SPECIES_PAL(MR_MIME,"
+with "SPECIES_PAL(BULUCOMON,"
 
-replace "SPECIES_SHINY_PAL(STARMIE,"
-with "SPECIES_SHINY_PAL(BOKOMON,"
+replace "SPECIES_SHINY_PAL(MR_MIME,"
+with "SPECIES_SHINY_PAL(BULUCOMON,"
 
-replace "EC_POKEMON(STARMIE)"
-with "EC_POKEMON(BOKOMON)"
+replace "EC_POKEMON(MR_MIME)"
+with "EC_POKEMON(BULUCOMON)"
 
-replace "EC_POKEMON_NATIONAL(STARMIE)"
-with "EC_POKEMON_NATIONAL(BOKOMON)"
+replace "EC_POKEMON_NATIONAL(MR_MIME)"
+with "EC_POKEMON_NATIONAL(BULUCOMON)"
 
 in "src/data/text/species_names.h"
-replace "STARMIE"
-with "BOKOMON"
+replace "MR_MIME"
+with "BULUCOMON"

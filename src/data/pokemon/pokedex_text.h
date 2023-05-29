@@ -730,11 +730,11 @@ const u8 gBokomonPokedexText[] = _(
     "Digimon. It is very bad at fighting \n"
     "and will avoid it as much as possible.");
 
-const u8 gMrmimePokedexText[] = _(
-    "A MR. MIME is a master of pantomime. It can\n"
-    "convince others that something unseeable\n"
-    "actually exists. Once believed, the\n"
-    "imaginary object does become real.");
+const u8 gBulucomonPokedexText[] = _(
+    "The average Bulucomon is incredibly strong\n"
+    "as it's natural habitat is a cold, hard \n"
+    "environment. However due to being made\n"
+    "of ice, it is weak to high temperatures.");
 
 const u8 gScytherPokedexText[] = _(
     "Its blindingly fast speed adds to the\n"

@@ -1681,7 +1681,7 @@ static const u16 sBokomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMrmimeLevelUpLearnset[] = {
+static const u16 sBulucomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BARRIER),
     LEVEL_UP_MOVE( 5, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 9, MOVE_SUBSTITUTE),
