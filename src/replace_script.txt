@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BAKOMON"
-with "FRONTIER_MON_BAKOMON"
+replace "FRONTIER_MON_BALISTAMON"
+with "FRONTIER_MON_BEARMON"
 
-replace "gBakomonPokedexText"
-with "gBakomonPokedexText"
+replace "gBalistamonPokedexText"
+with "gBearmonPokedexText"
 
-replace "NATIONAL_DEX_BAKOMON"
-with "NATIONAL_DEX_BAKOMON"
+replace "NATIONAL_DEX_BALISTAMON"
+with "NATIONAL_DEX_BEARMON"
 
-replace "SPECIES_BAKOMON"
-with "SPECIES_BAKOMON"
+replace "SPECIES_BALISTAMON"
+with "SPECIES_BEARMON"
 
-replace "HOENN_DEX_BAKOMON"
-with "HOENN_DEX_BAKOMON"
+replace "HOENN_DEX_BALISTAMON"
+with "HOENN_DEX_BEARMON"
 
-replace "SPECIES_TO_HOENN(BAKOMON),"
-with "SPECIES_TO_HOENN(BAKOMON),"
+replace "SPECIES_TO_HOENN(BALISTAMON),"
+with "SPECIES_TO_HOENN(BEARMON),"
 
-replace "SPECIES_TO_NATIONAL(BAKOMON),"
-with "SPECIES_TO_NATIONAL(BAKOMON),"
+replace "SPECIES_TO_NATIONAL(BALISTAMON),"
+with "SPECIES_TO_NATIONAL(BEARMON),"
 
-replace "HOENN_TO_NATIONAL(BAKOMON),"
-with "HOENN_TO_NATIONAL(BAKOMON),"
+replace "HOENN_TO_NATIONAL(BALISTAMON),"
+with "HOENN_TO_NATIONAL(BEARMON),"
 
-replace "EC_POKEMON_NATIONAL(BAKOMON),"
-with "EC_POKEMON_NATIONAL(BAKOMON),"
+replace "EC_POKEMON_NATIONAL(BALISTAMON),"
+with "EC_POKEMON_NATIONAL(BEARMON),"
 
-replace "egg_moves(BAKOMON,"
-with "egg_moves(BAKOMON,"
+replace "egg_moves(BALISTAMON,"
+with "egg_moves(BEARMON,"
 
-replace "sBakomonLevelUpLearnset"
-with "sBakomonLevelUpLearnset"
+replace "sBalistamonLevelUpLearnset"
+with "sBearmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BAKOMON"
-with "SPECIES_SPRITE(BAKOMON"
+replace "SPECIES_SPRITE(BALISTAMON"
+with "SPECIES_SPRITE(BEARMON"
 
-replace "SPECIES_PAL(BAKOMON,"
-with "SPECIES_PAL(BAKOMON,"
+replace "SPECIES_PAL(BALISTAMON,"
+with "SPECIES_PAL(BEARMON,"
 
-replace "SPECIES_SHINY_PAL(BAKOMON,"
-with "SPECIES_SHINY_PAL(BAKOMON,"
+replace "SPECIES_SHINY_PAL(BALISTAMON,"
+with "SPECIES_SHINY_PAL(BEARMON,"
 
-replace "EC_POKEMON(BAKOMON)"
-with "EC_POKEMON(BAKOMON)"
+replace "EC_POKEMON(BALISTAMON)"
+with "EC_POKEMON(BEARMON)"
 
-replace "EC_POKEMON_NATIONAL(BAKOMON)"
-with "EC_POKEMON_NATIONAL(BAKOMON)"
+replace "EC_POKEMON_NATIONAL(BALISTAMON)"
+with "EC_POKEMON_NATIONAL(BEARMON)"
 
 in "src/data/text/species_names.h"
-replace "RHYDON"
-with "BAKOMON"
+replace "BALISTAMON"
+with "BEARMON"

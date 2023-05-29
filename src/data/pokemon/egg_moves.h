@@ -370,7 +370,7 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_CRUSH_CLAW),
 
-    egg_moves(CHANSEY,
+    egg_moves(BEARMON,
               MOVE_PRESENT,
               MOVE_METRONOME,
               MOVE_HEAL_BELL,

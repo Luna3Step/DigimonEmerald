@@ -1356,12 +1356,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_CHANSEY] =
+    [NATIONAL_DEX_BEARMON] =
     {
-        .categoryName = _("EGG"),
-        .height = 11,
-        .weight = 346,
-        .description = gChanseyPokedexText,
+        .categoryName = _("BEAR"),
+        .height = 9,
+        .weight = 410,
+        .description = gBearmonPokedexText,
         .pokemonScale = 257,
         .pokemonOffset = 7,
         .trainerScale = 256,

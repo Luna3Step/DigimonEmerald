@@ -676,11 +676,11 @@ const u8 gBakomonPokedexText[] = _(
     "Digimon to encounter. Anyone who peeks\n"
     "inside one of it's boxes will be trapped.");
 
-const u8 gChanseyPokedexText[] = _(
-    "CHANSEY lay nutritionally excellent eggs\n"
-    "every day. The eggs are so delicious, they\n"
-    "are eagerly devoured by even those people\n"
-    "who have lost their appetite.");
+const u8 gBearmonPokedexText[] = _(
+    "Despite being a bear Digimon, Bearmon is\n"
+    "actually very friendly. However this should\n"
+    "friendliness should not be mistaken for being\n"
+    "weak as Bearmon has incredible strength.");
 
 const u8 gTangelaPokedexText[] = _(
     "Its vines snap off easily and painlessly\n"
