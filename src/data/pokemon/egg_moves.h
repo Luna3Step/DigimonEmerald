@@ -454,7 +454,7 @@ const u16 gEggMoves[] = {
               MOVE_TICKLE,
               MOVE_WISH),
 
-    egg_moves(OMANYTE,
+    egg_moves(DONDOKOMON,
               MOVE_BUBBLE_BEAM,
               MOVE_AURORA_BEAM,
               MOVE_SLAM,

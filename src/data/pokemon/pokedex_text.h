@@ -826,11 +826,11 @@ const u8 gDokunemonPokedexText[] = _(
     "of insect Digimon. Unlike Kunemon, \n"
     "Dokunemon has a timid personality.");
 
-const u8 gOmanytePokedexText[] = _(
-    "One of the ancient and long-since-extinct\n"
-    "POKéMON that have been regenerated\n"
-    "from fossils by humans. If attacked,\n"
-    "it withdraws into its hard shell.");
+const u8 gDondokomonPokedexText[] = _(
+    "When a festival is around, you can almost\n"
+    "guarantee that a Dondokomon will be nearby.\n"
+    "They love to pound out a rhythm that gets\n"
+    "people stimulated and in a groove.");
 
 const u8 gOmastarPokedexText[] = _(
     "An OMASTAR uses its tentacles to capture\n"

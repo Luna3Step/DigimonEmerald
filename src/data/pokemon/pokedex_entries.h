@@ -1648,7 +1648,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("BEE-FLY"),
         .height = 7,
-        .weight = 365,
+        .weight = 204,
         .description = gDokunemonPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 15,
@@ -1656,12 +1656,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_OMANYTE] =
+    [NATIONAL_DEX_DONDOKOMON] =
     {
-        .categoryName = _("SPIRAL"),
-        .height = 4,
-        .weight = 75,
-        .description = gOmanytePokedexText,
+        .categoryName = _("MATSURI JI"),
+        .height = 5,
+        .weight = 353,
+        .description = gDondokomonPokedexText,
         .pokemonScale = 521,
         .pokemonOffset = 22,
         .trainerScale = 256,

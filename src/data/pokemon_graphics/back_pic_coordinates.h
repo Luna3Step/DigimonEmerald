@@ -142,7 +142,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_DAMEMON]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
     [SPECIES_DEMIDEVMON]     = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  5 },
     [SPECIES_DOKUNEMON]     = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
-    [SPECIES_OMANYTE]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
+    [SPECIES_DONDOKOMON]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 10 },
     [SPECIES_OMASTAR]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_KABUTO]      = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_KABUTOPS]    = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  5 },
