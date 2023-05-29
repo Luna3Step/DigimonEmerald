@@ -1644,12 +1644,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PORYGON] =
+    [NATIONAL_DEX_DOKUNEMON] =
     {
-        .categoryName = _("VIRTUAL"),
-        .height = 8,
+        .categoryName = _("BEE-FLY"),
+        .height = 7,
         .weight = 365,
-        .description = gPorygonPokedexText,
+        .description = gDokunemonPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 15,
         .trainerScale = 256,
@@ -2796,7 +2796,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PORYGON2] =
+    [NATIONAL_DEX_DOKUNEMON2] =
     {
         .categoryName = _("VIRTUAL"),
         .height = 6,

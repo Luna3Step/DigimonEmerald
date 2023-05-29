@@ -4524,23 +4524,24 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PORYGON] =
+    [SPECIES_DOKUNEMON] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 60,
-        .baseDefense   = 70,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 75,
-        .type1 = TYPE_NORMAL,
-        .type2 = TYPE_NORMAL,
-        .catchRate = 45,
-        .expYield = 130,
+        .baseHP        = 49,
+        .baseAttack    = 52,
+        .baseDefense   = 51,
+        .baseSpeed     = 56,
+        .baseSpAttack  = 57,
+        .baseSpDefense = 48,
+        .type1 = TYPE_POISON,
+        .type2 = TYPE_BUG,
+        .type3 = TYPE_VIRUS,
+        .catchRate = 155,
+        .expYield = 100,
         .evYield_HP        = 0,
         .evYield_Attack    = 0,
         .evYield_Defense   = 0,
-        .evYield_Speed     = 0,
-        .evYield_SpAttack  = 1,
+        .evYield_Speed     = 1,
+        .evYield_SpAttack  = 2,
         .evYield_SpDefense = 0,
         .itemCommon = ITEM_NONE,
         .itemRare   = ITEM_NONE,
@@ -4552,7 +4553,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroup2 = EGG_GROUP_MINERAL,
         .abilities = {ABILITY_TRACE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
-        .bodyColor = BODY_COLOR_PINK,
+        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
@@ -7596,7 +7597,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PORYGON2] =
+    [SPECIES_DOKUNEMON2] =
     {
         .baseHP        = 85,
         .baseAttack    = 80,

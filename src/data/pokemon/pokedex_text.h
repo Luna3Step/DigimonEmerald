@@ -820,11 +820,11 @@ const u8 gDemidevmonPokedexText[] = _(
     "and Myotismon. It is not a strong digimon\n"
     "however it is cunning and quickwitted.");
 
-const u8 gPorygonPokedexText[] = _(
-    "It is capable of reverting itself entirely\n"
-    "back to program data in order to enter\n"
-    "cyberspace. A PORYGON is copy-\n"
-    "protected so it cannot be duplicated.");
+const u8 gDokunemonPokedexText[] = _(
+    "Scientists theorize that Dokunemon could\n"
+    "be the key to understanding the mystery\n"
+    "of insect Digimon. Unlike Kunemon, \n"
+    "Dokunemon has a timid personality.");
 
 const u8 gOmanytePokedexText[] = _(
     "One of the ancient and long-since-extinct\n"

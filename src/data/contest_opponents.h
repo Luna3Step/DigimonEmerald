@@ -2679,7 +2679,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MARTIN] = {
-        .species = SPECIES_PORYGON,
+        .species = SPECIES_DOKUNEMON,
         .nickname = _("GONPOR"),
         .trainerName = _("MARTIN"),
         .trainerGfxId = OBJ_EVENT_GFX_SCIENTIST_1,
