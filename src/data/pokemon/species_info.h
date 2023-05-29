@@ -3963,7 +3963,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_STARYU] =
+    [SPECIES_BLKGATOMON] =
     {
         .baseHP        = 30,
         .baseAttack    = 45,

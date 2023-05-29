@@ -1440,12 +1440,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_STARYU] =
+    [NATIONAL_DEX_BLKGATOMON] =
     {
         .categoryName = _("STAR SHAPE"),
         .height = 8,
         .weight = 345,
-        .description = gStaryuPokedexText,
+        .description = gBlkgatomonPokedexText,
         .pokemonScale = 326,
         .pokemonOffset = 1,
         .trainerScale = 256,

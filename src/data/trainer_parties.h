@@ -2130,7 +2130,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tony4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 30,
@@ -4934,12 +4934,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Camden[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -4960,7 +4960,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah1[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -4968,12 +4968,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo1[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -4986,7 +4986,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chase[] = {
     {
     .iv = 80,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -4994,7 +4994,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah2[] = {
     {
     .iv = 10,
     .lvl = 39,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5002,7 +5002,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah3[] = {
     {
     .iv = 20,
     .lvl = 42,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5026,7 +5026,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isobel[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5039,7 +5039,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Donny[] = {
     {
     .iv = 160,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5047,7 +5047,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Talia[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5055,7 +5055,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn1[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5068,7 +5068,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Allison[] = {
     {
     .iv = 240,
     .lvl = 33,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5076,7 +5076,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn2[] = {
     {
     .iv = 10,
     .lvl = 39,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -5084,7 +5084,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn3[] = {
     {
     .iv = 20,
     .lvl = 42,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -6032,7 +6032,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny4[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 0,
@@ -7876,7 +7876,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isabella[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -9883,7 +9883,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Camron[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -11839,12 +11839,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo2[] = {
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -11857,12 +11857,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo3[] = {
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
@@ -11875,12 +11875,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_STARYU,
+    .species = SPECIES_BLKGATOMON,
     }
 };
 
