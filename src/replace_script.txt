@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SEADRA"
-with "FRONTIER_MON_BLKAGUMON"
+replace "FRONTIER_MON_GOLDEEN"
+with "FRONTIER_MON_BLKAGUMON_X"
 
-replace "gSeadraPokedexText"
-with "gBlkagumonPokedexText"
+replace "gGoldeenPokedexText"
+with "gBlkagumon_xPokedexText"
 
-replace "NATIONAL_DEX_SEADRA"
-with "NATIONAL_DEX_BLKAGUMON"
+replace "NATIONAL_DEX_GOLDEEN"
+with "NATIONAL_DEX_BLKAGUMON_X"
 
-replace "SPECIES_SEADRA"
-with "SPECIES_BLKAGUMON"
+replace "SPECIES_GOLDEEN"
+with "SPECIES_BLKAGUMON_X"
 
-replace "HOENN_DEX_SEADRA"
-with "HOENN_DEX_BLKAGUMON"
+replace "HOENN_DEX_GOLDEEN"
+with "HOENN_DEX_BLKAGUMON_X"
 
-replace "SPECIES_TO_HOENN(SEADRA),"
-with "SPECIES_TO_HOENN(BLKAGUMON),"
+replace "SPECIES_TO_HOENN(GOLDEEN),"
+with "SPECIES_TO_HOENN(BLKAGUMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SEADRA),"
-with "SPECIES_TO_NATIONAL(BLKAGUMON),"
+replace "SPECIES_TO_NATIONAL(GOLDEEN),"
+with "SPECIES_TO_NATIONAL(BLKAGUMON_X),"
 
-replace "HOENN_TO_NATIONAL(SEADRA),"
-with "HOENN_TO_NATIONAL(BLKAGUMON),"
+replace "HOENN_TO_NATIONAL(GOLDEEN),"
+with "HOENN_TO_NATIONAL(BLKAGUMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SEADRA),"
-with "EC_POKEMON_NATIONAL(BLKAGUMON),"
+replace "EC_POKEMON_NATIONAL(GOLDEEN),"
+with "EC_POKEMON_NATIONAL(BLKAGUMON_X),"
 
-replace "egg_moves(SEADRA,"
-with "egg_moves(BLKAGUMON,"
+replace "egg_moves(GOLDEEN,"
+with "egg_moves(BLKAGUMON_X,"
 
-replace "sSeadraLevelUpLearnset"
-with "sBlkagumonLevelUpLearnset"
+replace "sGoldeenLevelUpLearnset"
+with "sBlkagumon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SEADRA"
-with "SPECIES_SPRITE(BLKAGUMON"
+replace "SPECIES_SPRITE(GOLDEEN"
+with "SPECIES_SPRITE(BLKAGUMON_X"
 
-replace "SPECIES_PAL(SEADRA,"
-with "SPECIES_PAL(BLKAGUMON,"
+replace "SPECIES_PAL(GOLDEEN,"
+with "SPECIES_PAL(BLKAGUMON_X,"
 
-replace "SPECIES_SHINY_PAL(SEADRA,"
-with "SPECIES_SHINY_PAL(BLKAGUMON,"
+replace "SPECIES_SHINY_PAL(GOLDEEN,"
+with "SPECIES_SHINY_PAL(BLKAGUMON_X,"
 
-replace "EC_POKEMON(SEADRA)"
-with "EC_POKEMON(BLKAGUMON)"
+replace "EC_POKEMON(GOLDEEN)"
+with "EC_POKEMON(BLKAGUMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SEADRA)"
-with "EC_POKEMON_NATIONAL(BLKAGUMON)"
+replace "EC_POKEMON_NATIONAL(GOLDEEN)"
+with "EC_POKEMON_NATIONAL(BLKAGUMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SEADRA"
+replace "GOLDEEN"
 with "BLKAGUMON"

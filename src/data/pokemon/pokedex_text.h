@@ -706,11 +706,11 @@ const u8 gBlkagumonPokedexText[] = _(
     "of fighting. However it is not stronger\n"
     "than Agumon so it often loses.");
 
-const u8 gGoldeenPokedexText[] = _(
-    "In the springtime, schools of GOLDEEN\n"
-    "can be seen swimming up falls and rivers.\n"
-    "It metes out staggering damage with its\n"
-    "single horn.");
+const u8 gBlkagumon_xPokedexText[] = _(
+    "A BlackAgumon X is even more violent\n"
+    "than it's normal counterpart. It foregoes\n"
+    "all strategy and defense for a full on\n"
+    "barrage of offensive attacks.");
 
 const u8 gSeakingPokedexText[] = _(
     "It punches holes in boulders on stream-\n"

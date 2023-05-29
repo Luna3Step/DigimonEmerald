@@ -1416,12 +1416,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOLDEEN] =
+    [NATIONAL_DEX_BLKAGUMON_X] =
     {
-        .categoryName = _("GOLDFISH"),
-        .height = 6,
+        .categoryName = _("X ANTIBODY"),
+        .height = 10,
         .weight = 150,
-        .description = gGoldeenPokedexText,
+        .description = gBlkagumon_xPokedexText,
         .pokemonScale = 379,
         .pokemonOffset = 4,
         .trainerScale = 256,
