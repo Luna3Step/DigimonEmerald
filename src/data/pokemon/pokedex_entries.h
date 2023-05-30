@@ -2136,12 +2136,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_XATU] =
+    [NATIONAL_DEX_HERISSMON] =
     {
-        .categoryName = _("MYSTIC"),
-        .height = 15,
-        .weight = 150,
-        .description = gXatuPokedexText,
+        .categoryName = _("HEDGEHOG"),
+        .height = 13,
+        .weight = 342,
+        .description = gHerissmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 318,

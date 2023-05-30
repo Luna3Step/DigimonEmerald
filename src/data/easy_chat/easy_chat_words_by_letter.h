@@ -1930,8 +1930,8 @@ const u16 gEasyChatWordsByLetter_W[] = {
 
 const u16 gEasyChatWordsByLetter_X[] = {
     DOUBLE_SPECIES_NAME
-    EC_POKEMON(XATU),
-    EC_POKEMON_NATIONAL(XATU),
+    EC_POKEMON(HERISSMON),
+    EC_POKEMON_NATIONAL(HERISSMON),
 };
 
 const u16 gEasyChatWordsByLetter_Y[] = {

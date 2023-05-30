@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_NATU"
-with "FRONTIER_MON_HAWKMON"
+replace "FRONTIER_MON_XATU"
+with "FRONTIER_MON_HERISSMON"
 
-replace "gNatuPokedexText"
-with "gHawkmonPokedexText"
+replace "gXatuPokedexText"
+with "gHerissmonPokedexText"
 
-replace "NATIONAL_DEX_NATU"
-with "NATIONAL_DEX_HAWKMON"
+replace "NATIONAL_DEX_XATU"
+with "NATIONAL_DEX_HERISSMON"
 
-replace "SPECIES_NATU"
-with "SPECIES_HAWKMON"
+replace "SPECIES_XATU"
+with "SPECIES_HERISSMON"
 
-replace "HOENN_DEX_NATU"
-with "HOENN_DEX_HAWKMON"
+replace "HOENN_DEX_XATU"
+with "HOENN_DEX_HERISSMON"
 
-replace "SPECIES_TO_HOENN(NATU),"
-with "SPECIES_TO_HOENN(HAWKMON),"
+replace "SPECIES_TO_HOENN(XATU),"
+with "SPECIES_TO_HOENN(HERISSMON),"
 
-replace "SPECIES_TO_NATIONAL(NATU),"
-with "SPECIES_TO_NATIONAL(HAWKMON),"
+replace "SPECIES_TO_NATIONAL(XATU),"
+with "SPECIES_TO_NATIONAL(HERISSMON),"
 
-replace "HOENN_TO_NATIONAL(NATU),"
-with "HOENN_TO_NATIONAL(HAWKMON),"
+replace "HOENN_TO_NATIONAL(XATU),"
+with "HOENN_TO_NATIONAL(HERISSMON),"
 
-replace "EC_POKEMON_NATIONAL(NATU),"
-with "EC_POKEMON_NATIONAL(HAWKMON),"
+replace "EC_POKEMON_NATIONAL(XATU),"
+with "EC_POKEMON_NATIONAL(HERISSMON),"
 
-replace "egg_moves(NATU,"
-with "egg_moves(HAWKMON,"
+replace "egg_moves(XATU,"
+with "egg_moves(HERISSMON,"
 
-replace "sNatuLevelUpLearnset"
-with "sHawkmonLevelUpLearnset"
+replace "sXatuLevelUpLearnset"
+with "sHerissmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(NATU"
-with "SPECIES_SPRITE(HAWKMON"
+replace "SPECIES_SPRITE(XATU"
+with "SPECIES_SPRITE(HERISSMON"
 
-replace "SPECIES_PAL(NATU,"
-with "SPECIES_PAL(HAWKMON,"
+replace "SPECIES_PAL(XATU,"
+with "SPECIES_PAL(HERISSMON,"
 
-replace "SPECIES_SHINY_PAL(NATU,"
-with "SPECIES_SHINY_PAL(HAWKMON,"
+replace "SPECIES_SHINY_PAL(XATU,"
+with "SPECIES_SHINY_PAL(HERISSMON,"
 
-replace "EC_POKEMON(NATU)"
-with "EC_POKEMON(HAWKMON)"
+replace "EC_POKEMON(XATU)"
+with "EC_POKEMON(HERISSMON)"
 
-replace "EC_POKEMON_NATIONAL(NATU)"
-with "EC_POKEMON_NATIONAL(HAWKMON)"
+replace "EC_POKEMON_NATIONAL(XATU)"
+with "EC_POKEMON_NATIONAL(HERISSMON)"
 
 in "src/data/text/species_names.h"
-replace "NATU"
-with "Hawkmon"
+replace "XATU"
+with "Herissmon"

@@ -1066,11 +1066,11 @@ const u8 gHawkmonPokedexText[] = _(
     "If it so wanted, it could probably convince\n"
     "people to do its bidding.");
 
-const u8 gXatuPokedexText[] = _(
-    "It has the enigmatic power of foreseeing\n"
-    "the future. Some people in different lands\n"
-    "have long believed that XATU are\n"
-    "emissaries from another world.");
+const u8 gHerissmonPokedexText[] = _(
+    "Herissmon is a very curious Digimon and\n"
+    "randomly fixate onto things. Though this\n"
+    "does not mean they lose focus as they\n"
+    "will still be wary of their surroundings.");
 
 const u8 gMareepPokedexText[] = _(
     "Its fluffy wool rubs together and builds\n"
