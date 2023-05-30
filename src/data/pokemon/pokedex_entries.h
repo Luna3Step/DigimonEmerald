@@ -1704,12 +1704,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_AERODACTYL] =
+    [NATIONAL_DEX_DRACMON] =
     {
-        .categoryName = _("FOSSIL"),
-        .height = 18,
-        .weight = 590,
-        .description = gAerodactylPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 30,
+        .weight = 437,
+        .description = gDracmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 302,

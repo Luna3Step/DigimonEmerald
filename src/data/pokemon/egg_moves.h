@@ -472,7 +472,7 @@ const u16 gEggMoves[] = {
               MOVE_KNOCK_OFF,
               MOVE_CONFUSE_RAY),
 
-    egg_moves(AERODACTYL,
+    egg_moves(DRACMON,
               MOVE_WHIRLWIND,
               MOVE_PURSUIT,
               MOVE_FORESIGHT,

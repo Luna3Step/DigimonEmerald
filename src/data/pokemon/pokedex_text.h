@@ -850,11 +850,11 @@ const u8 gDotfalcmonPokedexText[] = _(
     "in too much data from a keychain game. It's\n"
     "unknown if it can actually evolve or not.");
 
-const u8 gAerodactylPokedexText[] = _(
-    "AERODACTYL is a POKéMON from the age\n"
-    "of dinosaurs. It was regenerated from DNA\n"
-    "extracted from amber. It is imagined to\n"
-    "have been the king of the skies.");
+const u8 gDracmonPokedexText[] = _(
+    "If you want a prank to be done, Dracmon\n"
+    "is the perfect Digimon for the job. It\n"
+    "will do any prank from graffitiing the\n"
+    "soveriegns to scaring fresh born Digimon.");
 
 const u8 gSnorlaxPokedexText[] = _(
     "SNORLAX's typical day consists of nothing\n"

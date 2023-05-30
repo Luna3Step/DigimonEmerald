@@ -1962,7 +1962,7 @@ static const u16 sDotfalcmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAerodactylLevelUpLearnset[] = {
+static const u16 sDracmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE( 8, MOVE_AGILITY),
     LEVEL_UP_MOVE(15, MOVE_BITE),
