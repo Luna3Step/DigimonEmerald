@@ -14,7 +14,7 @@
 #define FRONTIER_MON_GUILMON_X          10
 #define FRONTIER_MON_SILCOON        11
 #define FRONTIER_MON_CASCOON        12
-#define FRONTIER_MON_IGGLYBUFF      13
+#define FRONTIER_MON_HACKMON      13
 #define FRONTIER_MON_WOOPER         14
 #define FRONTIER_MON_TYROGUE        15
 #define FRONTIER_MON_GAZIMON        16

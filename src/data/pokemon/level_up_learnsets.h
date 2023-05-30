@@ -2408,7 +2408,7 @@ static const u16 sGumdramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sIgglybuffLevelUpLearnset[] = {
+static const u16 sHackmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 4, MOVE_DEFENSE_CURL),

@@ -2088,12 +2088,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_IGGLYBUFF] =
+    [NATIONAL_DEX_HACKMON] =
     {
-        .categoryName = _("BALLOON"),
-        .height = 3,
-        .weight = 10,
-        .description = gIgglybuffPokedexText,
+        .categoryName = _("ROOKIE"),
+        .height = 11,
+        .weight = 542,
+        .description = gHackmonPokedexText,
         .pokemonScale = 457,
         .pokemonOffset = -1,
         .trainerScale = 256,

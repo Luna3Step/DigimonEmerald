@@ -582,7 +582,7 @@ const u16 gEggMoves[] = {
               MOVE_WISH,
               MOVE_SUBSTITUTE),
 
-    egg_moves(IGGLYBUFF,
+    egg_moves(HACKMON,
               MOVE_PERISH_SONG,
               MOVE_PRESENT,
               MOVE_FAINT_ATTACK,

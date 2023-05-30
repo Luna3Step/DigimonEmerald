@@ -1042,11 +1042,11 @@ const u8 gGumdramonPokedexText[] = _(
     "with its light and elastic body, it makes it\n"
     "hard to hit in battle as it bounces around.");
 
-const u8 gIgglybuffPokedexText[] = _(
-    "Its soft and pliable body is very bouncy.\n"
-    "When it sings continuously with all its\n"
-    "might, its body steadily turns a deepening\n"
-    "pink color.");
+const u8 gHackmonPokedexText[] = _(
+    "Although Hackmon is a pretty average Digimon\n"
+    "with no exceptional strengths, it is an\n"
+    "incredibly hard worker with many stronger\n"
+    "Digimon acknowledging it.");
 
 const u8 gTogepiPokedexText[] = _(
     "As its energy, it uses the feelings of\n"
