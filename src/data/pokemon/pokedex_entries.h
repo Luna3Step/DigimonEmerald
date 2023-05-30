@@ -2188,7 +2188,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("X ANTIBODY"),
         .height = 9,
-        .weight = 475,
+        .weight = 480,
         .description = gImpmon_xPokedexText,
         .pokemonScale = 472,
         .pokemonOffset = 21,
@@ -2196,12 +2196,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MARILL] =
+    [NATIONAL_DEX_JAZAMON] =
     {
-        .categoryName = _("AQUA MOUSE"),
-        .height = 4,
-        .weight = 85,
-        .description = gMarillPokedexText,
+        .categoryName = _("STEEL CHICK"),
+        .height = 8,
+        .weight = 571,
+        .description = gJazamonPokedexText,
         .pokemonScale = 476,
         .pokemonOffset = 20,
         .trainerScale = 256,

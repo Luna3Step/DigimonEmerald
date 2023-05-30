@@ -617,7 +617,7 @@ const u16 gEggMoves[] = {
               MOVE_ODOR_SLEUTH,
               MOVE_CHARGE),
 
-    egg_moves(MARILL,
+    egg_moves(JAZAMON,
               MOVE_LIGHT_SCREEN,
               MOVE_PRESENT,
               MOVE_AMNESIA,

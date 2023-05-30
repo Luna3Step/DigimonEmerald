@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BELLOSSOM"
-with "FRONTIER_MON_IMPMON_X"
+replace "FRONTIER_MON_MARILL"
+with "FRONTIER_MON_JAZAMON"
 
-replace "gBellossomPokedexText"
-with "gImpmon_xPokedexText"
+replace "gMarillPokedexText"
+with "gJazamonPokedexText"
 
-replace "NATIONAL_DEX_BELLOSSOM"
-with "NATIONAL_DEX_IMPMON_X"
+replace "NATIONAL_DEX_MARILL"
+with "NATIONAL_DEX_JAZAMON"
 
-replace "SPECIES_BELLOSSOM"
-with "SPECIES_IMPMON_X"
+replace "SPECIES_MARILL"
+with "SPECIES_JAZAMON"
 
-replace "HOENN_DEX_BELLOSSOM"
-with "HOENN_DEX_IMPMON_X"
+replace "HOENN_DEX_MARILL"
+with "HOENN_DEX_JAZAMON"
 
-replace "SPECIES_TO_HOENN(BELLOSSOM),"
-with "SPECIES_TO_HOENN(IMPMON_X),"
+replace "SPECIES_TO_HOENN(MARILL),"
+with "SPECIES_TO_HOENN(JAZAMON),"
 
-replace "SPECIES_TO_NATIONAL(BELLOSSOM),"
-with "SPECIES_TO_NATIONAL(IMPMON_X),"
+replace "SPECIES_TO_NATIONAL(MARILL),"
+with "SPECIES_TO_NATIONAL(JAZAMON),"
 
-replace "HOENN_TO_NATIONAL(BELLOSSOM),"
-with "HOENN_TO_NATIONAL(IMPMON_X),"
+replace "HOENN_TO_NATIONAL(MARILL),"
+with "HOENN_TO_NATIONAL(JAZAMON),"
 
-replace "EC_POKEMON_NATIONAL(BELLOSSOM),"
-with "EC_POKEMON_NATIONAL(IMPMON_X),"
+replace "EC_POKEMON_NATIONAL(MARILL),"
+with "EC_POKEMON_NATIONAL(JAZAMON),"
 
-replace "egg_moves(BELLOSSOM,"
-with "egg_moves(IMPMON_X,"
+replace "egg_moves(MARILL,"
+with "egg_moves(JAZAMON,"
 
-replace "sBellossomLevelUpLearnset"
-with "sImpmon_xLevelUpLearnset"
+replace "sMarillLevelUpLearnset"
+with "sJazamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BELLOSSOM"
-with "SPECIES_SPRITE(IMPMON_X"
+replace "SPECIES_SPRITE(MARILL"
+with "SPECIES_SPRITE(JAZAMON"
 
-replace "SPECIES_PAL(BELLOSSOM,"
-with "SPECIES_PAL(IMPMON_X,"
+replace "SPECIES_PAL(MARILL,"
+with "SPECIES_PAL(JAZAMON,"
 
-replace "SPECIES_SHINY_PAL(BELLOSSOM,"
-with "SPECIES_SHINY_PAL(IMPMON_X,"
+replace "SPECIES_SHINY_PAL(MARILL,"
+with "SPECIES_SHINY_PAL(JAZAMON,"
 
-replace "EC_POKEMON(BELLOSSOM)"
-with "EC_POKEMON(IMPMON_X)"
+replace "EC_POKEMON(MARILL)"
+with "EC_POKEMON(JAZAMON)"
 
-replace "EC_POKEMON_NATIONAL(BELLOSSOM)"
-with "EC_POKEMON_NATIONAL(IMPMON_X)"
+replace "EC_POKEMON_NATIONAL(MARILL)"
+with "EC_POKEMON_NATIONAL(JAZAMON)"
 
 in "src/data/text/species_names.h"
-replace "BELLOSSOM"
-with "IMPMON"
+replace "MARILL"
+with "JAZAMON"

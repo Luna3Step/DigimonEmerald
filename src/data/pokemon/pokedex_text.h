@@ -1096,11 +1096,11 @@ const u8 gImpmon_xPokedexText[] = _(
     "due to have more confidence in itself. The\n"
     "eyepatch is because of its chuuni persona.");
 
-const u8 gMarillPokedexText[] = _(
-    "Its body is covered with water-repellent\n"
-    "fur. Because of the fur, it can swim\n"
-    "through water at high speed without being\n"
-    "slowed by the water's resistance.");
+const u8 gJazamonPokedexText[] = _(
+    "It is capable of gliding from high places\n"
+    "however it can not fly as it is too lift\n"
+    "itself. It is wary of any objects that\n"
+    "move in its peripheral vision.");
 
 const u8 gAzumarillPokedexText[] = _(
     "It lives in water virtually all day long.\n"

@@ -2516,7 +2516,7 @@ static const u16 sImpmon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMarillLevelUpLearnset[] = {
+static const u16 sJazamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 3, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 6, MOVE_TAIL_WHIP),

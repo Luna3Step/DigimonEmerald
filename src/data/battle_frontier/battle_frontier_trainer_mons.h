@@ -24,7 +24,7 @@
     FRONTIER_MON_ICEBOTAMON,         \
     FRONTIER_MON_HAGURUMON,        \
     FRONTIER_MON_GOMAMON,      \
-    FRONTIER_MON_MARILL,        \
+    FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_HOPPIP,        \
     FRONTIER_MON_SLUGMA,        \
     FRONTIER_MON_SWINUB,        \
@@ -213,7 +213,7 @@
     FRONTIER_MON_FEEBAS,        \
     FRONTIER_MON_WOOPER,        \
     FRONTIER_MON_LOTAD,         \
-    FRONTIER_MON_MARILL,        \
+    FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_SURSKIT,       \
     FRONTIER_MON_WINGULL,       \
@@ -399,7 +399,7 @@
     FRONTIER_MON_WHISMUR,       \
     FRONTIER_MON_ZIGZAGOON,     \
     FRONTIER_MON_HAGURUMON,        \
-    FRONTIER_MON_MARILL,        \
+    FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_HOPPIP,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
@@ -618,7 +618,7 @@
     FRONTIER_MON_SUNKERN,       \
     FRONTIER_MON_WOOPER,        \
     FRONTIER_MON_LOTAD,         \
-    FRONTIER_MON_MARILL,        \
+    FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_SURSKIT,       \
     FRONTIER_MON_TRAPINCH,      \
     FRONTIER_MON_SPHEAL,        \

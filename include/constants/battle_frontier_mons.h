@@ -29,7 +29,7 @@
 #define FRONTIER_MON_ICEBOTAMON          25
 #define FRONTIER_MON_HAGURUMON         26
 #define FRONTIER_MON_GOMAMON       27
-#define FRONTIER_MON_MARILL         28
+#define FRONTIER_MON_JAZAMON         28
 #define FRONTIER_MON_HOPPIP         29
 #define FRONTIER_MON_SLUGMA         30
 #define FRONTIER_MON_SWINUB         31
