@@ -2545,7 +2545,7 @@ static const u16 sJellymonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSudowoodoLevelUpLearnset[] = {
+static const u16 sJunkmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ROCK_THROW),
     LEVEL_UP_MOVE( 1, MOVE_MIMIC),
     LEVEL_UP_MOVE( 9, MOVE_FLAIL),

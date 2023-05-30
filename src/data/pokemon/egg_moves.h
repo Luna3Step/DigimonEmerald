@@ -627,7 +627,7 @@ const u16 gEggMoves[] = {
               MOVE_SUPERSONIC,
               MOVE_SUBSTITUTE),
 
-    egg_moves(SUDOWOODO,
+    egg_moves(JUNKMON,
               MOVE_SELF_DESTRUCT),
 
     egg_moves(HOPPIP,

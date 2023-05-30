@@ -1108,11 +1108,11 @@ const u8 gJellymonPokedexText[] = _(
     "will just follow them until they relent.\n"
     "It can also retract its body into its head.");
 
-const u8 gSudowoodoPokedexText[] = _(
-    "It mimics a tree to avoid being attacked\n"
-    "by enemies. But since its forelegs\n"
-    "remain green throughout the year, it is\n"
-    "easily identified as a fake in the winter.");
+const u8 gJunkmonPokedexText[] = _(
+    "Junkmon has a habit of picking up random\n"
+    "junk and just tossing it onto its back.\n"
+    "This works in its favour as it can use\n"
+    "that same junk as ammo for its cannon.");
 
 const u8 gPolitoedPokedexText[] = _(
     "The curled hair on its head proves its\n"

@@ -2220,12 +2220,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SUDOWOODO] =
+    [NATIONAL_DEX_JUNKMON] =
     {
-        .categoryName = _("IMITATION"),
-        .height = 12,
-        .weight = 380,
-        .description = gSudowoodoPokedexText,
+        .categoryName = _("JUNK"),
+        .height = 10,
+        .weight = 547,
+        .description = gJunkmonPokedexText,
         .pokemonScale = 305,
         .pokemonOffset = 8,
         .trainerScale = 256,
