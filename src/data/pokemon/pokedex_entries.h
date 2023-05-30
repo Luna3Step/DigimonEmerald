@@ -2004,12 +2004,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPINARAK] =
+    [NATIONAL_DEX_GOMAMON] =
     {
-        .categoryName = _("STRING SPIT"),
-        .height = 5,
-        .weight = 85,
-        .description = gSpinarakPokedexText,
+        .categoryName = _("SEAL"),
+        .height = 6,
+        .weight = 512,
+        .description = gGomamonPokedexText,
         .pokemonScale = 414,
         .pokemonOffset = 21,
         .trainerScale = 256,

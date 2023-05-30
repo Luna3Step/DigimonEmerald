@@ -1000,11 +1000,11 @@ const u8 gGoblimonPokedexText[] = _(
     "despite its personality, it will always\n"
     "travel in groups and run when threatened.");
 
-const u8 gSpinarakPokedexText[] = _(
-    "The web it spins can be considered its\n"
-    "second nervous system. It is said that a\n"
-    "SPINARAK determines its prey by the tiny\n"
-    "vibrations it feels through the web.");
+const u8 gGomamonPokedexText[] = _(
+    "Gomamon is a loveable Digimon that has a\n"
+    "child-like personality. Many tamers end\n"
+    "up not using them in battle but treating\n"
+    "them more like younger siblings.");
 
 const u8 gAriadosPokedexText[] = _(
     "Its feet are tipped with tiny hooked claws\n"

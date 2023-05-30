@@ -2314,7 +2314,7 @@ static const u16 sGoblimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSpinarakLevelUpLearnset[] = {
+static const u16 sGomamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 6, MOVE_SCARY_FACE),

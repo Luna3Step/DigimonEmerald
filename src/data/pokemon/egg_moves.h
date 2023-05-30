@@ -550,7 +550,7 @@ const u16 gEggMoves[] = {
               MOVE_BIDE,
               MOVE_SILVER_WIND),
 
-    egg_moves(SPINARAK,
+    egg_moves(GOMAMON,
               MOVE_PSYBEAM,
               MOVE_DISABLE,
               MOVE_SONIC_BOOM,

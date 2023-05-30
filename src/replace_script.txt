@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LEDIAN"
-with "FRONTIER_MON_GOBLIMON"
+replace "FRONTIER_MON_SPINARAK"
+with "FRONTIER_MON_GOMAMON"
 
-replace "gLedianPokedexText"
-with "gGoblimonPokedexText"
+replace "gSpinarakPokedexText"
+with "gGomamonPokedexText"
 
-replace "NATIONAL_DEX_LEDIAN"
-with "NATIONAL_DEX_GOBLIMON"
+replace "NATIONAL_DEX_SPINARAK"
+with "NATIONAL_DEX_GOMAMON"
 
-replace "SPECIES_LEDIAN"
-with "SPECIES_GOBLIMON"
+replace "SPECIES_SPINARAK"
+with "SPECIES_GOMAMON"
 
-replace "HOENN_DEX_LEDIAN"
-with "HOENN_DEX_GOBLIMON"
+replace "HOENN_DEX_SPINARAK"
+with "HOENN_DEX_GOMAMON"
 
-replace "SPECIES_TO_HOENN(LEDIAN),"
-with "SPECIES_TO_HOENN(GOBLIMON),"
+replace "SPECIES_TO_HOENN(SPINARAK),"
+with "SPECIES_TO_HOENN(GOMAMON),"
 
-replace "SPECIES_TO_NATIONAL(LEDIAN),"
-with "SPECIES_TO_NATIONAL(GOBLIMON),"
+replace "SPECIES_TO_NATIONAL(SPINARAK),"
+with "SPECIES_TO_NATIONAL(GOMAMON),"
 
-replace "HOENN_TO_NATIONAL(LEDIAN),"
-with "HOENN_TO_NATIONAL(GOBLIMON),"
+replace "HOENN_TO_NATIONAL(SPINARAK),"
+with "HOENN_TO_NATIONAL(GOMAMON),"
 
-replace "EC_POKEMON_NATIONAL(LEDIAN),"
-with "EC_POKEMON_NATIONAL(GOBLIMON),"
+replace "EC_POKEMON_NATIONAL(SPINARAK),"
+with "EC_POKEMON_NATIONAL(GOMAMON),"
 
-replace "egg_moves(LEDIAN,"
-with "egg_moves(GOBLIMON,"
+replace "egg_moves(SPINARAK,"
+with "egg_moves(GOMAMON,"
 
-replace "sLedianLevelUpLearnset"
-with "sGoblimonLevelUpLearnset"
+replace "sSpinarakLevelUpLearnset"
+with "sGomamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LEDIAN"
-with "SPECIES_SPRITE(GOBLIMON"
+replace "SPECIES_SPRITE(SPINARAK"
+with "SPECIES_SPRITE(GOMAMON"
 
-replace "SPECIES_PAL(LEDIAN,"
-with "SPECIES_PAL(GOBLIMON,"
+replace "SPECIES_PAL(SPINARAK,"
+with "SPECIES_PAL(GOMAMON,"
 
-replace "SPECIES_SHINY_PAL(LEDIAN,"
-with "SPECIES_SHINY_PAL(GOBLIMON,"
+replace "SPECIES_SHINY_PAL(SPINARAK,"
+with "SPECIES_SHINY_PAL(GOMAMON,"
 
-replace "EC_POKEMON(LEDIAN)"
-with "EC_POKEMON(GOBLIMON)"
+replace "EC_POKEMON(SPINARAK)"
+with "EC_POKEMON(GOMAMON)"
 
-replace "EC_POKEMON_NATIONAL(LEDIAN)"
-with "EC_POKEMON_NATIONAL(GOBLIMON)"
+replace "EC_POKEMON_NATIONAL(SPINARAK)"
+with "EC_POKEMON_NATIONAL(GOMAMON)"
 
 in "src/data/text/species_names.h"
-replace "LEDIAN"
-with "GOBLIMON"
+replace "SPINARAK"
+with "GOMAMON"
