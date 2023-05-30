@@ -1944,12 +1944,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FURRET] =
+    [NATIONAL_DEX_GAZIMON_X] =
     {
-        .categoryName = _("LONG BODY"),
-        .height = 18,
-        .weight = 325,
-        .description = gFurretPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 13,
+        .weight = 464,
+        .description = gGazimon_xPokedexText,
         .pokemonScale = 346,
         .pokemonOffset = 11,
         .trainerScale = 256,

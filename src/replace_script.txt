@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SENTRET"
-with "FRONTIER_MON_GAZIMON"
+replace "FRONTIER_MON_FURRET"
+with "FRONTIER_MON_GAZIMON_X"
 
-replace "gSentretPokedexText"
-with "gGazimonPokedexText"
+replace "gFurretPokedexText"
+with "gGazimon_xPokedexText"
 
-replace "NATIONAL_DEX_SENTRET"
-with "NATIONAL_DEX_GAZIMON"
+replace "NATIONAL_DEX_FURRET"
+with "NATIONAL_DEX_GAZIMON_X"
 
-replace "SPECIES_SENTRET"
-with "SPECIES_GAZIMON"
+replace "SPECIES_FURRET"
+with "SPECIES_GAZIMON_X"
 
-replace "HOENN_DEX_SENTRET"
-with "HOENN_DEX_GAZIMON"
+replace "HOENN_DEX_FURRET"
+with "HOENN_DEX_GAZIMON_X"
 
-replace "SPECIES_TO_HOENN(SENTRET),"
-with "SPECIES_TO_HOENN(GAZIMON),"
+replace "SPECIES_TO_HOENN(FURRET),"
+with "SPECIES_TO_HOENN(GAZIMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SENTRET),"
-with "SPECIES_TO_NATIONAL(GAZIMON),"
+replace "SPECIES_TO_NATIONAL(FURRET),"
+with "SPECIES_TO_NATIONAL(GAZIMON_X),"
 
-replace "HOENN_TO_NATIONAL(SENTRET),"
-with "HOENN_TO_NATIONAL(GAZIMON),"
+replace "HOENN_TO_NATIONAL(FURRET),"
+with "HOENN_TO_NATIONAL(GAZIMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SENTRET),"
-with "EC_POKEMON_NATIONAL(GAZIMON),"
+replace "EC_POKEMON_NATIONAL(FURRET),"
+with "EC_POKEMON_NATIONAL(GAZIMON_X),"
 
-replace "egg_moves(SENTRET,"
-with "egg_moves(GAZIMON,"
+replace "egg_moves(FURRET,"
+with "egg_moves(GAZIMON_X,"
 
-replace "sSentretLevelUpLearnset"
-with "sGazimonLevelUpLearnset"
+replace "sFurretLevelUpLearnset"
+with "sGazimon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SENTRET"
-with "SPECIES_SPRITE(GAZIMON"
+replace "SPECIES_SPRITE(FURRET"
+with "SPECIES_SPRITE(GAZIMON_X"
 
-replace "SPECIES_PAL(SENTRET,"
-with "SPECIES_PAL(GAZIMON,"
+replace "SPECIES_PAL(FURRET,"
+with "SPECIES_PAL(GAZIMON_X,"
 
-replace "SPECIES_SHINY_PAL(SENTRET,"
-with "SPECIES_SHINY_PAL(GAZIMON,"
+replace "SPECIES_SHINY_PAL(FURRET,"
+with "SPECIES_SHINY_PAL(GAZIMON_X,"
 
-replace "EC_POKEMON(SENTRET)"
-with "EC_POKEMON(GAZIMON)"
+replace "EC_POKEMON(FURRET)"
+with "EC_POKEMON(GAZIMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SENTRET)"
-with "EC_POKEMON_NATIONAL(GAZIMON)"
+replace "EC_POKEMON_NATIONAL(FURRET)"
+with "EC_POKEMON_NATIONAL(GAZIMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SENTRET"
+replace "FURRET"
 with "GAZIMON"

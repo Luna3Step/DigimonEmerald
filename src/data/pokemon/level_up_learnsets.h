@@ -2242,7 +2242,7 @@ static const u16 sGazimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFurretLevelUpLearnset[] = {
+static const u16 sGazimon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),

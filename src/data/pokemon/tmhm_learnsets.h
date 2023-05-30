@@ -3892,7 +3892,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)),
 
-    [SPECIES_FURRET]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_GAZIMON_X]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

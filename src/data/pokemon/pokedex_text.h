@@ -970,11 +970,11 @@ const u8 gGazimonPokedexText[] = _(
     "underlings of more powerful and cruel\n"
     "Digimon like Etemon.");
 
-const u8 gFurretPokedexText[] = _(
-    "A FURRET has a very slim build. When under\n"
-    "attack, it can squirm through narrow\n"
-    "spaces and get away. In spite of its short\n"
-    "limbs, it is very nimble and fleet.");
+const u8 gGazimon_xPokedexText[] = _(
+    "Gazimon X have found a better use of\n"
+    "bipedialism to make themselves look bigger\n"
+    "and more intimidating. It's fighting \n"
+    "also incorporates this more.");
 
 const u8 gHoothootPokedexText[] = _(
     "It has an internal organ that senses\n"
