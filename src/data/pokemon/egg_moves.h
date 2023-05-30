@@ -572,7 +572,7 @@ const u16 gEggMoves[] = {
               MOVE_WISH,
               MOVE_CHARGE),
 
-    egg_moves(CLEFFA,
+    egg_moves(GUMDRAMON,
               MOVE_PRESENT,
               MOVE_METRONOME,
               MOVE_AMNESIA,

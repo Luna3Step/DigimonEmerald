@@ -2076,12 +2076,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFFA] =
+    [NATIONAL_DEX_GUMDRAMON] =
     {
-        .categoryName = _("STAR SHAPE"),
-        .height = 3,
-        .weight = 30,
-        .description = gCleffaPokedexText,
+        .categoryName = _("HAMMER"),
+        .height = 8,
+        .weight = 391,
+        .description = gGumdramonPokedexText,
         .pokemonScale = 462,
         .pokemonOffset = 23,
         .trainerScale = 256,

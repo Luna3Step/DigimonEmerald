@@ -1036,11 +1036,11 @@ const u8 gGuilmon_xPokedexText[] = _(
     "destructive however this realisation and\n"
     "growth makes it a much more formidable foe.");
 
-const u8 gCleffaPokedexText[] = _(
-    "On nights with many shooting stars,\n"
-    "CLEFFA can be seen dancing in a ring.\n"
-    "They dance until daybreak, when they\n"
-    "quench their thirst with the morning dew.");
+const u8 gGumdramonPokedexText[] = _(
+    "Gumdramon possesses a flexiable tail that\n"
+    "is in the shape of a hammer. Combine this\n"
+    "with its light and elastic body, it makes it\n"
+    "hard to hit in battle as it bounces around.");
 
 const u8 gIgglybuffPokedexText[] = _(
     "Its soft and pliable body is very bouncy.\n"

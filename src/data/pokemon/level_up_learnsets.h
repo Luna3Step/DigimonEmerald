@@ -2399,7 +2399,7 @@ static const u16 sGuilmon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCleffaLevelUpLearnset[] = {
+static const u16 sGumdramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 4, MOVE_ENCORE),

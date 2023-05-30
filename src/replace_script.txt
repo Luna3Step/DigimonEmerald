@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PICHU"
-with "FRONTIER_MON_GUILMON_X"
+replace "FRONTIER_MON_CLEFFA"
+with "FRONTIER_MON_GUMDRAMON"
 
-replace "gPichuPokedexText"
-with "gGuilmon_xPokedexText"
+replace "gCleffaPokedexText"
+with "gGumdramonPokedexText"
 
-replace "NATIONAL_DEX_PICHU"
-with "NATIONAL_DEX_GUILMON_X"
+replace "NATIONAL_DEX_CLEFFA"
+with "NATIONAL_DEX_GUMDRAMON"
 
-replace "SPECIES_PICHU"
-with "SPECIES_GUILMON_X"
+replace "SPECIES_CLEFFA"
+with "SPECIES_GUMDRAMON"
 
-replace "HOENN_DEX_PICHU"
-with "HOENN_DEX_GUILMON_X"
+replace "HOENN_DEX_CLEFFA"
+with "HOENN_DEX_GUMDRAMON"
 
-replace "SPECIES_TO_HOENN(PICHU),"
-with "SPECIES_TO_HOENN(GUILMON_X),"
+replace "SPECIES_TO_HOENN(CLEFFA),"
+with "SPECIES_TO_HOENN(GUMDRAMON),"
 
-replace "SPECIES_TO_NATIONAL(PICHU),"
-with "SPECIES_TO_NATIONAL(GUILMON_X),"
+replace "SPECIES_TO_NATIONAL(CLEFFA),"
+with "SPECIES_TO_NATIONAL(GUMDRAMON),"
 
-replace "HOENN_TO_NATIONAL(PICHU),"
-with "HOENN_TO_NATIONAL(GUILMON_X),"
+replace "HOENN_TO_NATIONAL(CLEFFA),"
+with "HOENN_TO_NATIONAL(GUMDRAMON),"
 
-replace "EC_POKEMON_NATIONAL(PICHU),"
-with "EC_POKEMON_NATIONAL(GUILMON_X),"
+replace "EC_POKEMON_NATIONAL(CLEFFA),"
+with "EC_POKEMON_NATIONAL(GUMDRAMON),"
 
-replace "egg_moves(PICHU,"
-with "egg_moves(GUILMON_X,"
+replace "egg_moves(CLEFFA,"
+with "egg_moves(GUMDRAMON,"
 
-replace "sPichuLevelUpLearnset"
-with "sGuilmon_xLevelUpLearnset"
+replace "sCleffaLevelUpLearnset"
+with "sGumdramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PICHU"
-with "SPECIES_SPRITE(GUILMON_X"
+replace "SPECIES_SPRITE(CLEFFA"
+with "SPECIES_SPRITE(GUMDRAMON"
 
-replace "SPECIES_PAL(PICHU,"
-with "SPECIES_PAL(GUILMON_X,"
+replace "SPECIES_PAL(CLEFFA,"
+with "SPECIES_PAL(GUMDRAMON,"
 
-replace "SPECIES_SHINY_PAL(PICHU,"
-with "SPECIES_SHINY_PAL(GUILMON_X,"
+replace "SPECIES_SHINY_PAL(CLEFFA,"
+with "SPECIES_SHINY_PAL(GUMDRAMON,"
 
-replace "EC_POKEMON(PICHU)"
-with "EC_POKEMON(GUILMON_X)"
+replace "EC_POKEMON(CLEFFA)"
+with "EC_POKEMON(GUMDRAMON)"
 
-replace "EC_POKEMON_NATIONAL(PICHU)"
-with "EC_POKEMON_NATIONAL(GUILMON_X)"
+replace "EC_POKEMON_NATIONAL(CLEFFA)"
+with "EC_POKEMON_NATIONAL(GUMDRAMON)"
 
 in "src/data/text/species_names.h"
-replace "PICHU"
-with "GUILMON"
+replace "CLEFFA"
+with "GUMDRAMON"
