@@ -892,11 +892,11 @@ const u8 gElecmon_violetPokedexText[] = _(
     "indiscriminately attack anyone who it sees\n"
     "however it can be easily handled as it's weak.");
 
-const u8 gDragonitePokedexText[] = _(
-    "It can circle the globe in just 16 hours.\n"
-    "It is a kindhearted POKéMON that leads\n"
-    "lost and foundering ships in a storm\n"
-    "to the safety of land.");
+const u8 gEspimonPokedexText[] = _(
+    "Despite it's small and dumb looks, Espimon\n"
+    "is actually an incredibly smart Digimon\n"
+    "with the ability to swiftly infiltrate\n"
+    "any location it so desires.");
 
 const u8 gMewtwoPokedexText[] = _(
     "A POKéMON that was created by genetic\n"

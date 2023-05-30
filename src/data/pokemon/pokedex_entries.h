@@ -1788,12 +1788,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 5,
     },
 
-    [NATIONAL_DEX_DRAGONITE] =
+    [NATIONAL_DEX_ESPIMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 22,
-        .weight = 2100,
-        .description = gDragonitePokedexText,
+        .categoryName = _("ESPIONAGE"),
+        .height = 7,
+        .weight = 412,
+        .description = gEspimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 309,
