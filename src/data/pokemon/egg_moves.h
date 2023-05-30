@@ -563,7 +563,7 @@ const u16 gEggMoves[] = {
               MOVE_SCREECH,
               MOVE_AMNESIA),
 
-    egg_moves(PICHU,
+    egg_moves(GUILMON_X,
               MOVE_REVERSAL,
               MOVE_BIDE,
               MOVE_PRESENT,

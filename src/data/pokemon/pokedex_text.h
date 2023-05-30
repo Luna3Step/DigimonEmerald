@@ -1030,11 +1030,11 @@ const u8 gGuilmonPokedexText[] = _(
     "who can deal massive damage to data. It\n"
     "can still be a force of good despite that.");
 
-const u8 gPichuPokedexText[] = _(
-    "It is still inept at retaining electricity.\n"
-    "When it is startled, it discharges power\n"
-    "accidentally. It gets better at holding\n"
-    "power as it grows older.");
+const u8 gGuilmon_xPokedexText[] = _(
+    "Guilmon X has grown and accepted and\n"
+    "contained its power. This has made it less\n"
+    "destructive however this realisation and\n"
+    "growth makes it a much more formidable foe.");
 
 const u8 gCleffaPokedexText[] = _(
     "On nights with many shooting stars,\n"

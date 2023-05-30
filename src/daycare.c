@@ -817,7 +817,7 @@ static void _GiveEggFromDaycare(struct DayCare *daycare)
     InheritIVs(&egg, daycare);
     BuildEggMoveset(&egg, &daycare->mons[parentSlots[1]].mon, &daycare->mons[parentSlots[0]].mon);
 
-    if (species == SPECIES_PICHU)
+    if (species == SPECIES_GUILMON_X)
         GiveVoltTackleIfLightBall(&egg, daycare);
 
     isEgg = TRUE;

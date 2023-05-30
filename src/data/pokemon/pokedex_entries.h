@@ -2064,12 +2064,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PICHU] =
+    [NATIONAL_DEX_GUILMON_X] =
     {
-        .categoryName = _("TINY MOUSE"),
-        .height = 3,
-        .weight = 20,
-        .description = gPichuPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 156,
+        .weight = 583,
+        .description = gGuilmon_xPokedexText,
         .pokemonScale = 508,
         .pokemonOffset = 20,
         .trainerScale = 256,

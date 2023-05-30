@@ -8,7 +8,7 @@
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_FEEBAS,        \
-    FRONTIER_MON_PICHU,         \
+    FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_IGGLYBUFF,     \
     FRONTIER_MON_WOOPER,        \
     FRONTIER_MON_TYROGUE,       \
@@ -388,7 +388,7 @@
     FRONTIER_MON_AZURILL,       \
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_HAZYAGUMON,      \
-    FRONTIER_MON_PICHU,         \
+    FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_IGGLYBUFF,     \
     FRONTIER_MON_WOOPER,        \
     FRONTIER_MON_GAZIMON,       \
@@ -667,7 +667,7 @@
 
 #define FRONTIER_MONS_GUITARIST_1 \
     FRONTIER_MON_RALTS,         \
-    FRONTIER_MON_PICHU,         \
+    FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_POOCHYENA,     \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_KIRLIA,        \
@@ -908,7 +908,7 @@
     -1
 
 #define FRONTIER_MONS_CYCLING_TRIATHLETE_1 \
-    FRONTIER_MON_PICHU,         \
+    FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_TYROGUE,       \
     FRONTIER_MON_MAKUHITA,      \
     FRONTIER_MON_MAREEP,        \

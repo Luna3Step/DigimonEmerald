@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LANTURN"
-with "FRONTIER_MON_GUILMON"
+replace "FRONTIER_MON_PICHU"
+with "FRONTIER_MON_GUILMON_X"
 
-replace "gLanturnPokedexText"
-with "gGuilmonPokedexText"
+replace "gPichuPokedexText"
+with "gGuilmon_xPokedexText"
 
-replace "NATIONAL_DEX_LANTURN"
-with "NATIONAL_DEX_GUILMON"
+replace "NATIONAL_DEX_PICHU"
+with "NATIONAL_DEX_GUILMON_X"
 
-replace "SPECIES_LANTURN"
-with "SPECIES_GUILMON"
+replace "SPECIES_PICHU"
+with "SPECIES_GUILMON_X"
 
-replace "HOENN_DEX_LANTURN"
-with "HOENN_DEX_GUILMON"
+replace "HOENN_DEX_PICHU"
+with "HOENN_DEX_GUILMON_X"
 
-replace "SPECIES_TO_HOENN(LANTURN),"
-with "SPECIES_TO_HOENN(GUILMON),"
+replace "SPECIES_TO_HOENN(PICHU),"
+with "SPECIES_TO_HOENN(GUILMON_X),"
 
-replace "SPECIES_TO_NATIONAL(LANTURN),"
-with "SPECIES_TO_NATIONAL(GUILMON),"
+replace "SPECIES_TO_NATIONAL(PICHU),"
+with "SPECIES_TO_NATIONAL(GUILMON_X),"
 
-replace "HOENN_TO_NATIONAL(LANTURN),"
-with "HOENN_TO_NATIONAL(GUILMON),"
+replace "HOENN_TO_NATIONAL(PICHU),"
+with "HOENN_TO_NATIONAL(GUILMON_X),"
 
-replace "EC_POKEMON_NATIONAL(LANTURN),"
-with "EC_POKEMON_NATIONAL(GUILMON),"
+replace "EC_POKEMON_NATIONAL(PICHU),"
+with "EC_POKEMON_NATIONAL(GUILMON_X),"
 
-replace "egg_moves(LANTURN,"
-with "egg_moves(GUILMON,"
+replace "egg_moves(PICHU,"
+with "egg_moves(GUILMON_X,"
 
-replace "sLanturnLevelUpLearnset"
-with "sGuilmonLevelUpLearnset"
+replace "sPichuLevelUpLearnset"
+with "sGuilmon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LANTURN"
-with "SPECIES_SPRITE(GUILMON"
+replace "SPECIES_SPRITE(PICHU"
+with "SPECIES_SPRITE(GUILMON_X"
 
-replace "SPECIES_PAL(LANTURN,"
-with "SPECIES_PAL(GUILMON,"
+replace "SPECIES_PAL(PICHU,"
+with "SPECIES_PAL(GUILMON_X,"
 
-replace "SPECIES_SHINY_PAL(LANTURN,"
-with "SPECIES_SHINY_PAL(GUILMON,"
+replace "SPECIES_SHINY_PAL(PICHU,"
+with "SPECIES_SHINY_PAL(GUILMON_X,"
 
-replace "EC_POKEMON(LANTURN)"
-with "EC_POKEMON(GUILMON)"
+replace "EC_POKEMON(PICHU)"
+with "EC_POKEMON(GUILMON_X)"
 
-replace "EC_POKEMON_NATIONAL(LANTURN)"
-with "EC_POKEMON_NATIONAL(GUILMON)"
+replace "EC_POKEMON_NATIONAL(PICHU)"
+with "EC_POKEMON_NATIONAL(GUILMON_X)"
 
 in "src/data/text/species_names.h"
-replace "LANTURN"
+replace "PICHU"
 with "GUILMON"
