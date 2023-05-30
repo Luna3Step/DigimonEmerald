@@ -2004,7 +2004,7 @@ static const u16 sDracomon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sZapdosLevelUpLearnset[] = {
+static const u16 sEbiburgmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
     LEVEL_UP_MOVE(13, MOVE_THUNDER_WAVE),

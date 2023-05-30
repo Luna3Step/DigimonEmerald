@@ -1671,7 +1671,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_DORUMON] =
     {
         .categoryName = _("X ANTIBODY"),
-        .height = 39,
+        .height = 12,
         .weight = 400,
         .description = gDorumonPokedexText,
         .pokemonScale = 307,
@@ -1695,7 +1695,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_DOTFALCMON] =
     {
         .categoryName = _("8 BIT"),
-        .height = 30,
+        .height = 9,
         .weight = 107,
         .description = gDotfalcmonPokedexText,
         .pokemonScale = 271,
@@ -1707,7 +1707,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_DRACMON] =
     {
         .categoryName = _("X ANTIBODY"),
-        .height = 30,
+        .height = 9,
         .weight = 437,
         .description = gDracmonPokedexText,
         .pokemonScale = 256,
@@ -1719,7 +1719,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_DRACOMON] =
     {
         .categoryName = _("DRAMON"),
-        .height = 30,
+        .height = 9,
         .weight = 574,
         .description = gDracomonPokedexText,
         .pokemonScale = 256,
@@ -1731,7 +1731,7 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_DRACOMON_X] =
     {
         .categoryName = _("X ANTIBODY"),
-        .height = 32,
+        .height = 11,
         .weight = 541,
         .description = gDracomon_xPokedexText,
         .pokemonScale = 256,
@@ -1740,12 +1740,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_ZAPDOS] =
+    [NATIONAL_DEX_EBIBURGMON] =
     {
-        .categoryName = _("ELECTRIC"),
-        .height = 16,
+        .categoryName = _("PRAWN BURGER"),
+        .height = 10,
         .weight = 526,
-        .description = gZapdosPokedexText,
+        .description = gEbiburgmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 318,

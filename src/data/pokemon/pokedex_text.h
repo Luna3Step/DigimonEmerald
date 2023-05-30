@@ -868,11 +868,11 @@ const u8 gDracomon_xPokedexText[] = _(
     "time and its wings now serving as weapons.\n"
     "It can now also use wind based attacks.");
 
-const u8 gZapdosPokedexText[] = _(
-    "ZAPDOS is a legendary bird POKéMON that\n"
-    "has the ability to control electricity.\n"
-    "It usually lives in thunderclouds. It gains\n"
-    "power if it is stricken by lightning bolts.");
+const u8 gEbiburgmonPokedexText[] = _(
+    "Although Burgermon are usually good cooks,\n"
+    "EbiBurgamons food is generally disgusting\n"
+    "as it will try to mix seafood into dishes\n"
+    "that do not need seafood.");
 
 const u8 gMoltresPokedexText[] = _(
     "MOLTRES is a legendary bird POKéMON\n"
