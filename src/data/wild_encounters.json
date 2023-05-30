@@ -2265,7 +2265,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_NATU"
+                "species": "SPECIES_HAWKMON"
               },
               {
                 "min_level": 25,
@@ -6953,7 +6953,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_NATU"
+                "species": "SPECIES_HAWKMON"
               },
               {
                 "min_level": 27,
@@ -7107,7 +7107,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_NATU"
+                "species": "SPECIES_HAWKMON"
               },
               {
                 "min_level": 29,
@@ -7122,7 +7122,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_NATU"
+                "species": "SPECIES_HAWKMON"
               },
               {
                 "min_level": 29,

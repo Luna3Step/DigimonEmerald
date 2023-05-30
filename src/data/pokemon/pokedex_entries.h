@@ -2124,12 +2124,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NATU] =
+    [NATIONAL_DEX_HAWKMON] =
     {
-        .categoryName = _("TINY BIRD"),
-        .height = 2,
-        .weight = 20,
-        .description = gNatuPokedexText,
+        .categoryName = _("HAWK"),
+        .height = 10,
+        .weight = 305,
+        .description = gHawkmonPokedexText,
         .pokemonScale = 610,
         .pokemonOffset = 25,
         .trainerScale = 256,

@@ -1060,11 +1060,11 @@ const u8 gHagurumon_xPokedexText[] = _(
     "of it, named KoHagurumon. If these little\n"
     "ones fall off, they can't act independently");
 
-const u8 gNatuPokedexText[] = _(
-    "It runs up short trees that grow on the\n"
-    "savanna to peck at new shoots.\n"
-    "A NATU's eyes look as if they are\n"
-    "always observing something.");
+const u8 gHawkmonPokedexText[] = _(
+    "People are often quickly wooed by Hawkmon\n"
+    "as they are a very polite and calm Digimon.\n"
+    "If it so wanted, it could probably convince\n"
+    "people to do its bidding.");
 
 const u8 gXatuPokedexText[] = _(
     "It has the enigmatic power of foreseeing\n"

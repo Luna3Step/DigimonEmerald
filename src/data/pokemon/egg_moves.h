@@ -598,7 +598,7 @@ const u16 gEggMoves[] = {
               MOVE_SUBSTITUTE,
               MOVE_PSYCH_UP),
 
-    egg_moves(NATU,
+    egg_moves(HAWKMON,
               MOVE_HAZE,
               MOVE_DRILL_PECK,
               MOVE_QUICK_ATTACK,
