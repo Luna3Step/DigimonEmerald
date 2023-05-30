@@ -898,11 +898,11 @@ const u8 gEspimonPokedexText[] = _(
     "with the ability to swiftly infiltrate\n"
     "any location it so desires.");
 
-const u8 gMewtwoPokedexText[] = _(
-    "A POKéMON that was created by genetic\n"
-    "manipulation. However, even though the\n"
-    "scientific power of humans made its body,\n"
-    "they failed to give it a warm heart.");
+const u8 gAgumon_fake_expertPokedexText[] = _(
+    "Even though it is a very smart Digimon,\n"
+    "NiseAgumon, it still plagiarises other\n"
+    "Digimon works. Many question if its own\n"
+    "title is legitimate or just a fake.");
 
 const u8 gMewPokedexText[] = _(
     "A MEW is said to possess the genes of all\n"

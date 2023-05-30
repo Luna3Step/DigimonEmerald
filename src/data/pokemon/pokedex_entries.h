@@ -1800,12 +1800,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MEWTWO] =
+    [NATIONAL_DEX_AGUMON_FAKE_EXPERT] =
     {
-        .categoryName = _("GENETIC"),
-        .height = 20,
-        .weight = 1220,
-        .description = gMewtwoPokedexText,
+        .categoryName = _("PLAGIARIST"),
+        .height = 11,
+        .weight = 513,
+        .description = gAgumon_fake_expertPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 309,

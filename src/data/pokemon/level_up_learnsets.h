@@ -2077,7 +2077,7 @@ static const u16 sEspimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMewtwoLevelUpLearnset[] = {
+static const u16 sAgumon_fake_expertLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_DISABLE),
     LEVEL_UP_MOVE(11, MOVE_BARRIER),
