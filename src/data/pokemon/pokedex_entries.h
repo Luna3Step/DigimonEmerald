@@ -1908,12 +1908,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CROCONAW] =
+    [NATIONAL_DEX_GAOMON] =
     {
-        .categoryName = _("BIG JAW"),
-        .height = 11,
-        .weight = 250,
-        .description = gCroconawPokedexText,
+        .categoryName = _("BOXING"),
+        .height = 13,
+        .weight = 435,
+        .description = gGaomonPokedexText,
         .pokemonScale = 378,
         .pokemonOffset = 13,
         .trainerScale = 256,

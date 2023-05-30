@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TOTODILE"
-with "FRONTIER_MON_GAMMAMON"
+replace "FRONTIER_MON_CROCONAW"
+with "FRONTIER_MON_GAOMON"
 
-replace "gTotodilePokedexText"
-with "gGammamonPokedexText"
+replace "gCroconawPokedexText"
+with "gGaomonPokedexText"
 
-replace "NATIONAL_DEX_TOTODILE"
-with "NATIONAL_DEX_GAMMAMON"
+replace "NATIONAL_DEX_CROCONAW"
+with "NATIONAL_DEX_GAOMON"
 
-replace "SPECIES_TOTODILE"
-with "SPECIES_GAMMAMON"
+replace "SPECIES_CROCONAW"
+with "SPECIES_GAOMON"
 
-replace "HOENN_DEX_TOTODILE"
-with "HOENN_DEX_GAMMAMON"
+replace "HOENN_DEX_CROCONAW"
+with "HOENN_DEX_GAOMON"
 
-replace "SPECIES_TO_HOENN(TOTODILE),"
-with "SPECIES_TO_HOENN(GAMMAMON),"
+replace "SPECIES_TO_HOENN(CROCONAW),"
+with "SPECIES_TO_HOENN(GAOMON),"
 
-replace "SPECIES_TO_NATIONAL(TOTODILE),"
-with "SPECIES_TO_NATIONAL(GAMMAMON),"
+replace "SPECIES_TO_NATIONAL(CROCONAW),"
+with "SPECIES_TO_NATIONAL(GAOMON),"
 
-replace "HOENN_TO_NATIONAL(TOTODILE),"
-with "HOENN_TO_NATIONAL(GAMMAMON),"
+replace "HOENN_TO_NATIONAL(CROCONAW),"
+with "HOENN_TO_NATIONAL(GAOMON),"
 
-replace "EC_POKEMON_NATIONAL(TOTODILE),"
-with "EC_POKEMON_NATIONAL(GAMMAMON),"
+replace "EC_POKEMON_NATIONAL(CROCONAW),"
+with "EC_POKEMON_NATIONAL(GAOMON),"
 
-replace "egg_moves(TOTODILE,"
-with "egg_moves(GAMMAMON,"
+replace "egg_moves(CROCONAW,"
+with "egg_moves(GAOMON,"
 
-replace "sTotodileLevelUpLearnset"
-with "sGammamonLevelUpLearnset"
+replace "sCroconawLevelUpLearnset"
+with "sGaomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TOTODILE"
-with "SPECIES_SPRITE(GAMMAMON"
+replace "SPECIES_SPRITE(CROCONAW"
+with "SPECIES_SPRITE(GAOMON"
 
-replace "SPECIES_PAL(TOTODILE,"
-with "SPECIES_PAL(GAMMAMON,"
+replace "SPECIES_PAL(CROCONAW,"
+with "SPECIES_PAL(GAOMON,"
 
-replace "SPECIES_SHINY_PAL(TOTODILE,"
-with "SPECIES_SHINY_PAL(GAMMAMON,"
+replace "SPECIES_SHINY_PAL(CROCONAW,"
+with "SPECIES_SHINY_PAL(GAOMON,"
 
-replace "EC_POKEMON(TOTODILE)"
-with "EC_POKEMON(GAMMAMON)"
+replace "EC_POKEMON(CROCONAW)"
+with "EC_POKEMON(GAOMON)"
 
-replace "EC_POKEMON_NATIONAL(TOTODILE)"
-with "EC_POKEMON_NATIONAL(GAMMAMON)"
+replace "EC_POKEMON_NATIONAL(CROCONAW)"
+with "EC_POKEMON_NATIONAL(GAOMON)"
 
 in "src/data/text/species_names.h"
-replace "TOTODILE"
-with "GAMMAMON"
+replace "CROCONAW"
+with "GAOMON"

@@ -952,11 +952,11 @@ const u8 gGammamonPokedexText[] = _(
     "it is both adorable and considered a \n"
     "jack of all trades in battle.");
 
-const u8 gCroconawPokedexText[] = _(
-    "Once its jaws clamp down on its foe, it will\n"
-    "absolutely not let go. Because the tips of\n"
-    "its fangs are forked back like fishhooks,\n"
-    "they become irremovably embedded.");
+const u8 gGaomonPokedexText[] = _(
+    "Gaomons keen movements have let it\n"
+    "specialise in an attack style called 'hit\n"
+    "and away' where it inflicts a singular\n"
+    "blow before retreating to confuse opponents.");
 
 const u8 gFeraligatrPokedexText[] = _(
     "It opens its huge mouth to intimidate\n"
