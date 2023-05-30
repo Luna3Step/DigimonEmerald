@@ -874,11 +874,11 @@ const u8 gEbiburgmonPokedexText[] = _(
     "as it will try to mix seafood into dishes\n"
     "that do not need seafood.");
 
-const u8 gMoltresPokedexText[] = _(
-    "MOLTRES is a legendary bird POKéMON\n"
-    "that can control fire. If injured, it is said\n"
-    "to dip its body in the molten magma of\n"
-    "a volcano to burn and heal itself.");
+const u8 gEkakimonPokedexText[] = _(
+    "Many people do not trust Ekakimon as it has\n"
+    "a sinister smile on its face at all times\n"
+    "but thats just because it is so happy for\n"
+    "the pictures it is usually drawing.");
 
 const u8 gDratiniPokedexText[] = _(
     "A DRATINI continually molts and sloughs\n"

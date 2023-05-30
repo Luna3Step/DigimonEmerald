@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ZAPDOS"
-with "FRONTIER_MON_EBIBURGMON"
+replace "FRONTIER_MON_MOLTRES"
+with "FRONTIER_MON_EKAKIMON"
 
-replace "gZapdosPokedexText"
-with "gEbiburgmonPokedexText"
+replace "gMoltresPokedexText"
+with "gEkakimonPokedexText"
 
-replace "NATIONAL_DEX_ZAPDOS"
-with "NATIONAL_DEX_EBIBURGMON"
+replace "NATIONAL_DEX_MOLTRES"
+with "NATIONAL_DEX_EKAKIMON"
 
-replace "SPECIES_ZAPDOS"
-with "SPECIES_EBIBURGMON"
+replace "SPECIES_MOLTRES"
+with "SPECIES_EKAKIMON"
 
-replace "HOENN_DEX_ZAPDOS"
-with "HOENN_DEX_EBIBURGMON"
+replace "HOENN_DEX_MOLTRES"
+with "HOENN_DEX_EKAKIMON"
 
-replace "SPECIES_TO_HOENN(ZAPDOS),"
-with "SPECIES_TO_HOENN(EBIBURGMON),"
+replace "SPECIES_TO_HOENN(MOLTRES),"
+with "SPECIES_TO_HOENN(EKAKIMON),"
 
-replace "SPECIES_TO_NATIONAL(ZAPDOS),"
-with "SPECIES_TO_NATIONAL(EBIBURGMON),"
+replace "SPECIES_TO_NATIONAL(MOLTRES),"
+with "SPECIES_TO_NATIONAL(EKAKIMON),"
 
-replace "HOENN_TO_NATIONAL(ZAPDOS),"
-with "HOENN_TO_NATIONAL(EBIBURGMON),"
+replace "HOENN_TO_NATIONAL(MOLTRES),"
+with "HOENN_TO_NATIONAL(EKAKIMON),"
 
-replace "EC_POKEMON_NATIONAL(ZAPDOS),"
-with "EC_POKEMON_NATIONAL(EBIBURGMON),"
+replace "EC_POKEMON_NATIONAL(MOLTRES),"
+with "EC_POKEMON_NATIONAL(EKAKIMON),"
 
-replace "egg_moves(ZAPDOS,"
-with "egg_moves(EBIBURGMON,"
+replace "egg_moves(MOLTRES,"
+with "egg_moves(EKAKIMON,"
 
-replace "sZapdosLevelUpLearnset"
-with "sEbiburgmonLevelUpLearnset"
+replace "sMoltresLevelUpLearnset"
+with "sEkakimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ZAPDOS"
-with "SPECIES_SPRITE(EBIBURGMON"
+replace "SPECIES_SPRITE(MOLTRES"
+with "SPECIES_SPRITE(EKAKIMON"
 
-replace "SPECIES_PAL(ZAPDOS,"
-with "SPECIES_PAL(EBIBURGMON,"
+replace "SPECIES_PAL(MOLTRES,"
+with "SPECIES_PAL(EKAKIMON,"
 
-replace "SPECIES_SHINY_PAL(ZAPDOS,"
-with "SPECIES_SHINY_PAL(EBIBURGMON,"
+replace "SPECIES_SHINY_PAL(MOLTRES,"
+with "SPECIES_SHINY_PAL(EKAKIMON,"
 
-replace "EC_POKEMON(ZAPDOS)"
-with "EC_POKEMON(EBIBURGMON)"
+replace "EC_POKEMON(MOLTRES)"
+with "EC_POKEMON(EKAKIMON)"
 
-replace "EC_POKEMON_NATIONAL(ZAPDOS)"
-with "EC_POKEMON_NATIONAL(EBIBURGMON)"
+replace "EC_POKEMON_NATIONAL(MOLTRES)"
+with "EC_POKEMON_NATIONAL(EKAKIMON)"
 
 in "src/data/text/species_names.h"
-replace "ZAPDOS"
-with "EBIBURGMON"
+replace "MOLTRES"
+with "EKAKIMON"

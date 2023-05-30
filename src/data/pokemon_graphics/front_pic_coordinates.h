@@ -150,7 +150,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_DRACOMON]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
     [SPECIES_DRACOMON_X]    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
     [SPECIES_EBIBURGMON]      = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
-    [SPECIES_MOLTRES]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
+    [SPECIES_EKAKIMON]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_DRATINI]     = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 14 },
     [SPECIES_DRAGONAIR]   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
     [SPECIES_DRAGONITE]   = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },

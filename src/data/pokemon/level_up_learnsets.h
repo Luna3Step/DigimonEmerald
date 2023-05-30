@@ -2017,7 +2017,7 @@ static const u16 sEbiburgmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMoltresLevelUpLearnset[] = {
+static const u16 sEkakimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE(13, MOVE_FIRE_SPIN),

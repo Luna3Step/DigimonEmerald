@@ -1752,12 +1752,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_MOLTRES] =
+    [NATIONAL_DEX_EKAKIMON] =
     {
-        .categoryName = _("FLAME"),
-        .height = 20,
-        .weight = 600,
-        .description = gMoltresPokedexText,
+        .categoryName = _("PENCIL"),
+        .height = 7,
+        .weight = 264,
+        .description = gEkakimonPokedexText,
         .pokemonScale = 270,
         .pokemonOffset = 0,
         .trainerScale = 387,

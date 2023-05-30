@@ -1042,7 +1042,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_WORD_MMM,
     EC_WORD_MODE,
     EC_WORD_MODERN,
-    EC_POKEMON_NATIONAL(MOLTRES),
+    EC_POKEMON_NATIONAL(EKAKIMON),
     EC_WORD_MOMENTUM,
     EC_WORD_MONDAY,
     EC_WORD_MONEY,
@@ -2022,7 +2022,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_WORD_FIGHT,
-    EC_POKEMON_NATIONAL(MOLTRES),
+    EC_POKEMON_NATIONAL(EKAKIMON),
     EC_WORD_FASHION,
     EC_WORD_FEAR,
     EC_WORD_FEVER,
