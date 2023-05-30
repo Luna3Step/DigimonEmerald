@@ -2529,7 +2529,7 @@ static const u16 sJazamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAzumarillLevelUpLearnset[] = {
+static const u16 sJellymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),

@@ -2208,12 +2208,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_AZUMARILL] =
+    [NATIONAL_DEX_JELLYMON] =
     {
-        .categoryName = _("AQUA RABBIT"),
-        .height = 8,
+        .categoryName = _("JELLYFISH"),
+        .height = 7,
         .weight = 285,
-        .description = gAzumarillPokedexText,
+        .description = gJellymonPokedexText,
         .pokemonScale = 448,
         .pokemonOffset = 16,
         .trainerScale = 256,

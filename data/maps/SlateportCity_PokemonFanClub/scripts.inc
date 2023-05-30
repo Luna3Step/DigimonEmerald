@@ -246,7 +246,7 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_JELLYMON, CRY_MODE_NORMAL
 	msgbox SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT
 	waitmoncry
 	release

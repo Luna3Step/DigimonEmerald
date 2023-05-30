@@ -1102,11 +1102,11 @@ const u8 gJazamonPokedexText[] = _(
     "itself. It is wary of any objects that\n"
     "move in its peripheral vision.");
 
-const u8 gAzumarillPokedexText[] = _(
-    "It lives in water virtually all day long.\n"
-    "Its body color and pattern act as\n"
-    "camouflage that makes it tough for\n"
-    "enemies to spot in water.");
+const u8 gJellymonPokedexText[] = _(
+    "Rarely do Tamers actually pick Jellymon\n"
+    "as their partner but instead Jellymon\n"
+    "will just follow them until they relent.\n"
+    "It can also retract its body into its head.");
 
 const u8 gSudowoodoPokedexText[] = _(
     "It mimics a tree to avoid being attacked\n"

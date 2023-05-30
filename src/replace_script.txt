@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MARILL"
-with "FRONTIER_MON_JAZAMON"
+replace "FRONTIER_MON_AZUMARILL"
+with "FRONTIER_MON_JELLYMON"
 
-replace "gMarillPokedexText"
-with "gJazamonPokedexText"
+replace "gAzumarillPokedexText"
+with "gJellymonPokedexText"
 
-replace "NATIONAL_DEX_MARILL"
-with "NATIONAL_DEX_JAZAMON"
+replace "NATIONAL_DEX_AZUMARILL"
+with "NATIONAL_DEX_JELLYMON"
 
-replace "SPECIES_MARILL"
-with "SPECIES_JAZAMON"
+replace "SPECIES_AZUMARILL"
+with "SPECIES_JELLYMON"
 
-replace "HOENN_DEX_MARILL"
-with "HOENN_DEX_JAZAMON"
+replace "HOENN_DEX_AZUMARILL"
+with "HOENN_DEX_JELLYMON"
 
-replace "SPECIES_TO_HOENN(MARILL),"
-with "SPECIES_TO_HOENN(JAZAMON),"
+replace "SPECIES_TO_HOENN(AZUMARILL),"
+with "SPECIES_TO_HOENN(JELLYMON),"
 
-replace "SPECIES_TO_NATIONAL(MARILL),"
-with "SPECIES_TO_NATIONAL(JAZAMON),"
+replace "SPECIES_TO_NATIONAL(AZUMARILL),"
+with "SPECIES_TO_NATIONAL(JELLYMON),"
 
-replace "HOENN_TO_NATIONAL(MARILL),"
-with "HOENN_TO_NATIONAL(JAZAMON),"
+replace "HOENN_TO_NATIONAL(AZUMARILL),"
+with "HOENN_TO_NATIONAL(JELLYMON),"
 
-replace "EC_POKEMON_NATIONAL(MARILL),"
-with "EC_POKEMON_NATIONAL(JAZAMON),"
+replace "EC_POKEMON_NATIONAL(AZUMARILL),"
+with "EC_POKEMON_NATIONAL(JELLYMON),"
 
-replace "egg_moves(MARILL,"
-with "egg_moves(JAZAMON,"
+replace "egg_moves(AZUMARILL,"
+with "egg_moves(JELLYMON,"
 
-replace "sMarillLevelUpLearnset"
-with "sJazamonLevelUpLearnset"
+replace "sAzumarillLevelUpLearnset"
+with "sJellymonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MARILL"
-with "SPECIES_SPRITE(JAZAMON"
+replace "SPECIES_SPRITE(AZUMARILL"
+with "SPECIES_SPRITE(JELLYMON"
 
-replace "SPECIES_PAL(MARILL,"
-with "SPECIES_PAL(JAZAMON,"
+replace "SPECIES_PAL(AZUMARILL,"
+with "SPECIES_PAL(JELLYMON,"
 
-replace "SPECIES_SHINY_PAL(MARILL,"
-with "SPECIES_SHINY_PAL(JAZAMON,"
+replace "SPECIES_SHINY_PAL(AZUMARILL,"
+with "SPECIES_SHINY_PAL(JELLYMON,"
 
-replace "EC_POKEMON(MARILL)"
-with "EC_POKEMON(JAZAMON)"
+replace "EC_POKEMON(AZUMARILL)"
+with "EC_POKEMON(JELLYMON)"
 
-replace "EC_POKEMON_NATIONAL(MARILL)"
-with "EC_POKEMON_NATIONAL(JAZAMON)"
+replace "EC_POKEMON_NATIONAL(AZUMARILL)"
+with "EC_POKEMON_NATIONAL(JELLYMON)"
 
 in "src/data/text/species_names.h"
-replace "MARILL"
-with "JAZAMON"
+replace "AZUMARILL"
+with "JELLYMON"
