@@ -1668,12 +1668,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_OMASTAR] =
+    [NATIONAL_DEX_DORUMON] =
     {
-        .categoryName = _("SPIRAL"),
-        .height = 10,
-        .weight = 350,
-        .description = gOmastarPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 39,
+        .weight = 400,
+        .description = gDorumonPokedexText,
         .pokemonScale = 307,
         .pokemonOffset = 7,
         .trainerScale = 256,

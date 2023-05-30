@@ -832,11 +832,11 @@ const u8 gDondokomonPokedexText[] = _(
     "They love to pound out a rhythm that gets\n"
     "people stimulated and in a groove.");
 
-const u8 gOmastarPokedexText[] = _(
-    "An OMASTAR uses its tentacles to capture\n"
-    "its prey. It is believed to have become\n"
-    "extinct because its shell grew too large,\n"
-    "making its movements slow and ponderous.");
+const u8 gDorumonPokedexText[] = _(
+    "The current leading theory on this\n"
+    "Digimons origin is that was a 'Prototype\n"
+    "Digimon' from a long time ago. It has\n"
+    "incredible combat sense and instinct.");
 
 const u8 gKabutoPokedexText[] = _(
     "It is a POKéMON that has been regenerated\n"
