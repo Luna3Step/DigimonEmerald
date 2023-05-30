@@ -191,7 +191,7 @@
     FRONTIER_MON_SPINDA,        \
     FRONTIER_MON_PUPUMON,      \
     FRONTIER_MON_PUTTIMON,      \
-    FRONTIER_MON_FLAAFFY,       \
+    FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAGBY,         \
     FRONTIER_MON_NOSEPASS,      \
     FRONTIER_MON_CORSOLA,       \
@@ -377,7 +377,7 @@
     FRONTIER_MON_AIPOM,         \
     FRONTIER_MON_ELEKID,        \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_FLAAFFY,       \
+    FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAGBY,         \
     FRONTIER_MON_CORSOLA,       \
     FRONTIER_MON_MAWILE,        \
@@ -695,7 +695,7 @@
     FRONTIER_MON_SPOINK,        \
     FRONTIER_MON_ARON,          \
     FRONTIER_MON_ELEKID,        \
-    FRONTIER_MON_FLAAFFY,       \
+    FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAWILE,        \
     -1
 
@@ -935,7 +935,7 @@
     FRONTIER_MON_ELEKID,        \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_FLAAFFY,       \
+    FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAWILE,        \
     -1
 

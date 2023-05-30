@@ -10637,7 +10637,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_FLAAFFY,
+    .species = SPECIES_IGNITEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
     },

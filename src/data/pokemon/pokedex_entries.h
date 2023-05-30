@@ -2160,12 +2160,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FLAAFFY] =
+    [NATIONAL_DEX_IGNITEMON] =
     {
-        .categoryName = _("WOOL"),
-        .height = 8,
-        .weight = 133,
-        .description = gFlaaffyPokedexText,
+        .categoryName = _("REPTILE MAN"),
+        .height = 3,
+        .weight = 486,
+        .description = gIgnitemonPokedexText,
         .pokemonScale = 372,
         .pokemonOffset = 15,
         .trainerScale = 256,

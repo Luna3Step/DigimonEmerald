@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MAREEP"
-with "FRONTIER_MON_HYOKOMON"
+replace "FRONTIER_MON_FLAAFFY"
+with "FRONTIER_MON_IGNITEMON"
 
-replace "gMareepPokedexText"
-with "gHyokomonPokedexText"
+replace "gFlaaffyPokedexText"
+with "gIgnitemonPokedexText"
 
-replace "NATIONAL_DEX_MAREEP"
-with "NATIONAL_DEX_HYOKOMON"
+replace "NATIONAL_DEX_FLAAFFY"
+with "NATIONAL_DEX_IGNITEMON"
 
-replace "SPECIES_MAREEP"
-with "SPECIES_HYOKOMON"
+replace "SPECIES_FLAAFFY"
+with "SPECIES_IGNITEMON"
 
-replace "HOENN_DEX_MAREEP"
-with "HOENN_DEX_HYOKOMON"
+replace "HOENN_DEX_FLAAFFY"
+with "HOENN_DEX_IGNITEMON"
 
-replace "SPECIES_TO_HOENN(MAREEP),"
-with "SPECIES_TO_HOENN(HYOKOMON),"
+replace "SPECIES_TO_HOENN(FLAAFFY),"
+with "SPECIES_TO_HOENN(IGNITEMON),"
 
-replace "SPECIES_TO_NATIONAL(MAREEP),"
-with "SPECIES_TO_NATIONAL(HYOKOMON),"
+replace "SPECIES_TO_NATIONAL(FLAAFFY),"
+with "SPECIES_TO_NATIONAL(IGNITEMON),"
 
-replace "HOENN_TO_NATIONAL(MAREEP),"
-with "HOENN_TO_NATIONAL(HYOKOMON),"
+replace "HOENN_TO_NATIONAL(FLAAFFY),"
+with "HOENN_TO_NATIONAL(IGNITEMON),"
 
-replace "EC_POKEMON_NATIONAL(MAREEP),"
-with "EC_POKEMON_NATIONAL(HYOKOMON),"
+replace "EC_POKEMON_NATIONAL(FLAAFFY),"
+with "EC_POKEMON_NATIONAL(IGNITEMON),"
 
-replace "egg_moves(MAREEP,"
-with "egg_moves(HYOKOMON,"
+replace "egg_moves(FLAAFFY,"
+with "egg_moves(IGNITEMON,"
 
-replace "sMareepLevelUpLearnset"
-with "sHyokomonLevelUpLearnset"
+replace "sFlaaffyLevelUpLearnset"
+with "sIgnitemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MAREEP"
-with "SPECIES_SPRITE(HYOKOMON"
+replace "SPECIES_SPRITE(FLAAFFY"
+with "SPECIES_SPRITE(IGNITEMON"
 
-replace "SPECIES_PAL(MAREEP,"
-with "SPECIES_PAL(HYOKOMON,"
+replace "SPECIES_PAL(FLAAFFY,"
+with "SPECIES_PAL(IGNITEMON,"
 
-replace "SPECIES_SHINY_PAL(MAREEP,"
-with "SPECIES_SHINY_PAL(HYOKOMON,"
+replace "SPECIES_SHINY_PAL(FLAAFFY,"
+with "SPECIES_SHINY_PAL(IGNITEMON,"
 
-replace "EC_POKEMON(MAREEP)"
-with "EC_POKEMON(HYOKOMON)"
+replace "EC_POKEMON(FLAAFFY)"
+with "EC_POKEMON(IGNITEMON)"
 
-replace "EC_POKEMON_NATIONAL(MAREEP)"
-with "EC_POKEMON_NATIONAL(HYOKOMON)"
+replace "EC_POKEMON_NATIONAL(FLAAFFY)"
+with "EC_POKEMON_NATIONAL(IGNITEMON)"
 
 in "src/data/text/species_names.h"
-replace "MAREEP"
-with "Hyokomon"
+replace "FLAAFFY"
+with "Ignitemon"

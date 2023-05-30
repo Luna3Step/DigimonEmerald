@@ -1075,13 +1075,14 @@ const u8 gHerissmonPokedexText[] = _(
 const u8 gHyokomonPokedexText[] = _(
     "Its small size lead to Hyokomon often\n"
     "being mistaken as an In-Training Digimon\n"
-    "is looking to master its swordsmanship.");
+    "however it is a full-fledged Rookie who\n"
+    "is training to master its swordsmanship.");
 
-const u8 gFlaaffyPokedexText[] = _(
-    "Its fleece quality changes to generate\n"
-    "strong static electricity with a small\n"
-    "amount of wool. The bare, slick parts of its\n"
-    "hide are shielded against electricity.");
+const u8 gIgnitemonPokedexText[] = _(
+    "Ignitemon will spend its time playing\n"
+    "with Monitamon. During downtime, they will\n"
+    "also watch a comedy digitalk show. The\n"
+    "rest of its time is spent lazing about.");
 
 const u8 gAmpharosPokedexText[] = _(
     "It gives off so much light that it can be\n"

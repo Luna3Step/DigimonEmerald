@@ -4319,7 +4319,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM45_ATTRACT)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_FLAAFFY]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_IGNITEMON]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM16_LIGHT_SCREEN)

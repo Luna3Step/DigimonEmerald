@@ -2480,7 +2480,7 @@ static const u16 sHyokomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFlaaffyLevelUpLearnset[] = {
+static const u16 sIgnitemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
