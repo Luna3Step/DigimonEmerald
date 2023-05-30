@@ -964,11 +964,11 @@ const u8 gGaossmonPokedexText[] = _(
     "strong legs can outrun almost any Rookie \n"
     "and even some Champions.");
 
-const u8 gSentretPokedexText[] = _(
-    "They take turns standing guard when it\n"
-    "is time to sleep. The sentry awakens the\n"
-    "others if it senses danger. If one becomes\n"
-    "separated, it turns sleepless with fear.");
+const u8 gGazimonPokedexText[] = _(
+    "Although it is quite strong and aggressive,\n"
+    "this Digimon often finds itself as the\n"
+    "underlings of more powerful and cruel\n"
+    "Digimon like Etemon.");
 
 const u8 gFurretPokedexText[] = _(
     "A FURRET has a very slim build. When under\n"

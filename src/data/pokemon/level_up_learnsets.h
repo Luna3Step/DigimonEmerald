@@ -2229,7 +2229,7 @@ static const u16 sGaossmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSentretLevelUpLearnset[] = {
+static const u16 sGazimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 4, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 7, MOVE_QUICK_ATTACK),

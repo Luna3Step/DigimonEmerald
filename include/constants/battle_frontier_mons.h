@@ -17,7 +17,7 @@
 #define FRONTIER_MON_IGGLYBUFF      13
 #define FRONTIER_MON_WOOPER         14
 #define FRONTIER_MON_TYROGUE        15
-#define FRONTIER_MON_SENTRET        16
+#define FRONTIER_MON_GAZIMON        16
 #define FRONTIER_MON_CLEFFA         17
 #define FRONTIER_MON_SEEDOT         18
 #define FRONTIER_MON_LOTAD          19

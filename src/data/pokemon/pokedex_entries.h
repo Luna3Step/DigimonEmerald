@@ -1932,12 +1932,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_SENTRET] =
+    [NATIONAL_DEX_GAZIMON] =
     {
-        .categoryName = _("SCOUT"),
-        .height = 8,
-        .weight = 60,
-        .description = gSentretPokedexText,
+        .categoryName = _("MAMMAL"),
+        .height = 9,
+        .weight = 435,
+        .description = gGazimonPokedexText,
         .pokemonScale = 439,
         .pokemonOffset = 12,
         .trainerScale = 256,
