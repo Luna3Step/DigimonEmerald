@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_QUILAVA"
-with "FRONTIER_MON_GABUMON"
+replace "FRONTIER_MON_TYPHLOSION"
+with "FRONTIER_MON_GABUMON_X"
 
-replace "gQuilavaPokedexText"
-with "gGabumonPokedexText"
+replace "gTyphlosionPokedexText"
+with "gGabumon_xPokedexText"
 
-replace "NATIONAL_DEX_QUILAVA"
-with "NATIONAL_DEX_GABUMON"
+replace "NATIONAL_DEX_TYPHLOSION"
+with "NATIONAL_DEX_GABUMON_X"
 
-replace "SPECIES_QUILAVA"
-with "SPECIES_GABUMON"
+replace "SPECIES_TYPHLOSION"
+with "SPECIES_GABUMON_X"
 
-replace "HOENN_DEX_QUILAVA"
-with "HOENN_DEX_GABUMON"
+replace "HOENN_DEX_TYPHLOSION"
+with "HOENN_DEX_GABUMON_X"
 
-replace "SPECIES_TO_HOENN(QUILAVA),"
-with "SPECIES_TO_HOENN(GABUMON),"
+replace "SPECIES_TO_HOENN(TYPHLOSION),"
+with "SPECIES_TO_HOENN(GABUMON_X),"
 
-replace "SPECIES_TO_NATIONAL(QUILAVA),"
-with "SPECIES_TO_NATIONAL(GABUMON),"
+replace "SPECIES_TO_NATIONAL(TYPHLOSION),"
+with "SPECIES_TO_NATIONAL(GABUMON_X),"
 
-replace "HOENN_TO_NATIONAL(QUILAVA),"
-with "HOENN_TO_NATIONAL(GABUMON),"
+replace "HOENN_TO_NATIONAL(TYPHLOSION),"
+with "HOENN_TO_NATIONAL(GABUMON_X),"
 
-replace "EC_POKEMON_NATIONAL(QUILAVA),"
-with "EC_POKEMON_NATIONAL(GABUMON),"
+replace "EC_POKEMON_NATIONAL(TYPHLOSION),"
+with "EC_POKEMON_NATIONAL(GABUMON_X),"
 
-replace "egg_moves(QUILAVA,"
-with "egg_moves(GABUMON,"
+replace "egg_moves(TYPHLOSION,"
+with "egg_moves(GABUMON_X,"
 
-replace "sQuilavaLevelUpLearnset"
-with "sGabumonLevelUpLearnset"
+replace "sTyphlosionLevelUpLearnset"
+with "sGabumon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(QUILAVA"
-with "SPECIES_SPRITE(GABUMON"
+replace "SPECIES_SPRITE(TYPHLOSION"
+with "SPECIES_SPRITE(GABUMON_X"
 
-replace "SPECIES_PAL(QUILAVA,"
-with "SPECIES_PAL(GABUMON,"
+replace "SPECIES_PAL(TYPHLOSION,"
+with "SPECIES_PAL(GABUMON_X,"
 
-replace "SPECIES_SHINY_PAL(QUILAVA,"
-with "SPECIES_SHINY_PAL(GABUMON,"
+replace "SPECIES_SHINY_PAL(TYPHLOSION,"
+with "SPECIES_SHINY_PAL(GABUMON_X,"
 
-replace "EC_POKEMON(QUILAVA)"
-with "EC_POKEMON(GABUMON)"
+replace "EC_POKEMON(TYPHLOSION)"
+with "EC_POKEMON(GABUMON_X)"
 
-replace "EC_POKEMON_NATIONAL(QUILAVA)"
-with "EC_POKEMON_NATIONAL(GABUMON)"
+replace "EC_POKEMON_NATIONAL(TYPHLOSION)"
+with "EC_POKEMON_NATIONAL(GABUMON_X)"
 
 in "src/data/text/species_names.h"
-replace "QUILAVA"
+replace "TYPHLOSION"
 with "GABUMON"

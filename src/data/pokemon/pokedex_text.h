@@ -940,11 +940,11 @@ const u8 gGabumonPokedexText[] = _(
     "source of warmth and a defense mechanism\n"
     "against those scared of Garurumon.");
 
-const u8 gTyphlosionPokedexText[] = _(
-    "It can hide behind a shimmering heat haze\n"
-    "that it creates using its intense flames.\n"
-    "TYPHLOSION create blazing explosive\n"
-    "blasts that burn everything to cinders.");
+const u8 gGabumon_xPokedexText[] = _(
+    "When the pelt is off, Gabumon X is still\n"
+    "a shy and timid Digimon but once the it\n"
+    "is wearing the pelt, it becomes more \n"
+    "aggressive with a more rough fighting style.");
 
 const u8 gTotodilePokedexText[] = _(
     "Despite its small body, TOTODILE's jaws\n"

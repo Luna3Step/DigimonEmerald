@@ -1884,12 +1884,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TYPHLOSION] =
+    [NATIONAL_DEX_GABUMON_X] =
     {
-        .categoryName = _("VOLCANO"),
-        .height = 17,
+        .categoryName = _("X ANTIBODY"),
+        .height = 13,
         .weight = 795,
-        .description = gTyphlosionPokedexText,
+        .description = gGabumon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,
