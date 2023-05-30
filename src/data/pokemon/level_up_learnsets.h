@@ -2148,7 +2148,7 @@ static const u16 sFlamemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCyndaquilLevelUpLearnset[] = {
+static const u16 sFloramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 6, MOVE_SMOKESCREEN),

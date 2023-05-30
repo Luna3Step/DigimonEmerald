@@ -1860,12 +1860,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_CYNDAQUIL] =
+    [NATIONAL_DEX_FLORAMON] =
     {
-        .categoryName = _("FIRE MOUSE"),
-        .height = 5,
-        .weight = 79,
-        .description = gCyndaquilPokedexText,
+        .categoryName = _("FLORA"),
+        .height = 12,
+        .weight = 275,
+        .description = gFloramonPokedexText,
         .pokemonScale = 539,
         .pokemonOffset = 21,
         .trainerScale = 256,

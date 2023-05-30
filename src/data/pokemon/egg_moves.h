@@ -506,7 +506,7 @@ const u16 gEggMoves[] = {
               MOVE_INGRAIN,
               MOVE_GRASS_WHISTLE),
 
-    egg_moves(CYNDAQUIL,
+    egg_moves(FLORAMON,
               MOVE_FURY_SWIPES,
               MOVE_QUICK_ATTACK,
               MOVE_REVERSAL,

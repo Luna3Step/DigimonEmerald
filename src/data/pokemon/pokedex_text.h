@@ -928,11 +928,11 @@ const u8 gFlamemonPokedexText[] = _(
     "punch as it is still a being that has\n"
     "inherited the Human Spirit of Flame.");
 
-const u8 gCyndaquilPokedexText[] = _(
-    "It flares flames from its back to protect\n"
-    "itself. The fire burns vigorously if the\n"
-    "POKéMON is angry. When it is tired,\n"
-    "it sputters with incomplete combustion.");
+const u8 gFloramonPokedexText[] = _(
+    "Despite the fact that its whole body is\n"
+    "made of vegetation, it's head is \n"
+    "incredibly tough. The petals on its body\n"
+    "can open up wide when its feeling happy.");
 
 const u8 gQuilavaPokedexText[] = _(
     "It intimidates foes with intense gusts of\n"
