@@ -1084,11 +1084,11 @@ const u8 gIgnitemonPokedexText[] = _(
     "also watch a comedy digitalk show. The\n"
     "rest of its time is spent lazing about.");
 
-const u8 gAmpharosPokedexText[] = _(
-    "It gives off so much light that it can be\n"
-    "seen even from space. People in the old\n"
-    "days used its light to send signals back\n"
-    "and forth with others far away.");
+const u8 gImpmonPokedexText[] = _(
+    "Impmon loves seeing its opponents\n"
+    "embarrassed and will go to great lengths\n"
+    "to do so. Unlike many other Dark Digimon, \n"
+    "Impmon will stand up against the strong.");
 
 const u8 gBellossomPokedexText[] = _(
     "Its flower petals deepen in color through\n"

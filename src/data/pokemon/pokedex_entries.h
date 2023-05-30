@@ -2172,12 +2172,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_AMPHAROS] =
+    [NATIONAL_DEX_IMPMON] =
     {
-        .categoryName = _("LIGHT"),
-        .height = 14,
-        .weight = 615,
-        .description = gAmpharosPokedexText,
+        .categoryName = _("IMP"),
+        .height = 9,
+        .weight = 475,
+        .description = gImpmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,
