@@ -958,11 +958,11 @@ const u8 gGaomonPokedexText[] = _(
     "and away' where it inflicts a singular\n"
     "blow before retreating to confuse opponents.");
 
-const u8 gFeraligatrPokedexText[] = _(
-    "It opens its huge mouth to intimidate\n"
-    "enemies. In battle, it runs using its thick\n"
-    "and powerful hind legs to charge the\n"
-    "foe with incredible speed.");
+const u8 gGaossmonPokedexText[] = _(
+    "The only strong part of Gaossmon is its\n"
+    "competitive spirit and ability to bark. Its\n"
+    "strong legs can outrun almost any Rookie \n"
+    "and even some Champions.");
 
 const u8 gSentretPokedexText[] = _(
     "They take turns standing guard when it\n"

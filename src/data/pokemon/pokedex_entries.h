@@ -1920,12 +1920,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FERALIGATR] =
+    [NATIONAL_DEX_GAOSSMON] =
     {
         .categoryName = _("BIG JAW"),
-        .height = 23,
-        .weight = 888,
-        .description = gFeraligatrPokedexText,
+        .height = 8,
+        .weight = 492,
+        .description = gGaossmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 342,

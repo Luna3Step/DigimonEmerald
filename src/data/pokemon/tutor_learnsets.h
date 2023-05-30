@@ -2309,7 +2309,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_FURY_CUTTER)),
 
-    [SPECIES_FERALIGATR]       = (TUTOR(MOVE_MEGA_PUNCH)
+    [SPECIES_GAOSSMON]       = (TUTOR(MOVE_MEGA_PUNCH)
                                 | TUTOR(MOVE_SWORDS_DANCE)
                                 | TUTOR(MOVE_MEGA_KICK)
                                 | TUTOR(MOVE_BODY_SLAM)

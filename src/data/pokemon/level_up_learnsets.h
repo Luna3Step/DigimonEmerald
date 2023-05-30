@@ -2214,7 +2214,7 @@ static const u16 sGaomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFeraligatrLevelUpLearnset[] = {
+static const u16 sGaossmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_RAGE),

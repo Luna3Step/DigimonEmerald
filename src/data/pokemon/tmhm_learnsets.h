@@ -3834,7 +3834,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_FERALIGATR]  = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_GAOSSMON]  = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM02_DRAGON_CLAW)
                                         | TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM05_ROAR)
