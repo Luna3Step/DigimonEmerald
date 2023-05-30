@@ -1946,7 +1946,7 @@ static const u16 sDotagumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKabutopsLevelUpLearnset[] = {
+static const u16 sDotfalcmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
