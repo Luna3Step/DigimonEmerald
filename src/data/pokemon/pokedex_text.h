@@ -910,11 +910,11 @@ const u8 gFalcomonPokedexText[] = _(
     "Falcomon can barely fly and instead has\n"
     "incredibly strong legs for movement.");
 
-const u8 gChikoritaPokedexText[] = _(
-    "It waves its leaf around to keep foes\n"
-    "at bay. However, a sweet fragrance also\n"
-    "wafts from the leaf, creating a friendly\n"
-    "atmosphere that becalms the battlers.");
+const u8 gFalcomon_06PokedexText[] = _(
+    "These Falcomon are a subspecies of\n"
+    "Falcomon who have learnt to fly and have\n"
+    "a strong interest ninjutsu. They will use\n"
+    "their ability to fly to drop atop targets.");
 
 const u8 gBayleefPokedexText[] = _(
     "A BAYLEEF's neck is ringed by curled-up\n"

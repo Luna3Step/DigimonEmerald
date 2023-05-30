@@ -496,7 +496,7 @@ const u16 gEggMoves[] = {
               MOVE_DRAGON_BREATH,
               MOVE_DRAGON_DANCE),
 
-    egg_moves(CHIKORITA,
+    egg_moves(FALCOMON_06,
               MOVE_VINE_WHIP,
               MOVE_LEECH_SEED,
               MOVE_COUNTER,

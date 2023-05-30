@@ -1824,12 +1824,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CHIKORITA] =
+    [NATIONAL_DEX_FALCOMON_06] =
     {
-        .categoryName = _("LEAF"),
-        .height = 9,
-        .weight = 64,
-        .description = gChikoritaPokedexText,
+        .categoryName = _("NINJA BIRD"),
+        .height = 12,
+        .weight = 373,
+        .description = gFalcomon_06PokedexText,
         .pokemonScale = 512,
         .pokemonOffset = 20,
         .trainerScale = 256,

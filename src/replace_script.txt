@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MEW"
-with "FRONTIER_MON_FALCOMON"
+replace "FRONTIER_MON_CHIKORITA"
+with "FRONTIER_MON_FALCOMON_06"
 
-replace "gMewPokedexText"
-with "gFalcomonPokedexText"
+replace "gChikoritaPokedexText"
+with "gFalcomon_06PokedexText"
 
-replace "NATIONAL_DEX_MEW"
-with "NATIONAL_DEX_FALCOMON"
+replace "NATIONAL_DEX_CHIKORITA"
+with "NATIONAL_DEX_FALCOMON_06"
 
-replace "SPECIES_MEW"
-with "SPECIES_FALCOMON"
+replace "SPECIES_CHIKORITA"
+with "SPECIES_FALCOMON_06"
 
-replace "HOENN_DEX_MEW"
-with "HOENN_DEX_FALCOMON"
+replace "HOENN_DEX_CHIKORITA"
+with "HOENN_DEX_FALCOMON_06"
 
-replace "SPECIES_TO_HOENN(MEW),"
-with "SPECIES_TO_HOENN(FALCOMON),"
+replace "SPECIES_TO_HOENN(CHIKORITA),"
+with "SPECIES_TO_HOENN(FALCOMON_06),"
 
-replace "SPECIES_TO_NATIONAL(MEW),"
-with "SPECIES_TO_NATIONAL(FALCOMON),"
+replace "SPECIES_TO_NATIONAL(CHIKORITA),"
+with "SPECIES_TO_NATIONAL(FALCOMON_06),"
 
-replace "HOENN_TO_NATIONAL(MEW),"
-with "HOENN_TO_NATIONAL(FALCOMON),"
+replace "HOENN_TO_NATIONAL(CHIKORITA),"
+with "HOENN_TO_NATIONAL(FALCOMON_06),"
 
-replace "EC_POKEMON_NATIONAL(MEW),"
-with "EC_POKEMON_NATIONAL(FALCOMON),"
+replace "EC_POKEMON_NATIONAL(CHIKORITA),"
+with "EC_POKEMON_NATIONAL(FALCOMON_06),"
 
-replace "egg_moves(MEW,"
-with "egg_moves(FALCOMON,"
+replace "egg_moves(CHIKORITA,"
+with "egg_moves(FALCOMON_06,"
 
-replace "sMewLevelUpLearnset"
-with "sFalcomonLevelUpLearnset"
+replace "sChikoritaLevelUpLearnset"
+with "sFalcomon_06LevelUpLearnset"
 
-replace "SPECIES_SPRITE(MEW"
-with "SPECIES_SPRITE(FALCOMON"
+replace "SPECIES_SPRITE(CHIKORITA"
+with "SPECIES_SPRITE(FALCOMON_06"
 
-replace "SPECIES_PAL(MEW,"
-with "SPECIES_PAL(FALCOMON,"
+replace "SPECIES_PAL(CHIKORITA,"
+with "SPECIES_PAL(FALCOMON_06,"
 
-replace "SPECIES_SHINY_PAL(MEW,"
-with "SPECIES_SHINY_PAL(FALCOMON,"
+replace "SPECIES_SHINY_PAL(CHIKORITA,"
+with "SPECIES_SHINY_PAL(FALCOMON_06,"
 
-replace "EC_POKEMON(MEW)"
-with "EC_POKEMON(FALCOMON)"
+replace "EC_POKEMON(CHIKORITA)"
+with "EC_POKEMON(FALCOMON_06)"
 
-replace "EC_POKEMON_NATIONAL(MEW)"
-with "EC_POKEMON_NATIONAL(FALCOMON)"
+replace "EC_POKEMON_NATIONAL(CHIKORITA)"
+with "EC_POKEMON_NATIONAL(FALCOMON_06)"
 
 in "src/data/text/species_names.h"
-replace "MEW"
+replace "CHIKORITA"
 with "FALCOMON"

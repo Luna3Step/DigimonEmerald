@@ -320,7 +320,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita::
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
 	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	showmonpic SPECIES_CHIKORITA, 10, 3
+	showmonpic SPECIES_FALCOMON_06, 10, 3
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita
@@ -420,9 +420,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile::
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita::
-	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
-	setvar VAR_TEMP_1, SPECIES_CHIKORITA
-	givemon SPECIES_CHIKORITA, 5
+	bufferspeciesname STR_VAR_1, SPECIES_FALCOMON_06
+	setvar VAR_TEMP_1, SPECIES_FALCOMON_06
+	givemon SPECIES_FALCOMON_06, 5
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC
 	hidemonpic

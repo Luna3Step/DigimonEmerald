@@ -2102,7 +2102,7 @@ static const u16 sFalcomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sChikoritaLevelUpLearnset[] = {
+static const u16 sFalcomon_06LevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 8, MOVE_RAZOR_LEAF),
