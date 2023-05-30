@@ -976,11 +976,11 @@ const u8 gGazimon_xPokedexText[] = _(
     "and more intimidating. It's fighting \n"
     "also incorporates this more.");
 
-const u8 gHoothootPokedexText[] = _(
-    "It has an internal organ that senses\n"
-    "the earth's rotation. Using this special\n"
-    "organ, a HOOTHOOT begins hooting at\n"
-    "precisely the same time every day.");
+const u8 gGhostmonPokedexText[] = _(
+    "Ghostmon can often be seen floating over\n"
+    "graveyards. It is a very timid and shy\n"
+    "Digimon that can take months to befriend\n"
+    "however it will still help those in need.");
 
 const u8 gNoctowlPokedexText[] = _(
     "It unfailingly catches prey in darkness.\n"

@@ -536,7 +536,7 @@ const u16 gEggMoves[] = {
               MOVE_TRICK,
               MOVE_ASSIST),
 
-    egg_moves(HOOTHOOT,
+    egg_moves(GHOSTMON,
               MOVE_MIRROR_MOVE,
               MOVE_SUPERSONIC,
               MOVE_FAINT_ATTACK,

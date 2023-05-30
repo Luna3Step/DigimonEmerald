@@ -1956,12 +1956,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HOOTHOOT] =
+    [NATIONAL_DEX_GHOSTMON] =
     {
-        .categoryName = _("OWL"),
-        .height = 7,
-        .weight = 212,
-        .description = gHoothootPokedexText,
+        .categoryName = _("GHOST"),
+        .height = 10,
+        .weight = 78,
+        .description = gGhostmonPokedexText,
         .pokemonScale = 380,
         .pokemonOffset = -2,
         .trainerScale = 256,

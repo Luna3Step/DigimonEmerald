@@ -2257,7 +2257,7 @@ static const u16 sGazimon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHoothootLevelUpLearnset[] = {
+static const u16 sGhostmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 6, MOVE_FORESIGHT),

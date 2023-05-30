@@ -9553,7 +9553,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_GHOSTMON"
               },
               {
                 "min_level": 34,
@@ -9707,7 +9707,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_GHOSTMON"
               },
               {
                 "min_level": 34,
