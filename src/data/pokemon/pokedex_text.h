@@ -1090,11 +1090,11 @@ const u8 gImpmonPokedexText[] = _(
     "to do so. Unlike many other Dark Digimon, \n"
     "Impmon will stand up against the strong.");
 
-const u8 gBellossomPokedexText[] = _(
-    "Its flower petals deepen in color through\n"
-    "exposure to sunlight. When cloudy weather\n"
-    "persists, it does a dance that is thought\n"
-    "to be a ritual for summoning the sun.");
+const u8 gImpmon_xPokedexText[] = _(
+    "Although not much changes physically with\n"
+    "Impmon X, it is still a stronger opponent\n"
+    "due to have more confidence in itself. The\n"
+    "eyepatch is because of its chuuni persona.");
 
 const u8 gMarillPokedexText[] = _(
     "Its body is covered with water-repellent\n"

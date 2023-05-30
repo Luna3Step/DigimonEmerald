@@ -2184,12 +2184,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BELLOSSOM] =
+    [NATIONAL_DEX_IMPMON_X] =
     {
-        .categoryName = _("FLOWER"),
-        .height = 4,
-        .weight = 58,
-        .description = gBellossomPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 9,
+        .weight = 475,
+        .description = gImpmon_xPokedexText,
         .pokemonScale = 472,
         .pokemonOffset = 21,
         .trainerScale = 256,

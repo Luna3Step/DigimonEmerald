@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_AMPHAROS"
-with "FRONTIER_MON_IMPMON"
+replace "FRONTIER_MON_BELLOSSOM"
+with "FRONTIER_MON_IMPMON_X"
 
-replace "gAmpharosPokedexText"
-with "gImpmonPokedexText"
+replace "gBellossomPokedexText"
+with "gImpmon_xPokedexText"
 
-replace "NATIONAL_DEX_AMPHAROS"
-with "NATIONAL_DEX_IMPMON"
+replace "NATIONAL_DEX_BELLOSSOM"
+with "NATIONAL_DEX_IMPMON_X"
 
-replace "SPECIES_AMPHAROS"
-with "SPECIES_IMPMON"
+replace "SPECIES_BELLOSSOM"
+with "SPECIES_IMPMON_X"
 
-replace "HOENN_DEX_AMPHAROS"
-with "HOENN_DEX_IMPMON"
+replace "HOENN_DEX_BELLOSSOM"
+with "HOENN_DEX_IMPMON_X"
 
-replace "SPECIES_TO_HOENN(AMPHAROS),"
-with "SPECIES_TO_HOENN(IMPMON),"
+replace "SPECIES_TO_HOENN(BELLOSSOM),"
+with "SPECIES_TO_HOENN(IMPMON_X),"
 
-replace "SPECIES_TO_NATIONAL(AMPHAROS),"
-with "SPECIES_TO_NATIONAL(IMPMON),"
+replace "SPECIES_TO_NATIONAL(BELLOSSOM),"
+with "SPECIES_TO_NATIONAL(IMPMON_X),"
 
-replace "HOENN_TO_NATIONAL(AMPHAROS),"
-with "HOENN_TO_NATIONAL(IMPMON),"
+replace "HOENN_TO_NATIONAL(BELLOSSOM),"
+with "HOENN_TO_NATIONAL(IMPMON_X),"
 
-replace "EC_POKEMON_NATIONAL(AMPHAROS),"
-with "EC_POKEMON_NATIONAL(IMPMON),"
+replace "EC_POKEMON_NATIONAL(BELLOSSOM),"
+with "EC_POKEMON_NATIONAL(IMPMON_X),"
 
-replace "egg_moves(AMPHAROS,"
-with "egg_moves(IMPMON,"
+replace "egg_moves(BELLOSSOM,"
+with "egg_moves(IMPMON_X,"
 
-replace "sAmpharosLevelUpLearnset"
-with "sImpmonLevelUpLearnset"
+replace "sBellossomLevelUpLearnset"
+with "sImpmon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(AMPHAROS"
-with "SPECIES_SPRITE(IMPMON"
+replace "SPECIES_SPRITE(BELLOSSOM"
+with "SPECIES_SPRITE(IMPMON_X"
 
-replace "SPECIES_PAL(AMPHAROS,"
-with "SPECIES_PAL(IMPMON,"
+replace "SPECIES_PAL(BELLOSSOM,"
+with "SPECIES_PAL(IMPMON_X,"
 
-replace "SPECIES_SHINY_PAL(AMPHAROS,"
-with "SPECIES_SHINY_PAL(IMPMON,"
+replace "SPECIES_SHINY_PAL(BELLOSSOM,"
+with "SPECIES_SHINY_PAL(IMPMON_X,"
 
-replace "EC_POKEMON(AMPHAROS)"
-with "EC_POKEMON(IMPMON)"
+replace "EC_POKEMON(BELLOSSOM)"
+with "EC_POKEMON(IMPMON_X)"
 
-replace "EC_POKEMON_NATIONAL(AMPHAROS)"
-with "EC_POKEMON_NATIONAL(IMPMON)"
+replace "EC_POKEMON_NATIONAL(BELLOSSOM)"
+with "EC_POKEMON_NATIONAL(IMPMON_X)"
 
 in "src/data/text/species_names.h"
-replace "AMPHAROS"
+replace "BELLOSSOM"
 with "IMPMON"

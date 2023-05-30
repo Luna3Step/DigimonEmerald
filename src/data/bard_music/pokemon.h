@@ -1460,7 +1460,7 @@ const struct BardSound gBardSounds_Pokemon[NUM_SPECIES][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
-    [SPECIES_BELLOSSOM] = {
+    [SPECIES_IMPMON_X] = {
         { .songLengthId = 9 },
         { .songLengthId = 27 },
         { .songLengthId = 44 },
