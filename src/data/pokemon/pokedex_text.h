@@ -988,11 +988,11 @@ const u8 gGizamonPokedexText[] = _(
     "walk about on land however in water they\n"
     "quickly become a formidable opponent.");
 
-const u8 gLedybaPokedexText[] = _(
-    "LEDYBA communicate using a fluid that\n"
-    "they secrete from where the legs join the\n"
-    "body. They are said to convey feelings to\n"
-    "others by altering the fluid's scent.");
+const u8 gGizumonPokedexText[] = _(
+    "Despite it's large size, Gizumon is only\n"
+    "a Rookie level Digimon however its laser\n"
+    "has fire power that can compete with\n"
+    "Ultimates and even some Megas.");
 
 const u8 gLedianPokedexText[] = _(
     "It is said that in lands with clean air,\n"

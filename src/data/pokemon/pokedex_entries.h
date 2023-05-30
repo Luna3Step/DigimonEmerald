@@ -1980,12 +1980,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LEDYBA] =
+    [NATIONAL_DEX_GIZUMON] =
     {
-        .categoryName = _("FIVE STAR"),
-        .height = 10,
-        .weight = 108,
-        .description = gLedybaPokedexText,
+        .categoryName = _("ARTIFICIAL"),
+        .height = 43,
+        .weight = 954,
+        .description = gGizumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

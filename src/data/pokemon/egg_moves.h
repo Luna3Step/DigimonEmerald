@@ -545,7 +545,7 @@ const u16 gEggMoves[] = {
               MOVE_SKY_ATTACK,
               MOVE_FEATHER_DANCE),
 
-    egg_moves(LEDYBA,
+    egg_moves(GIZUMON,
               MOVE_PSYBEAM,
               MOVE_BIDE,
               MOVE_SILVER_WIND),

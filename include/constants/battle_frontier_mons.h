@@ -41,7 +41,7 @@
 #define FRONTIER_MON_NYOKIMON        37
 #define FRONTIER_MON_GHOSTMON       38
 #define FRONTIER_MON_BUDMON        39
-#define FRONTIER_MON_LEDYBA         40
+#define FRONTIER_MON_GIZUMON         40
 #define FRONTIER_MON_NINCADA        41
 #define FRONTIER_MON_SURSKIT        42
 #define FRONTIER_MON_SANDMON     43
