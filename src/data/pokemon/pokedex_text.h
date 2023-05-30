@@ -946,11 +946,11 @@ const u8 gGabumon_xPokedexText[] = _(
     "is wearing the pelt, it becomes more \n"
     "aggressive with a more rough fighting style.");
 
-const u8 gTotodilePokedexText[] = _(
-    "Despite its small body, TOTODILE's jaws\n"
-    "are very powerful. While it may think it is\n"
-    "just playfully nipping, its bite has enough\n"
-    "strength to cause serious injury.");
+const u8 gGammamonPokedexText[] = _(
+    "While Gammamon doesn't excel at anything, \n"
+    "it is still a heavily sought out Digimon as\n"
+    "it is both adorable and considered a \n"
+    "jack of all trades in battle.");
 
 const u8 gCroconawPokedexText[] = _(
     "Once its jaws clamp down on its foe, it will\n"

@@ -1896,12 +1896,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_TOTODILE] =
+    [NATIONAL_DEX_GAMMAMON] =
     {
-        .categoryName = _("BIG JAW"),
+        .categoryName = _("TRICERATOPS"),
         .height = 6,
-        .weight = 95,
-        .description = gTotodilePokedexText,
+        .weight = 475,
+        .description = gGammamonPokedexText,
         .pokemonScale = 487,
         .pokemonOffset = 20,
         .trainerScale = 256,

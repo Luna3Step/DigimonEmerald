@@ -516,7 +516,7 @@ const u16 gEggMoves[] = {
               MOVE_HOWL,
               MOVE_CRUSH_CLAW),
 
-    egg_moves(TOTODILE,
+    egg_moves(GAMMAMON,
               MOVE_CRUNCH,
               MOVE_THRASH,
               MOVE_HYDRO_PUMP,
