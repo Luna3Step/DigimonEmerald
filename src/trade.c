@@ -1502,7 +1502,7 @@ static u8 CheckValidityOfTradeMons(u8 *aliveMons, u8 playerPartyCount, u8 player
     partnerSpecies = GetMonData(&gEnemyParty[partnerMonIdx], MON_DATA_SPECIES);
 
     // Partner cant trade illegitimate Deoxys or Mew
-    if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_MEW)
+    if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_FALCOMON)
     {
         if (!GetMonData(&gEnemyParty[partnerMonIdx], MON_DATA_EVENT_LEGAL))
             return PARTNER_MON_INVALID;
@@ -2358,7 +2358,7 @@ static u32 CanTradeSelectedMon(struct Pokemon *playerParty, int partyCount, int 
         }
     }
 
-    if (species[monIdx] == SPECIES_DEOXYS || species[monIdx] == SPECIES_MEW)
+    if (species[monIdx] == SPECIES_DEOXYS || species[monIdx] == SPECIES_FALCOMON)
     {
         if (!GetMonData(&playerParty[monIdx], MON_DATA_EVENT_LEGAL))
             return CANT_TRADE_INVALID_MON;
@@ -2427,7 +2427,7 @@ s32 GetGameProgressForLinkTrade(void)
 
 static bool32 IsDeoxysOrMewUntradable(u16 species, bool8 isEventLegal)
 {
-    if (species == SPECIES_DEOXYS || species == SPECIES_MEW)
+    if (species == SPECIES_DEOXYS || species == SPECIES_FALCOMON)
     {
         if (!isEventLegal)
             return TRUE;

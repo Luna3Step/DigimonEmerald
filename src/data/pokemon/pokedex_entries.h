@@ -1812,12 +1812,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MEW] =
+    [NATIONAL_DEX_FALCOMON] =
     {
-        .categoryName = _("NEW SPECIES"),
-        .height = 4,
-        .weight = 40,
-        .description = gMewPokedexText,
+        .categoryName = _("FALCON"),
+        .height = 9,
+        .weight = 363,
+        .description = gFalcomonPokedexText,
         .pokemonScale = 457,
         .pokemonOffset = -2,
         .trainerScale = 256,

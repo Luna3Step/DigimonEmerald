@@ -2092,7 +2092,7 @@ static const u16 sAgumon_fake_expertLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMewLevelUpLearnset[] = {
+static const u16 sFalcomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE(10, MOVE_TRANSFORM),
     LEVEL_UP_MOVE(20, MOVE_MEGA_PUNCH),

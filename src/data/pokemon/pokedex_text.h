@@ -904,11 +904,11 @@ const u8 gAgumon_fake_expertPokedexText[] = _(
     "Digimon works. Many question if its own\n"
     "title is legitimate or just a fake.");
 
-const u8 gMewPokedexText[] = _(
-    "A MEW is said to possess the genes of all\n"
-    "POKéMON. It is capable of making itself\n"
-    "invisible at will, so it entirely avoids\n"
-    "notice even if it approaches people.");
+const u8 gFalcomonPokedexText[] = _(
+    "Despite the fact that it loves on tall\n"
+    "mountains and is full of Falcon Data, \n"
+    "Falcomon can barely fly and instead has\n"
+    "incredibly strong legs for movement.");
 
 const u8 gChikoritaPokedexText[] = _(
     "It waves its leaf around to keep foes\n"

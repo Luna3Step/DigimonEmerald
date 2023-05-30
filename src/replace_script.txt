@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MEWTWO"
-with "FRONTIER_MON_AGUMON_FAKE_EXPERT"
+replace "FRONTIER_MON_MEW"
+with "FRONTIER_MON_FALCOMON"
 
-replace "gMewtwoPokedexText"
-with "gAgumon_fake_expertPokedexText"
+replace "gMewPokedexText"
+with "gFalcomonPokedexText"
 
-replace "NATIONAL_DEX_MEWTWO"
-with "NATIONAL_DEX_AGUMON_FAKE_EXPERT"
+replace "NATIONAL_DEX_MEW"
+with "NATIONAL_DEX_FALCOMON"
 
-replace "SPECIES_MEWTWO"
-with "SPECIES_AGUMON_FAKE_EXPERT"
+replace "SPECIES_MEW"
+with "SPECIES_FALCOMON"
 
-replace "HOENN_DEX_MEWTWO"
-with "HOENN_DEX_AGUMON_FAKE_EXPERT"
+replace "HOENN_DEX_MEW"
+with "HOENN_DEX_FALCOMON"
 
-replace "SPECIES_TO_HOENN(MEWTWO),"
-with "SPECIES_TO_HOENN(AGUMON_FAKE_EXPERT),"
+replace "SPECIES_TO_HOENN(MEW),"
+with "SPECIES_TO_HOENN(FALCOMON),"
 
-replace "SPECIES_TO_NATIONAL(MEWTWO),"
-with "SPECIES_TO_NATIONAL(AGUMON_FAKE_EXPERT),"
+replace "SPECIES_TO_NATIONAL(MEW),"
+with "SPECIES_TO_NATIONAL(FALCOMON),"
 
-replace "HOENN_TO_NATIONAL(MEWTWO),"
-with "HOENN_TO_NATIONAL(AGUMON_FAKE_EXPERT),"
+replace "HOENN_TO_NATIONAL(MEW),"
+with "HOENN_TO_NATIONAL(FALCOMON),"
 
-replace "EC_POKEMON_NATIONAL(MEWTWO),"
-with "EC_POKEMON_NATIONAL(AGUMON_FAKE_EXPERT),"
+replace "EC_POKEMON_NATIONAL(MEW),"
+with "EC_POKEMON_NATIONAL(FALCOMON),"
 
-replace "egg_moves(MEWTWO,"
-with "egg_moves(AGUMON_FAKE_EXPERT,"
+replace "egg_moves(MEW,"
+with "egg_moves(FALCOMON,"
 
-replace "sMewtwoLevelUpLearnset"
-with "sAgumon_fake_expertLevelUpLearnset"
+replace "sMewLevelUpLearnset"
+with "sFalcomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MEWTWO"
-with "SPECIES_SPRITE(AGUMON_FAKE_EXPERT"
+replace "SPECIES_SPRITE(MEW"
+with "SPECIES_SPRITE(FALCOMON"
 
-replace "SPECIES_PAL(MEWTWO,"
-with "SPECIES_PAL(AGUMON_FAKE_EXPERT,"
+replace "SPECIES_PAL(MEW,"
+with "SPECIES_PAL(FALCOMON,"
 
-replace "SPECIES_SHINY_PAL(MEWTWO,"
-with "SPECIES_SHINY_PAL(AGUMON_FAKE_EXPERT,"
+replace "SPECIES_SHINY_PAL(MEW,"
+with "SPECIES_SHINY_PAL(FALCOMON,"
 
-replace "EC_POKEMON(MEWTWO)"
-with "EC_POKEMON(AGUMON_FAKE_EXPERT)"
+replace "EC_POKEMON(MEW)"
+with "EC_POKEMON(FALCOMON)"
 
-replace "EC_POKEMON_NATIONAL(MEWTWO)"
-with "EC_POKEMON_NATIONAL(AGUMON_FAKE_EXPERT)"
+replace "EC_POKEMON_NATIONAL(MEW)"
+with "EC_POKEMON_NATIONAL(FALCOMON)"
 
 in "src/data/text/species_names.h"
-replace "MEWTWO"
-with "NISEAGUMON"
+replace "MEW"
+with "FALCOMON"
