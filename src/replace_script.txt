@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_XATU"
-with "FRONTIER_MON_HERISSMON"
+replace "FRONTIER_MON_MAREEP"
+with "FRONTIER_MON_HYOKOMON"
 
-replace "gXatuPokedexText"
-with "gHerissmonPokedexText"
+replace "gMareepPokedexText"
+with "gHyokomonPokedexText"
 
-replace "NATIONAL_DEX_XATU"
-with "NATIONAL_DEX_HERISSMON"
+replace "NATIONAL_DEX_MAREEP"
+with "NATIONAL_DEX_HYOKOMON"
 
-replace "SPECIES_XATU"
-with "SPECIES_HERISSMON"
+replace "SPECIES_MAREEP"
+with "SPECIES_HYOKOMON"
 
-replace "HOENN_DEX_XATU"
-with "HOENN_DEX_HERISSMON"
+replace "HOENN_DEX_MAREEP"
+with "HOENN_DEX_HYOKOMON"
 
-replace "SPECIES_TO_HOENN(XATU),"
-with "SPECIES_TO_HOENN(HERISSMON),"
+replace "SPECIES_TO_HOENN(MAREEP),"
+with "SPECIES_TO_HOENN(HYOKOMON),"
 
-replace "SPECIES_TO_NATIONAL(XATU),"
-with "SPECIES_TO_NATIONAL(HERISSMON),"
+replace "SPECIES_TO_NATIONAL(MAREEP),"
+with "SPECIES_TO_NATIONAL(HYOKOMON),"
 
-replace "HOENN_TO_NATIONAL(XATU),"
-with "HOENN_TO_NATIONAL(HERISSMON),"
+replace "HOENN_TO_NATIONAL(MAREEP),"
+with "HOENN_TO_NATIONAL(HYOKOMON),"
 
-replace "EC_POKEMON_NATIONAL(XATU),"
-with "EC_POKEMON_NATIONAL(HERISSMON),"
+replace "EC_POKEMON_NATIONAL(MAREEP),"
+with "EC_POKEMON_NATIONAL(HYOKOMON),"
 
-replace "egg_moves(XATU,"
-with "egg_moves(HERISSMON,"
+replace "egg_moves(MAREEP,"
+with "egg_moves(HYOKOMON,"
 
-replace "sXatuLevelUpLearnset"
-with "sHerissmonLevelUpLearnset"
+replace "sMareepLevelUpLearnset"
+with "sHyokomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(XATU"
-with "SPECIES_SPRITE(HERISSMON"
+replace "SPECIES_SPRITE(MAREEP"
+with "SPECIES_SPRITE(HYOKOMON"
 
-replace "SPECIES_PAL(XATU,"
-with "SPECIES_PAL(HERISSMON,"
+replace "SPECIES_PAL(MAREEP,"
+with "SPECIES_PAL(HYOKOMON,"
 
-replace "SPECIES_SHINY_PAL(XATU,"
-with "SPECIES_SHINY_PAL(HERISSMON,"
+replace "SPECIES_SHINY_PAL(MAREEP,"
+with "SPECIES_SHINY_PAL(HYOKOMON,"
 
-replace "EC_POKEMON(XATU)"
-with "EC_POKEMON(HERISSMON)"
+replace "EC_POKEMON(MAREEP)"
+with "EC_POKEMON(HYOKOMON)"
 
-replace "EC_POKEMON_NATIONAL(XATU)"
-with "EC_POKEMON_NATIONAL(HERISSMON)"
+replace "EC_POKEMON_NATIONAL(MAREEP)"
+with "EC_POKEMON_NATIONAL(HYOKOMON)"
 
 in "src/data/text/species_names.h"
-replace "XATU"
-with "Herissmon"
+replace "MAREEP"
+with "Hyokomon"

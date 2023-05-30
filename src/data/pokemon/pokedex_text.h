@@ -1072,11 +1072,10 @@ const u8 gHerissmonPokedexText[] = _(
     "does not mean they lose focus as they\n"
     "will still be wary of their surroundings.");
 
-const u8 gMareepPokedexText[] = _(
-    "Its fluffy wool rubs together and builds\n"
-    "a static charge. The more energy is\n"
-    "charged, the more brightly the lightbulb\n"
-    "at the tip of its tail glows.");
+const u8 gHyokomonPokedexText[] = _(
+    "Its small size lead to Hyokomon often\n"
+    "being mistaken as an In-Training Digimon\n"
+    "is looking to master its swordsmanship.");
 
 const u8 gFlaaffyPokedexText[] = _(
     "Its fleece quality changes to generate\n"

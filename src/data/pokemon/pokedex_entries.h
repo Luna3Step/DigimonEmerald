@@ -2148,12 +2148,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MAREEP] =
+    [NATIONAL_DEX_HYOKOMON] =
     {
-        .categoryName = _("WOOL"),
-        .height = 6,
-        .weight = 78,
-        .description = gMareepPokedexText,
+        .categoryName = _("SAMURAI"),
+        .height = 8,
+        .weight = 297,
+        .description = gHyokomonPokedexText,
         .pokemonScale = 379,
         .pokemonOffset = 18,
         .trainerScale = 256,

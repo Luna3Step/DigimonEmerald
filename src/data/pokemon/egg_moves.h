@@ -608,7 +608,7 @@ const u16 gEggMoves[] = {
               MOVE_FEATHER_DANCE,
               MOVE_REFRESH),
 
-    egg_moves(MAREEP,
+    egg_moves(HYOKOMON,
               MOVE_TAKE_DOWN,
               MOVE_BODY_SLAM,
               MOVE_SAFEGUARD,

@@ -2469,7 +2469,7 @@ static const u16 sHerissmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMareepLevelUpLearnset[] = {
+static const u16 sHyokomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 9, MOVE_THUNDER_SHOCK),

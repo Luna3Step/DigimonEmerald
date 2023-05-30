@@ -50,7 +50,7 @@
 #define FRONTIER_MON_PUSUMON      46
 #define FRONTIER_MON_PUNIMON      47
 #define FRONTIER_MON_KIRLIA         48
-#define FRONTIER_MON_MAREEP         49
+#define FRONTIER_MON_HYOKOMON         49
 #define FRONTIER_MON_MEDITITE       50
 #define FRONTIER_MON_SLAKOTH        51
 #define FRONTIER_MON_ARGOMON_IT          52
