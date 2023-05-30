@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SNORLAX"
-with "FRONTIER_MON_DRACOMON"
+replace "FRONTIER_MON_ARTICUNO"
+with "FRONTIER_MON_DRACOMON_X"
 
-replace "gSnorlaxPokedexText"
-with "gDracomonPokedexText"
+replace "gArticunoPokedexText"
+with "gDracomon_xPokedexText"
 
-replace "NATIONAL_DEX_SNORLAX"
-with "NATIONAL_DEX_DRACOMON"
+replace "NATIONAL_DEX_ARTICUNO"
+with "NATIONAL_DEX_DRACOMON_X"
 
-replace "SPECIES_SNORLAX"
-with "SPECIES_DRACOMON"
+replace "SPECIES_ARTICUNO"
+with "SPECIES_DRACOMON_X"
 
-replace "HOENN_DEX_SNORLAX"
-with "HOENN_DEX_DRACOMON"
+replace "HOENN_DEX_ARTICUNO"
+with "HOENN_DEX_DRACOMON_X"
 
-replace "SPECIES_TO_HOENN(SNORLAX),"
-with "SPECIES_TO_HOENN(DRACOMON),"
+replace "SPECIES_TO_HOENN(ARTICUNO),"
+with "SPECIES_TO_HOENN(DRACOMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SNORLAX),"
-with "SPECIES_TO_NATIONAL(DRACOMON),"
+replace "SPECIES_TO_NATIONAL(ARTICUNO),"
+with "SPECIES_TO_NATIONAL(DRACOMON_X),"
 
-replace "HOENN_TO_NATIONAL(SNORLAX),"
-with "HOENN_TO_NATIONAL(DRACOMON),"
+replace "HOENN_TO_NATIONAL(ARTICUNO),"
+with "HOENN_TO_NATIONAL(DRACOMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SNORLAX),"
-with "EC_POKEMON_NATIONAL(DRACOMON),"
+replace "EC_POKEMON_NATIONAL(ARTICUNO),"
+with "EC_POKEMON_NATIONAL(DRACOMON_X),"
 
-replace "egg_moves(SNORLAX,"
-with "egg_moves(DRACOMON,"
+replace "egg_moves(ARTICUNO,"
+with "egg_moves(DRACOMON_X,"
 
-replace "sSnorlaxLevelUpLearnset"
-with "sDracomonLevelUpLearnset"
+replace "sArticunoLevelUpLearnset"
+with "sDracomon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SNORLAX"
-with "SPECIES_SPRITE(DRACOMON"
+replace "SPECIES_SPRITE(ARTICUNO"
+with "SPECIES_SPRITE(DRACOMON_X"
 
-replace "SPECIES_PAL(SNORLAX,"
-with "SPECIES_PAL(DRACOMON,"
+replace "SPECIES_PAL(ARTICUNO,"
+with "SPECIES_PAL(DRACOMON_X,"
 
-replace "SPECIES_SHINY_PAL(SNORLAX,"
-with "SPECIES_SHINY_PAL(DRACOMON,"
+replace "SPECIES_SHINY_PAL(ARTICUNO,"
+with "SPECIES_SHINY_PAL(DRACOMON_X,"
 
-replace "EC_POKEMON(SNORLAX)"
-with "EC_POKEMON(DRACOMON)"
+replace "EC_POKEMON(ARTICUNO)"
+with "EC_POKEMON(DRACOMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SNORLAX)"
-with "EC_POKEMON_NATIONAL(DRACOMON)"
+replace "EC_POKEMON_NATIONAL(ARTICUNO)"
+with "EC_POKEMON_NATIONAL(DRACOMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SNORLAX"
+replace "ARTICUNO"
 with "DRACOMON"

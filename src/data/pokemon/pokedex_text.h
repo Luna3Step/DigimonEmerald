@@ -862,11 +862,11 @@ const u8 gDracomonPokedexText[] = _(
     "all Dramon-type Digimon. It's body is also\n"
     "packed with incredible power for its size.");
 
-const u8 gArticunoPokedexText[] = _(
-    "ARTICUNO is a legendary bird POKéMON that\n"
-    "can control ice. The flapping of its wings\n"
-    "chills the air. As a result, it is said that\n"
-    "when this POKéMON flies, snow will fall.");
+const u8 gDracomon_xPokedexText[] = _(
+    "Dracomon X is a formidable foe with it now\n"
+    "gaining the ability of flight for a short\n"
+    "time and its wings now serving as weapons.\n"
+    "It can now also use wind based attacks.");
 
 const u8 gZapdosPokedexText[] = _(
     "ZAPDOS is a legendary bird POKéMON that\n"

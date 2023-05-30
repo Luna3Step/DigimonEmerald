@@ -1728,12 +1728,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 11,
     },
 
-    [NATIONAL_DEX_ARTICUNO] =
+    [NATIONAL_DEX_DRACOMON_X] =
     {
-        .categoryName = _("FREEZE"),
-        .height = 17,
-        .weight = 554,
-        .description = gArticunoPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 32,
+        .weight = 541,
+        .description = gDracomon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 309,

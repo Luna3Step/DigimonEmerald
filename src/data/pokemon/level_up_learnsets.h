@@ -1991,7 +1991,7 @@ static const u16 sDracomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sArticunoLevelUpLearnset[] = {
+static const u16 sDracomon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE(13, MOVE_MIST),
