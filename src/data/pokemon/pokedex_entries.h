@@ -1848,12 +1848,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MEGANIUM] =
+    [NATIONAL_DEX_FLAMEMON] =
     {
-        .categoryName = _("HERB"),
+        .categoryName = _("FLAME"),
         .height = 18,
-        .weight = 1005,
-        .description = gMeganiumPokedexText,
+        .weight = 397,
+        .description = gFlamemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 277,

@@ -922,11 +922,11 @@ const u8 gFanbeemonPokedexText[] = _(
     "when interacting with them as they can\n"
     "call the whole hive if threatened.");
 
-const u8 gMeganiumPokedexText[] = _(
-    "The fragrance of a MEGANIUM's flower\n"
-    "soothes and calms emotions. In battle,\n"
-    "it gives off more of its becalming scent\n"
-    "to blunt the foe's fighting spirit.");
+const u8 gFlamemonPokedexText[] = _(
+    "Flamemon is the weakened form of Agnuimon\n"
+    "however it can still pack an incredible\n"
+    "punch as it is still a being that has\n"
+    "inherited the Human Spirit of Flame.");
 
 const u8 gCyndaquilPokedexText[] = _(
     "It flares flames from its back to protect\n"
