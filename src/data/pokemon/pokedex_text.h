@@ -934,11 +934,11 @@ const u8 gFloramonPokedexText[] = _(
     "incredibly tough. The petals on its body\n"
     "can open up wide when its feeling happy.");
 
-const u8 gQuilavaPokedexText[] = _(
-    "It intimidates foes with intense gusts of\n"
-    "flames and superheated air. Its quick\n"
-    "nimbleness lets it dodge attacks even\n"
-    "while scorching an enemy.");
+const u8 gGabumonPokedexText[] = _(
+    "A Gabumons pelt is made of discarded\n"
+    "Garurumon data which acts as both a \n"
+    "source of warmth and a defense mechanism\n"
+    "against those scared of Garurumon.");
 
 const u8 gTyphlosionPokedexText[] = _(
     "It can hide behind a shimmering heat haze\n"

@@ -3266,7 +3266,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_QUILAVA,
+                                            .species = SPECIES_GABUMON,
                                             .heldItem = ITEM_CHARCOAL,
                                             .moves = {MOVE_QUICK_ATTACK, MOVE_FLAMETHROWER, MOVE_FLAME_WHEEL, MOVE_SWIFT},
                                             .hpEV = 6,

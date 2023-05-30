@@ -1872,12 +1872,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_QUILAVA] =
+    [NATIONAL_DEX_GABUMON] =
     {
-        .categoryName = _("VOLCANO"),
-        .height = 9,
-        .weight = 190,
-        .description = gQuilavaPokedexText,
+        .categoryName = _("PELT"),
+        .height = 13,
+        .weight = 469,
+        .description = gGabumonPokedexText,
         .pokemonScale = 329,
         .pokemonOffset = 11,
         .trainerScale = 256,

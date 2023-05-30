@@ -3733,7 +3733,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM50_OVERHEAT)
                                         | TMHM(HM01_CUT)),
 
-    [SPECIES_QUILAVA]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_GABUMON]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

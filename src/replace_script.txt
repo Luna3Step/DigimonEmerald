@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CYNDAQUIL"
-with "FRONTIER_MON_FLORAMON"
+replace "FRONTIER_MON_QUILAVA"
+with "FRONTIER_MON_GABUMON"
 
-replace "gCyndaquilPokedexText"
-with "gFloramonPokedexText"
+replace "gQuilavaPokedexText"
+with "gGabumonPokedexText"
 
-replace "NATIONAL_DEX_CYNDAQUIL"
-with "NATIONAL_DEX_FLORAMON"
+replace "NATIONAL_DEX_QUILAVA"
+with "NATIONAL_DEX_GABUMON"
 
-replace "SPECIES_CYNDAQUIL"
-with "SPECIES_FLORAMON"
+replace "SPECIES_QUILAVA"
+with "SPECIES_GABUMON"
 
-replace "HOENN_DEX_CYNDAQUIL"
-with "HOENN_DEX_FLORAMON"
+replace "HOENN_DEX_QUILAVA"
+with "HOENN_DEX_GABUMON"
 
-replace "SPECIES_TO_HOENN(CYNDAQUIL),"
-with "SPECIES_TO_HOENN(FLORAMON),"
+replace "SPECIES_TO_HOENN(QUILAVA),"
+with "SPECIES_TO_HOENN(GABUMON),"
 
-replace "SPECIES_TO_NATIONAL(CYNDAQUIL),"
-with "SPECIES_TO_NATIONAL(FLORAMON),"
+replace "SPECIES_TO_NATIONAL(QUILAVA),"
+with "SPECIES_TO_NATIONAL(GABUMON),"
 
-replace "HOENN_TO_NATIONAL(CYNDAQUIL),"
-with "HOENN_TO_NATIONAL(FLORAMON),"
+replace "HOENN_TO_NATIONAL(QUILAVA),"
+with "HOENN_TO_NATIONAL(GABUMON),"
 
-replace "EC_POKEMON_NATIONAL(CYNDAQUIL),"
-with "EC_POKEMON_NATIONAL(FLORAMON),"
+replace "EC_POKEMON_NATIONAL(QUILAVA),"
+with "EC_POKEMON_NATIONAL(GABUMON),"
 
-replace "egg_moves(CYNDAQUIL,"
-with "egg_moves(FLORAMON,"
+replace "egg_moves(QUILAVA,"
+with "egg_moves(GABUMON,"
 
-replace "sCyndaquilLevelUpLearnset"
-with "sFloramonLevelUpLearnset"
+replace "sQuilavaLevelUpLearnset"
+with "sGabumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CYNDAQUIL"
-with "SPECIES_SPRITE(FLORAMON"
+replace "SPECIES_SPRITE(QUILAVA"
+with "SPECIES_SPRITE(GABUMON"
 
-replace "SPECIES_PAL(CYNDAQUIL,"
-with "SPECIES_PAL(FLORAMON,"
+replace "SPECIES_PAL(QUILAVA,"
+with "SPECIES_PAL(GABUMON,"
 
-replace "SPECIES_SHINY_PAL(CYNDAQUIL,"
-with "SPECIES_SHINY_PAL(FLORAMON,"
+replace "SPECIES_SHINY_PAL(QUILAVA,"
+with "SPECIES_SHINY_PAL(GABUMON,"
 
-replace "EC_POKEMON(CYNDAQUIL)"
-with "EC_POKEMON(FLORAMON)"
+replace "EC_POKEMON(QUILAVA)"
+with "EC_POKEMON(GABUMON)"
 
-replace "EC_POKEMON_NATIONAL(CYNDAQUIL)"
-with "EC_POKEMON_NATIONAL(FLORAMON)"
+replace "EC_POKEMON_NATIONAL(QUILAVA)"
+with "EC_POKEMON_NATIONAL(GABUMON)"
 
 in "src/data/text/species_names.h"
-replace "CYNDAQUIL"
-with "FLORAMON"
+replace "QUILAVA"
+with "GABUMON"

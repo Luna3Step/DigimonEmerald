@@ -2234,7 +2234,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWIFT)
                                 | TUTOR(MOVE_DEFENSE_CURL)),
 
-    [SPECIES_QUILAVA]          = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_GABUMON]          = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_SUBSTITUTE)
