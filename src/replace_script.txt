@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LEDYBA"
-with "FRONTIER_MON_GIZUMON"
+replace "FRONTIER_MON_LEDIAN"
+with "FRONTIER_MON_GOBLIMON"
 
-replace "gLedybaPokedexText"
-with "gGizumonPokedexText"
+replace "gLedianPokedexText"
+with "gGoblimonPokedexText"
 
-replace "NATIONAL_DEX_LEDYBA"
-with "NATIONAL_DEX_GIZUMON"
+replace "NATIONAL_DEX_LEDIAN"
+with "NATIONAL_DEX_GOBLIMON"
 
-replace "SPECIES_LEDYBA"
-with "SPECIES_GIZUMON"
+replace "SPECIES_LEDIAN"
+with "SPECIES_GOBLIMON"
 
-replace "HOENN_DEX_LEDYBA"
-with "HOENN_DEX_GIZUMON"
+replace "HOENN_DEX_LEDIAN"
+with "HOENN_DEX_GOBLIMON"
 
-replace "SPECIES_TO_HOENN(LEDYBA),"
-with "SPECIES_TO_HOENN(GIZUMON),"
+replace "SPECIES_TO_HOENN(LEDIAN),"
+with "SPECIES_TO_HOENN(GOBLIMON),"
 
-replace "SPECIES_TO_NATIONAL(LEDYBA),"
-with "SPECIES_TO_NATIONAL(GIZUMON),"
+replace "SPECIES_TO_NATIONAL(LEDIAN),"
+with "SPECIES_TO_NATIONAL(GOBLIMON),"
 
-replace "HOENN_TO_NATIONAL(LEDYBA),"
-with "HOENN_TO_NATIONAL(GIZUMON),"
+replace "HOENN_TO_NATIONAL(LEDIAN),"
+with "HOENN_TO_NATIONAL(GOBLIMON),"
 
-replace "EC_POKEMON_NATIONAL(LEDYBA),"
-with "EC_POKEMON_NATIONAL(GIZUMON),"
+replace "EC_POKEMON_NATIONAL(LEDIAN),"
+with "EC_POKEMON_NATIONAL(GOBLIMON),"
 
-replace "egg_moves(LEDYBA,"
-with "egg_moves(GIZUMON,"
+replace "egg_moves(LEDIAN,"
+with "egg_moves(GOBLIMON,"
 
-replace "sLedybaLevelUpLearnset"
-with "sGizumonLevelUpLearnset"
+replace "sLedianLevelUpLearnset"
+with "sGoblimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LEDYBA"
-with "SPECIES_SPRITE(GIZUMON"
+replace "SPECIES_SPRITE(LEDIAN"
+with "SPECIES_SPRITE(GOBLIMON"
 
-replace "SPECIES_PAL(LEDYBA,"
-with "SPECIES_PAL(GIZUMON,"
+replace "SPECIES_PAL(LEDIAN,"
+with "SPECIES_PAL(GOBLIMON,"
 
-replace "SPECIES_SHINY_PAL(LEDYBA,"
-with "SPECIES_SHINY_PAL(GIZUMON,"
+replace "SPECIES_SHINY_PAL(LEDIAN,"
+with "SPECIES_SHINY_PAL(GOBLIMON,"
 
-replace "EC_POKEMON(LEDYBA)"
-with "EC_POKEMON(GIZUMON)"
+replace "EC_POKEMON(LEDIAN)"
+with "EC_POKEMON(GOBLIMON)"
 
-replace "EC_POKEMON_NATIONAL(LEDYBA)"
-with "EC_POKEMON_NATIONAL(GIZUMON)"
+replace "EC_POKEMON_NATIONAL(LEDIAN)"
+with "EC_POKEMON_NATIONAL(GOBLIMON)"
 
 in "src/data/text/species_names.h"
-replace "LEDYBA"
-with "GIZUMON"
+replace "LEDIAN"
+with "GOBLIMON"

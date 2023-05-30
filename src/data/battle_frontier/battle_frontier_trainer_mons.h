@@ -202,7 +202,7 @@
     FRONTIER_MON_TSUNOMON,          \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     -1
@@ -449,7 +449,7 @@
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     -1
@@ -478,7 +478,7 @@
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     -1
@@ -529,7 +529,7 @@
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     -1
@@ -562,7 +562,7 @@
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     -1
@@ -1383,7 +1383,7 @@
     -1
 
 #define FRONTIER_MONS_BUG_MANIAC_2 \
-    FRONTIER_MON_LEDIAN,        \
+    FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_ARIADOS,       \
     FRONTIER_MON_YANMA,         \
     FRONTIER_MON_VOLBEAT_1,     \

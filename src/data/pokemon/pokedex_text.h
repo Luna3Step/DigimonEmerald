@@ -994,11 +994,11 @@ const u8 gGizumonPokedexText[] = _(
     "has fire power that can compete with\n"
     "Ultimates and even some Megas.");
 
-const u8 gLedianPokedexText[] = _(
-    "It is said that in lands with clean air,\n"
-    "where the stars fill the sky, there live\n"
-    "many LEDIAN. For good reason, they use\n"
-    "the light of the stars as energy.");
+const u8 gGoblimonPokedexText[] = _(
+    "Goblimon is a devious Digimon that loves\n"
+    "to terrorise weaker Digimon. However \n"
+    "despite its personality, it will always\n"
+    "travel in groups and run when threatened.");
 
 const u8 gSpinarakPokedexText[] = _(
     "The web it spins can be considered its\n"

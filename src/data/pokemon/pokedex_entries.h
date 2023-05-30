@@ -1992,12 +1992,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LEDIAN] =
+    [NATIONAL_DEX_GOBLIMON] =
     {
-        .categoryName = _("FIVE STAR"),
-        .height = 14,
-        .weight = 356,
-        .description = gLedianPokedexText,
+        .categoryName = _("GOBLIN"),
+        .height = 24,
+        .weight = 525,
+        .description = gGoblimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 256,

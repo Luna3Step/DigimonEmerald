@@ -160,7 +160,7 @@
 #define FRONTIER_MON_TSUNOMON           156
 #define FRONTIER_MON_BEAUTIFLY      157
 #define FRONTIER_MON_DUSTOX         158
-#define FRONTIER_MON_LEDIAN         159
+#define FRONTIER_MON_GOBLIMON         159
 #define FRONTIER_MON_ARIADOS        160
 #define FRONTIER_MON_YANMA          161
 
