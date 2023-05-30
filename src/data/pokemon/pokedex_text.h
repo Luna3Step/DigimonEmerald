@@ -1054,11 +1054,11 @@ const u8 gHagurumonPokedexText[] = _(
     "of self and can send a virus to other\n"
     "Digimon to control them.");
 
-const u8 gTogeticPokedexText[] = _(
-    "It is said to be a POKéMON that brings good\n"
-    "fortune. When it spots someone who is pure\n"
-    "of heart, a TOGETIC appears and shares its\n"
-    "happiness with that person.");
+const u8 gHagurumon_xPokedexText[] = _(
+    "Hagurumon X is a pretty unique Digimon at\n"
+    "it has now grown 2 extra Digimon as a part\n"
+    "of it, named KoHagurumon. If these little\n"
+    "ones fall off, they can't act independently");
 
 const u8 gNatuPokedexText[] = _(
     "It runs up short trees that grow on the\n"

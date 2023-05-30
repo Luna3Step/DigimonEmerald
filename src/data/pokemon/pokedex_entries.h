@@ -2112,12 +2112,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TOGETIC] =
+    [NATIONAL_DEX_HAGURUMON_X] =
     {
-        .categoryName = _("HAPPINESS"),
-        .height = 6,
-        .weight = 32,
-        .description = gTogeticPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 18,
+        .weight = 853,
+        .description = gHagurumon_xPokedexText,
         .pokemonScale = 424,
         .pokemonOffset = 17,
         .trainerScale = 256,

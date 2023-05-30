@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TOGEPI"
-with "FRONTIER_MON_HAGURUMON"
+replace "FRONTIER_MON_TOGETIC"
+with "FRONTIER_MON_HAGURUMON_X"
 
-replace "gTogepiPokedexText"
-with "gHagurumonPokedexText"
+replace "gTogeticPokedexText"
+with "gHagurumon_xPokedexText"
 
-replace "NATIONAL_DEX_TOGEPI"
-with "NATIONAL_DEX_HAGURUMON"
+replace "NATIONAL_DEX_TOGETIC"
+with "NATIONAL_DEX_HAGURUMON_X"
 
-replace "SPECIES_TOGEPI"
-with "SPECIES_HAGURUMON"
+replace "SPECIES_TOGETIC"
+with "SPECIES_HAGURUMON_X"
 
-replace "HOENN_DEX_TOGEPI"
-with "HOENN_DEX_HAGURUMON"
+replace "HOENN_DEX_TOGETIC"
+with "HOENN_DEX_HAGURUMON_X"
 
-replace "SPECIES_TO_HOENN(TOGEPI),"
-with "SPECIES_TO_HOENN(HAGURUMON),"
+replace "SPECIES_TO_HOENN(TOGETIC),"
+with "SPECIES_TO_HOENN(HAGURUMON_X),"
 
-replace "SPECIES_TO_NATIONAL(TOGEPI),"
-with "SPECIES_TO_NATIONAL(HAGURUMON),"
+replace "SPECIES_TO_NATIONAL(TOGETIC),"
+with "SPECIES_TO_NATIONAL(HAGURUMON_X),"
 
-replace "HOENN_TO_NATIONAL(TOGEPI),"
-with "HOENN_TO_NATIONAL(HAGURUMON),"
+replace "HOENN_TO_NATIONAL(TOGETIC),"
+with "HOENN_TO_NATIONAL(HAGURUMON_X),"
 
-replace "EC_POKEMON_NATIONAL(TOGEPI),"
-with "EC_POKEMON_NATIONAL(HAGURUMON),"
+replace "EC_POKEMON_NATIONAL(TOGETIC),"
+with "EC_POKEMON_NATIONAL(HAGURUMON_X),"
 
-replace "egg_moves(TOGEPI,"
-with "egg_moves(HAGURUMON,"
+replace "egg_moves(TOGETIC,"
+with "egg_moves(HAGURUMON_X,"
 
-replace "sTogepiLevelUpLearnset"
-with "sHagurumonLevelUpLearnset"
+replace "sTogeticLevelUpLearnset"
+with "sHagurumon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TOGEPI"
-with "SPECIES_SPRITE(HAGURUMON"
+replace "SPECIES_SPRITE(TOGETIC"
+with "SPECIES_SPRITE(HAGURUMON_X"
 
-replace "SPECIES_PAL(TOGEPI,"
-with "SPECIES_PAL(HAGURUMON,"
+replace "SPECIES_PAL(TOGETIC,"
+with "SPECIES_PAL(HAGURUMON_X,"
 
-replace "SPECIES_SHINY_PAL(TOGEPI,"
-with "SPECIES_SHINY_PAL(HAGURUMON,"
+replace "SPECIES_SHINY_PAL(TOGETIC,"
+with "SPECIES_SHINY_PAL(HAGURUMON_X,"
 
-replace "EC_POKEMON(TOGEPI)"
-with "EC_POKEMON(HAGURUMON)"
+replace "EC_POKEMON(TOGETIC)"
+with "EC_POKEMON(HAGURUMON_X)"
 
-replace "EC_POKEMON_NATIONAL(TOGEPI)"
-with "EC_POKEMON_NATIONAL(HAGURUMON)"
+replace "EC_POKEMON_NATIONAL(TOGETIC)"
+with "EC_POKEMON_NATIONAL(HAGURUMON_X)"
 
 in "src/data/text/species_names.h"
-replace "TOGEPI"
+replace "TOGETIC"
 with "HAGURUMON"

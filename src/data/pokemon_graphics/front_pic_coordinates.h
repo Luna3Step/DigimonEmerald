@@ -180,7 +180,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_GUMDRAMON]      = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 20 },
     [SPECIES_HACKMON]   = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 18 },
     [SPECIES_HAGURUMON]      = { .size = MON_COORDS_SIZE(24, 32), .y_offset = 20 },
-    [SPECIES_TOGETIC]     = { .size = MON_COORDS_SIZE(32, 48), .y_offset =  9 },
+    [SPECIES_HAGURUMON_X]     = { .size = MON_COORDS_SIZE(32, 48), .y_offset =  9 },
     [SPECIES_NATU]        = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 20 },
     [SPECIES_XATU]        = { .size = MON_COORDS_SIZE(32, 56), .y_offset =  7 },
     [SPECIES_MAREEP]      = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 16 },
