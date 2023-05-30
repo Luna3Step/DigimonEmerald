@@ -463,7 +463,7 @@ const u16 gEggMoves[] = {
               MOVE_ROCK_SLIDE,
               MOVE_SPIKES),
 
-    egg_moves(KABUTO,
+    egg_moves(DOTAGUMON,
               MOVE_BUBBLE_BEAM,
               MOVE_AURORA_BEAM,
               MOVE_RAPID_SPIN,

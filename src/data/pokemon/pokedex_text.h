@@ -833,16 +833,16 @@ const u8 gDondokomonPokedexText[] = _(
     "people stimulated and in a groove.");
 
 const u8 gDorumonPokedexText[] = _(
-    "The current leading theory on this\n"
-    "Digimons origin is that was a 'Prototype\n"
-    "Digimon' from a long time ago. It has\n"
+    "The current leading theory on Dorumons\n"
+    "origin is that was a 'Prototype Digimon'\n"
+    "from a long time ago. It has an\n"
     "incredible combat sense and instinct.");
 
-const u8 gKabutoPokedexText[] = _(
-    "It is a POKéMON that has been regenerated\n"
-    "from a fossil. However, in rare cases, living\n"
-    "examples have been discovered. KABUTO\n"
-    "have not changed for 300 million years.");
+const u8 gDotagumonPokedexText[] = _(
+    "DotAgumon is rare form of Agumon that happens\n"
+    "when an Agumon takes in too much data from\n"
+    "keychain games. It's power is the exact\n"
+    "same as Agumon but its potential is unknown.");
 
 const u8 gKabutopsPokedexText[] = _(
     "KABUTOPS once swam underwater to hunt \n"

@@ -825,7 +825,7 @@ const u16 gEasyChatWordsByLetter_J[] = {
 };
 
 const u16 gEasyChatWordsByLetter_K[] = {
-    EC_POKEMON_NATIONAL(KABUTO),
+    EC_POKEMON_NATIONAL(DOTAGUMON),
     EC_POKEMON_NATIONAL(KABUTOPS),
     DOUBLE_SPECIES_NAME
     EC_POKEMON(KAKKINMON),

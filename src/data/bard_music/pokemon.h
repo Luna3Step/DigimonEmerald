@@ -1124,7 +1124,7 @@ const struct BardSound gBardSounds_Pokemon[NUM_SPECIES][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
-    [SPECIES_KABUTO] = {
+    [SPECIES_DOTAGUMON] = {
         { .songLengthId = 42 },
         { .songLengthId = 39 },
         { .songLengthId = 26 },
@@ -1132,7 +1132,7 @@ const struct BardSound gBardSounds_Pokemon[NUM_SPECIES][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
-    [SPECIES_KABUTOPS] = {
+    [SPECIES_DOTAGUMONPS] = {
         { .songLengthId = 42 },
         { .songLengthId = 39 },
         { .songLengthId = 21 },

@@ -4623,23 +4623,24 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_KABUTO] =
+    [SPECIES_DOTAGUMON] =
     {
-        .baseHP        = 30,
-        .baseAttack    = 80,
-        .baseDefense   = 90,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 45,
-        .type1 = TYPE_ROCK,
-        .type2 = TYPE_WATER,
-        .catchRate = 45,
-        .expYield = 119,
-        .evYield_HP        = 0,
-        .evYield_Attack    = 0,
-        .evYield_Defense   = 1,
+        .baseHP        = 55,
+        .baseAttack    = 67,
+        .baseDefense   = 48,
+        .baseSpeed     = 46,
+        .baseSpAttack  = 68,
+        .baseSpDefense = 48,
+        .type1 = TYPE_FIRE,
+        .type2 = TYPE_NORMAL,
+        .type3 = TYPE_FREE,
+        .catchRate = 155,
+        .expYield = 100,
+        .evYield_HP        = 1,
+        .evYield_Attack    = 1,
+        .evYield_Defense   = 0,
         .evYield_Speed     = 0,
-        .evYield_SpAttack  = 0,
+        .evYield_SpAttack  = 1,
         .evYield_SpDefense = 0,
         .itemCommon = ITEM_NONE,
         .itemRare   = ITEM_NONE,
@@ -4651,11 +4652,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroup2 = EGG_GROUP_WATER_3,
         .abilities = {ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR},
         .safariZoneFleeRate = 0,
-        .bodyColor = BODY_COLOR_BROWN,
+        .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
 
-    [SPECIES_KABUTOPS] =
+    [SPECIES_DOTAGUMONPS] =
     {
         .baseHP        = 60,
         .baseAttack    = 115,

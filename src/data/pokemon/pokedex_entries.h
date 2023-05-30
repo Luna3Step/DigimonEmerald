@@ -1680,19 +1680,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KABUTO] =
+    [NATIONAL_DEX_DOTAGUMON] =
     {
-        .categoryName = _("SHELLFISH"),
-        .height = 5,
+        .categoryName = _("8 BIT"),
+        .height = 10,
         .weight = 115,
-        .description = gKabutoPokedexText,
+        .description = gDotagumonPokedexText,
         .pokemonScale = 454,
         .pokemonOffset = 21,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KABUTOPS] =
+    [NATIONAL_DEX_DOTAGUMONPS] =
     {
         .categoryName = _("SHELLFISH"),
         .height = 13,
