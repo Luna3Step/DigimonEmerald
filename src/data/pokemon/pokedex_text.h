@@ -1006,11 +1006,11 @@ const u8 gGomamonPokedexText[] = _(
     "up not using them in battle but treating\n"
     "them more like younger siblings.");
 
-const u8 gAriadosPokedexText[] = _(
-    "Its feet are tipped with tiny hooked claws\n"
-    "that enable it to scuttle on ceilings and\n"
-    "vertical walls. It constricts its foe with\n"
-    "thin and strong silk webbing.");
+const u8 gGomamon_xPokedexText[] = _(
+    "While still adorable, Gomamon X is not as\n"
+    "child-like and now boasts incredible power\n"
+    "for its tiny size. It has also well adapted\n"
+    "land despite its lower body not changing much.");
 
 const u8 gCrobatPokedexText[] = _(
     "Over the course of evolution, its hind legs\n"

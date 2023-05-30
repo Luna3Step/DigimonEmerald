@@ -1120,8 +1120,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_BASHFUL
     },
-    [FRONTIER_MON_ARIADOS] = {
-        .species = SPECIES_ARIADOS,
+    [FRONTIER_MON_GOMAMON_X] = {
+        .species = SPECIES_GOMAMON_X,
         .moves = {MOVE_SIGNAL_BEAM, MOVE_SPIDER_WEB, MOVE_NIGHT_SHADE, MOVE_TOXIC},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

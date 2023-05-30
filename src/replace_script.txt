@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SPINARAK"
-with "FRONTIER_MON_GOMAMON"
+replace "FRONTIER_MON_ARIADOS"
+with "FRONTIER_MON_GOMAMON_X"
 
-replace "gSpinarakPokedexText"
-with "gGomamonPokedexText"
+replace "gAriadosPokedexText"
+with "gGomamon_xPokedexText"
 
-replace "NATIONAL_DEX_SPINARAK"
-with "NATIONAL_DEX_GOMAMON"
+replace "NATIONAL_DEX_ARIADOS"
+with "NATIONAL_DEX_GOMAMON_X"
 
-replace "SPECIES_SPINARAK"
-with "SPECIES_GOMAMON"
+replace "SPECIES_ARIADOS"
+with "SPECIES_GOMAMON_X"
 
-replace "HOENN_DEX_SPINARAK"
-with "HOENN_DEX_GOMAMON"
+replace "HOENN_DEX_ARIADOS"
+with "HOENN_DEX_GOMAMON_X"
 
-replace "SPECIES_TO_HOENN(SPINARAK),"
-with "SPECIES_TO_HOENN(GOMAMON),"
+replace "SPECIES_TO_HOENN(ARIADOS),"
+with "SPECIES_TO_HOENN(GOMAMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SPINARAK),"
-with "SPECIES_TO_NATIONAL(GOMAMON),"
+replace "SPECIES_TO_NATIONAL(ARIADOS),"
+with "SPECIES_TO_NATIONAL(GOMAMON_X),"
 
-replace "HOENN_TO_NATIONAL(SPINARAK),"
-with "HOENN_TO_NATIONAL(GOMAMON),"
+replace "HOENN_TO_NATIONAL(ARIADOS),"
+with "HOENN_TO_NATIONAL(GOMAMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SPINARAK),"
-with "EC_POKEMON_NATIONAL(GOMAMON),"
+replace "EC_POKEMON_NATIONAL(ARIADOS),"
+with "EC_POKEMON_NATIONAL(GOMAMON_X),"
 
-replace "egg_moves(SPINARAK,"
-with "egg_moves(GOMAMON,"
+replace "egg_moves(ARIADOS,"
+with "egg_moves(GOMAMON_X,"
 
-replace "sSpinarakLevelUpLearnset"
-with "sGomamonLevelUpLearnset"
+replace "sAriadosLevelUpLearnset"
+with "sGomamon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SPINARAK"
-with "SPECIES_SPRITE(GOMAMON"
+replace "SPECIES_SPRITE(ARIADOS"
+with "SPECIES_SPRITE(GOMAMON_X"
 
-replace "SPECIES_PAL(SPINARAK,"
-with "SPECIES_PAL(GOMAMON,"
+replace "SPECIES_PAL(ARIADOS,"
+with "SPECIES_PAL(GOMAMON_X,"
 
-replace "SPECIES_SHINY_PAL(SPINARAK,"
-with "SPECIES_SHINY_PAL(GOMAMON,"
+replace "SPECIES_SHINY_PAL(ARIADOS,"
+with "SPECIES_SHINY_PAL(GOMAMON_X,"
 
-replace "EC_POKEMON(SPINARAK)"
-with "EC_POKEMON(GOMAMON)"
+replace "EC_POKEMON(ARIADOS)"
+with "EC_POKEMON(GOMAMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SPINARAK)"
-with "EC_POKEMON_NATIONAL(GOMAMON)"
+replace "EC_POKEMON_NATIONAL(ARIADOS)"
+with "EC_POKEMON_NATIONAL(GOMAMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SPINARAK"
+replace "ARIADOS"
 with "GOMAMON"

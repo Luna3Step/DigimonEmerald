@@ -149,7 +149,7 @@
     FRONTIER_MON_PUTTIMON,      \
     FRONTIER_MON_KEEMON,      \
     FRONTIER_MON_DUSTOX,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     -1
 
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
@@ -203,7 +203,7 @@
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     -1
 
@@ -450,7 +450,7 @@
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     -1
 
@@ -479,7 +479,7 @@
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     -1
 
@@ -530,7 +530,7 @@
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     -1
 
@@ -563,7 +563,7 @@
     FRONTIER_MON_BEAUTIFLY,     \
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     -1
 
@@ -1384,7 +1384,7 @@
 
 #define FRONTIER_MONS_BUG_MANIAC_2 \
     FRONTIER_MON_GOBLIMON,        \
-    FRONTIER_MON_ARIADOS,       \
+    FRONTIER_MON_GOMAMON_X,       \
     FRONTIER_MON_YANMA,         \
     FRONTIER_MON_VOLBEAT_1,     \
     FRONTIER_MON_ILLUMISE_1,    \

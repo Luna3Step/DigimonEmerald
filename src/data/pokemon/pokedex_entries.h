@@ -2016,12 +2016,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARIADOS] =
+    [NATIONAL_DEX_GOMAMON_X] =
     {
-        .categoryName = _("LONG LEG"),
-        .height = 11,
-        .weight = 335,
-        .description = gAriadosPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 6,
+        .weight = 575,
+        .description = gGomamon_xPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 8,
         .trainerScale = 256,

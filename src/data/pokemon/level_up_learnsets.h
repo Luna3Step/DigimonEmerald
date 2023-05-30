@@ -2328,7 +2328,7 @@ static const u16 sGomamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAriadosLevelUpLearnset[] = {
+static const u16 sGomamon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 1, MOVE_SCARY_FACE),
