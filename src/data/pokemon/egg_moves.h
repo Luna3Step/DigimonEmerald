@@ -480,7 +480,7 @@ const u16 gEggMoves[] = {
               MOVE_DRAGON_BREATH,
               MOVE_CURSE),
 
-    egg_moves(SNORLAX,
+    egg_moves(DRACOMON,
               MOVE_LICK,
               MOVE_CHARM,
               MOVE_DOUBLE_EDGE,

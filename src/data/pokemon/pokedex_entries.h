@@ -1716,12 +1716,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_SNORLAX] =
+    [NATIONAL_DEX_DRACOMON] =
     {
-        .categoryName = _("SLEEPING"),
-        .height = 21,
-        .weight = 4600,
-        .description = gSnorlaxPokedexText,
+        .categoryName = _("DRAMON"),
+        .height = 30,
+        .weight = 574,
+        .description = gDracomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 423,

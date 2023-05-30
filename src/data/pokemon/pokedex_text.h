@@ -856,11 +856,11 @@ const u8 gDracmonPokedexText[] = _(
     "will do any prank from graffitiing the\n"
     "soveriegns to scaring fresh born Digimon.");
 
-const u8 gSnorlaxPokedexText[] = _(
-    "SNORLAX's typical day consists of nothing\n"
-    "more than eating and sleeping. It is such\n"
-    "a docile POKéMON that there are children\n"
-    "who use its big belly as a place to play.");
+const u8 gDracomonPokedexText[] = _(
+    "Dracomon is an ancient, pure-blooded Digimon\n"
+    "that is thought to be the progenitor of\n"
+    "all Dramon-type Digimon. It's body is also\n"
+    "packed with incredible power for its size.");
 
 const u8 gArticunoPokedexText[] = _(
     "ARTICUNO is a legendary bird POKéMON that\n"

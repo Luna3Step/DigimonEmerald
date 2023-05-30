@@ -117,7 +117,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_FIRE_BLAST, MOVE_CALM_MIND, MOVE_RETURN, MOVE_ROAR},
             },
             {
-                .species = SPECIES_SNORLAX,
+                .species = SPECIES_DRACOMON,
                 .heldItem = ITEM_QUICK_CLAW,
                 .fixedIV = 24,
                 .nature = NATURE_ADAMANT,
@@ -144,7 +144,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_RECOVER, MOVE_DRAGON_CLAW},
             },
             {
-                .species = SPECIES_SNORLAX,
+                .species = SPECIES_DRACOMON,
                 .heldItem = ITEM_CHESTO_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_ADAMANT,
