@@ -844,11 +844,11 @@ const u8 gDotagumonPokedexText[] = _(
     "keychain games. It's power is the exact\n"
     "same as Agumon but its potential is unknown.");
 
-const u8 gKabutopsPokedexText[] = _(
-    "KABUTOPS once swam underwater to hunt \n"
-    "for prey. It was apparently evolving from\n"
-    "being a water dweller to living on land as\n"
-    "evident from changes in its gills and legs.");
+const u8 gDotfalcmonPokedexText[] = _(
+    "In a similiar fashion to DotAgumon,\n"
+    "DotFalcomon is caused when a Falcomon takes\n"
+    "in too much data from a keychain game. It's\n"
+    "unknown if it can actually evolve or not.");
 
 const u8 gAerodactylPokedexText[] = _(
     "AERODACTYL is a POKéMON from the age\n"

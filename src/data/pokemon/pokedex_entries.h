@@ -1692,12 +1692,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DOTAGUMONPS] =
+    [NATIONAL_DEX_DOTFALCMON] =
     {
-        .categoryName = _("SHELLFISH"),
-        .height = 13,
-        .weight = 405,
-        .description = gKabutopsPokedexText,
+        .categoryName = _("8 BIT"),
+        .height = 30,
+        .weight = 107,
+        .description = gDotfalcmonPokedexText,
         .pokemonScale = 271,
         .pokemonOffset = 3,
         .trainerScale = 256,
