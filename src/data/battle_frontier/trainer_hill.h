@@ -888,7 +888,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                     },
                     [5] =
                     {
-                        .species = SPECIES_TOGEPI,
+                        .species = SPECIES_HAGURUMON,
                         .heldItem = ITEM_SITRUS_BERRY,
                         .moves = {MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_FOLLOW_ME, MOVE_METRONOME},
                         .hpEV = 252,

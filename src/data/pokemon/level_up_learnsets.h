@@ -2417,7 +2417,7 @@ static const u16 sHackmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTogepiLevelUpLearnset[] = {
+static const u16 sHagurumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 6, MOVE_METRONOME),

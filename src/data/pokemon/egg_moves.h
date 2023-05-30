@@ -589,7 +589,7 @@ const u16 gEggMoves[] = {
               MOVE_WISH,
               MOVE_FAKE_TEARS),
 
-    egg_moves(TOGEPI,
+    egg_moves(HAGURUMON,
               MOVE_PRESENT,
               MOVE_MIRROR_MOVE,
               MOVE_PECK,

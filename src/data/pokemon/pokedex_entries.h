@@ -2100,12 +2100,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TOGEPI] =
+    [NATIONAL_DEX_HAGURUMON] =
     {
-        .categoryName = _("SPIKE BALL"),
-        .height = 3,
-        .weight = 15,
-        .description = gTogepiPokedexText,
+        .categoryName = _("GEAR"),
+        .height = 15,
+        .weight = 735,
+        .description = gHagurumonPokedexText,
         .pokemonScale = 507,
         .pokemonOffset = 23,
         .trainerScale = 256,

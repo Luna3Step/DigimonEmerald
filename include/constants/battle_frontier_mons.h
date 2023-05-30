@@ -27,7 +27,7 @@
 #define FRONTIER_MON_WHISMUR        23
 #define FRONTIER_MON_ZIGZAGOON      24
 #define FRONTIER_MON_ICEBOTAMON          25
-#define FRONTIER_MON_TOGEPI         26
+#define FRONTIER_MON_HAGURUMON         26
 #define FRONTIER_MON_GOMAMON       27
 #define FRONTIER_MON_MARILL         28
 #define FRONTIER_MON_HOPPIP         29

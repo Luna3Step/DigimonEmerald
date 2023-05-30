@@ -1048,11 +1048,11 @@ const u8 gHackmonPokedexText[] = _(
     "incredibly hard worker with many stronger\n"
     "Digimon acknowledging it.");
 
-const u8 gTogepiPokedexText[] = _(
-    "As its energy, it uses the feelings of\n"
-    "compassion and pleasure exuded by\n"
-    "people and POKéMON. It stores up happy\n"
-    "feelings in its shell, then shares them out.");
+const u8 gHagurumonPokedexText[] = _(
+    "Hagurumon often find themselves being used\n"
+    "by more evil Digimon as it lacks any sense\n"
+    "of self and can send a virus to other\n"
+    "Digimon to control them.");
 
 const u8 gTogeticPokedexText[] = _(
     "It is said to be a POKéMON that brings good\n"

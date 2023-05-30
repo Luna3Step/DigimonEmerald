@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_IGGLYBUFF"
-with "FRONTIER_MON_HACKMON"
+replace "FRONTIER_MON_TOGEPI"
+with "FRONTIER_MON_HAGURUMON"
 
-replace "gIgglybuffPokedexText"
-with "gHackmonPokedexText"
+replace "gTogepiPokedexText"
+with "gHagurumonPokedexText"
 
-replace "NATIONAL_DEX_IGGLYBUFF"
-with "NATIONAL_DEX_HACKMON"
+replace "NATIONAL_DEX_TOGEPI"
+with "NATIONAL_DEX_HAGURUMON"
 
-replace "SPECIES_IGGLYBUFF"
-with "SPECIES_HACKMON"
+replace "SPECIES_TOGEPI"
+with "SPECIES_HAGURUMON"
 
-replace "HOENN_DEX_IGGLYBUFF"
-with "HOENN_DEX_HACKMON"
+replace "HOENN_DEX_TOGEPI"
+with "HOENN_DEX_HAGURUMON"
 
-replace "SPECIES_TO_HOENN(IGGLYBUFF),"
-with "SPECIES_TO_HOENN(HACKMON),"
+replace "SPECIES_TO_HOENN(TOGEPI),"
+with "SPECIES_TO_HOENN(HAGURUMON),"
 
-replace "SPECIES_TO_NATIONAL(IGGLYBUFF),"
-with "SPECIES_TO_NATIONAL(HACKMON),"
+replace "SPECIES_TO_NATIONAL(TOGEPI),"
+with "SPECIES_TO_NATIONAL(HAGURUMON),"
 
-replace "HOENN_TO_NATIONAL(IGGLYBUFF),"
-with "HOENN_TO_NATIONAL(HACKMON),"
+replace "HOENN_TO_NATIONAL(TOGEPI),"
+with "HOENN_TO_NATIONAL(HAGURUMON),"
 
-replace "EC_POKEMON_NATIONAL(IGGLYBUFF),"
-with "EC_POKEMON_NATIONAL(HACKMON),"
+replace "EC_POKEMON_NATIONAL(TOGEPI),"
+with "EC_POKEMON_NATIONAL(HAGURUMON),"
 
-replace "egg_moves(IGGLYBUFF,"
-with "egg_moves(HACKMON,"
+replace "egg_moves(TOGEPI,"
+with "egg_moves(HAGURUMON,"
 
-replace "sIgglybuffLevelUpLearnset"
-with "sHackmonLevelUpLearnset"
+replace "sTogepiLevelUpLearnset"
+with "sHagurumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(IGGLYBUFF"
-with "SPECIES_SPRITE(HACKMON"
+replace "SPECIES_SPRITE(TOGEPI"
+with "SPECIES_SPRITE(HAGURUMON"
 
-replace "SPECIES_PAL(IGGLYBUFF,"
-with "SPECIES_PAL(HACKMON,"
+replace "SPECIES_PAL(TOGEPI,"
+with "SPECIES_PAL(HAGURUMON,"
 
-replace "SPECIES_SHINY_PAL(IGGLYBUFF,"
-with "SPECIES_SHINY_PAL(HACKMON,"
+replace "SPECIES_SHINY_PAL(TOGEPI,"
+with "SPECIES_SHINY_PAL(HAGURUMON,"
 
-replace "EC_POKEMON(IGGLYBUFF)"
-with "EC_POKEMON(HACKMON)"
+replace "EC_POKEMON(TOGEPI)"
+with "EC_POKEMON(HAGURUMON)"
 
-replace "EC_POKEMON_NATIONAL(IGGLYBUFF)"
-with "EC_POKEMON_NATIONAL(HACKMON)"
+replace "EC_POKEMON_NATIONAL(TOGEPI)"
+with "EC_POKEMON_NATIONAL(HAGURUMON)"
 
 in "src/data/text/species_names.h"
-replace "IGGLYBUFF"
-with "HACKMON"
+replace "TOGEPI"
+with "HAGURUMON"
