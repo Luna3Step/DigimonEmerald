@@ -916,11 +916,11 @@ const u8 gFalcomon_06PokedexText[] = _(
     "a strong interest ninjutsu. They will use\n"
     "their ability to fly to drop atop targets.");
 
-const u8 gBayleefPokedexText[] = _(
-    "A BAYLEEF's neck is ringed by curled-up\n"
-    "leaves. Inside each leaf is a small tree\n"
-    "shoot. The fragrance of this shoot\n"
-    "makes people peppy.");
+const u8 gFanbeemonPokedexText[] = _(
+    "Although a single Fanbeemon is incredibly\n"
+    "weak, you should be incredibly careful\n"
+    "when interacting with them as they can\n"
+    "call the whole hive if threatened.");
 
 const u8 gMeganiumPokedexText[] = _(
     "The fragrance of a MEGANIUM's flower\n"

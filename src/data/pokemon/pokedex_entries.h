@@ -1836,12 +1836,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BAYLEEF] =
+    [NATIONAL_DEX_FANBEEMON] =
     {
-        .categoryName = _("LEAF"),
-        .height = 12,
-        .weight = 158,
-        .description = gBayleefPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 8,
+        .weight = 235,
+        .description = gFanbeemonPokedexText,
         .pokemonScale = 296,
         .pokemonOffset = 4,
         .trainerScale = 256,
