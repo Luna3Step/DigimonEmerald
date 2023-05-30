@@ -488,7 +488,7 @@ const u16 gEggMoves[] = {
               MOVE_FISSURE,
               MOVE_SUBSTITUTE),
 
-    egg_moves(DRATINI,
+    egg_moves(ELECMON,
               MOVE_LIGHT_SCREEN,
               MOVE_MIST,
               MOVE_HAZE,

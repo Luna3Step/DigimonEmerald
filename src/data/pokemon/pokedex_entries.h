@@ -1764,12 +1764,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 8,
     },
 
-    [NATIONAL_DEX_DRATINI] =
+    [NATIONAL_DEX_ELECMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 18,
-        .weight = 33,
-        .description = gDratiniPokedexText,
+        .categoryName = _("ELECTRICITY"),
+        .height = 9,
+        .weight = 426,
+        .description = gElecmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 8,
         .trainerScale = 386,

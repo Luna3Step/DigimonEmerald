@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MOLTRES"
-with "FRONTIER_MON_EKAKIMON"
+replace "FRONTIER_MON_DRATINI"
+with "FRONTIER_MON_ELECMON"
 
-replace "gMoltresPokedexText"
-with "gEkakimonPokedexText"
+replace "gDratiniPokedexText"
+with "gElecmonPokedexText"
 
-replace "NATIONAL_DEX_MOLTRES"
-with "NATIONAL_DEX_EKAKIMON"
+replace "NATIONAL_DEX_DRATINI"
+with "NATIONAL_DEX_ELECMON"
 
-replace "SPECIES_MOLTRES"
-with "SPECIES_EKAKIMON"
+replace "SPECIES_DRATINI"
+with "SPECIES_ELECMON"
 
-replace "HOENN_DEX_MOLTRES"
-with "HOENN_DEX_EKAKIMON"
+replace "HOENN_DEX_DRATINI"
+with "HOENN_DEX_ELECMON"
 
-replace "SPECIES_TO_HOENN(MOLTRES),"
-with "SPECIES_TO_HOENN(EKAKIMON),"
+replace "SPECIES_TO_HOENN(DRATINI),"
+with "SPECIES_TO_HOENN(ELECMON),"
 
-replace "SPECIES_TO_NATIONAL(MOLTRES),"
-with "SPECIES_TO_NATIONAL(EKAKIMON),"
+replace "SPECIES_TO_NATIONAL(DRATINI),"
+with "SPECIES_TO_NATIONAL(ELECMON),"
 
-replace "HOENN_TO_NATIONAL(MOLTRES),"
-with "HOENN_TO_NATIONAL(EKAKIMON),"
+replace "HOENN_TO_NATIONAL(DRATINI),"
+with "HOENN_TO_NATIONAL(ELECMON),"
 
-replace "EC_POKEMON_NATIONAL(MOLTRES),"
-with "EC_POKEMON_NATIONAL(EKAKIMON),"
+replace "EC_POKEMON_NATIONAL(DRATINI),"
+with "EC_POKEMON_NATIONAL(ELECMON),"
 
-replace "egg_moves(MOLTRES,"
-with "egg_moves(EKAKIMON,"
+replace "egg_moves(DRATINI,"
+with "egg_moves(ELECMON,"
 
-replace "sMoltresLevelUpLearnset"
-with "sEkakimonLevelUpLearnset"
+replace "sDratiniLevelUpLearnset"
+with "sElecmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MOLTRES"
-with "SPECIES_SPRITE(EKAKIMON"
+replace "SPECIES_SPRITE(DRATINI"
+with "SPECIES_SPRITE(ELECMON"
 
-replace "SPECIES_PAL(MOLTRES,"
-with "SPECIES_PAL(EKAKIMON,"
+replace "SPECIES_PAL(DRATINI,"
+with "SPECIES_PAL(ELECMON,"
 
-replace "SPECIES_SHINY_PAL(MOLTRES,"
-with "SPECIES_SHINY_PAL(EKAKIMON,"
+replace "SPECIES_SHINY_PAL(DRATINI,"
+with "SPECIES_SHINY_PAL(ELECMON,"
 
-replace "EC_POKEMON(MOLTRES)"
-with "EC_POKEMON(EKAKIMON)"
+replace "EC_POKEMON(DRATINI)"
+with "EC_POKEMON(ELECMON)"
 
-replace "EC_POKEMON_NATIONAL(MOLTRES)"
-with "EC_POKEMON_NATIONAL(EKAKIMON)"
+replace "EC_POKEMON_NATIONAL(DRATINI)"
+with "EC_POKEMON_NATIONAL(ELECMON)"
 
 in "src/data/text/species_names.h"
-replace "MOLTRES"
-with "EKAKIMON"
+replace "DRATINI"
+with "ELECMON"

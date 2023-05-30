@@ -880,11 +880,11 @@ const u8 gEkakimonPokedexText[] = _(
     "but thats just because it is so happy for\n"
     "the pictures it is usually drawing.");
 
-const u8 gDratiniPokedexText[] = _(
-    "A DRATINI continually molts and sloughs\n"
-    "off its old skin. It does so because the\n"
-    "life energy within its body steadily builds\n"
-    "to reach uncontrollable levels.");
+const u8 gElecmonPokedexText[] = _(
+    "Elecmon is a very curious and lively\n"
+    "Digimon. It's nine tails are likely caused\n"
+    "by taking in peacock data at one point as it\n"
+    "is used in similiar way to a peacocks tail.");
 
 const u8 gDragonairPokedexText[] = _(
     "A DRAGONAIR stores an enormous amount of\n"
