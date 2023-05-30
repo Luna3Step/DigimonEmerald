@@ -366,7 +366,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Archie[] = {
     {
     .iv = 150,
     .lvl = 41,
-    .species = SPECIES_CROBAT,
+    .species = SPECIES_GOTSUMON,
     },
     {
     .iv = 150,
@@ -7964,7 +7964,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMagmaHideout[] = {
     {
     .iv = 150,
     .lvl = 38,
-    .species = SPECIES_CROBAT,
+    .species = SPECIES_GOTSUMON,
     },
     {
     .iv = 150,
@@ -9828,7 +9828,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMossdeep[] = {
     {
     .iv = 150,
     .lvl = 43,
-    .species = SPECIES_CROBAT,
+    .species = SPECIES_GOTSUMON,
     },
     {
     .iv = 150,

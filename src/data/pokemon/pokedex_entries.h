@@ -2028,12 +2028,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CROBAT] =
+    [NATIONAL_DEX_GOTSUMON] =
     {
-        .categoryName = _("BAT"),
-        .height = 18,
-        .weight = 750,
-        .description = gCrobatPokedexText,
+        .categoryName = _("ORE"),
+        .height = 9,
+        .weight = 822,
+        .description = gGotsumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 281,

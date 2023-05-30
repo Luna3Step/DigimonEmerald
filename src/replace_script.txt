@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ARIADOS"
-with "FRONTIER_MON_GOMAMON_X"
+replace "FRONTIER_MON_CROBAT"
+with "FRONTIER_MON_GOTSUMON"
 
-replace "gAriadosPokedexText"
-with "gGomamon_xPokedexText"
+replace "gCrobatPokedexText"
+with "gGotsumonPokedexText"
 
-replace "NATIONAL_DEX_ARIADOS"
-with "NATIONAL_DEX_GOMAMON_X"
+replace "NATIONAL_DEX_CROBAT"
+with "NATIONAL_DEX_GOTSUMON"
 
-replace "SPECIES_ARIADOS"
-with "SPECIES_GOMAMON_X"
+replace "SPECIES_CROBAT"
+with "SPECIES_GOTSUMON"
 
-replace "HOENN_DEX_ARIADOS"
-with "HOENN_DEX_GOMAMON_X"
+replace "HOENN_DEX_CROBAT"
+with "HOENN_DEX_GOTSUMON"
 
-replace "SPECIES_TO_HOENN(ARIADOS),"
-with "SPECIES_TO_HOENN(GOMAMON_X),"
+replace "SPECIES_TO_HOENN(CROBAT),"
+with "SPECIES_TO_HOENN(GOTSUMON),"
 
-replace "SPECIES_TO_NATIONAL(ARIADOS),"
-with "SPECIES_TO_NATIONAL(GOMAMON_X),"
+replace "SPECIES_TO_NATIONAL(CROBAT),"
+with "SPECIES_TO_NATIONAL(GOTSUMON),"
 
-replace "HOENN_TO_NATIONAL(ARIADOS),"
-with "HOENN_TO_NATIONAL(GOMAMON_X),"
+replace "HOENN_TO_NATIONAL(CROBAT),"
+with "HOENN_TO_NATIONAL(GOTSUMON),"
 
-replace "EC_POKEMON_NATIONAL(ARIADOS),"
-with "EC_POKEMON_NATIONAL(GOMAMON_X),"
+replace "EC_POKEMON_NATIONAL(CROBAT),"
+with "EC_POKEMON_NATIONAL(GOTSUMON),"
 
-replace "egg_moves(ARIADOS,"
-with "egg_moves(GOMAMON_X,"
+replace "egg_moves(CROBAT,"
+with "egg_moves(GOTSUMON,"
 
-replace "sAriadosLevelUpLearnset"
-with "sGomamon_xLevelUpLearnset"
+replace "sCrobatLevelUpLearnset"
+with "sGotsumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ARIADOS"
-with "SPECIES_SPRITE(GOMAMON_X"
+replace "SPECIES_SPRITE(CROBAT"
+with "SPECIES_SPRITE(GOTSUMON"
 
-replace "SPECIES_PAL(ARIADOS,"
-with "SPECIES_PAL(GOMAMON_X,"
+replace "SPECIES_PAL(CROBAT,"
+with "SPECIES_PAL(GOTSUMON,"
 
-replace "SPECIES_SHINY_PAL(ARIADOS,"
-with "SPECIES_SHINY_PAL(GOMAMON_X,"
+replace "SPECIES_SHINY_PAL(CROBAT,"
+with "SPECIES_SHINY_PAL(GOTSUMON,"
 
-replace "EC_POKEMON(ARIADOS)"
-with "EC_POKEMON(GOMAMON_X)"
+replace "EC_POKEMON(CROBAT)"
+with "EC_POKEMON(GOTSUMON)"
 
-replace "EC_POKEMON_NATIONAL(ARIADOS)"
-with "EC_POKEMON_NATIONAL(GOMAMON_X)"
+replace "EC_POKEMON_NATIONAL(CROBAT)"
+with "EC_POKEMON_NATIONAL(GOTSUMON)"
 
 in "src/data/text/species_names.h"
-replace "ARIADOS"
-with "GOMAMON"
+replace "CROBAT"
+with "GOTSUMON"

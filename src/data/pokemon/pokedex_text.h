@@ -1012,11 +1012,11 @@ const u8 gGomamon_xPokedexText[] = _(
     "for its tiny size. It has also well adapted\n"
     "land despite its lower body not changing much.");
 
-const u8 gCrobatPokedexText[] = _(
-    "Over the course of evolution, its hind legs\n"
-    "turned into wings. By alternately resting\n"
-    "its front and rear wings, it can fly all day\n"
-    "without having to stop.");
+const u8 gGotsumonPokedexText[] = _(
+    "Although it just looks like it is made up\n"
+    "of rock to the naked eye, it can actually\n"
+    "hide incredibly valuable ores and minerals\n"
+    "in its very tough body.");
 
 const u8 gChinchouPokedexText[] = _(
     "When it senses danger, it discharges\n"
