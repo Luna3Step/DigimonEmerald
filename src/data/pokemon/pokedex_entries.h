@@ -1742,7 +1742,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_EBIBURGMON] =
     {
-        .categoryName = _("PRAWN BURGER"),
+        .categoryName = _("BAD BURGER"),
         .height = 10,
         .weight = 526,
         .description = gEbiburgmonPokedexText,
@@ -1776,12 +1776,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_DRAGONAIR] =
+    [NATIONAL_DEX_ELECMON_VIOLET] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 40,
-        .weight = 165,
-        .description = gDragonairPokedexText,
+        .categoryName = _("ELECTRICITY"),
+        .height = 7,
+        .weight = 387,
+        .description = gElecmon_violetPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 411,
@@ -2796,7 +2796,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DOKUNEMON2] =
+    [NATIONAL_DEX_PORYGON2] =
     {
         .categoryName = _("VIRTUAL"),
         .height = 6,

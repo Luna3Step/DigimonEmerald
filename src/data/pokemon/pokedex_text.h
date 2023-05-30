@@ -886,11 +886,11 @@ const u8 gElecmonPokedexText[] = _(
     "by taking in peacock data at one point as it\n"
     "is used in similiar way to a peacocks tail.");
 
-const u8 gDragonairPokedexText[] = _(
-    "A DRAGONAIR stores an enormous amount of\n"
-    "energy inside its body. It is said to alter\n"
-    "the weather around it by loosing energy\n"
-    "from the crystals on its neck and tail.");
+const u8 gElecmon_violetPokedexText[] = _(
+    "This Elecmon is a much more violent Elecmon\n"
+    "as it has gained the Virus typing. It will\n"
+    "indiscriminately attack anyone who it sees\n"
+    "however it can be easily handled as it's weak.");
 
 const u8 gDragonitePokedexText[] = _(
     "It can circle the globe in just 16 hours.\n"
