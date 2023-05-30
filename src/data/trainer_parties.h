@@ -5429,7 +5429,7 @@ static const struct TrainerMonItemCustomMoves sParty_Dianne[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_LANTURN,
+    .species = SPECIES_GUILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_NONE, MOVE_NONE}
     }
@@ -5982,7 +5982,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kaylee[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_LANTURN,
+    .species = SPECIES_GUILMON,
     },
     {
     .iv = 0,
@@ -9332,7 +9332,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy3[] = {
     {
     .iv = 0,
     .lvl = 45,
-    .species = SPECIES_LANTURN,
+    .species = SPECIES_GUILMON,
     },
     {
     .iv = 0,
@@ -9345,7 +9345,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy4[] = {
     {
     .iv = 0,
     .lvl = 48,
-    .species = SPECIES_LANTURN,
+    .species = SPECIES_GUILMON,
     },
     {
     .iv = 0,
@@ -9358,7 +9358,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy5[] = {
     {
     .iv = 0,
     .lvl = 51,
-    .species = SPECIES_LANTURN,
+    .species = SPECIES_GUILMON,
     },
     {
     .iv = 0,

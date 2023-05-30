@@ -2052,12 +2052,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LANTURN] =
+    [NATIONAL_DEX_GUILMON] =
     {
-        .categoryName = _("LIGHT"),
-        .height = 12,
-        .weight = 225,
-        .description = gLanturnPokedexText,
+        .categoryName = _("HAZARD"),
+        .height = 14,
+        .weight = 543,
+        .description = gGuilmonPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 6,
         .trainerScale = 256,

@@ -1024,11 +1024,11 @@ const u8 gGotsumon_xPokedexText[] = _(
     "giving it a physique of a sumo wrestler.\n"
     "When attacking, it uses its full weight.");
 
-const u8 gLanturnPokedexText[] = _(
-    "The light-emitting orbs on its back are\n"
-    "very bright. They are formed from a part of\n"
-    "its dorsal fin. This POKéMON illuminates\n"
-    "the inky darkness of deep seas.");
+const u8 gGuilmonPokedexText[] = _(
+    "The mark on Guilmons chest is called the\n"
+    "Digital Hazard which is given to those\n"
+    "who can deal massive damage to data. It\n"
+    "can still be a force of good despite that.");
 
 const u8 gPichuPokedexText[] = _(
     "It is still inept at retaining electricity.\n"
