@@ -1968,12 +1968,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NOCTOWL] =
+    [NATIONAL_DEX_GIZAMON] =
     {
-        .categoryName = _("OWL"),
-        .height = 16,
+        .categoryName = _("AMPHIBIAN"),
+        .height = 9,
         .weight = 408,
-        .description = gNoctowlPokedexText,
+        .description = gGizamonPokedexText,
         .pokemonScale = 278,
         .pokemonOffset = 3,
         .trainerScale = 256,

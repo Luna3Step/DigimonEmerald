@@ -2270,7 +2270,7 @@ static const u16 sGhostmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNoctowlLevelUpLearnset[] = {
+static const u16 sGizamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_FORESIGHT),

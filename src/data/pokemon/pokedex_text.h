@@ -982,11 +982,11 @@ const u8 gGhostmonPokedexText[] = _(
     "Digimon that can take months to befriend\n"
     "however it will still help those in need.");
 
-const u8 gNoctowlPokedexText[] = _(
-    "It unfailingly catches prey in darkness.\n"
-    "NOCTOWL owe their success to superior\n"
-    "vision that allows them to see in minimal\n"
-    "light, and to their supple and silent wings.");
+const u8 gGizamonPokedexText[] = _(
+    "Although Gizamon are well equipped for land\n"
+    "and water, they struggle to do anything but\n"
+    "walk about on land however in water they\n"
+    "quickly become a formidable opponent.");
 
 const u8 gLedybaPokedexText[] = _(
     "LEDYBA communicate using a fluid that\n"

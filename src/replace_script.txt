@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HOOTHOOT"
-with "FRONTIER_MON_GHOSTMON"
+replace "FRONTIER_MON_NOCTOWL"
+with "FRONTIER_MON_GIZAMON"
 
-replace "gHoothootPokedexText"
-with "gGhostmonPokedexText"
+replace "gNoctowlPokedexText"
+with "gGizamonPokedexText"
 
-replace "NATIONAL_DEX_HOOTHOOT"
-with "NATIONAL_DEX_GHOSTMON"
+replace "NATIONAL_DEX_NOCTOWL"
+with "NATIONAL_DEX_GIZAMON"
 
-replace "SPECIES_HOOTHOOT"
-with "SPECIES_GHOSTMON"
+replace "SPECIES_NOCTOWL"
+with "SPECIES_GIZAMON"
 
-replace "HOENN_DEX_HOOTHOOT"
-with "HOENN_DEX_GHOSTMON"
+replace "HOENN_DEX_NOCTOWL"
+with "HOENN_DEX_GIZAMON"
 
-replace "SPECIES_TO_HOENN(HOOTHOOT),"
-with "SPECIES_TO_HOENN(GHOSTMON),"
+replace "SPECIES_TO_HOENN(NOCTOWL),"
+with "SPECIES_TO_HOENN(GIZAMON),"
 
-replace "SPECIES_TO_NATIONAL(HOOTHOOT),"
-with "SPECIES_TO_NATIONAL(GHOSTMON),"
+replace "SPECIES_TO_NATIONAL(NOCTOWL),"
+with "SPECIES_TO_NATIONAL(GIZAMON),"
 
-replace "HOENN_TO_NATIONAL(HOOTHOOT),"
-with "HOENN_TO_NATIONAL(GHOSTMON),"
+replace "HOENN_TO_NATIONAL(NOCTOWL),"
+with "HOENN_TO_NATIONAL(GIZAMON),"
 
-replace "EC_POKEMON_NATIONAL(HOOTHOOT),"
-with "EC_POKEMON_NATIONAL(GHOSTMON),"
+replace "EC_POKEMON_NATIONAL(NOCTOWL),"
+with "EC_POKEMON_NATIONAL(GIZAMON),"
 
-replace "egg_moves(HOOTHOOT,"
-with "egg_moves(GHOSTMON,"
+replace "egg_moves(NOCTOWL,"
+with "egg_moves(GIZAMON,"
 
-replace "sHoothootLevelUpLearnset"
-with "sGhostmonLevelUpLearnset"
+replace "sNoctowlLevelUpLearnset"
+with "sGizamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HOOTHOOT"
-with "SPECIES_SPRITE(GHOSTMON"
+replace "SPECIES_SPRITE(NOCTOWL"
+with "SPECIES_SPRITE(GIZAMON"
 
-replace "SPECIES_PAL(HOOTHOOT,"
-with "SPECIES_PAL(GHOSTMON,"
+replace "SPECIES_PAL(NOCTOWL,"
+with "SPECIES_PAL(GIZAMON,"
 
-replace "SPECIES_SHINY_PAL(HOOTHOOT,"
-with "SPECIES_SHINY_PAL(GHOSTMON,"
+replace "SPECIES_SHINY_PAL(NOCTOWL,"
+with "SPECIES_SHINY_PAL(GIZAMON,"
 
-replace "EC_POKEMON(HOOTHOOT)"
-with "EC_POKEMON(GHOSTMON)"
+replace "EC_POKEMON(NOCTOWL)"
+with "EC_POKEMON(GIZAMON)"
 
-replace "EC_POKEMON_NATIONAL(HOOTHOOT)"
-with "EC_POKEMON_NATIONAL(GHOSTMON)"
+replace "EC_POKEMON_NATIONAL(NOCTOWL)"
+with "EC_POKEMON_NATIONAL(GIZAMON)"
 
 in "src/data/text/species_names.h"
-replace "HOOTHOOT"
-with "GHOSTMON"
+replace "NOCTOWL"
+with "GIZAMON"
