@@ -558,7 +558,7 @@ const u16 gEggMoves[] = {
               MOVE_PURSUIT,
               MOVE_SIGNAL_BEAM),
 
-    egg_moves(CHINCHOU,
+    egg_moves(GOTSUMON_X,
               MOVE_FLAIL,
               MOVE_SCREECH,
               MOVE_AMNESIA),

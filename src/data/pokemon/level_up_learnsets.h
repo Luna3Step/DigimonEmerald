@@ -2361,7 +2361,7 @@ static const u16 sGotsumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sChinchouLevelUpLearnset[] = {
+static const u16 sGotsumon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE( 5, MOVE_SUPERSONIC),

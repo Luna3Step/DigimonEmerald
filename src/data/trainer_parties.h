@@ -6643,7 +6643,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Conor[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_CHINCHOU,
+    .species = SPECIES_GOTSUMON_X,
     },
     {
     .iv = 200,
@@ -9152,7 +9152,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tisha[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_CHINCHOU,
+    .species = SPECIES_GOTSUMON_X,
     }
 };
 
@@ -9306,7 +9306,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy1[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_CHINCHOU,
+    .species = SPECIES_GOTSUMON_X,
     },
     {
     .iv = 0,
@@ -9319,7 +9319,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy2[] = {
     {
     .iv = 0,
     .lvl = 42,
-    .species = SPECIES_CHINCHOU,
+    .species = SPECIES_GOTSUMON_X,
     },
     {
     .iv = 0,

@@ -2319,7 +2319,7 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_GOTSUMON_X"
               },
               {
                 "min_level": 30,
@@ -9129,7 +9129,7 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_GOTSUMON_X"
               },
               {
                 "min_level": 30,

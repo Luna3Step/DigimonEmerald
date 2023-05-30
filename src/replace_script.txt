@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CROBAT"
-with "FRONTIER_MON_GOTSUMON"
+replace "FRONTIER_MON_CHINCHOU"
+with "FRONTIER_MON_GOTSUMON_X"
 
-replace "gCrobatPokedexText"
-with "gGotsumonPokedexText"
+replace "gChinchouPokedexText"
+with "gGotsumon_xPokedexText"
 
-replace "NATIONAL_DEX_CROBAT"
-with "NATIONAL_DEX_GOTSUMON"
+replace "NATIONAL_DEX_CHINCHOU"
+with "NATIONAL_DEX_GOTSUMON_X"
 
-replace "SPECIES_CROBAT"
-with "SPECIES_GOTSUMON"
+replace "SPECIES_CHINCHOU"
+with "SPECIES_GOTSUMON_X"
 
-replace "HOENN_DEX_CROBAT"
-with "HOENN_DEX_GOTSUMON"
+replace "HOENN_DEX_CHINCHOU"
+with "HOENN_DEX_GOTSUMON_X"
 
-replace "SPECIES_TO_HOENN(CROBAT),"
-with "SPECIES_TO_HOENN(GOTSUMON),"
+replace "SPECIES_TO_HOENN(CHINCHOU),"
+with "SPECIES_TO_HOENN(GOTSUMON_X),"
 
-replace "SPECIES_TO_NATIONAL(CROBAT),"
-with "SPECIES_TO_NATIONAL(GOTSUMON),"
+replace "SPECIES_TO_NATIONAL(CHINCHOU),"
+with "SPECIES_TO_NATIONAL(GOTSUMON_X),"
 
-replace "HOENN_TO_NATIONAL(CROBAT),"
-with "HOENN_TO_NATIONAL(GOTSUMON),"
+replace "HOENN_TO_NATIONAL(CHINCHOU),"
+with "HOENN_TO_NATIONAL(GOTSUMON_X),"
 
-replace "EC_POKEMON_NATIONAL(CROBAT),"
-with "EC_POKEMON_NATIONAL(GOTSUMON),"
+replace "EC_POKEMON_NATIONAL(CHINCHOU),"
+with "EC_POKEMON_NATIONAL(GOTSUMON_X),"
 
-replace "egg_moves(CROBAT,"
-with "egg_moves(GOTSUMON,"
+replace "egg_moves(CHINCHOU,"
+with "egg_moves(GOTSUMON_X,"
 
-replace "sCrobatLevelUpLearnset"
-with "sGotsumonLevelUpLearnset"
+replace "sChinchouLevelUpLearnset"
+with "sGotsumon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CROBAT"
-with "SPECIES_SPRITE(GOTSUMON"
+replace "SPECIES_SPRITE(CHINCHOU"
+with "SPECIES_SPRITE(GOTSUMON_X"
 
-replace "SPECIES_PAL(CROBAT,"
-with "SPECIES_PAL(GOTSUMON,"
+replace "SPECIES_PAL(CHINCHOU,"
+with "SPECIES_PAL(GOTSUMON_X,"
 
-replace "SPECIES_SHINY_PAL(CROBAT,"
-with "SPECIES_SHINY_PAL(GOTSUMON,"
+replace "SPECIES_SHINY_PAL(CHINCHOU,"
+with "SPECIES_SHINY_PAL(GOTSUMON_X,"
 
-replace "EC_POKEMON(CROBAT)"
-with "EC_POKEMON(GOTSUMON)"
+replace "EC_POKEMON(CHINCHOU)"
+with "EC_POKEMON(GOTSUMON_X)"
 
-replace "EC_POKEMON_NATIONAL(CROBAT)"
-with "EC_POKEMON_NATIONAL(GOTSUMON)"
+replace "EC_POKEMON_NATIONAL(CHINCHOU)"
+with "EC_POKEMON_NATIONAL(GOTSUMON_X)"
 
 in "src/data/text/species_names.h"
-replace "CROBAT"
+replace "CHINCHOU"
 with "GOTSUMON"

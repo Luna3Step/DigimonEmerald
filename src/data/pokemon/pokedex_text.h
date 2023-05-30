@@ -1018,11 +1018,11 @@ const u8 gGotsumonPokedexText[] = _(
     "hide incredibly valuable ores and minerals\n"
     "in its very tough body.");
 
-const u8 gChinchouPokedexText[] = _(
-    "When it senses danger, it discharges\n"
-    "positive and negative electricity from its\n"
-    "two antennae. It lives in depths beyond\n"
-    "sunlight's reach.");
+const u8 gGotsumon_xPokedexText[] = _(
+    "A Gotsumon X goes through radical change\n"
+    "when changing as it bulks up immensely\n"
+    "giving it a physique of a sumo wrestler.\n"
+    "When attacking, it uses its full weight.");
 
 const u8 gLanturnPokedexText[] = _(
     "The light-emitting orbs on its back are\n"

@@ -2040,12 +2040,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_CHINCHOU] =
+    [NATIONAL_DEX_GOTSUMON_X] =
     {
-        .categoryName = _("ANGLER"),
-        .height = 5,
-        .weight = 120,
-        .description = gChinchouPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 9,
+        .weight = 1152,
+        .description = gGotsumon_xPokedexText,
         .pokemonScale = 424,
         .pokemonOffset = -2,
         .trainerScale = 256,
