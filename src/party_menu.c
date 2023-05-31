@@ -478,6 +478,9 @@ static bool8 SetUpFieldMove_Surf(void);
 static bool8 SetUpFieldMove_Fly(void);
 static bool8 SetUpFieldMove_Waterfall(void);
 static bool8 SetUpFieldMove_Dive(void);
+static u8 PrintPreEvolutions(u8 taskId, u16 species);
+
+extern const struct Evolution gEvolutionTable[][EVOS_PER_MON];
 
 // static const data
 #include "data/pokemon/tutor_learnsets.h"
@@ -2780,6 +2783,19 @@ static void CursorCb_Evolve(u8 taskId)
     gSpecialVar_0x8004 = gPartyMenu.slotId;
     sPartyMenuInternal->exitCallback = Menu_Init;
     Task_ClosePartyMenu(taskId);
+}
+
+static u8 CalculatePreEvolutions(u8 taskId, u16 species)
+{
+    u16 i;
+    u8 times = 0;
+
+    //Calculate number of evos
+    for (i = 0; i < EVOS_PER_MON; i++)
+    {
+        if (gEvolutionTable[species][i].method != 0)
+                times += 1;
+    }
 }
 
 static void CB2_ShowPokemonSummaryScreen(void)

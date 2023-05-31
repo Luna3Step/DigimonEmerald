@@ -260,6 +260,7 @@
 #define EVO_SPDEFENSE        19 // Species special defense is at certain level
 #define EVO_SPEED            20 // Species speed is at certain level
 #define EVO_HEALTH           21 // Species health is at certain level
+#define EVO_DEVOLVE          22 // Species devolves
 
 #define EVOS_PER_MON 5
 

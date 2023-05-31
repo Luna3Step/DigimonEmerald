@@ -185,4 +185,13 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_SHELGON]    = {{EVO_LEVEL, 50, SPECIES_SALAMENCE}},
     [SPECIES_BELDUM]     = {{EVO_LEVEL, 20, SPECIES_METANG}},
     [SPECIES_METANG]     = {{EVO_LEVEL, 45, SPECIES_METAGROSS}},
+    [SPECIES_AGUMON]     = {{EVO_LEVEL, 2, SPECIES_AGUMON_06},
+                            {EVO_LEVEL, 2, SPECIES_AGUMON_EXPERT}},
+};
+
+const struct Evolution gDeEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
+{
+    [SPECIES_AGUMON]  = {{EVO_DEVOLVE, 0, SPECIES_KOROMON},
+                         {EVO_DEVOLVE, 0, SPECIES_GIGIMON},
+                         {EVO_DEVOLVE, 0, SPECIES_WANYAMON}},
 };

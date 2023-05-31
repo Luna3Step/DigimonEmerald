@@ -149,3 +149,5 @@
 	.include "src/trainer_hill.o"
 	.include "src/rayquaza_scene.o"
 	.include "src/ui_menu.o"
+	.include "src/debug.o"
+	.include "src/debug_pokemon_creator.o"
