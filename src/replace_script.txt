@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HOPPIP"
-with "FRONTIER_MON_KERAMON"
+replace "FRONTIER_MON_SKIPLOOM"
+with "FRONTIER_MON_KERAMON_X"
 
-replace "gHoppipPokedexText"
-with "gKeramonPokedexText"
+replace "gSkiploomPokedexText"
+with "gKeramon_xPokedexText"
 
-replace "NATIONAL_DEX_HOPPIP"
-with "NATIONAL_DEX_KERAMON"
+replace "NATIONAL_DEX_SKIPLOOM"
+with "NATIONAL_DEX_KERAMON_X"
 
-replace "SPECIES_HOPPIP"
-with "SPECIES_KERAMON"
+replace "SPECIES_SKIPLOOM"
+with "SPECIES_KERAMON_X"
 
-replace "HOENN_DEX_HOPPIP"
-with "HOENN_DEX_KERAMON"
+replace "HOENN_DEX_SKIPLOOM"
+with "HOENN_DEX_KERAMON_X"
 
-replace "SPECIES_TO_HOENN(HOPPIP),"
-with "SPECIES_TO_HOENN(KERAMON),"
+replace "SPECIES_TO_HOENN(SKIPLOOM),"
+with "SPECIES_TO_HOENN(KERAMON_X),"
 
-replace "SPECIES_TO_NATIONAL(HOPPIP),"
-with "SPECIES_TO_NATIONAL(KERAMON),"
+replace "SPECIES_TO_NATIONAL(SKIPLOOM),"
+with "SPECIES_TO_NATIONAL(KERAMON_X),"
 
-replace "HOENN_TO_NATIONAL(HOPPIP),"
-with "HOENN_TO_NATIONAL(KERAMON),"
+replace "HOENN_TO_NATIONAL(SKIPLOOM),"
+with "HOENN_TO_NATIONAL(KERAMON_X),"
 
-replace "EC_POKEMON_NATIONAL(HOPPIP),"
-with "EC_POKEMON_NATIONAL(KERAMON),"
+replace "EC_POKEMON_NATIONAL(SKIPLOOM),"
+with "EC_POKEMON_NATIONAL(KERAMON_X),"
 
-replace "egg_moves(HOPPIP,"
-with "egg_moves(KERAMON,"
+replace "egg_moves(SKIPLOOM,"
+with "egg_moves(KERAMON_X,"
 
-replace "sHoppipLevelUpLearnset"
-with "sKeramonLevelUpLearnset"
+replace "sSkiploomLevelUpLearnset"
+with "sKeramon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HOPPIP"
-with "SPECIES_SPRITE(KERAMON"
+replace "SPECIES_SPRITE(SKIPLOOM"
+with "SPECIES_SPRITE(KERAMON_X"
 
-replace "SPECIES_PAL(HOPPIP,"
-with "SPECIES_PAL(KERAMON,"
+replace "SPECIES_PAL(SKIPLOOM,"
+with "SPECIES_PAL(KERAMON_X,"
 
-replace "SPECIES_SHINY_PAL(HOPPIP,"
-with "SPECIES_SHINY_PAL(KERAMON,"
+replace "SPECIES_SHINY_PAL(SKIPLOOM,"
+with "SPECIES_SHINY_PAL(KERAMON_X,"
 
-replace "EC_POKEMON(HOPPIP)"
-with "EC_POKEMON(KERAMON)"
+replace "EC_POKEMON(SKIPLOOM)"
+with "EC_POKEMON(KERAMON_X)"
 
-replace "EC_POKEMON_NATIONAL(HOPPIP)"
-with "EC_POKEMON_NATIONAL(KERAMON)"
+replace "EC_POKEMON_NATIONAL(SKIPLOOM)"
+with "EC_POKEMON_NATIONAL(KERAMON_X)"
 
 in "src/data/text/species_names.h"
-replace "HOPPIP"
+replace "SKIPLOOM"
 with "KERAMON"

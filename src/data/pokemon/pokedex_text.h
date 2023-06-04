@@ -1126,11 +1126,11 @@ const u8 gKeramonPokedexText[] = _(
     "of data a second. Unlike most digimon,\n"
     "this data is destroyed instantly.");
 
-const u8 gSkiploomPokedexText[] = _(
-    "It blossoms when the temperature rises\n"
-    "above 64 degrees F. Because its flower's\n"
-    "blooming changes with the temperature,\n"
-    "it is sometimes used as a thermometer.");
+const u8 gKeramon_xPokedexText[] = _(
+    "A Keramon Xs face divides in such a way\n"
+    "that it can devour even more data. With\n"
+    "the right timing, it can even devour a\n"
+    "Mega Digimons data without hassle.");
 
 const u8 gJumpluffPokedexText[] = _(
     "JUMPLUFF ride warm southern winds to\n"

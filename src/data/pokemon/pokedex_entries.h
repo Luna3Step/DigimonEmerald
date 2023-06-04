@@ -2256,12 +2256,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SKIPLOOM] =
+    [NATIONAL_DEX_KERAMON_X] =
     {
-        .categoryName = _("COTTONWEED"),
-        .height = 6,
-        .weight = 10,
-        .description = gSkiploomPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 28,
+        .weight = 452,
+        .description = gKeramon_xPokedexText,
         .pokemonScale = 387,
         .pokemonOffset = 0,
         .trainerScale = 256,
