@@ -143,7 +143,7 @@
 #define FRONTIER_MON_DOTAGUMON         139
 #define FRONTIER_MON_LILEEP         140
 #define FRONTIER_MON_ANORITH        141
-#define FRONTIER_MON_AIPOM          142
+#define FRONTIER_MON_KOKABUIMON          142
 #define FRONTIER_MON_ELEKID         143
 #define FRONTIER_MON_LOUDRED        144
 #define FRONTIER_MON_SPINDA         145

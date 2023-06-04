@@ -1138,11 +1138,11 @@ const u8 gKodokgumonPokedexText[] = _(
     "in a grown they can quickly swarm and\n"
     "overwhelm weaker Digimon with ease.");
 
-const u8 gAipomPokedexText[] = _(
-    "Its tail ends with a dexterous, handlike\n"
-    "appendage. However, because it uses the\n"
-    "tail so much, AIPOM's real hands have\n"
-    "become rather clumsy.");
+const u8 gKokabuiMonPokedexText[] = _(
+    "Many Digimon fear KoKabuterimon as it is\n"
+    "incredibly strong with it being known\n"
+    "that it can lift Ultimate level Digimon\n"
+    "however it is actually a gentle Digimon.");
 
 const u8 gSunkernPokedexText[] = _(
     "SUNKERN try to minimize movement to\n"

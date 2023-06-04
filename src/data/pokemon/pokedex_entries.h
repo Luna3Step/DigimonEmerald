@@ -2280,12 +2280,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_AIPOM] =
+    [NATIONAL_DEX_KOKABUIMON] =
     {
-        .categoryName = _("LONG TAIL"),
-        .height = 8,
-        .weight = 115,
-        .description = gAipomPokedexText,
+        .categoryName = _("BEETLE"),
+        .height = 21,
+        .weight = 586,
+        .description = gKokabuiMonPokedexText,
         .pokemonScale = 363,
         .pokemonOffset = 6,
         .trainerScale = 256,

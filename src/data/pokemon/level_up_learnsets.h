@@ -2616,7 +2616,7 @@ static const u16 sKodokgumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAipomLevelUpLearnset[] = {
+static const u16 sKokabuiMonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 6, MOVE_SAND_ATTACK),

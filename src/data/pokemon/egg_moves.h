@@ -639,7 +639,7 @@ const u16 gEggMoves[] = {
               MOVE_HELPING_HAND,
               MOVE_PSYCH_UP),
 
-    egg_moves(AIPOM,
+    egg_moves(KOKABUIMON,
               MOVE_COUNTER,
               MOVE_SCREECH,
               MOVE_PURSUIT,
