@@ -1174,11 +1174,11 @@ const u8 gKudamon_06PokedexText[] = _(
     "it lacks some defense now. It still has\n"
     "an incredible intellect as well.");
 
-const u8 gEspeonPokedexText[] = _(
-    "An ESPEON is extremely loyal to any\n"
-    "TRAINER it considers to be worthy. It is\n"
-    "said to have developed precognitive\n"
-    "powers to protect its TRAINER from harm.");
+const u8 gKunemonPokedexText[] = _(
+    "Originally thought to be completely blind,\n"
+    "Kunemon seems to actually see through the\n"
+    "lightning pattern on its head as they\n"
+    "seem to change shape with emotion.");
 
 const u8 gUmbreonPokedexText[] = _(
     "UMBREON evolved from exposure to the\n"

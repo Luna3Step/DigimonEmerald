@@ -2697,7 +2697,7 @@ static const u16 sKudamon_06LevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sEspeonLevelUpLearnset[] = {
+static const u16 sKunemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),

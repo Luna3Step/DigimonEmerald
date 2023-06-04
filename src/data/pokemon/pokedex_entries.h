@@ -2352,12 +2352,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ESPEON] =
+    [NATIONAL_DEX_KUNEMON] =
     {
-        .categoryName = _("SUN"),
-        .height = 9,
-        .weight = 265,
-        .description = gEspeonPokedexText,
+        .categoryName = _("BEE-FLY"),
+        .height = 7,
+        .weight = 204,
+        .description = gKunemonPokedexText,
         .pokemonScale = 363,
         .pokemonOffset = 14,
         .trainerScale = 256,
