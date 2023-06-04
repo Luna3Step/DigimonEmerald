@@ -2776,16 +2776,7 @@ static void CursorCb_Summary(u8 taskId)
     Task_ClosePartyMenu(taskId);
 }
 
-void Menu_Init(void);
-static void CursorCb_Evolve(u8 taskId)
-{
-    PlaySE(SE_SELECT);
-    gSpecialVar_0x8004 = gPartyMenu.slotId;
-    sPartyMenuInternal->exitCallback = Menu_Init;
-    Task_ClosePartyMenu(taskId);
-}
-
-static u8 CalculatePreEvolutions(u8 taskId, u16 species)
+static void CalculatePreEvolutions(u8 taskId, u16 targetSpecies)
 {
     u16 i;
     u8 times = 0;
@@ -2793,10 +2784,23 @@ static u8 CalculatePreEvolutions(u8 taskId, u16 species)
     //Calculate number of evos
     for (i = 0; i < EVOS_PER_MON; i++)
     {
-        if (gEvolutionTable[species][i].method != 0)
+        if (gEvolutionTable[targetSpecies][i].method != 0)
                 times += 1;
     }
 }
+
+void Menu_Init(void);
+static void CursorCb_Evolve(u8 taskId)
+{ 
+    // Commented stuff is currently WIP.
+    // u16 targetSpecies;
+    
+    PlaySE(SE_SELECT);
+    gSpecialVar_0x8004 = gPartyMenu.slotId;
+    // u16 targetSpecies = GetBoxMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_SPECIES);
+    // CalculatePreEvolutions(taskId, targetSpecies);
+}
+
 
 static void CB2_ShowPokemonSummaryScreen(void)
 {
