@@ -2340,12 +2340,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_QUAGSIRE] =
+    [NATIONAL_DEX_KUDAMON_06] =
     {
-        .categoryName = _("WATER FISH"),
-        .height = 14,
-        .weight = 750,
-        .description = gQuagsirePokedexText,
+        .categoryName = _("KUDAGITSUNE"),
+        .height = 5,
+        .weight = 326,
+        .description = gKudamon_06PokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

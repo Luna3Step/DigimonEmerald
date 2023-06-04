@@ -1168,11 +1168,11 @@ const u8 gKudamonPokedexText[] = _(
     "it a frequent target however it can\n"
     "withdraw into its cartridge for safety.");
 
-const u8 gQuagsirePokedexText[] = _(
-    "A QUAGSIRE hunts by leaving its mouth wide\n"
-    "open in water and waiting for its prey to\n"
-    "blunder in. Because it doesn't move, it\n"
-    "does not get very hungry.");
+const u8 gKudamon_06PokedexText[] = _(
+    "Taking a more physical form, this Kudamon\n"
+    "is better equipped for a battle however\n"
+    "it lacks some defense now. It still has\n"
+    "an incredible intellect as well.");
 
 const u8 gEspeonPokedexText[] = _(
     "An ESPEON is extremely loyal to any\n"

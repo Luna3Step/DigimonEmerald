@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_WOOPER"
-with "FRONTIER_MON_KUDAMON"
+replace "FRONTIER_MON_QUAGSIRE"
+with "FRONTIER_MON_KUDAMON_06"
 
-replace "gWooperPokedexText"
-with "gKudamonPokedexText"
+replace "gQuagsirePokedexText"
+with "gKudamon_06PokedexText"
 
-replace "NATIONAL_DEX_WOOPER"
-with "NATIONAL_DEX_KUDAMON"
+replace "NATIONAL_DEX_QUAGSIRE"
+with "NATIONAL_DEX_KUDAMON_06"
 
-replace "SPECIES_WOOPER"
-with "SPECIES_KUDAMON"
+replace "SPECIES_QUAGSIRE"
+with "SPECIES_KUDAMON_06"
 
-replace "HOENN_DEX_WOOPER"
-with "HOENN_DEX_KUDAMON"
+replace "HOENN_DEX_QUAGSIRE"
+with "HOENN_DEX_KUDAMON_06"
 
-replace "SPECIES_TO_HOENN(WOOPER),"
-with "SPECIES_TO_HOENN(KUDAMON),"
+replace "SPECIES_TO_HOENN(QUAGSIRE),"
+with "SPECIES_TO_HOENN(KUDAMON_06),"
 
-replace "SPECIES_TO_NATIONAL(WOOPER),"
-with "SPECIES_TO_NATIONAL(KUDAMON),"
+replace "SPECIES_TO_NATIONAL(QUAGSIRE),"
+with "SPECIES_TO_NATIONAL(KUDAMON_06),"
 
-replace "HOENN_TO_NATIONAL(WOOPER),"
-with "HOENN_TO_NATIONAL(KUDAMON),"
+replace "HOENN_TO_NATIONAL(QUAGSIRE),"
+with "HOENN_TO_NATIONAL(KUDAMON_06),"
 
-replace "EC_POKEMON_NATIONAL(WOOPER),"
-with "EC_POKEMON_NATIONAL(KUDAMON),"
+replace "EC_POKEMON_NATIONAL(QUAGSIRE),"
+with "EC_POKEMON_NATIONAL(KUDAMON_06),"
 
-replace "egg_moves(WOOPER,"
-with "egg_moves(KUDAMON,"
+replace "egg_moves(QUAGSIRE,"
+with "egg_moves(KUDAMON_06,"
 
-replace "sWooperLevelUpLearnset"
-with "sKudamonLevelUpLearnset"
+replace "sQuagsireLevelUpLearnset"
+with "sKudamon_06LevelUpLearnset"
 
-replace "SPECIES_SPRITE(WOOPER"
-with "SPECIES_SPRITE(KUDAMON"
+replace "SPECIES_SPRITE(QUAGSIRE"
+with "SPECIES_SPRITE(KUDAMON_06"
 
-replace "SPECIES_PAL(WOOPER,"
-with "SPECIES_PAL(KUDAMON,"
+replace "SPECIES_PAL(QUAGSIRE,"
+with "SPECIES_PAL(KUDAMON_06,"
 
-replace "SPECIES_SHINY_PAL(WOOPER,"
-with "SPECIES_SHINY_PAL(KUDAMON,"
+replace "SPECIES_SHINY_PAL(QUAGSIRE,"
+with "SPECIES_SHINY_PAL(KUDAMON_06,"
 
-replace "EC_POKEMON(WOOPER)"
-with "EC_POKEMON(KUDAMON)"
+replace "EC_POKEMON(QUAGSIRE)"
+with "EC_POKEMON(KUDAMON_06)"
 
-replace "EC_POKEMON_NATIONAL(WOOPER)"
-with "EC_POKEMON_NATIONAL(KUDAMON)"
+replace "EC_POKEMON_NATIONAL(QUAGSIRE)"
+with "EC_POKEMON_NATIONAL(KUDAMON_06)"
 
 in "src/data/text/species_names.h"
-replace "WOOPER"
-with "KUDAMON"
+replace "QUAGSIRE"
+with "KUDAMON_06"

@@ -1278,7 +1278,7 @@ const u16 gEasyChatWordsByLetter_P[] = {
 };
 
 const u16 gEasyChatWordsByLetter_Q[] = {
-    EC_POKEMON_NATIONAL(QUAGSIRE),
+    EC_POKEMON_NATIONAL(KUDAMON_06),
     EC_WORD_QUESTION,
     EC_MOVE2(QUICK_ATTACK),
     EC_POKEMON_NATIONAL(GABUMON),
