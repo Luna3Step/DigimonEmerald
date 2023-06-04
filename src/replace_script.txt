@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_YANMA"
-with "FRONTIER_MON_KOTEMON"
+replace "FRONTIER_MON_WOOPER"
+with "FRONTIER_MON_KUDAMON"
 
-replace "gYanmaPokedexText"
-with "gKotemonPokedexText"
+replace "gWooperPokedexText"
+with "gKudamonPokedexText"
 
-replace "NATIONAL_DEX_YANMA"
-with "NATIONAL_DEX_KOTEMON"
+replace "NATIONAL_DEX_WOOPER"
+with "NATIONAL_DEX_KUDAMON"
 
-replace "SPECIES_YANMA"
-with "SPECIES_KOTEMON"
+replace "SPECIES_WOOPER"
+with "SPECIES_KUDAMON"
 
-replace "HOENN_DEX_YANMA"
-with "HOENN_DEX_KOTEMON"
+replace "HOENN_DEX_WOOPER"
+with "HOENN_DEX_KUDAMON"
 
-replace "SPECIES_TO_HOENN(YANMA),"
-with "SPECIES_TO_HOENN(KOTEMON),"
+replace "SPECIES_TO_HOENN(WOOPER),"
+with "SPECIES_TO_HOENN(KUDAMON),"
 
-replace "SPECIES_TO_NATIONAL(YANMA),"
-with "SPECIES_TO_NATIONAL(KOTEMON),"
+replace "SPECIES_TO_NATIONAL(WOOPER),"
+with "SPECIES_TO_NATIONAL(KUDAMON),"
 
-replace "HOENN_TO_NATIONAL(YANMA),"
-with "HOENN_TO_NATIONAL(KOTEMON),"
+replace "HOENN_TO_NATIONAL(WOOPER),"
+with "HOENN_TO_NATIONAL(KUDAMON),"
 
-replace "EC_POKEMON_NATIONAL(YANMA),"
-with "EC_POKEMON_NATIONAL(KOTEMON),"
+replace "EC_POKEMON_NATIONAL(WOOPER),"
+with "EC_POKEMON_NATIONAL(KUDAMON),"
 
-replace "egg_moves(YANMA,"
-with "egg_moves(KOTEMON,"
+replace "egg_moves(WOOPER,"
+with "egg_moves(KUDAMON,"
 
-replace "sYanmaLevelUpLearnset"
-with "sKotemonLevelUpLearnset"
+replace "sWooperLevelUpLearnset"
+with "sKudamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(YANMA"
-with "SPECIES_SPRITE(KOTEMON"
+replace "SPECIES_SPRITE(WOOPER"
+with "SPECIES_SPRITE(KUDAMON"
 
-replace "SPECIES_PAL(YANMA,"
-with "SPECIES_PAL(KOTEMON,"
+replace "SPECIES_PAL(WOOPER,"
+with "SPECIES_PAL(KUDAMON,"
 
-replace "SPECIES_SHINY_PAL(YANMA,"
-with "SPECIES_SHINY_PAL(KOTEMON,"
+replace "SPECIES_SHINY_PAL(WOOPER,"
+with "SPECIES_SHINY_PAL(KUDAMON,"
 
-replace "EC_POKEMON(YANMA)"
-with "EC_POKEMON(KOTEMON)"
+replace "EC_POKEMON(WOOPER)"
+with "EC_POKEMON(KUDAMON)"
 
-replace "EC_POKEMON_NATIONAL(YANMA)"
-with "EC_POKEMON_NATIONAL(KOTEMON)"
+replace "EC_POKEMON_NATIONAL(WOOPER)"
+with "EC_POKEMON_NATIONAL(KUDAMON)"
 
 in "src/data/text/species_names.h"
-replace "YANMA"
-with "KOTEMON"
+replace "WOOPER"
+with "KUDAMON"

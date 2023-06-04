@@ -1162,11 +1162,11 @@ const u8 gKotemonPokedexText[] = _(
     "Its armour is an integral part of it\n"
     "that is never seen seperate from it.");
 
-const u8 gWooperPokedexText[] = _(
-    "WOOPER usually live in water but come\n"
-    "out onto land seeking food occasionally.\n"
-    "On land, they coat their bodies with a\n"
-    "gooey, toxic film.");
+const u8 gKudamonPokedexText[] = _(
+    "Day after day, Kudamon accumulates holy\n"
+    "power in its earring. This power makes\n"
+    "it a frequent target however it can\n"
+    "withdraw into its cartridge for safety.");
 
 const u8 gQuagsirePokedexText[] = _(
     "A QUAGSIRE hunts by leaving its mouth wide\n"

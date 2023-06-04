@@ -2328,12 +2328,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WOOPER] =
+    [NATIONAL_DEX_KUDAMON] =
     {
-        .categoryName = _("WATER FISH"),
-        .height = 4,
+        .categoryName = _("KUDAGITSUNE"),
+        .height = 5,
         .weight = 85,
-        .description = gWooperPokedexText,
+        .description = gKudamonPokedexText,
         .pokemonScale = 479,
         .pokemonOffset = 21,
         .trainerScale = 256,

@@ -664,7 +664,7 @@ const u16 gEggMoves[] = {
               MOVE_SIGNAL_BEAM,
               MOVE_SILVER_WIND),
 
-    egg_moves(WOOPER,
+    egg_moves(KUDAMON,
               MOVE_BODY_SLAM,
               MOVE_ANCIENT_POWER,
               MOVE_SAFEGUARD,

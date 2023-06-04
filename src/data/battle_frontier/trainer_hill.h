@@ -2059,7 +2059,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_WOOPER,
+                                            .species = SPECIES_KUDAMON,
                                             .heldItem = ITEM_FIGY_BERRY,
                                             .moves = {MOVE_RAIN_DANCE, MOVE_YAWN, MOVE_SURF, MOVE_HAZE},
                                             .hpEV = 252,

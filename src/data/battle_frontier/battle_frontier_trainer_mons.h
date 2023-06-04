@@ -10,7 +10,7 @@
     FRONTIER_MON_FEEBAS,        \
     FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_HACKMON,     \
-    FRONTIER_MON_WOOPER,        \
+    FRONTIER_MON_KUDAMON,        \
     FRONTIER_MON_TYROGUE,       \
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
@@ -211,7 +211,7 @@
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_FEEBAS,        \
-    FRONTIER_MON_WOOPER,        \
+    FRONTIER_MON_KUDAMON,        \
     FRONTIER_MON_LOTAD,         \
     FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_WYNAUT,        \
@@ -390,7 +390,7 @@
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_HACKMON,     \
-    FRONTIER_MON_WOOPER,        \
+    FRONTIER_MON_KUDAMON,        \
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
     FRONTIER_MON_SEEDOT,        \
@@ -616,7 +616,7 @@
 
 #define FRONTIER_MONS_PARASOL_LADY_1 \
     FRONTIER_MON_KOKUWAMON,       \
-    FRONTIER_MON_WOOPER,        \
+    FRONTIER_MON_KUDAMON,        \
     FRONTIER_MON_LOTAD,         \
     FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_SURSKIT,       \

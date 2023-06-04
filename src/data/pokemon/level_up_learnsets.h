@@ -2669,7 +2669,7 @@ static const u16 sKotemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWooperLevelUpLearnset[] = {
+static const u16 sKudamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE(11, MOVE_SLAM),
