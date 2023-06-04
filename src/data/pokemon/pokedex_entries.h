@@ -2232,12 +2232,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_POLITOED] =
+    [NATIONAL_DEX_KAMEMON] =
     {
-        .categoryName = _("FROG"),
+        .categoryName = _("KAPPA"),
         .height = 11,
-        .weight = 339,
-        .description = gPolitoedPokedexText,
+        .weight = 431,
+        .description = gKamemonPokedexText,
         .pokemonScale = 289,
         .pokemonOffset = 6,
         .trainerScale = 256,

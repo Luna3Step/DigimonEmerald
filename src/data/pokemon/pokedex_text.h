@@ -1114,11 +1114,11 @@ const u8 gJunkmonPokedexText[] = _(
     "This works in its favour as it can use\n"
     "that same junk as ammo for its cannon.");
 
-const u8 gPolitoedPokedexText[] = _(
-    "The curled hair on its head proves its\n"
-    "status as a king. It is said that the\n"
-    "longer and curlier the hair, the more\n"
-    "respect it earns from its peers.");
+const u8 gKamemonPokedexText[] = _(
+    "Kamemon are a very reliable Digimon but\n"
+    "aren't popular picks with Tamers as they\n"
+    "don't like to talk much. The shell on\n"
+    "its back resembles a computer mouse.");
 
 const u8 gHoppipPokedexText[] = _(
     "This POKéMON drifts and floats with the\n"

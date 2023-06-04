@@ -190,7 +190,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_JAZAMON]      = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 12 },
     [SPECIES_JELLYMON]   = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  8 },
     [SPECIES_JUNKMON]   = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
-    [SPECIES_POLITOED]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
+    [SPECIES_KAMEMON]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
     [SPECIES_HOPPIP]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_SKIPLOOM]    = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_JUMPLUFF]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
