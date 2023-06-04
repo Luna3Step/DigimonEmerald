@@ -2244,12 +2244,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HOPPIP] =
+    [NATIONAL_DEX_KERAMON] =
     {
-        .categoryName = _("COTTONWEED"),
-        .height = 4,
-        .weight = 5,
-        .description = gHoppipPokedexText,
+        .categoryName = _("VIRUS"),
+        .height = 25,
+        .weight = 396,
+        .description = gKeramonPokedexText,
         .pokemonScale = 562,
         .pokemonOffset = -7,
         .trainerScale = 256,

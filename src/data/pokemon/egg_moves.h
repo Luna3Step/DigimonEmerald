@@ -630,7 +630,7 @@ const u16 gEggMoves[] = {
     egg_moves(JUNKMON,
               MOVE_SELF_DESTRUCT),
 
-    egg_moves(HOPPIP,
+    egg_moves(KERAMON,
               MOVE_CONFUSION,
               MOVE_ENCORE,
               MOVE_DOUBLE_EDGE,

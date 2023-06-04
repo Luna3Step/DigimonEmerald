@@ -25,7 +25,7 @@
     FRONTIER_MON_HAGURUMON,        \
     FRONTIER_MON_GOMAMON,      \
     FRONTIER_MON_JAZAMON,        \
-    FRONTIER_MON_HOPPIP,        \
+    FRONTIER_MON_KERAMON,        \
     FRONTIER_MON_SLUGMA,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
@@ -400,7 +400,7 @@
     FRONTIER_MON_ZIGZAGOON,     \
     FRONTIER_MON_HAGURUMON,        \
     FRONTIER_MON_JAZAMON,        \
-    FRONTIER_MON_HOPPIP,        \
+    FRONTIER_MON_KERAMON,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
     FRONTIER_MON_KETOMON,        \
@@ -537,7 +537,7 @@
 #define FRONTIER_MONS_BUG_MANIAC_1 \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_GOMAMON,      \
-    FRONTIER_MON_HOPPIP,        \
+    FRONTIER_MON_KERAMON,        \
     FRONTIER_MON_BUDMON,       \
     FRONTIER_MON_GIZUMON,        \
     FRONTIER_MON_NINCADA,       \
@@ -638,7 +638,7 @@
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_SEEDOT,        \
     FRONTIER_MON_LOTAD,         \
-    FRONTIER_MON_HOPPIP,        \
+    FRONTIER_MON_KERAMON,        \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_KIRLIA,        \
     FRONTIER_MON_MEDITITE,      \

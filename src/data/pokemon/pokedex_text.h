@@ -1120,11 +1120,11 @@ const u8 gKamemonPokedexText[] = _(
     "don't like to talk much. The shell on\n"
     "its back resembles a computer mouse.");
 
-const u8 gHoppipPokedexText[] = _(
-    "This POKéMON drifts and floats with the\n"
-    "wind. If it senses the approach of strong\n"
-    "winds, a HOPPIP links leaves with others\n"
-    "to prepare against being blown away.");
+const u8 gKeramonPokedexText[] = _(
+    "The insane mouth that Keramon has grown\n"
+    "can eat upwards of more than 100 megabytes\n"
+    "of data a second. Unlike most digimon,\n"
+    "this data is destroyed instantly.");
 
 const u8 gSkiploomPokedexText[] = _(
     "It blossoms when the temperature rises\n"
