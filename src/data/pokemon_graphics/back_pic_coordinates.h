@@ -195,7 +195,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_KERAMON_X]    = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 13 },
     [SPECIES_KODOKGUMON]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_KOKABUIMON]       = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
-    [SPECIES_SUNKERN]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset = 10 },
+    [SPECIES_KOKUWAMON]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset = 10 },
     [SPECIES_SUNFLORA]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_YANMA]       = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_WOOPER]      = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 15 },

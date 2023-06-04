@@ -649,7 +649,7 @@ const u16 gEggMoves[] = {
               MOVE_DOUBLE_SLAP,
               MOVE_BEAT_UP),
 
-    egg_moves(SUNKERN,
+    egg_moves(KOKUWAMON,
               MOVE_GRASS_WHISTLE,
               MOVE_ENCORE,
               MOVE_LEECH_SEED,

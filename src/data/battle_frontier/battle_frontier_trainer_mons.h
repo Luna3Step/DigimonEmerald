@@ -1,6 +1,6 @@
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
 #define FRONTIER_MONS_YOUNGSTER_LASS_1 \
-    FRONTIER_MON_SUNKERN,       \
+    FRONTIER_MON_KOKUWAMON,       \
     FRONTIER_MON_AZURILL,       \
     FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_FUFUMON,        \
@@ -615,7 +615,7 @@
     -1
 
 #define FRONTIER_MONS_PARASOL_LADY_1 \
-    FRONTIER_MON_SUNKERN,       \
+    FRONTIER_MON_KOKUWAMON,       \
     FRONTIER_MON_WOOPER,        \
     FRONTIER_MON_LOTAD,         \
     FRONTIER_MON_JAZAMON,        \
@@ -634,7 +634,7 @@
     -1
 
 #define FRONTIER_MONS_AROMA_LADY_1 \
-    FRONTIER_MON_SUNKERN,       \
+    FRONTIER_MON_KOKUWAMON,       \
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_SEEDOT,        \
     FRONTIER_MON_LOTAD,         \

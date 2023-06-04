@@ -1,7 +1,7 @@
 const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
 {
-    [FRONTIER_MON_SUNKERN] = {
-        .species = SPECIES_SUNKERN,
+    [FRONTIER_MON_KOKUWAMON] = {
+        .species = SPECIES_KOKUWAMON,
         .moves = {MOVE_MEGA_DRAIN, MOVE_HELPING_HAND, MOVE_SUNNY_DAY, MOVE_LIGHT_SCREEN},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

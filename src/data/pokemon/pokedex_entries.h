@@ -2292,12 +2292,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SUNKERN] =
+    [NATIONAL_DEX_KOKUWAMON] =
     {
-        .categoryName = _("SEED"),
-        .height = 3,
-        .weight = 18,
-        .description = gSunkernPokedexText,
+        .categoryName = _("STEEL BUG"),
+        .height = 10,
+        .weight = 642,
+        .description = gKokuwamonPokedexText,
         .pokemonScale = 541,
         .pokemonOffset = 0,
         .trainerScale = 256,

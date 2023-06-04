@@ -1144,11 +1144,11 @@ const u8 gKokabuiMonPokedexText[] = _(
     "that it can lift Ultimate level Digimon\n"
     "however it is actually a gentle Digimon.");
 
-const u8 gSunkernPokedexText[] = _(
-    "SUNKERN try to minimize movement to\n"
-    "conserve the nutrients they have stored\n"
-    "in their bodies for evolution. They will\n"
-    "not eat, subsisting only on morning dew.");
+const u8 gKokuwamonPokedexText[] = _(
+    "While they like to mind their own business\n"
+    "most of the time, approaching a Kokuwamon\n"
+    "should be done with caution as their head\n"
+    "can discharge 100 megavolts when touched.");
 
 const u8 gSunfloraPokedexText[] = _(
     "SUNFLORA convert solar energy into\n"
