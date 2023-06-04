@@ -2655,7 +2655,7 @@ static const u16 sKokuwamon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sYanmaLevelUpLearnset[] = {
+static const u16 sKotemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_FORESIGHT),
     LEVEL_UP_MOVE( 7, MOVE_QUICK_ATTACK),

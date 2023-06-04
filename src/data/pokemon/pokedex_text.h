@@ -1156,11 +1156,11 @@ const u8 gKokuwamon_xPokedexText[] = _(
     "greater electrical attacks. It also now\n"
     "has a new form letting it fly.");
 
-const u8 gYanmaPokedexText[] = _(
-    "It can see 360 degrees without moving\n"
-    "its eyes. It is a great flier capable of\n"
-    "making sudden stops and turning midair to\n"
-    "quickly chase down targeted prey.");
+const u8 gKotemonPokedexText[] = _(
+    "A hardworking Digimon, Kotemon is almost\n"
+    "always seen training in the art of Kendo.\n"
+    "Its armour is an integral part of it\n"
+    "that is never seen seperate from it.");
 
 const u8 gWooperPokedexText[] = _(
     "WOOPER usually live in water but come\n"

@@ -1936,7 +1936,7 @@ const u16 gEasyChatWordsByLetter_X[] = {
 
 const u16 gEasyChatWordsByLetter_Y[] = {
     EC_WORD_YAHOO,
-    EC_POKEMON_NATIONAL(YANMA),
+    EC_POKEMON_NATIONAL(KOTEMON),
     EC_MOVE(YAWN),
     EC_WORD_YAY,
     EC_WORD_YEAH,
@@ -2381,7 +2381,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {
     EC_WORD_VITAL_SPIRIT,
     EC_POKEMON(VIGOROTH),
     EC_WORD_YOUNG,
-    EC_POKEMON_NATIONAL(YANMA),
+    EC_POKEMON_NATIONAL(KOTEMON),
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseYu[] = {

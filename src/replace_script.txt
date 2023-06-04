@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SUNFLORA"
-with "FRONTIER_MON_KOKUWAMON_X"
+replace "FRONTIER_MON_YANMA"
+with "FRONTIER_MON_KOTEMON"
 
-replace "gSunfloraPokedexText"
-with "gKokuwamon_xPokedexText"
+replace "gYanmaPokedexText"
+with "gKotemonPokedexText"
 
-replace "NATIONAL_DEX_SUNFLORA"
-with "NATIONAL_DEX_KOKUWAMON_X"
+replace "NATIONAL_DEX_YANMA"
+with "NATIONAL_DEX_KOTEMON"
 
-replace "SPECIES_SUNFLORA"
-with "SPECIES_KOKUWAMON_X"
+replace "SPECIES_YANMA"
+with "SPECIES_KOTEMON"
 
-replace "HOENN_DEX_SUNFLORA"
-with "HOENN_DEX_KOKUWAMON_X"
+replace "HOENN_DEX_YANMA"
+with "HOENN_DEX_KOTEMON"
 
-replace "SPECIES_TO_HOENN(SUNFLORA),"
-with "SPECIES_TO_HOENN(KOKUWAMON_X),"
+replace "SPECIES_TO_HOENN(YANMA),"
+with "SPECIES_TO_HOENN(KOTEMON),"
 
-replace "SPECIES_TO_NATIONAL(SUNFLORA),"
-with "SPECIES_TO_NATIONAL(KOKUWAMON_X),"
+replace "SPECIES_TO_NATIONAL(YANMA),"
+with "SPECIES_TO_NATIONAL(KOTEMON),"
 
-replace "HOENN_TO_NATIONAL(SUNFLORA),"
-with "HOENN_TO_NATIONAL(KOKUWAMON_X),"
+replace "HOENN_TO_NATIONAL(YANMA),"
+with "HOENN_TO_NATIONAL(KOTEMON),"
 
-replace "EC_POKEMON_NATIONAL(SUNFLORA),"
-with "EC_POKEMON_NATIONAL(KOKUWAMON_X),"
+replace "EC_POKEMON_NATIONAL(YANMA),"
+with "EC_POKEMON_NATIONAL(KOTEMON),"
 
-replace "egg_moves(SUNFLORA,"
-with "egg_moves(KOKUWAMON_X,"
+replace "egg_moves(YANMA,"
+with "egg_moves(KOTEMON,"
 
-replace "sSunfloraLevelUpLearnset"
-with "sKokuwamon_xLevelUpLearnset"
+replace "sYanmaLevelUpLearnset"
+with "sKotemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SUNFLORA"
-with "SPECIES_SPRITE(KOKUWAMON_X"
+replace "SPECIES_SPRITE(YANMA"
+with "SPECIES_SPRITE(KOTEMON"
 
-replace "SPECIES_PAL(SUNFLORA,"
-with "SPECIES_PAL(KOKUWAMON_X,"
+replace "SPECIES_PAL(YANMA,"
+with "SPECIES_PAL(KOTEMON,"
 
-replace "SPECIES_SHINY_PAL(SUNFLORA,"
-with "SPECIES_SHINY_PAL(KOKUWAMON_X,"
+replace "SPECIES_SHINY_PAL(YANMA,"
+with "SPECIES_SHINY_PAL(KOTEMON,"
 
-replace "EC_POKEMON(SUNFLORA)"
-with "EC_POKEMON(KOKUWAMON_X)"
+replace "EC_POKEMON(YANMA)"
+with "EC_POKEMON(KOTEMON)"
 
-replace "EC_POKEMON_NATIONAL(SUNFLORA)"
-with "EC_POKEMON_NATIONAL(KOKUWAMON_X)"
+replace "EC_POKEMON_NATIONAL(YANMA)"
+with "EC_POKEMON_NATIONAL(KOTEMON)"
 
 in "src/data/text/species_names.h"
-replace "SUNFLORA"
-with "KOKUWAMON_X"
+replace "YANMA"
+with "KOTEMON"

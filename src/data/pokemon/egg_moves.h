@@ -657,7 +657,7 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_HELPING_HAND),
 
-    egg_moves(YANMA,
+    egg_moves(KOTEMON,
               MOVE_WHIRLWIND,
               MOVE_REVERSAL,
               MOVE_LEECH_LIFE,

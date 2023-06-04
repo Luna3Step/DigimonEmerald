@@ -2316,12 +2316,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_YANMA] =
+    [NATIONAL_DEX_KOTEMON] =
     {
-        .categoryName = _("CLEAR WING"),
-        .height = 12,
-        .weight = 380,
-        .description = gYanmaPokedexText,
+        .categoryName = _("KENDO"),
+        .height = 9,
+        .weight = 343,
+        .description = gKotemonPokedexText,
         .pokemonScale = 274,
         .pokemonOffset = -1,
         .trainerScale = 256,

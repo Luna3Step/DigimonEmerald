@@ -204,7 +204,7 @@
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     -1
 
 #define FRONTIER_MONS_TUBER_1   \
@@ -451,7 +451,7 @@
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     -1
 
 // Identical to above with 2 additions. Might be possible to merge the two
@@ -480,7 +480,7 @@
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     -1
 
 #define FRONTIER_MONS_NINJA_BOY_1 \
@@ -531,7 +531,7 @@
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     -1
 
 #define FRONTIER_MONS_BUG_MANIAC_1 \
@@ -564,7 +564,7 @@
     FRONTIER_MON_DUSTOX,        \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     -1
 
 #define FRONTIER_MONS_FISHERMAN_1 \
@@ -1385,7 +1385,7 @@
 #define FRONTIER_MONS_BUG_MANIAC_2 \
     FRONTIER_MON_GOBLIMON,        \
     FRONTIER_MON_GOMAMON_X,       \
-    FRONTIER_MON_YANMA,         \
+    FRONTIER_MON_KOTEMON,         \
     FRONTIER_MON_VOLBEAT_1,     \
     FRONTIER_MON_ILLUMISE_1,    \
     FRONTIER_MON_BABYDMON_1,    \
