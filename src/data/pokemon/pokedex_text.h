@@ -1150,11 +1150,11 @@ const u8 gKokuwamonPokedexText[] = _(
     "should be done with caution as their head\n"
     "can discharge 100 megavolts when touched.");
 
-const u8 gSunfloraPokedexText[] = _(
-    "SUNFLORA convert solar energy into\n"
-    "nutrition. They are highly active in the\n"
-    "warm daytime but suddenly stop moving as\n"
-    "soon as the sun sets.");
+const u8 gKokuwamon_xPokedexText[] = _(
+    "Kokuwamon X's increased charge capacity\n"
+    "has now given it the ability to use\n"
+    "greater electrical attacks. It also now\n"
+    "has a new form letting it fly.");
 
 const u8 gYanmaPokedexText[] = _(
     "It can see 360 degrees without moving\n"

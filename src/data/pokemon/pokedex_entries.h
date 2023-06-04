@@ -2304,12 +2304,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SUNFLORA] =
+    [NATIONAL_DEX_KOKUWAMON_X] =
     {
-        .categoryName = _("SUN"),
-        .height = 8,
-        .weight = 85,
-        .description = gSunfloraPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 13,
+        .weight = 679,
+        .description = gKokuwamon_xPokedexText,
         .pokemonScale = 444,
         .pokemonOffset = 15,
         .trainerScale = 256,
