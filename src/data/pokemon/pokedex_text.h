@@ -1132,11 +1132,11 @@ const u8 gKeramon_xPokedexText[] = _(
     "the right timing, it can even devour a\n"
     "Mega Digimons data without hassle.");
 
-const u8 gJumpluffPokedexText[] = _(
-    "JUMPLUFF ride warm southern winds to\n"
-    "cross the sea and fly to foreign lands.\n"
-    "This POKéMON lands when it encounters\n"
-    "cold air while it is floating.");
+const u8 gKodokgumonPokedexText[] = _(
+    "Often found with Dokugumon, KoDokugomon\n"
+    "is rarely a threat on its own however\n"
+    "in a grown they can quickly swarm and\n"
+    "overwhelm weaker Digimon with ease.");
 
 const u8 gAipomPokedexText[] = _(
     "Its tail ends with a dexterous, handlike\n"

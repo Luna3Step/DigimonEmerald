@@ -2268,12 +2268,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_JUMPLUFF] =
+    [NATIONAL_DEX_KODOKGUMON] =
     {
-        .categoryName = _("COTTONWEED"),
-        .height = 8,
-        .weight = 30,
-        .description = gJumpluffPokedexText,
+        .categoryName = _("WOLF SPIDER"),
+        .height = 7,
+        .weight = 257,
+        .description = gKodokgumonPokedexText,
         .pokemonScale = 418,
         .pokemonOffset = -4,
         .trainerScale = 256,
