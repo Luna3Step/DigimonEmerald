@@ -173,7 +173,7 @@ const u8 gPoyomonPokedexText[] = _(
     "link to solving the origin of digimon.");
 
 const u8 gPunimonPokedexText[] = _(
-    "Punimon is new kind of fresh digimon.\n"
+    "Punimon is new kind of Fresh digimon.\n"
     "It's body is squishy it has three \n"
     "feeler-like things atop it's head. \n"
     "It's bubbles are very acidic.");
@@ -1300,11 +1300,11 @@ const u8 gNeemonPokedexText[] = _(
     "fact it is so lazy, it is still very\n"
     "knowledgable on many topics.");
 
-const u8 gUrsaringPokedexText[] = _(
-    "In forests, it is said that there are many\n"
-    "streams and towering trees where an\n"
-    "URSARING gathers food. It walks through\n"
-    "its forest collecting food every day.");
+const u8 gOtamamonPokedexText[] = _(
+    "Although Otamamon has grown a lot from\n"
+    "its Fresh days, it is still considered a \n"
+    "larva Digimon as its skin has not fully\n"
+    "formed. For this reason, it lives in water.");
 
 const u8 gSlugmaPokedexText[] = _(
     "It is a species of POKéMON that lives in\n"

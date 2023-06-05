@@ -2604,12 +2604,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_URSARING] =
+    [NATIONAL_DEX_OTAMAMON] =
     {
-        .categoryName = _("HIBERNATOR"),
-        .height = 18,
-        .weight = 1258,
-        .description = gUrsaringPokedexText,
+        .categoryName = _("TADPOLE"),
+        .height = 6,
+        .weight = 362,
+        .description = gOtamamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

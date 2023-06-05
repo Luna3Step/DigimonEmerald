@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TEDDIURSA"
-with "FRONTIER_MON_NEEMON"
+replace "FRONTIER_MON_URSARING"
+with "FRONTIER_MON_OTAMAMON"
 
-replace "gTeddiursaPokedexText"
-with "gNeemonPokedexText"
+replace "gUrsaringPokedexText"
+with "gOtamamonPokedexText"
 
-replace "NATIONAL_DEX_TEDDIURSA"
-with "NATIONAL_DEX_NEEMON"
+replace "NATIONAL_DEX_URSARING"
+with "NATIONAL_DEX_OTAMAMON"
 
-replace "SPECIES_TEDDIURSA"
-with "SPECIES_NEEMON"
+replace "SPECIES_URSARING"
+with "SPECIES_OTAMAMON"
 
-replace "HOENN_DEX_TEDDIURSA"
-with "HOENN_DEX_NEEMON"
+replace "HOENN_DEX_URSARING"
+with "HOENN_DEX_OTAMAMON"
 
-replace "SPECIES_TO_HOENN(TEDDIURSA),"
-with "SPECIES_TO_HOENN(NEEMON),"
+replace "SPECIES_TO_HOENN(URSARING),"
+with "SPECIES_TO_HOENN(OTAMAMON),"
 
-replace "SPECIES_TO_NATIONAL(TEDDIURSA),"
-with "SPECIES_TO_NATIONAL(NEEMON),"
+replace "SPECIES_TO_NATIONAL(URSARING),"
+with "SPECIES_TO_NATIONAL(OTAMAMON),"
 
-replace "HOENN_TO_NATIONAL(TEDDIURSA),"
-with "HOENN_TO_NATIONAL(NEEMON),"
+replace "HOENN_TO_NATIONAL(URSARING),"
+with "HOENN_TO_NATIONAL(OTAMAMON),"
 
-replace "EC_POKEMON_NATIONAL(TEDDIURSA),"
-with "EC_POKEMON_NATIONAL(NEEMON),"
+replace "EC_POKEMON_NATIONAL(URSARING),"
+with "EC_POKEMON_NATIONAL(OTAMAMON),"
 
-replace "egg_moves(TEDDIURSA,"
-with "egg_moves(NEEMON,"
+replace "egg_moves(URSARING,"
+with "egg_moves(OTAMAMON,"
 
-replace "sTeddiursaLevelUpLearnset"
-with "sNeemonLevelUpLearnset"
+replace "sUrsaringLevelUpLearnset"
+with "sOtamamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TEDDIURSA"
-with "SPECIES_SPRITE(NEEMON"
+replace "SPECIES_SPRITE(URSARING"
+with "SPECIES_SPRITE(OTAMAMON"
 
-replace "SPECIES_PAL(TEDDIURSA,"
-with "SPECIES_PAL(NEEMON,"
+replace "SPECIES_PAL(URSARING,"
+with "SPECIES_PAL(OTAMAMON,"
 
-replace "SPECIES_SHINY_PAL(TEDDIURSA,"
-with "SPECIES_SHINY_PAL(NEEMON,"
+replace "SPECIES_SHINY_PAL(URSARING,"
+with "SPECIES_SHINY_PAL(OTAMAMON,"
 
-replace "EC_POKEMON(TEDDIURSA)"
-with "EC_POKEMON(NEEMON)"
+replace "EC_POKEMON(URSARING)"
+with "EC_POKEMON(OTAMAMON)"
 
-replace "EC_POKEMON_NATIONAL(TEDDIURSA)"
-with "EC_POKEMON_NATIONAL(NEEMON)"
+replace "EC_POKEMON_NATIONAL(URSARING)"
+with "EC_POKEMON_NATIONAL(OTAMAMON)"
 
 in "src/data/text/species_names.h"
-replace "TEDDIURSA"
-with "NEEMON"
+replace "URSARING"
+with "OTAMAMON"

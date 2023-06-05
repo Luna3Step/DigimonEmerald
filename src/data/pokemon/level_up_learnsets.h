@@ -2972,7 +2972,7 @@ static const u16 sNeemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sUrsaringLevelUpLearnset[] = {
+static const u16 sOtamamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_LICK),

@@ -2875,7 +2875,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_LANE] = {
-        .species = SPECIES_URSARING,
+        .species = SPECIES_OTAMAMON,
         .nickname = _("URSING"),
         .trainerName = _("LANE"),
         .trainerGfxId = OBJ_EVENT_GFX_BLACK_BELT,
