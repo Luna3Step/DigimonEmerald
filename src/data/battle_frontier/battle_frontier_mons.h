@@ -1610,8 +1610,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_PILOSWINE_1] = {
-        .species = SPECIES_PILOSWINE,
+    [FRONTIER_MON_PALMON_X_1] = {
+        .species = SPECIES_PALMON_X,
         .moves = {MOVE_DIG, MOVE_ANCIENT_POWER, MOVE_HAIL, MOVE_LIGHT_SCREEN},
         .itemTableId = BATTLE_FRONTIER_ITEM_SOFT_SAND,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2345,8 +2345,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_PILOSWINE_2] = {
-        .species = SPECIES_PILOSWINE,
+    [FRONTIER_MON_PALMON_X_2] = {
+        .species = SPECIES_PALMON_X,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_BODY_SLAM, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,

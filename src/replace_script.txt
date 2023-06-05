@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SWINUB"
-with "FRONTIER_MON_PALMON"
+replace "FRONTIER_MON_PILOSWINE"
+with "FRONTIER_MON_PALMON_X"
 
-replace "gSwinubPokedexText"
-with "gPalmonPokedexText"
+replace "gPiloswinePokedexText"
+with "gPalmon_xPokedexText"
 
-replace "NATIONAL_DEX_SWINUB"
-with "NATIONAL_DEX_PALMON"
+replace "NATIONAL_DEX_PILOSWINE"
+with "NATIONAL_DEX_PALMON_X"
 
-replace "SPECIES_SWINUB"
-with "SPECIES_PALMON"
+replace "SPECIES_PILOSWINE"
+with "SPECIES_PALMON_X"
 
-replace "HOENN_DEX_SWINUB"
-with "HOENN_DEX_PALMON"
+replace "HOENN_DEX_PILOSWINE"
+with "HOENN_DEX_PALMON_X"
 
-replace "SPECIES_TO_HOENN(SWINUB),"
-with "SPECIES_TO_HOENN(PALMON),"
+replace "SPECIES_TO_HOENN(PILOSWINE),"
+with "SPECIES_TO_HOENN(PALMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SWINUB),"
-with "SPECIES_TO_NATIONAL(PALMON),"
+replace "SPECIES_TO_NATIONAL(PILOSWINE),"
+with "SPECIES_TO_NATIONAL(PALMON_X),"
 
-replace "HOENN_TO_NATIONAL(SWINUB),"
-with "HOENN_TO_NATIONAL(PALMON),"
+replace "HOENN_TO_NATIONAL(PILOSWINE),"
+with "HOENN_TO_NATIONAL(PALMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SWINUB),"
-with "EC_POKEMON_NATIONAL(PALMON),"
+replace "EC_POKEMON_NATIONAL(PILOSWINE),"
+with "EC_POKEMON_NATIONAL(PALMON_X),"
 
-replace "egg_moves(SWINUB,"
-with "egg_moves(PALMON,"
+replace "egg_moves(PILOSWINE,"
+with "egg_moves(PALMON_X,"
 
-replace "sSwinubLevelUpLearnset"
-with "sPalmonLevelUpLearnset"
+replace "sPiloswineLevelUpLearnset"
+with "sPalmon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SWINUB"
-with "SPECIES_SPRITE(PALMON"
+replace "SPECIES_SPRITE(PILOSWINE"
+with "SPECIES_SPRITE(PALMON_X"
 
-replace "SPECIES_PAL(SWINUB,"
-with "SPECIES_PAL(PALMON,"
+replace "SPECIES_PAL(PILOSWINE,"
+with "SPECIES_PAL(PALMON_X,"
 
-replace "SPECIES_SHINY_PAL(SWINUB,"
-with "SPECIES_SHINY_PAL(PALMON,"
+replace "SPECIES_SHINY_PAL(PILOSWINE,"
+with "SPECIES_SHINY_PAL(PALMON_X,"
 
-replace "EC_POKEMON(SWINUB)"
-with "EC_POKEMON(PALMON)"
+replace "EC_POKEMON(PILOSWINE)"
+with "EC_POKEMON(PALMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SWINUB)"
-with "EC_POKEMON_NATIONAL(PALMON)"
+replace "EC_POKEMON_NATIONAL(PILOSWINE)"
+with "EC_POKEMON_NATIONAL(PALMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SWINUB"
-with "PALMON"
+replace "PILOSWINE"
+with "PALMON_X"

@@ -1324,11 +1324,11 @@ const u8 gPalmonPokedexText[] = _(
     "is actually made up of lots of reptile\n"
     "data just like Tanemon.");
 
-const u8 gPiloswinePokedexText[] = _(
-    "A PILOSWINE is covered by a thick coat\n"
-    "of long hair for enduring freezing cold.\n"
-    "It uses its tusks to dig up food that has\n"
-    "been buried under ice.");
+const u8 gPalmon_xPokedexText[] = _(
+    "Palmon Xs flower has now fully bloomed\n"
+    "with colours and fragnance now expressing\n"
+    "its feelings. It can now also release a\n"
+    "poisonous scent that causes many effects.");
 
 const u8 gCorsolaPokedexText[] = _(
     "CORSOLA live in warm southern seas.\n"

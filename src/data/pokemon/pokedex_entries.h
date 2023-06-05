@@ -2652,12 +2652,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PILOSWINE] =
+    [NATIONAL_DEX_PALMON_X] =
     {
-        .categoryName = _("SWINE"),
+        .categoryName = _("X ANTIBODY"),
         .height = 11,
-        .weight = 558,
-        .description = gPiloswinePokedexText,
+        .weight = 501,
+        .description = gPalmon_xPokedexText,
         .pokemonScale = 306,
         .pokemonOffset = 10,
         .trainerScale = 256,
