@@ -1246,11 +1246,11 @@ const u8 gMetabeePokedexText[] = _(
     "outstanding strength but its balanced\n"
     "strength makes it hard to fight against.");
 
-const u8 gSteelixPokedexText[] = _(
-    "STEELIX live even further underground\n"
-    "than ONIX. This POKéMON is known to dig\n"
-    "toward the earth's core, reaching a depth\n"
-    "of over six-tenths of a mile underground.");
+const u8 gKodekacmonPokedexText[] = _(
+    "Often mistaken for In-Training Digimon, \n"
+    "Minidekachimon is actually just a small\n"
+    "Rookie Digimon. It spends its time bossing\n"
+    "Atamadekachimon around.");
 
 const u8 gSnubbullPokedexText[] = _(
     "By baring its fangs and making a scary\n"

@@ -2496,12 +2496,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_STEELIX] =
+    [NATIONAL_DEX_KODEKACMON] =
     {
-        .categoryName = _("IRON SNAKE"),
-        .height = 92,
-        .weight = 4000,
-        .description = gSteelixPokedexText,
+        .categoryName = _("BOSSY"),
+        .height = 8,
+        .weight = 473,
+        .description = gKodekacmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 516,
