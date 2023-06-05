@@ -2820,12 +2820,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SMEARGLE] =
+    [NATIONAL_DEX_RYUDAMON] =
     {
-        .categoryName = _("PAINTER"),
-        .height = 12,
+        .categoryName = _("X ANTIBODY"),
+        .height = 9,
         .weight = 580,
-        .description = gSmearglePokedexText,
+        .description = gRyudamonPokedexText,
         .pokemonScale = 287,
         .pokemonOffset = 5,
         .trainerScale = 256,

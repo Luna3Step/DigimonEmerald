@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_STANTLER"
-with "FRONTIER_MON_ROKUSHO"
+replace "FRONTIER_MON_SMEARGLE"
+with "FRONTIER_MON_RYUDAMON"
 
-replace "gStantlerPokedexText"
-with "gRokushoPokedexText"
+replace "gSmearglePokedexText"
+with "gRyudamonPokedexText"
 
-replace "NATIONAL_DEX_STANTLER"
-with "NATIONAL_DEX_ROKUSHO"
+replace "NATIONAL_DEX_SMEARGLE"
+with "NATIONAL_DEX_RYUDAMON"
 
-replace "SPECIES_STANTLER"
-with "SPECIES_ROKUSHO"
+replace "SPECIES_SMEARGLE"
+with "SPECIES_RYUDAMON"
 
-replace "HOENN_DEX_STANTLER"
-with "HOENN_DEX_ROKUSHO"
+replace "HOENN_DEX_SMEARGLE"
+with "HOENN_DEX_RYUDAMON"
 
-replace "SPECIES_TO_HOENN(STANTLER),"
-with "SPECIES_TO_HOENN(ROKUSHO),"
+replace "SPECIES_TO_HOENN(SMEARGLE),"
+with "SPECIES_TO_HOENN(RYUDAMON),"
 
-replace "SPECIES_TO_NATIONAL(STANTLER),"
-with "SPECIES_TO_NATIONAL(ROKUSHO),"
+replace "SPECIES_TO_NATIONAL(SMEARGLE),"
+with "SPECIES_TO_NATIONAL(RYUDAMON),"
 
-replace "HOENN_TO_NATIONAL(STANTLER),"
-with "HOENN_TO_NATIONAL(ROKUSHO),"
+replace "HOENN_TO_NATIONAL(SMEARGLE),"
+with "HOENN_TO_NATIONAL(RYUDAMON),"
 
-replace "EC_POKEMON_NATIONAL(STANTLER),"
-with "EC_POKEMON_NATIONAL(ROKUSHO),"
+replace "EC_POKEMON_NATIONAL(SMEARGLE),"
+with "EC_POKEMON_NATIONAL(RYUDAMON),"
 
-replace "egg_moves(STANTLER,"
-with "egg_moves(ROKUSHO,"
+replace "egg_moves(SMEARGLE,"
+with "egg_moves(RYUDAMON,"
 
-replace "sStantlerLevelUpLearnset"
-with "sRokushoLevelUpLearnset"
+replace "sSmeargleLevelUpLearnset"
+with "sRyudamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(STANTLER"
-with "SPECIES_SPRITE(ROKUSHO"
+replace "SPECIES_SPRITE(SMEARGLE"
+with "SPECIES_SPRITE(RYUDAMON"
 
-replace "SPECIES_PAL(STANTLER,"
-with "SPECIES_PAL(ROKUSHO,"
+replace "SPECIES_PAL(SMEARGLE,"
+with "SPECIES_PAL(RYUDAMON,"
 
-replace "SPECIES_SHINY_PAL(STANTLER,"
-with "SPECIES_SHINY_PAL(ROKUSHO,"
+replace "SPECIES_SHINY_PAL(SMEARGLE,"
+with "SPECIES_SHINY_PAL(RYUDAMON,"
 
-replace "EC_POKEMON(STANTLER)"
-with "EC_POKEMON(ROKUSHO)"
+replace "EC_POKEMON(SMEARGLE)"
+with "EC_POKEMON(RYUDAMON)"
 
-replace "EC_POKEMON_NATIONAL(STANTLER)"
-with "EC_POKEMON_NATIONAL(ROKUSHO)"
+replace "EC_POKEMON_NATIONAL(SMEARGLE)"
+with "EC_POKEMON_NATIONAL(RYUDAMON)"
 
 in "src/data/text/species_names.h"
-replace "STANTLER"
-with "ROKUSHO"
+replace "SMEARGLE"
+with "RYUDAMON"

@@ -3395,7 +3395,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_SWIFT)),
 
-    [SPECIES_SMEARGLE]         = (0),
+    [SPECIES_RYUDAMON]         = (0),
 
     [SPECIES_TYROGUE]          = (TUTOR(MOVE_MEGA_KICK)
                                 | TUTOR(MOVE_BODY_SLAM)

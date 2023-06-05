@@ -3212,7 +3212,7 @@ static const u16 sRokushoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSmeargleLevelUpLearnset[] = {
+static const u16 sRyudamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SKETCH),
     LEVEL_UP_MOVE(11, MOVE_SKETCH),
     LEVEL_UP_MOVE(21, MOVE_SKETCH),

@@ -224,8 +224,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_GENTLE
     },
-    [FRONTIER_MON_SMEARGLE] = {
-        .species = SPECIES_SMEARGLE,
+    [FRONTIER_MON_RYUDAMON] = {
+        .species = SPECIES_RYUDAMON,
         .moves = {MOVE_EXTREME_SPEED, MOVE_FAKE_OUT, MOVE_QUICK_ATTACK, MOVE_MACH_PUNCH},
         .itemTableId = BATTLE_FRONTIER_ITEM_KINGS_ROCK,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

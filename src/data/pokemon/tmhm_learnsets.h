@@ -5612,7 +5612,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM48_SKILL_SWAP)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_SMEARGLE]    = TMHM_LEARNSET(0),
+    [SPECIES_RYUDAMON]    = TMHM_LEARNSET(0),
 
     [SPECIES_TYROGUE]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM08_BULK_UP)

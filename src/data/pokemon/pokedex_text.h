@@ -1408,11 +1408,11 @@ const u8 gRokushoPokedexText[] = _(
     "gives it more than enough power for\n"
     "attacking and defending.");
 
-const u8 gSmearglePokedexText[] = _(
-    "A SMEARGLE marks its territory using a\n"
-    "fluid that leaks out from the tip of its\n"
-    "tail. About 5,000 different marks left by\n"
-    "this POKéMON have been found.");
+const u8 gRyudamonPokedexText[] = _(
+    "Despite the fact that is covered in\n"
+    "Japanese-style armour, its movements are\n"
+    "very nimble making it very adept in\n"
+    "battles against even strong Digimon.");
 
 const u8 gTyroguePokedexText[] = _(
     "TYROGUE become stressed out if they do\n"
