@@ -2928,12 +2928,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_ENTEI] =
+    [NATIONAL_DEX_YUKIAGUMON_06] =
     {
-        .categoryName = _("VOLCANO"),
-        .height = 21,
-        .weight = 1980,
-        .description = gEnteiPokedexText,
+        .categoryName = _("T-REX"),
+        .height = 10,
+        .weight = 658,
+        .description = gYukiagumon_06PokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 0,
         .trainerScale = 345,

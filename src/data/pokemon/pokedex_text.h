@@ -1462,11 +1462,11 @@ const u8 gYukiagumonPokedexText[] = _(
     "is snowing. Because of its white body, it\n"
     "can easily sneak upto Digimon in the snow.");
 
-const u8 gEnteiPokedexText[] = _(
-    "ENTEI embodies the passion of magma.\n"
-    "It is thought to have been born in the\n"
-    "eruption of a volcano. It blasts fire that\n"
-    "consumes all that it touches.");
+const u8 gYukiagumon_06PokedexText[] = _(
+    "Unlike normal YukiAgumon, this YukiAgumon\n"
+    "favours physical fights and follows a more\n"
+    "strenght based hierarchy. It also has \n"
+    "abandoned stealth attacks out of honour.");
 
 const u8 gSuicunePokedexText[] = _(
     "SUICUNE embodies the compassion of\n"

@@ -3329,7 +3329,7 @@ static const u16 sYukiagumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sEnteiLevelUpLearnset[] = {
+static const u16 sYukiagumon_06LevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE(11, MOVE_EMBER),
