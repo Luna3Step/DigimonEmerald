@@ -1294,11 +1294,11 @@ const u8 gMushroomonPokedexText[] = _(
     "also has a shy side so it will also conceal\n"
     "half of its face around others.");
 
-const u8 gTeddiursaPokedexText[] = _(
-    "It licks its palms that are sweetened by\n"
-    "being soaked in honey. A TEDDIURSA makes\n"
-    "its own honey by blending fruits and pollen\n"
-    "collected by BEEDRILL.");
+const u8 gNeemonPokedexText[] = _(
+    "A Neemon can almost always be found half\n"
+    "asleep or dodging its duties. Despite the \n"
+    "fact it is so lazy, it is still very\n"
+    "knowledgable on many topics.");
 
 const u8 gUrsaringPokedexText[] = _(
     "In forests, it is said that there are many\n"

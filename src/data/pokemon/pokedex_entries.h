@@ -2592,12 +2592,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TEDDIURSA] =
+    [NATIONAL_DEX_NEEMON] =
     {
-        .categoryName = _("LITTLE BEAR"),
-        .height = 6,
-        .weight = 88,
-        .description = gTeddiursaPokedexText,
+        .categoryName = _("LAZY"),
+        .height = 11,
+        .weight = 436,
+        .description = gNeemonPokedexText,
         .pokemonScale = 455,
         .pokemonOffset = 19,
         .trainerScale = 256,

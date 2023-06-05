@@ -759,7 +759,7 @@ const u16 gEggMoves[] = {
               MOVE_CRUSH_CLAW,
               MOVE_FAKE_OUT),
 
-    egg_moves(TEDDIURSA,
+    egg_moves(NEEMON,
               MOVE_CRUNCH,
               MOVE_TAKE_DOWN,
               MOVE_SEISMIC_TOSS,
