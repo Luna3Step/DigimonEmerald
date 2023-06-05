@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_DONPHAN"
-with "FRONTIER_MON_RENAMON"
+replace "FRONTIER_MON_PORYGON2"
+with "FRONTIER_MON_RENAMON_X"
 
-replace "gDonphanPokedexText"
-with "gRenamonPokedexText"
+replace "gPorygon2PokedexText"
+with "gRenamon_xPokedexText"
 
-replace "NATIONAL_DEX_DONPHAN"
-with "NATIONAL_DEX_RENAMON"
+replace "NATIONAL_DEX_PORYGON2"
+with "NATIONAL_DEX_RENAMON_X"
 
-replace "SPECIES_DONPHAN"
-with "SPECIES_RENAMON"
+replace "SPECIES_PORYGON2"
+with "SPECIES_RENAMON_X"
 
-replace "HOENN_DEX_DONPHAN"
-with "HOENN_DEX_RENAMON"
+replace "HOENN_DEX_PORYGON2"
+with "HOENN_DEX_RENAMON_X"
 
-replace "SPECIES_TO_HOENN(DONPHAN),"
-with "SPECIES_TO_HOENN(RENAMON),"
+replace "SPECIES_TO_HOENN(PORYGON2),"
+with "SPECIES_TO_HOENN(RENAMON_X),"
 
-replace "SPECIES_TO_NATIONAL(DONPHAN),"
-with "SPECIES_TO_NATIONAL(RENAMON),"
+replace "SPECIES_TO_NATIONAL(PORYGON2),"
+with "SPECIES_TO_NATIONAL(RENAMON_X),"
 
-replace "HOENN_TO_NATIONAL(DONPHAN),"
-with "HOENN_TO_NATIONAL(RENAMON),"
+replace "HOENN_TO_NATIONAL(PORYGON2),"
+with "HOENN_TO_NATIONAL(RENAMON_X),"
 
-replace "EC_POKEMON_NATIONAL(DONPHAN),"
-with "EC_POKEMON_NATIONAL(RENAMON),"
+replace "EC_POKEMON_NATIONAL(PORYGON2),"
+with "EC_POKEMON_NATIONAL(RENAMON_X),"
 
-replace "egg_moves(DONPHAN,"
-with "egg_moves(RENAMON,"
+replace "egg_moves(PORYGON2,"
+with "egg_moves(RENAMON_X,"
 
-replace "sDonphanLevelUpLearnset"
-with "sRenamonLevelUpLearnset"
+replace "sPorygon2LevelUpLearnset"
+with "sRenamon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DONPHAN"
-with "SPECIES_SPRITE(RENAMON"
+replace "SPECIES_SPRITE(PORYGON2"
+with "SPECIES_SPRITE(RENAMON_X"
 
-replace "SPECIES_PAL(DONPHAN,"
-with "SPECIES_PAL(RENAMON,"
+replace "SPECIES_PAL(PORYGON2,"
+with "SPECIES_PAL(RENAMON_X,"
 
-replace "SPECIES_SHINY_PAL(DONPHAN,"
-with "SPECIES_SHINY_PAL(RENAMON,"
+replace "SPECIES_SHINY_PAL(PORYGON2,"
+with "SPECIES_SHINY_PAL(RENAMON_X,"
 
-replace "EC_POKEMON(DONPHAN)"
-with "EC_POKEMON(RENAMON)"
+replace "EC_POKEMON(PORYGON2)"
+with "EC_POKEMON(RENAMON_X)"
 
-replace "EC_POKEMON_NATIONAL(DONPHAN)"
-with "EC_POKEMON_NATIONAL(RENAMON)"
+replace "EC_POKEMON_NATIONAL(PORYGON2)"
+with "EC_POKEMON_NATIONAL(RENAMON_X)"
 
 in "src/data/text/species_names.h"
-replace "DONPHAN"
+replace "PORYGON2"
 with "RENAMON"

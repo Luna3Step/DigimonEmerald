@@ -3052,8 +3052,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_PORYGON2_1] = {
-        .species = SPECIES_PORYGON2,
+    [FRONTIER_MON_RENAMON_X_1] = {
+        .species = SPECIES_RENAMON_X,
         .moves = {MOVE_TRI_ATTACK, MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -3724,8 +3724,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_PORYGON2_2] = {
-        .species = SPECIES_PORYGON2,
+    [FRONTIER_MON_RENAMON_X_2] = {
+        .species = SPECIES_RENAMON_X,
         .moves = {MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_THUNDER_WAVE, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -4396,8 +4396,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_PORYGON2_3] = {
-        .species = SPECIES_PORYGON2,
+    [FRONTIER_MON_RENAMON_X_3] = {
+        .species = SPECIES_RENAMON_X,
         .moves = {MOVE_PSYCHIC, MOVE_TRI_ATTACK, MOVE_THUNDER_WAVE, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -5068,8 +5068,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_PORYGON2_4] = {
-        .species = SPECIES_PORYGON2,
+    [FRONTIER_MON_RENAMON_X_4] = {
+        .species = SPECIES_RENAMON_X,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

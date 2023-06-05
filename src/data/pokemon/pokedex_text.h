@@ -1396,11 +1396,11 @@ const u8 gRenamonPokedexText[] = _(
     "situation. Its height stands out when\n"
     "compared to other Rookie Digimon.");
 
-const u8 gPorygon2PokedexText[] = _(
-    "It was created by humans using the power\n"
-    "of science. It has been given artificial\n"
-    "intelligence that enables it to learn new\n"
-    "gestures and emotions on its own.");
+const u8 gRenamon_xPokedexText[] = _(
+    "Renamon X are more well-versed in the\n"
+    "dark arts making them a terrifying\n"
+    "opponent. It will cover itself in red\n"
+    "markings to symbolise its new strength.");
 
 const u8 gStantlerPokedexText[] = _(
     "STANTLER's magnificent antlers were\n"

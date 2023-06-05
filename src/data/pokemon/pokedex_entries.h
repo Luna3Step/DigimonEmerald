@@ -2796,12 +2796,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PORYGON2] =
+    [NATIONAL_DEX_RENAMON_X] =
     {
-        .categoryName = _("VIRTUAL"),
-        .height = 6,
-        .weight = 325,
-        .description = gPorygon2PokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 20,
+        .weight = 674,
+        .description = gRenamon_xPokedexText,
         .pokemonScale = 320,
         .pokemonOffset = 17,
         .trainerScale = 256,

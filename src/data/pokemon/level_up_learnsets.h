@@ -3184,7 +3184,7 @@ static const u16 sRenamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPorygon2LevelUpLearnset[] = {
+static const u16 sRenamon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION_2),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION),
