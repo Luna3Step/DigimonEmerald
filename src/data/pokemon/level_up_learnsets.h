@@ -2767,7 +2767,7 @@ static const u16 sLoogamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sUnownLevelUpLearnset[] = {
+static const u16 sLopmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HIDDEN_POWER),
     LEVEL_UP_END
 };

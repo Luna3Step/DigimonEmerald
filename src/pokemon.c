@@ -298,7 +298,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(LALAMON),
     SPECIES_TO_HOENN(LIOLLMON),
     SPECIES_TO_HOENN(LOOGAMON),
-    SPECIES_TO_HOENN(UNOWN),
+    SPECIES_TO_HOENN(LOPMON),
     SPECIES_TO_HOENN(WOBBUFFET),
     SPECIES_TO_HOENN(GIRAFARIG),
     SPECIES_TO_HOENN(PINECO),
@@ -714,7 +714,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(LALAMON),
     SPECIES_TO_NATIONAL(LIOLLMON),
     SPECIES_TO_NATIONAL(LOOGAMON),
-    SPECIES_TO_NATIONAL(UNOWN),
+    SPECIES_TO_NATIONAL(LOPMON),
     SPECIES_TO_NATIONAL(WOBBUFFET),
     SPECIES_TO_NATIONAL(GIRAFARIG),
     SPECIES_TO_NATIONAL(PINECO),
@@ -1275,7 +1275,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(LALAMON),
     HOENN_TO_NATIONAL(LIOLLMON),
     HOENN_TO_NATIONAL(LOOGAMON),
-    HOENN_TO_NATIONAL(UNOWN),
+    HOENN_TO_NATIONAL(LOPMON),
     HOENN_TO_NATIONAL(PINECO),
     HOENN_TO_NATIONAL(FORRETRESS),
     HOENN_TO_NATIONAL(DUNSPARCE),
@@ -1596,7 +1596,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_LALAMON - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_LIOLLMON - 1]    = ANIM_SHRINK_GROW,
     [SPECIES_LOOGAMON - 1]  = ANIM_V_SLIDE_WOBBLE,
-    [SPECIES_UNOWN - 1]       = ANIM_ZIGZAG_FAST,
+    [SPECIES_LOPMON - 1]       = ANIM_ZIGZAG_FAST,
     [SPECIES_WOBBUFFET - 1]   = ANIM_DEEP_V_SQUISH_AND_BOUNCE,
     [SPECIES_GIRAFARIG - 1]   = ANIM_V_JUMPS_BIG,
     [SPECIES_PINECO - 1]      = ANIM_SWING_CONCAVE,
@@ -5695,7 +5695,7 @@ u16 SpeciesToCryId(u16 species)
         return species;
 
     if (species < SPECIES_TREECKO - 1)
-        return SPECIES_UNOWN - 1;
+        return SPECIES_LOPMON - 1;
 
     return gSpeciesIdToCryId[species - (SPECIES_TREECKO - 1)];
 }
@@ -6916,7 +6916,7 @@ void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
     if (!GetSetPokedexFlag(nationalNum, getFlagCaseId)) // don't set if it's already set
     {
         GetSetPokedexFlag(nationalNum, caseId);
-        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_UNOWN)
+        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_LOPMON)
             gSaveBlock2Ptr->pokedex.unownPersonality = personality;
         if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_SPINDA)
             gSaveBlock2Ptr->pokedex.spindaPersonality = personality;
@@ -6942,7 +6942,7 @@ bool8 HasTwoFramesAnimation(u16 species)
     return (species != SPECIES_CASTFORM
          && species != SPECIES_DEOXYS
          && species != SPECIES_SPINDA
-         && species != SPECIES_UNOWN);
+         && species != SPECIES_LOPMON);
 }
 
 static bool8 ShouldSkipFriendshipChange(void)

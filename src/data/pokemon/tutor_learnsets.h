@@ -2917,7 +2917,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWIFT)
                                 | TUTOR(MOVE_DEFENSE_CURL)),
 
-    [SPECIES_UNOWN]            = (0),
+    [SPECIES_LOPMON]            = (0),
 
     [SPECIES_WOBBUFFET]        = (0),
 

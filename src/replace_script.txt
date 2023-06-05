@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MISDREAVUS"
-with "FRONTIER_MON_LOOGAMON"
+replace "FRONTIER_MON_UNOWN"
+with "FRONTIER_MON_LOPMON"
 
-replace "gMisdreavusPokedexText"
-with "gLoogamonPokedexText"
+replace "gUnownPokedexText"
+with "gLopmonPokedexText"
 
-replace "NATIONAL_DEX_MISDREAVUS"
-with "NATIONAL_DEX_LOOGAMON"
+replace "NATIONAL_DEX_UNOWN"
+with "NATIONAL_DEX_LOPMON"
 
-replace "SPECIES_MISDREAVUS"
-with "SPECIES_LOOGAMON"
+replace "SPECIES_UNOWN"
+with "SPECIES_LOPMON"
 
-replace "HOENN_DEX_MISDREAVUS"
-with "HOENN_DEX_LOOGAMON"
+replace "HOENN_DEX_UNOWN"
+with "HOENN_DEX_LOPMON"
 
-replace "SPECIES_TO_HOENN(MISDREAVUS),"
-with "SPECIES_TO_HOENN(LOOGAMON),"
+replace "SPECIES_TO_HOENN(UNOWN),"
+with "SPECIES_TO_HOENN(LOPMON),"
 
-replace "SPECIES_TO_NATIONAL(MISDREAVUS),"
-with "SPECIES_TO_NATIONAL(LOOGAMON),"
+replace "SPECIES_TO_NATIONAL(UNOWN),"
+with "SPECIES_TO_NATIONAL(LOPMON),"
 
-replace "HOENN_TO_NATIONAL(MISDREAVUS),"
-with "HOENN_TO_NATIONAL(LOOGAMON),"
+replace "HOENN_TO_NATIONAL(UNOWN),"
+with "HOENN_TO_NATIONAL(LOPMON),"
 
-replace "EC_POKEMON_NATIONAL(MISDREAVUS),"
-with "EC_POKEMON_NATIONAL(LOOGAMON),"
+replace "EC_POKEMON_NATIONAL(UNOWN),"
+with "EC_POKEMON_NATIONAL(LOPMON),"
 
-replace "egg_moves(MISDREAVUS,"
-with "egg_moves(LOOGAMON,"
+replace "egg_moves(UNOWN,"
+with "egg_moves(LOPMON,"
 
-replace "sMisdreavusLevelUpLearnset"
-with "sLoogamonLevelUpLearnset"
+replace "sUnownLevelUpLearnset"
+with "sLopmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MISDREAVUS"
-with "SPECIES_SPRITE(LOOGAMON"
+replace "SPECIES_SPRITE(UNOWN"
+with "SPECIES_SPRITE(LOPMON"
 
-replace "SPECIES_PAL(MISDREAVUS,"
-with "SPECIES_PAL(LOOGAMON,"
+replace "SPECIES_PAL(UNOWN,"
+with "SPECIES_PAL(LOPMON,"
 
-replace "SPECIES_SHINY_PAL(MISDREAVUS,"
-with "SPECIES_SHINY_PAL(LOOGAMON,"
+replace "SPECIES_SHINY_PAL(UNOWN,"
+with "SPECIES_SHINY_PAL(LOPMON,"
 
-replace "EC_POKEMON(MISDREAVUS)"
-with "EC_POKEMON(LOOGAMON)"
+replace "EC_POKEMON(UNOWN)"
+with "EC_POKEMON(LOPMON)"
 
-replace "EC_POKEMON_NATIONAL(MISDREAVUS)"
-with "EC_POKEMON_NATIONAL(LOOGAMON)"
+replace "EC_POKEMON_NATIONAL(UNOWN)"
+with "EC_POKEMON_NATIONAL(LOPMON)"
 
 in "src/data/text/species_names.h"
-replace "MISDREAVUS"
-with "LOOGAMON"
+replace "UNOWN"
+with "LOPMON"

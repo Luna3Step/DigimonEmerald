@@ -1204,11 +1204,11 @@ const u8 gLoogamonPokedexText[] = _(
     "incredible capacity for rage making many\n"
     "tamers regret their choices.");
 
-const u8 gUnownPokedexText[] = _(
-    "This POKéMON is shaped like ancient text\n"
-    "characters. Although research is ongoing,\n"
-    "it is a mystery as to which came first,\n"
-    "the ancient writings or the various UNOWN.");
+const u8 gLopmonPokedexText[] = _(
+    "Unlike its twin, Terriormon, Lopmon is a\n"
+    "crybaby that often needs consoling. Its\n"
+    "twin is often instrumental in making it\n"
+    "feel better.");
 
 const u8 gWobbuffetPokedexText[] = _(
     "Usually docile, a WOBBUFFET strikes back\n"

@@ -2412,12 +2412,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_UNOWN] =
+    [NATIONAL_DEX_LOPMON] =
     {
-        .categoryName = _("SYMBOL"),
-        .height = 5,
-        .weight = 50,
-        .description = gUnownPokedexText,
+        .categoryName = _("TWIN"),
+        .height = 6,
+        .weight = 341,
+        .description = gLopmonPokedexText,
         .pokemonScale = 411,
         .pokemonOffset = 2,
         .trainerScale = 256,
