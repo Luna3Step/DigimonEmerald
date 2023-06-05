@@ -1342,11 +1342,11 @@ const u8 gPawnmonPokedexText[] = _(
     "with a passion although it has been\n"
     "reported that have been friendly together.");
 
-const u8 gOctilleryPokedexText[] = _(
-    "It ensnares its foe with its suction-\n"
-    "cupped tentacles before delivering the\n"
-    "finishing blow. If the foe turns out to be\n"
-    "too strong, it spews ink to escape.");
+const u8 gPawnmon_whitePokedexText[] = _(
+    "Although PawnChessmon is a very weak Rookie,\n"
+    "it is said that it likely possess Mega \n"
+    "class power. When it goes into battle, it\n"
+    "can be heard chanting 'I only advance!'.");
 
 const u8 gDelibirdPokedexText[] = _(
     "It carries food bundled up in its tail.\n"

@@ -2688,12 +2688,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_OCTILLERY] =
+    [NATIONAL_DEX_PAWNMON_WHITE] =
     {
-        .categoryName = _("JET"),
-        .height = 9,
-        .weight = 285,
-        .description = gOctilleryPokedexText,
+        .categoryName = _("CHESS"),
+        .height = 13,
+        .weight = 463,
+        .description = gPawnmon_whitePokedexText,
         .pokemonScale = 296,
         .pokemonOffset = 3,
         .trainerScale = 256,
