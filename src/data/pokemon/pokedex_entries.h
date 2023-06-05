@@ -2388,12 +2388,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_SLOWKING] =
+    [NATIONAL_DEX_LIOLLMON] =
     {
-        .categoryName = _("ROYAL"),
-        .height = 20,
-        .weight = 795,
-        .description = gSlowkingPokedexText,
+        .categoryName = _("TIGER"),
+        .height = 10,
+        .weight = 479,
+        .description = gLiollmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 309,

@@ -1192,11 +1192,11 @@ const u8 gLalamonPokedexText[] = _(
     "head spins, letting Lalamon fly however\n"
     "its flying is very unsteady and slow.");
 
-const u8 gSlowkingPokedexText[] = _(
-    "It undertakes research every day to\n"
-    "solve the mysteries of the world.\n"
-    "However, it apparently forgets everything\n"
-    "if the SHELLDER on its head comes off.");
+const u8 gLiollmonPokedexText[] = _(
+    "Until recently, its existence had never\n"
+    "been confirmed as it has a very small.\n"
+    "population. It is a very territorial\n"
+    "Digimon making it hard to study.");
 
 const u8 gMisdreavusPokedexText[] = _(
     "A MISDREAVUS frightens people with a\n"

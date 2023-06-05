@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MURKROW"
-with "FRONTIER_MON_LALAMON"
+replace "FRONTIER_MON_SLOWKING"
+with "FRONTIER_MON_LIOLLMON"
 
-replace "gMurkrowPokedexText"
-with "gLalamonPokedexText"
+replace "gSlowkingPokedexText"
+with "gLiollmonPokedexText"
 
-replace "NATIONAL_DEX_MURKROW"
-with "NATIONAL_DEX_LALAMON"
+replace "NATIONAL_DEX_SLOWKING"
+with "NATIONAL_DEX_LIOLLMON"
 
-replace "SPECIES_MURKROW"
-with "SPECIES_LALAMON"
+replace "SPECIES_SLOWKING"
+with "SPECIES_LIOLLMON"
 
-replace "HOENN_DEX_MURKROW"
-with "HOENN_DEX_LALAMON"
+replace "HOENN_DEX_SLOWKING"
+with "HOENN_DEX_LIOLLMON"
 
-replace "SPECIES_TO_HOENN(MURKROW),"
-with "SPECIES_TO_HOENN(LALAMON),"
+replace "SPECIES_TO_HOENN(SLOWKING),"
+with "SPECIES_TO_HOENN(LIOLLMON),"
 
-replace "SPECIES_TO_NATIONAL(MURKROW),"
-with "SPECIES_TO_NATIONAL(LALAMON),"
+replace "SPECIES_TO_NATIONAL(SLOWKING),"
+with "SPECIES_TO_NATIONAL(LIOLLMON),"
 
-replace "HOENN_TO_NATIONAL(MURKROW),"
-with "HOENN_TO_NATIONAL(LALAMON),"
+replace "HOENN_TO_NATIONAL(SLOWKING),"
+with "HOENN_TO_NATIONAL(LIOLLMON),"
 
-replace "EC_POKEMON_NATIONAL(MURKROW),"
-with "EC_POKEMON_NATIONAL(LALAMON),"
+replace "EC_POKEMON_NATIONAL(SLOWKING),"
+with "EC_POKEMON_NATIONAL(LIOLLMON),"
 
-replace "egg_moves(MURKROW,"
-with "egg_moves(LALAMON,"
+replace "egg_moves(SLOWKING,"
+with "egg_moves(LIOLLMON,"
 
-replace "sMurkrowLevelUpLearnset"
-with "sLalamonLevelUpLearnset"
+replace "sSlowkingLevelUpLearnset"
+with "sLiollmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MURKROW"
-with "SPECIES_SPRITE(LALAMON"
+replace "SPECIES_SPRITE(SLOWKING"
+with "SPECIES_SPRITE(LIOLLMON"
 
-replace "SPECIES_PAL(MURKROW,"
-with "SPECIES_PAL(LALAMON,"
+replace "SPECIES_PAL(SLOWKING,"
+with "SPECIES_PAL(LIOLLMON,"
 
-replace "SPECIES_SHINY_PAL(MURKROW,"
-with "SPECIES_SHINY_PAL(LALAMON,"
+replace "SPECIES_SHINY_PAL(SLOWKING,"
+with "SPECIES_SHINY_PAL(LIOLLMON,"
 
-replace "EC_POKEMON(MURKROW)"
-with "EC_POKEMON(LALAMON)"
+replace "EC_POKEMON(SLOWKING)"
+with "EC_POKEMON(LIOLLMON)"
 
-replace "EC_POKEMON_NATIONAL(MURKROW)"
-with "EC_POKEMON_NATIONAL(LALAMON)"
+replace "EC_POKEMON_NATIONAL(SLOWKING)"
+with "EC_POKEMON_NATIONAL(LIOLLMON)"
 
 in "src/data/text/species_names.h"
-replace "MURKROW"
-with "LALAMON"
+replace "SLOWKING"
+with "LIOLLMON"
