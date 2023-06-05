@@ -769,7 +769,7 @@ const u16 gEggMoves[] = {
               MOVE_YAWN,
               MOVE_SLEEP_TALK),
 
-    egg_moves(SLUGMA,
+    egg_moves(OTAMAMON_RED,
               MOVE_ACID_ARMOR,
               MOVE_HEAT_WAVE),
 

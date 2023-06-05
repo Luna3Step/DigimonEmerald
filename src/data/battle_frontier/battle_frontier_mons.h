@@ -210,8 +210,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_LAX
     },
-    [FRONTIER_MON_SLUGMA] = {
-        .species = SPECIES_SLUGMA,
+    [FRONTIER_MON_OTAMAMON_RED] = {
+        .species = SPECIES_OTAMAMON_RED,
         .moves = {MOVE_EMBER, MOVE_ROCK_SLIDE, MOVE_YAWN, MOVE_BODY_SLAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

@@ -2988,7 +2988,7 @@ static const u16 sOtamamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSlugmaLevelUpLearnset[] = {
+static const u16 sOtamamon_redLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
     LEVEL_UP_MOVE( 1, MOVE_SMOG),
     LEVEL_UP_MOVE( 8, MOVE_EMBER),

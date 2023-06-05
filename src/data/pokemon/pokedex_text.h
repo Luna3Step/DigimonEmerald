@@ -1306,11 +1306,11 @@ const u8 gOtamamonPokedexText[] = _(
     "larva Digimon as its skin has not fully\n"
     "formed. For this reason, it lives in water.");
 
-const u8 gSlugmaPokedexText[] = _(
-    "It is a species of POKéMON that lives in\n"
-    "volcanic areas. If its body cools, its skin\n"
-    "hardens and immobilizes it. To avoid that,\n"
-    "it sleeps near magma.");
+const u8 gOtamamon_redPokedexText[] = _(
+    "These Otamamon are a variation that have\n"
+    "acquired the Fire type after swimming in\n"
+    "hot springs. With this new type, it has\n"
+    "also grown stronger forelimbs for climbing.");
 
 const u8 gMagcargoPokedexText[] = _(
     "The shell on its back is made of hardened\n"

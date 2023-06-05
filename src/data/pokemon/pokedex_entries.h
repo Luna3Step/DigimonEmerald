@@ -2616,12 +2616,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SLUGMA] =
+    [NATIONAL_DEX_OTAMAMON_RED] =
     {
-        .categoryName = _("LAVA"),
-        .height = 7,
-        .weight = 350,
-        .description = gSlugmaPokedexText,
+        .categoryName = _("TADPOLE"),
+        .height = 6,
+        .weight = 391,
+        .description = gOtamamon_redPokedexText,
         .pokemonScale = 329,
         .pokemonOffset = 15,
         .trainerScale = 256,

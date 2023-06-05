@@ -26,7 +26,7 @@
     FRONTIER_MON_GOMAMON,      \
     FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_KERAMON,        \
-    FRONTIER_MON_SLUGMA,        \
+    FRONTIER_MON_OTAMAMON_RED,        \
     FRONTIER_MON_SWINUB,        \
     FRONTIER_MON_SMEARGLE,      \
     FRONTIER_MON_KETOMON,        \
@@ -802,7 +802,7 @@
     -1
 
 #define FRONTIER_MONS_KINDLER_1 \
-    FRONTIER_MON_SLUGMA,        \
+    FRONTIER_MON_OTAMAMON_RED,        \
     FRONTIER_MON_SHUPPET,       \
     FRONTIER_MON_DUSKULL,       \
     FRONTIER_MON_RELEMON,        \

@@ -2456,12 +2456,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeff[] = {
     {
     .iv = 100,
     .lvl = 22,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
     .lvl = 22,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     }
 };
 
@@ -2477,7 +2477,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jace[] = {
     {
     .iv = 100,
     .lvl = 23,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     }
 };
 
@@ -2485,7 +2485,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keegan[] = {
     {
     .iv = 120,
     .lvl = 23,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     }
 };
 
@@ -2493,7 +2493,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie1[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 0,
@@ -2506,7 +2506,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 10,
@@ -2519,7 +2519,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 20,
@@ -2532,7 +2532,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 30,
@@ -3454,7 +3454,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 200,
     .lvl = 24,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_OVERHEAT, MOVE_SMOG, MOVE_LIGHT_SCREEN, MOVE_SUNNY_DAY}
     },
@@ -6793,7 +6793,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Mudkip[] 
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 50,
@@ -6811,7 +6811,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Mudkip[] 
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
@@ -6886,7 +6886,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Torchic[]
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
@@ -6904,7 +6904,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Torchic[]
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 150,
@@ -6930,7 +6930,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Mudkip[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
@@ -6943,7 +6943,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Mudkip[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
@@ -7018,7 +7018,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Torchic[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 100,
@@ -7036,7 +7036,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Torchic[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 150,
@@ -7933,7 +7933,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTorchic[]
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 50,
@@ -8892,7 +8892,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveMudkip[] 
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 150,
@@ -8943,7 +8943,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTorchic[]
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 200,
@@ -8961,7 +8961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveMudkip[] = {
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 150,
@@ -9012,7 +9012,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTorchic[] = {
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 200,
@@ -9984,7 +9984,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryant[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     }
 };
 
@@ -10141,7 +10141,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dayton[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 0,
