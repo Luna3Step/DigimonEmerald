@@ -16,7 +16,7 @@
 #define FRONTIER_MON_CASCOON        12
 #define FRONTIER_MON_HACKMON      13
 #define FRONTIER_MON_KUDAMON         14
-#define FRONTIER_MON_TYROGUE        15
+#define FRONTIER_MON_SALAMON        15
 #define FRONTIER_MON_GAZIMON        16
 #define FRONTIER_MON_GUMDRAMON         17
 #define FRONTIER_MON_SEEDOT         18

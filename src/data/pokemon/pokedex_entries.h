@@ -2832,12 +2832,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TYROGUE] =
+    [NATIONAL_DEX_SALAMON] =
     {
-        .categoryName = _("SCUFFLE"),
-        .height = 7,
-        .weight = 210,
-        .description = gTyroguePokedexText,
+        .categoryName = _("HOLY"),
+        .height = 3,
+        .weight = 225,
+        .description = gSalamonPokedexText,
         .pokemonScale = 292,
         .pokemonOffset = 9,
         .trainerScale = 256,

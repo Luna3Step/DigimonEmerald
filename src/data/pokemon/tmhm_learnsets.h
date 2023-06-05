@@ -5614,7 +5614,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_RYUDAMON]    = TMHM_LEARNSET(0),
 
-    [SPECIES_TYROGUE]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_SALAMON]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM08_BULK_UP)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)

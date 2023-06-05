@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SMEARGLE"
-with "FRONTIER_MON_RYUDAMON"
+replace "FRONTIER_MON_TYROGUE"
+with "FRONTIER_MON_SALAMON"
 
-replace "gSmearglePokedexText"
-with "gRyudamonPokedexText"
+replace "gTyroguePokedexText"
+with "gSalamonPokedexText"
 
-replace "NATIONAL_DEX_SMEARGLE"
-with "NATIONAL_DEX_RYUDAMON"
+replace "NATIONAL_DEX_TYROGUE"
+with "NATIONAL_DEX_SALAMON"
 
-replace "SPECIES_SMEARGLE"
-with "SPECIES_RYUDAMON"
+replace "SPECIES_TYROGUE"
+with "SPECIES_SALAMON"
 
-replace "HOENN_DEX_SMEARGLE"
-with "HOENN_DEX_RYUDAMON"
+replace "HOENN_DEX_TYROGUE"
+with "HOENN_DEX_SALAMON"
 
-replace "SPECIES_TO_HOENN(SMEARGLE),"
-with "SPECIES_TO_HOENN(RYUDAMON),"
+replace "SPECIES_TO_HOENN(TYROGUE),"
+with "SPECIES_TO_HOENN(SALAMON),"
 
-replace "SPECIES_TO_NATIONAL(SMEARGLE),"
-with "SPECIES_TO_NATIONAL(RYUDAMON),"
+replace "SPECIES_TO_NATIONAL(TYROGUE),"
+with "SPECIES_TO_NATIONAL(SALAMON),"
 
-replace "HOENN_TO_NATIONAL(SMEARGLE),"
-with "HOENN_TO_NATIONAL(RYUDAMON),"
+replace "HOENN_TO_NATIONAL(TYROGUE),"
+with "HOENN_TO_NATIONAL(SALAMON),"
 
-replace "EC_POKEMON_NATIONAL(SMEARGLE),"
-with "EC_POKEMON_NATIONAL(RYUDAMON),"
+replace "EC_POKEMON_NATIONAL(TYROGUE),"
+with "EC_POKEMON_NATIONAL(SALAMON),"
 
-replace "egg_moves(SMEARGLE,"
-with "egg_moves(RYUDAMON,"
+replace "egg_moves(TYROGUE,"
+with "egg_moves(SALAMON,"
 
-replace "sSmeargleLevelUpLearnset"
-with "sRyudamonLevelUpLearnset"
+replace "sTyrogueLevelUpLearnset"
+with "sSalamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SMEARGLE"
-with "SPECIES_SPRITE(RYUDAMON"
+replace "SPECIES_SPRITE(TYROGUE"
+with "SPECIES_SPRITE(SALAMON"
 
-replace "SPECIES_PAL(SMEARGLE,"
-with "SPECIES_PAL(RYUDAMON,"
+replace "SPECIES_PAL(TYROGUE,"
+with "SPECIES_PAL(SALAMON,"
 
-replace "SPECIES_SHINY_PAL(SMEARGLE,"
-with "SPECIES_SHINY_PAL(RYUDAMON,"
+replace "SPECIES_SHINY_PAL(TYROGUE,"
+with "SPECIES_SHINY_PAL(SALAMON,"
 
-replace "EC_POKEMON(SMEARGLE)"
-with "EC_POKEMON(RYUDAMON)"
+replace "EC_POKEMON(TYROGUE)"
+with "EC_POKEMON(SALAMON)"
 
-replace "EC_POKEMON_NATIONAL(SMEARGLE)"
-with "EC_POKEMON_NATIONAL(RYUDAMON)"
+replace "EC_POKEMON_NATIONAL(TYROGUE)"
+with "EC_POKEMON_NATIONAL(SALAMON)"
 
 in "src/data/text/species_names.h"
-replace "SMEARGLE"
-with "RYUDAMON"
+replace "TYROGUE"
+with "SALAMON"

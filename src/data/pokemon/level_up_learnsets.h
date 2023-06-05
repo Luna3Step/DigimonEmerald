@@ -3226,7 +3226,7 @@ static const u16 sRyudamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTyrogueLevelUpLearnset[] = {
+static const u16 sSalamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_END
 };

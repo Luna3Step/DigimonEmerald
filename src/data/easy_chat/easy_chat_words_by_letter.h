@@ -1754,7 +1754,7 @@ const u16 gEasyChatWordsByLetter_T[] = {
     EC_WORD_TYPE,
     EC_POKEMON_NATIONAL(GABUMON_X),
     EC_POKEMON_NATIONAL(TYRANITAR),
-    EC_POKEMON_NATIONAL(TYROGUE),
+    EC_POKEMON_NATIONAL(SALAMON),
 };
 
 const u16 gEasyChatWordsByLetter_U[] = {

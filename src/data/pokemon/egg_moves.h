@@ -851,7 +851,7 @@ const u16 gEggMoves[] = {
               MOVE_PSYCH_UP,
               MOVE_EXTRASENSORY),
 
-    egg_moves(TYROGUE,
+    egg_moves(SALAMON,
               MOVE_RAPID_SPIN,
               MOVE_HI_JUMP_KICK,
               MOVE_MACH_PUNCH,

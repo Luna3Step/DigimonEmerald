@@ -1414,11 +1414,11 @@ const u8 gRyudamonPokedexText[] = _(
     "very nimble making it very adept in\n"
     "battles against even strong Digimon.");
 
-const u8 gTyroguePokedexText[] = _(
-    "TYROGUE become stressed out if they do\n"
-    "not get to train every day. When raising\n"
-    "this POKéMON, the TRAINER must establish\n"
-    "a regular training schedule.");
+const u8 gSalamonPokedexText[] = _(
+    "Technically it is a holy Digimon however\n"
+    "it is so young that it can't manifest its\n"
+    "holy power. It is a very anxious Digimon\n"
+    "that is easily bullied by others.");
 
 const u8 gHitmontopPokedexText[] = _(
     "Its technique of kicking while spinning is\n"
