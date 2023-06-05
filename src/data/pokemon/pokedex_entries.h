@@ -2784,12 +2784,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DONPHAN] =
+    [NATIONAL_DEX_RENAMON] =
     {
-        .categoryName = _("ARMOR"),
-        .height = 11,
-        .weight = 1200,
-        .description = gDonphanPokedexText,
+        .categoryName = _("KITSUNE"),
+        .height = 20,
+        .weight = 674,
+        .description = gRenamonPokedexText,
         .pokemonScale = 313,
         .pokemonOffset = 9,
         .trainerScale = 256,

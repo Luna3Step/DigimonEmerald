@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PHANPY"
-with "FRONTIER_MON_PULSEMON"
+replace "FRONTIER_MON_DONPHAN"
+with "FRONTIER_MON_RENAMON"
 
-replace "gPhanpyPokedexText"
-with "gPulsemonPokedexText"
+replace "gDonphanPokedexText"
+with "gRenamonPokedexText"
 
-replace "NATIONAL_DEX_PHANPY"
-with "NATIONAL_DEX_PULSEMON"
+replace "NATIONAL_DEX_DONPHAN"
+with "NATIONAL_DEX_RENAMON"
 
-replace "SPECIES_PHANPY"
-with "SPECIES_PULSEMON"
+replace "SPECIES_DONPHAN"
+with "SPECIES_RENAMON"
 
-replace "HOENN_DEX_PHANPY"
-with "HOENN_DEX_PULSEMON"
+replace "HOENN_DEX_DONPHAN"
+with "HOENN_DEX_RENAMON"
 
-replace "SPECIES_TO_HOENN(PHANPY),"
-with "SPECIES_TO_HOENN(PULSEMON),"
+replace "SPECIES_TO_HOENN(DONPHAN),"
+with "SPECIES_TO_HOENN(RENAMON),"
 
-replace "SPECIES_TO_NATIONAL(PHANPY),"
-with "SPECIES_TO_NATIONAL(PULSEMON),"
+replace "SPECIES_TO_NATIONAL(DONPHAN),"
+with "SPECIES_TO_NATIONAL(RENAMON),"
 
-replace "HOENN_TO_NATIONAL(PHANPY),"
-with "HOENN_TO_NATIONAL(PULSEMON),"
+replace "HOENN_TO_NATIONAL(DONPHAN),"
+with "HOENN_TO_NATIONAL(RENAMON),"
 
-replace "EC_POKEMON_NATIONAL(PHANPY),"
-with "EC_POKEMON_NATIONAL(PULSEMON),"
+replace "EC_POKEMON_NATIONAL(DONPHAN),"
+with "EC_POKEMON_NATIONAL(RENAMON),"
 
-replace "egg_moves(PHANPY,"
-with "egg_moves(PULSEMON,"
+replace "egg_moves(DONPHAN,"
+with "egg_moves(RENAMON,"
 
-replace "sPhanpyLevelUpLearnset"
-with "sPulsemonLevelUpLearnset"
+replace "sDonphanLevelUpLearnset"
+with "sRenamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PHANPY"
-with "SPECIES_SPRITE(PULSEMON"
+replace "SPECIES_SPRITE(DONPHAN"
+with "SPECIES_SPRITE(RENAMON"
 
-replace "SPECIES_PAL(PHANPY,"
-with "SPECIES_PAL(PULSEMON,"
+replace "SPECIES_PAL(DONPHAN,"
+with "SPECIES_PAL(RENAMON,"
 
-replace "SPECIES_SHINY_PAL(PHANPY,"
-with "SPECIES_SHINY_PAL(PULSEMON,"
+replace "SPECIES_SHINY_PAL(DONPHAN,"
+with "SPECIES_SHINY_PAL(RENAMON,"
 
-replace "EC_POKEMON(PHANPY)"
-with "EC_POKEMON(PULSEMON)"
+replace "EC_POKEMON(DONPHAN)"
+with "EC_POKEMON(RENAMON)"
 
-replace "EC_POKEMON_NATIONAL(PHANPY)"
-with "EC_POKEMON_NATIONAL(PULSEMON)"
+replace "EC_POKEMON_NATIONAL(DONPHAN)"
+with "EC_POKEMON_NATIONAL(RENAMON)"
 
 in "src/data/text/species_names.h"
-replace "PHANPY"
-with "PULSEMON"
+replace "DONPHAN"
+with "RENAMON"

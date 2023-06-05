@@ -1390,11 +1390,11 @@ const u8 gPulsemonPokedexText[] = _(
     "pick for many tamers. It is also very\n"
     "savvy in battle with its agility.");
 
-const u8 gDonphanPokedexText[] = _(
-    "A DONPHAN is so strong it can easily haul\n"
-    "a dump truck. Its hide has toughened to a\n"
-    "rock-hard state. An ordinary sort of\n"
-    "attack won't even leave a scratch.");
+const u8 gRenamonPokedexText[] = _(
+    "Renamon is a very calm, cool and collected\n"
+    "Digimon that won't lose composure in any\n"
+    "situation. Its height stands out when\n"
+    "compared to other Rookie Digimon.");
 
 const u8 gPorygon2PokedexText[] = _(
     "It was created by humans using the power\n"
