@@ -5426,7 +5426,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_SKARMORY]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
+    [SPECIES_PHASCOMON]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)

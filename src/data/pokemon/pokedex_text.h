@@ -1360,11 +1360,11 @@ const u8 gPetitmamonPokedexText[] = _(
     "will offer assistance to anyone under\n"
     "the right circumstances.");
 
-const u8 gSkarmoryPokedexText[] = _(
-    "A POKéMON that has a body and wings of\n"
-    "steel. People in the past used feathers\n"
-    "fallen from SKARMORY to make swords and\n"
-    "knives.");
+const u8 gPhascomonPokedexText[] = _(
+    "Often found in the dark 'Evil Forest',\n"
+    "Phascomon will wait atop trees for\n"
+    "unsuspecting visitors. When it decides on\n"
+    "a target, it will drop down to attack.");
 
 const u8 gHoundourPokedexText[] = _(
     "HOUNDOUR communicate with each other\n"

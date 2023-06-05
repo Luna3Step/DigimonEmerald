@@ -3100,7 +3100,7 @@ static const u16 sPetitmamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSkarmoryLevelUpLearnset[] = {
+static const u16 sPhascomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE(10, MOVE_SAND_ATTACK),

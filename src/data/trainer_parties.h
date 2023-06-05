@@ -1237,7 +1237,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Caroline[] = {
     {
     .iv = 100,
     .lvl = 43,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     },
     {
     .iv = 100,
@@ -3530,7 +3530,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 220,
     .lvl = 31,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SAND_ATTACK, MOVE_FURY_ATTACK, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
@@ -5229,7 +5229,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     },
     {
     .iv = 100,
@@ -5242,7 +5242,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Humberto[] = {
     {
     .iv = 250,
     .lvl = 30,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     }
 };
 
@@ -9131,7 +9131,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aidan[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     }
 };
 
@@ -9563,7 +9563,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Coby[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     },
     {
     .iv = 0,
@@ -9927,12 +9927,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elijah[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     },
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     }
 };
 
@@ -11083,7 +11083,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
@@ -11128,7 +11128,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
@@ -11173,7 +11173,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
@@ -11218,7 +11218,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
@@ -11599,7 +11599,7 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
     .lvl = 77,
-    .species = SPECIES_SKARMORY,
+    .species = SPECIES_PHASCOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_SPIKES, MOVE_STEEL_WING}
     },

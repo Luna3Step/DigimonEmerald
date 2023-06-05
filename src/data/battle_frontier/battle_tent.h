@@ -1961,7 +1961,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_LONELY
     },
     [VERDANTURF_TENT_MON_SKARMORY] = {
-        .species = SPECIES_SKARMORY,
+        .species = SPECIES_PHASCOMON,
         .moves = {MOVE_AIR_CUTTER, MOVE_SANDSTORM, MOVE_LEER, MOVE_AGILITY},
         .itemTableId = BATTLE_FRONTIER_ITEM_MACHO_BRACE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2870,7 +2870,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_QUIRKY
     },
     [FALLARBOR_TENT_MON_SKARMORY] = {
-        .species = SPECIES_SKARMORY,
+        .species = SPECIES_PHASCOMON,
         .moves = {MOVE_AGILITY, MOVE_STEEL_WING, MOVE_SAND_ATTACK, MOVE_TORMENT},
         .itemTableId = BATTLE_FRONTIER_ITEM_METAL_COAT,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

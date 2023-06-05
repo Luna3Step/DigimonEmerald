@@ -780,7 +780,7 @@ struct
         .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_METAL_CLAW}
     },
     {
-        .species = SPECIES_SKARMORY,
+        .species = SPECIES_PHASCOMON,
         .fixedIV = MAX_PER_STAT_IVS,
         .level = 43,
         .nature = NATURE_IMPISH,

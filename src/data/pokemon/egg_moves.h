@@ -818,7 +818,7 @@ const u16 gEggMoves[] = {
               MOVE_MUD_SPORT,
               MOVE_ROCK_SLIDE),
 
-    egg_moves(SKARMORY,
+    egg_moves(PHASCOMON,
               MOVE_DRILL_PECK,
               MOVE_PURSUIT,
               MOVE_WHIRLWIND,

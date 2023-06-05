@@ -338,7 +338,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_METAL_CLAW},
             },
             {
-                .species = SPECIES_SKARMORY,
+                .species = SPECIES_PHASCOMON,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_IMPISH,
@@ -364,7 +364,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_METAL_CLAW},
             },
             {
-                .species = SPECIES_SKARMORY,
+                .species = SPECIES_PHASCOMON,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_IMPISH,

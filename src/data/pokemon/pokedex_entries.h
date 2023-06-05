@@ -2724,12 +2724,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_SKARMORY] =
+    [NATIONAL_DEX_PHASCOMON] =
     {
-        .categoryName = _("ARMOR BIRD"),
-        .height = 17,
-        .weight = 505,
-        .description = gSkarmoryPokedexText,
+        .categoryName = _("KOALA"),
+        .height = 6,
+        .weight = 404,
+        .description = gPhascomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 271,
