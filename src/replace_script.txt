@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_QWILFISH"
-with "FRONTIER_MON_MONMON"
+replace "FRONTIER_MON_SCIZOR"
+with "FRONTIER_MON_MONODRAMON"
 
-replace "gQwilfishPokedexText"
-with "gMonmonPokedexText"
+replace "gScizorPokedexText"
+with "gMonodramonPokedexText"
 
-replace "NATIONAL_DEX_QWILFISH"
-with "NATIONAL_DEX_MONMON"
+replace "NATIONAL_DEX_SCIZOR"
+with "NATIONAL_DEX_MONODRAMON"
 
-replace "SPECIES_QWILFISH"
-with "SPECIES_MONMON"
+replace "SPECIES_SCIZOR"
+with "SPECIES_MONODRAMON"
 
-replace "HOENN_DEX_QWILFISH"
-with "HOENN_DEX_MONMON"
+replace "HOENN_DEX_SCIZOR"
+with "HOENN_DEX_MONODRAMON"
 
-replace "SPECIES_TO_HOENN(QWILFISH),"
-with "SPECIES_TO_HOENN(MONMON),"
+replace "SPECIES_TO_HOENN(SCIZOR),"
+with "SPECIES_TO_HOENN(MONODRAMON),"
 
-replace "SPECIES_TO_NATIONAL(QWILFISH),"
-with "SPECIES_TO_NATIONAL(MONMON),"
+replace "SPECIES_TO_NATIONAL(SCIZOR),"
+with "SPECIES_TO_NATIONAL(MONODRAMON),"
 
-replace "HOENN_TO_NATIONAL(QWILFISH),"
-with "HOENN_TO_NATIONAL(MONMON),"
+replace "HOENN_TO_NATIONAL(SCIZOR),"
+with "HOENN_TO_NATIONAL(MONODRAMON),"
 
-replace "EC_POKEMON_NATIONAL(QWILFISH),"
-with "EC_POKEMON_NATIONAL(MONMON),"
+replace "EC_POKEMON_NATIONAL(SCIZOR),"
+with "EC_POKEMON_NATIONAL(MONODRAMON),"
 
-replace "egg_moves(QWILFISH,"
-with "egg_moves(MONMON,"
+replace "egg_moves(SCIZOR,"
+with "egg_moves(MONODRAMON,"
 
-replace "sQwilfishLevelUpLearnset"
-with "sMonmonLevelUpLearnset"
+replace "sScizorLevelUpLearnset"
+with "sMonodramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(QWILFISH"
-with "SPECIES_SPRITE(MONMON"
+replace "SPECIES_SPRITE(SCIZOR"
+with "SPECIES_SPRITE(MONODRAMON"
 
-replace "SPECIES_PAL(QWILFISH,"
-with "SPECIES_PAL(MONMON,"
+replace "SPECIES_PAL(SCIZOR,"
+with "SPECIES_PAL(MONODRAMON,"
 
-replace "SPECIES_SHINY_PAL(QWILFISH,"
-with "SPECIES_SHINY_PAL(MONMON,"
+replace "SPECIES_SHINY_PAL(SCIZOR,"
+with "SPECIES_SHINY_PAL(MONODRAMON,"
 
-replace "EC_POKEMON(QWILFISH)"
-with "EC_POKEMON(MONMON)"
+replace "EC_POKEMON(SCIZOR)"
+with "EC_POKEMON(MONODRAMON)"
 
-replace "EC_POKEMON_NATIONAL(QWILFISH)"
-with "EC_POKEMON_NATIONAL(MONMON)"
+replace "EC_POKEMON_NATIONAL(SCIZOR)"
+with "EC_POKEMON_NATIONAL(MONODRAMON)"
 
 in "src/data/text/species_names.h"
-replace "QWILFISH"
-with "MONMON"
+replace "SCIZOR"
+with "MONODRAMON"

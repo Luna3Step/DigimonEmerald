@@ -1270,11 +1270,11 @@ const u8 gMonmonPokedexText[] = _(
     "the frequent mistakes, it is a very \n"
     "confident Digimon that can move with ease.");
 
-const u8 gScizorPokedexText[] = _(
-    "A SCIZOR has a body with the hardness of\n"
-    "steel. It is not easily fazed by ordinary\n"
-    "sorts of attacks. It flaps its wings to\n"
-    "regulate its body temperature.");
+const u8 gMonodramonPokedexText[] = _(
+    "Despite being a Vaccine Digimon, Monodramon\n"
+    "is a very rough Digimon that constantly\n"
+    "likes to fight. Even an Ogremon will grow\n"
+    "tired of its tenacity for fighting.");
 
 const u8 gShucklePokedexText[] = _(
     "A SHUCKLE hides under rocks, keeping its\n"

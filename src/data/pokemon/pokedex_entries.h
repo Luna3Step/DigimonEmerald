@@ -2544,12 +2544,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SCIZOR] =
+    [NATIONAL_DEX_MONODRAMON] =
     {
-        .categoryName = _("PINCER"),
-        .height = 18,
-        .weight = 1180,
-        .description = gScizorPokedexText,
+        .categoryName = _("DRAGON"),
+        .height = 11,
+        .weight = 637,
+        .description = gMonodramonPokedexText,
         .pokemonScale = 278,
         .pokemonOffset = 1,
         .trainerScale = 256,
