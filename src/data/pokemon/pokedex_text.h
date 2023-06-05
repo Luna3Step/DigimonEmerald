@@ -1222,11 +1222,11 @@ const u8 gLucemonPokedexText[] = _(
     "darkness making it one of the scariest\n"
     "and strongest Digimon in the Digital World.");
 
-const u8 gPinecoPokedexText[] = _(
-    "A PINECO hangs from a tree branch and\n"
-    "waits for prey. While eating, if it is\n"
-    "disturbed by someone shaking its tree, it\n"
-    "falls on the ground and suddenly explodes.");
+const u8 gLudomonPokedexText[] = _(
+    "Ludomon is one of few Digimon capable of\n"
+    "transforming itself into weapons. It is\n"
+    "the only transforming weapon Digimon to be\n"
+    "able to become a shield.");
 
 const u8 gForretressPokedexText[] = _(
     "It keeps itself inside its steel shell.\n"

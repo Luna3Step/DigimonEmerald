@@ -700,7 +700,7 @@ const u16 gEggMoves[] = {
               MOVE_WISH,
               MOVE_MAGIC_COAT),
 
-    egg_moves(PINECO,
+    egg_moves(LUDOMON,
               MOVE_REFLECT,
               MOVE_PIN_MISSILE,
               MOVE_FLAIL,

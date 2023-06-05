@@ -2448,12 +2448,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PINECO] =
+    [NATIONAL_DEX_LUDOMON] =
     {
-        .categoryName = _("BAGWORM"),
-        .height = 6,
-        .weight = 72,
-        .description = gPinecoPokedexText,
+        .categoryName = _("ARMOUR"),
+        .height = 9,
+        .weight = 711,
+        .description = gLudomonPokedexText,
         .pokemonScale = 445,
         .pokemonOffset = 2,
         .trainerScale = 256,
