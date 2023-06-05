@@ -825,7 +825,7 @@ const u16 gEggMoves[] = {
               MOVE_SKY_ATTACK,
               MOVE_CURSE),
 
-    egg_moves(HOUNDOUR,
+    egg_moves(PILLOMON,
               MOVE_FIRE_SPIN,
               MOVE_RAGE,
               MOVE_PURSUIT,

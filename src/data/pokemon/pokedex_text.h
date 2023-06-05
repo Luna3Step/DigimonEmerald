@@ -1366,11 +1366,11 @@ const u8 gPhascomonPokedexText[] = _(
     "unsuspecting visitors. When it decides on\n"
     "a target, it will drop down to attack.");
 
-const u8 gHoundourPokedexText[] = _(
-    "HOUNDOUR communicate with each other\n"
-    "using a variety of cries to corner their\n"
-    "prey. This POKéMON's remarkable teamwork\n"
-    "is simply unparalleled.");
+const u8 gPillomonPokedexText[] = _(
+    "When sleeping, Pillomon will always be\n"
+    "floating around. If someone is nearby\n"
+    "when it is sleeping, they can either have\n"
+    "very pleasent dreams or horrible nightmares.");
 
 const u8 gHoundoomPokedexText[] = _(
     "In a HOUNDOOM pack, the one with its horns\n"

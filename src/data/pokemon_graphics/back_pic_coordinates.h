@@ -232,7 +232,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_PENGUINMON]    = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  6 },
     [SPECIES_PETITMAMON]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
     [SPECIES_PHASCOMON]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
-    [SPECIES_HOUNDOUR]    = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
+    [SPECIES_PILLOMON]    = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
     [SPECIES_HOUNDOOM]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
     [SPECIES_KINGDRA]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
     [SPECIES_PHANPY]      = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 14 },

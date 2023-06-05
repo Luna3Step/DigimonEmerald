@@ -2736,12 +2736,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_HOUNDOUR] =
+    [NATIONAL_DEX_PILLOMON] =
     {
-        .categoryName = _("DARK"),
-        .height = 6,
-        .weight = 108,
-        .description = gHoundourPokedexText,
+        .categoryName = _("SLEEPING"),
+        .height = 4,
+        .weight = 262,
+        .description = gPillomonPokedexText,
         .pokemonScale = 393,
         .pokemonOffset = 16,
         .trainerScale = 256,
