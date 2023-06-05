@@ -2400,12 +2400,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 5,
     },
 
-    [NATIONAL_DEX_MISDREAVUS] =
+    [NATIONAL_DEX_LOOGAMON] =
     {
-        .categoryName = _("SCREECH"),
-        .height = 7,
-        .weight = 10,
-        .description = gMisdreavusPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 11,
+        .weight = 501,
+        .description = gLoogamonPokedexText,
         .pokemonScale = 407,
         .pokemonOffset = -8,
         .trainerScale = 256,

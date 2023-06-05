@@ -2904,7 +2904,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWIFT)
                                 | TUTOR(MOVE_FURY_CUTTER)),
 
-    [SPECIES_MISDREAVUS]       = (TUTOR(MOVE_DOUBLE_EDGE)
+    [SPECIES_LOOGAMON]       = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_DREAM_EATER)
                                 | TUTOR(MOVE_THUNDER_WAVE)

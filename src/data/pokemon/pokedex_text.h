@@ -1198,11 +1198,11 @@ const u8 gLiollmonPokedexText[] = _(
     "population. It is a very territorial\n"
     "Digimon making it hard to study.");
 
-const u8 gMisdreavusPokedexText[] = _(
-    "A MISDREAVUS frightens people with a\n"
-    "creepy, sobbing cry. It apparently uses\n"
-    "its red spheres to absorb the fear of foes\n"
-    "as its nutrition.");
+const u8 gLoogamonPokedexText[] = _(
+    "Many Tamers seek out Loogamon as it is\n"
+    "both a strong and loyal Digimon. It has an\n"
+    "incredible capacity for rage making many\n"
+    "tamers regret their choices.");
 
 const u8 gUnownPokedexText[] = _(
     "This POKéMON is shaped like ancient text\n"

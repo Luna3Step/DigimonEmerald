@@ -2753,7 +2753,7 @@ static const u16 sLiollmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMisdreavusLevelUpLearnset[] = {
+static const u16 sLoogamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_PSYWAVE),
     LEVEL_UP_MOVE( 6, MOVE_SPITE),

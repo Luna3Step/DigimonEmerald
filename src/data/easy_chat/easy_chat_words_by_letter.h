@@ -1033,7 +1033,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_WORD_MINUS,
     EC_MOVE2(MIRROR_COAT),
     EC_MOVE(MIRROR_MOVE),
-    EC_POKEMON_NATIONAL(MISDREAVUS),
+    EC_POKEMON_NATIONAL(LOOGAMON),
     EC_WORD_MISHEARD,
     EC_WORD_MISS,
     EC_MOVE(MIST),
@@ -2293,7 +2293,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMi[] = {
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseMu[] = {
     EC_WORD_MOOD,
-    EC_POKEMON_NATIONAL(MISDREAVUS),
+    EC_POKEMON_NATIONAL(LOOGAMON),
     EC_WORD_OLDEN,
     EC_WORD_ARRGH,
     EC_WORD_BUG,

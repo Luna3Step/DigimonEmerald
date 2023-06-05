@@ -684,7 +684,7 @@ const u16 gEggMoves[] = {
               MOVE_FEATHER_DANCE,
               MOVE_PERISH_SONG),
 
-    egg_moves(MISDREAVUS,
+    egg_moves(LOOGAMON,
               MOVE_SCREECH,
               MOVE_DESTINY_BOND,
               MOVE_PSYCH_UP,
