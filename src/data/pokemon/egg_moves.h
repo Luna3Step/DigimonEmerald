@@ -874,7 +874,7 @@ const u16 gEggMoves[] = {
               MOVE_FIRE_PUNCH,
               MOVE_ICE_PUNCH),
 
-    egg_moves(MAGBY,
+    egg_moves(BLKTOYAMON,
               MOVE_KARATE_CHOP,
               MOVE_MEGA_PUNCH,
               MOVE_BARRIER,

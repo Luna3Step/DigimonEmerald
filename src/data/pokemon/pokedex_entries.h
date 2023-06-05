@@ -2880,12 +2880,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAGBY] =
+    [NATIONAL_DEX_BLKTOYAMON] =
     {
-        .categoryName = _("LIVE COAL"),
-        .height = 7,
+        .categoryName = _("TOY"),
+        .height = 11,
         .weight = 214,
-        .description = gMagbyPokedexText,
+        .description = gBlktoyamonPokedexText,
         .pokemonScale = 284,
         .pokemonOffset = 13,
         .trainerScale = 256,

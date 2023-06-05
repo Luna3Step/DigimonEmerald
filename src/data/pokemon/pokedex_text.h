@@ -1438,11 +1438,11 @@ const u8 gSantaAgumonPokedexText[] = _(
     "are so dedicated to it that they will live\n"
     "and train in ice-covered regions.");
 
-const u8 gMagbyPokedexText[] = _(
-    "If a MAGBY is spouting yellow flames from\n"
-    "its mouth, it is in good health. When it is\n"
-    "fatigued, black smoke will be mixed in with\n"
-    "the flames.");
+const u8 gBlktoyamonPokedexText[] = _(
+    "BlkToyAgumon is very unsavoury Digimon that\n"
+    "will bully children instead of playing with\n"
+    "them. Although its attacks also look like\n"
+    "toys, they are still very dangerous.");
 
 const u8 gMiltankPokedexText[] = _(
     "It gives over five gallons of milk daily.\n"
