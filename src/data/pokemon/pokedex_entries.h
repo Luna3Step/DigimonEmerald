@@ -2892,12 +2892,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MILTANK] =
+    [NATIONAL_DEX_SHAMANMON] =
     {
-        .categoryName = _("MILK COW"),
-        .height = 12,
-        .weight = 755,
-        .description = gMiltankPokedexText,
+        .categoryName = _("SHAMAN"),
+        .height = 16,
+        .weight = 655,
+        .description = gShamanmonPokedexText,
         .pokemonScale = 280,
         .pokemonOffset = 5,
         .trainerScale = 256,

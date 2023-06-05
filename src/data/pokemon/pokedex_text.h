@@ -1444,11 +1444,11 @@ const u8 gBlktoyamonPokedexText[] = _(
     "them. Although its attacks also look like\n"
     "toys, they are still very dangerous.");
 
-const u8 gMiltankPokedexText[] = _(
-    "It gives over five gallons of milk daily.\n"
-    "Its sweet milk is enjoyed by children and\n"
-    "grown-ups alike. People who can't drink\n"
-    "milk turn it into yogurt and eat it instead.");
+const u8 gShamanmonPokedexText[] = _(
+    "Shamanmon is just a Goblimon who has been\n"
+    "given the duty of listening to the will of\n"
+    "its god. It will perform a dance during its\n"
+    "rituals which will let it hear its god.");
 
 const u8 gBlisseyPokedexText[] = _(
     "If it senses sadness with its fluffy fur,\n"

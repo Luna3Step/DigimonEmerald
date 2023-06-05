@@ -3286,7 +3286,7 @@ static const u16 sBlktoyamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMiltankLevelUpLearnset[] = {
+static const u16 sShamanmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_GROWL),
     LEVEL_UP_MOVE( 8, MOVE_DEFENSE_CURL),

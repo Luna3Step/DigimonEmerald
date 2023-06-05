@@ -9722,7 +9722,7 @@
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_MILTANK"
+                "species": "SPECIES_SHAMANMON"
               },
               {
                 "min_level": 39,
@@ -9732,7 +9732,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_MILTANK"
+                "species": "SPECIES_SHAMANMON"
               }
             ]
           },

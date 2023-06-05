@@ -882,7 +882,7 @@ const u16 gEggMoves[] = {
               MOVE_CROSS_CHOP,
               MOVE_THUNDER_PUNCH),
 
-    egg_moves(MILTANK,
+    egg_moves(SHAMANMON,
               MOVE_PRESENT,
               MOVE_REVERSAL,
               MOVE_SEISMIC_TOSS,

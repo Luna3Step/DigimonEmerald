@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MAGBY"
-with "FRONTIER_MON_BLKTOYAMON"
+replace "FRONTIER_MON_MILTANK"
+with "FRONTIER_MON_SHAMANMON"
 
-replace "gMagbyPokedexText"
-with "gBlktoyamonPokedexText"
+replace "gMiltankPokedexText"
+with "gShamanmonPokedexText"
 
-replace "NATIONAL_DEX_MAGBY"
-with "NATIONAL_DEX_BLKTOYAMON"
+replace "NATIONAL_DEX_MILTANK"
+with "NATIONAL_DEX_SHAMANMON"
 
-replace "SPECIES_MAGBY"
-with "SPECIES_BLKTOYAMON"
+replace "SPECIES_MILTANK"
+with "SPECIES_SHAMANMON"
 
-replace "HOENN_DEX_MAGBY"
-with "HOENN_DEX_BLKTOYAMON"
+replace "HOENN_DEX_MILTANK"
+with "HOENN_DEX_SHAMANMON"
 
-replace "SPECIES_TO_HOENN(MAGBY),"
-with "SPECIES_TO_HOENN(BLKTOYAMON),"
+replace "SPECIES_TO_HOENN(MILTANK),"
+with "SPECIES_TO_HOENN(SHAMANMON),"
 
-replace "SPECIES_TO_NATIONAL(MAGBY),"
-with "SPECIES_TO_NATIONAL(BLKTOYAMON),"
+replace "SPECIES_TO_NATIONAL(MILTANK),"
+with "SPECIES_TO_NATIONAL(SHAMANMON),"
 
-replace "HOENN_TO_NATIONAL(MAGBY),"
-with "HOENN_TO_NATIONAL(BLKTOYAMON),"
+replace "HOENN_TO_NATIONAL(MILTANK),"
+with "HOENN_TO_NATIONAL(SHAMANMON),"
 
-replace "EC_POKEMON_NATIONAL(MAGBY),"
-with "EC_POKEMON_NATIONAL(BLKTOYAMON),"
+replace "EC_POKEMON_NATIONAL(MILTANK),"
+with "EC_POKEMON_NATIONAL(SHAMANMON),"
 
-replace "egg_moves(MAGBY,"
-with "egg_moves(BLKTOYAMON,"
+replace "egg_moves(MILTANK,"
+with "egg_moves(SHAMANMON,"
 
-replace "sMagbyLevelUpLearnset"
-with "sBlktoyamonLevelUpLearnset"
+replace "sMiltankLevelUpLearnset"
+with "sShamanmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MAGBY"
-with "SPECIES_SPRITE(BLKTOYAMON"
+replace "SPECIES_SPRITE(MILTANK"
+with "SPECIES_SPRITE(SHAMANMON"
 
-replace "SPECIES_PAL(MAGBY,"
-with "SPECIES_PAL(BLKTOYAMON,"
+replace "SPECIES_PAL(MILTANK,"
+with "SPECIES_PAL(SHAMANMON,"
 
-replace "SPECIES_SHINY_PAL(MAGBY,"
-with "SPECIES_SHINY_PAL(BLKTOYAMON,"
+replace "SPECIES_SHINY_PAL(MILTANK,"
+with "SPECIES_SHINY_PAL(SHAMANMON,"
 
-replace "EC_POKEMON(MAGBY)"
-with "EC_POKEMON(BLKTOYAMON)"
+replace "EC_POKEMON(MILTANK)"
+with "EC_POKEMON(SHAMANMON)"
 
-replace "EC_POKEMON_NATIONAL(MAGBY)"
-with "EC_POKEMON_NATIONAL(BLKTOYAMON)"
+replace "EC_POKEMON_NATIONAL(MILTANK)"
+with "EC_POKEMON_NATIONAL(SHAMANMON)"
 
 in "src/data/text/species_names.h"
-replace "MAGBY"
-with "BLKTOYAMON"
+replace "MILTANK"
+with "SHAMANMON"
