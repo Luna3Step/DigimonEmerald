@@ -2940,12 +2940,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_SUICUNE] =
+    [NATIONAL_DEX_ICEGOBIMON] =
     {
-        .categoryName = _("AURORA"),
-        .height = 20,
-        .weight = 1870,
-        .description = gSuicunePokedexText,
+        .categoryName = _("GOBLIN"),
+        .height = 24,
+        .weight = 602,
+        .description = gIceGobiMonPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 0,
         .trainerScale = 345,

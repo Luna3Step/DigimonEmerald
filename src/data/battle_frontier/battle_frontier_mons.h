@@ -5327,8 +5327,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_SUICUNE_1] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_1] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_SURF, MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -5404,8 +5404,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_SUICUNE_2] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_2] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_TOXIC, MOVE_DIVE, MOVE_DOUBLE_TEAM, MOVE_PROTECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -5481,8 +5481,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_SUICUNE_3] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_3] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_RAIN_DANCE, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -5558,8 +5558,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_SUICUNE_4] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_4] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BITE, MOVE_REFLECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -6160,15 +6160,15 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_SUICUNE_5] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_5] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_CALM_MIND, MOVE_ICY_WIND},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_SUICUNE_6] = {
-        .species = SPECIES_SUICUNE,
+    [FRONTIER_MON_ICEGOBIMON_6] = {
+        .species = SPECIES_ICEGOBIMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_CALM_MIND, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

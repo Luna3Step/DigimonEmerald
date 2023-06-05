@@ -1468,11 +1468,11 @@ const u8 gYukiagumon_06PokedexText[] = _(
     "strenght based hierarchy. It also has \n"
     "abandoned stealth attacks out of honour.");
 
-const u8 gSuicunePokedexText[] = _(
-    "SUICUNE embodies the compassion of\n"
-    "a pure spring of water. It runs across\n"
-    "the land with gliding elegance. It has the\n"
-    "power to purify dirty water.");
+const u8 gIceGobiMonPokedexText[] = _(
+    "Although it was brought up in an ice cold\n"
+    "region, it still struggles with the cold\n"
+    "if you remove any of its clothing however\n"
+    "its bare feet are well adjusted for snow.");
 
 const u8 gLarvitarPokedexText[] = _(
     "A LARVITAR is born deep under the ground.\n"

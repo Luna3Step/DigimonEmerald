@@ -5843,7 +5843,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM05_FLASH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_SUICUNE]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
+    [SPECIES_ICEGOBIMON]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM04_CALM_MIND)
                                         | TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
