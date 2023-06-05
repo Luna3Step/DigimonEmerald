@@ -2424,12 +2424,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WOBBUFFET] =
+    [NATIONAL_DEX_LOPMON_X] =
     {
-        .categoryName = _("PATIENT"),
-        .height = 13,
-        .weight = 285,
-        .description = gWobbuffetPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 7,
+        .weight = 298,
+        .description = gLopmon_xPokedexText,
         .pokemonScale = 274,
         .pokemonOffset = 4,
         .trainerScale = 256,

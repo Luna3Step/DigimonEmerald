@@ -1210,11 +1210,11 @@ const u8 gLopmonPokedexText[] = _(
     "twin is often instrumental in making it\n"
     "feel better.");
 
-const u8 gWobbuffetPokedexText[] = _(
-    "Usually docile, a WOBBUFFET strikes back\n"
-    "ferociously if its black tail is attacked.\n"
-    "It makes its lair in caves where it waits\n"
-    "for nightfall.");
+const u8 gLopmon_xPokedexText[] = _(
+    "Lopmon X is much lighter than normal,\n"
+    "letting it drift on the wind. It also has\n"
+    "a psychic connection with its twin, \n"
+    "Terriermon X..");
 
 const u8 gGirafarigPokedexText[] = _(
     "A GIRAFARIG is an herbivore--it eats\n"

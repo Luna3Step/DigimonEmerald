@@ -2280,7 +2280,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 25,
@@ -2290,7 +2290,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 27,
@@ -2300,7 +2300,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               }
             ]
           }
@@ -6968,7 +6968,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 25,
@@ -6978,7 +6978,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 27,
@@ -6988,7 +6988,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               }
             ]
           },
@@ -12202,22 +12202,22 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,
@@ -12232,12 +12232,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOBBUFFET"
+                "species": "SPECIES_LOPMON_X"
               },
               {
                 "min_level": 5,

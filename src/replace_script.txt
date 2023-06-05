@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_UNOWN"
-with "FRONTIER_MON_LOPMON"
+replace "FRONTIER_MON_WOBBUFFET"
+with "FRONTIER_MON_LOPMON_X"
 
-replace "gUnownPokedexText"
-with "gLopmonPokedexText"
+replace "gWobbuffetPokedexText"
+with "gLopmon_xPokedexText"
 
-replace "NATIONAL_DEX_UNOWN"
-with "NATIONAL_DEX_LOPMON"
+replace "NATIONAL_DEX_WOBBUFFET"
+with "NATIONAL_DEX_LOPMON_X"
 
-replace "SPECIES_UNOWN"
-with "SPECIES_LOPMON"
+replace "SPECIES_WOBBUFFET"
+with "SPECIES_LOPMON_X"
 
-replace "HOENN_DEX_UNOWN"
-with "HOENN_DEX_LOPMON"
+replace "HOENN_DEX_WOBBUFFET"
+with "HOENN_DEX_LOPMON_X"
 
-replace "SPECIES_TO_HOENN(UNOWN),"
-with "SPECIES_TO_HOENN(LOPMON),"
+replace "SPECIES_TO_HOENN(WOBBUFFET),"
+with "SPECIES_TO_HOENN(LOPMON_X),"
 
-replace "SPECIES_TO_NATIONAL(UNOWN),"
-with "SPECIES_TO_NATIONAL(LOPMON),"
+replace "SPECIES_TO_NATIONAL(WOBBUFFET),"
+with "SPECIES_TO_NATIONAL(LOPMON_X),"
 
-replace "HOENN_TO_NATIONAL(UNOWN),"
-with "HOENN_TO_NATIONAL(LOPMON),"
+replace "HOENN_TO_NATIONAL(WOBBUFFET),"
+with "HOENN_TO_NATIONAL(LOPMON_X),"
 
-replace "EC_POKEMON_NATIONAL(UNOWN),"
-with "EC_POKEMON_NATIONAL(LOPMON),"
+replace "EC_POKEMON_NATIONAL(WOBBUFFET),"
+with "EC_POKEMON_NATIONAL(LOPMON_X),"
 
-replace "egg_moves(UNOWN,"
-with "egg_moves(LOPMON,"
+replace "egg_moves(WOBBUFFET,"
+with "egg_moves(LOPMON_X,"
 
-replace "sUnownLevelUpLearnset"
-with "sLopmonLevelUpLearnset"
+replace "sWobbuffetLevelUpLearnset"
+with "sLopmon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(UNOWN"
-with "SPECIES_SPRITE(LOPMON"
+replace "SPECIES_SPRITE(WOBBUFFET"
+with "SPECIES_SPRITE(LOPMON_X"
 
-replace "SPECIES_PAL(UNOWN,"
-with "SPECIES_PAL(LOPMON,"
+replace "SPECIES_PAL(WOBBUFFET,"
+with "SPECIES_PAL(LOPMON_X,"
 
-replace "SPECIES_SHINY_PAL(UNOWN,"
-with "SPECIES_SHINY_PAL(LOPMON,"
+replace "SPECIES_SHINY_PAL(WOBBUFFET,"
+with "SPECIES_SHINY_PAL(LOPMON_X,"
 
-replace "EC_POKEMON(UNOWN)"
-with "EC_POKEMON(LOPMON)"
+replace "EC_POKEMON(WOBBUFFET)"
+with "EC_POKEMON(LOPMON_X)"
 
-replace "EC_POKEMON_NATIONAL(UNOWN)"
-with "EC_POKEMON_NATIONAL(LOPMON)"
+replace "EC_POKEMON_NATIONAL(WOBBUFFET)"
+with "EC_POKEMON_NATIONAL(LOPMON_X)"
 
 in "src/data/text/species_names.h"
-replace "UNOWN"
+replace "WOBBUFFET"
 with "LOPMON"
