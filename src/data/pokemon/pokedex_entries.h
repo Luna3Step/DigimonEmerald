@@ -2508,12 +2508,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 13,
     },
 
-    [NATIONAL_DEX_SNUBBULL] =
+    [NATIONAL_DEX_MODBETAMON] =
     {
-        .categoryName = _("FAIRY"),
-        .height = 6,
-        .weight = 78,
-        .description = gSnubbullPokedexText,
+        .categoryName = _("AMPHIBIAN"),
+        .height = 7,
+        .weight = 360,
+        .description = gModbetamonPokedexText,
         .pokemonScale = 465,
         .pokemonOffset = 19,
         .trainerScale = 256,

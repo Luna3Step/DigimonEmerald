@@ -724,7 +724,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_SAND_TOMB),
 
-    egg_moves(SNUBBULL,
+    egg_moves(MODBETAMON,
               MOVE_METRONOME,
               MOVE_FAINT_ATTACK,
               MOVE_REFLECT,

@@ -1503,7 +1503,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_DEVIN] = {
-        .species = SPECIES_SNUBBULL,
+        .species = SPECIES_MODBETAMON,
         .nickname = _("SNUBBINS"),
         .trainerName = _("DEVIN"),
         .trainerGfxId = OBJ_EVENT_GFX_GENTLEMAN,

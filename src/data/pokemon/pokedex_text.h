@@ -1252,11 +1252,11 @@ const u8 gKodekacmonPokedexText[] = _(
     "Rookie Digimon. It spends its time bossing\n"
     "Atamadekachimon around.");
 
-const u8 gSnubbullPokedexText[] = _(
-    "By baring its fangs and making a scary\n"
-    "face, it sends smaller POKéMON scurrying\n"
-    "in terror. The SNUBBULL does seem a\n"
-    "little sad at making its foes flee.");
+const u8 gModbetamonPokedexText[] = _(
+    "Although almost identical to normal\n"
+    "Betamon, ModokiBetamon is actually much more\n"
+    "peaceful. When it fights though, it will wait\n"
+    "in cover to ambush whoever its fighting.");
 
 const u8 gGranbullPokedexText[] = _(
     "It has a particularly well-developed lower\n"
