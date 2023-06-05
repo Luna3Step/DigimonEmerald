@@ -3082,7 +3082,7 @@ static const u16 sPawnmon_whiteLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDelibirdLevelUpLearnset[] = {
+static const u16 sPenguinmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PRESENT),
     LEVEL_UP_END
 };

@@ -1348,11 +1348,11 @@ const u8 gPawnmon_whitePokedexText[] = _(
     "class power. When it goes into battle, it\n"
     "can be heard chanting 'I only advance!'.");
 
-const u8 gDelibirdPokedexText[] = _(
-    "It carries food bundled up in its tail.\n"
-    "There was a famous explorer who\n"
-    "managed to scale Mt. Everest thanks\n"
-    "to a DELIBIRD sharing its food.");
+const u8 gPenguinmonPokedexText[] = _(
+    "Because it lives in an ice-covered region,\n"
+    "Penguinmon is very weak in hotter areas.\n"
+    "When sliding on its body, it can reach\n"
+    "upwards of 40 mph in good conditions");
 
 const u8 gMantinePokedexText[] = _(
     "On sunny days, schools of MANTINE can be\n"

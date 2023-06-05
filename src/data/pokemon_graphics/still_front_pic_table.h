@@ -226,7 +226,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(PATAMON,       gMonStillFrontPic_Corsola),
     SPECIES_SPRITE(PAWNMON,      gMonStillFrontPic_Remoraid),
     SPECIES_SPRITE(PAWNMON_WHITE,     gMonStillFrontPic_Octillery),
-    SPECIES_SPRITE(DELIBIRD,      gMonStillFrontPic_Delibird),
+    SPECIES_SPRITE(PENGUINMON,      gMonStillFrontPic_Delibird),
     SPECIES_SPRITE(MANTINE,       gMonStillFrontPic_Mantine),
     SPECIES_SPRITE(SKARMORY,      gMonStillFrontPic_Skarmory),
     SPECIES_SPRITE(HOUNDOUR,      gMonStillFrontPic_Houndour),

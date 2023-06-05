@@ -802,7 +802,7 @@ const u16 gEggMoves[] = {
               MOVE_THUNDER_WAVE,
               MOVE_ROCK_BLAST),
 
-    egg_moves(DELIBIRD,
+    egg_moves(PENGUINMON,
               MOVE_AURORA_BEAM,
               MOVE_QUICK_ATTACK,
               MOVE_FUTURE_SIGHT,

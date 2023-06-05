@@ -2700,12 +2700,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DELIBIRD] =
+    [NATIONAL_DEX_PENGUINMON] =
     {
-        .categoryName = _("DELIVERY"),
-        .height = 9,
-        .weight = 160,
-        .description = gDelibirdPokedexText,
+        .categoryName = _("PENGUIN"),
+        .height = 8,
+        .weight = 369,
+        .description = gPenguinmonPokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 11,
         .trainerScale = 256,
