@@ -117,7 +117,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round3[] =
         .moves = {MOVE_WILL_O_WISP, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_MAGCARGO,
+        .species = SPECIES_OTAMAMON_X,
         .lvl = 11,
         .abilityNum = 1,
         .moves = {MOVE_FLAMETHROWER, MOVE_ROCK_SLIDE, MOVE_PROTECT, MOVE_NONE}

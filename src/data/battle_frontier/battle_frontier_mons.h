@@ -1358,8 +1358,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_MAGCARGO_1] = {
-        .species = SPECIES_MAGCARGO,
+    [FRONTIER_MON_OTAMAMON_X_1] = {
+        .species = SPECIES_OTAMAMON_X,
         .moves = {MOVE_ROCK_SLIDE, MOVE_EMBER, MOVE_ACID_ARMOR, MOVE_SANDSTORM},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
@@ -2093,8 +2093,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_MAGCARGO_2] = {
-        .species = SPECIES_MAGCARGO,
+    [FRONTIER_MON_OTAMAMON_X_2] = {
+        .species = SPECIES_OTAMAMON_X,
         .moves = {MOVE_OVERHEAT, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_BODY_SLAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,

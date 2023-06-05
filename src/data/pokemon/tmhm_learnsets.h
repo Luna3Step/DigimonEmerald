@@ -5233,7 +5233,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM50_OVERHEAT)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_MAGCARGO]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_OTAMAMON_X]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)

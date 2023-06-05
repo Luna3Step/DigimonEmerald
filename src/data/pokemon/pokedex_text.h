@@ -1312,11 +1312,11 @@ const u8 gOtamamon_redPokedexText[] = _(
     "hot springs. With this new type, it has\n"
     "also grown stronger forelimbs for climbing.");
 
-const u8 gMagcargoPokedexText[] = _(
-    "The shell on its back is made of hardened\n"
-    "magma. Tens of thousands of years spent\n"
-    "living in volcanic craters have turned\n"
-    "MAGCARGO's bodies into magma.");
+const u8 gOtamamon_xPokedexText[] = _(
+    "Otamamon Xs round body is one of its\n"
+    "many points that it is proud. It is\n"
+    "said that its roundness is so perfect\n"
+    "that even PrinceMamemon notices it.");
 
 const u8 gSwinubPokedexText[] = _(
     "It roots for food by rubbing its snout\n"

@@ -2607,8 +2607,8 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_OTAMAMON] =
     {
         .categoryName = _("TADPOLE"),
-        .height = 6,
-        .weight = 362,
+        .height = 3,
+        .weight = 262,
         .description = gOtamamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -2619,8 +2619,8 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_OTAMAMON_RED] =
     {
         .categoryName = _("TADPOLE"),
-        .height = 6,
-        .weight = 391,
+        .height = 3,
+        .weight = 291,
         .description = gOtamamon_redPokedexText,
         .pokemonScale = 329,
         .pokemonOffset = 15,
@@ -2628,12 +2628,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAGCARGO] =
+    [NATIONAL_DEX_OTAMAMON_X] =
     {
-        .categoryName = _("LAVA"),
-        .height = 8,
-        .weight = 550,
-        .description = gMagcargoPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 9,
+        .weight = 498,
+        .description = gOtamamon_xPokedexText,
         .pokemonScale = 332,
         .pokemonOffset = 15,
         .trainerScale = 256,

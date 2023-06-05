@@ -2545,7 +2545,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bernie5[] = {
     {
     .iv = 40,
     .lvl = 35,
-    .species = SPECIES_MAGCARGO,
+    .species = SPECIES_OTAMAMON_X,
     },
     {
     .iv = 40,
@@ -10751,7 +10751,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_MAGCARGO,
+    .species = SPECIES_OTAMAMON_X,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
@@ -10789,7 +10789,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery3[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_MAGCARGO,
+    .species = SPECIES_OTAMAMON_X,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
@@ -10834,7 +10834,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery4[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_MAGCARGO,
+    .species = SPECIES_OTAMAMON_X,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
@@ -10872,7 +10872,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery5[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_MAGCARGO,
+    .species = SPECIES_OTAMAMON_X,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
