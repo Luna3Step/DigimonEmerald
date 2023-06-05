@@ -1456,11 +1456,11 @@ const u8 gShoutmonPokedexText[] = _(
     "tenacity to get up no matter what in a \n"
     "fight. Without its mic, it will wither away");
 
-const u8 gRaikouPokedexText[] = _(
-    "RAIKOU embodies the speed of lightning.\n"
-    "Its roars send shock waves shuddering\n"
-    "through the air and ground as if\n"
-    "lightning bolts were crashing down.");
+const u8 gYukiagumonPokedexText[] = _(
+    "Due to the child-like behaviour it inherited\n"
+    "from Agumon, it is very gleeful when it\n"
+    "is snowing. Because of its white body, it\n"
+    "can easily sneak upto Digimon in the snow.");
 
 const u8 gEnteiPokedexText[] = _(
     "ENTEI embodies the passion of magma.\n"

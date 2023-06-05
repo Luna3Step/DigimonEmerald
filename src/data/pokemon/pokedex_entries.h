@@ -2916,12 +2916,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_RAIKOU] =
+    [NATIONAL_DEX_YUKIAGUMON] =
     {
-        .categoryName = _("THUNDER"),
-        .height = 19,
-        .weight = 1780,
-        .description = gRaikouPokedexText,
+        .categoryName = _("T-REX"),
+        .height = 10,
+        .weight = 658,
+        .description = gYukiagumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 345,

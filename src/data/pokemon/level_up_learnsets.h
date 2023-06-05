@@ -3315,7 +3315,7 @@ static const u16 sShoutmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRaikouLevelUpLearnset[] = {
+static const u16 sYukiagumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE(11, MOVE_THUNDER_SHOCK),

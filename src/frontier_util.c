@@ -128,7 +128,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Gold Symbol.
         {
             {
-                .species = SPECIES_RAIKOU,
+                .species = SPECIES_YUKIAGUMON,
                 .heldItem = ITEM_LUM_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_MODEST,

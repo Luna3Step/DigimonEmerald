@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BLISSEY"
-with "FRONTIER_MON_SHOUTMON"
+replace "FRONTIER_MON_RAIKOU"
+with "FRONTIER_MON_YUKIAGUMON"
 
-replace "gBlisseyPokedexText"
-with "gShoutmonPokedexText"
+replace "gRaikouPokedexText"
+with "gYukiagumonPokedexText"
 
-replace "NATIONAL_DEX_BLISSEY"
-with "NATIONAL_DEX_SHOUTMON"
+replace "NATIONAL_DEX_RAIKOU"
+with "NATIONAL_DEX_YUKIAGUMON"
 
-replace "SPECIES_BLISSEY"
-with "SPECIES_SHOUTMON"
+replace "SPECIES_RAIKOU"
+with "SPECIES_YUKIAGUMON"
 
-replace "HOENN_DEX_BLISSEY"
-with "HOENN_DEX_SHOUTMON"
+replace "HOENN_DEX_RAIKOU"
+with "HOENN_DEX_YUKIAGUMON"
 
-replace "SPECIES_TO_HOENN(BLISSEY),"
-with "SPECIES_TO_HOENN(SHOUTMON),"
+replace "SPECIES_TO_HOENN(RAIKOU),"
+with "SPECIES_TO_HOENN(YUKIAGUMON),"
 
-replace "SPECIES_TO_NATIONAL(BLISSEY),"
-with "SPECIES_TO_NATIONAL(SHOUTMON),"
+replace "SPECIES_TO_NATIONAL(RAIKOU),"
+with "SPECIES_TO_NATIONAL(YUKIAGUMON),"
 
-replace "HOENN_TO_NATIONAL(BLISSEY),"
-with "HOENN_TO_NATIONAL(SHOUTMON),"
+replace "HOENN_TO_NATIONAL(RAIKOU),"
+with "HOENN_TO_NATIONAL(YUKIAGUMON),"
 
-replace "EC_POKEMON_NATIONAL(BLISSEY),"
-with "EC_POKEMON_NATIONAL(SHOUTMON),"
+replace "EC_POKEMON_NATIONAL(RAIKOU),"
+with "EC_POKEMON_NATIONAL(YUKIAGUMON),"
 
-replace "egg_moves(BLISSEY,"
-with "egg_moves(SHOUTMON,"
+replace "egg_moves(RAIKOU,"
+with "egg_moves(YUKIAGUMON,"
 
-replace "sBlisseyLevelUpLearnset"
-with "sShoutmonLevelUpLearnset"
+replace "sRaikouLevelUpLearnset"
+with "sYukiagumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BLISSEY"
-with "SPECIES_SPRITE(SHOUTMON"
+replace "SPECIES_SPRITE(RAIKOU"
+with "SPECIES_SPRITE(YUKIAGUMON"
 
-replace "SPECIES_PAL(BLISSEY,"
-with "SPECIES_PAL(SHOUTMON,"
+replace "SPECIES_PAL(RAIKOU,"
+with "SPECIES_PAL(YUKIAGUMON,"
 
-replace "SPECIES_SHINY_PAL(BLISSEY,"
-with "SPECIES_SHINY_PAL(SHOUTMON,"
+replace "SPECIES_SHINY_PAL(RAIKOU,"
+with "SPECIES_SHINY_PAL(YUKIAGUMON,"
 
-replace "EC_POKEMON(BLISSEY)"
-with "EC_POKEMON(SHOUTMON)"
+replace "EC_POKEMON(RAIKOU)"
+with "EC_POKEMON(YUKIAGUMON)"
 
-replace "EC_POKEMON_NATIONAL(BLISSEY)"
-with "EC_POKEMON_NATIONAL(SHOUTMON)"
+replace "EC_POKEMON_NATIONAL(RAIKOU)"
+with "EC_POKEMON_NATIONAL(YUKIAGUMON)"
 
 in "src/data/text/species_names.h"
-replace "BLISSEY"
-with "SHOUTMON"
+replace "RAIKOU"
+with "YUKIAGUMON"
