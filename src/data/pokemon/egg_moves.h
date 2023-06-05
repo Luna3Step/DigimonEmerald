@@ -717,7 +717,7 @@ const u16 gEggMoves[] = {
               MOVE_ASTONISH,
               MOVE_CURSE),
 
-    egg_moves(GLIGAR,
+    egg_moves(METABEE,
               MOVE_METAL_CLAW,
               MOVE_WING_ATTACK,
               MOVE_RAZOR_WIND,

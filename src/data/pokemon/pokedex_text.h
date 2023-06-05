@@ -1240,11 +1240,11 @@ const u8 gLuxmonPokedexText[] = _(
     "said that it has a sacred power that will\n"
     "let it digivolve into a mighty Digimon.");
 
-const u8 gGligarPokedexText[] = _(
-    "It glides without making a single sound.\n"
-    "It grasps the face of its foe using its\n"
-    "hind and large front claws, then stabs\n"
-    "with its poison barb.");
+const u8 gMetabeePokedexText[] = _(
+    "Metabee is a very standard Digimon that\n"
+    "focuses on shooting. It does not have\n"
+    "outstanding strength but its balanced\n"
+    "strength makes it hard to fight against.");
 
 const u8 gSteelixPokedexText[] = _(
     "STEELIX live even further underground\n"

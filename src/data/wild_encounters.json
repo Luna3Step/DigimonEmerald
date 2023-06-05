@@ -9568,7 +9568,7 @@
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_GLIGAR"
+                "species": "SPECIES_METABEE"
               },
               {
                 "min_level": 39,
@@ -9578,7 +9578,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_GLIGAR"
+                "species": "SPECIES_METABEE"
               }
             ]
           },

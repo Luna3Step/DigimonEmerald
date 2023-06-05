@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_FORRETRESS"
-with "FRONTIER_MON_LUDOMON"
+replace "FRONTIER_MON_GLIGAR"
+with "FRONTIER_MON_METABEE"
 
-replace "gForretressPokedexText"
-with "gLudomonPokedexText"
+replace "gGligarPokedexText"
+with "gMetabeePokedexText"
 
-replace "NATIONAL_DEX_FORRETRESS"
-with "NATIONAL_DEX_LUDOMON"
+replace "NATIONAL_DEX_GLIGAR"
+with "NATIONAL_DEX_METABEE"
 
-replace "SPECIES_FORRETRESS"
-with "SPECIES_LUDOMON"
+replace "SPECIES_GLIGAR"
+with "SPECIES_METABEE"
 
-replace "HOENN_DEX_FORRETRESS"
-with "HOENN_DEX_LUDOMON"
+replace "HOENN_DEX_GLIGAR"
+with "HOENN_DEX_METABEE"
 
-replace "SPECIES_TO_HOENN(FORRETRESS),"
-with "SPECIES_TO_HOENN(LUDOMON),"
+replace "SPECIES_TO_HOENN(GLIGAR),"
+with "SPECIES_TO_HOENN(METABEE),"
 
-replace "SPECIES_TO_NATIONAL(FORRETRESS),"
-with "SPECIES_TO_NATIONAL(LUDOMON),"
+replace "SPECIES_TO_NATIONAL(GLIGAR),"
+with "SPECIES_TO_NATIONAL(METABEE),"
 
-replace "HOENN_TO_NATIONAL(FORRETRESS),"
-with "HOENN_TO_NATIONAL(LUDOMON),"
+replace "HOENN_TO_NATIONAL(GLIGAR),"
+with "HOENN_TO_NATIONAL(METABEE),"
 
-replace "EC_POKEMON_NATIONAL(FORRETRESS),"
-with "EC_POKEMON_NATIONAL(LUDOMON),"
+replace "EC_POKEMON_NATIONAL(GLIGAR),"
+with "EC_POKEMON_NATIONAL(METABEE),"
 
-replace "egg_moves(FORRETRESS,"
-with "egg_moves(LUDOMON,"
+replace "egg_moves(GLIGAR,"
+with "egg_moves(METABEE,"
 
-replace "sForretressLevelUpLearnset"
-with "sLudomonLevelUpLearnset"
+replace "sGligarLevelUpLearnset"
+with "sMetabeeLevelUpLearnset"
 
-replace "SPECIES_SPRITE(FORRETRESS"
-with "SPECIES_SPRITE(LUDOMON"
+replace "SPECIES_SPRITE(GLIGAR"
+with "SPECIES_SPRITE(METABEE"
 
-replace "SPECIES_PAL(FORRETRESS,"
-with "SPECIES_PAL(LUDOMON,"
+replace "SPECIES_PAL(GLIGAR,"
+with "SPECIES_PAL(METABEE,"
 
-replace "SPECIES_SHINY_PAL(FORRETRESS,"
-with "SPECIES_SHINY_PAL(LUDOMON,"
+replace "SPECIES_SHINY_PAL(GLIGAR,"
+with "SPECIES_SHINY_PAL(METABEE,"
 
-replace "EC_POKEMON(FORRETRESS)"
-with "EC_POKEMON(LUDOMON)"
+replace "EC_POKEMON(GLIGAR)"
+with "EC_POKEMON(METABEE)"
 
-replace "EC_POKEMON_NATIONAL(FORRETRESS)"
-with "EC_POKEMON_NATIONAL(LUDOMON)"
+replace "EC_POKEMON_NATIONAL(GLIGAR)"
+with "EC_POKEMON_NATIONAL(METABEE)"
 
 in "src/data/text/species_names.h"
-replace "FORRETRESS"
-with "LUDOMON"
+replace "GLIGAR"
+with "METABEE"

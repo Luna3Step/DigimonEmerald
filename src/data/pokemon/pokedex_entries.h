@@ -2484,12 +2484,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GLIGAR] =
+    [NATIONAL_DEX_METABEE] =
     {
-        .categoryName = _("FLYSCORPION"),
-        .height = 11,
+        .categoryName = _("MEDABOT"),
+        .height = 10,
         .weight = 648,
-        .description = gGligarPokedexText,
+        .description = gMetabeePokedexText,
         .pokemonScale = 350,
         .pokemonOffset = -1,
         .trainerScale = 256,
