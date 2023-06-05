@@ -78,7 +78,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                             {EVO_ITEM, ITEM_WATER_STONE, SPECIES_CUTEMON},
                             {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_DEMIDEVMON},
                             {EVO_FRIENDSHIP_DAY, 0, SPECIES_KUNEMON},
-                            {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_UMBREON}},
+                            {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_LABRAMON}},
     [SPECIES_DOKUNEMON]    = {{EVO_TRADE_ITEM, ITEM_UP_GRADE, SPECIES_PORYGON2}},
     [SPECIES_DONDOKOMON]    = {{EVO_LEVEL, 40, SPECIES_DORUMON}},
     [SPECIES_DOTAGUMON]     = {{EVO_LEVEL, 40, SPECIES_DOTFALCMON}},

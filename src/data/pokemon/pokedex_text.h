@@ -1180,11 +1180,11 @@ const u8 gKunemonPokedexText[] = _(
     "lightning pattern on its head as they\n"
     "seem to change shape with emotion.");
 
-const u8 gUmbreonPokedexText[] = _(
-    "UMBREON evolved from exposure to the\n"
-    "moon's energy pulses. It lurks in darkness\n"
-    "and waits for its foes to move. The rings\n"
-    "on its body glow when it leaps to attack.");
+const u8 gLabramonPokedexText[] = _(
+    "Many believe that Rookie Digimon like\n"
+    "Labramon are the highest level an\n"
+    "artificial Digimon can reach however their\n"
+    "is growing evidence on the contrary.");
 
 const u8 gMurkrowPokedexText[] = _(
     "MURKROW were feared as the alleged\n"

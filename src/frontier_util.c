@@ -280,7 +280,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_MEGAHORN, MOVE_ROCK_TOMB, MOVE_ENDURE, MOVE_REVERSAL},
             },
             {
-                .species = SPECIES_UMBREON,
+                .species = SPECIES_LABRAMON,
                 .heldItem = ITEM_LEFTOVERS,
                 .fixedIV = 20,
                 .nature = NATURE_CALM,
@@ -299,7 +299,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Gold Symbol.
         {
             {
-                .species = SPECIES_UMBREON,
+                .species = SPECIES_LABRAMON,
                 .heldItem = ITEM_CHESTO_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_CALM,

@@ -2364,12 +2364,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_UMBREON] =
+    [NATIONAL_DEX_LABRAMON] =
     {
-        .categoryName = _("MOONLIGHT"),
-        .height = 10,
-        .weight = 270,
-        .description = gUmbreonPokedexText,
+        .categoryName = _("LABRADOR"),
+        .height = 16,
+        .weight = 432,
+        .description = gLabramonPokedexText,
         .pokemonScale = 317,
         .pokemonOffset = 11,
         .trainerScale = 256,
