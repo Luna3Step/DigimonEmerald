@@ -200,7 +200,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
             if (!letter)
                 coordSpecies = species;
             else
-                coordSpecies = letter + SPECIES_LOPMON_B - 1;
+                coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonBackPicCoords[coordSpecies].y_offset;
         }
         else if (species == SPECIES_CASTFORM)
@@ -229,7 +229,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
             if (!letter)
                 coordSpecies = species;
             else
-                coordSpecies = letter + SPECIES_LOPMON_B - 1;
+                coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonFrontPicCoords[coordSpecies].y_offset;
         }
         else if (species == SPECIES_CASTFORM)
@@ -2184,7 +2184,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
             if (!letter)
                 unownSpecies = SPECIES_LOPMON;
             else
-                unownSpecies = letter + SPECIES_LOPMON_B - 1;
+                unownSpecies = letter + SPECIES_UNOWN_B - 1;
             coords = &gMonBackPicCoords[unownSpecies];
         }
         else if (species == SPECIES_CASTFORM)
@@ -2222,7 +2222,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                 if (!letter)
                     unownSpecies = SPECIES_LOPMON;
                 else
-                    unownSpecies = letter + SPECIES_LOPMON_B - 1;
+                    unownSpecies = letter + SPECIES_UNOWN_B - 1;
                 coords = &gMonBackPicCoords[unownSpecies];
             }
             else if (species > NUM_SPECIES)
@@ -2254,7 +2254,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                 if (!letter)
                     unownSpecies = SPECIES_LOPMON;
                 else
-                    unownSpecies = letter + SPECIES_LOPMON_B - 1;
+                    unownSpecies = letter + SPECIES_UNOWN_B - 1;
                 coords = &gMonFrontPicCoords[unownSpecies];
             }
             else if (species == SPECIES_CASTFORM)

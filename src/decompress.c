@@ -92,7 +92,7 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
         if (i == 0)
             i = SPECIES_LOPMON;
         else
-            i += SPECIES_LOPMON_B - 1;
+            i += SPECIES_UNOWN_B - 1;
 
         if (!isFrontPic)
             LZ77UnCompWram(gMonBackPicTable[i].data, dest);
@@ -314,7 +314,7 @@ void LoadSpecialPokePic_2(const struct CompressedSpriteSheet *src, void *dest, s
         if (i == 0)
             i = SPECIES_LOPMON;
         else
-            i += SPECIES_LOPMON_B - 1;
+            i += SPECIES_UNOWN_B - 1;
 
         if (!isFrontPic)
             LZ77UnCompWram(gMonBackPicTable[i].data, dest);
@@ -372,7 +372,7 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
         if (i == 0)
             i = SPECIES_LOPMON;
         else
-            i += SPECIES_LOPMON_B - 1;
+            i += SPECIES_UNOWN_B - 1;
 
         if (!isFrontPic)
             LZ77UnCompWram(gMonBackPicTable[i].data, dest);
