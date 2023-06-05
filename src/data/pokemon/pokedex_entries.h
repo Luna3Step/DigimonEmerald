@@ -2844,12 +2844,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HITMONTOP] =
+    [NATIONAL_DEX_SALAMON_X] =
     {
-        .categoryName = _("HANDSTAND"),
-        .height = 14,
-        .weight = 480,
-        .description = gHitmontopPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 3,
+        .weight = 285,
+        .description = gSalamon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 257,

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TYROGUE"
-with "FRONTIER_MON_SALAMON"
+replace "FRONTIER_MON_HITMONTOP"
+with "FRONTIER_MON_SALAMON_X"
 
-replace "gTyroguePokedexText"
-with "gSalamonPokedexText"
+replace "gHitmontopPokedexText"
+with "gSalamon_xPokedexText"
 
-replace "NATIONAL_DEX_TYROGUE"
-with "NATIONAL_DEX_SALAMON"
+replace "NATIONAL_DEX_HITMONTOP"
+with "NATIONAL_DEX_SALAMON_X"
 
-replace "SPECIES_TYROGUE"
-with "SPECIES_SALAMON"
+replace "SPECIES_HITMONTOP"
+with "SPECIES_SALAMON_X"
 
-replace "HOENN_DEX_TYROGUE"
-with "HOENN_DEX_SALAMON"
+replace "HOENN_DEX_HITMONTOP"
+with "HOENN_DEX_SALAMON_X"
 
-replace "SPECIES_TO_HOENN(TYROGUE),"
-with "SPECIES_TO_HOENN(SALAMON),"
+replace "SPECIES_TO_HOENN(HITMONTOP),"
+with "SPECIES_TO_HOENN(SALAMON_X),"
 
-replace "SPECIES_TO_NATIONAL(TYROGUE),"
-with "SPECIES_TO_NATIONAL(SALAMON),"
+replace "SPECIES_TO_NATIONAL(HITMONTOP),"
+with "SPECIES_TO_NATIONAL(SALAMON_X),"
 
-replace "HOENN_TO_NATIONAL(TYROGUE),"
-with "HOENN_TO_NATIONAL(SALAMON),"
+replace "HOENN_TO_NATIONAL(HITMONTOP),"
+with "HOENN_TO_NATIONAL(SALAMON_X),"
 
-replace "EC_POKEMON_NATIONAL(TYROGUE),"
-with "EC_POKEMON_NATIONAL(SALAMON),"
+replace "EC_POKEMON_NATIONAL(HITMONTOP),"
+with "EC_POKEMON_NATIONAL(SALAMON_X),"
 
-replace "egg_moves(TYROGUE,"
-with "egg_moves(SALAMON,"
+replace "egg_moves(HITMONTOP,"
+with "egg_moves(SALAMON_X,"
 
-replace "sTyrogueLevelUpLearnset"
-with "sSalamonLevelUpLearnset"
+replace "sHitmontopLevelUpLearnset"
+with "sSalamon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TYROGUE"
-with "SPECIES_SPRITE(SALAMON"
+replace "SPECIES_SPRITE(HITMONTOP"
+with "SPECIES_SPRITE(SALAMON_X"
 
-replace "SPECIES_PAL(TYROGUE,"
-with "SPECIES_PAL(SALAMON,"
+replace "SPECIES_PAL(HITMONTOP,"
+with "SPECIES_PAL(SALAMON_X,"
 
-replace "SPECIES_SHINY_PAL(TYROGUE,"
-with "SPECIES_SHINY_PAL(SALAMON,"
+replace "SPECIES_SHINY_PAL(HITMONTOP,"
+with "SPECIES_SHINY_PAL(SALAMON_X,"
 
-replace "EC_POKEMON(TYROGUE)"
-with "EC_POKEMON(SALAMON)"
+replace "EC_POKEMON(HITMONTOP)"
+with "EC_POKEMON(SALAMON_X)"
 
-replace "EC_POKEMON_NATIONAL(TYROGUE)"
-with "EC_POKEMON_NATIONAL(SALAMON)"
+replace "EC_POKEMON_NATIONAL(HITMONTOP)"
+with "EC_POKEMON_NATIONAL(SALAMON_X)"
 
 in "src/data/text/species_names.h"
-replace "TYROGUE"
+replace "HITMONTOP"
 with "SALAMON"

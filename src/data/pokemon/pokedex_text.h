@@ -1420,11 +1420,11 @@ const u8 gSalamonPokedexText[] = _(
     "holy power. It is a very anxious Digimon\n"
     "that is easily bullied by others.");
 
-const u8 gHitmontopPokedexText[] = _(
-    "Its technique of kicking while spinning is\n"
-    "a remarkable mix of both offense and\n"
-    "defense. HITMONTOP travel faster\n"
-    "spinning than they do walking.");
+const u8 gSalamon_xPokedexText[] = _(
+    "Unlike normal Salamon, Salamon X will\n"
+    "have much stronger holy power. It still\n"
+    "can't manifest it on its own however\n"
+    "it can subconsciously use it.");
 
 const u8 gSmoochumPokedexText[] = _(
     "It actively runs about, but also falls\n"
