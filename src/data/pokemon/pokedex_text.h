@@ -1234,11 +1234,11 @@ const u8 gLunamonPokedexText[] = _(
     "Digimon but will develop attachments easily\n"
     "when it shares common interests.");
 
-const u8 gDunsparcePokedexText[] = _(
-    "Its drill-tipped tail is used to burrow into\n"
-    "the ground backwards. This POKéMON is\n"
-    "known to make its nest in complex shapes\n"
-    "deep under the ground.");
+const u8 gLuxmonPokedexText[] = _(
+    "Luxmon is a pretty weak Digimon as it\n"
+    "lacks experience and skill however it is\n"
+    "said that it has a sacred power that will\n"
+    "let it digivolve into a mighty Digimon.");
 
 const u8 gGligarPokedexText[] = _(
     "It glides without making a single sound.\n"

@@ -708,7 +708,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_SAND_TOMB),
 
-    egg_moves(DUNSPARCE,
+    egg_moves(LUXMON,
               MOVE_BIDE,
               MOVE_ANCIENT_POWER,
               MOVE_ROCK_SLIDE,

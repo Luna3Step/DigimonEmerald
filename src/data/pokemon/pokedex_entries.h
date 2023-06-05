@@ -2472,12 +2472,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUNSPARCE] =
+    [NATIONAL_DEX_LUXMON] =
     {
-        .categoryName = _("LAND SNAKE"),
-        .height = 15,
-        .weight = 140,
-        .description = gDunsparcePokedexText,
+        .categoryName = _("ANGEL"),
+        .height = 9,
+        .weight = 344,
+        .description = gLuxmonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 17,
         .trainerScale = 256,
