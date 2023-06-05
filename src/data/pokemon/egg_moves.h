@@ -843,7 +843,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_FISSURE),
 
-    egg_moves(STANTLER,
+    egg_moves(ROKUSHO,
               MOVE_SPITE,
               MOVE_DISABLE,
               MOVE_BITE,

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PORYGON2"
-with "FRONTIER_MON_RENAMON_X"
+replace "FRONTIER_MON_STANTLER"
+with "FRONTIER_MON_ROKUSHO"
 
-replace "gPorygon2PokedexText"
-with "gRenamon_xPokedexText"
+replace "gStantlerPokedexText"
+with "gRokushoPokedexText"
 
-replace "NATIONAL_DEX_PORYGON2"
-with "NATIONAL_DEX_RENAMON_X"
+replace "NATIONAL_DEX_STANTLER"
+with "NATIONAL_DEX_ROKUSHO"
 
-replace "SPECIES_PORYGON2"
-with "SPECIES_RENAMON_X"
+replace "SPECIES_STANTLER"
+with "SPECIES_ROKUSHO"
 
-replace "HOENN_DEX_PORYGON2"
-with "HOENN_DEX_RENAMON_X"
+replace "HOENN_DEX_STANTLER"
+with "HOENN_DEX_ROKUSHO"
 
-replace "SPECIES_TO_HOENN(PORYGON2),"
-with "SPECIES_TO_HOENN(RENAMON_X),"
+replace "SPECIES_TO_HOENN(STANTLER),"
+with "SPECIES_TO_HOENN(ROKUSHO),"
 
-replace "SPECIES_TO_NATIONAL(PORYGON2),"
-with "SPECIES_TO_NATIONAL(RENAMON_X),"
+replace "SPECIES_TO_NATIONAL(STANTLER),"
+with "SPECIES_TO_NATIONAL(ROKUSHO),"
 
-replace "HOENN_TO_NATIONAL(PORYGON2),"
-with "HOENN_TO_NATIONAL(RENAMON_X),"
+replace "HOENN_TO_NATIONAL(STANTLER),"
+with "HOENN_TO_NATIONAL(ROKUSHO),"
 
-replace "EC_POKEMON_NATIONAL(PORYGON2),"
-with "EC_POKEMON_NATIONAL(RENAMON_X),"
+replace "EC_POKEMON_NATIONAL(STANTLER),"
+with "EC_POKEMON_NATIONAL(ROKUSHO),"
 
-replace "egg_moves(PORYGON2,"
-with "egg_moves(RENAMON_X,"
+replace "egg_moves(STANTLER,"
+with "egg_moves(ROKUSHO,"
 
-replace "sPorygon2LevelUpLearnset"
-with "sRenamon_xLevelUpLearnset"
+replace "sStantlerLevelUpLearnset"
+with "sRokushoLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PORYGON2"
-with "SPECIES_SPRITE(RENAMON_X"
+replace "SPECIES_SPRITE(STANTLER"
+with "SPECIES_SPRITE(ROKUSHO"
 
-replace "SPECIES_PAL(PORYGON2,"
-with "SPECIES_PAL(RENAMON_X,"
+replace "SPECIES_PAL(STANTLER,"
+with "SPECIES_PAL(ROKUSHO,"
 
-replace "SPECIES_SHINY_PAL(PORYGON2,"
-with "SPECIES_SHINY_PAL(RENAMON_X,"
+replace "SPECIES_SHINY_PAL(STANTLER,"
+with "SPECIES_SHINY_PAL(ROKUSHO,"
 
-replace "EC_POKEMON(PORYGON2)"
-with "EC_POKEMON(RENAMON_X)"
+replace "EC_POKEMON(STANTLER)"
+with "EC_POKEMON(ROKUSHO)"
 
-replace "EC_POKEMON_NATIONAL(PORYGON2)"
-with "EC_POKEMON_NATIONAL(RENAMON_X)"
+replace "EC_POKEMON_NATIONAL(STANTLER)"
+with "EC_POKEMON_NATIONAL(ROKUSHO)"
 
 in "src/data/text/species_names.h"
-replace "PORYGON2"
-with "RENAMON"
+replace "STANTLER"
+with "ROKUSHO"

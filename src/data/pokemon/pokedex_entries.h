@@ -2808,12 +2808,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_STANTLER] =
+    [NATIONAL_DEX_ROKUSHO] =
     {
-        .categoryName = _("BIG HORN"),
-        .height = 14,
-        .weight = 712,
-        .description = gStantlerPokedexText,
+        .categoryName = _("MEDABOT"),
+        .height = 10,
+        .weight = 648,
+        .description = gRokushoPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

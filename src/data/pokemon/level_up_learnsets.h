@@ -3199,7 +3199,7 @@ static const u16 sRenamon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sStantlerLevelUpLearnset[] = {
+static const u16 sRokushoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 7, MOVE_LEER),
     LEVEL_UP_MOVE(13, MOVE_ASTONISH),

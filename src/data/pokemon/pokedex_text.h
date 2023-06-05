@@ -1402,11 +1402,11 @@ const u8 gRenamon_xPokedexText[] = _(
     "opponent. It will cover itself in red\n"
     "markings to symbolise its new strength.");
 
-const u8 gStantlerPokedexText[] = _(
-    "STANTLER's magnificent antlers were\n"
-    "once traded at high prices as works of art.\n"
-    "As a result, this POKéMON was hunted\n"
-    "close to extinction.");
+const u8 gRokushoPokedexText[] = _(
+    "Rokusho specialises in a standard fighting\n"
+    "style. This style lacks any range but\n"
+    "gives it more than enough power for\n"
+    "attacking and defending.");
 
 const u8 gSmearglePokedexText[] = _(
     "A SMEARGLE marks its territory using a\n"
