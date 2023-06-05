@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HOUNDOUR"
-with "FRONTIER_MON_PILLOMON"
+replace "FRONTIER_MON_HOUNDOOM"
+with "FRONTIER_MON_POMUMON"
 
-replace "gHoundourPokedexText"
-with "gPillomonPokedexText"
+replace "gHoundoomPokedexText"
+with "gPomumonPokedexText"
 
-replace "NATIONAL_DEX_HOUNDOUR"
-with "NATIONAL_DEX_PILLOMON"
+replace "NATIONAL_DEX_HOUNDOOM"
+with "NATIONAL_DEX_POMUMON"
 
-replace "SPECIES_HOUNDOUR"
-with "SPECIES_PILLOMON"
+replace "SPECIES_HOUNDOOM"
+with "SPECIES_POMUMON"
 
-replace "HOENN_DEX_HOUNDOUR"
-with "HOENN_DEX_PILLOMON"
+replace "HOENN_DEX_HOUNDOOM"
+with "HOENN_DEX_POMUMON"
 
-replace "SPECIES_TO_HOENN(HOUNDOUR),"
-with "SPECIES_TO_HOENN(PILLOMON),"
+replace "SPECIES_TO_HOENN(HOUNDOOM),"
+with "SPECIES_TO_HOENN(POMUMON),"
 
-replace "SPECIES_TO_NATIONAL(HOUNDOUR),"
-with "SPECIES_TO_NATIONAL(PILLOMON),"
+replace "SPECIES_TO_NATIONAL(HOUNDOOM),"
+with "SPECIES_TO_NATIONAL(POMUMON),"
 
-replace "HOENN_TO_NATIONAL(HOUNDOUR),"
-with "HOENN_TO_NATIONAL(PILLOMON),"
+replace "HOENN_TO_NATIONAL(HOUNDOOM),"
+with "HOENN_TO_NATIONAL(POMUMON),"
 
-replace "EC_POKEMON_NATIONAL(HOUNDOUR),"
-with "EC_POKEMON_NATIONAL(PILLOMON),"
+replace "EC_POKEMON_NATIONAL(HOUNDOOM),"
+with "EC_POKEMON_NATIONAL(POMUMON),"
 
-replace "egg_moves(HOUNDOUR,"
-with "egg_moves(PILLOMON,"
+replace "egg_moves(HOUNDOOM,"
+with "egg_moves(POMUMON,"
 
-replace "sHoundourLevelUpLearnset"
-with "sPillomonLevelUpLearnset"
+replace "sHoundoomLevelUpLearnset"
+with "sPomumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HOUNDOUR"
-with "SPECIES_SPRITE(PILLOMON"
+replace "SPECIES_SPRITE(HOUNDOOM"
+with "SPECIES_SPRITE(POMUMON"
 
-replace "SPECIES_PAL(HOUNDOUR,"
-with "SPECIES_PAL(PILLOMON,"
+replace "SPECIES_PAL(HOUNDOOM,"
+with "SPECIES_PAL(POMUMON,"
 
-replace "SPECIES_SHINY_PAL(HOUNDOUR,"
-with "SPECIES_SHINY_PAL(PILLOMON,"
+replace "SPECIES_SHINY_PAL(HOUNDOOM,"
+with "SPECIES_SHINY_PAL(POMUMON,"
 
-replace "EC_POKEMON(HOUNDOUR)"
-with "EC_POKEMON(PILLOMON)"
+replace "EC_POKEMON(HOUNDOOM)"
+with "EC_POKEMON(POMUMON)"
 
-replace "EC_POKEMON_NATIONAL(HOUNDOUR)"
-with "EC_POKEMON_NATIONAL(PILLOMON)"
+replace "EC_POKEMON_NATIONAL(HOUNDOOM)"
+with "EC_POKEMON_NATIONAL(POMUMON)"
 
 in "src/data/text/species_names.h"
-replace "HOUNDOUR"
-with "PILLOMON"
+replace "HOUNDOOM"
+with "POMUMON"

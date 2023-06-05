@@ -2748,12 +2748,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HOUNDOOM] =
+    [NATIONAL_DEX_POMUMON] =
     {
-        .categoryName = _("DARK"),
-        .height = 14,
-        .weight = 350,
-        .description = gHoundoomPokedexText,
+        .categoryName = _("FRUIT"),
+        .height = 9,
+        .weight = 354,
+        .description = gPomumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

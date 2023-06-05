@@ -1372,11 +1372,11 @@ const u8 gPillomonPokedexText[] = _(
     "when it is sleeping, they can either have\n"
     "very pleasent dreams or horrible nightmares.");
 
-const u8 gHoundoomPokedexText[] = _(
-    "In a HOUNDOOM pack, the one with its horns\n"
-    "raked sharply back serves a leadership\n"
-    "role. They choose their leader by fighting\n"
-    "among themselves.");
+const u8 gPomumonPokedexText[] = _(
+    "The sugar content of Pomumon is exceptional\n"
+    "making it a very popular prey of stronger\n"
+    "Digimon. It struggles to flee from\n"
+    "predators as it is very bad at flying.");
 
 const u8 gKingdraPokedexText[] = _(
     "It sleeps quietly, deep on the seafloor.\n"

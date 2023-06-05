@@ -3128,7 +3128,7 @@ static const u16 sPillomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHoundoomLevelUpLearnset[] = {
+static const u16 sPomumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_HOWL),
