@@ -3087,7 +3087,7 @@ static const u16 sPenguinmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMantineLevelUpLearnset[] = {
+static const u16 sPetitmamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 8, MOVE_SUPERSONIC),

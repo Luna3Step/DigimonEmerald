@@ -1354,11 +1354,11 @@ const u8 gPenguinmonPokedexText[] = _(
     "When sliding on its body, it can reach\n"
     "upwards of 40 mph in good conditions");
 
-const u8 gMantinePokedexText[] = _(
-    "On sunny days, schools of MANTINE can be\n"
-    "seen elegantly leaping over the waves.\n"
-    "It is not bothered by the REMORAID that\n"
-    "hitches rides.");
+const u8 gPetitmamonPokedexText[] = _(
+    "Even though it is a Demon Digimon,\n"
+    "PetitMamon has a soft side to it and\n"
+    "will offer assistance to anyone under\n"
+    "the right circumstances.");
 
 const u8 gSkarmoryPokedexText[] = _(
     "A POKéMON that has a body and wings of\n"

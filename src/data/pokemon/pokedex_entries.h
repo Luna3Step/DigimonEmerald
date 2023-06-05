@@ -2712,12 +2712,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MANTINE] =
+    [NATIONAL_DEX_PETITMAMON] =
     {
-        .categoryName = _("KITE"),
-        .height = 21,
-        .weight = 2200,
-        .description = gMantinePokedexText,
+        .categoryName = _("DEMON"),
+        .height = 7,
+        .weight = 356,
+        .description = gPetitmamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 342,

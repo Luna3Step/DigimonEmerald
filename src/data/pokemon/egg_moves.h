@@ -810,7 +810,7 @@ const u16 gEggMoves[] = {
               MOVE_RAPID_SPIN,
               MOVE_ICE_BALL),
 
-    egg_moves(MANTINE,
+    egg_moves(PETITMAMON,
               MOVE_TWISTER,
               MOVE_HYDRO_PUMP,
               MOVE_HAZE,
