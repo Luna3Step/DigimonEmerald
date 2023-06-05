@@ -750,7 +750,7 @@ const u16 gEggMoves[] = {
               MOVE_FLAIL,
               MOVE_FALSE_SWIPE),
 
-    egg_moves(SNEASEL,
+    egg_moves(MUSHROOMON,
               MOVE_COUNTER,
               MOVE_SPITE,
               MOVE_FORESIGHT,

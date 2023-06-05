@@ -1288,11 +1288,11 @@ const u8 gMuchomonPokedexText[] = _(
     "it is a very happy Digimon, often seen\n"
     "to the rhythm of the samba.");
 
-const u8 gSneaselPokedexText[] = _(
-    "A SNEASEL scales trees by punching its\n"
-    "hooked claws into the bark. It seeks out\n"
-    "unguarded nests and steals eggs for food\n"
-    "while the parents are away.");
+const u8 gMushroomonPokedexText[] = _(
+    "Mushroomon is an extremely ill-tempered\n"
+    "Digimon that loves to bully the weak. It\n"
+    "also has a shy side so it will also conceal\n"
+    "half of its face around others.");
 
 const u8 gTeddiursaPokedexText[] = _(
     "It licks its palms that are sweetened by\n"

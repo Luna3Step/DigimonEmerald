@@ -2580,12 +2580,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SNEASEL] =
+    [NATIONAL_DEX_MUSHROOMON] =
     {
-        .categoryName = _("SHARP CLAW"),
-        .height = 9,
+        .categoryName = _("MUSHROOM"),
+        .height = 11,
         .weight = 280,
-        .description = gSneaselPokedexText,
+        .description = gMushroomonPokedexText,
         .pokemonScale = 413,
         .pokemonOffset = -3,
         .trainerScale = 256,

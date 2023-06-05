@@ -319,7 +319,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round7[] =
         .moves = {MOVE_ICE_BEAM, MOVE_CRUNCH, MOVE_PROTECT, MOVE_NONE}
     },
     {
-        .species = SPECIES_SNEASEL,
+        .species = SPECIES_MUSHROOMON,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_ICE_BEAM, MOVE_CRUSH_CLAW, MOVE_SPITE, MOVE_NONE}
@@ -683,7 +683,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round14[] =
         .moves = {MOVE_NIGHT_SHADE, MOVE_PSYCHIC, MOVE_AERIAL_ACE, MOVE_NONE}
     },
     {
-        .species = SPECIES_SNEASEL,
+        .species = SPECIES_MUSHROOMON,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_ICE_BEAM, MOVE_TAUNT, MOVE_FAINT_ATTACK, MOVE_QUICK_ATTACK}

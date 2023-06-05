@@ -2942,7 +2942,7 @@ static const u16 sMuchomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSneaselLevelUpLearnset[] = {
+static const u16 sMushroomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_TAUNT),
