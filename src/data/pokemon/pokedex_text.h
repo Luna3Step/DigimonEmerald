@@ -1318,11 +1318,11 @@ const u8 gOtamamon_xPokedexText[] = _(
     "said that its roundness is so perfect\n"
     "that even PrinceMamemon notices it.");
 
-const u8 gSwinubPokedexText[] = _(
-    "It roots for food by rubbing its snout\n"
-    "against the ground. Its favorite food is a\n"
-    "mushroom that grows under dried grass.\n"
-    "It occasionally roots out hot springs.");
+const u8 gPalmonPokedexText[] = _(
+    "Although Palmon is for all intents and\n"
+    "purposes is a grass type Digimon, it\n"
+    "is actually made up of lots of reptile\n"
+    "data just like Tanemon.");
 
 const u8 gPiloswinePokedexText[] = _(
     "A PILOSWINE is covered by a thick coat\n"

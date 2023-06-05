@@ -2640,12 +2640,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWINUB] =
+    [NATIONAL_DEX_PALMON] =
     {
-        .categoryName = _("PIG"),
-        .height = 4,
-        .weight = 65,
-        .description = gSwinubPokedexText,
+        .categoryName = _("PALM TREE"),
+        .height = 10,
+        .weight = 478,
+        .description = gPalmonPokedexText,
         .pokemonScale = 324,
         .pokemonOffset = 20,
         .trainerScale = 256,

@@ -773,7 +773,7 @@ const u16 gEggMoves[] = {
               MOVE_ACID_ARMOR,
               MOVE_HEAT_WAVE),
 
-    egg_moves(SWINUB,
+    egg_moves(PALMON,
               MOVE_TAKE_DOWN,
               MOVE_BITE,
               MOVE_BODY_SLAM,

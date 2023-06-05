@@ -32,7 +32,7 @@
 #define FRONTIER_MON_JAZAMON         28
 #define FRONTIER_MON_KERAMON         29
 #define FRONTIER_MON_OTAMAMON_RED         30
-#define FRONTIER_MON_SWINUB         31
+#define FRONTIER_MON_PALMON         31
 #define FRONTIER_MON_SMEARGLE       32
 #define FRONTIER_MON_KETOMON         33
 #define FRONTIER_MON_CHOROMON        34
