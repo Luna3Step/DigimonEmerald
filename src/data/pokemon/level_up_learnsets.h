@@ -2807,7 +2807,7 @@ static const u16 sLudomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sForretressLevelUpLearnset[] = {
+static const u16 sLunamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_PROTECT),
     LEVEL_UP_MOVE( 1, MOVE_SELF_DESTRUCT),

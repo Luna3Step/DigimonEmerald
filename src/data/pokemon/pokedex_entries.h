@@ -2460,12 +2460,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FORRETRESS] =
+    [NATIONAL_DEX_LUNAMON] =
     {
-        .categoryName = _("BAGWORM"),
-        .height = 12,
-        .weight = 1258,
-        .description = gForretressPokedexText,
+        .categoryName = _("MOON"),
+        .height = 9,
+        .weight = 402,
+        .description = gLunamonPokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 5,
         .trainerScale = 256,

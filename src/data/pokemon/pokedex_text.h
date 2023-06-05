@@ -1228,11 +1228,11 @@ const u8 gLudomonPokedexText[] = _(
     "the only transforming weapon Digimon to be\n"
     "able to become a shield.");
 
-const u8 gForretressPokedexText[] = _(
-    "It keeps itself inside its steel shell.\n"
-    "The shell is opened when it is catching\n"
-    "prey, but it is so quick that the shell's\n"
-    "inside cannot be seen.");
+const u8 gLunamonPokedexText[] = _(
+    "The best time to interact with a Lunamon\n"
+    "is when its gazing at the moon. Its a timid\n"
+    "Digimon but will develop attachments easily\n"
+    "when it shares common interests.");
 
 const u8 gDunsparcePokedexText[] = _(
     "Its drill-tipped tail is used to burrow into\n"
