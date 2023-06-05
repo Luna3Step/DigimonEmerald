@@ -892,7 +892,7 @@ const u16 gEggMoves[] = {
               MOVE_HELPING_HAND,
               MOVE_SLEEP_TALK),
 
-    egg_moves(LARVITAR,
+    egg_moves(SOLARMON,
               MOVE_PURSUIT,
               MOVE_STOMP,
               MOVE_OUTRAGE,

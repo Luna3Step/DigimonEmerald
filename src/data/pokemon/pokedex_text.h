@@ -1474,11 +1474,11 @@ const u8 gIceGobiMonPokedexText[] = _(
     "if you remove any of its clothing however\n"
     "its bare feet are well adjusted for snow.");
 
-const u8 gLarvitarPokedexText[] = _(
-    "A LARVITAR is born deep under the ground.\n"
-    "It must eat its way through the soil above\n"
-    "and reach the surface for it to see its\n"
-    "parents' faces.");
+const u8 gSolarmonPokedexText[] = _(
+    "It is not known if it is a variation of\n"
+    "Hagurumon despite the similiar appearence.\n"
+    "Its body is hot enough that it is\n"
+    "recommended to proceed with caution.");
 
 const u8 gPupitarPokedexText[] = _(
     "A PUPITAR creates a gas inside its body\n"

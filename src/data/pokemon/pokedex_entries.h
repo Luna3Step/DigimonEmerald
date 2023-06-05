@@ -2952,12 +2952,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_LARVITAR] =
+    [NATIONAL_DEX_SOLARMON] =
     {
-        .categoryName = _("ROCK SKIN"),
-        .height = 6,
-        .weight = 720,
-        .description = gLarvitarPokedexText,
+        .categoryName = _("GEAR"),
+        .height = 15,
+        .weight = 699,
+        .description = gSolarmonPokedexText,
         .pokemonScale = 472,
         .pokemonOffset = 18,
         .trainerScale = 256,

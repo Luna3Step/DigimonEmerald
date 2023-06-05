@@ -75,7 +75,7 @@
 #define FRONTIER_MON_ELECMON        71
 #define FRONTIER_MON_MODBETAMON       72
 #define FRONTIER_MON_PAWNMON       73
-#define FRONTIER_MON_LARVITAR       74
+#define FRONTIER_MON_SOLARMON       74
 #define FRONTIER_MON_BALTOY         75
 #define FRONTIER_MON_SNORUNT        76
 #define FRONTIER_MON_BAGON          77
