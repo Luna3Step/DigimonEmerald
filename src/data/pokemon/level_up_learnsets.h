@@ -2917,7 +2917,7 @@ static const u16 sMonodramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sShuckleLevelUpLearnset[] = {
+static const u16 sMorphomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CONSTRICT),
     LEVEL_UP_MOVE( 1, MOVE_WITHDRAW),
     LEVEL_UP_MOVE( 9, MOVE_WRAP),

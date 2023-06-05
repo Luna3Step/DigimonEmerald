@@ -741,7 +741,7 @@ const u16 gEggMoves[] = {
               MOVE_SUPERSONIC,
               MOVE_ASTONISH),
 
-    egg_moves(SHUCKLE,
+    egg_moves(MORPHOMON,
               MOVE_SWEET_SCENT),
 
     egg_moves(HERACROSS,

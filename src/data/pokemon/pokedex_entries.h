@@ -2556,12 +2556,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHUCKLE] =
+    [NATIONAL_DEX_MORPHOMON] =
     {
-        .categoryName = _("MOLD"),
-        .height = 6,
-        .weight = 205,
-        .description = gShucklePokedexText,
+        .categoryName = _("BUTTERFLY"),
+        .height = 7,
+        .weight = 285,
+        .description = gMorphomonPokedexText,
         .pokemonScale = 485,
         .pokemonOffset = 18,
         .trainerScale = 256,

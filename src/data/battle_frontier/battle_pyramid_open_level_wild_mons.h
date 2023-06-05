@@ -493,7 +493,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round10[] =
         .moves = {MOVE_HYPNOSIS, MOVE_PSYWAVE, MOVE_EXPLOSION, MOVE_NONE}
     },
     {
-        .species = SPECIES_SHUCKLE,
+        .species = SPECIES_MORPHOMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_TOXIC, MOVE_PROTECT, MOVE_WRAP, MOVE_NONE}
@@ -631,7 +631,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round13[] =
         .moves = {MOVE_EXPLOSION, MOVE_TAKE_DOWN, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_SHUCKLE,
+        .species = SPECIES_MORPHOMON,
         .lvl = 8,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_TOXIC, MOVE_EARTHQUAKE, MOVE_PROTECT, MOVE_NONE}

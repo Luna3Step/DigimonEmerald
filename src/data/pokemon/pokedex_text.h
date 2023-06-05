@@ -1276,11 +1276,11 @@ const u8 gMonodramonPokedexText[] = _(
     "likes to fight. Even an Ogremon will grow\n"
     "tired of its tenacity for fighting.");
 
-const u8 gShucklePokedexText[] = _(
-    "A SHUCKLE hides under rocks, keeping its\n"
-    "body concealed inside its shell while\n"
-    "eating stored berries. The berries mix with\n"
-    "its body fluids to become a juice.");
+const u8 gMorphomonPokedexText[] = _(
+    "Morphomon can often be found enjoying itself\n"
+    "around nature. When it touches someone, it\n"
+    "can determine if they are safe or not. If\n"
+    "someone is safe, they will follow them.");
 
 const u8 gHeracrossPokedexText[] = _(
     "They gather in forests seeking the sweet\n"
