@@ -3234,8 +3234,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_BLISSEY_1] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_SHOUTMON_1] = {
+        .species = SPECIES_SHOUTMON,
         .moves = {MOVE_TOXIC, MOVE_DOUBLE_TEAM, MOVE_SING, MOVE_SOFT_BOILED},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -3906,8 +3906,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_BLISSEY_2] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_SHOUTMON_2] = {
+        .species = SPECIES_SHOUTMON,
         .moves = {MOVE_SEISMIC_TOSS, MOVE_SING, MOVE_ATTRACT, MOVE_SUBSTITUTE},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -4578,8 +4578,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_BLISSEY_3] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_SHOUTMON_3] = {
+        .species = SPECIES_SHOUTMON,
         .moves = {MOVE_FIRE_BLAST, MOVE_BLIZZARD, MOVE_CALM_MIND, MOVE_SOFT_BOILED},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -5250,8 +5250,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_HARDY
     },
-    [FRONTIER_MON_BLISSEY_4] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_SHOUTMON_4] = {
+        .species = SPECIES_SHOUTMON,
         .moves = {MOVE_ICE_BEAM, MOVE_CALM_MIND, MOVE_COUNTER, MOVE_SOFT_BOILED},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,

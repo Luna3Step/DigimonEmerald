@@ -2904,12 +2904,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLISSEY] =
+    [NATIONAL_DEX_SHOUTMON] =
     {
-        .categoryName = _("HAPPINESS"),
-        .height = 15,
+        .categoryName = _("ROCKSTAR"),
+        .height = 9,
         .weight = 468,
-        .description = gBlisseyPokedexText,
+        .description = gShoutmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 310,

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MILTANK"
-with "FRONTIER_MON_SHAMANMON"
+replace "FRONTIER_MON_BLISSEY"
+with "FRONTIER_MON_SHOUTMON"
 
-replace "gMiltankPokedexText"
-with "gShamanmonPokedexText"
+replace "gBlisseyPokedexText"
+with "gShoutmonPokedexText"
 
-replace "NATIONAL_DEX_MILTANK"
-with "NATIONAL_DEX_SHAMANMON"
+replace "NATIONAL_DEX_BLISSEY"
+with "NATIONAL_DEX_SHOUTMON"
 
-replace "SPECIES_MILTANK"
-with "SPECIES_SHAMANMON"
+replace "SPECIES_BLISSEY"
+with "SPECIES_SHOUTMON"
 
-replace "HOENN_DEX_MILTANK"
-with "HOENN_DEX_SHAMANMON"
+replace "HOENN_DEX_BLISSEY"
+with "HOENN_DEX_SHOUTMON"
 
-replace "SPECIES_TO_HOENN(MILTANK),"
-with "SPECIES_TO_HOENN(SHAMANMON),"
+replace "SPECIES_TO_HOENN(BLISSEY),"
+with "SPECIES_TO_HOENN(SHOUTMON),"
 
-replace "SPECIES_TO_NATIONAL(MILTANK),"
-with "SPECIES_TO_NATIONAL(SHAMANMON),"
+replace "SPECIES_TO_NATIONAL(BLISSEY),"
+with "SPECIES_TO_NATIONAL(SHOUTMON),"
 
-replace "HOENN_TO_NATIONAL(MILTANK),"
-with "HOENN_TO_NATIONAL(SHAMANMON),"
+replace "HOENN_TO_NATIONAL(BLISSEY),"
+with "HOENN_TO_NATIONAL(SHOUTMON),"
 
-replace "EC_POKEMON_NATIONAL(MILTANK),"
-with "EC_POKEMON_NATIONAL(SHAMANMON),"
+replace "EC_POKEMON_NATIONAL(BLISSEY),"
+with "EC_POKEMON_NATIONAL(SHOUTMON),"
 
-replace "egg_moves(MILTANK,"
-with "egg_moves(SHAMANMON,"
+replace "egg_moves(BLISSEY,"
+with "egg_moves(SHOUTMON,"
 
-replace "sMiltankLevelUpLearnset"
-with "sShamanmonLevelUpLearnset"
+replace "sBlisseyLevelUpLearnset"
+with "sShoutmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MILTANK"
-with "SPECIES_SPRITE(SHAMANMON"
+replace "SPECIES_SPRITE(BLISSEY"
+with "SPECIES_SPRITE(SHOUTMON"
 
-replace "SPECIES_PAL(MILTANK,"
-with "SPECIES_PAL(SHAMANMON,"
+replace "SPECIES_PAL(BLISSEY,"
+with "SPECIES_PAL(SHOUTMON,"
 
-replace "SPECIES_SHINY_PAL(MILTANK,"
-with "SPECIES_SHINY_PAL(SHAMANMON,"
+replace "SPECIES_SHINY_PAL(BLISSEY,"
+with "SPECIES_SHINY_PAL(SHOUTMON,"
 
-replace "EC_POKEMON(MILTANK)"
-with "EC_POKEMON(SHAMANMON)"
+replace "EC_POKEMON(BLISSEY)"
+with "EC_POKEMON(SHOUTMON)"
 
-replace "EC_POKEMON_NATIONAL(MILTANK)"
-with "EC_POKEMON_NATIONAL(SHAMANMON)"
+replace "EC_POKEMON_NATIONAL(BLISSEY)"
+with "EC_POKEMON_NATIONAL(SHOUTMON)"
 
 in "src/data/text/species_names.h"
-replace "MILTANK"
-with "SHAMANMON"
+replace "BLISSEY"
+with "SHOUTMON"

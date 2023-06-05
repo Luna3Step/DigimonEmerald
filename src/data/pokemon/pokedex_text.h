@@ -1450,11 +1450,11 @@ const u8 gShamanmonPokedexText[] = _(
     "its god. It will perform a dance during its\n"
     "rituals which will let it hear its god.");
 
-const u8 gBlisseyPokedexText[] = _(
-    "If it senses sadness with its fluffy fur,\n"
-    "a BLISSEY will rush over to the sad person,\n"
-    "however far away, to share an egg of\n"
-    "happiness that brings a smile to any face.");
+const u8 gShoutmonPokedexText[] = _(
+    "The passion that Shoutman has is converted\n"
+    "into energy. This energy gives it the\n"
+    "tenacity to get up no matter what in a \n"
+    "fight. Without its mic, it will wither away");
 
 const u8 gRaikouPokedexText[] = _(
     "RAIKOU embodies the speed of lightning.\n"
