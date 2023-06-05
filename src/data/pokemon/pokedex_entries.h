@@ -2868,12 +2868,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ELEKID] =
+    [NATIONAL_DEX_SANTAAGUMON] =
     {
-        .categoryName = _("ELECTRIC"),
-        .height = 6,
-        .weight = 235,
-        .description = gElekidPokedexText,
+        .categoryName = _("CHRISTMAS"),
+        .height = 12,
+        .weight = 425,
+        .description = gSantaAgumonPokedexText,
         .pokemonScale = 363,
         .pokemonOffset = 14,
         .trainerScale = 256,

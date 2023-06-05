@@ -1432,11 +1432,11 @@ const u8 gSangomonPokedexText[] = _(
     "Ocean. It can sometimes be seen resting on\n"
     "the backs of Shellmon..");
 
-const u8 gElekidPokedexText[] = _(
-    "If it touches metal and discharges the\n"
-    "electricity it has stored in its body, an\n"
-    "ELEKID begins swinging its arms in circles\n"
-    "to recharge itself.");
+const u8 gSantaAgumonPokedexText[] = _(
+    "This Agumon is almost indistinguishable from\n"
+    "a normal Agumon except for its hat. Some\n"
+    "are so dedicated to it that they will live\n"
+    "and train in ice-covered regions.");
 
 const u8 gMagbyPokedexText[] = _(
     "If a MAGBY is spouting yellow flames from\n"

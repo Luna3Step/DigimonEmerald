@@ -865,7 +865,7 @@ const u16 gEggMoves[] = {
               MOVE_WISH,
               MOVE_ICE_PUNCH),
 
-    egg_moves(ELEKID,
+    egg_moves(SANTAAGUMON,
               MOVE_KARATE_CHOP,
               MOVE_BARRIER,
               MOVE_ROLLING_KICK,
