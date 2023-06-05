@@ -2772,12 +2772,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PHANPY] =
+    [NATIONAL_DEX_PULSEMON] =
     {
-        .categoryName = _("LONG NOSE"),
-        .height = 5,
-        .weight = 335,
-        .description = gPhanpyPokedexText,
+        .categoryName = _("HEARTBEAT"),
+        .height = 10,
+        .weight = 375,
+        .description = gPulsemonPokedexText,
         .pokemonScale = 465,
         .pokemonOffset = 21,
         .trainerScale = 256,

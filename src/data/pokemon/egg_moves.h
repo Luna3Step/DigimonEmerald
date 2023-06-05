@@ -835,7 +835,7 @@ const u16 gEggMoves[] = {
               MOVE_BEAT_UP,
               MOVE_WILL_O_WISP),
 
-    egg_moves(PHANPY,
+    egg_moves(PULSEMON,
               MOVE_FOCUS_ENERGY,
               MOVE_BODY_SLAM,
               MOVE_ANCIENT_POWER,

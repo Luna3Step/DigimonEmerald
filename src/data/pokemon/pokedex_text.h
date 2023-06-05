@@ -1384,11 +1384,11 @@ const u8 gPsychemonPokedexText[] = _(
     "the two however it actually has psychic\n"
     "abilities giving it an edge in fights.");
 
-const u8 gPhanpyPokedexText[] = _(
-    "PHANPY's big ears serve as broad fans.\n"
-    "When it becomes hot, it flaps the ears\n"
-    "busily to cool down. Even the young are\n"
-    "very strong.");
+const u8 gPulsemonPokedexText[] = _(
+    "Pulsemon is one of the friendliest \n"
+    "Digimon out there, making it a popular\n"
+    "pick for many tamers. It is also very\n"
+    "savvy in battle with its agility.");
 
 const u8 gDonphanPokedexText[] = _(
     "A DONPHAN is so strong it can easily haul\n"
