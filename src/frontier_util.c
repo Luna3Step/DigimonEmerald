@@ -272,7 +272,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Silver Symbol.
         {
             {
-                .species = SPECIES_HERACROSS,
+                .species = SPECIES_MUCHOMON,
                 .heldItem = ITEM_SALAC_BERRY,
                 .fixedIV = 20,
                 .nature = NATURE_JOLLY,

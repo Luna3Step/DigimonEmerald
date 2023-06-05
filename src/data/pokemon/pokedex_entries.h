@@ -2568,12 +2568,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HERACROSS] =
+    [NATIONAL_DEX_MUCHOMON] =
     {
-        .categoryName = _("SINGLE HORN"),
-        .height = 15,
-        .weight = 540,
-        .description = gHeracrossPokedexText,
+        .categoryName = _("EXOTIC BIRD"),
+        .height = 8,
+        .weight = 423,
+        .description = gMuchomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

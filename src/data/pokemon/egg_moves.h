@@ -744,7 +744,7 @@ const u16 gEggMoves[] = {
     egg_moves(MORPHOMON,
               MOVE_SWEET_SCENT),
 
-    egg_moves(HERACROSS,
+    egg_moves(MUCHOMON,
               MOVE_HARDEN,
               MOVE_BIDE,
               MOVE_FLAIL,

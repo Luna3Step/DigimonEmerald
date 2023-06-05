@@ -1282,11 +1282,11 @@ const u8 gMorphomonPokedexText[] = _(
     "can determine if they are safe or not. If\n"
     "someone is safe, they will follow them.");
 
-const u8 gHeracrossPokedexText[] = _(
-    "They gather in forests seeking the sweet\n"
-    "sap of trees. It is completely clad in a\n"
-    "steel-hard shell. It is proud of its horn,\n"
-    "which it uses to fling foes.");
+const u8 gMuchomonPokedexText[] = _(
+    "Although composed of Flying type data, \n"
+    "Muchomon can not actually fly. Despite this\n"
+    "it is a very happy Digimon, often seen\n"
+    "to the rhythm of the samba.");
 
 const u8 gSneaselPokedexText[] = _(
     "A SNEASEL scales trees by punching its\n"

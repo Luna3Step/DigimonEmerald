@@ -557,7 +557,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round11[] =
         .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_HERACROSS,
+        .species = SPECIES_MUCHOMON,
         .lvl = 5,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_FOCUS_PUNCH, MOVE_ROCK_SLIDE}
@@ -649,7 +649,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round13[] =
         .moves = {MOVE_QUICK_ATTACK, MOVE_METAL_CLAW, MOVE_FURY_CUTTER, MOVE_PURSUIT}
     },
     {
-        .species = SPECIES_HERACROSS,
+        .species = SPECIES_MUCHOMON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE}

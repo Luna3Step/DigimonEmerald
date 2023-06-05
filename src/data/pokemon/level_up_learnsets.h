@@ -2928,7 +2928,7 @@ static const u16 sMorphomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHeracrossLevelUpLearnset[] = {
+static const u16 sMuchomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 6, MOVE_HORN_ATTACK),

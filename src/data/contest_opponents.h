@@ -2539,7 +2539,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_HEATH] = {
-        .species = SPECIES_HERACROSS,
+        .species = SPECIES_MUCHOMON,
         .nickname = _("HEROSS"),
         .trainerName = _("HEATH"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_3,
