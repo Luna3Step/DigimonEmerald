@@ -2664,12 +2664,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CORSOLA] =
+    [NATIONAL_DEX_PATAMON] =
     {
-        .categoryName = _("CORAL"),
-        .height = 6,
-        .weight = 50,
-        .description = gCorsolaPokedexText,
+        .categoryName = _("HOLY"),
+        .height = 7,
+        .weight = 310,
+        .description = gPatamonPokedexText,
         .pokemonScale = 410,
         .pokemonOffset = 15,
         .trainerScale = 256,

@@ -1330,11 +1330,11 @@ const u8 gPalmon_xPokedexText[] = _(
     "its feelings. It can now also release a\n"
     "poisonous scent that causes many effects.");
 
-const u8 gCorsolaPokedexText[] = _(
-    "CORSOLA live in warm southern seas.\n"
-    "If the sea becomes polluted, the beautiful\n"
-    "coral stalks become discolored and crumble\n"
-    "away in tatters.");
+const u8 gPatamonPokedexText[] = _(
+    "Although it doesn't wear a Holy Ring, \n"
+    "Patamon can still exhibit its hidden holy\n"
+    "power. While Patamon can fly, it is so\n"
+    "slow that it is better off just walking.");
 
 const u8 gRemoraidPokedexText[] = _(
     "A REMORAID uses its abdominal muscles\n"

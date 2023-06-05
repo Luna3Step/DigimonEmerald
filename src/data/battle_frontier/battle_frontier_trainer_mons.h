@@ -194,7 +194,7 @@
     FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAGBY,         \
     FRONTIER_MON_NOSEPASS,      \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_MAWILE,        \
     FRONTIER_MON_DOKIMON,    \
     FRONTIER_MON_KEEMON,      \
@@ -290,7 +290,7 @@
     FRONTIER_MON_KOKABUIMON,         \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_MAWILE,        \
     FRONTIER_MON_GURIMON,     \
     -1
@@ -341,7 +341,7 @@
     FRONTIER_MON_KOKABUIMON,         \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_GURIMON,     \
     -1
 
@@ -379,7 +379,7 @@
     FRONTIER_MON_SPINDA,        \
     FRONTIER_MON_IGNITEMON,       \
     FRONTIER_MON_MAGBY,         \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_MAWILE,        \
     FRONTIER_MON_GURIMON,     \
     -1
@@ -586,7 +586,7 @@
     FRONTIER_MON_CLAMPERL,      \
     FRONTIER_MON_DONDOKOMON,       \
     FRONTIER_MON_DOTAGUMON,        \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     -1
 
 #define FRONTIER_MONS_RUIN_MANIAC_1 \
@@ -609,7 +609,7 @@
     FRONTIER_MON_LILEEP,        \
     FRONTIER_MON_ANORITH,       \
     FRONTIER_MON_NOSEPASS,      \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_MAWILE,        \
     FRONTIER_MON_TSUNOMON,          \
     -1
@@ -766,7 +766,7 @@
     FRONTIER_MON_CLAMPERL,      \
     FRONTIER_MON_DONDOKOMON,       \
     FRONTIER_MON_DOTAGUMON,        \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_GURIMON,     \
     FRONTIER_MON_TSUNOMON,          \
     -1
@@ -903,7 +903,7 @@
     FRONTIER_MON_KOKABUIMON,         \
     FRONTIER_MON_LOUDRED,       \
     FRONTIER_MON_SPINDA,        \
-    FRONTIER_MON_CORSOLA,       \
+    FRONTIER_MON_PATAMON,       \
     FRONTIER_MON_GURIMON,     \
     -1
 
