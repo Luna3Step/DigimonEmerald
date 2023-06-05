@@ -2856,12 +2856,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SMOOCHUM] =
+    [NATIONAL_DEX_SANGOMON] =
     {
-        .categoryName = _("KISS"),
-        .height = 4,
-        .weight = 60,
-        .description = gSmoochumPokedexText,
+        .categoryName = _("CORAL"),
+        .height = 7,
+        .weight = 309,
+        .description = gSangomonPokedexText,
         .pokemonScale = 440,
         .pokemonOffset = 20,
         .trainerScale = 256,

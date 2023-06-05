@@ -858,7 +858,7 @@ const u16 gEggMoves[] = {
               MOVE_MIND_READER,
               MOVE_HELPING_HAND),
 
-    egg_moves(SMOOCHUM,
+    egg_moves(SANGOMON,
               MOVE_MEDITATE,
               MOVE_PSYCH_UP,
               MOVE_FAKE_OUT,

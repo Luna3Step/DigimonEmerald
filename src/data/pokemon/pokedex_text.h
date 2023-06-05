@@ -1426,11 +1426,11 @@ const u8 gSalamon_xPokedexText[] = _(
     "can't manifest it on its own however\n"
     "it can subconsciously use it.");
 
-const u8 gSmoochumPokedexText[] = _(
-    "It actively runs about, but also falls\n"
-    "often. Whenever it falls, it will check its\n"
-    "reflection on a lake's surface to make\n"
-    "sure its face hasn't become dirty.");
+const u8 gSangomonPokedexText[] = _(
+    "Sangomon is a very gentle Digimon that likes\n"
+    "to live in the shallow areas of the Net\n"
+    "Ocean. It can sometimes be seen resting on\n"
+    "the backs of Shellmon..");
 
 const u8 gElekidPokedexText[] = _(
     "If it touches metal and discharges the\n"
