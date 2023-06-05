@@ -2520,12 +2520,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRANBULL] =
+    [NATIONAL_DEX_MONITAMON] =
     {
-        .categoryName = _("FAIRY"),
-        .height = 14,
-        .weight = 487,
-        .description = gGranbullPokedexText,
+        .categoryName = _("MONITOR"),
+        .height = 8,
+        .weight = 521,
+        .description = gMonitamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

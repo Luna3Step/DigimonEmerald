@@ -2875,7 +2875,7 @@ static const u16 sModbetamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGranbullLevelUpLearnset[] = {
+static const u16 sMonitamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE( 4, MOVE_TAIL_WHIP),

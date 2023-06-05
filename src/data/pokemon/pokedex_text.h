@@ -1258,11 +1258,11 @@ const u8 gModbetamonPokedexText[] = _(
     "peaceful. When it fights though, it will wait\n"
     "in cover to ambush whoever its fighting.");
 
-const u8 gGranbullPokedexText[] = _(
-    "It has a particularly well-developed lower\n"
-    "jaw. The huge fangs are heavy, causing\n"
-    "it to tilt its head. Unless it is startled, it\n"
-    "will not try to bite.");
+const u8 gMonitamonPokedexText[] = _(
+    "Monitamon have an interesting hobby of\n"
+    "Digimon-Watching. It insists that this is for\n"
+    "its 'ninja activities' however it is more\n"
+    "accurate to say it is just stalking.");
 
 const u8 gQwilfishPokedexText[] = _(
     "A QWILFISH uses the pressure of water\n"
