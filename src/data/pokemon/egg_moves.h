@@ -793,7 +793,7 @@ const u16 gEggMoves[] = {
               MOVE_CONFUSE_RAY,
               MOVE_ICICLE_SPEAR),
 
-    egg_moves(REMORAID,
+    egg_moves(PAWNMON,
               MOVE_AURORA_BEAM,
               MOVE_OCTAZOOKA,
               MOVE_SUPERSONIC,

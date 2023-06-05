@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CORSOLA"
-with "FRONTIER_MON_PATAMON"
+replace "FRONTIER_MON_REMORAID"
+with "FRONTIER_MON_PAWNMON"
 
-replace "gCorsolaPokedexText"
-with "gPatamonPokedexText"
+replace "gRemoraidPokedexText"
+with "gPawnmonPokedexText"
 
-replace "NATIONAL_DEX_CORSOLA"
-with "NATIONAL_DEX_PATAMON"
+replace "NATIONAL_DEX_REMORAID"
+with "NATIONAL_DEX_PAWNMON"
 
-replace "SPECIES_CORSOLA"
-with "SPECIES_PATAMON"
+replace "SPECIES_REMORAID"
+with "SPECIES_PAWNMON"
 
-replace "HOENN_DEX_CORSOLA"
-with "HOENN_DEX_PATAMON"
+replace "HOENN_DEX_REMORAID"
+with "HOENN_DEX_PAWNMON"
 
-replace "SPECIES_TO_HOENN(CORSOLA),"
-with "SPECIES_TO_HOENN(PATAMON),"
+replace "SPECIES_TO_HOENN(REMORAID),"
+with "SPECIES_TO_HOENN(PAWNMON),"
 
-replace "SPECIES_TO_NATIONAL(CORSOLA),"
-with "SPECIES_TO_NATIONAL(PATAMON),"
+replace "SPECIES_TO_NATIONAL(REMORAID),"
+with "SPECIES_TO_NATIONAL(PAWNMON),"
 
-replace "HOENN_TO_NATIONAL(CORSOLA),"
-with "HOENN_TO_NATIONAL(PATAMON),"
+replace "HOENN_TO_NATIONAL(REMORAID),"
+with "HOENN_TO_NATIONAL(PAWNMON),"
 
-replace "EC_POKEMON_NATIONAL(CORSOLA),"
-with "EC_POKEMON_NATIONAL(PATAMON),"
+replace "EC_POKEMON_NATIONAL(REMORAID),"
+with "EC_POKEMON_NATIONAL(PAWNMON),"
 
-replace "egg_moves(CORSOLA,"
-with "egg_moves(PATAMON,"
+replace "egg_moves(REMORAID,"
+with "egg_moves(PAWNMON,"
 
-replace "sCorsolaLevelUpLearnset"
-with "sPatamonLevelUpLearnset"
+replace "sRemoraidLevelUpLearnset"
+with "sPawnmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CORSOLA"
-with "SPECIES_SPRITE(PATAMON"
+replace "SPECIES_SPRITE(REMORAID"
+with "SPECIES_SPRITE(PAWNMON"
 
-replace "SPECIES_PAL(CORSOLA,"
-with "SPECIES_PAL(PATAMON,"
+replace "SPECIES_PAL(REMORAID,"
+with "SPECIES_PAL(PAWNMON,"
 
-replace "SPECIES_SHINY_PAL(CORSOLA,"
-with "SPECIES_SHINY_PAL(PATAMON,"
+replace "SPECIES_SHINY_PAL(REMORAID,"
+with "SPECIES_SHINY_PAL(PAWNMON,"
 
-replace "EC_POKEMON(CORSOLA)"
-with "EC_POKEMON(PATAMON)"
+replace "EC_POKEMON(REMORAID)"
+with "EC_POKEMON(PAWNMON)"
 
-replace "EC_POKEMON_NATIONAL(CORSOLA)"
-with "EC_POKEMON_NATIONAL(PATAMON)"
+replace "EC_POKEMON_NATIONAL(REMORAID)"
+with "EC_POKEMON_NATIONAL(PAWNMON)"
 
 in "src/data/text/species_names.h"
-replace "CORSOLA"
-with "PATAMON"
+replace "REMORAID"
+with "PAWNMON"

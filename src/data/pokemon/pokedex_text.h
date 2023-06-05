@@ -1336,11 +1336,11 @@ const u8 gPatamonPokedexText[] = _(
     "power. While Patamon can fly, it is so\n"
     "slow that it is better off just walking.");
 
-const u8 gRemoraidPokedexText[] = _(
-    "A REMORAID uses its abdominal muscles\n"
-    "to forcefully expel swallowed water, then\n"
-    "shoot down flying prey. When evolution\n"
-    "approaches, it travels down rivers.");
+const u8 gPawnmonPokedexText[] = _(
+    "Even though it is almost identical to white\n"
+    "PawnChessmon, it stil says it hates them\n"
+    "with a passion although it has been\n"
+    "reported that have been friendly together.");
 
 const u8 gOctilleryPokedexText[] = _(
     "It ensnares its foe with its suction-\n"

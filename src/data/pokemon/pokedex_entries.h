@@ -2676,12 +2676,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_REMORAID] =
+    [NATIONAL_DEX_PAWNMON] =
     {
-        .categoryName = _("JET"),
-        .height = 6,
-        .weight = 120,
-        .description = gRemoraidPokedexText,
+        .categoryName = _("CHESS"),
+        .height = 13,
+        .weight = 463,
+        .description = gPawnmonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 4,
         .trainerScale = 256,
