@@ -1186,11 +1186,11 @@ const u8 gLabramonPokedexText[] = _(
     "artificial Digimon can reach however their\n"
     "is growing evidence on the contrary.");
 
-const u8 gMurkrowPokedexText[] = _(
-    "MURKROW were feared as the alleged\n"
-    "bearers of ill fortune. It shows strong\n"
-    "interest in anything that sparkles. It will\n"
-    "even try to steal rings from women.");
+const u8 gLalamonPokedexText[] = _(
+    "Although expressionless, Lalamons face is\n"
+    "considered very charming. The leaf on its\n"
+    "head spins, letting Lalamon fly however\n"
+    "its flying is very unsteady and slow.");
 
 const u8 gSlowkingPokedexText[] = _(
     "It undertakes research every day to\n"

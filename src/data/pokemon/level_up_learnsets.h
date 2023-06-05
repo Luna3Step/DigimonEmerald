@@ -2727,7 +2727,7 @@ static const u16 sLabramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMurkrowLevelUpLearnset[] = {
+static const u16 sLalamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 9, MOVE_ASTONISH),
     LEVEL_UP_MOVE(14, MOVE_PURSUIT),

@@ -202,7 +202,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_KUDAMON_06]    = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  7 },
     [SPECIES_KUNEMON]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_LABRAMON]     = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  8 },
-    [SPECIES_MURKROW]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
+    [SPECIES_LALAMON]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_SLOWKING]    = { .size = MON_COORDS_SIZE(40, 64), .y_offset =  1 },
     [SPECIES_MISDREAVUS]  = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
     [SPECIES_UNOWN]       = { .size = MON_COORDS_SIZE(24, 40), .y_offset = 15 },

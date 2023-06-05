@@ -2376,12 +2376,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MURKROW] =
+    [NATIONAL_DEX_LALAMON] =
     {
-        .categoryName = _("DARKNESS"),
-        .height = 5,
-        .weight = 21,
-        .description = gMurkrowPokedexText,
+        .categoryName = _("FLOWER BUD"),
+        .height = 8,
+        .weight = 299,
+        .description = gLalamonPokedexText,
         .pokemonScale = 401,
         .pokemonOffset = -8,
         .trainerScale = 256,

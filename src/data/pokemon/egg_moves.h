@@ -674,7 +674,7 @@ const u16 gEggMoves[] = {
               MOVE_SWALLOW,
               MOVE_SPIT_UP),
 
-    egg_moves(MURKROW,
+    egg_moves(LALAMON,
               MOVE_WHIRLWIND,
               MOVE_DRILL_PECK,
               MOVE_MIRROR_MOVE,

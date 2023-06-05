@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_UMBREON"
-with "FRONTIER_MON_LABRAMON"
+replace "FRONTIER_MON_MURKROW"
+with "FRONTIER_MON_LALAMON"
 
-replace "gUmbreonPokedexText"
-with "gLabramonPokedexText"
+replace "gMurkrowPokedexText"
+with "gLalamonPokedexText"
 
-replace "NATIONAL_DEX_UMBREON"
-with "NATIONAL_DEX_LABRAMON"
+replace "NATIONAL_DEX_MURKROW"
+with "NATIONAL_DEX_LALAMON"
 
-replace "SPECIES_UMBREON"
-with "SPECIES_LABRAMON"
+replace "SPECIES_MURKROW"
+with "SPECIES_LALAMON"
 
-replace "HOENN_DEX_UMBREON"
-with "HOENN_DEX_LABRAMON"
+replace "HOENN_DEX_MURKROW"
+with "HOENN_DEX_LALAMON"
 
-replace "SPECIES_TO_HOENN(UMBREON),"
-with "SPECIES_TO_HOENN(LABRAMON),"
+replace "SPECIES_TO_HOENN(MURKROW),"
+with "SPECIES_TO_HOENN(LALAMON),"
 
-replace "SPECIES_TO_NATIONAL(UMBREON),"
-with "SPECIES_TO_NATIONAL(LABRAMON),"
+replace "SPECIES_TO_NATIONAL(MURKROW),"
+with "SPECIES_TO_NATIONAL(LALAMON),"
 
-replace "HOENN_TO_NATIONAL(UMBREON),"
-with "HOENN_TO_NATIONAL(LABRAMON),"
+replace "HOENN_TO_NATIONAL(MURKROW),"
+with "HOENN_TO_NATIONAL(LALAMON),"
 
-replace "EC_POKEMON_NATIONAL(UMBREON),"
-with "EC_POKEMON_NATIONAL(LABRAMON),"
+replace "EC_POKEMON_NATIONAL(MURKROW),"
+with "EC_POKEMON_NATIONAL(LALAMON),"
 
-replace "egg_moves(UMBREON,"
-with "egg_moves(LABRAMON,"
+replace "egg_moves(MURKROW,"
+with "egg_moves(LALAMON,"
 
-replace "sUmbreonLevelUpLearnset"
-with "sLabramonLevelUpLearnset"
+replace "sMurkrowLevelUpLearnset"
+with "sLalamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(UMBREON"
-with "SPECIES_SPRITE(LABRAMON"
+replace "SPECIES_SPRITE(MURKROW"
+with "SPECIES_SPRITE(LALAMON"
 
-replace "SPECIES_PAL(UMBREON,"
-with "SPECIES_PAL(LABRAMON,"
+replace "SPECIES_PAL(MURKROW,"
+with "SPECIES_PAL(LALAMON,"
 
-replace "SPECIES_SHINY_PAL(UMBREON,"
-with "SPECIES_SHINY_PAL(LABRAMON,"
+replace "SPECIES_SHINY_PAL(MURKROW,"
+with "SPECIES_SHINY_PAL(LALAMON,"
 
-replace "EC_POKEMON(UMBREON)"
-with "EC_POKEMON(LABRAMON)"
+replace "EC_POKEMON(MURKROW)"
+with "EC_POKEMON(LALAMON)"
 
-replace "EC_POKEMON_NATIONAL(UMBREON)"
-with "EC_POKEMON_NATIONAL(LABRAMON)"
+replace "EC_POKEMON_NATIONAL(MURKROW)"
+with "EC_POKEMON_NATIONAL(LALAMON)"
 
 in "src/data/text/species_names.h"
-replace "UMBREON"
-with "LABRAMON"
+replace "MURKROW"
+with "LALAMON"
