@@ -2760,12 +2760,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KINGDRA] =
+    [NATIONAL_DEX_PSYCHEMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 18,
-        .weight = 1520,
-        .description = gKingdraPokedexText,
+        .categoryName = _("PSYCHEDELIA"),
+        .height = 12,
+        .weight = 447,
+        .description = gPsychemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 287,

@@ -1378,11 +1378,11 @@ const u8 gPomumonPokedexText[] = _(
     "Digimon. It struggles to flee from\n"
     "predators as it is very bad at flying.");
 
-const u8 gKingdraPokedexText[] = _(
-    "It sleeps quietly, deep on the seafloor.\n"
-    "When it comes up to the surface, it\n"
-    "creates a huge whirlpool that can swallow\n"
-    "even ships.");
+const u8 gPsychemonPokedexText[] = _(
+    "Psychemon is almost completely identical\n"
+    "to Gabumon to the extent that some mistake\n"
+    "the two however it actually has psychic\n"
+    "abilities giving it an edge in fights.");
 
 const u8 gPhanpyPokedexText[] = _(
     "PHANPY's big ears serve as broad fans.\n"

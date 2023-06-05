@@ -3344,7 +3344,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     {
     .iv = 250,
     .lvl = 53,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SMOKESCREEN, MOVE_DRAGON_DANCE, MOVE_SURF, MOVE_BODY_SLAM}
     },
@@ -3606,7 +3606,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
     {
     .iv = 250,
     .lvl = 46,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11436,7 +11436,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11474,7 +11474,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan3[] = {
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11519,7 +11519,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan4[] = {
     {
     .iv = 255,
     .lvl = 61,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11564,7 +11564,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan5[] = {
     {
     .iv = 255,
     .lvl = 66,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -12370,7 +12370,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia5[] = {
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_KINGDRA,
+    .species = SPECIES_PSYCHEMON,
     }
 };
 

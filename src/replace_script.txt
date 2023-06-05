@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HOUNDOOM"
-with "FRONTIER_MON_POMUMON"
+replace "FRONTIER_MON_KINGDRA"
+with "FRONTIER_MON_PSYCHEMON"
 
-replace "gHoundoomPokedexText"
-with "gPomumonPokedexText"
+replace "gKingdraPokedexText"
+with "gPsychemonPokedexText"
 
-replace "NATIONAL_DEX_HOUNDOOM"
-with "NATIONAL_DEX_POMUMON"
+replace "NATIONAL_DEX_KINGDRA"
+with "NATIONAL_DEX_PSYCHEMON"
 
-replace "SPECIES_HOUNDOOM"
-with "SPECIES_POMUMON"
+replace "SPECIES_KINGDRA"
+with "SPECIES_PSYCHEMON"
 
-replace "HOENN_DEX_HOUNDOOM"
-with "HOENN_DEX_POMUMON"
+replace "HOENN_DEX_KINGDRA"
+with "HOENN_DEX_PSYCHEMON"
 
-replace "SPECIES_TO_HOENN(HOUNDOOM),"
-with "SPECIES_TO_HOENN(POMUMON),"
+replace "SPECIES_TO_HOENN(KINGDRA),"
+with "SPECIES_TO_HOENN(PSYCHEMON),"
 
-replace "SPECIES_TO_NATIONAL(HOUNDOOM),"
-with "SPECIES_TO_NATIONAL(POMUMON),"
+replace "SPECIES_TO_NATIONAL(KINGDRA),"
+with "SPECIES_TO_NATIONAL(PSYCHEMON),"
 
-replace "HOENN_TO_NATIONAL(HOUNDOOM),"
-with "HOENN_TO_NATIONAL(POMUMON),"
+replace "HOENN_TO_NATIONAL(KINGDRA),"
+with "HOENN_TO_NATIONAL(PSYCHEMON),"
 
-replace "EC_POKEMON_NATIONAL(HOUNDOOM),"
-with "EC_POKEMON_NATIONAL(POMUMON),"
+replace "EC_POKEMON_NATIONAL(KINGDRA),"
+with "EC_POKEMON_NATIONAL(PSYCHEMON),"
 
-replace "egg_moves(HOUNDOOM,"
-with "egg_moves(POMUMON,"
+replace "egg_moves(KINGDRA,"
+with "egg_moves(PSYCHEMON,"
 
-replace "sHoundoomLevelUpLearnset"
-with "sPomumonLevelUpLearnset"
+replace "sKingdraLevelUpLearnset"
+with "sPsychemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HOUNDOOM"
-with "SPECIES_SPRITE(POMUMON"
+replace "SPECIES_SPRITE(KINGDRA"
+with "SPECIES_SPRITE(PSYCHEMON"
 
-replace "SPECIES_PAL(HOUNDOOM,"
-with "SPECIES_PAL(POMUMON,"
+replace "SPECIES_PAL(KINGDRA,"
+with "SPECIES_PAL(PSYCHEMON,"
 
-replace "SPECIES_SHINY_PAL(HOUNDOOM,"
-with "SPECIES_SHINY_PAL(POMUMON,"
+replace "SPECIES_SHINY_PAL(KINGDRA,"
+with "SPECIES_SHINY_PAL(PSYCHEMON,"
 
-replace "EC_POKEMON(HOUNDOOM)"
-with "EC_POKEMON(POMUMON)"
+replace "EC_POKEMON(KINGDRA)"
+with "EC_POKEMON(PSYCHEMON)"
 
-replace "EC_POKEMON_NATIONAL(HOUNDOOM)"
-with "EC_POKEMON_NATIONAL(POMUMON)"
+replace "EC_POKEMON_NATIONAL(KINGDRA)"
+with "EC_POKEMON_NATIONAL(PSYCHEMON)"
 
 in "src/data/text/species_names.h"
-replace "HOUNDOOM"
-with "POMUMON"
+replace "KINGDRA"
+with "PSYCHEMON"

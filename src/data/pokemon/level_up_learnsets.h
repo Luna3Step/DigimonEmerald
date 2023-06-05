@@ -3143,7 +3143,7 @@ static const u16 sPomumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKingdraLevelUpLearnset[] = {
+static const u16 sPsychemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
