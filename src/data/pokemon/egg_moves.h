@@ -734,7 +734,7 @@ const u16 gEggMoves[] = {
               MOVE_SNORE,
               MOVE_SMELLING_SALT),
 
-    egg_moves(QWILFISH,
+    egg_moves(MONMON,
               MOVE_FLAIL,
               MOVE_HAZE,
               MOVE_BUBBLE_BEAM,

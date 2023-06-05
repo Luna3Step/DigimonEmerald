@@ -1283,7 +1283,7 @@ const u16 gEasyChatWordsByLetter_Q[] = {
     EC_MOVE2(QUICK_ATTACK),
     EC_POKEMON_NATIONAL(GABUMON),
     EC_WORD_QUITE,
-    EC_POKEMON_NATIONAL(QWILFISH),
+    EC_POKEMON_NATIONAL(MONMON),
 };
 
 const u16 gEasyChatWordsByLetter_R[] = {

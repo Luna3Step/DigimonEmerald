@@ -2532,12 +2532,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_QWILFISH] =
+    [NATIONAL_DEX_MONMON] =
     {
-        .categoryName = _("BALLOON"),
-        .height = 5,
-        .weight = 39,
-        .description = gQwilfishPokedexText,
+        .categoryName = _("MONKEY"),
+        .height = 12,
+        .weight = 499,
+        .description = gMonmonPokedexText,
         .pokemonScale = 430,
         .pokemonOffset = 0,
         .trainerScale = 256,

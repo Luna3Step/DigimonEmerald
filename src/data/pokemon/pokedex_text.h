@@ -1264,11 +1264,11 @@ const u8 gMonitamonPokedexText[] = _(
     "its 'ninja activities' however it is more\n"
     "accurate to say it is just stalking.");
 
-const u8 gQwilfishPokedexText[] = _(
-    "A QWILFISH uses the pressure of water\n"
-    "it swallows to shoot toxic quills all at\n"
-    "once from all over its body. It finds\n"
-    "swimming to be somewhat challenging.");
+const u8 gMonmonPokedexText[] = _(
+    "Monmon is a very careless Digimon, with\n"
+    "it often falling from treetops. Despite\n"
+    "the frequent mistakes, it is a very \n"
+    "confident Digimon that can move with ease.");
 
 const u8 gScizorPokedexText[] = _(
     "A SCIZOR has a body with the hardness of\n"
