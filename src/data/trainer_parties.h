@@ -2900,7 +2900,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Blake[] = {
     {
     .iv = 100,
     .lvl = 36,
-    .species = SPECIES_GIRAFARIG,
+    .species = SPECIES_LUCEMON,
     }
 };
 
@@ -7744,7 +7744,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Terry[] = {
     {
     .iv = 0,
     .lvl = 37,
-    .species = SPECIES_GIRAFARIG,
+    .species = SPECIES_LUCEMON,
     }
 };
 
@@ -7768,7 +7768,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Clifford[] = {
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_GIRAFARIG,
+    .species = SPECIES_LUCEMON,
     }
 };
 

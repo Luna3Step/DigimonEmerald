@@ -690,7 +690,7 @@ const u16 gEggMoves[] = {
               MOVE_PSYCH_UP,
               MOVE_IMPRISON),
 
-    egg_moves(GIRAFARIG,
+    egg_moves(LUCEMON,
               MOVE_TAKE_DOWN,
               MOVE_AMNESIA,
               MOVE_FORESIGHT,

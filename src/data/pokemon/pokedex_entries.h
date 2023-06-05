@@ -2436,12 +2436,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GIRAFARIG] =
+    [NATIONAL_DEX_LUCEMON] =
     {
-        .categoryName = _("LONG NECK"),
+        .categoryName = _("ANGEL"),
         .height = 15,
         .weight = 415,
-        .description = gGirafarigPokedexText,
+        .description = gLucemonPokedexText,
         .pokemonScale = 281,
         .pokemonOffset = 1,
         .trainerScale = 256,

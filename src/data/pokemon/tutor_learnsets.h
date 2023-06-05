@@ -2921,7 +2921,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_LOPMON_X]        = (0),
 
-    [SPECIES_GIRAFARIG]        = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_LUCEMON]        = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_DREAM_EATER)

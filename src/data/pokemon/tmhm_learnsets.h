@@ -4820,7 +4820,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_LOPMON_X]   = TMHM_LEARNSET(0),
 
-    [SPECIES_GIRAFARIG]   = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
+    [SPECIES_LUCEMON]   = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)

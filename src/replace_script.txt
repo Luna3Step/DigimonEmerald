@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_WOBBUFFET"
-with "FRONTIER_MON_LOPMON_X"
+replace "FRONTIER_MON_GIRAFARIG"
+with "FRONTIER_MON_LUCEMON"
 
-replace "gWobbuffetPokedexText"
-with "gLopmon_xPokedexText"
+replace "gGirafarigPokedexText"
+with "gLucemonPokedexText"
 
-replace "NATIONAL_DEX_WOBBUFFET"
-with "NATIONAL_DEX_LOPMON_X"
+replace "NATIONAL_DEX_GIRAFARIG"
+with "NATIONAL_DEX_LUCEMON"
 
-replace "SPECIES_WOBBUFFET"
-with "SPECIES_LOPMON_X"
+replace "SPECIES_GIRAFARIG"
+with "SPECIES_LUCEMON"
 
-replace "HOENN_DEX_WOBBUFFET"
-with "HOENN_DEX_LOPMON_X"
+replace "HOENN_DEX_GIRAFARIG"
+with "HOENN_DEX_LUCEMON"
 
-replace "SPECIES_TO_HOENN(WOBBUFFET),"
-with "SPECIES_TO_HOENN(LOPMON_X),"
+replace "SPECIES_TO_HOENN(GIRAFARIG),"
+with "SPECIES_TO_HOENN(LUCEMON),"
 
-replace "SPECIES_TO_NATIONAL(WOBBUFFET),"
-with "SPECIES_TO_NATIONAL(LOPMON_X),"
+replace "SPECIES_TO_NATIONAL(GIRAFARIG),"
+with "SPECIES_TO_NATIONAL(LUCEMON),"
 
-replace "HOENN_TO_NATIONAL(WOBBUFFET),"
-with "HOENN_TO_NATIONAL(LOPMON_X),"
+replace "HOENN_TO_NATIONAL(GIRAFARIG),"
+with "HOENN_TO_NATIONAL(LUCEMON),"
 
-replace "EC_POKEMON_NATIONAL(WOBBUFFET),"
-with "EC_POKEMON_NATIONAL(LOPMON_X),"
+replace "EC_POKEMON_NATIONAL(GIRAFARIG),"
+with "EC_POKEMON_NATIONAL(LUCEMON),"
 
-replace "egg_moves(WOBBUFFET,"
-with "egg_moves(LOPMON_X,"
+replace "egg_moves(GIRAFARIG,"
+with "egg_moves(LUCEMON,"
 
-replace "sWobbuffetLevelUpLearnset"
-with "sLopmon_xLevelUpLearnset"
+replace "sGirafarigLevelUpLearnset"
+with "sLucemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(WOBBUFFET"
-with "SPECIES_SPRITE(LOPMON_X"
+replace "SPECIES_SPRITE(GIRAFARIG"
+with "SPECIES_SPRITE(LUCEMON"
 
-replace "SPECIES_PAL(WOBBUFFET,"
-with "SPECIES_PAL(LOPMON_X,"
+replace "SPECIES_PAL(GIRAFARIG,"
+with "SPECIES_PAL(LUCEMON,"
 
-replace "SPECIES_SHINY_PAL(WOBBUFFET,"
-with "SPECIES_SHINY_PAL(LOPMON_X,"
+replace "SPECIES_SHINY_PAL(GIRAFARIG,"
+with "SPECIES_SHINY_PAL(LUCEMON,"
 
-replace "EC_POKEMON(WOBBUFFET)"
-with "EC_POKEMON(LOPMON_X)"
+replace "EC_POKEMON(GIRAFARIG)"
+with "EC_POKEMON(LUCEMON)"
 
-replace "EC_POKEMON_NATIONAL(WOBBUFFET)"
-with "EC_POKEMON_NATIONAL(LOPMON_X)"
+replace "EC_POKEMON_NATIONAL(GIRAFARIG)"
+with "EC_POKEMON_NATIONAL(LUCEMON)"
 
 in "src/data/text/species_names.h"
-replace "WOBBUFFET"
-with "LOPMON"
+replace "GIRAFARIG"
+with "LUCEMON"

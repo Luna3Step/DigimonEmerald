@@ -1216,11 +1216,11 @@ const u8 gLopmon_xPokedexText[] = _(
     "a psychic connection with its twin, \n"
     "Terriermon X..");
 
-const u8 gGirafarigPokedexText[] = _(
-    "A GIRAFARIG is an herbivore--it eats\n"
-    "grass and tree shoots. While it is eating,\n"
-    "its tail makes chewing and swallowing\n"
-    "motions as if it were also eating.");
+const u8 gLucemonPokedexText[] = _(
+    "Although it has the look of an innocent\n"
+    "child, Lucemon holds an incredible\n"
+    "darkness making it one of the scariest\n"
+    "and strongest Digimon in the Digital World.");
 
 const u8 gPinecoPokedexText[] = _(
     "A PINECO hangs from a tree branch and\n"
