@@ -1522,11 +1522,11 @@ const u8 gSwimmonPokedexText[] = _(
     "help escape. It usually likes to form\n"
     "schools with others near warm coral reefs.");
 
-const u8 gSceptilePokedexText[] = _(
-    "In the jungle, its power is without equal.\n"
-    "This POKéMON carefully grows trees and\n"
-    "plants. It regulates its body temperature\n"
-    "by basking in sunlight.");
+const u8 gSyakomonPokedexText[] = _(
+    "Syakomon will use its cute looks to lure\n"
+    "in unsuspecting foes and attack when they\n"
+    "get close. Its insides are soft and weak\n"
+    "like an in-training Digimon.");
 
 const u8 gTorchicPokedexText[] = _(
     "If attacked, it strikes back by spitting\n"

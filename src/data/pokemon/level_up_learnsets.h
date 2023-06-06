@@ -3602,7 +3602,7 @@ static const u16 sSwimmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSceptileLevelUpLearnset[] = {
+static const u16 sSyakomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),

@@ -3048,12 +3048,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SCEPTILE] =
+    [NATIONAL_DEX_SYAKOMON] =
     {
-        .categoryName = _("FOREST"),
-        .height = 17,
+        .categoryName = _("SHELL"),
+        .height = 8,
         .weight = 522,
-        .description = gSceptilePokedexText,
+        .description = gSyakomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 275,
