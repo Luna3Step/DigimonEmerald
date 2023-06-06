@@ -1850,7 +1850,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_FLAMEMON] =
     {
-        .categoryName = _("FLAME"),
+        .categoryName = _("HYRBRID"),
         .height = 18,
         .weight = 397,
         .description = gFlamemonPokedexText,
@@ -3012,12 +3012,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 17,
     },
 
-    [NATIONAL_DEX_CELEBI] =
+    [NATIONAL_DEX_STRABIMON] =
     {
-        .categoryName = _("TIME TRAVEL"),
-        .height = 6,
-        .weight = 50,
-        .description = gCelebiPokedexText,
+        .categoryName = _("HYBRID"),
+        .height = 20,
+        .weight = 511,
+        .description = gStrabimonPokedexText,
         .pokemonScale = 393,
         .pokemonOffset = -10,
         .trainerScale = 256,

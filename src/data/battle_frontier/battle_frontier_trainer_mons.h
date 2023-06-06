@@ -7085,7 +7085,7 @@ const u16 gBattleFrontierTrainerMons_Alana[] =
 
 const u16 gBattleFrontierTrainerMons_Alexas[] =
 {
-    FRONTIER_MONS_EXPERT_2A(TYRANITAR)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Weston[] =
@@ -7095,12 +7095,12 @@ const u16 gBattleFrontierTrainerMons_Weston[] =
 
 const u16 gBattleFrontierTrainerMons_Jasper[] =
 {
-    FRONTIER_MONS_EXPERT_2C(TYRANITAR)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Nadia[] =
 {
-    FRONTIER_MONS_EXPERT_2A(TYRANITAR)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Miranda[] =
@@ -7110,7 +7110,7 @@ const u16 gBattleFrontierTrainerMons_Miranda[] =
 
 const u16 gBattleFrontierTrainerMons_Emma[] =
 {
-    FRONTIER_MONS_EXPERT_2C(TYRANITAR)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Rolando[] =
@@ -7120,7 +7120,7 @@ const u16 gBattleFrontierTrainerMons_Rolando[] =
 
 const u16 gBattleFrontierTrainerMons_Stanly[] =
 {
-    FRONTIER_MONS_PSYCHIC_2B(LATIOS)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Dario[] =
@@ -7135,7 +7135,7 @@ const u16 gBattleFrontierTrainerMons_Karlee[] =
 
 const u16 gBattleFrontierTrainerMons_Jaylin[] =
 {
-    FRONTIER_MONS_PSYCHIC_2B(LATIAS)
+    FRONTIER_MONS_BLACK_BELT_BATTLE_GIRL_2B
 };
 
 const u16 gBattleFrontierTrainerMons_Ingrid[] =

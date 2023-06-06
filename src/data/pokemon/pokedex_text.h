@@ -1504,11 +1504,11 @@ const u8 gStarmon_2010PokedexText[] = _(
     "will just think about its appearence to\n"
     "feel better about everything.");
 
-const u8 gCelebiPokedexText[] = _(
-    "This POKéMON came from the future by\n"
-    "crossing over time. It is thought that so\n"
-    "long as CELEBI appears, a bright and\n"
-    "shining future awaits us.");
+const u8 gStrabimonPokedexText[] = _(
+    "Unlike Flamemon, Strabimon is a much more\n"
+    "ferocious Digimon, so much so that when\n"
+    "it rampages, even Champion Digimon\n"
+    "struggle to handle it.");
 
 const u8 gTreeckoPokedexText[] = _(
     "It makes its nest in a giant tree in the\n"

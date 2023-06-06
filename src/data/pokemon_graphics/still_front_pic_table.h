@@ -252,7 +252,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(SPADAMON,     gMonStillFrontPic_Tyranitar),
     SPECIES_SPRITE(SPARROWMON,         gMonStillFrontPic_Lugia),
     SPECIES_SPRITE(STARMON_2010,         gMonStillFrontPic_HoOh),
-    SPECIES_SPRITE(CELEBI,        gMonStillFrontPic_Celebi),
+    SPECIES_SPRITE(STRABIMON,        gMonStillFrontPic_Celebi),
 // Empty slots
     SPECIES_SPRITE(OLD_UNOWN_B,   gMonStillFrontPic_DoubleQuestionMark),
     SPECIES_SPRITE(OLD_UNOWN_C,   gMonStillFrontPic_DoubleQuestionMark),

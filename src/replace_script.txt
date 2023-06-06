@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_HO_OH"
-with "FRONTIER_MON_STARMON_2010"
+replace "FRONTIER_MON_CELEBI"
+with "FRONTIER_MON_STRABIMON"
 
-replace "gHo_ohPokedexText"
-with "gStarmon_2010PokedexText"
+replace "gCelebiPokedexText"
+with "gStrabimonPokedexText"
 
-replace "NATIONAL_DEX_HO_OH"
-with "NATIONAL_DEX_STARMON_2010"
+replace "NATIONAL_DEX_CELEBI"
+with "NATIONAL_DEX_STRABIMON"
 
-replace "SPECIES_HO_OH"
-with "SPECIES_STARMON_2010"
+replace "SPECIES_CELEBI"
+with "SPECIES_STRABIMON"
 
-replace "HOENN_DEX_HO_OH"
-with "HOENN_DEX_STARMON_2010"
+replace "HOENN_DEX_CELEBI"
+with "HOENN_DEX_STRABIMON"
 
-replace "SPECIES_TO_HOENN(HO_OH),"
-with "SPECIES_TO_HOENN(STARMON_2010),"
+replace "SPECIES_TO_HOENN(CELEBI),"
+with "SPECIES_TO_HOENN(STRABIMON),"
 
-replace "SPECIES_TO_NATIONAL(HO_OH),"
-with "SPECIES_TO_NATIONAL(STARMON_2010),"
+replace "SPECIES_TO_NATIONAL(CELEBI),"
+with "SPECIES_TO_NATIONAL(STRABIMON),"
 
-replace "HOENN_TO_NATIONAL(HO_OH),"
-with "HOENN_TO_NATIONAL(STARMON_2010),"
+replace "HOENN_TO_NATIONAL(CELEBI),"
+with "HOENN_TO_NATIONAL(STRABIMON),"
 
-replace "EC_POKEMON_NATIONAL(HO_OH),"
-with "EC_POKEMON_NATIONAL(STARMON_2010),"
+replace "EC_POKEMON_NATIONAL(CELEBI),"
+with "EC_POKEMON_NATIONAL(STRABIMON),"
 
-replace "egg_moves(HO_OH,"
-with "egg_moves(STARMON_2010,"
+replace "egg_moves(CELEBI,"
+with "egg_moves(STRABIMON,"
 
-replace "sHo_ohLevelUpLearnset"
-with "sStarmon_2010LevelUpLearnset"
+replace "sCelebiLevelUpLearnset"
+with "sStrabimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(HO_OH"
-with "SPECIES_SPRITE(STARMON_2010"
+replace "SPECIES_SPRITE(CELEBI"
+with "SPECIES_SPRITE(STRABIMON"
 
-replace "SPECIES_PAL(HO_OH,"
-with "SPECIES_PAL(STARMON_2010,"
+replace "SPECIES_PAL(CELEBI,"
+with "SPECIES_PAL(STRABIMON,"
 
-replace "SPECIES_SHINY_PAL(HO_OH,"
-with "SPECIES_SHINY_PAL(STARMON_2010,"
+replace "SPECIES_SHINY_PAL(CELEBI,"
+with "SPECIES_SHINY_PAL(STRABIMON,"
 
-replace "EC_POKEMON(HO_OH)"
-with "EC_POKEMON(STARMON_2010)"
+replace "EC_POKEMON(CELEBI)"
+with "EC_POKEMON(STRABIMON)"
 
-replace "EC_POKEMON_NATIONAL(HO_OH)"
-with "EC_POKEMON_NATIONAL(STARMON_2010)"
+replace "EC_POKEMON_NATIONAL(CELEBI)"
+with "EC_POKEMON_NATIONAL(STRABIMON)"
 
 in "src/data/text/species_names.h"
-replace "HO_OH"
-with "STARMON"
+replace "CELEBI"
+with "STRABIMON"
