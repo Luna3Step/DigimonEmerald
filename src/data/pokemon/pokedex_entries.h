@@ -3156,12 +3156,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ZIGZAGOON] =
+    [NATIONAL_DEX_TOYAGUMON] =
     {
-        .categoryName = _("TINYRACCOON"),
-        .height = 4,
-        .weight = 175,
-        .description = gZigzagoonPokedexText,
+        .categoryName = _("TOY"),
+        .height = 11,
+        .weight = 214,
+        .description = gToyagumonPokedexText,
         .pokemonScale = 560,
         .pokemonOffset = 22,
         .trainerScale = 256,

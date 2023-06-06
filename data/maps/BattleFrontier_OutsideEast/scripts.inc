@@ -71,7 +71,7 @@ BattleFrontier_OutsideEast_EventScript_Zigzagoon::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	playmoncry SPECIES_TOYAGUMON, CRY_MODE_NORMAL
 	msgbox BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant, MSGBOX_DEFAULT
 	waitmoncry
 	release

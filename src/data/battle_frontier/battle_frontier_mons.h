@@ -168,8 +168,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_RELAXED
     },
-    [FRONTIER_MON_ZIGZAGOON] = {
-        .species = SPECIES_ZIGZAGOON,
+    [FRONTIER_MON_TOYAGUMON] = {
+        .species = SPECIES_TOYAGUMON,
         .moves = {MOVE_HEADBUTT, MOVE_PIN_MISSILE, MOVE_SWIFT, MOVE_SAND_ATTACK},
         .itemTableId = BATTLE_FRONTIER_ITEM_SILK_SCARF,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

@@ -1576,11 +1576,11 @@ const u8 gTinpetPokedexText[] = _(
     "customisability making it a popular\n"
     "choice for more competitive tamers.");
 
-const u8 gZigzagoonPokedexText[] = _(
-    "Rubbing its nose against the ground, it\n"
-    "always wanders about back and forth in\n"
-    "search of something. It is distinguished\n"
-    "by the zigzag footprints it leaves.");
+const u8 gToyagumonPokedexText[] = _(
+    "Toyagumon is a very playful Digimon\n"
+    "that likes to interact with children. It\n"
+    "spends most of its days communicating\n"
+    "with them over the internet.");
 
 const u8 gLinoonePokedexText[] = _(
     "It is exceedingly fast if it only has to run\n"

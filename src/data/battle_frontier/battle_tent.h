@@ -754,14 +754,14 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
 const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
 {
     [SLATEPORT_TENT_MON_ZIGZAGOON_1] = {
-        .species = SPECIES_ZIGZAGOON,
+        .species = SPECIES_TOYAGUMON,
         .moves = {MOVE_TACKLE, MOVE_CHARM, MOVE_ODOR_SLEUTH, MOVE_PIN_MISSILE},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_BAND,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_ZIGZAGOON_2] = {
-        .species = SPECIES_ZIGZAGOON,
+        .species = SPECIES_TOYAGUMON,
         .moves = {MOVE_DIG, MOVE_MUD_SPORT, MOVE_TAIL_WHIP, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1814,7 +1814,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_NAUGHTY
     },
     [VERDANTURF_TENT_MON_ZIGZAGOON] = {
-        .species = SPECIES_ZIGZAGOON,
+        .species = SPECIES_TOYAGUMON,
         .moves = {MOVE_COVET, MOVE_GROWL, MOVE_PIN_MISSILE, MOVE_MUD_SPORT},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

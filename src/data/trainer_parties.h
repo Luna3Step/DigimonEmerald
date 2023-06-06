@@ -81,7 +81,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle1[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -755,7 +755,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky1[] = {
     {
     .iv = 10,
     .lvl = 13,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .moves = {MOVE_SAND_ATTACK, MOVE_HEADBUTT, MOVE_TAIL_WHIP, MOVE_SURF}
     }
 };
@@ -1452,7 +1452,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -1496,7 +1496,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_NUGGET,
     .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_NONE, MOVE_NONE}
     }
@@ -1710,7 +1710,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -2617,7 +2617,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ethan1[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -2646,7 +2646,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ethan2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 10,
@@ -3795,7 +3795,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg1[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
     },
     {
@@ -3810,7 +3810,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg2[] = {
     {
     .iv = 10,
     .lvl = 28,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
     },
     {
@@ -3825,7 +3825,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg3[] = {
     {
     .iv = 20,
     .lvl = 31,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
     },
     {
@@ -3876,7 +3876,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Victor[] = {
     {
     .iv = 25,
     .lvl = 16,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -4215,7 +4215,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Billy[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -4258,7 +4258,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ben[] = {
     {
     .iv = 150,
     .lvl = 17,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .moves = {MOVE_HEADBUTT, MOVE_SAND_ATTACK, MOVE_GROWL, MOVE_THUNDERBOLT}
     },
     {
@@ -4376,12 +4376,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eddie[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     }
 };
 
@@ -4389,7 +4389,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Allen[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -4947,7 +4947,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Demetrius[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -7054,7 +7054,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -7995,7 +7995,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -9407,7 +9407,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Dawson[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_NUGGET
     },
     {
@@ -9428,7 +9428,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Sarah[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -9631,7 +9631,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Deandre[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 0,
@@ -10212,7 +10212,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 10,
@@ -12189,7 +12189,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 10,

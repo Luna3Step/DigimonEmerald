@@ -932,7 +932,7 @@ const u16 gEggMoves[] = {
               MOVE_LEER,
               MOVE_YAWN),
 
-    egg_moves(ZIGZAGOON,
+    egg_moves(TOYAGUMON,
               MOVE_CHARM,
               MOVE_PURSUIT,
               MOVE_SUBSTITUTE,
