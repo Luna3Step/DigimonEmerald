@@ -248,7 +248,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(YUKIAGUMON_06,         gMonStillFrontPic_Entei),
     SPECIES_SPRITE(ICEGOBIMON,       gMonStillFrontPic_Suicune),
     SPECIES_SPRITE(SOLARMON,      gMonStillFrontPic_Larvitar),
-    SPECIES_SPRITE(PUPITAR,       gMonStillFrontPic_Pupitar),
+    SPECIES_SPRITE(SOUNBRDMON,       gMonStillFrontPic_Pupitar),
     SPECIES_SPRITE(TYRANITAR,     gMonStillFrontPic_Tyranitar),
     SPECIES_SPRITE(LUGIA,         gMonStillFrontPic_Lugia),
     SPECIES_SPRITE(HO_OH,         gMonStillFrontPic_HoOh),

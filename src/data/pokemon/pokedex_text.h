@@ -1480,11 +1480,11 @@ const u8 gSolarmonPokedexText[] = _(
     "Its body is hot enough that it is\n"
     "recommended to proceed with caution.");
 
-const u8 gPupitarPokedexText[] = _(
-    "A PUPITAR creates a gas inside its body\n"
-    "that it ejects under compression to propel\n"
-    "itself like a jet. Its body can withstand\n"
-    "a collision with solid steel.");
+const u8 gSounbrdmonPokedexText[] = _(
+    "Soundbirdmon is a very reserved and\n"
+    "cautious Digimon that likes to keep quiet\n"
+    "however when other Digimon apporach, it\n"
+    "will drive them away with high pitch sounds.");
 
 const u8 gTyranitarPokedexText[] = _(
     "A TYRANITAR is so overwhelmingly powerful,\n"

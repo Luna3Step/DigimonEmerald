@@ -3371,7 +3371,7 @@ static const u16 sSolarmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPupitarLevelUpLearnset[] = {
+static const u16 sSounbrdmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_SANDSTORM),

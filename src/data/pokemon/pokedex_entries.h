@@ -2964,12 +2964,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PUPITAR] =
+    [NATIONAL_DEX_SOUNBRDMON] =
     {
-        .categoryName = _("HARD SHELL"),
-        .height = 12,
-        .weight = 1520,
-        .description = gPupitarPokedexText,
+        .categoryName = _("SPEAKER"),
+        .height = 6,
+        .weight = 301,
+        .description = gSounbrdmonPokedexText,
         .pokemonScale = 292,
         .pokemonOffset = 8,
         .trainerScale = 256,
