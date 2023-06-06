@@ -901,7 +901,7 @@ const u16 gEggMoves[] = {
               MOVE_DRAGON_DANCE,
               MOVE_CURSE),
 
-    egg_moves(TREECKO,
+    egg_moves(SUNARZAMON,
               MOVE_CRUNCH,
               MOVE_MUD_SPORT,
               MOVE_ENDEAVOR,

@@ -3569,7 +3569,7 @@ static const u16 sSpecies276LevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTreeckoLevelUpLearnset[] = {
+static const u16 sSunarzamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 6, MOVE_ABSORB),

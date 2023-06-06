@@ -374,7 +374,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(OLD_UNOWN_X),
     SPECIES_TO_HOENN(OLD_UNOWN_Y),
     SPECIES_TO_HOENN(OLD_UNOWN_Z),
-    SPECIES_TO_HOENN(TREECKO),
+    SPECIES_TO_HOENN(SUNARZAMON),
     SPECIES_TO_HOENN(GROVYLE),
     SPECIES_TO_HOENN(SCEPTILE),
     SPECIES_TO_HOENN(TORCHIC),
@@ -790,7 +790,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(OLD_UNOWN_X),
     SPECIES_TO_NATIONAL(OLD_UNOWN_Y),
     SPECIES_TO_NATIONAL(OLD_UNOWN_Z),
-    SPECIES_TO_NATIONAL(TREECKO),
+    SPECIES_TO_NATIONAL(SUNARZAMON),
     SPECIES_TO_NATIONAL(GROVYLE),
     SPECIES_TO_NATIONAL(SCEPTILE),
     SPECIES_TO_NATIONAL(TORCHIC),
@@ -930,7 +930,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
 // Assigns all Hoenn Dex Indexes to a National Dex Index
 static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
 {
-    HOENN_TO_NATIONAL(TREECKO),
+    HOENN_TO_NATIONAL(SUNARZAMON),
     HOENN_TO_NATIONAL(GROVYLE),
     HOENN_TO_NATIONAL(SCEPTILE),
     HOENN_TO_NATIONAL(TORCHIC),
@@ -1647,7 +1647,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_SPARROWMON - 1]       = ANIM_GROW_IN_STAGES,
     [SPECIES_STARMON_2010 - 1]       = ANIM_GROW_VIBRATE,
     [SPECIES_STRABIMON - 1]      = ANIM_RISING_WOBBLE,
-    [SPECIES_TREECKO - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_SUNARZAMON - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_GROVYLE - 1]     = ANIM_V_STRETCH,
     [SPECIES_SCEPTILE - 1]    = ANIM_V_SHAKE,
     [SPECIES_TORCHIC - 1]     = ANIM_H_STRETCH,
@@ -5694,10 +5694,10 @@ u16 SpeciesToCryId(u16 species)
     if (species <= SPECIES_STRABIMON - 1)
         return species;
 
-    if (species < SPECIES_TREECKO - 1)
+    if (species < SPECIES_SUNARZAMON - 1)
         return SPECIES_LOPMON - 1;
 
-    return gSpeciesIdToCryId[species - (SPECIES_TREECKO - 1)];
+    return gSpeciesIdToCryId[species - (SPECIES_SUNARZAMON - 1)];
 }
 
 // Spots can be drawn on Spinda's color indexes 1, 2, or 3

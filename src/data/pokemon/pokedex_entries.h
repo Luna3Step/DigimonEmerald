@@ -3024,12 +3024,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TREECKO] =
+    [NATIONAL_DEX_SUNARZAMON] =
     {
-        .categoryName = _("WOOD GECKO"),
-        .height = 5,
-        .weight = 50,
-        .description = gTreeckoPokedexText,
+        .categoryName = _("SAND LIZARD"),
+        .height = 7,
+        .weight = 584,
+        .description = gSunarzamonPokedexText,
         .pokemonScale = 541,
         .pokemonOffset = 19,
         .trainerScale = 256,

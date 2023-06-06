@@ -2875,15 +2875,15 @@ static void DebugAction_Give_Pokemon_SelectId(u8 taskId)
         if (gMain.newKeys & DPAD_UP)
         {
             gTasks[taskId].data[3] += sPowersOfTen[gTasks[taskId].data[4]];
-            if (gTasks[taskId].data[3] > SPECIES_STRABIMON && gTasks[taskId].data[3] < SPECIES_TREECKO)
-                gTasks[taskId].data[3] = SPECIES_TREECKO;
+            if (gTasks[taskId].data[3] > SPECIES_STRABIMON && gTasks[taskId].data[3] < SPECIES_SUNARZAMON)
+                gTasks[taskId].data[3] = SPECIES_SUNARZAMON;
             if (gTasks[taskId].data[3] >= NUM_SPECIES)
                 gTasks[taskId].data[3] = NUM_SPECIES - 1;
         }
         if (gMain.newKeys & DPAD_DOWN)
         {
             gTasks[taskId].data[3] -= sPowersOfTen[gTasks[taskId].data[4]];
-            if (gTasks[taskId].data[3] < SPECIES_TREECKO && gTasks[taskId].data[3] > SPECIES_STRABIMON)
+            if (gTasks[taskId].data[3] < SPECIES_SUNARZAMON && gTasks[taskId].data[3] > SPECIES_STRABIMON)
                 gTasks[taskId].data[3] = SPECIES_STRABIMON;
             if (gTasks[taskId].data[3] < 1)
                 gTasks[taskId].data[3] = 1;
@@ -3707,7 +3707,7 @@ static void DebugAction_Fill_PCBoxes_Slow(u8 taskId)
                 if (i < SPECIES_STRABIMON)
                     i += 1;
                 else if (i == SPECIES_STRABIMON)
-                    i = SPECIES_TREECKO;
+                    i = SPECIES_SUNARZAMON;
                 else if (i < SPECIES_CHIMECHO)
                     i += 1;
                 else

@@ -1510,11 +1510,11 @@ const u8 gStrabimonPokedexText[] = _(
     "it rampages, even Champion Digimon\n"
     "struggle to handle it.");
 
-const u8 gTreeckoPokedexText[] = _(
-    "It makes its nest in a giant tree in the\n"
-    "forest. It ferociously guards against\n"
-    "anything nearing its territory. It is said\n"
-    "to be the protector of the forest's trees.");
+const u8 gSunarzamonPokedexText[] = _(
+    "Although they like to act in a group,\n"
+    "Sunarizamon is actually pretty strong as\n"
+    "an individual as well. It will often hide\n"
+    "in the sand to ambush its prey.");
 
 const u8 gGrovylePokedexText[] = _(
     "Leaves grow out of this POKéMON's body.\n"

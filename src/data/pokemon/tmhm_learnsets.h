@@ -6105,7 +6105,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_OLD_UNOWN_Z] = TMHM_LEARNSET(0),
 
-    [SPECIES_TREECKO]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_SUNARZAMON]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM09_BULLET_SEED)
                                         | TMHM(TM10_HIDDEN_POWER)

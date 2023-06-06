@@ -281,7 +281,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_OLD_UNOWN_X] = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_OLD_UNOWN_Y] = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_OLD_UNOWN_Z] = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
-    [SPECIES_TREECKO]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
+    [SPECIES_SUNARZAMON]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_GROVYLE]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_SCEPTILE]    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_TORCHIC]     = { .size = MON_COORDS_SIZE(40, 48), .y_offset =  8 },

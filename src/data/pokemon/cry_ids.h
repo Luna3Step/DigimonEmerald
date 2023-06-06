@@ -1,6 +1,6 @@
 const u16 gSpeciesIdToCryId[] =
 {
-    [SPECIES_TREECKO - 277] = 273,
+    [SPECIES_SUNARZAMON - 277] = 273,
     [SPECIES_GROVYLE - 277] = 274,
     [SPECIES_SCEPTILE - 277] = 275,
     [SPECIES_TORCHIC - 277] = 270,
