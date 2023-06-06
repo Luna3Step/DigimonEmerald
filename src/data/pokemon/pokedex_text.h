@@ -1498,11 +1498,11 @@ const u8 gSparrowmonPokedexText[] = _(
     "In battle, it uses its extreme speed to\n"
     "overwhelm any opponents that challenge it.");
 
-const u8 gHoOhPokedexText[] = _(
-    "Its feathers--which glow in seven colors\n"
-    "depending on the angle at which they are\n"
-    "struck by light--are thought to bring joy.\n"
-    "It is said to live at the foot of a rainbow.");
+const u8 gStarmon_2010PokedexText[] = _(
+    "When in a group of Pickmon, Starmon is\n"
+    "always the leader. When it feels down, it\n"
+    "will just think about its appearence to\n"
+    "feel better about everything.");
 
 const u8 gCelebiPokedexText[] = _(
     "This POKéMON came from the future by\n"

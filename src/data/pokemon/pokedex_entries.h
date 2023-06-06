@@ -3000,12 +3000,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 19,
     },
 
-    [NATIONAL_DEX_HO_OH] =
+    [NATIONAL_DEX_STARMON_2010] =
     {
-        .categoryName = _("RAINBOW"),
-        .height = 38,
-        .weight = 1990,
-        .description = gHoOhPokedexText,
+        .categoryName = _("STAR"),
+        .height = 5,
+        .weight = 297,
+        .description = gStarmon_2010PokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 610,

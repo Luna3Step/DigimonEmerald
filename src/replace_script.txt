@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LUGIA"
-with "FRONTIER_MON_SPARROWMON"
+replace "FRONTIER_MON_HO_OH"
+with "FRONTIER_MON_STARMON_2010"
 
-replace "gLugiaPokedexText"
-with "gSparrowmonPokedexText"
+replace "gHo_ohPokedexText"
+with "gStarmon_2010PokedexText"
 
-replace "NATIONAL_DEX_LUGIA"
-with "NATIONAL_DEX_SPARROWMON"
+replace "NATIONAL_DEX_HO_OH"
+with "NATIONAL_DEX_STARMON_2010"
 
-replace "SPECIES_LUGIA"
-with "SPECIES_SPARROWMON"
+replace "SPECIES_HO_OH"
+with "SPECIES_STARMON_2010"
 
-replace "HOENN_DEX_LUGIA"
-with "HOENN_DEX_SPARROWMON"
+replace "HOENN_DEX_HO_OH"
+with "HOENN_DEX_STARMON_2010"
 
-replace "SPECIES_TO_HOENN(LUGIA),"
-with "SPECIES_TO_HOENN(SPARROWMON),"
+replace "SPECIES_TO_HOENN(HO_OH),"
+with "SPECIES_TO_HOENN(STARMON_2010),"
 
-replace "SPECIES_TO_NATIONAL(LUGIA),"
-with "SPECIES_TO_NATIONAL(SPARROWMON),"
+replace "SPECIES_TO_NATIONAL(HO_OH),"
+with "SPECIES_TO_NATIONAL(STARMON_2010),"
 
-replace "HOENN_TO_NATIONAL(LUGIA),"
-with "HOENN_TO_NATIONAL(SPARROWMON),"
+replace "HOENN_TO_NATIONAL(HO_OH),"
+with "HOENN_TO_NATIONAL(STARMON_2010),"
 
-replace "EC_POKEMON_NATIONAL(LUGIA),"
-with "EC_POKEMON_NATIONAL(SPARROWMON),"
+replace "EC_POKEMON_NATIONAL(HO_OH),"
+with "EC_POKEMON_NATIONAL(STARMON_2010),"
 
-replace "egg_moves(LUGIA,"
-with "egg_moves(SPARROWMON,"
+replace "egg_moves(HO_OH,"
+with "egg_moves(STARMON_2010,"
 
-replace "sLugiaLevelUpLearnset"
-with "sSparrowmonLevelUpLearnset"
+replace "sHo_ohLevelUpLearnset"
+with "sStarmon_2010LevelUpLearnset"
 
-replace "SPECIES_SPRITE(LUGIA"
-with "SPECIES_SPRITE(SPARROWMON"
+replace "SPECIES_SPRITE(HO_OH"
+with "SPECIES_SPRITE(STARMON_2010"
 
-replace "SPECIES_PAL(LUGIA,"
-with "SPECIES_PAL(SPARROWMON,"
+replace "SPECIES_PAL(HO_OH,"
+with "SPECIES_PAL(STARMON_2010,"
 
-replace "SPECIES_SHINY_PAL(LUGIA,"
-with "SPECIES_SHINY_PAL(SPARROWMON,"
+replace "SPECIES_SHINY_PAL(HO_OH,"
+with "SPECIES_SHINY_PAL(STARMON_2010,"
 
-replace "EC_POKEMON(LUGIA)"
-with "EC_POKEMON(SPARROWMON)"
+replace "EC_POKEMON(HO_OH)"
+with "EC_POKEMON(STARMON_2010)"
 
-replace "EC_POKEMON_NATIONAL(LUGIA)"
-with "EC_POKEMON_NATIONAL(SPARROWMON)"
+replace "EC_POKEMON_NATIONAL(HO_OH)"
+with "EC_POKEMON_NATIONAL(STARMON_2010)"
 
 in "src/data/text/species_names.h"
-replace "LUGIA"
-with "SPARROWMON"
+replace "HO_OH"
+with "STARMON"

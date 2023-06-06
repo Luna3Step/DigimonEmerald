@@ -720,7 +720,7 @@ const u16 gEasyChatWordsByLetter_H[] = {
     EC_POKEMON_NATIONAL(SALAMON_X),
     EC_WORD_HIYAH,
     EC_WORD_HMM,
-    EC_POKEMON_NATIONAL(HO_OH),
+    EC_POKEMON_NATIONAL(STARMON_2010),
     EC_WORD_HOBBY,
     EC_WORD_HOHOHO,
     EC_WORD_HOLIDAY,
@@ -2125,7 +2125,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHe[] = {
 const u16 gEasyChatWordsByLetter_UnusedJapaneseHo[] = {
     EC_MOVE2(POISON_TAIL),
     EC_WORD_POINTS,
-    EC_POKEMON_NATIONAL(HO_OH),
+    EC_POKEMON_NATIONAL(STARMON_2010),
     EC_WORD_SOUNDPROOF,
     EC_WORD_ADVENTURE,
     EC_WORD_EFFECT_SPORE,
