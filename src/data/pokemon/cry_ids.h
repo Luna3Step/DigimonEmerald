@@ -1,7 +1,7 @@
 const u16 gSpeciesIdToCryId[] =
 {
     [SPECIES_SUNARZAMON - 277] = 273,
-    [SPECIES_GROVYLE - 277] = 274,
+    [SPECIES_SWIMMON - 277] = 274,
     [SPECIES_SCEPTILE - 277] = 275,
     [SPECIES_TORCHIC - 277] = 270,
     [SPECIES_COMBUSKEN - 277] = 271,

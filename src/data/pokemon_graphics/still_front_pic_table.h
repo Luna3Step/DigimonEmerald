@@ -281,7 +281,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(OLD_UNOWN_Z,   gMonStillFrontPic_DoubleQuestionMark),
 // Gen III
     SPECIES_SPRITE(SUNARZAMON,       gMonStillFrontPic_Treecko),
-    SPECIES_SPRITE(GROVYLE,       gMonStillFrontPic_Grovyle),
+    SPECIES_SPRITE(SWIMMON,       gMonStillFrontPic_Grovyle),
     SPECIES_SPRITE(SCEPTILE,      gMonStillFrontPic_Sceptile),
     SPECIES_SPRITE(TORCHIC,       gMonStillFrontPic_Torchic),
     SPECIES_SPRITE(COMBUSKEN,     gMonStillFrontPic_Combusken),

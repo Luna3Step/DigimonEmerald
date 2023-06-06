@@ -1516,11 +1516,11 @@ const u8 gSunarzamonPokedexText[] = _(
     "an individual as well. It will often hide\n"
     "in the sand to ambush its prey.");
 
-const u8 gGrovylePokedexText[] = _(
-    "Leaves grow out of this POKéMON's body.\n"
-    "They help obscure a GROVYLE from the eyes\n"
-    "of its enemies while it is in a thickly\n"
-    "overgrown forest.");
+const u8 gSwimmonPokedexText[] = _(
+    "When attacked by other Digimon, Swimmon\n"
+    "has the ability to camouflage itself to\n"
+    "help escape. It usually likes to form\n"
+    "schools with others near warm coral reefs.");
 
 const u8 gSceptilePokedexText[] = _(
     "In the jungle, its power is without equal.\n"

@@ -3036,12 +3036,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GROVYLE] =
+    [NATIONAL_DEX_SWIMMON] =
     {
-        .categoryName = _("WOOD GECKO"),
-        .height = 9,
-        .weight = 216,
-        .description = gGrovylePokedexText,
+        .categoryName = _("EXOTIC FISH"),
+        .height = 10,
+        .weight = 361,
+        .description = gSwimmonPokedexText,
         .pokemonScale = 360,
         .pokemonOffset = 5,
         .trainerScale = 256,

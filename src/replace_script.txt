@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_TREECKO"
-with "FRONTIER_MON_SUNARZAMON"
+replace "FRONTIER_MON_GROVYLE"
+with "FRONTIER_MON_SWIMMON"
 
-replace "gTreeckoPokedexText"
-with "gSunarzamonPokedexText"
+replace "gGrovylePokedexText"
+with "gSwimmonPokedexText"
 
-replace "NATIONAL_DEX_TREECKO"
-with "NATIONAL_DEX_SUNARZAMON"
+replace "NATIONAL_DEX_GROVYLE"
+with "NATIONAL_DEX_SWIMMON"
 
-replace "SPECIES_TREECKO"
-with "SPECIES_SUNARZAMON"
+replace "SPECIES_GROVYLE"
+with "SPECIES_SWIMMON"
 
-replace "HOENN_DEX_TREECKO"
-with "HOENN_DEX_SUNARZAMON"
+replace "HOENN_DEX_GROVYLE"
+with "HOENN_DEX_SWIMMON"
 
-replace "SPECIES_TO_HOENN(TREECKO),"
-with "SPECIES_TO_HOENN(SUNARZAMON),"
+replace "SPECIES_TO_HOENN(GROVYLE),"
+with "SPECIES_TO_HOENN(SWIMMON),"
 
-replace "SPECIES_TO_NATIONAL(TREECKO),"
-with "SPECIES_TO_NATIONAL(SUNARZAMON),"
+replace "SPECIES_TO_NATIONAL(GROVYLE),"
+with "SPECIES_TO_NATIONAL(SWIMMON),"
 
-replace "HOENN_TO_NATIONAL(TREECKO),"
-with "HOENN_TO_NATIONAL(SUNARZAMON),"
+replace "HOENN_TO_NATIONAL(GROVYLE),"
+with "HOENN_TO_NATIONAL(SWIMMON),"
 
-replace "EC_POKEMON_NATIONAL(TREECKO),"
-with "EC_POKEMON_NATIONAL(SUNARZAMON),"
+replace "EC_POKEMON_NATIONAL(GROVYLE),"
+with "EC_POKEMON_NATIONAL(SWIMMON),"
 
-replace "egg_moves(TREECKO,"
-with "egg_moves(SUNARZAMON,"
+replace "egg_moves(GROVYLE,"
+with "egg_moves(SWIMMON,"
 
-replace "sTreeckoLevelUpLearnset"
-with "sSunarzamonLevelUpLearnset"
+replace "sGrovyleLevelUpLearnset"
+with "sSwimmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(TREECKO"
-with "SPECIES_SPRITE(SUNARZAMON"
+replace "SPECIES_SPRITE(GROVYLE"
+with "SPECIES_SPRITE(SWIMMON"
 
-replace "SPECIES_PAL(TREECKO,"
-with "SPECIES_PAL(SUNARZAMON,"
+replace "SPECIES_PAL(GROVYLE,"
+with "SPECIES_PAL(SWIMMON,"
 
-replace "SPECIES_SHINY_PAL(TREECKO,"
-with "SPECIES_SHINY_PAL(SUNARZAMON,"
+replace "SPECIES_SHINY_PAL(GROVYLE,"
+with "SPECIES_SHINY_PAL(SWIMMON,"
 
-replace "EC_POKEMON(TREECKO)"
-with "EC_POKEMON(SUNARZAMON)"
+replace "EC_POKEMON(GROVYLE)"
+with "EC_POKEMON(SWIMMON)"
 
-replace "EC_POKEMON_NATIONAL(TREECKO)"
-with "EC_POKEMON_NATIONAL(SUNARZAMON)"
+replace "EC_POKEMON_NATIONAL(GROVYLE)"
+with "EC_POKEMON_NATIONAL(SWIMMON)"
 
 in "src/data/text/species_names.h"
-replace "TREECKO"
-with "SUNARZAMON"
+replace "GROVYLE"
+with "SWIMMON"
