@@ -2988,12 +2988,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_LUGIA] =
+    [NATIONAL_DEX_SPARROWMON] =
     {
-        .categoryName = _("DIVING"),
-        .height = 52,
-        .weight = 2160,
-        .description = gLugiaPokedexText,
+        .categoryName = _("JET"),
+        .height = 14,
+        .weight = 812,
+        .description = gSparrowmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 721,

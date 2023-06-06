@@ -1492,11 +1492,11 @@ const u8 gSpadamonPokedexText[] = _(
     "spear. It is said that in spear form it can\n"
     "either save or destroy the world.");
 
-const u8 gLugiaPokedexText[] = _(
-    "LUGIA is so powerful even a light\n"
-    "fluttering of its wings can blow apart\n"
-    "houses. As a result, it chooses to live out\n"
-    "of sight deep under the sea.");
+const u8 gSparrowmonPokedexText[] = _(
+    "You can generally tell what mood a\n"
+    "Sparrowmon is in by how well it is flying.\n"
+    "In battle, it uses its extreme speed to\n"
+    "overwhelm any opponents that challenge it.");
 
 const u8 gHoOhPokedexText[] = _(
     "Its feathers--which glow in seven colors\n"
