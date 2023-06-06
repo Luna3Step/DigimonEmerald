@@ -3120,12 +3120,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWAMPERT] =
+    [NATIONAL_DEX_TERRIERMON_X] =
     {
-        .categoryName = _("MUD FISH"),
-        .height = 15,
-        .weight = 819,
-        .description = gSwampertPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 6,
+        .weight = 389,
+        .description = gTerriermon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

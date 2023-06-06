@@ -1558,11 +1558,11 @@ const u8 gTerriermon_assistantPokedexText[] = _(
     "weaker physically however it uses its wit\n"
     "in battle to great success.");
 
-const u8 gSwampertPokedexText[] = _(
-    "If it senses the approach of a storm and\n"
-    "a tidal wave, it protects its seaside nest\n"
-    "by piling up boulders. It swims as fast as\n"
-    "a jet ski.");
+const u8 gTerriermon_xPokedexText[] = _(
+    "Terriormon Xs long ears and hair can be\n"
+    "used to read the flow of the wind. It is\n"
+    "also to psychically connect to Lopmon X\n"
+    "with its 'Gen Emerald' ear jewelry.");
 
 const u8 gPoochyenaPokedexText[] = _(
     "It savagely threatens foes with bared\n"
