@@ -1486,11 +1486,11 @@ const u8 gSounbrdmonPokedexText[] = _(
     "however when other Digimon apporach, it\n"
     "will drive them away with high pitch sounds.");
 
-const u8 gTyranitarPokedexText[] = _(
-    "A TYRANITAR is so overwhelmingly powerful,\n"
-    "it can bring down a whole mountain to make\n"
-    "its nest. It roams in mountains seeking\n"
-    "new opponents to fight.");
+const u8 gSpadamonPokedexText[] = _(
+    "Spadamon is one of the legendary 'Legend-\n"
+    "Arms' Digimon that can transform into a\n"
+    "spear. It is said that in spear form it can\n"
+    "either save or destroy the world.");
 
 const u8 gLugiaPokedexText[] = _(
     "LUGIA is so powerful even a light\n"

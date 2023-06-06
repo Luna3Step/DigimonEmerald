@@ -2976,12 +2976,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TYRANITAR] =
+    [NATIONAL_DEX_SPADAMON] =
     {
-        .categoryName = _("ARMOR"),
-        .height = 20,
-        .weight = 2020,
-        .description = gTyranitarPokedexText,
+        .categoryName = _("SPEAR"),
+        .height = 12,
+        .weight = 586,
+        .description = gSpadamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 345,
