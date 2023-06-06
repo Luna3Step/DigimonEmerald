@@ -1564,11 +1564,11 @@ const u8 gTerriermon_xPokedexText[] = _(
     "also to psychically connect to Lopmon X\n"
     "with its 'Gen Emerald' ear jewelry.");
 
-const u8 gPoochyenaPokedexText[] = _(
-    "It savagely threatens foes with bared\n"
-    "fangs. It chases after fleeing targets\n"
-    "tenaciously. It turns tail and runs,\n"
-    "however, if the foe strikes back.");
+const u8 gTinkermonPokedexText[] = _(
+    "Although it is a very friendly Digimon\n"
+    "to children, Tinker often gets into\n"
+    "trouble as it will innocently kidnap\n"
+    "them with Petermons help.");
 
 const u8 gMightyenaPokedexText[] = _(
     "In the wild, MIGHTYENA live in a pack.\n"

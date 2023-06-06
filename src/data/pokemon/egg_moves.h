@@ -925,7 +925,7 @@ const u16 gEggMoves[] = {
               MOVE_ICE_BALL,
               MOVE_MIRROR_COAT),
 
-    egg_moves(POOCHYENA,
+    egg_moves(TINKERMON,
               MOVE_ASTONISH,
               MOVE_POISON_FANG,
               MOVE_COVET,

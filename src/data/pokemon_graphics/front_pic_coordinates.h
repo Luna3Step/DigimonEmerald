@@ -290,7 +290,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_TERRIERMON]      = { .size = MON_COORDS_SIZE(40, 48), .y_offset = 12 },
     [SPECIES_TERRIERMON_ASSISTANT]   = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  6 },
     [SPECIES_TERRIERMON_X]    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
-    [SPECIES_POOCHYENA]   = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
+    [SPECIES_TINKERMON]   = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
     [SPECIES_MIGHTYENA]   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     [SPECIES_ZIGZAGOON]   = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 15 },
     [SPECIES_LINOONE]     = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  3 },

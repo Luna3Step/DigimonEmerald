@@ -215,7 +215,7 @@ const struct ContestWinner gDefaultContestWinners[] =
 const struct ContestPokemon gContestOpponents[] =
 {
     [CONTEST_OPPONENT_JIMMY] = {
-        .species = SPECIES_POOCHYENA,
+        .species = SPECIES_TINKERMON,
         .nickname = _("POOCHY"),
         .trainerName = _("JIMMY"),
         .trainerGfxId = OBJ_EVENT_GFX_BOY_1,

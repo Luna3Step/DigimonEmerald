@@ -318,7 +318,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .friendship = MAX_FRIENDSHIP
                     },
                     [5] = {
-                        .species = SPECIES_POOCHYENA,
+                        .species = SPECIES_TINKERMON,
                         .heldItem = ITEM_PECHA_BERRY,
                         .moves = { MOVE_BITE, MOVE_POISON_FANG, MOVE_SWAGGER, MOVE_SCARY_FACE },
                         .hpEV = 70,

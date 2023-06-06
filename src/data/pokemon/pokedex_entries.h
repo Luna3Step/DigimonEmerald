@@ -3132,12 +3132,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_POOCHYENA] =
+    [NATIONAL_DEX_TINKERMON] =
     {
-        .categoryName = _("BITE"),
-        .height = 5,
-        .weight = 136,
-        .description = gPoochyenaPokedexText,
+        .categoryName = _("FAIRY TALE"),
+        .height = 3,
+        .weight = 97,
+        .description = gTinkermonPokedexText,
         .pokemonScale = 481,
         .pokemonOffset = 19,
         .trainerScale = 256,

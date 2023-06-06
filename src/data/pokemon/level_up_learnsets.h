@@ -3727,7 +3727,7 @@ static const u16 sTerriermon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sPoochyenaLevelUpLearnset[] = {
+static const u16 sTinkermonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_HOWL),
     LEVEL_UP_MOVE( 9, MOVE_SAND_ATTACK),
