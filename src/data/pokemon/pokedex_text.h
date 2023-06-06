@@ -1534,11 +1534,11 @@ const u8 gSyakomon_xPokedexText[] = _(
     "now developed jet spray ports for speed\n"
     "and a pistol for surprise attacks.");
 
-const u8 gCombuskenPokedexText[] = _(
-    "It lashes out with 10 kicks per second.\n"
-    "Its strong fighting instinct compels it\n"
-    "to keep up its offensive until the\n"
-    "opponent gives up.");
+const u8 gTapirmonPokedexText[] = _(
+    "The data that is produced from humans\n"
+    "in REM sleeps seems to be what Tapirmon\n"
+    "eats. It also seems to have the ability\n"
+    "to purge nightmares from others.");
 
 const u8 gBlazikenPokedexText[] = _(
     "It learns martial arts that use punches\n"

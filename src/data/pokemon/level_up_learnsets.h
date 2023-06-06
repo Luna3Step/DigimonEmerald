@@ -3635,7 +3635,7 @@ static const u16 sSyakomon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCombuskenLevelUpLearnset[] = {
+static const u16 sTapirmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),

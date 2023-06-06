@@ -3072,12 +3072,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_COMBUSKEN] =
+    [NATIONAL_DEX_TAPIRMON] =
     {
-        .categoryName = _("YOUNG FOWL"),
-        .height = 9,
-        .weight = 195,
-        .description = gCombuskenPokedexText,
+        .categoryName = _("TAPIR"),
+        .height = 10,
+        .weight = 401,
+        .description = gTapirmonPokedexText,
         .pokemonScale = 343,
         .pokemonOffset = 5,
         .trainerScale = 256,
