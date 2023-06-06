@@ -1570,11 +1570,11 @@ const u8 gTinkermonPokedexText[] = _(
     "trouble as it will innocently kidnap\n"
     "them with Petermons help.");
 
-const u8 gMightyenaPokedexText[] = _(
-    "In the wild, MIGHTYENA live in a pack.\n"
-    "They never defy their leader's orders.\n"
-    "They defeat foes with perfectly\n"
-    "coordinated teamwork.");
+const u8 gTinpetPokedexText[] = _(
+    "Tinpet is the basic frame of all other\n"
+    "Medabot Digimon. It has good\n"
+    "customisability making it a popular\n"
+    "choice for more competitive tamers.");
 
 const u8 gZigzagoonPokedexText[] = _(
     "Rubbing its nose against the ground, it\n"

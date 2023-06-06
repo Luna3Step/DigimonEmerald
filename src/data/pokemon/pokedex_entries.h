@@ -3144,12 +3144,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MIGHTYENA] =
+    [NATIONAL_DEX_TINPET] =
     {
-        .categoryName = _("BITE"),
+        .categoryName = _("MEDABOT"),
         .height = 10,
-        .weight = 370,
-        .description = gMightyenaPokedexText,
+        .weight = 348,
+        .description = gTinpetPokedexText,
         .pokemonScale = 362,
         .pokemonOffset = 9,
         .trainerScale = 256,
