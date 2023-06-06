@@ -16,7 +16,7 @@ Debug_CheatStart::
 	setvar VAR_BIRCH_LAB_STATE, 2
 	setvar VAR_ROUTE101_STATE, 3
 	givemon SPECIES_SUNARZAMON, 20, ITEM_NONE
-	givemon SPECIES_TORCHIC, 20, ITEM_NONE
+	givemon SPECIES_SYAKOMON_X, 20, ITEM_NONE
 	givemon SPECIES_MUDKIP, 20, ITEM_NONE
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags

@@ -909,7 +909,7 @@ const u16 gEggMoves[] = {
               MOVE_DRAGON_BREATH,
               MOVE_CRUSH_CLAW),
 
-    egg_moves(TORCHIC,
+    egg_moves(SYAKOMON_X,
               MOVE_COUNTER,
               MOVE_REVERSAL,
               MOVE_ENDURE,

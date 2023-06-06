@@ -3620,7 +3620,7 @@ static const u16 sSyakomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTorchicLevelUpLearnset[] = {
+static const u16 sSyakomon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 7, MOVE_FOCUS_ENERGY),

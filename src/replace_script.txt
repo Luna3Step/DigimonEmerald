@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SCEPTILE"
-with "FRONTIER_MON_SYAKOMON"
+replace "FRONTIER_MON_TORCHIC"
+with "FRONTIER_MON_SYAKOMON_X"
 
-replace "gSceptilePokedexText"
-with "gSyakomonPokedexText"
+replace "gTorchicPokedexText"
+with "gSyakomon_xPokedexText"
 
-replace "NATIONAL_DEX_SCEPTILE"
-with "NATIONAL_DEX_SYAKOMON"
+replace "NATIONAL_DEX_TORCHIC"
+with "NATIONAL_DEX_SYAKOMON_X"
 
-replace "SPECIES_SCEPTILE"
-with "SPECIES_SYAKOMON"
+replace "SPECIES_TORCHIC"
+with "SPECIES_SYAKOMON_X"
 
-replace "HOENN_DEX_SCEPTILE"
-with "HOENN_DEX_SYAKOMON"
+replace "HOENN_DEX_TORCHIC"
+with "HOENN_DEX_SYAKOMON_X"
 
-replace "SPECIES_TO_HOENN(SCEPTILE),"
-with "SPECIES_TO_HOENN(SYAKOMON),"
+replace "SPECIES_TO_HOENN(TORCHIC),"
+with "SPECIES_TO_HOENN(SYAKOMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SCEPTILE),"
-with "SPECIES_TO_NATIONAL(SYAKOMON),"
+replace "SPECIES_TO_NATIONAL(TORCHIC),"
+with "SPECIES_TO_NATIONAL(SYAKOMON_X),"
 
-replace "HOENN_TO_NATIONAL(SCEPTILE),"
-with "HOENN_TO_NATIONAL(SYAKOMON),"
+replace "HOENN_TO_NATIONAL(TORCHIC),"
+with "HOENN_TO_NATIONAL(SYAKOMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SCEPTILE),"
-with "EC_POKEMON_NATIONAL(SYAKOMON),"
+replace "EC_POKEMON_NATIONAL(TORCHIC),"
+with "EC_POKEMON_NATIONAL(SYAKOMON_X),"
 
-replace "egg_moves(SCEPTILE,"
-with "egg_moves(SYAKOMON,"
+replace "egg_moves(TORCHIC,"
+with "egg_moves(SYAKOMON_X,"
 
-replace "sSceptileLevelUpLearnset"
-with "sSyakomonLevelUpLearnset"
+replace "sTorchicLevelUpLearnset"
+with "sSyakomon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SCEPTILE"
-with "SPECIES_SPRITE(SYAKOMON"
+replace "SPECIES_SPRITE(TORCHIC"
+with "SPECIES_SPRITE(SYAKOMON_X"
 
-replace "SPECIES_PAL(SCEPTILE,"
-with "SPECIES_PAL(SYAKOMON,"
+replace "SPECIES_PAL(TORCHIC,"
+with "SPECIES_PAL(SYAKOMON_X,"
 
-replace "SPECIES_SHINY_PAL(SCEPTILE,"
-with "SPECIES_SHINY_PAL(SYAKOMON,"
+replace "SPECIES_SHINY_PAL(TORCHIC,"
+with "SPECIES_SHINY_PAL(SYAKOMON_X,"
 
-replace "EC_POKEMON(SCEPTILE)"
-with "EC_POKEMON(SYAKOMON)"
+replace "EC_POKEMON(TORCHIC)"
+with "EC_POKEMON(SYAKOMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SCEPTILE)"
-with "EC_POKEMON_NATIONAL(SYAKOMON)"
+replace "EC_POKEMON_NATIONAL(TORCHIC)"
+with "EC_POKEMON_NATIONAL(SYAKOMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SCEPTILE"
+replace "TORCHIC"
 with "SYAKOMON"

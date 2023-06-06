@@ -665,8 +665,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_LONELY
     },
-    [FRONTIER_MON_TORCHIC] = {
-        .species = SPECIES_TORCHIC,
+    [FRONTIER_MON_SYAKOMON_X] = {
+        .species = SPECIES_SYAKOMON_X,
         .moves = {MOVE_FIRE_SPIN, MOVE_QUICK_ATTACK, MOVE_SAND_ATTACK, MOVE_DOUBLE_TEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

@@ -3060,12 +3060,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_TORCHIC] =
+    [NATIONAL_DEX_SYAKOMON_X] =
     {
-        .categoryName = _("CHICK"),
-        .height = 4,
-        .weight = 25,
-        .description = gTorchicPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 8,
+        .weight = 626,
+        .description = gSyakomon_xPokedexText,
         .pokemonScale = 566,
         .pokemonOffset = 19,
         .trainerScale = 256,

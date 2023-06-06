@@ -1528,11 +1528,11 @@ const u8 gSyakomonPokedexText[] = _(
     "get close. Its insides are soft and weak\n"
     "like an in-training Digimon.");
 
-const u8 gTorchicPokedexText[] = _(
-    "If attacked, it strikes back by spitting\n"
-    "balls of fire it forms in its stomach.\n"
-    "A TORCHIC dislikes darkness because it\n"
-    "can't see its surroundings.");
+const u8 gSyakomon_xPokedexText[] = _(
+    "Syakomon X is better in almost every way\n"
+    "compared to its normal form as it has\n"
+    "now developed jet spray ports for speed\n"
+    "and a pistol for surprise attacks.");
 
 const u8 gCombuskenPokedexText[] = _(
     "It lashes out with 10 kicks per second.\n"

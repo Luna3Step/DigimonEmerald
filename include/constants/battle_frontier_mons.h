@@ -96,7 +96,7 @@
 #define FRONTIER_MON_TOKOMON_X         92
 #define FRONTIER_MON_SWABLU         93
 #define FRONTIER_MON_SUNARZAMON        94
-#define FRONTIER_MON_TORCHIC        95
+#define FRONTIER_MON_SYAKOMON_X        95
 #define FRONTIER_MON_MUDKIP         96
 #define FRONTIER_MON_CONOMON       97
 #define FRONTIER_MON_GAMMAMON       98
