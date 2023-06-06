@@ -1546,11 +1546,11 @@ const u8 gTentomonPokedexText[] = _(
     "tends to avoid battles however if forced, \n"
     "it can use its four arms to attack.");
 
-const u8 gMudkipPokedexText[] = _(
-    "On land, it can powerfully lift large\n"
-    "boulders by planting its four feet and\n"
-    "heaving. It sleeps by burying itself in soil\n"
-    "at the water's edge.");
+const u8 gTerriermonPokedexText[] = _(
+    "Although it is a very peaceful Digimon, it\n"
+    "is surprisingly adept at battle, often\n"
+    "overpowering opponnents. Its relationship\n"
+    "with a Lopmon is very sibling like.");
 
 const u8 gMarshtompPokedexText[] = _(
     "Its toughened hind legs enable it to stand\n"

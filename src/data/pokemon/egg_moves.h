@@ -917,7 +917,7 @@ const u16 gEggMoves[] = {
               MOVE_ROCK_SLIDE,
               MOVE_SMELLING_SALT),
 
-    egg_moves(MUDKIP,
+    egg_moves(TERRIERMON,
               MOVE_REFRESH,
               MOVE_UPROAR,
               MOVE_CURSE,

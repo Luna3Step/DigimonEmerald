@@ -3673,7 +3673,7 @@ static const u16 sTentomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMudkipLevelUpLearnset[] = {
+static const u16 sTerriermonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 6, MOVE_MUD_SLAP),

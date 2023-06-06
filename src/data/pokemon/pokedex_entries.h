@@ -3096,12 +3096,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MUDKIP] =
+    [NATIONAL_DEX_TERRIERMON] =
     {
-        .categoryName = _("MUD FISH"),
-        .height = 4,
-        .weight = 76,
-        .description = gMudkipPokedexText,
+        .categoryName = _("TWIN"),
+        .height = 6,
+        .weight = 341,
+        .description = gTerriermonPokedexText,
         .pokemonScale = 535,
         .pokemonOffset = 20,
         .trainerScale = 256,
