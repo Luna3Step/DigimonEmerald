@@ -3689,7 +3689,7 @@ static const u16 sTerriermonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMarshtompLevelUpLearnset[] = {
+static const u16 sTerriermon_assistantLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SLAP),

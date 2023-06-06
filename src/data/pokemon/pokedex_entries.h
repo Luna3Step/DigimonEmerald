@@ -3108,12 +3108,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MARSHTOMP] =
+    [NATIONAL_DEX_TERRIERMON_ASSISTANT] =
     {
-        .categoryName = _("MUD FISH"),
-        .height = 7,
-        .weight = 280,
-        .description = gMarshtompPokedexText,
+        .categoryName = _("RESEARCH"),
+        .height = 6,
+        .weight = 349,
+        .description = gTerriermon_assistantPokedexText,
         .pokemonScale = 340,
         .pokemonOffset = 7,
         .trainerScale = 256,

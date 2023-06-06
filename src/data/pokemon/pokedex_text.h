@@ -1552,11 +1552,11 @@ const u8 gTerriermonPokedexText[] = _(
     "overpowering opponnents. Its relationship\n"
     "with a Lopmon is very sibling like.");
 
-const u8 gMarshtompPokedexText[] = _(
-    "Its toughened hind legs enable it to stand\n"
-    "upright. Because it weakens if its skin\n"
-    "dries out, it replenishes fluids by playing\n"
-    "in mud.");
+const u8 gTerriermon_assistantPokedexText[] = _(
+    "Due to spending more time researching \n"
+    "than battling, this Terriormon is much\n"
+    "weaker physically however it uses its wit\n"
+    "in battle to great success.");
 
 const u8 gSwampertPokedexText[] = _(
     "If it senses the approach of a storm and\n"
