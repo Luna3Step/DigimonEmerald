@@ -1540,11 +1540,11 @@ const u8 gTapirmonPokedexText[] = _(
     "eats. It also seems to have the ability\n"
     "to purge nightmares from others.");
 
-const u8 gBlazikenPokedexText[] = _(
-    "It learns martial arts that use punches\n"
-    "and kicks. Every several years, its old\n"
-    "feathers burn off, and new, supple\n"
-    "feathers grow back in their place.");
+const u8 gTentomonPokedexText[] = _(
+    "The shell on Tentomons back provides only\n"
+    "moderate defense. Because of this, it\n"
+    "tends to avoid battles however if forced, \n"
+    "it can use its four arms to attack.");
 
 const u8 gMudkipPokedexText[] = _(
     "On land, it can powerfully lift large\n"

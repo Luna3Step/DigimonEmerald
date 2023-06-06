@@ -3653,7 +3653,7 @@ static const u16 sTapirmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBlazikenLevelUpLearnset[] = {
+static const u16 sTentomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),

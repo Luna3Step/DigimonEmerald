@@ -3084,12 +3084,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLAZIKEN] =
+    [NATIONAL_DEX_TENTOMON] =
     {
-        .categoryName = _("BLAZE"),
-        .height = 19,
-        .weight = 520,
-        .description = gBlazikenPokedexText,
+        .categoryName = _("LADYBIRD"),
+        .height = 6,
+        .weight = 320,
+        .description = gTentomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 301,
