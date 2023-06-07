@@ -28,8 +28,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_QUIRKY
     },
-    [FRONTIER_MON_WURMPLE] = {
-        .species = SPECIES_WURMPLE,
+    [FRONTIER_MON_VEEMON] = {
+        .species = SPECIES_VEEMON,
         .moves = {MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_POISON_STING, MOVE_NONE},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

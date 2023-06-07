@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LINOONE"
-with "FRONTIER_MON_TSUKAIMON"
+replace "FRONTIER_MON_WURMPLE"
+with "FRONTIER_MON_VEEMON"
 
-replace "gLinoonePokedexText"
-with "gTsukaimonPokedexText"
+replace "gWurmplePokedexText"
+with "gVeemonPokedexText"
 
-replace "NATIONAL_DEX_LINOONE"
-with "NATIONAL_DEX_TSUKAIMON"
+replace "NATIONAL_DEX_WURMPLE"
+with "NATIONAL_DEX_VEEMON"
 
-replace "SPECIES_LINOONE"
-with "SPECIES_TSUKAIMON"
+replace "SPECIES_WURMPLE"
+with "SPECIES_VEEMON"
 
-replace "HOENN_DEX_LINOONE"
-with "HOENN_DEX_TSUKAIMON"
+replace "HOENN_DEX_WURMPLE"
+with "HOENN_DEX_VEEMON"
 
-replace "SPECIES_TO_HOENN(LINOONE),"
-with "SPECIES_TO_HOENN(TSUKAIMON),"
+replace "SPECIES_TO_HOENN(WURMPLE),"
+with "SPECIES_TO_HOENN(VEEMON),"
 
-replace "SPECIES_TO_NATIONAL(LINOONE),"
-with "SPECIES_TO_NATIONAL(TSUKAIMON),"
+replace "SPECIES_TO_NATIONAL(WURMPLE),"
+with "SPECIES_TO_NATIONAL(VEEMON),"
 
-replace "HOENN_TO_NATIONAL(LINOONE),"
-with "HOENN_TO_NATIONAL(TSUKAIMON),"
+replace "HOENN_TO_NATIONAL(WURMPLE),"
+with "HOENN_TO_NATIONAL(VEEMON),"
 
-replace "EC_POKEMON_NATIONAL(LINOONE),"
-with "EC_POKEMON_NATIONAL(TSUKAIMON),"
+replace "EC_POKEMON_NATIONAL(WURMPLE),"
+with "EC_POKEMON_NATIONAL(VEEMON),"
 
-replace "egg_moves(LINOONE,"
-with "egg_moves(TSUKAIMON,"
+replace "egg_moves(WURMPLE,"
+with "egg_moves(VEEMON,"
 
-replace "sLinooneLevelUpLearnset"
-with "sTsukaimonLevelUpLearnset"
+replace "sWurmpleLevelUpLearnset"
+with "sVeemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LINOONE"
-with "SPECIES_SPRITE(TSUKAIMON"
+replace "SPECIES_SPRITE(WURMPLE"
+with "SPECIES_SPRITE(VEEMON"
 
-replace "SPECIES_PAL(LINOONE,"
-with "SPECIES_PAL(TSUKAIMON,"
+replace "SPECIES_PAL(WURMPLE,"
+with "SPECIES_PAL(VEEMON,"
 
-replace "SPECIES_SHINY_PAL(LINOONE,"
-with "SPECIES_SHINY_PAL(TSUKAIMON,"
+replace "SPECIES_SHINY_PAL(WURMPLE,"
+with "SPECIES_SHINY_PAL(VEEMON,"
 
-replace "EC_POKEMON(LINOONE)"
-with "EC_POKEMON(TSUKAIMON)"
+replace "EC_POKEMON(WURMPLE)"
+with "EC_POKEMON(VEEMON)"
 
-replace "EC_POKEMON_NATIONAL(LINOONE)"
-with "EC_POKEMON_NATIONAL(TSUKAIMON)"
+replace "EC_POKEMON_NATIONAL(WURMPLE)"
+with "EC_POKEMON_NATIONAL(VEEMON)"
 
 in "src/data/text/species_names.h"
-replace "LINOONE"
-with "TSUKAIMON"
+replace "WURMPLE"
+with "VEEMON"

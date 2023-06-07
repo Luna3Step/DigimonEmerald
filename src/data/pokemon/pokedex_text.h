@@ -1588,11 +1588,11 @@ const u8 gTsukaimonPokedexText[] = _(
     "exact opposite in behaviour though as it\n"
     "loves to get into fights.");
 
-const u8 gWurmplePokedexText[] = _(
-    "It sticks to tree branches and eats\n"
-    "leaves. The thread it spits from its mouth,\n"
-    "which becomes gooey when it touches\n"
-    "air, slows the movement of its foes.");
+const u8 gVeemonPokedexText[] = _(
+    "Veemon is one of the few suriving species\n"
+    "that flourished in the Genesis of the\n"
+    "Digital World. It's one of few Digimon\n"
+    "that can perform 'Armour Digivolution'.");
 
 const u8 gSilcoonPokedexText[] = _(
     "It prepares for evolution using the\n"

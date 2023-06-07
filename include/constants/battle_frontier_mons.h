@@ -5,7 +5,7 @@
 #define FRONTIER_MON_AZURILL        1
 #define FRONTIER_MON_DATIRIMON       2
 #define FRONTIER_MON_FUFUMON         3
-#define FRONTIER_MON_WURMPLE        4
+#define FRONTIER_MON_VEEMON        4
 #define FRONTIER_MON_RALTS          5
 #define FRONTIER_MON_HAZYAGUMON       6
 #define FRONTIER_MON_FEEBAS         7

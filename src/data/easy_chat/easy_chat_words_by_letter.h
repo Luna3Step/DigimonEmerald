@@ -1924,7 +1924,7 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_WORD_WOWEE,
     EC_MOVE2(WRAP),
     EC_WORD_WROOOAAR_EXCL,
-    EC_POKEMON(WURMPLE),
+    EC_POKEMON(VEEMON),
     EC_POKEMON(WYNAUT),
 };
 

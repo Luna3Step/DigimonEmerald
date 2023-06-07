@@ -3180,12 +3180,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WURMPLE] =
+    [NATIONAL_DEX_VEEMON] =
     {
-        .categoryName = _("WORM"),
-        .height = 3,
-        .weight = 36,
-        .description = gWurmplePokedexText,
+        .categoryName = _("V"),
+        .height = 8,
+        .weight = 489,
+        .description = gVeemonPokedexText,
         .pokemonScale = 711,
         .pokemonOffset = 24,
         .trainerScale = 256,

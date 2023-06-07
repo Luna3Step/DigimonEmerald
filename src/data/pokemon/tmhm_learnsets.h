@@ -6438,7 +6438,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_WURMPLE]     = TMHM_LEARNSET(0),
+    [SPECIES_VEEMON]     = TMHM_LEARNSET(0),
 
     [SPECIES_SILCOON]     = TMHM_LEARNSET(0),
 

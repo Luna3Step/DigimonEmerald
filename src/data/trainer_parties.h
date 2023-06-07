@@ -2716,7 +2716,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Donald[] = {
     {
     .iv = 100,
     .lvl = 24,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 100,
@@ -2734,7 +2734,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Taylor[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 100,
@@ -2824,7 +2824,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 30,
@@ -8151,12 +8151,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     }
 };
 
@@ -8164,22 +8164,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lyle[] = {
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     }
 };
 
@@ -8187,7 +8187,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jose[] = {
     {
     .iv = 50,
     .lvl = 8,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_VEEMON,
     },
     {
     .iv = 50,

@@ -3796,7 +3796,7 @@ static const u16 sTsukaimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWurmpleLevelUpLearnset[] = {
+static const u16 sVeemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 5, MOVE_POISON_STING),
