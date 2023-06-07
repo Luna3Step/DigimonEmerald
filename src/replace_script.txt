@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_WURMPLE"
-with "FRONTIER_MON_VEEMON"
+replace "FRONTIER_MON_SILCOON"
+with "FRONTIER_MON_VEMMON"
 
-replace "gWurmplePokedexText"
-with "gVeemonPokedexText"
+replace "gSilcoonPokedexText"
+with "gVemmonPokedexText"
 
-replace "NATIONAL_DEX_WURMPLE"
-with "NATIONAL_DEX_VEEMON"
+replace "NATIONAL_DEX_SILCOON"
+with "NATIONAL_DEX_VEMMON"
 
-replace "SPECIES_WURMPLE"
-with "SPECIES_VEEMON"
+replace "SPECIES_SILCOON"
+with "SPECIES_VEMMON"
 
-replace "HOENN_DEX_WURMPLE"
-with "HOENN_DEX_VEEMON"
+replace "HOENN_DEX_SILCOON"
+with "HOENN_DEX_VEMMON"
 
-replace "SPECIES_TO_HOENN(WURMPLE),"
-with "SPECIES_TO_HOENN(VEEMON),"
+replace "SPECIES_TO_HOENN(SILCOON),"
+with "SPECIES_TO_HOENN(VEMMON),"
 
-replace "SPECIES_TO_NATIONAL(WURMPLE),"
-with "SPECIES_TO_NATIONAL(VEEMON),"
+replace "SPECIES_TO_NATIONAL(SILCOON),"
+with "SPECIES_TO_NATIONAL(VEMMON),"
 
-replace "HOENN_TO_NATIONAL(WURMPLE),"
-with "HOENN_TO_NATIONAL(VEEMON),"
+replace "HOENN_TO_NATIONAL(SILCOON),"
+with "HOENN_TO_NATIONAL(VEMMON),"
 
-replace "EC_POKEMON_NATIONAL(WURMPLE),"
-with "EC_POKEMON_NATIONAL(VEEMON),"
+replace "EC_POKEMON_NATIONAL(SILCOON),"
+with "EC_POKEMON_NATIONAL(VEMMON),"
 
-replace "egg_moves(WURMPLE,"
-with "egg_moves(VEEMON,"
+replace "egg_moves(SILCOON,"
+with "egg_moves(VEMMON,"
 
-replace "sWurmpleLevelUpLearnset"
-with "sVeemonLevelUpLearnset"
+replace "sSilcoonLevelUpLearnset"
+with "sVemmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(WURMPLE"
-with "SPECIES_SPRITE(VEEMON"
+replace "SPECIES_SPRITE(SILCOON"
+with "SPECIES_SPRITE(VEMMON"
 
-replace "SPECIES_PAL(WURMPLE,"
-with "SPECIES_PAL(VEEMON,"
+replace "SPECIES_PAL(SILCOON,"
+with "SPECIES_PAL(VEMMON,"
 
-replace "SPECIES_SHINY_PAL(WURMPLE,"
-with "SPECIES_SHINY_PAL(VEEMON,"
+replace "SPECIES_SHINY_PAL(SILCOON,"
+with "SPECIES_SHINY_PAL(VEMMON,"
 
-replace "EC_POKEMON(WURMPLE)"
-with "EC_POKEMON(VEEMON)"
+replace "EC_POKEMON(SILCOON)"
+with "EC_POKEMON(VEMMON)"
 
-replace "EC_POKEMON_NATIONAL(WURMPLE)"
-with "EC_POKEMON_NATIONAL(VEEMON)"
+replace "EC_POKEMON_NATIONAL(SILCOON)"
+with "EC_POKEMON_NATIONAL(VEMMON)"
 
 in "src/data/text/species_names.h"
-replace "WURMPLE"
-with "VEEMON"
+replace "SILCOON"
+with "VEMMON"

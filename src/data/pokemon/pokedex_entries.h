@@ -3192,12 +3192,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SILCOON] =
+    [NATIONAL_DEX_VEMMON] =
     {
-        .categoryName = _("COCOON"),
-        .height = 6,
-        .weight = 100,
-        .description = gSilcoonPokedexText,
+        .categoryName = _("EXPERIMENT"),
+        .height = 9,
+        .weight = 731,
+        .description = gVemmonPokedexText,
         .pokemonScale = 431,
         .pokemonOffset = 19,
         .trainerScale = 256,

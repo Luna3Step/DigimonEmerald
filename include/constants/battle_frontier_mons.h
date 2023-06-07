@@ -12,7 +12,7 @@
 #define FRONTIER_MON_DODOMON        8
 #define FRONTIER_MON_JYARIMON         9
 #define FRONTIER_MON_GUILMON_X          10
-#define FRONTIER_MON_SILCOON        11
+#define FRONTIER_MON_VEMMON        11
 #define FRONTIER_MON_CASCOON        12
 #define FRONTIER_MON_HACKMON      13
 #define FRONTIER_MON_KUDAMON         14

@@ -1594,11 +1594,11 @@ const u8 gVeemonPokedexText[] = _(
     "Digital World. It's one of few Digimon\n"
     "that can perform 'Armour Digivolution'.");
 
-const u8 gSilcoonPokedexText[] = _(
-    "It prepares for evolution using the\n"
-    "energy it stored while it was a WURMPLE.\n"
-    "It keeps watch over the surroundings with\n"
-    "its two eyes.");
+const u8 gVemmonPokedexText[] = _(
+    "Vemmon is an artificial Digimon that was\n"
+    "created through extensive experimentation.\n"
+    "It only has one objective and that is to\n"
+    "fight, eat and get much stronger.");
 
 const u8 gBeautiflyPokedexText[] = _(
     "Its colorfully patterned wings are its\n"

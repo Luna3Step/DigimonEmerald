@@ -6440,7 +6440,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_VEEMON]     = TMHM_LEARNSET(0),
 
-    [SPECIES_SILCOON]     = TMHM_LEARNSET(0),
+    [SPECIES_VEMMON]     = TMHM_LEARNSET(0),
 
     [SPECIES_BEAUTIFLY]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

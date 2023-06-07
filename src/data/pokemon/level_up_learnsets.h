@@ -3803,7 +3803,7 @@ static const u16 sVeemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSilcoonLevelUpLearnset[] = {
+static const u16 sVemmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_END
