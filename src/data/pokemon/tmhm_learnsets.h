@@ -6463,7 +6463,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM46_THIEF)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_CASCOON]     = TMHM_LEARNSET(0),
+    [SPECIES_WORMMON]     = TMHM_LEARNSET(0),
 
     [SPECIES_DUSTOX]      = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

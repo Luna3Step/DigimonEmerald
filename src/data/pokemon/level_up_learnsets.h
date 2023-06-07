@@ -3823,7 +3823,7 @@ static const u16 sVorvomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCascoonLevelUpLearnset[] = {
+static const u16 sWormmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_END

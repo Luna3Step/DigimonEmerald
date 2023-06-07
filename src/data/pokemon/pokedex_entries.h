@@ -3216,12 +3216,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CASCOON] =
+    [NATIONAL_DEX_WORMMON] =
     {
-        .categoryName = _("COCOON"),
-        .height = 7,
-        .weight = 115,
-        .description = gCascoonPokedexText,
+        .categoryName = _("WORM"),
+        .height = 5,
+        .weight = 258,
+        .description = gWormmonPokedexText,
         .pokemonScale = 391,
         .pokemonOffset = 20,
         .trainerScale = 256,

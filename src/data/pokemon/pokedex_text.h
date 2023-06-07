@@ -1606,11 +1606,11 @@ const u8 gVorvomonPokedexText[] = _(
     "fly as its too heavy for its weak wings.\n"
     "It is a very passionate Digimon.");
 
-const u8 gCascoonPokedexText[] = _(
-    "To avoid detection by its enemies, it hides\n"
-    "motionlessly beneath large leaves and in\n"
-    "the gaps of branches. It also attaches\n"
-    "dead leaves to its body for camouflage.");
+const u8 gWormmonPokedexText[] = _(
+    "Its timid and cowardly personality makes\n"
+    "it a common target for Digimon. Its only\n"
+    "real strength as a Digimon is that its\n"
+    "thread is fairly useful for traps.");
 
 const u8 gDustoxPokedexText[] = _(
     "It is a nocturnal POKéMON that flies from\n"

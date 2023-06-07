@@ -3891,7 +3891,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_SWIFT)),
 
-    [SPECIES_CASCOON]          = (0),
+    [SPECIES_WORMMON]          = (0),
 
     [SPECIES_DUSTOX]           = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)

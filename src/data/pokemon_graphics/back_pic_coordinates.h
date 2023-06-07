@@ -297,7 +297,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_VEEMON]     = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 11 },
     [SPECIES_VEMMON]     = { .size = MON_COORDS_SIZE(64, 24), .y_offset = 21 },
     [SPECIES_VORVOMON]   = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
-    [SPECIES_CASCOON]     = { .size = MON_COORDS_SIZE(56, 24), .y_offset = 20 },
+    [SPECIES_WORMMON]     = { .size = MON_COORDS_SIZE(56, 24), .y_offset = 20 },
     [SPECIES_DUSTOX]      = { .size = MON_COORDS_SIZE(64, 24), .y_offset = 20 },
     [SPECIES_LOTAD]       = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 15 },
     [SPECIES_LOMBRE]      = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  8 },

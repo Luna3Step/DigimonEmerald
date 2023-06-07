@@ -2739,7 +2739,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Taylor[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_CASCOON,
+    .species = SPECIES_WORMMON,
     },
     {
     .iv = 100,
