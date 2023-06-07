@@ -1612,11 +1612,11 @@ const u8 gWormmonPokedexText[] = _(
     "real strength as a Digimon is that its\n"
     "thread is fairly useful for traps.");
 
-const u8 gDustoxPokedexText[] = _(
-    "It is a nocturnal POKéMON that flies from\n"
-    "fields and mountains to the attraction of\n"
-    "streetlights at night. It looses highly\n"
-    "toxic powder from its wings.");
+const u8 gZenimonPokedexText[] = _(
+    "If you have ever wondered where your coins\n"
+    "have dissapeared to, Zenimon is likely\n"
+    "the culprit. It likes to steal coins to\n"
+    "give to Ganemon.");
 
 const u8 gLotadPokedexText[] = _(
     "This POKéMON lives in ponds with clean\n"

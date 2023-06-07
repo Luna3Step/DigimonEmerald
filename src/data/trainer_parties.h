@@ -2744,7 +2744,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Taylor[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     }
 };
 
@@ -2770,7 +2770,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Derek[] = {
     {
     .iv = 150,
     .lvl = 16,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 150,
@@ -2848,7 +2848,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     {
     .iv = 40,
     .lvl = 38,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     .heldItem = ITEM_NONE
     },
     {
@@ -6288,7 +6288,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MiuAndYuki[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     }
 };
 
@@ -8255,7 +8255,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 20,
@@ -8273,7 +8273,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 30,
@@ -8296,7 +8296,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 40,
@@ -9203,7 +9203,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_MelAndPaul[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     .moves = {MOVE_GUST, MOVE_PSYBEAM, MOVE_TOXIC, MOVE_PROTECT}
     },
     {
@@ -10184,7 +10184,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cale[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 0,

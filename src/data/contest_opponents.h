@@ -271,7 +271,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_EVAN] = {
-        .species = SPECIES_DUSTOX,
+        .species = SPECIES_ZENIMON,
         .nickname = _("DUSTER"),
         .trainerName = _("EVAN"),
         .trainerGfxId = OBJ_EVENT_GFX_LITTLE_BOY,

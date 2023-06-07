@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CASCOON"
-with "FRONTIER_MON_WORMMON"
+replace "FRONTIER_MON_DUSTOX"
+with "FRONTIER_MON_ZENIMON"
 
-replace "gCascoonPokedexText"
-with "gWormmonPokedexText"
+replace "gDustoxPokedexText"
+with "gZenimonPokedexText"
 
-replace "NATIONAL_DEX_CASCOON"
-with "NATIONAL_DEX_WORMMON"
+replace "NATIONAL_DEX_DUSTOX"
+with "NATIONAL_DEX_ZENIMON"
 
-replace "SPECIES_CASCOON"
-with "SPECIES_WORMMON"
+replace "SPECIES_DUSTOX"
+with "SPECIES_ZENIMON"
 
-replace "HOENN_DEX_CASCOON"
-with "HOENN_DEX_WORMMON"
+replace "HOENN_DEX_DUSTOX"
+with "HOENN_DEX_ZENIMON"
 
-replace "SPECIES_TO_HOENN(CASCOON),"
-with "SPECIES_TO_HOENN(WORMMON),"
+replace "SPECIES_TO_HOENN(DUSTOX),"
+with "SPECIES_TO_HOENN(ZENIMON),"
 
-replace "SPECIES_TO_NATIONAL(CASCOON),"
-with "SPECIES_TO_NATIONAL(WORMMON),"
+replace "SPECIES_TO_NATIONAL(DUSTOX),"
+with "SPECIES_TO_NATIONAL(ZENIMON),"
 
-replace "HOENN_TO_NATIONAL(CASCOON),"
-with "HOENN_TO_NATIONAL(WORMMON),"
+replace "HOENN_TO_NATIONAL(DUSTOX),"
+with "HOENN_TO_NATIONAL(ZENIMON),"
 
-replace "EC_POKEMON_NATIONAL(CASCOON),"
-with "EC_POKEMON_NATIONAL(WORMMON),"
+replace "EC_POKEMON_NATIONAL(DUSTOX),"
+with "EC_POKEMON_NATIONAL(ZENIMON),"
 
-replace "egg_moves(CASCOON,"
-with "egg_moves(WORMMON,"
+replace "egg_moves(DUSTOX,"
+with "egg_moves(ZENIMON,"
 
-replace "sCascoonLevelUpLearnset"
-with "sWormmonLevelUpLearnset"
+replace "sDustoxLevelUpLearnset"
+with "sZenimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CASCOON"
-with "SPECIES_SPRITE(WORMMON"
+replace "SPECIES_SPRITE(DUSTOX"
+with "SPECIES_SPRITE(ZENIMON"
 
-replace "SPECIES_PAL(CASCOON,"
-with "SPECIES_PAL(WORMMON,"
+replace "SPECIES_PAL(DUSTOX,"
+with "SPECIES_PAL(ZENIMON,"
 
-replace "SPECIES_SHINY_PAL(CASCOON,"
-with "SPECIES_SHINY_PAL(WORMMON,"
+replace "SPECIES_SHINY_PAL(DUSTOX,"
+with "SPECIES_SHINY_PAL(ZENIMON,"
 
-replace "EC_POKEMON(CASCOON)"
-with "EC_POKEMON(WORMMON)"
+replace "EC_POKEMON(DUSTOX)"
+with "EC_POKEMON(ZENIMON)"
 
-replace "EC_POKEMON_NATIONAL(CASCOON)"
-with "EC_POKEMON_NATIONAL(WORMMON)"
+replace "EC_POKEMON_NATIONAL(DUSTOX)"
+with "EC_POKEMON_NATIONAL(ZENIMON)"
 
 in "src/data/text/species_names.h"
-replace "CASCOON"
-with "WORMMON"
+replace "DUSTOX"
+with "ZENIMON"

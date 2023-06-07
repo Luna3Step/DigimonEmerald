@@ -3893,7 +3893,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_WORMMON]          = (0),
 
-    [SPECIES_DUSTOX]           = (TUTOR(MOVE_DOUBLE_EDGE)
+    [SPECIES_ZENIMON]           = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_SUBSTITUTE)
                                 | TUTOR(MOVE_SNORE)

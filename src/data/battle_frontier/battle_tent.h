@@ -775,7 +775,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_MODEST
     },
     [SLATEPORT_TENT_MON_DUSTOX] = {
-        .species = SPECIES_DUSTOX,
+        .species = SPECIES_ZENIMON,
         .moves = {MOVE_POISON_STING, MOVE_MOONLIGHT, MOVE_PROTECT, MOVE_GUST},
         .itemTableId = BATTLE_FRONTIER_ITEM_ORAN_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -1821,7 +1821,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [VERDANTURF_TENT_MON_DUSTOX] = {
-        .species = SPECIES_DUSTOX,
+        .species = SPECIES_ZENIMON,
         .moves = {MOVE_CONFUSION, MOVE_MOONLIGHT, MOVE_PROTECT, MOVE_FLASH},
         .itemTableId = BATTLE_FRONTIER_ITEM_SILVER_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE,
@@ -2765,7 +2765,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_QUIRKY
     },
     [FALLARBOR_TENT_MON_DUSTOX] = {
-        .species = SPECIES_DUSTOX,
+        .species = SPECIES_ZENIMON,
         .moves = {MOVE_MOONLIGHT, MOVE_HARDEN, MOVE_POISON_STING, MOVE_PSYBEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE,

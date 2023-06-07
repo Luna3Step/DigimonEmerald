@@ -3829,7 +3829,7 @@ static const u16 sWormmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDustoxLevelUpLearnset[] = {
+static const u16 sZenimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE(10, MOVE_CONFUSION),
     LEVEL_UP_MOVE(13, MOVE_GUST),

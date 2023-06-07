@@ -86,7 +86,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .friendship = MAX_FRIENDSHIP
             },
             [4] = {
-                .species = SPECIES_DUSTOX,
+                .species = SPECIES_ZENIMON,
                 .heldItem = ITEM_BRIGHT_POWDER,
                 .moves = { MOVE_SILVER_WIND, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_GIGA_DRAIN },
                 .hpEV = 0,

@@ -820,7 +820,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("ONE YEN"),
         .height = 1,
-        .weight = 20,
+        .weight = 1,
         .description = gKozenimonPokedexText,
         .pokemonScale = 280,
         .pokemonOffset = 1,
@@ -3228,12 +3228,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUSTOX] =
+    [NATIONAL_DEX_ZENIMON] =
     {
-        .categoryName = _("POISON MOTH"),
-        .height = 12,
-        .weight = 316,
-        .description = gDustoxPokedexText,
+        .categoryName = _("YEN"),
+        .height = 1,
+        .weight = 1,
+        .description = gZenimonPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 1,
         .trainerScale = 256,

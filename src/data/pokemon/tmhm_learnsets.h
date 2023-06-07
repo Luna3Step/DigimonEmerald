@@ -6465,7 +6465,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_WORMMON]     = TMHM_LEARNSET(0),
 
-    [SPECIES_DUSTOX]      = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_ZENIMON]      = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
