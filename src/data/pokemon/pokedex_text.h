@@ -1618,11 +1618,11 @@ const u8 gZenimonPokedexText[] = _(
     "the culprit. It likes to steal coins to\n"
     "give to Ganemon.");
 
-const u8 gLotadPokedexText[] = _(
-    "This POKéMON lives in ponds with clean\n"
-    "water. It is known to ferry small POKéMON\n"
-    "across ponds by carrying them on the\n"
-    "broad leaf on its head.");
+const u8 gZubamonPokedexText[] = _(
+    "Often Zubamon can be heard shouting 'I am\n"
+    "the Twentiest'. If you ask it what that\n"
+    "means, it will not be able to explain as\n"
+    "it doesn't understand itself.");
 
 const u8 gLombrePokedexText[] = _(
     "In the evening, it takes great delight in\n"

@@ -939,7 +939,7 @@ const u16 gEggMoves[] = {
               MOVE_TICKLE,
               MOVE_TRICK),
 
-    egg_moves(LOTAD,
+    egg_moves(ZUBAMON,
               MOVE_SYNTHESIS,
               MOVE_RAZOR_LEAF,
               MOVE_SWEET_SCENT,

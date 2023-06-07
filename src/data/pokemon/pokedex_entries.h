@@ -3240,12 +3240,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOTAD] =
+    [NATIONAL_DEX_ZUBAMON] =
     {
-        .categoryName = _("WATER WEED"),
-        .height = 5,
-        .weight = 26,
-        .description = gLotadPokedexText,
+        .categoryName = _("SWORD"),
+        .height = 9,
+        .weight = 754,
+        .description = gZubamonPokedexText,
         .pokemonScale = 406,
         .pokemonOffset = 19,
         .trainerScale = 256,

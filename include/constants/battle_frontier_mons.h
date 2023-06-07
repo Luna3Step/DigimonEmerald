@@ -20,7 +20,7 @@
 #define FRONTIER_MON_GAZIMON        16
 #define FRONTIER_MON_GUMDRAMON         17
 #define FRONTIER_MON_SEEDOT         18
-#define FRONTIER_MON_LOTAD          19
+#define FRONTIER_MON_ZUBAMON          19
 #define FRONTIER_MON_TINKERMON      20
 #define FRONTIER_MON_SHEDINJA       21
 #define FRONTIER_MON_MAKUHITA       22

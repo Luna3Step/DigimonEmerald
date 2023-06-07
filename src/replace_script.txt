@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_DUSTOX"
-with "FRONTIER_MON_ZENIMON"
+replace "FRONTIER_MON_LOTAD"
+with "FRONTIER_MON_ZUBAMON"
 
-replace "gDustoxPokedexText"
-with "gZenimonPokedexText"
+replace "gLotadPokedexText"
+with "gZubamonPokedexText"
 
-replace "NATIONAL_DEX_DUSTOX"
-with "NATIONAL_DEX_ZENIMON"
+replace "NATIONAL_DEX_LOTAD"
+with "NATIONAL_DEX_ZUBAMON"
 
-replace "SPECIES_DUSTOX"
-with "SPECIES_ZENIMON"
+replace "SPECIES_LOTAD"
+with "SPECIES_ZUBAMON"
 
-replace "HOENN_DEX_DUSTOX"
-with "HOENN_DEX_ZENIMON"
+replace "HOENN_DEX_LOTAD"
+with "HOENN_DEX_ZUBAMON"
 
-replace "SPECIES_TO_HOENN(DUSTOX),"
-with "SPECIES_TO_HOENN(ZENIMON),"
+replace "SPECIES_TO_HOENN(LOTAD),"
+with "SPECIES_TO_HOENN(ZUBAMON),"
 
-replace "SPECIES_TO_NATIONAL(DUSTOX),"
-with "SPECIES_TO_NATIONAL(ZENIMON),"
+replace "SPECIES_TO_NATIONAL(LOTAD),"
+with "SPECIES_TO_NATIONAL(ZUBAMON),"
 
-replace "HOENN_TO_NATIONAL(DUSTOX),"
-with "HOENN_TO_NATIONAL(ZENIMON),"
+replace "HOENN_TO_NATIONAL(LOTAD),"
+with "HOENN_TO_NATIONAL(ZUBAMON),"
 
-replace "EC_POKEMON_NATIONAL(DUSTOX),"
-with "EC_POKEMON_NATIONAL(ZENIMON),"
+replace "EC_POKEMON_NATIONAL(LOTAD),"
+with "EC_POKEMON_NATIONAL(ZUBAMON),"
 
-replace "egg_moves(DUSTOX,"
-with "egg_moves(ZENIMON,"
+replace "egg_moves(LOTAD,"
+with "egg_moves(ZUBAMON,"
 
-replace "sDustoxLevelUpLearnset"
-with "sZenimonLevelUpLearnset"
+replace "sLotadLevelUpLearnset"
+with "sZubamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(DUSTOX"
-with "SPECIES_SPRITE(ZENIMON"
+replace "SPECIES_SPRITE(LOTAD"
+with "SPECIES_SPRITE(ZUBAMON"
 
-replace "SPECIES_PAL(DUSTOX,"
-with "SPECIES_PAL(ZENIMON,"
+replace "SPECIES_PAL(LOTAD,"
+with "SPECIES_PAL(ZUBAMON,"
 
-replace "SPECIES_SHINY_PAL(DUSTOX,"
-with "SPECIES_SHINY_PAL(ZENIMON,"
+replace "SPECIES_SHINY_PAL(LOTAD,"
+with "SPECIES_SHINY_PAL(ZUBAMON,"
 
-replace "EC_POKEMON(DUSTOX)"
-with "EC_POKEMON(ZENIMON)"
+replace "EC_POKEMON(LOTAD)"
+with "EC_POKEMON(ZUBAMON)"
 
-replace "EC_POKEMON_NATIONAL(DUSTOX)"
-with "EC_POKEMON_NATIONAL(ZENIMON)"
+replace "EC_POKEMON_NATIONAL(LOTAD)"
+with "EC_POKEMON_NATIONAL(ZUBAMON)"
 
 in "src/data/text/species_names.h"
-replace "DUSTOX"
-with "ZENIMON"
+replace "LOTAD"
+with "ZUBAMON"

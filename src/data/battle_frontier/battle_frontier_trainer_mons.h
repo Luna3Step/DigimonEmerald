@@ -15,7 +15,7 @@
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
     FRONTIER_MON_SEEDOT,        \
-    FRONTIER_MON_LOTAD,         \
+    FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_TINKERMON,     \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_MAKUHITA,      \
@@ -212,7 +212,7 @@
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_FEEBAS,        \
     FRONTIER_MON_KUDAMON,        \
-    FRONTIER_MON_LOTAD,         \
+    FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_SURSKIT,       \
@@ -394,7 +394,7 @@
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
     FRONTIER_MON_SEEDOT,        \
-    FRONTIER_MON_LOTAD,         \
+    FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_TINKERMON,     \
     FRONTIER_MON_WHISMUR,       \
     FRONTIER_MON_TOYAGUMON,     \
@@ -617,7 +617,7 @@
 #define FRONTIER_MONS_PARASOL_LADY_1 \
     FRONTIER_MON_KOKUWAMON,       \
     FRONTIER_MON_KUDAMON,        \
-    FRONTIER_MON_LOTAD,         \
+    FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_JAZAMON,        \
     FRONTIER_MON_SURSKIT,       \
     FRONTIER_MON_TRAPINCH,      \
@@ -637,7 +637,7 @@
     FRONTIER_MON_KOKUWAMON,       \
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_SEEDOT,        \
-    FRONTIER_MON_LOTAD,         \
+    FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_KERAMON,        \
     FRONTIER_MON_WYNAUT,        \
     FRONTIER_MON_KIRLIA,        \

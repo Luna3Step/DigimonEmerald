@@ -925,7 +925,7 @@ const u16 gEasyChatWordsByLetter_L[] = {
     EC_WORD_LOSING,
     EC_WORD_LOSS,
     EC_WORD_LOST,
-    EC_POKEMON(LOTAD),
+    EC_POKEMON(ZUBAMON),
     EC_POKEMON(LOUDRED),
     EC_WORD_LOUSY,
     EC_MOVE(LOVELY_KISS),
