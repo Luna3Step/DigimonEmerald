@@ -1600,11 +1600,11 @@ const u8 gVemmonPokedexText[] = _(
     "It only has one objective and that is to\n"
     "fight, eat and get much stronger.");
 
-const u8 gBeautiflyPokedexText[] = _(
-    "Its colorfully patterned wings are its\n"
-    "most prominent feature. It flies through\n"
-    "flower-covered fields collecting pollen.\n"
-    "It attacks ferociously when angered.");
+const u8 gVorvomonPokedexText[] = _(
+    "Vorvomons body is made up of hard, hot\n"
+    "ore, this body inhibits its ability to\n"
+    "fly as its too heavy for its weak wings.\n"
+    "It is a very passionate Digimon.");
 
 const u8 gCascoonPokedexText[] = _(
     "To avoid detection by its enemies, it hides\n"

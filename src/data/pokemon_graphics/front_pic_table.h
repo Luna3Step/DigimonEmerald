@@ -292,7 +292,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(TSUKAIMON, gMonFrontPic_Linoone),
     SPECIES_SPRITE(VEEMON, gMonFrontPic_Wurmple),
     SPECIES_SPRITE(VEMMON, gMonFrontPic_Silcoon),
-    SPECIES_SPRITE(BEAUTIFLY, gMonFrontPic_Beautifly),
+    SPECIES_SPRITE(VORVOMON, gMonFrontPic_Beautifly),
     SPECIES_SPRITE(CASCOON, gMonFrontPic_Cascoon),
     SPECIES_SPRITE(DUSTOX, gMonFrontPic_Dustox),
     SPECIES_SPRITE(LOTAD, gMonFrontPic_Lotad),

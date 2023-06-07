@@ -3809,7 +3809,7 @@ static const u16 sVemmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBeautiflyLevelUpLearnset[] = {
+static const u16 sVorvomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE(10, MOVE_ABSORB),
     LEVEL_UP_MOVE(13, MOVE_GUST),

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SILCOON"
-with "FRONTIER_MON_VEMMON"
+replace "FRONTIER_MON_BEAUTIFLY"
+with "FRONTIER_MON_VORVOMON"
 
-replace "gSilcoonPokedexText"
-with "gVemmonPokedexText"
+replace "gBeautiflyPokedexText"
+with "gVorvomonPokedexText"
 
-replace "NATIONAL_DEX_SILCOON"
-with "NATIONAL_DEX_VEMMON"
+replace "NATIONAL_DEX_BEAUTIFLY"
+with "NATIONAL_DEX_VORVOMON"
 
-replace "SPECIES_SILCOON"
-with "SPECIES_VEMMON"
+replace "SPECIES_BEAUTIFLY"
+with "SPECIES_VORVOMON"
 
-replace "HOENN_DEX_SILCOON"
-with "HOENN_DEX_VEMMON"
+replace "HOENN_DEX_BEAUTIFLY"
+with "HOENN_DEX_VORVOMON"
 
-replace "SPECIES_TO_HOENN(SILCOON),"
-with "SPECIES_TO_HOENN(VEMMON),"
+replace "SPECIES_TO_HOENN(BEAUTIFLY),"
+with "SPECIES_TO_HOENN(VORVOMON),"
 
-replace "SPECIES_TO_NATIONAL(SILCOON),"
-with "SPECIES_TO_NATIONAL(VEMMON),"
+replace "SPECIES_TO_NATIONAL(BEAUTIFLY),"
+with "SPECIES_TO_NATIONAL(VORVOMON),"
 
-replace "HOENN_TO_NATIONAL(SILCOON),"
-with "HOENN_TO_NATIONAL(VEMMON),"
+replace "HOENN_TO_NATIONAL(BEAUTIFLY),"
+with "HOENN_TO_NATIONAL(VORVOMON),"
 
-replace "EC_POKEMON_NATIONAL(SILCOON),"
-with "EC_POKEMON_NATIONAL(VEMMON),"
+replace "EC_POKEMON_NATIONAL(BEAUTIFLY),"
+with "EC_POKEMON_NATIONAL(VORVOMON),"
 
-replace "egg_moves(SILCOON,"
-with "egg_moves(VEMMON,"
+replace "egg_moves(BEAUTIFLY,"
+with "egg_moves(VORVOMON,"
 
-replace "sSilcoonLevelUpLearnset"
-with "sVemmonLevelUpLearnset"
+replace "sBeautiflyLevelUpLearnset"
+with "sVorvomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SILCOON"
-with "SPECIES_SPRITE(VEMMON"
+replace "SPECIES_SPRITE(BEAUTIFLY"
+with "SPECIES_SPRITE(VORVOMON"
 
-replace "SPECIES_PAL(SILCOON,"
-with "SPECIES_PAL(VEMMON,"
+replace "SPECIES_PAL(BEAUTIFLY,"
+with "SPECIES_PAL(VORVOMON,"
 
-replace "SPECIES_SHINY_PAL(SILCOON,"
-with "SPECIES_SHINY_PAL(VEMMON,"
+replace "SPECIES_SHINY_PAL(BEAUTIFLY,"
+with "SPECIES_SHINY_PAL(VORVOMON,"
 
-replace "EC_POKEMON(SILCOON)"
-with "EC_POKEMON(VEMMON)"
+replace "EC_POKEMON(BEAUTIFLY)"
+with "EC_POKEMON(VORVOMON)"
 
-replace "EC_POKEMON_NATIONAL(SILCOON)"
-with "EC_POKEMON_NATIONAL(VEMMON)"
+replace "EC_POKEMON_NATIONAL(BEAUTIFLY)"
+with "EC_POKEMON_NATIONAL(VORVOMON)"
 
 in "src/data/text/species_names.h"
-replace "SILCOON"
-with "VEMMON"
+replace "BEAUTIFLY"
+with "VORVOMON"

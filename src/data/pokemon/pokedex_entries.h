@@ -3204,12 +3204,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BEAUTIFLY] =
+    [NATIONAL_DEX_VORVOMON] =
     {
-        .categoryName = _("BUTTERFLY"),
-        .height = 10,
-        .weight = 284,
-        .description = gBeautiflyPokedexText,
+        .categoryName = _("ROCK DRAGON"),
+        .height = 7,
+        .weight = 835,
+        .description = gVorvomonPokedexText,
         .pokemonScale = 298,
         .pokemonOffset = -1,
         .trainerScale = 256,

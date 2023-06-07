@@ -6442,7 +6442,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_VEMMON]     = TMHM_LEARNSET(0),
 
-    [SPECIES_BEAUTIFLY]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+    [SPECIES_VORVOMON]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)

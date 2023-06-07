@@ -3882,7 +3882,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_VEMMON]          = (0),
 
-    [SPECIES_BEAUTIFLY]        = (TUTOR(MOVE_DOUBLE_EDGE)
+    [SPECIES_VORVOMON]        = (TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_SUBSTITUTE)
                                 | TUTOR(MOVE_SNORE)
