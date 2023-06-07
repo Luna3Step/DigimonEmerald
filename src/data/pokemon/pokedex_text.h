@@ -1624,11 +1624,11 @@ const u8 gZubamonPokedexText[] = _(
     "means, it will not be able to explain as\n"
     "it doesn't understand itself.");
 
-const u8 gLombrePokedexText[] = _(
-    "In the evening, it takes great delight in\n"
-    "popping out of rivers and startling people.\n"
-    "It feeds on aquatic moss that grows on\n"
-    "rocks in the riverbed.");
+const u8 gAegiomonPokedexText[] = _(
+    "Aegiomon has the appearance of a human with\n"
+    "the lower body of a goat. It likes to play\n"
+    "music with the pipes 'Syinx' that hand\n"
+    "on on its waist.");
 
 const u8 gLudicoloPokedexText[] = _(
     "When it hears festive music, all the cells\n"

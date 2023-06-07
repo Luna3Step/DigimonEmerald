@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LOTAD"
-with "FRONTIER_MON_ZUBAMON"
+replace "FRONTIER_MON_LOMBRE"
+with "FRONTIER_MON_AEGIOMON"
 
-replace "gLotadPokedexText"
-with "gZubamonPokedexText"
+replace "gLombrePokedexText"
+with "gAegiomonPokedexText"
 
-replace "NATIONAL_DEX_LOTAD"
-with "NATIONAL_DEX_ZUBAMON"
+replace "NATIONAL_DEX_LOMBRE"
+with "NATIONAL_DEX_AEGIOMON"
 
-replace "SPECIES_LOTAD"
-with "SPECIES_ZUBAMON"
+replace "SPECIES_LOMBRE"
+with "SPECIES_AEGIOMON"
 
-replace "HOENN_DEX_LOTAD"
-with "HOENN_DEX_ZUBAMON"
+replace "HOENN_DEX_LOMBRE"
+with "HOENN_DEX_AEGIOMON"
 
-replace "SPECIES_TO_HOENN(LOTAD),"
-with "SPECIES_TO_HOENN(ZUBAMON),"
+replace "SPECIES_TO_HOENN(LOMBRE),"
+with "SPECIES_TO_HOENN(AEGIOMON),"
 
-replace "SPECIES_TO_NATIONAL(LOTAD),"
-with "SPECIES_TO_NATIONAL(ZUBAMON),"
+replace "SPECIES_TO_NATIONAL(LOMBRE),"
+with "SPECIES_TO_NATIONAL(AEGIOMON),"
 
-replace "HOENN_TO_NATIONAL(LOTAD),"
-with "HOENN_TO_NATIONAL(ZUBAMON),"
+replace "HOENN_TO_NATIONAL(LOMBRE),"
+with "HOENN_TO_NATIONAL(AEGIOMON),"
 
-replace "EC_POKEMON_NATIONAL(LOTAD),"
-with "EC_POKEMON_NATIONAL(ZUBAMON),"
+replace "EC_POKEMON_NATIONAL(LOMBRE),"
+with "EC_POKEMON_NATIONAL(AEGIOMON),"
 
-replace "egg_moves(LOTAD,"
-with "egg_moves(ZUBAMON,"
+replace "egg_moves(LOMBRE,"
+with "egg_moves(AEGIOMON,"
 
-replace "sLotadLevelUpLearnset"
-with "sZubamonLevelUpLearnset"
+replace "sLombreLevelUpLearnset"
+with "sAegiomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LOTAD"
-with "SPECIES_SPRITE(ZUBAMON"
+replace "SPECIES_SPRITE(LOMBRE"
+with "SPECIES_SPRITE(AEGIOMON"
 
-replace "SPECIES_PAL(LOTAD,"
-with "SPECIES_PAL(ZUBAMON,"
+replace "SPECIES_PAL(LOMBRE,"
+with "SPECIES_PAL(AEGIOMON,"
 
-replace "SPECIES_SHINY_PAL(LOTAD,"
-with "SPECIES_SHINY_PAL(ZUBAMON,"
+replace "SPECIES_SHINY_PAL(LOMBRE,"
+with "SPECIES_SHINY_PAL(AEGIOMON,"
 
-replace "EC_POKEMON(LOTAD)"
-with "EC_POKEMON(ZUBAMON)"
+replace "EC_POKEMON(LOMBRE)"
+with "EC_POKEMON(AEGIOMON)"
 
-replace "EC_POKEMON_NATIONAL(LOTAD)"
-with "EC_POKEMON_NATIONAL(ZUBAMON)"
+replace "EC_POKEMON_NATIONAL(LOMBRE)"
+with "EC_POKEMON_NATIONAL(AEGIOMON)"
 
 in "src/data/text/species_names.h"
-replace "LOTAD"
-with "ZUBAMON"
+replace "LOMBRE"
+with "AEGIOMON"
