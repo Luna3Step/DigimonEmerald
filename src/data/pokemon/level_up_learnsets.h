@@ -3778,7 +3778,7 @@ static const u16 sToyagumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLinooneLevelUpLearnset[] = {
+static const u16 sTsukaimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),

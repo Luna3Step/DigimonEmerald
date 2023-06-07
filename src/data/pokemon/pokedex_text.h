@@ -1582,11 +1582,11 @@ const u8 gToyagumonPokedexText[] = _(
     "spends most of its days communicating\n"
     "with them over the internet.");
 
-const u8 gLinoonePokedexText[] = _(
-    "It is exceedingly fast if it only has to run\n"
-    "in a straight line. When it spots pond-\n"
-    "dwelling prey underwater, it quickly leaps\n"
-    "in and catches it with its sharp claws.");
+const u8 gTsukaimonPokedexText[] = _(
+    "It is assumed that Tsuikaimon is a\n"
+    "subspecies of Patamon. It is almost the\n"
+    "exact opposite in behaviour though as it\n"
+    "loves to get into fights.");
 
 const u8 gWurmplePokedexText[] = _(
     "It sticks to tree branches and eats\n"

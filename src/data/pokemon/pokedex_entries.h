@@ -3168,12 +3168,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LINOONE] =
+    [NATIONAL_DEX_TSUKAIMON] =
     {
-        .categoryName = _("RUSHING"),
-        .height = 5,
-        .weight = 325,
-        .description = gLinoonePokedexText,
+        .categoryName = _("GUINEA PIG"),
+        .height = 7,
+        .weight = 310,
+        .description = gTsukaimonPokedexText,
         .pokemonScale = 321,
         .pokemonOffset = 7,
         .trainerScale = 256,
