@@ -6538,7 +6538,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
-    [SPECIES_LUDICOLO]    = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_AGUNIMON]    = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM07_HAIL)

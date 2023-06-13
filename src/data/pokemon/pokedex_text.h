@@ -1630,11 +1630,11 @@ const u8 gAegiomonPokedexText[] = _(
     "music with the pipes 'Syinx' that hand\n"
     "on on its waist.");
 
-const u8 gLudicoloPokedexText[] = _(
-    "When it hears festive music, all the cells\n"
-    "in its body become stimulated, and it\n"
-    "begins moving in rhythm. It does not\n"
-    "quail even when it faces a tough opponent.");
+const u8 gAgunimonPokedexText[] = _(
+    "Agunimons DigiCore is wrapped in the\n"
+    "Spiritual Fire is which gives it the\n"
+    "ability to freely manipulate flames. It is\n"
+    "said that it is descendant of AncientGreymon.");
 
 const u8 gSeedotPokedexText[] = _(
     "It hangs off branches and absorbs\n"

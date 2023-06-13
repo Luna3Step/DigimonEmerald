@@ -3264,12 +3264,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUDICOLO] =
+    [NATIONAL_DEX_AGUNIMON] =
     {
-        .categoryName = _("CAREFREE"),
-        .height = 15,
-        .weight = 550,
-        .description = gLudicoloPokedexText,
+        .categoryName = _("ANCIENT"),
+        .height = 21,
+        .weight = 826,
+        .description = gAgunimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,

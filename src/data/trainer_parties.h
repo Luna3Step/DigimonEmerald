@@ -1105,7 +1105,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Warren[] = {
     {
     .iv = 100,
     .lvl = 33,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     }
 };
 
@@ -1229,7 +1229,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Michelle[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     }
 };
 
@@ -4429,7 +4429,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_GIGA_DRAIN, MOVE_SURF, MOVE_LEECH_SEED, MOVE_DOUBLE_TEAM}
     },
@@ -6739,7 +6739,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin5[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 0,
@@ -8920,7 +8920,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTreecko[]
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 200,
@@ -8938,7 +8938,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTorchic[]
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 150,
@@ -8989,7 +8989,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 200,
@@ -9007,7 +9007,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTorchic[] = {
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 150,
@@ -12293,7 +12293,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 40,

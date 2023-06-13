@@ -3868,7 +3868,7 @@ static const u16 sAegiomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLudicoloLevelUpLearnset[] = {
+static const u16 sAgunimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),

@@ -933,7 +933,7 @@ const u16 gEasyChatWordsByLetter_L[] = {
     EC_WORD_LOW,
     EC_MOVE(LOW_KICK),
     EC_WORD_LOWS,
-    EC_POKEMON(LUDICOLO),
+    EC_POKEMON(AGUNIMON),
     EC_POKEMON_NATIONAL(SPARROWMON),
     EC_WORD_LUKEWARM,
     EC_POKEMON(LUNATONE),
@@ -2496,7 +2496,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRu[] = {
     EC_WORD_RUBY,
     EC_WORD_THAN,
     EC_POKEMON(AZURILL),
-    EC_POKEMON(LUDICOLO),
+    EC_POKEMON(AGUNIMON),
     EC_WORD_HAPPILY,
 };
 

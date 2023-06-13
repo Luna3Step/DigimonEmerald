@@ -83,7 +83,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round2[] =
         .moves = {MOVE_TOXIC, MOVE_FLY, MOVE_STEEL_WING, MOVE_NONE}
     },
     {
-        .species = SPECIES_LUDICOLO,
+        .species = SPECIES_AGUNIMON,
         .lvl = 40,
         .abilityNum = 1,
         .moves = {MOVE_TOXIC, MOVE_PROTECT, MOVE_DIVE, MOVE_RAIN_DANCE}
@@ -753,7 +753,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round15[] =
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SURF, MOVE_NONE}
     },
     {
-        .species = SPECIES_LUDICOLO,
+        .species = SPECIES_AGUNIMON,
         .lvl = 48,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_PROTECT, MOVE_SOLAR_BEAM, MOVE_TOXIC, MOVE_ICE_BEAM}
