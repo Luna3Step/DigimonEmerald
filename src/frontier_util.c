@@ -223,7 +223,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_CONFUSE_RAY, MOVE_DOUBLE_TEAM, MOVE_TOXIC, MOVE_FLY},
             },
             {
-                .species = SPECIES_SLAKING,
+                .species = SPECIES_BABOONMON,
                 .heldItem = ITEM_SCOPE_LENS,
                 .fixedIV = 16,
                 .nature = NATURE_HARDY,
@@ -250,7 +250,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_OVERHEAT, MOVE_EXTREME_SPEED, MOVE_ROAR, MOVE_PROTECT},
             },
             {
-                .species = SPECIES_SLAKING,
+                .species = SPECIES_BABOONMON,
                 .heldItem = ITEM_SCOPE_LENS,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_HARDY,

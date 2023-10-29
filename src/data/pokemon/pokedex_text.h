@@ -1732,11 +1732,11 @@ const u8 gAxemonPokedexText[] = _(
     "Its speed however doesn't let it be very\n"
     "nimble so it can only charge opponents.");
 
-const u8 gSlakingPokedexText[] = _(
-    "Hordes of SLAKING gather around trees\n"
-    "when fruits come into season. They wait\n"
-    "around patiently for ripened fruits to fall\n"
-    "out of the trees.");
+const u8 gBaboonmonPokedexText[] = _(
+    "The rocks on Baboongamons skin regenerate\n"
+    "everytime they break, in doing so they become\n"
+    "even tougher. The Baboongamon with the\n"
+    "toughest rocks is the leader.");
 
 const u8 gNincadaPokedexText[] = _(
     "It makes its nest at the roots of a mighty\n"

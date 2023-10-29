@@ -3468,12 +3468,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SLAKING] =
+    [NATIONAL_DEX_BABOONMON] =
     {
-        .categoryName = _("LAZY"),
-        .height = 20,
-        .weight = 1305,
-        .description = gSlakingPokedexText,
+        .categoryName = _("BABOON"),
+        .height = 30,
+        .weight = 963,
+        .description = gBaboonmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 300,

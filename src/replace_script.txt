@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_VIGOROTH"
-with "FRONTIER_MON_AXEMON"
+replace "FRONTIER_MON_SLAKING"
+with "FRONTIER_MON_BABOONMON"
 
-replace "gVigorothPokedexText"
-with "gAxemonPokedexText"
+replace "gSlakingPokedexText"
+with "gBaboonmonPokedexText"
 
-replace "NATIONAL_DEX_VIGOROTH"
-with "NATIONAL_DEX_AXEMON"
+replace "NATIONAL_DEX_SLAKING"
+with "NATIONAL_DEX_BABOONMON"
 
-replace "SPECIES_VIGOROTH"
-with "SPECIES_AXEMON"
+replace "SPECIES_SLAKING"
+with "SPECIES_BABOONMON"
 
-replace "HOENN_DEX_VIGOROTH"
-with "HOENN_DEX_AXEMON"
+replace "HOENN_DEX_SLAKING"
+with "HOENN_DEX_BABOONMON"
 
-replace "SPECIES_TO_HOENN(VIGOROTH),"
-with "SPECIES_TO_HOENN(AXEMON),"
+replace "SPECIES_TO_HOENN(SLAKING),"
+with "SPECIES_TO_HOENN(BABOONMON),"
 
-replace "SPECIES_TO_NATIONAL(VIGOROTH),"
-with "SPECIES_TO_NATIONAL(AXEMON),"
+replace "SPECIES_TO_NATIONAL(SLAKING),"
+with "SPECIES_TO_NATIONAL(BABOONMON),"
 
-replace "HOENN_TO_NATIONAL(VIGOROTH),"
-with "HOENN_TO_NATIONAL(AXEMON),"
+replace "HOENN_TO_NATIONAL(SLAKING),"
+with "HOENN_TO_NATIONAL(BABOONMON),"
 
-replace "EC_POKEMON_NATIONAL(VIGOROTH),"
-with "EC_POKEMON_NATIONAL(AXEMON),"
+replace "EC_POKEMON_NATIONAL(SLAKING),"
+with "EC_POKEMON_NATIONAL(BABOONMON),"
 
-replace "egg_moves(VIGOROTH,"
-with "egg_moves(AXEMON,"
+replace "egg_moves(SLAKING,"
+with "egg_moves(BABOONMON,"
 
-replace "sVigorothLevelUpLearnset"
-with "sAxemonLevelUpLearnset"
+replace "sSlakingLevelUpLearnset"
+with "sBaboonmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(VIGOROTH"
-with "SPECIES_SPRITE(AXEMON"
+replace "SPECIES_SPRITE(SLAKING"
+with "SPECIES_SPRITE(BABOONMON"
 
-replace "SPECIES_PAL(VIGOROTH,"
-with "SPECIES_PAL(AXEMON,"
+replace "SPECIES_PAL(SLAKING,"
+with "SPECIES_PAL(BABOONMON,"
 
-replace "SPECIES_SHINY_PAL(VIGOROTH,"
-with "SPECIES_SHINY_PAL(AXEMON,"
+replace "SPECIES_SHINY_PAL(SLAKING,"
+with "SPECIES_SHINY_PAL(BABOONMON,"
 
-replace "EC_POKEMON(VIGOROTH)"
-with "EC_POKEMON(AXEMON)"
+replace "EC_POKEMON(SLAKING)"
+with "EC_POKEMON(BABOONMON)"
 
-replace "EC_POKEMON_NATIONAL(VIGOROTH)"
-with "EC_POKEMON_NATIONAL(AXEMON)"
+replace "EC_POKEMON_NATIONAL(SLAKING)"
+with "EC_POKEMON_NATIONAL(BABOONMON)"
 
 in "src/data/text/species_names.h"
-replace "VIGOROTH"
-with "AXEMON"
+replace "SLAKING"
+with "BABOONMON"

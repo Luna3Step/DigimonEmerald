@@ -4920,7 +4920,7 @@ static const u16 sAxemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSlakingLevelUpLearnset[] = {
+static const u16 sBaboonmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
     LEVEL_UP_MOVE( 1, MOVE_ENCORE),
