@@ -3420,12 +3420,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHROOMISH] =
+    [NATIONAL_DEX_ARESDRAMON] =
     {
-        .categoryName = _("MUSHROOM"),
-        .height = 4,
-        .weight = 45,
-        .description = gShroomishPokedexText,
+        .categoryName = _("ARRESTER"),
+        .height = 25,
+        .weight = 905,
+        .description = gAresdramonPokedexText,
         .pokemonScale = 513,
         .pokemonOffset = 22,
         .trainerScale = 256,

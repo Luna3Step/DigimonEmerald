@@ -1708,11 +1708,11 @@ const u8 gArgomon_championPokedexText[] = _(
     "fire power. The swarms of weaker Argomon\n"
     "makes up for its average strength.");
 
-const u8 gShroomishPokedexText[] = _(
-    "It loves to eat damp, composted soil in\n"
-    "forests. If you enter a forest after a\n"
-    "long rain, you can see many SHROOMISH\n"
-    "feasting on composted soil.");
+const u8 gAresdramonPokedexText[] = _(
+    "The clothing on its body is a special\n"
+    "rubber battle armour. This further \n"
+    "strengthen its flexibility and defensive\n"
+    "capabilties.");
 
 const u8 gBreloomPokedexText[] = _(
     "It scatters spores from holes in the cap\n"

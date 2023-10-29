@@ -383,7 +383,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_GRANT] = {
-        .species = SPECIES_SHROOMISH,
+        .species = SPECIES_ARESDRAMON,
         .nickname = _("SMISH"),
         .trainerName = _("GRANT"),
         .trainerGfxId = OBJ_EVENT_GFX_YOUNGSTER,
