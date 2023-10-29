@@ -1768,11 +1768,11 @@ const u8 gBaromonPokedexText[] = _(
     "eye, lets it swiftly deal with opponents\n"
     "and forewarn others of incoming danger.");
 
-const u8 gExploudPokedexText[] = _(
-    "It has sound-generating organs all over\n"
-    "its body. It communicates with others by\n"
-    "adjusting the tone and volume of the cries\n"
-    "it emits.");
+const u8 gTrailmon_battle_armamentPokedexText[] = _(
+    "Unlike most Trailmon, this Trailmon is\n"
+    "heavily geared towards combat, sporting an\n"
+    "insane amount of armour and weapons. All this\n"
+    "added weight barely inhibits its speed as well.");
 
 const u8 gMakuhitaPokedexText[] = _(
     "It loves to toughen up its body above all\n"

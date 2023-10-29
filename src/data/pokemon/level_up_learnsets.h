@@ -5018,7 +5018,7 @@ static const u16 sBaromonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sExploudLevelUpLearnset[] = {
+static const u16 sTrailmon_battle_armamentLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_UPROAR),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),

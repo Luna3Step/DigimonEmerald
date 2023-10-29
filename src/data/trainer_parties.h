@@ -665,7 +665,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 250,
     .lvl = 39,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     .moves = {MOVE_ASTONISH, MOVE_STOMP, MOVE_SUPERSONIC, MOVE_HYPER_VOICE}
     }
 };
@@ -2435,7 +2435,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     },
     {
     .iv = 40,
@@ -3772,7 +3772,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen5[] = {
     {
     .iv = 50,
     .lvl = 35,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     }
 };
 
@@ -12027,7 +12027,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin5[] = {
     {
     .iv = 140,
     .lvl = 41,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     },
     {
     .iv = 140,
@@ -12104,7 +12104,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando5[] = {
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     }
 };
 

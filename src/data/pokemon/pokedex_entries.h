@@ -3540,12 +3540,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EXPLOUD] =
+    [NATIONAL_DEX_TRAILMON_BATTLE_ARMAMENT] =
     {
-        .categoryName = _("LOUD NOISE"),
-        .height = 15,
-        .weight = 840,
-        .description = gExploudPokedexText,
+        .categoryName = _("TRAIN"),
+        .height = 65,
+        .weight = 2460,
+        .description = gTrailmon_battle_armamentPokedexText,
         .pokemonScale = 284,
         .pokemonOffset = 1,
         .trainerScale = 256,

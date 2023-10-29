@@ -2779,8 +2779,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_QUIET
     },
-    [FRONTIER_MON_EXPLOUD_1] = {
-        .species = SPECIES_EXPLOUD,
+    [FRONTIER_MON_TRAILMON_BATTLE_ARMAMENT_1] = {
+        .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
         .moves = {MOVE_HYPER_VOICE, MOVE_SHADOW_BALL, MOVE_SLEEP_TALK, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -3451,8 +3451,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_EXPLOUD_2] = {
-        .species = SPECIES_EXPLOUD,
+    [FRONTIER_MON_TRAILMON_BATTLE_ARMAMENT_2] = {
+        .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
         .moves = {MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_COUNTER},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -4123,8 +4123,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_NAUGHTY
     },
-    [FRONTIER_MON_EXPLOUD_3] = {
-        .species = SPECIES_EXPLOUD,
+    [FRONTIER_MON_TRAILMON_BATTLE_ARMAMENT_3] = {
+        .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
         .moves = {MOVE_OVERHEAT, MOVE_ICE_BEAM, MOVE_THUNDER_PUNCH, MOVE_EXTRASENSORY},
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -4795,8 +4795,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_NAUGHTY
     },
-    [FRONTIER_MON_EXPLOUD_4] = {
-        .species = SPECIES_EXPLOUD,
+    [FRONTIER_MON_TRAILMON_BATTLE_ARMAMENT_4] = {
+        .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
         .moves = {MOVE_MEGA_KICK, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_OVERHEAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
