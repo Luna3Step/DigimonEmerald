@@ -46,7 +46,7 @@
 #define FRONTIER_MON_SURSKIT        42
 #define FRONTIER_MON_SANDMON     43
 #define FRONTIER_MON_ALLOMON_X        44
-#define FRONTIER_MON_WINGULL        45
+#define FRONTIER_MON_ANGEMON        45
 #define FRONTIER_MON_PUSUMON      46
 #define FRONTIER_MON_PUNIMON      47
 #define FRONTIER_MON_KIRLIA         48

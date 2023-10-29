@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SWELLOW"
-with "FRONTIER_MON_ANGELAMON"
+replace "FRONTIER_MON_WINGULL"
+with "FRONTIER_MON_ANGEMON"
 
-replace "gSwellowPokedexText"
-with "gAngelamonPokedexText"
+replace "gWingullPokedexText"
+with "gAngemonPokedexText"
 
-replace "NATIONAL_DEX_SWELLOW"
-with "NATIONAL_DEX_ANGELAMON"
+replace "NATIONAL_DEX_WINGULL"
+with "NATIONAL_DEX_ANGEMON"
 
-replace "SPECIES_SWELLOW"
-with "SPECIES_ANGELAMON"
+replace "SPECIES_WINGULL"
+with "SPECIES_ANGEMON"
 
-replace "HOENN_DEX_SWELLOW"
-with "HOENN_DEX_ANGELAMON"
+replace "HOENN_DEX_WINGULL"
+with "HOENN_DEX_ANGEMON"
 
-replace "SPECIES_TO_HOENN(SWELLOW),"
-with "SPECIES_TO_HOENN(ANGELAMON),"
+replace "SPECIES_TO_HOENN(WINGULL),"
+with "SPECIES_TO_HOENN(ANGEMON),"
 
-replace "SPECIES_TO_NATIONAL(SWELLOW),"
-with "SPECIES_TO_NATIONAL(ANGELAMON),"
+replace "SPECIES_TO_NATIONAL(WINGULL),"
+with "SPECIES_TO_NATIONAL(ANGEMON),"
 
-replace "HOENN_TO_NATIONAL(SWELLOW),"
-with "HOENN_TO_NATIONAL(ANGELAMON),"
+replace "HOENN_TO_NATIONAL(WINGULL),"
+with "HOENN_TO_NATIONAL(ANGEMON),"
 
-replace "EC_POKEMON_NATIONAL(SWELLOW),"
-with "EC_POKEMON_NATIONAL(ANGELAMON),"
+replace "EC_POKEMON_NATIONAL(WINGULL),"
+with "EC_POKEMON_NATIONAL(ANGEMON),"
 
-replace "egg_moves(SWELLOW,"
-with "egg_moves(ANGELAMON,"
+replace "egg_moves(WINGULL,"
+with "egg_moves(ANGEMON,"
 
-replace "sSwellowLevelUpLearnset"
-with "sAngelamonLevelUpLearnset"
+replace "sWingullLevelUpLearnset"
+with "sAngemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SWELLOW"
-with "SPECIES_SPRITE(ANGELAMON"
+replace "SPECIES_SPRITE(WINGULL"
+with "SPECIES_SPRITE(ANGEMON"
 
-replace "SPECIES_PAL(SWELLOW,"
-with "SPECIES_PAL(ANGELAMON,"
+replace "SPECIES_PAL(WINGULL,"
+with "SPECIES_PAL(ANGEMON,"
 
-replace "SPECIES_SHINY_PAL(SWELLOW,"
-with "SPECIES_SHINY_PAL(ANGELAMON,"
+replace "SPECIES_SHINY_PAL(WINGULL,"
+with "SPECIES_SHINY_PAL(ANGEMON,"
 
-replace "EC_POKEMON(SWELLOW)"
-with "EC_POKEMON(ANGELAMON)"
+replace "EC_POKEMON(WINGULL)"
+with "EC_POKEMON(ANGEMON)"
 
-replace "EC_POKEMON_NATIONAL(SWELLOW)"
-with "EC_POKEMON_NATIONAL(ANGELAMON)"
+replace "EC_POKEMON_NATIONAL(WINGULL)"
+with "EC_POKEMON_NATIONAL(ANGEMON)"
 
 in "src/data/text/species_names.h"
-replace "SWELLOW"
-with "ALLOMON"
+replace "WINGULL"
+with "ANGEMON"

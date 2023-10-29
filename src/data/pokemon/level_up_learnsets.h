@@ -4031,7 +4031,7 @@ static const u16 sSpindaLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWingullLevelUpLearnset[] = {
+static const u16 sAngemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 7, MOVE_SUPERSONIC),

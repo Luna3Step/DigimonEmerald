@@ -986,7 +986,7 @@ const u16 gEggMoves[] = {
               MOVE_TRICK,
               MOVE_SMELLING_SALT),
 
-    egg_moves(WINGULL,
+    egg_moves(ANGEMON,
               MOVE_MIST,
               MOVE_TWISTER,
               MOVE_AGILITY,

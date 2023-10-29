@@ -3336,12 +3336,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WINGULL] =
+    [NATIONAL_DEX_ANGEMON] =
     {
-        .categoryName = _("SEAGULL"),
-        .height = 6,
-        .weight = 95,
-        .description = gWingullPokedexText,
+        .categoryName = _("ANGEL"),
+        .height = 27,
+        .weight = 791,
+        .description = gAngemonPokedexText,
         .pokemonScale = 295,
         .pokemonOffset = -2,
         .trainerScale = 256,

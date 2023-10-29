@@ -1666,11 +1666,11 @@ const u8 gAngelamonPokedexText[] = _(
     "/da3t34/anon_really_hates\n"
     "_angela_anaconda/");
 
-const u8 gWingullPokedexText[] = _(
-    "It makes its nest on a sheer cliff at the\n"
-    "edge of the sea. It has trouble keeping\n"
-    "its wings flapping in flight. Instead, it\n"
-    "soars on updrafts.");
+const u8 gAngemonPokedexText[] = _(
+    "Angemon are one of few Digimon that are a\n"
+    "being of perfected virtue. However its sudden\n"
+    "shift to pure violence against evil can be\n"
+    "unnerving for unsuspecting bystanders.");
 
 const u8 gPelipperPokedexText[] = _(
     "It skims the tops of waves as it flies.\n"
