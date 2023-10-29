@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SLAKOTH"
-with "FRONTIER_MON_AURUMON"
+replace "FRONTIER_MON_VIGOROTH"
+with "FRONTIER_MON_AXEMON"
 
-replace "gSlakothPokedexText"
-with "gAurumonPokedexText"
+replace "gVigorothPokedexText"
+with "gAxemonPokedexText"
 
-replace "NATIONAL_DEX_SLAKOTH"
-with "NATIONAL_DEX_AURUMON"
+replace "NATIONAL_DEX_VIGOROTH"
+with "NATIONAL_DEX_AXEMON"
 
-replace "SPECIES_SLAKOTH"
-with "SPECIES_AURUMON"
+replace "SPECIES_VIGOROTH"
+with "SPECIES_AXEMON"
 
-replace "HOENN_DEX_SLAKOTH"
-with "HOENN_DEX_AURUMON"
+replace "HOENN_DEX_VIGOROTH"
+with "HOENN_DEX_AXEMON"
 
-replace "SPECIES_TO_HOENN(SLAKOTH),"
-with "SPECIES_TO_HOENN(AURUMON),"
+replace "SPECIES_TO_HOENN(VIGOROTH),"
+with "SPECIES_TO_HOENN(AXEMON),"
 
-replace "SPECIES_TO_NATIONAL(SLAKOTH),"
-with "SPECIES_TO_NATIONAL(AURUMON),"
+replace "SPECIES_TO_NATIONAL(VIGOROTH),"
+with "SPECIES_TO_NATIONAL(AXEMON),"
 
-replace "HOENN_TO_NATIONAL(SLAKOTH),"
-with "HOENN_TO_NATIONAL(AURUMON),"
+replace "HOENN_TO_NATIONAL(VIGOROTH),"
+with "HOENN_TO_NATIONAL(AXEMON),"
 
-replace "EC_POKEMON_NATIONAL(SLAKOTH),"
-with "EC_POKEMON_NATIONAL(AURUMON),"
+replace "EC_POKEMON_NATIONAL(VIGOROTH),"
+with "EC_POKEMON_NATIONAL(AXEMON),"
 
-replace "egg_moves(SLAKOTH,"
-with "egg_moves(AURUMON,"
+replace "egg_moves(VIGOROTH,"
+with "egg_moves(AXEMON,"
 
-replace "sSlakothLevelUpLearnset"
-with "sAurumonLevelUpLearnset"
+replace "sVigorothLevelUpLearnset"
+with "sAxemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SLAKOTH"
-with "SPECIES_SPRITE(AURUMON"
+replace "SPECIES_SPRITE(VIGOROTH"
+with "SPECIES_SPRITE(AXEMON"
 
-replace "SPECIES_PAL(SLAKOTH,"
-with "SPECIES_PAL(AURUMON,"
+replace "SPECIES_PAL(VIGOROTH,"
+with "SPECIES_PAL(AXEMON,"
 
-replace "SPECIES_SHINY_PAL(SLAKOTH,"
-with "SPECIES_SHINY_PAL(AURUMON,"
+replace "SPECIES_SHINY_PAL(VIGOROTH,"
+with "SPECIES_SHINY_PAL(AXEMON,"
 
-replace "EC_POKEMON(SLAKOTH)"
-with "EC_POKEMON(AURUMON)"
+replace "EC_POKEMON(VIGOROTH)"
+with "EC_POKEMON(AXEMON)"
 
-replace "EC_POKEMON_NATIONAL(SLAKOTH)"
-with "EC_POKEMON_NATIONAL(AURUMON)"
+replace "EC_POKEMON_NATIONAL(VIGOROTH)"
+with "EC_POKEMON_NATIONAL(AXEMON)"
 
 in "src/data/text/species_names.h"
-replace "SLAKOTH"
-with "AURUMON"
+replace "VIGOROTH"
+with "AXEMON"

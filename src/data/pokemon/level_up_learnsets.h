@@ -4904,7 +4904,7 @@ static const u16 sAurumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVigorothLevelUpLearnset[] = {
+static const u16 sAxemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 1, MOVE_ENCORE),

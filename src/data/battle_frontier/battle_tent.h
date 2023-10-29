@@ -1027,7 +1027,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_VIGOROTH] = {
-        .species = SPECIES_VIGOROTH,
+        .species = SPECIES_AXEMON,
         .moves = {MOVE_FOCUS_ENERGY, MOVE_FURY_SWIPES, MOVE_ENDURE, MOVE_YAWN},
         .itemTableId = BATTLE_FRONTIER_ITEM_AGUAV_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2080,7 +2080,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_RELAXED
     },
     [VERDANTURF_TENT_MON_VIGOROTH] = {
-        .species = SPECIES_VIGOROTH,
+        .species = SPECIES_AXEMON,
         .moves = {MOVE_ENCORE, MOVE_SLACK_OFF, MOVE_YAWN, MOVE_SECRET_POWER},
         .itemTableId = BATTLE_FRONTIER_ITEM_MENTAL_HERB,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,

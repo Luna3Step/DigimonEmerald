@@ -1715,7 +1715,7 @@ const u8 gAresdramonPokedexText[] = _(
     "capabilties.");
 
 const u8 gAtamademonPokedexText[] = _(
-    "Depsite its menacing face, Atamademon is\n"
+    "Despite its menacing face, Atamademon is\n"
     "actually a very gentle Digimon although that\n"
     "doesn't stop it from being very destructive\n"
     "with its giant head and poor balance.");
@@ -1726,11 +1726,11 @@ const u8 gAurumonPokedexText[] = _(
     "detect opponents 1km away in the dark. It\n"
     "uses this ability for stealth attacks.");
 
-const u8 gVigorothPokedexText[] = _(
-    "It can't keep still because its blood boils\n"
-    "with energy. It runs through the fields\n"
-    "and mountains all day to calm itself. If it\n"
-    "doesn't, it can't sleep at night.");
+const u8 gAxemonPokedexText[] = _(
+    "Axemon uses it incredibly tough and fast\n"
+    "body to rush opponents and ram into them.\n"
+    "Its speed however doesn't let it be very\n"
+    "nimble so it can only charge opponents.");
 
 const u8 gSlakingPokedexText[] = _(
     "Hordes of SLAKING gather around trees\n"

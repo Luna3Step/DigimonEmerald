@@ -851,7 +851,7 @@ static const struct TrainerMonItemCustomMoves sParty_Berke[] = {
     {
     .iv = 255,
     .lvl = 26,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_ENERGY, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
     }
@@ -3485,7 +3485,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 27,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SLASH, MOVE_FACADE, MOVE_ENCORE, MOVE_FAINT_ATTACK}
     },
@@ -10268,7 +10268,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin1[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     }
 };
 
@@ -11978,7 +11978,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin2[] = {
     {
     .iv = 110,
     .lvl = 35,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     }
 };
 
@@ -11996,7 +11996,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin3[] = {
     {
     .iv = 120,
     .lvl = 37,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     }
 };
 
@@ -12014,7 +12014,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin4[] = {
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_VIGOROTH,
+    .species = SPECIES_AXEMON,
     }
 };
 

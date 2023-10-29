@@ -3456,12 +3456,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VIGOROTH] =
+    [NATIONAL_DEX_AXEMON] =
     {
-        .categoryName = _("WILD MONKEY"),
-        .height = 14,
-        .weight = 465,
-        .description = gVigorothPokedexText,
+        .categoryName = _("AXE"),
+        .height = 31,
+        .weight = 885,
+        .description = gAxemonPokedexText,
         .pokemonScale = 301,
         .pokemonOffset = 2,
         .trainerScale = 256,

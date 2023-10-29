@@ -2012,7 +2012,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_VIGOROTH,
+                                            .species = SPECIES_AXEMON,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_ENCORE, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .hpEV = 252,
