@@ -3314,7 +3314,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ALLOMON_X] =
     {
-        .categoryName = _("X DIGIMON"),
+        .categoryName = _("X ANTIBODY"),
         .height = 35,
         .weight = 1074,
         .description = gAllomon_xPokedexText,
@@ -3504,12 +3504,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHEDINJA] =
+    [NATIONAL_DEX_BALUCHIMON] =
     {
-        .categoryName = _("SHED"),
-        .height = 8,
-        .weight = 12,
-        .description = gShedinjaPokedexText,
+        .categoryName = _("HOLY"),
+        .height = 30,
+        .weight = 653,
+        .description = gBaluchimonPokedexText,
         .pokemonScale = 372,
         .pokemonOffset = -8,
         .trainerScale = 256,

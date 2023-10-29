@@ -1750,11 +1750,11 @@ const u8 gBalistamonPokedexText[] = _(
     "Digimon however Ballistamon generally avoid\n"
     "combat where possible.");
 
-const u8 gShedinjaPokedexText[] = _(
-    "A peculiar POKéMON that floats in air even\n"
-    "though its wings remain completely still.\n"
-    "The inside of its body is hollow and\n"
-    "utterly dark.");
+const u8 gBaluchimonPokedexText[] = _(
+    "Baluchimon were first discovered in ruins\n"
+    "beneath Folder Continent. These ruins were\n"
+    "once a fortress used by Angel Digimon. Balu-\n"
+    "chimon are the fortress's protectors.");
 
 const u8 gWhismurPokedexText[] = _(
     "Its cries equal a jet plane in volume.\n"
