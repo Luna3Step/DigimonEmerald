@@ -126,8 +126,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_SERIOUS
     },
-    [FRONTIER_MON_SEEDOT] = {
-        .species = SPECIES_SEEDOT,
+    [FRONTIER_MON_AIRDRAMON] = {
+        .species = SPECIES_AIRDRAMON,
         .moves = {MOVE_BULLET_SEED, MOVE_BIDE, MOVE_DEFENSE_CURL, MOVE_ROLLOUT},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

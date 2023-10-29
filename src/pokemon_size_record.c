@@ -164,14 +164,14 @@ void GetSeedotSizeRecordInfo(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_SEEDOT_SIZE_RECORD);
 
-    GetMonSizeRecordInfo(SPECIES_SEEDOT, sizeRecord);
+    GetMonSizeRecordInfo(SPECIES_AIRDRAMON, sizeRecord);
 }
 
 void CompareSeedotSize(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_SEEDOT_SIZE_RECORD);
 
-    gSpecialVar_Result = CompareMonSize(SPECIES_SEEDOT, sizeRecord);
+    gSpecialVar_Result = CompareMonSize(SPECIES_AIRDRAMON, sizeRecord);
 }
 
 void InitLotadSizeRecord(void)

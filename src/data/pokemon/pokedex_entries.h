@@ -3276,12 +3276,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = -1,
     },
 
-    [NATIONAL_DEX_SEEDOT] =
+    [NATIONAL_DEX_AIRDRAMON] =
     {
-        .categoryName = _("ACORN"),
-        .height = 5,
-        .weight = 40,
-        .description = gSeedotPokedexText,
+        .categoryName = _("MYTHICAL"),
+        .height = 150,
+        .weight = 2643,
+        .description = gAirdramonPokedexText,
         .pokemonScale = 472,
         .pokemonOffset = 20,
         .trainerScale = 256,

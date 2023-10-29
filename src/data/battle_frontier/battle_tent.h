@@ -838,7 +838,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_DOCILE
     },
     [SLATEPORT_TENT_MON_SEEDOT] = {
-        .species = SPECIES_SEEDOT,
+        .species = SPECIES_AIRDRAMON,
         .moves = {MOVE_SUNNY_DAY, MOVE_SYNTHESIS, MOVE_LEECH_SEED, MOVE_BIDE},
         .itemTableId = BATTLE_FRONTIER_ITEM_SALAC_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

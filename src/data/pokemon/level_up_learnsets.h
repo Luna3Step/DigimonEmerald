@@ -3876,7 +3876,7 @@ static const u16 sAgunimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSeedotLevelUpLearnset[] = {
+static const u16 sAirdramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BIDE),
     LEVEL_UP_MOVE( 3, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_GROWTH),

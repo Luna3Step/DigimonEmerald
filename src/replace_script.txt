@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_LUDICOLO"
-with "FRONTIER_MON_AGUNIMON"
+replace "FRONTIER_MON_SEEDOT"
+with "FRONTIER_MON_AIRDRAMON"
 
-replace "gLudicoloPokedexText"
-with "gAgunimonPokedexText"
+replace "gSeedotPokedexText"
+with "gAirdramonPokedexText"
 
-replace "NATIONAL_DEX_LUDICOLO"
-with "NATIONAL_DEX_AGUNIMON"
+replace "NATIONAL_DEX_SEEDOT"
+with "NATIONAL_DEX_AIRDRAMON"
 
-replace "SPECIES_LUDICOLO"
-with "SPECIES_AGUNIMON"
+replace "SPECIES_SEEDOT"
+with "SPECIES_AIRDRAMON"
 
-replace "HOENN_DEX_LUDICOLO"
-with "HOENN_DEX_AGUNIMON"
+replace "HOENN_DEX_SEEDOT"
+with "HOENN_DEX_AIRDRAMON"
 
-replace "SPECIES_TO_HOENN(LUDICOLO),"
-with "SPECIES_TO_HOENN(AGUNIMON),"
+replace "SPECIES_TO_HOENN(SEEDOT),"
+with "SPECIES_TO_HOENN(AIRDRAMON),"
 
-replace "SPECIES_TO_NATIONAL(LUDICOLO),"
-with "SPECIES_TO_NATIONAL(AGUNIMON),"
+replace "SPECIES_TO_NATIONAL(SEEDOT),"
+with "SPECIES_TO_NATIONAL(AIRDRAMON),"
 
-replace "HOENN_TO_NATIONAL(LUDICOLO),"
-with "HOENN_TO_NATIONAL(AGUNIMON),"
+replace "HOENN_TO_NATIONAL(SEEDOT),"
+with "HOENN_TO_NATIONAL(AIRDRAMON),"
 
-replace "EC_POKEMON_NATIONAL(LUDICOLO),"
-with "EC_POKEMON_NATIONAL(AGUNIMON),"
+replace "EC_POKEMON_NATIONAL(SEEDOT),"
+with "EC_POKEMON_NATIONAL(AIRDRAMON),"
 
-replace "egg_moves(LUDICOLO,"
-with "egg_moves(AGUNIMON,"
+replace "egg_moves(SEEDOT,"
+with "egg_moves(AIRDRAMON,"
 
-replace "sLudicoloLevelUpLearnset"
-with "sAgunimonLevelUpLearnset"
+replace "sSeedotLevelUpLearnset"
+with "sAirdramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LUDICOLO"
-with "SPECIES_SPRITE(AGUNIMON"
+replace "SPECIES_SPRITE(SEEDOT"
+with "SPECIES_SPRITE(AIRDRAMON"
 
-replace "SPECIES_PAL(LUDICOLO,"
-with "SPECIES_PAL(AGUNIMON,"
+replace "SPECIES_PAL(SEEDOT,"
+with "SPECIES_PAL(AIRDRAMON,"
 
-replace "SPECIES_SHINY_PAL(LUDICOLO,"
-with "SPECIES_SHINY_PAL(AGUNIMON,"
+replace "SPECIES_SHINY_PAL(SEEDOT,"
+with "SPECIES_SHINY_PAL(AIRDRAMON,"
 
-replace "EC_POKEMON(LUDICOLO)"
-with "EC_POKEMON(AGUNIMON)"
+replace "EC_POKEMON(SEEDOT)"
+with "EC_POKEMON(AIRDRAMON)"
 
-replace "EC_POKEMON_NATIONAL(LUDICOLO)"
-with "EC_POKEMON_NATIONAL(AGUNIMON)"
+replace "EC_POKEMON_NATIONAL(SEEDOT)"
+with "EC_POKEMON_NATIONAL(AIRDRAMON)"
 
 in "src/data/text/species_names.h"
-replace "LUDICOLO"
-with "AGUNIMON"
+replace "SEEDOT"
+with "AIRDRAMON"

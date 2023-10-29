@@ -1636,11 +1636,11 @@ const u8 gAgunimonPokedexText[] = _(
     "ability to freely manipulate flames. It is\n"
     "said that it is descendant of AncientGreymon.");
 
-const u8 gSeedotPokedexText[] = _(
-    "It hangs off branches and absorbs\n"
-    "nutrients. When it finishes eating, its\n"
-    "body becomes so heavy that it drops to\n"
-    "the ground with a thump.");
+const u8 gAirdramonPokedexText[] = _(
+    "Texts dating thousands of years ago show\n"
+    "that ancient Digimon society believed that\n"
+    "Airdramon was close to god, making it a\n"
+    "deity amongst society.");
 
 const u8 gNuzleafPokedexText[] = _(
     "A forest-dwelling POKéMON that is skilled\n"

@@ -91,7 +91,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle1[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_AIRDRAMON,
     },
     {
     .iv = 0,
@@ -4220,7 +4220,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Billy[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_AIRDRAMON,
     }
 };
 
@@ -6270,7 +6270,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_AIRDRAMON,
     },
     {
     .iv = 0,
@@ -7431,7 +7431,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lorenzo[] = {
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_AIRDRAMON,
     },
     {
     .iv = 50,
@@ -12199,7 +12199,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_AIRDRAMON,
     },
     {
     .iv = 10,
