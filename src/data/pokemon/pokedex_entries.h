@@ -3348,12 +3348,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PELIPPER] =
+    [NATIONAL_DEX_ANKYLOMON] =
     {
-        .categoryName = _("WATER BIRD"),
-        .height = 12,
-        .weight = 280,
-        .description = gPelipperPokedexText,
+        .categoryName = _("DINOSAUR"),
+        .height = 32,
+        .weight = 964,
+        .description = gAnkylomonPokedexText,
         .pokemonScale = 288,
         .pokemonOffset = 1,
         .trainerScale = 256,

@@ -1672,11 +1672,11 @@ const u8 gAngemonPokedexText[] = _(
     "shift to pure violence against evil can be\n"
     "unnerving for unsuspecting bystanders.");
 
-const u8 gPelipperPokedexText[] = _(
-    "It skims the tops of waves as it flies.\n"
-    "When it spots prey, it uses its large beak\n"
-    "to scoop up the victim with water.\n"
-    "It protects its eggs in its beak.");
+const u8 gAnkylomonPokedexText[] = _(
+    "Ankylomon are relativaly peaceful Digimon\n"
+    "who do not seek out battle. However their\n"
+    "body is decidely destructive, kitted out\n"
+    "with ironclad skin and ferocious spikes.");
 
 const u8 gRaltsPokedexText[] = _(
     "A RALTS has the power to sense the\n"
