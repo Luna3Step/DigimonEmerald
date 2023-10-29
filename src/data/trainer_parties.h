@@ -2708,7 +2708,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brent[] = {
     {
     .iv = 100,
     .lvl = 26,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     }
 };
 
@@ -2752,17 +2752,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey1[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     }
 };
 
@@ -2783,17 +2783,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     }
 };
 
@@ -2801,12 +2801,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
     {
     .iv = 20,
     .lvl = 34,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 20,
     .lvl = 34,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 20,
@@ -2819,7 +2819,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 30,
@@ -2829,7 +2829,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 30,
@@ -2842,7 +2842,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     {
     .iv = 40,
     .lvl = 38,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE
     },
     {
@@ -2854,7 +2854,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     {
     .iv = 40,
     .lvl = 38,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE
     },
     {
@@ -8268,7 +8268,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 30,
@@ -8286,7 +8286,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 40,

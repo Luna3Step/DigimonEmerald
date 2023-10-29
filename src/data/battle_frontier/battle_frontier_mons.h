@@ -294,8 +294,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_CALM
     },
-    [FRONTIER_MON_SURSKIT] = {
-        .species = SPECIES_SURSKIT,
+    [FRONTIER_MON_ARCHELOMON] = {
+        .species = SPECIES_ARCHELOMON,
         .moves = {MOVE_BUBBLE_BEAM, MOVE_RAIN_DANCE, MOVE_SWEET_SCENT, MOVE_QUICK_ATTACK},
         .itemTableId = BATTLE_FRONTIER_ITEM_MYSTIC_WATER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

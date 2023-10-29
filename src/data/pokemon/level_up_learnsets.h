@@ -4060,7 +4060,7 @@ static const u16 sAnkylomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSurskitLevelUpLearnset[] = {
+static const u16 sArchelomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 7, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(13, MOVE_SWEET_SCENT),

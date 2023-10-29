@@ -993,7 +993,7 @@ const u16 gEggMoves[] = {
               MOVE_GUST,
               MOVE_WATER_SPORT),
 
-    egg_moves(SURSKIT,
+    egg_moves(ARCHELOMON,
               MOVE_FORESIGHT,
               MOVE_MUD_SHOT,
               MOVE_PSYBEAM,

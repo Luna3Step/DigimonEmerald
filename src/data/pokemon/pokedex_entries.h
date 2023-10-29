@@ -3396,12 +3396,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SURSKIT] =
+    [NATIONAL_DEX_ARCHELOMON] =
     {
-        .categoryName = _("POND SKATER"),
-        .height = 5,
-        .weight = 17,
-        .description = gSurskitPokedexText,
+        .categoryName = _("SEA TURTLE"),
+        .height = 58,
+        .weight = 1235,
+        .description = gArchelomonPokedexText,
         .pokemonScale = 375,
         .pokemonOffset = 17,
         .trainerScale = 256,

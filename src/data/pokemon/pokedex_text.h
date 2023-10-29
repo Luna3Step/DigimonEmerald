@@ -1696,11 +1696,11 @@ const u8 gArcadiamon_championPokedexText[] = _(
     "various Digimon however it lacks any sense \n"
     "of self.");
 
-const u8 gSurskitPokedexText[] = _(
-    "They gather on puddles after evening\n"
-    "downpours, gliding across the surface\n"
-    "of water as if sliding. It secretes honey\n"
-    "with a sweet aroma from its head.");
+const u8 gArchelomonPokedexText[] = _(
+    "Due to its front flippers becoming sharp\n"
+    "knives, it has lot of traction when moving\n"
+    "making it particularly slow on land\n"
+    "or in water.");
 
 const u8 gMasquerainPokedexText[] = _(
     "It intimidates foes with the large eyelike\n"
