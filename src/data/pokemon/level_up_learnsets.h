@@ -5329,7 +5329,7 @@ static const u16 sApemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKirliaLevelUpLearnset[] = {
+static const u16 sAquilamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),

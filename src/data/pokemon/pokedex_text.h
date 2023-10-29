@@ -1684,11 +1684,11 @@ const u8 gApemonPokedexText[] = _(
     "capabilities. Many researchers believe it\n"
     "likes to inhabit the Central Asian network.");
 
-const u8 gKirliaPokedexText[] = _(
-    "A KIRLIA has the psychic power to create \n"
-    "a rip in the dimensions and see into the\n"
-    "future. It is said to dance with pleasure\n"
-    "on sunny mornings.");
+const u8 gAquilamonPokedexText[] = _(
+    "Although many Flying type Digimon have\n"
+    "brutal personalities, Aquilamon is a very\n"
+    "respectful Digimon, often willing to work\n"
+    "under others.");
 
 const u8 gGardevoirPokedexText[] = _(
     "It apparently does not feel the pull of\n"

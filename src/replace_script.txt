@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_RALTS"
-with "FRONTIER_MON_APEMON"
+replace "FRONTIER_MON_KIRLIA"
+with "FRONTIER_MON_AQUILAMON"
 
-replace "gRaltsPokedexText"
-with "gApemonPokedexText"
+replace "gKirliaPokedexText"
+with "gAquilamonPokedexText"
 
-replace "NATIONAL_DEX_RALTS"
-with "NATIONAL_DEX_APEMON"
+replace "NATIONAL_DEX_KIRLIA"
+with "NATIONAL_DEX_AQUILAMON"
 
-replace "SPECIES_RALTS"
-with "SPECIES_APEMON"
+replace "SPECIES_KIRLIA"
+with "SPECIES_AQUILAMON"
 
-replace "HOENN_DEX_RALTS"
-with "HOENN_DEX_APEMON"
+replace "HOENN_DEX_KIRLIA"
+with "HOENN_DEX_AQUILAMON"
 
-replace "SPECIES_TO_HOENN(RALTS),"
-with "SPECIES_TO_HOENN(APEMON),"
+replace "SPECIES_TO_HOENN(KIRLIA),"
+with "SPECIES_TO_HOENN(AQUILAMON),"
 
-replace "SPECIES_TO_NATIONAL(RALTS),"
-with "SPECIES_TO_NATIONAL(APEMON),"
+replace "SPECIES_TO_NATIONAL(KIRLIA),"
+with "SPECIES_TO_NATIONAL(AQUILAMON),"
 
-replace "HOENN_TO_NATIONAL(RALTS),"
-with "HOENN_TO_NATIONAL(APEMON),"
+replace "HOENN_TO_NATIONAL(KIRLIA),"
+with "HOENN_TO_NATIONAL(AQUILAMON),"
 
-replace "EC_POKEMON_NATIONAL(RALTS),"
-with "EC_POKEMON_NATIONAL(APEMON),"
+replace "EC_POKEMON_NATIONAL(KIRLIA),"
+with "EC_POKEMON_NATIONAL(AQUILAMON),"
 
-replace "egg_moves(RALTS,"
-with "egg_moves(APEMON,"
+replace "egg_moves(KIRLIA,"
+with "egg_moves(AQUILAMON,"
 
-replace "sRaltsLevelUpLearnset"
-with "sApemonLevelUpLearnset"
+replace "sKirliaLevelUpLearnset"
+with "sAquilamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(RALTS"
-with "SPECIES_SPRITE(APEMON"
+replace "SPECIES_SPRITE(KIRLIA"
+with "SPECIES_SPRITE(AQUILAMON"
 
-replace "SPECIES_PAL(RALTS,"
-with "SPECIES_PAL(APEMON,"
+replace "SPECIES_PAL(KIRLIA,"
+with "SPECIES_PAL(AQUILAMON,"
 
-replace "SPECIES_SHINY_PAL(RALTS,"
-with "SPECIES_SHINY_PAL(APEMON,"
+replace "SPECIES_SHINY_PAL(KIRLIA,"
+with "SPECIES_SHINY_PAL(AQUILAMON,"
 
-replace "EC_POKEMON(RALTS)"
-with "EC_POKEMON(APEMON)"
+replace "EC_POKEMON(KIRLIA)"
+with "EC_POKEMON(AQUILAMON)"
 
-replace "EC_POKEMON_NATIONAL(RALTS)"
-with "EC_POKEMON_NATIONAL(APEMON)"
+replace "EC_POKEMON_NATIONAL(KIRLIA)"
+with "EC_POKEMON_NATIONAL(AQUILAMON)"
 
 in "src/data/text/species_names.h"
-replace "RALTS"
-with "APEMON"
+replace "KIRLIA"
+with "AQUILAMON"

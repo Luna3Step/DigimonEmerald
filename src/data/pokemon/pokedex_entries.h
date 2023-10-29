@@ -3372,12 +3372,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KIRLIA] =
+    [NATIONAL_DEX_AQUILAMON] =
     {
-        .categoryName = _("EMOTION"),
-        .height = 8,
-        .weight = 202,
-        .description = gKirliaPokedexText,
+        .categoryName = _("BALD EAGLE"),
+        .height = 44,
+        .weight = 875,
+        .description = gAquilamonPokedexText,
         .pokemonScale = 354,
         .pokemonOffset = 0,
         .trainerScale = 256,
