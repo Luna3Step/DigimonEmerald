@@ -1762,11 +1762,11 @@ const u8 gBaohuckmonPokedexText[] = _(
     "Royal Knights means it is willing to fight\n"
     "in any situation it can do so.");
 
-const u8 gLoudredPokedexText[] = _(
-    "It positions the round speakers on its\n"
-    "head to assail foes with ultrasonic waves\n"
-    "at massive volume. It builds power by\n"
-    "stomping the ground.");
+const u8 gBaromonPokedexText[] = _(
+    "Despite being relatively weak, Baromons use\n"
+    "of the ancient lost technology, its third\n"
+    "eye, lets it swiftly deal with opponents\n"
+    "and forewarn others of incoming danger.");
 
 const u8 gExploudPokedexText[] = _(
     "It has sound-generating organs all over\n"

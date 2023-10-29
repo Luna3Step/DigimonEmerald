@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_WHISMUR"
-with "FRONTIER_MON_BAOHUCKMON"
+replace "FRONTIER_MON_LOUDRED"
+with "FRONTIER_MON_BAROMON"
 
-replace "gWhismurPokedexText"
-with "gBaohuckmonPokedexText"
+replace "gLoudredPokedexText"
+with "gBaromonPokedexText"
 
-replace "NATIONAL_DEX_WHISMUR"
-with "NATIONAL_DEX_BAOHUCKMON"
+replace "NATIONAL_DEX_LOUDRED"
+with "NATIONAL_DEX_BAROMON"
 
-replace "SPECIES_WHISMUR"
-with "SPECIES_BAOHUCKMON"
+replace "SPECIES_LOUDRED"
+with "SPECIES_BAROMON"
 
-replace "HOENN_DEX_WHISMUR"
-with "HOENN_DEX_BAOHUCKMON"
+replace "HOENN_DEX_LOUDRED"
+with "HOENN_DEX_BAROMON"
 
-replace "SPECIES_TO_HOENN(WHISMUR),"
-with "SPECIES_TO_HOENN(BAOHUCKMON),"
+replace "SPECIES_TO_HOENN(LOUDRED),"
+with "SPECIES_TO_HOENN(BAROMON),"
 
-replace "SPECIES_TO_NATIONAL(WHISMUR),"
-with "SPECIES_TO_NATIONAL(BAOHUCKMON),"
+replace "SPECIES_TO_NATIONAL(LOUDRED),"
+with "SPECIES_TO_NATIONAL(BAROMON),"
 
-replace "HOENN_TO_NATIONAL(WHISMUR),"
-with "HOENN_TO_NATIONAL(BAOHUCKMON),"
+replace "HOENN_TO_NATIONAL(LOUDRED),"
+with "HOENN_TO_NATIONAL(BAROMON),"
 
-replace "EC_POKEMON_NATIONAL(WHISMUR),"
-with "EC_POKEMON_NATIONAL(BAOHUCKMON),"
+replace "EC_POKEMON_NATIONAL(LOUDRED),"
+with "EC_POKEMON_NATIONAL(BAROMON),"
 
-replace "egg_moves(WHISMUR,"
-with "egg_moves(BAOHUCKMON,"
+replace "egg_moves(LOUDRED,"
+with "egg_moves(BAROMON,"
 
-replace "sWhismurLevelUpLearnset"
-with "sBaohuckmonLevelUpLearnset"
+replace "sLoudredLevelUpLearnset"
+with "sBaromonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(WHISMUR"
-with "SPECIES_SPRITE(BAOHUCKMON"
+replace "SPECIES_SPRITE(LOUDRED"
+with "SPECIES_SPRITE(BAROMON"
 
-replace "SPECIES_PAL(WHISMUR,"
-with "SPECIES_PAL(BAOHUCKMON,"
+replace "SPECIES_PAL(LOUDRED,"
+with "SPECIES_PAL(BAROMON,"
 
-replace "SPECIES_SHINY_PAL(WHISMUR,"
-with "SPECIES_SHINY_PAL(BAOHUCKMON,"
+replace "SPECIES_SHINY_PAL(LOUDRED,"
+with "SPECIES_SHINY_PAL(BAROMON,"
 
-replace "EC_POKEMON(WHISMUR)"
-with "EC_POKEMON(BAOHUCKMON)"
+replace "EC_POKEMON(LOUDRED)"
+with "EC_POKEMON(BAROMON)"
 
-replace "EC_POKEMON_NATIONAL(WHISMUR)"
-with "EC_POKEMON_NATIONAL(BAOHUCKMON)"
+replace "EC_POKEMON_NATIONAL(LOUDRED)"
+with "EC_POKEMON_NATIONAL(BAROMON)"
 
 in "src/data/text/species_names.h"
-replace "WHISMUR"
-with "BAOHUCKMON"
+replace "LOUDRED"
+with "BAROMON"

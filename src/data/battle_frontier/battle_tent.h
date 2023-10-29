@@ -971,7 +971,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_LOUDRED] = {
-        .species = SPECIES_LOUDRED,
+        .species = SPECIES_BAROMON,
         .moves = {MOVE_ASTONISH, MOVE_SCREECH, MOVE_UPROAR, MOVE_SUPERSONIC},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -992,7 +992,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_SERIOUS
     },
     [SLATEPORT_TENT_MON_WHISMUR] = {
-        .species = SPECIES_WHISMUR,
+        .species = SPECIES_BAOHUCKMON,
         .moves = {MOVE_REST, MOVE_SLEEP_TALK, MOVE_HOWL, MOVE_BODY_SLAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_SILK_SCARF,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2052,7 +2052,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_BRAVE
     },
     [VERDANTURF_TENT_MON_LOUDRED] = {
-        .species = SPECIES_LOUDRED,
+        .species = SPECIES_BAROMON,
         .moves = {MOVE_HOWL, MOVE_UPROAR, MOVE_REST, MOVE_SCREECH},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -2108,7 +2108,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_CALM
     },
     [VERDANTURF_TENT_MON_WHISMUR] = {
-        .species = SPECIES_WHISMUR,
+        .species = SPECIES_BAOHUCKMON,
         .moves = {MOVE_SECRET_POWER, MOVE_SUPERSONIC, MOVE_STOMP, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_RAWST_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -2835,14 +2835,14 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_MODEST
     },
     [FALLARBOR_TENT_MON_WHISMUR] = {
-        .species = SPECIES_WHISMUR,
+        .species = SPECIES_BAOHUCKMON,
         .moves = {MOVE_REST, MOVE_SLEEP_TALK, MOVE_HYPER_VOICE, MOVE_ATTRACT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
     [FALLARBOR_TENT_MON_LOUDRED] = {
-        .species = SPECIES_LOUDRED,
+        .species = SPECIES_BAROMON,
         .moves = {MOVE_STOMP, MOVE_REST, MOVE_SCREECH, MOVE_UPROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

@@ -1370,7 +1370,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 6,
@@ -1900,62 +1900,62 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               }
             ]
           }
@@ -2191,7 +2191,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_LOUDRED"
+                "species": "SPECIES_BAROMON"
               },
               {
                 "min_level": 36,
@@ -2221,7 +2221,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 36,
@@ -2231,7 +2231,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               }
             ]
           }
@@ -10609,7 +10609,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 40,
@@ -10619,7 +10619,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_LOUDRED"
+                "species": "SPECIES_BAROMON"
               },
               {
                 "min_level": 41,
@@ -10629,12 +10629,12 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_LOUDRED"
+                "species": "SPECIES_BAROMON"
               },
               {
                 "min_level": 42,
@@ -10644,7 +10644,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_BAOHUCKMON"
               },
               {
                 "min_level": 43,
@@ -10654,7 +10654,7 @@
               {
                 "min_level": 44,
                 "max_level": 44,
-                "species": "SPECIES_LOUDRED"
+                "species": "SPECIES_BAROMON"
               },
               {
                 "min_level": 45,

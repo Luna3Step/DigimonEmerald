@@ -3528,12 +3528,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOUDRED] =
+    [NATIONAL_DEX_BAROMON] =
     {
-        .categoryName = _("BIG VOICE"),
-        .height = 10,
-        .weight = 405,
-        .description = gLoudredPokedexText,
+        .categoryName = _("FORESIGHT"),
+        .height = 23,
+        .weight = 505,
+        .description = gBaromonPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 10,
         .trainerScale = 256,

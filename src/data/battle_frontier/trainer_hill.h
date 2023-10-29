@@ -1932,7 +1932,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_WHISMUR,
+                                            .species = SPECIES_BAOHUCKMON,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_UPROAR, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .hpEV = 6,
