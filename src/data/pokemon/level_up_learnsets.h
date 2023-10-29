@@ -5346,7 +5346,7 @@ static const u16 sAquilamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGardevoirLevelUpLearnset[] = {
+static const u16 sArcadiamon_championLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),

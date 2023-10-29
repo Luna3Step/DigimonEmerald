@@ -3384,12 +3384,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GARDEVOIR] =
+    [NATIONAL_DEX_ARCADIAMON_CHAMPION] =
     {
-        .categoryName = _("EMBRACE"),
-        .height = 16,
-        .weight = 484,
-        .description = gGardevoirPokedexText,
+        .categoryName = _("ULTIMATE"),
+        .height = 19,
+        .weight = 653,
+        .description = gArcadiamon_championPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

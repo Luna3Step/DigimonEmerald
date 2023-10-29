@@ -568,7 +568,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
 
 const u16 gEasyChatWordsByLetter_G[] = {
     EC_WORD_GAME,
-    EC_POKEMON(GARDEVOIR),
+    EC_POKEMON(ARCADIAMON_CHAMPION),
     EC_POKEMON_NATIONAL(TOKOMON_X),
     EC_POKEMON_NATIONAL(TSUMEMON),
     EC_WORD_GENIUS,

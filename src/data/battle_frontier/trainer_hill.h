@@ -1272,7 +1272,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                     },
                     [3] =
                     {
-                        .species = SPECIES_GARDEVOIR,
+                        .species = SPECIES_ARCADIAMON_CHAMPION,
                         .heldItem = ITEM_SALAC_BERRY,
                         .moves = {MOVE_SKILL_SWAP, MOVE_DREAM_EATER, MOVE_HYPNOSIS, MOVE_PROTECT},
                         .speedEV = 255,
@@ -3936,7 +3936,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_GARDEVOIR,
+                                            .species = SPECIES_ARCADIAMON_CHAMPION,
                                             .heldItem = ITEM_SALAC_BERRY,
                                             .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_MAGICAL_LEAF, MOVE_DESTINY_BOND},
                                             .hpEV = 6,

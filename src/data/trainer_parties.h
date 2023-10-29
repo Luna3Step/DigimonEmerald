@@ -4288,7 +4288,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Katelynn[] = {
     {
     .iv = 100,
     .lvl = 43,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_SKILL_SWAP, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CALM_MIND}
     },
     {
@@ -6776,7 +6776,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 250,
     .lvl = 45,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8779,7 +8779,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR2[] = {
     {
     .iv = 250,
     .lvl = 48,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8812,7 +8812,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR3[] = {
     {
     .iv = 250,
     .lvl = 51,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8845,7 +8845,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR4[] = {
     {
     .iv = 250,
     .lvl = 54,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8878,7 +8878,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR5[] = {
     {
     .iv = 250,
     .lvl = 57,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };

@@ -3059,8 +3059,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_GARDEVOIR_1] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_1] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_DREAM_EATER, MOVE_HYPNOSIS, MOVE_MAGICAL_LEAF, MOVE_REFLECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -3731,8 +3731,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_GARDEVOIR_2] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_2] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_DOUBLE_TEAM, MOVE_REST},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -4403,8 +4403,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_GARDEVOIR_3] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_3] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH, MOVE_MAGICAL_LEAF},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -5075,8 +5075,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_GARDEVOIR_4] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_4] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -5684,29 +5684,29 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_GARDEVOIR_5] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_5] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_ENDURE, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_SALAC_BERRY,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_GARDEVOIR_6] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_6] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_TIMID
     },
-    [FRONTIER_MON_GARDEVOIR_7] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_7] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_WILL_O_WISP, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_GARDEVOIR_8] = {
-        .species = SPECIES_GARDEVOIR,
+    [FRONTIER_MON_ARCADIAMON_CHAMPION_8] = {
+        .species = SPECIES_ARCADIAMON_CHAMPION,
         .moves = {MOVE_PSYCHIC, MOVE_MAGICAL_LEAF, MOVE_ATTRACT, MOVE_DOUBLE_TEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

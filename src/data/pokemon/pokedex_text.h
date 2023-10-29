@@ -1690,11 +1690,11 @@ const u8 gAquilamonPokedexText[] = _(
     "respectful Digimon, often willing to work\n"
     "under others.");
 
-const u8 gGardevoirPokedexText[] = _(
-    "It apparently does not feel the pull of\n"
-    "gravity because it supports itself with\n"
-    "psychic power. It will give its life to\n"
-    "protect its TRAINER.");
+const u8 gArcadiamon_championPokedexText[] = _(
+    "Arcadiamon that have reached Champion\n"
+    "level will have consumed the data of\n"
+    "various Digimon however it lacks any sense \n"
+    "of self.");
 
 const u8 gSurskitPokedexText[] = _(
     "They gather on puddles after evening\n"
