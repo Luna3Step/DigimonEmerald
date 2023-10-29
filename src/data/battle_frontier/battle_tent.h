@@ -999,7 +999,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_MAKUHITA] = {
-        .species = SPECIES_MAKUHITA,
+        .species = SPECIES_BETGAMAMON,
         .moves = {MOVE_SAND_ATTACK, MOVE_KNOCK_OFF, MOVE_ARM_THRUST, MOVE_BELLY_DRUM},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -1912,7 +1912,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_SASSY
     },
     [VERDANTURF_TENT_MON_MAKUHITA] = {
-        .species = SPECIES_MAKUHITA,
+        .species = SPECIES_BETGAMAMON,
         .moves = {MOVE_BULK_UP, MOVE_ARM_THRUST, MOVE_SMELLING_SALT, MOVE_SAND_ATTACK},
         .itemTableId = BATTLE_FRONTIER_ITEM_SALAC_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2737,7 +2737,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_SASSY
     },
     [FALLARBOR_TENT_MON_MAKUHITA] = {
-        .species = SPECIES_MAKUHITA,
+        .species = SPECIES_BETGAMAMON,
         .moves = {MOVE_DETECT, MOVE_ARM_THRUST, MOVE_FAKE_OUT, MOVE_SMELLING_SALT},
         .itemTableId = BATTLE_FRONTIER_ITEM_BLACK_BELT,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

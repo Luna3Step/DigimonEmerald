@@ -339,7 +339,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_TRAPINCH]    = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 14 },
     [SPECIES_VIBRAVA]     = { .size = MON_COORDS_SIZE(56, 32), .y_offset = 17 },
     [SPECIES_FLYGON]      = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
-    [SPECIES_MAKUHITA]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 11 },
+    [SPECIES_BETGAMAMON]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 11 },
     [SPECIES_HARIYAMA]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
     [SPECIES_ELECTRIKE]   = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 16 },
     [SPECIES_MANECTRIC]   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },

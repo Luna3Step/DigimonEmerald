@@ -1076,7 +1076,7 @@ const u16 gEggMoves[] = {
               MOVE_QUICK_ATTACK,
               MOVE_GUST),
 
-    egg_moves(MAKUHITA,
+    egg_moves(BETGAMAMON,
               MOVE_FAINT_ATTACK,
               MOVE_DETECT,
               MOVE_FORESIGHT,

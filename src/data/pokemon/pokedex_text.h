@@ -1774,11 +1774,11 @@ const u8 gTrailmon_battle_armamentPokedexText[] = _(
     "insane amount of armour and weapons. All this\n"
     "added weight barely inhibits its speed as well.");
 
-const u8 gMakuhitaPokedexText[] = _(
-    "It loves to toughen up its body above all\n"
-    "else. If you hear quaking rumbles in a cave,\n"
-    "it is the sound of MAKUHITA undertaking\n"
-    "strenuous training.");
+const u8 gBetgamamonPokedexText[] = _(
+    "Although it BetelGammamon is very strong when\n"
+    "they evolve, they often get stronger in\n"
+    "battle as excitement can nearly double its\n"
+    "attack power.");
 
 const u8 gHariyamaPokedexText[] = _(
     "It has the habit of challenging others\n"

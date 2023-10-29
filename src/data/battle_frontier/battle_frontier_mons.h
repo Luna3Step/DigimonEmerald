@@ -154,8 +154,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_NAIVE
     },
-    [FRONTIER_MON_MAKUHITA] = {
-        .species = SPECIES_MAKUHITA,
+    [FRONTIER_MON_BETGAMAMON] = {
+        .species = SPECIES_BETGAMAMON,
         .moves = {MOVE_FAKE_OUT, MOVE_SEISMIC_TOSS, MOVE_DETECT, MOVE_WHIRLWIND},
         .itemTableId = BATTLE_FRONTIER_ITEM_SCOPE_LENS,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

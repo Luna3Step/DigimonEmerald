@@ -3552,12 +3552,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAKUHITA] =
+    [NATIONAL_DEX_BETGAMAMON] =
     {
-        .categoryName = _("GUTS"),
-        .height = 10,
-        .weight = 864,
-        .description = gMakuhitaPokedexText,
+        .categoryName = _("SPIRIT"),
+        .height = 16,
+        .weight = 311,
+        .description = gBetgamamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 10,
         .trainerScale = 256,

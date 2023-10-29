@@ -301,7 +301,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fredrick[] = {
     {
     .iv = 100,
     .lvl = 30,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 100,
@@ -935,7 +935,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton1[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -1038,7 +1038,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton2[] = {
     {
     .iv = 110,
     .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -1056,7 +1056,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton3[] = {
     {
     .iv = 120,
     .lvl = 29,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -1074,7 +1074,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton4[] = {
     {
     .iv = 130,
     .lvl = 32,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -2272,7 +2272,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Yuji[] = {
     {
     .iv = 100,
     .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 100,
@@ -3406,7 +3406,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 200,
     .lvl = 19,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_ARM_THRUST, MOVE_VITAL_THROW, MOVE_REVERSAL, MOVE_BULK_UP}
     }
@@ -3801,7 +3801,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg1[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
     }
 };
@@ -3816,7 +3816,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg2[] = {
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
     }
 };
@@ -3831,7 +3831,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
     }
 };
@@ -3846,7 +3846,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
     }
 };
@@ -4147,7 +4147,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby1[] = {
     {
     .iv = 200,
     .lvl = 21,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -4160,7 +4160,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby2[] = {
     {
     .iv = 210,
     .lvl = 30,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -5614,7 +5614,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy1[] = {
     {
     .iv = 100,
     .lvl = 18,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -5643,7 +5643,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy2[] = {
     {
     .iv = 110,
     .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -5656,7 +5656,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy3[] = {
     {
     .iv = 120,
     .lvl = 29,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -7074,7 +7074,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -7130,7 +7130,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac2[] = {
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -7679,7 +7679,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
     {
     .iv = 200,
     .lvl = 13,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -9510,7 +9510,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     {
     .iv = 100,
     .lvl = 15,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -10049,7 +10049,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Helene[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -10176,7 +10176,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Callie[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -10197,7 +10197,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 10,
@@ -11919,7 +11919,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji3[] = {
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_MAKUHITA,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 20,
