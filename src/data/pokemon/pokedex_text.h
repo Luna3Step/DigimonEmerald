@@ -1715,7 +1715,7 @@ const u8 gAresdramonPokedexText[] = _(
     "capabilties.");
 
 const u8 gAtamademonPokedexText[] = _(
-    "Despite its menacing face, Atamademon is\n"
+    "Despite its menacing face, Atamadekachimon is\n"
     "actually a very gentle Digimon although that\n"
     "doesn't stop it from being very destructive\n"
     "with its giant head and poor balance.");
@@ -1756,11 +1756,11 @@ const u8 gBaluchimonPokedexText[] = _(
     "once a fortress used by Angel Digimon. Balu-\n"
     "chimon are the fortress's protectors.");
 
-const u8 gWhismurPokedexText[] = _(
-    "Its cries equal a jet plane in volume.\n"
-    "It inhales through its ear canals. Because\n"
-    "of this system, it can cry continually\n"
-    "without having to catch its breath.");
+const u8 gBaohuckmonPokedexText[] = _(
+    "BaoHuckmon go through strick training to\n"
+    "reach this point. Its desires to join the\n"
+    "Royal Knights means it is willing to fight\n"
+    "in any situation it can do so.");
 
 const u8 gLoudredPokedexText[] = _(
     "It positions the round speakers on its\n"

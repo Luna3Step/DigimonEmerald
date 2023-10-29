@@ -3516,12 +3516,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WHISMUR] =
+    [NATIONAL_DEX_BAOHUCKMON] =
     {
-        .categoryName = _("WHISPER"),
-        .height = 6,
-        .weight = 163,
-        .description = gWhismurPokedexText,
+        .categoryName = _("TRAINING"),
+        .height = 15,
+        .weight = 352,
+        .description = gBaohuckmonPokedexText,
         .pokemonScale = 373,
         .pokemonOffset = 17,
         .trainerScale = 256,
