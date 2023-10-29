@@ -3300,12 +3300,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHIFTRY] =
+    [NATIONAL_DEX_ALLOMON] =
     {
-        .categoryName = _("WICKED"),
-        .height = 13,
-        .weight = 596,
-        .description = gShiftryPokedexText,
+        .categoryName = _("DINOSAUR"),
+        .height = 34,
+        .weight = 1003,
+        .description = gAllomonPokedexText,
         .pokemonScale = 290,
         .pokemonOffset = 4,
         .trainerScale = 256,

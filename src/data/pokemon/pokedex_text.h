@@ -1648,11 +1648,11 @@ const u8 gAkatorimonPokedexText[] = _(
     "compensate, it has developed it's legs\n"
     "to an incredible degree.");
 
-const u8 gShiftryPokedexText[] = _(
-    "It is said to arrive on chilly, wintry winds.\n"
-    "Feared from long ago as the guardian of\n"
-    "forests, this POKéMON lives in a deep\n"
-    "forest where people do not venture.");
+const u8 gAllomonPokedexText[] = _(
+    "Allomon are known to have a rivalry with\n"
+    "any Tyrannomon they encounter. They often\n"
+    "use their powerful legs to outspeed any\n"
+    "opponents they encounte.");
 
 const u8 gTaillowPokedexText[] = _(
     "Although it is small, it is very courageous.\n"

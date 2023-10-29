@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_NUZLEAF"
-with "FRONTIER_MON_AKATORIMON"
+replace "FRONTIER_MON_SHIFTRY"
+with "FRONTIER_MON_ALLOMON"
 
-replace "gNuzleafPokedexText"
-with "gAkatorimonPokedexText"
+replace "gShiftryPokedexText"
+with "gAllomonPokedexText"
 
-replace "NATIONAL_DEX_NUZLEAF"
-with "NATIONAL_DEX_AKATORIMON"
+replace "NATIONAL_DEX_SHIFTRY"
+with "NATIONAL_DEX_ALLOMON"
 
-replace "SPECIES_NUZLEAF"
-with "SPECIES_AKATORIMON"
+replace "SPECIES_SHIFTRY"
+with "SPECIES_ALLOMON"
 
-replace "HOENN_DEX_NUZLEAF"
-with "HOENN_DEX_AKATORIMON"
+replace "HOENN_DEX_SHIFTRY"
+with "HOENN_DEX_ALLOMON"
 
-replace "SPECIES_TO_HOENN(NUZLEAF),"
-with "SPECIES_TO_HOENN(AKATORIMON),"
+replace "SPECIES_TO_HOENN(SHIFTRY),"
+with "SPECIES_TO_HOENN(ALLOMON),"
 
-replace "SPECIES_TO_NATIONAL(NUZLEAF),"
-with "SPECIES_TO_NATIONAL(AKATORIMON),"
+replace "SPECIES_TO_NATIONAL(SHIFTRY),"
+with "SPECIES_TO_NATIONAL(ALLOMON),"
 
-replace "HOENN_TO_NATIONAL(NUZLEAF),"
-with "HOENN_TO_NATIONAL(AKATORIMON),"
+replace "HOENN_TO_NATIONAL(SHIFTRY),"
+with "HOENN_TO_NATIONAL(ALLOMON),"
 
-replace "EC_POKEMON_NATIONAL(NUZLEAF),"
-with "EC_POKEMON_NATIONAL(AKATORIMON),"
+replace "EC_POKEMON_NATIONAL(SHIFTRY),"
+with "EC_POKEMON_NATIONAL(ALLOMON),"
 
-replace "egg_moves(NUZLEAF,"
-with "egg_moves(AKATORIMON,"
+replace "egg_moves(SHIFTRY,"
+with "egg_moves(ALLOMON,"
 
-replace "sNuzleafLevelUpLearnset"
-with "sAkatorimonLevelUpLearnset"
+replace "sShiftryLevelUpLearnset"
+with "sAllomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(NUZLEAF"
-with "SPECIES_SPRITE(AKATORIMON"
+replace "SPECIES_SPRITE(SHIFTRY"
+with "SPECIES_SPRITE(ALLOMON"
 
-replace "SPECIES_PAL(NUZLEAF,"
-with "SPECIES_PAL(AKATORIMON,"
+replace "SPECIES_PAL(SHIFTRY,"
+with "SPECIES_PAL(ALLOMON,"
 
-replace "SPECIES_SHINY_PAL(NUZLEAF,"
-with "SPECIES_SHINY_PAL(AKATORIMON,"
+replace "SPECIES_SHINY_PAL(SHIFTRY,"
+with "SPECIES_SHINY_PAL(ALLOMON,"
 
-replace "EC_POKEMON(NUZLEAF)"
-with "EC_POKEMON(AKATORIMON)"
+replace "EC_POKEMON(SHIFTRY)"
+with "EC_POKEMON(ALLOMON)"
 
-replace "EC_POKEMON_NATIONAL(NUZLEAF)"
-with "EC_POKEMON_NATIONAL(AKATORIMON)"
+replace "EC_POKEMON_NATIONAL(SHIFTRY)"
+with "EC_POKEMON_NATIONAL(ALLOMON)"
 
 in "src/data/text/species_names.h"
-replace "NUZLEAF"
-with "AKATORIMON"
+replace "SHIFTRY"
+with "ALLOMON"
