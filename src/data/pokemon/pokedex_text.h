@@ -1678,11 +1678,11 @@ const u8 gAnkylomonPokedexText[] = _(
     "body is decidely destructive, kitted out\n"
     "with ironclad skin and ferocious spikes.");
 
-const u8 gRaltsPokedexText[] = _(
-    "A RALTS has the power to sense the\n"
-    "emotions of people and POKéMON with the\n"
-    "horns on its head. It takes cover if it\n"
-    "senses any hostility.");
+const u8 gApemonPokedexText[] = _(
+    "Many don't believe in the existence of\n"
+    "Apemon due its incredible stealth\n"
+    "capabilities. Many researchers believe it\n"
+    "likes to inhabit the Central Asian network.");
 
 const u8 gKirliaPokedexText[] = _(
     "A KIRLIA has the psychic power to create \n"

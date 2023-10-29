@@ -3360,12 +3360,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RALTS] =
+    [NATIONAL_DEX_APEMON] =
     {
-        .categoryName = _("FEELING"),
-        .height = 4,
-        .weight = 66,
-        .description = gRaltsPokedexText,
+        .categoryName = _("APE"),
+        .height = 20,
+        .weight = 648,
+        .description = gApemonPokedexText,
         .pokemonScale = 457,
         .pokemonOffset = -3,
         .trainerScale = 256,

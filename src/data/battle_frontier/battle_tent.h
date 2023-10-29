@@ -1146,7 +1146,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_HARDY
     },
     [SLATEPORT_TENT_MON_RALTS] = {
-        .species = SPECIES_RALTS,
+        .species = SPECIES_APEMON,
         .moves = {MOVE_HYPNOSIS, MOVE_IMPRISON, MOVE_PSYCHIC, MOVE_DREAM_EATER},
         .itemTableId = BATTLE_FRONTIER_ITEM_MAGO_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

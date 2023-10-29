@@ -6,7 +6,7 @@
 #define FRONTIER_MON_DATIRIMON       2
 #define FRONTIER_MON_FUFUMON         3
 #define FRONTIER_MON_VEEMON        4
-#define FRONTIER_MON_RALTS          5
+#define FRONTIER_MON_APEMON          5
 #define FRONTIER_MON_HAZYAGUMON       6
 #define FRONTIER_MON_FEEBAS         7
 #define FRONTIER_MON_DODOMON        8

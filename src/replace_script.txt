@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_PELIPPER"
-with "FRONTIER_MON_ANKYLOMON"
+replace "FRONTIER_MON_RALTS"
+with "FRONTIER_MON_APEMON"
 
-replace "gPelipperPokedexText"
-with "gAnkylomonPokedexText"
+replace "gRaltsPokedexText"
+with "gApemonPokedexText"
 
-replace "NATIONAL_DEX_PELIPPER"
-with "NATIONAL_DEX_ANKYLOMON"
+replace "NATIONAL_DEX_RALTS"
+with "NATIONAL_DEX_APEMON"
 
-replace "SPECIES_PELIPPER"
-with "SPECIES_ANKYLOMON"
+replace "SPECIES_RALTS"
+with "SPECIES_APEMON"
 
-replace "HOENN_DEX_PELIPPER"
-with "HOENN_DEX_ANKYLOMON"
+replace "HOENN_DEX_RALTS"
+with "HOENN_DEX_APEMON"
 
-replace "SPECIES_TO_HOENN(PELIPPER),"
-with "SPECIES_TO_HOENN(ANKYLOMON),"
+replace "SPECIES_TO_HOENN(RALTS),"
+with "SPECIES_TO_HOENN(APEMON),"
 
-replace "SPECIES_TO_NATIONAL(PELIPPER),"
-with "SPECIES_TO_NATIONAL(ANKYLOMON),"
+replace "SPECIES_TO_NATIONAL(RALTS),"
+with "SPECIES_TO_NATIONAL(APEMON),"
 
-replace "HOENN_TO_NATIONAL(PELIPPER),"
-with "HOENN_TO_NATIONAL(ANKYLOMON),"
+replace "HOENN_TO_NATIONAL(RALTS),"
+with "HOENN_TO_NATIONAL(APEMON),"
 
-replace "EC_POKEMON_NATIONAL(PELIPPER),"
-with "EC_POKEMON_NATIONAL(ANKYLOMON),"
+replace "EC_POKEMON_NATIONAL(RALTS),"
+with "EC_POKEMON_NATIONAL(APEMON),"
 
-replace "egg_moves(PELIPPER,"
-with "egg_moves(ANKYLOMON,"
+replace "egg_moves(RALTS,"
+with "egg_moves(APEMON,"
 
-replace "sPelipperLevelUpLearnset"
-with "sAnkylomonLevelUpLearnset"
+replace "sRaltsLevelUpLearnset"
+with "sApemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(PELIPPER"
-with "SPECIES_SPRITE(ANKYLOMON"
+replace "SPECIES_SPRITE(RALTS"
+with "SPECIES_SPRITE(APEMON"
 
-replace "SPECIES_PAL(PELIPPER,"
-with "SPECIES_PAL(ANKYLOMON,"
+replace "SPECIES_PAL(RALTS,"
+with "SPECIES_PAL(APEMON,"
 
-replace "SPECIES_SHINY_PAL(PELIPPER,"
-with "SPECIES_SHINY_PAL(ANKYLOMON,"
+replace "SPECIES_SHINY_PAL(RALTS,"
+with "SPECIES_SHINY_PAL(APEMON,"
 
-replace "EC_POKEMON(PELIPPER)"
-with "EC_POKEMON(ANKYLOMON)"
+replace "EC_POKEMON(RALTS)"
+with "EC_POKEMON(APEMON)"
 
-replace "EC_POKEMON_NATIONAL(PELIPPER)"
-with "EC_POKEMON_NATIONAL(ANKYLOMON)"
+replace "EC_POKEMON_NATIONAL(RALTS)"
+with "EC_POKEMON_NATIONAL(APEMON)"
 
 in "src/data/text/species_names.h"
-replace "PELIPPER"
-with "ANKYLOMON"
+replace "RALTS"
+with "APEMON"

@@ -2892,7 +2892,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Virgil[] = {
     {
     .iv = 100,
     .lvl = 36,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     }
 };
 
@@ -2908,12 +2908,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_William[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     },
     {
     .iv = 0,
@@ -3616,7 +3616,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerry1[] = {
     {
     .iv = 10,
     .lvl = 9,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     }
 };
 
@@ -3624,7 +3624,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ted[] = {
     {
     .iv = 10,
     .lvl = 17,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     }
 };
 
@@ -3650,7 +3650,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerry2[] = {
     {
     .iv = 20,
     .lvl = 26,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     },
     {
     .iv = 20,
@@ -8747,7 +8747,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
     {
     .iv = 30,
     .lvl = 16,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     }
 };
 
@@ -10104,7 +10104,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandi[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_RALTS,
+    .species = SPECIES_APEMON,
     }
 };
 

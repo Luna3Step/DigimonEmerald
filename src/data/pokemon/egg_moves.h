@@ -1286,7 +1286,7 @@ const u16 gEggMoves[] = {
               MOVE_SWORDS_DANCE,
               MOVE_ROCK_SLIDE),
 
-    egg_moves(RALTS,
+    egg_moves(APEMON,
               MOVE_DISABLE,
               MOVE_WILL_O_WISP,
               MOVE_MEAN_LOOK,

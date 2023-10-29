@@ -5,7 +5,7 @@
     FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_FUFUMON,        \
     FRONTIER_MON_VEEMON,       \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_FEEBAS,        \
     FRONTIER_MON_GUILMON_X,         \
@@ -113,7 +113,7 @@
     -1
 
 #define FRONTIER_MONS_RICH_BOY_LADY_1 \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_TINKERMON,     \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_ICEBOTAMON,         \
@@ -208,7 +208,7 @@
     -1
 
 #define FRONTIER_MONS_TUBER_1   \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_FEEBAS,        \
     FRONTIER_MON_KUDAMON,        \
@@ -386,7 +386,7 @@
 
 #define FRONTIER_MONS_POKEFAN_F_1 \
     FRONTIER_MON_AZURILL,       \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_HACKMON,     \
@@ -484,7 +484,7 @@
     -1
 
 #define FRONTIER_MONS_NINJA_BOY_1 \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_ICEBOTAMON,         \
     FRONTIER_MON_GOMAMON,      \
@@ -635,7 +635,7 @@
 
 #define FRONTIER_MONS_AROMA_LADY_1 \
     FRONTIER_MON_KOKUWAMON,       \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_AIRDRAMON,        \
     FRONTIER_MON_ZUBAMON,         \
     FRONTIER_MON_KERAMON,        \
@@ -666,7 +666,7 @@
     -1
 
 #define FRONTIER_MONS_GUITARIST_1 \
-    FRONTIER_MON_RALTS,         \
+    FRONTIER_MON_APEMON,         \
     FRONTIER_MON_GUILMON_X,         \
     FRONTIER_MON_TINKERMON,     \
     FRONTIER_MON_WYNAUT,        \
