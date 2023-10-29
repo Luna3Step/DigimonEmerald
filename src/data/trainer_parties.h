@@ -5401,7 +5401,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Yasu[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -5409,7 +5409,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Takashi[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     },
     {
     .iv = 0,
@@ -5473,7 +5473,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lung[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8192,7 +8192,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jose[] = {
     {
     .iv = 50,
     .lvl = 8,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_BAKEMON,
     }
 };
 
@@ -8200,12 +8200,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Doug[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_BAKEMON,
     },
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8226,7 +8226,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kent[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8234,12 +8234,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_BAKEMON,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_BAKEMON,
     }
 };
 
@@ -8247,7 +8247,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8260,7 +8260,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8278,7 +8278,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8291,7 +8291,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     },
     {
     .iv = 40,
@@ -8301,7 +8301,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     }
 };
 
@@ -8692,7 +8692,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     .moves = {MOVE_SAND_ATTACK, MOVE_DOUBLE_TEAM, MOVE_FURY_CUTTER, MOVE_SWORDS_DANCE}
     }
 };
@@ -8701,7 +8701,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_BAKEMON,
     .moves = {MOVE_LEECH_LIFE, MOVE_FURY_SWIPES, MOVE_MIND_READER, MOVE_DIG}
     },
     {
@@ -10018,7 +10018,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jaiden[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_NINJASK,
+    .species = SPECIES_BALISTAMON,
     },
     {
     .iv = 0,

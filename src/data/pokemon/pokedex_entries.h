@@ -3480,24 +3480,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_NINCADA] =
+    [NATIONAL_DEX_BAKEMON] =
     {
-        .categoryName = _("TRAINEE"),
-        .height = 5,
+        .categoryName = _("GHOST"),
+        .height = 12,
         .weight = 55,
-        .description = gNincadaPokedexText,
+        .description = gBakemonPokedexText,
         .pokemonScale = 405,
         .pokemonOffset = 21,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NINJASK] =
+    [NATIONAL_DEX_BALISTAMON] =
     {
-        .categoryName = _("NINJA"),
-        .height = 8,
-        .weight = 120,
-        .description = gNinjaskPokedexText,
+        .categoryName = _("BEETLE"),
+        .height = 21,
+        .weight = 876,
+        .description = gBalistamonPokedexText,
         .pokemonScale = 383,
         .pokemonOffset = -9,
         .trainerScale = 256,

@@ -955,7 +955,7 @@ const u16 gEggMoves[] = {
               MOVE_TAKE_DOWN,
               MOVE_FALSE_SWIPE),
 
-    egg_moves(NINCADA,
+    egg_moves(BAKEMON,
               MOVE_ENDURE,
               MOVE_FAINT_ATTACK,
               MOVE_GUST,

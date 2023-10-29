@@ -3909,7 +3909,7 @@ static const u16 sAllomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNincadaLevelUpLearnset[] = {
+static const u16 sBakemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 5, MOVE_LEECH_LIFE),
@@ -3923,7 +3923,7 @@ static const u16 sNincadaLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNinjaskLevelUpLearnset[] = {
+static const u16 sBalistamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_LEECH_LIFE),

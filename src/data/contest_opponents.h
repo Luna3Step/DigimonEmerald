@@ -355,7 +355,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_RAYMOND] = {
-        .species = SPECIES_NINCADA,
+        .species = SPECIES_BAKEMON,
         .nickname = _("NINDA"),
         .trainerName = _("RAYMOND"),
         .trainerGfxId = OBJ_EVENT_GFX_BLACK_BELT,
@@ -1615,7 +1615,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_ELIAS] = {
-        .species = SPECIES_NINJASK,
+        .species = SPECIES_BALISTAMON,
         .nickname = _("NINAS"),
         .trainerName = _("ELIAS"),
         .trainerGfxId = OBJ_EVENT_GFX_LITTLE_BOY,

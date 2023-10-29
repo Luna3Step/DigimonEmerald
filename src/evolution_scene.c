@@ -577,7 +577,7 @@ static void CreateShedinja(u16 preEvoSpecies, struct Pokemon *mon)
 
         if (GetMonData(shedinja, MON_DATA_SPECIES) == SPECIES_SHEDINJA
             && GetMonData(shedinja, MON_DATA_LANGUAGE) == LANGUAGE_JAPANESE
-            && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NINJASK)
+            && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_BALISTAMON)
                 SetMonData(shedinja, MON_DATA_NICKNAME, sText_ShedinjaJapaneseName);
     }
 }

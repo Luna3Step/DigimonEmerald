@@ -1738,17 +1738,17 @@ const u8 gBaboonmonPokedexText[] = _(
     "even tougher. The Baboongamon with the\n"
     "toughest rocks is the leader.");
 
-const u8 gNincadaPokedexText[] = _(
-    "It makes its nest at the roots of a mighty\n"
-    "tree. Using its whiskerlike antennae, it\n"
-    "probes its surroundings in the\n"
-    "pitch-black darkness of soil.");
+const u8 gBakemonPokedexText[] = _(
+    "Everything about Bakemons true form is a\n"
+    "complete mystery. The only thing that is\n"
+    "known is that its covered in a white cloth.\n"
+    "It prefers curses when fighting.");
 
-const u8 gNinjaskPokedexText[] = _(
-    "Because it darts about vigorously at high\n"
-    "speed, it is very difficult to see. Hearing\n"
-    "its distinctive cries for too long induces\n"
-    "a headache.");
+const u8 gBalistamonPokedexText[] = _(
+    "Many people mistake its emotionless and\n"
+    "warlike appearence to mean it is a violent\n"
+    "Digimon however Ballistamon generally avoid\n"
+    "combat where possible.");
 
 const u8 gShedinjaPokedexText[] = _(
     "A peculiar POKéMON that floats in air even\n"
