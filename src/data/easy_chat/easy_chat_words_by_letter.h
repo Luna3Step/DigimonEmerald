@@ -1129,7 +1129,7 @@ const u16 gEasyChatWordsByLetter_N[] = {
     EC_WORD_NOTHING,
     EC_WORD_NOW,
     EC_POKEMON(NUMEL),
-    EC_POKEMON(NUZLEAF),
+    EC_POKEMON(AKATORIMON),
 };
 
 const u16 gEasyChatWordsByLetter_O[] = {

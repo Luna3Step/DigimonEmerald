@@ -1642,11 +1642,11 @@ const u8 gAirdramonPokedexText[] = _(
     "Airdramon was close to god, making it a\n"
     "deity amongst society.");
 
-const u8 gNuzleafPokedexText[] = _(
-    "A forest-dwelling POKéMON that is skilled\n"
-    "at climbing trees. Its long and pointed\n"
-    "nose is its weak point. It loses power if\n"
-    "the nose is gripped.");
+const u8 gAkatorimonPokedexText[] = _(
+    "Although Akatorimon has taken in lots of\n"
+    "Flying data, it is unable to fly at all. To\n"
+    "compensate, it has developed it's legs\n"
+    "to an incredible degree.");
 
 const u8 gShiftryPokedexText[] = _(
     "It is said to arrive on chilly, wintry winds.\n"

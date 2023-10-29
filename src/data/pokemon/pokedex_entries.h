@@ -3288,12 +3288,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NUZLEAF] =
+    [NATIONAL_DEX_AKATORIMON] =
     {
-        .categoryName = _("WILY"),
-        .height = 10,
-        .weight = 280,
-        .description = gNuzleafPokedexText,
+        .categoryName = _("CHICKEN"),
+        .height = 23,
+        .weight = 576,
+        .description = gAkatorimonPokedexText,
         .pokemonScale = 299,
         .pokemonOffset = 10,
         .trainerScale = 256,
