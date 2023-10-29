@@ -315,7 +315,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_PSYCHIC, MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_DESTINY_BOND},
             },
             {
-                .species = SPECIES_BRELOOM,
+                .species = SPECIES_ATAMADEMON,
                 .heldItem = ITEM_LUM_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_JOLLY,

@@ -194,7 +194,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
     EC_WORD_BOY,
     EC_WORD_BRAG,
     EC_WORD_BREAK,
-    EC_POKEMON(BRELOOM),
+    EC_POKEMON(ATAMADEMON),
     EC_MOVE(BRICK_BREAK),
     EC_WORD_BROTHER,
     EC_MOVE(BUBBLE),

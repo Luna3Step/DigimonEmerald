@@ -1714,11 +1714,11 @@ const u8 gAresdramonPokedexText[] = _(
     "strengthen its flexibility and defensive\n"
     "capabilties.");
 
-const u8 gBreloomPokedexText[] = _(
-    "It scatters spores from holes in the cap\n"
-    "on its head. It loves warm and humid\n"
-    "climates. It feeds on trees and plants in\n"
-    "fields and forests.");
+const u8 gAtamademonPokedexText[] = _(
+    "Depsite its menacing face, Atamademon is\n"
+    "actually a very gentle Digimon although that\n"
+    "doesn't stop it from being very destructive\n"
+    "with its giant head and poor balance.");
 
 const u8 gSlakothPokedexText[] = _(
     "It sleeps virtually all day and night long.\n"

@@ -1195,7 +1195,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_CAREFUL
     },
     [SLATEPORT_TENT_MON_BRELOOM] = {
-        .species = SPECIES_BRELOOM,
+        .species = SPECIES_ATAMADEMON,
         .moves = {MOVE_ABSORB, MOVE_TACKLE, MOVE_STUN_SPORE, MOVE_MEGA_DRAIN},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

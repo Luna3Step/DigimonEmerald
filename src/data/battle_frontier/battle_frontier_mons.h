@@ -2674,8 +2674,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_QUIET
     },
-    [FRONTIER_MON_BRELOOM_1] = {
-        .species = SPECIES_BRELOOM,
+    [FRONTIER_MON_ATAMADEMON_1] = {
+        .species = SPECIES_ATAMADEMON,
         .moves = {MOVE_SKY_UPPERCUT, MOVE_MACH_PUNCH, MOVE_HEADBUTT, MOVE_COUNTER},
         .itemTableId = BATTLE_FRONTIER_ITEM_KINGS_ROCK,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -3360,8 +3360,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_BRELOOM_2] = {
-        .species = SPECIES_BRELOOM,
+    [FRONTIER_MON_ATAMADEMON_2] = {
+        .species = SPECIES_ATAMADEMON,
         .moves = {MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_FOCUS_PUNCH, MOVE_SPORE},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -4018,8 +4018,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_BRELOOM_3] = {
-        .species = SPECIES_BRELOOM,
+    [FRONTIER_MON_ATAMADEMON_3] = {
+        .species = SPECIES_ATAMADEMON,
         .moves = {MOVE_IRON_TAIL, MOVE_FOCUS_PUNCH, MOVE_ATTRACT, MOVE_SPORE},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -4690,8 +4690,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_BRELOOM_4] = {
-        .species = SPECIES_BRELOOM,
+    [FRONTIER_MON_ATAMADEMON_4] = {
+        .species = SPECIES_ATAMADEMON,
         .moves = {MOVE_FOCUS_PUNCH, MOVE_SLUDGE_BOMB, MOVE_SPORE, MOVE_DOUBLE_TEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,

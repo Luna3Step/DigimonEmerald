@@ -495,7 +495,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 40,
@@ -3754,7 +3754,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen4[] = {
     {
     .iv = 40,
     .lvl = 32,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 40,
@@ -3767,7 +3767,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen5[] = {
     {
     .iv = 50,
     .lvl = 35,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 50,
@@ -5630,7 +5630,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Paula[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -6190,7 +6190,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 20,
@@ -6208,7 +6208,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 30,
@@ -6226,7 +6226,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana5[] = {
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 40,
@@ -7329,7 +7329,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia3[] = {
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 20,
@@ -7362,7 +7362,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia4[] = {
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 30,
@@ -7395,7 +7395,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     },
     {
     .iv = 40,
@@ -7423,7 +7423,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson1[] = {
     {
     .iv = 50,
     .lvl = 27,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -7457,7 +7457,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson2[] = {
     {
     .iv = 60,
     .lvl = 31,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -7465,7 +7465,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson3[] = {
     {
     .iv = 70,
     .lvl = 34,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -7473,7 +7473,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson4[] = {
     {
     .iv = 80,
     .lvl = 37,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -7486,7 +7486,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson5[] = {
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -7868,7 +7868,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Paxton[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -8065,7 +8065,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -8078,7 +8078,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 
@@ -8096,7 +8096,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_BRELOOM,
+    .species = SPECIES_ATAMADEMON,
     }
 };
 

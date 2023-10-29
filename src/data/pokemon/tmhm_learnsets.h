@@ -6756,7 +6756,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM49_SNATCH)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_BRELOOM]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
+    [SPECIES_ATAMADEMON]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM08_BULK_UP)
                                         | TMHM(TM09_BULLET_SEED)

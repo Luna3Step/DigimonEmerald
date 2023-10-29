@@ -3432,12 +3432,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BRELOOM] =
+    [NATIONAL_DEX_ATAMADEMON] =
     {
         .categoryName = _("MUSHROOM"),
-        .height = 12,
-        .weight = 392,
-        .description = gBreloomPokedexText,
+        .height = 63,
+        .weight = 943,
+        .description = gAtamademonPokedexText,
         .pokemonScale = 324,
         .pokemonOffset = 6,
         .trainerScale = 256,
