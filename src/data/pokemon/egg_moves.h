@@ -1180,7 +1180,7 @@ const u16 gEggMoves[] = {
               MOVE_PIN_MISSILE,
               MOVE_COTTON_SPORE),
 
-    egg_moves(SLAKOTH,
+    egg_moves(AURUMON,
               MOVE_PURSUIT,
               MOVE_SLASH,
               MOVE_BODY_SLAM,

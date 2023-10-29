@@ -1720,11 +1720,11 @@ const u8 gAtamademonPokedexText[] = _(
     "doesn't stop it from being very destructive\n"
     "with its giant head and poor balance.");
 
-const u8 gSlakothPokedexText[] = _(
-    "It sleeps virtually all day and night long.\n"
-    "It doesn't change its nest its entire life,\n"
-    "but it sometimes travels great distances\n"
-    "by swimming in rivers.");
+const u8 gAurumonPokedexText[] = _(
+    "Aurumon is specialised in scouting moreso\n"
+    "than anything else, often being able to\n"
+    "detect opponents 1km away in the dark. It\n"
+    "uses this ability for stealth attacks.");
 
 const u8 gVigorothPokedexText[] = _(
     "It can't keep still because its blood boils\n"

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BRELOOM"
-with "FRONTIER_MON_ATAMADEMON"
+replace "FRONTIER_MON_SLAKOTH"
+with "FRONTIER_MON_AURUMON"
 
-replace "gBreloomPokedexText"
-with "gAtamademonPokedexText"
+replace "gSlakothPokedexText"
+with "gAurumonPokedexText"
 
-replace "NATIONAL_DEX_BRELOOM"
-with "NATIONAL_DEX_ATAMADEMON"
+replace "NATIONAL_DEX_SLAKOTH"
+with "NATIONAL_DEX_AURUMON"
 
-replace "SPECIES_BRELOOM"
-with "SPECIES_ATAMADEMON"
+replace "SPECIES_SLAKOTH"
+with "SPECIES_AURUMON"
 
-replace "HOENN_DEX_BRELOOM"
-with "HOENN_DEX_ATAMADEMON"
+replace "HOENN_DEX_SLAKOTH"
+with "HOENN_DEX_AURUMON"
 
-replace "SPECIES_TO_HOENN(BRELOOM),"
-with "SPECIES_TO_HOENN(ATAMADEMON),"
+replace "SPECIES_TO_HOENN(SLAKOTH),"
+with "SPECIES_TO_HOENN(AURUMON),"
 
-replace "SPECIES_TO_NATIONAL(BRELOOM),"
-with "SPECIES_TO_NATIONAL(ATAMADEMON),"
+replace "SPECIES_TO_NATIONAL(SLAKOTH),"
+with "SPECIES_TO_NATIONAL(AURUMON),"
 
-replace "HOENN_TO_NATIONAL(BRELOOM),"
-with "HOENN_TO_NATIONAL(ATAMADEMON),"
+replace "HOENN_TO_NATIONAL(SLAKOTH),"
+with "HOENN_TO_NATIONAL(AURUMON),"
 
-replace "EC_POKEMON_NATIONAL(BRELOOM),"
-with "EC_POKEMON_NATIONAL(ATAMADEMON),"
+replace "EC_POKEMON_NATIONAL(SLAKOTH),"
+with "EC_POKEMON_NATIONAL(AURUMON),"
 
-replace "egg_moves(BRELOOM,"
-with "egg_moves(ATAMADEMON,"
+replace "egg_moves(SLAKOTH,"
+with "egg_moves(AURUMON,"
 
-replace "sBreloomLevelUpLearnset"
-with "sAtamademonLevelUpLearnset"
+replace "sSlakothLevelUpLearnset"
+with "sAurumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BRELOOM"
-with "SPECIES_SPRITE(ATAMADEMON"
+replace "SPECIES_SPRITE(SLAKOTH"
+with "SPECIES_SPRITE(AURUMON"
 
-replace "SPECIES_PAL(BRELOOM,"
-with "SPECIES_PAL(ATAMADEMON,"
+replace "SPECIES_PAL(SLAKOTH,"
+with "SPECIES_PAL(AURUMON,"
 
-replace "SPECIES_SHINY_PAL(BRELOOM,"
-with "SPECIES_SHINY_PAL(ATAMADEMON,"
+replace "SPECIES_SHINY_PAL(SLAKOTH,"
+with "SPECIES_SHINY_PAL(AURUMON,"
 
-replace "EC_POKEMON(BRELOOM)"
-with "EC_POKEMON(ATAMADEMON)"
+replace "EC_POKEMON(SLAKOTH)"
+with "EC_POKEMON(AURUMON)"
 
-replace "EC_POKEMON_NATIONAL(BRELOOM)"
-with "EC_POKEMON_NATIONAL(ATAMADEMON)"
+replace "EC_POKEMON_NATIONAL(SLAKOTH)"
+with "EC_POKEMON_NATIONAL(AURUMON)"
 
 in "src/data/text/species_names.h"
-replace "BRELOOM"
-with "ATAMADEMON"
+replace "SLAKOTH"
+with "AURUMON"

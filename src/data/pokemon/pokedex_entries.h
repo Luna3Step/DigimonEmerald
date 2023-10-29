@@ -3444,12 +3444,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SLAKOTH] =
+    [NATIONAL_DEX_AURUMON] =
     {
-        .categoryName = _("SLACKER"),
-        .height = 8,
-        .weight = 240,
-        .description = gSlakothPokedexText,
+        .categoryName = _("OWL"),
+        .height = 16,
+        .weight = 440,
+        .description = gAurumonPokedexText,
         .pokemonScale = 291,
         .pokemonOffset = 16,
         .trainerScale = 256,
