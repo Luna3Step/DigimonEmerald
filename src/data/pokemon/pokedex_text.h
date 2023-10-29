@@ -1654,11 +1654,11 @@ const u8 gAllomonPokedexText[] = _(
     "use their powerful legs to outspeed any\n"
     "opponents they encounte.");
 
-const u8 gTaillowPokedexText[] = _(
-    "Although it is small, it is very courageous.\n"
-    "It will take on a larger SKARMORY on an\n"
-    "equal footing. However, its will weakens if\n"
-    "it becomes hungry.");
+const u8 gAllomon_xPokedexText[] = _(
+    "It's increased leg strength grants Allomon\n"
+    "X even more speed, letting it outmaneuver\n"
+    "most Digimon. Some Digimon even report it\n"
+    "taking flight at its maximum speed.");
 
 const u8 gSwellowPokedexText[] = _(
     "A SWELLOW dives upon prey from far above.\n"

@@ -961,7 +961,7 @@ const u16 gEggMoves[] = {
               MOVE_GUST,
               MOVE_SILVER_WIND),
 
-    egg_moves(TAILLOW,
+    egg_moves(ALLOMON_X,
               MOVE_PURSUIT,
               MOVE_SUPERSONIC,
               MOVE_REFRESH,

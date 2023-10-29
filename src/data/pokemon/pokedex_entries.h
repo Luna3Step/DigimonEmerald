@@ -3312,12 +3312,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TAILLOW] =
+    [NATIONAL_DEX_ALLOMON_X] =
     {
-        .categoryName = _("TINYSWALLOW"),
-        .height = 3,
-        .weight = 23,
-        .description = gTaillowPokedexText,
+        .categoryName = _("X DIGIMON"),
+        .height = 35,
+        .weight = 1074,
+        .description = gAllomon_xPokedexText,
         .pokemonScale = 465,
         .pokemonOffset = 21,
         .trainerScale = 256,

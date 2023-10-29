@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SHIFTRY"
-with "FRONTIER_MON_ALLOMON"
+replace "FRONTIER_MON_ALLOMON_X"
+with "FRONTIER_MON_ALLOMON_X"
 
-replace "gShiftryPokedexText"
-with "gAllomonPokedexText"
+replace "gAllomon_xPokedexText"
+with "gAllomon_xPokedexText"
 
-replace "NATIONAL_DEX_SHIFTRY"
-with "NATIONAL_DEX_ALLOMON"
+replace "NATIONAL_DEX_ALLOMON_X"
+with "NATIONAL_DEX_ALLOMON_X"
 
-replace "SPECIES_SHIFTRY"
-with "SPECIES_ALLOMON"
+replace "SPECIES_ALLOMON_X"
+with "SPECIES_ALLOMON_X"
 
-replace "HOENN_DEX_SHIFTRY"
-with "HOENN_DEX_ALLOMON"
+replace "HOENN_DEX_ALLOMON_X"
+with "HOENN_DEX_ALLOMON_X"
 
-replace "SPECIES_TO_HOENN(SHIFTRY),"
-with "SPECIES_TO_HOENN(ALLOMON),"
+replace "SPECIES_TO_HOENN(ALLOMON_X),"
+with "SPECIES_TO_HOENN(ALLOMON_X),"
 
-replace "SPECIES_TO_NATIONAL(SHIFTRY),"
-with "SPECIES_TO_NATIONAL(ALLOMON),"
+replace "SPECIES_TO_NATIONAL(ALLOMON_X),"
+with "SPECIES_TO_NATIONAL(ALLOMON_X),"
 
-replace "HOENN_TO_NATIONAL(SHIFTRY),"
-with "HOENN_TO_NATIONAL(ALLOMON),"
+replace "HOENN_TO_NATIONAL(ALLOMON_X),"
+with "HOENN_TO_NATIONAL(ALLOMON_X),"
 
-replace "EC_POKEMON_NATIONAL(SHIFTRY),"
-with "EC_POKEMON_NATIONAL(ALLOMON),"
+replace "EC_POKEMON_NATIONAL(ALLOMON_X),"
+with "EC_POKEMON_NATIONAL(ALLOMON_X),"
 
-replace "egg_moves(SHIFTRY,"
-with "egg_moves(ALLOMON,"
+replace "egg_moves(ALLOMON_X,"
+with "egg_moves(ALLOMON_X,"
 
-replace "sShiftryLevelUpLearnset"
-with "sAllomonLevelUpLearnset"
+replace "sAllomon_xLevelUpLearnset"
+with "sAllomon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SHIFTRY"
-with "SPECIES_SPRITE(ALLOMON"
+replace "SPECIES_SPRITE(ALLOMON_X"
+with "SPECIES_SPRITE(ALLOMON_X"
 
-replace "SPECIES_PAL(SHIFTRY,"
-with "SPECIES_PAL(ALLOMON,"
+replace "SPECIES_PAL(ALLOMON_X,"
+with "SPECIES_PAL(ALLOMON_X,"
 
-replace "SPECIES_SHINY_PAL(SHIFTRY,"
-with "SPECIES_SHINY_PAL(ALLOMON,"
+replace "SPECIES_SHINY_PAL(ALLOMON_X,"
+with "SPECIES_SHINY_PAL(ALLOMON_X,"
 
-replace "EC_POKEMON(SHIFTRY)"
-with "EC_POKEMON(ALLOMON)"
+replace "EC_POKEMON(ALLOMON_X)"
+with "EC_POKEMON(ALLOMON_X)"
 
-replace "EC_POKEMON_NATIONAL(SHIFTRY)"
-with "EC_POKEMON_NATIONAL(ALLOMON)"
+replace "EC_POKEMON_NATIONAL(ALLOMON_X)"
+with "EC_POKEMON_NATIONAL(ALLOMON_X)"
 
 in "src/data/text/species_names.h"
-replace "SHIFTRY"
+replace "TAILLOW"
 with "ALLOMON"

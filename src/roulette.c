@@ -1149,7 +1149,7 @@ static void InitRouletteTableData(void)
         case SPECIES_SHROOMISH:
             sRoulette->partySpeciesFlags |= HAS_SHROOMISH;
             break;
-        case SPECIES_TAILLOW:
+        case SPECIES_ALLOMON_X:
             sRoulette->partySpeciesFlags |= HAS_TAILLOW;
             break;
         }
@@ -4449,9 +4449,9 @@ static void SetBallStuck(struct Sprite *sprite)
     if (sRoulette->useTaillow)
     {
         if (sprite->sStuckOnWheelLeft)
-            PlayCry_Normal(SPECIES_TAILLOW, -63);
+            PlayCry_Normal(SPECIES_ALLOMON_X, -63);
         else
-            PlayCry_Normal(SPECIES_TAILLOW, 63);
+            PlayCry_Normal(SPECIES_ALLOMON_X, 63);
     }
     else
     {
@@ -4719,9 +4719,9 @@ static void SpriteCB_Taillow_FlyIn(struct Sprite *sprite)
         {
             m4aSongNumStartOrChange(SE_TAILLOW_WING_FLAP);
             if (sRoulette->ball->sStuckOnWheelLeft == 0)
-                PlayCry_Normal(SPECIES_TAILLOW, 63);
+                PlayCry_Normal(SPECIES_ALLOMON_X, 63);
             else
-                PlayCry_Normal(SPECIES_TAILLOW, -63);
+                PlayCry_Normal(SPECIES_ALLOMON_X, -63);
             StartSpriteAnim(sprite, sRoulette->ball->sStuckOnWheelLeft + 2);
             sprite->data[1] = 45;
             sprite->callback = SpriteCB_Taillow_PickUpBall;
