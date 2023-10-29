@@ -3969,7 +3969,7 @@ static const u16 sAllomon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSwellowLevelUpLearnset[] = {
+static const u16 sAngelamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),

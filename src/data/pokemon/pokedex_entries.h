@@ -3324,12 +3324,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWELLOW] =
+    [NATIONAL_DEX_ANGELAMON] =
     {
-        .categoryName = _("SWALLOW"),
-        .height = 7,
-        .weight = 198,
-        .description = gSwellowPokedexText,
+        .categoryName = _("DIVORCE"),
+        .height = 13,
+        .weight = 250,
+        .description = gAngelamonPokedexText,
         .pokemonScale = 428,
         .pokemonOffset = 15,
         .trainerScale = 256,

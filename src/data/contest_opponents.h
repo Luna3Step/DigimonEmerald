@@ -1643,7 +1643,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_JADE] = {
-        .species = SPECIES_SWELLOW,
+        .species = SPECIES_ANGELAMON,
         .nickname = _("WELOW"),
         .trainerName = _("JADE"),
         .trainerGfxId = OBJ_EVENT_GFX_POKEFAN_F,

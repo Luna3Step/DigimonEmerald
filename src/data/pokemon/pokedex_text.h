@@ -1660,11 +1660,11 @@ const u8 gAllomon_xPokedexText[] = _(
     "most Digimon. Some Digimon even report it\n"
     "taking flight at its maximum speed.");
 
-const u8 gSwellowPokedexText[] = _(
-    "A SWELLOW dives upon prey from far above.\n"
-    "It never misses its targets. It takes to\n"
-    "the skies in search of lands with a warm\n"
-    "climate.");
+const u8 gAngelamonPokedexText[] = _(
+    "https://www.reddit.com/r/greentext\n"
+    "/greentext/comments\n"
+    "/da3t34/anon_really_hates\n"
+    "_angela_anaconda/");
 
 const u8 gWingullPokedexText[] = _(
     "It makes its nest on a sheer cliff at the\n"
