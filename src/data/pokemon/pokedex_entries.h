@@ -14,7 +14,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ARGOMON_F] =
     {
-        .categoryName = _("MUTANT"),
+        .categoryName = _("ALGORITHM"),
         .height = 2,
         .weight = 40,
         .description = gArgomon_fPokedexText,
@@ -554,7 +554,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ARGOMON_IT] =
     {
-        .categoryName = _("MUTANT"),
+        .categoryName = _("ALGORITHM"),
         .height = 3,
         .weight = 60,
         .description = gArgomon_itPokedexText,
@@ -1310,7 +1310,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ARGOMON_ROOKIE] =
     {
-        .categoryName = _("MUTANT"),
+        .categoryName = _("ALGORITHM"),
         .height = 7,
         .weight = 290,
         .description = gArgomon_rookiePokedexText,
@@ -3408,12 +3408,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MASQUERAIN] =
+    [NATIONAL_DEX_ARGOMON_CHAMPION] =
     {
-        .categoryName = _("EYEBALL"),
-        .height = 8,
-        .weight = 36,
-        .description = gMasquerainPokedexText,
+        .categoryName = _("ALGORITHM"),
+        .height = 15,
+        .weight = 358,
+        .description = gArgomon_championPokedexText,
         .pokemonScale = 378,
         .pokemonOffset = 8,
         .trainerScale = 256,

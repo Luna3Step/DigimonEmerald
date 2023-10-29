@@ -1702,11 +1702,11 @@ const u8 gArchelomonPokedexText[] = _(
     "making it particularly slow on land\n"
     "or in water.");
 
-const u8 gMasquerainPokedexText[] = _(
-    "It intimidates foes with the large eyelike\n"
-    "patterns on its antennae. Because it can't\n"
-    "fly if its wings get wet, it shelters itself\n"
-    "from rain under large trees and eaves.");
+const u8 gArgomon_championPokedexText[] = _(
+    "Champion level Argomon finally grow into\n"
+    "their own and start to offer some proper\n"
+    "fire power. The swarms of weaker Argomon\n"
+    "makes up for its average strength.");
 
 const u8 gShroomishPokedexText[] = _(
     "It loves to eat damp, composted soil in\n"

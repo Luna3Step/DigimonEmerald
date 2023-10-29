@@ -1386,8 +1386,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_NAIVE
     },
-    [FRONTIER_MON_MASQUERAIN_1] = {
-        .species = SPECIES_MASQUERAIN,
+    [FRONTIER_MON_ARGOMON_CHAMPION_1] = {
+        .species = SPECIES_ARGOMON_CHAMPION,
         .moves = {MOVE_SILVER_WIND, MOVE_AERIAL_ACE, MOVE_ICY_WIND, MOVE_STUN_SPORE},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHERI_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2121,8 +2121,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_MASQUERAIN_2] = {
-        .species = SPECIES_MASQUERAIN,
+    [FRONTIER_MON_ARGOMON_CHAMPION_2] = {
+        .species = SPECIES_ARGOMON_CHAMPION,
         .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_GIGA_DRAIN, MOVE_STUN_SPORE},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,

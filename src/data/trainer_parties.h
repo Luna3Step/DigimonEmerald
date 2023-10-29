@@ -2811,7 +2811,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
     {
     .iv = 20,
     .lvl = 34,
-    .species = SPECIES_MASQUERAIN,
+    .species = SPECIES_ARGOMON_CHAMPION,
     }
 };
 
@@ -2834,7 +2834,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_MASQUERAIN,
+    .species = SPECIES_ARGOMON_CHAMPION,
     }
 };
 
@@ -2860,7 +2860,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     {
     .iv = 40,
     .lvl = 38,
-    .species = SPECIES_MASQUERAIN,
+    .species = SPECIES_ARGOMON_CHAMPION,
     .heldItem = ITEM_SILVER_POWDER
     },
     {
