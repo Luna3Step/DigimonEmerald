@@ -252,8 +252,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_JOLLY
     },
-    [FRONTIER_MON_SKITTY] = {
-        .species = SPECIES_SKITTY,
+    [FRONTIER_MON_BIRDRAMON] = {
+        .species = SPECIES_BIRDRAMON,
         .moves = {MOVE_SING, MOVE_ATTRACT, MOVE_CHARM, MOVE_DOUBLE_SLAP},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

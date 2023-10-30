@@ -4123,7 +4123,7 @@ static const u16 sWailordLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSkittyLevelUpLearnset[] = {
+static const u16 sBirdramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 3, MOVE_TAIL_WHIP),

@@ -1798,11 +1798,11 @@ const u8 gBiothunmonPokedexText[] = _(
     "are still ongoing efforts to capture one\n"
     "despite their elusive nature.");
 
-const u8 gSkittyPokedexText[] = _(
-    "A SKITTY's adorably cute behavior makes it\n"
-    "highly popular. In battle, it makes its tail\n"
-    "puff out. It threatens foes with a sharp\n"
-    "growl.");
+const u8 gBirdramonPokedexText[] = _(
+    "Thought to be generated from the internets\n"
+    "defensive 'firewall', Birdramon is actually\n"
+    "not a very combative Digimon. However when\n"
+    "it is forced into fighting, it is vicious.");
 
 const u8 gDelcattyPokedexText[] = _(
     "Rather than keeping a permanent lair,\n"

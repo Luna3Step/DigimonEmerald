@@ -71,7 +71,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle1[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 0,
@@ -3885,7 +3885,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel1[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -3894,35 +3894,35 @@ static const struct TrainerMonItemCustomMoves sParty_Colton[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     },
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     },
     {
     .iv = 0,
     .lvl = 40,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     },
     {
     .iv = 0,
     .lvl = 12,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     },
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     },
@@ -3939,7 +3939,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel2[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -3948,7 +3948,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel3[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -6119,7 +6119,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Martha[] = {
     {
     .iv = 0,
     .lvl = 23,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 0,
@@ -7257,7 +7257,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia1[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 0,
@@ -7311,7 +7311,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia2[] = {
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 10,
@@ -8112,7 +8112,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robin[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 0,
@@ -12179,7 +12179,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 10,
@@ -12212,7 +12212,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 20,

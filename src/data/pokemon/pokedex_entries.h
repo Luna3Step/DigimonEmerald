@@ -3600,12 +3600,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_SKITTY] =
+    [NATIONAL_DEX_BIRDRAMON] =
     {
-        .categoryName = _("KITTEN"),
-        .height = 6,
-        .weight = 110,
-        .description = gSkittyPokedexText,
+        .categoryName = _("PHOENIX"),
+        .height = 60,
+        .weight = 678,
+        .description = gBirdramonPokedexText,
         .pokemonScale = 492,
         .pokemonOffset = 19,
         .trainerScale = 256,

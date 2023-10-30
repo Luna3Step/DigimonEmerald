@@ -1065,7 +1065,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("ISIS"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_SKITTY
+        .requestedSpecies = SPECIES_BIRDRAMON
     }
 };
 
@@ -1094,7 +1094,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
     }, {
         EC_WORD_THANK_YOU,
         EC_WORD_FOR,
-        EC_POKEMON(SKITTY),
+        EC_POKEMON(BIRDRAMON),
         EC_POKEMON_NATIONAL(CALUMON),
         EC_WORD_CRIES,
         EC_WORD_IN,
