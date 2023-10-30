@@ -2181,7 +2181,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_HARIYAMA"
+                "species": "SPECIES_BIOQUETMON"
               },
               {
                 "min_level": 40,
@@ -2211,7 +2211,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_HARIYAMA"
+                "species": "SPECIES_BIOQUETMON"
               },
               {
                 "min_level": 36,
@@ -7345,7 +7345,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_HARIYAMA"
+                "species": "SPECIES_BIOQUETMON"
               },
               {
                 "min_level": 40,
@@ -7365,7 +7365,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_HARIYAMA"
+                "species": "SPECIES_BIOQUETMON"
               },
               {
                 "min_level": 42,
@@ -7375,7 +7375,7 @@
               {
                 "min_level": 42,
                 "max_level": 42,
-                "species": "SPECIES_HARIYAMA"
+                "species": "SPECIES_BIOQUETMON"
               },
               {
                 "min_level": 42,

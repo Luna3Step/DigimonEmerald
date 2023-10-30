@@ -1780,11 +1780,11 @@ const u8 gBetgamamonPokedexText[] = _(
     "battle as excitement can nearly double its\n"
     "attack power.");
 
-const u8 gHariyamaPokedexText[] = _(
-    "It has the habit of challenging others\n"
-    "without hesitation to tests of strength.\n"
-    "It's been known to stand on train tracks\n"
-    "and stop trains using forearm thrusts.");
+const u8 gBioquetmonPokedexText[] = _(
+    "BioQuetzalmon are incredibly rare, enough\n"
+    "so that scientists theorise that they need\n"
+    "Human data to even exist. They are much\n"
+    "faster and stronger than normal Quetzalmon.");
 
 const u8 gAzurillPokedexText[] = _(
     "Its tail, which is packed with nutrition,\n"

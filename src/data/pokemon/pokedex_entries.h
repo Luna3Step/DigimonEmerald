@@ -3564,12 +3564,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HARIYAMA] =
+    [NATIONAL_DEX_BIOQUETMON] =
     {
-        .categoryName = _("ARM THRUST"),
-        .height = 23,
-        .weight = 2538,
-        .description = gHariyamaPokedexText,
+        .categoryName = _("BIO-HYBRID"),
+        .height = 47,
+        .weight = 885,
+        .description = gBioquetmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 343,

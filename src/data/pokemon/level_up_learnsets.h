@@ -4439,7 +4439,7 @@ static const u16 sBetgamamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sHariyamaLevelUpLearnset[] = {
+static const u16 sBioquetmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),

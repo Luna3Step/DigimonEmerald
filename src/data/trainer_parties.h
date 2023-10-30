@@ -327,7 +327,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Zander[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -1092,7 +1092,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton5[] = {
     {
     .iv = 140,
     .lvl = 35,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -2177,7 +2177,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kiyo[] = {
     {
     .iv = 100,
     .lvl = 34,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -2293,7 +2293,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Atsushi[] = {
     {
     .iv = 100,
     .lvl = 32,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -3861,7 +3861,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg5[] = {
     {
     .iv = 40,
     .lvl = 38,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
     }
 };
@@ -4089,7 +4089,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Timothy1[] = {
     {
     .iv = 200,
     .lvl = 27,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -4097,7 +4097,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy2[] = {
     {
     .iv = 210,
     .lvl = 33,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_ARM_THRUST, MOVE_KNOCK_OFF, MOVE_SAND_ATTACK, MOVE_DIG}
     }
 };
@@ -4106,7 +4106,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy3[] = {
     {
     .iv = 220,
     .lvl = 36,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_ARM_THRUST, MOVE_KNOCK_OFF, MOVE_SAND_ATTACK, MOVE_DIG}
     }
 };
@@ -4115,7 +4115,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy4[] = {
     {
     .iv = 230,
     .lvl = 39,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_ARM_THRUST, MOVE_BELLY_DRUM, MOVE_SAND_ATTACK, MOVE_DIG}
     }
 };
@@ -4124,7 +4124,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy5[] = {
     {
     .iv = 240,
     .lvl = 42,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_ARM_THRUST, MOVE_BELLY_DRUM, MOVE_SAND_ATTACK, MOVE_DIG}
     }
 };
@@ -4173,7 +4173,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby3[] = {
     {
     .iv = 220,
     .lvl = 33,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -4186,7 +4186,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby4[] = {
     {
     .iv = 230,
     .lvl = 36,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -4199,7 +4199,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby5[] = {
     {
     .iv = 240,
     .lvl = 39,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -5669,7 +5669,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy4[] = {
     {
     .iv = 130,
     .lvl = 32,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -5682,7 +5682,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy5[] = {
     {
     .iv = 140,
     .lvl = 35,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -6627,7 +6627,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Reyna[] = {
     {
     .iv = 200,
     .lvl = 33,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -6648,7 +6648,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Conor[] = {
     {
     .iv = 200,
     .lvl = 33,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -7163,7 +7163,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac3[] = {
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -7196,7 +7196,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac4[] = {
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -7229,7 +7229,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     }
 };
 
@@ -9224,7 +9224,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay1[] = {
     {
     .iv = 200,
     .lvl = 39,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
     }
 };
@@ -9239,7 +9239,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay2[] = {
     {
     .iv = 210,
     .lvl = 43,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
     }
 };
@@ -9254,7 +9254,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay3[] = {
     {
     .iv = 220,
     .lvl = 46,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
     }
 };
@@ -9269,7 +9269,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay4[] = {
     {
     .iv = 230,
     .lvl = 49,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
     }
 };
@@ -9284,7 +9284,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     {
     .iv = 240,
     .lvl = 52,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
     }
 };
@@ -10475,7 +10475,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly2[] = {
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10506,7 +10506,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly3[] = {
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10544,7 +10544,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly4[] = {
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10589,7 +10589,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -11937,7 +11937,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     },
     {
     .iv = 30,
@@ -11955,7 +11955,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_BIOQUETMON,
     },
     {
     .iv = 40,
