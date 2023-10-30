@@ -1792,11 +1792,11 @@ const u8 gBiostegmonPokedexText[] = _(
     "illegal experiment caused by the forceful\n"
     "merging of Human data and Stegomon Data.");
 
-const u8 gNosepassPokedexText[] = _(
-    "Its body emits a powerful magnetism.\n"
-    "It feeds on prey that is pulled in by the\n"
-    "force. Its magnetism is stronger in cold\n"
-    "seasons.");
+const u8 gBiothunmonPokedexText[] = _(
+    "It is unsure what makes BioThunderbirdmon\n"
+    "stronger than normal Thunderbirdmon. There\n"
+    "are still ongoing efforts to capture one\n"
+    "despite their elusive nature.");
 
 const u8 gSkittyPokedexText[] = _(
     "A SKITTY's adorably cute behavior makes it\n"

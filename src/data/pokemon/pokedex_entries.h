@@ -3588,12 +3588,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NOSEPASS] =
+    [NATIONAL_DEX_BIOTHUNMON] =
     {
-        .categoryName = _("COMPASS"),
-        .height = 10,
-        .weight = 970,
-        .description = gNosepassPokedexText,
+        .categoryName = _("BIO-HYBRID"),
+        .height = 61,
+        .weight = 799,
+        .description = gBiothunmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 9,
         .trainerScale = 289,

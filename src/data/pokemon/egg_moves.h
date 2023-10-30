@@ -1025,7 +1025,7 @@ const u16 gEggMoves[] = {
               MOVE_MAGIC_COAT,
               MOVE_TRICK),
 
-    egg_moves(NOSEPASS,
+    egg_moves(BIOTHUNMON,
               MOVE_MAGNITUDE,
               MOVE_ROLLOUT,
               MOVE_EXPLOSION),
