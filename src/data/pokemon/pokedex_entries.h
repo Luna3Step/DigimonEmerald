@@ -3612,12 +3612,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DELCATTY] =
+    [NATIONAL_DEX_BLGAOGAMON] =
     {
-        .categoryName = _("PRIM"),
-        .height = 11,
-        .weight = 326,
-        .description = gDelcattyPokedexText,
+        .categoryName = _("AKITA INU"),
+        .height = 38,
+        .weight = 775,
+        .description = gBlgaogamonPokedexText,
         .pokemonScale = 322,
         .pokemonOffset = 10,
         .trainerScale = 256,

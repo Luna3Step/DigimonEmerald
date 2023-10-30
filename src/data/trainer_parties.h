@@ -1113,7 +1113,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mary[] = {
     {
     .iv = 255,
     .lvl = 26,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FAINT_ATTACK, MOVE_SHOCK_WAVE, MOVE_NONE, MOVE_NONE}
     }
@@ -3929,7 +3929,7 @@ static const struct TrainerMonItemCustomMoves sParty_Colton[] = {
     {
     .iv = 0,
     .lvl = 42,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK, MOVE_HEAL_BELL}
     }
@@ -3957,7 +3957,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel4[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -3966,7 +3966,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel5[] = {
     {
     .iv = 0,
     .lvl = 38,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_SITRUS_BERRY
     }
 };
@@ -6758,7 +6758,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 150,
     .lvl = 43,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
@@ -7344,7 +7344,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia3[] = {
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 20,
@@ -7377,7 +7377,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia4[] = {
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 30,
@@ -7410,7 +7410,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 40,
@@ -8539,7 +8539,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 0,
@@ -8761,7 +8761,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR2[] = {
     {
     .iv = 150,
     .lvl = 46,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
@@ -8794,7 +8794,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR3[] = {
     {
     .iv = 150,
     .lvl = 49,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
@@ -8827,7 +8827,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR4[] = {
     {
     .iv = 150,
     .lvl = 52,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
@@ -8860,7 +8860,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR5[] = {
     {
     .iv = 150,
     .lvl = 55,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
@@ -12245,7 +12245,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle4[] = {
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 30,
@@ -12278,7 +12278,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_DELCATTY,
+    .species = SPECIES_BLGAOGAMON,
     },
     {
     .iv = 40,

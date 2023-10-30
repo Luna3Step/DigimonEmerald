@@ -316,7 +316,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(WAILMER, gMonShinyPalette_Wailmer),
     SPECIES_SHINY_PAL(WAILORD, gMonShinyPalette_Wailord),
     SPECIES_SHINY_PAL(BIRDRAMON, gMonShinyPalette_Skitty),
-    SPECIES_SHINY_PAL(DELCATTY, gMonShinyPalette_Delcatty),
+    SPECIES_SHINY_PAL(BLGAOGAMON, gMonShinyPalette_Delcatty),
     SPECIES_SHINY_PAL(KECLEON, gMonShinyPalette_Kecleon),
     SPECIES_SHINY_PAL(BALTOY, gMonShinyPalette_Baltoy),
     SPECIES_SHINY_PAL(CLAYDOL, gMonShinyPalette_Claydol),

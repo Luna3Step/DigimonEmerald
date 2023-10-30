@@ -4139,7 +4139,7 @@ static const u16 sBirdramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDelcattyLevelUpLearnset[] = {
+static const u16 sBlgaogamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_ATTRACT),
     LEVEL_UP_MOVE( 1, MOVE_SING),

@@ -1804,11 +1804,11 @@ const u8 gBirdramonPokedexText[] = _(
     "not a very combative Digimon. However when\n"
     "it is forced into fighting, it is vicious.");
 
-const u8 gDelcattyPokedexText[] = _(
-    "Rather than keeping a permanent lair,\n"
-    "it habitually seeks comfortable spots and\n"
-    "sleeps there. It is nocturnal and becomes\n"
-    "active at dusk.");
+const u8 gBlgaogamonPokedexText[] = _(
+    "During evolution, Black Digitron is mixed\n"
+    "in, creating BlackGaogamon. Unlike other\n"
+    "Digimon that go through this process,\n"
+    "BlackGaogamon is relatively peaceful.");
 
 const u8 gSableyePokedexText[] = _(
     "It digs branching holes in caves using its\n"
