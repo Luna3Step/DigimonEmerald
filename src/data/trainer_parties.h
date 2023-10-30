@@ -674,12 +674,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lola1[] = {
     {
     .iv = 10,
     .lvl = 12,
-    .species = SPECIES_AZURILL,
+    .species = SPECIES_BIOSTEGMON,
     },
     {
     .iv = 10,
     .lvl = 12,
-    .species = SPECIES_AZURILL,
+    .species = SPECIES_BIOSTEGMON,
     }
 };
 
@@ -764,7 +764,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Simon[] = {
     {
     .iv = 0,
     .lvl = 12,
-    .species = SPECIES_AZURILL,
+    .species = SPECIES_BIOSTEGMON,
     },
     {
     .iv = 0,
@@ -3993,7 +3993,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Bethany[] = {
     {
     .iv = 100,
     .lvl = 35,
-    .species = SPECIES_AZURILL,
+    .species = SPECIES_BIOSTEGMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {

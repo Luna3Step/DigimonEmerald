@@ -118,7 +118,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     DOUBLE_SPECIES_NAME
     EC_POKEMON(JELLYMON),
     EC_POKEMON_NATIONAL(JELLYMON),
-    EC_POKEMON(AZURILL),
+    EC_POKEMON(BIOSTEGMON),
 };
 
 const u16 gEasyChatWordsByLetter_B[] = {
@@ -2495,7 +2495,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRu[] = {
     EC_POKEMON(LUNATONE),
     EC_WORD_RUBY,
     EC_WORD_THAN,
-    EC_POKEMON(AZURILL),
+    EC_POKEMON(BIOSTEGMON),
     EC_POKEMON(AGUNIMON),
     EC_WORD_HAPPILY,
 };

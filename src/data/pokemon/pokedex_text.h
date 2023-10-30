@@ -1786,11 +1786,11 @@ const u8 gBioquetmonPokedexText[] = _(
     "Human data to even exist. They are much\n"
     "faster and stronger than normal Quetzalmon.");
 
-const u8 gAzurillPokedexText[] = _(
-    "Its tail, which is packed with nutrition,\n"
-    "is very bouncy like a rubber ball. On sunny\n"
-    "days they gather at the edge of water and\n"
-    "splash about for fun.");
+const u8 gBiostegmonPokedexText[] = _(
+    "Thought to just be a rare version of\n"
+    "Stegomon, BioStegomon is actually an \n"
+    "illegal experiment caused by the forceful\n"
+    "merging of Human data and Stegomon Data.");
 
 const u8 gNosepassPokedexText[] = _(
     "Its body emits a powerful magnetism.\n"

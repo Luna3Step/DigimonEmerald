@@ -1,7 +1,7 @@
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
 #define FRONTIER_MONS_YOUNGSTER_LASS_1 \
     FRONTIER_MON_KOKUWAMON,       \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_DATIRIMON,      \
     FRONTIER_MON_FUFUMON,        \
     FRONTIER_MON_VEEMON,       \
@@ -243,7 +243,7 @@
     -1
 
 #define FRONTIER_MONS_SWIMMER_M_1 \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_HACKMON,     \
     FRONTIER_MON_SALAMON,       \
     FRONTIER_MON_GAZIMON,       \
@@ -296,7 +296,7 @@
     -1
 
 #define FRONTIER_MONS_SWIMMER_F_1 \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_HACKMON,     \
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
@@ -385,7 +385,7 @@
     -1
 
 #define FRONTIER_MONS_POKEFAN_F_1 \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_APEMON,         \
     FRONTIER_MON_HAZYAGUMON,      \
     FRONTIER_MON_GUILMON_X,         \
@@ -700,7 +700,7 @@
     -1
 
 #define FRONTIER_MONS_BIRD_KEEPER_1 \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_HACKMON,     \
     FRONTIER_MON_GAZIMON,       \
     FRONTIER_MON_GUMDRAMON,        \
@@ -826,7 +826,7 @@
     -1
 
 #define FRONTIER_MONS_RUNNING_TRIATHLETE_1 \
-    FRONTIER_MON_AZURILL,       \
+    FRONTIER_MON_BIOSTEGMON,       \
     FRONTIER_MON_HACKMON,     \
     FRONTIER_MON_SALAMON,       \
     FRONTIER_MON_GAZIMON,       \

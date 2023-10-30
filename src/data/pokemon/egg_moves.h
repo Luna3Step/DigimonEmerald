@@ -1122,7 +1122,7 @@ const u16 gEggMoves[] = {
               MOVE_BLOCK,
               MOVE_SPIKES),
 
-    egg_moves(AZURILL,
+    egg_moves(BIOSTEGMON,
               MOVE_ENCORE,
               MOVE_SING,
               MOVE_REFRESH,

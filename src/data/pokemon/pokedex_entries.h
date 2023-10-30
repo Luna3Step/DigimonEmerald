@@ -3576,12 +3576,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_AZURILL] =
+    [NATIONAL_DEX_BIOSTEGMON] =
     {
-        .categoryName = _("POLKA DOT"),
-        .height = 2,
-        .weight = 20,
-        .description = gAzurillPokedexText,
+        .categoryName = _("BIO-HYBRID"),
+        .height = 57,
+        .weight = 1964,
+        .description = gBiostegmonPokedexText,
         .pokemonScale = 603,
         .pokemonOffset = 23,
         .trainerScale = 256,
