@@ -808,7 +808,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                     },
                     [1] =
                     {
-                        .species = SPECIES_MINUN,
+                        .species = SPECIES_BUCCHIEMON_RED,
                         .heldItem = ITEM_FOCUS_BAND,
                         .moves = {MOVE_THUNDER_WAVE, MOVE_CHARM, MOVE_ENCORE, MOVE_SPARK},
                         .hpEV = 252,
@@ -2484,7 +2484,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_MINUN,
+                                            .species = SPECIES_BUCCHIEMON_RED,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_HELPING_HAND, MOVE_THUNDERBOLT, MOVE_AGILITY, MOVE_BATON_PASS},
                                             .speedEV = 255,

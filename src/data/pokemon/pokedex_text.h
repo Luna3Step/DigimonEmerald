@@ -1870,11 +1870,11 @@ const u8 gBoogiemonPokedexText[] = _(
     "that amount of spells it can cast is\n"
     "always equal to the amount of tattoos.");
 
-const u8 gMinunPokedexText[] = _(
-    "At a meeting of POKéMON academics, it was\n"
-    "announced that simultaneous exposure to\n"
-    "electricity from a PLUSLE and MINUN will\n"
-    "promote circulation and boost vitality.");
+const u8 gBucchiemon_redPokedexText[] = _(
+    "In battle, Bucchiemon is pretty weak\n"
+    "however what makes it special is the\n"
+    "ability to calm down just about any\n"
+    "Digimon it wants.");
 
 const u8 gVolbeatPokedexText[] = _(
     "With their taillights lit, VOLBEAT fly in\n"

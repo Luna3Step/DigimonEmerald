@@ -3744,12 +3744,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MINUN] =
+    [NATIONAL_DEX_BUCCHIEMON_RED] =
     {
-        .categoryName = _("CHEERING"),
-        .height = 4,
-        .weight = 42,
-        .description = gMinunPokedexText,
+        .categoryName = _("CALMING"),
+        .height = 12,
+        .weight = 206,
+        .description = gBucchiemon_redPokedexText,
         .pokemonScale = 512,
         .pokemonOffset = -7,
         .trainerScale = 256,

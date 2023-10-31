@@ -1139,7 +1139,7 @@ const u16 gEggMoves[] = {
               MOVE_SUBSTITUTE,
               MOVE_WISH),
 
-    egg_moves(MINUN,
+    egg_moves(BUCCHIEMON_RED,
               MOVE_SUBSTITUTE,
               MOVE_WISH),
 

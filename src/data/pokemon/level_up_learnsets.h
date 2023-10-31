@@ -4727,7 +4727,7 @@ static const u16 sBoogiemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMinunLevelUpLearnset[] = {
+static const u16 sBucchiemon_redLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 4, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE(10, MOVE_QUICK_ATTACK),
