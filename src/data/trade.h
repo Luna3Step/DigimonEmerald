@@ -1033,7 +1033,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("ROMAN"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_VOLBEAT
+        .requestedSpecies = SPECIES_BUCCHIEMON_GREEN
     },
     [INGAME_TRADE_HORSEA] =
     {
@@ -1077,7 +1077,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_TO,
         EC_POKEMON(BOOGIEMON),
         EC_WORD_EXCL,
-        EC_POKEMON(VOLBEAT),
+        EC_POKEMON(BUCCHIEMON_GREEN),
         EC_WORD_WILL,
         EC_WORD_BE,
         EC_WORD_FANTASTIC

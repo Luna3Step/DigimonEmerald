@@ -3756,12 +3756,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VOLBEAT] =
+    [NATIONAL_DEX_BUCCHIEMON_GREEN] =
     {
-        .categoryName = _("FIREFLY"),
-        .height = 7,
-        .weight = 177,
-        .description = gVolbeatPokedexText,
+        .categoryName = _("CALMING"),
+        .height = 12,
+        .weight = 206,
+        .description = gBucchiemon_greenPokedexText,
         .pokemonScale = 442,
         .pokemonOffset = 16,
         .trainerScale = 256,

@@ -1167,7 +1167,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_IMPISH
     },
     [SLATEPORT_TENT_MON_VOLBEAT] = {
-        .species = SPECIES_VOLBEAT,
+        .species = SPECIES_BUCCHIEMON_GREEN,
         .moves = {MOVE_TACKLE, MOVE_CONFUSE_RAY, MOVE_QUICK_ATTACK, MOVE_DOUBLE_TEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2779,7 +2779,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [FALLARBOR_TENT_MON_VOLBEAT] = {
-        .species = SPECIES_VOLBEAT,
+        .species = SPECIES_BUCCHIEMON_GREEN,
         .moves = {MOVE_TACKLE, MOVE_MOONLIGHT, MOVE_SIGNAL_BEAM, MOVE_TAIL_GLOW},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEPPA_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

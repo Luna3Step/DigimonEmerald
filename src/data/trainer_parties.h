@@ -8213,7 +8213,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greg[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 0,
@@ -8565,7 +8565,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan1[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 0,
@@ -8578,7 +8578,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan2[] = {
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 10,
@@ -8591,7 +8591,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 20,
@@ -8604,7 +8604,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 30,
@@ -8617,7 +8617,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan5[] = {
     {
     .iv = 40,
     .lvl = 39,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     },
     {
     .iv = 40,
@@ -11581,7 +11581,7 @@ static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_VOLBEAT,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_CONFUSE_RAY, MOVE_NONE}
     }

@@ -1876,11 +1876,11 @@ const u8 gBucchiemon_redPokedexText[] = _(
     "ability to calm down just about any\n"
     "Digimon it wants.");
 
-const u8 gVolbeatPokedexText[] = _(
-    "With their taillights lit, VOLBEAT fly in\n"
-    "a swarm, drawing geometric designs in the\n"
-    "night sky. They move their nests if their\n"
-    "pond water becomes dirty.");
+const u8 gBucchiemon_greenPokedexText[] = _(
+    "Their are very few differences between\n"
+    "Green and Red Bucchiemon other than green\n"
+    "ones being much rarer. Both colours despise\n"
+    "having their tail played with.");
 
 const u8 gIllumisePokedexText[] = _(
     "A nocturnal POKéMON that becomes active\n"

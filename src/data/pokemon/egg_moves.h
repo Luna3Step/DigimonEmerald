@@ -1264,7 +1264,7 @@ const u16 gEggMoves[] = {
               MOVE_FUTURE_SIGHT,
               MOVE_PSYCH_UP),
 
-    egg_moves(VOLBEAT,
+    egg_moves(BUCCHIEMON_GREEN,
               MOVE_BATON_PASS,
               MOVE_SILVER_WIND,
               MOVE_TRICK),

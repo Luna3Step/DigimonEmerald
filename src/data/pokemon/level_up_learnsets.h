@@ -5225,7 +5225,7 @@ static const u16 sCastformLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVolbeatLevelUpLearnset[] = {
+static const u16 sBucchiemon_greenLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_CONFUSE_RAY),
     LEVEL_UP_MOVE( 9, MOVE_DOUBLE_TEAM),
