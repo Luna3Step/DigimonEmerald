@@ -1816,11 +1816,11 @@ const u8 gBlgargomonPokedexText[] = _(
     "gatling arms to fire from range, it\n"
     "instead gets close and pummels them.");
 
-const u8 gMawilePokedexText[] = _(
-    "Its giant jaws are actually steel horns\n"
-    "that transformed. It fools foes into\n"
-    "complacency with its adorable gestures,\n"
-    "then chomps them with its huge jaws.");
+const u8 gBlgarurmonPokedexText[] = _(
+    "Other than being more vicious than\n"
+    "normal Garurumon, BlackGarurumon's blades\n"
+    "on its shoulders are sharp enough to\n"
+    "dice up just about anything.");
 
 const u8 gAronPokedexText[] = _(
     "A POKéMON that is clad in steel armor.\n"

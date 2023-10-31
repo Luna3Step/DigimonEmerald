@@ -1143,7 +1143,7 @@ const u16 gEggMoves[] = {
               MOVE_SUBSTITUTE,
               MOVE_WISH),
 
-    egg_moves(MAWILE,
+    egg_moves(BLGARURMON,
               MOVE_SWORDS_DANCE,
               MOVE_FALSE_SWIPE,
               MOVE_POISON_FANG,

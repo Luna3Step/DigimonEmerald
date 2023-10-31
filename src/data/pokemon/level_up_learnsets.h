@@ -4742,7 +4742,7 @@ static const u16 sMinunLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMawileLevelUpLearnset[] = {
+static const u16 sBlgarurmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 6, MOVE_FAKE_TEARS),
     LEVEL_UP_MOVE(11, MOVE_BITE),

@@ -912,7 +912,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leroy[] = {
     {
     .iv = 100,
     .lvl = 46,
-    .species = SPECIES_MAWILE,
+    .species = SPECIES_BLGARURMON,
     },
     {
     .iv = 100,
@@ -974,7 +974,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Samuel[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_MAWILE,
+    .species = SPECIES_BLGARURMON,
     },
     {
     .iv = 100,
@@ -1143,7 +1143,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Wendy[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_MAWILE,
+    .species = SPECIES_BLGARURMON,
     .moves = {MOVE_BATON_PASS, MOVE_FAINT_ATTACK, MOVE_FAKE_TEARS, MOVE_BITE}
     },
     {

@@ -992,7 +992,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_WORD_MASTER,
     EC_WORD_MATCH,
     EC_WORD_MATCH_UP,
-    EC_POKEMON(MAWILE),
+    EC_POKEMON(BLGARURMON),
     EC_WORD_MAYBE,
     EC_WORD_MC,
     EC_WORD_ME,

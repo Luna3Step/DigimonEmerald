@@ -3636,12 +3636,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAWILE] =
+    [NATIONAL_DEX_BLGARURMON] =
     {
-        .categoryName = _("DECEIVER"),
-        .height = 6,
-        .weight = 115,
-        .description = gMawilePokedexText,
+        .categoryName = _("CANINE"),
+        .height = 56,
+        .weight = 653,
+        .description = gBlgarurmonPokedexText,
         .pokemonScale = 466,
         .pokemonOffset = 17,
         .trainerScale = 256,
