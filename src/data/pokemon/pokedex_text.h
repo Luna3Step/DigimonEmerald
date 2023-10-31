@@ -1846,11 +1846,11 @@ const u8 gSawkuwamonPokedexText[] = _(
     "so they have adapted to group up and swarm\n"
     "anything they deem a foe.");
 
-const u8 gMedichamPokedexText[] = _(
-    "Through crushingly harsh yoga training, it\n"
-    "gained the power to foretell its foe's\n"
-    "actions. It battles with elegant, dance-\n"
-    "like movement.");
+const u8 gBlimpmonPokedexText[] = _(
+    "Blimpmon is a particular favourite for\n"
+    "vehicle Digimon for its carefree nature.\n"
+    "Despite how delicate the balloon portion\n"
+    "is, it is only partially covered.");
 
 const u8 gElectrikePokedexText[] = _(
     "It generates electricity using friction\n"

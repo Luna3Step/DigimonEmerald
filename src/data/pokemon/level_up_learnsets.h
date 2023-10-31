@@ -4773,7 +4773,7 @@ static const u16 sSawkuwamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMedichamLevelUpLearnset[] = {
+static const u16 sBlimpmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_ICE_PUNCH),

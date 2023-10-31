@@ -418,7 +418,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Felix[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
@@ -899,7 +899,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vincent[] = {
     {
     .iv = 100,
     .lvl = 44,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 100,
@@ -1224,7 +1224,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Michelle[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 100,
@@ -3681,7 +3681,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerry4[] = {
     {
     .iv = 40,
     .lvl = 32,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     }
 };
 
@@ -3699,7 +3699,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerry5[] = {
     {
     .iv = 50,
     .lvl = 34,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     }
 };
 
@@ -4168,7 +4168,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby3[] = {
     {
     .iv = 220,
     .lvl = 33,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 220,
@@ -4181,7 +4181,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby4[] = {
     {
     .iv = 230,
     .lvl = 36,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 230,
@@ -4194,7 +4194,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby5[] = {
     {
     .iv = 240,
     .lvl = 39,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 240,
@@ -5664,7 +5664,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy4[] = {
     {
     .iv = 130,
     .lvl = 32,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 130,
@@ -5677,7 +5677,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy5[] = {
     {
     .iv = 140,
     .lvl = 35,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     },
     {
     .iv = 140,
@@ -9218,7 +9218,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay1[] = {
     {
     .iv = 200,
     .lvl = 39,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
@@ -9233,7 +9233,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay2[] = {
     {
     .iv = 210,
     .lvl = 43,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
@@ -9248,7 +9248,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay3[] = {
     {
     .iv = 220,
     .lvl = 46,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
@@ -9263,7 +9263,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay4[] = {
     {
     .iv = 230,
     .lvl = 49,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
@@ -9278,7 +9278,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     {
     .iv = 240,
     .lvl = 52,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
@@ -10125,7 +10125,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Makayla[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     }
 };
 
@@ -10492,7 +10492,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly3[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PSYCHIC, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_FOCUS_PUNCH}
     },
@@ -10530,7 +10530,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly4[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
     },
@@ -10575,7 +10575,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_BLIMPMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
     },

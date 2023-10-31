@@ -3696,12 +3696,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MEDICHAM] =
+    [NATIONAL_DEX_BLIMPMON] =
     {
-        .categoryName = _("MEDITATE"),
-        .height = 13,
-        .weight = 315,
-        .description = gMedichamPokedexText,
+        .categoryName = _("BLIMP"),
+        .height = 140,
+        .weight = 1001,
+        .description = gBlimpmonPokedexText,
         .pokemonScale = 298,
         .pokemonOffset = 5,
         .trainerScale = 256,
