@@ -3660,12 +3660,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LAIRON] =
+    [NATIONAL_DEX_BLKGATOMON_UVER] =
     {
-        .categoryName = _("IRON ARMOR"),
-        .height = 9,
-        .weight = 1200,
-        .description = gLaironPokedexText,
+        .categoryName = _("COURIER"),
+        .height = 6,
+        .weight = 231,
+        .description = gBlkgatomon_uverPokedexText,
         .pokemonScale = 275,
         .pokemonOffset = 12,
         .trainerScale = 256,

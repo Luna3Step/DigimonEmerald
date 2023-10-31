@@ -1164,7 +1164,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keira[] = {
     {
     .iv = 100,
     .lvl = 45,
-    .species = SPECIES_LAIRON,
+    .species = SPECIES_BLKGATOMON_UVER,
     },
     {
     .iv = 100,
@@ -1815,7 +1815,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_LAIRON,
+    .species = SPECIES_BLKGATOMON_UVER,
     }
 };
 
@@ -1823,7 +1823,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_LAIRON,
+    .species = SPECIES_BLKGATOMON_UVER,
     },
     {
     .iv = 20,
@@ -1836,7 +1836,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_LAIRON,
+    .species = SPECIES_BLKGATOMON_UVER,
     },
     {
     .iv = 30,
@@ -7214,7 +7214,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_LAIRON,
+    .species = SPECIES_BLKGATOMON_UVER,
     },
     {
     .iv = 40,

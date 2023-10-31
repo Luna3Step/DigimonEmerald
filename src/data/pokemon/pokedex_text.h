@@ -1828,11 +1828,11 @@ const u8 gBlkgatomonPokedexText[] = _(
     "This is likely because of it's mutation\n"
     "not being caused by Black Digitron at all.");
 
-const u8 gLaironPokedexText[] = _(
-    "When two LAIRON meet in the wild, they\n"
-    "fight for territory by bashing into each\n"
-    "other with their steel bodies. The sound\n"
-    "of their collision carries for miles.");
+const u8 gBlkgatomon_uverPokedexText[] = _(
+    "BlackGatomon Uver is very peaceful Digimon\n"
+    "who dedicates itself wholly to protecting\n"
+    "and delivering packages. Everything in its\n"
+    "bag is stored in the optimum state.");
 
 const u8 gAggronPokedexText[] = _(
     "Its iron horns grow longer a little at\n"
