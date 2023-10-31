@@ -3708,12 +3708,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ELECTRIKE] =
+    [NATIONAL_DEX_BOARMON] =
     {
-        .categoryName = _("LIGHTNING"),
-        .height = 6,
-        .weight = 152,
-        .description = gElectrikePokedexText,
+        .categoryName = _("BOAR"),
+        .height = 17,
+        .weight = 462,
+        .description = gBoarmonPokedexText,
         .pokemonScale = 290,
         .pokemonOffset = 15,
         .trainerScale = 256,

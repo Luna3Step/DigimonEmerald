@@ -710,7 +710,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_BOARMON"
               },
               {
                 "min_level": 12,
@@ -720,7 +720,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_BOARMON"
               },
               {
                 "min_level": 13,
@@ -1593,7 +1593,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_BOARMON"
               },
               {
                 "min_level": 26,
@@ -1603,7 +1603,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_BOARMON"
               },
               {
                 "min_level": 26,

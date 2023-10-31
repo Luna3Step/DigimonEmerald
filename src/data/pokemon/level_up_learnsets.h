@@ -4458,7 +4458,7 @@ static const u16 sBioquetmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sElectrikeLevelUpLearnset[] = {
+static const u16 sBoarmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE( 9, MOVE_LEER),

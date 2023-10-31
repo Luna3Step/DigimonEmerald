@@ -1852,11 +1852,11 @@ const u8 gBlimpmonPokedexText[] = _(
     "Despite how delicate the balloon portion\n"
     "is, it is only partially covered.");
 
-const u8 gElectrikePokedexText[] = _(
-    "It generates electricity using friction\n"
-    "from the atmosphere. In seasons with\n"
-    "especially arid air, its entire body blazes\n"
-    "with violent showers of sparks.");
+const u8 gBoarmonPokedexText[] = _(
+    "When Boarmon starts stampeding, it is next\n"
+    "to impossible to stop it until it tires\n"
+    "itself out. Their is a leading theory that\n"
+    "Boarmon has no concept of turning.");
 
 const u8 gManectricPokedexText[] = _(
     "Because lightning falls in their vicinities,\n"
