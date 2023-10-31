@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_MAWILE"
-with "FRONTIER_MON_BLGARURMON"
+replace "FRONTIER_MON_ARON"
+with "FRONTIER_MON_BLKGATOMON"
 
-replace "gMawilePokedexText"
-with "gBlgarurmonPokedexText"
+replace "gAronPokedexText"
+with "gBlkgatomonPokedexText"
 
-replace "NATIONAL_DEX_MAWILE"
-with "NATIONAL_DEX_BLGARURMON"
+replace "NATIONAL_DEX_ARON"
+with "NATIONAL_DEX_BLKGATOMON"
 
-replace "SPECIES_MAWILE"
-with "SPECIES_BLGARURMON"
+replace "SPECIES_ARON"
+with "SPECIES_BLKGATOMON"
 
-replace "HOENN_DEX_MAWILE"
-with "HOENN_DEX_BLGARURMON"
+replace "HOENN_DEX_ARON"
+with "HOENN_DEX_BLKGATOMON"
 
-replace "SPECIES_TO_HOENN(MAWILE),"
-with "SPECIES_TO_HOENN(BLGARURMON),"
+replace "SPECIES_TO_HOENN(ARON),"
+with "SPECIES_TO_HOENN(BLKGATOMON),"
 
-replace "SPECIES_TO_NATIONAL(MAWILE),"
-with "SPECIES_TO_NATIONAL(BLGARURMON),"
+replace "SPECIES_TO_NATIONAL(ARON),"
+with "SPECIES_TO_NATIONAL(BLKGATOMON),"
 
-replace "HOENN_TO_NATIONAL(MAWILE),"
-with "HOENN_TO_NATIONAL(BLGARURMON),"
+replace "HOENN_TO_NATIONAL(ARON),"
+with "HOENN_TO_NATIONAL(BLKGATOMON),"
 
-replace "EC_POKEMON_NATIONAL(MAWILE),"
-with "EC_POKEMON_NATIONAL(BLGARURMON),"
+replace "EC_POKEMON_NATIONAL(ARON),"
+with "EC_POKEMON_NATIONAL(BLKGATOMON),"
 
-replace "egg_moves(MAWILE,"
-with "egg_moves(BLGARURMON,"
+replace "egg_moves(ARON,"
+with "egg_moves(BLKGATOMON,"
 
-replace "sMawileLevelUpLearnset"
-with "sBlgarurmonLevelUpLearnset"
+replace "sAronLevelUpLearnset"
+with "sBlkgatomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(MAWILE"
-with "SPECIES_SPRITE(BLGARURMON"
+replace "SPECIES_SPRITE(ARON"
+with "SPECIES_SPRITE(BLKGATOMON"
 
-replace "SPECIES_PAL(MAWILE,"
-with "SPECIES_PAL(BLGARURMON,"
+replace "SPECIES_PAL(ARON,"
+with "SPECIES_PAL(BLKGATOMON,"
 
-replace "SPECIES_SHINY_PAL(MAWILE,"
-with "SPECIES_SHINY_PAL(BLGARURMON,"
+replace "SPECIES_SHINY_PAL(ARON,"
+with "SPECIES_SHINY_PAL(BLKGATOMON,"
 
-replace "EC_POKEMON(MAWILE)"
-with "EC_POKEMON(BLGARURMON)"
+replace "EC_POKEMON(ARON)"
+with "EC_POKEMON(BLKGATOMON)"
 
-replace "EC_POKEMON_NATIONAL(MAWILE)"
-with "EC_POKEMON_NATIONAL(BLGARURMON)"
+replace "EC_POKEMON_NATIONAL(ARON)"
+with "EC_POKEMON_NATIONAL(BLKGATOMON)"
 
 in "src/data/text/species_names.h"
-replace "MAWILE"
-with "BLGARURMON"
+replace "ARON"
+with "BLKGATOMON"

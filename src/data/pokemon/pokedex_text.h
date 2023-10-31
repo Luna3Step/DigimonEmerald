@@ -1822,11 +1822,11 @@ const u8 gBlgarurmonPokedexText[] = _(
     "on its shoulders are sharp enough to\n"
     "dice up just about anything.");
 
-const u8 gAronPokedexText[] = _(
-    "A POKéMON that is clad in steel armor.\n"
-    "A new suit of armor is made when it evolves.\n"
-    "The old, discarded armor is salvaged as\n"
-    "metal for making iron products.");
+const u8 gBlkgatomonPokedexText[] = _(
+    "Even in comparison to other dark mutated\n"
+    "Digimon, BlackGatomon is incredibly rare.\n"
+    "This is likely because of it's mutation\n"
+    "not being caused by Black Digitron at all.");
 
 const u8 gLaironPokedexText[] = _(
     "When two LAIRON meet in the wild, they\n"

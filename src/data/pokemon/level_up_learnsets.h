@@ -5159,7 +5159,7 @@ static const u16 sRelicanthLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAronLevelUpLearnset[] = {
+static const u16 sBlkgatomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_MUD_SLAP),

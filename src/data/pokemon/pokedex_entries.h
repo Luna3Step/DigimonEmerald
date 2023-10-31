@@ -3648,12 +3648,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARON] =
+    [NATIONAL_DEX_BLKGATOMON] =
     {
-        .categoryName = _("IRON ARMOR"),
-        .height = 4,
-        .weight = 600,
-        .description = gAronPokedexText,
+        .categoryName = _("FALLEN CAT"),
+        .height = 6,
+        .weight = 107,
+        .description = gBlkgatomonPokedexText,
         .pokemonScale = 419,
         .pokemonOffset = 23,
         .trainerScale = 256,
