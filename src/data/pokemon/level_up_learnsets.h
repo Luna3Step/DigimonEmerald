@@ -5239,7 +5239,7 @@ static const u16 sBucchiemon_greenLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sIllumiseLevelUpLearnset[] = {
+static const u16 sBulkmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 9, MOVE_CHARM),

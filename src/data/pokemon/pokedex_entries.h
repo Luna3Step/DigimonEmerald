@@ -3768,12 +3768,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ILLUMISE] =
+    [NATIONAL_DEX_BULKMON] =
     {
-        .categoryName = _("FIREFLY"),
-        .height = 6,
-        .weight = 177,
-        .description = gIllumisePokedexText,
+        .categoryName = _("FITNESS"),
+        .height = 32,
+        .weight = 865,
+        .description = gBulkmonPokedexText,
         .pokemonScale = 572,
         .pokemonOffset = 19,
         .trainerScale = 256,

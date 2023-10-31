@@ -1882,11 +1882,11 @@ const u8 gBucchiemon_greenPokedexText[] = _(
     "ones being much rarer. Both colours despise\n"
     "having their tail played with.");
 
-const u8 gIllumisePokedexText[] = _(
-    "A nocturnal POKéMON that becomes active\n"
-    "upon nightfall. It leads a VOLBEAT swarm\n"
-    "to draw patterns in the night sky. Over 200\n"
-    "different patterns have been confirmed.");
+const u8 gBulkmonPokedexText[] = _(
+    "Bulkmon is an incredibly well developed\n"
+    "Digimon that has put its all into training\n"
+    "itself. It's strength, reaction speed\n"
+    "and health outclass many bulky Digimon.");
 
 const u8 gRoseliaPokedexText[] = _(
     "A ROSELIA that drinks nutritionally rich\n"

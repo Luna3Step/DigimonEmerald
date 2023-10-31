@@ -1269,7 +1269,7 @@ const u16 gEggMoves[] = {
               MOVE_SILVER_WIND,
               MOVE_TRICK),
 
-    egg_moves(ILLUMISE,
+    egg_moves(BULKMON,
               MOVE_BATON_PASS,
               MOVE_SILVER_WIND,
               MOVE_GROWTH),
