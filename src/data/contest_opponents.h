@@ -607,7 +607,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CHANCE] = {
-        .species = SPECIES_MANECTRIC,
+        .species = SPECIES_BOMNANIMON,
         .nickname = _("RIKELEC"),
         .trainerName = _("CHANCE"),
         .trainerGfxId = OBJ_EVENT_GFX_RICH_BOY,

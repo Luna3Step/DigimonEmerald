@@ -7512,7 +7512,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_MANECTRIC]   = TMHM_LEARNSET(TMHM(TM05_ROAR)
+    [SPECIES_BOMNANIMON]   = TMHM_LEARNSET(TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM15_HYPER_BEAM)

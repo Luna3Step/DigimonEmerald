@@ -112,7 +112,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 100,
@@ -1046,7 +1046,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton3[] = {
     {
     .iv = 120,
     .lvl = 29,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 120,
@@ -1064,7 +1064,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton4[] = {
     {
     .iv = 130,
     .lvl = 32,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 130,
@@ -1082,7 +1082,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton5[] = {
     {
     .iv = 140,
     .lvl = 35,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 140,
@@ -1169,7 +1169,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keira[] = {
     {
     .iv = 100,
     .lvl = 45,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -3128,7 +3128,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Walter1[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -3136,12 +3136,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Micah[] = {
     {
     .iv = 0,
     .lvl = 44,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 0,
     .lvl = 44,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -3157,7 +3157,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Walter2[] = {
     {
     .iv = 10,
     .lvl = 34,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -3171,7 +3171,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter3[] = {
     {
     .iv = 20,
     .lvl = 36,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .moves = {MOVE_QUICK_ATTACK, MOVE_SPARK, MOVE_ODOR_SLEUTH, MOVE_ROAR}
     }
 };
@@ -3186,7 +3186,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter4[] = {
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .moves = {MOVE_QUICK_ATTACK, MOVE_SPARK, MOVE_ODOR_SLEUTH, MOVE_NONE}
     }
 };
@@ -3207,7 +3207,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter5[] = {
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .moves = {MOVE_QUICK_ATTACK, MOVE_SPARK, MOVE_ODOR_SLEUTH, MOVE_ROAR}
     }
 };
@@ -3437,7 +3437,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 250,
     .lvl = 24,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_SHOCK_WAVE, MOVE_HOWL}
     }
@@ -6586,7 +6586,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Auron[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 0,
@@ -6612,7 +6612,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
     {
     .iv = 255,
     .lvl = 34,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_BITE, MOVE_ROAR, MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT}
     }
@@ -7703,7 +7703,7 @@ static const struct TrainerMonItemCustomMoves sParty_Athena[] = {
     {
     .iv = 100,
     .lvl = 32,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK, MOVE_NONE}
     },
@@ -8544,7 +8544,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -9909,7 +9909,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carolina[] = {
     {
     .iv = 50,
     .lvl = 24,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 50,
@@ -9919,7 +9919,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carolina[] = {
     {
     .iv = 50,
     .lvl = 24,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -10133,7 +10133,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fabian[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     }
 };
 
@@ -10162,7 +10162,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Leonel[] = {
     {
     .iv = 100,
     .lvl = 30,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .moves = {MOVE_THUNDER, MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_NONE}
     }
 };
@@ -10620,7 +10620,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10658,7 +10658,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10696,7 +10696,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson4[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10741,7 +10741,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -12063,7 +12063,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando3[] = {
     {
     .iv = 20,
     .lvl = 37,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 20,
@@ -12076,12 +12076,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando4[] = {
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 30,
@@ -12094,12 +12094,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando5[] = {
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_MANECTRIC,
+    .species = SPECIES_BOMNANIMON,
     },
     {
     .iv = 40,

@@ -3720,12 +3720,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MANECTRIC] =
+    [NATIONAL_DEX_BOMNANIMON] =
     {
-        .categoryName = _("DISCHARGE"),
-        .height = 15,
-        .weight = 402,
-        .description = gManectricPokedexText,
+        .categoryName = _("BOMB"),
+        .height = 10,
+        .weight = 382,
+        .description = gBomnanimonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 257,

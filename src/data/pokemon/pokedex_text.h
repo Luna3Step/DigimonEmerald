@@ -1858,11 +1858,11 @@ const u8 gBoarmonPokedexText[] = _(
     "itself out. Their is a leading theory that\n"
     "Boarmon has no concept of turning.");
 
-const u8 gManectricPokedexText[] = _(
-    "Because lightning falls in their vicinities,\n"
-    "MANECTRIC were thought to have been born\n"
-    "from lightning. In battle, they create\n"
-    "thunderclouds.");
+const u8 gBomnanimonPokedexText[] = _(
+    "Although it is very clearly a subspecies\n"
+    "of Nanimon, BomberNanimon will always\n"
+    "deny this claim. If pushed too hard on\n"
+    "this idea, it will light its fuse.");
 
 const u8 gPluslePokedexText[] = _(
     "It has the trait of cheering on its fellow\n"

@@ -2751,8 +2751,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_QUIET
     },
-    [FRONTIER_MON_MANECTRIC_1] = {
-        .species = SPECIES_MANECTRIC,
+    [FRONTIER_MON_BOMNANIMON_1] = {
+        .species = SPECIES_BOMNANIMON,
         .moves = {MOVE_THUNDERBOLT, MOVE_FLASH, MOVE_QUICK_ATTACK, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_MAGNET,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -3423,8 +3423,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_MANECTRIC_2] = {
-        .species = SPECIES_MANECTRIC,
+    [FRONTIER_MON_BOMNANIMON_2] = {
+        .species = SPECIES_BOMNANIMON,
         .moves = {MOVE_THUNDER, MOVE_RAIN_DANCE, MOVE_CRUNCH, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_PETAYA_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -4095,8 +4095,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_MANECTRIC_3] = {
-        .species = SPECIES_MANECTRIC,
+    [FRONTIER_MON_BOMNANIMON_3] = {
+        .species = SPECIES_BOMNANIMON,
         .moves = {MOVE_THUNDERBOLT, MOVE_IRON_TAIL, MOVE_THUNDER_WAVE, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -4767,8 +4767,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_MANECTRIC_4] = {
-        .species = SPECIES_MANECTRIC,
+    [FRONTIER_MON_BOMNANIMON_4] = {
+        .species = SPECIES_BOMNANIMON,
         .moves = {MOVE_THUNDERBOLT, MOVE_CRUNCH, MOVE_THUNDER_WAVE, MOVE_ROAR},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
