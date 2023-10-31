@@ -4346,7 +4346,7 @@ static const u16 sMiloticLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCarvanhaLevelUpLearnset[] = {
+static const u16 sChouflymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 7, MOVE_RAGE),

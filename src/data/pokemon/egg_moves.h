@@ -1066,7 +1066,7 @@ const u16 gEggMoves[] = {
               MOVE_LIGHT_SCREEN,
               MOVE_CONFUSE_RAY),
 
-    egg_moves(CARVANHA,
+    egg_moves(CHOUFLYMON,
               MOVE_HYDRO_PUMP,
               MOVE_DOUBLE_EDGE,
               MOVE_THRASH),

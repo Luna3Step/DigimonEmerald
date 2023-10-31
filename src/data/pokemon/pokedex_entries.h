@@ -3816,12 +3816,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_CARVANHA] =
+    [NATIONAL_DEX_CHOUFLYMON] =
     {
-        .categoryName = _("SAVAGE"),
-        .height = 8,
+        .categoryName = _("BUTTERFLY"),
+        .height = 18,
         .weight = 208,
-        .description = gCarvanhaPokedexText,
+        .description = gChouflymonPokedexText,
         .pokemonScale = 362,
         .pokemonOffset = 0,
         .trainerScale = 256,

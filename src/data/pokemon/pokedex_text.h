@@ -1906,11 +1906,11 @@ const u8 gBurgermon_championPokedexText[] = _(
     "without asking anything in return. Its food\n"
     "can cause others to lose all fighting spirit");
 
-const u8 gCarvanhaPokedexText[] = _(
-    "CARVANHA attack ships in swarms, making\n"
-    "them sink. Although it is said to be a very\n"
-    "vicious POKéMON, it timidly flees as soon\n"
-    "as it finds itself alone.");
+const u8 gChouflymonPokedexText[] = _(
+    "Often found in warmer climates and meadows,\n"
+    "Butterflymon is a very kind and warm Digimon\n"
+    "who will help anyone it can. If in danger, it\n"
+    "can inflict hallucinations on foes.");
 
 const u8 gSharpedoPokedexText[] = _(
     "The vicious and sly gangster of the sea.\n"
