@@ -3672,12 +3672,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_AGGRON] =
+    [NATIONAL_DEX_BLGROWLMON] =
     {
-        .categoryName = _("IRON ARMOR"),
-        .height = 21,
-        .weight = 3600,
-        .description = gAggronPokedexText,
+        .categoryName = _("DARK HAZARD"),
+        .height = 51,
+        .weight = 876,
+        .description = gBlgrowlmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 350,

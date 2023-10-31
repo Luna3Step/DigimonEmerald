@@ -1849,7 +1849,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve5[] = {
     {
     .iv = 40,
     .lvl = 35,
-    .species = SPECIES_AGGRON,
+    .species = SPECIES_BLGROWLMON,
     },
     {
     .iv = 40,
@@ -11613,7 +11613,7 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_AGGRON,
+    .species = SPECIES_BLGROWLMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM, MOVE_DRAGON_CLAW}
     },

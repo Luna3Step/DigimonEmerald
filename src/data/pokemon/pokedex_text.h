@@ -1834,11 +1834,11 @@ const u8 gBlkgatomon_uverPokedexText[] = _(
     "and delivering packages. Everything in its\n"
     "bag is stored in the optimum state.");
 
-const u8 gAggronPokedexText[] = _(
-    "Its iron horns grow longer a little at\n"
-    "a time. They are used to determine the\n"
-    "AGGRON's age. The gouges in its armor are\n"
-    "worn with pride as mementos from battles.");
+const u8 gBlgrowlmonPokedexText[] = _(
+    "As the name implies, dark mutated Digimon\n"
+    "are usually mutations of a Digimon however\n"
+    "their is a growing belief that Black-\n"
+    "Growlmon is the natural form of Growlmon.");
 
 const u8 gMedititePokedexText[] = _(
     "It continually meditates for hours every\n"

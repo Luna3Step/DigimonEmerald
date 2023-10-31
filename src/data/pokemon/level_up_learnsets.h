@@ -5194,7 +5194,7 @@ static const u16 sBlkgatomon_uverLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAggronLevelUpLearnset[] = {
+static const u16 sBlgrowlmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SLAP),
