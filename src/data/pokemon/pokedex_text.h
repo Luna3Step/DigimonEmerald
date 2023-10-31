@@ -1864,11 +1864,11 @@ const u8 gBomnanimonPokedexText[] = _(
     "deny this claim. If pushed too hard on\n"
     "this idea, it will light its fuse.");
 
-const u8 gPluslePokedexText[] = _(
-    "It has the trait of cheering on its fellow\n"
-    "POKéMON. By shorting out the electricity\n"
-    "it releases from its paws, it creates\n"
-    "pom-poms for cheering.");
+const u8 gBoogiemonPokedexText[] = _(
+    "When battling a Boogiemon, it is a good\n"
+    "idea to count how many tattoos it has as\n"
+    "that amount of spells it can cast is\n"
+    "always equal to the amount of tattoos.");
 
 const u8 gMinunPokedexText[] = _(
     "At a meeting of POKéMON academics, it was\n"

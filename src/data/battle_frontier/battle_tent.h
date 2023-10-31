@@ -1202,14 +1202,14 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_NAIVE
     },
     [SLATEPORT_TENT_MON_PLUSLE_1] = {
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_BOOGIEMON,
         .moves = {MOVE_SPARK, MOVE_ENCORE, MOVE_THUNDER_WAVE, MOVE_GROWL},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIECHI_BERRY,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_LONELY
     },
     [SLATEPORT_TENT_MON_PLUSLE_2] = {
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_BOOGIEMON,
         .moves = {MOVE_SPARK, MOVE_FAKE_TEARS, MOVE_SUBSTITUTE, MOVE_QUICK_ATTACK},
         .itemTableId = BATTLE_FRONTIER_ITEM_PECHA_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -2702,7 +2702,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_SASSY
     },
     [FALLARBOR_TENT_MON_PLUSLE] = {
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_BOOGIEMON,
         .moves = {MOVE_SPARK, MOVE_GROWL, MOVE_QUICK_ATTACK, MOVE_FAKE_TEARS},
         .itemTableId = BATTLE_FRONTIER_ITEM_MENTAL_HERB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

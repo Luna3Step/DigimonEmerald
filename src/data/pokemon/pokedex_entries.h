@@ -3732,12 +3732,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PLUSLE] =
+    [NATIONAL_DEX_BOOGIEMON] =
     {
-        .categoryName = _("CHEERING"),
-        .height = 4,
-        .weight = 42,
-        .description = gPluslePokedexText,
+        .categoryName = _("DEVIL"),
+        .height = 22,
+        .weight = 574,
+        .description = gBoogiemonPokedexText,
         .pokemonScale = 515,
         .pokemonOffset = -9,
         .trainerScale = 256,

@@ -1022,7 +1022,7 @@ static const struct InGameTrade sIngameTrades[] =
     [INGAME_TRADE_PLUSLE] =
     {
         .nickname = _("PLUSES"),
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_BOOGIEMON,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
         .otId = 73996,
@@ -1075,7 +1075,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_BE,
         EC_WORD_NICE,
         EC_WORD_TO,
-        EC_POKEMON(PLUSLE),
+        EC_POKEMON(BOOGIEMON),
         EC_WORD_EXCL,
         EC_POKEMON(VOLBEAT),
         EC_WORD_WILL,

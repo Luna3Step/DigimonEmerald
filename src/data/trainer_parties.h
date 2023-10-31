@@ -4014,7 +4014,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Isabel1[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {
@@ -4029,7 +4029,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Isabel2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {
@@ -4044,7 +4044,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Isabel3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {
@@ -4059,7 +4059,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Isabel4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {
@@ -4074,7 +4074,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Isabel5[] = {
     {
     .iv = 40,
     .lvl = 35,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_SITRUS_BERRY
     },
     {
@@ -6244,7 +6244,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv1[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     },
     {
     .iv = 0,
@@ -6257,7 +6257,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     },
     {
     .iv = 10,
@@ -6296,7 +6296,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv3[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     },
     {
     .iv = 0,
@@ -6324,7 +6324,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv4[] = {
     {
     .iv = 20,
     .lvl = 30,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     },
     {
     .iv = 20,
@@ -6337,7 +6337,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv5[] = {
     {
     .iv = 30,
     .lvl = 33,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .moves = {MOVE_SPARK, MOVE_CHARGE, MOVE_FAKE_TEARS, MOVE_HELPING_HAND}
     },
     {
@@ -6352,7 +6352,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
     {
     .iv = 40,
     .lvl = 36,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .moves = {MOVE_THUNDER, MOVE_CHARGE, MOVE_FAKE_TEARS, MOVE_HELPING_HAND}
     },
     {
@@ -9472,7 +9472,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Kaleb[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_PLUSLE,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
