@@ -1810,11 +1810,11 @@ const u8 gBlgaogamonPokedexText[] = _(
     "Digimon that go through this process,\n"
     "BlackGaogamon is relatively peaceful.");
 
-const u8 gSableyePokedexText[] = _(
-    "It digs branching holes in caves using its\n"
-    "sharp claws in search of food--raw gems.\n"
-    "A SABLEYE lurks in darkness and is seen\n"
-    "only rarely.");
+const u8 gBlgargomonPokedexText[] = _(
+    "BlackGargomon specialises in ambushing\n"
+    "Enemies in the dark. Rather than using its\n"
+    "gatling arms to fire from range, it\n"
+    "instead gets close and pummels them.");
 
 const u8 gMawilePokedexText[] = _(
     "Its giant jaws are actually steel horns\n"

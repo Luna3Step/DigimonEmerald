@@ -3624,12 +3624,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SABLEYE] =
+    [NATIONAL_DEX_BLGARGOMON] =
     {
-        .categoryName = _("DARKNESS"),
-        .height = 5,
-        .weight = 110,
-        .description = gSableyePokedexText,
+        .categoryName = _("DOG RABBIT"),
+        .height = 15,
+        .weight = 274,
+        .description = gBlgargomonPokedexText,
         .pokemonScale = 451,
         .pokemonOffset = 17,
         .trainerScale = 256,

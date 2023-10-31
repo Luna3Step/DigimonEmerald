@@ -1367,7 +1367,7 @@ const u16 gEasyChatWordsByLetter_R[] = {
 };
 
 const u16 gEasyChatWordsByLetter_S[] = {
-    EC_POKEMON(SABLEYE),
+    EC_POKEMON(BLGARGOMON),
     EC_MOVE(SACRED_FIRE),
     EC_WORD_SAD,
     EC_WORD_SADLY,
@@ -2375,7 +2375,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {
     EC_POKEMON_NATIONAL(PAGUMON),
     EC_WORD_DANGER,
     EC_POKEMON_NATIONAL(LALAMON),
-    EC_POKEMON(SABLEYE),
+    EC_POKEMON(BLGARGOMON),
     EC_WORD_DEFEATED,
     EC_WORD_BEAT,
     EC_WORD_VITAL_SPIRIT,

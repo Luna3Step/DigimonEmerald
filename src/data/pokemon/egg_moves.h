@@ -1036,7 +1036,7 @@ const u16 gEggMoves[] = {
               MOVE_SLEEP_TALK,
               MOVE_YAWN),
 
-    egg_moves(SABLEYE,
+    egg_moves(BLGARGOMON,
               MOVE_PSYCH_UP,
               MOVE_RECOVER,
               MOVE_MOONLIGHT),
