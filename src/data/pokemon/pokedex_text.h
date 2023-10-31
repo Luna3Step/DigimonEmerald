@@ -1840,11 +1840,11 @@ const u8 gBlgrowlmonPokedexText[] = _(
     "their is a growing belief that Black-\n"
     "Growlmon is the natural form of Growlmon.");
 
-const u8 gMedititePokedexText[] = _(
-    "It continually meditates for hours every\n"
-    "day. As a result of rigorous and dedicated\n"
-    "yoga training, it has tempered its\n"
-    "spiritual power so much it can fly.");
+const u8 gSawkuwamonPokedexText[] = _(
+    "BladeKuwagamon are not particularly powerful\n"
+    "on their, even for a champion level Digimon\n"
+    "so they have adapted to group up and swarm\n"
+    "anything they deem a foe.");
 
 const u8 gMedichamPokedexText[] = _(
     "Through crushingly harsh yoga training, it\n"

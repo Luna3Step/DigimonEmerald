@@ -1151,7 +1151,7 @@ const u16 gEggMoves[] = {
               MOVE_ANCIENT_POWER,
               MOVE_TICKLE),
 
-    egg_moves(MEDITITE,
+    egg_moves(SAWKUWAMON,
               MOVE_FIRE_PUNCH,
               MOVE_THUNDER_PUNCH,
               MOVE_ICE_PUNCH,

@@ -4758,7 +4758,7 @@ static const u16 sBlgarurmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMedititeLevelUpLearnset[] = {
+static const u16 sSawkuwamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BIDE),
     LEVEL_UP_MOVE( 4, MOVE_MEDITATE),
     LEVEL_UP_MOVE( 9, MOVE_CONFUSION),

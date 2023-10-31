@@ -360,7 +360,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_PLUSLE]      = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  8 },
     [SPECIES_MINUN]       = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  8 },
     [SPECIES_BLGARURMON]      = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
-    [SPECIES_MEDITITE]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 11 },
+    [SPECIES_SAWKUWAMON]    = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 11 },
     [SPECIES_MEDICHAM]    = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  3 },
     [SPECIES_SWABLU]      = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  9 },
     [SPECIES_ALTARIA]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },

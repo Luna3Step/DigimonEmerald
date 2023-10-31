@@ -3684,12 +3684,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_MEDITITE] =
+    [NATIONAL_DEX_SAWKUWAMON] =
     {
-        .categoryName = _("MEDITATE"),
-        .height = 6,
+        .categoryName = _("BLADE BUG"),
+        .height = 13,
         .weight = 112,
-        .description = gMedititePokedexText,
+        .description = gSawkuwamonPokedexText,
         .pokemonScale = 465,
         .pokemonOffset = 17,
         .trainerScale = 256,
