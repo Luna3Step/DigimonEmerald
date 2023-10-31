@@ -1900,11 +1900,11 @@ const u8 gBuraimonPokedexText[] = _(
     "will take on bodyguard jobs and protect\n"
     "weak while wandering.");
 
-const u8 gSwalotPokedexText[] = _(
-    "Its powerful stomach acid is capable of\n"
-    "digesting almost anything. The one thing\n"
-    "in the whole world a SWALOT can't digest is\n"
-    "its own stomach.");
+const u8 gBurgermon_championPokedexText[] = _(
+    "Burgermon are very king Digimon who dedicate\n"
+    "themselves to feeding everyone they can\n"
+    "without asking anything in return. Its food\n"
+    "can cause others to lose all fighting spirit");
 
 const u8 gCarvanhaPokedexText[] = _(
     "CARVANHA attack ships in swarms, making\n"

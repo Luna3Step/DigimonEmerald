@@ -3804,12 +3804,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWALOT] =
+    [NATIONAL_DEX_BURGERMON_CHAMPION] =
     {
-        .categoryName = _("POISON BAG"),
-        .height = 17,
-        .weight = 800,
-        .description = gSwalotPokedexText,
+        .categoryName = _("BURGER"),
+        .height = 10,
+        .weight = 193,
+        .description = gBurgermon_championPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 345,
