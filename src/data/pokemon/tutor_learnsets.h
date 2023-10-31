@@ -4981,7 +4981,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_FIRE_PUNCH)
                                 | TUTOR(MOVE_FURY_CUTTER)),
 
-    [SPECIES_GULPIN]           = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_BURAIMON]           = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_COUNTER)
                                 | TUTOR(MOVE_MIMIC)

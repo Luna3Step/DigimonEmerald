@@ -79,7 +79,7 @@
     FRONTIER_MON_SNORUNT,       \
     FRONTIER_MON_BAGON,         \
     FRONTIER_MON_BELDUM,        \
-    FRONTIER_MON_GULPIN,        \
+    FRONTIER_MON_BURAIMON,        \
     FRONTIER_MON_BIBIMON,       \
     FRONTIER_MON_DEMIVEEMON,        \
     FRONTIER_MON_KOKOMON,        \
@@ -129,7 +129,7 @@
     FRONTIER_MON_KYAROMON,    \
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BELDUM,        \
-    FRONTIER_MON_GULPIN,        \
+    FRONTIER_MON_BURAIMON,        \
     FRONTIER_MON_BIBIMON,       \
     FRONTIER_MON_SANGOMON,      \
     FRONTIER_MON_HOPMON,          \
@@ -425,7 +425,7 @@
     FRONTIER_MON_GUMMYMON,       \
     FRONTIER_MON_ELECMON,       \
     FRONTIER_MON_MODBETAMON,      \
-    FRONTIER_MON_GULPIN,        \
+    FRONTIER_MON_BURAIMON,        \
     -1
 
 #define FRONTIER_MONS_BUG_CATCHER_1 \
@@ -506,7 +506,7 @@
     FRONTIER_MON_KYAROMON,    \
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BELDUM,        \
-    FRONTIER_MON_GULPIN,        \
+    FRONTIER_MON_BURAIMON,        \
     FRONTIER_MON_BIBIMON,       \
     FRONTIER_MON_SANGOMON,      \
     FRONTIER_MON_HOPMON,          \

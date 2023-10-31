@@ -4264,7 +4264,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ben[] = {
     {
     .iv = 150,
     .lvl = 17,
-    .species = SPECIES_GULPIN,
+    .species = SPECIES_BURAIMON,
     .moves = {MOVE_AMNESIA, MOVE_SLUDGE, MOVE_YAWN, MOVE_POUND}
     }
 };
@@ -10023,7 +10023,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jaiden[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_GULPIN,
+    .species = SPECIES_BURAIMON,
     }
 };
 
@@ -10255,7 +10255,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_GULPIN,
+    .species = SPECIES_BURAIMON,
     }
 };
 

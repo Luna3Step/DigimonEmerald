@@ -80,7 +80,7 @@
 #define FRONTIER_MON_SNORUNT        76
 #define FRONTIER_MON_BAGON          77
 #define FRONTIER_MON_BELDUM         78
-#define FRONTIER_MON_GULPIN         79
+#define FRONTIER_MON_BURAIMON         79
 #define FRONTIER_MON_BIBIMON        80
 #define FRONTIER_MON_DEMIVEEMON         81
 #define FRONTIER_MON_KOKOMON         82

@@ -3792,12 +3792,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GULPIN] =
+    [NATIONAL_DEX_BURAIMON] =
     {
-        .categoryName = _("STOMACH"),
-        .height = 4,
-        .weight = 103,
-        .description = gGulpinPokedexText,
+        .categoryName = _("VAGRANT"),
+        .height = 24,
+        .weight = 657,
+        .description = gBuraimonPokedexText,
         .pokemonScale = 593,
         .pokemonOffset = 23,
         .trainerScale = 256,

@@ -1894,11 +1894,11 @@ const u8 gBullmonPokedexText[] = _(
     "reasons. When charging, it is incapable\n"
     "of turning or reversing.");
 
-const u8 gGulpinPokedexText[] = _(
-    "This POKéMON's stomach fluid can even\n"
-    "digest scrap iron. In one gulp, it can\n"
-    "swallow something that is as large as\n"
-    "itself.");
+const u8 gBuraimonPokedexText[] = _(
+    "Continuing its training from when it was\n"
+    "a Chicchimon, Buraimon is now a rogue. It\n"
+    "will take on bodyguard jobs and protect\n"
+    "weak while wandering.");
 
 const u8 gSwalotPokedexText[] = _(
     "Its powerful stomach acid is capable of\n"

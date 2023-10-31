@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ROSELIA"
-with "FRONTIER_MON_BULLMON"
+replace "FRONTIER_MON_GULPIN"
+with "FRONTIER_MON_BURAIMON"
 
-replace "gRoseliaPokedexText"
-with "gBullmonPokedexText"
+replace "gGulpinPokedexText"
+with "gBuraimonPokedexText"
 
-replace "NATIONAL_DEX_ROSELIA"
-with "NATIONAL_DEX_BULLMON"
+replace "NATIONAL_DEX_GULPIN"
+with "NATIONAL_DEX_BURAIMON"
 
-replace "SPECIES_ROSELIA"
-with "SPECIES_BULLMON"
+replace "SPECIES_GULPIN"
+with "SPECIES_BURAIMON"
 
-replace "HOENN_DEX_ROSELIA"
-with "HOENN_DEX_BULLMON"
+replace "HOENN_DEX_GULPIN"
+with "HOENN_DEX_BURAIMON"
 
-replace "SPECIES_TO_HOENN(ROSELIA),"
-with "SPECIES_TO_HOENN(BULLMON),"
+replace "SPECIES_TO_HOENN(GULPIN),"
+with "SPECIES_TO_HOENN(BURAIMON),"
 
-replace "SPECIES_TO_NATIONAL(ROSELIA),"
-with "SPECIES_TO_NATIONAL(BULLMON),"
+replace "SPECIES_TO_NATIONAL(GULPIN),"
+with "SPECIES_TO_NATIONAL(BURAIMON),"
 
-replace "HOENN_TO_NATIONAL(ROSELIA),"
-with "HOENN_TO_NATIONAL(BULLMON),"
+replace "HOENN_TO_NATIONAL(GULPIN),"
+with "HOENN_TO_NATIONAL(BURAIMON),"
 
-replace "EC_POKEMON_NATIONAL(ROSELIA),"
-with "EC_POKEMON_NATIONAL(BULLMON),"
+replace "EC_POKEMON_NATIONAL(GULPIN),"
+with "EC_POKEMON_NATIONAL(BURAIMON),"
 
-replace "egg_moves(ROSELIA,"
-with "egg_moves(BULLMON,"
+replace "egg_moves(GULPIN,"
+with "egg_moves(BURAIMON,"
 
-replace "sRoseliaLevelUpLearnset"
-with "sBullmonLevelUpLearnset"
+replace "sGulpinLevelUpLearnset"
+with "sBuraimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ROSELIA"
-with "SPECIES_SPRITE(BULLMON"
+replace "SPECIES_SPRITE(GULPIN"
+with "SPECIES_SPRITE(BURAIMON"
 
-replace "SPECIES_PAL(ROSELIA,"
-with "SPECIES_PAL(BULLMON,"
+replace "SPECIES_PAL(GULPIN,"
+with "SPECIES_PAL(BURAIMON,"
 
-replace "SPECIES_SHINY_PAL(ROSELIA,"
-with "SPECIES_SHINY_PAL(BULLMON,"
+replace "SPECIES_SHINY_PAL(GULPIN,"
+with "SPECIES_SHINY_PAL(BURAIMON,"
 
-replace "EC_POKEMON(ROSELIA)"
-with "EC_POKEMON(BULLMON)"
+replace "EC_POKEMON(GULPIN)"
+with "EC_POKEMON(BURAIMON)"
 
-replace "EC_POKEMON_NATIONAL(ROSELIA)"
-with "EC_POKEMON_NATIONAL(BULLMON)"
+replace "EC_POKEMON_NATIONAL(GULPIN)"
+with "EC_POKEMON_NATIONAL(BURAIMON)"
 
 in "src/data/text/species_names.h"
-replace "ROSELIA"
-with "BULLMON"
+replace "GULPIN"
+with "BURAIMON"

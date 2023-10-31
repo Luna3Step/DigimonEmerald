@@ -579,7 +579,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MELANIE] = {
-        .species = SPECIES_GULPIN,
+        .species = SPECIES_BURAIMON,
         .nickname = _("GULIN"),
         .trainerName = _("MELANIE"),
         .trainerGfxId = OBJ_EVENT_GFX_TWIN,
