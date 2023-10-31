@@ -1888,11 +1888,11 @@ const u8 gBulkmonPokedexText[] = _(
     "itself. It's strength, reaction speed\n"
     "and health outclass many bulky Digimon.");
 
-const u8 gRoseliaPokedexText[] = _(
-    "A ROSELIA that drinks nutritionally rich\n"
-    "springwater blooms with lovely flowers.\n"
-    "The fragrance of its flowers has the\n"
-    "effect of making its foes careless.");
+const u8 gBullmonPokedexText[] = _(
+    "Bullmon are particularly short tempered\n"
+    "and will charge others for various minor\n"
+    "reasons. When charging, it is incapable\n"
+    "of turning or reversing.");
 
 const u8 gGulpinPokedexText[] = _(
     "This POKéMON's stomach fluid can even\n"

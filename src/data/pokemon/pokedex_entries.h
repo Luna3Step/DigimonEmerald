@@ -3780,12 +3780,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ROSELIA] =
+    [NATIONAL_DEX_BULLMON] =
     {
-        .categoryName = _("THORN"),
-        .height = 3,
-        .weight = 20,
-        .description = gRoseliaPokedexText,
+        .categoryName = _("BULL"),
+        .height = 20,
+        .weight = 553,
+        .description = gBullmonPokedexText,
         .pokemonScale = 677,
         .pokemonOffset = 20,
         .trainerScale = 256,
