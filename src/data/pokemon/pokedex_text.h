@@ -1924,11 +1924,11 @@ const u8 gChamblemonPokedexText[] = _(
     "Champion to fight. Its use of spores\n"
     "makes it dangerous to the unprepared.");
 
-const u8 gWailordPokedexText[] = _(
-    "It breathes through nostrils that it\n"
-    "raises above the sea. By inhaling to its\n"
-    "maximum capacity, a WAILORD can dive close\n"
-    "to 10,000 feet beneath the waves.");
+const u8 gChamelemonPokedexText[] = _(
+    "Although not particularly strong, Chamelemon\n"
+    "makes up for it by being exceptional at\n"
+    "infiltration. Competiting groups are known\n"
+    "to hire Chamelemon to spy on eachother.");
 
 const u8 gNumelPokedexText[] = _(
     "A NUMEL stores boiling magma in the hump\n"

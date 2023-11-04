@@ -4104,7 +4104,7 @@ static const u16 sChamblemonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWailordLevelUpLearnset[] = {
+static const u16 sChamelemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),

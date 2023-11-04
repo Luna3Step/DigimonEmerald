@@ -3852,12 +3852,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WAILORD] =
+    [NATIONAL_DEX_CHAMELEMON] =
     {
-        .categoryName = _("FLOAT WHALE"),
-        .height = 145,
-        .weight = 3980,
-        .description = gWailordPokedexText,
+        .categoryName = _("CAMOUFLAGE"),
+        .height = 16,
+        .weight = 275,
+        .description = gChamelemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 1352,
