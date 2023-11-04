@@ -1912,11 +1912,11 @@ const u8 gChouflymonPokedexText[] = _(
     "who will help anyone it can. If in danger, it\n"
     "can inflict hallucinations on foes.");
 
-const u8 gSharpedoPokedexText[] = _(
-    "The vicious and sly gangster of the sea.\n"
-    "Its skin is specially textured to minimize\n"
-    "drag in water. Its speed tops out at over\n"
-    "75 miles per hour.");
+const u8 gCentarumonPokedexText[] = _(
+    "Centarumon is an extremely prideful Digimon\n"
+    "who is exceptional is just about every area.\n"
+    "The ducts on its back spout high pressure\n"
+    "vapor that let it move at sub-sonic speeds.");
 
 const u8 gWailmerPokedexText[] = _(
     "While this POKéMON usually lives in the sea,\n"

@@ -3828,12 +3828,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHARPEDO] =
+    [NATIONAL_DEX_CENTARUMON] =
     {
-        .categoryName = _("BRUTAL"),
-        .height = 18,
-        .weight = 888,
-        .description = gSharpedoPokedexText,
+        .categoryName = _("CENTAUR"),
+        .height = 31,
+        .weight = 703,
+        .description = gCentarumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 317,
