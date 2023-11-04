@@ -3840,12 +3840,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_WAILMER] =
+    [NATIONAL_DEX_CHAMBLEMON] =
     {
-        .categoryName = _("BALL WHALE"),
-        .height = 20,
-        .weight = 1300,
-        .description = gWailmerPokedexText,
+        .categoryName = _("MUSHROOM"),
+        .height = 33,
+        .weight = 407,
+        .description = gChamblemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 493,

@@ -1918,11 +1918,11 @@ const u8 gCentarumonPokedexText[] = _(
     "The ducts on its back spout high pressure\n"
     "vapor that let it move at sub-sonic speeds.");
 
-const u8 gWailmerPokedexText[] = _(
-    "While this POKéMON usually lives in the sea,\n"
-    "it can survive on land, although not too\n"
-    "long. It loses vitality if its body becomes\n"
-    "dried out.");
+const u8 gChamblemonPokedexText[] = _(
+    "While often mistaken to be Rookies like\n"
+    "Mushroomon, Chamblemon is actually a tricky\n"
+    "Champion to fight. Its use of spores\n"
+    "makes it dangerous to the unprepared.");
 
 const u8 gWailordPokedexText[] = _(
     "It breathes through nostrils that it\n"

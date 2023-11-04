@@ -317,7 +317,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_ANKYLOMON]    = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  4 },
     [SPECIES_ARCHELOMON]     = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 15 },
     [SPECIES_ARGOMON_CHAMPION]  = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },
-    [SPECIES_WAILMER]     = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 15 },
+    [SPECIES_CHAMBLEMON]     = { .size = MON_COORDS_SIZE(56, 40), .y_offset = 15 },
     [SPECIES_WAILORD]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset = 10 },
     [SPECIES_BIRDRAMON]      = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 11 },
     [SPECIES_BLGAOGAMON]    = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },

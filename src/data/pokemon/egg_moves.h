@@ -1000,7 +1000,7 @@ const u16 gEggMoves[] = {
               MOVE_HYDRO_PUMP,
               MOVE_MIND_READER),
 
-    egg_moves(WAILMER,
+    egg_moves(CHAMBLEMON,
               MOVE_DOUBLE_EDGE,
               MOVE_THRASH,
               MOVE_SWAGGER,

@@ -1820,7 +1820,7 @@ const u16 gEasyChatWordsByLetter_V[] = {
 const u16 gEasyChatWordsByLetter_W[] = {
     EC_WORD_WAAAH,
     EC_WORD_WAHAHAHA,
-    EC_POKEMON(WAILMER),
+    EC_POKEMON(CHAMBLEMON),
     EC_POKEMON(WAILORD),
     EC_WORD_WAIT,
     EC_WORD_WAKE_UP,
@@ -2131,7 +2131,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHo[] = {
     EC_WORD_EFFECT_SPORE,
     EC_MOVE2(ROAR),
     EC_POKEMON(WAILORD),
-    EC_POKEMON(WAILMER),
+    EC_POKEMON(CHAMBLEMON),
     EC_WORD_DUDE,
     EC_WORD_BOARD,
     EC_POKEMON_NATIONAL(GHOSTMON),

@@ -782,14 +782,14 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_MODEST
     },
     [SLATEPORT_TENT_MON_WAILMER_1] = {
-        .species = SPECIES_WAILMER,
+        .species = SPECIES_CHAMBLEMON,
         .moves = {MOVE_ROLLOUT, MOVE_CURSE, MOVE_GROWL, MOVE_WHIRLPOOL},
         .itemTableId = BATTLE_FRONTIER_ITEM_RAWST_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_WAILMER_2] = {
-        .species = SPECIES_WAILMER,
+        .species = SPECIES_CHAMBLEMON,
         .moves = {MOVE_ROLLOUT, MOVE_GROWL, MOVE_WHIRLPOOL, MOVE_WATER_PULSE},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -2087,7 +2087,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_QUIRKY
     },
     [VERDANTURF_TENT_MON_WAILMER] = {
-        .species = SPECIES_WAILMER,
+        .species = SPECIES_CHAMBLEMON,
         .moves = {MOVE_WATER_PULSE, MOVE_ROLLOUT, MOVE_CURSE, MOVE_PROTECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_HP,
@@ -2905,7 +2905,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_MODEST
     },
     [FALLARBOR_TENT_MON_WAILMER] = {
-        .species = SPECIES_WAILMER,
+        .species = SPECIES_CHAMBLEMON,
         .moves = {MOVE_WATER_PULSE, MOVE_RAIN_DANCE, MOVE_SPLASH, MOVE_CURSE},
         .itemTableId = BATTLE_FRONTIER_ITEM_KINGS_ROCK,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,

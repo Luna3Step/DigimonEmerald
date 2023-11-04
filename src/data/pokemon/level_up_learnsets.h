@@ -4088,7 +4088,7 @@ static const u16 sArgomon_championLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWailmerLevelUpLearnset[] = {
+static const u16 sChamblemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE( 5, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_WATER_GUN),
