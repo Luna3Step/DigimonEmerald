@@ -3912,12 +3912,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRUMPIG] =
+    [NATIONAL_DEX_COELAMON] =
     {
-        .categoryName = _("MANIPULATE"),
-        .height = 9,
-        .weight = 715,
-        .description = gGrumpigPokedexText,
+        .categoryName = _("PRIMITIVE"),
+        .height = 12,
+        .weight = 598,
+        .description = gCoelamonPokedexText,
         .pokemonScale = 358,
         .pokemonOffset = 10,
         .trainerScale = 256,

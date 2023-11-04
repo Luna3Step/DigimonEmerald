@@ -1954,11 +1954,11 @@ const u8 gClockmon_fusionPokedexText[] = _(
     "struggles to use its control of time as\n"
     "efficiently making it an easier opponent.");
 
-const u8 gGrumpigPokedexText[] = _(
-    "It stores power in the black pearls on its\n"
-    "forehead. When it uses psychic power, it\n"
-    "performs an odd dance step. Its style of\n"
-    "dancing became hugely popular overseas.");
+const u8 gCoelamonPokedexText[] = _(
+    "Thought to be extinct, after a deep search\n"
+    "of the Net Ocean, it was found to be alive\n"
+    "and thriving. It looks to be in the early\n"
+    "stages of evolution as it has hands and feet.");
 
 const u8 gSpindaPokedexText[] = _(
     "It is distinguished by a pattern of\n"
