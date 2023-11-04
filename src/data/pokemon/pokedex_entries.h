@@ -3864,12 +3864,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 18,
     },
 
-    [NATIONAL_DEX_NUMEL] =
+    [NATIONAL_DEX_CHRYSALMON] =
     {
-        .categoryName = _("NUMB"),
-        .height = 7,
-        .weight = 240,
-        .description = gNumelPokedexText,
+        .categoryName = _("VIRUS"),
+        .height = 42,
+        .weight = 972,
+        .description = gChrysalmonPokedexText,
         .pokemonScale = 342,
         .pokemonOffset = 17,
         .trainerScale = 256,

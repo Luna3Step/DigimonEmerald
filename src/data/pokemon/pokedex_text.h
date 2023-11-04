@@ -1930,11 +1930,11 @@ const u8 gChamelemonPokedexText[] = _(
     "infiltration. Competiting groups are known\n"
     "to hire Chamelemon to spy on eachother.");
 
-const u8 gNumelPokedexText[] = _(
-    "A NUMEL stores boiling magma in the hump\n"
-    "on its back. It is a hardy POKéMON that can\n"
-    "transport a 220-pound load. It has served\n"
-    "humans at work since long ago.");
+const u8 gChrysalmonPokedexText[] = _(
+    "Compared to it's previous evolutions more\n"
+    "agile nature, Chrysalimon is almost\n"
+    "completely immobile however its shell is\n"
+    "incredibly strong, protecting it well.");
 
 const u8 gCameruptPokedexText[] = _(
     "A POKéMON that lives in the crater of\n"

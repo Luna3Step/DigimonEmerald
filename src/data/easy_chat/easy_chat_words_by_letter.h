@@ -1128,7 +1128,7 @@ const u16 gEasyChatWordsByLetter_N[] = {
     EC_WORD_NOT_VERY,
     EC_WORD_NOTHING,
     EC_WORD_NOW,
-    EC_POKEMON(NUMEL),
+    EC_POKEMON(CHRYSALMON),
     EC_POKEMON(AKATORIMON),
 };
 

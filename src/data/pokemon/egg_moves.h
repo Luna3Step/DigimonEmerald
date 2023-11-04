@@ -1093,7 +1093,7 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_SWIFT),
 
-    egg_moves(NUMEL,
+    egg_moves(CHRYSALMON,
               MOVE_HOWL,
               MOVE_SCARY_FACE,
               MOVE_BODY_SLAM,

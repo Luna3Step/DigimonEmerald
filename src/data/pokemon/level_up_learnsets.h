@@ -4491,7 +4491,7 @@ static const u16 sBomnanimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sNumelLevelUpLearnset[] = {
+static const u16 sChrysalmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE(11, MOVE_EMBER),
