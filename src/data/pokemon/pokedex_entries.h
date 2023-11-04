@@ -3888,12 +3888,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_TORKOAL] =
+    [NATIONAL_DEX_CLOCKMON] =
     {
-        .categoryName = _("COAL"),
-        .height = 5,
-        .weight = 804,
-        .description = gTorkoalPokedexText,
+        .categoryName = _("TIME"),
+        .height = 25,
+        .weight = 884,
+        .description = gClockmonPokedexText,
         .pokemonScale = 390,
         .pokemonOffset = 9,
         .trainerScale = 256,

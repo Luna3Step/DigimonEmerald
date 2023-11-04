@@ -1942,11 +1942,11 @@ const u8 gCitramonPokedexText[] = _(
     "It will use its own citrous juice\n"
     "ito blind opponents and irritate wounds.");
 
-const u8 gTorkoalPokedexText[] = _(
-    "It battles using energy it gets from\n"
-    "burning coal. When loosing smoke from its\n"
-    "nostrils, it lets off a sound that is\n"
-    "similar to a locomotive's horn.");
+const u8 gClockmonPokedexText[] = _(
+    "Clockmon is a Digimon that is extremely\n"
+    "dangerous even compared to Ultra Digimon\n"
+    "If it is between the year 1900 and 1999, \n"
+    "it has near unlimited power of time.");
 
 const u8 gSpoinkPokedexText[] = _(
     "A POKéMON that manipulates psychic power\n"

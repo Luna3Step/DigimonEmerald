@@ -1030,7 +1030,7 @@ const u16 gEggMoves[] = {
               MOVE_ROLLOUT,
               MOVE_EXPLOSION),
 
-    egg_moves(TORKOAL,
+    egg_moves(CLOCKMON,
               MOVE_ERUPTION,
               MOVE_ENDURE,
               MOVE_SLEEP_TALK,
