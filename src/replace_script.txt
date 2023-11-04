@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_NUMEL"
-with "FRONTIER_MON_CHRYSALMON"
+replace "FRONTIER_MON_CAMERUPT"
+with "FRONTIER_MON_CITRAMON"
 
-replace "gNumelPokedexText"
-with "gChrysalmonPokedexText"
+replace "gCameruptPokedexText"
+with "gCitramonPokedexText"
 
-replace "NATIONAL_DEX_NUMEL"
-with "NATIONAL_DEX_CHRYSALMON"
+replace "NATIONAL_DEX_CAMERUPT"
+with "NATIONAL_DEX_CITRAMON"
 
-replace "SPECIES_NUMEL"
-with "SPECIES_CHRYSALMON"
+replace "SPECIES_CAMERUPT"
+with "SPECIES_CITRAMON"
 
-replace "HOENN_DEX_NUMEL"
-with "HOENN_DEX_CHRYSALMON"
+replace "HOENN_DEX_CAMERUPT"
+with "HOENN_DEX_CITRAMON"
 
-replace "SPECIES_TO_HOENN(NUMEL),"
-with "SPECIES_TO_HOENN(CHRYSALMON),"
+replace "SPECIES_TO_HOENN(CAMERUPT),"
+with "SPECIES_TO_HOENN(CITRAMON),"
 
-replace "SPECIES_TO_NATIONAL(NUMEL),"
-with "SPECIES_TO_NATIONAL(CHRYSALMON),"
+replace "SPECIES_TO_NATIONAL(CAMERUPT),"
+with "SPECIES_TO_NATIONAL(CITRAMON),"
 
-replace "HOENN_TO_NATIONAL(NUMEL),"
-with "HOENN_TO_NATIONAL(CHRYSALMON),"
+replace "HOENN_TO_NATIONAL(CAMERUPT),"
+with "HOENN_TO_NATIONAL(CITRAMON),"
 
-replace "EC_POKEMON_NATIONAL(NUMEL),"
-with "EC_POKEMON_NATIONAL(CHRYSALMON),"
+replace "EC_POKEMON_NATIONAL(CAMERUPT),"
+with "EC_POKEMON_NATIONAL(CITRAMON),"
 
-replace "egg_moves(NUMEL,"
-with "egg_moves(CHRYSALMON,"
+replace "egg_moves(CAMERUPT,"
+with "egg_moves(CITRAMON,"
 
-replace "sNumelLevelUpLearnset"
-with "sChrysalmonLevelUpLearnset"
+replace "sCameruptLevelUpLearnset"
+with "sCitramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(NUMEL"
-with "SPECIES_SPRITE(CHRYSALMON"
+replace "SPECIES_SPRITE(CAMERUPT"
+with "SPECIES_SPRITE(CITRAMON"
 
-replace "SPECIES_PAL(NUMEL,"
-with "SPECIES_PAL(CHRYSALMON,"
+replace "SPECIES_PAL(CAMERUPT,"
+with "SPECIES_PAL(CITRAMON,"
 
-replace "SPECIES_SHINY_PAL(NUMEL,"
-with "SPECIES_SHINY_PAL(CHRYSALMON,"
+replace "SPECIES_SHINY_PAL(CAMERUPT,"
+with "SPECIES_SHINY_PAL(CITRAMON,"
 
-replace "EC_POKEMON(NUMEL)"
-with "EC_POKEMON(CHRYSALMON)"
+replace "EC_POKEMON(CAMERUPT)"
+with "EC_POKEMON(CITRAMON)"
 
-replace "EC_POKEMON_NATIONAL(NUMEL)"
-with "EC_POKEMON_NATIONAL(CHRYSALMON)"
+replace "EC_POKEMON_NATIONAL(CAMERUPT)"
+with "EC_POKEMON_NATIONAL(CITRAMON)"
 
 in "src/data/text/species_names.h"
-replace "NUMEL"
-with "CHRYSALMON"
+replace "CAMERUPT"
+with "CITRAMON"

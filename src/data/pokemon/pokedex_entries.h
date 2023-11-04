@@ -3876,12 +3876,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CAMERUPT] =
+    [NATIONAL_DEX_CITRAMON] =
     {
-        .categoryName = _("ERUPTION"),
-        .height = 19,
-        .weight = 2200,
-        .description = gCameruptPokedexText,
+        .categoryName = _("CITRUS"),
+        .height = 10,
+        .weight = 162,
+        .description = gCitramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 7,
         .trainerScale = 345,

@@ -1936,11 +1936,11 @@ const u8 gChrysalmonPokedexText[] = _(
     "completely immobile however its shell is\n"
     "incredibly strong, protecting it well.");
 
-const u8 gCameruptPokedexText[] = _(
-    "A POKéMON that lives in the crater of\n"
-    "a volcano. Every 10 years, the volcanoes\n"
-    "on its back erupt violently. Research is\n"
-    "under way on the cause of eruption.");
+const u8 gCitramonPokedexText[] = _(
+    "Although it has a comical appearance,\n"
+    "Citramon can be quite rough to fight.\n"
+    "It will use its own citrous juice\n"
+    "ito blind opponents and irritate wounds.");
 
 const u8 gTorkoalPokedexText[] = _(
     "It battles using energy it gets from\n"
