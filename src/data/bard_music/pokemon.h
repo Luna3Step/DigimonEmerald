@@ -2812,7 +2812,7 @@ const struct BardSound gBardSounds_Pokemon[NUM_SPECIES][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
-    [SPECIES_SPOINK] = {
+    [SPECIES_CLOCKMON_FUSION] = {
         { .songLengthId = 30 },
         { .songLengthId = 51 },
         { .songLengthId = 51 },

@@ -379,7 +379,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leah[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 
@@ -1400,7 +1400,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 
@@ -1408,7 +1408,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie3[] = {
     {
     .iv = 20,
     .lvl = 35,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 20,
@@ -1421,7 +1421,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie4[] = {
     {
     .iv = 30,
     .lvl = 40,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 30,
@@ -7752,7 +7752,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nate[] = {
     {
     .iv = 100,
     .lvl = 36,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 
@@ -10062,7 +10062,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marlene[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_SPOINK,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 

@@ -3900,12 +3900,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPOINK] =
+    [NATIONAL_DEX_CLOCKMON_FUSION] =
     {
-        .categoryName = _("BOUNCE"),
-        .height = 7,
-        .weight = 306,
-        .description = gSpoinkPokedexText,
+        .categoryName = _("TIME"),
+        .height = 19,
+        .weight = 760,
+        .description = gClockmon_fusionPokedexText,
         .pokemonScale = 423,
         .pokemonOffset = 17,
         .trainerScale = 256,

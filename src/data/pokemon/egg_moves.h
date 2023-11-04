@@ -1129,7 +1129,7 @@ const u16 gEggMoves[] = {
               MOVE_SLAM,
               MOVE_TICKLE),
 
-    egg_moves(SPOINK,
+    egg_moves(CLOCKMON_FUSION,
               MOVE_FUTURE_SIGHT,
               MOVE_EXTRASENSORY,
               MOVE_SUBSTITUTE,

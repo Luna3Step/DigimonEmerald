@@ -1948,11 +1948,11 @@ const u8 gClockmonPokedexText[] = _(
     "If it is between the year 1900 and 1999, \n"
     "it has near unlimited power of time.");
 
-const u8 gSpoinkPokedexText[] = _(
-    "A POKéMON that manipulates psychic power\n"
-    "at will. It doesn't stop bouncing even when\n"
-    "it is asleep. It loves eating mushrooms\n"
-    "that grow underground.");
+const u8 gClockmon_fusionPokedexText[] = _(
+    "Because it has lost its upper half, this\n"
+    "Clockmon is worse in many ways. It\n"
+    "struggles to use its control of time as\n"
+    "efficiently making it an easier opponent.");
 
 const u8 gGrumpigPokedexText[] = _(
     "It stores power in the black pearls on its\n"

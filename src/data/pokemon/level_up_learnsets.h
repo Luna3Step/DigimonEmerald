@@ -4679,7 +4679,7 @@ static const u16 sBiostegmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSpoinkLevelUpLearnset[] = {
+static const u16 sClockmon_fusionLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE( 7, MOVE_PSYWAVE),
     LEVEL_UP_MOVE(10, MOVE_ODOR_SLEUTH),
