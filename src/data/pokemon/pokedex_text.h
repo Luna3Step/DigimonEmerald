@@ -1960,11 +1960,11 @@ const u8 gCoelamonPokedexText[] = _(
     "and thriving. It looks to be in the early\n"
     "stages of evolution as it has hands and feet.");
 
-const u8 gSpindaPokedexText[] = _(
-    "It is distinguished by a pattern of\n"
-    "spots that is always different. Its\n"
-    "unsteady, tottering walk has the\n"
-    "effect of fouling its foe's aim.");
+const u8 gCoredramon_bluePokedexText[] = _(
+    "Coredramon is one of the purest Dragon type\n"
+    "Digimon out there. The blue variant happens\n"
+    "when it comes into plenty of Blue Diamante\n"
+    "mined from moutainous regions.");
 
 const u8 gTrapinchPokedexText[] = _(
     "Its big jaws crunch through boulders.\n"

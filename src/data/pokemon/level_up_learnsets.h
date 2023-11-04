@@ -4016,7 +4016,7 @@ static const u16 sAtamademonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSpindaLevelUpLearnset[] = {
+static const u16 sCoredramon_blueLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_UPROAR),
     LEVEL_UP_MOVE(12, MOVE_FAINT_ATTACK),

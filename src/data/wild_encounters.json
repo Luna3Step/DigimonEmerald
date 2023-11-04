@@ -1112,12 +1112,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 15,
@@ -1127,12 +1127,12 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 14,
@@ -1142,7 +1142,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 16,
@@ -1152,7 +1152,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 16,
@@ -1162,7 +1162,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_COREDRAMON_BLUE"
               },
               {
                 "min_level": 16,

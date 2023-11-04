@@ -4647,7 +4647,7 @@ static u16 GetNextPosition(u8 direction, u16 position, u16 min, u16 max)
 // All others use personality 0
 static u32 GetPokedexMonPersonality(u16 species)
 {
-    if (species == SPECIES_LOPMON || species == SPECIES_SPINDA)
+    if (species == SPECIES_LOPMON || species == SPECIES_COREDRAMON_BLUE)
     {
         if (species == SPECIES_LOPMON)
             return gSaveBlock2Ptr->pokedex.unownPersonality;

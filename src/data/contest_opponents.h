@@ -1083,7 +1083,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MILES] = {
-        .species = SPECIES_SPINDA,
+        .species = SPECIES_COREDRAMON_BLUE,
         .nickname = _("SPININ"),
         .trainerName = _("MILES"),
         .trainerGfxId = OBJ_EVENT_GFX_CAMPER,

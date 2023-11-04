@@ -3924,12 +3924,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPINDA] =
+    [NATIONAL_DEX_COREDRAMON_BLUE] =
     {
-        .categoryName = _("SPOT PANDA"),
-        .height = 11,
-        .weight = 50,
-        .description = gSpindaPokedexText,
+        .categoryName = _("DRAGON"),
+        .height = 53,
+        .weight = 2536,
+        .description = gCoredramon_bluePokedexText,
         .pokemonScale = 321,
         .pokemonOffset = 4,
         .trainerScale = 256,

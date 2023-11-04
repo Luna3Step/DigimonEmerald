@@ -976,7 +976,7 @@ const u16 gEggMoves[] = {
               MOVE_FALSE_SWIPE,
               MOVE_HELPING_HAND),
 
-    egg_moves(SPINDA,
+    egg_moves(COREDRAMON_BLUE,
               MOVE_ENCORE,
               MOVE_ROCK_SLIDE,
               MOVE_ASSIST,

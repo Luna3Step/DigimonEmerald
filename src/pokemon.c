@@ -405,7 +405,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(ANGELAMON),
     SPECIES_TO_HOENN(ARESDRAMON),
     SPECIES_TO_HOENN(ATAMADEMON),
-    SPECIES_TO_HOENN(SPINDA),
+    SPECIES_TO_HOENN(COREDRAMON_BLUE),
     SPECIES_TO_HOENN(ANGEMON),
     SPECIES_TO_HOENN(ANKYLOMON),
     SPECIES_TO_HOENN(ARCHELOMON),
@@ -821,7 +821,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(ANGELAMON),
     SPECIES_TO_NATIONAL(ARESDRAMON),
     SPECIES_TO_NATIONAL(ATAMADEMON),
-    SPECIES_TO_NATIONAL(SPINDA),
+    SPECIES_TO_NATIONAL(COREDRAMON_BLUE),
     SPECIES_TO_NATIONAL(ANGEMON),
     SPECIES_TO_NATIONAL(ANKYLOMON),
     SPECIES_TO_NATIONAL(ARCHELOMON),
@@ -1043,7 +1043,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(COELAMON),
     HOENN_TO_NATIONAL(POPOMON),
     HOENN_TO_NATIONAL(POYOMON),
-    HOENN_TO_NATIONAL(SPINDA),
+    HOENN_TO_NATIONAL(COREDRAMON_BLUE),
     HOENN_TO_NATIONAL(PHASCOMON),
     HOENN_TO_NATIONAL(TRAPINCH),
     HOENN_TO_NATIONAL(VIBRAVA),
@@ -1678,7 +1678,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_ANGELAMON - 1]     = ANIM_CIRCULAR_STRETCH_TWICE,
     [SPECIES_ARESDRAMON - 1]   = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_ATAMADEMON - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
-    [SPECIES_SPINDA - 1]      = ANIM_H_JUMPS,
+    [SPECIES_COREDRAMON_BLUE - 1]      = ANIM_H_JUMPS,
     [SPECIES_ANGEMON - 1]     = ANIM_H_PIVOT,
     [SPECIES_ANKYLOMON - 1]    = ANIM_V_SLIDE_WOBBLE,
     [SPECIES_ARCHELOMON - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
@@ -5788,7 +5788,7 @@ u16 SpeciesToCryId(u16 species)
 // not it's the front pic.
 static void DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 {
-    if (species == SPECIES_SPINDA
+    if (species == SPECIES_COREDRAMON_BLUE
         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_LEFT]
         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_RIGHT])
         DRAW_SPINDA_SPOTS(personality, dest);
@@ -5796,7 +5796,7 @@ static void DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 
 void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
 {
-    if (species == SPECIES_SPINDA && isFrontPic)
+    if (species == SPECIES_COREDRAMON_BLUE && isFrontPic)
         DRAW_SPINDA_SPOTS(personality, dest);
 }
 
@@ -6918,7 +6918,7 @@ void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
         GetSetPokedexFlag(nationalNum, caseId);
         if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_LOPMON)
             gSaveBlock2Ptr->pokedex.unownPersonality = personality;
-        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_SPINDA)
+        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_COREDRAMON_BLUE)
             gSaveBlock2Ptr->pokedex.spindaPersonality = personality;
     }
 }
@@ -6941,7 +6941,7 @@ bool8 HasTwoFramesAnimation(u16 species)
 {
     return (species != SPECIES_CASTFORM
          && species != SPECIES_DEOXYS
-         && species != SPECIES_SPINDA
+         && species != SPECIES_COREDRAMON_BLUE
          && species != SPECIES_LOPMON);
 }
 

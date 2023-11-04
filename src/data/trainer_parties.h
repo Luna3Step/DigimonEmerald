@@ -831,7 +831,7 @@ static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     {
     .iv = 255,
     .lvl = 26,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_FOCUS_PUNCH, MOVE_NONE}
     }
@@ -3478,7 +3478,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 27,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_PSYBEAM, MOVE_FACADE, MOVE_ENCORE}
     },
@@ -3780,7 +3780,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_KateAndJoy[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .moves = {MOVE_HYPNOSIS, MOVE_PSYBEAM, MOVE_DIZZY_PUNCH, MOVE_TEETER_DANCE}
     },
     {
@@ -9160,12 +9160,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ToriAndTia[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     },
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     }
 };
 
@@ -10924,7 +10924,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
@@ -10962,7 +10962,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman3[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
@@ -11000,7 +11000,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman4[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
@@ -11045,7 +11045,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
@@ -11986,7 +11986,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin3[] = {
     {
     .iv = 120,
     .lvl = 37,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     },
     {
     .iv = 120,
@@ -12004,7 +12004,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin4[] = {
     {
     .iv = 130,
     .lvl = 39,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     },
     {
     .iv = 130,
@@ -12022,7 +12022,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin5[] = {
     {
     .iv = 140,
     .lvl = 41,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_COREDRAMON_BLUE,
     },
     {
     .iv = 140,
