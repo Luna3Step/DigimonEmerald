@@ -4589,7 +4589,7 @@ static const u16 sDarcmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCacturneLevelUpLearnset[] = {
+static const u16 sTrailmon_darkLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),

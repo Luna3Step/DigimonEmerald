@@ -349,7 +349,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_SEALEO]      = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 10 },
     [SPECIES_WALREIN]     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  6 },
     [SPECIES_DARCMON]      = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 15 },
-    [SPECIES_CACTURNE]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
+    [SPECIES_TRAILMON_DARK]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
     [SPECIES_SNORUNT]     = { .size = MON_COORDS_SIZE(56, 48), .y_offset = 10 },
     [SPECIES_GLALIE]      = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 12 },
     [SPECIES_LUNATONE]    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },

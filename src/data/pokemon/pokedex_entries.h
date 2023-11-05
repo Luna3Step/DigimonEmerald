@@ -3984,12 +3984,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CACTURNE] =
+    [NATIONAL_DEX_TRAILMON_DARK] =
     {
-        .categoryName = _("SCARECROW"),
-        .height = 13,
-        .weight = 774,
-        .description = gCacturnePokedexText,
+        .categoryName = _("TRAIN"),
+        .height = 40,
+        .weight = 1964,
+        .description = gTrailmon_darkPokedexText,
         .pokemonScale = 327,
         .pokemonOffset = 5,
         .trainerScale = 256,

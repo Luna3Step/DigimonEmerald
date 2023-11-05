@@ -1990,11 +1990,11 @@ const u8 gDarcmonPokedexText[] = _(
     "doesn't make it weak, often found in the\n"
     "advanced forces acting as the vanguard.");
 
-const u8 gCacturnePokedexText[] = _(
-    "After spending thousands of years in\n"
-    "harsh deserts, its blood transformed into\n"
-    "the same substances as sand. It is\n"
-    "nocturnal, so it hunts at night.");
+const u8 gTrailmon_darkPokedexText[] = _(
+    "Although often mistaken as a Digimon of\n"
+    "Evil, it's actually a well-tempered\n"
+    "Digimon who has no qualms helping out\n"
+    "although it can be strict with rules.");
 
 const u8 gSwabluPokedexText[] = _(
     "A POKéMON that has wings like cottony\n"
