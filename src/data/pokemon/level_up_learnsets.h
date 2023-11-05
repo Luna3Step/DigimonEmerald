@@ -4809,7 +4809,7 @@ static const u16 sDarlizamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAltariaLevelUpLearnset[] = {
+static const u16 sDarmailmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),

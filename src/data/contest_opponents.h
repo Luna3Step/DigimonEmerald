@@ -2343,7 +2343,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MAYRA] = {
-        .species = SPECIES_ALTARIA,
+        .species = SPECIES_DARMAILMON,
         .nickname = _("TARIA"),
         .trainerName = _("MAYRA"),
         .trainerGfxId = OBJ_EVENT_GFX_POKEFAN_F,

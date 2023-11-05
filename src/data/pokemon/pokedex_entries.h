@@ -4008,12 +4008,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ALTARIA] =
+    [NATIONAL_DEX_DARMAILMON] =
     {
-        .categoryName = _("HUMMING"),
-        .height = 11,
-        .weight = 206,
-        .description = gAltariaPokedexText,
+        .categoryName = _("MOUNT"),
+        .height = 174,
+        .weight = 2964,
+        .description = gDarmailmonPokedexText,
         .pokemonScale = 327,
         .pokemonOffset = 0,
         .trainerScale = 256,

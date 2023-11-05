@@ -3337,7 +3337,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     {
     .iv = 250,
     .lvl = 54,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_DOUBLE_EDGE, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE, MOVE_AERIAL_ACE}
     },
@@ -3537,7 +3537,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 255,
     .lvl = 33,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE, MOVE_AERIAL_ACE}
     }
@@ -5108,12 +5108,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas1[] = {
     {
     .iv = 100,
     .lvl = 37,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     },
     {
     .iv = 100,
     .lvl = 37,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5121,12 +5121,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas2[] = {
     {
     .iv = 110,
     .lvl = 41,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     },
     {
     .iv = 110,
     .lvl = 41,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5134,12 +5134,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas3[] = {
     {
     .iv = 120,
     .lvl = 44,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     },
     {
     .iv = 120,
     .lvl = 44,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5152,12 +5152,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas4[] = {
     {
     .iv = 130,
     .lvl = 46,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     },
     {
     .iv = 130,
     .lvl = 46,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5165,13 +5165,13 @@ static const struct TrainerMonItemDefaultMoves sParty_Nicolas5[] = {
     {
     .iv = 140,
     .lvl = 49,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_NONE
     },
     {
     .iv = 140,
     .lvl = 49,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_NONE
     },
     {
@@ -5346,7 +5346,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert3[] = {
     {
     .iv = 20,
     .lvl = 35,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5359,7 +5359,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert4[] = {
     {
     .iv = 30,
     .lvl = 38,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -5367,7 +5367,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert5[] = {
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     },
     {
     .iv = 40,
@@ -6236,7 +6236,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana5[] = {
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -6752,7 +6752,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
@@ -8755,7 +8755,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR2[] = {
     {
     .iv = 150,
     .lvl = 47,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
@@ -8788,7 +8788,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR3[] = {
     {
     .iv = 150,
     .lvl = 50,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
@@ -8821,7 +8821,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR4[] = {
     {
     .iv = 150,
     .lvl = 53,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
@@ -8854,7 +8854,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR5[] = {
     {
     .iv = 150,
     .lvl = 56,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
@@ -11090,7 +11090,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11135,7 +11135,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11180,7 +11180,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11225,7 +11225,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_ALTARIA,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_SKY_ATTACK, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }

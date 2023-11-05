@@ -61,7 +61,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_WORD_ALONE,
     EC_WORD_ALSO,
     EC_WORD_ALT_COLOR,
-    EC_POKEMON(ALTARIA),
+    EC_POKEMON(DARMAILMON),
     EC_WORD_ALTHOUGH,
     EC_WORD_ALWAYS,
     EC_WORD_AM,

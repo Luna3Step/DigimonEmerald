@@ -2002,11 +2002,11 @@ const u8 gDarlizamonPokedexText[] = _(
     "seemingly lack any logic in its actions\n"
     "other than that of pure violence.");
 
-const u8 gAltariaPokedexText[] = _(
-    "It hums in a beautiful soprano voice.\n"
-    "It flies among white clouds in the blue\n"
-    "sky. It launches intensely hot fireballs\n"
-    "from its mouth.");
+const u8 gDarmailmonPokedexText[] = _(
+    "DarkMaildramon spends its time bullying\n"
+    "the weak and searching for Knight Digimon\n"
+    "who have a heart of darkness to serve. If\n"
+    "its master ever changes, it will crush them.");
 
 const u8 gZangoosePokedexText[] = _(
     "When it battles, it stands on its hind legs\n"
