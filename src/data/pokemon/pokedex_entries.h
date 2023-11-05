@@ -3960,12 +3960,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FLYGON] =
+    [NATIONAL_DEX_DAMEMON] =
     {
-        .categoryName = _("MYSTIC"),
-        .height = 20,
-        .weight = 820,
-        .description = gFlygonPokedexText,
+        .categoryName = _("NO GOOD"),
+        .height = 9,
+        .weight = 246,
+        .description = gDamemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,

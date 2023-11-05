@@ -1978,11 +1978,11 @@ const u8 gCyclonemonPokedexText[] = _(
     "defeating Leomon is believed to have been\n"
     "the cause of its lost right eye.");
 
-const u8 gFlygonPokedexText[] = _(
-    "The flapping of its wings sounds like\n"
-    "singing. To prevent detection by enemies,\n"
-    "it hides itself by flapping up a cloud of\n"
-    "desert sand.");
+const u8 gDamemonPokedexText[] = _(
+    "Damemon is a very socially awkward Digimon\n"
+    "that often struggles to read the room. It\n"
+    "has a special place for ChuuChuumon to ride\n"
+    "so that they can have fun together.");
 
 const u8 gCacneaPokedexText[] = _(
     "CACNEA live in deserts with virtually no\n"

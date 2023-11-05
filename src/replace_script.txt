@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_VIBRAVA"
-with "FRONTIER_MON_CYCLONEMON"
+replace "FRONTIER_MON_FLYGON"
+with "FRONTIER_MON_DAMEMON"
 
-replace "gVibravaPokedexText"
-with "gCyclonemonPokedexText"
+replace "gFlygonPokedexText"
+with "gDamemonPokedexText"
 
-replace "NATIONAL_DEX_VIBRAVA"
-with "NATIONAL_DEX_CYCLONEMON"
+replace "NATIONAL_DEX_FLYGON"
+with "NATIONAL_DEX_DAMEMON"
 
-replace "SPECIES_VIBRAVA"
-with "SPECIES_CYCLONEMON"
+replace "SPECIES_FLYGON"
+with "SPECIES_DAMEMON"
 
-replace "HOENN_DEX_VIBRAVA"
-with "HOENN_DEX_CYCLONEMON"
+replace "HOENN_DEX_FLYGON"
+with "HOENN_DEX_DAMEMON"
 
-replace "SPECIES_TO_HOENN(VIBRAVA),"
-with "SPECIES_TO_HOENN(CYCLONEMON),"
+replace "SPECIES_TO_HOENN(FLYGON),"
+with "SPECIES_TO_HOENN(DAMEMON),"
 
-replace "SPECIES_TO_NATIONAL(VIBRAVA),"
-with "SPECIES_TO_NATIONAL(CYCLONEMON),"
+replace "SPECIES_TO_NATIONAL(FLYGON),"
+with "SPECIES_TO_NATIONAL(DAMEMON),"
 
-replace "HOENN_TO_NATIONAL(VIBRAVA),"
-with "HOENN_TO_NATIONAL(CYCLONEMON),"
+replace "HOENN_TO_NATIONAL(FLYGON),"
+with "HOENN_TO_NATIONAL(DAMEMON),"
 
-replace "EC_POKEMON_NATIONAL(VIBRAVA),"
-with "EC_POKEMON_NATIONAL(CYCLONEMON),"
+replace "EC_POKEMON_NATIONAL(FLYGON),"
+with "EC_POKEMON_NATIONAL(DAMEMON),"
 
-replace "egg_moves(VIBRAVA,"
-with "egg_moves(CYCLONEMON,"
+replace "egg_moves(FLYGON,"
+with "egg_moves(DAMEMON,"
 
-replace "sVibravaLevelUpLearnset"
-with "sCyclonemonLevelUpLearnset"
+replace "sFlygonLevelUpLearnset"
+with "sDamemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(VIBRAVA"
-with "SPECIES_SPRITE(CYCLONEMON"
+replace "SPECIES_SPRITE(FLYGON"
+with "SPECIES_SPRITE(DAMEMON"
 
-replace "SPECIES_PAL(VIBRAVA,"
-with "SPECIES_PAL(CYCLONEMON,"
+replace "SPECIES_PAL(FLYGON,"
+with "SPECIES_PAL(DAMEMON,"
 
-replace "SPECIES_SHINY_PAL(VIBRAVA,"
-with "SPECIES_SHINY_PAL(CYCLONEMON,"
+replace "SPECIES_SHINY_PAL(FLYGON,"
+with "SPECIES_SHINY_PAL(DAMEMON,"
 
-replace "EC_POKEMON(VIBRAVA)"
-with "EC_POKEMON(CYCLONEMON)"
+replace "EC_POKEMON(FLYGON)"
+with "EC_POKEMON(DAMEMON)"
 
-replace "EC_POKEMON_NATIONAL(VIBRAVA)"
-with "EC_POKEMON_NATIONAL(CYCLONEMON)"
+replace "EC_POKEMON_NATIONAL(FLYGON)"
+with "EC_POKEMON_NATIONAL(DAMEMON)"
 
 in "src/data/text/species_names.h"
-replace "VIBRAVA"
-with "CYCLONEMON"
+replace "FLYGON"
+with "DAMEMON"
