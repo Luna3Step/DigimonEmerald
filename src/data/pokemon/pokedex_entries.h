@@ -4248,12 +4248,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BANETTE] =
+    [NATIONAL_DEX_DORULUMON] =
     {
-        .categoryName = _("MARIONETTE"),
-        .height = 11,
-        .weight = 125,
-        .description = gBanettePokedexText,
+        .categoryName = _("DRILL WOLF"),
+        .height = 21,
+        .weight = 796,
+        .description = gDorulumonPokedexText,
         .pokemonScale = 262,
         .pokemonOffset = 9,
         .trainerScale = 256,

@@ -4235,7 +4235,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_BANETTE,
+                                            .species = SPECIES_DORULUMON,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_SHADOW_BALL, MOVE_FAINT_ATTACK, MOVE_ATTRACT, MOVE_WILL_O_WISP},
                                             .hpEV = 252,
@@ -4658,7 +4658,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_BANETTE,
+                                            .species = SPECIES_DORULUMON,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_IMPRISON, MOVE_PROTECT, MOVE_THUNDERBOLT, MOVE_THUNDER},
                                             .hpEV = 255,

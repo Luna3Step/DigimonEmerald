@@ -2122,11 +2122,11 @@ const u8 gDorugamonPokedexText[] = _(
     "from a wild however when outside battle, it\n"
     "is a very intelligent and docile Digimon.");
 
-const u8 gBanettePokedexText[] = _(
-    "An abandoned plush doll became this\n"
-    "POKéMON. They are said to live in garbage\n"
-    "dumps and wander about in search of the\n"
-    "children that threw them away.");
+const u8 gDorulumonPokedexText[] = _(
+    "Dorulumon is a faithful Digimon that will\n"
+    "always stick to its word. When in battle,\n"
+    "it prefers to use hit and run tactics to\n"
+    "overwhelm opponents.");
 
 const u8 gDuskullPokedexText[] = _(
     "A glare from its single scarlet eye makes\n"

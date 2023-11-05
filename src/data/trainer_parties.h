@@ -1340,7 +1340,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Patricia[] = {
     {
     .iv = 0,
     .lvl = 41,
-    .species = SPECIES_BANETTE,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 0,
@@ -3261,7 +3261,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     {
     .iv = 250,
     .lvl = 49,
-    .species = SPECIES_BANETTE,
+    .species = SPECIES_DORULUMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SHADOW_BALL, MOVE_GRUDGE, MOVE_WILL_O_WISP, MOVE_FAINT_ATTACK}
     },
@@ -3275,7 +3275,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     {
     .iv = 250,
     .lvl = 49,
-    .species = SPECIES_BANETTE,
+    .species = SPECIES_DORULUMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_FACADE}
     },
@@ -3694,7 +3694,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerry5[] = {
     {
     .iv = 50,
     .lvl = 34,
-    .species = SPECIES_BANETTE,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 50,
@@ -12386,7 +12386,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alvaro[] = {
     {
     .iv = 0,
     .lvl = 41,
-    .species = SPECIES_BANETTE,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 0,

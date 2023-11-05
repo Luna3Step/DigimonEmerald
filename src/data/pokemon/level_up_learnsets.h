@@ -5098,7 +5098,7 @@ static const u16 sDorugamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBanetteLevelUpLearnset[] = {
+static const u16 sDorulumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_KNOCK_OFF),
     LEVEL_UP_MOVE( 1, MOVE_SCREECH),
     LEVEL_UP_MOVE( 1, MOVE_NIGHT_SHADE),
