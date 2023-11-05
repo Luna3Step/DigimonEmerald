@@ -4044,12 +4044,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUNATONE] =
+    [NATIONAL_DEX_DECKDRAMON] =
     {
-        .categoryName = _("METEORITE"),
-        .height = 10,
-        .weight = 1680,
-        .description = gLunatonePokedexText,
+        .categoryName = _("ANTI-AIR"),
+        .height = 49,
+        .weight = 1180,
+        .description = gDeckdramonPokedexText,
         .pokemonScale = 300,
         .pokemonOffset = 3,
         .trainerScale = 256,

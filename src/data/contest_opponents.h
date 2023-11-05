@@ -1923,7 +1923,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_LACEY] = {
-        .species = SPECIES_LUNATONE,
+        .species = SPECIES_DECKDRAMON,
         .nickname = _("LUNONE"),
         .trainerName = _("LACEY"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_1,

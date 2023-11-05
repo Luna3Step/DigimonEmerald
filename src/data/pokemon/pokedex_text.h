@@ -2020,11 +2020,11 @@ const u8 gDarktyrmon_xPokedexText[] = _(
     "letting it pick its battles more carefully\n"
     "and fight with more strategy.");
 
-const u8 gLunatonePokedexText[] = _(
-    "It becomes very active on the night of\n"
-    "a full moon. This POKéMON was first\n"
-    "discovered 40 years ago at the site of\n"
-    "a meteor strike.");
+const u8 gDeckdramonPokedexText[] = _(
+    "Hyper-specialised in taking down Flying\n"
+    "Digimon, Deckerdramon is a beast of pure\n"
+    "fury. When fighting grounded, it will use\n"
+    "its tail to deal devastating attacks.");
 
 const u8 gSolrockPokedexText[] = _(
     "Solar energy is the source of this \n"

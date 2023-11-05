@@ -4641,7 +4641,7 @@ static const u16 sGlalieLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLunatoneLevelUpLearnset[] = {
+static const u16 sDeckdramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 7, MOVE_CONFUSION),

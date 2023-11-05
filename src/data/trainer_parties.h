@@ -1345,7 +1345,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Patricia[] = {
     {
     .iv = 0,
     .lvl = 41,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     }
 };
 
@@ -3068,7 +3068,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki1[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     }
 };
 
@@ -3081,7 +3081,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki2[] = {
     {
     .iv = 10,
     .lvl = 34,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     }
 };
 
@@ -3094,7 +3094,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki3[] = {
     {
     .iv = 20,
     .lvl = 37,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     }
 };
 
@@ -3107,7 +3107,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki4[] = {
     {
     .iv = 30,
     .lvl = 40,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     }
 };
 
@@ -3115,7 +3115,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     },
     {
     .iv = 40,
@@ -3561,7 +3561,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     {
     .iv = 250,
     .lvl = 42,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_HYPNOSIS, MOVE_CALM_MIND}
     },
@@ -7090,7 +7090,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Mitchell[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_EXPLOSION, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_PSYCHIC}
     },
     {
@@ -11256,7 +11256,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
@@ -11301,7 +11301,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
@@ -11346,7 +11346,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza4[] = {
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
@@ -11391,7 +11391,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
     {
     .iv = 255,
     .lvl = 65,
-    .species = SPECIES_LUNATONE,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },

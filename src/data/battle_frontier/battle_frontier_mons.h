@@ -1554,8 +1554,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_LONELY
     },
-    [FRONTIER_MON_LUNATONE_1] = {
-        .species = SPECIES_LUNATONE,
+    [FRONTIER_MON_DECKDRAMON_1] = {
+        .species = SPECIES_DECKDRAMON,
         .moves = {MOVE_CONFUSION, MOVE_COSMIC_POWER, MOVE_LIGHT_SCREEN, MOVE_SANDSTORM},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -2289,8 +2289,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_LUNATONE_2] = {
-        .species = SPECIES_LUNATONE,
+    [FRONTIER_MON_DECKDRAMON_2] = {
+        .species = SPECIES_DECKDRAMON,
         .moves = {MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_COSMIC_POWER, MOVE_CALM_MIND},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
