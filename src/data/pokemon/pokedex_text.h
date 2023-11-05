@@ -2080,11 +2080,11 @@ const u8 gDinohyumonPokedexText[] = _(
     "great warrior that boasts great strength\n"
     "and deep understanding of all its weapons.");
 
-const u8 gAnorithPokedexText[] = _(
-    "It was resurrected from a fossil using the\n"
-    "power of science. It swims by undulating\n"
-    "the eight wings at its sides. They were\n"
-    "feet that adapted to life in the sea.");
+const u8 gDobermonPokedexText[] = _(
+    "Originally a Virus type Digimon, Dobermon\n"
+    "changed to a Vaccine type after a mutation.\n"
+    "It still retains its ferocious nature\n"
+    "making it perfect for hunting Virus types.");
 
 const u8 gArmaldoPokedexText[] = _(
     "ARMALDO usually lives on land. However,\n"

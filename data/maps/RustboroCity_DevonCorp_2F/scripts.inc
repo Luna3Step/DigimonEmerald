@@ -138,7 +138,7 @@ RustboroCity_DevonCorp_2F_EventScript_LileepReady::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_AnorithReady::
-	bufferspeciesname STR_VAR_2, SPECIES_ANORITH
+	bufferspeciesname STR_VAR_2, SPECIES_DOBERMON
 	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
 	goto RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith
 	end
@@ -189,8 +189,8 @@ RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith::
-	setvar VAR_TEMP_1, SPECIES_ANORITH
-	givemon SPECIES_ANORITH, 20
+	setvar VAR_TEMP_1, SPECIES_DOBERMON
+	givemon SPECIES_DOBERMON, 20
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithPC
 	goto Common_EventScript_NoMoreRoomForPokemon
@@ -219,12 +219,12 @@ RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare::
-	bufferspeciesname STR_VAR_2, SPECIES_ANORITH
+	bufferspeciesname STR_VAR_2, SPECIES_DOBERMON
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_ANORITH
+	bufferspeciesname STR_VAR_1, SPECIES_DOBERMON
 	return
 
 RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith::

@@ -987,8 +987,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE
     },
-    [FRONTIER_MON_ANORITH] = {
-        .species = SPECIES_ANORITH,
+    [FRONTIER_MON_DOBERMON] = {
+        .species = SPECIES_DOBERMON,
         .moves = {MOVE_METAL_CLAW, MOVE_FURY_CUTTER, MOVE_ANCIENT_POWER, MOVE_WATER_GUN},
         .itemTableId = BATTLE_FRONTIER_ITEM_SCOPE_LENS,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

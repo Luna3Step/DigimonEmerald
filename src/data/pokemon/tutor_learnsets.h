@@ -5363,7 +5363,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SWAGGER)
                                 | TUTOR(MOVE_SLEEP_TALK)),
 
-    [SPECIES_ANORITH]          = (TUTOR(MOVE_SWORDS_DANCE)
+    [SPECIES_DOBERMON]          = (TUTOR(MOVE_SWORDS_DANCE)
                                 | TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)

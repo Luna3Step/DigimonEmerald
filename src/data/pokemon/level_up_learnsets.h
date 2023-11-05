@@ -5284,7 +5284,7 @@ static const u16 sDinohyumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAnorithLevelUpLearnset[] = {
+static const u16 sDobermonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_MOVE(13, MOVE_MUD_SPORT),

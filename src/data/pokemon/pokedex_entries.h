@@ -4164,12 +4164,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ANORITH] =
+    [NATIONAL_DEX_DOBERMON] =
     {
-        .categoryName = _("OLD SHRIMP"),
-        .height = 7,
-        .weight = 125,
-        .description = gAnorithPokedexText,
+        .categoryName = _("HUNTING"),
+        .height = 11,
+        .weight = 365,
+        .description = gDobermonPokedexText,
         .pokemonScale = 296,
         .pokemonOffset = 4,
         .trainerScale = 256,

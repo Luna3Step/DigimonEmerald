@@ -1280,7 +1280,7 @@ const u16 gEggMoves[] = {
               MOVE_MIRROR_COAT,
               MOVE_ROCK_SLIDE),
 
-    egg_moves(ANORITH,
+    egg_moves(DOBERMON,
               MOVE_RAPID_SPIN,
               MOVE_KNOCK_OFF,
               MOVE_SWORDS_DANCE,

@@ -8791,7 +8791,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_ANORITH]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
+    [SPECIES_DOBERMON]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
