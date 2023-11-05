@@ -4104,12 +4104,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CRAWDAUNT] =
+    [NATIONAL_DEX_DEVIMON] =
     {
-        .categoryName = _("ROGUE"),
-        .height = 11,
-        .weight = 328,
-        .description = gCrawdauntPokedexText,
+        .categoryName = _("DEVIL"),
+        .height = 30,
+        .weight = 908,
+        .description = gDevimonPokedexText,
         .pokemonScale = 365,
         .pokemonOffset = 9,
         .trainerScale = 256,

@@ -4306,7 +4306,7 @@ static const u16 sDevidramonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCrawdauntLevelUpLearnset[] = {
+static const u16 sDevimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_VICE_GRIP),

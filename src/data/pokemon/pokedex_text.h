@@ -2050,11 +2050,11 @@ const u8 gDevidramonPokedexText[] = _(
     "its elongated arms to shred any foes it\n"
     "comes across on its patrols.");
 
-const u8 gCrawdauntPokedexText[] = _(
-    "A brutish POKéMON that loves to battle.\n"
-    "A veteran CRAWDAUNT that has prevailed in\n"
-    "hundreds of battles has giant pincers\n"
-    "marked with countless scars.");
+const u8 gDevimonPokedexText[] = _(
+    "Lured to the dark side by DemiDevimon, \n"
+    "Devimon is originally a form of Angemon.\n"
+    "It's fiendish and cunning personality often\n"
+    "puts it as the leader of many evil Digimon.");
 
 const u8 gBaltoyPokedexText[] = _(
     "A BALTOY moves by spinning on its single\n"
