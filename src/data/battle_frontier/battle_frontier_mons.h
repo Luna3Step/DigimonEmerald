@@ -2919,8 +2919,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_RELAXED
     },
-    [FRONTIER_MON_ARMALDO_1] = {
-        .species = SPECIES_ARMALDO,
+    [FRONTIER_MON_DOBERMON_X_1] = {
+        .species = SPECIES_DOBERMON_X,
         .moves = {MOVE_SLASH, MOVE_AERIAL_ACE, MOVE_ANCIENT_POWER, MOVE_PROTECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_SCOPE_LENS,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -3591,8 +3591,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_ARMALDO_2] = {
-        .species = SPECIES_ARMALDO,
+    [FRONTIER_MON_DOBERMON_X_2] = {
+        .species = SPECIES_DOBERMON_X,
         .moves = {MOVE_IRON_TAIL, MOVE_ANCIENT_POWER, MOVE_BRICK_BREAK, MOVE_KNOCK_OFF},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -4263,8 +4263,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_MODEST
     },
-    [FRONTIER_MON_ARMALDO_3] = {
-        .species = SPECIES_ARMALDO,
+    [FRONTIER_MON_DOBERMON_X_3] = {
+        .species = SPECIES_DOBERMON_X,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_BRICK_BREAK, MOVE_SWORDS_DANCE},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -4935,8 +4935,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_ARMALDO_4] = {
-        .species = SPECIES_ARMALDO,
+    [FRONTIER_MON_DOBERMON_X_4] = {
+        .species = SPECIES_DOBERMON_X,
         .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE, MOVE_ROCK_SLIDE},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_BAND,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

@@ -2086,11 +2086,11 @@ const u8 gDobermonPokedexText[] = _(
     "It still retains its ferocious nature\n"
     "making it perfect for hunting Virus types.");
 
-const u8 gArmaldoPokedexText[] = _(
-    "ARMALDO usually lives on land. However,\n"
-    "when it hunts for prey, it dives beneath\n"
-    "the ocean. It swims around using its two\n"
-    "large wings.");
+const u8 gDobermon_xPokedexText[] = _(
+    "Upon encountering the X Antibody, Dobermon\n"
+    "reverts back to its Virus typing, becoming\n"
+    "Dobermon X. Its even more ferocious meaning\n"
+    "only the best can control it.");
 
 const u8 gFeebasPokedexText[] = _(
     "FEEBAS live in ponds that are heavily\n"

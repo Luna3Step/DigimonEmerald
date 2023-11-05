@@ -4176,12 +4176,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ARMALDO] =
+    [NATIONAL_DEX_DOBERMON_X] =
     {
-        .categoryName = _("PLATE"),
-        .height = 15,
-        .weight = 682,
-        .description = gArmaldoPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 13,
+        .weight = 402,
+        .description = gDobermon_xPokedexText,
         .pokemonScale = 312,
         .pokemonOffset = 3,
         .trainerScale = 271,

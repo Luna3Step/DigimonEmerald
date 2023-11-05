@@ -5298,7 +5298,7 @@ static const u16 sDobermonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sArmaldoLevelUpLearnset[] = {
+static const u16 sDobermon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SPORT),

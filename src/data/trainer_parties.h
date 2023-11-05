@@ -11627,7 +11627,7 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_ARMALDO,
+    .species = SPECIES_DOBERMON_X,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_SLASH}
     },

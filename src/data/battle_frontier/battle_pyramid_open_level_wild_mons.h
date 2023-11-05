@@ -499,7 +499,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round10[] =
         .moves = {MOVE_TOXIC, MOVE_PROTECT, MOVE_WRAP, MOVE_NONE}
     },
     {
-        .species = SPECIES_ARMALDO,
+        .species = SPECIES_DOBERMON_X,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_ANCIENT_POWER, MOVE_PROTECT, MOVE_AERIAL_ACE, MOVE_NONE}
@@ -661,7 +661,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round13[] =
         .moves = {MOVE_EXPLOSION, MOVE_EARTHQUAKE, MOVE_PROTECT, MOVE_NONE}
     },
     {
-        .species = SPECIES_ARMALDO,
+        .species = SPECIES_DOBERMON_X,
         .lvl = 5,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_WATER_PULSE, MOVE_PROTECT, MOVE_ROCK_SLIDE, MOVE_NONE}

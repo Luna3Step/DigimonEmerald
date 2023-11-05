@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ANORITH"
-with "FRONTIER_MON_DOBERMON"
+replace "FRONTIER_MON_ARMALDO"
+with "FRONTIER_MON_DOBERMON_X"
 
-replace "gAnorithPokedexText"
-with "gDobermonPokedexText"
+replace "gArmaldoPokedexText"
+with "gDobermon_xPokedexText"
 
-replace "NATIONAL_DEX_ANORITH"
-with "NATIONAL_DEX_DOBERMON"
+replace "NATIONAL_DEX_ARMALDO"
+with "NATIONAL_DEX_DOBERMON_X"
 
-replace "SPECIES_ANORITH"
-with "SPECIES_DOBERMON"
+replace "SPECIES_ARMALDO"
+with "SPECIES_DOBERMON_X"
 
-replace "HOENN_DEX_ANORITH"
-with "HOENN_DEX_DOBERMON"
+replace "HOENN_DEX_ARMALDO"
+with "HOENN_DEX_DOBERMON_X"
 
-replace "SPECIES_TO_HOENN(ANORITH),"
-with "SPECIES_TO_HOENN(DOBERMON),"
+replace "SPECIES_TO_HOENN(ARMALDO),"
+with "SPECIES_TO_HOENN(DOBERMON_X),"
 
-replace "SPECIES_TO_NATIONAL(ANORITH),"
-with "SPECIES_TO_NATIONAL(DOBERMON),"
+replace "SPECIES_TO_NATIONAL(ARMALDO),"
+with "SPECIES_TO_NATIONAL(DOBERMON_X),"
 
-replace "HOENN_TO_NATIONAL(ANORITH),"
-with "HOENN_TO_NATIONAL(DOBERMON),"
+replace "HOENN_TO_NATIONAL(ARMALDO),"
+with "HOENN_TO_NATIONAL(DOBERMON_X),"
 
-replace "EC_POKEMON_NATIONAL(ANORITH),"
-with "EC_POKEMON_NATIONAL(DOBERMON),"
+replace "EC_POKEMON_NATIONAL(ARMALDO),"
+with "EC_POKEMON_NATIONAL(DOBERMON_X),"
 
-replace "egg_moves(ANORITH,"
-with "egg_moves(DOBERMON,"
+replace "egg_moves(ARMALDO,"
+with "egg_moves(DOBERMON_X,"
 
-replace "sAnorithLevelUpLearnset"
-with "sDobermonLevelUpLearnset"
+replace "sArmaldoLevelUpLearnset"
+with "sDobermon_xLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ANORITH"
-with "SPECIES_SPRITE(DOBERMON"
+replace "SPECIES_SPRITE(ARMALDO"
+with "SPECIES_SPRITE(DOBERMON_X"
 
-replace "SPECIES_PAL(ANORITH,"
-with "SPECIES_PAL(DOBERMON,"
+replace "SPECIES_PAL(ARMALDO,"
+with "SPECIES_PAL(DOBERMON_X,"
 
-replace "SPECIES_SHINY_PAL(ANORITH,"
-with "SPECIES_SHINY_PAL(DOBERMON,"
+replace "SPECIES_SHINY_PAL(ARMALDO,"
+with "SPECIES_SHINY_PAL(DOBERMON_X,"
 
-replace "EC_POKEMON(ANORITH)"
-with "EC_POKEMON(DOBERMON)"
+replace "EC_POKEMON(ARMALDO)"
+with "EC_POKEMON(DOBERMON_X)"
 
-replace "EC_POKEMON_NATIONAL(ANORITH)"
-with "EC_POKEMON_NATIONAL(DOBERMON)"
+replace "EC_POKEMON_NATIONAL(ARMALDO)"
+with "EC_POKEMON_NATIONAL(DOBERMON_X)"
 
 in "src/data/text/species_names.h"
-replace "ANORITH"
+replace "ARMALDO"
 with "DOBERMON"
