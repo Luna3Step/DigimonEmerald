@@ -5253,7 +5253,7 @@ static const u16 sBulkmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLileepLevelUpLearnset[] = {
+static const u16 sDigmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 8, MOVE_CONSTRICT),
     LEVEL_UP_MOVE(15, MOVE_ACID),

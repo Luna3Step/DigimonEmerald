@@ -132,7 +132,7 @@ RustboroCity_DevonCorp_2F_EventScript_FossilMonReady::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_LileepReady::
-	bufferspeciesname STR_VAR_2, SPECIES_LILEEP
+	bufferspeciesname STR_VAR_2, SPECIES_DIGMON
 	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
 	goto RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep
 	end
@@ -144,8 +144,8 @@ RustboroCity_DevonCorp_2F_EventScript_AnorithReady::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep::
-	setvar VAR_TEMP_1, SPECIES_LILEEP
-	givemon SPECIES_LILEEP, 20
+	setvar VAR_TEMP_1, SPECIES_DIGMON
+	givemon SPECIES_DIGMON, 20
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepPC
 	goto Common_EventScript_NoMoreRoomForPokemon
@@ -174,12 +174,12 @@ RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare::
-	bufferspeciesname STR_VAR_2, SPECIES_LILEEP
+	bufferspeciesname STR_VAR_2, SPECIES_DIGMON
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_LILEEP
+	bufferspeciesname STR_VAR_1, SPECIES_DIGMON
 	return
 
 RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep::

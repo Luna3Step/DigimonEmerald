@@ -1274,7 +1274,7 @@ const u16 gEggMoves[] = {
               MOVE_SILVER_WIND,
               MOVE_GROWTH),
 
-    egg_moves(LILEEP,
+    egg_moves(DIGMON,
               MOVE_BARRIER,
               MOVE_RECOVER,
               MOVE_MIRROR_COAT,

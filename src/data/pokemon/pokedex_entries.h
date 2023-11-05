@@ -4140,12 +4140,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_LILEEP] =
+    [NATIONAL_DEX_DIGMON] =
     {
-        .categoryName = _("SEA LILY"),
-        .height = 10,
-        .weight = 238,
-        .description = gLileepPokedexText,
+        .categoryName = _("DRILL"),
+        .height = 26,
+        .weight = 776,
+        .description = gDigmonPokedexText,
         .pokemonScale = 305,
         .pokemonOffset = 8,
         .trainerScale = 256,

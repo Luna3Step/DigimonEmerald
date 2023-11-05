@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CLAYDOL"
-with "FRONTIER_MON_DIATRYMON"
+replace "FRONTIER_MON_LILEEP"
+with "FRONTIER_MON_DIGMON"
 
-replace "gClaydolPokedexText"
-with "gDiatrymonPokedexText"
+replace "gLileepPokedexText"
+with "gDigmonPokedexText"
 
-replace "NATIONAL_DEX_CLAYDOL"
-with "NATIONAL_DEX_DIATRYMON"
+replace "NATIONAL_DEX_LILEEP"
+with "NATIONAL_DEX_DIGMON"
 
-replace "SPECIES_CLAYDOL"
-with "SPECIES_DIATRYMON"
+replace "SPECIES_LILEEP"
+with "SPECIES_DIGMON"
 
-replace "HOENN_DEX_CLAYDOL"
-with "HOENN_DEX_DIATRYMON"
+replace "HOENN_DEX_LILEEP"
+with "HOENN_DEX_DIGMON"
 
-replace "SPECIES_TO_HOENN(CLAYDOL),"
-with "SPECIES_TO_HOENN(DIATRYMON),"
+replace "SPECIES_TO_HOENN(LILEEP),"
+with "SPECIES_TO_HOENN(DIGMON),"
 
-replace "SPECIES_TO_NATIONAL(CLAYDOL),"
-with "SPECIES_TO_NATIONAL(DIATRYMON),"
+replace "SPECIES_TO_NATIONAL(LILEEP),"
+with "SPECIES_TO_NATIONAL(DIGMON),"
 
-replace "HOENN_TO_NATIONAL(CLAYDOL),"
-with "HOENN_TO_NATIONAL(DIATRYMON),"
+replace "HOENN_TO_NATIONAL(LILEEP),"
+with "HOENN_TO_NATIONAL(DIGMON),"
 
-replace "EC_POKEMON_NATIONAL(CLAYDOL),"
-with "EC_POKEMON_NATIONAL(DIATRYMON),"
+replace "EC_POKEMON_NATIONAL(LILEEP),"
+with "EC_POKEMON_NATIONAL(DIGMON),"
 
-replace "egg_moves(CLAYDOL,"
-with "egg_moves(DIATRYMON,"
+replace "egg_moves(LILEEP,"
+with "egg_moves(DIGMON,"
 
-replace "sClaydolLevelUpLearnset"
-with "sDiatrymonLevelUpLearnset"
+replace "sLileepLevelUpLearnset"
+with "sDigmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CLAYDOL"
-with "SPECIES_SPRITE(DIATRYMON"
+replace "SPECIES_SPRITE(LILEEP"
+with "SPECIES_SPRITE(DIGMON"
 
-replace "SPECIES_PAL(CLAYDOL,"
-with "SPECIES_PAL(DIATRYMON,"
+replace "SPECIES_PAL(LILEEP,"
+with "SPECIES_PAL(DIGMON,"
 
-replace "SPECIES_SHINY_PAL(CLAYDOL,"
-with "SPECIES_SHINY_PAL(DIATRYMON,"
+replace "SPECIES_SHINY_PAL(LILEEP,"
+with "SPECIES_SHINY_PAL(DIGMON,"
 
-replace "EC_POKEMON(CLAYDOL)"
-with "EC_POKEMON(DIATRYMON)"
+replace "EC_POKEMON(LILEEP)"
+with "EC_POKEMON(DIGMON)"
 
-replace "EC_POKEMON_NATIONAL(CLAYDOL)"
-with "EC_POKEMON_NATIONAL(DIATRYMON)"
+replace "EC_POKEMON_NATIONAL(LILEEP)"
+with "EC_POKEMON_NATIONAL(DIGMON)"
 
 in "src/data/text/species_names.h"
-replace "CLAYDOL"
-with "DIATRYMON"
+replace "LILEEP"
+with "DIGMON"

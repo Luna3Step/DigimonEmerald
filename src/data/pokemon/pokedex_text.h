@@ -2068,11 +2068,11 @@ const u8 gDiatrymonPokedexText[] = _(
     "however its powerful legs let it easily\n"
     "sprint upwards of 200km/h.");
 
-const u8 gLileepPokedexText[] = _(
-    "It disguises itself as seaweed by making\n"
-    "its tentacles sway. Unsuspecting prey\n"
-    "that come too close are swallowed whole.\n"
-    "It became extinct 100 million years ago.");
+const u8 gDigmonPokedexText[] = _(
+    "Once a Digmon decides to start tunnelling,\n"
+    "it is basically impossible to catch. Even\n"
+    "Ultra level Digimon will struggle to catch\n"
+    "it without destroying the terrain completely.");
 
 const u8 gCradilyPokedexText[] = _(
     "It drags its heavy body along the\n"
