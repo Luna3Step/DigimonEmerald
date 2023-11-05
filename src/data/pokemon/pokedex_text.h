@@ -2026,11 +2026,11 @@ const u8 gDeckdramonPokedexText[] = _(
     "fury. When fighting grounded, it will use\n"
     "its tail to deal devastating attacks.");
 
-const u8 gSolrockPokedexText[] = _(
-    "Solar energy is the source of this \n"
-    "POKéMON's power. On sunny days, groups of\n"
-    "SOLROCK line up facing the sun and absorb\n"
-    "its light.");
+const u8 gDeltamonPokedexText[] = _(
+    "Deltamon are formed from the fusion of\n"
+    "three different Digimon. The ferocious\n"
+    "nature of each of these Digimon makes it\n"
+    "particularly destructive.");
 
 const u8 gBarboachPokedexText[] = _(
     "Its body is covered with a slimy film.\n"

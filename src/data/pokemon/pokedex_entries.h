@@ -4056,12 +4056,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SOLROCK] =
+    [NATIONAL_DEX_DELTAMON] =
     {
-        .categoryName = _("METEORITE"),
-        .height = 12,
-        .weight = 1540,
-        .description = gSolrockPokedexText,
+        .categoryName = _("TRIPARTITE"),
+        .height = 177,
+        .weight = 3540,
+        .description = gDeltamonPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 0,
         .trainerScale = 256,
