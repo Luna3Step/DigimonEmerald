@@ -2056,11 +2056,11 @@ const u8 gDevimonPokedexText[] = _(
     "It's fiendish and cunning personality often\n"
     "puts it as the leader of many evil Digimon.");
 
-const u8 gBaltoyPokedexText[] = _(
-    "A BALTOY moves by spinning on its single\n"
-    "foot. It has been depicted in murals \n"
-    "adorning the walls of a once-bustling city\n"
-    "in an ancient age.");
+const u8 gDexdorumonPokedexText[] = _(
+    "Dexdorugamon was formed from the\n"
+    "experiments performed to find further\n"
+    "evolutions. Its malformed mind has an obsess-\n"
+    "ion with preying on others DigiCores");
 
 const u8 gClaydolPokedexText[] = _(
     "A CLAYDOL sleeps while hovering in midair.\n"

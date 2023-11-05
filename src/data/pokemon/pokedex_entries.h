@@ -4116,12 +4116,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BALTOY] =
+    [NATIONAL_DEX_DEXDORUMON] =
     {
-        .categoryName = _("CLAY DOLL"),
-        .height = 5,
-        .weight = 215,
-        .description = gBaltoyPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 31,
+        .weight = 657,
+        .description = gDexdorumonPokedexText,
         .pokemonScale = 457,
         .pokemonOffset = 21,
         .trainerScale = 256,

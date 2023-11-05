@@ -4164,7 +4164,7 @@ static const u16 sKecleonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBaltoyLevelUpLearnset[] = {
+static const u16 sDexdorumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 3, MOVE_HARDEN),
     LEVEL_UP_MOVE( 5, MOVE_RAPID_SPIN),
