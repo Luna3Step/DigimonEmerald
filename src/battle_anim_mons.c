@@ -203,7 +203,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
                 coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonBackPicCoords[coordSpecies].y_offset;
         }
-        else if (species == SPECIES_CASTFORM)
+        else if (species == SPECIES_DOLPHMON)
         {
             ret = sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
         }
@@ -232,7 +232,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
                 coordSpecies = letter + SPECIES_UNOWN_B - 1;
             ret = gMonFrontPicCoords[coordSpecies].y_offset;
         }
-        else if (species == SPECIES_CASTFORM)
+        else if (species == SPECIES_DOLPHMON)
         {
             ret = gCastformFrontSpriteCoords[gBattleMonForms[battlerId]].y_offset;
         }
@@ -255,7 +255,7 @@ u8 GetBattlerElevation(u8 battlerId, u16 species)
     {
         if (!IsContest())
         {
-            if (species == SPECIES_CASTFORM)
+            if (species == SPECIES_DOLPHMON)
                 ret = sCastformElevations[gBattleMonForms[battlerId]];
             else if (species > NUM_SPECIES)
                 ret = gEnemyMonElevation[0];
@@ -1927,7 +1927,7 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                     else
                         species = spriteInfo[battlerId].transformSpecies;
 
-                    if (species == SPECIES_CASTFORM)
+                    if (species == SPECIES_DOLPHMON)
                         return sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
                     else
                         return gMonBackPicCoords[species].y_offset;
@@ -1940,7 +1940,7 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                     else
                         species = spriteInfo[battlerId].transformSpecies;
 
-                    if (species == SPECIES_CASTFORM)
+                    if (species == SPECIES_DOLPHMON)
                         return sCastformElevations[gBattleMonForms[battlerId]];
                     else
                         return gMonFrontPicCoords[species].y_offset;
@@ -2187,7 +2187,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                 unownSpecies = letter + SPECIES_UNOWN_B - 1;
             coords = &gMonBackPicCoords[unownSpecies];
         }
-        else if (species == SPECIES_CASTFORM)
+        else if (species == SPECIES_DOLPHMON)
         {
             coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
         }
@@ -2257,7 +2257,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
                     unownSpecies = letter + SPECIES_UNOWN_B - 1;
                 coords = &gMonFrontPicCoords[unownSpecies];
             }
-            else if (species == SPECIES_CASTFORM)
+            else if (species == SPECIES_DOLPHMON)
             {
                 coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
             }

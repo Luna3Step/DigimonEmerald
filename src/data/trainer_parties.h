@@ -5712,7 +5712,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
     {
     .iv = 50,
     .lvl = 30,
-    .species = SPECIES_CASTFORM,
+    .species = SPECIES_DOLPHMON,
     .moves = {MOVE_RAIN_DANCE, MOVE_WEATHER_BALL, MOVE_THUNDER, MOVE_WATER_PULSE}
     }
 };
@@ -6577,7 +6577,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kayley[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_CASTFORM,
+    .species = SPECIES_DOLPHMON,
     .moves = {MOVE_SUNNY_DAY, MOVE_WEATHER_BALL, MOVE_FLAMETHROWER, MOVE_SOLAR_BEAM}
     }
 };

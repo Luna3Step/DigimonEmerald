@@ -2811,7 +2811,7 @@ void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
 
         yOffset = gMonFrontPicCoords[unownSpecies].y_offset;
     }
-    else if (species == SPECIES_CASTFORM)
+    else if (species == SPECIES_DOLPHMON)
     {
         yOffset = gCastformFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
     }

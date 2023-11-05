@@ -5213,7 +5213,7 @@ static const u16 sBlgrowlmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCastformLevelUpLearnset[] = {
+static const u16 sDolphmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE(10, MOVE_WATER_GUN),
     LEVEL_UP_MOVE(10, MOVE_EMBER),

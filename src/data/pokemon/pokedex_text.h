@@ -2104,11 +2104,11 @@ const u8 gDokugumonPokedexText[] = _(
     "some time to set up webs and survey the\n"
     "area, it is terrifying beast in battle.");
 
-const u8 gCastformPokedexText[] = _(
-    "It alters its form depending on the\n"
-    "weather. Changes in the climate such as\n"
-    "the temperature and humidity appear to\n"
-    "affect its cellular structure.");
+const u8 gDolphmonPokedexText[] = _(
+    "Dolphmon is in incredibly intelligent\n"
+    "Digimon that can outsmart just about\n"
+    "anyone it encounters. It uses this intell-\n"
+    "igence to swiftly deal with battles.");
 
 const u8 gKecleonPokedexText[] = _(
     "A POKéMON that has the ability to alter its\n"

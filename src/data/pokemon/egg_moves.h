@@ -1260,7 +1260,7 @@ const u16 gEggMoves[] = {
               MOVE_STOMP,
               MOVE_SMELLING_SALT),
 
-    egg_moves(CASTFORM,
+    egg_moves(DOLPHMON,
               MOVE_FUTURE_SIGHT,
               MOVE_PSYCH_UP),
 

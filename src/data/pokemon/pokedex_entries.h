@@ -4212,12 +4212,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_CASTFORM] =
+    [NATIONAL_DEX_DOLPHMON] =
     {
-        .categoryName = _("WEATHER"),
-        .height = 3,
-        .weight = 8,
-        .description = gCastformPokedexText,
+        .categoryName = _("DOLPHIN"),
+        .height = 12,
+        .weight = 329,
+        .description = gDolphmonPokedexText,
         .pokemonScale = 435,
         .pokemonOffset = -5,
         .trainerScale = 256,
