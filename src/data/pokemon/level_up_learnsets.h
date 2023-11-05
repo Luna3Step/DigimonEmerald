@@ -5129,7 +5129,7 @@ static const u16 sSeviperLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sZangooseLevelUpLearnset[] = {
+static const u16 sDarktyrmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 4, MOVE_LEER),
     LEVEL_UP_MOVE( 7, MOVE_QUICK_ATTACK),

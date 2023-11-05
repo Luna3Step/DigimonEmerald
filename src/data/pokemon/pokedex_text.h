@@ -2008,11 +2008,11 @@ const u8 gDarmailmonPokedexText[] = _(
     "who have a heart of darkness to serve. If\n"
     "its master ever changes, it will crush them.");
 
-const u8 gZangoosePokedexText[] = _(
-    "When it battles, it stands on its hind legs\n"
-    "and attacks with its sharply clawed\n"
-    "forelegs. Its fur bristles if it encounters\n"
-    "any SEVIPER.");
+const u8 gDarktyrmonPokedexText[] = _(
+    "DarkTyrannomon is in a constant frenzy\n"
+    "attacking anything that passes its eyes.\n"
+    "Its viciousness makes it a highly desired\n"
+    "minion for evil Digimon.");
 
 const u8 gSeviperPokedexText[] = _(
     "SEVIPER and ZANGOOSE are eternal rivals.\n"

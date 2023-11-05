@@ -4012,7 +4012,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("MOUNT"),
         .height = 174,
-        .weight = 2964,
+        .weight = 4964,
         .description = gDarmailmonPokedexText,
         .pokemonScale = 327,
         .pokemonOffset = 0,
@@ -4020,12 +4020,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ZANGOOSE] =
+    [NATIONAL_DEX_DARKTYRMON] =
     {
-        .categoryName = _("CAT FERRET"),
-        .height = 13,
-        .weight = 403,
-        .description = gZangoosePokedexText,
+        .categoryName = _("FRENZY"),
+        .height = 88,
+        .weight = 1432,
+        .description = gDarktyrmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 256,

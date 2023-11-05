@@ -138,7 +138,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ed[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_ZANGOOSE,
+    .species = SPECIES_DARKTYRMON,
     },
     {
     .iv = 0,
@@ -1133,7 +1133,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jody[] = {
     {
     .iv = 255,
     .lvl = 26,
-    .species = SPECIES_ZANGOOSE,
+    .species = SPECIES_DARKTYRMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
     }
@@ -3149,7 +3149,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thomas[] = {
     {
     .iv = 0,
     .lvl = 45,
-    .species = SPECIES_ZANGOOSE,
+    .species = SPECIES_DARKTYRMON,
     }
 };
 
@@ -6669,7 +6669,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hector[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_ZANGOOSE,
+    .species = SPECIES_DARKTYRMON,
     },
     {
     .iv = 0,

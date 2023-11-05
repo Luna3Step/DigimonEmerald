@@ -1957,7 +1957,7 @@ const u16 gEasyChatWordsByLetter_Y[] = {
 };
 
 const u16 gEasyChatWordsByLetter_Z[] = {
-    EC_POKEMON(ZANGOOSE),
+    EC_POKEMON(DARKTYRMON),
     EC_MOVE2(ZAP_CANNON),
     EC_POKEMON_NATIONAL(EBIBURGMON),
     EC_POKEMON(TOYAGUMON),
