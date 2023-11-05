@@ -2128,11 +2128,11 @@ const u8 gDorulumonPokedexText[] = _(
     "it prefers to use hit and run tactics to\n"
     "overwhelm opponents.");
 
-const u8 gDuskullPokedexText[] = _(
-    "A glare from its single scarlet eye makes\n"
-    "even burly grown-ups freeze in utter fear.\n"
-    "It is a nocturnal POKéMON that roams\n"
-    "about under the cloak of darkness.");
+const u8 gDrimogemonPokedexText[] = _(
+    "Drimogemon are rarely found however this\n"
+    "is not due to a smaller population but rather\n"
+    "because it spends most of its time burrrowing\n"
+    "deep underground.");
 
 const u8 gDusclopsPokedexText[] = _(
     "It is thought that its body is hollow with\n"

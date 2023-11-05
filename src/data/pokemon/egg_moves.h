@@ -1166,7 +1166,7 @@ const u16 gEggMoves[] = {
               MOVE_PURSUIT,
               MOVE_RAGE),
 
-    egg_moves(DUSKULL,
+    egg_moves(DRIMOGEMON,
               MOVE_IMPRISON,
               MOVE_DESTINY_BOND,
               MOVE_PAIN_SPLIT,

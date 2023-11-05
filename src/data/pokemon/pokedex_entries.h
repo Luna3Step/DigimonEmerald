@@ -4260,12 +4260,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUSKULL] =
+    [NATIONAL_DEX_DRIMOGEMON] =
     {
-        .categoryName = _("REQUIEM"),
-        .height = 8,
-        .weight = 150,
-        .description = gDuskullPokedexText,
+        .categoryName = _("MOLE"),
+        .height = 23,
+        .weight = 908,
+        .description = gDrimogemonPokedexText,
         .pokemonScale = 406,
         .pokemonOffset = -4,
         .trainerScale = 256,

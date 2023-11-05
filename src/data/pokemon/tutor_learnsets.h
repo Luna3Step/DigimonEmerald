@@ -4869,7 +4869,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_WYNAUT]           = (0),
 
-    [SPECIES_DUSKULL]          = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_DRIMOGEMON]          = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_DREAM_EATER)
