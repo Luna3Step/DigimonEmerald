@@ -210,7 +210,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
 };
 
 const u16 gEasyChatWordsByLetter_C[] = {
-    EC_POKEMON(CACNEA),
+    EC_POKEMON(DARCMON),
     EC_POKEMON(CACTURNE),
     EC_MOVE2(CALM_MIND),
     EC_WORD_CAME,

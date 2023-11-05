@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_FLYGON"
-with "FRONTIER_MON_DAMEMON"
+replace "FRONTIER_MON_CACNEA"
+with "FRONTIER_MON_DARCMON"
 
-replace "gFlygonPokedexText"
-with "gDamemonPokedexText"
+replace "gCacneaPokedexText"
+with "gDarcmonPokedexText"
 
-replace "NATIONAL_DEX_FLYGON"
-with "NATIONAL_DEX_DAMEMON"
+replace "NATIONAL_DEX_CACNEA"
+with "NATIONAL_DEX_DARCMON"
 
-replace "SPECIES_FLYGON"
-with "SPECIES_DAMEMON"
+replace "SPECIES_CACNEA"
+with "SPECIES_DARCMON"
 
-replace "HOENN_DEX_FLYGON"
-with "HOENN_DEX_DAMEMON"
+replace "HOENN_DEX_CACNEA"
+with "HOENN_DEX_DARCMON"
 
-replace "SPECIES_TO_HOENN(FLYGON),"
-with "SPECIES_TO_HOENN(DAMEMON),"
+replace "SPECIES_TO_HOENN(CACNEA),"
+with "SPECIES_TO_HOENN(DARCMON),"
 
-replace "SPECIES_TO_NATIONAL(FLYGON),"
-with "SPECIES_TO_NATIONAL(DAMEMON),"
+replace "SPECIES_TO_NATIONAL(CACNEA),"
+with "SPECIES_TO_NATIONAL(DARCMON),"
 
-replace "HOENN_TO_NATIONAL(FLYGON),"
-with "HOENN_TO_NATIONAL(DAMEMON),"
+replace "HOENN_TO_NATIONAL(CACNEA),"
+with "HOENN_TO_NATIONAL(DARCMON),"
 
-replace "EC_POKEMON_NATIONAL(FLYGON),"
-with "EC_POKEMON_NATIONAL(DAMEMON),"
+replace "EC_POKEMON_NATIONAL(CACNEA),"
+with "EC_POKEMON_NATIONAL(DARCMON),"
 
-replace "egg_moves(FLYGON,"
-with "egg_moves(DAMEMON,"
+replace "egg_moves(CACNEA,"
+with "egg_moves(DARCMON,"
 
-replace "sFlygonLevelUpLearnset"
-with "sDamemonLevelUpLearnset"
+replace "sCacneaLevelUpLearnset"
+with "sDarcmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(FLYGON"
-with "SPECIES_SPRITE(DAMEMON"
+replace "SPECIES_SPRITE(CACNEA"
+with "SPECIES_SPRITE(DARCMON"
 
-replace "SPECIES_PAL(FLYGON,"
-with "SPECIES_PAL(DAMEMON,"
+replace "SPECIES_PAL(CACNEA,"
+with "SPECIES_PAL(DARCMON,"
 
-replace "SPECIES_SHINY_PAL(FLYGON,"
-with "SPECIES_SHINY_PAL(DAMEMON,"
+replace "SPECIES_SHINY_PAL(CACNEA,"
+with "SPECIES_SHINY_PAL(DARCMON,"
 
-replace "EC_POKEMON(FLYGON)"
-with "EC_POKEMON(DAMEMON)"
+replace "EC_POKEMON(CACNEA)"
+with "EC_POKEMON(DARCMON)"
 
-replace "EC_POKEMON_NATIONAL(FLYGON)"
-with "EC_POKEMON_NATIONAL(DAMEMON)"
+replace "EC_POKEMON_NATIONAL(CACNEA)"
+with "EC_POKEMON_NATIONAL(DARCMON)"
 
 in "src/data/text/species_names.h"
-replace "FLYGON"
-with "DAMEMON"
+replace "CACNEA"
+with "DARCMON"

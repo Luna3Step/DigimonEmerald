@@ -3972,12 +3972,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_CACNEA] =
+    [NATIONAL_DEX_DARCMON] =
     {
-        .categoryName = _("CACTUS"),
-        .height = 4,
-        .weight = 513,
-        .description = gCacneaPokedexText,
+        .categoryName = _("HERO"),
+        .height = 19,
+        .weight = 629,
+        .description = gDarcmonPokedexText,
         .pokemonScale = 455,
         .pokemonOffset = 20,
         .trainerScale = 256,

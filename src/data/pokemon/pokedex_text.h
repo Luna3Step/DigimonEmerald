@@ -1984,11 +1984,11 @@ const u8 gDamemonPokedexText[] = _(
     "has a special place for ChuuChuumon to ride\n"
     "so that they can have fun together.");
 
-const u8 gCacneaPokedexText[] = _(
-    "CACNEA live in deserts with virtually no\n"
-    "rainfall. It battles by swinging its thick,\n"
-    "spiked arms. Once a year, a yellow flower\n"
-    "blooms.");
+const u8 gDarcmonPokedexText[] = _(
+    "As a low-ranking angel Digimon, Darcmon\n"
+    "doesn't have much sway however that\n"
+    "doesn't make it weak, often found in the\n"
+    "advanced forces acting as the vanguard.");
 
 const u8 gCacturnePokedexText[] = _(
     "After spending thousands of years in\n"

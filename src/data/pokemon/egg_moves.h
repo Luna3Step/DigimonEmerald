@@ -1111,7 +1111,7 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_FISSURE),
 
-    egg_moves(CACNEA,
+    egg_moves(DARCMON,
               MOVE_GRASS_WHISTLE,
               MOVE_ACID,
               MOVE_TEETER_DANCE,

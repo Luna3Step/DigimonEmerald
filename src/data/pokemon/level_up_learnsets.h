@@ -4572,7 +4572,7 @@ static const u16 sWalreinLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCacneaLevelUpLearnset[] = {
+static const u16 sDarcmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 5, MOVE_ABSORB),
