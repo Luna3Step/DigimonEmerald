@@ -4200,12 +4200,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MILOTIC] =
+    [NATIONAL_DEX_DOKUGUMON] =
     {
-        .categoryName = _("TENDER"),
-        .height = 62,
-        .weight = 1620,
-        .description = gMiloticPokedexText,
+        .categoryName = _("SPIDER"),
+        .height = 21,
+        .weight = 685,
+        .description = gDokugumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 360,

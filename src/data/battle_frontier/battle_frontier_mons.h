@@ -3241,8 +3241,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_MILOTIC_1] = {
-        .species = SPECIES_MILOTIC,
+    [FRONTIER_MON_DOKUGUMON_1] = {
+        .species = SPECIES_DOKUGUMON,
         .moves = {MOVE_HYDRO_PUMP, MOVE_ICY_WIND, MOVE_RECOVER, MOVE_MIRROR_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -3913,8 +3913,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_MILOTIC_2] = {
-        .species = SPECIES_MILOTIC,
+    [FRONTIER_MON_DOKUGUMON_2] = {
+        .species = SPECIES_DOKUGUMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_SAFEGUARD, MOVE_MIRROR_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -4585,8 +4585,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_MILOTIC_3] = {
-        .species = SPECIES_MILOTIC,
+    [FRONTIER_MON_DOKUGUMON_3] = {
+        .species = SPECIES_DOKUGUMON,
         .moves = {MOVE_SURF, MOVE_BLIZZARD, MOVE_ATTRACT, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -5257,8 +5257,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD
     },
-    [FRONTIER_MON_MILOTIC_4] = {
-        .species = SPECIES_MILOTIC,
+    [FRONTIER_MON_DOKUGUMON_4] = {
+        .species = SPECIES_DOKUGUMON,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_RECOVER, MOVE_MIRROR_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,

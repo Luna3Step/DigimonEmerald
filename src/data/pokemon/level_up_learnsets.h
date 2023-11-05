@@ -4331,7 +4331,7 @@ static const u16 sDoggymonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMiloticLevelUpLearnset[] = {
+static const u16 sDokugumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 5, MOVE_WRAP),
     LEVEL_UP_MOVE(10, MOVE_WATER_SPORT),

@@ -2098,11 +2098,11 @@ const u8 gDoggymonPokedexText[] = _(
     "production. It has incredibly stretchy skin\n"
     "letting it absorb most attacks.");
 
-const u8 gMiloticPokedexText[] = _(
-    "It is said to live at the bottom of\n"
-    "large lakes. Considered to be the most\n"
-    "beautiful of all POKéMON, it has been\n"
-    "depicted in paintings and statues.");
+const u8 gDokugumonPokedexText[] = _(
+    "Without preparation, Dokugumon will\n"
+    "struggle in most fights. However given\n"
+    "some time to set up webs and survey the\n"
+    "area, it is terrifying beast in battle.");
 
 const u8 gCastformPokedexText[] = _(
     "It alters its form depending on the\n"

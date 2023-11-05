@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_FEEBAS"
-with "FRONTIER_MON_DOGGYMON"
+replace "FRONTIER_MON_MILOTIC"
+with "FRONTIER_MON_DOKUGUMON"
 
-replace "gFeebasPokedexText"
-with "gDoggymonPokedexText"
+replace "gMiloticPokedexText"
+with "gDokugumonPokedexText"
 
-replace "NATIONAL_DEX_FEEBAS"
-with "NATIONAL_DEX_DOGGYMON"
+replace "NATIONAL_DEX_MILOTIC"
+with "NATIONAL_DEX_DOKUGUMON"
 
-replace "SPECIES_FEEBAS"
-with "SPECIES_DOGGYMON"
+replace "SPECIES_MILOTIC"
+with "SPECIES_DOKUGUMON"
 
-replace "HOENN_DEX_FEEBAS"
-with "HOENN_DEX_DOGGYMON"
+replace "HOENN_DEX_MILOTIC"
+with "HOENN_DEX_DOKUGUMON"
 
-replace "SPECIES_TO_HOENN(FEEBAS),"
-with "SPECIES_TO_HOENN(DOGGYMON),"
+replace "SPECIES_TO_HOENN(MILOTIC),"
+with "SPECIES_TO_HOENN(DOKUGUMON),"
 
-replace "SPECIES_TO_NATIONAL(FEEBAS),"
-with "SPECIES_TO_NATIONAL(DOGGYMON),"
+replace "SPECIES_TO_NATIONAL(MILOTIC),"
+with "SPECIES_TO_NATIONAL(DOKUGUMON),"
 
-replace "HOENN_TO_NATIONAL(FEEBAS),"
-with "HOENN_TO_NATIONAL(DOGGYMON),"
+replace "HOENN_TO_NATIONAL(MILOTIC),"
+with "HOENN_TO_NATIONAL(DOKUGUMON),"
 
-replace "EC_POKEMON_NATIONAL(FEEBAS),"
-with "EC_POKEMON_NATIONAL(DOGGYMON),"
+replace "EC_POKEMON_NATIONAL(MILOTIC),"
+with "EC_POKEMON_NATIONAL(DOKUGUMON),"
 
-replace "egg_moves(FEEBAS,"
-with "egg_moves(DOGGYMON,"
+replace "egg_moves(MILOTIC,"
+with "egg_moves(DOKUGUMON,"
 
-replace "sFeebasLevelUpLearnset"
-with "sDoggymonLevelUpLearnset"
+replace "sMiloticLevelUpLearnset"
+with "sDokugumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(FEEBAS"
-with "SPECIES_SPRITE(DOGGYMON"
+replace "SPECIES_SPRITE(MILOTIC"
+with "SPECIES_SPRITE(DOKUGUMON"
 
-replace "SPECIES_PAL(FEEBAS,"
-with "SPECIES_PAL(DOGGYMON,"
+replace "SPECIES_PAL(MILOTIC,"
+with "SPECIES_PAL(DOKUGUMON,"
 
-replace "SPECIES_SHINY_PAL(FEEBAS,"
-with "SPECIES_SHINY_PAL(DOGGYMON,"
+replace "SPECIES_SHINY_PAL(MILOTIC,"
+with "SPECIES_SHINY_PAL(DOKUGUMON,"
 
-replace "EC_POKEMON(FEEBAS)"
-with "EC_POKEMON(DOGGYMON)"
+replace "EC_POKEMON(MILOTIC)"
+with "EC_POKEMON(DOKUGUMON)"
 
-replace "EC_POKEMON_NATIONAL(FEEBAS)"
-with "EC_POKEMON_NATIONAL(DOGGYMON)"
+replace "EC_POKEMON_NATIONAL(MILOTIC)"
+with "EC_POKEMON_NATIONAL(DOKUGUMON)"
 
 in "src/data/text/species_names.h"
-replace "FEEBAS"
-with "DOGGYMON"
+replace "MILOTIC"
+with "DOKUGUMON"
