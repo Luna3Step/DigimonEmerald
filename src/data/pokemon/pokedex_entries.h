@@ -4152,12 +4152,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CRADILY] =
+    [NATIONAL_DEX_DINOHYUMON] =
     {
-        .categoryName = _("BARNACLE"),
-        .height = 15,
-        .weight = 604,
-        .description = gCradilyPokedexText,
+        .categoryName = _("TRIBAL"),
+        .height = 21,
+        .weight = 801,
+        .description = gDinohyumonPokedexText,
         .pokemonScale = 267,
         .pokemonOffset = 0,
         .trainerScale = 256,

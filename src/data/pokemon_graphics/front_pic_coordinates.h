@@ -393,7 +393,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_BUCCHIEMON_GREEN]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_BULKMON]    = { .size = MON_COORDS_SIZE(40, 48), .y_offset =  8 },
     [SPECIES_DIGMON]      = { .size = MON_COORDS_SIZE(48, 56), .y_offset =  7 },
-    [SPECIES_CRADILY]     = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  0 },
+    [SPECIES_DINOHYUMON]     = { .size = MON_COORDS_SIZE(56, 64), .y_offset =  0 },
     [SPECIES_ANORITH]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  8 },
     [SPECIES_ARMALDO]     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_APEMON]       = { .size = MON_COORDS_SIZE(24, 40), .y_offset = 15 },

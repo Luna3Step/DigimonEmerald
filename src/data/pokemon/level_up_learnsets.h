@@ -5267,7 +5267,7 @@ static const u16 sDigmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCradilyLevelUpLearnset[] = {
+static const u16 sDinohyumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_CONSTRICT),
     LEVEL_UP_MOVE( 1, MOVE_ACID),

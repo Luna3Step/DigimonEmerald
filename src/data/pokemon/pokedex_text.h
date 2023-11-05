@@ -2074,11 +2074,11 @@ const u8 gDigmonPokedexText[] = _(
     "Ultra level Digimon will struggle to catch\n"
     "it without destroying the terrain completely.");
 
-const u8 gCradilyPokedexText[] = _(
-    "It drags its heavy body along the\n"
-    "seafloor. It makes its nest in the shallows\n"
-    "of warm seas. CRADILY can be seen on\n"
-    "beaches when the tide goes out.");
+const u8 gDinohyumonPokedexText[] = _(
+    "Dinohyumon comes from a tribe in which all\n"
+    "tribesman are trained in combat. It is a\n"
+    "great warrior that boasts great strength\n"
+    "and deep understanding of all its weapons.");
 
 const u8 gAnorithPokedexText[] = _(
     "It was resurrected from a fossil using the\n"
