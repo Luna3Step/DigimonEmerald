@@ -4128,12 +4128,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLAYDOL] =
+    [NATIONAL_DEX_DIATRYMON] =
     {
-        .categoryName = _("CLAY DOLL"),
-        .height = 15,
-        .weight = 1080,
-        .description = gClaydolPokedexText,
+        .categoryName = _("FOSSIL BIRD"),
+        .height = 37,
+        .weight = 999,
+        .description = gDiatrymonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 280,

@@ -2062,11 +2062,11 @@ const u8 gDexdorumonPokedexText[] = _(
     "evolutions. Its malformed mind has an obsess-\n"
     "ion with preying on others DigiCores");
 
-const u8 gClaydolPokedexText[] = _(
-    "A CLAYDOL sleeps while hovering in midair.\n"
-    "Its arms are separate from its body.\n"
-    "They are kept floating by the POKéMON's\n"
-    "manipulation of psychic power.");
+const u8 gDiatrymonPokedexText[] = _(
+    "Although it is very clearly flying type\n"
+    "and has wings, Diatrymon is incapable of\n"
+    "however its powerful legs let it easily\n"
+    "sprint upwards of 200km/h.");
 
 const u8 gLileepPokedexText[] = _(
     "It disguises itself as seaweed by making\n"
