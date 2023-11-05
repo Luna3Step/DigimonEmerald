@@ -1966,11 +1966,11 @@ const u8 gCoredramon_bluePokedexText[] = _(
     "when it comes into plenty of Blue Diamante\n"
     "mined from moutainous regions.");
 
-const u8 gTrapinchPokedexText[] = _(
-    "Its big jaws crunch through boulders.\n"
-    "Because its head is so big, it has a hard\n"
-    "time getting back upright if it tips over\n"
-    "onto its back.");
+const u8 gCoredramon_greenPokedexText[] = _(
+    "Unlike blue Coredramon, Green Coredramon\n"
+    "can barely fly, instead developing stronger\n"
+    "legs. Green Malachite, found in forest areas\n"
+    "is the reason for the way it is.");
 
 const u8 gVibravaPokedexText[] = _(
     "It looses ultrasonic waves by rubbing its\n"

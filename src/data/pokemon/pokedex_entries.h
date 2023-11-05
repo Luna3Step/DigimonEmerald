@@ -3936,12 +3936,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TRAPINCH] =
+    [NATIONAL_DEX_COREDRAMON_GREEN] =
     {
-        .categoryName = _("ANT PIT"),
-        .height = 7,
-        .weight = 150,
-        .description = gTrapinchPokedexText,
+        .categoryName = _("DRAGON"),
+        .height = 53,
+        .weight = 2947,
+        .description = gCoredramon_greenPokedexText,
         .pokemonScale = 298,
         .pokemonOffset = 17,
         .trainerScale = 256,

@@ -267,7 +267,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round6[] =
         .moves = {MOVE_ROCK_SLIDE, MOVE_SLASH, MOVE_DIG, MOVE_NONE}
     },
     {
-        .species = SPECIES_TRAPINCH,
+        .species = SPECIES_COREDRAMON_GREEN,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_NONE}
@@ -285,7 +285,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round6[] =
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_MAGNITUDE, MOVE_TOXIC}
     },
     {
-        .species = SPECIES_TRAPINCH,
+        .species = SPECIES_COREDRAMON_GREEN,
         .lvl = 6,
         .abilityNum = 1,
         .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_PROTECT}

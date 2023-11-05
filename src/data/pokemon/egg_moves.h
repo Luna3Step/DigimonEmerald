@@ -1071,7 +1071,7 @@ const u16 gEggMoves[] = {
               MOVE_DOUBLE_EDGE,
               MOVE_THRASH),
 
-    egg_moves(TRAPINCH,
+    egg_moves(COREDRAMON_GREEN,
               MOVE_FOCUS_ENERGY,
               MOVE_QUICK_ATTACK,
               MOVE_GUST),
