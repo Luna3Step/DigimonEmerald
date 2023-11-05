@@ -2110,11 +2110,11 @@ const u8 gDolphmonPokedexText[] = _(
     "anyone it encounters. It uses this intell-\n"
     "igence to swiftly deal with battles.");
 
-const u8 gKecleonPokedexText[] = _(
-    "A POKéMON that has the ability to alter its\n"
-    "body colors to match its surroundings.\n"
-    "A KECLEON reverts to its original colors if\n"
-    "it is startled.");
+const u8 gDonshoumonPokedexText[] = _(
+    "When a DonShoutmon is around, it is almost\n"
+    "guaranteed that any fights and arguments are\n"
+    "going to get worse as it will throw itself\n"
+    "into any altercation.");
 
 const u8 gShuppetPokedexText[] = _(
     "This POKéMON roams about deep in the\n"

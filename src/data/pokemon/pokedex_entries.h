@@ -4224,12 +4224,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KECLEON] =
+    [NATIONAL_DEX_DONSHOUMON] =
     {
-        .categoryName = _("COLOR SWAP"),
-        .height = 10,
+        .categoryName = _("RHYTHM"),
+        .height = 7,
         .weight = 220,
-        .description = gKecleonPokedexText,
+        .description = gDonshoumonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 10,
         .trainerScale = 256,

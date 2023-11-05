@@ -1010,7 +1010,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Owen[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 100,
@@ -1585,7 +1585,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -1650,7 +1650,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica2[] = {
     {
     .iv = 10,
     .lvl = 35,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -1665,7 +1665,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica3[] = {
     {
     .iv = 20,
     .lvl = 38,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -1680,7 +1680,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -1695,7 +1695,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
     {
     .iv = 40,
     .lvl = 44,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -2609,7 +2609,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Justin[] = {
     {
     .iv = 0,
     .lvl = 24,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     }
 };
 
@@ -7481,7 +7481,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson5[] = {
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 90,
@@ -7920,7 +7920,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jonathan[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 0,
@@ -8638,7 +8638,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Gerald[] = {
     {
     .iv = 100,
     .lvl = 23,
-    .species = SPECIES_KECLEON,
+    .species = SPECIES_DONSHOUMON,
     .moves = {MOVE_FLAMETHROWER, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK, MOVE_BIND}
     }
 };

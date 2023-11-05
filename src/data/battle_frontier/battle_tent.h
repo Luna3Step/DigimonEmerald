@@ -1055,14 +1055,14 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_KECLEON_1] = {
-        .species = SPECIES_KECLEON,
+        .species = SPECIES_DONSHOUMON,
         .moves = {MOVE_PSYBEAM, MOVE_SUBSTITUTE, MOVE_THIEF, MOVE_TAIL_WHIP},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST
     },
     [SLATEPORT_TENT_MON_KECLEON_2] = {
-        .species = SPECIES_KECLEON,
+        .species = SPECIES_DONSHOUMON,
         .moves = {MOVE_FAINT_ATTACK, MOVE_ASTONISH, MOVE_LICK, MOVE_SCREECH},
         .itemTableId = BATTLE_FRONTIER_ITEM_IAPAPA_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
@@ -1891,7 +1891,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_BOLD
     },
     [VERDANTURF_TENT_MON_KECLEON] = {
-        .species = SPECIES_KECLEON,
+        .species = SPECIES_DONSHOUMON,
         .moves = {MOVE_SUBSTITUTE, MOVE_FAINT_ATTACK, MOVE_DOUBLE_TEAM, MOVE_BIND},
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -2716,7 +2716,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_NAUGHTY
     },
     [FALLARBOR_TENT_MON_KECLEON] = {
-        .species = SPECIES_KECLEON,
+        .species = SPECIES_DONSHOUMON,
         .moves = {MOVE_LICK, MOVE_SLASH, MOVE_FAINT_ATTACK, MOVE_PSYBEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_WIKI_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,

@@ -1643,7 +1643,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KECLEON"
+                "species": "SPECIES_DONSHOUMON"
               }
             ]
           },
@@ -3462,7 +3462,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KECLEON"
+                "species": "SPECIES_DONSHOUMON"
               }
             ]
           },
@@ -3611,7 +3611,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KECLEON"
+                "species": "SPECIES_DONSHOUMON"
               },
               {
                 "min_level": 25,
@@ -3770,7 +3770,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KECLEON"
+                "species": "SPECIES_DONSHOUMON"
               }
             ]
           },
@@ -4013,7 +4013,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KECLEON"
+                "species": "SPECIES_DONSHOUMON"
               }
             ]
           },
