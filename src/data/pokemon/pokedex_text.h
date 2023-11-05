@@ -1972,11 +1972,11 @@ const u8 gCoredramon_greenPokedexText[] = _(
     "legs. Green Malachite, found in forest areas\n"
     "is the reason for the way it is.");
 
-const u8 gVibravaPokedexText[] = _(
-    "It looses ultrasonic waves by rubbing its\n"
-    "wings together. Since a VIBRAVA's wings\n"
-    "are still in the process of growing, it can\n"
-    "only fly short distances.");
+const u8 gCyclonemonPokedexText[] = _(
+    "Cyclonemon has developed its right arm to\n"
+    "an extreme extent just for the sake of\n"
+    "defeating Leomon is believed to have been\n"
+    "the cause of its lost right eye.");
 
 const u8 gFlygonPokedexText[] = _(
     "The flapping of its wings sounds like\n"

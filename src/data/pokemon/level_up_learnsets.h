@@ -4390,7 +4390,7 @@ static const u16 sCoredramon_greenLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sVibravaLevelUpLearnset[] = {
+static const u16 sCyclonemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_FAINT_ATTACK),

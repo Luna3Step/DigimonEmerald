@@ -3948,12 +3948,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VIBRAVA] =
+    [NATIONAL_DEX_CYCLONEMON] =
     {
-        .categoryName = _("VIBRATION"),
-        .height = 11,
-        .weight = 153,
-        .description = gVibravaPokedexText,
+        .categoryName = _("CYCLOPS"),
+        .height = 30,
+        .weight = 1134,
+        .description = gCyclonemonPokedexText,
         .pokemonScale = 370,
         .pokemonOffset = 11,
         .trainerScale = 256,
