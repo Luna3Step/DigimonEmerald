@@ -1839,7 +1839,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_DARRYL] = {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_DARKTYRMON_X,
         .nickname = _("VIPES"),
         .trainerName = _("DARRYL"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_3,

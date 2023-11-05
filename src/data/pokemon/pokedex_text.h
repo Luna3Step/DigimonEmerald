@@ -2014,11 +2014,11 @@ const u8 gDarktyrmonPokedexText[] = _(
     "Its viciousness makes it a highly desired\n"
     "minion for evil Digimon.");
 
-const u8 gSeviperPokedexText[] = _(
-    "SEVIPER and ZANGOOSE are eternal rivals.\n"
-    "It counters a ZANGOOSE's dazzling agility\n"
-    "with its swordlike tail, which also oozes\n"
-    "a horrible poison.");
+const u8 gDarktyrmon_xPokedexText[] = _(
+    "Unlike a normal DarkTyrannomon,\n"
+    "DarkTyrannomon X is much more composed\n"
+    "letting it pick its battles more carefully\n"
+    "and fight with more strategy.");
 
 const u8 gLunatonePokedexText[] = _(
     "It becomes very active on the night of\n"

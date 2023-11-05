@@ -1232,7 +1232,7 @@ const u16 gEggMoves[] = {
               MOVE_ASTONISH,
               MOVE_IMPRISON),
 
-    egg_moves(SEVIPER,
+    egg_moves(DARKTYRMON_X,
               MOVE_STOCKPILE,
               MOVE_SWALLOW,
               MOVE_SPIT_UP,

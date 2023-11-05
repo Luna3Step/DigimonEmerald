@@ -4032,12 +4032,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SEVIPER] =
+    [NATIONAL_DEX_DARKTYRMON_X] =
     {
-        .categoryName = _("FANG SNAKE"),
-        .height = 27,
-        .weight = 525,
-        .description = gSeviperPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 60,
+        .weight = 1248,
+        .description = gDarktyrmon_xPokedexText,
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,

@@ -617,7 +617,7 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .trainerName = _("MAGGIE"),
         .speechBefore = {EC_POKEMON(PAOMON), EC_POKEMON(HERISSMON), EC_POKEMON_NATIONAL(LABRAMON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
-        .speechWin = {EC_POKEMON(BIOTHUNMON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(SEVIPER), EC_WORD_EXCL, -1},
+        .speechWin = {EC_POKEMON(BIOTHUNMON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(DARKTYRMON_X), EC_WORD_EXCL, -1},
         .speechLose = {EC_POKEMON(BIOTHUNMON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON_NATIONAL(DRACOMON), EC_WORD_ELLIPSIS, EC_WORD_UH_OH},
         .monSet = gSlateportBattleTentTrainerMons_Maggie
     },
@@ -1041,7 +1041,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_SEVIPER_1] = {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_DARKTYRMON_X,
         .moves = {MOVE_LICK, MOVE_POISON_FANG, MOVE_GLARE, MOVE_WRAP},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -1132,7 +1132,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_CAREFUL
     },
     [SLATEPORT_TENT_MON_SEVIPER_2] = {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_DARKTYRMON_X,
         .moves = {MOVE_SWAGGER, MOVE_WRAP, MOVE_POISON_TAIL, MOVE_HAZE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
@@ -1954,7 +1954,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_IMPISH
     },
     [VERDANTURF_TENT_MON_SEVIPER] = {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_DARKTYRMON_X,
         .moves = {MOVE_WRAP, MOVE_GLARE, MOVE_POISON_FANG, MOVE_SWAGGER},
         .itemTableId = BATTLE_FRONTIER_ITEM_ASPEAR_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

@@ -143,7 +143,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ed[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     }
 };
 
@@ -1591,7 +1591,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
@@ -1656,7 +1656,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica2[] = {
     {
     .iv = 10,
     .lvl = 35,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
@@ -1671,7 +1671,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica3[] = {
     {
     .iv = 20,
     .lvl = 38,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
@@ -1686,7 +1686,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
@@ -1701,7 +1701,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
     {
     .iv = 40,
     .lvl = 44,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
@@ -6674,7 +6674,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hector[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_SEVIPER,
+    .species = SPECIES_DARKTYRMON_X,
     }
 };
 

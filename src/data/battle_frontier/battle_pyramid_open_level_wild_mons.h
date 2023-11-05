@@ -71,7 +71,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round2[] =
         .moves = {MOVE_POISON_POWDER, MOVE_GUST, MOVE_PSYBEAM, MOVE_NONE}
     },
     {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_DARKTYRMON_X,
         .lvl = 12,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_POISON_FANG, MOVE_SWAGGER, MOVE_CRUNCH, MOVE_POISON_TAIL}
