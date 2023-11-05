@@ -4794,7 +4794,7 @@ static const u16 sBlimpmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSwabluLevelUpLearnset[] = {
+static const u16 sDarlizamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 8, MOVE_ASTONISH),

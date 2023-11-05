@@ -3996,12 +3996,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWABLU] =
+    [NATIONAL_DEX_DARLIZAMON] =
     {
-        .categoryName = _("COTTON BIRD"),
-        .height = 4,
-        .weight = 12,
-        .description = gSwabluPokedexText,
+        .categoryName = _("EVIL TWIN"),
+        .height = 29,
+        .weight = 974,
+        .description = gDarlizamonPokedexText,
         .pokemonScale = 422,
         .pokemonOffset = -8,
         .trainerScale = 256,

@@ -1996,11 +1996,11 @@ const u8 gTrailmon_darkPokedexText[] = _(
     "Digimon who has no qualms helping out\n"
     "although it can be strict with rules.");
 
-const u8 gSwabluPokedexText[] = _(
-    "A POKéMON that has wings like cottony\n"
-    "clouds. After enduring winter, in which\n"
-    "little food is available, SWABLU flocks\n"
-    "move closer to towns in the spring.");
+const u8 gDarlizamonPokedexText[] = _(
+    "Unlike Flarerizamons more tempered nature,\n"
+    "DarkLizardmon is much more aggressive,\n"
+    "seemingly lack any logic in its actions\n"
+    "other than that of pure violence.");
 
 const u8 gAltariaPokedexText[] = _(
     "It hums in a beautiful soprano voice.\n"

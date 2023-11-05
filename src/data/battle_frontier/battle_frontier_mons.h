@@ -651,8 +651,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_HP,
         .nature = NATURE_LONELY
     },
-    [FRONTIER_MON_SWABLU] = {
-        .species = SPECIES_SWABLU,
+    [FRONTIER_MON_DARLIZAMON] = {
+        .species = SPECIES_DARLIZAMON,
         .moves = {MOVE_TAKE_DOWN, MOVE_DREAM_EATER, MOVE_SING, MOVE_ATTRACT},
         .itemTableId = BATTLE_FRONTIER_ITEM_MENTAL_HERB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

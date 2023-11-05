@@ -1223,7 +1223,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_SWABLU] = {
-        .species = SPECIES_SWABLU,
+        .species = SPECIES_DARLIZAMON,
         .moves = {MOVE_SING, MOVE_PECK, MOVE_STEEL_WING, MOVE_SAFEGUARD},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1919,7 +1919,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_NAUGHTY
     },
     [VERDANTURF_TENT_MON_SWABLU] = {
-        .species = SPECIES_SWABLU,
+        .species = SPECIES_DARLIZAMON,
         .moves = {MOVE_REFRESH, MOVE_SAFEGUARD, MOVE_ATTRACT, MOVE_MIRROR_MOVE},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -2863,7 +2863,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [FALLARBOR_TENT_MON_SWABLU] = {
-        .species = SPECIES_SWABLU,
+        .species = SPECIES_DARLIZAMON,
         .moves = {MOVE_TAKE_DOWN, MOVE_SING, MOVE_GROWL, MOVE_SAFEGUARD},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

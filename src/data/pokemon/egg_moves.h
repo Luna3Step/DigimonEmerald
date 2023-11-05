@@ -1160,7 +1160,7 @@ const u16 gEggMoves[] = {
               MOVE_BATON_PASS,
               MOVE_DYNAMIC_PUNCH),
 
-    egg_moves(SWABLU,
+    egg_moves(DARLIZAMON,
               MOVE_AGILITY,
               MOVE_HAZE,
               MOVE_PURSUIT,
