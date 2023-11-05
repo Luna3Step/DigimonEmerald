@@ -4260,7 +4260,7 @@ static const u16 sDepthmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sWhiscashLevelUpLearnset[] = {
+static const u16 sDeputymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_MUD_SPORT),

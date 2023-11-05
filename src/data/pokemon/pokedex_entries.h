@@ -4080,12 +4080,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WHISCASH] =
+    [NATIONAL_DEX_DEPUTYMON] =
     {
-        .categoryName = _("WHISKERS"),
-        .height = 9,
-        .weight = 236,
-        .description = gWhiscashPokedexText,
+        .categoryName = _("REVOLVER"),
+        .height = 19,
+        .weight = 781,
+        .description = gDeputymonPokedexText,
         .pokemonScale = 317,
         .pokemonOffset = 1,
         .trainerScale = 256,

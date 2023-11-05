@@ -2038,11 +2038,11 @@ const u8 gDepthmonPokedexText[] = _(
     "pressure while being very mobile. It can\n"
     "often get competitive with Whamon.");
 
-const u8 gWhiscashPokedexText[] = _(
-    "Mysteriously, it can foretell earthquakes.\n"
-    "In the daytime, it sleeps in mud at the\n"
-    "bottom of a pond. When it awakens, it\n"
-    "continually feeds throughout the night.");
+const u8 gDeputymonPokedexText[] = _(
+    "Its knack for playing Russian Roulette\n"
+    "makes Deputymon an interesting Digimon to\n"
+    "encounter. Anyone who can 'win' Russian\n"
+    "Roulette can easily befriend Deputymon.");
 
 const u8 gCorphishPokedexText[] = _(
     "Once it grips prey with its large pincers,\n"

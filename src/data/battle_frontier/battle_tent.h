@@ -560,9 +560,9 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
     [SLATEPORT_TENT_TRAINER_RODOLFO] = {
         .facilityClass = FACILITY_CLASS_RICH_BOY,
         .trainerName = _("RODOLFO"),
-        .speechBefore = {EC_WORD_GO, EC_WORD_GET, EC_WORD_A, EC_POKEMON(WHISCASH), EC_WORD_FOR, EC_WORD_ME},
-        .speechWin = {EC_WORD_AWW, EC_WORD_YOU, EC_WORD_DON_T, EC_WORD_HAVE, EC_WORD_A, EC_POKEMON(WHISCASH)},
-        .speechLose = {EC_WORD_PLEASE, EC_WORD_I, EC_WORD_NEED, EC_WORD_A, EC_POKEMON(WHISCASH), EC_WORD_BADLY},
+        .speechBefore = {EC_WORD_GO, EC_WORD_GET, EC_WORD_A, EC_POKEMON(DEPUTYMON), EC_WORD_FOR, EC_WORD_ME},
+        .speechWin = {EC_WORD_AWW, EC_WORD_YOU, EC_WORD_DON_T, EC_WORD_HAVE, EC_WORD_A, EC_POKEMON(DEPUTYMON)},
+        .speechLose = {EC_WORD_PLEASE, EC_WORD_I, EC_WORD_NEED, EC_WORD_A, EC_POKEMON(DEPUTYMON), EC_WORD_BADLY},
         .monSet = gSlateportBattleTentTrainerMons_Rodolfo
     },
     [SLATEPORT_TENT_TRAINER_DAVION] = {
