@@ -1041,7 +1041,7 @@ const u16 gEggMoves[] = {
               MOVE_RECOVER,
               MOVE_MOONLIGHT),
 
-    egg_moves(BARBOACH,
+    egg_moves(DEPTHMON,
               MOVE_THRASH,
               MOVE_WHIRLPOOL,
               MOVE_SPARK),

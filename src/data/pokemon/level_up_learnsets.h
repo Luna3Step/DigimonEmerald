@@ -4245,7 +4245,7 @@ static const u16 sBlgargomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBarboachLevelUpLearnset[] = {
+static const u16 sDepthmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE( 6, MOVE_MUD_SPORT),
     LEVEL_UP_MOVE( 6, MOVE_WATER_SPORT),

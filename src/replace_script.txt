@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SOLROCK"
-with "FRONTIER_MON_DELTAMON"
+replace "FRONTIER_MON_BARBOACH"
+with "FRONTIER_MON_DEPTHMON"
 
-replace "gSolrockPokedexText"
-with "gDeltamonPokedexText"
+replace "gBarboachPokedexText"
+with "gDepthmonPokedexText"
 
-replace "NATIONAL_DEX_SOLROCK"
-with "NATIONAL_DEX_DELTAMON"
+replace "NATIONAL_DEX_BARBOACH"
+with "NATIONAL_DEX_DEPTHMON"
 
-replace "SPECIES_SOLROCK"
-with "SPECIES_DELTAMON"
+replace "SPECIES_BARBOACH"
+with "SPECIES_DEPTHMON"
 
-replace "HOENN_DEX_SOLROCK"
-with "HOENN_DEX_DELTAMON"
+replace "HOENN_DEX_BARBOACH"
+with "HOENN_DEX_DEPTHMON"
 
-replace "SPECIES_TO_HOENN(SOLROCK),"
-with "SPECIES_TO_HOENN(DELTAMON),"
+replace "SPECIES_TO_HOENN(BARBOACH),"
+with "SPECIES_TO_HOENN(DEPTHMON),"
 
-replace "SPECIES_TO_NATIONAL(SOLROCK),"
-with "SPECIES_TO_NATIONAL(DELTAMON),"
+replace "SPECIES_TO_NATIONAL(BARBOACH),"
+with "SPECIES_TO_NATIONAL(DEPTHMON),"
 
-replace "HOENN_TO_NATIONAL(SOLROCK),"
-with "HOENN_TO_NATIONAL(DELTAMON),"
+replace "HOENN_TO_NATIONAL(BARBOACH),"
+with "HOENN_TO_NATIONAL(DEPTHMON),"
 
-replace "EC_POKEMON_NATIONAL(SOLROCK),"
-with "EC_POKEMON_NATIONAL(DELTAMON),"
+replace "EC_POKEMON_NATIONAL(BARBOACH),"
+with "EC_POKEMON_NATIONAL(DEPTHMON),"
 
-replace "egg_moves(SOLROCK,"
-with "egg_moves(DELTAMON,"
+replace "egg_moves(BARBOACH,"
+with "egg_moves(DEPTHMON,"
 
-replace "sSolrockLevelUpLearnset"
-with "sDeltamonLevelUpLearnset"
+replace "sBarboachLevelUpLearnset"
+with "sDepthmonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SOLROCK"
-with "SPECIES_SPRITE(DELTAMON"
+replace "SPECIES_SPRITE(BARBOACH"
+with "SPECIES_SPRITE(DEPTHMON"
 
-replace "SPECIES_PAL(SOLROCK,"
-with "SPECIES_PAL(DELTAMON,"
+replace "SPECIES_PAL(BARBOACH,"
+with "SPECIES_PAL(DEPTHMON,"
 
-replace "SPECIES_SHINY_PAL(SOLROCK,"
-with "SPECIES_SHINY_PAL(DELTAMON,"
+replace "SPECIES_SHINY_PAL(BARBOACH,"
+with "SPECIES_SHINY_PAL(DEPTHMON,"
 
-replace "EC_POKEMON(SOLROCK)"
-with "EC_POKEMON(DELTAMON)"
+replace "EC_POKEMON(BARBOACH)"
+with "EC_POKEMON(DEPTHMON)"
 
-replace "EC_POKEMON_NATIONAL(SOLROCK)"
-with "EC_POKEMON_NATIONAL(DELTAMON)"
+replace "EC_POKEMON_NATIONAL(BARBOACH)"
+with "EC_POKEMON_NATIONAL(DEPTHMON)"
 
 in "src/data/text/species_names.h"
-replace "SOLROCK"
-with "DELTAMON"
+replace "BARBOACH"
+with "DEPTHMON"

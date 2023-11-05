@@ -2032,11 +2032,11 @@ const u8 gDeltamonPokedexText[] = _(
     "nature of each of these Digimon makes it\n"
     "particularly destructive.");
 
-const u8 gBarboachPokedexText[] = _(
-    "Its body is covered with a slimy film.\n"
-    "The film acts as a barrier to prevent germs\n"
-    "in muddy water from entering the\n"
-    "BARBOACH's body.");
+const u8 gDepthmonPokedexText[] = _(
+    "Depthmon specialises in underwater activities\n"
+    "due to its armour having high resistance to\n"
+    "pressure while being very mobile. It can\n"
+    "often get competitive with Whamon.");
 
 const u8 gWhiscashPokedexText[] = _(
     "Mysteriously, it can foretell earthquakes.\n"

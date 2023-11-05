@@ -4068,12 +4068,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BARBOACH] =
+    [NATIONAL_DEX_DEPTHMON] =
     {
-        .categoryName = _("WHISKERS"),
-        .height = 4,
-        .weight = 19,
-        .description = gBarboachPokedexText,
+        .categoryName = _("DIVING"),
+        .height = 23,
+        .weight = 864,
+        .description = gDepthmonPokedexText,
         .pokemonScale = 581,
         .pokemonOffset = -3,
         .trainerScale = 256,
