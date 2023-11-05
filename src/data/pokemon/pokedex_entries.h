@@ -4236,12 +4236,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHUPPET] =
+    [NATIONAL_DEX_DORUGAMON] =
     {
-        .categoryName = _("PUPPET"),
-        .height = 6,
-        .weight = 23,
-        .description = gShuppetPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 30,
+        .weight = 954,
+        .description = gDorugamonPokedexText,
         .pokemonScale = 440,
         .pokemonOffset = 20,
         .trainerScale = 256,

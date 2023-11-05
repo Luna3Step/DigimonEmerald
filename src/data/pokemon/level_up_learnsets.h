@@ -5084,7 +5084,7 @@ static const u16 sAbsolLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sShuppetLevelUpLearnset[] = {
+static const u16 sDorugamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_KNOCK_OFF),
     LEVEL_UP_MOVE( 8, MOVE_SCREECH),
     LEVEL_UP_MOVE(13, MOVE_NIGHT_SHADE),

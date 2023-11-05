@@ -63,7 +63,7 @@
 #define FRONTIER_MON_SPHEAL         59
 #define FRONTIER_MON_BIYOMON         60
 #define FRONTIER_MON_ARESDRAMON      61
-#define FRONTIER_MON_SHUPPET        62
+#define FRONTIER_MON_DORUGAMON        62
 #define FRONTIER_MON_DUSKULL        63
 #define FRONTIER_MON_BOARMON      64
 #define FRONTIER_MON_RELEMON         65

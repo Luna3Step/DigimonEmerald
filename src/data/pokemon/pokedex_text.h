@@ -2116,11 +2116,11 @@ const u8 gDonshoumonPokedexText[] = _(
     "going to get worse as it will throw itself\n"
     "into any altercation.");
 
-const u8 gShuppetPokedexText[] = _(
-    "This POKéMON roams about deep in the\n"
-    "night seeking such negative emotions as\n"
-    "grudges and envy. It retreats to its nest\n"
-    "when the sun begins to rise.");
+const u8 gDorugamonPokedexText[] = _(
+    "Dorugamon can very easily flip personalities;\n"
+    "when in battle, it is almost indistinguishable\n"
+    "from a wild however when outside battle, it\n"
+    "is a very intelligent and docile Digimon.");
 
 const u8 gBanettePokedexText[] = _(
     "An abandoned plush doll became this\n"

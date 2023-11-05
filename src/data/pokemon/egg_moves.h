@@ -1225,7 +1225,7 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_SUBSTITUTE),
 
-    egg_moves(SHUPPET,
+    egg_moves(DORUGAMON,
               MOVE_DISABLE,
               MOVE_DESTINY_BOND,
               MOVE_FORESIGHT,
