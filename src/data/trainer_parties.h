@@ -6543,14 +6543,14 @@ static const struct TrainerMonItemCustomMoves sParty_Annika[] = {
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_FEEBAS,
+    .species = SPECIES_DOGGYMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_ATTRACT}
     },
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_FEEBAS,
+    .species = SPECIES_DOGGYMON,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_ATTRACT}
     }
@@ -9394,7 +9394,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chris[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_FEEBAS,
+    .species = SPECIES_DOGGYMON,
     },
     {
     .iv = 0,

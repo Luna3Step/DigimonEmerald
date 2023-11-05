@@ -2092,11 +2092,11 @@ const u8 gDobermon_xPokedexText[] = _(
     "Dobermon X. Its even more ferocious meaning\n"
     "only the best can control it.");
 
-const u8 gFeebasPokedexText[] = _(
-    "FEEBAS live in ponds that are heavily\n"
-    "infested with weeds. Because of its\n"
-    "hopelessly shabby appearance, it\n"
-    "seems as if few TRAINERS raise it.");
+const u8 gDoggymonPokedexText[] = _(
+    "Doggymon is likely produced from stray\n"
+    "data released by American cartoon\n"
+    "production. It has incredibly stretchy skin\n"
+    "letting it absorb most attacks.");
 
 const u8 gMiloticPokedexText[] = _(
     "It is said to live at the bottom of\n"

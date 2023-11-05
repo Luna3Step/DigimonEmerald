@@ -503,7 +503,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
     EC_WORD_FEAR,
     EC_POKEMON_NATIONAL(PABUMON),
     EC_MOVE2(FEATHER_DANCE),
-    EC_POKEMON(FEEBAS),
+    EC_POKEMON(DOGGYMON),
     EC_WORD_FEELING,
     EC_POKEMON_NATIONAL(GAOSSMON),
     EC_WORD_FESTIVAL,
@@ -2017,7 +2017,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_MOVE2(BULK_UP),
     EC_WORD_NAP,
     EC_WORD_HEROINE,
-    EC_POKEMON(FEEBAS),
+    EC_POKEMON(DOGGYMON),
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {

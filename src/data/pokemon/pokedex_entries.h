@@ -4188,12 +4188,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_FEEBAS] =
+    [NATIONAL_DEX_DOGGYMON] =
     {
-        .categoryName = _("FISH"),
-        .height = 6,
-        .weight = 74,
-        .description = gFeebasPokedexText,
+        .categoryName = _("CARTOON"),
+        .height = 8,
+        .weight = 211,
+        .description = gDoggymonPokedexText,
         .pokemonScale = 423,
         .pokemonOffset = -4,
         .trainerScale = 256,

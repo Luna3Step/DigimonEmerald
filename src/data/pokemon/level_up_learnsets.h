@@ -4324,7 +4324,7 @@ static const u16 sDevimonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sFeebasLevelUpLearnset[] = {
+static const u16 sDoggymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE(15, MOVE_TACKLE),
     LEVEL_UP_MOVE(30, MOVE_FLAIL),

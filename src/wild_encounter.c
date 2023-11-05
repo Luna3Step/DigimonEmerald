@@ -60,7 +60,7 @@ EWRAM_DATA static u32 sFeebasRngValue = 0;
 
 #include "data/wild_encounters.h"
 
-static const struct WildPokemon sWildFeebas = {20, 25, SPECIES_FEEBAS};
+static const struct WildPokemon sWildFeebas = {20, 25, SPECIES_DOGGYMON};
 
 static const u16 sRoute119WaterTileData[] =
 {

@@ -121,7 +121,7 @@ static const u16 sMovingRegionMapSections[3] =
 
 static const u16 sFeebasData[][3] =
 {
-    {SPECIES_FEEBAS, MAP_GROUP(ROUTE119), MAP_NUM(ROUTE119)},
+    {SPECIES_DOGGYMON, MAP_GROUP(ROUTE119), MAP_NUM(ROUTE119)},
     {NUM_SPECIES}
 };
 
