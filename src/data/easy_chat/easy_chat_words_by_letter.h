@@ -292,7 +292,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_MOVE2(CONVERSION_2),
     EC_WORD_COOL,
     EC_WORD_COOLNESS,
-    EC_POKEMON(CORPHISH),
+    EC_POKEMON(DEVIDRAMON),
     EC_WORD_CORRECT,
     DOUBLE_SPECIES_NAME
     EC_POKEMON(PATAMON),
@@ -2092,7 +2092,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseHe[] = {
     EC_WORD_HEY,
-    EC_POKEMON(CORPHISH),
+    EC_POKEMON(DEVIDRAMON),
     EC_WORD_BABY,
     EC_POKEMON_NATIONAL(FANBEEMON),
     EC_WORD_BEST,

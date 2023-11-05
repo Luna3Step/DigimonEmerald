@@ -1622,7 +1622,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Olivia[] = {
     {
     .iv = 100,
     .lvl = 37,
-    .species = SPECIES_CORPHISH,
+    .species = SPECIES_DEVIDRAMON,
     .moves = {MOVE_TAUNT, MOVE_CRABHAMMER, MOVE_WATER_PULSE, MOVE_NONE}
     },
     {

@@ -2044,11 +2044,11 @@ const u8 gDeputymonPokedexText[] = _(
     "encounter. Anyone who can 'win' Russian\n"
     "Roulette can easily befriend Deputymon.");
 
-const u8 gCorphishPokedexText[] = _(
-    "Once it grips prey with its large pincers,\n"
-    "it will never let go, no matter what.\n"
-    "It is a hardy POKéMON that can thrive\n"
-    "in any environment.");
+const u8 gDevidramonPokedexText[] = _(
+    "Although it is a Dragon type Digimon, \n"
+    "Devidramon is unusually developed, using\n"
+    "its elongated arms to shred any foes it\n"
+    "comes across on its patrols.");
 
 const u8 gCrawdauntPokedexText[] = _(
     "A brutish POKéMON that loves to battle.\n"

@@ -1052,7 +1052,7 @@ const u16 gEggMoves[] = {
               MOVE_WATER_SPORT,
               MOVE_MUD_SPORT),
 
-    egg_moves(CORPHISH,
+    egg_moves(DEVIDRAMON,
               MOVE_MUD_SPORT,
               MOVE_ENDEAVOR,
               MOVE_BODY_SLAM,

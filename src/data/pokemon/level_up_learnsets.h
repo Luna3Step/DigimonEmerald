@@ -4291,7 +4291,7 @@ static const u16 sLuvdiscLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sCorphishLevelUpLearnset[] = {
+static const u16 sDevidramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 7, MOVE_HARDEN),
     LEVEL_UP_MOVE(10, MOVE_VICE_GRIP),

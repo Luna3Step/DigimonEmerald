@@ -4092,12 +4092,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CORPHISH] =
+    [NATIONAL_DEX_DEVIDRAMON] =
     {
-        .categoryName = _("RUFFIAN"),
-        .height = 6,
-        .weight = 115,
-        .description = gCorphishPokedexText,
+        .categoryName = _("DARK BEAST"),
+        .height = 70,
+        .weight = 1875,
+        .description = gDevidramonPokedexText,
         .pokemonScale = 484,
         .pokemonOffset = 19,
         .trainerScale = 256,
