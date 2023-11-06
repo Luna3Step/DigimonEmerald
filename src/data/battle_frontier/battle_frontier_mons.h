@@ -1701,8 +1701,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
     },
-    [FRONTIER_MON_TROPIUS_1] = {
-        .species = SPECIES_TROPIUS,
+    [FRONTIER_MON_ELEPHANMON_1] = {
+        .species = SPECIES_ELEPHANMON,
         .moves = {MOVE_MAGICAL_LEAF, MOVE_WHIRLWIND, MOVE_AERIAL_ACE, MOVE_STEEL_WING},
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2436,8 +2436,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_QUIRKY
     },
-    [FRONTIER_MON_TROPIUS_2] = {
-        .species = SPECIES_TROPIUS,
+    [FRONTIER_MON_ELEPHANMON_2] = {
+        .species = SPECIES_ELEPHANMON,
         .moves = {MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_SYNTHESIS, MOVE_BODY_SLAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,

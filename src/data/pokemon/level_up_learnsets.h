@@ -4970,7 +4970,7 @@ static const u16 sBurgermon_championLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sTropiusLevelUpLearnset[] = {
+static const u16 sElephanmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 7, MOVE_GROWTH),

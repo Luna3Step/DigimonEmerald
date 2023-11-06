@@ -1260,7 +1260,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julie[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     }
 };
 
@@ -3516,7 +3516,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 210,
     .lvl = 29,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_SYNTHESIS}
     },
@@ -5208,7 +5208,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hugh[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     }
 };
 
@@ -5234,7 +5234,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     }
 };
 
@@ -5250,7 +5250,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 0,
@@ -5393,7 +5393,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Beck[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     }
 };
 
@@ -8887,7 +8887,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveMudkip[] 
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -8910,7 +8910,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTreecko[]
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -8933,7 +8933,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTorchic[]
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -8956,7 +8956,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveMudkip[] = {
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -8979,7 +8979,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -9002,7 +9002,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTorchic[] = {
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 150,
@@ -10207,7 +10207,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     },
     {
     .iv = 10,
@@ -11069,7 +11069,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
@@ -11107,7 +11107,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
@@ -11152,7 +11152,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
     {
     .iv = 255,
     .lvl = 49,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
@@ -11197,7 +11197,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     {
     .iv = 255,
     .lvl = 54,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
@@ -11591,7 +11591,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
     {
     .iv = 200,
     .lvl = 30,
-    .species = SPECIES_TROPIUS,
+    .species = SPECIES_ELEPHANMON,
     }
 };
 

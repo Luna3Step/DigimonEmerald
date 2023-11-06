@@ -2140,11 +2140,11 @@ const u8 gEbidramonPokedexText[] = _(
     "very good at fighting back however its\n"
     "gigantic pincers quickly show otherwise.");
 
-const u8 gTropiusPokedexText[] = _(
-    "It flies by flapping its broad leaves.\n"
-    "The bunch of fruit that grows around its\n"
-    "neck is deliciously sweet. In the spring,\n"
-    "it scatters pollen from its neck.");
+const u8 gElephanmonPokedexText[] = _(
+    "Contrary to its large build, Elephantmon\n"
+    "is incredibly fast Digimon due to the giant\n"
+    "turbines that make up its ears. It can't\n"
+    "fly but it can float indefinitely.");
 
 const u8 gChimechoPokedexText[] = _(
     "They fly about very actively when the hot\n"

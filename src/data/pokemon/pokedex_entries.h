@@ -4284,12 +4284,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_TROPIUS] =
+    [NATIONAL_DEX_ELEPHANMON] =
     {
-        .categoryName = _("FRUIT"),
-        .height = 20,
-        .weight = 1000,
-        .description = gTropiusPokedexText,
+        .categoryName = _("ELEPHANT"),
+        .height = 55,
+        .weight = 2350,
+        .description = gElephanmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 344,

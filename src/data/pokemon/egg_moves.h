@@ -1195,7 +1195,7 @@ const u16 gEggMoves[] = {
               MOVE_SMOG,
               MOVE_PAIN_SPLIT),
 
-    egg_moves(TROPIUS,
+    egg_moves(ELEPHANMON,
               MOVE_HEADBUTT,
               MOVE_SLAM,
               MOVE_RAZOR_WIND,
