@@ -4320,12 +4320,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WYNAUT] =
+    [NATIONAL_DEX_EXVEEMON] =
     {
-        .categoryName = _("BRIGHT"),
-        .height = 6,
-        .weight = 140,
-        .description = gWynautPokedexText,
+        .categoryName = _("DRAGON MAN"),
+        .height = 45,
+        .weight = 1432,
+        .description = gExveemonPokedexText,
         .pokemonScale = 484,
         .pokemonOffset = 19,
         .trainerScale = 256,

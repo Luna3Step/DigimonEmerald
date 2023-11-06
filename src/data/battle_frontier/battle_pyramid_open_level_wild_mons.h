@@ -273,7 +273,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round6[] =
         .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_NONE}
     },
     {
-        .species = SPECIES_WYNAUT,
+        .species = SPECIES_EXVEEMON,
         .lvl = 8,
         .abilityNum = 0,
         .moves = {MOVE_DESTINY_BOND, MOVE_SPLASH, MOVE_COUNTER, MOVE_MIRROR_COAT}
@@ -291,7 +291,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round6[] =
         .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_PROTECT}
     },
     {
-        .species = SPECIES_WYNAUT,
+        .species = SPECIES_EXVEEMON,
         .lvl = 6,
         .abilityNum = 0,
         .moves = {MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_DESTINY_BOND, MOVE_NONE}

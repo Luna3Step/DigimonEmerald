@@ -2158,11 +2158,11 @@ const u8 gExermonPokedexText[] = _(
     "yoga and taijutsu. All this practise has\n"
     "led it to perfect its sense of balance.");
 
-const u8 gWynautPokedexText[] = _(
-    "A WYNAUT loves to eat sweet fruits.\n"
-    "It cleverly picks fruits using its earlike\n"
-    "arms. They gather in fruit gardens, drawn\n"
-    "by the fragrance.");
+const u8 gExveemonPokedexText[] = _(
+    "ExVeemon is the purebred form of Veedramon\n"
+    "making it the true form in some peoples eyes.\n"
+    "Its legs and arms are incredibly developed\n"
+    "letting it destory foes with ease.");
 
 const u8 gSnoruntPokedexText[] = _(
     "They tend to move about in groups of\n"

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_ABSOL"
-with "FRONTIER_MON_EXERMON"
+replace "FRONTIER_MON_WYNAUT"
+with "FRONTIER_MON_EXVEEMON"
 
-replace "gAbsolPokedexText"
-with "gExermonPokedexText"
+replace "gWynautPokedexText"
+with "gExveemonPokedexText"
 
-replace "NATIONAL_DEX_ABSOL"
-with "NATIONAL_DEX_EXERMON"
+replace "NATIONAL_DEX_WYNAUT"
+with "NATIONAL_DEX_EXVEEMON"
 
-replace "SPECIES_ABSOL"
-with "SPECIES_EXERMON"
+replace "SPECIES_WYNAUT"
+with "SPECIES_EXVEEMON"
 
-replace "HOENN_DEX_ABSOL"
-with "HOENN_DEX_EXERMON"
+replace "HOENN_DEX_WYNAUT"
+with "HOENN_DEX_EXVEEMON"
 
-replace "SPECIES_TO_HOENN(ABSOL),"
-with "SPECIES_TO_HOENN(EXERMON),"
+replace "SPECIES_TO_HOENN(WYNAUT),"
+with "SPECIES_TO_HOENN(EXVEEMON),"
 
-replace "SPECIES_TO_NATIONAL(ABSOL),"
-with "SPECIES_TO_NATIONAL(EXERMON),"
+replace "SPECIES_TO_NATIONAL(WYNAUT),"
+with "SPECIES_TO_NATIONAL(EXVEEMON),"
 
-replace "HOENN_TO_NATIONAL(ABSOL),"
-with "HOENN_TO_NATIONAL(EXERMON),"
+replace "HOENN_TO_NATIONAL(WYNAUT),"
+with "HOENN_TO_NATIONAL(EXVEEMON),"
 
-replace "EC_POKEMON_NATIONAL(ABSOL),"
-with "EC_POKEMON_NATIONAL(EXERMON),"
+replace "EC_POKEMON_NATIONAL(WYNAUT),"
+with "EC_POKEMON_NATIONAL(EXVEEMON),"
 
-replace "egg_moves(ABSOL,"
-with "egg_moves(EXERMON,"
+replace "egg_moves(WYNAUT,"
+with "egg_moves(EXVEEMON,"
 
-replace "sAbsolLevelUpLearnset"
-with "sExermonLevelUpLearnset"
+replace "sWynautLevelUpLearnset"
+with "sExveemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(ABSOL"
-with "SPECIES_SPRITE(EXERMON"
+replace "SPECIES_SPRITE(WYNAUT"
+with "SPECIES_SPRITE(EXVEEMON"
 
-replace "SPECIES_PAL(ABSOL,"
-with "SPECIES_PAL(EXERMON,"
+replace "SPECIES_PAL(WYNAUT,"
+with "SPECIES_PAL(EXVEEMON,"
 
-replace "SPECIES_SHINY_PAL(ABSOL,"
-with "SPECIES_SHINY_PAL(EXERMON,"
+replace "SPECIES_SHINY_PAL(WYNAUT,"
+with "SPECIES_SHINY_PAL(EXVEEMON,"
 
-replace "EC_POKEMON(ABSOL)"
-with "EC_POKEMON(EXERMON)"
+replace "EC_POKEMON(WYNAUT)"
+with "EC_POKEMON(EXVEEMON)"
 
-replace "EC_POKEMON_NATIONAL(ABSOL)"
-with "EC_POKEMON_NATIONAL(EXERMON)"
+replace "EC_POKEMON_NATIONAL(WYNAUT)"
+with "EC_POKEMON_NATIONAL(EXVEEMON)"
 
 in "src/data/text/species_names.h"
-replace "ABSOL"
-with "EXERMON"
+replace "WYNAUT"
+with "EXVEEMON"
