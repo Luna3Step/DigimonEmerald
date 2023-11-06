@@ -413,8 +413,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_SERIOUS
     },
-    [FRONTIER_MON_SPHEAL] = {
-        .species = SPECIES_SPHEAL,
+    [FRONTIER_MON_EYESMON_SCATTERMODE] = {
+        .species = SPECIES_EYESMON_SCATTERMODE,
         .moves = {MOVE_ICE_BALL, MOVE_WATER_PULSE, MOVE_HAIL, MOVE_MUD_SLAP},
         .itemTableId = BATTLE_FRONTIER_ITEM_NEVER_MELT_ICE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

@@ -2067,7 +2067,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kevin[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     }
 };
 
@@ -5895,7 +5895,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nikki[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     }
 };
 
@@ -5916,7 +5916,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katie[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     }
 };
 
@@ -6450,7 +6450,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Duncan[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     },
     {
     .iv = 0,
@@ -6604,7 +6604,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kelvin[] = {
     {
     .iv = 150,
     .lvl = 33,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     }
 };
 
@@ -9139,7 +9139,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Reed[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_SPHEAL,
+    .species = SPECIES_EYESMON_SCATTERMODE,
     },
     {
     .iv = 0,

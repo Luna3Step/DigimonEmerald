@@ -411,7 +411,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_PAIGE] = {
-        .species = SPECIES_SPHEAL,
+        .species = SPECIES_EYESMON_SCATTERMODE,
         .nickname = _("SLEAL"),
         .trainerName = _("PAIGE"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_4,

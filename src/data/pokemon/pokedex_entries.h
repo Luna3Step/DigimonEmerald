@@ -4356,12 +4356,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPHEAL] =
+    [NATIONAL_DEX_EYESMON_SCATTERMODE] =
     {
-        .categoryName = _("CLAP"),
-        .height = 8,
-        .weight = 395,
-        .description = gSphealPokedexText,
+        .categoryName = _("SHADOW"),
+        .height = 3,
+        .weight = 1,
+        .description = gEyesmon_scattermodePokedexText,
         .pokemonScale = 315,
         .pokemonOffset = 16,
         .trainerScale = 256,

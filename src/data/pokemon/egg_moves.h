@@ -1101,7 +1101,7 @@ const u16 gEggMoves[] = {
               MOVE_DEFENSE_CURL,
               MOVE_STOMP),
 
-    egg_moves(SPHEAL,
+    egg_moves(EYESMON_SCATTERMODE,
               MOVE_WATER_SPORT,
               MOVE_STOCKPILE,
               MOVE_SWALLOW,

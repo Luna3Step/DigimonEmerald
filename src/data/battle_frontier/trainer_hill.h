@@ -276,7 +276,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                     [1] = DUMMY_HILL_MON,
                     [2] = DUMMY_HILL_MON,
                     [3] = {
-                        .species = SPECIES_SPHEAL,
+                        .species = SPECIES_EYESMON_SCATTERMODE,
                         .heldItem = ITEM_FOCUS_BAND,
                         .moves = { MOVE_ICE_BALL, MOVE_BODY_SLAM, MOVE_WATER_GUN, MOVE_ENCORE },
                         .hpEV = 100,
@@ -1992,7 +1992,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_SPHEAL,
+                                            .species = SPECIES_EYESMON_SCATTERMODE,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_ENCORE, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .hpEV = 252,

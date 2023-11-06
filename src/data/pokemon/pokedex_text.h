@@ -2176,11 +2176,11 @@ const u8 gEyesmonPokedexText[] = _(
     "As it accumulates more data, it gets\n"
     "stronger letting it defeat Ultimates.");
 
-const u8 gSphealPokedexText[] = _(
-    "It is completely covered with plushy fur.\n"
-    "As a result, it never feels the cold even\n"
-    "when it is rolling about on ice floes or\n"
-    "diving in the sea.");
+const u8 gEyesmon_scattermodePokedexText[] = _(
+    "Although it is still a part of Eyesmon, it\n"
+    "is so incredibly weak that it basically has\n"
+    "no fighting capabilities, instead being\n"
+    "used for monitoring far and wide.");
 
 const u8 gSealeoPokedexText[] = _(
     "SEALEO live in herds on ice floes. Using its\n"
