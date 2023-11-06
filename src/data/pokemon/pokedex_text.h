@@ -2164,11 +2164,11 @@ const u8 gExveemonPokedexText[] = _(
     "Its legs and arms are incredibly developed\n"
     "letting it destory foes with ease.");
 
-const u8 gSnoruntPokedexText[] = _(
-    "They tend to move about in groups of\n"
-    "around five SNORUNT. In snowy regions,\n"
-    "it is said that when they are seen late at\n"
-    "night, snowfall will arrive by morning.");
+const u8 gExveemon_virusPokedexText[] = _(
+    "Very little is known about this variant of\n"
+    "ExVeemon. It is an incredibly rare virus\n"
+    "type, its personality is percieved to be\n"
+    "slightly more vicious.");
 
 const u8 gGlaliePokedexText[] = _(
     "A GLALIE has the power to instantaneously\n"

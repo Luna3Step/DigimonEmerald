@@ -532,8 +532,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_NAUGHTY
     },
-    [FRONTIER_MON_SNORUNT] = {
-        .species = SPECIES_SNORUNT,
+    [FRONTIER_MON_EXVEEMON_VIRUS] = {
+        .species = SPECIES_EXVEEMON_VIRUS,
         .moves = {MOVE_ICY_WIND, MOVE_HEADBUTT, MOVE_LEER, MOVE_BITE},
         .itemTableId = BATTLE_FRONTIER_ITEM_PERSIM_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

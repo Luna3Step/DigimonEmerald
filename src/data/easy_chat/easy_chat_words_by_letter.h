@@ -1516,7 +1516,7 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_MOVE(SNORE),
     EC_POKEMON_NATIONAL(DRACOMON),
     EC_WORD_SNORT,
-    EC_POKEMON(SNORUNT),
+    EC_POKEMON(EXVEEMON_VIRUS),
     EC_POKEMON_NATIONAL(MODBETAMON),
     EC_WORD_SO,
     EC_MOVE2(SOFT_BOILED),
@@ -2385,7 +2385,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseYu[] = {
-    EC_POKEMON(SNORUNT),
+    EC_POKEMON(EXVEEMON_VIRUS),
     EC_WORD_TAKE,
     EC_WORD_UNION,
     EC_MOVE2(METRONOME),

@@ -1118,7 +1118,7 @@ const u16 gEggMoves[] = {
               MOVE_DYNAMIC_PUNCH,
               MOVE_COUNTER),
 
-    egg_moves(SNORUNT,
+    egg_moves(EXVEEMON_VIRUS,
               MOVE_BLOCK,
               MOVE_SPIKES),
 

@@ -4332,12 +4332,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SNORUNT] =
+    [NATIONAL_DEX_EXVEEMON_VIRUS] =
     {
-        .categoryName = _("SNOW HAT"),
-        .height = 7,
-        .weight = 168,
-        .description = gSnoruntPokedexText,
+        .categoryName = _("DRAGON MAN"),
+        .height = 44,
+        .weight = 1397,
+        .description = gExveemon_virusPokedexText,
         .pokemonScale = 380,
         .pokemonOffset = 15,
         .trainerScale = 256,
