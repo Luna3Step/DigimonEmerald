@@ -2134,11 +2134,11 @@ const u8 gDrimogemonPokedexText[] = _(
     "because it spends most of its time burrrowing\n"
     "deep underground.");
 
-const u8 gDusclopsPokedexText[] = _(
-    "It is thought that its body is hollow with\n"
-    "only a spectral ball of fire burning inside.\n"
-    "However, no one has been able to\n"
-    "confirm this theory as fact.");
+const u8 gEbidramonPokedexText[] = _(
+    "Ebidramons tough outer shell can sometimes\n"
+    "lead others to mistake it as not being\n"
+    "very good at fighting back however its\n"
+    "gigantic pincers quickly show otherwise.");
 
 const u8 gTropiusPokedexText[] = _(
     "It flies by flapping its broad leaves.\n"

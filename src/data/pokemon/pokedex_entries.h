@@ -4272,12 +4272,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUSCLOPS] =
+    [NATIONAL_DEX_EBIDRAMON] =
     {
-        .categoryName = _("BECKON"),
-        .height = 16,
-        .weight = 306,
-        .description = gDusclopsPokedexText,
+        .categoryName = _("SHRIMP"),
+        .height = 18,
+        .weight = 792,
+        .description = gEbidramonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 299,
