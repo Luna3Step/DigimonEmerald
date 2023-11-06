@@ -415,7 +415,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_LATIOS]      = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
     [SPECIES_JIRACHI]     = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 13 },
     [SPECIES_DEOXYS]      = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  1 },
-    [SPECIES_CHIMECHO]    = { .size = MON_COORDS_SIZE(24, 56), .y_offset =  6 },
+    [SPECIES_EOSMON_CHAMPION]    = { .size = MON_COORDS_SIZE(24, 56), .y_offset =  6 },
     [SPECIES_EGG]         = { .size = MON_COORDS_SIZE(24, 24), .y_offset = 20 },
     [SPECIES_UNOWN_B]     = { .size = MON_COORDS_SIZE(24, 32), .y_offset = 16 },
     [SPECIES_UNOWN_C]     = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 16 },

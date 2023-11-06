@@ -3708,7 +3708,7 @@ static void DebugAction_Fill_PCBoxes_Slow(u8 taskId)
                     i += 1;
                 else if (i == SPECIES_STRABIMON)
                     i = SPECIES_SUNARZAMON;
-                else if (i < SPECIES_CHIMECHO)
+                else if (i < SPECIES_EOSMON_CHAMPION)
                     i += 1;
                 else
                     i = 1;

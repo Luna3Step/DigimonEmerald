@@ -1300,7 +1300,7 @@ const u16 gEggMoves[] = {
               MOVE_TWISTER,
               MOVE_DRAGON_DANCE),
 
-    egg_moves(CHIMECHO,
+    egg_moves(EOSMON_CHAMPION,
               MOVE_DISABLE,
               MOVE_CURSE,
               MOVE_HYPNOSIS,

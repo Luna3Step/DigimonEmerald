@@ -4296,12 +4296,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
-    [NATIONAL_DEX_CHIMECHO] =
+    [NATIONAL_DEX_EOSMON_CHAMPION] =
     {
-        .categoryName = _("WIND CHIME"),
-        .height = 6,
-        .weight = 10,
-        .description = gChimechoPokedexText,
+        .categoryName = _("ARTIFICIAL"),
+        .height = 11,
+        .weight = 582,
+        .description = gEosmon_championPokedexText,
         .pokemonScale = 505,
         .pokemonOffset = 0,
         .trainerScale = 256,

@@ -2146,11 +2146,11 @@ const u8 gElephanmonPokedexText[] = _(
     "turbines that make up its ears. It can't\n"
     "fly but it can float indefinitely.");
 
-const u8 gChimechoPokedexText[] = _(
-    "They fly about very actively when the hot\n"
-    "season arrives. They communicate among\n"
-    "themselves using seven different and\n"
-    "distinguishing cries.");
+const u8 gEosmon_championPokedexText[] = _(
+    "Produced from the mad research into\n"
+    "artificial Digimon, Eosmon is the first\n"
+    "Champion level Digimon. Before then, the\n"
+    "highest level achieved was Rookie level.");
 
 const u8 gAbsolPokedexText[] = _(
     "It sharply senses even subtle changes in\n"
