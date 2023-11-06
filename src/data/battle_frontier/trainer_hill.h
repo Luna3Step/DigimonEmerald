@@ -1831,7 +1831,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_ABSOL,
+                                            .species = SPECIES_EXERMON,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_ATTRACT, MOVE_NONE},
                                             .hpEV = 85,
@@ -4434,7 +4434,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_ABSOL,
+                                            .species = SPECIES_EXERMON,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_PERISH_SONG, MOVE_DOUBLE_EDGE, MOVE_PROTECT, MOVE_TORMENT},
                                             .hpEV = 252,

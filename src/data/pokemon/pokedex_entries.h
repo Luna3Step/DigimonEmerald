@@ -4308,12 +4308,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABSOL] =
+    [NATIONAL_DEX_EXERMON] =
     {
-        .categoryName = _("DISASTER"),
-        .height = 12,
-        .weight = 470,
-        .description = gAbsolPokedexText,
+        .categoryName = _("YOGA"),
+        .height = 25,
+        .weight = 872,
+        .description = gExermonPokedexText,
         .pokemonScale = 301,
         .pokemonOffset = 3,
         .trainerScale = 256,

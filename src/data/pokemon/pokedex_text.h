@@ -2152,11 +2152,11 @@ const u8 gEosmon_championPokedexText[] = _(
     "Champion level Digimon. Before then, the\n"
     "highest level achieved was Rookie level.");
 
-const u8 gAbsolPokedexText[] = _(
-    "It sharply senses even subtle changes in\n"
-    "the sky and the land to predict natural\n"
-    "disasters. It is a long-lived POKéMON that\n"
-    "has a life-span of 100 years.");
+const u8 gExermonPokedexText[] = _(
+    "Exermon spends most of its time atop high\n"
+    "mountainous regions in which it practises\n"
+    "yoga and taijutsu. All this practise has\n"
+    "led it to perfect its sense of balance.");
 
 const u8 gWynautPokedexText[] = _(
     "A WYNAUT loves to eat sweet fruits.\n"

@@ -1217,7 +1217,7 @@ const u16 gEggMoves[] = {
               MOVE_BARRIER,
               MOVE_CONFUSE_RAY),
 
-    egg_moves(ABSOL,
+    egg_moves(EXERMON,
               MOVE_BATON_PASS,
               MOVE_FAINT_ATTACK,
               MOVE_DOUBLE_EDGE,

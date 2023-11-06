@@ -5069,7 +5069,7 @@ static const u16 sGorebyssLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sAbsolLevelUpLearnset[] = {
+static const u16 sExermonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 5, MOVE_LEER),
     LEVEL_UP_MOVE( 9, MOVE_TAUNT),
