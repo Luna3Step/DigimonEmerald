@@ -4623,7 +4623,7 @@ static const u16 sExveemon_virusLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGlalieLevelUpLearnset[] = {
+static const u16 sEyesmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),

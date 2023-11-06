@@ -2170,11 +2170,11 @@ const u8 gExveemon_virusPokedexText[] = _(
     "type, its personality is percieved to be\n"
     "slightly more vicious.");
 
-const u8 gGlaliePokedexText[] = _(
-    "A GLALIE has the power to instantaneously\n"
-    "freeze moisture in the atmosphere.\n"
-    "A dazzling cloud of diamondlike ice\n"
-    "crystals forms around its body.");
+const u8 gEyesmonPokedexText[] = _(
+    "Capable of hiding itself in the shadows, \n"
+    "Eyesmon is a frustrating Digimon to fight.\n"
+    "As it accumulates more data, it gets\n"
+    "stronger letting it defeat Ultimates.");
 
 const u8 gSphealPokedexText[] = _(
     "It is completely covered with plushy fur.\n"

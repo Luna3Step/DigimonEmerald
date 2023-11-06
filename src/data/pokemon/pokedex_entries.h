@@ -4344,12 +4344,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GLALIE] =
+    [NATIONAL_DEX_EYESMON] =
     {
-        .categoryName = _("FACE"),
-        .height = 15,
-        .weight = 2565,
-        .description = gGlaliePokedexText,
+        .categoryName = _("SHADOW"),
+        .height = 69,
+        .weight = 53,
+        .description = gEyesmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 344,
