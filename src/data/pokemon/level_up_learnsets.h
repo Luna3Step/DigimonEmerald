@@ -5378,7 +5378,7 @@ static const u16 sFlymonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sShelgonLevelUpLearnset[] = {
+static const u16 sFrigimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_RAGE),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),

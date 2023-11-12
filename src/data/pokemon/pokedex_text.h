@@ -2230,11 +2230,11 @@ const u8 gFlymonPokedexText[] = _(
     "When it catches an opponent, it will hold\n"
     "them down with its talons.");
 
-const u8 gShelgonPokedexText[] = _(
-    "It hardly eats while it awaits evolution.\n"
-    "It becomes hardier by enduring hunger.\n"
-    "Its shell peels off the instant it begins\n"
-    "to evolve.");
+const u8 gFrigimonPokedexText[] = _(
+    "Many mistake Frigimons to be cold hearted\n"
+    "Digimon however it is actually incredibly\n"
+    "loving, willing to look after any Digimon\n"
+    "that crosses its path.");
 
 const u8 gSalamencePokedexText[] = _(
     "After many long years, its cellular\n"

@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BAGON"
-with "FRONTIER_MON_FLYMON"
+replace "FRONTIER_MON_SHELGON"
+with "FRONTIER_MON_FRIGIMON"
 
-replace "gBagonPokedexText"
-with "gFlymonPokedexText"
+replace "gShelgonPokedexText"
+with "gFrigimonPokedexText"
 
-replace "NATIONAL_DEX_BAGON"
-with "NATIONAL_DEX_FLYMON"
+replace "NATIONAL_DEX_SHELGON"
+with "NATIONAL_DEX_FRIGIMON"
 
-replace "SPECIES_BAGON"
-with "SPECIES_FLYMON"
+replace "SPECIES_SHELGON"
+with "SPECIES_FRIGIMON"
 
-replace "HOENN_DEX_BAGON"
-with "HOENN_DEX_FLYMON"
+replace "HOENN_DEX_SHELGON"
+with "HOENN_DEX_FRIGIMON"
 
-replace "SPECIES_TO_HOENN(BAGON),"
-with "SPECIES_TO_HOENN(FLYMON),"
+replace "SPECIES_TO_HOENN(SHELGON),"
+with "SPECIES_TO_HOENN(FRIGIMON),"
 
-replace "SPECIES_TO_NATIONAL(BAGON),"
-with "SPECIES_TO_NATIONAL(FLYMON),"
+replace "SPECIES_TO_NATIONAL(SHELGON),"
+with "SPECIES_TO_NATIONAL(FRIGIMON),"
 
-replace "HOENN_TO_NATIONAL(BAGON),"
-with "HOENN_TO_NATIONAL(FLYMON),"
+replace "HOENN_TO_NATIONAL(SHELGON),"
+with "HOENN_TO_NATIONAL(FRIGIMON),"
 
-replace "EC_POKEMON_NATIONAL(BAGON),"
-with "EC_POKEMON_NATIONAL(FLYMON),"
+replace "EC_POKEMON_NATIONAL(SHELGON),"
+with "EC_POKEMON_NATIONAL(FRIGIMON),"
 
-replace "egg_moves(BAGON,"
-with "egg_moves(FLYMON,"
+replace "egg_moves(SHELGON,"
+with "egg_moves(FRIGIMON,"
 
-replace "sBagonLevelUpLearnset"
-with "sFlymonLevelUpLearnset"
+replace "sShelgonLevelUpLearnset"
+with "sFrigimonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BAGON"
-with "SPECIES_SPRITE(FLYMON"
+replace "SPECIES_SPRITE(SHELGON"
+with "SPECIES_SPRITE(FRIGIMON"
 
-replace "SPECIES_PAL(BAGON,"
-with "SPECIES_PAL(FLYMON,"
+replace "SPECIES_PAL(SHELGON,"
+with "SPECIES_PAL(FRIGIMON,"
 
-replace "SPECIES_SHINY_PAL(BAGON,"
-with "SPECIES_SHINY_PAL(FLYMON,"
+replace "SPECIES_SHINY_PAL(SHELGON,"
+with "SPECIES_SHINY_PAL(FRIGIMON,"
 
-replace "EC_POKEMON(BAGON)"
-with "EC_POKEMON(FLYMON)"
+replace "EC_POKEMON(SHELGON)"
+with "EC_POKEMON(FRIGIMON)"
 
-replace "EC_POKEMON_NATIONAL(BAGON)"
-with "EC_POKEMON_NATIONAL(FLYMON)"
+replace "EC_POKEMON_NATIONAL(SHELGON)"
+with "EC_POKEMON_NATIONAL(FRIGIMON)"
 
 in "src/data/text/species_names.h"
-replace "BAGON"
-with "FLYMON"
+replace "SHELGON"
+with "FRIGIMON"

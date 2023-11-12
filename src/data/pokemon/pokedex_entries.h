@@ -4464,12 +4464,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SHELGON] =
+    [NATIONAL_DEX_FRIGIMON] =
     {
-        .categoryName = _("ENDURANCE"),
-        .height = 11,
-        .weight = 1105,
-        .description = gShelgonPokedexText,
+        .categoryName = _("SNOWMAN"),
+        .height = 20,
+        .weight = 578,
+        .description = gFrigimonPokedexText,
         .pokemonScale = 311,
         .pokemonOffset = 12,
         .trainerScale = 256,
