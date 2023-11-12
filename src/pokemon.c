@@ -470,7 +470,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(BAOHUCKMON),
     SPECIES_TO_HOENN(BAROMON),
     SPECIES_TO_HOENN(TRAILMON_BATTLE_ARMAMENT),
-    SPECIES_TO_HOENN(CLAMPERL),
+    SPECIES_TO_HOENN(FIRAMON),
     SPECIES_TO_HOENN(HUNTAIL),
     SPECIES_TO_HOENN(GOREBYSS),
     SPECIES_TO_HOENN(EXERMON),
@@ -886,7 +886,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(BAOHUCKMON),
     SPECIES_TO_NATIONAL(BAROMON),
     SPECIES_TO_NATIONAL(TRAILMON_BATTLE_ARMAMENT),
-    SPECIES_TO_NATIONAL(CLAMPERL),
+    SPECIES_TO_NATIONAL(FIRAMON),
     SPECIES_TO_NATIONAL(HUNTAIL),
     SPECIES_TO_NATIONAL(GOREBYSS),
     SPECIES_TO_NATIONAL(EXERMON),
@@ -1105,7 +1105,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(EYESMON_SCATTERMODE),
     HOENN_TO_NATIONAL(FANGMON),
     HOENN_TO_NATIONAL(FILMON),
-    HOENN_TO_NATIONAL(CLAMPERL),
+    HOENN_TO_NATIONAL(FIRAMON),
     HOENN_TO_NATIONAL(HUNTAIL),
     HOENN_TO_NATIONAL(GOREBYSS),
     HOENN_TO_NATIONAL(RELICANTH),
@@ -1743,7 +1743,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_BAOHUCKMON - 1]     = ANIM_H_SLIDE,
     [SPECIES_BAROMON - 1]     = ANIM_BOUNCE_ROTATE_TO_SIDES_SLOW,
     [SPECIES_TRAILMON_BATTLE_ARMAMENT - 1]     = ANIM_V_SHAKE_TWICE,
-    [SPECIES_CLAMPERL - 1]    = ANIM_TWIST,
+    [SPECIES_FIRAMON - 1]    = ANIM_TWIST,
     [SPECIES_HUNTAIL - 1]     = ANIM_GROW_VIBRATE,
     [SPECIES_GOREBYSS - 1]    = ANIM_V_SLIDE_WOBBLE,
     [SPECIES_EXERMON - 1]       = ANIM_CIRCULAR_VIBRATE,
@@ -3175,9 +3175,9 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         spAttack = (150 * spAttack) / 100;
     if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER)) && (defender->species == SPECIES_LATIAS || defender->species == SPECIES_LATIOS))
         spDefense = (150 * spDefense) / 100;
-    if (attackerHoldEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && attacker->species == SPECIES_CLAMPERL)
+    if (attackerHoldEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && attacker->species == SPECIES_FIRAMON)
         spAttack *= 2;
-    if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_CLAMPERL)
+    if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_FIRAMON)
         spDefense *= 2;
     if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PETITMON)
         spAttack *= 2;

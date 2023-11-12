@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_WALREIN"
-with "FRONTIER_MON_FILMON"
+replace "FRONTIER_MON_CLAMPERL"
+with "FRONTIER_MON_FIRAMON"
 
-replace "gWalreinPokedexText"
-with "gFilmonPokedexText"
+replace "gClamperlPokedexText"
+with "gFiramonPokedexText"
 
-replace "NATIONAL_DEX_WALREIN"
-with "NATIONAL_DEX_FILMON"
+replace "NATIONAL_DEX_CLAMPERL"
+with "NATIONAL_DEX_FIRAMON"
 
-replace "SPECIES_WALREIN"
-with "SPECIES_FILMON"
+replace "SPECIES_CLAMPERL"
+with "SPECIES_FIRAMON"
 
-replace "HOENN_DEX_WALREIN"
-with "HOENN_DEX_FILMON"
+replace "HOENN_DEX_CLAMPERL"
+with "HOENN_DEX_FIRAMON"
 
-replace "SPECIES_TO_HOENN(WALREIN),"
-with "SPECIES_TO_HOENN(FILMON),"
+replace "SPECIES_TO_HOENN(CLAMPERL),"
+with "SPECIES_TO_HOENN(FIRAMON),"
 
-replace "SPECIES_TO_NATIONAL(WALREIN),"
-with "SPECIES_TO_NATIONAL(FILMON),"
+replace "SPECIES_TO_NATIONAL(CLAMPERL),"
+with "SPECIES_TO_NATIONAL(FIRAMON),"
 
-replace "HOENN_TO_NATIONAL(WALREIN),"
-with "HOENN_TO_NATIONAL(FILMON),"
+replace "HOENN_TO_NATIONAL(CLAMPERL),"
+with "HOENN_TO_NATIONAL(FIRAMON),"
 
-replace "EC_POKEMON_NATIONAL(WALREIN),"
-with "EC_POKEMON_NATIONAL(FILMON),"
+replace "EC_POKEMON_NATIONAL(CLAMPERL),"
+with "EC_POKEMON_NATIONAL(FIRAMON),"
 
-replace "egg_moves(WALREIN,"
-with "egg_moves(FILMON,"
+replace "egg_moves(CLAMPERL,"
+with "egg_moves(FIRAMON,"
 
-replace "sWalreinLevelUpLearnset"
-with "sFilmonLevelUpLearnset"
+replace "sClamperlLevelUpLearnset"
+with "sFiramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(WALREIN"
-with "SPECIES_SPRITE(FILMON"
+replace "SPECIES_SPRITE(CLAMPERL"
+with "SPECIES_SPRITE(FIRAMON"
 
-replace "SPECIES_PAL(WALREIN,"
-with "SPECIES_PAL(FILMON,"
+replace "SPECIES_PAL(CLAMPERL,"
+with "SPECIES_PAL(FIRAMON,"
 
-replace "SPECIES_SHINY_PAL(WALREIN,"
-with "SPECIES_SHINY_PAL(FILMON,"
+replace "SPECIES_SHINY_PAL(CLAMPERL,"
+with "SPECIES_SHINY_PAL(FIRAMON,"
 
-replace "EC_POKEMON(WALREIN)"
-with "EC_POKEMON(FILMON)"
+replace "EC_POKEMON(CLAMPERL)"
+with "EC_POKEMON(FIRAMON)"
 
-replace "EC_POKEMON_NATIONAL(WALREIN)"
-with "EC_POKEMON_NATIONAL(FILMON)"
+replace "EC_POKEMON_NATIONAL(CLAMPERL)"
+with "EC_POKEMON_NATIONAL(FIRAMON)"
 
 in "src/data/text/species_names.h"
-replace "WALREIN"
-with "FILMON"
+replace "CLAMPERL"
+with "FIRAMON"

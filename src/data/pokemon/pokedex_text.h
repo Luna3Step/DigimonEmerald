@@ -2194,11 +2194,11 @@ const u8 gFilmonPokedexText[] = _(
     "when near others as its quills can unleash a\n"
     "storm of electricity if they pierce something.");
 
-const u8 gClamperlPokedexText[] = _(
-    "A CLAMPERL slams its shell closed on prey\n"
-    "to prevent escape. The pearl it creates\n"
-    "upon evolution is said to be infused with\n"
-    "a mysterious energy.");
+const u8 gFiramonPokedexText[] = _(
+    "Although they do not wish it, Firamon are\n"
+    "often thrusted into leadership positions.\n"
+    "It is considered a very wise and strong\n"
+    "leader who protects all.");
 
 const u8 gHuntailPokedexText[] = _(
     "To withstand the crushing pressure of\n"

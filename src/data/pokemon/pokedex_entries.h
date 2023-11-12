@@ -4392,12 +4392,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLAMPERL] =
+    [NATIONAL_DEX_FIRAMON] =
     {
-        .categoryName = _("BIVALVE"),
-        .height = 4,
-        .weight = 525,
-        .description = gClamperlPokedexText,
+        .categoryName = _("SKY LION"),
+        .height = 30,
+        .weight = 1102,
+        .description = gFiramonPokedexText,
         .pokemonScale = 691,
         .pokemonOffset = 22,
         .trainerScale = 256,

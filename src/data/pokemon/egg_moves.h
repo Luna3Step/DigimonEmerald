@@ -1209,7 +1209,7 @@ const u16 gEggMoves[] = {
               MOVE_EXTRASENSORY,
               MOVE_SMELLING_SALT),
 
-    egg_moves(CLAMPERL,
+    egg_moves(FIRAMON,
               MOVE_REFRESH,
               MOVE_MUD_SPORT,
               MOVE_BODY_SLAM,
