@@ -4538,7 +4538,7 @@ static const u16 sEyesmon_scattermodeLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sSealeoLevelUpLearnset[] = {
+static const u16 sFangmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),

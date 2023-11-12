@@ -4368,12 +4368,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SEALEO] =
+    [NATIONAL_DEX_FANGMON] =
     {
-        .categoryName = _("BALL ROLL"),
-        .height = 11,
-        .weight = 876,
-        .description = gSealeoPokedexText,
+        .categoryName = _("GRIMMS WOLF"),
+        .height = 28,
+        .weight = 753,
+        .description = gFangmonPokedexText,
         .pokemonScale = 338,
         .pokemonOffset = 13,
         .trainerScale = 256,

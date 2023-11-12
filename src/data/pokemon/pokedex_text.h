@@ -2182,11 +2182,11 @@ const u8 gEyesmon_scattermodePokedexText[] = _(
     "no fighting capabilities, instead being\n"
     "used for monitoring far and wide.");
 
-const u8 gSealeoPokedexText[] = _(
-    "SEALEO live in herds on ice floes. Using its\n"
-    "powerful flippers, it shatters ice.\n"
-    "It dives into the sea to hunt prey five\n"
-    "times a day.");
+const u8 gFangmonPokedexText[] = _(
+    "Living in the depths of forests, Fangmon\n"
+    "likes to prey on those who lose their way.\n"
+    "It is believed to be composed of data from\n"
+    "children fairy tales.");
 
 const u8 gWalreinPokedexText[] = _(
     "To protect its herd, the leader battles\n"
