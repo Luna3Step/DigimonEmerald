@@ -2188,11 +2188,11 @@ const u8 gFangmonPokedexText[] = _(
     "It is believed to be composed of data from\n"
     "children fairy tales.");
 
-const u8 gWalreinPokedexText[] = _(
-    "To protect its herd, the leader battles\n"
-    "anything that invades its territory, even\n"
-    "at the cost of its life. Its tusks may snap\n"
-    "off in battle.");
+const u8 gFilmonPokedexText[] = _(
+    "Filmon likes to wonder about collecting soft\n"
+    "materials for bedding. It has to be careful\n"
+    "when near others as its quills can unleash a\n"
+    "storm of electricity if they pierce something.");
 
 const u8 gClamperlPokedexText[] = _(
     "A CLAMPERL slams its shell closed on prey\n"

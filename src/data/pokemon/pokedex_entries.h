@@ -4380,12 +4380,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WALREIN] =
+    [NATIONAL_DEX_FILMON] =
     {
-        .categoryName = _("ICE BREAK"),
-        .height = 14,
-        .weight = 1506,
-        .description = gWalreinPokedexText,
+        .categoryName = _("HEDGEHOG"),
+        .height = 19,
+        .weight = 634,
+        .description = gFilmonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 4,
         .trainerScale = 256,
