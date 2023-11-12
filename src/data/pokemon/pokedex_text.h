@@ -2200,11 +2200,11 @@ const u8 gFiramonPokedexText[] = _(
     "It is considered a very wise and strong\n"
     "leader who protects all.");
 
-const u8 gHuntailPokedexText[] = _(
-    "To withstand the crushing pressure of\n"
-    "water deep under the sea, its spine is very\n"
-    "thick and sturdy. Its tail, which is shaped\n"
-    "like a small fish, has eyes that light up.");
+const u8 gFladramonPokedexText[] = _(
+    "With the use of the Digi-Egg of courage, \n"
+    "Fladramons power increasess as if though it\n"
+    "is a blazing flame. It uses this power to\n"
+    "unleash fast and devestating attacks.");
 
 const u8 gGorebyssPokedexText[] = _(
     "A GOREBYSS siphons the body fluids of prey\n"

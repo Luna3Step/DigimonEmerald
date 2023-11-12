@@ -4404,12 +4404,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HUNTAIL] =
+    [NATIONAL_DEX_FLADRAMON] =
     {
-        .categoryName = _("DEEP SEA"),
-        .height = 17,
-        .weight = 270,
-        .description = gHuntailPokedexText,
+        .categoryName = _("COURAGE"),
+        .height = 23,
+        .weight = 885,
+        .description = gFladramonPokedexText,
         .pokemonScale = 307,
         .pokemonOffset = 1,
         .trainerScale = 256,

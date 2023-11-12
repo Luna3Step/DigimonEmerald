@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_CLAMPERL"
-with "FRONTIER_MON_FIRAMON"
+replace "FRONTIER_MON_HUNTAIL"
+with "FRONTIER_MON_FLADRAMON"
 
-replace "gClamperlPokedexText"
-with "gFiramonPokedexText"
+replace "gHuntailPokedexText"
+with "gFladramonPokedexText"
 
-replace "NATIONAL_DEX_CLAMPERL"
-with "NATIONAL_DEX_FIRAMON"
+replace "NATIONAL_DEX_HUNTAIL"
+with "NATIONAL_DEX_FLADRAMON"
 
-replace "SPECIES_CLAMPERL"
-with "SPECIES_FIRAMON"
+replace "SPECIES_HUNTAIL"
+with "SPECIES_FLADRAMON"
 
-replace "HOENN_DEX_CLAMPERL"
-with "HOENN_DEX_FIRAMON"
+replace "HOENN_DEX_HUNTAIL"
+with "HOENN_DEX_FLADRAMON"
 
-replace "SPECIES_TO_HOENN(CLAMPERL),"
-with "SPECIES_TO_HOENN(FIRAMON),"
+replace "SPECIES_TO_HOENN(HUNTAIL),"
+with "SPECIES_TO_HOENN(FLADRAMON),"
 
-replace "SPECIES_TO_NATIONAL(CLAMPERL),"
-with "SPECIES_TO_NATIONAL(FIRAMON),"
+replace "SPECIES_TO_NATIONAL(HUNTAIL),"
+with "SPECIES_TO_NATIONAL(FLADRAMON),"
 
-replace "HOENN_TO_NATIONAL(CLAMPERL),"
-with "HOENN_TO_NATIONAL(FIRAMON),"
+replace "HOENN_TO_NATIONAL(HUNTAIL),"
+with "HOENN_TO_NATIONAL(FLADRAMON),"
 
-replace "EC_POKEMON_NATIONAL(CLAMPERL),"
-with "EC_POKEMON_NATIONAL(FIRAMON),"
+replace "EC_POKEMON_NATIONAL(HUNTAIL),"
+with "EC_POKEMON_NATIONAL(FLADRAMON),"
 
-replace "egg_moves(CLAMPERL,"
-with "egg_moves(FIRAMON,"
+replace "egg_moves(HUNTAIL,"
+with "egg_moves(FLADRAMON,"
 
-replace "sClamperlLevelUpLearnset"
-with "sFiramonLevelUpLearnset"
+replace "sHuntailLevelUpLearnset"
+with "sFladramonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(CLAMPERL"
-with "SPECIES_SPRITE(FIRAMON"
+replace "SPECIES_SPRITE(HUNTAIL"
+with "SPECIES_SPRITE(FLADRAMON"
 
-replace "SPECIES_PAL(CLAMPERL,"
-with "SPECIES_PAL(FIRAMON,"
+replace "SPECIES_PAL(HUNTAIL,"
+with "SPECIES_PAL(FLADRAMON,"
 
-replace "SPECIES_SHINY_PAL(CLAMPERL,"
-with "SPECIES_SHINY_PAL(FIRAMON,"
+replace "SPECIES_SHINY_PAL(HUNTAIL,"
+with "SPECIES_SHINY_PAL(FLADRAMON,"
 
-replace "EC_POKEMON(CLAMPERL)"
-with "EC_POKEMON(FIRAMON)"
+replace "EC_POKEMON(HUNTAIL)"
+with "EC_POKEMON(FLADRAMON)"
 
-replace "EC_POKEMON_NATIONAL(CLAMPERL)"
-with "EC_POKEMON_NATIONAL(FIRAMON)"
+replace "EC_POKEMON_NATIONAL(HUNTAIL)"
+with "EC_POKEMON_NATIONAL(FLADRAMON)"
 
 in "src/data/text/species_names.h"
-replace "CLAMPERL"
-with "FIRAMON"
+replace "HUNTAIL"
+with "FLADRAMON"
