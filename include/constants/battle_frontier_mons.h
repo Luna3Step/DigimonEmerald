@@ -79,7 +79,7 @@
 #define FRONTIER_MON_DEXDORUMON         75
 #define FRONTIER_MON_EXVEEMON_VIRUS        76
 #define FRONTIER_MON_FLYMON          77
-#define FRONTIER_MON_BELDUM         78
+#define FRONTIER_MON_FUGAMON         78
 #define FRONTIER_MON_BURAIMON         79
 #define FRONTIER_MON_BIBIMON        80
 #define FRONTIER_MON_DEMIVEEMON         81

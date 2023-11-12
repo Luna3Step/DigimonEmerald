@@ -8991,7 +8991,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
-    [SPECIES_BELDUM]      = TMHM_LEARNSET(0),
+    [SPECIES_FUGAMON]      = TMHM_LEARNSET(0),
 
     [SPECIES_METANG]      = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

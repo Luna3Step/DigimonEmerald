@@ -5417,7 +5417,7 @@ static const u16 sFrogmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sBeldumLevelUpLearnset[] = {
+static const u16 sFugamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TAKE_DOWN),
     LEVEL_UP_END
 };

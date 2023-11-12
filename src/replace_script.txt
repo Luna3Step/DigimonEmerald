@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_SALAMENCE"
-with "FRONTIER_MON_FROGMON"
+replace "FRONTIER_MON_BELDUM"
+with "FRONTIER_MON_FUGAMON"
 
-replace "gSalamencePokedexText"
-with "gFrogmonPokedexText"
+replace "gBeldumPokedexText"
+with "gFugamonPokedexText"
 
-replace "NATIONAL_DEX_SALAMENCE"
-with "NATIONAL_DEX_FROGMON"
+replace "NATIONAL_DEX_BELDUM"
+with "NATIONAL_DEX_FUGAMON"
 
-replace "SPECIES_SALAMENCE"
-with "SPECIES_FROGMON"
+replace "SPECIES_BELDUM"
+with "SPECIES_FUGAMON"
 
-replace "HOENN_DEX_SALAMENCE"
-with "HOENN_DEX_FROGMON"
+replace "HOENN_DEX_BELDUM"
+with "HOENN_DEX_FUGAMON"
 
-replace "SPECIES_TO_HOENN(SALAMENCE),"
-with "SPECIES_TO_HOENN(FROGMON),"
+replace "SPECIES_TO_HOENN(BELDUM),"
+with "SPECIES_TO_HOENN(FUGAMON),"
 
-replace "SPECIES_TO_NATIONAL(SALAMENCE),"
-with "SPECIES_TO_NATIONAL(FROGMON),"
+replace "SPECIES_TO_NATIONAL(BELDUM),"
+with "SPECIES_TO_NATIONAL(FUGAMON),"
 
-replace "HOENN_TO_NATIONAL(SALAMENCE),"
-with "HOENN_TO_NATIONAL(FROGMON),"
+replace "HOENN_TO_NATIONAL(BELDUM),"
+with "HOENN_TO_NATIONAL(FUGAMON),"
 
-replace "EC_POKEMON_NATIONAL(SALAMENCE),"
-with "EC_POKEMON_NATIONAL(FROGMON),"
+replace "EC_POKEMON_NATIONAL(BELDUM),"
+with "EC_POKEMON_NATIONAL(FUGAMON),"
 
-replace "egg_moves(SALAMENCE,"
-with "egg_moves(FROGMON,"
+replace "egg_moves(BELDUM,"
+with "egg_moves(FUGAMON,"
 
-replace "sSalamenceLevelUpLearnset"
-with "sFrogmonLevelUpLearnset"
+replace "sBeldumLevelUpLearnset"
+with "sFugamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(SALAMENCE"
-with "SPECIES_SPRITE(FROGMON"
+replace "SPECIES_SPRITE(BELDUM"
+with "SPECIES_SPRITE(FUGAMON"
 
-replace "SPECIES_PAL(SALAMENCE,"
-with "SPECIES_PAL(FROGMON,"
+replace "SPECIES_PAL(BELDUM,"
+with "SPECIES_PAL(FUGAMON,"
 
-replace "SPECIES_SHINY_PAL(SALAMENCE,"
-with "SPECIES_SHINY_PAL(FROGMON,"
+replace "SPECIES_SHINY_PAL(BELDUM,"
+with "SPECIES_SHINY_PAL(FUGAMON,"
 
-replace "EC_POKEMON(SALAMENCE)"
-with "EC_POKEMON(FROGMON)"
+replace "EC_POKEMON(BELDUM)"
+with "EC_POKEMON(FUGAMON)"
 
-replace "EC_POKEMON_NATIONAL(SALAMENCE)"
-with "EC_POKEMON_NATIONAL(FROGMON)"
+replace "EC_POKEMON_NATIONAL(BELDUM)"
+with "EC_POKEMON_NATIONAL(FUGAMON)"
 
 in "src/data/text/species_names.h"
-replace "SALAMENCE"
-with "FROGMON"
+replace "BELDUM"
+with "FUGAMON"

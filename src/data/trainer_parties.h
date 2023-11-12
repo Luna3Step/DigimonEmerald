@@ -11644,7 +11644,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Anabel[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11652,7 +11652,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tucker[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11660,7 +11660,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Spenser[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11668,7 +11668,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greta[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11676,7 +11676,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Noland[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11684,7 +11684,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lucy[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 
@@ -11692,7 +11692,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandon[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .species = SPECIES_FUGAMON,
     }
 };
 

@@ -4488,12 +4488,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BELDUM] =
+    [NATIONAL_DEX_FUGAMON] =
     {
-        .categoryName = _("IRON BALL"),
-        .height = 6,
+        .categoryName = _("ONI"),
+        .height = 27,
         .weight = 952,
-        .description = gBeldumPokedexText,
+        .description = gFugamonPokedexText,
         .pokemonScale = 414,
         .pokemonOffset = -1,
         .trainerScale = 256,

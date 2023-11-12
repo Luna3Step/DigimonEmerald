@@ -2242,11 +2242,11 @@ const u8 gFrogmonPokedexText[] = _(
     "hiding. The wheels on its back let it\n"
     "fly for a considerable amount of time.");
 
-const u8 gBeldumPokedexText[] = _(
-    "When BELDUM gather in a swarm, they move\n"
-    "in perfect unison as if they were but one\n"
-    "POKéMON. They communicate with each other\n"
-    "using brain waves.");
+const u8 gFugamonPokedexText[] = _(
+    "Fugamon comes from the same family as\n"
+    "Ogremon however it appears to have been\n"
+    "formed from data based on eastern Oni. Its\n"
+    "punches let it fire out small hurricanes.");
 
 const u8 gMetangPokedexText[] = _(
     "The claws tipping its arms pack the\n"
