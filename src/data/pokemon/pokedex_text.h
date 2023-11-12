@@ -2236,11 +2236,11 @@ const u8 gFrigimonPokedexText[] = _(
     "loving, willing to look after any Digimon\n"
     "that crosses its path.");
 
-const u8 gSalamencePokedexText[] = _(
-    "After many long years, its cellular\n"
-    "structure underwent a sudden mutation to\n"
-    "grow wings. When angered, it loses all\n"
-    "thought and rampages out of control.");
+const u8 gFrogmonPokedexText[] = _(
+    "Not much is known about Frogmon as they\n"
+    "have spent most of their existence in\n"
+    "hiding. The wheels on its back let it\n"
+    "fly for a considerable amount of time.");
 
 const u8 gBeldumPokedexText[] = _(
     "When BELDUM gather in a swarm, they move\n"

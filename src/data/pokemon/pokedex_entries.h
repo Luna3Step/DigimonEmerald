@@ -4476,12 +4476,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SALAMENCE] =
+    [NATIONAL_DEX_FROGMON] =
     {
-        .categoryName = _("DRAGON"),
-        .height = 15,
-        .weight = 1026,
-        .description = gSalamencePokedexText,
+        .categoryName = _("FROG"),
+        .height = 14,
+        .weight = 492,
+        .description = gFrogmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
