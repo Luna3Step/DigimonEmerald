@@ -2206,11 +2206,11 @@ const u8 gFladramonPokedexText[] = _(
     "is a blazing flame. It uses this power to\n"
     "unleash fast and devestating attacks.");
 
-const u8 gGorebyssPokedexText[] = _(
-    "A GOREBYSS siphons the body fluids of prey\n"
-    "through its thin, tubular mouth. Its light\n"
-    "pink body color turns vivid when it\n"
-    "finishes feeding.");
+const u8 gFlawizamonPokedexText[] = _(
+    "Unlike the shy Wizardmon, FlameWizardmon\n"
+    "is a very confident Digimon. It wields\n"
+    "two matchstick-like canes which lets its\n"
+    "fire magic reach its true potential.");
 
 const u8 gRelicanthPokedexText[] = _(
     "A POKéMON that was once believed to have\n"

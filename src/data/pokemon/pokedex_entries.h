@@ -4416,12 +4416,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GOREBYSS] =
+    [NATIONAL_DEX_FLAWIZAMON] =
     {
-        .categoryName = _("SOUTH SEA"),
-        .height = 18,
-        .weight = 226,
-        .description = gGorebyssPokedexText,
+        .categoryName = _("FIRE WIZARD"),
+        .height = 17,
+        .weight = 402,
+        .description = gFlawizamonPokedexText,
         .pokemonScale = 278,
         .pokemonOffset = 5,
         .trainerScale = 256,
