@@ -2212,11 +2212,11 @@ const u8 gFlawizamonPokedexText[] = _(
     "two matchstick-like canes which lets its\n"
     "fire magic reach its true potential.");
 
-const u8 gRelicanthPokedexText[] = _(
-    "A POKéMON that was once believed to have\n"
-    "been extinct. The species has not changed\n"
-    "its form for 100 million years. It walks on\n"
-    "the seafloor using its pectoral fins.");
+const u8 gFlarizamonPokedexText[] = _(
+    "The flames that make up its body are formed\n"
+    "from its own skin combusting. To keep up\n"
+    "with the constant self damage, it has\n"
+    "developed incredibly regenerative skin.");
 
 const u8 gLuvdiscPokedexText[] = _(
     "LUVDISC make the branches of CORSOLA\n"

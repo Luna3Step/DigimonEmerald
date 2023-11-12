@@ -4428,12 +4428,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_RELICANTH] =
+    [NATIONAL_DEX_FLARIZAMON] =
     {
-        .categoryName = _("LONGEVITY"),
-        .height = 10,
-        .weight = 234,
-        .description = gRelicanthPokedexText,
+        .categoryName = _("FIRE LIZARD"),
+        .height = 32,
+        .weight = 964,
+        .description = gFlarizamonPokedexText,
         .pokemonScale = 316,
         .pokemonOffset = 7,
         .trainerScale = 256,

@@ -1246,7 +1246,7 @@ const u16 gEggMoves[] = {
               MOVE_ROAR,
               MOVE_CURSE),
 
-    egg_moves(RELICANTH,
+    egg_moves(FLARIZAMON,
               MOVE_MAGNITUDE,
               MOVE_SKULL_BASH,
               MOVE_WATER_SPORT,

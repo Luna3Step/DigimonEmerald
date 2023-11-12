@@ -5144,7 +5144,7 @@ static const u16 sDarktyrmonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRelicanthLevelUpLearnset[] = {
+static const u16 sFlarizamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 8, MOVE_WATER_GUN),
