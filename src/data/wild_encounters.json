@@ -4976,7 +4976,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_FLYBEEMON"
               },
               {
                 "min_level": 10,
@@ -4986,7 +4986,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_FLYBEEMON"
               },
               {
                 "min_level": 30,
@@ -8991,7 +8991,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_FLYBEEMON"
               },
               {
                 "min_level": 10,
@@ -9001,7 +9001,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_FLYBEEMON"
               },
               {
                 "min_level": 30,

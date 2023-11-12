@@ -2218,11 +2218,11 @@ const u8 gFlarizamonPokedexText[] = _(
     "with the constant self damage, it has\n"
     "developed incredibly regenerative skin.");
 
-const u8 gLuvdiscPokedexText[] = _(
-    "LUVDISC make the branches of CORSOLA\n"
-    "their nests. There is a custom from long\n"
-    "ago of giving a LUVDISC as a gift to\n"
-    "express one's feelings of love.");
+const u8 gFlybeemonPokedexText[] = _(
+    "Although it has evolved due to the Digi-Egg\n"
+    "of Knowledge, it is not particularly smart.\n"
+    "When Digimon enter its territory, it will try\n"
+    "to repel even if they are Mega level");
 
 const u8 gBagonPokedexText[] = _(
     "Although it is small, this POKéMON is very\n"

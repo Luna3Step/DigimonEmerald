@@ -4440,12 +4440,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUVDISC] =
+    [NATIONAL_DEX_FLYBEEMON] =
     {
-        .categoryName = _("RENDEZVOUS"),
-        .height = 6,
-        .weight = 87,
-        .description = gLuvdiscPokedexText,
+        .categoryName = _("WASP"),
+        .height = 10,
+        .weight = 392,
+        .description = gFlybeemonPokedexText,
         .pokemonScale = 371,
         .pokemonOffset = 2,
         .trainerScale = 256,

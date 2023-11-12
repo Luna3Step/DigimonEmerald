@@ -1046,7 +1046,7 @@ const u16 gEggMoves[] = {
               MOVE_WHIRLPOOL,
               MOVE_SPARK),
 
-    egg_moves(LUVDISC,
+    egg_moves(FLYBEEMON,
               MOVE_SPLASH,
               MOVE_SUPERSONIC,
               MOVE_WATER_SPORT,

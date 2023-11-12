@@ -4278,7 +4278,7 @@ static const u16 sDeputymonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLuvdiscLevelUpLearnset[] = {
+static const u16 sFlybeemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_CHARM),
     LEVEL_UP_MOVE(12, MOVE_WATER_GUN),
