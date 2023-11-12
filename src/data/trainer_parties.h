@@ -5147,7 +5147,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas4[] = {
     {
     .iv = 130,
     .lvl = 46,
-    .species = SPECIES_BAGON,
+    .species = SPECIES_FLYMON,
     },
     {
     .iv = 130,
@@ -5186,7 +5186,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
     {
     .iv = 255,
     .lvl = 34,
-    .species = SPECIES_BAGON,
+    .species = SPECIES_FLYMON,
     .moves = {MOVE_DRAGON_BREATH, MOVE_HEADBUTT, MOVE_FOCUS_ENERGY, MOVE_EMBER}
     }
 };

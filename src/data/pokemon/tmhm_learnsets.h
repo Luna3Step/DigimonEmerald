@@ -8917,7 +8917,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM49_SNATCH)
                                         | TMHM(HM05_FLASH)),
 
-    [SPECIES_BAGON]       = TMHM_LEARNSET(TMHM(TM02_DRAGON_CLAW)
+    [SPECIES_FLYMON]       = TMHM_LEARNSET(TMHM(TM02_DRAGON_CLAW)
                                         | TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM10_HIDDEN_POWER)

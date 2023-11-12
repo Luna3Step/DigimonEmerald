@@ -128,7 +128,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
     EC_WORD_BAD,
     EC_WORD_BADLY,
     EC_WORD_BAG,
-    EC_POKEMON(BAGON),
+    EC_POKEMON(FLYMON),
     EC_WORD_BALL,
     EC_POKEMON(DEXDORUMON),
     EC_POKEMON(DORULUMON),

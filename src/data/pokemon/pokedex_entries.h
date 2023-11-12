@@ -4452,12 +4452,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BAGON] =
+    [NATIONAL_DEX_FLYMON] =
     {
-        .categoryName = _("ROCK HEAD"),
-        .height = 6,
-        .weight = 421,
-        .description = gBagonPokedexText,
+        .categoryName = _("BEE"),
+        .height = 23,
+        .weight = 707,
+        .description = gFlymonPokedexText,
         .pokemonScale = 448,
         .pokemonOffset = 18,
         .trainerScale = 256,

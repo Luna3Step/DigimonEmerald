@@ -2224,11 +2224,11 @@ const u8 gFlybeemonPokedexText[] = _(
     "When Digimon enter its territory, it will try\n"
     "to repel even if they are Mega level");
 
-const u8 gBagonPokedexText[] = _(
-    "Although it is small, this POKéMON is very\n"
-    "powerful because its body is a bundle of\n"
-    "muscles. It launches head-butts with its\n"
-    "ironlike skull.");
+const u8 gFlymonPokedexText[] = _(
+    "Flymons body is protected by a hard shell\n"
+    "that lets it get aggressive in fights.\n"
+    "When it catches an opponent, it will hold\n"
+    "them down with its talons.");
 
 const u8 gShelgonPokedexText[] = _(
     "It hardly eats while it awaits evolution.\n"

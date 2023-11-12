@@ -1293,7 +1293,7 @@ const u16 gEggMoves[] = {
               MOVE_MEMENTO,
               MOVE_DESTINY_BOND),
 
-    egg_moves(BAGON,
+    egg_moves(FLYMON,
               MOVE_HYDRO_PUMP,
               MOVE_THRASH,
               MOVE_DRAGON_RAGE,
