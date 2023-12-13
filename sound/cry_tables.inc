@@ -1,6 +1,6 @@
 	.align 2
 gCryTable::
-	cry Cry_Bulbasaur
+	cry Cry_Argomon_f
 	cry Cry_Ivysaur
 	cry Cry_Venusaur
 	cry Cry_Charmander
@@ -391,7 +391,7 @@ gCryTable::
 
 	.align 2
 gCryTable_Reverse::
-	cry_reverse Cry_Bulbasaur
+	cry_reverse Cry_Argomon_f
 	cry_reverse Cry_Ivysaur
 	cry_reverse Cry_Venusaur
 	cry_reverse Cry_Charmander

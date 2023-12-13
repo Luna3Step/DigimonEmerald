@@ -387,8 +387,8 @@ DirectSoundWaveData_unknown_17::
 	.incbin "sound/direct_sound_samples/unknown_17.bin"
 
 	.align 2
-Cry_Bulbasaur::
-	.incbin "sound/direct_sound_samples/cries/bulbasaur.bin"
+Cry_Argomon_f::
+	.incbin "sound/direct_sound_samples/cries/argomon_f.bin"
 
 	.align 2
 Cry_Ivysaur::

@@ -33,13 +33,13 @@ extern const u32 gBallPal_Premier[];
 extern const u32 gOpenPokeballGfx[];
 
 // pokemon gfx
-extern const u32 gMonFrontPic_Bulbasaur[];
-extern const u32 gMonPalette_Bulbasaur[];
-extern const u32 gMonBackPic_Bulbasaur[];
-extern const u32 gMonShinyPalette_Bulbasaur[];
-extern const u32 gMonStillFrontPic_Bulbasaur[];
-extern const u8 gMonIcon_Bulbasaur[];
-extern const u8 gMonFootprint_Bulbasaur[];
+extern const u32 gMonFrontPic_Argomon_f[];
+extern const u32 gMonPalette_Argomon_f[];
+extern const u32 gMonBackPic_Argomon_f[];
+extern const u32 gMonShinyPalette_Argomon_f[];
+extern const u32 gMonStillFrontPic_Argomon_f[];
+extern const u8 gMonIcon_Argomon_f[];
+extern const u8 gMonFootprint_Argomon_f[];
 extern const u32 gMonFrontPic_Ivysaur[];
 extern const u32 gMonPalette_Ivysaur[];
 extern const u32 gMonBackPic_Ivysaur[];
