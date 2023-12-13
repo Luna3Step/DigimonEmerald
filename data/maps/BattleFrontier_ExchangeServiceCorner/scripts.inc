@@ -192,7 +192,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2::
 	switch VAR_RESULT
 	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_LaprasDoll
 	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll
-	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_VenusaurDoll
+	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_BommonDoll
 	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_CharizardDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_BlastoiseDoll
 	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
@@ -215,11 +215,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll::
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_VenusaurDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_BommonDoll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmBommonDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 256
-	setvar VAR_0x8009, DECOR_VENUSAUR_DOLL
+	setvar VAR_0x8009, DECOR_BOMMON_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -493,8 +493,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
 	.string "You've chosen the SNORLAX DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmBommonDoll:
+	.string "You've chosen the BOMMON DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:

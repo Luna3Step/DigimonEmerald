@@ -395,16 +395,16 @@ Cry_Bombmon::
 	.incbin "sound/direct_sound_samples/cries/bombmon.bin"
 
 	.align 2
-Cry_Venusaur::
-	.incbin "sound/direct_sound_samples/cries/venusaur.bin"
+Cry_Bommon::
+	.incbin "sound/direct_sound_samples/cries/bommon.bin"
 
 	.align 2
-Cry_Charmander::
-	.incbin "sound/direct_sound_samples/cries/charmander.bin"
+Cry_Botamon::
+	.incbin "sound/direct_sound_samples/cries/botamon.bin"
 
 	.align 2
-Cry_Charmeleon::
-	.incbin "sound/direct_sound_samples/cries/charmeleon.bin"
+Cry_Chibickmon::
+	.incbin "sound/direct_sound_samples/cries/chibickmon.bin"
 
 	.align 2
 Cry_Charizard::

@@ -39,7 +39,7 @@
 enum {
     BG_INTERFACE,
     BG_BONUSES,
-    BG_VENUSAUR,
+    BG_BOMMON,
     BG_SCENERY,
 };
 
@@ -3049,9 +3049,9 @@ static const u16 sBg_Pal[] = INCBIN_U16("graphics/pokemon_jump/bg.gbapal");
 static const u32 sBg_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bg.4bpp.lz");
 static const u32 sBg_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bg.bin.lz");
 
-static const u16 sVenusaur_Pal[] = INCBIN_U16("graphics/pokemon_jump/venusaur.gbapal");
-static const u32 sVenusaur_Gfx[] = INCBIN_U32("graphics/pokemon_jump/venusaur.4bpp.lz");
-static const u32 sVenusaur_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/venusaur.bin.lz");
+static const u16 sBommon_Pal[] = INCBIN_U16("graphics/pokemon_jump/bommon.gbapal");
+static const u32 sBommon_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bommon.4bpp.lz");
+static const u32 sBommon_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bommon.bin.lz");
 
 static const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
 static const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz");
@@ -3069,7 +3069,7 @@ static const struct BgTemplate sBgTemplates[] =
         .baseTile = 0
     },
     {
-        .bg = BG_VENUSAUR,
+        .bg = BG_BOMMON,
         .charBaseIndex = 1,
         .mapBaseIndex = 30,
         .screenSize = 2,
@@ -3186,9 +3186,9 @@ static void LoadPokeJumpGfx(void)
         LoadPalette(sBg_Pal, 0, 0x20);
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Tilemap, 0, 0, 1);
-        LoadPalette(sVenusaur_Pal, 0x30, 0x20);
-        DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Gfx, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Tilemap, 0, 0, 1);
+        LoadPalette(sBommon_Pal, 0x30, 0x20);
+        DecompressAndCopyTileDataToVram(BG_BOMMON, sBommon_Gfx, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(BG_BOMMON, sBommon_Tilemap, 0, 0, 1);
         LoadPalette(sBonuses_Pal, 0x10, 0x20);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Tilemap, 0, 0, 1);
@@ -3199,7 +3199,7 @@ static void LoadPokeJumpGfx(void)
         PrintScore(0);
         LoadUserWindowBorderGfxOnBg(0, 1, 0xE0);
         CopyBgTilemapBufferToVram(BG_INTERFACE);
-        CopyBgTilemapBufferToVram(BG_VENUSAUR);
+        CopyBgTilemapBufferToVram(BG_BOMMON);
         CopyBgTilemapBufferToVram(BG_BONUSES);
         ResetBgPositions();
         sPokemonJumpGfx->mainState++;
@@ -3212,7 +3212,7 @@ static void LoadPokeJumpGfx(void)
             UpdateVineAnim(sPokemonJumpGfx, VINE_UPSWING_LOWER);
             ShowBg(BG_SCENERY);
             ShowBg(BG_INTERFACE);
-            ShowBg(BG_VENUSAUR);
+            ShowBg(BG_BOMMON);
             HideBg(BG_BONUSES);
             sPokemonJumpGfx->mainState++;
         }
@@ -3637,27 +3637,27 @@ static void PrintScoreSuffixes(void)
     AddTextPrinterParameterized3(WIN_TIMES, FONT_SMALL, 0, 1, color, 0, gText_SpaceTimes3);
 }
 
-// The venusaurs in the background are actually an empty 256x512 bg with 3 pairs of venusaurs on it.
+// The bommons in the background are actually an empty 256x512 bg with 3 pairs of bommons on it.
 // The below array is used to get values for where to set the bg Y to show the corresponding
-// venusaur pair in their state of swinging the vine rope
-// NEUTRAL/DOWN/UP refers to which direction the Venusaur is facing as it swings the vine
+// bommon pair in their state of swinging the vine rope
+// NEUTRAL/DOWN/UP refers to which direction the Bommon is facing as it swings the vine
 enum {
-    VENUSAUR_NEUTRAL,
-    VENUSAUR_DOWN,
-    VENUSAUR_UP,
+    BOMMON_NEUTRAL,
+    BOMMON_DOWN,
+    BOMMON_UP,
 };
 
-static const u8 sVenusaurStates[] = {
-    [VINE_HIGHEST]          = VENUSAUR_UP,
-    [VINE_DOWNSWING_HIGHER] = VENUSAUR_UP,
-    [VINE_DOWNSWING_HIGH]   = VENUSAUR_NEUTRAL,
-    [VINE_DOWNSWING_LOW]    = VENUSAUR_NEUTRAL,
-    [VINE_DOWNSWING_LOWER]  = VENUSAUR_DOWN,
-    [VINE_LOWEST]           = VENUSAUR_DOWN,
-    [VINE_UPSWING_LOWER]    = VENUSAUR_DOWN,
-    [VINE_UPSWING_LOW]      = VENUSAUR_NEUTRAL,
-    [VINE_UPSWING_HIGH]     = VENUSAUR_NEUTRAL,
-    [VINE_UPSWING_HIGHER]   = VENUSAUR_UP,
+static const u8 sBommonStates[] = {
+    [VINE_HIGHEST]          = BOMMON_UP,
+    [VINE_DOWNSWING_HIGHER] = BOMMON_UP,
+    [VINE_DOWNSWING_HIGH]   = BOMMON_NEUTRAL,
+    [VINE_DOWNSWING_LOW]    = BOMMON_NEUTRAL,
+    [VINE_DOWNSWING_LOWER]  = BOMMON_DOWN,
+    [VINE_LOWEST]           = BOMMON_DOWN,
+    [VINE_UPSWING_LOWER]    = BOMMON_DOWN,
+    [VINE_UPSWING_LOW]      = BOMMON_NEUTRAL,
+    [VINE_UPSWING_HIGH]     = BOMMON_NEUTRAL,
+    [VINE_UPSWING_HIGHER]   = BOMMON_UP,
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_Digits = {gMinigameDigits_Gfx, 0, TAG_DIGITS};
@@ -3731,7 +3731,7 @@ static void SetMonSpriteY(u32 id, s16 y)
 static void UpdateVineSwing(int vineState)
 {
     UpdateVineAnim(sPokemonJumpGfx, vineState);
-    ChangeBgY(BG_VENUSAUR, (sVenusaurStates[vineState] * 5) << 13, BG_COORD_SET);
+    ChangeBgY(BG_BOMMON, (sBommonStates[vineState] * 5) << 13, BG_COORD_SET);
 }
 
 static int DoSameJumpTimeBonus(u8 flags)

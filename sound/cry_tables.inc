@@ -2,9 +2,9 @@
 gCryTable::
 	cry Cry_Argomon_f
 	cry Cry_Bombmon
-	cry Cry_Venusaur
-	cry Cry_Charmander
-	cry Cry_Charmeleon
+	cry Cry_Bommon
+	cry Cry_Botamon
+	cry Cry_Chibickmon
 	cry Cry_Charizard
 	cry Cry_Squirtle
 	cry Cry_Wartortle
@@ -393,9 +393,9 @@ gCryTable::
 gCryTable_Reverse::
 	cry_reverse Cry_Argomon_f
 	cry_reverse Cry_Bombmon
-	cry_reverse Cry_Venusaur
-	cry_reverse Cry_Charmander
-	cry_reverse Cry_Charmeleon
+	cry_reverse Cry_Bommon
+	cry_reverse Cry_Botamon
+	cry_reverse Cry_Chibickmon
 	cry_reverse Cry_Charizard
 	cry_reverse Cry_Squirtle
 	cry_reverse Cry_Wartortle

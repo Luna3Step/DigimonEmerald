@@ -4,9 +4,9 @@ const u32 gMonFrontPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/ques
 
 const u32 gMonFrontPic_Argomon_f[] = INCBIN_U32("graphics/pokemon/argomon_f/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Bombmon[] = INCBIN_U32("graphics/pokemon/bombmon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Venusaur[] = INCBIN_U32("graphics/pokemon/venusaur/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Charmander[] = INCBIN_U32("graphics/pokemon/charmander/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Charmeleon[] = INCBIN_U32("graphics/pokemon/charmeleon/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Bommon[] = INCBIN_U32("graphics/pokemon/bommon/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Botamon[] = INCBIN_U32("graphics/pokemon/botamon/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Chibickmon[] = INCBIN_U32("graphics/pokemon/chibickmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Charizard[] = INCBIN_U32("graphics/pokemon/charizard/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Squirtle[] = INCBIN_U32("graphics/pokemon/squirtle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Wartortle[] = INCBIN_U32("graphics/pokemon/wartortle/anim_front.4bpp.lz");
