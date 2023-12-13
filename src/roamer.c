@@ -64,7 +64,7 @@ static const u8 sRoamerLocations[][6] =
 void ClearRoamerData(void)
 {
     memset(ROAMER, 0, sizeof(*ROAMER));
-    ROAMER->species = SPECIES_LATIAS;
+    ROAMER->species = SPECIES_GARURUMON_X;
 }
 
 void ClearRoamerLocationData(void)
@@ -84,7 +84,7 @@ void ClearRoamerLocationData(void)
 static void CreateInitialRoamerMon(bool16 createLatios)
 {
     if (!createLatios)
-        ROAMER->species = SPECIES_LATIAS;
+        ROAMER->species = SPECIES_GARURUMON_X;
     else
         ROAMER->species = SPECIES_LATIOS;
 

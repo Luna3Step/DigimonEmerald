@@ -2278,11 +2278,11 @@ const u8 gGarurumonPokedexText[] = _(
     "fearsome to fight against. When fighting, it\n"
     "can also use its sharp shoulders to attack.");
 
-const u8 gLatiasPokedexText[] = _(
-    "They make a small herd of only several\n"
-    "members. They rarely make contact with\n"
-    "people or other POKéMON. They disappear\n"
-    "if they sense enemies.");
+const u8 gGarurumon_xPokedexText[] = _(
+    "Very few Digimon are willing to fight\n"
+    "Garurumon X as it has honed its fighting\n"
+    "capabilities down to an art. Its hard fur\n"
+    "provides excellent defense as well.");
 
 const u8 gLatiosPokedexText[] = _(
     "Even in hiding, it can detect the locations\n"

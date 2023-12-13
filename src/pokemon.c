@@ -504,7 +504,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(KYOGRE),
     SPECIES_TO_HOENN(GROUDON),
     SPECIES_TO_HOENN(RAYQUAZA),
-    SPECIES_TO_HOENN(LATIAS),
+    SPECIES_TO_HOENN(GARURUMON_X),
     SPECIES_TO_HOENN(LATIOS),
     SPECIES_TO_HOENN(JIRACHI),
     SPECIES_TO_HOENN(DEOXYS),
@@ -920,7 +920,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(KYOGRE),
     SPECIES_TO_NATIONAL(GROUDON),
     SPECIES_TO_NATIONAL(RAYQUAZA),
-    SPECIES_TO_NATIONAL(LATIAS),
+    SPECIES_TO_NATIONAL(GARURUMON_X),
     SPECIES_TO_NATIONAL(LATIOS),
     SPECIES_TO_NATIONAL(JIRACHI),
     SPECIES_TO_NATIONAL(DEOXYS),
@@ -1125,7 +1125,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(GARGOMON),
     HOENN_TO_NATIONAL(GARGOYLMON),
     HOENN_TO_NATIONAL(GARURUMON),
-    HOENN_TO_NATIONAL(LATIAS),
+    HOENN_TO_NATIONAL(GARURUMON_X),
     HOENN_TO_NATIONAL(LATIOS),
     HOENN_TO_NATIONAL(KYOGRE),
     HOENN_TO_NATIONAL(GROUDON),
@@ -1777,7 +1777,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_KYOGRE - 1]      = ANIM_SWING_CONCAVE_FAST_SHORT,
     [SPECIES_GROUDON - 1]     = ANIM_V_SHAKE,
     [SPECIES_RAYQUAZA - 1]    = ANIM_H_SHAKE,
-    [SPECIES_LATIAS - 1]      = ANIM_SWING_CONCAVE_FAST_SHORT,
+    [SPECIES_GARURUMON_X - 1]      = ANIM_SWING_CONCAVE_FAST_SHORT,
     [SPECIES_LATIOS - 1]      = ANIM_V_SHAKE,
     [SPECIES_JIRACHI - 1]     = ANIM_SWING_CONVEX,
     [SPECIES_DEOXYS - 1]      = ANIM_H_PIVOT,
@@ -3171,9 +3171,9 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     // Apply boosts from hold items
     if (attackerHoldEffect == HOLD_EFFECT_CHOICE_BAND)
         attack = (150 * attack) / 100;
-    if (attackerHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER)) && (attacker->species == SPECIES_LATIAS || attacker->species == SPECIES_LATIOS))
+    if (attackerHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER)) && (attacker->species == SPECIES_GARURUMON_X || attacker->species == SPECIES_LATIOS))
         spAttack = (150 * spAttack) / 100;
-    if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER)) && (defender->species == SPECIES_LATIAS || defender->species == SPECIES_LATIOS))
+    if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER)) && (defender->species == SPECIES_GARURUMON_X || defender->species == SPECIES_LATIOS))
         spDefense = (150 * spDefense) / 100;
     if (attackerHoldEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && attacker->species == SPECIES_FIRAMON)
         spAttack *= 2;

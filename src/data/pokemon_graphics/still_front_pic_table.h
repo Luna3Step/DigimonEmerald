@@ -410,7 +410,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(KYOGRE,        gMonStillFrontPic_Kyogre),
     SPECIES_SPRITE(GROUDON,       gMonStillFrontPic_Groudon),
     SPECIES_SPRITE(RAYQUAZA,      gMonStillFrontPic_Rayquaza),
-    SPECIES_SPRITE(LATIAS,        gMonStillFrontPic_Latias),
+    SPECIES_SPRITE(GARURUMON_X,        gMonStillFrontPic_Latias),
     SPECIES_SPRITE(LATIOS,        gMonStillFrontPic_Latios),
     SPECIES_SPRITE(JIRACHI,       gMonStillFrontPic_Jirachi),
     SPECIES_SPRITE(DEOXYS,        gMonStillFrontPic_Deoxys),

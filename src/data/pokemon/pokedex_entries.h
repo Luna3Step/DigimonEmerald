@@ -4560,12 +4560,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_LATIAS] =
+    [NATIONAL_DEX_GARURUMON_X] =
     {
-        .categoryName = _("EON"),
-        .height = 14,
-        .weight = 400,
-        .description = gLatiasPokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 60,
+        .weight = 691,
+        .description = gGarurumon_xPokedexText,
         .pokemonScale = 304,
         .pokemonOffset = 3,
         .trainerScale = 256,

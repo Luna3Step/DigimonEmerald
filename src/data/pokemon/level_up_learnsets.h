@@ -5538,7 +5538,7 @@ static const u16 sRayquazaLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sLatiasLevelUpLearnset[] = {
+static const u16 sGarurumon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PSYWAVE),
     LEVEL_UP_MOVE( 5, MOVE_WISH),
     LEVEL_UP_MOVE(10, MOVE_HELPING_HAND),
