@@ -4620,12 +4620,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 12,
     },
 
-    [NATIONAL_DEX_JIRACHI] =
+    [NATIONAL_DEX_GEREMON] =
     {
-        .categoryName = _("WISH"),
-        .height = 3,
-        .weight = 11,
-        .description = gJirachiPokedexText,
+        .categoryName = _("SLUG"),
+        .height = 10,
+        .weight = 273,
+        .description = gGeremonPokedexText,
         .pokemonScale = 608,
         .pokemonOffset = -8,
         .trainerScale = 256,

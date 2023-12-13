@@ -2308,11 +2308,11 @@ const u8 gGeogreymonPokedexText[] = _(
     "The sharp points on its body have grown even\n"
     "more and it has a better build for moving.");
 
-const u8 gJirachiPokedexText[] = _(
-    "JIRACHI is said to make wishes come true.\n"
-    "While it sleeps, a tough crystalline shell\n"
-    "envelops the body to protect it from\n"
-    "enemies.");
+const u8 gGeremonPokedexText[] = _(
+    "A Tamer who has a Geremon is usually a bad\n"
+    "Tamer as Geremon are only produced from\n"
+    "negligent care. Its a frustratingly weak\n"
+    "Digimon that never lets up.");
 
 const u8 gDeoxysPokedexText[] = _(
     "A POKéMON that mutated from an\n"
