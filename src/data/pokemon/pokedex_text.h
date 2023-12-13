@@ -2266,11 +2266,11 @@ const u8 gGargomonPokedexText[] = _(
     "aim, it can quickly take down opponents. It\n"
     "cherishes its jeans.");
 
-const u8 gRegicePokedexText[] = _(
-    "Its entire body is made of Antarctic ice.\n"
-    "After extensive studies, researchers\n"
-    "believe the ice was formed during an\n"
-    "ice age.");
+const u8 gGargoylmonPokedexText[] = _(
+    "Originally a Demon Digimon, it has suppressed\n"
+    "its own powers giving it greater control over\n"
+    "its urges. It is often used as a familiar by\n"
+    "other Angel Digimon.");
 
 const u8 gRegisteelPokedexText[] = _(
     "Its body is harder than any other kind of\n"

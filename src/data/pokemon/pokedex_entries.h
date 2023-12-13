@@ -4536,12 +4536,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_REGICE] =
+    [NATIONAL_DEX_GARGOYLMON] =
     {
-        .categoryName = _("ICEBERG"),
-        .height = 18,
-        .weight = 1750,
-        .description = gRegicePokedexText,
+        .categoryName = _("HOLY DEMON"),
+        .height = 93,
+        .weight = 1461,
+        .description = gGargoylmonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 301,
