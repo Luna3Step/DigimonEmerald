@@ -4512,12 +4512,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_METAGROSS] =
+    [NATIONAL_DEX_GAOGAMON] =
     {
-        .categoryName = _("IRON LEG"),
-        .height = 16,
-        .weight = 5500,
-        .description = gMetagrossPokedexText,
+        .categoryName = _("AKITA INU"),
+        .height = 38,
+        .weight = 744,
+        .description = gGaogamonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 447,

@@ -2254,11 +2254,11 @@ const u8 gGanemonPokedexText[] = _(
     "eats. It is able to detect Zenimon with\n"
     "money letting it grow its personal wealth.");
 
-const u8 gMetagrossPokedexText[] = _(
-    "METAGROSS has four brains that are joined\n"
-    "by a complex neural network. As a result of\n"
-    "integration, this POKéMON is smarter than\n"
-    "a supercomputer.");
+const u8 gGaogamonPokedexText[] = _(
+    "Although it is now on four legs, it still\n"
+    "has the capabilities to fight like a martial\n"
+    "artist by standing on its rear legs like a\n"
+    "bear.");
 
 const u8 gRegirockPokedexText[] = _(
     "A POKéMON that is made entirely of rocks\n"
