@@ -2314,8 +2314,8 @@ const u8 gGeremonPokedexText[] = _(
     "negligent care. Its a frustratingly weak\n"
     "Digimon that never lets up.");
 
-const u8 gDeoxysPokedexText[] = _(
-    "A POKéMON that mutated from an\n"
-    "extraterrestrial virus exposed to a laser\n"
-    "beam. Its body is configured for superior\n"
-    "agility and speed.");
+const u8 gGesomonPokedexText[] = _(
+    "Gesomon is highly intelligent, often\n"
+    "attending to its territory. It rarely\n"
+    "attacks Digimon outside its territory\n"
+    "but anything that enters is obliterated.");

@@ -5584,7 +5584,7 @@ static const u16 sGeremonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sDeoxysLevelUpLearnset[] = {
+static const u16 sGesomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_WRAP),
     LEVEL_UP_MOVE( 5, MOVE_NIGHT_SHADE),

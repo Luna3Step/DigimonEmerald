@@ -4200,7 +4200,7 @@ void FillPokedex(void)
 {
     u16 i;
 
-    for (i = SPECIES_ARGOMON_F; i <= SPECIES_DEOXYS; i++)
+    for (i = SPECIES_ARGOMON_F; i <= SPECIES_GESOMON; i++)
     {
         GetSetPokedexFlag(i, FLAG_SET_SEEN);
         GetSetPokedexFlag(i, FLAG_SET_CAUGHT);

@@ -61,6 +61,6 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_GARURUMON_X] = 6,
     [SPECIES_GATOMON] = 6,
     [SPECIES_GEREMON] = 12,
-    [SPECIES_DEOXYS] = 8,
+    [SPECIES_GESOMON] = 8,
     [SPECIES_EOSMON_CHAMPION] = 12,
 };

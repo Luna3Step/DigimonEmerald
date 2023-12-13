@@ -410,6 +410,6 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_GARURUMON_X] = sGarurumon_xLevelUpLearnset,
     [SPECIES_GATOMON] = sGatomonLevelUpLearnset,
     [SPECIES_GEREMON] = sGeremonLevelUpLearnset,
-    [SPECIES_DEOXYS] = sDeoxysLevelUpLearnset,
+    [SPECIES_GESOMON] = sGesomonLevelUpLearnset,
     [SPECIES_EOSMON_CHAMPION] = sEosmon_championLevelUpLearnset,
 };

@@ -1260,7 +1260,7 @@ static const u16 sDefaultBattleLostWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
 };
 
 static const u16 sRestrictedWordSpecies[] = {
-    SPECIES_DEOXYS,
+    SPECIES_GESOMON,
 };
 
 

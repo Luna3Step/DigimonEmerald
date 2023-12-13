@@ -507,7 +507,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(GARURUMON_X),
     SPECIES_TO_HOENN(GATOMON),
     SPECIES_TO_HOENN(GEREMON),
-    SPECIES_TO_HOENN(DEOXYS),
+    SPECIES_TO_HOENN(GESOMON),
     SPECIES_TO_HOENN(EOSMON_CHAMPION),
 };
 
@@ -923,7 +923,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(GARURUMON_X),
     SPECIES_TO_NATIONAL(GATOMON),
     SPECIES_TO_NATIONAL(GEREMON),
-    SPECIES_TO_NATIONAL(DEOXYS),
+    SPECIES_TO_NATIONAL(GESOMON),
     SPECIES_TO_NATIONAL(EOSMON_CHAMPION),
 };
 
@@ -1131,7 +1131,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(GEKOMON),
     HOENN_TO_NATIONAL(GEOGREYMON),
     HOENN_TO_NATIONAL(GEREMON),
-    HOENN_TO_NATIONAL(DEOXYS),
+    HOENN_TO_NATIONAL(GESOMON),
     HOENN_TO_NATIONAL(ARGOMON_F), // Pokémon from here onwards are UNSEEN in the HoennDex.
     HOENN_TO_NATIONAL(BOMBMON),
     HOENN_TO_NATIONAL(BOMMON),
@@ -1780,7 +1780,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_GARURUMON_X - 1]      = ANIM_SWING_CONCAVE_FAST_SHORT,
     [SPECIES_GATOMON - 1]      = ANIM_V_SHAKE,
     [SPECIES_GEREMON - 1]     = ANIM_SWING_CONVEX,
-    [SPECIES_DEOXYS - 1]      = ANIM_H_PIVOT,
+    [SPECIES_GESOMON - 1]      = ANIM_H_PIVOT,
     [SPECIES_EOSMON_CHAMPION - 1]    = ANIM_H_SLIDE_WOBBLE,
 };
 
@@ -2693,7 +2693,7 @@ static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
     u16 statValue = 0;
     u8 nature;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_GESOMON)
         return 0;
 
     ivVal = GetMonData(mon, MON_DATA_HP_IV + statId, NULL);
@@ -2712,7 +2712,7 @@ void SetDeoxysStats(void)
     {
         struct Pokemon *mon = &gPlayerParty[i];
 
-        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_GESOMON)
             continue;
 
         value = GetMonData(mon, MON_DATA_ATK, NULL);
@@ -6940,7 +6940,7 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 bool8 HasTwoFramesAnimation(u16 species)
 {
     return (species != SPECIES_DOLPHMON
-         && species != SPECIES_DEOXYS
+         && species != SPECIES_GESOMON
          && species != SPECIES_COREDRAMON_BLUE
          && species != SPECIES_LOPMON);
 }

@@ -434,7 +434,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_GARURUMON_X] = gMonIcon_Latias,
     [SPECIES_GATOMON] = gMonIcon_Latios,
     [SPECIES_GEREMON] = gMonIcon_Jirachi,
-    [SPECIES_DEOXYS] = gMonIcon_Deoxys,
+    [SPECIES_GESOMON] = gMonIcon_Deoxys,
     [SPECIES_EOSMON_CHAMPION] = gMonIcon_Chimecho,
     [SPECIES_EGG] = gMonIcon_Egg,
     [SPECIES_UNOWN_B] = gMonIcon_UnownB,
@@ -878,7 +878,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_GARURUMON_X] = 0,
     [SPECIES_GATOMON] = 2,
     [SPECIES_GEREMON] = 0,
-    [SPECIES_DEOXYS] = 0,
+    [SPECIES_GESOMON] = 0,
     [SPECIES_EOSMON_CHAMPION] = 0,
     [SPECIES_EGG] = 1,
     [SPECIES_UNOWN_B] = 0,
@@ -1189,7 +1189,7 @@ void SpriteCB_MonIcon(struct Sprite *sprite)
 const u8 *GetMonIconTiles(u16 species, bool32 handleDeoxys)
 {
     const u8 *iconSprite = gMonIconTable[species];
-    if (species == SPECIES_DEOXYS && handleDeoxys == TRUE)
+    if (species == SPECIES_GESOMON && handleDeoxys == TRUE)
     {
         iconSprite = (const u8 *)(0x400 + (u32)iconSprite); // use the specific Deoxys form icon (Speed in this case)
     }

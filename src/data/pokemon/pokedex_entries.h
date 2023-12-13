@@ -4632,12 +4632,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DEOXYS] =
+    [NATIONAL_DEX_GESOMON] =
     {
-        .categoryName = _("DNA"),
-        .height = 17,
-        .weight = 608,
-        .description = gDeoxysPokedexText,
+        .categoryName = _("SQUID"),
+        .height = 30,
+        .weight = 836,
+        .description = gGesomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
