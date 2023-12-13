@@ -26,7 +26,7 @@ const u8 *const gMonIconTable[] =
 {
     [SPECIES_NONE] = gMonIcon_Argomon_f,
     [SPECIES_ARGOMON_F] = gMonIcon_Argomon_f,
-    [SPECIES_BOMBMON] = gMonIcon_Ivysaur,
+    [SPECIES_BOMBMON] = gMonIcon_Bombmon,
     [SPECIES_BOMMON] = gMonIcon_Venusaur,
     [SPECIES_BOTAMON] = gMonIcon_Charmander,
     [SPECIES_CHIBICKMON] = gMonIcon_Charmeleon,

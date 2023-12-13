@@ -391,8 +391,8 @@ Cry_Argomon_f::
 	.incbin "sound/direct_sound_samples/cries/argomon_f.bin"
 
 	.align 2
-Cry_Ivysaur::
-	.incbin "sound/direct_sound_samples/cries/ivysaur.bin"
+Cry_Bombmon::
+	.incbin "sound/direct_sound_samples/cries/bombmon.bin"
 
 	.align 2
 Cry_Venusaur::

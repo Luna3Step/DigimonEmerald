@@ -965,7 +965,7 @@ static const union AnimCmd sUnusedAnim_Jirachi_1[] =
 
 static const union AnimCmd *const sUnusedAnims_None[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Argomon_f[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Ivysaur[] = {sAnim_GeneralFrame0};
+static const union AnimCmd *const sUnusedAnims_Bombmon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Venusaur[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Charmander[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Charmeleon[] = {sAnim_GeneralFrame0};
@@ -1383,7 +1383,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
 {
     [SPECIES_NONE] = sUnusedAnims_None,
     [SPECIES_ARGOMON_F] = sUnusedAnims_Argomon_f,
-    [SPECIES_BOMBMON] = sUnusedAnims_Ivysaur,
+    [SPECIES_BOMBMON] = sUnusedAnims_Bombmon,
     [SPECIES_BOMMON] = sUnusedAnims_Venusaur,
     [SPECIES_BOTAMON] = sUnusedAnims_Charmander,
     [SPECIES_CHIBICKMON] = sUnusedAnims_Charmeleon,

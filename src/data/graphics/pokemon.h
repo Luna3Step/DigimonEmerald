@@ -5,12 +5,12 @@ const u32 gMonShinyPalette_Argomon_f[] = INCBIN_U32("graphics/pokemon/argomon_f/
 const u8 gMonIcon_Argomon_f[] = INCBIN_U8("graphics/pokemon/argomon_f/icon.4bpp");
 const u8 gMonFootprint_Argomon_f[] = INCBIN_U8("graphics/pokemon/argomon_f/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ivysaur[] = INCBIN_U32("graphics/pokemon/ivysaur/front.4bpp.lz");
-const u32 gMonPalette_Ivysaur[] = INCBIN_U32("graphics/pokemon/ivysaur/normal.gbapal.lz");
-const u32 gMonBackPic_Ivysaur[] = INCBIN_U32("graphics/pokemon/ivysaur/back.4bpp.lz");
-const u32 gMonShinyPalette_Ivysaur[] = INCBIN_U32("graphics/pokemon/ivysaur/shiny.gbapal.lz");
-const u8 gMonIcon_Ivysaur[] = INCBIN_U8("graphics/pokemon/ivysaur/icon.4bpp");
-const u8 gMonFootprint_Ivysaur[] = INCBIN_U8("graphics/pokemon/ivysaur/footprint.1bpp");
+const u32 gMonStillFrontPic_Bombmon[] = INCBIN_U32("graphics/pokemon/bombmon/front.4bpp.lz");
+const u32 gMonPalette_Bombmon[] = INCBIN_U32("graphics/pokemon/bombmon/normal.gbapal.lz");
+const u32 gMonBackPic_Bombmon[] = INCBIN_U32("graphics/pokemon/bombmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bombmon[] = INCBIN_U32("graphics/pokemon/bombmon/shiny.gbapal.lz");
+const u8 gMonIcon_Bombmon[] = INCBIN_U8("graphics/pokemon/bombmon/icon.4bpp");
+const u8 gMonFootprint_Bombmon[] = INCBIN_U8("graphics/pokemon/bombmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Venusaur[] = INCBIN_U32("graphics/pokemon/venusaur/front.4bpp.lz");
 const u32 gMonPalette_Venusaur[] = INCBIN_U32("graphics/pokemon/venusaur/normal.gbapal.lz");

@@ -14,7 +14,7 @@ static const union AnimCmd sAnim_Argomon_f_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Ivysaur_1[] =
+static const union AnimCmd sAnim_Bombmon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(0, 36),
@@ -4824,7 +4824,7 @@ static const union AnimCmd *const sAnims_##name[] = \
 
 SINGLE_ANIMATION(None);
 SINGLE_ANIMATION(Argomon_f);
-SINGLE_ANIMATION(Ivysaur);
+SINGLE_ANIMATION(Bombmon);
 SINGLE_ANIMATION(Venusaur);
 SINGLE_ANIMATION(Charmander);
 SINGLE_ANIMATION(Charmeleon);
@@ -5256,7 +5256,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 {
     [SPECIES_NONE]        = sAnims_None,
     [SPECIES_ARGOMON_F]   = sAnims_Argomon_f,
-    [SPECIES_BOMBMON]     = sAnims_Ivysaur,
+    [SPECIES_BOMBMON]     = sAnims_Bombmon,
     [SPECIES_BOMMON]    = sAnims_Venusaur,
     [SPECIES_BOTAMON]  = sAnims_Charmander,
     [SPECIES_CHIBICKMON]  = sAnims_Charmeleon,
