@@ -23,7 +23,7 @@ SouthernIsland_Interior_OnTransition:
 
 SouthernIsland_Interior_EventScript_SetUpLatios::
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_LATIOS
-	setvar VAR_TEMP_4, SPECIES_LATIOS
+	setvar VAR_TEMP_4, SPECIES_GATOMON
 	return
 
 SouthernIsland_Interior_EventScript_SetUpLatias::
@@ -105,7 +105,7 @@ SouthernIsland_Interior_EventScript_Sign::
 	end
 
 SouthernIsland_Interior_EventScript_SetLatiosBattleVars::
-	seteventmon SPECIES_LATIOS, 50, ITEM_SOUL_DEW
+	seteventmon SPECIES_GATOMON, 50, ITEM_SOUL_DEW
 	return
 
 SouthernIsland_Interior_EventScript_SetLatiasBattleVars::

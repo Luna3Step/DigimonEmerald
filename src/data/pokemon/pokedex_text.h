@@ -2284,11 +2284,11 @@ const u8 gGarurumon_xPokedexText[] = _(
     "capabilities down to an art. Its hard fur\n"
     "provides excellent defense as well.");
 
-const u8 gLatiosPokedexText[] = _(
-    "Even in hiding, it can detect the locations\n"
-    "of others and sense their emotions since\n"
-    "it has telepathy. Its intelligence allows\n"
-    "it to understand human languages.");
+const u8 gGatomonPokedexText[] = _(
+    "Its small size is highly misleading as it\n"
+    "packs a pretty strong punch. Its far\n"
+    "stronger than a rookie and only mildly\n"
+    "weaker than the average champion.");
 
 const u8 gKyogrePokedexText[] = _(
     "KYOGRE has appeared in mythology as the\n"

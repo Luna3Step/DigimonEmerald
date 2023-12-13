@@ -1,55 +1,55 @@
-replace "FRONTIER_MON_LATIAS"
-with "FRONTIER_MON_GARURUMON_X"
+replace "FRONTIER_MON_LATIOS"
+with "FRONTIER_MON_GATOMON"
 
-replace "gLatiasPokedexText"
-with "gGarurumon_xPokedexText"
+replace "gLatiosPokedexText"
+with "gGatomonPokedexText"
 
-replace "NATIONAL_DEX_LATIAS"
-with "NATIONAL_DEX_GARURUMON_X"
+replace "NATIONAL_DEX_LATIOS"
+with "NATIONAL_DEX_GATOMON"
 
-replace "SPECIES_LATIAS"
-with "SPECIES_GARURUMON_X"
+replace "SPECIES_LATIOS"
+with "SPECIES_GATOMON"
 
-replace "HOENN_DEX_LATIAS"
-with "HOENN_DEX_GARURUMON_X"
+replace "HOENN_DEX_LATIOS"
+with "HOENN_DEX_GATOMON"
 
-replace "SPECIES_TO_HOENN(LATIAS),"
-with "SPECIES_TO_HOENN(GARURUMON_X),"
+replace "SPECIES_TO_HOENN(LATIOS),"
+with "SPECIES_TO_HOENN(GATOMON),"
 
-replace "SPECIES_TO_NATIONAL(LATIAS),"
-with "SPECIES_TO_NATIONAL(GARURUMON_X),"
+replace "SPECIES_TO_NATIONAL(LATIOS),"
+with "SPECIES_TO_NATIONAL(GATOMON),"
 
-replace "HOENN_TO_NATIONAL(LATIAS),"
-with "HOENN_TO_NATIONAL(GARURUMON_X),"
+replace "HOENN_TO_NATIONAL(LATIOS),"
+with "HOENN_TO_NATIONAL(GATOMON),"
 
-replace "EC_POKEMON_NATIONAL(LATIAS),"
-with "EC_POKEMON_NATIONAL(GARURUMON_X),"
+replace "EC_POKEMON_NATIONAL(LATIOS),"
+with "EC_POKEMON_NATIONAL(GATOMON),"
 
-replace "egg_moves(LATIAS,"
-with "egg_moves(GARURUMON_X,"
+replace "egg_moves(LATIOS,"
+with "egg_moves(GATOMON,"
 
-replace "sLatiasLevelUpLearnset"
-with "sGarurumon_xLevelUpLearnset"
+replace "sLatiosLevelUpLearnset"
+with "sGatomonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(LATIAS"
-with "SPECIES_SPRITE(GARURUMON_X"
+replace "SPECIES_SPRITE(LATIOS"
+with "SPECIES_SPRITE(GATOMON"
 
-replace "SPECIES_PAL(LATIAS,"
-with "SPECIES_PAL(GARURUMON_X,"
+replace "SPECIES_PAL(LATIOS,"
+with "SPECIES_PAL(GATOMON,"
 
-replace "SPECIES_SHINY_PAL(LATIAS,"
-with "SPECIES_SHINY_PAL(GARURUMON_X,"
+replace "SPECIES_SHINY_PAL(LATIOS,"
+with "SPECIES_SHINY_PAL(GATOMON,"
 
-replace "EC_POKEMON(LATIAS)"
-with "EC_POKEMON(GARURUMON_X)"
+replace "EC_POKEMON(LATIOS)"
+with "EC_POKEMON(GATOMON)"
 
-replace "EC_POKEMON_NATIONAL(LATIAS)"
-with "EC_POKEMON_NATIONAL(GARURUMON_X)"
+replace "EC_POKEMON_NATIONAL(LATIOS)"
+with "EC_POKEMON_NATIONAL(GATOMON)"
 
 in "src/data/text/species_names.h"
-replace "LATIAS"
-with "GARURUMON"
+replace "LATIOS"
+with "GATOMON"
 
 in "src/data/battle_frontier/battle_frontier_trainer_mons.h"
-replace "LATIAS"
-with "GARURUMON_X" 
+replace "LATIOS"
+with "GATOMON" 

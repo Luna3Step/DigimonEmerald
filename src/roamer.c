@@ -86,7 +86,7 @@ static void CreateInitialRoamerMon(bool16 createLatios)
     if (!createLatios)
         ROAMER->species = SPECIES_GARURUMON_X;
     else
-        ROAMER->species = SPECIES_LATIOS;
+        ROAMER->species = SPECIES_GATOMON;
 
     CreateMon(&gEnemyParty[0], ROAMER->species, 40, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
     ROAMER->level = 40;

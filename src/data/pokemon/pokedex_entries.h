@@ -4572,12 +4572,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LATIOS] =
+    [NATIONAL_DEX_GATOMON] =
     {
-        .categoryName = _("EON"),
-        .height = 20,
-        .weight = 600,
-        .description = gLatiosPokedexText,
+        .categoryName = _("HOLY CAT"),
+        .height = 6,
+        .weight = 107,
+        .description = gGatomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 294,
