@@ -4608,12 +4608,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 14,
     },
 
-    [NATIONAL_DEX_RAYQUAZA] =
+    [NATIONAL_DEX_GEOGREYMON] =
     {
-        .categoryName = _("SKY HIGH"),
-        .height = 70,
-        .weight = 2065,
-        .description = gRayquazaPokedexText,
+        .categoryName = _("DINOSAUR"),
+        .height = 78,
+        .weight = 1102,
+        .description = gGeogreymonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 448,

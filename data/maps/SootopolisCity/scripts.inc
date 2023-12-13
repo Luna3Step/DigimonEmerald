@@ -503,7 +503,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GEOGREYMON, CRY_MODE_ENCOUNTER
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -511,7 +511,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	special ShakeCamera
 	waitstate
 	waitse
-	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GEOGREYMON, CRY_MODE_ENCOUNTER
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -556,7 +556,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerApproachLegendaries
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GEOGREYMON, CRY_MODE_ENCOUNTER
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -564,7 +564,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	special ShakeCamera
 	waitstate
 	waitse
-	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GEOGREYMON, CRY_MODE_ENCOUNTER
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes

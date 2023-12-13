@@ -5523,7 +5523,7 @@ static const u16 sGekomonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRayquazaLevelUpLearnset[] = {
+static const u16 sGeogreymonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 5, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(15, MOVE_ANCIENT_POWER),

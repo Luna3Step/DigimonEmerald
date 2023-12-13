@@ -2302,11 +2302,11 @@ const u8 gGekomonPokedexText[] = _(
     "born from music composition software giving\n"
     "it a natural edge when making music.");
 
-const u8 gRayquazaPokedexText[] = _(
-    "A POKéMON that flies endlessly in the\n"
-    "ozone layer. It is said it would descend\n"
-    "to the ground if KYOGRE and GROUDON\n"
-    "were to fight.");
+const u8 gGeogreymonPokedexText[] = _(
+    "GeoGreymon is a subspecies of Greymon that\n"
+    "has developed further for physical fighting.\n"
+    "The sharp points on its body have grown even\n"
+    "more and it has a better build for moving.");
 
 const u8 gJirachiPokedexText[] = _(
     "JIRACHI is said to make wishes come true.\n"
