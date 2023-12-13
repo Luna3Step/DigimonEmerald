@@ -10250,7 +10250,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DAMEMON] =
+    [SPECIES_DAMEMON_FUSION] =
     {
         .baseHP        = 80,
         .baseAttack    = 86,

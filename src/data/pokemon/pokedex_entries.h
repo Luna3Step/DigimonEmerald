@@ -3960,12 +3960,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DAMEMON] =
+    [NATIONAL_DEX_DAMEMON_FUSION] =
     {
         .categoryName = _("NO GOOD"),
         .height = 9,
         .weight = 246,
-        .description = gDamemonPokedexText,
+        .description = gDamemon_FusionPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,

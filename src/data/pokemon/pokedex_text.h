@@ -1661,10 +1661,10 @@ const u8 gAllomon_xPokedexText[] = _(
     "taking flight at its maximum speed.");
 
 const u8 gAngelamonPokedexText[] = _(
-    "https://www.reddit.com/r/greentext\n"
-    "/greentext/comments\n"
-    "/da3t34/anon_really_hates\n"
-    "_angela_anaconda/");
+    "I wanted to put the Angelamon greentext\n"
+    "here but because I couldn't be bothered to\n"
+    "expand this nor could I put a link, I'll\n"
+    "ask you to google it instead.");
 
 const u8 gAngemonPokedexText[] = _(
     "Angemon are one of few Digimon that are a\n"
@@ -1978,7 +1978,7 @@ const u8 gCyclonemonPokedexText[] = _(
     "defeating Leomon is believed to have been\n"
     "the cause of its lost right eye.");
 
-const u8 gDamemonPokedexText[] = _(
+const u8 gDamemon_FusionPokedexText[] = _(
     "Damemon is a very socially awkward Digimon\n"
     "that often struggles to read the room. It\n"
     "has a special place for ChuuChuumon to ride\n"
