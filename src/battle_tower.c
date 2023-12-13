@@ -772,7 +772,7 @@ struct
 } static const sStevenMons[MULTI_PARTY_SIZE] =
 {
     {
-        .species = SPECIES_METANG,
+        .species = SPECIES_GANEMON,
         .fixedIV = MAX_PER_STAT_IVS,
         .level = 42,
         .nature = NATURE_BRAVE,

@@ -4500,12 +4500,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_METANG] =
+    [NATIONAL_DEX_GANEMON] =
     {
-        .categoryName = _("IRON CLAW"),
-        .height = 12,
-        .weight = 2025,
-        .description = gMetangPokedexText,
+        .categoryName = _("YEN"),
+        .height = 18,
+        .weight = 45,
+        .description = gGanemonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 6,
         .trainerScale = 256,

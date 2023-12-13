@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_BELDUM"
-with "FRONTIER_MON_FUGAMON"
+replace "FRONTIER_MON_METANG"
+with "FRONTIER_MON_GANEMON"
 
-replace "gBeldumPokedexText"
-with "gFugamonPokedexText"
+replace "gMetangPokedexText"
+with "gGanemonPokedexText"
 
-replace "NATIONAL_DEX_BELDUM"
-with "NATIONAL_DEX_FUGAMON"
+replace "NATIONAL_DEX_METANG"
+with "NATIONAL_DEX_GANEMON"
 
-replace "SPECIES_BELDUM"
-with "SPECIES_FUGAMON"
+replace "SPECIES_METANG"
+with "SPECIES_GANEMON"
 
-replace "HOENN_DEX_BELDUM"
-with "HOENN_DEX_FUGAMON"
+replace "HOENN_DEX_METANG"
+with "HOENN_DEX_GANEMON"
 
-replace "SPECIES_TO_HOENN(BELDUM),"
-with "SPECIES_TO_HOENN(FUGAMON),"
+replace "SPECIES_TO_HOENN(METANG),"
+with "SPECIES_TO_HOENN(GANEMON),"
 
-replace "SPECIES_TO_NATIONAL(BELDUM),"
-with "SPECIES_TO_NATIONAL(FUGAMON),"
+replace "SPECIES_TO_NATIONAL(METANG),"
+with "SPECIES_TO_NATIONAL(GANEMON),"
 
-replace "HOENN_TO_NATIONAL(BELDUM),"
-with "HOENN_TO_NATIONAL(FUGAMON),"
+replace "HOENN_TO_NATIONAL(METANG),"
+with "HOENN_TO_NATIONAL(GANEMON),"
 
-replace "EC_POKEMON_NATIONAL(BELDUM),"
-with "EC_POKEMON_NATIONAL(FUGAMON),"
+replace "EC_POKEMON_NATIONAL(METANG),"
+with "EC_POKEMON_NATIONAL(GANEMON),"
 
-replace "egg_moves(BELDUM,"
-with "egg_moves(FUGAMON,"
+replace "egg_moves(METANG,"
+with "egg_moves(GANEMON,"
 
-replace "sBeldumLevelUpLearnset"
-with "sFugamonLevelUpLearnset"
+replace "sMetangLevelUpLearnset"
+with "sGanemonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(BELDUM"
-with "SPECIES_SPRITE(FUGAMON"
+replace "SPECIES_SPRITE(METANG"
+with "SPECIES_SPRITE(GANEMON"
 
-replace "SPECIES_PAL(BELDUM,"
-with "SPECIES_PAL(FUGAMON,"
+replace "SPECIES_PAL(METANG,"
+with "SPECIES_PAL(GANEMON,"
 
-replace "SPECIES_SHINY_PAL(BELDUM,"
-with "SPECIES_SHINY_PAL(FUGAMON,"
+replace "SPECIES_SHINY_PAL(METANG,"
+with "SPECIES_SHINY_PAL(GANEMON,"
 
-replace "EC_POKEMON(BELDUM)"
-with "EC_POKEMON(FUGAMON)"
+replace "EC_POKEMON(METANG)"
+with "EC_POKEMON(GANEMON)"
 
-replace "EC_POKEMON_NATIONAL(BELDUM)"
-with "EC_POKEMON_NATIONAL(FUGAMON)"
+replace "EC_POKEMON_NATIONAL(METANG)"
+with "EC_POKEMON_NATIONAL(GANEMON)"
 
 in "src/data/text/species_names.h"
-replace "BELDUM"
-with "FUGAMON"
+replace "METANG"
+with "GANEMON"

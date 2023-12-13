@@ -5487,7 +5487,7 @@ static const u32 sTutorLearnsets[] =
 
     [SPECIES_FUGAMON]           = (0),
 
-    [SPECIES_METANG]           = (TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_GANEMON]           = (TUTOR(MOVE_BODY_SLAM)
                                 | TUTOR(MOVE_DOUBLE_EDGE)
                                 | TUTOR(MOVE_MIMIC)
                                 | TUTOR(MOVE_EXPLOSION)

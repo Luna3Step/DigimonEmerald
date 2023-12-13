@@ -5422,7 +5422,7 @@ static const u16 sFugamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sMetangLevelUpLearnset[] = {
+static const u16 sGanemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(20, MOVE_CONFUSION),
     LEVEL_UP_MOVE(20, MOVE_METAL_CLAW),

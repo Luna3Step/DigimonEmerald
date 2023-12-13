@@ -330,7 +330,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // What is interesting, this team is actually the one Steven uses in the multi tag battle alongside the player.
         {
             {
-                .species = SPECIES_METANG,
+                .species = SPECIES_GANEMON,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_BRAVE,
@@ -356,7 +356,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         },
         {
             {
-                .species = SPECIES_METANG,
+                .species = SPECIES_GANEMON,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_BRAVE,

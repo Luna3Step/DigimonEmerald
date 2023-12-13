@@ -2248,11 +2248,11 @@ const u8 gFugamonPokedexText[] = _(
     "formed from data based on eastern Oni. Its\n"
     "punches let it fire out small hurricanes.");
 
-const u8 gMetangPokedexText[] = _(
-    "The claws tipping its arms pack the\n"
-    "destructive power to tear through thick\n"
-    "iron sheets as if they were silk. It flies\n"
-    "at over 60 miles per hour.");
+const u8 gGanemonPokedexText[] = _(
+    "Although initially small in size, Ganemon\n"
+    "grows larger and stronger the more money it\n"
+    "eats. It is able to detect Zenimon with\n"
+    "money letting it grow its personal wealth.");
 
 const u8 gMetagrossPokedexText[] = _(
     "METAGROSS has four brains that are joined\n"
