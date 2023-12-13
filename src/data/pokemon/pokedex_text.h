@@ -2260,11 +2260,11 @@ const u8 gGaogamonPokedexText[] = _(
     "artist by standing on its rear legs like a\n"
     "bear.");
 
-const u8 gRegirockPokedexText[] = _(
-    "A POKéMON that is made entirely of rocks\n"
-    "and boulders. If parts of its body chip off\n"
-    "in battle, REGIROCK repairs itself by\n"
-    "adding new rocks.");
+const u8 gGargomonPokedexText[] = _(
+    "Despite its large size, Gargomon is a pretty\n"
+    "nimble Digimon. Combined with its incredible\n"
+    "aim, it can quickly take down opponents. It\n"
+    "cherishes its jeans.");
 
 const u8 gRegicePokedexText[] = _(
     "Its entire body is made of Antarctic ice.\n"

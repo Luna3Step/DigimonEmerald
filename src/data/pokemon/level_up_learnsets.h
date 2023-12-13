@@ -5453,7 +5453,7 @@ static const u16 sGaogamonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sRegirockLevelUpLearnset[] = {
+static const u16 sGargomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
     LEVEL_UP_MOVE( 9, MOVE_ROCK_THROW),
     LEVEL_UP_MOVE(17, MOVE_CURSE),

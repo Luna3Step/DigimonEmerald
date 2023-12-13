@@ -633,7 +633,7 @@ void StartRegiBattle(void)
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
     switch (species)
     {
-    case SPECIES_REGIROCK:
+    case SPECIES_GARGOMON:
         transitionId = B_TRANSITION_REGIROCK;
         break;
     case SPECIES_REGICE:

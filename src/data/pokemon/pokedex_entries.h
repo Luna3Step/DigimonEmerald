@@ -3627,8 +3627,8 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_BLGARGOMON] =
     {
         .categoryName = _("DOG RABBIT"),
-        .height = 15,
-        .weight = 274,
+        .height = 50,
+        .weight = 762,
         .description = gBlgargomonPokedexText,
         .pokemonScale = 451,
         .pokemonOffset = 17,
@@ -4524,12 +4524,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 9,
     },
 
-    [NATIONAL_DEX_REGIROCK] =
+    [NATIONAL_DEX_GARGOMON] =
     {
-        .categoryName = _("ROCK PEAK"),
-        .height = 17,
-        .weight = 2300,
-        .description = gRegirockPokedexText,
+        .categoryName = _("DOG RABBIT"),
+        .height = 50,
+        .weight = 762,
+        .description = gGargomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 309,
