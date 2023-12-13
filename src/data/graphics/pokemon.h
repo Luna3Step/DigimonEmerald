@@ -2620,12 +2620,12 @@ const u32 gMonShinyPalette_Metang[] = INCBIN_U32("graphics/pokemon/metang/shiny.
 const u8 gMonIcon_Metang[] = INCBIN_U8("graphics/pokemon/metang/icon.4bpp");
 const u8 gMonFootprint_Metang[] = INCBIN_U8("graphics/pokemon/metang/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Metagross[] = INCBIN_U32("graphics/pokemon/metagross/front.4bpp.lz");
-const u32 gMonPalette_Metagross[] = INCBIN_U32("graphics/pokemon/metagross/normal.gbapal.lz");
-const u32 gMonBackPic_Metagross[] = INCBIN_U32("graphics/pokemon/metagross/back.4bpp.lz");
-const u32 gMonShinyPalette_Metagross[] = INCBIN_U32("graphics/pokemon/metagross/shiny.gbapal.lz");
-const u8 gMonIcon_Metagross[] = INCBIN_U8("graphics/pokemon/metagross/icon.4bpp");
-const u8 gMonFootprint_Metagross[] = INCBIN_U8("graphics/pokemon/metagross/footprint.1bpp");
+const u32 gMonStillFrontPic_Gaogamon[] = INCBIN_U32("graphics/pokemon/gaogamon/front.4bpp.lz");
+const u32 gMonPalette_Gaogamon[] = INCBIN_U32("graphics/pokemon/gaogamon/normal.gbapal.lz");
+const u32 gMonBackPic_Gaogamon[] = INCBIN_U32("graphics/pokemon/gaogamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gaogamon[] = INCBIN_U32("graphics/pokemon/gaogamon/shiny.gbapal.lz");
+const u8 gMonIcon_Gaogamon[] = INCBIN_U8("graphics/pokemon/gaogamon/icon.4bpp");
+const u8 gMonFootprint_Gaogamon[] = INCBIN_U8("graphics/pokemon/gaogamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Regirock[] = INCBIN_U32("graphics/pokemon/regirock/front.4bpp.lz");
 const u32 gMonPalette_Regirock[] = INCBIN_U32("graphics/pokemon/regirock/normal.gbapal.lz");

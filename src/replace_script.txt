@@ -1,51 +1,51 @@
-replace "FRONTIER_MON_METAGROSS"
+replace "FRONTIER_MON_GAOGAMON"
 with "FRONTIER_MON_GAOGAMON"
 
-replace "gMetagrossPokedexText"
+replace "gGaogamonPokedexText"
 with "gGaogamonPokedexText"
 
-replace "NATIONAL_DEX_METAGROSS"
+replace "NATIONAL_DEX_GAOGAMON"
 with "NATIONAL_DEX_GAOGAMON"
 
-replace "SPECIES_METAGROSS"
+replace "SPECIES_GAOGAMON"
 with "SPECIES_GAOGAMON"
 
-replace "HOENN_DEX_METAGROSS"
+replace "HOENN_DEX_GAOGAMON"
 with "HOENN_DEX_GAOGAMON"
 
-replace "SPECIES_TO_HOENN(METAGROSS),"
+replace "SPECIES_TO_HOENN(GAOGAMON),"
 with "SPECIES_TO_HOENN(GAOGAMON),"
 
-replace "SPECIES_TO_NATIONAL(METAGROSS),"
+replace "SPECIES_TO_NATIONAL(GAOGAMON),"
 with "SPECIES_TO_NATIONAL(GAOGAMON),"
 
-replace "HOENN_TO_NATIONAL(METAGROSS),"
+replace "HOENN_TO_NATIONAL(GAOGAMON),"
 with "HOENN_TO_NATIONAL(GAOGAMON),"
 
-replace "EC_POKEMON_NATIONAL(METAGROSS),"
+replace "EC_POKEMON_NATIONAL(GAOGAMON),"
 with "EC_POKEMON_NATIONAL(GAOGAMON),"
 
-replace "egg_moves(METAGROSS,"
+replace "egg_moves(GAOGAMON,"
 with "egg_moves(GAOGAMON,"
 
-replace "sMetagrossLevelUpLearnset"
+replace "sGaogamonLevelUpLearnset"
 with "sGaogamonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(METAGROSS"
+replace "SPECIES_SPRITE(GAOGAMON"
 with "SPECIES_SPRITE(GAOGAMON"
 
-replace "SPECIES_PAL(METAGROSS,"
+replace "SPECIES_PAL(GAOGAMON,"
 with "SPECIES_PAL(GAOGAMON,"
 
-replace "SPECIES_SHINY_PAL(METAGROSS,"
+replace "SPECIES_SHINY_PAL(GAOGAMON,"
 with "SPECIES_SHINY_PAL(GAOGAMON,"
 
-replace "EC_POKEMON(METAGROSS)"
+replace "EC_POKEMON(GAOGAMON)"
 with "EC_POKEMON(GAOGAMON)"
 
-replace "EC_POKEMON_NATIONAL(METAGROSS)"
+replace "EC_POKEMON_NATIONAL(GAOGAMON)"
 with "EC_POKEMON_NATIONAL(GAOGAMON)"
 
 in "src/data/text/species_names.h"
-replace "METAGROSS"
+replace "GAOGAMON"
 with "GAOGAMON"

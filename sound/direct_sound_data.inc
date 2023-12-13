@@ -1787,8 +1787,8 @@ Cry_Metang::
 	.incbin "sound/direct_sound_samples/cries/metang.bin"
 
 	.align 2
-Cry_Metagross::
-	.incbin "sound/direct_sound_samples/cries/metagross.bin"
+Cry_Gaogamon::
+	.incbin "sound/direct_sound_samples/cries/gaogamon.bin"
 
 	.align 2
 Cry_Bagon::

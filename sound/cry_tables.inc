@@ -350,7 +350,7 @@ gCryTable::
 	cry Cry_Armaldo
 	cry Cry_Beldum
 	cry Cry_Metang
-	cry Cry_Metagross
+	cry Cry_Gaogamon
 	cry Cry_Bagon
 	cry Cry_Shelgon
 	cry Cry_Regirock
@@ -741,7 +741,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Armaldo
 	cry_reverse Cry_Beldum
 	cry_reverse Cry_Metang
-	cry_reverse Cry_Metagross
+	cry_reverse Cry_Gaogamon
 	cry_reverse Cry_Bagon
 	cry_reverse Cry_Shelgon
 	cry_reverse Cry_Regirock
