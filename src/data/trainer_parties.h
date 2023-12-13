@@ -12431,6 +12431,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_KYOGRE,
+    .species = SPECIES_GATOMON_X,
     }
 };

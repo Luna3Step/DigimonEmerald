@@ -4584,12 +4584,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_KYOGRE] =
+    [NATIONAL_DEX_GATOMON_X] =
     {
-        .categoryName = _("SEA BASIN"),
-        .height = 45,
-        .weight = 3520,
-        .description = gKyogrePokedexText,
+        .categoryName = _("X ANTIBODY"),
+        .height = 4,
+        .weight = 87,
+        .description = gGatomon_xPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 614,

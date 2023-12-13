@@ -2290,11 +2290,11 @@ const u8 gGatomonPokedexText[] = _(
     "stronger than a rookie and only mildly\n"
     "weaker than the average champion.");
 
-const u8 gKyogrePokedexText[] = _(
-    "KYOGRE has appeared in mythology as the\n"
-    "creator of the sea. After long years of\n"
-    "feuding with GROUDON, it took to sleep at\n"
-    "the bottom of the sea.");
+const u8 gGatomon_xPokedexText[] = _(
+    "To draw out more Holy power, Gatomon X\n"
+    "cuts away a lot of redundant parts of\n"
+    "normal Gatomon. This leaves it much\n"
+    "smaller and a bit more mischevious.");
 
 const u8 gGroudonPokedexText[] = _(
     "GROUDON has appeared in mythology as the\n"

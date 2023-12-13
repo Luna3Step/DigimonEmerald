@@ -5493,7 +5493,7 @@ static const u16 sGarurumonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sKyogreLevelUpLearnset[] = {
+static const u16 sGatomon_xLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WATER_PULSE),
     LEVEL_UP_MOVE( 5, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(15, MOVE_ANCIENT_POWER),

@@ -212,7 +212,7 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	waitmovement 0
 	delay 60
 	waitse
-	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
@@ -240,7 +240,7 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
@@ -312,7 +312,7 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	waitmovement 0
 	delay 60
 	waitse
-	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
@@ -340,7 +340,7 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0

@@ -854,7 +854,7 @@ const u16 gEasyChatWordsByLetter_K[] = {
     EC_POKEMON_NATIONAL(ARGOMON_ROOKIE),
     EC_POKEMON_NATIONAL(VIXIMON),
     EC_WORD_KTHX_BYE,
-    EC_POKEMON(KYOGRE),
+    EC_POKEMON(GATOMON_X),
 };
 
 const u16 gEasyChatWordsByLetter_L[] = {
