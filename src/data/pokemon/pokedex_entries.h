@@ -4548,12 +4548,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_REGISTEEL] =
+    [NATIONAL_DEX_GARURUMON] =
     {
-        .categoryName = _("IRON"),
-        .height = 19,
-        .weight = 2050,
-        .description = gRegisteelPokedexText,
+        .categoryName = _("CANINE"),
+        .height = 56,
+        .weight = 621,
+        .description = gGarurumonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 359,

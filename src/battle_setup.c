@@ -639,7 +639,7 @@ void StartRegiBattle(void)
     case SPECIES_GARGOYLMON:
         transitionId = B_TRANSITION_REGICE;
         break;
-    case SPECIES_REGISTEEL:
+    case SPECIES_GARURUMON:
         transitionId = B_TRANSITION_REGISTEEL;
         break;
     default:

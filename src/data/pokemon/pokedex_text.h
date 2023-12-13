@@ -2269,14 +2269,14 @@ const u8 gGargomonPokedexText[] = _(
 const u8 gGargoylmonPokedexText[] = _(
     "Originally a Demon Digimon, it has suppressed\n"
     "its own powers giving it greater control over\n"
-    "its urges. It is often used as a familiar by\n"
-    "other Angel Digimon.");
+    "its urges. Gargoylemon is often used as a\n"
+    "familiar by other Angel Digimon.");
 
-const u8 gRegisteelPokedexText[] = _(
-    "Its body is harder than any other kind of\n"
-    "metal. The body metal is composed of a\n"
-    "mysterious substance. Not only is it hard,\n"
-    "it shrinks and stretches flexibly.");
+const u8 gGarurumonPokedexText[] = _(
+    "Garurumon is both a very strong Digimon and\n"
+    "very intelligent Digimon making is very\n"
+    "fearsome to fight against. When fighting, it\n"
+    "can also use its sharp shoulders to attack.");
 
 const u8 gLatiasPokedexText[] = _(
     "They make a small herd of only several\n"

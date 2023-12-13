@@ -1,55 +1,55 @@
-replace "FRONTIER_MON_REGICE"
-with "FRONTIER_MON_GARGOYLMON"
+replace "FRONTIER_MON_GARUDAMON"
+with "FRONTIER_MON_GARURUMON"
 
-replace "gRegicePokedexText"
-with "gGargoylmonPokedexText"
+replace "gGarudamonPokedexText"
+with "gGarurumonPokedexText"
 
-replace "NATIONAL_DEX_REGICE"
-with "NATIONAL_DEX_GARGOYLMON"
+replace "NATIONAL_DEX_GARUDAMON"
+with "NATIONAL_DEX_GARURUMON"
 
-replace "SPECIES_REGICE"
-with "SPECIES_GARGOYLMON"
+replace "SPECIES_GARUDAMON"
+with "SPECIES_GARURUMON"
 
-replace "HOENN_DEX_REGICE"
-with "HOENN_DEX_GARGOYLMON"
+replace "HOENN_DEX_GARUDAMON"
+with "HOENN_DEX_GARURUMON"
 
-replace "SPECIES_TO_HOENN(REGICE),"
-with "SPECIES_TO_HOENN(GARGOYLMON),"
+replace "SPECIES_TO_HOENN(GARUDAMON),"
+with "SPECIES_TO_HOENN(GARURUMON),"
 
-replace "SPECIES_TO_NATIONAL(REGICE),"
-with "SPECIES_TO_NATIONAL(GARGOYLMON),"
+replace "SPECIES_TO_NATIONAL(GARUDAMON),"
+with "SPECIES_TO_NATIONAL(GARURUMON),"
 
-replace "HOENN_TO_NATIONAL(REGICE),"
-with "HOENN_TO_NATIONAL(GARGOYLMON),"
+replace "HOENN_TO_NATIONAL(GARUDAMON),"
+with "HOENN_TO_NATIONAL(GARURUMON),"
 
-replace "EC_POKEMON_NATIONAL(REGICE),"
-with "EC_POKEMON_NATIONAL(GARGOYLMON),"
+replace "EC_POKEMON_NATIONAL(GARUDAMON),"
+with "EC_POKEMON_NATIONAL(GARURUMON),"
 
-replace "egg_moves(REGICE,"
-with "egg_moves(GARGOYLMON,"
+replace "egg_moves(GARUDAMON,"
+with "egg_moves(GARURUMON,"
 
-replace "sRegiceLevelUpLearnset"
-with "sGargoylmonLevelUpLearnset"
+replace "sGarudamonLevelUpLearnset"
+with "sGarurumonLevelUpLearnset"
 
-replace "SPECIES_SPRITE(REGICE"
-with "SPECIES_SPRITE(GARGOYLMON"
+replace "SPECIES_SPRITE(GARUDAMON"
+with "SPECIES_SPRITE(GARURUMON"
 
-replace "SPECIES_PAL(REGICE,"
-with "SPECIES_PAL(GARGOYLMON,"
+replace "SPECIES_PAL(GARUDAMON,"
+with "SPECIES_PAL(GARURUMON,"
 
-replace "SPECIES_SHINY_PAL(REGICE,"
-with "SPECIES_SHINY_PAL(GARGOYLMON,"
+replace "SPECIES_SHINY_PAL(GARUDAMON,"
+with "SPECIES_SHINY_PAL(GARURUMON,"
 
-replace "EC_POKEMON(REGICE)"
-with "EC_POKEMON(GARGOYLMON)"
+replace "EC_POKEMON(GARUDAMON)"
+with "EC_POKEMON(GARURUMON)"
 
-replace "EC_POKEMON_NATIONAL(REGICE)"
-with "EC_POKEMON_NATIONAL(GARGOYLMON)"
+replace "EC_POKEMON_NATIONAL(GARUDAMON)"
+with "EC_POKEMON_NATIONAL(GARURUMON)"
 
 in "src/data/text/species_names.h"
-replace "REGICE"
-with "GARGOYLMON"
+replace "GARUDAMON"
+with "GARURUMON"
 
 in "src/data/battle_frontier/battle_frontier_trainer_mons.h"
-replace "REGICE"
-with "GARGOYLMON" 
+replace "GARUDAMON"
+with "GARURUMON" 
