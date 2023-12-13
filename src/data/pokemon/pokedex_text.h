@@ -2296,11 +2296,11 @@ const u8 gGatomon_xPokedexText[] = _(
     "normal Gatomon. This leaves it much\n"
     "smaller and a bit more mischevious.");
 
-const u8 gGroudonPokedexText[] = _(
-    "GROUDON has appeared in mythology as the\n"
-    "creator of the land. It sleeps in magma\n"
-    "underground and is said to make volcanoes\n"
-    "erupt on awakening.");
+const u8 gGekomonPokedexText[] = _(
+    "Gekomon is renowned by musicians of the\n"
+    "Digital world as it is one of few species\n"
+    "born from music composition software giving\n"
+    "it a natural edge when making music.");
 
 const u8 gRayquazaPokedexText[] = _(
     "A POKéMON that flies endlessly in the\n"

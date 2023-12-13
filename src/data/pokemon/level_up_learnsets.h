@@ -5508,7 +5508,7 @@ static const u16 sGatomon_xLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sGroudonLevelUpLearnset[] = {
+static const u16 sGekomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE( 5, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(15, MOVE_ANCIENT_POWER),

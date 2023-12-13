@@ -4596,12 +4596,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 13,
     },
 
-    [NATIONAL_DEX_GROUDON] =
+    [NATIONAL_DEX_GEKOMON] =
     {
-        .categoryName = _("CONTINENT"),
-        .height = 35,
-        .weight = 9500,
-        .description = gGroudonPokedexText,
+        .categoryName = _("GECKO"),
+        .height = 9,
+        .weight = 284,
+        .description = gGekomonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 515,
