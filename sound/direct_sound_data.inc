@@ -415,8 +415,8 @@ Cry_Conomon::
 	.incbin "sound/direct_sound_samples/cries/conomon.bin"
 
 	.align 2
-Cry_Wartortle::
-	.incbin "sound/direct_sound_samples/cries/wartortle.bin"
+Cry_Cotsucomon::
+	.incbin "sound/direct_sound_samples/cries/cotsucomon.bin"
 
 	.align 2
 Cry_Blastoise::
