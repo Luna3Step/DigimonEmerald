@@ -5,8 +5,8 @@ gCryTable::
 	cry Cry_Bommon
 	cry Cry_Botamon
 	cry Cry_Chibickmon
-	cry Cry_Charizard
-	cry Cry_Squirtle
+	cry Cry_Chibomon
+	cry Cry_Conomon
 	cry Cry_Wartortle
 	cry Cry_Blastoise
 	cry Cry_Caterpie
@@ -396,8 +396,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Bommon
 	cry_reverse Cry_Botamon
 	cry_reverse Cry_Chibickmon
-	cry_reverse Cry_Charizard
-	cry_reverse Cry_Squirtle
+	cry_reverse Cry_Chibomon
+	cry_reverse Cry_Conomon
 	cry_reverse Cry_Wartortle
 	cry_reverse Cry_Blastoise
 	cry_reverse Cry_Caterpie

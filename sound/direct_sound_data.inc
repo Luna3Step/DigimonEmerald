@@ -407,12 +407,12 @@ Cry_Chibickmon::
 	.incbin "sound/direct_sound_samples/cries/chibickmon.bin"
 
 	.align 2
-Cry_Charizard::
-	.incbin "sound/direct_sound_samples/cries/charizard.bin"
+Cry_Chibomon::
+	.incbin "sound/direct_sound_samples/cries/chibomon.bin"
 
 	.align 2
-Cry_Squirtle::
-	.incbin "sound/direct_sound_samples/cries/squirtle.bin"
+Cry_Conomon::
+	.incbin "sound/direct_sound_samples/cries/conomon.bin"
 
 	.align 2
 Cry_Wartortle::

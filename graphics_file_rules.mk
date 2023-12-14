@@ -330,7 +330,7 @@ $(UNUSEDGFXDIR)/obi_palpak3.gbapal: $(UNUSEDGFXDIR)/old_pal5.gbapal \
 	@cat $^ >$@
 
 $(UNUSEDGFXDIR)/obi1.4bpp: $(UNUSEDGFXDIR)/old_argomon_f.4bpp \
-                           $(UNUSEDGFXDIR)/old_charizard.4bpp
+                           $(UNUSEDGFXDIR)/old_chibomon.4bpp
 	@cat $^ >$@
 
 $(UNUSEDGFXDIR)/obi2.4bpp: $(UNUSEDGFXDIR)/old_argomon_f2.4bpp \

@@ -33,19 +33,19 @@ const u32 gMonShinyPalette_Chibickmon[] = INCBIN_U32("graphics/pokemon/chibickmo
 const u8 gMonIcon_Chibickmon[] = INCBIN_U8("graphics/pokemon/chibickmon/icon.4bpp");
 const u8 gMonFootprint_Chibickmon[] = INCBIN_U8("graphics/pokemon/chibickmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Charizard[] = INCBIN_U32("graphics/pokemon/charizard/front.4bpp.lz");
-const u32 gMonPalette_Charizard[] = INCBIN_U32("graphics/pokemon/charizard/normal.gbapal.lz");
-const u32 gMonBackPic_Charizard[] = INCBIN_U32("graphics/pokemon/charizard/back.4bpp.lz");
-const u32 gMonShinyPalette_Charizard[] = INCBIN_U32("graphics/pokemon/charizard/shiny.gbapal.lz");
-const u8 gMonIcon_Charizard[] = INCBIN_U8("graphics/pokemon/charizard/icon.4bpp");
-const u8 gMonFootprint_Charizard[] = INCBIN_U8("graphics/pokemon/charizard/footprint.1bpp");
+const u32 gMonStillFrontPic_Chibomon[] = INCBIN_U32("graphics/pokemon/chibomon/front.4bpp.lz");
+const u32 gMonPalette_Chibomon[] = INCBIN_U32("graphics/pokemon/chibomon/normal.gbapal.lz");
+const u32 gMonBackPic_Chibomon[] = INCBIN_U32("graphics/pokemon/chibomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Chibomon[] = INCBIN_U32("graphics/pokemon/chibomon/shiny.gbapal.lz");
+const u8 gMonIcon_Chibomon[] = INCBIN_U8("graphics/pokemon/chibomon/icon.4bpp");
+const u8 gMonFootprint_Chibomon[] = INCBIN_U8("graphics/pokemon/chibomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Squirtle[] = INCBIN_U32("graphics/pokemon/squirtle/front.4bpp.lz");
-const u32 gMonPalette_Squirtle[] = INCBIN_U32("graphics/pokemon/squirtle/normal.gbapal.lz");
-const u32 gMonBackPic_Squirtle[] = INCBIN_U32("graphics/pokemon/squirtle/back.4bpp.lz");
-const u32 gMonShinyPalette_Squirtle[] = INCBIN_U32("graphics/pokemon/squirtle/shiny.gbapal.lz");
-const u8 gMonIcon_Squirtle[] = INCBIN_U8("graphics/pokemon/squirtle/icon.4bpp");
-const u8 gMonFootprint_Squirtle[] = INCBIN_U8("graphics/pokemon/squirtle/footprint.1bpp");
+const u32 gMonStillFrontPic_Conomon[] = INCBIN_U32("graphics/pokemon/conomon/front.4bpp.lz");
+const u32 gMonPalette_Conomon[] = INCBIN_U32("graphics/pokemon/conomon/normal.gbapal.lz");
+const u32 gMonBackPic_Conomon[] = INCBIN_U32("graphics/pokemon/conomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Conomon[] = INCBIN_U32("graphics/pokemon/conomon/shiny.gbapal.lz");
+const u8 gMonIcon_Conomon[] = INCBIN_U8("graphics/pokemon/conomon/icon.4bpp");
+const u8 gMonFootprint_Conomon[] = INCBIN_U8("graphics/pokemon/conomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wartortle[] = INCBIN_U32("graphics/pokemon/wartortle/front.4bpp.lz");
 const u32 gMonPalette_Wartortle[] = INCBIN_U32("graphics/pokemon/wartortle/normal.gbapal.lz");

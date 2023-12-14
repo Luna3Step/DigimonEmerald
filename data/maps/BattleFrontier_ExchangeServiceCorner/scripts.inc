@@ -193,7 +193,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2::
 	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_LaprasDoll
 	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll
 	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_BommonDoll
-	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_CharizardDoll
+	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_ChibomonDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_BlastoiseDoll
 	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
 	case MULTI_B_PRESSED, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
@@ -223,11 +223,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_BommonDoll::
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_CharizardDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_ChibomonDoll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmChibomonDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 256
-	setvar VAR_0x8009, DECOR_CHARIZARD_DOLL
+	setvar VAR_0x8009, DECOR_CHIBOMON_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -497,8 +497,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmBommonDoll:
 	.string "You've chosen the BOMMON DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmChibomonDoll:
+	.string "You've chosen the CHIBOMON DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
