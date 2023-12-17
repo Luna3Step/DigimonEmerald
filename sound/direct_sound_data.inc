@@ -423,8 +423,8 @@ Cry_curimon::
 	.incbin "sound/direct_sound_samples/cries/curimon.bin"
 
 	.align 2
-Cry_Caterpie::
-	.incbin "sound/direct_sound_samples/cries/caterpie.bin"
+Cry_Datirimon::
+	.incbin "sound/direct_sound_samples/cries/datirimon.bin"
 
 	.align 2
 Cry_Metapod::
