@@ -54,12 +54,12 @@ const u32 gMonShinyPalette_Cotsucomon[] = INCBIN_U32("graphics/pokemon/cotsucomo
 const u8 gMonIcon_Cotsucomon[] = INCBIN_U8("graphics/pokemon/cotsucomon/icon.4bpp");
 const u8 gMonFootprint_Cotsucomon[] = INCBIN_U8("graphics/pokemon/cotsucomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Blastoise[] = INCBIN_U32("graphics/pokemon/blastoise/front.4bpp.lz");
-const u32 gMonPalette_Blastoise[] = INCBIN_U32("graphics/pokemon/blastoise/normal.gbapal.lz");
-const u32 gMonBackPic_Blastoise[] = INCBIN_U32("graphics/pokemon/blastoise/back.4bpp.lz");
-const u32 gMonShinyPalette_Blastoise[] = INCBIN_U32("graphics/pokemon/blastoise/shiny.gbapal.lz");
-const u8 gMonIcon_Blastoise[] = INCBIN_U8("graphics/pokemon/blastoise/icon.4bpp");
-const u8 gMonFootprint_Blastoise[] = INCBIN_U8("graphics/pokemon/blastoise/footprint.1bpp");
+const u32 gMonStillFrontPic_curimon[] = INCBIN_U32("graphics/pokemon/curimon/front.4bpp.lz");
+const u32 gMonPalette_curimon[] = INCBIN_U32("graphics/pokemon/curimon/normal.gbapal.lz");
+const u32 gMonBackPic_curimon[] = INCBIN_U32("graphics/pokemon/curimon/back.4bpp.lz");
+const u32 gMonShinyPalette_curimon[] = INCBIN_U32("graphics/pokemon/curimon/shiny.gbapal.lz");
+const u8 gMonIcon_curimon[] = INCBIN_U8("graphics/pokemon/curimon/icon.4bpp");
+const u8 gMonFootprint_curimon[] = INCBIN_U8("graphics/pokemon/curimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Caterpie[] = INCBIN_U32("graphics/pokemon/caterpie/front.4bpp.lz");
 const u32 gMonPalette_Caterpie[] = INCBIN_U32("graphics/pokemon/caterpie/normal.gbapal.lz");

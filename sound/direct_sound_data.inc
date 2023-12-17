@@ -419,8 +419,8 @@ Cry_Cotsucomon::
 	.incbin "sound/direct_sound_samples/cries/cotsucomon.bin"
 
 	.align 2
-Cry_Blastoise::
-	.incbin "sound/direct_sound_samples/cries/blastoise.bin"
+Cry_curimon::
+	.incbin "sound/direct_sound_samples/cries/curimon.bin"
 
 	.align 2
 Cry_Caterpie::

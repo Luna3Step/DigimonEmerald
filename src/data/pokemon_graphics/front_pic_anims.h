@@ -69,7 +69,7 @@ static const union AnimCmd sAnim_Cotsucomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Blastoise_1[] =
+static const union AnimCmd sAnim_curimon_1[] =
 {
     ANIMCMD_FRAME(0, 50),
     ANIMCMD_FRAME(0, 25),
@@ -4831,7 +4831,7 @@ SINGLE_ANIMATION(Chibickmon);
 SINGLE_ANIMATION(Chibomon);
 SINGLE_ANIMATION(Conomon);
 SINGLE_ANIMATION(Cotsucomon);
-SINGLE_ANIMATION(Blastoise);
+SINGLE_ANIMATION(curimon);
 SINGLE_ANIMATION(Caterpie);
 SINGLE_ANIMATION(Metapod);
 SINGLE_ANIMATION(Butterfree);
@@ -5263,7 +5263,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHIBOMON]   = sAnims_Chibomon,
     [SPECIES_CONOMON]    = sAnims_Conomon,
     [SPECIES_COTSUCOMON]   = sAnims_Cotsucomon,
-    [SPECIES_CURIMON]   = sAnims_Blastoise,
+    [SPECIES_CURIMON]   = sAnims_curimon,
     [SPECIES_DATIRIMON]    = sAnims_Caterpie,
     [SPECIES_DODOMON]     = sAnims_Metapod,
     [SPECIES_DOKIMON]  = sAnims_Butterfree,
