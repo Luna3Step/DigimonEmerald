@@ -431,8 +431,8 @@ Cry_Dodomon::
 	.incbin "sound/direct_sound_samples/cries/dodomon.bin"
 
 	.align 2
-Cry_Butterfree::
-	.incbin "sound/direct_sound_samples/cries/butterfree.bin"
+Cry_Dokimon::
+	.incbin "sound/direct_sound_samples/cries/dokimon.bin"
 
 	.align 2
 Cry_Weedle::

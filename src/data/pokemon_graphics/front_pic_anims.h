@@ -99,7 +99,7 @@ static const union AnimCmd sAnim_Dodomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Butterfree_1[] =
+static const union AnimCmd sAnim_Dokimon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 5),
@@ -4834,7 +4834,7 @@ SINGLE_ANIMATION(Cotsucomon);
 SINGLE_ANIMATION(curimon);
 SINGLE_ANIMATION(Datirimon);
 SINGLE_ANIMATION(Dodomon);
-SINGLE_ANIMATION(Butterfree);
+SINGLE_ANIMATION(Dokimon);
 SINGLE_ANIMATION(Weedle);
 SINGLE_ANIMATION(Kakuna);
 SINGLE_ANIMATION(Beedrill);
@@ -5266,7 +5266,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CURIMON]   = sAnims_curimon,
     [SPECIES_DATIRIMON]    = sAnims_Datirimon,
     [SPECIES_DODOMON]     = sAnims_Dodomon,
-    [SPECIES_DOKIMON]  = sAnims_Butterfree,
+    [SPECIES_DOKIMON]  = sAnims_Dokimon,
     [SPECIES_FUFUMON]      = sAnims_Weedle,
     [SPECIES_JYARIMON]      = sAnims_Kakuna,
     [SPECIES_KEEMON]    = sAnims_Beedrill,
