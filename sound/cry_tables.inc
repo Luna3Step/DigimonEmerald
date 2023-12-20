@@ -10,7 +10,7 @@ gCryTable::
 	cry Cry_Cotsucomon
 	cry Cry_curimon
 	cry Cry_Datirimon
-	cry Cry_Metapod
+	cry Cry_Dodomon
 	cry Cry_Butterfree
 	cry Cry_Weedle
 	cry Cry_Kakuna
@@ -401,7 +401,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Cotsucomon
 	cry_reverse Cry_curimon
 	cry_reverse Cry_Datirimon
-	cry_reverse Cry_Metapod
+	cry_reverse Cry_Dodomon
 	cry_reverse Cry_Butterfree
 	cry_reverse Cry_Weedle
 	cry_reverse Cry_Kakuna

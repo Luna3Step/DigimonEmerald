@@ -68,12 +68,12 @@ const u32 gMonShinyPalette_Datirimon[] = INCBIN_U32("graphics/pokemon/datirimon/
 const u8 gMonIcon_Datirimon[] = INCBIN_U8("graphics/pokemon/datirimon/icon.4bpp");
 const u8 gMonFootprint_Datirimon[] = INCBIN_U8("graphics/pokemon/datirimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Metapod[] = INCBIN_U32("graphics/pokemon/metapod/front.4bpp.lz");
-const u32 gMonPalette_Metapod[] = INCBIN_U32("graphics/pokemon/metapod/normal.gbapal.lz");
-const u32 gMonBackPic_Metapod[] = INCBIN_U32("graphics/pokemon/metapod/back.4bpp.lz");
-const u32 gMonShinyPalette_Metapod[] = INCBIN_U32("graphics/pokemon/metapod/shiny.gbapal.lz");
-const u8 gMonIcon_Metapod[] = INCBIN_U8( "graphics/pokemon/metapod/icon.4bpp");
-const u8 gMonFootprint_Metapod[] = INCBIN_U8("graphics/pokemon/metapod/footprint.1bpp");
+const u32 gMonStillFrontPic_Dodomon[] = INCBIN_U32("graphics/pokemon/dodomon/front.4bpp.lz");
+const u32 gMonPalette_Dodomon[] = INCBIN_U32("graphics/pokemon/dodomon/normal.gbapal.lz");
+const u32 gMonBackPic_Dodomon[] = INCBIN_U32("graphics/pokemon/dodomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dodomon[] = INCBIN_U32("graphics/pokemon/dodomon/shiny.gbapal.lz");
+const u8 gMonIcon_Dodomon[] = INCBIN_U8( "graphics/pokemon/dodomon/icon.4bpp");
+const u8 gMonFootprint_Dodomon[] = INCBIN_U8("graphics/pokemon/dodomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Butterfree[] = INCBIN_U32("graphics/pokemon/butterfree/front.4bpp.lz");
 const u32 gMonPalette_Butterfree[] = INCBIN_U32("graphics/pokemon/butterfree/normal.gbapal.lz");

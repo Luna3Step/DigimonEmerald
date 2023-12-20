@@ -427,8 +427,8 @@ Cry_Datirimon::
 	.incbin "sound/direct_sound_samples/cries/datirimon.bin"
 
 	.align 2
-Cry_Metapod::
-	.incbin "sound/direct_sound_samples/cries/metapod.bin"
+Cry_Dodomon::
+	.incbin "sound/direct_sound_samples/cries/dodomon.bin"
 
 	.align 2
 Cry_Butterfree::
