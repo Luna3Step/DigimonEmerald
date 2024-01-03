@@ -12,8 +12,8 @@ gCryTable::
 	cry Cry_Datirimon
 	cry Cry_Dodomon
 	cry Cry_Dokimon
-	cry Cry_Weedle
-	cry Cry_Kakuna
+	cry Cry_Fufumon
+	cry Cry_Jyarimon
 	cry Cry_Beedrill
 	cry Cry_Pidgey
 	cry Cry_Pidgeotto
@@ -403,8 +403,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Datirimon
 	cry_reverse Cry_Dodomon
 	cry_reverse Cry_Dokimon
-	cry_reverse Cry_Weedle
-	cry_reverse Cry_Kakuna
+	cry_reverse Cry_Fufumon
+	cry_reverse Cry_Jyarimon
 	cry_reverse Cry_Beedrill
 	cry_reverse Cry_Pidgey
 	cry_reverse Cry_Pidgeotto

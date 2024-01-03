@@ -82,19 +82,19 @@ const u32 gMonShinyPalette_Dokimon[] = INCBIN_U32("graphics/pokemon/dokimon/shin
 const u8 gMonIcon_Dokimon[] = INCBIN_U8("graphics/pokemon/dokimon/icon.4bpp");
 const u8 gMonFootprint_Dokimon[] = INCBIN_U8("graphics/pokemon/dokimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Weedle[] = INCBIN_U32("graphics/pokemon/weedle/front.4bpp.lz");
-const u32 gMonPalette_Weedle[] = INCBIN_U32("graphics/pokemon/weedle/normal.gbapal.lz");
-const u32 gMonBackPic_Weedle[] = INCBIN_U32("graphics/pokemon/weedle/back.4bpp.lz");
-const u32 gMonShinyPalette_Weedle[] = INCBIN_U32("graphics/pokemon/weedle/shiny.gbapal.lz");
-const u8 gMonIcon_Weedle[] = INCBIN_U8("graphics/pokemon/weedle/icon.4bpp");
-const u8 gMonFootprint_Weedle[] = INCBIN_U8("graphics/pokemon/weedle/footprint.1bpp");
+const u32 gMonStillFrontPic_Fufumon[] = INCBIN_U32("graphics/pokemon/fufumon/front.4bpp.lz");
+const u32 gMonPalette_Fufumon[] = INCBIN_U32("graphics/pokemon/fufumon/normal.gbapal.lz");
+const u32 gMonBackPic_Fufumon[] = INCBIN_U32("graphics/pokemon/fufumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Fufumon[] = INCBIN_U32("graphics/pokemon/fufumon/shiny.gbapal.lz");
+const u8 gMonIcon_Fufumon[] = INCBIN_U8("graphics/pokemon/fufumon/icon.4bpp");
+const u8 gMonFootprint_Fufumon[] = INCBIN_U8("graphics/pokemon/fufumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kakuna[] = INCBIN_U32("graphics/pokemon/kakuna/front.4bpp.lz");
-const u32 gMonPalette_Kakuna[] = INCBIN_U32("graphics/pokemon/kakuna/normal.gbapal.lz");
-const u32 gMonBackPic_Kakuna[] = INCBIN_U32("graphics/pokemon/kakuna/back.4bpp.lz");
-const u32 gMonShinyPalette_Kakuna[] = INCBIN_U32("graphics/pokemon/kakuna/shiny.gbapal.lz");
-const u8 gMonIcon_Kakuna[] = INCBIN_U8("graphics/pokemon/kakuna/icon.4bpp");
-const u8 gMonFootprint_Kakuna[] = INCBIN_U8("graphics/pokemon/kakuna/footprint.1bpp");
+const u32 gMonStillFrontPic_Jyarimon[] = INCBIN_U32("graphics/pokemon/jyarimon/front.4bpp.lz");
+const u32 gMonPalette_Jyarimon[] = INCBIN_U32("graphics/pokemon/jyarimon/normal.gbapal.lz");
+const u32 gMonBackPic_Jyarimon[] = INCBIN_U32("graphics/pokemon/jyarimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Jyarimon[] = INCBIN_U32("graphics/pokemon/jyarimon/shiny.gbapal.lz");
+const u8 gMonIcon_Jyarimon[] = INCBIN_U8("graphics/pokemon/jyarimon/icon.4bpp");
+const u8 gMonFootprint_Jyarimon[] = INCBIN_U8("graphics/pokemon/jyarimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Beedrill[] = INCBIN_U32("graphics/pokemon/beedrill/front.4bpp.lz");
 const u32 gMonPalette_Beedrill[] = INCBIN_U32("graphics/pokemon/beedrill/normal.gbapal.lz");

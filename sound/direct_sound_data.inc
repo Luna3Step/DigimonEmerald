@@ -435,12 +435,12 @@ Cry_Dokimon::
 	.incbin "sound/direct_sound_samples/cries/dokimon.bin"
 
 	.align 2
-Cry_Weedle::
-	.incbin "sound/direct_sound_samples/cries/weedle.bin"
+Cry_Fufumon::
+	.incbin "sound/direct_sound_samples/cries/fufumon.bin"
 
 	.align 2
-Cry_Kakuna::
-	.incbin "sound/direct_sound_samples/cries/kakuna.bin"
+Cry_Jyarimon::
+	.incbin "sound/direct_sound_samples/cries/jyarimon.bin"
 
 	.align 2
 Cry_Beedrill::
