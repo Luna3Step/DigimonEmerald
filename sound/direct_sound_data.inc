@@ -447,8 +447,8 @@ Cry_Keemon::
 	.incbin "sound/direct_sound_samples/cries/keemon.bin"
 
 	.align 2
-Cry_Pidgey::
-	.incbin "sound/direct_sound_samples/cries/pidgey.bin"
+Cry_Ketomon::
+	.incbin "sound/direct_sound_samples/cries/ketomon.bin"
 
 	.align 2
 Cry_Pidgeotto::

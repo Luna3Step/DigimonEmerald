@@ -103,12 +103,12 @@ const u32 gMonShinyPalette_Keemon[] = INCBIN_U32("graphics/pokemon/keemon/shiny.
 const u8 gMonIcon_Keemon[] = INCBIN_U8("graphics/pokemon/keemon/icon.4bpp");
 const u8 gMonFootprint_Keemon[] = INCBIN_U8("graphics/pokemon/keemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Pidgey[] = INCBIN_U32("graphics/pokemon/pidgey/front.4bpp.lz");
-const u32 gMonPalette_Pidgey[] = INCBIN_U32("graphics/pokemon/pidgey/normal.gbapal.lz");
-const u32 gMonBackPic_Pidgey[] = INCBIN_U32("graphics/pokemon/pidgey/back.4bpp.lz");
-const u32 gMonShinyPalette_Pidgey[] = INCBIN_U32("graphics/pokemon/pidgey/shiny.gbapal.lz");
-const u8 gMonIcon_Pidgey[] = INCBIN_U8("graphics/pokemon/pidgey/icon.4bpp");
-const u8 gMonFootprint_Pidgey[] = INCBIN_U8("graphics/pokemon/pidgey/footprint.1bpp");
+const u32 gMonStillFrontPic_Ketomon[] = INCBIN_U32("graphics/pokemon/ketomon/front.4bpp.lz");
+const u32 gMonPalette_Ketomon[] = INCBIN_U32("graphics/pokemon/ketomon/normal.gbapal.lz");
+const u32 gMonBackPic_Ketomon[] = INCBIN_U32("graphics/pokemon/ketomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Ketomon[] = INCBIN_U32("graphics/pokemon/ketomon/shiny.gbapal.lz");
+const u8 gMonIcon_Ketomon[] = INCBIN_U8("graphics/pokemon/ketomon/icon.4bpp");
+const u8 gMonFootprint_Ketomon[] = INCBIN_U8("graphics/pokemon/ketomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pidgeotto[] = INCBIN_U32("graphics/pokemon/pidgeotto/front.4bpp.lz");
 const u32 gMonPalette_Pidgeotto[] = INCBIN_U32("graphics/pokemon/pidgeotto/normal.gbapal.lz");
