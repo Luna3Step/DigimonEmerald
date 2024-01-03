@@ -451,8 +451,8 @@ Cry_Ketomon::
 	.incbin "sound/direct_sound_samples/cries/ketomon.bin"
 
 	.align 2
-Cry_Pidgeotto::
-	.incbin "sound/direct_sound_samples/cries/pidgeotto.bin"
+Cry_Kuramon::
+	.incbin "sound/direct_sound_samples/cries/kuramon.bin"
 
 	.align 2
 Cry_Pidgeot::

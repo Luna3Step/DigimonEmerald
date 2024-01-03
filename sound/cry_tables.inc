@@ -16,7 +16,7 @@ gCryTable::
 	cry Cry_Jyarimon
 	cry Cry_Keemon
 	cry Cry_Ketomon
-	cry Cry_Pidgeotto
+	cry Cry_Kuramon
 	cry Cry_Pidgeot
 	cry Cry_Rattata
 	cry Cry_Raticate
@@ -407,7 +407,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jyarimon
 	cry_reverse Cry_Keemon
 	cry_reverse Cry_Ketomon
-	cry_reverse Cry_Pidgeotto
+	cry_reverse Cry_Kuramon
 	cry_reverse Cry_Pidgeot
 	cry_reverse Cry_Rattata
 	cry_reverse Cry_Raticate

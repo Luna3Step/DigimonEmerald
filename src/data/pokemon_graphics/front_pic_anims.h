@@ -172,7 +172,7 @@ static const union AnimCmd sAnim_Ketomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Pidgeotto_1[] =
+static const union AnimCmd sAnim_Kuramon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 10),
@@ -4839,7 +4839,7 @@ SINGLE_ANIMATION(Fufumon);
 SINGLE_ANIMATION(Jyarimon);
 SINGLE_ANIMATION(Keemon);
 SINGLE_ANIMATION(Ketomon);
-SINGLE_ANIMATION(Pidgeotto);
+SINGLE_ANIMATION(Kuramon);
 SINGLE_ANIMATION(Pidgeot);
 SINGLE_ANIMATION(Rattata);
 SINGLE_ANIMATION(Raticate);
@@ -5271,7 +5271,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_JYARIMON]      = sAnims_Jyarimon,
     [SPECIES_KEEMON]    = sAnims_Keemon,
     [SPECIES_KETOMON]      = sAnims_Ketomon,
-    [SPECIES_KURAMON]   = sAnims_Pidgeotto,
+    [SPECIES_KURAMON]   = sAnims_Kuramon,
     [SPECIES_LEAFMON]     = sAnims_Pidgeot,
     [SPECIES_CHOROMON]     = sAnims_Rattata,
     [SPECIES_MOKUMON]    = sAnims_Raticate,
