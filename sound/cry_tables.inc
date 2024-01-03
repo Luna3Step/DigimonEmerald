@@ -20,7 +20,7 @@ gCryTable::
 	cry Cry_Leafmon
 	cry Cry_Choromon
 	cry Cry_Mokumon
-	cry Cry_Spearow
+	cry Cry_Nyokimon
 	cry Cry_Fearow
 	cry Cry_Ekans
 	cry Cry_Arbok
@@ -411,7 +411,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Leafmon
 	cry_reverse Cry_Choromon
 	cry_reverse Cry_Mokumon
-	cry_reverse Cry_Spearow
+	cry_reverse Cry_Nyokimon
 	cry_reverse Cry_Fearow
 	cry_reverse Cry_Ekans
 	cry_reverse Cry_Arbok

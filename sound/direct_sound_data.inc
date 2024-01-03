@@ -467,8 +467,8 @@ Cry_Mokumon::
 	.incbin "sound/direct_sound_samples/cries/mokumon.bin"
 
 	.align 2
-Cry_Spearow::
-	.incbin "sound/direct_sound_samples/cries/spearow.bin"
+Cry_Nyokimon::
+	.incbin "sound/direct_sound_samples/cries/nyokimon.bin"
 
 	.align 2
 Cry_Fearow::

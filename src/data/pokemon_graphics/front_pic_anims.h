@@ -217,7 +217,7 @@ static const union AnimCmd sAnim_Mokumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Spearow_1[] =
+static const union AnimCmd sAnim_Nyokimon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 5),
@@ -4843,7 +4843,7 @@ SINGLE_ANIMATION(Kuramon);
 SINGLE_ANIMATION(Leafmon);
 SINGLE_ANIMATION(Choromon);
 SINGLE_ANIMATION(Mokumon);
-SINGLE_ANIMATION(Spearow);
+SINGLE_ANIMATION(Nyokimon);
 SINGLE_ANIMATION(Fearow);
 SINGLE_ANIMATION(Ekans);
 SINGLE_ANIMATION(Arbok);
@@ -5275,7 +5275,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_LEAFMON]     = sAnims_Leafmon,
     [SPECIES_CHOROMON]     = sAnims_Choromon,
     [SPECIES_MOKUMON]    = sAnims_Mokumon,
-    [SPECIES_NYOKIMON]     = sAnims_Spearow,
+    [SPECIES_NYOKIMON]     = sAnims_Nyokimon,
     [SPECIES_PABUMON]      = sAnims_Fearow,
     [SPECIES_PAFUMON]       = sAnims_Ekans,
     [SPECIES_PAOMON]       = sAnims_Arbok,
