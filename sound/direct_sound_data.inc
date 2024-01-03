@@ -455,8 +455,8 @@ Cry_Kuramon::
 	.incbin "sound/direct_sound_samples/cries/kuramon.bin"
 
 	.align 2
-Cry_Pidgeot::
-	.incbin "sound/direct_sound_samples/cries/pidgeot.bin"
+Cry_Leafmon::
+	.incbin "sound/direct_sound_samples/cries/leafmon.bin"
 
 	.align 2
 Cry_Rattata::
