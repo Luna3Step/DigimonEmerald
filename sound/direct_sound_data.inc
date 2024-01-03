@@ -443,8 +443,8 @@ Cry_Jyarimon::
 	.incbin "sound/direct_sound_samples/cries/jyarimon.bin"
 
 	.align 2
-Cry_Beedrill::
-	.incbin "sound/direct_sound_samples/cries/beedrill.bin"
+Cry_Keemon::
+	.incbin "sound/direct_sound_samples/cries/keemon.bin"
 
 	.align 2
 Cry_Pidgey::

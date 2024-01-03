@@ -14,7 +14,7 @@ gCryTable::
 	cry Cry_Dokimon
 	cry Cry_Fufumon
 	cry Cry_Jyarimon
-	cry Cry_Beedrill
+	cry Cry_Keemon
 	cry Cry_Pidgey
 	cry Cry_Pidgeotto
 	cry Cry_Pidgeot
@@ -405,7 +405,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Dokimon
 	cry_reverse Cry_Fufumon
 	cry_reverse Cry_Jyarimon
-	cry_reverse Cry_Beedrill
+	cry_reverse Cry_Keemon
 	cry_reverse Cry_Pidgey
 	cry_reverse Cry_Pidgeotto
 	cry_reverse Cry_Pidgeot
