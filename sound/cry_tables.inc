@@ -18,7 +18,7 @@ gCryTable::
 	cry Cry_Ketomon
 	cry Cry_Kuramon
 	cry Cry_Leafmon
-	cry Cry_Rattata
+	cry Cry_Choromon
 	cry Cry_Raticate
 	cry Cry_Spearow
 	cry Cry_Fearow
@@ -409,7 +409,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Ketomon
 	cry_reverse Cry_Kuramon
 	cry_reverse Cry_Leafmon
-	cry_reverse Cry_Rattata
+	cry_reverse Cry_Choromon
 	cry_reverse Cry_Raticate
 	cry_reverse Cry_Spearow
 	cry_reverse Cry_Fearow

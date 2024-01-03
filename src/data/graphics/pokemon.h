@@ -124,12 +124,12 @@ const u32 gMonShinyPalette_Leafmon[] = INCBIN_U32("graphics/pokemon/leafmon/shin
 const u8 gMonIcon_Leafmon[] = INCBIN_U8("graphics/pokemon/leafmon/icon.4bpp");
 const u8 gMonFootprint_Leafmon[] = INCBIN_U8("graphics/pokemon/leafmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Rattata[] = INCBIN_U32("graphics/pokemon/rattata/front.4bpp.lz");
-const u32 gMonPalette_Rattata[] = INCBIN_U32("graphics/pokemon/rattata/normal.gbapal.lz");
-const u32 gMonBackPic_Rattata[] = INCBIN_U32("graphics/pokemon/rattata/back.4bpp.lz");
-const u32 gMonShinyPalette_Rattata[] = INCBIN_U32("graphics/pokemon/rattata/shiny.gbapal.lz");
-const u8 gMonIcon_Rattata[] = INCBIN_U8("graphics/pokemon/rattata/icon.4bpp");
-const u8 gMonFootprint_Rattata[] = INCBIN_U8("graphics/pokemon/rattata/footprint.1bpp");
+const u32 gMonStillFrontPic_Choromon[] = INCBIN_U32("graphics/pokemon/choromon/front.4bpp.lz");
+const u32 gMonPalette_Choromon[] = INCBIN_U32("graphics/pokemon/choromon/normal.gbapal.lz");
+const u32 gMonBackPic_Choromon[] = INCBIN_U32("graphics/pokemon/choromon/back.4bpp.lz");
+const u32 gMonShinyPalette_Choromon[] = INCBIN_U32("graphics/pokemon/choromon/shiny.gbapal.lz");
+const u8 gMonIcon_Choromon[] = INCBIN_U8("graphics/pokemon/choromon/icon.4bpp");
+const u8 gMonFootprint_Choromon[] = INCBIN_U8("graphics/pokemon/choromon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Raticate[] = INCBIN_U32("graphics/pokemon/raticate/front.4bpp.lz");
 const u32 gMonPalette_Raticate[] = INCBIN_U32("graphics/pokemon/raticate/normal.gbapal.lz");
