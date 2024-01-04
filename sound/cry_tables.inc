@@ -22,7 +22,7 @@ gCryTable::
 	cry Cry_Mokumon
 	cry Cry_Nyokimon
 	cry Cry_Pabumon
-	cry Cry_Ekans
+	cry Cry_Pafumon
 	cry Cry_Arbok
 	cry Cry_Pikachu
 	cry Cry_Raichu
@@ -413,7 +413,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Mokumon
 	cry_reverse Cry_Nyokimon
 	cry_reverse Cry_Pabumon
-	cry_reverse Cry_Ekans
+	cry_reverse Cry_Pafumon
 	cry_reverse Cry_Arbok
 	cry_reverse Cry_Pikachu
 	cry_reverse Cry_Raichu

@@ -475,8 +475,8 @@ Cry_Pabumon::
 	.incbin "sound/direct_sound_samples/cries/pabumon.bin"
 
 	.align 2
-Cry_Ekans::
-	.incbin "sound/direct_sound_samples/cries/ekans.bin"
+Cry_Pafumon::
+	.incbin "sound/direct_sound_samples/cries/pafumon.bin"
 
 	.align 2
 Cry_Arbok::
