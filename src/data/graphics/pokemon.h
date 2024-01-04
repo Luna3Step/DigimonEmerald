@@ -145,12 +145,12 @@ const u32 gMonShinyPalette_Nyokimon[] = INCBIN_U32("graphics/pokemon/nyokimon/sh
 const u8 gMonIcon_Nyokimon[] = INCBIN_U8("graphics/pokemon/nyokimon/icon.4bpp");
 const u8 gMonFootprint_Nyokimon[] = INCBIN_U8("graphics/pokemon/nyokimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Fearow[] = INCBIN_U32("graphics/pokemon/fearow/front.4bpp.lz");
-const u32 gMonPalette_Fearow[] = INCBIN_U32("graphics/pokemon/fearow/normal.gbapal.lz");
-const u32 gMonBackPic_Fearow[] = INCBIN_U32("graphics/pokemon/fearow/back.4bpp.lz");
-const u32 gMonShinyPalette_Fearow[] = INCBIN_U32("graphics/pokemon/fearow/shiny.gbapal.lz");
-const u8 gMonIcon_Fearow[] = INCBIN_U8("graphics/pokemon/fearow/icon.4bpp");
-const u8 gMonFootprint_Fearow[] = INCBIN_U8("graphics/pokemon/fearow/footprint.1bpp");
+const u32 gMonStillFrontPic_Pabumon[] = INCBIN_U32("graphics/pokemon/pabumon/front.4bpp.lz");
+const u32 gMonPalette_Pabumon[] = INCBIN_U32("graphics/pokemon/pabumon/normal.gbapal.lz");
+const u32 gMonBackPic_Pabumon[] = INCBIN_U32("graphics/pokemon/pabumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pabumon[] = INCBIN_U32("graphics/pokemon/pabumon/shiny.gbapal.lz");
+const u8 gMonIcon_Pabumon[] = INCBIN_U8("graphics/pokemon/pabumon/icon.4bpp");
+const u8 gMonFootprint_Pabumon[] = INCBIN_U8("graphics/pokemon/pabumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ekans[] = INCBIN_U32("graphics/pokemon/ekans/front.4bpp.lz");
 const u32 gMonPalette_Ekans[] = INCBIN_U32("graphics/pokemon/ekans/normal.gbapal.lz");
