@@ -447,7 +447,7 @@ static const u8 sHarborMailDesc[] = _(
     "a POKéMON.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
+    "A PETITMON-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 
@@ -831,7 +831,7 @@ static const u8 sDragonScaleDesc[] = _(
 static const u8 sLightBallDesc[] = _(
     "A hold item that\n"
     "raises the SP. ATK\n"
-    "of PIKACHU.");
+    "of PETITMON.");
 
 static const u8 sSoftSandDesc[] = _(
     "A hold item that\n"

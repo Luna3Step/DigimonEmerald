@@ -483,8 +483,8 @@ Cry_Paomon::
 	.incbin "sound/direct_sound_samples/cries/paomon.bin"
 
 	.align 2
-Cry_Pikachu::
-	.incbin "sound/direct_sound_samples/cries/pikachu.bin"
+Cry_Petitmon::
+	.incbin "sound/direct_sound_samples/cries/petitmon.bin"
 
 	.align 2
 Cry_Raichu::

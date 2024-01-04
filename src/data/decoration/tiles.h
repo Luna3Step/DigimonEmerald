@@ -466,8 +466,8 @@ const u16 DecorGfx_PICHU_DOLL[] = {
     OBJ_EVENT_GFX_PICHU_DOLL
 };
 
-const u16 DecorGfx_PIKACHU_DOLL[] = {
-    OBJ_EVENT_GFX_PIKACHU_DOLL
+const u16 DecorGfx_PETITMON_DOLL[] = {
+    OBJ_EVENT_GFX_PETITMON_DOLL
 };
 
 const u16 DecorGfx_MARILL_DOLL[] = {

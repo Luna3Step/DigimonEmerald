@@ -924,16 +924,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_PICHU_DOLL,
     },
 
-    [DECOR_PIKACHU_DOLL] =
+    [DECOR_PETITMON_DOLL] =
     {
-        .id = DECOR_PIKACHU_DOLL,
-        .name = _("PIKACHU DOLL"),
+        .id = DECOR_PETITMON_DOLL,
+        .name = _("PETITMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_PIKACHU_DOLL,
-        .tiles = DecorGfx_PIKACHU_DOLL,
+        .description = DecorDesc_PETITMON_DOLL,
+        .tiles = DecorGfx_PETITMON_DOLL,
     },
 
     [DECOR_MARILL_DOLL] =

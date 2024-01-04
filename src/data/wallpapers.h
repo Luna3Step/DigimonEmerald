@@ -270,13 +270,13 @@ static const u16 sWallpaperPalettes_Azumarill[][16] =
 static const u32 sWallpaperTiles_Azumarill[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/azumarill/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Azumarill[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/azumarill/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Pikachu[][16] =
+static const u16 sWallpaperPalettes_Petitmon[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/wallpapers/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/pikachu/bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/wallpapers/petitmon/bg.gbapal"),
 };
-static const u32 sWallpaperTiles_Pikachu[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/pikachu/tiles.4bpp.lz");
-static const u32 sWallpaperTilemap_Pikachu[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/pikachu/tilemap.bin.lz");
+static const u32 sWallpaperTiles_Petitmon[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/petitmon/tiles.4bpp.lz");
+static const u32 sWallpaperTilemap_Petitmon[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/petitmon/tilemap.bin.lz");
 
 static const u16 sWallpaperPalettes_Legendary[][16] =
 {
@@ -351,7 +351,7 @@ static const struct Wallpaper sWaldaWallpapers[] =
     WALLPAPER_ENTRY(Blank),
     WALLPAPER_ENTRY(Circles),
     WALLPAPER_ENTRY(Azumarill),
-    WALLPAPER_ENTRY(Pikachu),
+    WALLPAPER_ENTRY(Petitmon),
     WALLPAPER_ENTRY(Legendary),
     WALLPAPER_ENTRY(Dusclops),
     WALLPAPER_ENTRY(Ludicolo),

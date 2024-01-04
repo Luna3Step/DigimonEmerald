@@ -6,7 +6,7 @@ RustboroCity_House3_EventScript_OldMan::
 	end
 
 RustboroCity_House3_EventScript_OldWoman::
-	msgbox RustboroCity_House3_Text_NamingPikachuPekachu, MSGBOX_NPC
+	msgbox RustboroCity_House3_Text_NamingPetitmonPekachu, MSGBOX_NPC
 	end
 
 @ Misspelling on purpose, see nickname
@@ -26,9 +26,9 @@ RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
 	.string "It's my expression of, uh…\n"
 	.string "originality, yes, that's it!$"
 
-RustboroCity_House3_Text_NamingPikachuPekachu:
+RustboroCity_House3_Text_NamingPetitmonPekachu:
 	.string "But giving the name PEKACHU to\n"
-	.string "a PIKACHU? It seems pointless.\p"
+	.string "a PETITMON? It seems pointless.\p"
 	.string "I suppose it is good to use a name\n"
 	.string "that's easy to understand, but…$"
 

@@ -847,8 +847,8 @@ static const struct SpriteFrameImage sPicTable_UnusedWooperDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedWooperDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_UnusedPikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedPikachuDoll),
+static const struct SpriteFrameImage sPicTable_UnusedPetitmonDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedPetitmonDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_UnusedPorygon2Doll[] = {
@@ -1441,8 +1441,8 @@ static const struct SpriteFrameImage sPicTable_PichuDoll[] = {
     obj_frame_tiles(gObjectEventPic_PichuDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_PikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_PikachuDoll),
+static const struct SpriteFrameImage sPicTable_PetitmonDoll[] = {
+    obj_frame_tiles(gObjectEventPic_PetitmonDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_MarillDoll[] = {
@@ -1829,16 +1829,16 @@ static const struct SpriteFrameImage sPicTable_Zigzagoon[] = {
     overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 2),
 };
 
-static const struct SpriteFrameImage sPicTable_Pikachu[] = {
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
+static const struct SpriteFrameImage sPicTable_Petitmon[] = {
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Petitmon, 2, 2, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_Azumarill[] = {
