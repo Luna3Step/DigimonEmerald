@@ -159,12 +159,12 @@ const u32 gMonShinyPalette_Pafumon[] = INCBIN_U32("graphics/pokemon/pafumon/shin
 const u8 gMonIcon_Pafumon[] = INCBIN_U8("graphics/pokemon/pafumon/icon.4bpp");
 const u8 gMonFootprint_Pafumon[] = INCBIN_U8("graphics/pokemon/pafumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Arbok[] = INCBIN_U32("graphics/pokemon/arbok/front.4bpp.lz");
-const u32 gMonPalette_Arbok[] = INCBIN_U32("graphics/pokemon/arbok/normal.gbapal.lz");
-const u32 gMonBackPic_Arbok[] = INCBIN_U32("graphics/pokemon/arbok/back.4bpp.lz");
-const u32 gMonShinyPalette_Arbok[] = INCBIN_U32("graphics/pokemon/arbok/shiny.gbapal.lz");
-const u8 gMonIcon_Arbok[] = INCBIN_U8("graphics/pokemon/arbok/icon.4bpp");
-const u8 gMonFootprint_Arbok[] = INCBIN_U8("graphics/pokemon/arbok/footprint.1bpp");
+const u32 gMonStillFrontPic_Paomon[] = INCBIN_U32("graphics/pokemon/paomon/front.4bpp.lz");
+const u32 gMonPalette_Paomon[] = INCBIN_U32("graphics/pokemon/paomon/normal.gbapal.lz");
+const u32 gMonBackPic_Paomon[] = INCBIN_U32("graphics/pokemon/paomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Paomon[] = INCBIN_U32("graphics/pokemon/paomon/shiny.gbapal.lz");
+const u8 gMonIcon_Paomon[] = INCBIN_U8("graphics/pokemon/paomon/icon.4bpp");
+const u8 gMonFootprint_Paomon[] = INCBIN_U8("graphics/pokemon/paomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pikachu[] = INCBIN_U32("graphics/pokemon/pikachu/front.4bpp.lz");
 const u32 gMonPalette_Pikachu[] = INCBIN_U32("graphics/pokemon/pikachu/normal.gbapal.lz");

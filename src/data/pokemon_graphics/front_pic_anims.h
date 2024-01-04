@@ -262,7 +262,7 @@ static const union AnimCmd sAnim_Pafumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Arbok_1[] =
+static const union AnimCmd sAnim_Paomon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 35),
@@ -4846,7 +4846,7 @@ SINGLE_ANIMATION(Mokumon);
 SINGLE_ANIMATION(Nyokimon);
 SINGLE_ANIMATION(Pabumon);
 SINGLE_ANIMATION(Pafumon);
-SINGLE_ANIMATION(Arbok);
+SINGLE_ANIMATION(Paomon);
 DOUBLE_ANIMATION(Pikachu);
 DOUBLE_ANIMATION(Raichu);
 DOUBLE_ANIMATION(Sandshrew);
@@ -5278,7 +5278,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_NYOKIMON]     = sAnims_Nyokimon,
     [SPECIES_PABUMON]      = sAnims_Pabumon,
     [SPECIES_PAFUMON]       = sAnims_Pafumon,
-    [SPECIES_PAOMON]       = sAnims_Arbok,
+    [SPECIES_PAOMON]       = sAnims_Paomon,
     [SPECIES_PETITMON]     = sAnims_Pikachu,
     [SPECIES_PICHIMON]      = sAnims_Raichu,
     [SPECIES_POPOMON]   = sAnims_Sandshrew,
