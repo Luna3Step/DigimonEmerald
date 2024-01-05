@@ -599,8 +599,8 @@ Cry_Chapmon::
 	.incbin "sound/direct_sound_samples/cries/chapmon.bin"
 
 	.align 2
-Cry_Psyduck::
-	.incbin "sound/direct_sound_samples/cries/psyduck.bin"
+Cry_Chicchimon::
+	.incbin "sound/direct_sound_samples/cries/chicchimon.bin"
 
 	.align 2
 Cry_Golduck::

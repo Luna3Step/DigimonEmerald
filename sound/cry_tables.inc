@@ -53,7 +53,7 @@ gCryTable::
 	cry Cry_Bukamon
 	cry Cry_Calumon
 	cry Cry_Chapmon
-	cry Cry_Psyduck
+	cry Cry_Chicchimon
 	cry Cry_Golduck
 	cry Cry_Mankey
 	cry Cry_Primeape
@@ -444,7 +444,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Bukamon
 	cry_reverse Cry_Calumon
 	cry_reverse Cry_Chapmon
-	cry_reverse Cry_Psyduck
+	cry_reverse Cry_Chicchimon
 	cry_reverse Cry_Golduck
 	cry_reverse Cry_Mankey
 	cry_reverse Cry_Primeape

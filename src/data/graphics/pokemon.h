@@ -369,12 +369,12 @@ const u32 gMonShinyPalette_Chapmon[] = INCBIN_U32("graphics/pokemon/chapmon/shin
 const u8 gMonIcon_Chapmon[] = INCBIN_U8("graphics/pokemon/chapmon/icon.4bpp");
 const u8 gMonFootprint_Chapmon[] = INCBIN_U8("graphics/pokemon/chapmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Psyduck[] = INCBIN_U32("graphics/pokemon/psyduck/front.4bpp.lz");
-const u32 gMonPalette_Psyduck[] = INCBIN_U32("graphics/pokemon/psyduck/normal.gbapal.lz");
-const u32 gMonBackPic_Psyduck[] = INCBIN_U32("graphics/pokemon/psyduck/back.4bpp.lz");
-const u32 gMonShinyPalette_Psyduck[] = INCBIN_U32("graphics/pokemon/psyduck/shiny.gbapal.lz");
-const u8 gMonIcon_Psyduck[] = INCBIN_U8("graphics/pokemon/psyduck/icon.4bpp");
-const u8 gMonFootprint_Psyduck[] = INCBIN_U8("graphics/pokemon/psyduck/footprint.1bpp");
+const u32 gMonStillFrontPic_Chicchimon[] = INCBIN_U32("graphics/pokemon/chicchimon/front.4bpp.lz");
+const u32 gMonPalette_Chicchimon[] = INCBIN_U32("graphics/pokemon/chicchimon/normal.gbapal.lz");
+const u32 gMonBackPic_Chicchimon[] = INCBIN_U32("graphics/pokemon/chicchimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Chicchimon[] = INCBIN_U32("graphics/pokemon/chicchimon/shiny.gbapal.lz");
+const u8 gMonIcon_Chicchimon[] = INCBIN_U8("graphics/pokemon/chicchimon/icon.4bpp");
+const u8 gMonFootprint_Chicchimon[] = INCBIN_U8("graphics/pokemon/chicchimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/front.4bpp.lz");
 const u32 gMonPalette_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/normal.gbapal.lz");
