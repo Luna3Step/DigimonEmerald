@@ -543,8 +543,8 @@ Cry_Sandmon::
 	.incbin "sound/direct_sound_samples/cries/sandmon.bin"
 
 	.align 2
-Cry_Wigglytuff::
-	.incbin "sound/direct_sound_samples/cries/wigglytuff.bin"
+Cry_Tsubumon::
+	.incbin "sound/direct_sound_samples/cries/tsubumon.bin"
 
 	.align 2
 Cry_Zubat::

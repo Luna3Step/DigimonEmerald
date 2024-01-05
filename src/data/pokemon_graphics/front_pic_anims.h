@@ -475,7 +475,7 @@ static const union AnimCmd sAnim_Sandmon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Wigglytuff_1[] =
+static const union AnimCmd sAnim_Tsubumon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -485,7 +485,7 @@ static const union AnimCmd sAnim_Wigglytuff_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Wigglytuff_2[] =
+static const union AnimCmd sAnim_Tsubumon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4862,7 +4862,7 @@ SINGLE_ANIMATION(Pyonmon);
 DOUBLE_ANIMATION(Relemon);
 DOUBLE_ANIMATION(Sakumon);
 DOUBLE_ANIMATION(Sandmon);
-DOUBLE_ANIMATION(Wigglytuff);
+DOUBLE_ANIMATION(Tsubumon);
 SINGLE_ANIMATION(Zubat);
 SINGLE_ANIMATION(Golbat);
 SINGLE_ANIMATION(Oddish);
@@ -5294,7 +5294,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_RELEMON]      = sAnims_Relemon,
     [SPECIES_SAKUMON]   = sAnims_Sakumon,
     [SPECIES_SANDMON]  = sAnims_Sandmon,
-    [SPECIES_TSUBUMON]  = sAnims_Wigglytuff,
+    [SPECIES_TSUBUMON]  = sAnims_Tsubumon,
     [SPECIES_ICEBOTAMON]       = sAnims_Zubat,
     [SPECIES_YURAMON]      = sAnims_Golbat,
     [SPECIES_ZERIMON]      = sAnims_Oddish,
