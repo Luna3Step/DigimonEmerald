@@ -738,7 +738,7 @@ static const union AnimCmd sAnim_Dorimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Growlithe_1[] =
+static const union AnimCmd sAnim_Frimon_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 8),
@@ -4880,7 +4880,7 @@ DOUBLE_ANIMATION(Chicchimon);
 DOUBLE_ANIMATION(Demmeramon);
 SINGLE_ANIMATION(Demiveemon);
 SINGLE_ANIMATION(Dorimon);
-SINGLE_ANIMATION(Growlithe);
+SINGLE_ANIMATION(Frimon);
 SINGLE_ANIMATION(Arcanine);
 SINGLE_ANIMATION(Poliwag);
 SINGLE_ANIMATION(Poliwhirl);
@@ -5312,7 +5312,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DEMMERAMON]     = sAnims_Demmeramon,
     [SPECIES_DEMIVEEMON]      = sAnims_Demiveemon,
     [SPECIES_DORIMON]    = sAnims_Dorimon,
-    [SPECIES_FRIMON]   = sAnims_Growlithe,
+    [SPECIES_FRIMON]   = sAnims_Frimon,
     [SPECIES_GIGIMON]    = sAnims_Arcanine,
     [SPECIES_GUMMYMON]     = sAnims_Poliwag,
     [SPECIES_GURIMON]   = sAnims_Poliwhirl,

@@ -615,8 +615,8 @@ Cry_Dorimon::
 	.incbin "sound/direct_sound_samples/cries/dorimon.bin"
 
 	.align 2
-Cry_Growlithe::
-	.incbin "sound/direct_sound_samples/cries/growlithe.bin"
+Cry_Frimon::
+	.incbin "sound/direct_sound_samples/cries/frimon.bin"
 
 	.align 2
 Cry_Arcanine::
