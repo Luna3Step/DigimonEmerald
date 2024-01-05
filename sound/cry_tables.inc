@@ -49,7 +49,7 @@ gCryTable::
 	cry Cry_Babydmon
 	cry Cry_Bibimon
 	cry Cry_Bosamon
-	cry Cry_Diglett
+	cry Cry_Budmon
 	cry Cry_Dugtrio
 	cry Cry_Meowth
 	cry Cry_Persian
@@ -440,7 +440,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Babydmon
 	cry_reverse Cry_Bibimon
 	cry_reverse Cry_Bosamon
-	cry_reverse Cry_Diglett
+	cry_reverse Cry_Budmon
 	cry_reverse Cry_Dugtrio
 	cry_reverse Cry_Meowth
 	cry_reverse Cry_Persian

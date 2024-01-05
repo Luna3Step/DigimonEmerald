@@ -341,12 +341,12 @@ const u32 gMonShinyPalette_Bosamon[] = INCBIN_U32("graphics/pokemon/bosamon/shin
 const u8 gMonIcon_Bosamon[] = INCBIN_U8("graphics/pokemon/bosamon/icon.4bpp");
 const u8 gMonFootprint_Bosamon[] = INCBIN_U8("graphics/pokemon/bosamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Diglett[] = INCBIN_U32("graphics/pokemon/diglett/front.4bpp.lz");
-const u32 gMonPalette_Diglett[] = INCBIN_U32("graphics/pokemon/diglett/normal.gbapal.lz");
-const u32 gMonBackPic_Diglett[] = INCBIN_U32("graphics/pokemon/diglett/back.4bpp.lz");
-const u32 gMonShinyPalette_Diglett[] = INCBIN_U32("graphics/pokemon/diglett/shiny.gbapal.lz");
-const u8 gMonIcon_Diglett[] = INCBIN_U8("graphics/pokemon/diglett/icon.4bpp");
-const u8 gMonFootprint_Diglett[] = INCBIN_U8("graphics/pokemon/diglett/footprint.1bpp");
+const u32 gMonStillFrontPic_Budmon[] = INCBIN_U32("graphics/pokemon/budmon/front.4bpp.lz");
+const u32 gMonPalette_Budmon[] = INCBIN_U32("graphics/pokemon/budmon/normal.gbapal.lz");
+const u32 gMonBackPic_Budmon[] = INCBIN_U32("graphics/pokemon/budmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Budmon[] = INCBIN_U32("graphics/pokemon/budmon/shiny.gbapal.lz");
+const u8 gMonIcon_Budmon[] = INCBIN_U8("graphics/pokemon/budmon/icon.4bpp");
+const u8 gMonFootprint_Budmon[] = INCBIN_U8("graphics/pokemon/budmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Dugtrio[] = INCBIN_U32("graphics/pokemon/dugtrio/front.4bpp.lz");
 const u32 gMonPalette_Dugtrio[] = INCBIN_U32("graphics/pokemon/dugtrio/normal.gbapal.lz");

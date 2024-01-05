@@ -329,7 +329,7 @@ static const u32 sWallpaperIcon_FourCircles[]  = INCBIN_U32("graphics/pokemon_st
 static const u32 sWallpaperIcon_Lotad[]        = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/lotad.4bpp.lz");
 static const u32 sWallpaperIcon_Crystal[]      = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/crystal.4bpp.lz");
 static const u32 sWallpaperIcon_Pichu[]        = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/pichu.4bpp.lz");
-static const u32 sWallpaperIcon_Diglett[]      = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/diglett.4bpp.lz");
+static const u32 sWallpaperIcon_Budmon[]      = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/budmon.4bpp.lz");
 static const u32 sWallpaperIcon_Luvdisc[]      = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/luvdisc.4bpp.lz");
 static const u32 sWallpaperIcon_StarInCircle[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/star_in_circle.4bpp.lz");
 static const u32 sWallpaperIcon_Spinda[]       = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/spinda.4bpp.lz");
@@ -381,7 +381,7 @@ static const u32 *const sWaldaWallpaperIcons[] =
     sWallpaperIcon_Lotad,
     sWallpaperIcon_Crystal,
     sWallpaperIcon_Pichu,
-    sWallpaperIcon_Diglett,
+    sWallpaperIcon_Budmon,
     sWallpaperIcon_Luvdisc,
     sWallpaperIcon_StarInCircle,
     sWallpaperIcon_Spinda,

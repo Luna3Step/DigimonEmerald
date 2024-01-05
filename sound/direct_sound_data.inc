@@ -583,8 +583,8 @@ Cry_Bosamon::
 	.incbin "sound/direct_sound_samples/cries/bosamon.bin"
 
 	.align 2
-Cry_Diglett::
-	.incbin "sound/direct_sound_samples/cries/diglett.bin"
+Cry_Budmon::
+	.incbin "sound/direct_sound_samples/cries/budmon.bin"
 
 	.align 2
 Cry_Dugtrio::
