@@ -595,8 +595,8 @@ Cry_Calumon::
 	.incbin "sound/direct_sound_samples/cries/calumon.bin"
 
 	.align 2
-Cry_Persian::
-	.incbin "sound/direct_sound_samples/cries/persian.bin"
+Cry_Chapmon::
+	.incbin "sound/direct_sound_samples/cries/chapmon.bin"
 
 	.align 2
 Cry_Psyduck::
