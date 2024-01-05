@@ -559,8 +559,8 @@ Cry_Zerimon::
 	.incbin "sound/direct_sound_samples/cries/zerimon.bin"
 
 	.align 2
-Cry_Gloom::
-	.incbin "sound/direct_sound_samples/cries/gloom.bin"
+Cry_Zurumon::
+	.incbin "sound/direct_sound_samples/cries/zurumon.bin"
 
 	.align 2
 Cry_Vileplume::
