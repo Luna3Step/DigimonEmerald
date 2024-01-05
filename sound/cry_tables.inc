@@ -38,7 +38,7 @@ gCryTable::
 	cry Cry_Pyonmon
 	cry Cry_Relemon
 	cry Cry_Sakumon
-	cry Cry_Jigglypuff
+	cry Cry_Sandmon
 	cry Cry_Wigglytuff
 	cry Cry_Zubat
 	cry Cry_Golbat
@@ -429,7 +429,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pyonmon
 	cry_reverse Cry_Relemon
 	cry_reverse Cry_Sakumon
-	cry_reverse Cry_Jigglypuff
+	cry_reverse Cry_Sandmon
 	cry_reverse Cry_Wigglytuff
 	cry_reverse Cry_Zubat
 	cry_reverse Cry_Golbat

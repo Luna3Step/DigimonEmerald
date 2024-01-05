@@ -996,16 +996,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_TOTODILE_DOLL,
     },
 
-    [DECOR_JIGGLYPUFF_DOLL] =
+    [DECOR_SANDMON_DOLL] =
     {
-        .id = DECOR_JIGGLYPUFF_DOLL,
-        .name = _("JIGGLYPUFF DOLL"),
+        .id = DECOR_SANDMON_DOLL,
+        .name = _("SANDMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_JIGGLYPUFF_DOLL,
-        .tiles = DecorGfx_JIGGLYPUFF_DOLL,
+        .description = DecorDesc_SANDMON_DOLL,
+        .tiles = DecorGfx_SANDMON_DOLL,
     },
 
     [DECOR_MEOWTH_DOLL] =

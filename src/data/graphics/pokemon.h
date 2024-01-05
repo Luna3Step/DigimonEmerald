@@ -264,12 +264,12 @@ const u32 gMonShinyPalette_Sakumon[] = INCBIN_U32("graphics/pokemon/sakumon/shin
 const u8 gMonIcon_Sakumon[] = INCBIN_U8("graphics/pokemon/sakumon/icon.4bpp");
 const u8 gMonFootprint_Sakumon[] = INCBIN_U8("graphics/pokemon/sakumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/front.4bpp.lz");
-const u32 gMonPalette_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/normal.gbapal.lz");
-const u32 gMonBackPic_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/back.4bpp.lz");
-const u32 gMonShinyPalette_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/shiny.gbapal.lz");
-const u8 gMonIcon_Jigglypuff[] = INCBIN_U8("graphics/pokemon/jigglypuff/icon.4bpp");
-const u8 gMonFootprint_Jigglypuff[] = INCBIN_U8("graphics/pokemon/jigglypuff/footprint.1bpp");
+const u32 gMonStillFrontPic_Sandmon[] = INCBIN_U32("graphics/pokemon/sandmon/front.4bpp.lz");
+const u32 gMonPalette_Sandmon[] = INCBIN_U32("graphics/pokemon/sandmon/normal.gbapal.lz");
+const u32 gMonBackPic_Sandmon[] = INCBIN_U32("graphics/pokemon/sandmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sandmon[] = INCBIN_U32("graphics/pokemon/sandmon/shiny.gbapal.lz");
+const u8 gMonIcon_Sandmon[] = INCBIN_U8("graphics/pokemon/sandmon/icon.4bpp");
+const u8 gMonFootprint_Sandmon[] = INCBIN_U8("graphics/pokemon/sandmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wigglytuff[] = INCBIN_U32("graphics/pokemon/wigglytuff/front.4bpp.lz");
 const u32 gMonPalette_Wigglytuff[] = INCBIN_U32("graphics/pokemon/wigglytuff/normal.gbapal.lz");

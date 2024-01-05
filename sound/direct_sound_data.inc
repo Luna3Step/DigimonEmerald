@@ -539,8 +539,8 @@ Cry_Sakumon::
 	.incbin "sound/direct_sound_samples/cries/sakumon.bin"
 
 	.align 2
-Cry_Jigglypuff::
-	.incbin "sound/direct_sound_samples/cries/jigglypuff.bin"
+Cry_Sandmon::
+	.incbin "sound/direct_sound_samples/cries/sandmon.bin"
 
 	.align 2
 Cry_Wigglytuff::

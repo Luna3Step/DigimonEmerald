@@ -419,7 +419,7 @@
 #define MUS_RG_GAME_CORNER          485 // MUS_RG_SLOT
 #define MUS_RG_ROCKET_HIDEOUT       486 // MUS_RG_AJITO
 #define MUS_RG_GYM                  487 // MUS_RG_GYM
-#define MUS_RG_JIGGLYPUFF           488 // MUS_RG_PURIN
+#define MUS_RG_SANDMON           488 // MUS_RG_PURIN
 #define MUS_RG_INTRO_FIGHT          489 // MUS_RG_DEMO
 #define MUS_RG_TITLE                490 // MUS_RG_TITLE
 #define MUS_RG_CINNABAR             491 // MUS_RG_GUREN

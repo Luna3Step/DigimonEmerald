@@ -150,7 +150,7 @@
 #define OBJ_EVENT_GFX_CYNDAQUIL_DOLL             146
 #define OBJ_EVENT_GFX_CHIKORITA_DOLL             147
 #define OBJ_EVENT_GFX_TOTODILE_DOLL              148
-#define OBJ_EVENT_GFX_JIGGLYPUFF_DOLL            149
+#define OBJ_EVENT_GFX_SANDMON_DOLL            149
 #define OBJ_EVENT_GFX_MEOWTH_DOLL                150
 #define OBJ_EVENT_GFX_PUYOMON_DOLL              151
 #define OBJ_EVENT_GFX_DITTO_DOLL                 152

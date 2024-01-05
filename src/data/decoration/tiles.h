@@ -490,8 +490,8 @@ const u16 DecorGfx_TOTODILE_DOLL[] = {
     OBJ_EVENT_GFX_TOTODILE_DOLL
 };
 
-const u16 DecorGfx_JIGGLYPUFF_DOLL[] = {
-    OBJ_EVENT_GFX_JIGGLYPUFF_DOLL
+const u16 DecorGfx_SANDMON_DOLL[] = {
+    OBJ_EVENT_GFX_SANDMON_DOLL
 };
 
 const u16 DecorGfx_MEOWTH_DOLL[] = {
