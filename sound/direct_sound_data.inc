@@ -507,8 +507,8 @@ Cry_Pupumon::
 	.incbin "sound/direct_sound_samples/cries/pupumon.bin"
 
 	.align 2
-Cry_Nidoqueen::
-	.incbin "sound/direct_sound_samples/cries/nidoqueen.bin"
+Cry_Pururumon::
+	.incbin "sound/direct_sound_samples/cries/pururumon.bin"
 
 	.align 2
 Cry_NidoranM::

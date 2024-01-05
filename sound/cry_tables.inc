@@ -30,7 +30,7 @@ gCryTable::
 	cry Cry_Poyomon
 	cry Cry_Punimon
 	cry Cry_Pupumon
-	cry Cry_Nidoqueen
+	cry Cry_Pururumon
 	cry Cry_NidoranM
 	cry Cry_Nidorino
 	cry Cry_Nidoking
@@ -421,7 +421,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Poyomon
 	cry_reverse Cry_Punimon
 	cry_reverse Cry_Pupumon
-	cry_reverse Cry_Nidoqueen
+	cry_reverse Cry_Pururumon
 	cry_reverse Cry_NidoranM
 	cry_reverse Cry_Nidorino
 	cry_reverse Cry_Nidoking
