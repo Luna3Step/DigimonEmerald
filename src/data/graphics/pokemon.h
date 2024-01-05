@@ -173,12 +173,12 @@ const u32 gMonShinyPalette_Petitmon[] = INCBIN_U32("graphics/pokemon/petitmon/sh
 const u8 gMonIcon_Petitmon[] = INCBIN_U8("graphics/pokemon/petitmon/icon.4bpp");
 const u8 gMonFootprint_Petitmon[] = INCBIN_U8("graphics/pokemon/petitmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/front.4bpp.lz");
-const u32 gMonPalette_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/normal.gbapal.lz");
-const u32 gMonBackPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/back.4bpp.lz");
-const u32 gMonShinyPalette_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/shiny.gbapal.lz");
-const u8 gMonIcon_Raichu[] = INCBIN_U8("graphics/pokemon/raichu/icon.4bpp");
-const u8 gMonFootprint_Raichu[] = INCBIN_U8("graphics/pokemon/raichu/footprint.1bpp");
+const u32 gMonStillFrontPic_Pichimon[] = INCBIN_U32("graphics/pokemon/pichimon/front.4bpp.lz");
+const u32 gMonPalette_Pichimon[] = INCBIN_U32("graphics/pokemon/pichimon/normal.gbapal.lz");
+const u32 gMonBackPic_Pichimon[] = INCBIN_U32("graphics/pokemon/pichimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pichimon[] = INCBIN_U32("graphics/pokemon/pichimon/shiny.gbapal.lz");
+const u8 gMonIcon_Pichimon[] = INCBIN_U8("graphics/pokemon/pichimon/icon.4bpp");
+const u8 gMonFootprint_Pichimon[] = INCBIN_U8("graphics/pokemon/pichimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sandshrew[] = INCBIN_U32("graphics/pokemon/sandshrew/front.4bpp.lz");
 const u32 gMonPalette_Sandshrew[] = INCBIN_U32("graphics/pokemon/sandshrew/normal.gbapal.lz");
