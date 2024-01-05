@@ -575,8 +575,8 @@ Cry_Babydmon::
 	.incbin "sound/direct_sound_samples/cries/babydmon.bin"
 
 	.align 2
-Cry_Venonat::
-	.incbin "sound/direct_sound_samples/cries/venonat.bin"
+Cry_Bibimon::
+	.incbin "sound/direct_sound_samples/cries/bibimon.bin"
 
 	.align 2
 Cry_Venomoth::

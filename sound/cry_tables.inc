@@ -47,7 +47,7 @@ gCryTable::
 	cry Cry_Arcadiamon_it
 	cry Cry_Argomon_it
 	cry Cry_Babydmon
-	cry Cry_Venonat
+	cry Cry_Bibimon
 	cry Cry_Venomoth
 	cry Cry_Diglett
 	cry Cry_Dugtrio
@@ -438,7 +438,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Arcadiamon_it
 	cry_reverse Cry_Argomon_it
 	cry_reverse Cry_Babydmon
-	cry_reverse Cry_Venonat
+	cry_reverse Cry_Bibimon
 	cry_reverse Cry_Venomoth
 	cry_reverse Cry_Diglett
 	cry_reverse Cry_Dugtrio

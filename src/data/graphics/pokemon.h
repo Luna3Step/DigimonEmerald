@@ -327,12 +327,12 @@ const u32 gMonShinyPalette_Babydmon[] = INCBIN_U32("graphics/pokemon/babydmon/sh
 const u8 gMonIcon_Babydmon[] = INCBIN_U8("graphics/pokemon/babydmon/icon.4bpp");
 const u8 gMonFootprint_Babydmon[] = INCBIN_U8("graphics/pokemon/babydmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Venonat[] = INCBIN_U32("graphics/pokemon/venonat/front.4bpp.lz");
-const u32 gMonPalette_Venonat[] = INCBIN_U32("graphics/pokemon/venonat/normal.gbapal.lz");
-const u32 gMonBackPic_Venonat[] = INCBIN_U32("graphics/pokemon/venonat/back.4bpp.lz");
-const u32 gMonShinyPalette_Venonat[] = INCBIN_U32("graphics/pokemon/venonat/shiny.gbapal.lz");
-const u8 gMonIcon_Venonat[] = INCBIN_U8("graphics/pokemon/venonat/icon.4bpp");
-const u8 gMonFootprint_Venonat[] = INCBIN_U8("graphics/pokemon/venonat/footprint.1bpp");
+const u32 gMonStillFrontPic_Bibimon[] = INCBIN_U32("graphics/pokemon/bibimon/front.4bpp.lz");
+const u32 gMonPalette_Bibimon[] = INCBIN_U32("graphics/pokemon/bibimon/normal.gbapal.lz");
+const u32 gMonBackPic_Bibimon[] = INCBIN_U32("graphics/pokemon/bibimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bibimon[] = INCBIN_U32("graphics/pokemon/bibimon/shiny.gbapal.lz");
+const u8 gMonIcon_Bibimon[] = INCBIN_U8("graphics/pokemon/bibimon/icon.4bpp");
+const u8 gMonFootprint_Bibimon[] = INCBIN_U8("graphics/pokemon/bibimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Venomoth[] = INCBIN_U32("graphics/pokemon/venomoth/front.4bpp.lz");
 const u32 gMonPalette_Venomoth[] = INCBIN_U32("graphics/pokemon/venomoth/normal.gbapal.lz");
