@@ -201,12 +201,12 @@ const u32 gMonShinyPalette_Punimon[] = INCBIN_U32("graphics/pokemon/punimon/shin
 const u8 gMonIcon_Punimon[] = INCBIN_U8("graphics/pokemon/punimon/icon.4bpp");
 const u8 gMonFootprint_Punimon[] = INCBIN_U8("graphics/pokemon/punimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Nidorina[] = INCBIN_U32("graphics/pokemon/nidorina/front.4bpp.lz");
-const u32 gMonPalette_Nidorina[] = INCBIN_U32("graphics/pokemon/nidorina/normal.gbapal.lz");
-const u32 gMonBackPic_Nidorina[] = INCBIN_U32("graphics/pokemon/nidorina/back.4bpp.lz");
-const u32 gMonShinyPalette_Nidorina[] = INCBIN_U32("graphics/pokemon/nidorina/shiny.gbapal.lz");
-const u8 gMonIcon_Nidorina[] = INCBIN_U8("graphics/pokemon/nidorina/icon.4bpp");
-const u8 gMonFootprint_Nidorina[] = INCBIN_U8("graphics/pokemon/nidorina/footprint.1bpp");
+const u32 gMonStillFrontPic_Pupumon[] = INCBIN_U32("graphics/pokemon/pupumon/front.4bpp.lz");
+const u32 gMonPalette_Pupumon[] = INCBIN_U32("graphics/pokemon/pupumon/normal.gbapal.lz");
+const u32 gMonBackPic_Pupumon[] = INCBIN_U32("graphics/pokemon/pupumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pupumon[] = INCBIN_U32("graphics/pokemon/pupumon/shiny.gbapal.lz");
+const u8 gMonIcon_Pupumon[] = INCBIN_U8("graphics/pokemon/pupumon/icon.4bpp");
+const u8 gMonFootprint_Pupumon[] = INCBIN_U8("graphics/pokemon/pupumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Nidoqueen[] = INCBIN_U32("graphics/pokemon/nidoqueen/front.4bpp.lz");
 const u32 gMonPalette_Nidoqueen[] = INCBIN_U32("graphics/pokemon/nidoqueen/normal.gbapal.lz");
