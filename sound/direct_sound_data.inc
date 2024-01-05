@@ -563,8 +563,8 @@ Cry_Zurumon::
 	.incbin "sound/direct_sound_samples/cries/zurumon.bin"
 
 	.align 2
-Cry_Vileplume::
-	.incbin "sound/direct_sound_samples/cries/vileplume.bin"
+Cry_Arcadiamon_it::
+	.incbin "sound/direct_sound_samples/cries/arcadiamon_it.bin"
 
 	.align 2
 Cry_Paras::

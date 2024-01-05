@@ -557,7 +557,7 @@ static const union AnimCmd sAnim_Zurumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Vileplume_1[] =
+static const union AnimCmd sAnim_Arcadiamon_it_1[] =
 {
     ANIMCMD_FRAME(0, 7),
     ANIMCMD_FRAME(0, 21),
@@ -4867,7 +4867,7 @@ SINGLE_ANIMATION(Icebotamon);
 SINGLE_ANIMATION(Yuramon);
 SINGLE_ANIMATION(Zerimon);
 SINGLE_ANIMATION(Zurumon);
-SINGLE_ANIMATION(Vileplume);
+SINGLE_ANIMATION(Arcadiamon_it);
 SINGLE_ANIMATION(Paras);
 SINGLE_ANIMATION(Parasect);
 SINGLE_ANIMATION(Venonat);
@@ -5299,7 +5299,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_YURAMON]      = sAnims_Yuramon,
     [SPECIES_ZERIMON]      = sAnims_Zerimon,
     [SPECIES_ZURUMON]       = sAnims_Zurumon,
-    [SPECIES_ARCADIAMON_IT]   = sAnims_Vileplume,
+    [SPECIES_ARCADIAMON_IT]   = sAnims_Arcadiamon_it,
     [SPECIES_ARGOMON_IT]       = sAnims_Paras,
     [SPECIES_BABYDMON]    = sAnims_Parasect,
     [SPECIES_BIBIMON]     = sAnims_Venonat,

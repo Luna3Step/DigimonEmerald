@@ -44,7 +44,7 @@ gCryTable::
 	cry Cry_Yuramon
 	cry Cry_Zerimon
 	cry Cry_Zurumon
-	cry Cry_Vileplume
+	cry Cry_Arcadiamon_it
 	cry Cry_Paras
 	cry Cry_Parasect
 	cry Cry_Venonat
@@ -435,7 +435,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Yuramon
 	cry_reverse Cry_Zerimon
 	cry_reverse Cry_Zurumon
-	cry_reverse Cry_Vileplume
+	cry_reverse Cry_Arcadiamon_it
 	cry_reverse Cry_Paras
 	cry_reverse Cry_Parasect
 	cry_reverse Cry_Venonat

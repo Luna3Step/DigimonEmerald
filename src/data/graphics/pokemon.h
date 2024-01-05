@@ -306,12 +306,12 @@ const u32 gMonShinyPalette_Zurumon[] = INCBIN_U32("graphics/pokemon/zurumon/shin
 const u8 gMonIcon_Zurumon[] = INCBIN_U8("graphics/pokemon/zurumon/icon.4bpp");
 const u8 gMonFootprint_Zurumon[] = INCBIN_U8("graphics/pokemon/zurumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Vileplume[] = INCBIN_U32("graphics/pokemon/vileplume/front.4bpp.lz");
-const u32 gMonPalette_Vileplume[] = INCBIN_U32("graphics/pokemon/vileplume/normal.gbapal.lz");
-const u32 gMonBackPic_Vileplume[] = INCBIN_U32("graphics/pokemon/vileplume/back.4bpp.lz");
-const u32 gMonShinyPalette_Vileplume[] = INCBIN_U32("graphics/pokemon/vileplume/shiny.gbapal.lz");
-const u8 gMonIcon_Vileplume[] = INCBIN_U8("graphics/pokemon/vileplume/icon.4bpp");
-const u8 gMonFootprint_Vileplume[] = INCBIN_U8("graphics/pokemon/vileplume/footprint.1bpp");
+const u32 gMonStillFrontPic_Arcadiamon_it[] = INCBIN_U32("graphics/pokemon/arcadiamon_it/front.4bpp.lz");
+const u32 gMonPalette_Arcadiamon_it[] = INCBIN_U32("graphics/pokemon/arcadiamon_it/normal.gbapal.lz");
+const u32 gMonBackPic_Arcadiamon_it[] = INCBIN_U32("graphics/pokemon/arcadiamon_it/back.4bpp.lz");
+const u32 gMonShinyPalette_Arcadiamon_it[] = INCBIN_U32("graphics/pokemon/arcadiamon_it/shiny.gbapal.lz");
+const u8 gMonIcon_Arcadiamon_it[] = INCBIN_U8("graphics/pokemon/arcadiamon_it/icon.4bpp");
+const u8 gMonFootprint_Arcadiamon_it[] = INCBIN_U8("graphics/pokemon/arcadiamon_it/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Paras[] = INCBIN_U32("graphics/pokemon/paras/front.4bpp.lz");
 const u32 gMonPalette_Paras[] = INCBIN_U32("graphics/pokemon/paras/normal.gbapal.lz");
