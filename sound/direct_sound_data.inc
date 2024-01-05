@@ -623,8 +623,8 @@ Cry_Gigimon::
 	.incbin "sound/direct_sound_samples/cries/gigimon.bin"
 
 	.align 2
-Cry_Poliwag::
-	.incbin "sound/direct_sound_samples/cries/poliwag.bin"
+Cry_Gummymon::
+	.incbin "sound/direct_sound_samples/cries/gummymon.bin"
 
 	.align 2
 Cry_Poliwhirl::
