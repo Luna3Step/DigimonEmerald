@@ -607,8 +607,8 @@ Cry_Demmeramon::
 	.incbin "sound/direct_sound_samples/cries/demmeramon.bin"
 
 	.align 2
-Cry_Mankey::
-	.incbin "sound/direct_sound_samples/cries/mankey.bin"
+Cry_Demiveemon::
+	.incbin "sound/direct_sound_samples/cries/demiveemon.bin"
 
 	.align 2
 Cry_Primeape::
