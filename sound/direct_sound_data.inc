@@ -603,8 +603,8 @@ Cry_Chicchimon::
 	.incbin "sound/direct_sound_samples/cries/chicchimon.bin"
 
 	.align 2
-Cry_Golduck::
-	.incbin "sound/direct_sound_samples/cries/golduck.bin"
+Cry_Demmeramon::
+	.incbin "sound/direct_sound_samples/cries/demmeramon.bin"
 
 	.align 2
 Cry_Mankey::

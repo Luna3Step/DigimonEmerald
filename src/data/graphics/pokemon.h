@@ -376,12 +376,12 @@ const u32 gMonShinyPalette_Chicchimon[] = INCBIN_U32("graphics/pokemon/chicchimo
 const u8 gMonIcon_Chicchimon[] = INCBIN_U8("graphics/pokemon/chicchimon/icon.4bpp");
 const u8 gMonFootprint_Chicchimon[] = INCBIN_U8("graphics/pokemon/chicchimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/front.4bpp.lz");
-const u32 gMonPalette_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/normal.gbapal.lz");
-const u32 gMonBackPic_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/back.4bpp.lz");
-const u32 gMonShinyPalette_Golduck[] = INCBIN_U32("graphics/pokemon/golduck/shiny.gbapal.lz");
-const u8 gMonIcon_Golduck[] = INCBIN_U8("graphics/pokemon/golduck/icon.4bpp");
-const u8 gMonFootprint_Golduck[] = INCBIN_U8("graphics/pokemon/golduck/footprint.1bpp");
+const u32 gMonStillFrontPic_Demmeramon[] = INCBIN_U32("graphics/pokemon/demmeramon/front.4bpp.lz");
+const u32 gMonPalette_Demmeramon[] = INCBIN_U32("graphics/pokemon/demmeramon/normal.gbapal.lz");
+const u32 gMonBackPic_Demmeramon[] = INCBIN_U32("graphics/pokemon/demmeramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Demmeramon[] = INCBIN_U32("graphics/pokemon/demmeramon/shiny.gbapal.lz");
+const u8 gMonIcon_Demmeramon[] = INCBIN_U8("graphics/pokemon/demmeramon/icon.4bpp");
+const u8 gMonFootprint_Demmeramon[] = INCBIN_U8("graphics/pokemon/demmeramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Mankey[] = INCBIN_U32("graphics/pokemon/mankey/front.4bpp.lz");
 const u32 gMonPalette_Mankey[] = INCBIN_U32("graphics/pokemon/mankey/normal.gbapal.lz");

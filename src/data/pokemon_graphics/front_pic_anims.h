@@ -697,7 +697,7 @@ static const union AnimCmd sAnim_Chicchimon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Golduck_1[] =
+static const union AnimCmd sAnim_Demmeramon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -707,7 +707,7 @@ static const union AnimCmd sAnim_Golduck_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Golduck_2[] =
+static const union AnimCmd sAnim_Demmeramon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4877,7 +4877,7 @@ SINGLE_ANIMATION(Bukamon);
 SINGLE_ANIMATION(Calumon);
 SINGLE_ANIMATION(Chapmon);
 DOUBLE_ANIMATION(Chicchimon);
-DOUBLE_ANIMATION(Golduck);
+DOUBLE_ANIMATION(Demmeramon);
 SINGLE_ANIMATION(Mankey);
 SINGLE_ANIMATION(Primeape);
 SINGLE_ANIMATION(Growlithe);
@@ -5309,7 +5309,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CALUMON]      = sAnims_Calumon,
     [SPECIES_CHAPMON]     = sAnims_Chapmon,
     [SPECIES_CHICCHIMON]     = sAnims_Chicchimon,
-    [SPECIES_DEMMERAMON]     = sAnims_Golduck,
+    [SPECIES_DEMMERAMON]     = sAnims_Demmeramon,
     [SPECIES_DEMIVEEMON]      = sAnims_Mankey,
     [SPECIES_DORIMON]    = sAnims_Primeape,
     [SPECIES_FRIMON]   = sAnims_Growlithe,
