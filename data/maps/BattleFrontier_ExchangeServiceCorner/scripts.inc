@@ -86,7 +86,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1::
 	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_SmoochumDoll
 	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_TogepiDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_MeowthDoll
-	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_ClefairyDoll
+	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_PuyomonDoll
 	case 6, BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll
 	case 7, BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll
 	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll
@@ -135,11 +135,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_MeowthDoll::
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_ClefairyDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_PuyomonDoll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPuyomonDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 48
-	setvar VAR_0x8009, DECOR_CLEFAIRY_DOLL
+	setvar VAR_0x8009, DECOR_PUYOMON_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -465,8 +465,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
 	.string "You've chosen the MEOWTH DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmPuyomonDoll:
+	.string "You've chosen the PUYOMON DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
@@ -641,8 +641,8 @@ BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
 	.string "A MEOWTH DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A CLEFAIRY DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_PuyomonDollDesc::
+	.string "A PUYOMON DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::

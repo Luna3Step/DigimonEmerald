@@ -236,12 +236,12 @@ const u32 gMonShinyPalette_Puwamon[] = INCBIN_U32("graphics/pokemon/puwamon/shin
 const u8 gMonIcon_Puwamon[] = INCBIN_U8("graphics/pokemon/puwamon/icon.4bpp");
 const u8 gMonFootprint_Puwamon[] = INCBIN_U8("graphics/pokemon/puwamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Clefairy[] = INCBIN_U32("graphics/pokemon/clefairy/front.4bpp.lz");
-const u32 gMonPalette_Clefairy[] = INCBIN_U32("graphics/pokemon/clefairy/normal.gbapal.lz");
-const u32 gMonBackPic_Clefairy[] = INCBIN_U32("graphics/pokemon/clefairy/back.4bpp.lz");
-const u32 gMonShinyPalette_Clefairy[] = INCBIN_U32("graphics/pokemon/clefairy/shiny.gbapal.lz");
-const u8 gMonIcon_Clefairy[] = INCBIN_U8("graphics/pokemon/clefairy/icon.4bpp");
-const u8 gMonFootprint_Clefairy[] = INCBIN_U8("graphics/pokemon/clefairy/footprint.1bpp");
+const u32 gMonStillFrontPic_Puyomon[] = INCBIN_U32("graphics/pokemon/puyomon/front.4bpp.lz");
+const u32 gMonPalette_Puyomon[] = INCBIN_U32("graphics/pokemon/puyomon/normal.gbapal.lz");
+const u32 gMonBackPic_Puyomon[] = INCBIN_U32("graphics/pokemon/puyomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Puyomon[] = INCBIN_U32("graphics/pokemon/puyomon/shiny.gbapal.lz");
+const u8 gMonIcon_Puyomon[] = INCBIN_U8("graphics/pokemon/puyomon/icon.4bpp");
+const u8 gMonFootprint_Puyomon[] = INCBIN_U8("graphics/pokemon/puyomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Clefable[] = INCBIN_U32("graphics/pokemon/clefable/front.4bpp.lz");
 const u32 gMonPalette_Clefable[] = INCBIN_U32("graphics/pokemon/clefable/normal.gbapal.lz");

@@ -523,8 +523,8 @@ Cry_Puwamon::
 	.incbin "sound/direct_sound_samples/cries/puwamon.bin"
 
 	.align 2
-Cry_Clefairy::
-	.incbin "sound/direct_sound_samples/cries/clefairy.bin"
+Cry_Puyomon::
+	.incbin "sound/direct_sound_samples/cries/puyomon.bin"
 
 	.align 2
 Cry_Clefable::

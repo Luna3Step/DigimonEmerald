@@ -2353,7 +2353,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_SmoochumDoll32BP,
         gText_TogepiDoll48BP,
         gText_MeowthDoll48BP,
-        gText_ClefairyDoll48BP,
+        gText_PuyomonDoll48BP,
         gText_DittoDoll48BP,
         gText_CyndaquilDoll80BP,
         gText_ChikoritaDoll80BP,
