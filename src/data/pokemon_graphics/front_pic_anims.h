@@ -588,7 +588,7 @@ static const union AnimCmd sAnim_Argomon_it_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Parasect_1[] =
+static const union AnimCmd sAnim_Babydmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4869,7 +4869,7 @@ SINGLE_ANIMATION(Zerimon);
 SINGLE_ANIMATION(Zurumon);
 SINGLE_ANIMATION(Arcadiamon_it);
 SINGLE_ANIMATION(Argomon_it);
-SINGLE_ANIMATION(Parasect);
+SINGLE_ANIMATION(Babydmon);
 SINGLE_ANIMATION(Venonat);
 SINGLE_ANIMATION(Venomoth);
 SINGLE_ANIMATION(Diglett);
@@ -5301,7 +5301,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ZURUMON]       = sAnims_Zurumon,
     [SPECIES_ARCADIAMON_IT]   = sAnims_Arcadiamon_it,
     [SPECIES_ARGOMON_IT]       = sAnims_Argomon_it,
-    [SPECIES_BABYDMON]    = sAnims_Parasect,
+    [SPECIES_BABYDMON]    = sAnims_Babydmon,
     [SPECIES_BIBIMON]     = sAnims_Venonat,
     [SPECIES_BOSAMON]    = sAnims_Venomoth,
     [SPECIES_BUDMON]     = sAnims_Diglett,
