@@ -489,7 +489,7 @@ gSongTable::
 	song mus_rg_game_corner, 0, 0
 	song mus_rg_rocket_hideout, 0, 0
 	song mus_rg_gym, 0, 0
-	song mus_rg_sandmon, 2, 2
+	song mus_rg_jigglypuff, 2, 2
 	song mus_rg_intro_fight, 0, 0
 	song mus_rg_title, 0, 0
 	song mus_rg_cinnabar, 0, 0
