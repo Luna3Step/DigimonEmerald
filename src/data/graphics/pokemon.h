@@ -292,12 +292,12 @@ const u32 gMonShinyPalette_Yuramon[] = INCBIN_U32("graphics/pokemon/yuramon/shin
 const u8 gMonIcon_Yuramon[] = INCBIN_U8("graphics/pokemon/yuramon/icon.4bpp");
 const u8 gMonFootprint_Yuramon[] = INCBIN_U8("graphics/pokemon/yuramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/front.4bpp.lz");
-const u32 gMonPalette_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/normal.gbapal.lz");
-const u32 gMonBackPic_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/back.4bpp.lz");
-const u32 gMonShinyPalette_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/shiny.gbapal.lz");
-const u8 gMonIcon_Oddish[] = INCBIN_U8("graphics/pokemon/oddish/icon.4bpp");
-const u8 gMonFootprint_Oddish[] = INCBIN_U8("graphics/pokemon/oddish/footprint.1bpp");
+const u32 gMonStillFrontPic_Zerimon[] = INCBIN_U32("graphics/pokemon/zerimon/front.4bpp.lz");
+const u32 gMonPalette_Zerimon[] = INCBIN_U32("graphics/pokemon/zerimon/normal.gbapal.lz");
+const u32 gMonBackPic_Zerimon[] = INCBIN_U32("graphics/pokemon/zerimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Zerimon[] = INCBIN_U32("graphics/pokemon/zerimon/shiny.gbapal.lz");
+const u8 gMonIcon_Zerimon[] = INCBIN_U8("graphics/pokemon/zerimon/icon.4bpp");
+const u8 gMonFootprint_Zerimon[] = INCBIN_U8("graphics/pokemon/zerimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Gloom[] = INCBIN_U32("graphics/pokemon/gloom/front.4bpp.lz");
 const u32 gMonPalette_Gloom[] = INCBIN_U32("graphics/pokemon/gloom/normal.gbapal.lz");

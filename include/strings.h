@@ -1076,7 +1076,7 @@ extern const u8 gText_Yes[];
 extern const u8 gText_No[];
 extern const u8 gText_Challenge[];
 extern const u8 gText_Info3[];
-extern const u8 gTrickHouse_Mechadoll_Oddish[];
+extern const u8 gTrickHouse_Mechadoll_Zerimon[];
 extern const u8 gTrickHouse_Mechadoll_Poochyena[];
 extern const u8 gTrickHouse_Mechadoll_Taillow[];
 extern const u8 gTrickHouse_Mechadoll_Azurill[];

@@ -555,8 +555,8 @@ Cry_Yuramon::
 	.incbin "sound/direct_sound_samples/cries/yuramon.bin"
 
 	.align 2
-Cry_Oddish::
-	.incbin "sound/direct_sound_samples/cries/oddish.bin"
+Cry_Zerimon::
+	.incbin "sound/direct_sound_samples/cries/zerimon.bin"
 
 	.align 2
 Cry_Gloom::
