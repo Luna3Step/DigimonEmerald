@@ -28,7 +28,7 @@ gCryTable::
 	cry Cry_Pichimon
 	cry Cry_Popomon
 	cry Cry_Poyomon
-	cry Cry_NidoranF
+	cry Cry_Punimon
 	cry Cry_Nidorina
 	cry Cry_Nidoqueen
 	cry Cry_NidoranM
@@ -419,7 +419,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pichimon
 	cry_reverse Cry_Popomon
 	cry_reverse Cry_Poyomon
-	cry_reverse Cry_NidoranF
+	cry_reverse Cry_Punimon
 	cry_reverse Cry_Nidorina
 	cry_reverse Cry_Nidoqueen
 	cry_reverse Cry_NidoranM

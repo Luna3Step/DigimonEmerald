@@ -346,7 +346,7 @@ static const union AnimCmd sAnim_Poyomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NidoranF_1[] =
+static const union AnimCmd sAnim_Punimon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 5),
@@ -4851,7 +4851,7 @@ DOUBLE_ANIMATION(Petitmon);
 DOUBLE_ANIMATION(Pichimon);
 DOUBLE_ANIMATION(Popomon);
 DOUBLE_ANIMATION(Poyomon);
-SINGLE_ANIMATION(NidoranF);
+SINGLE_ANIMATION(Punimon);
 SINGLE_ANIMATION(Nidorina);
 SINGLE_ANIMATION(Nidoqueen);
 SINGLE_ANIMATION(NidoranM);
@@ -5283,7 +5283,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PICHIMON]      = sAnims_Pichimon,
     [SPECIES_POPOMON]   = sAnims_Popomon,
     [SPECIES_POYOMON]   = sAnims_Poyomon,
-    [SPECIES_PUNIMON]   = sAnims_NidoranF,
+    [SPECIES_PUNIMON]   = sAnims_Punimon,
     [SPECIES_PUPUMON]    = sAnims_Nidorina,
     [SPECIES_PURURUMON]   = sAnims_Nidoqueen,
     [SPECIES_PUSUMON]   = sAnims_NidoranM,
