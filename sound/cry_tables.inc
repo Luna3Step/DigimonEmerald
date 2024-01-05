@@ -60,7 +60,7 @@ gCryTable::
 	cry Cry_Frimon
 	cry Cry_Gigimon
 	cry Cry_Gummymon
-	cry Cry_Poliwhirl
+	cry Cry_Gurimon
 	cry Cry_Poliwrath
 	cry Cry_Abra
 	cry Cry_Kadabra
@@ -451,7 +451,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Frimon
 	cry_reverse Cry_Gigimon
 	cry_reverse Cry_Gummymon
-	cry_reverse Cry_Poliwhirl
+	cry_reverse Cry_Gurimon
 	cry_reverse Cry_Poliwrath
 	cry_reverse Cry_Abra
 	cry_reverse Cry_Kadabra
