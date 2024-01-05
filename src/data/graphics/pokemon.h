@@ -285,12 +285,12 @@ const u32 gMonShinyPalette_Icebotamon[] = INCBIN_U32("graphics/pokemon/icebotamo
 const u8 gMonIcon_Icebotamon[] = INCBIN_U8("graphics/pokemon/icebotamon/icon.4bpp");
 const u8 gMonFootprint_Icebotamon[] = INCBIN_U8("graphics/pokemon/icebotamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/front.4bpp.lz");
-const u32 gMonPalette_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/normal.gbapal.lz");
-const u32 gMonBackPic_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/back.4bpp.lz");
-const u32 gMonShinyPalette_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/shiny.gbapal.lz");
-const u8 gMonIcon_Golbat[] = INCBIN_U8("graphics/pokemon/golbat/icon.4bpp");
-const u8 gMonFootprint_Golbat[] = INCBIN_U8("graphics/pokemon/golbat/footprint.1bpp");
+const u32 gMonStillFrontPic_Yuramon[] = INCBIN_U32("graphics/pokemon/yuramon/front.4bpp.lz");
+const u32 gMonPalette_Yuramon[] = INCBIN_U32("graphics/pokemon/yuramon/normal.gbapal.lz");
+const u32 gMonBackPic_Yuramon[] = INCBIN_U32("graphics/pokemon/yuramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Yuramon[] = INCBIN_U32("graphics/pokemon/yuramon/shiny.gbapal.lz");
+const u8 gMonIcon_Yuramon[] = INCBIN_U8("graphics/pokemon/yuramon/icon.4bpp");
+const u8 gMonFootprint_Yuramon[] = INCBIN_U8("graphics/pokemon/yuramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/front.4bpp.lz");
 const u32 gMonPalette_Oddish[] = INCBIN_U32("graphics/pokemon/oddish/normal.gbapal.lz");
