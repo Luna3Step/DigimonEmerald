@@ -531,8 +531,8 @@ Cry_Pyonmon::
 	.incbin "sound/direct_sound_samples/cries/pyonmon.bin"
 
 	.align 2
-Cry_Vulpix::
-	.incbin "sound/direct_sound_samples/cries/vulpix.bin"
+Cry_Relemon::
+	.incbin "sound/direct_sound_samples/cries/relemon.bin"
 
 	.align 2
 Cry_Ninetales::

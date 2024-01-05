@@ -250,12 +250,12 @@ const u32 gMonShinyPalette_Pyonmon[] = INCBIN_U32("graphics/pokemon/pyonmon/shin
 const u8 gMonIcon_Pyonmon[] = INCBIN_U8("graphics/pokemon/pyonmon/icon.4bpp");
 const u8 gMonFootprint_Pyonmon[] = INCBIN_U8("graphics/pokemon/pyonmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Vulpix[] = INCBIN_U32("graphics/pokemon/vulpix/front.4bpp.lz");
-const u32 gMonPalette_Vulpix[] = INCBIN_U32("graphics/pokemon/vulpix/normal.gbapal.lz");
-const u32 gMonBackPic_Vulpix[] = INCBIN_U32("graphics/pokemon/vulpix/back.4bpp.lz");
-const u32 gMonShinyPalette_Vulpix[] = INCBIN_U32("graphics/pokemon/vulpix/shiny.gbapal.lz");
-const u8 gMonIcon_Vulpix[] = INCBIN_U8("graphics/pokemon/vulpix/icon.4bpp");
-const u8 gMonFootprint_Vulpix[] = INCBIN_U8("graphics/pokemon/vulpix/footprint.1bpp");
+const u32 gMonStillFrontPic_Relemon[] = INCBIN_U32("graphics/pokemon/relemon/front.4bpp.lz");
+const u32 gMonPalette_Relemon[] = INCBIN_U32("graphics/pokemon/relemon/normal.gbapal.lz");
+const u32 gMonBackPic_Relemon[] = INCBIN_U32("graphics/pokemon/relemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Relemon[] = INCBIN_U32("graphics/pokemon/relemon/shiny.gbapal.lz");
+const u8 gMonIcon_Relemon[] = INCBIN_U8("graphics/pokemon/relemon/icon.4bpp");
+const u8 gMonFootprint_Relemon[] = INCBIN_U8("graphics/pokemon/relemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/front.4bpp.lz");
 const u32 gMonPalette_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/normal.gbapal.lz");
