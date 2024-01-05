@@ -535,8 +535,8 @@ Cry_Relemon::
 	.incbin "sound/direct_sound_samples/cries/relemon.bin"
 
 	.align 2
-Cry_Ninetales::
-	.incbin "sound/direct_sound_samples/cries/ninetales.bin"
+Cry_Sakumon::
+	.incbin "sound/direct_sound_samples/cries/sakumon.bin"
 
 	.align 2
 Cry_Jigglypuff::

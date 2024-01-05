@@ -1161,7 +1161,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0xD7,
-                        .nickname = _("NINETALES"),
+                        .nickname = _("SAKUMON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [5] =
@@ -4230,7 +4230,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0xD2,
-                                            .nickname = _("NINETALES"),
+                                            .nickname = _("SAKUMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [5] =
@@ -4653,7 +4653,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0xF,
-                                            .nickname = _("NINETALES"),
+                                            .nickname = _("SAKUMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [5] =

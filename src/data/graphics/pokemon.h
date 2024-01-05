@@ -257,12 +257,12 @@ const u32 gMonShinyPalette_Relemon[] = INCBIN_U32("graphics/pokemon/relemon/shin
 const u8 gMonIcon_Relemon[] = INCBIN_U8("graphics/pokemon/relemon/icon.4bpp");
 const u8 gMonFootprint_Relemon[] = INCBIN_U8("graphics/pokemon/relemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/front.4bpp.lz");
-const u32 gMonPalette_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/normal.gbapal.lz");
-const u32 gMonBackPic_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/back.4bpp.lz");
-const u32 gMonShinyPalette_Ninetales[] = INCBIN_U32("graphics/pokemon/ninetales/shiny.gbapal.lz");
-const u8 gMonIcon_Ninetales[] = INCBIN_U8("graphics/pokemon/ninetales/icon.4bpp");
-const u8 gMonFootprint_Ninetales[] = INCBIN_U8("graphics/pokemon/ninetales/footprint.1bpp");
+const u32 gMonStillFrontPic_Sakumon[] = INCBIN_U32("graphics/pokemon/sakumon/front.4bpp.lz");
+const u32 gMonPalette_Sakumon[] = INCBIN_U32("graphics/pokemon/sakumon/normal.gbapal.lz");
+const u32 gMonBackPic_Sakumon[] = INCBIN_U32("graphics/pokemon/sakumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sakumon[] = INCBIN_U32("graphics/pokemon/sakumon/shiny.gbapal.lz");
+const u8 gMonIcon_Sakumon[] = INCBIN_U8("graphics/pokemon/sakumon/icon.4bpp");
+const u8 gMonFootprint_Sakumon[] = INCBIN_U8("graphics/pokemon/sakumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/front.4bpp.lz");
 const u32 gMonPalette_Jigglypuff[] = INCBIN_U32("graphics/pokemon/jigglypuff/normal.gbapal.lz");

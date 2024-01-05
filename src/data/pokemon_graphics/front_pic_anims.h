@@ -437,7 +437,7 @@ static const union AnimCmd sAnim_Relemon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Ninetales_1[] =
+static const union AnimCmd sAnim_Sakumon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -447,7 +447,7 @@ static const union AnimCmd sAnim_Ninetales_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Ninetales_2[] =
+static const union AnimCmd sAnim_Sakumon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4860,7 +4860,7 @@ SINGLE_ANIMATION(Puwamon);
 SINGLE_ANIMATION(Puyomon);
 SINGLE_ANIMATION(Pyonmon);
 DOUBLE_ANIMATION(Relemon);
-DOUBLE_ANIMATION(Ninetales);
+DOUBLE_ANIMATION(Sakumon);
 DOUBLE_ANIMATION(Jigglypuff);
 DOUBLE_ANIMATION(Wigglytuff);
 SINGLE_ANIMATION(Zubat);
@@ -5292,7 +5292,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PUYOMON]    = sAnims_Puyomon,
     [SPECIES_PYONMON]    = sAnims_Pyonmon,
     [SPECIES_RELEMON]      = sAnims_Relemon,
-    [SPECIES_SAKUMON]   = sAnims_Ninetales,
+    [SPECIES_SAKUMON]   = sAnims_Sakumon,
     [SPECIES_SANDMON]  = sAnims_Jigglypuff,
     [SPECIES_TSUBUMON]  = sAnims_Wigglytuff,
     [SPECIES_ICEBOTAMON]       = sAnims_Zubat,
