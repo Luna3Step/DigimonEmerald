@@ -567,8 +567,8 @@ Cry_Arcadiamon_it::
 	.incbin "sound/direct_sound_samples/cries/arcadiamon_it.bin"
 
 	.align 2
-Cry_Paras::
-	.incbin "sound/direct_sound_samples/cries/paras.bin"
+Cry_Argomon_it::
+	.incbin "sound/direct_sound_samples/cries/argomon_it.bin"
 
 	.align 2
 Cry_Parasect::
