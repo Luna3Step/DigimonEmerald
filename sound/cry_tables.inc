@@ -26,7 +26,7 @@ gCryTable::
 	cry Cry_Paomon
 	cry Cry_Petitmon
 	cry Cry_Pichimon
-	cry Cry_Sandshrew
+	cry Cry_Popomon
 	cry Cry_Sandslash
 	cry Cry_NidoranF
 	cry Cry_Nidorina
@@ -417,7 +417,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Paomon
 	cry_reverse Cry_Petitmon
 	cry_reverse Cry_Pichimon
-	cry_reverse Cry_Sandshrew
+	cry_reverse Cry_Popomon
 	cry_reverse Cry_Sandslash
 	cry_reverse Cry_NidoranF
 	cry_reverse Cry_Nidorina

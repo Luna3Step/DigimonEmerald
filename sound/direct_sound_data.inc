@@ -491,8 +491,8 @@ Cry_Pichimon::
 	.incbin "sound/direct_sound_samples/cries/pichimon.bin"
 
 	.align 2
-Cry_Sandshrew::
-	.incbin "sound/direct_sound_samples/cries/sandshrew.bin"
+Cry_Popomon::
+	.incbin "sound/direct_sound_samples/cries/popomon.bin"
 
 	.align 2
 Cry_Sandslash::

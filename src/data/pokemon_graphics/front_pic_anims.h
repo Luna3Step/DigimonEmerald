@@ -308,7 +308,7 @@ static const union AnimCmd sAnim_Pichimon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Sandshrew_1[] =
+static const union AnimCmd sAnim_Popomon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -318,7 +318,7 @@ static const union AnimCmd sAnim_Sandshrew_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Sandshrew_2[] =
+static const union AnimCmd sAnim_Popomon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4849,7 +4849,7 @@ SINGLE_ANIMATION(Pafumon);
 SINGLE_ANIMATION(Paomon);
 DOUBLE_ANIMATION(Petitmon);
 DOUBLE_ANIMATION(Pichimon);
-DOUBLE_ANIMATION(Sandshrew);
+DOUBLE_ANIMATION(Popomon);
 DOUBLE_ANIMATION(Sandslash);
 SINGLE_ANIMATION(NidoranF);
 SINGLE_ANIMATION(Nidorina);
@@ -5281,7 +5281,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PAOMON]       = sAnims_Paomon,
     [SPECIES_PETITMON]     = sAnims_Petitmon,
     [SPECIES_PICHIMON]      = sAnims_Pichimon,
-    [SPECIES_POPOMON]   = sAnims_Sandshrew,
+    [SPECIES_POPOMON]   = sAnims_Popomon,
     [SPECIES_POYOMON]   = sAnims_Sandslash,
     [SPECIES_PUNIMON]   = sAnims_NidoranF,
     [SPECIES_PUPUMON]    = sAnims_Nidorina,
