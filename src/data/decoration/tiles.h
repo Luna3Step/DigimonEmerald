@@ -494,8 +494,8 @@ const u16 DecorGfx_SANDMON_DOLL[] = {
     OBJ_EVENT_GFX_SANDMON_DOLL
 };
 
-const u16 DecorGfx_MEOWTH_DOLL[] = {
-    OBJ_EVENT_GFX_MEOWTH_DOLL
+const u16 DecorGfx_CALUMON_DOLL[] = {
+    OBJ_EVENT_GFX_CALUMON_DOLL
 };
 
 const u16 DecorGfx_PUYOMON_DOLL[] = {
