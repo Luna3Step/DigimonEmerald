@@ -390,12 +390,12 @@ const u32 gMonShinyPalette_Demiveemon[] = INCBIN_U32("graphics/pokemon/demiveemo
 const u8 gMonIcon_Demiveemon[] = INCBIN_U8("graphics/pokemon/demiveemon/icon.4bpp");
 const u8 gMonFootprint_Demiveemon[] = INCBIN_U8("graphics/pokemon/demiveemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Primeape[] = INCBIN_U32("graphics/pokemon/primeape/front.4bpp.lz");
-const u32 gMonPalette_Primeape[] = INCBIN_U32("graphics/pokemon/primeape/normal.gbapal.lz");
-const u32 gMonBackPic_Primeape[] = INCBIN_U32("graphics/pokemon/primeape/back.4bpp.lz");
-const u32 gMonShinyPalette_Primeape[] = INCBIN_U32("graphics/pokemon/primeape/shiny.gbapal.lz");
-const u8 gMonIcon_Primeape[] = INCBIN_U8("graphics/pokemon/primeape/icon.4bpp");
-const u8 gMonFootprint_Primeape[] = INCBIN_U8("graphics/pokemon/primeape/footprint.1bpp");
+const u32 gMonStillFrontPic_Dorimon[] = INCBIN_U32("graphics/pokemon/dorimon/front.4bpp.lz");
+const u32 gMonPalette_Dorimon[] = INCBIN_U32("graphics/pokemon/dorimon/normal.gbapal.lz");
+const u32 gMonBackPic_Dorimon[] = INCBIN_U32("graphics/pokemon/dorimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dorimon[] = INCBIN_U32("graphics/pokemon/dorimon/shiny.gbapal.lz");
+const u8 gMonIcon_Dorimon[] = INCBIN_U8("graphics/pokemon/dorimon/icon.4bpp");
+const u8 gMonFootprint_Dorimon[] = INCBIN_U8("graphics/pokemon/dorimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Growlithe[] = INCBIN_U32("graphics/pokemon/growlithe/front.4bpp.lz");
 const u32 gMonPalette_Growlithe[] = INCBIN_U32("graphics/pokemon/growlithe/normal.gbapal.lz");

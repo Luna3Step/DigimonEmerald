@@ -611,8 +611,8 @@ Cry_Demiveemon::
 	.incbin "sound/direct_sound_samples/cries/demiveemon.bin"
 
 	.align 2
-Cry_Primeape::
-	.incbin "sound/direct_sound_samples/cries/primeape.bin"
+Cry_Dorimon::
+	.incbin "sound/direct_sound_samples/cries/dorimon.bin"
 
 	.align 2
 Cry_Growlithe::
