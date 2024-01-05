@@ -58,7 +58,7 @@ gCryTable::
 	cry Cry_Demiveemon
 	cry Cry_Dorimon
 	cry Cry_Frimon
-	cry Cry_Arcanine
+	cry Cry_Gigimon
 	cry Cry_Poliwag
 	cry Cry_Poliwhirl
 	cry Cry_Poliwrath
@@ -449,7 +449,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Demiveemon
 	cry_reverse Cry_Dorimon
 	cry_reverse Cry_Frimon
-	cry_reverse Cry_Arcanine
+	cry_reverse Cry_Gigimon
 	cry_reverse Cry_Poliwag
 	cry_reverse Cry_Poliwhirl
 	cry_reverse Cry_Poliwrath
