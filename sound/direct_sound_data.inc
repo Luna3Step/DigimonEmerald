@@ -587,8 +587,8 @@ Cry_Budmon::
 	.incbin "sound/direct_sound_samples/cries/budmon.bin"
 
 	.align 2
-Cry_Dugtrio::
-	.incbin "sound/direct_sound_samples/cries/dugtrio.bin"
+Cry_Bukamon::
+	.incbin "sound/direct_sound_samples/cries/bukamon.bin"
 
 	.align 2
 Cry_Meowth::

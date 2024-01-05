@@ -1820,8 +1820,8 @@
     FRONTIER_MON_NYAROMON_1,    \
     -1
 
-// Odd, all the other Youngster/Lass trainers of this group have Dugtrio, but one does not
-#define FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO \
+// Odd, all the other Youngster/Lass trainers of this group have Bukamon, but one does not
+#define FRONTIER_MONS_YOUNGSTER_LASS_2_NO_BUKAMON \
     FRONTIER_MON_BLIMPMON_2,    \
     FRONTIER_MON_AGUMON_EXPERT_2,     \
     FRONTIER_MON_KUDAMON_06_2,    \
@@ -1858,7 +1858,7 @@
 
 #define FRONTIER_MONS_YOUNGSTER_LASS_2 \
     FRONTIER_MON_BUKAMON_2,            \
-    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO
+    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_BUKAMON
 
 #define FRONTIER_MONS_SCHOOL_KID_2 \
     FRONTIER_MON_ARMADILMON_2,     \
@@ -6675,7 +6675,7 @@ const u16 gBattleFrontierTrainerMons_Zachery[] =
 
 const u16 gBattleFrontierTrainerMons_Johan[] =
 {
-    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO
+    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_BUKAMON
 };
 
 const u16 gBattleFrontierTrainerMons_Shea[] =
