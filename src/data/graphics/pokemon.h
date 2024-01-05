@@ -278,12 +278,12 @@ const u32 gMonShinyPalette_Tsubumon[] = INCBIN_U32("graphics/pokemon/tsubumon/sh
 const u8 gMonIcon_Tsubumon[] = INCBIN_U8("graphics/pokemon/tsubumon/icon.4bpp");
 const u8 gMonFootprint_Tsubumon[] = INCBIN_U8("graphics/pokemon/tsubumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Zubat[] = INCBIN_U32("graphics/pokemon/zubat/front.4bpp.lz");
-const u32 gMonPalette_Zubat[] = INCBIN_U32("graphics/pokemon/zubat/normal.gbapal.lz");
-const u32 gMonBackPic_Zubat[] = INCBIN_U32("graphics/pokemon/zubat/back.4bpp.lz");
-const u32 gMonShinyPalette_Zubat[] = INCBIN_U32("graphics/pokemon/zubat/shiny.gbapal.lz");
-const u8 gMonIcon_Zubat[] = INCBIN_U8("graphics/pokemon/zubat/icon.4bpp");
-const u8 gMonFootprint_Zubat[] = INCBIN_U8("graphics/pokemon/zubat/footprint.1bpp");
+const u32 gMonStillFrontPic_Icebotamon[] = INCBIN_U32("graphics/pokemon/icebotamon/front.4bpp.lz");
+const u32 gMonPalette_Icebotamon[] = INCBIN_U32("graphics/pokemon/icebotamon/normal.gbapal.lz");
+const u32 gMonBackPic_Icebotamon[] = INCBIN_U32("graphics/pokemon/icebotamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Icebotamon[] = INCBIN_U32("graphics/pokemon/icebotamon/shiny.gbapal.lz");
+const u8 gMonIcon_Icebotamon[] = INCBIN_U8("graphics/pokemon/icebotamon/icon.4bpp");
+const u8 gMonFootprint_Icebotamon[] = INCBIN_U8("graphics/pokemon/icebotamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/front.4bpp.lz");
 const u32 gMonPalette_Golbat[] = INCBIN_U32("graphics/pokemon/golbat/normal.gbapal.lz");

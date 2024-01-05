@@ -40,7 +40,7 @@ gCryTable::
 	cry Cry_Sakumon
 	cry Cry_Sandmon
 	cry Cry_Tsubumon
-	cry Cry_Zubat
+	cry Cry_Icebotamon
 	cry Cry_Golbat
 	cry Cry_Oddish
 	cry Cry_Gloom
@@ -431,7 +431,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sakumon
 	cry_reverse Cry_Sandmon
 	cry_reverse Cry_Tsubumon
-	cry_reverse Cry_Zubat
+	cry_reverse Cry_Icebotamon
 	cry_reverse Cry_Golbat
 	cry_reverse Cry_Oddish
 	cry_reverse Cry_Gloom

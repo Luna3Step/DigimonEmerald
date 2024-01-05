@@ -19,8 +19,8 @@ gTrickHouse_Mechadoll_Wingull::
 gTrickHouse_Mechadoll_Dustox::
 	.string "DUSTOX$"
 
-gTrickHouse_Mechadoll_Zubat::
-	.string "ZUBAT$"
+gTrickHouse_Mechadoll_Icebotamon::
+	.string "ICEBOTAMON$"
 
 gTrickHouse_Mechadoll_Nincada::
 	.string "NINCADA$"
@@ -46,8 +46,8 @@ gTrickHouse_Mechadoll_Zigzagoon2::
 gTrickHouse_Mechadoll_Poochyena3::
 	.string "POOCHYENA$"
 
-gTrickHouse_Mechadoll_Zubat2::
-	.string "ZUBAT$"
+gTrickHouse_Mechadoll_Icebotamon2::
+	.string "ICEBOTAMON$"
 
 gTrickHouse_Mechadoll_Carvanha::
 	.string "CARVANHA$"
