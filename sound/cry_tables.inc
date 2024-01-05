@@ -35,7 +35,7 @@ gCryTable::
 	cry Cry_Puttimon
 	cry Cry_Puwamon
 	cry Cry_Puyomon
-	cry Cry_Clefable
+	cry Cry_Pyonmon
 	cry Cry_Vulpix
 	cry Cry_Ninetales
 	cry Cry_Jigglypuff
@@ -426,7 +426,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Puttimon
 	cry_reverse Cry_Puwamon
 	cry_reverse Cry_Puyomon
-	cry_reverse Cry_Clefable
+	cry_reverse Cry_Pyonmon
 	cry_reverse Cry_Vulpix
 	cry_reverse Cry_Ninetales
 	cry_reverse Cry_Jigglypuff

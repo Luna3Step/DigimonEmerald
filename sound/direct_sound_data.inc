@@ -527,8 +527,8 @@ Cry_Puyomon::
 	.incbin "sound/direct_sound_samples/cries/puyomon.bin"
 
 	.align 2
-Cry_Clefable::
-	.incbin "sound/direct_sound_samples/cries/clefable.bin"
+Cry_Pyonmon::
+	.incbin "sound/direct_sound_samples/cries/pyonmon.bin"
 
 	.align 2
 Cry_Vulpix::

@@ -407,7 +407,7 @@ static const union AnimCmd sAnim_Puyomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Clefable_1[] =
+static const union AnimCmd sAnim_Pyonmon_1[] =
 {
     ANIMCMD_FRAME(0, 27),
     ANIMCMD_FRAME(0, 27),
@@ -4858,7 +4858,7 @@ SINGLE_ANIMATION(Pusumon);
 SINGLE_ANIMATION(Puttimon);
 SINGLE_ANIMATION(Puwamon);
 SINGLE_ANIMATION(Puyomon);
-SINGLE_ANIMATION(Clefable);
+SINGLE_ANIMATION(Pyonmon);
 DOUBLE_ANIMATION(Vulpix);
 DOUBLE_ANIMATION(Ninetales);
 DOUBLE_ANIMATION(Jigglypuff);
@@ -5290,7 +5290,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PUTTIMON]    = sAnims_Puttimon,
     [SPECIES_PUWAMON]    = sAnims_Puwamon,
     [SPECIES_PUYOMON]    = sAnims_Puyomon,
-    [SPECIES_PYONMON]    = sAnims_Clefable,
+    [SPECIES_PYONMON]    = sAnims_Pyonmon,
     [SPECIES_RELEMON]      = sAnims_Vulpix,
     [SPECIES_SAKUMON]   = sAnims_Ninetales,
     [SPECIES_SANDMON]  = sAnims_Jigglypuff,
