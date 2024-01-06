@@ -85,7 +85,7 @@ gCryTable::
 	cry Cry_Pinamon
 	cry Cry_Poromon
 	cry Cry_Puroromon
-	cry Cry_Seel
+	cry Cry_Pusurimon
 	cry Cry_Dewgong
 	cry Cry_Grimer
 	cry Cry_Muk
@@ -476,7 +476,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pinamon
 	cry_reverse Cry_Poromon
 	cry_reverse Cry_Puroromon
-	cry_reverse Cry_Seel
+	cry_reverse Cry_Pusurimon
 	cry_reverse Cry_Dewgong
 	cry_reverse Cry_Grimer
 	cry_reverse Cry_Muk

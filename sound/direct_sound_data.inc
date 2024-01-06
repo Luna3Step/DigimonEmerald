@@ -727,8 +727,8 @@ Cry_Puroromon::
 	.incbin "sound/direct_sound_samples/cries/puroromon.bin"
 
 	.align 2
-Cry_Seel::
-	.incbin "sound/direct_sound_samples/cries/seel.bin"
+Cry_Pusurimon::
+	.incbin "sound/direct_sound_samples/cries/pusurimon.bin"
 
 	.align 2
 Cry_Dewgong::

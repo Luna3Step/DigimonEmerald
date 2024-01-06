@@ -1364,7 +1364,7 @@ const struct ContestPokemon gContestOpponents[] =
     },
     [CONTEST_OPPONENT_JADA] = {
         .species = SPECIES_PUSURIMON,
-        .nickname = _("SEELEY"),
+        .nickname = _("PUSURIMONEY"),
         .trainerName = _("JADA"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_2,
         .aiFlags = CONTEST_AI_SET_3,
