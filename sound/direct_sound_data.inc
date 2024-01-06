@@ -679,8 +679,8 @@ Cry_Missimon::
 	.incbin "sound/direct_sound_samples/cries/missimon.bin"
 
 	.align 2
-Cry_Geodude::
-	.incbin "sound/direct_sound_samples/cries/geodude.bin"
+Cry_Monimon::
+	.incbin "sound/direct_sound_samples/cries/monimon.bin"
 
 	.align 2
 Cry_Graveler::

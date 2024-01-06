@@ -509,12 +509,12 @@ const u32 gMonShinyPalette_Missimon[] = INCBIN_U32("graphics/pokemon/missimon/sh
 const u8 gMonIcon_Missimon[] = INCBIN_U8("graphics/pokemon/missimon/icon.4bpp");
 const u8 gMonFootprint_Missimon[] = INCBIN_U8("graphics/pokemon/missimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/front.4bpp.lz");
-const u32 gMonPalette_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/normal.gbapal.lz");
-const u32 gMonBackPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/back.4bpp.lz");
-const u32 gMonShinyPalette_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/shiny.gbapal.lz");
-const u8 gMonIcon_Geodude[] = INCBIN_U8("graphics/pokemon/geodude/icon.4bpp");
-const u8 gMonFootprint_Geodude[] = INCBIN_U8("graphics/pokemon/geodude/footprint.1bpp");
+const u32 gMonStillFrontPic_Monimon[] = INCBIN_U32("graphics/pokemon/monimon/front.4bpp.lz");
+const u32 gMonPalette_Monimon[] = INCBIN_U32("graphics/pokemon/monimon/normal.gbapal.lz");
+const u32 gMonBackPic_Monimon[] = INCBIN_U32("graphics/pokemon/monimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Monimon[] = INCBIN_U32("graphics/pokemon/monimon/shiny.gbapal.lz");
+const u8 gMonIcon_Monimon[] = INCBIN_U8("graphics/pokemon/monimon/icon.4bpp");
+const u8 gMonFootprint_Monimon[] = INCBIN_U8("graphics/pokemon/monimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/front.4bpp.lz");
 const u32 gMonPalette_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/normal.gbapal.lz");
