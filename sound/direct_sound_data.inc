@@ -639,8 +639,8 @@ Cry_Hopmon::
 	.incbin "sound/direct_sound_samples/cries/hopmon.bin"
 
 	.align 2
-Cry_Kadabra::
-	.incbin "sound/direct_sound_samples/cries/kadabra.bin"
+Cry_Kakkinmon::
+	.incbin "sound/direct_sound_samples/cries/kakkinmon.bin"
 
 	.align 2
 Cry_Alakazam::
