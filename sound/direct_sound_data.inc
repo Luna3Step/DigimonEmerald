@@ -643,8 +643,8 @@ Cry_Kakkinmon::
 	.incbin "sound/direct_sound_samples/cries/kakkinmon.bin"
 
 	.align 2
-Cry_Alakazam::
-	.incbin "sound/direct_sound_samples/cries/alakazam.bin"
+Cry_Kapurimon::
+	.incbin "sound/direct_sound_samples/cries/kapurimon.bin"
 
 	.align 2
 Cry_Machop::

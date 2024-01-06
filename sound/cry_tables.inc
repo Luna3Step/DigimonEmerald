@@ -64,7 +64,7 @@ gCryTable::
 	cry Cry_Hiyarimon
 	cry Cry_Hopmon
 	cry Cry_Kakkinmon
-	cry Cry_Alakazam
+	cry Cry_Kapurimon
 	cry Cry_Machop
 	cry Cry_Machoke
 	cry Cry_Machamp
@@ -455,7 +455,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Hiyarimon
 	cry_reverse Cry_Hopmon
 	cry_reverse Cry_Kakkinmon
-	cry_reverse Cry_Alakazam
+	cry_reverse Cry_Kapurimon
 	cry_reverse Cry_Machop
 	cry_reverse Cry_Machoke
 	cry_reverse Cry_Machamp

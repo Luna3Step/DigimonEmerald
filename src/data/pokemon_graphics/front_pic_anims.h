@@ -803,7 +803,7 @@ static const union AnimCmd sAnim_Kakkinmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Alakazam_1[] =
+static const union AnimCmd sAnim_Kapurimon_1[] =
 {
     ANIMCMD_FRAME(0, 9),
     ANIMCMD_FRAME(0, 54),
@@ -4887,7 +4887,7 @@ SINGLE_ANIMATION(Gurimon);
 SINGLE_ANIMATION(Hiyarimon);
 SINGLE_ANIMATION(Hopmon);
 SINGLE_ANIMATION(Kakkinmon);
-SINGLE_ANIMATION(Alakazam);
+SINGLE_ANIMATION(Kapurimon);
 SINGLE_ANIMATION(Machop);
 SINGLE_ANIMATION(Machoke);
 SINGLE_ANIMATION(Machamp);
@@ -5319,7 +5319,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_HIYARIMON]   = sAnims_Hiyarimon,
     [SPECIES_HOPMON]        = sAnims_Hopmon,
     [SPECIES_KAKKINMON]     = sAnims_Kakkinmon,
-    [SPECIES_KAPURIMON]    = sAnims_Alakazam,
+    [SPECIES_KAPURIMON]    = sAnims_Kapurimon,
     [SPECIES_KOKOMON]      = sAnims_Machop,
     [SPECIES_KOROMON]     = sAnims_Machoke,
     [SPECIES_KOZENIMON]     = sAnims_Machamp,
