@@ -621,12 +621,12 @@ const u32 gMonShinyPalette_Sunmon[] = INCBIN_U32("graphics/pokemon/sunmon/shiny.
 const u8 gMonIcon_Sunmon[] = INCBIN_U8("graphics/pokemon/sunmon/icon.4bpp");
 const u8 gMonFootprint_Sunmon[] = INCBIN_U8("graphics/pokemon/sunmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Shellder[] = INCBIN_U32("graphics/pokemon/shellder/front.4bpp.lz");
-const u32 gMonPalette_Shellder[] = INCBIN_U32("graphics/pokemon/shellder/normal.gbapal.lz");
-const u32 gMonBackPic_Shellder[] = INCBIN_U32("graphics/pokemon/shellder/back.4bpp.lz");
-const u32 gMonShinyPalette_Shellder[] = INCBIN_U32("graphics/pokemon/shellder/shiny.gbapal.lz");
-const u8 gMonIcon_Shellder[] = INCBIN_U8("graphics/pokemon/shellder/icon.4bpp");
-const u8 gMonFootprint_Shellder[] = INCBIN_U8("graphics/pokemon/shellder/footprint.1bpp");
+const u32 gMonStillFrontPic_Tanemon[] = INCBIN_U32("graphics/pokemon/tanemon/front.4bpp.lz");
+const u32 gMonPalette_Tanemon[] = INCBIN_U32("graphics/pokemon/tanemon/normal.gbapal.lz");
+const u32 gMonBackPic_Tanemon[] = INCBIN_U32("graphics/pokemon/tanemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tanemon[] = INCBIN_U32("graphics/pokemon/tanemon/shiny.gbapal.lz");
+const u8 gMonIcon_Tanemon[] = INCBIN_U8("graphics/pokemon/tanemon/icon.4bpp");
+const u8 gMonFootprint_Tanemon[] = INCBIN_U8("graphics/pokemon/tanemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Cloyster[] = INCBIN_U32("graphics/pokemon/cloyster/front.4bpp.lz");
 const u32 gMonPalette_Cloyster[] = INCBIN_U32("graphics/pokemon/cloyster/normal.gbapal.lz");

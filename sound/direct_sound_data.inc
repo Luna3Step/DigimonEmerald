@@ -743,8 +743,8 @@ Cry_Sunmon::
 	.incbin "sound/direct_sound_samples/cries/sunmon.bin"
 
 	.align 2
-Cry_Shellder::
-	.incbin "sound/direct_sound_samples/cries/shellder.bin"
+Cry_Tanemon::
+	.incbin "sound/direct_sound_samples/cries/tanemon.bin"
 
 	.align 2
 Cry_Cloyster::
