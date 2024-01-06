@@ -687,8 +687,8 @@ Cry_Moonmon::
 	.incbin "sound/direct_sound_samples/cries/moonmon.bin"
 
 	.align 2
-Cry_Golem::
-	.incbin "sound/direct_sound_samples/cries/golem.bin"
+Cry_Motimon::
+	.incbin "sound/direct_sound_samples/cries/motimon.bin"
 
 	.align 2
 Cry_Ponyta::
