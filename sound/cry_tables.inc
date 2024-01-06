@@ -80,7 +80,7 @@ gCryTable::
 	cry Cry_Nyaromon
 	cry Cry_Pagumon
 	cry Cry_Pickmon_silver
-	cry Cry_Magnemite
+	cry Cry_Pickmon_white
 	cry Cry_Magneton
 	cry Cry_Farfetchd
 	cry Cry_Doduo
@@ -471,7 +471,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Nyaromon
 	cry_reverse Cry_Pagumon
 	cry_reverse Cry_Pickmon_silver
-	cry_reverse Cry_Magnemite
+	cry_reverse Cry_Pickmon_white
 	cry_reverse Cry_Magneton
 	cry_reverse Cry_Farfetchd
 	cry_reverse Cry_Doduo

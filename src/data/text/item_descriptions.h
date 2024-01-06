@@ -452,7 +452,7 @@ static const u8 sGlitterMailDesc[] = _(
     "a POKéMON.");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
+    "A PICKMON_WHITE-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 

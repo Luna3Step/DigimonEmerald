@@ -707,8 +707,8 @@ Cry_Pickmon_silver::
 	.incbin "sound/direct_sound_samples/cries/pickmon_silver.bin"
 
 	.align 2
-Cry_Magnemite::
-	.incbin "sound/direct_sound_samples/cries/magnemite.bin"
+Cry_Pickmon_white::
+	.incbin "sound/direct_sound_samples/cries/pickmon_white.bin"
 
 	.align 2
 Cry_Magneton::
