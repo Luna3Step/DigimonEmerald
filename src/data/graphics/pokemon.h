@@ -530,12 +530,12 @@ const u32 gMonShinyPalette_Motimon[] = INCBIN_U32("graphics/pokemon/motimon/shin
 const u8 gMonIcon_Motimon[] = INCBIN_U8("graphics/pokemon/motimon/icon.4bpp");
 const u8 gMonFootprint_Motimon[] = INCBIN_U8("graphics/pokemon/motimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ponyta[] = INCBIN_U32("graphics/pokemon/ponyta/front.4bpp.lz");
-const u32 gMonPalette_Ponyta[] = INCBIN_U32("graphics/pokemon/ponyta/normal.gbapal.lz");
-const u32 gMonBackPic_Ponyta[] = INCBIN_U32("graphics/pokemon/ponyta/back.4bpp.lz");
-const u32 gMonShinyPalette_Ponyta[] = INCBIN_U32("graphics/pokemon/ponyta/shiny.gbapal.lz");
-const u8 gMonIcon_Ponyta[] = INCBIN_U8("graphics/pokemon/ponyta/icon.4bpp");
-const u8 gMonFootprint_Ponyta[] = INCBIN_U8("graphics/pokemon/ponyta/footprint.1bpp");
+const u32 gMonStillFrontPic_Negamon[] = INCBIN_U32("graphics/pokemon/negamon/front.4bpp.lz");
+const u32 gMonPalette_Negamon[] = INCBIN_U32("graphics/pokemon/negamon/normal.gbapal.lz");
+const u32 gMonBackPic_Negamon[] = INCBIN_U32("graphics/pokemon/negamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Negamon[] = INCBIN_U32("graphics/pokemon/negamon/shiny.gbapal.lz");
+const u8 gMonIcon_Negamon[] = INCBIN_U8("graphics/pokemon/negamon/icon.4bpp");
+const u8 gMonFootprint_Negamon[] = INCBIN_U8("graphics/pokemon/negamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/front.4bpp.lz");
 const u32 gMonPalette_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/normal.gbapal.lz");

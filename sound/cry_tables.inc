@@ -76,7 +76,7 @@ gCryTable::
 	cry Cry_Monimon
 	cry Cry_Moonmon
 	cry Cry_Motimon
-	cry Cry_Ponyta
+	cry Cry_Negamon
 	cry Cry_Rapidash
 	cry Cry_Slowpoke
 	cry Cry_Slowbro
@@ -467,7 +467,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Monimon
 	cry_reverse Cry_Moonmon
 	cry_reverse Cry_Motimon
-	cry_reverse Cry_Ponyta
+	cry_reverse Cry_Negamon
 	cry_reverse Cry_Rapidash
 	cry_reverse Cry_Slowpoke
 	cry_reverse Cry_Slowbro
