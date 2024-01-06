@@ -66,7 +66,7 @@ gCryTable::
 	cry Cry_Kakkinmon
 	cry Cry_Kapurimon
 	cry Cry_Kokomon
-	cry Cry_Machoke
+	cry Cry_Koromon
 	cry Cry_Machamp
 	cry Cry_Bellsprout
 	cry Cry_Weepinbell
@@ -457,7 +457,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kakkinmon
 	cry_reverse Cry_Kapurimon
 	cry_reverse Cry_Kokomon
-	cry_reverse Cry_Machoke
+	cry_reverse Cry_Koromon
 	cry_reverse Cry_Machamp
 	cry_reverse Cry_Bellsprout
 	cry_reverse Cry_Weepinbell
