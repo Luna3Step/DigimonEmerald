@@ -453,12 +453,12 @@ const u32 gMonShinyPalette_Kapurimon[] = INCBIN_U32("graphics/pokemon/kapurimon/
 const u8 gMonIcon_Kapurimon[] = INCBIN_U8("graphics/pokemon/kapurimon/icon.4bpp");
 const u8 gMonFootprint_Kapurimon[] = INCBIN_U8("graphics/pokemon/kapurimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Machop[] = INCBIN_U32("graphics/pokemon/machop/front.4bpp.lz");
-const u32 gMonPalette_Machop[] = INCBIN_U32("graphics/pokemon/machop/normal.gbapal.lz");
-const u32 gMonBackPic_Machop[] = INCBIN_U32("graphics/pokemon/machop/back.4bpp.lz");
-const u32 gMonShinyPalette_Machop[] = INCBIN_U32("graphics/pokemon/machop/shiny.gbapal.lz");
-const u8 gMonIcon_Machop[] = INCBIN_U8("graphics/pokemon/machop/icon.4bpp");
-const u8 gMonFootprint_Machop[] = INCBIN_U8("graphics/pokemon/machop/footprint.1bpp");
+const u32 gMonStillFrontPic_Kokomon[] = INCBIN_U32("graphics/pokemon/kokomon/front.4bpp.lz");
+const u32 gMonPalette_Kokomon[] = INCBIN_U32("graphics/pokemon/kokomon/normal.gbapal.lz");
+const u32 gMonBackPic_Kokomon[] = INCBIN_U32("graphics/pokemon/kokomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kokomon[] = INCBIN_U32("graphics/pokemon/kokomon/shiny.gbapal.lz");
+const u8 gMonIcon_Kokomon[] = INCBIN_U8("graphics/pokemon/kokomon/icon.4bpp");
+const u8 gMonFootprint_Kokomon[] = INCBIN_U8("graphics/pokemon/kokomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Machoke[] = INCBIN_U32("graphics/pokemon/machoke/front.4bpp.lz");
 const u32 gMonPalette_Machoke[] = INCBIN_U32("graphics/pokemon/machoke/normal.gbapal.lz");
