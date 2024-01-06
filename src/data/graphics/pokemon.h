@@ -537,12 +537,12 @@ const u32 gMonShinyPalette_Negamon[] = INCBIN_U32("graphics/pokemon/negamon/shin
 const u8 gMonIcon_Negamon[] = INCBIN_U8("graphics/pokemon/negamon/icon.4bpp");
 const u8 gMonFootprint_Negamon[] = INCBIN_U8("graphics/pokemon/negamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/front.4bpp.lz");
-const u32 gMonPalette_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/normal.gbapal.lz");
-const u32 gMonBackPic_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/back.4bpp.lz");
-const u32 gMonShinyPalette_Rapidash[] = INCBIN_U32("graphics/pokemon/rapidash/shiny.gbapal.lz");
-const u8 gMonIcon_Rapidash[] = INCBIN_U8("graphics/pokemon/rapidash/icon.4bpp");
-const u8 gMonFootprint_Rapidash[] = INCBIN_U8("graphics/pokemon/rapidash/footprint.1bpp");
+const u32 gMonStillFrontPic_Nyaromon[] = INCBIN_U32("graphics/pokemon/nyaromon/front.4bpp.lz");
+const u32 gMonPalette_Nyaromon[] = INCBIN_U32("graphics/pokemon/nyaromon/normal.gbapal.lz");
+const u32 gMonBackPic_Nyaromon[] = INCBIN_U32("graphics/pokemon/nyaromon/back.4bpp.lz");
+const u32 gMonShinyPalette_Nyaromon[] = INCBIN_U32("graphics/pokemon/nyaromon/shiny.gbapal.lz");
+const u8 gMonIcon_Nyaromon[] = INCBIN_U8("graphics/pokemon/nyaromon/icon.4bpp");
+const u8 gMonFootprint_Nyaromon[] = INCBIN_U8("graphics/pokemon/nyaromon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Slowpoke[] = INCBIN_U32("graphics/pokemon/slowpoke/front.4bpp.lz");
 const u32 gMonPalette_Slowpoke[] = INCBIN_U32("graphics/pokemon/slowpoke/normal.gbapal.lz");
