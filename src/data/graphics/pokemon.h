@@ -600,12 +600,12 @@ const u32 gMonShinyPalette_Pusurimon[] = INCBIN_U32("graphics/pokemon/pusurimon/
 const u8 gMonIcon_Pusurimon[] = INCBIN_U8("graphics/pokemon/pusurimon/icon.4bpp");
 const u8 gMonFootprint_Pusurimon[] = INCBIN_U8("graphics/pokemon/pusurimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Dewgong[] = INCBIN_U32("graphics/pokemon/dewgong/front.4bpp.lz");
-const u32 gMonPalette_Dewgong[] = INCBIN_U32("graphics/pokemon/dewgong/normal.gbapal.lz");
-const u32 gMonBackPic_Dewgong[] = INCBIN_U32("graphics/pokemon/dewgong/back.4bpp.lz");
-const u32 gMonShinyPalette_Dewgong[] = INCBIN_U32("graphics/pokemon/dewgong/shiny.gbapal.lz");
-const u8 gMonIcon_Dewgong[] = INCBIN_U8("graphics/pokemon/dewgong/icon.4bpp");
-const u8 gMonFootprint_Dewgong[] = INCBIN_U8("graphics/pokemon/dewgong/footprint.1bpp");
+const u32 gMonStillFrontPic_Puyoyomon[] = INCBIN_U32("graphics/pokemon/puyoyomon/front.4bpp.lz");
+const u32 gMonPalette_Puyoyomon[] = INCBIN_U32("graphics/pokemon/puyoyomon/normal.gbapal.lz");
+const u32 gMonBackPic_Puyoyomon[] = INCBIN_U32("graphics/pokemon/puyoyomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Puyoyomon[] = INCBIN_U32("graphics/pokemon/puyoyomon/shiny.gbapal.lz");
+const u8 gMonIcon_Puyoyomon[] = INCBIN_U8("graphics/pokemon/puyoyomon/icon.4bpp");
+const u8 gMonFootprint_Puyoyomon[] = INCBIN_U8("graphics/pokemon/puyoyomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/front.4bpp.lz");
 const u32 gMonPalette_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/normal.gbapal.lz");
