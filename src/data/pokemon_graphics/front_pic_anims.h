@@ -863,7 +863,7 @@ static const union AnimCmd sAnim_Kyokyomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Victreebel_1[] =
+static const union AnimCmd sAnim_Kyupimon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4893,7 +4893,7 @@ SINGLE_ANIMATION(Koromon);
 SINGLE_ANIMATION(Kozenimon);
 SINGLE_ANIMATION(Kyaromon);
 SINGLE_ANIMATION(Kyokyomon);
-SINGLE_ANIMATION(Victreebel);
+SINGLE_ANIMATION(Kyupimon);
 SINGLE_ANIMATION(Tentacool);
 SINGLE_ANIMATION(Tentacruel);
 SINGLE_ANIMATION(Geodude);
@@ -5325,7 +5325,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_KOZENIMON]     = sAnims_Kozenimon,
     [SPECIES_KYAROMON]  = sAnims_Kyaromon,
     [SPECIES_KYOKYOMON]  = sAnims_Kyokyomon,
-    [SPECIES_KYUPIMON]  = sAnims_Victreebel,
+    [SPECIES_KYUPIMON]  = sAnims_Kyupimon,
     [SPECIES_MINOMON]   = sAnims_Tentacool,
     [SPECIES_MISSIMON]  = sAnims_Tentacruel,
     [SPECIES_MONIMON]     = sAnims_Geodude,

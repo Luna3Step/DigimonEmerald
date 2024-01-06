@@ -488,12 +488,12 @@ const u32 gMonShinyPalette_Kyokyomon[] = INCBIN_U32("graphics/pokemon/kyokyomon/
 const u8 gMonIcon_Kyokyomon[] = INCBIN_U8("graphics/pokemon/kyokyomon/icon.4bpp");
 const u8 gMonFootprint_Kyokyomon[] = INCBIN_U8("graphics/pokemon/kyokyomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/front.4bpp.lz");
-const u32 gMonPalette_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/normal.gbapal.lz");
-const u32 gMonBackPic_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/back.4bpp.lz");
-const u32 gMonShinyPalette_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/shiny.gbapal.lz");
-const u8 gMonIcon_Victreebel[] = INCBIN_U8("graphics/pokemon/victreebel/icon.4bpp");
-const u8 gMonFootprint_Victreebel[] = INCBIN_U8("graphics/pokemon/victreebel/footprint.1bpp");
+const u32 gMonStillFrontPic_Kyupimon[] = INCBIN_U32("graphics/pokemon/kyupimon/front.4bpp.lz");
+const u32 gMonPalette_Kyupimon[] = INCBIN_U32("graphics/pokemon/kyupimon/normal.gbapal.lz");
+const u32 gMonBackPic_Kyupimon[] = INCBIN_U32("graphics/pokemon/kyupimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kyupimon[] = INCBIN_U32("graphics/pokemon/kyupimon/shiny.gbapal.lz");
+const u8 gMonIcon_Kyupimon[] = INCBIN_U8("graphics/pokemon/kyupimon/icon.4bpp");
+const u8 gMonFootprint_Kyupimon[] = INCBIN_U8("graphics/pokemon/kyupimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/front.4bpp.lz");
 const u32 gMonPalette_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/normal.gbapal.lz");
