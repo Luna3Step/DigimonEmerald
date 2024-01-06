@@ -551,12 +551,12 @@ const u32 gMonShinyPalette_Pagumon[] = INCBIN_U32("graphics/pokemon/pagumon/shin
 const u8 gMonIcon_Pagumon[] = INCBIN_U8("graphics/pokemon/pagumon/icon.4bpp");
 const u8 gMonFootprint_Pagumon[] = INCBIN_U8("graphics/pokemon/pagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Slowbro[] = INCBIN_U32("graphics/pokemon/slowbro/front.4bpp.lz");
-const u32 gMonPalette_Slowbro[] = INCBIN_U32("graphics/pokemon/slowbro/normal.gbapal.lz");
-const u32 gMonBackPic_Slowbro[] = INCBIN_U32("graphics/pokemon/slowbro/back.4bpp.lz");
-const u32 gMonShinyPalette_Slowbro[] = INCBIN_U32("graphics/pokemon/slowbro/shiny.gbapal.lz");
-const u8 gMonIcon_Slowbro[] = INCBIN_U8("graphics/pokemon/slowbro/icon.4bpp");
-const u8 gMonFootprint_Slowbro[] = INCBIN_U8("graphics/pokemon/slowbro/footprint.1bpp");
+const u32 gMonStillFrontPic_Pickmon_silver[] = INCBIN_U32("graphics/pokemon/pickmon_silver/front.4bpp.lz");
+const u32 gMonPalette_Pickmon_silver[] = INCBIN_U32("graphics/pokemon/pickmon_silver/normal.gbapal.lz");
+const u32 gMonBackPic_Pickmon_silver[] = INCBIN_U32("graphics/pokemon/pickmon_silver/back.4bpp.lz");
+const u32 gMonShinyPalette_Pickmon_silver[] = INCBIN_U32("graphics/pokemon/pickmon_silver/shiny.gbapal.lz");
+const u8 gMonIcon_Pickmon_silver[] = INCBIN_U8("graphics/pokemon/pickmon_silver/icon.4bpp");
+const u8 gMonFootprint_Pickmon_silver[] = INCBIN_U8("graphics/pokemon/pickmon_silver/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Magnemite[] = INCBIN_U32("graphics/pokemon/magnemite/front.4bpp.lz");
 const u32 gMonPalette_Magnemite[] = INCBIN_U32("graphics/pokemon/magnemite/normal.gbapal.lz");

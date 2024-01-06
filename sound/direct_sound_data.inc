@@ -703,8 +703,8 @@ Cry_Pagumon::
 	.incbin "sound/direct_sound_samples/cries/pagumon.bin"
 
 	.align 2
-Cry_Slowbro::
-	.incbin "sound/direct_sound_samples/cries/slowbro.bin"
+Cry_Pickmon_silver::
+	.incbin "sound/direct_sound_samples/cries/pickmon_silver.bin"
 
 	.align 2
 Cry_Magnemite::

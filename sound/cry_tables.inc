@@ -79,7 +79,7 @@ gCryTable::
 	cry Cry_Negamon
 	cry Cry_Nyaromon
 	cry Cry_Pagumon
-	cry Cry_Slowbro
+	cry Cry_Pickmon_silver
 	cry Cry_Magnemite
 	cry Cry_Magneton
 	cry Cry_Farfetchd
@@ -470,7 +470,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Negamon
 	cry_reverse Cry_Nyaromon
 	cry_reverse Cry_Pagumon
-	cry_reverse Cry_Slowbro
+	cry_reverse Cry_Pickmon_silver
 	cry_reverse Cry_Magnemite
 	cry_reverse Cry_Magneton
 	cry_reverse Cry_Farfetchd
