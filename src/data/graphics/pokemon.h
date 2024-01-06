@@ -495,12 +495,12 @@ const u32 gMonShinyPalette_Kyupimon[] = INCBIN_U32("graphics/pokemon/kyupimon/sh
 const u8 gMonIcon_Kyupimon[] = INCBIN_U8("graphics/pokemon/kyupimon/icon.4bpp");
 const u8 gMonFootprint_Kyupimon[] = INCBIN_U8("graphics/pokemon/kyupimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/front.4bpp.lz");
-const u32 gMonPalette_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/normal.gbapal.lz");
-const u32 gMonBackPic_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/back.4bpp.lz");
-const u32 gMonShinyPalette_Tentacool[] = INCBIN_U32("graphics/pokemon/tentacool/shiny.gbapal.lz");
-const u8 gMonIcon_Tentacool[] = INCBIN_U8("graphics/pokemon/tentacool/icon.4bpp");
-const u8 gMonFootprint_Tentacool[] = INCBIN_U8("graphics/pokemon/tentacool/footprint.1bpp");
+const u32 gMonStillFrontPic_Minomon[] = INCBIN_U32("graphics/pokemon/minomon/front.4bpp.lz");
+const u32 gMonPalette_Minomon[] = INCBIN_U32("graphics/pokemon/minomon/normal.gbapal.lz");
+const u32 gMonBackPic_Minomon[] = INCBIN_U32("graphics/pokemon/minomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Minomon[] = INCBIN_U32("graphics/pokemon/minomon/shiny.gbapal.lz");
+const u8 gMonIcon_Minomon[] = INCBIN_U8("graphics/pokemon/minomon/icon.4bpp");
+const u8 gMonFootprint_Minomon[] = INCBIN_U8("graphics/pokemon/minomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/front.4bpp.lz");
 const u32 gMonPalette_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/normal.gbapal.lz");

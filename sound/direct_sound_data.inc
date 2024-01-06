@@ -671,8 +671,8 @@ Cry_Kyupimon::
 	.incbin "sound/direct_sound_samples/cries/kyupimon.bin"
 
 	.align 2
-Cry_Tentacool::
-	.incbin "sound/direct_sound_samples/cries/tentacool.bin"
+Cry_Minomon::
+	.incbin "sound/direct_sound_samples/cries/minomon.bin"
 
 	.align 2
 Cry_Tentacruel::
