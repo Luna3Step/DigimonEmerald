@@ -425,12 +425,12 @@ const u32 gMonShinyPalette_Gurimon[] = INCBIN_U32("graphics/pokemon/gurimon/shin
 const u8 gMonIcon_Gurimon[] = INCBIN_U8("graphics/pokemon/gurimon/icon.4bpp");
 const u8 gMonFootprint_Gurimon[] = INCBIN_U8("graphics/pokemon/gurimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Poliwrath[] = INCBIN_U32("graphics/pokemon/poliwrath/front.4bpp.lz");
-const u32 gMonPalette_Poliwrath[] = INCBIN_U32("graphics/pokemon/poliwrath/normal.gbapal.lz");
-const u32 gMonBackPic_Poliwrath[] = INCBIN_U32("graphics/pokemon/poliwrath/back.4bpp.lz");
-const u32 gMonShinyPalette_Poliwrath[] = INCBIN_U32("graphics/pokemon/poliwrath/shiny.gbapal.lz");
-const u8 gMonIcon_Poliwrath[] = INCBIN_U8("graphics/pokemon/poliwrath/icon.4bpp");
-const u8 gMonFootprint_Poliwrath[] = INCBIN_U8("graphics/pokemon/poliwrath/footprint.1bpp");
+const u32 gMonStillFrontPic_Hiyarimon[] = INCBIN_U32("graphics/pokemon/hiyarimon/front.4bpp.lz");
+const u32 gMonPalette_Hiyarimon[] = INCBIN_U32("graphics/pokemon/hiyarimon/normal.gbapal.lz");
+const u32 gMonBackPic_Hiyarimon[] = INCBIN_U32("graphics/pokemon/hiyarimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hiyarimon[] = INCBIN_U32("graphics/pokemon/hiyarimon/shiny.gbapal.lz");
+const u8 gMonIcon_Hiyarimon[] = INCBIN_U8("graphics/pokemon/hiyarimon/icon.4bpp");
+const u8 gMonFootprint_Hiyarimon[] = INCBIN_U8("graphics/pokemon/hiyarimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Abra[] = INCBIN_U32("graphics/pokemon/abra/front.4bpp.lz");
 const u32 gMonPalette_Abra[] = INCBIN_U32("graphics/pokemon/abra/normal.gbapal.lz");
