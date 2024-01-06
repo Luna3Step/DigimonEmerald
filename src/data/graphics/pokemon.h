@@ -579,12 +579,12 @@ const u32 gMonShinyPalette_Pinamon[] = INCBIN_U32("graphics/pokemon/pinamon/shin
 const u8 gMonIcon_Pinamon[] = INCBIN_U8("graphics/pokemon/pinamon/icon.4bpp");
 const u8 gMonFootprint_Pinamon[] = INCBIN_U8("graphics/pokemon/pinamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Doduo[] = INCBIN_U32("graphics/pokemon/doduo/front.4bpp.lz");
-const u32 gMonPalette_Doduo[] = INCBIN_U32("graphics/pokemon/doduo/normal.gbapal.lz");
-const u32 gMonBackPic_Doduo[] = INCBIN_U32("graphics/pokemon/doduo/back.4bpp.lz");
-const u32 gMonShinyPalette_Doduo[] = INCBIN_U32("graphics/pokemon/doduo/shiny.gbapal.lz");
-const u8 gMonIcon_Doduo[] = INCBIN_U8("graphics/pokemon/doduo/icon.4bpp");
-const u8 gMonFootprint_Doduo[] = INCBIN_U8("graphics/pokemon/doduo/footprint.1bpp");
+const u32 gMonStillFrontPic_Poromon[] = INCBIN_U32("graphics/pokemon/poromon/front.4bpp.lz");
+const u32 gMonPalette_Poromon[] = INCBIN_U32("graphics/pokemon/poromon/normal.gbapal.lz");
+const u32 gMonBackPic_Poromon[] = INCBIN_U32("graphics/pokemon/poromon/back.4bpp.lz");
+const u32 gMonShinyPalette_Poromon[] = INCBIN_U32("graphics/pokemon/poromon/shiny.gbapal.lz");
+const u8 gMonIcon_Poromon[] = INCBIN_U8("graphics/pokemon/poromon/icon.4bpp");
+const u8 gMonFootprint_Poromon[] = INCBIN_U8("graphics/pokemon/poromon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Dodrio[] = INCBIN_U32("graphics/pokemon/dodrio/front.4bpp.lz");
 const u32 gMonPalette_Dodrio[] = INCBIN_U32("graphics/pokemon/dodrio/normal.gbapal.lz");

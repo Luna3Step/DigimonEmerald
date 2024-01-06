@@ -719,8 +719,8 @@ Cry_Pinamon::
 	.incbin "sound/direct_sound_samples/cries/pinamon.bin"
 
 	.align 2
-Cry_Doduo::
-	.incbin "sound/direct_sound_samples/cries/doduo.bin"
+Cry_Poromon::
+	.incbin "sound/direct_sound_samples/cries/poromon.bin"
 
 	.align 2
 Cry_Dodrio::
