@@ -502,12 +502,12 @@ const u32 gMonShinyPalette_Minomon[] = INCBIN_U32("graphics/pokemon/minomon/shin
 const u8 gMonIcon_Minomon[] = INCBIN_U8("graphics/pokemon/minomon/icon.4bpp");
 const u8 gMonFootprint_Minomon[] = INCBIN_U8("graphics/pokemon/minomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/front.4bpp.lz");
-const u32 gMonPalette_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/normal.gbapal.lz");
-const u32 gMonBackPic_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/back.4bpp.lz");
-const u32 gMonShinyPalette_Tentacruel[] = INCBIN_U32("graphics/pokemon/tentacruel/shiny.gbapal.lz");
-const u8 gMonIcon_Tentacruel[] = INCBIN_U8("graphics/pokemon/tentacruel/icon.4bpp");
-const u8 gMonFootprint_Tentacruel[] = INCBIN_U8("graphics/pokemon/tentacruel/footprint.1bpp");
+const u32 gMonStillFrontPic_Missimon[] = INCBIN_U32("graphics/pokemon/missimon/front.4bpp.lz");
+const u32 gMonPalette_Missimon[] = INCBIN_U32("graphics/pokemon/missimon/normal.gbapal.lz");
+const u32 gMonBackPic_Missimon[] = INCBIN_U32("graphics/pokemon/missimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Missimon[] = INCBIN_U32("graphics/pokemon/missimon/shiny.gbapal.lz");
+const u8 gMonIcon_Missimon[] = INCBIN_U8("graphics/pokemon/missimon/icon.4bpp");
+const u8 gMonFootprint_Missimon[] = INCBIN_U8("graphics/pokemon/missimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/front.4bpp.lz");
 const u32 gMonPalette_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/normal.gbapal.lz");
