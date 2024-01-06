@@ -635,12 +635,12 @@ const u32 gMonShinyPalette_Tokomon[] = INCBIN_U32("graphics/pokemon/tokomon/shin
 const u8 gMonIcon_Tokomon[] = INCBIN_U8("graphics/pokemon/tokomon/icon.4bpp");
 const u8 gMonFootprint_Tokomon[] = INCBIN_U8("graphics/pokemon/tokomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Gastly[] = INCBIN_U32("graphics/pokemon/gastly/front.4bpp.lz");
-const u32 gMonPalette_Gastly[] = INCBIN_U32("graphics/pokemon/gastly/normal.gbapal.lz");
-const u32 gMonBackPic_Gastly[] = INCBIN_U32("graphics/pokemon/gastly/back.4bpp.lz");
-const u32 gMonShinyPalette_Gastly[] = INCBIN_U32("graphics/pokemon/gastly/shiny.gbapal.lz");
-const u8 gMonIcon_Gastly[] = INCBIN_U8("graphics/pokemon/gastly/icon.4bpp");
-const u8 gMonFootprint_Gastly[] = INCBIN_U8("graphics/pokemon/gastly/footprint.1bpp");
+const u32 gMonStillFrontPic_Tokomon_x[] = INCBIN_U32("graphics/pokemon/tokomon_x/front.4bpp.lz");
+const u32 gMonPalette_Tokomon_x[] = INCBIN_U32("graphics/pokemon/tokomon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Tokomon_x[] = INCBIN_U32("graphics/pokemon/tokomon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Tokomon_x[] = INCBIN_U32("graphics/pokemon/tokomon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Tokomon_x[] = INCBIN_U8("graphics/pokemon/tokomon_x/icon.4bpp");
+const u8 gMonFootprint_Tokomon_x[] = INCBIN_U8("graphics/pokemon/tokomon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Haunter[] = INCBIN_U32("graphics/pokemon/haunter/front.4bpp.lz");
 const u32 gMonPalette_Haunter[] = INCBIN_U32("graphics/pokemon/haunter/normal.gbapal.lz");

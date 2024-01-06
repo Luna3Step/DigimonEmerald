@@ -751,8 +751,8 @@ Cry_Tokomon::
 	.incbin "sound/direct_sound_samples/cries/tokomon.bin"
 
 	.align 2
-Cry_Gastly::
-	.incbin "sound/direct_sound_samples/cries/gastly.bin"
+Cry_Tokomon_x::
+	.incbin "sound/direct_sound_samples/cries/tokomon_x.bin"
 
 	.align 2
 Cry_Haunter::

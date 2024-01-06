@@ -91,7 +91,7 @@ gCryTable::
 	cry Cry_Sunmon
 	cry Cry_Tanemon
 	cry Cry_Tokomon
-	cry Cry_Gastly
+	cry Cry_Tokomon_x
 	cry Cry_Haunter
 	cry Cry_Gengar
 	cry Cry_Onix
@@ -482,7 +482,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sunmon
 	cry_reverse Cry_Tanemon
 	cry_reverse Cry_Tokomon
-	cry_reverse Cry_Gastly
+	cry_reverse Cry_Tokomon_x
 	cry_reverse Cry_Haunter
 	cry_reverse Cry_Gengar
 	cry_reverse Cry_Onix
