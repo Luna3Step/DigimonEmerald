@@ -938,7 +938,7 @@ static const union AnimCmd sAnim_Nyaromon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Slowpoke_1[] =
+static const union AnimCmd sAnim_Pagumon_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 50),
@@ -4901,7 +4901,7 @@ SINGLE_ANIMATION(Moonmon);
 SINGLE_ANIMATION(Motimon);
 SINGLE_ANIMATION(Negamon);
 SINGLE_ANIMATION(Nyaromon);
-SINGLE_ANIMATION(Slowpoke);
+SINGLE_ANIMATION(Pagumon);
 SINGLE_ANIMATION(Slowbro);
 SINGLE_ANIMATION(Magnemite);
 SINGLE_ANIMATION(Magneton);
@@ -5333,7 +5333,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MOTIMON]       = sAnims_Motimon,
     [SPECIES_NEGAMON]      = sAnims_Negamon,
     [SPECIES_NYAROMON]    = sAnims_Nyaromon,
-    [SPECIES_PAGUMON]    = sAnims_Slowpoke,
+    [SPECIES_PAGUMON]    = sAnims_Pagumon,
     [SPECIES_PICKMON_SILVER]     = sAnims_Slowbro,
     [SPECIES_PICKMON_WHITE]   = sAnims_Magnemite,
     [SPECIES_PICKMON_RED]    = sAnims_Magneton,

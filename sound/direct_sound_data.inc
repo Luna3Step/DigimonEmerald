@@ -699,8 +699,8 @@ Cry_Nyaromon::
 	.incbin "sound/direct_sound_samples/cries/nyaromon.bin"
 
 	.align 2
-Cry_Slowpoke::
-	.incbin "sound/direct_sound_samples/cries/slowpoke.bin"
+Cry_Pagumon::
+	.incbin "sound/direct_sound_samples/cries/pagumon.bin"
 
 	.align 2
 Cry_Slowbro::
