@@ -711,8 +711,8 @@ Cry_Pickmon_white::
 	.incbin "sound/direct_sound_samples/cries/pickmon_white.bin"
 
 	.align 2
-Cry_Magneton::
-	.incbin "sound/direct_sound_samples/cries/magneton.bin"
+Cry_Pickmon_red::
+	.incbin "sound/direct_sound_samples/cries/pickmon_red.bin"
 
 	.align 2
 Cry_Farfetchd::
