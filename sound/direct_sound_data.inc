@@ -635,8 +635,8 @@ Cry_Hiyarimon::
 	.incbin "sound/direct_sound_samples/cries/hiyarimon.bin"
 
 	.align 2
-Cry_Abra::
-	.incbin "sound/direct_sound_samples/cries/abra.bin"
+Cry_Hopmon::
+	.incbin "sound/direct_sound_samples/cries/hopmon.bin"
 
 	.align 2
 Cry_Kadabra::

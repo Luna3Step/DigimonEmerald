@@ -432,12 +432,12 @@ const u32 gMonShinyPalette_Hiyarimon[] = INCBIN_U32("graphics/pokemon/hiyarimon/
 const u8 gMonIcon_Hiyarimon[] = INCBIN_U8("graphics/pokemon/hiyarimon/icon.4bpp");
 const u8 gMonFootprint_Hiyarimon[] = INCBIN_U8("graphics/pokemon/hiyarimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Abra[] = INCBIN_U32("graphics/pokemon/abra/front.4bpp.lz");
-const u32 gMonPalette_Abra[] = INCBIN_U32("graphics/pokemon/abra/normal.gbapal.lz");
-const u32 gMonBackPic_Abra[] = INCBIN_U32("graphics/pokemon/abra/back.4bpp.lz");
-const u32 gMonShinyPalette_Abra[] = INCBIN_U32("graphics/pokemon/abra/shiny.gbapal.lz");
-const u8 gMonIcon_Abra[] = INCBIN_U8("graphics/pokemon/abra/icon.4bpp");
-const u8 gMonFootprint_Abra[] = INCBIN_U8("graphics/pokemon/abra/footprint.1bpp");
+const u32 gMonStillFrontPic_Hopmon[] = INCBIN_U32("graphics/pokemon/hopmon/front.4bpp.lz");
+const u32 gMonPalette_Hopmon[] = INCBIN_U32("graphics/pokemon/hopmon/normal.gbapal.lz");
+const u32 gMonBackPic_Hopmon[] = INCBIN_U32("graphics/pokemon/hopmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hopmon[] = INCBIN_U32("graphics/pokemon/hopmon/shiny.gbapal.lz");
+const u8 gMonIcon_Hopmon[] = INCBIN_U8("graphics/pokemon/hopmon/icon.4bpp");
+const u8 gMonFootprint_Hopmon[] = INCBIN_U8("graphics/pokemon/hopmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kadabra[] = INCBIN_U32("graphics/pokemon/kadabra/front.4bpp.lz");
 const u32 gMonPalette_Kadabra[] = INCBIN_U32("graphics/pokemon/kadabra/normal.gbapal.lz");
