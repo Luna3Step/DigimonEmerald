@@ -481,12 +481,12 @@ const u32 gMonShinyPalette_Kyaromon[] = INCBIN_U32("graphics/pokemon/kyaromon/sh
 const u8 gMonIcon_Kyaromon[] = INCBIN_U8("graphics/pokemon/kyaromon/icon.4bpp");
 const u8 gMonFootprint_Kyaromon[] = INCBIN_U8("graphics/pokemon/kyaromon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Weepinbell[] = INCBIN_U32("graphics/pokemon/weepinbell/front.4bpp.lz");
-const u32 gMonPalette_Weepinbell[] = INCBIN_U32("graphics/pokemon/weepinbell/normal.gbapal.lz");
-const u32 gMonBackPic_Weepinbell[] = INCBIN_U32("graphics/pokemon/weepinbell/back.4bpp.lz");
-const u32 gMonShinyPalette_Weepinbell[] = INCBIN_U32("graphics/pokemon/weepinbell/shiny.gbapal.lz");
-const u8 gMonIcon_Weepinbell[] = INCBIN_U8("graphics/pokemon/weepinbell/icon.4bpp");
-const u8 gMonFootprint_Weepinbell[] = INCBIN_U8("graphics/pokemon/weepinbell/footprint.1bpp");
+const u32 gMonStillFrontPic_Kyokyomon[] = INCBIN_U32("graphics/pokemon/kyokyomon/front.4bpp.lz");
+const u32 gMonPalette_Kyokyomon[] = INCBIN_U32("graphics/pokemon/kyokyomon/normal.gbapal.lz");
+const u32 gMonBackPic_Kyokyomon[] = INCBIN_U32("graphics/pokemon/kyokyomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kyokyomon[] = INCBIN_U32("graphics/pokemon/kyokyomon/shiny.gbapal.lz");
+const u8 gMonIcon_Kyokyomon[] = INCBIN_U8("graphics/pokemon/kyokyomon/icon.4bpp");
+const u8 gMonFootprint_Kyokyomon[] = INCBIN_U8("graphics/pokemon/kyokyomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/front.4bpp.lz");
 const u32 gMonPalette_Victreebel[] = INCBIN_U32("graphics/pokemon/victreebel/normal.gbapal.lz");
