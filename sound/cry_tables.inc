@@ -74,7 +74,7 @@ gCryTable::
 	cry Cry_Minomon
 	cry Cry_Missimon
 	cry Cry_Monimon
-	cry Cry_Graveler
+	cry Cry_Moonmon
 	cry Cry_Golem
 	cry Cry_Ponyta
 	cry Cry_Rapidash
@@ -465,7 +465,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Minomon
 	cry_reverse Cry_Missimon
 	cry_reverse Cry_Monimon
-	cry_reverse Cry_Graveler
+	cry_reverse Cry_Moonmon
 	cry_reverse Cry_Golem
 	cry_reverse Cry_Ponyta
 	cry_reverse Cry_Rapidash

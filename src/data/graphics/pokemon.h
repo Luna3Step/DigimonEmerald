@@ -516,12 +516,12 @@ const u32 gMonShinyPalette_Monimon[] = INCBIN_U32("graphics/pokemon/monimon/shin
 const u8 gMonIcon_Monimon[] = INCBIN_U8("graphics/pokemon/monimon/icon.4bpp");
 const u8 gMonFootprint_Monimon[] = INCBIN_U8("graphics/pokemon/monimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/front.4bpp.lz");
-const u32 gMonPalette_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/normal.gbapal.lz");
-const u32 gMonBackPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/back.4bpp.lz");
-const u32 gMonShinyPalette_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/shiny.gbapal.lz");
-const u8 gMonIcon_Graveler[] = INCBIN_U8("graphics/pokemon/graveler/icon.4bpp");
-const u8 gMonFootprint_Graveler[] = INCBIN_U8("graphics/pokemon/graveler/footprint.1bpp");
+const u32 gMonStillFrontPic_Moonmon[] = INCBIN_U32("graphics/pokemon/moonmon/front.4bpp.lz");
+const u32 gMonPalette_Moonmon[] = INCBIN_U32("graphics/pokemon/moonmon/normal.gbapal.lz");
+const u32 gMonBackPic_Moonmon[] = INCBIN_U32("graphics/pokemon/moonmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Moonmon[] = INCBIN_U32("graphics/pokemon/moonmon/shiny.gbapal.lz");
+const u8 gMonIcon_Moonmon[] = INCBIN_U8("graphics/pokemon/moonmon/icon.4bpp");
+const u8 gMonFootprint_Moonmon[] = INCBIN_U8("graphics/pokemon/moonmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Golem[] = INCBIN_U32("graphics/pokemon/golem/front.4bpp.lz");
 const u32 gMonPalette_Golem[] = INCBIN_U32("graphics/pokemon/golem/normal.gbapal.lz");

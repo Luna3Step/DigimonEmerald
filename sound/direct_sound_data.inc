@@ -683,8 +683,8 @@ Cry_Monimon::
 	.incbin "sound/direct_sound_samples/cries/monimon.bin"
 
 	.align 2
-Cry_Graveler::
-	.incbin "sound/direct_sound_samples/cries/graveler.bin"
+Cry_Moonmon::
+	.incbin "sound/direct_sound_samples/cries/moonmon.bin"
 
 	.align 2
 Cry_Golem::

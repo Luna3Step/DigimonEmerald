@@ -903,7 +903,7 @@ static const union AnimCmd sAnim_Monimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Graveler_1[] =
+static const union AnimCmd sAnim_Moonmon_1[] =
 {
     ANIMCMD_FRAME(0, 16),
     ANIMCMD_FRAME(0, 16),
@@ -4897,7 +4897,7 @@ SINGLE_ANIMATION(Kyupimon);
 SINGLE_ANIMATION(Minomon);
 SINGLE_ANIMATION(Missimon);
 SINGLE_ANIMATION(Monimon);
-SINGLE_ANIMATION(Graveler);
+SINGLE_ANIMATION(Moonmon);
 SINGLE_ANIMATION(Golem);
 SINGLE_ANIMATION(Ponyta);
 SINGLE_ANIMATION(Rapidash);
@@ -5329,7 +5329,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MINOMON]   = sAnims_Minomon,
     [SPECIES_MISSIMON]  = sAnims_Missimon,
     [SPECIES_MONIMON]     = sAnims_Monimon,
-    [SPECIES_MOONMON]    = sAnims_Graveler,
+    [SPECIES_MOONMON]    = sAnims_Moonmon,
     [SPECIES_MOTIMON]       = sAnims_Golem,
     [SPECIES_NEGAMON]      = sAnims_Ponyta,
     [SPECIES_NYAROMON]    = sAnims_Rapidash,
