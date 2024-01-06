@@ -68,7 +68,7 @@ gCryTable::
 	cry Cry_Kokomon
 	cry Cry_Koromon
 	cry Cry_Kozenimon
-	cry Cry_Bellsprout
+	cry Cry_Kyaromon
 	cry Cry_Weepinbell
 	cry Cry_Victreebel
 	cry Cry_Tentacool
@@ -459,7 +459,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kokomon
 	cry_reverse Cry_Koromon
 	cry_reverse Cry_Kozenimon
-	cry_reverse Cry_Bellsprout
+	cry_reverse Cry_Kyaromon
 	cry_reverse Cry_Weepinbell
 	cry_reverse Cry_Victreebel
 	cry_reverse Cry_Tentacool

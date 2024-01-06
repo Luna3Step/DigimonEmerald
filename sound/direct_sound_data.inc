@@ -659,8 +659,8 @@ Cry_Kozenimon::
 	.incbin "sound/direct_sound_samples/cries/kozenimon.bin"
 
 	.align 2
-Cry_Bellsprout::
-	.incbin "sound/direct_sound_samples/cries/bellsprout.bin"
+Cry_Kyaromon::
+	.incbin "sound/direct_sound_samples/cries/kyaromon.bin"
 
 	.align 2
 Cry_Weepinbell::
