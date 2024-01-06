@@ -264,14 +264,14 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "Good things happen if everyone\n"
 	.string "jumps in time.$"
 
-MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“DODRIO BERRY-PICKING”\p"
-	.string "Command DODRIO's three heads to\n"
+MossdeepCity_GameCorner_1F_Text_PuroromonBerryPickingInfo:
+	.string "“PUROROMON BERRY-PICKING”\p"
+	.string "Command PUROROMON's three heads to\n"
 	.string "catch falling BERRIES.\p"
 	.string "Press right, up, or left on the\n"
 	.string "{PLUS} Control Pad to move the heads.\p"
 	.string "To play this game, you must have\n"
-	.string "a DODRIO.$"
+	.string "a PUROROMON.$"
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
 	.string "If you want to play a game,\n"
@@ -322,9 +322,9 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "swim, burrow, or fly.\p"
 	.string "That's all you need to know.$"
 
-MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
-	.string "DODRIO BERRY-PICKING is a game that \n"
-	.string "only DODRIO may enter.$"
+MossdeepCity_GameCorner_1F_Text_OnlyPuroromonAllowed:
+	.string "PUROROMON BERRY-PICKING is a game that \n"
+	.string "only PUROROMON may enter.$"
 
 @ Unused
 MossdeepCity_GameCorner_1F_Text_RetryPlease:

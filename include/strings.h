@@ -1226,7 +1226,7 @@ extern const u8 gText_DoubleBattle[];
 extern const u8 gText_MultiBattle[];
 extern const u8 gText_BerryCrush3[];
 extern const u8 gText_PokemonJump[];
-extern const u8 gText_DodrioBerryPicking[];
+extern const u8 gText_PuroromonBerryPicking[];
 extern const u8 gText_JoinGroup[];
 extern const u8 gText_BecomeLeader[];
 extern const u8 gText_NormalRank[];
@@ -2853,7 +2853,7 @@ extern const u8 gText_Symbols[];
 extern const u8 gText_Register2[];
 extern const u8 gText_Exit2[];
 
-// Dodrio Berry Picking
+// Puroromon Berry Picking
 extern const u8 gText_BerryPickingRecords[];
 extern const u8 gText_BerriesPicked[];
 extern const u8 gText_BerriesInRowFivePlayers[];

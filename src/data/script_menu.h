@@ -507,7 +507,7 @@ static const struct MenuAction MultichoiceList_LinkServicesNoRecordBerry[] =
 static const struct MenuAction MultichoiceList_WirelessMinigame[] =
 {
     {gText_PokemonJump},
-    {gText_DodrioBerryPicking},
+    {gText_PuroromonBerryPicking},
     {gText_Exit},
 };
 

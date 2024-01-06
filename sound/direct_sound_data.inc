@@ -723,8 +723,8 @@ Cry_Poromon::
 	.incbin "sound/direct_sound_samples/cries/poromon.bin"
 
 	.align 2
-Cry_Dodrio::
-	.incbin "sound/direct_sound_samples/cries/dodrio.bin"
+Cry_Puroromon::
+	.incbin "sound/direct_sound_samples/cries/puroromon.bin"
 
 	.align 2
 Cry_Seel::

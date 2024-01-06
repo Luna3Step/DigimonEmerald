@@ -1,7 +1,7 @@
 #include "global.h"
 #include "malloc.h"
 #include "bg.h"
-#include "dodrio_berry_picking.h"
+#include "puroromon_berry_picking.h"
 #include "dynamic_placeholder_text_util.h"
 #include "event_data.h"
 #include "gpu_regs.h"
@@ -25,8 +25,8 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 
-// Note that in this file 'Dodrio Berry Picking' is often
-// shortened to DodrioGame or just Game for convenience
+// Note that in this file 'Puroromon Berry Picking' is often
+// shortened to PuroromonGame or just Game for convenience
 
 #define MAX_SCORE 999990
 #define MAX_BERRIES 9999
@@ -91,11 +91,11 @@ enum {
 };
 
 enum {
-    PICK_NONE,     // Dodrio standing still
-    PICK_RIGHT,    // Dodrio reaching right
-    PICK_MIDDLE,   // Dodrio reaching up
-    PICK_LEFT,     // Dodrio reaching left
-    PICK_DISABLED, // Dodrio down after game over
+    PICK_NONE,     // Puroromon standing still
+    PICK_RIGHT,    // Puroromon reaching right
+    PICK_MIDDLE,   // Puroromon reaching up
+    PICK_LEFT,     // Puroromon reaching left
+    PICK_DISABLED, // Puroromon down after game over
 };
 
 enum {
@@ -115,7 +115,7 @@ enum {
 
 enum {
     BERRYSTATE_NONE,
-    BERRYSTATE_PICKED,   // Berry has been picked by a Dodrio, replaced with blue hit sprite (still falling)
+    BERRYSTATE_PICKED,   // Berry has been picked by a Puroromon, replaced with blue hit sprite (still falling)
     BERRYSTATE_EATEN,    // Berry has been eaten (after being picked), berry is gone now
     BERRYSTATE_SQUISHED, // Berry has hit the ground
 };
@@ -145,14 +145,14 @@ enum {
 // the values 0-9 are unique 'valid' columns
 #define NUM_BERRY_COLUMNS 11
 
-#define GFXTAG_DODRIO    0
+#define GFXTAG_PUROROMON    0
 #define GFXTAG_STATUS    1
 #define GFXTAG_BERRIES   2
 #define GFXTAG_CLOUD     5
 #define GFXTAG_COUNTDOWN 7
 
-#define PALTAG_DODRIO_NORMAL 0
-#define PALTAG_DODRIO_SHINY  1
+#define PALTAG_PUROROMON_NORMAL 0
+#define PALTAG_PUROROMON_SHINY  1
 #define PALTAG_STATUS        2
 #define PALTAG_BERRIES       3
 #define PALTAG_CLOUD         6
@@ -162,7 +162,7 @@ enum {
 
 #define PLAYER_NONE 0xFF
 
-struct DodrioGame_Gfx
+struct PuroromonGame_Gfx
 {
     u16 ALIGNED(4) tilemapBuffers[3][BG_SCREEN_SIZE];
     bool32 finished;
@@ -185,43 +185,43 @@ struct StatusBar
     u16 flashTimer;
 }; // size = 0x40
 
-struct DodrioGame_Berries
+struct PuroromonGame_Berries
 {
     u8 ids[NUM_BERRY_COLUMNS];
     u8 fallDist[NUM_BERRY_COLUMNS];
 };
 
-struct DodrioGame_PlayerCommData
+struct PuroromonGame_PlayerCommData
 {
     u8 pickState;
     bool8 ALIGNED(4) ateBerry;
     bool8 ALIGNED(4) missedBerry;
 };
 
-struct DodrioGame_Player
+struct PuroromonGame_Player
 {
     u8 name[16];
     bool32 receivedGameStatePacket; // Never read
-    struct DodrioGame_Berries berries;
-    struct DodrioGame_PlayerCommData comm;
+    struct PuroromonGame_Berries berries;
+    struct PuroromonGame_PlayerCommData comm;
     u32 unused;
 }; // size = 0x3C
 
-// Because Dodrio is required for this minigame,
+// Because Puroromon is required for this minigame,
 // the only relevant information about the selected
 // Pokémon is whether or not it's shiny
-struct DodrioGame_MonInfo
+struct PuroromonGame_MonInfo
 {
     bool8 isShiny;
 };
 
-struct DodrioGame_ScoreResults
+struct PuroromonGame_ScoreResults
 {
     u8 ranking;
     u32 score;
 };
 
-struct DodrioGame
+struct PuroromonGame
 {
     /*0x0000*/ void (*exitCallback)(void);
     /*0x0004*/ u8 ALIGNED(4) taskId;
@@ -268,26 +268,26 @@ struct DodrioGame
     /*0x0148*/ bool8 ALIGNED(4) playingSquishSound[NUM_BERRY_COLUMNS];
     /*0x0154*/ u8 ALIGNED(4) endSoundState;
     /*0x0158*/ bool8 ALIGNED(4) readyToStart[MAX_RFU_PLAYERS];
-    /*0x0160*/ struct DodrioGame_Gfx gfx;
-    /*0x318C*/ struct DodrioGame_MonInfo monInfo[MAX_RFU_PLAYERS];
-    /*0x31A0*/ struct DodrioGame_Player players[MAX_RFU_PLAYERS];
-    /*0x32CC*/ struct DodrioGame_Player player;
-    /*0x3308*/ struct DodrioGame_ScoreResults scoreResults[MAX_RFU_PLAYERS];
+    /*0x0160*/ struct PuroromonGame_Gfx gfx;
+    /*0x318C*/ struct PuroromonGame_MonInfo monInfo[MAX_RFU_PLAYERS];
+    /*0x31A0*/ struct PuroromonGame_Player players[MAX_RFU_PLAYERS];
+    /*0x32CC*/ struct PuroromonGame_Player player;
+    /*0x3308*/ struct PuroromonGame_ScoreResults scoreResults[MAX_RFU_PLAYERS];
 }; // size = 0x3330
 
-EWRAM_DATA static struct DodrioGame * sGame = NULL;
-EWRAM_DATA static u16 * sDodrioSpriteIds[MAX_RFU_PLAYERS] = {NULL};
+EWRAM_DATA static struct PuroromonGame * sGame = NULL;
+EWRAM_DATA static u16 * sPuroromonSpriteIds[MAX_RFU_PLAYERS] = {NULL};
 EWRAM_DATA static u16 * sCloudSpriteIds[NUM_CLOUDS] = {NULL};
 EWRAM_DATA static u16 * sBerrySpriteIds[NUM_BERRY_COLUMNS] = {NULL};
 EWRAM_DATA static u16 * sBerryIconSpriteIds[NUM_BERRY_TYPES] = {NULL};
 EWRAM_DATA static struct StatusBar * sStatusBar = NULL;
-EWRAM_DATA static struct DodrioGame_Gfx * sGfx = NULL;
+EWRAM_DATA static struct PuroromonGame_Gfx * sGfx = NULL;
 
 static bool32 sExitingGame;
 
 static void ResetTasksAndSprites(void);
-static void InitDodrioGame(struct DodrioGame *);
-static void Task_StartDodrioGame(u8);
+static void InitPuroromonGame(struct PuroromonGame *);
+static void Task_StartPuroromonGame(u8);
 static void DoGameIntro(void);
 static void InitCountdown(void);
 static void DoCountdown(void);
@@ -311,11 +311,11 @@ static void RecvLinkData_Member(void);
 static void SendLinkData_Member(void);
 static void HandleSound_Leader(void);
 static void HandleSound_Member(void);
-static void CB2_DodrioGame(void);
-static void VBlankCB_DodrioGame(void);
-static void InitMonInfo(struct DodrioGame_MonInfo *, struct Pokemon *);
+static void CB2_PuroromonGame(void);
+static void VBlankCB_PuroromonGame(void);
+static void InitMonInfo(struct PuroromonGame_MonInfo *, struct Pokemon *);
 static void CreateTask_(TaskFunc, u8);
-static void CreateDodrioGameTask(TaskFunc);
+static void CreatePuroromonGameTask(TaskFunc);
 static void SetGameFunc(u8);
 static bool32 SlideTreeBordersOut(void);
 static void InitFirstWaveOfBerries(void);
@@ -342,31 +342,31 @@ static void HandleWaitPlayAgainInput(void);
 static void ResetPickState(void);
 static u32 GetHighestScore(void);
 static void SendPacket_ReadyToStart(bool32);
-static void SendPacket_GameState(struct DodrioGame_Player *,
-                                 struct DodrioGame_PlayerCommData *,
-                                 struct DodrioGame_PlayerCommData *,
-                                 struct DodrioGame_PlayerCommData *,
-                                 struct DodrioGame_PlayerCommData *,
-                                 struct DodrioGame_PlayerCommData *,
+static void SendPacket_GameState(struct PuroromonGame_Player *,
+                                 struct PuroromonGame_PlayerCommData *,
+                                 struct PuroromonGame_PlayerCommData *,
+                                 struct PuroromonGame_PlayerCommData *,
+                                 struct PuroromonGame_PlayerCommData *,
+                                 struct PuroromonGame_PlayerCommData *,
                                  u8 , bool32 , bool32 );
 static bool32 RecvPacket_GameState(u32,
-                                   struct DodrioGame_Player *,
-                                   struct DodrioGame_PlayerCommData *,
-                                   struct DodrioGame_PlayerCommData *,
-                                   struct DodrioGame_PlayerCommData *,
-                                   struct DodrioGame_PlayerCommData *,
-                                   struct DodrioGame_PlayerCommData *,
+                                   struct PuroromonGame_Player *,
+                                   struct PuroromonGame_PlayerCommData *,
+                                   struct PuroromonGame_PlayerCommData *,
+                                   struct PuroromonGame_PlayerCommData *,
+                                   struct PuroromonGame_PlayerCommData *,
+                                   struct PuroromonGame_PlayerCommData *,
                                    u8 *, bool32 *, bool32 *);
 static void SendPacket_PickState(u8);
 static bool32 RecvPacket_PickState(u32, u8 *);
 static void SendPacket_ReadyToEnd(bool32);
 static bool32 RecvPacket_ReadyToEnd(u32);
-static void LoadDodrioGfx(void);
-static void CreateDodrioSprite(struct DodrioGame_MonInfo *, u8, u8, u8);
-static void StartDodrioMissedAnim(u8);
-static void StartDodrioIntroAnim(u8);
-static void FreeDodrioSprites(u8);
-static void SetAllDodrioInvisibility(bool8, u8);
+static void LoadPuroromonGfx(void);
+static void CreatePuroromonSprite(struct PuroromonGame_MonInfo *, u8, u8, u8);
+static void StartPuroromonMissedAnim(u8);
+static void StartPuroromonIntroAnim(u8);
+static void FreePuroromonSprites(u8);
+static void SetAllPuroromonInvisibility(bool8, u8);
 static void CreateStatusBarSprites(void);
 static void FreeStatusBar(void);
 static void SetStatusBarInvisibility(bool8);
@@ -382,7 +382,7 @@ static void FreeCloudSprites(void);
 static void SetCloudInvisibility(bool8);
 static void ResetBerryAndStatusBarSprites(void);
 static void ResetGfxState(void);
-static void InitGameGfx(struct DodrioGame_Gfx *);
+static void InitGameGfx(struct PuroromonGame_Gfx *);
 static void SetGfxFuncById(u8);
 static bool32 IsGfxFuncActive(void);
 static u8 GetPlayAgainState(void);
@@ -390,22 +390,22 @@ static void SetBerryInvisibility(u8, bool8);
 static void SetBerryIconsInvisibility(bool8);
 static void SetBerryAnim(u16, u8);
 static void SetBerryYPos(u8, u8);
-static void SetDodrioAnim(u8, u8);
+static void SetPuroromonAnim(u8, u8);
 static u8 GetNewBerryIdByDifficulty(u8, u8);
 static void UpdateStatusBarAnim(u8);
 static u32 RecvPacket_ReadyToStart(u32);
 static u32 IncrementWithLimit(u32, u32);
 static u32 Min(u32, u32);
 static u32 GetScore(u8);
-static void Task_ShowDodrioBerryPickingRecords(u8);
+static void Task_ShowPuroromonBerryPickingRecords(u8);
 static void Task_TryRunGfxFunc(u8);
 static void PrintRecordsText(u8, s32);
 static void SpriteCB_Status(struct Sprite *);
-static void SpriteCB_Dodrio(struct Sprite *);
-static u32 DoDodrioMissedAnim(struct Sprite *);
-static u32 DoDodrioIntroAnim(struct Sprite *);
-static s16 GetDodrioXPos(u8, u8);
-static void SetDodrioInvisibility(bool8, u8);
+static void SpriteCB_Puroromon(struct Sprite *);
+static u32 DoPuroromonMissedAnim(struct Sprite *);
+static u32 DoPuroromonIntroAnim(struct Sprite *);
+static s16 GetPuroromonXPos(u8, u8);
+static void SetPuroromonInvisibility(bool8, u8);
 static void LoadGfx(void);
 static bool32 LoadBgGfx(void);
 static void InitBgs(void);
@@ -454,10 +454,10 @@ static const u8 sActiveColumnMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][NUM_BERRY_COL
     },
 };
 
-// A table for which falling berry column corresponds to which Dodrio head for each player
+// A table for which falling berry column corresponds to which Puroromon head for each player
 // The numbers in each array are the column number for each head, {left, middle, right}
 // Dependent on the number of players
-static const u8 sDodrioHeadToColumnMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
+static const u8 sPuroromonHeadToColumnMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
 {
     { // 1 player (never used)
         {4, 5, 6},
@@ -488,7 +488,7 @@ static const u8 sDodrioHeadToColumnMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
 
 // A table of player ids and their neighbor, dependent on the total number of players
 // {L, M, R}, where M is the player in question, L is their neighbor to the left, and R is their neighbor to the right
-static const u8 sDodrioNeighborMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
+static const u8 sPuroromonNeighborMap[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
 {
     { // 1 player (never used)
         {1, 0, 1},
@@ -552,22 +552,22 @@ static const u8 sUnsharedColumns[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS] =
 };
 
 // Duplicate and unused gfx. Feel free to remove.
-static const u32 sDuplicateGfx[] = INCBIN_U32("graphics/dodrio_berry_picking/bg.gbapal",
-                                     "graphics/dodrio_berry_picking/tree_border.gbapal",
-                                     "graphics/dodrio_berry_picking/dodrio.gbapal",
-                                     "graphics/dodrio_berry_picking/shiny.gbapal",
-                                     "graphics/dodrio_berry_picking/status.gbapal",
-                                     "graphics/dodrio_berry_picking/berries.gbapal",
-                                     "graphics/dodrio_berry_picking/berries.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/cloud.gbapal",
-                                     "graphics/dodrio_berry_picking/bg.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/tree_border.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/status.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/cloud.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/dodrio.4bpp.lz",
-                                     "graphics/dodrio_berry_picking/bg.bin.lz",
-                                     "graphics/dodrio_berry_picking/tree_border_right.bin.lz",
-                                     "graphics/dodrio_berry_picking/tree_border_left.bin.lz");
+static const u32 sDuplicateGfx[] = INCBIN_U32("graphics/puroromon_berry_picking/bg.gbapal",
+                                     "graphics/puroromon_berry_picking/tree_border.gbapal",
+                                     "graphics/puroromon_berry_picking/puroromon.gbapal",
+                                     "graphics/puroromon_berry_picking/shiny.gbapal",
+                                     "graphics/puroromon_berry_picking/status.gbapal",
+                                     "graphics/puroromon_berry_picking/berries.gbapal",
+                                     "graphics/puroromon_berry_picking/berries.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/cloud.gbapal",
+                                     "graphics/puroromon_berry_picking/bg.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/tree_border.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/status.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/cloud.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/puroromon.4bpp.lz",
+                                     "graphics/puroromon_berry_picking/bg.bin.lz",
+                                     "graphics/puroromon_berry_picking/tree_border_right.bin.lz",
+                                     "graphics/puroromon_berry_picking/tree_border_left.bin.lz");
 
 
 static const u8 sBerryFallDelays[][3] =
@@ -661,20 +661,20 @@ static void (*const sMemberFuncs[])(void) =
     [FUNC_WAIT_END_GAME]  = WaitEndGame_Member
 };
 
-void StartDodrioBerryPicking(u16 partyId, void (*exitCallback)(void))
+void StartPuroromonBerryPicking(u16 partyId, void (*exitCallback)(void))
 {
     sExitingGame = FALSE;
 
     if (gReceivedRemoteLinkPlayers && (sGame = AllocZeroed(sizeof(*sGame))))
     {
         ResetTasksAndSprites();
-        InitDodrioGame(sGame);
+        InitPuroromonGame(sGame);
         sGame->exitCallback = exitCallback;
         sGame->multiplayerId = GetMultiplayerId();
         sGame->player = sGame->players[sGame->multiplayerId];
         InitMonInfo(&sGame->monInfo[sGame->multiplayerId], &gPlayerParty[partyId]);
-        CreateTask(Task_StartDodrioGame, 1);
-        SetMainCallback2(CB2_DodrioGame);
+        CreateTask(Task_StartPuroromonGame, 1);
+        SetMainCallback2(CB2_PuroromonGame);
         SetRandomPrize();
         GetActiveBerryColumns(sGame->numPlayers, &sGame->berryColStart, &sGame->berryColEnd);
         StopMapMusic();
@@ -695,7 +695,7 @@ static void ResetTasksAndSprites(void)
     FreeAllSpritePalettes();
 }
 
-static void InitDodrioGame(struct DodrioGame * game)
+static void InitPuroromonGame(struct PuroromonGame * game)
 {
     u8 i;
 
@@ -747,7 +747,7 @@ static void InitDodrioGame(struct DodrioGame * game)
     }
 }
 
-static void Task_StartDodrioGame(u8 taskId)
+static void Task_StartPuroromonGame(u8 taskId)
 {
     u8 i, numPlayers;
 
@@ -785,11 +785,11 @@ static void Task_StartDodrioGame(u8 taskId)
         break;
     case 4:
         numPlayers = sGame->numPlayers;
-        LoadDodrioGfx();
+        LoadPuroromonGfx();
         for (i = 0; i < numPlayers; i++)
-            CreateDodrioSprite(&sGame->monInfo[sGame->posToPlayerId[i]], i, sGame->posToPlayerId[i], sGame->numPlayers);
+            CreatePuroromonSprite(&sGame->monInfo[sGame->posToPlayerId[i]], i, sGame->posToPlayerId[i], sGame->numPlayers);
 
-        SetAllDodrioInvisibility(FALSE, sGame->numPlayers);
+        SetAllPuroromonInvisibility(FALSE, sGame->numPlayers);
         sGame->startState++;
         break;
     case 5:
@@ -802,7 +802,7 @@ static void Task_StartDodrioGame(u8 taskId)
     case 6:
         BlendPalettes(PALETTES_ALL, 0x10, 0x00);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, 0);
-        SetVBlankCallback(VBlankCB_DodrioGame);
+        SetVBlankCallback(VBlankCB_PuroromonGame);
         sGame->startState++;
         break;
     case 7:
@@ -812,12 +812,12 @@ static void Task_StartDodrioGame(u8 taskId)
         break;
     default:
         DestroyTask(taskId);
-        CreateDodrioGameTask(Task_NewGameIntro);
+        CreatePuroromonGameTask(Task_NewGameIntro);
         break;
     }
 }
 
-static void Task_DodrioGame_Leader(u8 taskId)
+static void Task_PuroromonGame_Leader(u8 taskId)
 {
     RecvLinkData_Leader();
     sLeaderFuncs[sGame->funcId]();
@@ -827,7 +827,7 @@ static void Task_DodrioGame_Leader(u8 taskId)
     SendLinkData_Leader();
 }
 
-static void Task_DodrioGame_Member(u8 taskId)
+static void Task_PuroromonGame_Member(u8 taskId)
 {
     RecvLinkData_Member();
     sMemberFuncs[sGame->funcId]();
@@ -842,7 +842,7 @@ static void DoGameIntro(void)
     switch (sGame->state)
     {
     case 0:
-        StartDodrioIntroAnim(1);
+        StartPuroromonIntroAnim(1);
         SetGfxFuncById(GFXFUNC_SHOW_NAMES);
         sGame->state++;
         break;
@@ -1317,7 +1317,7 @@ static void ExitGame(void)
     case 2:
         FreeBerrySprites();
         FreeStatusBar();
-        FreeDodrioSprites(sGame->numPlayers);
+        FreePuroromonSprites(sGame->numPlayers);
         FreeCloudSprites();
         sExitingGame = TRUE;
         SetGfxFuncById(GFXFUNC_STOP);
@@ -1383,9 +1383,9 @@ static void ResetGame(void)
         break;
     default:
         DestroyTask(sGame->taskId);
-        CreateDodrioGameTask(Task_NewGameIntro);
+        CreatePuroromonGameTask(Task_NewGameIntro);
         ResetGfxState();
-        InitDodrioGame(sGame);
+        InitPuroromonGame(sGame);
         if (gReceivedRemoteLinkPlayers == 0)
             sGame->numPlayers = 1;
 
@@ -1413,9 +1413,9 @@ static void Task_NewGameIntro(u8 taskId)
         break;
     default:
         if (sGame->isLeader)
-            CreateDodrioGameTask(Task_DodrioGame_Leader);
+            CreatePuroromonGameTask(Task_PuroromonGame_Leader);
         else
-            CreateDodrioGameTask(Task_DodrioGame_Member);
+            CreatePuroromonGameTask(Task_PuroromonGame_Member);
 
         DestroyTask(taskId);
         break;
@@ -1702,7 +1702,7 @@ static void HandleSound_Leader(void)
         if (!sGame->playingPickSound && !IsSEPlaying())
         {
             PlaySE(SE_BOO);
-            StartDodrioMissedAnim(1);
+            StartPuroromonMissedAnim(1);
             sGame->playingPickSound = TRUE;
         }
     }
@@ -1746,13 +1746,13 @@ static void HandleSound_Member(void)
         if (!sGame->playingPickSound && !IsSEPlaying())
         {
             PlaySE(SE_BOO);
-            StartDodrioMissedAnim(1);
+            StartPuroromonMissedAnim(1);
             sGame->playingPickSound = TRUE;
         }
     }
     for (i = berryStart; i < berryEnd; i++)
     {
-        struct DodrioGame_Berries * berries = &sGame->players[sGame->multiplayerId].berries;
+        struct PuroromonGame_Berries * berries = &sGame->players[sGame->multiplayerId].berries;
         if (berries->fallDist[i] >= MAX_FALL_DIST)
         {
             if (!sGame->playingSquishSound[i])
@@ -1780,7 +1780,7 @@ static void HandleSound_Member(void)
     }
 }
 
-static void CB2_DodrioGame(void)
+static void CB2_PuroromonGame(void)
 {
     RunTasks();
     AnimateSprites();
@@ -1788,14 +1788,14 @@ static void CB2_DodrioGame(void)
     UpdatePaletteFade();
 }
 
-static void VBlankCB_DodrioGame(void)
+static void VBlankCB_PuroromonGame(void)
 {
     TransferPlttBuffer();
     LoadOam();
     ProcessSpriteCopyRequests();
 }
 
-static void InitMonInfo(struct DodrioGame_MonInfo * monInfo, struct Pokemon *mon)
+static void InitMonInfo(struct PuroromonGame_MonInfo * monInfo, struct Pokemon *mon)
 {
     monInfo->isShiny = IsMonShiny(mon);
 }
@@ -1805,7 +1805,7 @@ static void CreateTask_(TaskFunc func, u8 priority)
     CreateTask(func, priority);
 }
 
-static void CreateDodrioGameTask(TaskFunc func)
+static void CreatePuroromonGameTask(TaskFunc func)
 {
     sGame->taskId = CreateTask(func, 1);
     sGame->state = 0;
@@ -1854,7 +1854,7 @@ static void InitFirstWaveOfBerries(void)
 
     for (i = berryStart; i < berryEnd; i++)
     {
-        struct DodrioGame_Berries * berries = &sGame->player.berries;
+        struct PuroromonGame_Berries * berries = &sGame->player.berries;
         berries->fallDist[i] = (i % 2 == 0) ? 1 : 0;
         berries->ids[i] = BERRY_BLUE;
     }
@@ -1988,7 +1988,7 @@ static bool32 TryPickBerry(u8 playerId, u8 pickState, u8 column)
 {
     s32 pick = 0;
     u8 numPlayersIdx = sGame->numPlayers - 1;
-    struct DodrioGame_Berries * berries = &sGame->player.berries;
+    struct PuroromonGame_Berries * berries = &sGame->player.berries;
 
     switch (pickState)
     {
@@ -2008,7 +2008,7 @@ static bool32 TryPickBerry(u8 playerId, u8 pickState, u8 column)
     if (berries->fallDist[column] == EAT_FALL_DIST - 1 || berries->fallDist[column] == EAT_FALL_DIST)
     {
         // Check if this berry is the one the player is trying to pick
-        if (column == sDodrioHeadToColumnMap[numPlayersIdx][playerId][pick])
+        if (column == sPuroromonHeadToColumnMap[numPlayersIdx][playerId][pick])
         {
             // Check if berry has been picked/eaten by another player
             if (sGame->berryState[column] == BERRYSTATE_PICKED || sGame->berryState[column] == BERRYSTATE_EATEN)
@@ -2027,7 +2027,7 @@ static bool32 TryPickBerry(u8 playerId, u8 pickState, u8 column)
     else
     {
         // Check if this berry is the one the player is trying to pick
-        if (column == sDodrioHeadToColumnMap[numPlayersIdx][playerId][pick])
+        if (column == sPuroromonHeadToColumnMap[numPlayersIdx][playerId][pick])
         {
             // Missed berry, out of range
             sGame->inputState[playerId] = INPUTSTATE_BAD_MISS;
@@ -2049,7 +2049,7 @@ static void UpdateFallingBerries(void)
 
     for (i = berryStart; i < berryEnd - 1; i++)
     {
-        struct DodrioGame *game = sGame;
+        struct PuroromonGame *game = sGame;
 
         if (sGame->berryState[i] == BERRYSTATE_NONE || sGame->berryState[i] == BERRYSTATE_PICKED)
         {
@@ -2134,7 +2134,7 @@ static void UpdateBerrySprites(void)
 
     for (i = berryStart; i < berryEnd; i++)
     {
-        struct DodrioGame_Player *player = &sGame->players[sGame->multiplayerId];
+        struct PuroromonGame_Player *player = &sGame->players[sGame->multiplayerId];
         u8 column = sActiveColumnMap[sGame->numPlayers - 1][sGame->multiplayerId][i];
 
         if (player->berries.fallDist[column] != 0)
@@ -2164,34 +2164,34 @@ static void UpdateBerrySprites(void)
     }
 }
 
-static void UpdateAllDodrioAnims(void)
+static void UpdateAllPuroromonAnims(void)
 {
     u8 i, numPlayers;
 
     numPlayers = sGame->numPlayers;
     for (i = 0; i < numPlayers; i++)
     {
-        struct DodrioGame_Player *player = &sGame->players[i];
-        SetDodrioAnim(i, player->comm.pickState);
+        struct PuroromonGame_Player *player = &sGame->players[i];
+        SetPuroromonAnim(i, player->comm.pickState);
     }
 }
 
-static void SetAllDodrioDisabled(void)
+static void SetAllPuroromonDisabled(void)
 {
     u8 i, numPlayers;
 
     numPlayers = sGame->numPlayers;
     for (i = 0; i < numPlayers; i++)
-        SetDodrioAnim(i, PICK_DISABLED);
+        SetPuroromonAnim(i, PICK_DISABLED);
 }
 
 static void UpdateGame_Leader(void)
 {
     UpdateBerrySprites();
     if (sGame->numGraySquares >= NUM_STATUS_SQUARES)
-        SetAllDodrioDisabled();
+        SetAllPuroromonDisabled();
     else
-        UpdateAllDodrioAnims();
+        UpdateAllPuroromonAnims();
 
     UpdateStatusBarAnim(sGame->numGraySquares);
 }
@@ -2201,9 +2201,9 @@ static void UpdateGame_Member(void)
 {
     UpdateBerrySprites();
     if (sGame->numGraySquares >= NUM_STATUS_SQUARES)
-        SetAllDodrioDisabled();
+        SetAllPuroromonDisabled();
     else
-        UpdateAllDodrioAnims();
+        UpdateAllPuroromonAnims();
 
     UpdateStatusBarAnim(sGame->numGraySquares);
 }
@@ -2288,7 +2288,7 @@ static bool32 ReadyToEndGame_Member(void)
         {
             for (i = berryStart; i < berryEnd; i++)
             {
-                struct DodrioGame_Player *player = &sGame->players[sGame->multiplayerId];
+                struct PuroromonGame_Player *player = &sGame->players[sGame->multiplayerId];
                 u8 column = sActiveColumnMap[sGame->numPlayers - 1][sGame->multiplayerId][i];
 
                 if (player->berries.fallDist[column] != MAX_FALL_DIST)
@@ -2320,9 +2320,9 @@ static u8 GetNewBerryId(u8 playerId, u8 column)
 {
     u8 i, highestDifficulty;
     u8 numPlayersIdx = sGame->numPlayers - 1;
-    u8 leftPlayer = sDodrioNeighborMap[numPlayersIdx][playerId][0];
-    u8 middlePlayer = sDodrioNeighborMap[numPlayersIdx][playerId][1];
-    u8 rightPlayer = sDodrioNeighborMap[numPlayersIdx][playerId][2];
+    u8 leftPlayer = sPuroromonNeighborMap[numPlayersIdx][playerId][0];
+    u8 middlePlayer = sPuroromonNeighborMap[numPlayersIdx][playerId][1];
+    u8 rightPlayer = sPuroromonNeighborMap[numPlayersIdx][playerId][2];
 
     for (i = 0; sUnsharedColumns[numPlayersIdx][i] != 0; i++)
     {
@@ -2586,7 +2586,7 @@ static void ResetForPlayAgainPrompt(void)
     sGame->endSoundState = 0;
     sGame->berriesPickedInRow = 0;
     sGame->numGraySquares = 0;
-    UpdateAllDodrioAnims();
+    UpdateAllPuroromonAnims();
     UpdateBerrySprites();
 }
 
@@ -2646,7 +2646,7 @@ static u8 UpdatePickStateQueue(u8 pickState)
     return nextState;
 }
 
-// The player may extend their Dodrio's heads while they wait for
+// The player may extend their Puroromon's heads while they wait for
 // other players to respond to the "Play again?" prompt
 static void HandleWaitPlayAgainInput(void)
 {
@@ -2829,7 +2829,7 @@ static u32 SetScoreResults(void)
     return 0;
 }
 
-static void GetScoreResults(struct DodrioGame_ScoreResults *dst, u8 playerId)
+static void GetScoreResults(struct PuroromonGame_ScoreResults *dst, u8 playerId)
 {
     *dst = sGame->scoreResults[playerId];
 }
@@ -2900,7 +2900,7 @@ static u8 GetPlayerIdByPos(u8 id)
     return sGame->posToPlayerId[id];
 }
 
-void IsDodrioInParty(void)
+void IsPuroromonInParty(void)
 {
     int i;
     for (i = 0; i < PARTY_SIZE; i++)
@@ -2918,10 +2918,10 @@ void IsDodrioInParty(void)
 
 #define NUM_RECORD_TYPES 3
 
-void ShowDodrioBerryPickingRecords(void)
+void ShowPuroromonBerryPickingRecords(void)
 {
-    u8 taskId = CreateTask(Task_ShowDodrioBerryPickingRecords, 0);
-    Task_ShowDodrioBerryPickingRecords(taskId);
+    u8 taskId = CreateTask(Task_ShowPuroromonBerryPickingRecords, 0);
+    Task_ShowPuroromonBerryPickingRecords(taskId);
 }
 
 static const struct WindowTemplate sWindowTemplates_Records =
@@ -2944,7 +2944,7 @@ static const u8 sRecordNumYCoords[NUM_RECORD_TYPES][2] = {{25}, {41}, {73}};
 #define tState data[0]
 #define tWindowId data[1]
 
-static void Task_ShowDodrioBerryPickingRecords(u8 taskId)
+static void Task_ShowPuroromonBerryPickingRecords(u8 taskId)
 {
     struct WindowTemplate window;
     s32 i, width, widthCurr;
@@ -3159,18 +3159,18 @@ struct GameStatePacket
     bool8 missedBerry_Player5:1;
 };
 
-static void SendPacket_GameState(struct DodrioGame_Player *player,
-                                 struct DodrioGame_PlayerCommData *player1,
-                                 struct DodrioGame_PlayerCommData *player2,
-                                 struct DodrioGame_PlayerCommData *player3,
-                                 struct DodrioGame_PlayerCommData *player4,
-                                 struct DodrioGame_PlayerCommData *player5,
+static void SendPacket_GameState(struct PuroromonGame_Player *player,
+                                 struct PuroromonGame_PlayerCommData *player1,
+                                 struct PuroromonGame_PlayerCommData *player2,
+                                 struct PuroromonGame_PlayerCommData *player3,
+                                 struct PuroromonGame_PlayerCommData *player4,
+                                 struct PuroromonGame_PlayerCommData *player5,
                                  u8 numGraySquares,
                                  bool32 berriesFalling,
                                  bool32 allReadyToEnd)
 {
     struct GameStatePacket packet;
-    struct DodrioGame_Berries *berries = &player->berries;
+    struct PuroromonGame_Berries *berries = &player->berries;
 
     packet.id = PACKET_GAME_STATE;
     packet.fallDist_Col0 = berries->fallDist[0];
@@ -3220,18 +3220,18 @@ static void SendPacket_GameState(struct DodrioGame_Player *player,
 }
 
 static bool32 RecvPacket_GameState(u32 playerId,
-                                   struct DodrioGame_Player *player,
-                                   struct DodrioGame_PlayerCommData *player1,
-                                   struct DodrioGame_PlayerCommData *player2,
-                                   struct DodrioGame_PlayerCommData *player3,
-                                   struct DodrioGame_PlayerCommData *player4,
-                                   struct DodrioGame_PlayerCommData *player5,
+                                   struct PuroromonGame_Player *player,
+                                   struct PuroromonGame_PlayerCommData *player1,
+                                   struct PuroromonGame_PlayerCommData *player2,
+                                   struct PuroromonGame_PlayerCommData *player3,
+                                   struct PuroromonGame_PlayerCommData *player4,
+                                   struct PuroromonGame_PlayerCommData *player5,
                                    u8 *numGraySquares,
                                    bool32 *berriesFalling,
                                    bool32 *allReadyToEnd)
 {
     struct GameStatePacket *packet;
-    struct DodrioGame_Berries *berries = &player->berries;
+    struct PuroromonGame_Berries *berries = &player->berries;
 
     if ((gRecvCmds[0][0] & RFUCMD_MASK) != RFUCMD_SEND_PACKET)
         return FALSE;
@@ -3505,8 +3505,8 @@ static const u8 sActiveColumnMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][NUM
     },
 };
 
-// Unused duplicate of sDodrioHeadToColumnMap
-static const u8 sDodrioHeadToColumnMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
+// Unused duplicate of sPuroromonHeadToColumnMap
+static const u8 sPuroromonHeadToColumnMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
 {
     {
         {4, 5, 6},
@@ -3535,8 +3535,8 @@ static const u8 sDodrioHeadToColumnMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYER
     },
 };
 
-// Unused duplicate of sDodrioNeighborMap
-static const u8 sDodrioNeighborMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
+// Unused duplicate of sPuroromonNeighborMap
+static const u8 sPuroromonNeighborMap_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS][3] =
 {
     {
         {1, 0, 1},
@@ -3586,24 +3586,24 @@ static const u8 sUnsharedColumns_Duplicate[MAX_RFU_PLAYERS][MAX_RFU_PLAYERS] =
     {1, 3, 5, 6, 9},
 };
 
-static const u16 sBg_Pal[]                  = INCBIN_U16("graphics/dodrio_berry_picking/bg.gbapal",
-                                                         "graphics/dodrio_berry_picking/tree_border.gbapal");
-static const u16 sDodrioNormal_Pal[]        = INCBIN_U16("graphics/dodrio_berry_picking/dodrio.gbapal");
-static const u16 sDodrioShiny_Pal[]         = INCBIN_U16("graphics/dodrio_berry_picking/shiny.gbapal");
-static const u16 sStatus_Pal[]              = INCBIN_U16("graphics/dodrio_berry_picking/status.gbapal");
-static const u16 sBerries_Pal[]             = INCBIN_U16("graphics/dodrio_berry_picking/berries.gbapal");
-static const u32 sBerries_Gfx[]             = INCBIN_U32("graphics/dodrio_berry_picking/berries.4bpp.lz");
-static const u16 sCloud_Pal[]               = INCBIN_U16("graphics/dodrio_berry_picking/cloud.gbapal");
-static const u32 sBg_Gfx[]                  = INCBIN_U32("graphics/dodrio_berry_picking/bg.4bpp.lz");
-static const u32 sTreeBorder_Gfx[]          = INCBIN_U32("graphics/dodrio_berry_picking/tree_border.4bpp.lz");
-static const u32 sStatus_Gfx[]              = INCBIN_U32("graphics/dodrio_berry_picking/status.4bpp.lz");
-static const u32 sCloud_Gfx[]               = INCBIN_U32("graphics/dodrio_berry_picking/cloud.4bpp.lz");
-static const u32 sDodrio_Gfx[]              = INCBIN_U32("graphics/dodrio_berry_picking/dodrio.4bpp.lz");
-static const u32 sBg_Tilemap[]              = INCBIN_U32("graphics/dodrio_berry_picking/bg.bin.lz");
-static const u32 sTreeBorderRight_Tilemap[] = INCBIN_U32("graphics/dodrio_berry_picking/tree_border_right.bin.lz");
-static const u32 sTreeBorderLeft_Tilemap[]  = INCBIN_U32("graphics/dodrio_berry_picking/tree_border_left.bin.lz");
+static const u16 sBg_Pal[]                  = INCBIN_U16("graphics/puroromon_berry_picking/bg.gbapal",
+                                                         "graphics/puroromon_berry_picking/tree_border.gbapal");
+static const u16 sPuroromonNormal_Pal[]        = INCBIN_U16("graphics/puroromon_berry_picking/puroromon.gbapal");
+static const u16 sPuroromonShiny_Pal[]         = INCBIN_U16("graphics/puroromon_berry_picking/shiny.gbapal");
+static const u16 sStatus_Pal[]              = INCBIN_U16("graphics/puroromon_berry_picking/status.gbapal");
+static const u16 sBerries_Pal[]             = INCBIN_U16("graphics/puroromon_berry_picking/berries.gbapal");
+static const u32 sBerries_Gfx[]             = INCBIN_U32("graphics/puroromon_berry_picking/berries.4bpp.lz");
+static const u16 sCloud_Pal[]               = INCBIN_U16("graphics/puroromon_berry_picking/cloud.gbapal");
+static const u32 sBg_Gfx[]                  = INCBIN_U32("graphics/puroromon_berry_picking/bg.4bpp.lz");
+static const u32 sTreeBorder_Gfx[]          = INCBIN_U32("graphics/puroromon_berry_picking/tree_border.4bpp.lz");
+static const u32 sStatus_Gfx[]              = INCBIN_U32("graphics/puroromon_berry_picking/status.4bpp.lz");
+static const u32 sCloud_Gfx[]               = INCBIN_U32("graphics/puroromon_berry_picking/cloud.4bpp.lz");
+static const u32 sPuroromon_Gfx[]              = INCBIN_U32("graphics/puroromon_berry_picking/puroromon.4bpp.lz");
+static const u32 sBg_Tilemap[]              = INCBIN_U32("graphics/puroromon_berry_picking/bg.bin.lz");
+static const u32 sTreeBorderRight_Tilemap[] = INCBIN_U32("graphics/puroromon_berry_picking/tree_border_right.bin.lz");
+static const u32 sTreeBorderLeft_Tilemap[]  = INCBIN_U32("graphics/puroromon_berry_picking/tree_border_left.bin.lz");
 
-static const struct OamData sOamData_Dodrio =
+static const struct OamData sOamData_Puroromon =
 {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -3672,44 +3672,44 @@ static const struct OamData sOamData_Cloud =
     .affineParam = 0
 };
 
-static const union AnimCmd sAnim_Dodrio_Normal[] =
+static const union AnimCmd sAnim_Puroromon_Normal[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Dodrio_PickRight[] =
+static const union AnimCmd sAnim_Puroromon_PickRight[] =
 {
     ANIMCMD_FRAME(64, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Dodrio_PickMiddle[] =
+static const union AnimCmd sAnim_Puroromon_PickMiddle[] =
 {
     ANIMCMD_FRAME(128, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Dodrio_PickLeft[] =
+static const union AnimCmd sAnim_Puroromon_PickLeft[] =
 {
     ANIMCMD_FRAME(192, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Dodrio_Down[] =
+static const union AnimCmd sAnim_Puroromon_Down[] =
 {
     ANIMCMD_FRAME(256, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd *const sAnims_Dodrio[] =
+static const union AnimCmd *const sAnims_Puroromon[] =
 {
-    [PICK_NONE]     = sAnim_Dodrio_Normal,
-    [PICK_RIGHT]    = sAnim_Dodrio_PickRight,
-    [PICK_MIDDLE]   = sAnim_Dodrio_PickMiddle,
-    [PICK_LEFT]     = sAnim_Dodrio_PickLeft,
-    [PICK_DISABLED] = sAnim_Dodrio_Down,
-    // There is an unused 6th frame of Dodrio's graphic
+    [PICK_NONE]     = sAnim_Puroromon_Normal,
+    [PICK_RIGHT]    = sAnim_Puroromon_PickRight,
+    [PICK_MIDDLE]   = sAnim_Puroromon_PickMiddle,
+    [PICK_LEFT]     = sAnim_Puroromon_PickLeft,
+    [PICK_DISABLED] = sAnim_Puroromon_Down,
+    // There is an unused 6th frame of Puroromon's graphic
 };
 
 static const union AnimCmd sAnims_StatusBar_Yellow[] =
@@ -3818,16 +3818,16 @@ static const union AnimCmd *const sAnims_Cloud[] =
     sAnim_Cloud
 };
 
-static void LoadDodrioGfx(void)
+static void LoadPuroromonGfx(void)
 {
     void *ptr = AllocZeroed(0x3000);
-    struct SpritePalette normal = {sDodrioNormal_Pal, PALTAG_DODRIO_NORMAL};
-    struct SpritePalette shiny = {sDodrioShiny_Pal, PALTAG_DODRIO_SHINY};
+    struct SpritePalette normal = {sPuroromonNormal_Pal, PALTAG_PUROROMON_NORMAL};
+    struct SpritePalette shiny = {sPuroromonShiny_Pal, PALTAG_PUROROMON_SHINY};
 
-    LZ77UnCompWram(sDodrio_Gfx, ptr);
+    LZ77UnCompWram(sPuroromon_Gfx, ptr);
     if (ptr)
     {
-        struct SpriteSheet sheet = {ptr, 0x3000, GFXTAG_DODRIO};
+        struct SpriteSheet sheet = {ptr, 0x3000, GFXTAG_PUROROMON};
         LoadSpriteSheet(&sheet);
         Free(ptr);
     }
@@ -3835,22 +3835,22 @@ static void LoadDodrioGfx(void)
     LoadSpritePalette(&shiny);
 }
 
-static void CreateDodrioSprite(struct DodrioGame_MonInfo * monInfo, u8 playerId, u8 id, u8 numPlayers)
+static void CreatePuroromonSprite(struct PuroromonGame_MonInfo * monInfo, u8 playerId, u8 id, u8 numPlayers)
 {
     struct SpriteTemplate template =
     {
-        .tileTag = GFXTAG_DODRIO,
-        .paletteTag = monInfo->isShiny, // PALTAG_DODRIO_NORMAL / PALTAG_DODRIO_SHINY
-        .oam = &sOamData_Dodrio,
-        .anims = sAnims_Dodrio,
+        .tileTag = GFXTAG_PUROROMON,
+        .paletteTag = monInfo->isShiny, // PALTAG_PUROROMON_NORMAL / PALTAG_PUROROMON_SHINY
+        .oam = &sOamData_Puroromon,
+        .anims = sAnims_Puroromon,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
-        .callback = SpriteCB_Dodrio,
+        .callback = SpriteCB_Puroromon,
     };
 
-    sDodrioSpriteIds[id] = AllocZeroed(4);
-    *sDodrioSpriteIds[id] = CreateSprite(&template, GetDodrioXPos(playerId, numPlayers), 136, 3);
-    SetDodrioInvisibility(TRUE, id);
+    sPuroromonSpriteIds[id] = AllocZeroed(4);
+    *sPuroromonSpriteIds[id] = CreateSprite(&template, GetPuroromonXPos(playerId, numPlayers), 136, 3);
+    SetPuroromonInvisibility(TRUE, id);
 }
 
 #define sState   data[0]
@@ -3859,24 +3859,24 @@ static void CreateDodrioSprite(struct DodrioGame_MonInfo * monInfo, u8 playerId,
 #define sUnused2 data[3]
 #define sUnused3 data[4]
 
-static void SpriteCB_Dodrio(struct Sprite *sprite)
+static void SpriteCB_Puroromon(struct Sprite *sprite)
 {
     switch (sprite->sState)
     {
     case 0:
         break;
     case 1:
-        DoDodrioMissedAnim(sprite);
+        DoPuroromonMissedAnim(sprite);
         break;
     case 2:
-        DoDodrioIntroAnim(sprite);
+        DoPuroromonIntroAnim(sprite);
         break;
     }
 }
 
-static void StartDodrioMissedAnim(u8 unused)
+static void StartPuroromonMissedAnim(u8 unused)
 {
-    struct Sprite *sprite = &gSprites[*sDodrioSpriteIds[GetMultiplayerId()]];
+    struct Sprite *sprite = &gSprites[*sPuroromonSpriteIds[GetMultiplayerId()]];
     sprite->sState = 1;
     sprite->sTimer = 0;
     sprite->sUnused1 = 0;
@@ -3884,9 +3884,9 @@ static void StartDodrioMissedAnim(u8 unused)
     sprite->sUnused3 = 0;
 }
 
-static void StartDodrioIntroAnim(u8 unused)
+static void StartPuroromonIntroAnim(u8 unused)
 {
-    struct Sprite *sprite = &gSprites[*sDodrioSpriteIds[GetMultiplayerId()]];
+    struct Sprite *sprite = &gSprites[*sPuroromonSpriteIds[GetMultiplayerId()]];
     sprite->sState = 2;
     sprite->sTimer = 0;
     sprite->sUnused1 = 0;
@@ -3894,8 +3894,8 @@ static void StartDodrioIntroAnim(u8 unused)
     sprite->sUnused3 = 0;
 }
 
-// Do animation where Dodrio shakes horizontally after reaching for a berry and missing
-static u32 DoDodrioMissedAnim(struct Sprite *sprite)
+// Do animation where Puroromon shakes horizontally after reaching for a berry and missing
+static u32 DoPuroromonMissedAnim(struct Sprite *sprite)
 {
     s8 x;
     u8 state = (++sprite->sTimer / 2) % 4;
@@ -3917,19 +3917,19 @@ static u32 DoDodrioMissedAnim(struct Sprite *sprite)
         if (++sprite->sTimer >= 40)
         {
             sprite->sState = 0;
-            sprite->x = GetDodrioXPos(0, GetNumPlayers());
+            sprite->x = GetPuroromonXPos(0, GetNumPlayers());
         }
     }
 
     return 0;
 }
 
-// Does the intro animation where the player's Dodrio
+// Does the intro animation where the player's Puroromon
 // cycles through extending each head twice
 #define FRAMES_PER_STATE  13
 #define NUM_INTRO_PICK_STATES PICK_DISABLED // Cycle through 'Normal' and each head, but exclude the Disabled state
 
-static u32 DoDodrioIntroAnim(struct Sprite *sprite)
+static u32 DoPuroromonIntroAnim(struct Sprite *sprite)
 {
     u8 pickState = (++sprite->sTimer / FRAMES_PER_STATE) % NUM_INTRO_PICK_STATES;
 
@@ -3943,7 +3943,7 @@ static u32 DoDodrioIntroAnim(struct Sprite *sprite)
         sprite->sState = 0;
         pickState = PICK_NONE;
     }
-    SetDodrioAnim(GetMultiplayerId(), pickState);
+    SetPuroromonAnim(GetMultiplayerId(), pickState);
     return 0;
 }
 
@@ -3953,35 +3953,35 @@ static u32 DoDodrioIntroAnim(struct Sprite *sprite)
 #undef sUnused2
 #undef sUnused3
 
-static void FreeDodrioSprites(u8 numPlayers)
+static void FreePuroromonSprites(u8 numPlayers)
 {
     u8 i;
     for (i = 0; i < numPlayers; i++)
     {
-        struct Sprite *sprite = &gSprites[*sDodrioSpriteIds[i]];
+        struct Sprite *sprite = &gSprites[*sPuroromonSpriteIds[i]];
         if (sprite)
             DestroySpriteAndFreeResources(sprite);
 #ifdef BUGFIX
-        FREE_AND_SET_NULL(sDodrioSpriteIds[i]); // Memory should be freed here but is not.
+        FREE_AND_SET_NULL(sPuroromonSpriteIds[i]); // Memory should be freed here but is not.
 #endif
     }
 }
 
-static void SetDodrioInvisibility(bool8 invisible, u8 id)
+static void SetPuroromonInvisibility(bool8 invisible, u8 id)
 {
-    gSprites[*sDodrioSpriteIds[id]].invisible = invisible;
+    gSprites[*sPuroromonSpriteIds[id]].invisible = invisible;
 }
 
-static void SetAllDodrioInvisibility(bool8 invisible, u8 count)
+static void SetAllPuroromonInvisibility(bool8 invisible, u8 count)
 {
     u8 i;
     for (i = 0; i < count; i++)
-        SetDodrioInvisibility(invisible, i);
+        SetPuroromonInvisibility(invisible, i);
 }
 
-static void SetDodrioAnim(u8 id, u8 pickState)
+static void SetPuroromonAnim(u8 id, u8 pickState)
 {
-    StartSpriteAnim(&gSprites[*sDodrioSpriteIds[id]], pickState);
+    StartSpriteAnim(&gSprites[*sPuroromonSpriteIds[id]], pickState);
 }
 
 static void SpriteCB_Status(struct Sprite *sprite)
@@ -4368,7 +4368,7 @@ static void SetCloudInvisibility(bool8 invisible)
 
 #undef sFrozen
 
-static s16 GetDodrioXPos(u8 playerId, u8 numPlayers)
+static s16 GetPuroromonXPos(u8 playerId, u8 numPlayers)
 {
     s16 x = 0;
     switch (numPlayers)
@@ -4474,7 +4474,7 @@ static void DrawMessageWindow(const struct WindowTemplate *template)
     FillBgTilemapBufferRect(BG_INTERFACE, 18, template->tilemapLeft + template->width,  template->tilemapTop + template->height,    1, 1, pal);
 }
 
-static void InitGameGfx(struct DodrioGame_Gfx *ptr)
+static void InitGameGfx(struct PuroromonGame_Gfx *ptr)
 {
     sGfx = ptr;
     sGfx->finished = FALSE;
@@ -4691,7 +4691,7 @@ static void PrintRankedScores(u8 numPlayers_)
     u32 x, numWidth;
     u8 numString[32];
     u8 playersByRanking[MAX_RFU_PLAYERS] = {0, 1, 2, 3, 4};
-    struct DodrioGame_ScoreResults temp, scoreResults[MAX_RFU_PLAYERS];
+    struct PuroromonGame_ScoreResults temp, scoreResults[MAX_RFU_PLAYERS];
 
     // Get all players scores and rankings
     for (i = 0; i < numPlayers; i++)
