@@ -739,8 +739,8 @@ Cry_Sakuttomon::
 	.incbin "sound/direct_sound_samples/cries/sakuttomon.bin"
 
 	.align 2
-Cry_Muk::
-	.incbin "sound/direct_sound_samples/cries/muk.bin"
+Cry_Sunmon::
+	.incbin "sound/direct_sound_samples/cries/sunmon.bin"
 
 	.align 2
 Cry_Shellder::
