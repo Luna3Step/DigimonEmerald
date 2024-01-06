@@ -715,8 +715,8 @@ Cry_Pickmon_red::
 	.incbin "sound/direct_sound_samples/cries/pickmon_red.bin"
 
 	.align 2
-Cry_Farfetchd::
-	.incbin "sound/direct_sound_samples/cries/farfetchd.bin"
+Cry_Pinamon::
+	.incbin "sound/direct_sound_samples/cries/pinamon.bin"
 
 	.align 2
 Cry_Doduo::

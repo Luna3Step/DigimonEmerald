@@ -976,7 +976,7 @@ static const union AnimCmd sAnim_Pickmon_red_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Farfetchd_1[] =
+static const union AnimCmd sAnim_Pinamon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 5),
@@ -4905,7 +4905,7 @@ SINGLE_ANIMATION(Pagumon);
 SINGLE_ANIMATION(Pickmon_silver);
 SINGLE_ANIMATION(Pickmon_white);
 SINGLE_ANIMATION(Pickmon_red);
-SINGLE_ANIMATION(Farfetchd);
+SINGLE_ANIMATION(Pinamon);
 SINGLE_ANIMATION(Doduo);
 SINGLE_ANIMATION(Dodrio);
 SINGLE_ANIMATION(Seel);
@@ -5337,7 +5337,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PICKMON_SILVER]     = sAnims_Pickmon_silver,
     [SPECIES_PICKMON_WHITE]   = sAnims_Pickmon_white,
     [SPECIES_PICKMON_RED]    = sAnims_Pickmon_red,
-    [SPECIES_PINAMON]   = sAnims_Farfetchd,
+    [SPECIES_PINAMON]   = sAnims_Pinamon,
     [SPECIES_POROMON]       = sAnims_Doduo,
     [SPECIES_PUROROMON]      = sAnims_Dodrio,
     [SPECIES_PUSURIMON]        = sAnims_Seel,
