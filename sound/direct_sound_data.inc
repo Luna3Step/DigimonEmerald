@@ -735,8 +735,8 @@ Cry_Puyoyomon::
 	.incbin "sound/direct_sound_samples/cries/puyoyomon.bin"
 
 	.align 2
-Cry_Grimer::
-	.incbin "sound/direct_sound_samples/cries/grimer.bin"
+Cry_Sakuttomon::
+	.incbin "sound/direct_sound_samples/cries/sakuttomon.bin"
 
 	.align 2
 Cry_Muk::

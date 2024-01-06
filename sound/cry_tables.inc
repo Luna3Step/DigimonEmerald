@@ -87,7 +87,7 @@ gCryTable::
 	cry Cry_Puroromon
 	cry Cry_Pusurimon
 	cry Cry_Puyoyomon
-	cry Cry_Grimer
+	cry Cry_Sakuttomon
 	cry Cry_Muk
 	cry Cry_Shellder
 	cry Cry_Cloyster
@@ -478,7 +478,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Puroromon
 	cry_reverse Cry_Pusurimon
 	cry_reverse Cry_Puyoyomon
-	cry_reverse Cry_Grimer
+	cry_reverse Cry_Sakuttomon
 	cry_reverse Cry_Muk
 	cry_reverse Cry_Shellder
 	cry_reverse Cry_Cloyster

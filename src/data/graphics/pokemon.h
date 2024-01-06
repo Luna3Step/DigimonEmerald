@@ -607,12 +607,12 @@ const u32 gMonShinyPalette_Puyoyomon[] = INCBIN_U32("graphics/pokemon/puyoyomon/
 const u8 gMonIcon_Puyoyomon[] = INCBIN_U8("graphics/pokemon/puyoyomon/icon.4bpp");
 const u8 gMonFootprint_Puyoyomon[] = INCBIN_U8("graphics/pokemon/puyoyomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/front.4bpp.lz");
-const u32 gMonPalette_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/normal.gbapal.lz");
-const u32 gMonBackPic_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/back.4bpp.lz");
-const u32 gMonShinyPalette_Grimer[] = INCBIN_U32("graphics/pokemon/grimer/shiny.gbapal.lz");
-const u8 gMonIcon_Grimer[] = INCBIN_U8("graphics/pokemon/grimer/icon.4bpp");
-const u8 gMonFootprint_Grimer[] = INCBIN_U8("graphics/pokemon/grimer/footprint.1bpp");
+const u32 gMonStillFrontPic_Sakuttomon[] = INCBIN_U32("graphics/pokemon/sakuttomon/front.4bpp.lz");
+const u32 gMonPalette_Sakuttomon[] = INCBIN_U32("graphics/pokemon/sakuttomon/normal.gbapal.lz");
+const u32 gMonBackPic_Sakuttomon[] = INCBIN_U32("graphics/pokemon/sakuttomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sakuttomon[] = INCBIN_U32("graphics/pokemon/sakuttomon/shiny.gbapal.lz");
+const u8 gMonIcon_Sakuttomon[] = INCBIN_U8("graphics/pokemon/sakuttomon/icon.4bpp");
+const u8 gMonFootprint_Sakuttomon[] = INCBIN_U8("graphics/pokemon/sakuttomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Muk[] = INCBIN_U32("graphics/pokemon/muk/front.4bpp.lz");
 const u32 gMonPalette_Muk[] = INCBIN_U32("graphics/pokemon/muk/normal.gbapal.lz");

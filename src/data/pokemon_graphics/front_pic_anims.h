@@ -1038,7 +1038,7 @@ static const union AnimCmd sAnim_Puyoyomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Grimer_1[] =
+static const union AnimCmd sAnim_Sakuttomon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -1048,7 +1048,7 @@ static const union AnimCmd sAnim_Grimer_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Grimer_2[] =
+static const union AnimCmd sAnim_Sakuttomon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4910,7 +4910,7 @@ SINGLE_ANIMATION(Poromon);
 SINGLE_ANIMATION(Puroromon);
 SINGLE_ANIMATION(Pusurimon);
 SINGLE_ANIMATION(Puyoyomon);
-DOUBLE_ANIMATION(Grimer);
+DOUBLE_ANIMATION(Sakuttomon);
 DOUBLE_ANIMATION(Muk);
 SINGLE_ANIMATION(Shellder);
 SINGLE_ANIMATION(Cloyster);
@@ -5342,7 +5342,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PUROROMON]      = sAnims_Puroromon,
     [SPECIES_PUSURIMON]        = sAnims_Pusurimon,
     [SPECIES_PUYOYOMON]     = sAnims_Puyoyomon,
-    [SPECIES_SAKUTTOMON]      = sAnims_Grimer,
+    [SPECIES_SAKUTTOMON]      = sAnims_Sakuttomon,
     [SPECIES_SUNMON]         = sAnims_Muk,
     [SPECIES_TANEMON]    = sAnims_Shellder,
     [SPECIES_TOKOMON]    = sAnims_Cloyster,
