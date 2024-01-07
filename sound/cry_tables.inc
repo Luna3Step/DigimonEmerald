@@ -119,7 +119,7 @@ gCryTable::
 	cry Cry_Blkagumon
 	cry Cry_Blkagumon_x
 	cry Cry_Blkgabumon
-	cry Cry_Staryu
+	cry Cry_Blkguilmon
 	cry Cry_Starmie
 	cry Cry_MrMime
 	cry Cry_Scyther
@@ -510,7 +510,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Blkagumon
 	cry_reverse Cry_Blkagumon_x
 	cry_reverse Cry_Blkgabumon
-	cry_reverse Cry_Staryu
+	cry_reverse Cry_Blkguilmon
 	cry_reverse Cry_Starmie
 	cry_reverse Cry_MrMime
 	cry_reverse Cry_Scyther
