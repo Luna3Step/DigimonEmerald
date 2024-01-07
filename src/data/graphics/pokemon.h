@@ -649,12 +649,12 @@ const u32 gMonShinyPalette_Torballmon[] = INCBIN_U32("graphics/pokemon/torballmo
 const u8 gMonIcon_Torballmon[] = INCBIN_U8("graphics/pokemon/torballmon/icon.4bpp");
 const u8 gMonFootprint_Torballmon[] = INCBIN_U8("graphics/pokemon/torballmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Gengar[] = INCBIN_U32("graphics/pokemon/gengar/front.4bpp.lz");
-const u32 gMonPalette_Gengar[] = INCBIN_U32("graphics/pokemon/gengar/normal.gbapal.lz");
-const u32 gMonBackPic_Gengar[] = INCBIN_U32("graphics/pokemon/gengar/back.4bpp.lz");
-const u32 gMonShinyPalette_Gengar[] = INCBIN_U32("graphics/pokemon/gengar/shiny.gbapal.lz");
-const u8 gMonIcon_Gengar[] = INCBIN_U8("graphics/pokemon/gengar/icon.4bpp");
-const u8 gMonFootprint_Gengar[] = INCBIN_U8("graphics/pokemon/gengar/footprint.1bpp");
+const u32 gMonStillFrontPic_Tsumemon[] = INCBIN_U32("graphics/pokemon/tsumemon/front.4bpp.lz");
+const u32 gMonPalette_Tsumemon[] = INCBIN_U32("graphics/pokemon/tsumemon/normal.gbapal.lz");
+const u32 gMonBackPic_Tsumemon[] = INCBIN_U32("graphics/pokemon/tsumemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tsumemon[] = INCBIN_U32("graphics/pokemon/tsumemon/shiny.gbapal.lz");
+const u8 gMonIcon_Tsumemon[] = INCBIN_U8("graphics/pokemon/tsumemon/icon.4bpp");
+const u8 gMonFootprint_Tsumemon[] = INCBIN_U8("graphics/pokemon/tsumemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Onix[] = INCBIN_U32("graphics/pokemon/onix/front.4bpp.lz");
 const u32 gMonPalette_Onix[] = INCBIN_U32("graphics/pokemon/onix/normal.gbapal.lz");

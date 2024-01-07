@@ -1124,7 +1124,7 @@ static const union AnimCmd sAnim_Torballmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Gengar_1[] =
+static const union AnimCmd sAnim_Tsumemon_1[] =
 {
     ANIMCMD_FRAME(0, 50),
     ANIMCMD_FRAME(0, 40),
@@ -4916,7 +4916,7 @@ SINGLE_ANIMATION(Tanemon);
 SINGLE_ANIMATION(Tokomon);
 SINGLE_ANIMATION(Tokomon_x);
 SINGLE_ANIMATION(Torballmon);
-SINGLE_ANIMATION(Gengar);
+SINGLE_ANIMATION(Tsumemon);
 SINGLE_ANIMATION(Onix);
 SINGLE_ANIMATION(Drowzee);
 SINGLE_ANIMATION(Hypno);
@@ -5348,7 +5348,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_TOKOMON]    = sAnims_Tokomon,
     [SPECIES_TOKOMON_X]      = sAnims_Tokomon_x,
     [SPECIES_TORBALLMON]     = sAnims_Torballmon,
-    [SPECIES_TSUMEMON]      = sAnims_Gengar,
+    [SPECIES_TSUMEMON]      = sAnims_Tsumemon,
     [SPECIES_TSUNOMON]        = sAnims_Onix,
     [SPECIES_TUMBLEMON]     = sAnims_Drowzee,
     [SPECIES_UPAMON]       = sAnims_Hypno,

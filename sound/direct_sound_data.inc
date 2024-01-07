@@ -759,8 +759,8 @@ Cry_Torballmon::
 	.incbin "sound/direct_sound_samples/cries/torballmon.bin"
 
 	.align 2
-Cry_Gengar::
-	.incbin "sound/direct_sound_samples/cries/gengar.bin"
+Cry_Tsumemon::
+	.incbin "sound/direct_sound_samples/cries/tsumemon.bin"
 
 	.align 2
 Cry_Onix::
