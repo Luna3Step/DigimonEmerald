@@ -677,12 +677,12 @@ const u32 gMonShinyPalette_Upamon[] = INCBIN_U32("graphics/pokemon/upamon/shiny.
 const u8 gMonIcon_Upamon[] = INCBIN_U8("graphics/pokemon/upamon/icon.4bpp");
 const u8 gMonFootprint_Upamon[] = INCBIN_U8("graphics/pokemon/upamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Krabby[] = INCBIN_U32("graphics/pokemon/krabby/front.4bpp.lz");
-const u32 gMonPalette_Krabby[] = INCBIN_U32("graphics/pokemon/krabby/normal.gbapal.lz");
-const u32 gMonBackPic_Krabby[] = INCBIN_U32("graphics/pokemon/krabby/back.4bpp.lz");
-const u32 gMonShinyPalette_Krabby[] = INCBIN_U32("graphics/pokemon/krabby/shiny.gbapal.lz");
-const u8 gMonIcon_Krabby[] = INCBIN_U8("graphics/pokemon/krabby/icon.4bpp");
-const u8 gMonFootprint_Krabby[] = INCBIN_U8("graphics/pokemon/krabby/footprint.1bpp");
+const u32 gMonStillFrontPic_Viximon[] = INCBIN_U32("graphics/pokemon/viximon/front.4bpp.lz");
+const u32 gMonPalette_Viximon[] = INCBIN_U32("graphics/pokemon/viximon/normal.gbapal.lz");
+const u32 gMonBackPic_Viximon[] = INCBIN_U32("graphics/pokemon/viximon/back.4bpp.lz");
+const u32 gMonShinyPalette_Viximon[] = INCBIN_U32("graphics/pokemon/viximon/shiny.gbapal.lz");
+const u8 gMonIcon_Viximon[] = INCBIN_U8("graphics/pokemon/viximon/icon.4bpp");
+const u8 gMonFootprint_Viximon[] = INCBIN_U8("graphics/pokemon/viximon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/front.4bpp.lz");
 const u32 gMonPalette_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/normal.gbapal.lz");

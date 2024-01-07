@@ -775,8 +775,8 @@ Cry_Upamon::
 	.incbin "sound/direct_sound_samples/cries/upamon.bin"
 
 	.align 2
-Cry_Krabby::
-	.incbin "sound/direct_sound_samples/cries/krabby.bin"
+Cry_Viximon::
+	.incbin "sound/direct_sound_samples/cries/viximon.bin"
 
 	.align 2
 Cry_Kingler::
