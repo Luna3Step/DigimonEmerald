@@ -1406,7 +1406,7 @@ static const union AnimCmd sAnim_Biyomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Seadra_1[] =
+static const union AnimCmd sAnim_Blkagumon_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(0, 10),
@@ -1416,7 +1416,7 @@ static const union AnimCmd sAnim_Seadra_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Seadra_2[] =
+static const union AnimCmd sAnim_Blkagumon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4939,7 +4939,7 @@ SINGLE_ANIMATION(Bearmon);
 SINGLE_ANIMATION(Betamon);
 SINGLE_ANIMATION(Betamon_x);
 DOUBLE_ANIMATION(Biyomon);
-DOUBLE_ANIMATION(Seadra);
+DOUBLE_ANIMATION(Blkagumon);
 SINGLE_ANIMATION(Goldeen);
 SINGLE_ANIMATION(Seaking);
 DOUBLE_ANIMATION(Staryu);
@@ -5371,7 +5371,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BETAMON]     = sAnims_Betamon,
     [SPECIES_BETAMON_X]  = sAnims_Betamon_x,
     [SPECIES_BIYOMON]      = sAnims_Biyomon,
-    [SPECIES_BLKAGUMON]      = sAnims_Seadra,
+    [SPECIES_BLKAGUMON]      = sAnims_Blkagumon,
     [SPECIES_BLKAGUMON_X]     = sAnims_Goldeen,
     [SPECIES_BLKGABUMON]     = sAnims_Seaking,
     [SPECIES_BLKGUILMON]      = sAnims_Staryu,

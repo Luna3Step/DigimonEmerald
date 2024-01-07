@@ -116,7 +116,7 @@ gCryTable::
 	cry Cry_Betamon
 	cry Cry_Betamon_x
 	cry Cry_Biyomon
-	cry Cry_Seadra
+	cry Cry_Blkagumon
 	cry Cry_Goldeen
 	cry Cry_Seaking
 	cry Cry_Staryu
@@ -507,7 +507,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Betamon
 	cry_reverse Cry_Betamon_x
 	cry_reverse Cry_Biyomon
-	cry_reverse Cry_Seadra
+	cry_reverse Cry_Blkagumon
 	cry_reverse Cry_Goldeen
 	cry_reverse Cry_Seaking
 	cry_reverse Cry_Staryu
