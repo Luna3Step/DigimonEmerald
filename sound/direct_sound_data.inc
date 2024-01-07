@@ -767,8 +767,8 @@ Cry_Tsunomon::
 	.incbin "sound/direct_sound_samples/cries/tsunomon.bin"
 
 	.align 2
-Cry_Drowzee::
-	.incbin "sound/direct_sound_samples/cries/drowzee.bin"
+Cry_Tumblemon::
+	.incbin "sound/direct_sound_samples/cries/tumblemon.bin"
 
 	.align 2
 Cry_Hypno::

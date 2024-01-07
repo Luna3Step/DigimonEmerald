@@ -95,7 +95,7 @@ gCryTable::
 	cry Cry_Torballmon
 	cry Cry_Tsumemon
 	cry Cry_Tsunomon
-	cry Cry_Drowzee
+	cry Cry_Tumblemon
 	cry Cry_Hypno
 	cry Cry_Krabby
 	cry Cry_Kingler
@@ -486,7 +486,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Torballmon
 	cry_reverse Cry_Tsumemon
 	cry_reverse Cry_Tsunomon
-	cry_reverse Cry_Drowzee
+	cry_reverse Cry_Tumblemon
 	cry_reverse Cry_Hypno
 	cry_reverse Cry_Krabby
 	cry_reverse Cry_Kingler
