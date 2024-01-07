@@ -787,8 +787,8 @@ Cry_Xiaomon::
 	.incbin "sound/direct_sound_samples/cries/xiaomon.bin"
 
 	.align 2
-Cry_Electrode::
-	.incbin "sound/direct_sound_samples/cries/electrode.bin"
+Cry_Yaamon::
+	.incbin "sound/direct_sound_samples/cries/yaamon.bin"
 
 	.align 2
 Cry_Exeggcute::

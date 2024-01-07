@@ -100,7 +100,7 @@ gCryTable::
 	cry Cry_Viximon
 	cry Cry_Wanyamon
 	cry Cry_Xiaomon
-	cry Cry_Electrode
+	cry Cry_Yaamon
 	cry Cry_Exeggcute
 	cry Cry_Exeggutor
 	cry Cry_Cubone
@@ -491,7 +491,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Viximon
 	cry_reverse Cry_Wanyamon
 	cry_reverse Cry_Xiaomon
-	cry_reverse Cry_Electrode
+	cry_reverse Cry_Yaamon
 	cry_reverse Cry_Exeggcute
 	cry_reverse Cry_Exeggutor
 	cry_reverse Cry_Cubone

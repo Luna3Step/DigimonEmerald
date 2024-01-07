@@ -4,29 +4,29 @@ AquaHideout_B1F_MapScripts::
 	.byte 0
 
 AquaHideout_B1F_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AquaHideout_B1F_EventScript_TryRemoveElectrode
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AquaHideout_B1F_EventScript_TryRemoveYaamon
 	end
 
-AquaHideout_B1F_EventScript_TryRemoveElectrode::
+AquaHideout_B1F_EventScript_TryRemoveYaamon::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject VAR_LAST_TALKED
 	return
 
 AquaHideout_B1F_OnTransition:
-	call_if_unset FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode1
-	call_if_unset FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode2
+	call_if_unset FLAG_DEFEATED_YAAMON_1_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowYaamon1
+	call_if_unset FLAG_DEFEATED_YAAMON_2_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowYaamon2
 	end
 
-AquaHideout_B1F_EventScript_ShowElectrode1::
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1
+AquaHideout_B1F_EventScript_ShowYaamon1::
+	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_YAAMON_1
 	return
 
-AquaHideout_B1F_EventScript_ShowElectrode2::
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2
+AquaHideout_B1F_EventScript_ShowYaamon2::
+	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_YAAMON_2
 	return
 
-AquaHideout_B1F_EventScript_Electrode1::
+AquaHideout_B1F_EventScript_Yaamon1::
 	lock
 	faceplayer
 	setwildbattle SPECIES_YAAMON, 30
@@ -38,19 +38,19 @@ AquaHideout_B1F_EventScript_Electrode1::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedElectrode1
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedElectrode1
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedElectrode1
-	setflag FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedYaamon1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedYaamon1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedYaamon1
+	setflag FLAG_DEFEATED_YAAMON_1_AQUA_HIDEOUT
 	release
 	end
 
-AquaHideout_B1F_EventScript_DefeatedElectrode1::
-	setflag FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT
+AquaHideout_B1F_EventScript_DefeatedYaamon1::
+	setflag FLAG_DEFEATED_YAAMON_1_AQUA_HIDEOUT
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-AquaHideout_B1F_EventScript_Electrode2::
+AquaHideout_B1F_EventScript_Yaamon2::
 	lock
 	faceplayer
 	setwildbattle SPECIES_YAAMON, 30
@@ -62,15 +62,15 @@ AquaHideout_B1F_EventScript_Electrode2::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedElectrode2
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedElectrode2
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedElectrode2
-	setflag FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedYaamon2
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedYaamon2
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedYaamon2
+	setflag FLAG_DEFEATED_YAAMON_2_AQUA_HIDEOUT
 	release
 	end
 
-AquaHideout_B1F_EventScript_DefeatedElectrode2::
-	setflag FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT
+AquaHideout_B1F_EventScript_DefeatedYaamon2::
+	setflag FLAG_DEFEATED_YAAMON_2_AQUA_HIDEOUT
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
