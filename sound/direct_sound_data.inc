@@ -843,8 +843,8 @@ Cry_Betamon::
 	.incbin "sound/direct_sound_samples/cries/betamon.bin"
 
 	.align 2
-Cry_Kangaskhan::
-	.incbin "sound/direct_sound_samples/cries/kangaskhan.bin"
+Cry_Betamon_x::
+	.incbin "sound/direct_sound_samples/cries/betamon_x.bin"
 
 	.align 2
 Cry_Horsea::
