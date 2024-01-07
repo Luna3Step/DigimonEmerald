@@ -803,8 +803,8 @@ Cry_Agumon_06::
 	.incbin "sound/direct_sound_samples/cries/agumon_06.bin"
 
 	.align 2
-Cry_Marowak::
-	.incbin "sound/direct_sound_samples/cries/marowak.bin"
+Cry_Agumon_expert::
+	.incbin "sound/direct_sound_samples/cries/agumon_expert.bin"
 
 	.align 2
 Cry_Hitmonlee::
