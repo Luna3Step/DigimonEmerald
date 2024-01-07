@@ -1279,7 +1279,7 @@ static const union AnimCmd sAnim_Arcadiamon_rookie_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Koffing_1[] =
+static const union AnimCmd sAnim_Argomon_rookie_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -1289,7 +1289,7 @@ static const union AnimCmd sAnim_Koffing_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Koffing_2[] =
+static const union AnimCmd sAnim_Argomon_rookie_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4931,7 +4931,7 @@ SINGLE_ANIMATION(Agumon_expert);
 SINGLE_ANIMATION(Agumon_x);
 SINGLE_ANIMATION(Angoramon);
 SINGLE_ANIMATION(Arcadiamon_rookie);
-DOUBLE_ANIMATION(Koffing);
+DOUBLE_ANIMATION(Argomon_rookie);
 DOUBLE_ANIMATION(Weezing);
 DOUBLE_ANIMATION(Rhyhorn);
 DOUBLE_ANIMATION(Rhydon);
@@ -5363,7 +5363,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_AGUMON_X]   = sAnims_Agumon_x,
     [SPECIES_ANGORAMON]  = sAnims_Angoramon,
     [SPECIES_ARCADIAMON_ROOKIE]   = sAnims_Arcadiamon_rookie,
-    [SPECIES_ARGOMON_ROOKIE]     = sAnims_Koffing,
+    [SPECIES_ARGOMON_ROOKIE]     = sAnims_Argomon_rookie,
     [SPECIES_ARMADILMON]     = sAnims_Weezing,
     [SPECIES_ARURAUMON]     = sAnims_Rhyhorn,
     [SPECIES_BAKOMON]      = sAnims_Rhydon,

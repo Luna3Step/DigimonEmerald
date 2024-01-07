@@ -108,7 +108,7 @@ gCryTable::
 	cry Cry_Agumon_x
 	cry Cry_Angoramon
 	cry Cry_Arcadiamon_rookie
-	cry Cry_Koffing
+	cry Cry_Argomon_rookie
 	cry Cry_Weezing
 	cry Cry_Rhyhorn
 	cry Cry_Rhydon
@@ -499,7 +499,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Agumon_x
 	cry_reverse Cry_Angoramon
 	cry_reverse Cry_Arcadiamon_rookie
-	cry_reverse Cry_Koffing
+	cry_reverse Cry_Argomon_rookie
 	cry_reverse Cry_Weezing
 	cry_reverse Cry_Rhyhorn
 	cry_reverse Cry_Rhydon
