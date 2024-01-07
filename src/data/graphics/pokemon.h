@@ -733,12 +733,12 @@ const u32 gMonShinyPalette_Agumon_expert[] = INCBIN_U32("graphics/pokemon/agumon
 const u8 gMonIcon_Agumon_expert[] = INCBIN_U8("graphics/pokemon/agumon_expert/icon.4bpp");
 const u8 gMonFootprint_Agumon_expert[] = INCBIN_U8("graphics/pokemon/agumon_expert/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Hitmonlee[] = INCBIN_U32("graphics/pokemon/hitmonlee/front.4bpp.lz");
-const u32 gMonPalette_Hitmonlee[] = INCBIN_U32("graphics/pokemon/hitmonlee/normal.gbapal.lz");
-const u32 gMonBackPic_Hitmonlee[] = INCBIN_U32("graphics/pokemon/hitmonlee/back.4bpp.lz");
-const u32 gMonShinyPalette_Hitmonlee[] = INCBIN_U32("graphics/pokemon/hitmonlee/shiny.gbapal.lz");
-const u8 gMonIcon_Hitmonlee[] = INCBIN_U8("graphics/pokemon/hitmonlee/icon.4bpp");
-const u8 gMonFootprint_Hitmonlee[] = INCBIN_U8("graphics/pokemon/hitmonlee/footprint.1bpp");
+const u32 gMonStillFrontPic_Agumon_x[] = INCBIN_U32("graphics/pokemon/agumon_x/front.4bpp.lz");
+const u32 gMonPalette_Agumon_x[] = INCBIN_U32("graphics/pokemon/agumon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Agumon_x[] = INCBIN_U32("graphics/pokemon/agumon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Agumon_x[] = INCBIN_U32("graphics/pokemon/agumon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Agumon_x[] = INCBIN_U8("graphics/pokemon/agumon_x/icon.4bpp");
+const u8 gMonFootprint_Agumon_x[] = INCBIN_U8("graphics/pokemon/agumon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/front.4bpp.lz");
 const u32 gMonPalette_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/normal.gbapal.lz");

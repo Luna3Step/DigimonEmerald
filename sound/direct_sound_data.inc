@@ -807,8 +807,8 @@ Cry_Agumon_expert::
 	.incbin "sound/direct_sound_samples/cries/agumon_expert.bin"
 
 	.align 2
-Cry_Hitmonlee::
-	.incbin "sound/direct_sound_samples/cries/hitmonlee.bin"
+Cry_Agumon_x::
+	.incbin "sound/direct_sound_samples/cries/agumon_x.bin"
 
 	.align 2
 Cry_Hitmonchan::

@@ -1251,7 +1251,7 @@ static const union AnimCmd sAnim_Agumon_expert_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Hitmonlee_1[] =
+static const union AnimCmd sAnim_Agumon_x_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -4928,7 +4928,7 @@ SINGLE_ANIMATION(Yokomon);
 SINGLE_ANIMATION(Agumon);
 SINGLE_ANIMATION(Agumon_06);
 SINGLE_ANIMATION(Agumon_expert);
-SINGLE_ANIMATION(Hitmonlee);
+SINGLE_ANIMATION(Agumon_x);
 SINGLE_ANIMATION(Hitmonchan);
 SINGLE_ANIMATION(Lickitung);
 DOUBLE_ANIMATION(Koffing);
@@ -5360,7 +5360,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_AGUMON]   = sAnims_Agumon,
     [SPECIES_AGUMON_06]      = sAnims_Agumon_06,
     [SPECIES_AGUMON_EXPERT]     = sAnims_Agumon_expert,
-    [SPECIES_AGUMON_X]   = sAnims_Hitmonlee,
+    [SPECIES_AGUMON_X]   = sAnims_Agumon_x,
     [SPECIES_ANGORAMON]  = sAnims_Hitmonchan,
     [SPECIES_ARCADIAMON_ROOKIE]   = sAnims_Lickitung,
     [SPECIES_ARGOMON_ROOKIE]     = sAnims_Koffing,
