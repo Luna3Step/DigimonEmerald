@@ -7,10 +7,10 @@ NewMauville_Inside_MapScripts::
 NewMauville_Inside_OnResume:
 	call_if_eq VAR_TEMP_1, 1, NewMauville_Inside_EventScript_SetBarrierStateBlueButton
 	call_if_eq VAR_TEMP_2, 1, NewMauville_Inside_EventScript_SetBarrierStateGreenButton
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, NewMauville_Inside_EventScript_TryRemoveVoltorb
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, NewMauville_Inside_EventScript_TryRemoveXiaomon
 	end
 
-NewMauville_Inside_EventScript_TryRemoveVoltorb::
+NewMauville_Inside_EventScript_TryRemoveXiaomon::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject VAR_LAST_TALKED
@@ -19,21 +19,21 @@ NewMauville_Inside_EventScript_TryRemoveVoltorb::
 NewMauville_Inside_OnTransition:
 	setvar VAR_TEMP_1, 0
 	setvar VAR_TEMP_2, 0
-	call_if_unset FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb1
-	call_if_unset FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb2
-	call_if_unset FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb3
+	call_if_unset FLAG_DEFEATED_XIAOMON_1_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowXiaomon1
+	call_if_unset FLAG_DEFEATED_XIAOMON_2_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowXiaomon2
+	call_if_unset FLAG_DEFEATED_XIAOMON_3_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowXiaomon3
 	end
 
-NewMauville_Inside_EventScript_ShowVoltorb1::
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1
+NewMauville_Inside_EventScript_ShowXiaomon1::
+	clearflag FLAG_HIDE_NEW_MAUVILLE_XIAOMON_1
 	return
 
-NewMauville_Inside_EventScript_ShowVoltorb2::
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2
+NewMauville_Inside_EventScript_ShowXiaomon2::
+	clearflag FLAG_HIDE_NEW_MAUVILLE_XIAOMON_2
 	return
 
-NewMauville_Inside_EventScript_ShowVoltorb3::
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3
+NewMauville_Inside_EventScript_ShowXiaomon3::
+	clearflag FLAG_HIDE_NEW_MAUVILLE_XIAOMON_3
 	return
 
 NewMauville_Inside_OnLoad:
@@ -173,7 +173,7 @@ NewMauville_Inside_EventScript_GeneratorOff::
 	releaseall
 	end
 
-NewMauville_Inside_EventScript_Voltorb1::
+NewMauville_Inside_EventScript_Xiaomon1::
 	lock
 	faceplayer
 	setwildbattle SPECIES_XIAOMON, 25
@@ -185,19 +185,19 @@ NewMauville_Inside_EventScript_Voltorb1::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedVoltorb1
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedVoltorb1
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedVoltorb1
-	setflag FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedXiaomon1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedXiaomon1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedXiaomon1
+	setflag FLAG_DEFEATED_XIAOMON_1_NEW_MAUVILLE
 	release
 	end
 
-NewMauville_Inside_EventScript_DefeatedVoltorb1::
-	setflag FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE
+NewMauville_Inside_EventScript_DefeatedXiaomon1::
+	setflag FLAG_DEFEATED_XIAOMON_1_NEW_MAUVILLE
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-NewMauville_Inside_EventScript_Voltorb2::
+NewMauville_Inside_EventScript_Xiaomon2::
 	lock
 	faceplayer
 	setwildbattle SPECIES_XIAOMON, 25
@@ -209,19 +209,19 @@ NewMauville_Inside_EventScript_Voltorb2::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedVoltorb2
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedVoltorb2
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedVoltorb2
-	setflag FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedXiaomon2
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedXiaomon2
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedXiaomon2
+	setflag FLAG_DEFEATED_XIAOMON_2_NEW_MAUVILLE
 	release
 	end
 
-NewMauville_Inside_EventScript_DefeatedVoltorb2::
-	setflag FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE
+NewMauville_Inside_EventScript_DefeatedXiaomon2::
+	setflag FLAG_DEFEATED_XIAOMON_2_NEW_MAUVILLE
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-NewMauville_Inside_EventScript_Voltorb3::
+NewMauville_Inside_EventScript_Xiaomon3::
 	lock
 	faceplayer
 	setwildbattle SPECIES_XIAOMON, 25
@@ -233,15 +233,15 @@ NewMauville_Inside_EventScript_Voltorb3::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedVoltorb3
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedVoltorb3
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedVoltorb3
-	setflag FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NewMauville_Inside_EventScript_DefeatedXiaomon3
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NewMauville_Inside_EventScript_DefeatedXiaomon3
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NewMauville_Inside_EventScript_DefeatedXiaomon3
+	setflag FLAG_DEFEATED_XIAOMON_3_NEW_MAUVILLE
 	release
 	end
 
-NewMauville_Inside_EventScript_DefeatedVoltorb3::
-	setflag FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE
+NewMauville_Inside_EventScript_DefeatedXiaomon3::
+	setflag FLAG_DEFEATED_XIAOMON_3_NEW_MAUVILLE
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 

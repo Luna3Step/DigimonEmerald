@@ -479,9 +479,9 @@
 #define FLAG_DEFEATED_KYOGRE                 0x1BE
 #define FLAG_DEFEATED_GROUDON                0x1BF
 #define FLAG_DEFEATED_RAYQUAZA               0x1C0
-#define FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE 0x1C1
-#define FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE 0x1C2
-#define FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE 0x1C3
+#define FLAG_DEFEATED_XIAOMON_1_NEW_MAUVILLE 0x1C1
+#define FLAG_DEFEATED_XIAOMON_2_NEW_MAUVILLE 0x1C2
+#define FLAG_DEFEATED_XIAOMON_3_NEW_MAUVILLE 0x1C3
 #define FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT 0x1C4
 #define FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT 0x1C5
 #define FLAG_DEFEATED_SUDOWOODO              0x1C6
@@ -1017,9 +1017,9 @@
 #define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
 #define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
 #define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0
+#define FLAG_HIDE_NEW_MAUVILLE_XIAOMON_1                            0x3CE
+#define FLAG_HIDE_NEW_MAUVILLE_XIAOMON_2                            0x3CF
+#define FLAG_HIDE_NEW_MAUVILLE_XIAOMON_3                            0x3D0
 #define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0x3D1
 #define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0x3D2
 #define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0x3D3

@@ -691,12 +691,12 @@ const u32 gMonShinyPalette_Wanyamon[] = INCBIN_U32("graphics/pokemon/wanyamon/sh
 const u8 gMonIcon_Wanyamon[] = INCBIN_U8("graphics/pokemon/wanyamon/icon.4bpp");
 const u8 gMonFootprint_Wanyamon[] = INCBIN_U8("graphics/pokemon/wanyamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/front.4bpp.lz");
-const u32 gMonPalette_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/normal.gbapal.lz");
-const u32 gMonBackPic_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/back.4bpp.lz");
-const u32 gMonShinyPalette_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/shiny.gbapal.lz");
-const u8 gMonIcon_Voltorb[] = INCBIN_U8("graphics/pokemon/voltorb/icon.4bpp");
-const u8 gMonFootprint_Voltorb[] = INCBIN_U8("graphics/pokemon/voltorb/footprint.1bpp");
+const u32 gMonStillFrontPic_Xiaomon[] = INCBIN_U32("graphics/pokemon/xiaomon/front.4bpp.lz");
+const u32 gMonPalette_Xiaomon[] = INCBIN_U32("graphics/pokemon/xiaomon/normal.gbapal.lz");
+const u32 gMonBackPic_Xiaomon[] = INCBIN_U32("graphics/pokemon/xiaomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Xiaomon[] = INCBIN_U32("graphics/pokemon/xiaomon/shiny.gbapal.lz");
+const u8 gMonIcon_Xiaomon[] = INCBIN_U8("graphics/pokemon/xiaomon/icon.4bpp");
+const u8 gMonFootprint_Xiaomon[] = INCBIN_U8("graphics/pokemon/xiaomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Electrode[] = INCBIN_U32("graphics/pokemon/electrode/front.4bpp.lz");
 const u32 gMonPalette_Electrode[] = INCBIN_U32("graphics/pokemon/electrode/normal.gbapal.lz");

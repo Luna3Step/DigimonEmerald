@@ -783,8 +783,8 @@ Cry_Wanyamon::
 	.incbin "sound/direct_sound_samples/cries/wanyamon.bin"
 
 	.align 2
-Cry_Voltorb::
-	.incbin "sound/direct_sound_samples/cries/voltorb.bin"
+Cry_Xiaomon::
+	.incbin "sound/direct_sound_samples/cries/xiaomon.bin"
 
 	.align 2
 Cry_Electrode::
