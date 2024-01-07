@@ -111,7 +111,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(ARCADIAMON_ROOKIE, gMonPalette_Arcadiamon_rookie),
     SPECIES_PAL(ARGOMON_ROOKIE, gMonPalette_Argomon_rookie),
     SPECIES_PAL(ARMADILMON, gMonPalette_Armadilmon),
-    SPECIES_PAL(ARURAUMON, gMonPalette_Rhyhorn),
+    SPECIES_PAL(ARURAUMON, gMonPalette_Aruraumon),
     SPECIES_PAL(BAKOMON, gMonPalette_Rhydon),
     SPECIES_PAL(BEARMON, gMonPalette_Chansey),
     SPECIES_PAL(BETAMON, gMonPalette_Tangela),

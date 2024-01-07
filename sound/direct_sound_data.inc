@@ -827,8 +827,8 @@ Cry_Armadilmon::
 	.incbin "sound/direct_sound_samples/cries/armadilmon.bin"
 
 	.align 2
-Cry_Rhyhorn::
-	.incbin "sound/direct_sound_samples/cries/rhyhorn.bin"
+Cry_Aruraumon::
+	.incbin "sound/direct_sound_samples/cries/aruraumon.bin"
 
 	.align 2
 Cry_Rhydon::

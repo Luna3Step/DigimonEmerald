@@ -110,7 +110,7 @@ gCryTable::
 	cry Cry_Arcadiamon_rookie
 	cry Cry_Argomon_rookie
 	cry Cry_Armadilmon
-	cry Cry_Rhyhorn
+	cry Cry_Aruraumon
 	cry Cry_Rhydon
 	cry Cry_Chansey
 	cry Cry_Tangela
@@ -501,7 +501,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Arcadiamon_rookie
 	cry_reverse Cry_Argomon_rookie
 	cry_reverse Cry_Armadilmon
-	cry_reverse Cry_Rhyhorn
+	cry_reverse Cry_Aruraumon
 	cry_reverse Cry_Rhydon
 	cry_reverse Cry_Chansey
 	cry_reverse Cry_Tangela
