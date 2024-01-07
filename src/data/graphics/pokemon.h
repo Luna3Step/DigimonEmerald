@@ -684,12 +684,12 @@ const u32 gMonShinyPalette_Viximon[] = INCBIN_U32("graphics/pokemon/viximon/shin
 const u8 gMonIcon_Viximon[] = INCBIN_U8("graphics/pokemon/viximon/icon.4bpp");
 const u8 gMonFootprint_Viximon[] = INCBIN_U8("graphics/pokemon/viximon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/front.4bpp.lz");
-const u32 gMonPalette_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/normal.gbapal.lz");
-const u32 gMonBackPic_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/back.4bpp.lz");
-const u32 gMonShinyPalette_Kingler[] = INCBIN_U32("graphics/pokemon/kingler/shiny.gbapal.lz");
-const u8 gMonIcon_Kingler[] = INCBIN_U8("graphics/pokemon/kingler/icon.4bpp");
-const u8 gMonFootprint_Kingler[] = INCBIN_U8("graphics/pokemon/kingler/footprint.1bpp");
+const u32 gMonStillFrontPic_Wanyamon[] = INCBIN_U32("graphics/pokemon/wanyamon/front.4bpp.lz");
+const u32 gMonPalette_Wanyamon[] = INCBIN_U32("graphics/pokemon/wanyamon/normal.gbapal.lz");
+const u32 gMonBackPic_Wanyamon[] = INCBIN_U32("graphics/pokemon/wanyamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Wanyamon[] = INCBIN_U32("graphics/pokemon/wanyamon/shiny.gbapal.lz");
+const u8 gMonIcon_Wanyamon[] = INCBIN_U8("graphics/pokemon/wanyamon/icon.4bpp");
+const u8 gMonFootprint_Wanyamon[] = INCBIN_U8("graphics/pokemon/wanyamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/front.4bpp.lz");
 const u32 gMonPalette_Voltorb[] = INCBIN_U32("graphics/pokemon/voltorb/normal.gbapal.lz");

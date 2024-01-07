@@ -1174,7 +1174,7 @@ static const union AnimCmd sAnim_Viximon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Kingler_1[] =
+static const union AnimCmd sAnim_Wanyamon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 15),
@@ -4921,7 +4921,7 @@ SINGLE_ANIMATION(Tsunomon);
 SINGLE_ANIMATION(Tumblemon);
 SINGLE_ANIMATION(Upamon);
 SINGLE_ANIMATION(Viximon);
-SINGLE_ANIMATION(Kingler);
+SINGLE_ANIMATION(Wanyamon);
 SINGLE_ANIMATION(Voltorb);
 SINGLE_ANIMATION(Electrode);
 SINGLE_ANIMATION(Exeggcute);
@@ -5353,7 +5353,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_TUMBLEMON]     = sAnims_Tumblemon,
     [SPECIES_UPAMON]       = sAnims_Upamon,
     [SPECIES_VIXIMON]      = sAnims_Viximon,
-    [SPECIES_WANYAMON]     = sAnims_Kingler,
+    [SPECIES_WANYAMON]     = sAnims_Wanyamon,
     [SPECIES_XIAOMON]     = sAnims_Voltorb,
     [SPECIES_YAAMON]   = sAnims_Electrode,
     [SPECIES_YOKOMON]   = sAnims_Exeggcute,

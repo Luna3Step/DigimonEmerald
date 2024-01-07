@@ -98,7 +98,7 @@ gCryTable::
 	cry Cry_Tumblemon
 	cry Cry_Upamon
 	cry Cry_Viximon
-	cry Cry_Kingler
+	cry Cry_Wanyamon
 	cry Cry_Voltorb
 	cry Cry_Electrode
 	cry Cry_Exeggcute
@@ -489,7 +489,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Tumblemon
 	cry_reverse Cry_Upamon
 	cry_reverse Cry_Viximon
-	cry_reverse Cry_Kingler
+	cry_reverse Cry_Wanyamon
 	cry_reverse Cry_Voltorb
 	cry_reverse Cry_Electrode
 	cry_reverse Cry_Exeggcute
