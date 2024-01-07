@@ -845,12 +845,12 @@ const u32 gMonShinyPalette_Bokomon[] = INCBIN_U32("graphics/pokemon/bokomon/shin
 const u8 gMonIcon_Bokomon[] = INCBIN_U8("graphics/pokemon/bokomon/icon.4bpp");
 const u8 gMonFootprint_Bokomon[] = INCBIN_U8("graphics/pokemon/bokomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/front.4bpp.lz");
-const u32 gMonPalette_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/normal.gbapal.lz");
-const u32 gMonBackPic_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/back.4bpp.lz");
-const u32 gMonShinyPalette_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/shiny.gbapal.lz");
-const u8 gMonIcon_Mrmime[] = INCBIN_U8("graphics/pokemon/mr_mime/icon.4bpp");
-const u8 gMonFootprint_Mrmime[] = INCBIN_U8("graphics/pokemon/mr_mime/footprint.1bpp");
+const u32 gMonStillFrontPic_Bulucomon[] = INCBIN_U32("graphics/pokemon/bulucomon/front.4bpp.lz");
+const u32 gMonPalette_Bulucomon[] = INCBIN_U32("graphics/pokemon/bulucomon/normal.gbapal.lz");
+const u32 gMonBackPic_Bulucomon[] = INCBIN_U32("graphics/pokemon/bulucomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bulucomon[] = INCBIN_U32("graphics/pokemon/bulucomon/shiny.gbapal.lz");
+const u8 gMonIcon_Bulucomon[] = INCBIN_U8("graphics/pokemon/bulucomon/icon.4bpp");
+const u8 gMonFootprint_Bulucomon[] = INCBIN_U8("graphics/pokemon/bulucomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/front.4bpp.lz");
 const u32 gMonPalette_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/normal.gbapal.lz");

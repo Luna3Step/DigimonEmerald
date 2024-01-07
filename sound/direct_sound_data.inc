@@ -871,8 +871,8 @@ Cry_Bokomon::
 	.incbin "sound/direct_sound_samples/cries/bokomon.bin"
 
 	.align 2
-Cry_MrMime::
-	.incbin "sound/direct_sound_samples/cries/mr_mime.bin"
+Cry_Bulucomon::
+	.incbin "sound/direct_sound_samples/cries/bulucomon.bin"
 
 	.align 2
 Cry_Scyther::
