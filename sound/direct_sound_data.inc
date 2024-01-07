@@ -835,8 +835,8 @@ Cry_Bakomon::
 	.incbin "sound/direct_sound_samples/cries/bakomon.bin"
 
 	.align 2
-Cry_Chansey::
-	.incbin "sound/direct_sound_samples/cries/chansey.bin"
+Cry_Bearmon::
+	.incbin "sound/direct_sound_samples/cries/bearmon.bin"
 
 	.align 2
 Cry_Tangela::

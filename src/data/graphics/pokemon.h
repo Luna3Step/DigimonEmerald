@@ -782,12 +782,12 @@ const u32 gMonShinyPalette_Bakomon[] = INCBIN_U32("graphics/pokemon/bakomon/shin
 const u8 gMonIcon_Bakomon[] = INCBIN_U8("graphics/pokemon/bakomon/icon.4bpp");
 const u8 gMonFootprint_Bakomon[] = INCBIN_U8("graphics/pokemon/bakomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/front.4bpp.lz");
-const u32 gMonPalette_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/normal.gbapal.lz");
-const u32 gMonBackPic_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/back.4bpp.lz");
-const u32 gMonShinyPalette_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/shiny.gbapal.lz");
-const u8 gMonIcon_Chansey[] = INCBIN_U8("graphics/pokemon/chansey/icon.4bpp");
-const u8 gMonFootprint_Chansey[] = INCBIN_U8("graphics/pokemon/chansey/footprint.1bpp");
+const u32 gMonStillFrontPic_Bearmon[] = INCBIN_U32("graphics/pokemon/bearmon/front.4bpp.lz");
+const u32 gMonPalette_Bearmon[] = INCBIN_U32("graphics/pokemon/bearmon/normal.gbapal.lz");
+const u32 gMonBackPic_Bearmon[] = INCBIN_U32("graphics/pokemon/bearmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bearmon[] = INCBIN_U32("graphics/pokemon/bearmon/shiny.gbapal.lz");
+const u8 gMonIcon_Bearmon[] = INCBIN_U8("graphics/pokemon/bearmon/icon.4bpp");
+const u8 gMonFootprint_Bearmon[] = INCBIN_U8("graphics/pokemon/bearmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/front.4bpp.lz");
 const u32 gMonPalette_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/normal.gbapal.lz");

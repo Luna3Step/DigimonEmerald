@@ -112,7 +112,7 @@ gCryTable::
 	cry Cry_Armadilmon
 	cry Cry_Aruraumon
 	cry Cry_Bakomon
-	cry Cry_Chansey
+	cry Cry_Bearmon
 	cry Cry_Tangela
 	cry Cry_Kangaskhan
 	cry Cry_Horsea
@@ -503,7 +503,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Armadilmon
 	cry_reverse Cry_Aruraumon
 	cry_reverse Cry_Bakomon
-	cry_reverse Cry_Chansey
+	cry_reverse Cry_Bearmon
 	cry_reverse Cry_Tangela
 	cry_reverse Cry_Kangaskhan
 	cry_reverse Cry_Horsea
