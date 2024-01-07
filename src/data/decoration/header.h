@@ -1344,16 +1344,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_SNORLAX_DOLL,
     },
 
-    [DECOR_RHYDON_DOLL] =
+    [DECOR_BAKOMON_DOLL] =
     {
-        .id = DECOR_RHYDON_DOLL,
-        .name = _("RHYDON DOLL"),
+        .id = DECOR_BAKOMON_DOLL,
+        .name = _("BAKOMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
         .price = 10000,
-        .description = DecorDesc_RHYDON_DOLL,
-        .tiles = DecorGfx_RHYDON_DOLL,
+        .description = DecorDesc_BAKOMON_DOLL,
+        .tiles = DecorGfx_BAKOMON_DOLL,
     },
 
     [DECOR_LAPRAS_DOLL] =

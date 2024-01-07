@@ -179,7 +179,7 @@
 #define OBJ_EVENT_GFX_FIRE_CUSHION               175
 #define OBJ_EVENT_GFX_WATER_CUSHION              176
 #define OBJ_EVENT_GFX_BIG_SNORLAX_DOLL           177
-#define OBJ_EVENT_GFX_BIG_RHYDON_DOLL            178
+#define OBJ_EVENT_GFX_BIG_BAKOMON_DOLL            178
 #define OBJ_EVENT_GFX_BIG_LAPRAS_DOLL            179
 #define OBJ_EVENT_GFX_BIG_BOMMON_DOLL          180
 #define OBJ_EVENT_GFX_BIG_CHIBOMON_DOLL         181

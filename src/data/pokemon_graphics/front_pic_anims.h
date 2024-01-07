@@ -1336,7 +1336,7 @@ static const union AnimCmd sAnim_Aruraumon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Rhydon_1[] =
+static const union AnimCmd sAnim_Bakomon_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(0, 10),
@@ -1346,7 +1346,7 @@ static const union AnimCmd sAnim_Rhydon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Rhydon_2[] =
+static const union AnimCmd sAnim_Bakomon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4934,7 +4934,7 @@ SINGLE_ANIMATION(Arcadiamon_rookie);
 DOUBLE_ANIMATION(Argomon_rookie);
 DOUBLE_ANIMATION(Armadilmon);
 DOUBLE_ANIMATION(Aruraumon);
-DOUBLE_ANIMATION(Rhydon);
+DOUBLE_ANIMATION(Bakomon);
 SINGLE_ANIMATION(Chansey);
 SINGLE_ANIMATION(Tangela);
 SINGLE_ANIMATION(Kangaskhan);
@@ -5366,7 +5366,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ARGOMON_ROOKIE]     = sAnims_Argomon_rookie,
     [SPECIES_ARMADILMON]     = sAnims_Armadilmon,
     [SPECIES_ARURAUMON]     = sAnims_Aruraumon,
-    [SPECIES_BAKOMON]      = sAnims_Rhydon,
+    [SPECIES_BAKOMON]      = sAnims_Bakomon,
     [SPECIES_BEARMON]     = sAnims_Chansey,
     [SPECIES_BETAMON]     = sAnims_Tangela,
     [SPECIES_BETAMON_X]  = sAnims_Kangaskhan,

@@ -775,12 +775,12 @@ const u32 gMonShinyPalette_Aruraumon[] = INCBIN_U32("graphics/pokemon/aruraumon/
 const u8 gMonIcon_Aruraumon[] = INCBIN_U8("graphics/pokemon/aruraumon/icon.4bpp");
 const u8 gMonFootprint_Aruraumon[] = INCBIN_U8("graphics/pokemon/aruraumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Rhydon[] = INCBIN_U32("graphics/pokemon/rhydon/front.4bpp.lz");
-const u32 gMonPalette_Rhydon[] = INCBIN_U32("graphics/pokemon/rhydon/normal.gbapal.lz");
-const u32 gMonBackPic_Rhydon[] = INCBIN_U32("graphics/pokemon/rhydon/back.4bpp.lz");
-const u32 gMonShinyPalette_Rhydon[] = INCBIN_U32("graphics/pokemon/rhydon/shiny.gbapal.lz");
-const u8 gMonIcon_Rhydon[] = INCBIN_U8("graphics/pokemon/rhydon/icon.4bpp");
-const u8 gMonFootprint_Rhydon[] = INCBIN_U8("graphics/pokemon/rhydon/footprint.1bpp");
+const u32 gMonStillFrontPic_Bakomon[] = INCBIN_U32("graphics/pokemon/bakomon/front.4bpp.lz");
+const u32 gMonPalette_Bakomon[] = INCBIN_U32("graphics/pokemon/bakomon/normal.gbapal.lz");
+const u32 gMonBackPic_Bakomon[] = INCBIN_U32("graphics/pokemon/bakomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bakomon[] = INCBIN_U32("graphics/pokemon/bakomon/shiny.gbapal.lz");
+const u8 gMonIcon_Bakomon[] = INCBIN_U8("graphics/pokemon/bakomon/icon.4bpp");
+const u8 gMonFootprint_Bakomon[] = INCBIN_U8("graphics/pokemon/bakomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/front.4bpp.lz");
 const u32 gMonPalette_Chansey[] = INCBIN_U32("graphics/pokemon/chansey/normal.gbapal.lz");

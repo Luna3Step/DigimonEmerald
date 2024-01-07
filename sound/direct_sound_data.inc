@@ -831,8 +831,8 @@ Cry_Aruraumon::
 	.incbin "sound/direct_sound_samples/cries/aruraumon.bin"
 
 	.align 2
-Cry_Rhydon::
-	.incbin "sound/direct_sound_samples/cries/rhydon.bin"
+Cry_Bakomon::
+	.incbin "sound/direct_sound_samples/cries/bakomon.bin"
 
 	.align 2
 Cry_Chansey::
