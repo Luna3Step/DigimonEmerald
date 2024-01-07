@@ -867,8 +867,8 @@ Cry_Blkguilmon::
 	.incbin "sound/direct_sound_samples/cries/blkguilmon.bin"
 
 	.align 2
-Cry_Starmie::
-	.incbin "sound/direct_sound_samples/cries/starmie.bin"
+Cry_Bokomon::
+	.incbin "sound/direct_sound_samples/cries/bokomon.bin"
 
 	.align 2
 Cry_MrMime::

@@ -838,12 +838,12 @@ const u32 gMonShinyPalette_Blkguilmon[] = INCBIN_U32("graphics/pokemon/blkguilmo
 const u8 gMonIcon_Blkguilmon[] = INCBIN_U8("graphics/pokemon/blkguilmon/icon.4bpp");
 const u8 gMonFootprint_Blkguilmon[] = INCBIN_U8("graphics/pokemon/blkguilmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Starmie[] = INCBIN_U32("graphics/pokemon/starmie/front.4bpp.lz");
-const u32 gMonPalette_Starmie[] = INCBIN_U32("graphics/pokemon/starmie/normal.gbapal.lz");
-const u32 gMonBackPic_Starmie[] = INCBIN_U32("graphics/pokemon/starmie/back.4bpp.lz");
-const u32 gMonShinyPalette_Starmie[] = INCBIN_U32("graphics/pokemon/starmie/shiny.gbapal.lz");
-const u8 gMonIcon_Starmie[] = INCBIN_U8("graphics/pokemon/starmie/icon.4bpp");
-const u8 gMonFootprint_Starmie[] = INCBIN_U8("graphics/pokemon/starmie/footprint.1bpp");
+const u32 gMonStillFrontPic_Bokomon[] = INCBIN_U32("graphics/pokemon/bokomon/front.4bpp.lz");
+const u32 gMonPalette_Bokomon[] = INCBIN_U32("graphics/pokemon/bokomon/normal.gbapal.lz");
+const u32 gMonBackPic_Bokomon[] = INCBIN_U32("graphics/pokemon/bokomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bokomon[] = INCBIN_U32("graphics/pokemon/bokomon/shiny.gbapal.lz");
+const u8 gMonIcon_Bokomon[] = INCBIN_U8("graphics/pokemon/bokomon/icon.4bpp");
+const u8 gMonFootprint_Bokomon[] = INCBIN_U8("graphics/pokemon/bokomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/front.4bpp.lz");
 const u32 gMonPalette_Mrmime[] = INCBIN_U32("graphics/pokemon/mr_mime/normal.gbapal.lz");
