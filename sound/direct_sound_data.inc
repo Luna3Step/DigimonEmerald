@@ -855,8 +855,8 @@ Cry_Blkagumon::
 	.incbin "sound/direct_sound_samples/cries/blkagumon.bin"
 
 	.align 2
-Cry_Goldeen::
-	.incbin "sound/direct_sound_samples/cries/goldeen.bin"
+Cry_Blkagumon_x::
+	.incbin "sound/direct_sound_samples/cries/blkagumon_x.bin"
 
 	.align 2
 Cry_Seaking::
