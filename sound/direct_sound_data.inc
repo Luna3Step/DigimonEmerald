@@ -815,8 +815,8 @@ Cry_Angoramon::
 	.incbin "sound/direct_sound_samples/cries/angoramon.bin"
 
 	.align 2
-Cry_Lickitung::
-	.incbin "sound/direct_sound_samples/cries/lickitung.bin"
+Cry_Arcadiamon_rookie::
+	.incbin "sound/direct_sound_samples/cries/arcadiamon_rookie.bin"
 
 	.align 2
 Cry_Koffing::

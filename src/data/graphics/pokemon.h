@@ -747,12 +747,12 @@ const u32 gMonShinyPalette_Angoramon[] = INCBIN_U32("graphics/pokemon/angoramon/
 const u8 gMonIcon_Angoramon[] = INCBIN_U8("graphics/pokemon/angoramon/icon.4bpp");
 const u8 gMonFootprint_Angoramon[] = INCBIN_U8("graphics/pokemon/angoramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/front.4bpp.lz");
-const u32 gMonPalette_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/normal.gbapal.lz");
-const u32 gMonBackPic_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/back.4bpp.lz");
-const u32 gMonShinyPalette_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/shiny.gbapal.lz");
-const u8 gMonIcon_Lickitung[] = INCBIN_U8("graphics/pokemon/lickitung/icon.4bpp");
-const u8 gMonFootprint_Lickitung[] = INCBIN_U8("graphics/pokemon/lickitung/footprint.1bpp");
+const u32 gMonStillFrontPic_Arcadiamon_rookie[] = INCBIN_U32("graphics/pokemon/arcadiamon_rookie/front.4bpp.lz");
+const u32 gMonPalette_Arcadiamon_rookie[] = INCBIN_U32("graphics/pokemon/arcadiamon_rookie/normal.gbapal.lz");
+const u32 gMonBackPic_Arcadiamon_rookie[] = INCBIN_U32("graphics/pokemon/arcadiamon_rookie/back.4bpp.lz");
+const u32 gMonShinyPalette_Arcadiamon_rookie[] = INCBIN_U32("graphics/pokemon/arcadiamon_rookie/shiny.gbapal.lz");
+const u8 gMonIcon_Arcadiamon_rookie[] = INCBIN_U8("graphics/pokemon/arcadiamon_rookie/icon.4bpp");
+const u8 gMonFootprint_Arcadiamon_rookie[] = INCBIN_U8("graphics/pokemon/arcadiamon_rookie/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Koffing[] = INCBIN_U32("graphics/pokemon/koffing/front.4bpp.lz");
 const u32 gMonPalette_Koffing[] = INCBIN_U32("graphics/pokemon/koffing/normal.gbapal.lz");
