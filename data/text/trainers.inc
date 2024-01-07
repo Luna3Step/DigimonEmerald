@@ -3800,7 +3800,7 @@ Route125_Text_StanDefeat:
 	.string "I floundered…$"
 
 Route125_Text_StanPostBattle:
-	.string "I was blown away by HORSEA's charm,\n"
+	.string "I was blown away by BIYOMON's charm,\n"
 	.string "so I started swimming, too.$"
 
 Route125_Text_TanyaIntro:

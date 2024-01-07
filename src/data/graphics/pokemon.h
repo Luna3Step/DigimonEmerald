@@ -803,12 +803,12 @@ const u32 gMonShinyPalette_Betamon_x[] = INCBIN_U32("graphics/pokemon/betamon_x/
 const u8 gMonIcon_Betamon_x[] = INCBIN_U8("graphics/pokemon/betamon_x/icon.4bpp");
 const u8 gMonFootprint_Betamon_x[] = INCBIN_U8("graphics/pokemon/betamon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Horsea[] = INCBIN_U32("graphics/pokemon/horsea/front.4bpp.lz");
-const u32 gMonPalette_Horsea[] = INCBIN_U32("graphics/pokemon/horsea/normal.gbapal.lz");
-const u32 gMonBackPic_Horsea[] = INCBIN_U32("graphics/pokemon/horsea/back.4bpp.lz");
-const u32 gMonShinyPalette_Horsea[] = INCBIN_U32("graphics/pokemon/horsea/shiny.gbapal.lz");
-const u8 gMonIcon_Horsea[] = INCBIN_U8("graphics/pokemon/horsea/icon.4bpp");
-const u8 gMonFootprint_Horsea[] = INCBIN_U8("graphics/pokemon/horsea/footprint.1bpp");
+const u32 gMonStillFrontPic_Biyomon[] = INCBIN_U32("graphics/pokemon/biyomon/front.4bpp.lz");
+const u32 gMonPalette_Biyomon[] = INCBIN_U32("graphics/pokemon/biyomon/normal.gbapal.lz");
+const u32 gMonBackPic_Biyomon[] = INCBIN_U32("graphics/pokemon/biyomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Biyomon[] = INCBIN_U32("graphics/pokemon/biyomon/shiny.gbapal.lz");
+const u8 gMonIcon_Biyomon[] = INCBIN_U8("graphics/pokemon/biyomon/icon.4bpp");
+const u8 gMonFootprint_Biyomon[] = INCBIN_U8("graphics/pokemon/biyomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Seadra[] = INCBIN_U32("graphics/pokemon/seadra/front.4bpp.lz");
 const u32 gMonPalette_Seadra[] = INCBIN_U32("graphics/pokemon/seadra/normal.gbapal.lz");

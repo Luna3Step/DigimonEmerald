@@ -847,8 +847,8 @@ Cry_Betamon_x::
 	.incbin "sound/direct_sound_samples/cries/betamon_x.bin"
 
 	.align 2
-Cry_Horsea::
-	.incbin "sound/direct_sound_samples/cries/horsea.bin"
+Cry_Biyomon::
+	.incbin "sound/direct_sound_samples/cries/biyomon.bin"
 
 	.align 2
 Cry_Seadra::
