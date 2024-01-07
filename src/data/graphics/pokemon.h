@@ -761,12 +761,12 @@ const u32 gMonShinyPalette_Argomon_rookie[] = INCBIN_U32("graphics/pokemon/argom
 const u8 gMonIcon_Argomon_rookie[] = INCBIN_U8("graphics/pokemon/argomon_rookie/icon.4bpp");
 const u8 gMonFootprint_Argomon_rookie[] = INCBIN_U8("graphics/pokemon/argomon_rookie/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Weezing[] = INCBIN_U32("graphics/pokemon/weezing/front.4bpp.lz");
-const u32 gMonPalette_Weezing[] = INCBIN_U32("graphics/pokemon/weezing/normal.gbapal.lz");
-const u32 gMonBackPic_Weezing[] = INCBIN_U32("graphics/pokemon/weezing/back.4bpp.lz");
-const u32 gMonShinyPalette_Weezing[] = INCBIN_U32("graphics/pokemon/weezing/shiny.gbapal.lz");
-const u8 gMonIcon_Weezing[] = INCBIN_U8("graphics/pokemon/weezing/icon.4bpp");
-const u8 gMonFootprint_Weezing[] = INCBIN_U8("graphics/pokemon/weezing/footprint.1bpp");
+const u32 gMonStillFrontPic_Armadilmon[] = INCBIN_U32("graphics/pokemon/armadilmon/front.4bpp.lz");
+const u32 gMonPalette_Armadilmon[] = INCBIN_U32("graphics/pokemon/armadilmon/normal.gbapal.lz");
+const u32 gMonBackPic_Armadilmon[] = INCBIN_U32("graphics/pokemon/armadilmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Armadilmon[] = INCBIN_U32("graphics/pokemon/armadilmon/shiny.gbapal.lz");
+const u8 gMonIcon_Armadilmon[] = INCBIN_U8("graphics/pokemon/armadilmon/icon.4bpp");
+const u8 gMonFootprint_Armadilmon[] = INCBIN_U8("graphics/pokemon/armadilmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Rhyhorn[] = INCBIN_U32("graphics/pokemon/rhyhorn/front.4bpp.lz");
 const u32 gMonPalette_Rhyhorn[] = INCBIN_U32("graphics/pokemon/rhyhorn/normal.gbapal.lz");

@@ -109,7 +109,7 @@ gCryTable::
 	cry Cry_Angoramon
 	cry Cry_Arcadiamon_rookie
 	cry Cry_Argomon_rookie
-	cry Cry_Weezing
+	cry Cry_Armadilmon
 	cry Cry_Rhyhorn
 	cry Cry_Rhydon
 	cry Cry_Chansey
@@ -500,7 +500,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Angoramon
 	cry_reverse Cry_Arcadiamon_rookie
 	cry_reverse Cry_Argomon_rookie
-	cry_reverse Cry_Weezing
+	cry_reverse Cry_Armadilmon
 	cry_reverse Cry_Rhyhorn
 	cry_reverse Cry_Rhydon
 	cry_reverse Cry_Chansey
