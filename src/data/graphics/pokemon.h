@@ -789,12 +789,12 @@ const u32 gMonShinyPalette_Bearmon[] = INCBIN_U32("graphics/pokemon/bearmon/shin
 const u8 gMonIcon_Bearmon[] = INCBIN_U8("graphics/pokemon/bearmon/icon.4bpp");
 const u8 gMonFootprint_Bearmon[] = INCBIN_U8("graphics/pokemon/bearmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/front.4bpp.lz");
-const u32 gMonPalette_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/normal.gbapal.lz");
-const u32 gMonBackPic_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/back.4bpp.lz");
-const u32 gMonShinyPalette_Tangela[] = INCBIN_U32("graphics/pokemon/tangela/shiny.gbapal.lz");
-const u8 gMonIcon_Tangela[] = INCBIN_U8("graphics/pokemon/tangela/icon.4bpp");
-const u8 gMonFootprint_Tangela[] = INCBIN_U8("graphics/pokemon/tangela/footprint.1bpp");
+const u32 gMonStillFrontPic_Betamon[] = INCBIN_U32("graphics/pokemon/betamon/front.4bpp.lz");
+const u32 gMonPalette_Betamon[] = INCBIN_U32("graphics/pokemon/betamon/normal.gbapal.lz");
+const u32 gMonBackPic_Betamon[] = INCBIN_U32("graphics/pokemon/betamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Betamon[] = INCBIN_U32("graphics/pokemon/betamon/shiny.gbapal.lz");
+const u8 gMonIcon_Betamon[] = INCBIN_U8("graphics/pokemon/betamon/icon.4bpp");
+const u8 gMonFootprint_Betamon[] = INCBIN_U8("graphics/pokemon/betamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kangaskhan[] = INCBIN_U32("graphics/pokemon/kangaskhan/front.4bpp.lz");
 const u32 gMonPalette_Kangaskhan[] = INCBIN_U32("graphics/pokemon/kangaskhan/normal.gbapal.lz");
