@@ -763,8 +763,8 @@ Cry_Tsumemon::
 	.incbin "sound/direct_sound_samples/cries/tsumemon.bin"
 
 	.align 2
-Cry_Onix::
-	.incbin "sound/direct_sound_samples/cries/onix.bin"
+Cry_Tsunomon::
+	.incbin "sound/direct_sound_samples/cries/tsunomon.bin"
 
 	.align 2
 Cry_Drowzee::

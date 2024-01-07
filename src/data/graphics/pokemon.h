@@ -656,12 +656,12 @@ const u32 gMonShinyPalette_Tsumemon[] = INCBIN_U32("graphics/pokemon/tsumemon/sh
 const u8 gMonIcon_Tsumemon[] = INCBIN_U8("graphics/pokemon/tsumemon/icon.4bpp");
 const u8 gMonFootprint_Tsumemon[] = INCBIN_U8("graphics/pokemon/tsumemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Onix[] = INCBIN_U32("graphics/pokemon/onix/front.4bpp.lz");
-const u32 gMonPalette_Onix[] = INCBIN_U32("graphics/pokemon/onix/normal.gbapal.lz");
-const u32 gMonBackPic_Onix[] = INCBIN_U32("graphics/pokemon/onix/back.4bpp.lz");
-const u32 gMonShinyPalette_Onix[] = INCBIN_U32("graphics/pokemon/onix/shiny.gbapal.lz");
-const u8 gMonIcon_Onix[] = INCBIN_U8("graphics/pokemon/onix/icon.4bpp");
-const u8 gMonFootprint_Onix[] = INCBIN_U8("graphics/pokemon/onix/footprint.1bpp");
+const u32 gMonStillFrontPic_Tsunomon[] = INCBIN_U32("graphics/pokemon/tsunomon/front.4bpp.lz");
+const u32 gMonPalette_Tsunomon[] = INCBIN_U32("graphics/pokemon/tsunomon/normal.gbapal.lz");
+const u32 gMonBackPic_Tsunomon[] = INCBIN_U32("graphics/pokemon/tsunomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tsunomon[] = INCBIN_U32("graphics/pokemon/tsunomon/shiny.gbapal.lz");
+const u8 gMonIcon_Tsunomon[] = INCBIN_U8("graphics/pokemon/tsunomon/icon.4bpp");
+const u8 gMonFootprint_Tsunomon[] = INCBIN_U8("graphics/pokemon/tsunomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Drowzee[] = INCBIN_U32("graphics/pokemon/drowzee/front.4bpp.lz");
 const u32 gMonPalette_Drowzee[] = INCBIN_U32("graphics/pokemon/drowzee/normal.gbapal.lz");
