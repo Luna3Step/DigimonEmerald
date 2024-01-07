@@ -939,8 +939,8 @@ static const u8 sMetalPowderDesc[] = _(
 
 static const u8 sThickClubDesc[] = _(
     "A hold item that \n"
-    "raises AGUMON_06 or\n"
-    "AGUMON_EXPERT's ATTACK.");
+    "raises AGUMON06 or\n"
+    "AGUMONEXPERT's ATTACK.");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
