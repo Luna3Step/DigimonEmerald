@@ -824,12 +824,12 @@ const u32 gMonShinyPalette_Blkagumon_x[] = INCBIN_U32("graphics/pokemon/blkagumo
 const u8 gMonIcon_Blkagumon_x[] = INCBIN_U8("graphics/pokemon/blkagumon_x/icon.4bpp");
 const u8 gMonFootprint_Blkagumon_x[] = INCBIN_U8("graphics/pokemon/blkagumon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Seaking[] = INCBIN_U32("graphics/pokemon/seaking/front.4bpp.lz");
-const u32 gMonPalette_Seaking[] = INCBIN_U32("graphics/pokemon/seaking/normal.gbapal.lz");
-const u32 gMonBackPic_Seaking[] = INCBIN_U32("graphics/pokemon/seaking/back.4bpp.lz");
-const u32 gMonShinyPalette_Seaking[] = INCBIN_U32("graphics/pokemon/seaking/shiny.gbapal.lz");
-const u8 gMonIcon_Seaking[] = INCBIN_U8("graphics/pokemon/seaking/icon.4bpp");
-const u8 gMonFootprint_Seaking[] = INCBIN_U8("graphics/pokemon/seaking/footprint.1bpp");
+const u32 gMonStillFrontPic_Blkgabumon[] = INCBIN_U32("graphics/pokemon/blkgabumon/front.4bpp.lz");
+const u32 gMonPalette_Blkgabumon[] = INCBIN_U32("graphics/pokemon/blkgabumon/normal.gbapal.lz");
+const u32 gMonBackPic_Blkgabumon[] = INCBIN_U32("graphics/pokemon/blkgabumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Blkgabumon[] = INCBIN_U32("graphics/pokemon/blkgabumon/shiny.gbapal.lz");
+const u8 gMonIcon_Blkgabumon[] = INCBIN_U8("graphics/pokemon/blkgabumon/icon.4bpp");
+const u8 gMonFootprint_Blkgabumon[] = INCBIN_U8("graphics/pokemon/blkgabumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Staryu[] = INCBIN_U32("graphics/pokemon/staryu/front.4bpp.lz");
 const u32 gMonPalette_Staryu[] = INCBIN_U32("graphics/pokemon/staryu/normal.gbapal.lz");
