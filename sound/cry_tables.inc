@@ -101,7 +101,7 @@ gCryTable::
 	cry Cry_Wanyamon
 	cry Cry_Xiaomon
 	cry Cry_Yaamon
-	cry Cry_Exeggcute
+	cry Cry_Yokomon
 	cry Cry_Exeggutor
 	cry Cry_Cubone
 	cry Cry_Marowak
@@ -492,7 +492,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Wanyamon
 	cry_reverse Cry_Xiaomon
 	cry_reverse Cry_Yaamon
-	cry_reverse Cry_Exeggcute
+	cry_reverse Cry_Yokomon
 	cry_reverse Cry_Exeggutor
 	cry_reverse Cry_Cubone
 	cry_reverse Cry_Marowak

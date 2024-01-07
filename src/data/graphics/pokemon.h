@@ -705,12 +705,12 @@ const u32 gMonShinyPalette_Yaamon[] = INCBIN_U32("graphics/pokemon/yaamon/shiny.
 const u8 gMonIcon_Yaamon[] = INCBIN_U8("graphics/pokemon/yaamon/icon.4bpp");
 const u8 gMonFootprint_Yaamon[] = INCBIN_U8("graphics/pokemon/yaamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Exeggcute[] = INCBIN_U32("graphics/pokemon/exeggcute/front.4bpp.lz");
-const u32 gMonPalette_Exeggcute[] = INCBIN_U32("graphics/pokemon/exeggcute/normal.gbapal.lz");
-const u32 gMonBackPic_Exeggcute[] = INCBIN_U32("graphics/pokemon/exeggcute/back.4bpp.lz");
-const u32 gMonShinyPalette_Exeggcute[] = INCBIN_U32("graphics/pokemon/exeggcute/shiny.gbapal.lz");
-const u8 gMonIcon_Exeggcute[] = INCBIN_U8("graphics/pokemon/exeggcute/icon.4bpp");
-const u8 gMonFootprint_Exeggcute[] = INCBIN_U8("graphics/pokemon/exeggcute/footprint.1bpp");
+const u32 gMonStillFrontPic_Yokomon[] = INCBIN_U32("graphics/pokemon/yokomon/front.4bpp.lz");
+const u32 gMonPalette_Yokomon[] = INCBIN_U32("graphics/pokemon/yokomon/normal.gbapal.lz");
+const u32 gMonBackPic_Yokomon[] = INCBIN_U32("graphics/pokemon/yokomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Yokomon[] = INCBIN_U32("graphics/pokemon/yokomon/shiny.gbapal.lz");
+const u8 gMonIcon_Yokomon[] = INCBIN_U8("graphics/pokemon/yokomon/icon.4bpp");
+const u8 gMonFootprint_Yokomon[] = INCBIN_U8("graphics/pokemon/yokomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Exeggutor[] = INCBIN_U32("graphics/pokemon/exeggutor/front.4bpp.lz");
 const u32 gMonPalette_Exeggutor[] = INCBIN_U32("graphics/pokemon/exeggutor/normal.gbapal.lz");
