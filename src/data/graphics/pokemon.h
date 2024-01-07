@@ -719,12 +719,12 @@ const u32 gMonShinyPalette_Agumon[] = INCBIN_U32("graphics/pokemon/agumon/shiny.
 const u8 gMonIcon_Agumon[] = INCBIN_U8("graphics/pokemon/agumon/icon.4bpp");
 const u8 gMonFootprint_Agumon[] = INCBIN_U8("graphics/pokemon/agumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Cubone[] = INCBIN_U32("graphics/pokemon/cubone/front.4bpp.lz");
-const u32 gMonPalette_Cubone[] = INCBIN_U32("graphics/pokemon/cubone/normal.gbapal.lz");
-const u32 gMonBackPic_Cubone[] = INCBIN_U32("graphics/pokemon/cubone/back.4bpp.lz");
-const u32 gMonShinyPalette_Cubone[] = INCBIN_U32("graphics/pokemon/cubone/shiny.gbapal.lz");
-const u8 gMonIcon_Cubone[] = INCBIN_U8("graphics/pokemon/cubone/icon.4bpp");
-const u8 gMonFootprint_Cubone[] = INCBIN_U8("graphics/pokemon/cubone/footprint.1bpp");
+const u32 gMonStillFrontPic_Agumon_06[] = INCBIN_U32("graphics/pokemon/agumon_06/front.4bpp.lz");
+const u32 gMonPalette_Agumon_06[] = INCBIN_U32("graphics/pokemon/agumon_06/normal.gbapal.lz");
+const u32 gMonBackPic_Agumon_06[] = INCBIN_U32("graphics/pokemon/agumon_06/back.4bpp.lz");
+const u32 gMonShinyPalette_Agumon_06[] = INCBIN_U32("graphics/pokemon/agumon_06/shiny.gbapal.lz");
+const u8 gMonIcon_Agumon_06[] = INCBIN_U8("graphics/pokemon/agumon_06/icon.4bpp");
+const u8 gMonFootprint_Agumon_06[] = INCBIN_U8("graphics/pokemon/agumon_06/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Marowak[] = INCBIN_U32("graphics/pokemon/marowak/front.4bpp.lz");
 const u32 gMonPalette_Marowak[] = INCBIN_U32("graphics/pokemon/marowak/normal.gbapal.lz");

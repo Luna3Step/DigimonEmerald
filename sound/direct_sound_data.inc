@@ -799,8 +799,8 @@ Cry_Agumon::
 	.incbin "sound/direct_sound_samples/cries/agumon.bin"
 
 	.align 2
-Cry_Cubone::
-	.incbin "sound/direct_sound_samples/cries/cubone.bin"
+Cry_Agumon_06::
+	.incbin "sound/direct_sound_samples/cries/agumon_06.bin"
 
 	.align 2
 Cry_Marowak::

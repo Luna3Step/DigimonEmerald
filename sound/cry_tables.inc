@@ -103,7 +103,7 @@ gCryTable::
 	cry Cry_Yaamon
 	cry Cry_Yokomon
 	cry Cry_Agumon
-	cry Cry_Cubone
+	cry Cry_Agumon_06
 	cry Cry_Marowak
 	cry Cry_Hitmonlee
 	cry Cry_Hitmonchan
@@ -494,7 +494,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Yaamon
 	cry_reverse Cry_Yokomon
 	cry_reverse Cry_Agumon
-	cry_reverse Cry_Cubone
+	cry_reverse Cry_Agumon_06
 	cry_reverse Cry_Marowak
 	cry_reverse Cry_Hitmonlee
 	cry_reverse Cry_Hitmonchan
