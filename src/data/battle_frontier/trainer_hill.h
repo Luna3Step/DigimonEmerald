@@ -771,7 +771,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 20,
                         .abilityNum = 0,
                         .personality = 0x3,
-                        .nickname = _("HITMONCHAN"),
+                        .nickname = _("ANGORAMON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                 },
@@ -3517,7 +3517,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x3,
-                                            .nickname = _("HITMONCHAN"),
+                                            .nickname = _("ANGORAMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =

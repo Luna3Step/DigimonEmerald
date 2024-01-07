@@ -740,12 +740,12 @@ const u32 gMonShinyPalette_Agumon_x[] = INCBIN_U32("graphics/pokemon/agumon_x/sh
 const u8 gMonIcon_Agumon_x[] = INCBIN_U8("graphics/pokemon/agumon_x/icon.4bpp");
 const u8 gMonFootprint_Agumon_x[] = INCBIN_U8("graphics/pokemon/agumon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/front.4bpp.lz");
-const u32 gMonPalette_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/normal.gbapal.lz");
-const u32 gMonBackPic_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/back.4bpp.lz");
-const u32 gMonShinyPalette_Hitmonchan[] = INCBIN_U32("graphics/pokemon/hitmonchan/shiny.gbapal.lz");
-const u8 gMonIcon_Hitmonchan[] = INCBIN_U8("graphics/pokemon/hitmonchan/icon.4bpp");
-const u8 gMonFootprint_Hitmonchan[] = INCBIN_U8("graphics/pokemon/hitmonchan/footprint.1bpp");
+const u32 gMonStillFrontPic_Angoramon[] = INCBIN_U32("graphics/pokemon/angoramon/front.4bpp.lz");
+const u32 gMonPalette_Angoramon[] = INCBIN_U32("graphics/pokemon/angoramon/normal.gbapal.lz");
+const u32 gMonBackPic_Angoramon[] = INCBIN_U32("graphics/pokemon/angoramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Angoramon[] = INCBIN_U32("graphics/pokemon/angoramon/shiny.gbapal.lz");
+const u8 gMonIcon_Angoramon[] = INCBIN_U8("graphics/pokemon/angoramon/icon.4bpp");
+const u8 gMonFootprint_Angoramon[] = INCBIN_U8("graphics/pokemon/angoramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/front.4bpp.lz");
 const u32 gMonPalette_Lickitung[] = INCBIN_U32("graphics/pokemon/lickitung/normal.gbapal.lz");

@@ -106,7 +106,7 @@ gCryTable::
 	cry Cry_Agumon_06
 	cry Cry_Agumon_expert
 	cry Cry_Agumon_x
-	cry Cry_Hitmonchan
+	cry Cry_Angoramon
 	cry Cry_Lickitung
 	cry Cry_Koffing
 	cry Cry_Weezing
@@ -497,7 +497,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Agumon_06
 	cry_reverse Cry_Agumon_expert
 	cry_reverse Cry_Agumon_x
-	cry_reverse Cry_Hitmonchan
+	cry_reverse Cry_Angoramon
 	cry_reverse Cry_Lickitung
 	cry_reverse Cry_Koffing
 	cry_reverse Cry_Weezing
