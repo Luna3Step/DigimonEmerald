@@ -887,8 +887,8 @@ Cry_Candlemon::
 	.incbin "sound/direct_sound_samples/cries/candlemon.bin"
 
 	.align 2
-Cry_Magmar::
-	.incbin "sound/direct_sound_samples/cries/magmar.bin"
+Cry_Chikurimon::
+	.incbin "sound/direct_sound_samples/cries/chikurimon.bin"
 
 	.align 2
 Cry_Pinsir::

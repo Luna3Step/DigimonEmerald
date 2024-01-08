@@ -873,12 +873,12 @@ const u32 gMonShinyPalette_Candlemon[] = INCBIN_U32("graphics/pokemon/candlemon/
 const u8 gMonIcon_Candlemon[] = INCBIN_U8("graphics/pokemon/candlemon/icon.4bpp");
 const u8 gMonFootprint_Candlemon[] = INCBIN_U8("graphics/pokemon/candlemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/front.4bpp.lz");
-const u32 gMonPalette_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/normal.gbapal.lz");
-const u32 gMonBackPic_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/back.4bpp.lz");
-const u32 gMonShinyPalette_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/shiny.gbapal.lz");
-const u8 gMonIcon_Magmar[] = INCBIN_U8("graphics/pokemon/magmar/icon.4bpp");
-const u8 gMonFootprint_Magmar[] = INCBIN_U8("graphics/pokemon/magmar/footprint.1bpp");
+const u32 gMonStillFrontPic_Chikurimon[] = INCBIN_U32("graphics/pokemon/chikurimon/front.4bpp.lz");
+const u32 gMonPalette_Chikurimon[] = INCBIN_U32("graphics/pokemon/chikurimon/normal.gbapal.lz");
+const u32 gMonBackPic_Chikurimon[] = INCBIN_U32("graphics/pokemon/chikurimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Chikurimon[] = INCBIN_U32("graphics/pokemon/chikurimon/shiny.gbapal.lz");
+const u8 gMonIcon_Chikurimon[] = INCBIN_U8("graphics/pokemon/chikurimon/icon.4bpp");
+const u8 gMonFootprint_Chikurimon[] = INCBIN_U8("graphics/pokemon/chikurimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/front.4bpp.lz");
 const u32 gMonPalette_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/normal.gbapal.lz");

@@ -125,7 +125,7 @@ gCryTable::
 	cry Cry_burgermon
 	cry Cry_samuagumon
 	cry Cry_Candlemon
-	cry Cry_Magmar
+	cry Cry_Chikurimon
 	cry Cry_Pinsir
 	cry Cry_Tauros
 	cry Cry_Magikarp
@@ -516,7 +516,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_burgermon
 	cry_reverse Cry_samuagumon
 	cry_reverse Cry_Candlemon
-	cry_reverse Cry_Magmar
+	cry_reverse Cry_Chikurimon
 	cry_reverse Cry_Pinsir
 	cry_reverse Cry_Tauros
 	cry_reverse Cry_Magikarp
