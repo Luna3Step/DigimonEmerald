@@ -859,12 +859,12 @@ const u32 gMonShinyPalette_burgermon[] = INCBIN_U32("graphics/pokemon/burgermon/
 const u8 gMonIcon_burgermon[] = INCBIN_U8("graphics/pokemon/burgermon/icon.4bpp");
 const u8 gMonFootprint_burgermon[] = INCBIN_U8("graphics/pokemon/burgermon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/front.4bpp.lz");
-const u32 gMonPalette_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/normal.gbapal.lz");
-const u32 gMonBackPic_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/back.4bpp.lz");
-const u32 gMonShinyPalette_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/shiny.gbapal.lz");
-const u8 gMonIcon_Jynx[] = INCBIN_U8("graphics/pokemon/jynx/icon.4bpp");
-const u8 gMonFootprint_Jynx[] = INCBIN_U8("graphics/pokemon/jynx/footprint.1bpp");
+const u32 gMonStillFrontPic_samuagumon[] = INCBIN_U32("graphics/pokemon/samuagumon/front.4bpp.lz");
+const u32 gMonPalette_samuagumon[] = INCBIN_U32("graphics/pokemon/samuagumon/normal.gbapal.lz");
+const u32 gMonBackPic_samuagumon[] = INCBIN_U32("graphics/pokemon/samuagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_samuagumon[] = INCBIN_U32("graphics/pokemon/samuagumon/shiny.gbapal.lz");
+const u8 gMonIcon_samuagumon[] = INCBIN_U8("graphics/pokemon/samuagumon/icon.4bpp");
+const u8 gMonFootprint_samuagumon[] = INCBIN_U8("graphics/pokemon/samuagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/front.4bpp.lz");
 const u32 gMonPalette_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/normal.gbapal.lz");

@@ -879,8 +879,8 @@ Cry_burgermon::
 	.incbin "sound/direct_sound_samples/cries/burgermon.bin"
 
 	.align 2
-Cry_Jynx::
-	.incbin "sound/direct_sound_samples/cries/jynx.bin"
+Cry_samuagumon::
+	.incbin "sound/direct_sound_samples/cries/samuagumon.bin"
 
 	.align 2
 Cry_Electabuzz::
