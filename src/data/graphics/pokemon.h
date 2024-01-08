@@ -894,12 +894,12 @@ const u32 gMonShinyPalette_Chuumon[] = INCBIN_U32("graphics/pokemon/chuumon/shin
 const u8 gMonIcon_Chuumon[] = INCBIN_U8("graphics/pokemon/chuumon/icon.4bpp");
 const u8 gMonFootprint_Chuumon[] = INCBIN_U8("graphics/pokemon/chuumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Magikarp[] = INCBIN_U32("graphics/pokemon/magikarp/front.4bpp.lz");
-const u32 gMonPalette_Magikarp[] = INCBIN_U32("graphics/pokemon/magikarp/normal.gbapal.lz");
-const u32 gMonBackPic_Magikarp[] = INCBIN_U32("graphics/pokemon/magikarp/back.4bpp.lz");
-const u32 gMonShinyPalette_Magikarp[] = INCBIN_U32("graphics/pokemon/magikarp/shiny.gbapal.lz");
-const u8 gMonIcon_Magikarp[] = INCBIN_U8("graphics/pokemon/magikarp/icon.4bpp");
-const u8 gMonFootprint_Magikarp[] = INCBIN_U8("graphics/pokemon/magikarp/footprint.1bpp");
+const u32 gMonStillFrontPic_Hazyagumon[] = INCBIN_U32("graphics/pokemon/hazyagumon/front.4bpp.lz");
+const u32 gMonPalette_Hazyagumon[] = INCBIN_U32("graphics/pokemon/hazyagumon/normal.gbapal.lz");
+const u32 gMonBackPic_Hazyagumon[] = INCBIN_U32("graphics/pokemon/hazyagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hazyagumon[] = INCBIN_U32("graphics/pokemon/hazyagumon/shiny.gbapal.lz");
+const u8 gMonIcon_Hazyagumon[] = INCBIN_U8("graphics/pokemon/hazyagumon/icon.4bpp");
+const u8 gMonFootprint_Hazyagumon[] = INCBIN_U8("graphics/pokemon/hazyagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/front.4bpp.lz");
 const u32 gMonPalette_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/normal.gbapal.lz");

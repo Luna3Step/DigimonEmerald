@@ -899,8 +899,8 @@ Cry_Chuumon::
 	.incbin "sound/direct_sound_samples/cries/chuumon.bin"
 
 	.align 2
-Cry_Magikarp::
-	.incbin "sound/direct_sound_samples/cries/magikarp.bin"
+Cry_Hazyagumon::
+	.incbin "sound/direct_sound_samples/cries/hazyagumon.bin"
 
 	.align 2
 Cry_Gyarados::

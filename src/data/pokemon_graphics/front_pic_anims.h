@@ -1565,7 +1565,7 @@ static const union AnimCmd sAnim_Chuumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Magikarp_1[] =
+static const union AnimCmd sAnim_Hazyagumon_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 8),
@@ -4951,7 +4951,7 @@ SINGLE_ANIMATION(Candlemon);
 SINGLE_ANIMATION(Chikurimon);
 DOUBLE_ANIMATION(Tyutyumon);
 SINGLE_ANIMATION(Chuumon);
-SINGLE_ANIMATION(Magikarp);
+SINGLE_ANIMATION(Hazyagumon);
 SINGLE_ANIMATION(Gyarados);
 SINGLE_ANIMATION(Lapras);
 SINGLE_ANIMATION(Ditto);
@@ -5383,7 +5383,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHIKURIMON]      = sAnims_Chikurimon,
     [SPECIES_TYUTYUMON]      = sAnims_Tyutyumon,
     [SPECIES_CHUUMON]      = sAnims_Chuumon,
-    [SPECIES_HAZYAGUMON]    = sAnims_Magikarp,
+    [SPECIES_HAZYAGUMON]    = sAnims_Hazyagumon,
     [SPECIES_COMMDRAMON]    = sAnims_Gyarados,
     [SPECIES_CORONAMON]      = sAnims_Lapras,
     [SPECIES_CRABMON]       = sAnims_Ditto,

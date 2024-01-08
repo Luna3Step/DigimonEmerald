@@ -128,7 +128,7 @@ gCryTable::
 	cry Cry_Chikurimon
 	cry Cry_Tyutyumon
 	cry Cry_Chuumon
-	cry Cry_Magikarp
+	cry Cry_Hazyagumon
 	cry Cry_Gyarados
 	cry Cry_Lapras
 	cry Cry_Ditto
@@ -519,7 +519,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Chikurimon
 	cry_reverse Cry_Tyutyumon
 	cry_reverse Cry_Chuumon
-	cry_reverse Cry_Magikarp
+	cry_reverse Cry_Hazyagumon
 	cry_reverse Cry_Gyarados
 	cry_reverse Cry_Lapras
 	cry_reverse Cry_Ditto
