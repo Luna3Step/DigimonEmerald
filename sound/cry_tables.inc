@@ -126,7 +126,7 @@ gCryTable::
 	cry Cry_samuagumon
 	cry Cry_Candlemon
 	cry Cry_Chikurimon
-	cry Cry_Pinsir
+	cry Cry_Tyutyumon
 	cry Cry_Tauros
 	cry Cry_Magikarp
 	cry Cry_Gyarados
@@ -517,7 +517,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_samuagumon
 	cry_reverse Cry_Candlemon
 	cry_reverse Cry_Chikurimon
-	cry_reverse Cry_Pinsir
+	cry_reverse Cry_Tyutyumon
 	cry_reverse Cry_Tauros
 	cry_reverse Cry_Magikarp
 	cry_reverse Cry_Gyarados

@@ -880,12 +880,12 @@ const u32 gMonShinyPalette_Chikurimon[] = INCBIN_U32("graphics/pokemon/chikurimo
 const u8 gMonIcon_Chikurimon[] = INCBIN_U8("graphics/pokemon/chikurimon/icon.4bpp");
 const u8 gMonFootprint_Chikurimon[] = INCBIN_U8("graphics/pokemon/chikurimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/front.4bpp.lz");
-const u32 gMonPalette_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/normal.gbapal.lz");
-const u32 gMonBackPic_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/back.4bpp.lz");
-const u32 gMonShinyPalette_Pinsir[] = INCBIN_U32("graphics/pokemon/pinsir/shiny.gbapal.lz");
-const u8 gMonIcon_Pinsir[] = INCBIN_U8("graphics/pokemon/pinsir/icon.4bpp");
-const u8 gMonFootprint_Pinsir[] = INCBIN_U8("graphics/pokemon/pinsir/footprint.1bpp");
+const u32 gMonStillFrontPic_Tyutyumon[] = INCBIN_U32("graphics/pokemon/tyutyumon/front.4bpp.lz");
+const u32 gMonPalette_Tyutyumon[] = INCBIN_U32("graphics/pokemon/tyutyumon/normal.gbapal.lz");
+const u32 gMonBackPic_Tyutyumon[] = INCBIN_U32("graphics/pokemon/tyutyumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tyutyumon[] = INCBIN_U32("graphics/pokemon/tyutyumon/shiny.gbapal.lz");
+const u8 gMonIcon_Tyutyumon[] = INCBIN_U8("graphics/pokemon/tyutyumon/icon.4bpp");
+const u8 gMonFootprint_Tyutyumon[] = INCBIN_U8("graphics/pokemon/tyutyumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tauros[] = INCBIN_U32("graphics/pokemon/tauros/front.4bpp.lz");
 const u32 gMonPalette_Tauros[] = INCBIN_U32("graphics/pokemon/tauros/normal.gbapal.lz");

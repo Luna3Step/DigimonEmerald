@@ -891,8 +891,8 @@ Cry_Chikurimon::
 	.incbin "sound/direct_sound_samples/cries/chikurimon.bin"
 
 	.align 2
-Cry_Pinsir::
-	.incbin "sound/direct_sound_samples/cries/pinsir.bin"
+Cry_Tyutyumon::
+	.incbin "sound/direct_sound_samples/cries/tyutyumon.bin"
 
 	.align 2
 Cry_Tauros::
