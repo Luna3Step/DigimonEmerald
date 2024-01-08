@@ -903,8 +903,8 @@ Cry_Hazyagumon::
 	.incbin "sound/direct_sound_samples/cries/hazyagumon.bin"
 
 	.align 2
-Cry_Gyarados::
-	.incbin "sound/direct_sound_samples/cries/gyarados.bin"
+Cry_Commdramon::
+	.incbin "sound/direct_sound_samples/cries/commdramon.bin"
 
 	.align 2
 Cry_Lapras::

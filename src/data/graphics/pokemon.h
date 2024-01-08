@@ -901,12 +901,12 @@ const u32 gMonShinyPalette_Hazyagumon[] = INCBIN_U32("graphics/pokemon/hazyagumo
 const u8 gMonIcon_Hazyagumon[] = INCBIN_U8("graphics/pokemon/hazyagumon/icon.4bpp");
 const u8 gMonFootprint_Hazyagumon[] = INCBIN_U8("graphics/pokemon/hazyagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/front.4bpp.lz");
-const u32 gMonPalette_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/normal.gbapal.lz");
-const u32 gMonBackPic_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/back.4bpp.lz");
-const u32 gMonShinyPalette_Gyarados[] = INCBIN_U32("graphics/pokemon/gyarados/shiny.gbapal.lz");
-const u8 gMonIcon_Gyarados[] = INCBIN_U8("graphics/pokemon/gyarados/icon.4bpp");
-const u8 gMonFootprint_Gyarados[] = INCBIN_U8("graphics/pokemon/gyarados/footprint.1bpp");
+const u32 gMonStillFrontPic_Commdramon[] = INCBIN_U32("graphics/pokemon/commdramon/front.4bpp.lz");
+const u32 gMonPalette_Commdramon[] = INCBIN_U32("graphics/pokemon/commdramon/normal.gbapal.lz");
+const u32 gMonBackPic_Commdramon[] = INCBIN_U32("graphics/pokemon/commdramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Commdramon[] = INCBIN_U32("graphics/pokemon/commdramon/shiny.gbapal.lz");
+const u8 gMonIcon_Commdramon[] = INCBIN_U8("graphics/pokemon/commdramon/icon.4bpp");
+const u8 gMonFootprint_Commdramon[] = INCBIN_U8("graphics/pokemon/commdramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/front.4bpp.lz");
 const u32 gMonPalette_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/normal.gbapal.lz");
