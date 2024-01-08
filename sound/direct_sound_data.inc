@@ -895,8 +895,8 @@ Cry_Tyutyumon::
 	.incbin "sound/direct_sound_samples/cries/tyutyumon.bin"
 
 	.align 2
-Cry_Tauros::
-	.incbin "sound/direct_sound_samples/cries/tauros.bin"
+Cry_Chuumon::
+	.incbin "sound/direct_sound_samples/cries/chuumon.bin"
 
 	.align 2
 Cry_Magikarp::
