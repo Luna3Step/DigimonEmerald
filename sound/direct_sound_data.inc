@@ -875,8 +875,8 @@ Cry_Bulucomon::
 	.incbin "sound/direct_sound_samples/cries/bulucomon.bin"
 
 	.align 2
-Cry_Scyther::
-	.incbin "sound/direct_sound_samples/cries/scyther.bin"
+Cry_burgermon::
+	.incbin "sound/direct_sound_samples/cries/burgermon.bin"
 
 	.align 2
 Cry_Jynx::

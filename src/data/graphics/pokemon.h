@@ -852,12 +852,12 @@ const u32 gMonShinyPalette_Bulucomon[] = INCBIN_U32("graphics/pokemon/bulucomon/
 const u8 gMonIcon_Bulucomon[] = INCBIN_U8("graphics/pokemon/bulucomon/icon.4bpp");
 const u8 gMonFootprint_Bulucomon[] = INCBIN_U8("graphics/pokemon/bulucomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/front.4bpp.lz");
-const u32 gMonPalette_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/normal.gbapal.lz");
-const u32 gMonBackPic_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/back.4bpp.lz");
-const u32 gMonShinyPalette_Scyther[] = INCBIN_U32("graphics/pokemon/scyther/shiny.gbapal.lz");
-const u8 gMonIcon_Scyther[] = INCBIN_U8("graphics/pokemon/scyther/icon.4bpp");
-const u8 gMonFootprint_Scyther[] = INCBIN_U8("graphics/pokemon/scyther/footprint.1bpp");
+const u32 gMonStillFrontPic_burgermon[] = INCBIN_U32("graphics/pokemon/burgermon/front.4bpp.lz");
+const u32 gMonPalette_burgermon[] = INCBIN_U32("graphics/pokemon/burgermon/normal.gbapal.lz");
+const u32 gMonBackPic_burgermon[] = INCBIN_U32("graphics/pokemon/burgermon/back.4bpp.lz");
+const u32 gMonShinyPalette_burgermon[] = INCBIN_U32("graphics/pokemon/burgermon/shiny.gbapal.lz");
+const u8 gMonIcon_burgermon[] = INCBIN_U8("graphics/pokemon/burgermon/icon.4bpp");
+const u8 gMonFootprint_burgermon[] = INCBIN_U8("graphics/pokemon/burgermon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/front.4bpp.lz");
 const u32 gMonPalette_Jynx[] = INCBIN_U32("graphics/pokemon/jynx/normal.gbapal.lz");
