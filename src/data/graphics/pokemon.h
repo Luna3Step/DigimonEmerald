@@ -866,12 +866,12 @@ const u32 gMonShinyPalette_samuagumon[] = INCBIN_U32("graphics/pokemon/samuagumo
 const u8 gMonIcon_samuagumon[] = INCBIN_U8("graphics/pokemon/samuagumon/icon.4bpp");
 const u8 gMonFootprint_samuagumon[] = INCBIN_U8("graphics/pokemon/samuagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/front.4bpp.lz");
-const u32 gMonPalette_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/normal.gbapal.lz");
-const u32 gMonBackPic_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/back.4bpp.lz");
-const u32 gMonShinyPalette_Electabuzz[] = INCBIN_U32("graphics/pokemon/electabuzz/shiny.gbapal.lz");
-const u8 gMonIcon_Electabuzz[] = INCBIN_U8("graphics/pokemon/electabuzz/icon.4bpp");
-const u8 gMonFootprint_Electabuzz[] = INCBIN_U8("graphics/pokemon/electabuzz/footprint.1bpp");
+const u32 gMonStillFrontPic_Candlemon[] = INCBIN_U32("graphics/pokemon/candlemon/front.4bpp.lz");
+const u32 gMonPalette_Candlemon[] = INCBIN_U32("graphics/pokemon/candlemon/normal.gbapal.lz");
+const u32 gMonBackPic_Candlemon[] = INCBIN_U32("graphics/pokemon/candlemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Candlemon[] = INCBIN_U32("graphics/pokemon/candlemon/shiny.gbapal.lz");
+const u8 gMonIcon_Candlemon[] = INCBIN_U8("graphics/pokemon/candlemon/icon.4bpp");
+const u8 gMonFootprint_Candlemon[] = INCBIN_U8("graphics/pokemon/candlemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/front.4bpp.lz");
 const u32 gMonPalette_Magmar[] = INCBIN_U32("graphics/pokemon/magmar/normal.gbapal.lz");

@@ -1521,7 +1521,7 @@ static const union AnimCmd sAnim_samuagumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Electabuzz_1[] =
+static const union AnimCmd sAnim_Candlemon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4947,7 +4947,7 @@ DOUBLE_ANIMATION(Bokomon);
 SINGLE_ANIMATION(Bulucomon);
 SINGLE_ANIMATION(burgermon);
 SINGLE_ANIMATION(samuagumon);
-SINGLE_ANIMATION(Electabuzz);
+SINGLE_ANIMATION(Candlemon);
 SINGLE_ANIMATION(Magmar);
 DOUBLE_ANIMATION(Pinsir);
 SINGLE_ANIMATION(Tauros);
@@ -5379,7 +5379,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BULUCOMON]     = sAnims_Bulucomon,
     [SPECIES_BURGERMON]     = sAnims_burgermon,
     [SPECIES_SAMUAGUMON]        = sAnims_samuagumon,
-    [SPECIES_CANDLEMON]  = sAnims_Electabuzz,
+    [SPECIES_CANDLEMON]  = sAnims_Candlemon,
     [SPECIES_CHIKURIMON]      = sAnims_Magmar,
     [SPECIES_TYUTYUMON]      = sAnims_Pinsir,
     [SPECIES_CHUUMON]      = sAnims_Tauros,

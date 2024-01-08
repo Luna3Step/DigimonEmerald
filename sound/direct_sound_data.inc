@@ -883,8 +883,8 @@ Cry_samuagumon::
 	.incbin "sound/direct_sound_samples/cries/samuagumon.bin"
 
 	.align 2
-Cry_Electabuzz::
-	.incbin "sound/direct_sound_samples/cries/electabuzz.bin"
+Cry_Candlemon::
+	.incbin "sound/direct_sound_samples/cries/candlemon.bin"
 
 	.align 2
 Cry_Magmar::
