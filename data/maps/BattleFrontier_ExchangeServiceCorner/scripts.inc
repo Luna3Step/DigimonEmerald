@@ -190,7 +190,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2::
 	waitstate
 	special CloseFrontierExchangeCornerItemIconWindow
 	switch VAR_RESULT
-	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_LaprasDoll
+	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_coronamonDoll
 	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll
 	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_BommonDoll
 	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_ChibomonDoll
@@ -199,11 +199,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2::
 	case MULTI_B_PRESSED, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_LaprasDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_coronamonDoll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmcoronamonDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 128
-	setvar VAR_0x8009, DECOR_LAPRAS_DOLL
+	setvar VAR_0x8009, DECOR_coronamon_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -485,8 +485,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
 	.string "You've chosen the TOTODILE DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the LAPRAS DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmcoronamonDoll:
+	.string "You've chosen the coronamon DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:

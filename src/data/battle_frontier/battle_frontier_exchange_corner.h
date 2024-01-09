@@ -15,7 +15,7 @@ static const u16 sFrontierExchangeCorner_Decor1[] =
 
 static const u16 sFrontierExchangeCorner_Decor2[] =
 {
-    DECOR_LAPRAS_DOLL,
+    DECOR_coronamon_DOLL,
     DECOR_SNORLAX_DOLL,
     DECOR_BOMMON_DOLL,
     DECOR_CHIBOMON_DOLL,

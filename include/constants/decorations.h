@@ -114,7 +114,7 @@
 #define DECOR_WATER_CUSHION    110
 #define DECOR_SNORLAX_DOLL     111
 #define DECOR_BAKOMON_DOLL      112
-#define DECOR_LAPRAS_DOLL      113
+#define DECOR_coronamon_DOLL      113
 #define DECOR_BOMMON_DOLL    114
 #define DECOR_CHIBOMON_DOLL   115
 #define DECOR_curimon_DOLL   116

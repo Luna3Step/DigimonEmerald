@@ -907,8 +907,8 @@ Cry_Commdramon::
 	.incbin "sound/direct_sound_samples/cries/commdramon.bin"
 
 	.align 2
-Cry_Lapras::
-	.incbin "sound/direct_sound_samples/cries/lapras.bin"
+Cry_coronamon::
+	.incbin "sound/direct_sound_samples/cries/coronamon.bin"
 
 	.align 2
 Cry_Ditto::

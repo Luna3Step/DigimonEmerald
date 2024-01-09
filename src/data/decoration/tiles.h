@@ -610,8 +610,8 @@ const u16 DecorGfx_BAKOMON_DOLL[] = {
     OBJ_EVENT_GFX_BIG_BAKOMON_DOLL
 };
 
-const u16 DecorGfx_LAPRAS_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_LAPRAS_DOLL
+const u16 DecorGfx_coronamon_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_coronamon_DOLL
 };
 
 const u16 DecorGfx_BOMMON_DOLL[] = {

@@ -908,12 +908,12 @@ const u32 gMonShinyPalette_Commdramon[] = INCBIN_U32("graphics/pokemon/commdramo
 const u8 gMonIcon_Commdramon[] = INCBIN_U8("graphics/pokemon/commdramon/icon.4bpp");
 const u8 gMonFootprint_Commdramon[] = INCBIN_U8("graphics/pokemon/commdramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/front.4bpp.lz");
-const u32 gMonPalette_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/normal.gbapal.lz");
-const u32 gMonBackPic_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/back.4bpp.lz");
-const u32 gMonShinyPalette_Lapras[] = INCBIN_U32("graphics/pokemon/lapras/shiny.gbapal.lz");
-const u8 gMonIcon_Lapras[] = INCBIN_U8("graphics/pokemon/lapras/icon.4bpp");
-const u8 gMonFootprint_Lapras[] = INCBIN_U8("graphics/pokemon/lapras/footprint.1bpp");
+const u32 gMonStillFrontPic_coronamon[] = INCBIN_U32("graphics/pokemon/coronamon/front.4bpp.lz");
+const u32 gMonPalette_coronamon[] = INCBIN_U32("graphics/pokemon/coronamon/normal.gbapal.lz");
+const u32 gMonBackPic_coronamon[] = INCBIN_U32("graphics/pokemon/coronamon/back.4bpp.lz");
+const u32 gMonShinyPalette_coronamon[] = INCBIN_U32("graphics/pokemon/coronamon/shiny.gbapal.lz");
+const u8 gMonIcon_coronamon[] = INCBIN_U8("graphics/pokemon/coronamon/icon.4bpp");
+const u8 gMonFootprint_coronamon[] = INCBIN_U8("graphics/pokemon/coronamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/front.4bpp.lz");
 const u32 gMonPalette_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/normal.gbapal.lz");
