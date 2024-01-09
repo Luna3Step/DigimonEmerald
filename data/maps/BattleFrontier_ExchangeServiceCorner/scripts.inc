@@ -36,7 +36,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_TryGiveDecor::
 	adddecoration VAR_0x8009
 	special UpdateBattlePointsWindow
 	playse SE_SHOP
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC, MSGBOX_DEFAULT
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_WellSencrabmonPC, MSGBOX_DEFAULT
 	goto_if_eq VAR_TEMP_2, EXCHANGE_CORNER_DECOR1_CLERK, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	end
@@ -87,7 +87,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1::
 	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_TogepiDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_CalumonDoll
 	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_PuyomonDoll
-	case 6, BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll
+	case 6, BattleFrontier_ExchangeServiceCorner_EventScript_CrabmonDoll
 	case 7, BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll
 	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll
 	case 9, BattleFrontier_ExchangeServiceCorner_EventScript_TotodileDoll
@@ -143,11 +143,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PuyomonDoll::
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_CrabmonDoll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCrabmonDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 48
-	setvar VAR_0x8009, DECOR_DITTO_DOLL
+	setvar VAR_0x8009, DECOR_CRABMON_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -469,8 +469,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmPuyomonDoll:
 	.string "You've chosen the PUYOMON DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the DITTO DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmCrabmonDoll:
+	.string "You've chosen the CRABMON DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
@@ -565,7 +565,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
 	.string "You've chosen the LEFTOVERS.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
+BattleFrontier_ExchangeServiceCorner_Text_WellSencrabmonPC:
 	.string "Thank you!\n"
 	.string "We'll send it to your PC at home.$"
 
@@ -645,8 +645,8 @@ BattleFrontier_ExchangeServiceCorner_Text_PuyomonDollDesc::
 	.string "A PUYOMON DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A DITTO DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_CrabmonDollDesc::
+	.string "A CRABMON DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::

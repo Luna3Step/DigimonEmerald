@@ -131,7 +131,7 @@ gCryTable::
 	cry Cry_Hazyagumon
 	cry Cry_Commdramon
 	cry Cry_coronamon
-	cry Cry_Ditto
+	cry Cry_Crabmon
 	cry Cry_Eevee
 	cry Cry_Vaporeon
 	cry Cry_Jolteon
@@ -522,7 +522,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Hazyagumon
 	cry_reverse Cry_Commdramon
 	cry_reverse Cry_coronamon
-	cry_reverse Cry_Ditto
+	cry_reverse Cry_Crabmon
 	cry_reverse Cry_Eevee
 	cry_reverse Cry_Vaporeon
 	cry_reverse Cry_Jolteon

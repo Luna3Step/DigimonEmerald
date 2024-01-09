@@ -934,7 +934,7 @@ static const u8 sLuckyPunchDesc[] = _(
 
 static const u8 sMetalPowderDesc[] = _(
     "A hold item that\n"
-    "raises DITTO's\n"
+    "raises CRABMON's\n"
     "DEFENSE.");
 
 static const u8 sThickClubDesc[] = _(

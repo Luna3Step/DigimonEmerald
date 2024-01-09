@@ -44,7 +44,7 @@
 #define EGG_GROUP_MINERAL       10
 #define EGG_GROUP_AMORPHOUS     11
 #define EGG_GROUP_WATER_2       12
-#define EGG_GROUP_DITTO         13
+#define EGG_GROUP_CRABMON         13
 #define EGG_GROUP_DRAGON        14
 #define EGG_GROUP_UNDISCOVERED  15
 

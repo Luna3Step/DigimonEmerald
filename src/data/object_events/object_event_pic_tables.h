@@ -1477,8 +1477,8 @@ static const struct SpriteFrameImage sPicTable_PuyomonDoll[] = {
     obj_frame_tiles(gObjectEventPic_PuyomonDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_DittoDoll[] = {
-    obj_frame_tiles(gObjectEventPic_DittoDoll),
+static const struct SpriteFrameImage sPicTable_CrabmonDoll[] = {
+    obj_frame_tiles(gObjectEventPic_CrabmonDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_SmoochumDoll[] = {

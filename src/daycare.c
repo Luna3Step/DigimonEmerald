@@ -417,7 +417,7 @@ static s32 GetParentToInheritNature(struct DayCare *daycare)
 {
     u32 species[DAYCARE_MON_COUNT];
     s32 i;
-    s32 dittoCount;
+    s32 crabmonCount;
     s32 parent = -1;
 
     // search for female gender
@@ -427,16 +427,16 @@ static s32 GetParentToInheritNature(struct DayCare *daycare)
             parent = i;
     }
 
-    // search for ditto
-    for (dittoCount = 0, i = 0; i < DAYCARE_MON_COUNT; i++)
+    // search for crabmon
+    for (crabmonCount = 0, i = 0; i < DAYCARE_MON_COUNT; i++)
     {
         species[i] = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES);
         if (species[i] == SPECIES_CRABMON)
-            dittoCount++, parent = i;
+            crabmonCount++, parent = i;
     }
 
-    // coin flip on ...two Dittos
-    if (dittoCount == DAYCARE_MON_COUNT)
+    // coin flip on ...two Crabmons
+    if (crabmonCount == DAYCARE_MON_COUNT)
     {
         if (Random() >= USHRT_MAX / 2)
             parent = 0;
@@ -793,12 +793,12 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
         eggSpecies = SPECIES_BUCCHIEMON_GREEN;
     }
 
-    // Make Ditto the "mother" slot if the other daycare mon is male.
+    // Make Crabmon the "mother" slot if the other daycare mon is male.
     if (species[parentSlots[1]] == SPECIES_CRABMON && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
     {
-        u8 ditto = parentSlots[1];
+        u8 crabmon = parentSlots[1];
         parentSlots[1] = parentSlots[0];
-        parentSlots[0] = ditto;
+        parentSlots[0] = crabmon;
     }
 
     return eggSpecies;
@@ -1038,19 +1038,19 @@ static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
     // check unbreedable egg group
     if (eggGroups[0][0] == EGG_GROUP_UNDISCOVERED || eggGroups[1][0] == EGG_GROUP_UNDISCOVERED)
         return PARENTS_INCOMPATIBLE;
-    // two Ditto can't breed
-    if (eggGroups[0][0] == EGG_GROUP_DITTO && eggGroups[1][0] == EGG_GROUP_DITTO)
+    // two Crabmon can't breed
+    if (eggGroups[0][0] == EGG_GROUP_CRABMON && eggGroups[1][0] == EGG_GROUP_CRABMON)
         return PARENTS_INCOMPATIBLE;
 
-    // one parent is Ditto
-    if (eggGroups[0][0] == EGG_GROUP_DITTO || eggGroups[1][0] == EGG_GROUP_DITTO)
+    // one parent is Crabmon
+    if (eggGroups[0][0] == EGG_GROUP_CRABMON || eggGroups[1][0] == EGG_GROUP_CRABMON)
     {
         if (trainerIds[0] == trainerIds[1])
             return PARENTS_LOW_COMPATIBILITY;
 
         return PARENTS_MED_COMPATIBILITY;
     }
-    // neither parent is Ditto
+    // neither parent is Crabmon
     else
     {
         if (genders[0] == genders[1])

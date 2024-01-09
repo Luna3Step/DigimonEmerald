@@ -150,7 +150,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDol
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SandmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CalumonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PuyomonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CrabmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll;
@@ -399,7 +399,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SANDMON_DOLL] =          &gObjectEventGraphicsInfo_SandmonDoll,
     [OBJ_EVENT_GFX_CALUMON_DOLL] =              &gObjectEventGraphicsInfo_CalumonDoll,
     [OBJ_EVENT_GFX_PUYOMON_DOLL] =            &gObjectEventGraphicsInfo_PuyomonDoll,
-    [OBJ_EVENT_GFX_DITTO_DOLL] =               &gObjectEventGraphicsInfo_DittoDoll,
+    [OBJ_EVENT_GFX_CRABMON_DOLL] =               &gObjectEventGraphicsInfo_CrabmonDoll,
     [OBJ_EVENT_GFX_SMOOCHUM_DOLL] =            &gObjectEventGraphicsInfo_SmoochumDoll,
     [OBJ_EVENT_GFX_TREECKO_DOLL] =             &gObjectEventGraphicsInfo_TreeckoDoll,
     [OBJ_EVENT_GFX_TORCHIC_DOLL] =             &gObjectEventGraphicsInfo_TorchicDoll,

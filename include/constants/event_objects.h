@@ -153,7 +153,7 @@
 #define OBJ_EVENT_GFX_SANDMON_DOLL            149
 #define OBJ_EVENT_GFX_CALUMON_DOLL                150
 #define OBJ_EVENT_GFX_PUYOMON_DOLL              151
-#define OBJ_EVENT_GFX_DITTO_DOLL                 152
+#define OBJ_EVENT_GFX_CRABMON_DOLL                 152
 #define OBJ_EVENT_GFX_SMOOCHUM_DOLL              153
 #define OBJ_EVENT_GFX_TREECKO_DOLL               154
 #define OBJ_EVENT_GFX_TORCHIC_DOLL               155

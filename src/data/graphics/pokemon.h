@@ -915,12 +915,12 @@ const u32 gMonShinyPalette_coronamon[] = INCBIN_U32("graphics/pokemon/coronamon/
 const u8 gMonIcon_coronamon[] = INCBIN_U8("graphics/pokemon/coronamon/icon.4bpp");
 const u8 gMonFootprint_coronamon[] = INCBIN_U8("graphics/pokemon/coronamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/front.4bpp.lz");
-const u32 gMonPalette_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/normal.gbapal.lz");
-const u32 gMonBackPic_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/back.4bpp.lz");
-const u32 gMonShinyPalette_Ditto[] = INCBIN_U32("graphics/pokemon/ditto/shiny.gbapal.lz");
-const u8 gMonIcon_Ditto[] = INCBIN_U8("graphics/pokemon/ditto/icon.4bpp");
-const u8 gMonFootprint_Ditto[] = INCBIN_U8("graphics/pokemon/ditto/footprint.1bpp");
+const u32 gMonStillFrontPic_Crabmon[] = INCBIN_U32("graphics/pokemon/crabmon/front.4bpp.lz");
+const u32 gMonPalette_Crabmon[] = INCBIN_U32("graphics/pokemon/crabmon/normal.gbapal.lz");
+const u32 gMonBackPic_Crabmon[] = INCBIN_U32("graphics/pokemon/crabmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Crabmon[] = INCBIN_U32("graphics/pokemon/crabmon/shiny.gbapal.lz");
+const u8 gMonIcon_Crabmon[] = INCBIN_U8("graphics/pokemon/crabmon/icon.4bpp");
+const u8 gMonFootprint_Crabmon[] = INCBIN_U8("graphics/pokemon/crabmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Eevee[] = INCBIN_U32("graphics/pokemon/eevee/front.4bpp.lz");
 const u32 gMonPalette_Eevee[] = INCBIN_U32("graphics/pokemon/eevee/normal.gbapal.lz");

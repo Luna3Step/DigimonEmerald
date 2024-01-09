@@ -911,8 +911,8 @@ Cry_coronamon::
 	.incbin "sound/direct_sound_samples/cries/coronamon.bin"
 
 	.align 2
-Cry_Ditto::
-	.incbin "sound/direct_sound_samples/cries/ditto.bin"
+Cry_Crabmon::
+	.incbin "sound/direct_sound_samples/cries/crabmon.bin"
 
 	.align 2
 Cry_Eevee::
