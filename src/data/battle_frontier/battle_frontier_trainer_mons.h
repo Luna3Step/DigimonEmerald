@@ -5702,7 +5702,7 @@
     -1
 
 // Only used by one Beauty
-#define FRONTIER_MONS_EEVEELUTIONS \
+#define FRONTIER_MONS_CRABMON_XLUTIONS \
     FRONTIER_MON_CUTEMON_1,    \
     FRONTIER_MON_DAMEMON_1,     \
     FRONTIER_MON_DEMIDEVMON_1,     \
@@ -7350,7 +7350,7 @@ const u16 gBattleFrontierTrainerMons_Paige[] =
 
 const u16 gBattleFrontierTrainerMons_Anya[] =
 {
-    FRONTIER_MONS_EEVEELUTIONS
+    FRONTIER_MONS_CRABMON_XLUTIONS
 };
 
 const u16 gBattleFrontierTrainerMons_Dawn[] =

@@ -915,8 +915,8 @@ Cry_Crabmon::
 	.incbin "sound/direct_sound_samples/cries/crabmon.bin"
 
 	.align 2
-Cry_Eevee::
-	.incbin "sound/direct_sound_samples/cries/eevee.bin"
+Cry_Crabmon_x::
+	.incbin "sound/direct_sound_samples/cries/crabmon_x.bin"
 
 	.align 2
 Cry_Vaporeon::
