@@ -133,7 +133,7 @@ gCryTable::
 	cry Cry_coronamon
 	cry Cry_Crabmon
 	cry Cry_Crabmon_x
-	cry Cry_Vaporeon
+	cry Cry_Cutemon
 	cry Cry_Jolteon
 	cry Cry_Flareon
 	cry Cry_Porygon
@@ -524,7 +524,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_coronamon
 	cry_reverse Cry_Crabmon
 	cry_reverse Cry_Crabmon_x
-	cry_reverse Cry_Vaporeon
+	cry_reverse Cry_Cutemon
 	cry_reverse Cry_Jolteon
 	cry_reverse Cry_Flareon
 	cry_reverse Cry_Porygon
