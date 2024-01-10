@@ -936,12 +936,12 @@ const u32 gMonShinyPalette_Cutemon[] = INCBIN_U32("graphics/pokemon/cutemon/shin
 const u8 gMonIcon_Cutemon[] = INCBIN_U8("graphics/pokemon/cutemon/icon.4bpp");
 const u8 gMonFootprint_Cutemon[] = INCBIN_U8("graphics/pokemon/cutemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Jolteon[] = INCBIN_U32("graphics/pokemon/jolteon/front.4bpp.lz");
-const u32 gMonPalette_Jolteon[] = INCBIN_U32("graphics/pokemon/jolteon/normal.gbapal.lz");
-const u32 gMonBackPic_Jolteon[] = INCBIN_U32("graphics/pokemon/jolteon/back.4bpp.lz");
-const u32 gMonShinyPalette_Jolteon[] = INCBIN_U32("graphics/pokemon/jolteon/shiny.gbapal.lz");
-const u8 gMonIcon_Jolteon[] = INCBIN_U8("graphics/pokemon/jolteon/icon.4bpp");
-const u8 gMonFootprint_Jolteon[] = INCBIN_U8("graphics/pokemon/jolteon/footprint.1bpp");
+const u32 gMonStillFrontPic_Damemon[] = INCBIN_U32("graphics/pokemon/damemon/front.4bpp.lz");
+const u32 gMonPalette_Damemon[] = INCBIN_U32("graphics/pokemon/damemon/normal.gbapal.lz");
+const u32 gMonBackPic_Damemon[] = INCBIN_U32("graphics/pokemon/damemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Damemon[] = INCBIN_U32("graphics/pokemon/damemon/shiny.gbapal.lz");
+const u8 gMonIcon_Damemon[] = INCBIN_U8("graphics/pokemon/damemon/icon.4bpp");
+const u8 gMonFootprint_Damemon[] = INCBIN_U8("graphics/pokemon/damemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/front.4bpp.lz");
 const u32 gMonPalette_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/normal.gbapal.lz");

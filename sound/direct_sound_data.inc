@@ -923,8 +923,8 @@ Cry_Cutemon::
 	.incbin "sound/direct_sound_samples/cries/cutemon.bin"
 
 	.align 2
-Cry_Jolteon::
-	.incbin "sound/direct_sound_samples/cries/jolteon.bin"
+Cry_Damemon::
+	.incbin "sound/direct_sound_samples/cries/damemon.bin"
 
 	.align 2
 Cry_Flareon::
