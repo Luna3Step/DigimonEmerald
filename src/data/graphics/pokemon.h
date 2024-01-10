@@ -957,12 +957,12 @@ const u32 gMonShinyPalette_Dokunemon[] = INCBIN_U32("graphics/pokemon/dokunemon/
 const u8 gMonIcon_Dokunemon[] = INCBIN_U8("graphics/pokemon/dokunemon/icon.4bpp");
 const u8 gMonFootprint_Dokunemon[] = INCBIN_U8("graphics/pokemon/dokunemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/front.4bpp.lz");
-const u32 gMonPalette_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/normal.gbapal.lz");
-const u32 gMonBackPic_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/back.4bpp.lz");
-const u32 gMonShinyPalette_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/shiny.gbapal.lz");
-const u8 gMonIcon_Omanyte[] = INCBIN_U8("graphics/pokemon/omanyte/icon.4bpp");
-const u8 gMonFootprint_Omanyte[] = INCBIN_U8("graphics/pokemon/omanyte/footprint.1bpp");
+const u32 gMonStillFrontPic_Dondokomon[] = INCBIN_U32("graphics/pokemon/dondokomon/front.4bpp.lz");
+const u32 gMonPalette_Dondokomon[] = INCBIN_U32("graphics/pokemon/dondokomon/normal.gbapal.lz");
+const u32 gMonBackPic_Dondokomon[] = INCBIN_U32("graphics/pokemon/dondokomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dondokomon[] = INCBIN_U32("graphics/pokemon/dondokomon/shiny.gbapal.lz");
+const u8 gMonIcon_Dondokomon[] = INCBIN_U8("graphics/pokemon/dondokomon/icon.4bpp");
+const u8 gMonFootprint_Dondokomon[] = INCBIN_U8("graphics/pokemon/dondokomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/front.4bpp.lz");
 const u32 gMonPalette_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/normal.gbapal.lz");
