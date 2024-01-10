@@ -135,7 +135,7 @@ gCryTable::
 	cry Cry_Crabmon_x
 	cry Cry_Cutemon
 	cry Cry_Damemon
-	cry Cry_Flareon
+	cry Cry_Demidevmon
 	cry Cry_Porygon
 	cry Cry_Omanyte
 	cry Cry_Omastar
@@ -526,7 +526,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Crabmon_x
 	cry_reverse Cry_Cutemon
 	cry_reverse Cry_Damemon
-	cry_reverse Cry_Flareon
+	cry_reverse Cry_Demidevmon
 	cry_reverse Cry_Porygon
 	cry_reverse Cry_Omanyte
 	cry_reverse Cry_Omastar

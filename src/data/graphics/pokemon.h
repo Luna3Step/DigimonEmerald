@@ -943,12 +943,12 @@ const u32 gMonShinyPalette_Damemon[] = INCBIN_U32("graphics/pokemon/damemon/shin
 const u8 gMonIcon_Damemon[] = INCBIN_U8("graphics/pokemon/damemon/icon.4bpp");
 const u8 gMonFootprint_Damemon[] = INCBIN_U8("graphics/pokemon/damemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/front.4bpp.lz");
-const u32 gMonPalette_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/normal.gbapal.lz");
-const u32 gMonBackPic_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/back.4bpp.lz");
-const u32 gMonShinyPalette_Flareon[] = INCBIN_U32("graphics/pokemon/flareon/shiny.gbapal.lz");
-const u8 gMonIcon_Flareon[] = INCBIN_U8("graphics/pokemon/flareon/icon.4bpp");
-const u8 gMonFootprint_Flareon[] = INCBIN_U8("graphics/pokemon/flareon/footprint.1bpp");
+const u32 gMonStillFrontPic_Demidevmon[] = INCBIN_U32("graphics/pokemon/demidevmon/front.4bpp.lz");
+const u32 gMonPalette_Demidevmon[] = INCBIN_U32("graphics/pokemon/demidevmon/normal.gbapal.lz");
+const u32 gMonBackPic_Demidevmon[] = INCBIN_U32("graphics/pokemon/demidevmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Demidevmon[] = INCBIN_U32("graphics/pokemon/demidevmon/shiny.gbapal.lz");
+const u8 gMonIcon_Demidevmon[] = INCBIN_U8("graphics/pokemon/demidevmon/icon.4bpp");
+const u8 gMonFootprint_Demidevmon[] = INCBIN_U8("graphics/pokemon/demidevmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/front.4bpp.lz");
 const u32 gMonPalette_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/normal.gbapal.lz");
