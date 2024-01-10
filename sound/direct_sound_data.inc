@@ -931,8 +931,8 @@ Cry_Demidevmon::
 	.incbin "sound/direct_sound_samples/cries/demidevmon.bin"
 
 	.align 2
-Cry_Porygon::
-	.incbin "sound/direct_sound_samples/cries/porygon.bin"
+Cry_Dokunemon::
+	.incbin "sound/direct_sound_samples/cries/dokunemon.bin"
 
 	.align 2
 Cry_Omanyte::

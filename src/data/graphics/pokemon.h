@@ -950,12 +950,12 @@ const u32 gMonShinyPalette_Demidevmon[] = INCBIN_U32("graphics/pokemon/demidevmo
 const u8 gMonIcon_Demidevmon[] = INCBIN_U8("graphics/pokemon/demidevmon/icon.4bpp");
 const u8 gMonFootprint_Demidevmon[] = INCBIN_U8("graphics/pokemon/demidevmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/front.4bpp.lz");
-const u32 gMonPalette_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/normal.gbapal.lz");
-const u32 gMonBackPic_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/back.4bpp.lz");
-const u32 gMonShinyPalette_Porygon[] = INCBIN_U32("graphics/pokemon/porygon/shiny.gbapal.lz");
-const u8 gMonIcon_Porygon[] = INCBIN_U8("graphics/pokemon/porygon/icon.4bpp");
-const u8 gMonFootprint_Porygon[] = INCBIN_U8("graphics/pokemon/porygon/footprint.1bpp");
+const u32 gMonStillFrontPic_Dokunemon[] = INCBIN_U32("graphics/pokemon/dokunemon/front.4bpp.lz");
+const u32 gMonPalette_Dokunemon[] = INCBIN_U32("graphics/pokemon/dokunemon/normal.gbapal.lz");
+const u32 gMonBackPic_Dokunemon[] = INCBIN_U32("graphics/pokemon/dokunemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dokunemon[] = INCBIN_U32("graphics/pokemon/dokunemon/shiny.gbapal.lz");
+const u8 gMonIcon_Dokunemon[] = INCBIN_U8("graphics/pokemon/dokunemon/icon.4bpp");
+const u8 gMonFootprint_Dokunemon[] = INCBIN_U8("graphics/pokemon/dokunemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/front.4bpp.lz");
 const u32 gMonPalette_Omanyte[] = INCBIN_U32("graphics/pokemon/omanyte/normal.gbapal.lz");
