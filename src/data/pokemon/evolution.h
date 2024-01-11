@@ -312,7 +312,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                            {EVO_DEFENSE, 15, SPECIES_GIZUMON},
                            {EVO_SPATTACK, 18, SPECIES_PETITMAMON},
                            {EVO_SPEED, 16, SPECIES_SOUNBRDMON}},
-    [SPECIES_YOKOMON]  = {{EVO_LEVEL, 14, SPECIES_BIYOMON}},
+    [SPECIES_YOKOMON]  = {{EVO_LEVEL, 14, SPECIES_BIYOMON},
                          {EVO_DEFENSE, 15, SPECIES_SPARROWMON},
                          {EVO_HEALTH, 32, SPECIES_MODBETAMON},
                          {EVO_SPATTACK, 15, SPECIES_OTAMAMON_RED},
