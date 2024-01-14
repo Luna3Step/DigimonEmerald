@@ -504,6 +504,7 @@ static const u16 sFrimonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 5, MOVE_WRAP),
     LEVEL_UP_MOVE( 9, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(11, MOVE_HEADBUTT),
+    LEVEL_UP_MOVE(14, MOVE_TAKE_DOWN),
     LEVEL_UP_END
 };
 
