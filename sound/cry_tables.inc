@@ -152,7 +152,7 @@ gCryTable::
 	cry Cry_Agumon_fake_expert
 	cry Cry_Falcomon
 	cry Cry_Falcomon_06
-	cry Cry_Bayleef
+	cry Cry_Fanbeemon
 	cry Cry_Meganium
 	cry Cry_Cyndaquil
 	cry Cry_Quilava
@@ -543,7 +543,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Agumon_fake_expert
 	cry_reverse Cry_Falcomon
 	cry_reverse Cry_Falcomon_06
-	cry_reverse Cry_Bayleef
+	cry_reverse Cry_Fanbeemon
 	cry_reverse Cry_Meganium
 	cry_reverse Cry_Cyndaquil
 	cry_reverse Cry_Quilava

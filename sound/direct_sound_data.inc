@@ -995,8 +995,8 @@ Cry_Falcomon_06::
 	.incbin "sound/direct_sound_samples/cries/falcomon_06.bin"
 
 	.align 2
-Cry_Bayleef::
-	.incbin "sound/direct_sound_samples/cries/bayleef.bin"
+Cry_Fanbeemon::
+	.incbin "sound/direct_sound_samples/cries/fanbeemon.bin"
 
 	.align 2
 Cry_Meganium::

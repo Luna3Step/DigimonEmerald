@@ -1062,12 +1062,12 @@ const u32 gMonShinyPalette_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon
 const u8 gMonIcon_Falcomon_06[] = INCBIN_U8("graphics/pokemon/falcomon_06/icon.4bpp");
 const u8 gMonFootprint_Falcomon_06[] = INCBIN_U8("graphics/pokemon/falcomon_06/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/front.4bpp.lz");
-const u32 gMonPalette_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/normal.gbapal.lz");
-const u32 gMonBackPic_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/back.4bpp.lz");
-const u32 gMonShinyPalette_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/shiny.gbapal.lz");
-const u8 gMonIcon_Bayleef[] = INCBIN_U8("graphics/pokemon/bayleef/icon.4bpp");
-const u8 gMonFootprint_Bayleef[] = INCBIN_U8("graphics/pokemon/bayleef/footprint.1bpp");
+const u32 gMonStillFrontPic_Fanbeemon[] = INCBIN_U32("graphics/pokemon/fanbeemon/front.4bpp.lz");
+const u32 gMonPalette_Fanbeemon[] = INCBIN_U32("graphics/pokemon/fanbeemon/normal.gbapal.lz");
+const u32 gMonBackPic_Fanbeemon[] = INCBIN_U32("graphics/pokemon/fanbeemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Fanbeemon[] = INCBIN_U32("graphics/pokemon/fanbeemon/shiny.gbapal.lz");
+const u8 gMonIcon_Fanbeemon[] = INCBIN_U8("graphics/pokemon/fanbeemon/icon.4bpp");
+const u8 gMonFootprint_Fanbeemon[] = INCBIN_U8("graphics/pokemon/fanbeemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Meganium[] = INCBIN_U32("graphics/pokemon/meganium/front.4bpp.lz");
 const u32 gMonPalette_Meganium[] = INCBIN_U32("graphics/pokemon/meganium/normal.gbapal.lz");
