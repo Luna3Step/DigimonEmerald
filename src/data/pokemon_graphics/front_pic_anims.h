@@ -1781,7 +1781,7 @@ static const union AnimCmd sAnim_Espimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Mewtwo_1[] =
+static const union AnimCmd sAnim_Agumon_fake_expert_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -4972,7 +4972,7 @@ SINGLE_ANIMATION(Ekakimon);
 SINGLE_ANIMATION(Elecmon);
 SINGLE_ANIMATION(Elecmon_violet);
 SINGLE_ANIMATION(Espimon);
-SINGLE_ANIMATION(Mewtwo);
+SINGLE_ANIMATION(Agumon_fake_expert);
 SINGLE_ANIMATION(Mew);
 SINGLE_ANIMATION(Chikorita);
 SINGLE_ANIMATION(Bayleef);
@@ -5404,7 +5404,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ELECMON]     = sAnims_Elecmon,
     [SPECIES_ELECMON_VIOLET]   = sAnims_Elecmon_violet,
     [SPECIES_ESPIMON]   = sAnims_Espimon,
-    [SPECIES_AGUMON_FAKE_EXPERT]      = sAnims_Mewtwo,
+    [SPECIES_AGUMON_FAKE_EXPERT]      = sAnims_Agumon_fake_expert,
     [SPECIES_FALCOMON]         = sAnims_Mew,
     [SPECIES_FALCOMON_06]   = sAnims_Chikorita,
     [SPECIES_FANBEEMON]     = sAnims_Bayleef,

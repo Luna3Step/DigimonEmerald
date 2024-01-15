@@ -553,7 +553,7 @@ gSongTable::
 	song mus_rg_sevii_67, 0, 0
 	song mus_rg_poke_flute, 2, 2
 	song mus_rg_vs_deoxys, 0, 0
-	song mus_rg_vs_mewtwo, 0, 0
+	song mus_rg_vs_agumon_fake_expert, 0, 0
 	song mus_rg_vs_legend, 0, 0
 	song mus_rg_encounter_gym_leader, 0, 0
 	song mus_rg_encounter_deoxys, 0, 0

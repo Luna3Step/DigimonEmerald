@@ -983,8 +983,8 @@ Cry_Espimon::
 	.incbin "sound/direct_sound_samples/cries/espimon.bin"
 
 	.align 2
-Cry_Mewtwo::
-	.incbin "sound/direct_sound_samples/cries/mewtwo.bin"
+Cry_Agumon_fake_expert::
+	.incbin "sound/direct_sound_samples/cries/agumon_fake_expert.bin"
 
 	.align 2
 Cry_Mew::

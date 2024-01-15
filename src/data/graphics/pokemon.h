@@ -1041,12 +1041,12 @@ const u32 gMonShinyPalette_Espimon[] = INCBIN_U32("graphics/pokemon/espimon/shin
 const u8 gMonIcon_Espimon[] = INCBIN_U8("graphics/pokemon/espimon/icon.4bpp");
 const u8 gMonFootprint_Espimon[] = INCBIN_U8("graphics/pokemon/espimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Mewtwo[] = INCBIN_U32("graphics/pokemon/mewtwo/front.4bpp.lz");
-const u32 gMonPalette_Mewtwo[] = INCBIN_U32("graphics/pokemon/mewtwo/normal.gbapal.lz");
-const u32 gMonBackPic_Mewtwo[] = INCBIN_U32("graphics/pokemon/mewtwo/back.4bpp.lz");
-const u32 gMonShinyPalette_Mewtwo[] = INCBIN_U32("graphics/pokemon/mewtwo/shiny.gbapal.lz");
-const u8 gMonIcon_Mewtwo[] = INCBIN_U8("graphics/pokemon/mewtwo/icon.4bpp");
-const u8 gMonFootprint_Mewtwo[] = INCBIN_U8("graphics/pokemon/mewtwo/footprint.1bpp");
+const u32 gMonStillFrontPic_Agumon_fake_expert[] = INCBIN_U32("graphics/pokemon/agumon_fake_expert/front.4bpp.lz");
+const u32 gMonPalette_Agumon_fake_expert[] = INCBIN_U32("graphics/pokemon/agumon_fake_expert/normal.gbapal.lz");
+const u32 gMonBackPic_Agumon_fake_expert[] = INCBIN_U32("graphics/pokemon/agumon_fake_expert/back.4bpp.lz");
+const u32 gMonShinyPalette_Agumon_fake_expert[] = INCBIN_U32("graphics/pokemon/agumon_fake_expert/shiny.gbapal.lz");
+const u8 gMonIcon_Agumon_fake_expert[] = INCBIN_U8("graphics/pokemon/agumon_fake_expert/icon.4bpp");
+const u8 gMonFootprint_Agumon_fake_expert[] = INCBIN_U8("graphics/pokemon/agumon_fake_expert/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Mew[] = INCBIN_U32("graphics/pokemon/mew/front.4bpp.lz");
 const u32 gMonPalette_Mew[] = INCBIN_U32("graphics/pokemon/mew/normal.gbapal.lz");
