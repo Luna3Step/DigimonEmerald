@@ -1020,12 +1020,12 @@ const u32 gMonShinyPalette_Ekakimon[] = INCBIN_U32("graphics/pokemon/ekakimon/sh
 const u8 gMonIcon_Ekakimon[] = INCBIN_U8("graphics/pokemon/ekakimon/icon.4bpp");
 const u8 gMonFootprint_Ekakimon[] = INCBIN_U8("graphics/pokemon/ekakimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Dratini[] = INCBIN_U32("graphics/pokemon/dratini/front.4bpp.lz");
-const u32 gMonPalette_Dratini[] = INCBIN_U32("graphics/pokemon/dratini/normal.gbapal.lz");
-const u32 gMonBackPic_Dratini[] = INCBIN_U32("graphics/pokemon/dratini/back.4bpp.lz");
-const u32 gMonShinyPalette_Dratini[] = INCBIN_U32("graphics/pokemon/dratini/shiny.gbapal.lz");
-const u8 gMonIcon_Dratini[] = INCBIN_U8("graphics/pokemon/dratini/icon.4bpp");
-const u8 gMonFootprint_Dratini[] = INCBIN_U8("graphics/pokemon/dratini/footprint.1bpp");
+const u32 gMonStillFrontPic_Elecmon[] = INCBIN_U32("graphics/pokemon/elecmon/front.4bpp.lz");
+const u32 gMonPalette_Elecmon[] = INCBIN_U32("graphics/pokemon/elecmon/normal.gbapal.lz");
+const u32 gMonBackPic_Elecmon[] = INCBIN_U32("graphics/pokemon/elecmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Elecmon[] = INCBIN_U32("graphics/pokemon/elecmon/shiny.gbapal.lz");
+const u8 gMonIcon_Elecmon[] = INCBIN_U8("graphics/pokemon/elecmon/icon.4bpp");
+const u8 gMonFootprint_Elecmon[] = INCBIN_U8("graphics/pokemon/elecmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Dragonair[] = INCBIN_U32("graphics/pokemon/dragonair/front.4bpp.lz");
 const u32 gMonPalette_Dragonair[] = INCBIN_U32("graphics/pokemon/dragonair/normal.gbapal.lz");

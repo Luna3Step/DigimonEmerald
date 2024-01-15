@@ -971,8 +971,8 @@ Cry_Ekakimon::
 	.incbin "sound/direct_sound_samples/cries/ekakimon.bin"
 
 	.align 2
-Cry_Dratini::
-	.incbin "sound/direct_sound_samples/cries/dratini.bin"
+Cry_Elecmon::
+	.incbin "sound/direct_sound_samples/cries/elecmon.bin"
 
 	.align 2
 Cry_Dragonair::
