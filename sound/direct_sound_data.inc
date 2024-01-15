@@ -939,8 +939,8 @@ Cry_Dondokomon::
 	.incbin "sound/direct_sound_samples/cries/dondokomon.bin"
 
 	.align 2
-Cry_Omastar::
-	.incbin "sound/direct_sound_samples/cries/omastar.bin"
+Cry_Dorumon::
+	.incbin "sound/direct_sound_samples/cries/dorumon.bin"
 
 	.align 2
 Cry_Kabuto::

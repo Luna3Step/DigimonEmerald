@@ -139,7 +139,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(DEMIDEVMON,       gMonStillFrontPic_Demidevmon),
     SPECIES_SPRITE(DOKUNEMON,       gMonStillFrontPic_Dokunemon),
     SPECIES_SPRITE(DONDOKOMON,       gMonStillFrontPic_Dondokomon),
-    SPECIES_SPRITE(DORUMON,       gMonStillFrontPic_Omastar),
+    SPECIES_SPRITE(DORUMON,       gMonStillFrontPic_Dorumon),
     SPECIES_SPRITE(DOTAGUMON,        gMonStillFrontPic_Kabuto),
     SPECIES_SPRITE(DOTFALCMON,      gMonStillFrontPic_Kabutops),
     SPECIES_SPRITE(DRACMON,    gMonStillFrontPic_Aerodactyl),

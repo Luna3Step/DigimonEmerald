@@ -964,12 +964,12 @@ const u32 gMonShinyPalette_Dondokomon[] = INCBIN_U32("graphics/pokemon/dondokomo
 const u8 gMonIcon_Dondokomon[] = INCBIN_U8("graphics/pokemon/dondokomon/icon.4bpp");
 const u8 gMonFootprint_Dondokomon[] = INCBIN_U8("graphics/pokemon/dondokomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/front.4bpp.lz");
-const u32 gMonPalette_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/normal.gbapal.lz");
-const u32 gMonBackPic_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/back.4bpp.lz");
-const u32 gMonShinyPalette_Omastar[] = INCBIN_U32("graphics/pokemon/omastar/shiny.gbapal.lz");
-const u8 gMonIcon_Omastar[] = INCBIN_U8("graphics/pokemon/omastar/icon.4bpp");
-const u8 gMonFootprint_Omastar[] = INCBIN_U8("graphics/pokemon/omastar/footprint.1bpp");
+const u32 gMonStillFrontPic_Dorumon[] = INCBIN_U32("graphics/pokemon/dorumon/front.4bpp.lz");
+const u32 gMonPalette_Dorumon[] = INCBIN_U32("graphics/pokemon/dorumon/normal.gbapal.lz");
+const u32 gMonBackPic_Dorumon[] = INCBIN_U32("graphics/pokemon/dorumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dorumon[] = INCBIN_U32("graphics/pokemon/dorumon/shiny.gbapal.lz");
+const u8 gMonIcon_Dorumon[] = INCBIN_U8("graphics/pokemon/dorumon/icon.4bpp");
+const u8 gMonFootprint_Dorumon[] = INCBIN_U8("graphics/pokemon/dorumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/front.4bpp.lz");
 const u32 gMonPalette_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/normal.gbapal.lz");
