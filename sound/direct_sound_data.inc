@@ -943,8 +943,8 @@ Cry_Dorumon::
 	.incbin "sound/direct_sound_samples/cries/dorumon.bin"
 
 	.align 2
-Cry_Kabuto::
-	.incbin "sound/direct_sound_samples/cries/kabuto.bin"
+Cry_Dotagumon::
+	.incbin "sound/direct_sound_samples/cries/dotagumon.bin"
 
 	.align 2
 Cry_Kabutops::

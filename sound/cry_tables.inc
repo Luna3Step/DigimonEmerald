@@ -139,7 +139,7 @@ gCryTable::
 	cry Cry_Dokunemon
 	cry Cry_Dondokomon
 	cry Cry_Dorumon
-	cry Cry_Kabuto
+	cry Cry_Dotagumon
 	cry Cry_Kabutops
 	cry Cry_Aerodactyl
 	cry Cry_Snorlax
@@ -530,7 +530,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Dokunemon
 	cry_reverse Cry_Dondokomon
 	cry_reverse Cry_Dorumon
-	cry_reverse Cry_Kabuto
+	cry_reverse Cry_Dotagumon
 	cry_reverse Cry_Kabutops
 	cry_reverse Cry_Aerodactyl
 	cry_reverse Cry_Snorlax

@@ -971,12 +971,12 @@ const u32 gMonShinyPalette_Dorumon[] = INCBIN_U32("graphics/pokemon/dorumon/shin
 const u8 gMonIcon_Dorumon[] = INCBIN_U8("graphics/pokemon/dorumon/icon.4bpp");
 const u8 gMonFootprint_Dorumon[] = INCBIN_U8("graphics/pokemon/dorumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/front.4bpp.lz");
-const u32 gMonPalette_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/normal.gbapal.lz");
-const u32 gMonBackPic_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/back.4bpp.lz");
-const u32 gMonShinyPalette_Kabuto[] = INCBIN_U32("graphics/pokemon/kabuto/shiny.gbapal.lz");
-const u8 gMonIcon_Kabuto[] = INCBIN_U8("graphics/pokemon/kabuto/icon.4bpp");
-const u8 gMonFootprint_Kabuto[] = INCBIN_U8("graphics/pokemon/kabuto/footprint.1bpp");
+const u32 gMonStillFrontPic_Dotagumon[] = INCBIN_U32("graphics/pokemon/dotagumon/front.4bpp.lz");
+const u32 gMonPalette_Dotagumon[] = INCBIN_U32("graphics/pokemon/dotagumon/normal.gbapal.lz");
+const u32 gMonBackPic_Dotagumon[] = INCBIN_U32("graphics/pokemon/dotagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dotagumon[] = INCBIN_U32("graphics/pokemon/dotagumon/shiny.gbapal.lz");
+const u8 gMonIcon_Dotagumon[] = INCBIN_U8("graphics/pokemon/dotagumon/icon.4bpp");
+const u8 gMonFootprint_Dotagumon[] = INCBIN_U8("graphics/pokemon/dotagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/front.4bpp.lz");
 const u32 gMonPalette_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/normal.gbapal.lz");
