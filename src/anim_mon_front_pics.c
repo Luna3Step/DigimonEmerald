@@ -154,7 +154,7 @@ const u32 gMonFrontPic_Espimon[] = INCBIN_U32("graphics/pokemon/espimon/anim_fro
 const u32 gMonFrontPic_Agumon_fake_expert[] = INCBIN_U32("graphics/pokemon/agumon_fake_expert/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Falcomon[] = INCBIN_U32("graphics/pokemon/falcomon/anim_front.4bpp.lz");
 
-const u32 gMonFrontPic_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Meganium[] = INCBIN_U32("graphics/pokemon/meganium/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/anim_front.4bpp.lz");

@@ -1055,12 +1055,12 @@ const u32 gMonShinyPalette_Falcomon[] = INCBIN_U32("graphics/pokemon/falcomon/sh
 const u8 gMonIcon_Falcomon[] = INCBIN_U8("graphics/pokemon/falcomon/icon.4bpp");
 const u8 gMonFootprint_Falcomon[] = INCBIN_U8("graphics/pokemon/falcomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/front.4bpp.lz");
-const u32 gMonPalette_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/normal.gbapal.lz");
-const u32 gMonBackPic_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/back.4bpp.lz");
-const u32 gMonShinyPalette_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/shiny.gbapal.lz");
-const u8 gMonIcon_Chikorita[] = INCBIN_U8("graphics/pokemon/chikorita/icon.4bpp");
-const u8 gMonFootprint_Chikorita[] = INCBIN_U8("graphics/pokemon/chikorita/footprint.1bpp");
+const u32 gMonStillFrontPic_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/front.4bpp.lz");
+const u32 gMonPalette_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/normal.gbapal.lz");
+const u32 gMonBackPic_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/back.4bpp.lz");
+const u32 gMonShinyPalette_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/shiny.gbapal.lz");
+const u8 gMonIcon_Falcomon_06[] = INCBIN_U8("graphics/pokemon/falcomon_06/icon.4bpp");
+const u8 gMonFootprint_Falcomon_06[] = INCBIN_U8("graphics/pokemon/falcomon_06/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/front.4bpp.lz");
 const u32 gMonPalette_Bayleef[] = INCBIN_U32("graphics/pokemon/bayleef/normal.gbapal.lz");

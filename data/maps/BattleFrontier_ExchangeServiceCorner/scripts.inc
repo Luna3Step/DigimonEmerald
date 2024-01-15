@@ -89,7 +89,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1::
 	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_PuyomonDoll
 	case 6, BattleFrontier_ExchangeServiceCorner_EventScript_CrabmonDoll
 	case 7, BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll
-	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll
+	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_Falcomon_06Doll
 	case 9, BattleFrontier_ExchangeServiceCorner_EventScript_TotodileDoll
 	case 10, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
 	case MULTI_B_PRESSED, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
@@ -159,11 +159,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll::
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll::
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_Falcomon_06Doll::
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmFalcomon_06Doll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 80
-	setvar VAR_0x8009, DECOR_CHIKORITA_DOLL
+	setvar VAR_0x8009, DECOR_FALCOMON_06_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -477,8 +477,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
 	.string "You've chosen the CYNDAQUIL DOLL.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the CHIKORITA DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmFalcomon_06Doll:
+	.string "You've chosen the FALCOMON06 DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
@@ -653,8 +653,8 @@ BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
 	.string "A CYNDAQUIL DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A CHIKORITA DOLL.\n"
+BattleFrontier_ExchangeServiceCorner_Text_Falcomon_06DollDesc::
+	.string "A FALCOMON06 DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::

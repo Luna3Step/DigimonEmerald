@@ -1796,7 +1796,7 @@ static const union AnimCmd sAnim_Falcomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Chikorita_1[] =
+static const union AnimCmd sAnim_Falcomon_06_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -4974,7 +4974,7 @@ SINGLE_ANIMATION(Elecmon_violet);
 SINGLE_ANIMATION(Espimon);
 SINGLE_ANIMATION(Agumon_fake_expert);
 SINGLE_ANIMATION(Falcomon);
-SINGLE_ANIMATION(Chikorita);
+SINGLE_ANIMATION(Falcomon_06);
 SINGLE_ANIMATION(Bayleef);
 SINGLE_ANIMATION(Meganium);
 SINGLE_ANIMATION(Cyndaquil);
@@ -5406,7 +5406,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ESPIMON]   = sAnims_Espimon,
     [SPECIES_AGUMON_FAKE_EXPERT]      = sAnims_Agumon_fake_expert,
     [SPECIES_FALCOMON]         = sAnims_Falcomon,
-    [SPECIES_FALCOMON_06]   = sAnims_Chikorita,
+    [SPECIES_FALCOMON_06]   = sAnims_Falcomon_06,
     [SPECIES_FANBEEMON]     = sAnims_Bayleef,
     [SPECIES_FLAMEMON]    = sAnims_Meganium,
     [SPECIES_FLORAMON]   = sAnims_Cyndaquil,
