@@ -963,8 +963,8 @@ Cry_Dracomon_x::
 	.incbin "sound/direct_sound_samples/cries/dracomon_x.bin"
 
 	.align 2
-Cry_Zapdos::
-	.incbin "sound/direct_sound_samples/cries/zapdos.bin"
+Cry_Ebiburgmon::
+	.incbin "sound/direct_sound_samples/cries/ebiburgmon.bin"
 
 	.align 2
 Cry_Moltres::
