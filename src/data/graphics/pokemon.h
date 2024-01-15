@@ -978,12 +978,12 @@ const u32 gMonShinyPalette_Dotagumon[] = INCBIN_U32("graphics/pokemon/dotagumon/
 const u8 gMonIcon_Dotagumon[] = INCBIN_U8("graphics/pokemon/dotagumon/icon.4bpp");
 const u8 gMonFootprint_Dotagumon[] = INCBIN_U8("graphics/pokemon/dotagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/front.4bpp.lz");
-const u32 gMonPalette_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/normal.gbapal.lz");
-const u32 gMonBackPic_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/back.4bpp.lz");
-const u32 gMonShinyPalette_Kabutops[] = INCBIN_U32("graphics/pokemon/kabutops/shiny.gbapal.lz");
-const u8 gMonIcon_Kabutops[] = INCBIN_U8("graphics/pokemon/kabutops/icon.4bpp");
-const u8 gMonFootprint_Kabutops[] = INCBIN_U8("graphics/pokemon/kabutops/footprint.1bpp");
+const u32 gMonStillFrontPic_Dotfalcmon[] = INCBIN_U32("graphics/pokemon/dotfalcmon/front.4bpp.lz");
+const u32 gMonPalette_Dotfalcmon[] = INCBIN_U32("graphics/pokemon/dotfalcmon/normal.gbapal.lz");
+const u32 gMonBackPic_Dotfalcmon[] = INCBIN_U32("graphics/pokemon/dotfalcmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dotfalcmon[] = INCBIN_U32("graphics/pokemon/dotfalcmon/shiny.gbapal.lz");
+const u8 gMonIcon_Dotfalcmon[] = INCBIN_U8("graphics/pokemon/dotfalcmon/icon.4bpp");
+const u8 gMonFootprint_Dotfalcmon[] = INCBIN_U8("graphics/pokemon/dotfalcmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Aerodactyl[] = INCBIN_U32("graphics/pokemon/aerodactyl/front.4bpp.lz");
 const u32 gMonPalette_Aerodactyl[] = INCBIN_U32("graphics/pokemon/aerodactyl/normal.gbapal.lz");

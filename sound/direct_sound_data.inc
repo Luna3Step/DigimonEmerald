@@ -947,8 +947,8 @@ Cry_Dotagumon::
 	.incbin "sound/direct_sound_samples/cries/dotagumon.bin"
 
 	.align 2
-Cry_Kabutops::
-	.incbin "sound/direct_sound_samples/cries/kabutops.bin"
+Cry_Dotfalcmon::
+	.incbin "sound/direct_sound_samples/cries/dotfalcmon.bin"
 
 	.align 2
 Cry_Aerodactyl::
