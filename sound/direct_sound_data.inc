@@ -959,8 +959,8 @@ Cry_Dracomon::
 	.incbin "sound/direct_sound_samples/cries/dracomon.bin"
 
 	.align 2
-Cry_Articuno::
-	.incbin "sound/direct_sound_samples/cries/articuno.bin"
+Cry_Dracomon_x::
+	.incbin "sound/direct_sound_samples/cries/dracomon_x.bin"
 
 	.align 2
 Cry_Zapdos::

@@ -143,7 +143,7 @@ gCryTable::
 	cry Cry_Dotfalcmon
 	cry Cry_Dracmon
 	cry Cry_Dracomon
-	cry Cry_Articuno
+	cry Cry_Dracomon_x
 	cry Cry_Zapdos
 	cry Cry_Moltres
 	cry Cry_Dratini
@@ -534,7 +534,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Dotfalcmon
 	cry_reverse Cry_Dracmon
 	cry_reverse Cry_Dracomon
-	cry_reverse Cry_Articuno
+	cry_reverse Cry_Dracomon_x
 	cry_reverse Cry_Zapdos
 	cry_reverse Cry_Moltres
 	cry_reverse Cry_Dratini

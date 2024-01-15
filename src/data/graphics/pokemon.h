@@ -999,12 +999,12 @@ const u32 gMonShinyPalette_Dracomon[] = INCBIN_U32("graphics/pokemon/dracomon/sh
 const u8 gMonIcon_Dracomon[] = INCBIN_U8("graphics/pokemon/dracomon/icon.4bpp");
 const u8 gMonFootprint_Dracomon[] = INCBIN_U8("graphics/pokemon/dracomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/front.4bpp.lz");
-const u32 gMonPalette_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/normal.gbapal.lz");
-const u32 gMonBackPic_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/back.4bpp.lz");
-const u32 gMonShinyPalette_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/shiny.gbapal.lz");
-const u8 gMonIcon_Articuno[] = INCBIN_U8("graphics/pokemon/articuno/icon.4bpp");
-const u8 gMonFootprint_Articuno[] = INCBIN_U8("graphics/pokemon/articuno/footprint.1bpp");
+const u32 gMonStillFrontPic_Dracomon_x[] = INCBIN_U32("graphics/pokemon/dracomon_x/front.4bpp.lz");
+const u32 gMonPalette_Dracomon_x[] = INCBIN_U32("graphics/pokemon/dracomon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Dracomon_x[] = INCBIN_U32("graphics/pokemon/dracomon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Dracomon_x[] = INCBIN_U32("graphics/pokemon/dracomon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Dracomon_x[] = INCBIN_U8("graphics/pokemon/dracomon_x/icon.4bpp");
+const u8 gMonFootprint_Dracomon_x[] = INCBIN_U8("graphics/pokemon/dracomon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Zapdos[] = INCBIN_U32("graphics/pokemon/zapdos/front.4bpp.lz");
 const u32 gMonPalette_Zapdos[] = INCBIN_U32("graphics/pokemon/zapdos/normal.gbapal.lz");
