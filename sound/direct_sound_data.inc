@@ -951,8 +951,8 @@ Cry_Dotfalcmon::
 	.incbin "sound/direct_sound_samples/cries/dotfalcmon.bin"
 
 	.align 2
-Cry_Aerodactyl::
-	.incbin "sound/direct_sound_samples/cries/aerodactyl.bin"
+Cry_Dracmon::
+	.incbin "sound/direct_sound_samples/cries/dracmon.bin"
 
 	.align 2
 Cry_Snorlax::
