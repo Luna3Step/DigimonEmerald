@@ -147,7 +147,7 @@ gCryTable::
 	cry Cry_Ebiburgmon
 	cry Cry_Ekakimon
 	cry Cry_Elecmon
-	cry Cry_Dragonair
+	cry Cry_Elecmon_violet
 	cry Cry_Dragonite
 	cry Cry_Mewtwo
 	cry Cry_Mew
@@ -538,7 +538,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Ebiburgmon
 	cry_reverse Cry_Ekakimon
 	cry_reverse Cry_Elecmon
-	cry_reverse Cry_Dragonair
+	cry_reverse Cry_Elecmon_violet
 	cry_reverse Cry_Dragonite
 	cry_reverse Cry_Mewtwo
 	cry_reverse Cry_Mew

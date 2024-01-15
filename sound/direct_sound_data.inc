@@ -975,8 +975,8 @@ Cry_Elecmon::
 	.incbin "sound/direct_sound_samples/cries/elecmon.bin"
 
 	.align 2
-Cry_Dragonair::
-	.incbin "sound/direct_sound_samples/cries/dragonair.bin"
+Cry_Elecmon_violet::
+	.incbin "sound/direct_sound_samples/cries/elecmon_violet.bin"
 
 	.align 2
 Cry_Dragonite::
