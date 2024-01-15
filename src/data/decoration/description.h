@@ -522,7 +522,7 @@ const u8 DecorDesc_WATER_CUSHION[] = _(
         "cushion. Place it on\n"
         "a mat or a desk.");
 
-const u8 DecorDesc_SNORLAX_DOLL[] = _(
+const u8 DecorDesc_DRACOMON_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");

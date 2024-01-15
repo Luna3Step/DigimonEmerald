@@ -992,12 +992,12 @@ const u32 gMonShinyPalette_Dracmon[] = INCBIN_U32("graphics/pokemon/dracmon/shin
 const u8 gMonIcon_Dracmon[] = INCBIN_U8("graphics/pokemon/dracmon/icon.4bpp");
 const u8 gMonFootprint_Dracmon[] = INCBIN_U8("graphics/pokemon/dracmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Snorlax[] = INCBIN_U32("graphics/pokemon/snorlax/front.4bpp.lz");
-const u32 gMonPalette_Snorlax[] = INCBIN_U32("graphics/pokemon/snorlax/normal.gbapal.lz");
-const u32 gMonBackPic_Snorlax[] = INCBIN_U32("graphics/pokemon/snorlax/back.4bpp.lz");
-const u32 gMonShinyPalette_Snorlax[] = INCBIN_U32("graphics/pokemon/snorlax/shiny.gbapal.lz");
-const u8 gMonIcon_Snorlax[] = INCBIN_U8("graphics/pokemon/snorlax/icon.4bpp");
-const u8 gMonFootprint_Snorlax[] = INCBIN_U8("graphics/pokemon/snorlax/footprint.1bpp");
+const u32 gMonStillFrontPic_Dracomon[] = INCBIN_U32("graphics/pokemon/dracomon/front.4bpp.lz");
+const u32 gMonPalette_Dracomon[] = INCBIN_U32("graphics/pokemon/dracomon/normal.gbapal.lz");
+const u32 gMonBackPic_Dracomon[] = INCBIN_U32("graphics/pokemon/dracomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dracomon[] = INCBIN_U32("graphics/pokemon/dracomon/shiny.gbapal.lz");
+const u8 gMonIcon_Dracomon[] = INCBIN_U8("graphics/pokemon/dracomon/icon.4bpp");
+const u8 gMonFootprint_Dracomon[] = INCBIN_U8("graphics/pokemon/dracomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/front.4bpp.lz");
 const u32 gMonPalette_Articuno[] = INCBIN_U32("graphics/pokemon/articuno/normal.gbapal.lz");

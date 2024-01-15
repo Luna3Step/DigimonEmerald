@@ -602,8 +602,8 @@ const u16 DecorGfx_WATER_CUSHION[] = {
     OBJ_EVENT_GFX_WATER_CUSHION
 };
 
-const u16 DecorGfx_SNORLAX_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_SNORLAX_DOLL
+const u16 DecorGfx_DRACOMON_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_DRACOMON_DOLL
 };
 
 const u16 DecorGfx_BAKOMON_DOLL[] = {

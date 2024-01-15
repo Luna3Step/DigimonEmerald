@@ -680,7 +680,7 @@ extern const u8 gText_ChikoritaDoll80BP[];
 extern const u8 gText_TotodileDoll80BP[];
 
 extern const u8 gText_coronamonDoll128BP[];
-extern const u8 gText_SnorlaxDoll128BP[];
+extern const u8 gText_DracomonDoll128BP[];
 extern const u8 gText_BommonDoll256BP[];
 extern const u8 gText_ChibomonDoll256BP[];
 extern const u8 gText_curimonDoll256BP[];

@@ -175,7 +175,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallCushion
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GrassCushion;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FireCushion;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WaterCushion;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSnorlaxDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigDracomonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBakomonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigcoronamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBommonDoll;
@@ -424,7 +424,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GRASS_CUSHION] =            &gObjectEventGraphicsInfo_GrassCushion,
     [OBJ_EVENT_GFX_FIRE_CUSHION] =             &gObjectEventGraphicsInfo_FireCushion,
     [OBJ_EVENT_GFX_WATER_CUSHION] =            &gObjectEventGraphicsInfo_WaterCushion,
-    [OBJ_EVENT_GFX_BIG_SNORLAX_DOLL] =         &gObjectEventGraphicsInfo_BigSnorlaxDoll,
+    [OBJ_EVENT_GFX_BIG_DRACOMON_DOLL] =         &gObjectEventGraphicsInfo_BigDracomonDoll,
     [OBJ_EVENT_GFX_BIG_BAKOMON_DOLL] =          &gObjectEventGraphicsInfo_BigBakomonDoll,
     [OBJ_EVENT_GFX_BIG_coronamon_DOLL] =          &gObjectEventGraphicsInfo_BigcoronamonDoll,
     [OBJ_EVENT_GFX_BIG_BOMMON_DOLL] =        &gObjectEventGraphicsInfo_BigBommonDoll,

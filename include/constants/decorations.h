@@ -112,7 +112,7 @@
 #define DECOR_GRASS_CUSHION    108
 #define DECOR_FIRE_CUSHION     109
 #define DECOR_WATER_CUSHION    110
-#define DECOR_SNORLAX_DOLL     111
+#define DECOR_DRACOMON_DOLL     111
 #define DECOR_BAKOMON_DOLL      112
 #define DECOR_coronamon_DOLL      113
 #define DECOR_BOMMON_DOLL    114
