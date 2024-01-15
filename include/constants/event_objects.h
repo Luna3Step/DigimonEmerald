@@ -230,7 +230,7 @@
 #define OBJ_EVENT_GFX_DUSCLOPS                   226
 #define OBJ_EVENT_GFX_UNION_ROOM_NURSE           227
 #define OBJ_EVENT_GFX_SUDOWOODO                  228
-#define OBJ_EVENT_GFX_MEW                        229
+#define OBJ_EVENT_GFX_FALCOMON                        229
 #define OBJ_EVENT_GFX_RED                        230
 #define OBJ_EVENT_GFX_LEAF                       231
 #define OBJ_EVENT_GFX_DEOXYS                     232

@@ -4387,7 +4387,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Falcomon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4402,7 +4402,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Mew,
+    .images = sPicTable_Falcomon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

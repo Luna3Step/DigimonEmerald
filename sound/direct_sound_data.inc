@@ -987,8 +987,8 @@ Cry_Agumon_fake_expert::
 	.incbin "sound/direct_sound_samples/cries/agumon_fake_expert.bin"
 
 	.align 2
-Cry_Mew::
-	.incbin "sound/direct_sound_samples/cries/mew.bin"
+Cry_Falcomon::
+	.incbin "sound/direct_sound_samples/cries/falcomon.bin"
 
 	.align 2
 Cry_Chikorita::

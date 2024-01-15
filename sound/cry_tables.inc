@@ -150,7 +150,7 @@ gCryTable::
 	cry Cry_Elecmon_violet
 	cry Cry_Espimon
 	cry Cry_Agumon_fake_expert
-	cry Cry_Mew
+	cry Cry_Falcomon
 	cry Cry_Chikorita
 	cry Cry_Bayleef
 	cry Cry_Meganium
@@ -541,7 +541,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Elecmon_violet
 	cry_reverse Cry_Espimon
 	cry_reverse Cry_Agumon_fake_expert
-	cry_reverse Cry_Mew
+	cry_reverse Cry_Falcomon
 	cry_reverse Cry_Chikorita
 	cry_reverse Cry_Bayleef
 	cry_reverse Cry_Meganium
