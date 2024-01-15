@@ -967,8 +967,8 @@ Cry_Ebiburgmon::
 	.incbin "sound/direct_sound_samples/cries/ebiburgmon.bin"
 
 	.align 2
-Cry_Moltres::
-	.incbin "sound/direct_sound_samples/cries/moltres.bin"
+Cry_Ekakimon::
+	.incbin "sound/direct_sound_samples/cries/ekakimon.bin"
 
 	.align 2
 Cry_Dratini::
