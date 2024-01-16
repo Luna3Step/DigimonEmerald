@@ -156,7 +156,7 @@ gCryTable::
 	cry Cry_Flamemon
 	cry Cry_Floramon
 	cry Cry_Gabumon
-	cry Cry_Typhlosion
+	cry Cry_Gabumon_x
 	cry Cry_Totodile
 	cry Cry_Croconaw
 	cry Cry_Feraligatr
@@ -547,7 +547,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Flamemon
 	cry_reverse Cry_Floramon
 	cry_reverse Cry_Gabumon
-	cry_reverse Cry_Typhlosion
+	cry_reverse Cry_Gabumon_x
 	cry_reverse Cry_Totodile
 	cry_reverse Cry_Croconaw
 	cry_reverse Cry_Feraligatr

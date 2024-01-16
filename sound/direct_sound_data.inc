@@ -1011,8 +1011,8 @@ Cry_Gabumon::
 	.incbin "sound/direct_sound_samples/cries/gabumon.bin"
 
 	.align 2
-Cry_Typhlosion::
-	.incbin "sound/direct_sound_samples/cries/typhlosion.bin"
+Cry_Gabumon_x::
+	.incbin "sound/direct_sound_samples/cries/gabumon_x.bin"
 
 	.align 2
 Cry_Totodile::

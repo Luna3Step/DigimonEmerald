@@ -1834,7 +1834,7 @@ static const union AnimCmd sAnim_Gabumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Typhlosion_1[] =
+static const union AnimCmd sAnim_Gabumon_x_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 10),
@@ -4979,7 +4979,7 @@ SINGLE_ANIMATION(Fanbeemon);
 SINGLE_ANIMATION(Flamemon);
 SINGLE_ANIMATION(Floramon);
 SINGLE_ANIMATION(Gabumon);
-SINGLE_ANIMATION(Typhlosion);
+SINGLE_ANIMATION(Gabumon_x);
 SINGLE_ANIMATION(Totodile);
 SINGLE_ANIMATION(Croconaw);
 SINGLE_ANIMATION(Feraligatr);
@@ -5411,7 +5411,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_FLAMEMON]    = sAnims_Flamemon,
     [SPECIES_FLORAMON]   = sAnims_Floramon,
     [SPECIES_GABUMON]     = sAnims_Gabumon,
-    [SPECIES_GABUMON_X]  = sAnims_Typhlosion,
+    [SPECIES_GABUMON_X]  = sAnims_Gabumon_x,
     [SPECIES_GAMMAMON]    = sAnims_Totodile,
     [SPECIES_GAOMON]    = sAnims_Croconaw,
     [SPECIES_GAOSSMON]  = sAnims_Feraligatr,
