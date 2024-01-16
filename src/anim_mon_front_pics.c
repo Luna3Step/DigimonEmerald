@@ -156,7 +156,7 @@ const u32 gMonFrontPic_Falcomon[] = INCBIN_U32("graphics/pokemon/falcomon/anim_f
 
 const u32 gMonFrontPic_Falcomon_06[] = INCBIN_U32("graphics/pokemon/falcomon_06/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Fanbeemon[] = INCBIN_U32("graphics/pokemon/fanbeemon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Meganium[] = INCBIN_U32("graphics/pokemon/meganium/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Flamemon[] = INCBIN_U32("graphics/pokemon/flamemon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Quilava[] = INCBIN_U32("graphics/pokemon/quilava/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Typhlosion[] = INCBIN_U32("graphics/pokemon/typhlosion/anim_front.4bpp.lz");
