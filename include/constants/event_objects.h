@@ -149,7 +149,7 @@
 #define OBJ_EVENT_GFX_TOGEPI_DOLL                145
 #define OBJ_EVENT_GFX_FLORAMON_DOLL             146
 #define OBJ_EVENT_GFX_FALCOMON_06_DOLL             147
-#define OBJ_EVENT_GFX_TOTODILE_DOLL              148
+#define OBJ_EVENT_GFX_GAMMAMON_DOLL              148
 #define OBJ_EVENT_GFX_SANDMON_DOLL            149
 #define OBJ_EVENT_GFX_CALUMON_DOLL                150
 #define OBJ_EVENT_GFX_PUYOMON_DOLL              151

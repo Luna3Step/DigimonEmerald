@@ -984,16 +984,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_FALCOMON_06_DOLL,
     },
 
-    [DECOR_TOTODILE_DOLL] =
+    [DECOR_GAMMAMON_DOLL] =
     {
-        .id = DECOR_TOTODILE_DOLL,
-        .name = _("TOTODILE DOLL"),
+        .id = DECOR_GAMMAMON_DOLL,
+        .name = _("GAMMAMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_TOTODILE_DOLL,
-        .tiles = DecorGfx_TOTODILE_DOLL,
+        .description = DecorDesc_GAMMAMON_DOLL,
+        .tiles = DecorGfx_GAMMAMON_DOLL,
     },
 
     [DECOR_SANDMON_DOLL] =

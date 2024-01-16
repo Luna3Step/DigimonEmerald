@@ -9,7 +9,7 @@ static const u16 sFrontierExchangeCorner_Decor1[] =
     DECOR_CRABMON_DOLL,
     DECOR_FLORAMON_DOLL,
     DECOR_FALCOMON_06_DOLL,
-    DECOR_TOTODILE_DOLL,
+    DECOR_GAMMAMON_DOLL,
     ITEM_LIST_END
 };
 
@@ -59,7 +59,7 @@ static const u8 *const sFrontierExchangeCorner_Decor1Descriptions[] =
     BattleFrontier_ExchangeServiceCorner_Text_CrabmonDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_FloramonDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_Falcomon_06DollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_GammamonDollDesc,
     gText_Exit,
 };
 

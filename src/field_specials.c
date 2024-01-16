@@ -2357,7 +2357,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_CrabmonDoll48BP,
         gText_FloramonDoll80BP,
         gText_Falcomon_06Doll80BP,
-        gText_TotodileDoll80BP,
+        gText_GammamonDoll80BP,
         gText_Exit
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_2] =

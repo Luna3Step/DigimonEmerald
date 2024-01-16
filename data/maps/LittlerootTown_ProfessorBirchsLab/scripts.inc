@@ -2,7 +2,7 @@
 .set LOCALID_BIRCH, 2
 .set LOCALID_RIVAL, 3
 .set LOCALID_BALL_FLORAMON, 4
-.set LOCALID_BALL_TOTODILE, 5
+.set LOCALID_BALL_GAMMAMON, 5
 .set LOCALID_BALL_FALCOMON_06, 6
 
 LittlerootTown_ProfessorBirchsLab_MapScripts::
@@ -87,13 +87,13 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters::
 	addobject LOCALID_BALL_FLORAMON
-	addobject LOCALID_BALL_TOTODILE
+	addobject LOCALID_BALL_GAMMAMON
 	addobject LOCALID_BALL_FALCOMON_06
 	addobject LOCALID_RIVAL
 	turnobject LOCALID_BALL_FLORAMON, DIR_SOUTH
 	setobjectxy LOCALID_BALL_FLORAMON, 8, 4
-	turnobject LOCALID_BALL_TOTODILE, DIR_SOUTH
-	setobjectxy LOCALID_BALL_TOTODILE, 9, 4
+	turnobject LOCALID_BALL_GAMMAMON, DIR_SOUTH
+	setobjectxy LOCALID_BALL_GAMMAMON, 9, 4
 	turnobject LOCALID_BALL_FALCOMON_06, DIR_SOUTH
 	setobjectxy LOCALID_BALL_FALCOMON_06, 10, 4
 	turnobject LOCALID_BIRCH, DIR_SOUTH
@@ -304,15 +304,15 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Floramon::
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveFloramon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Totodile::
+LittlerootTown_ProfessorBirchsLab_EventScript_Gammamon::
 	release
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
 	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	showmonpic SPECIES_GAMMAMON, 10, 3
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile, MSGBOX_YESNO
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGammamon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveGammamon
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_Falcomon_06::
@@ -378,41 +378,41 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedFloramon::
 	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile::
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveGammamon::
 	bufferspeciesname STR_VAR_1, SPECIES_GAMMAMON
 	setvar VAR_TEMP_1, SPECIES_GAMMAMON
 	givemon SPECIES_GAMMAMON, 5
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendGammamonToParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendGammamonToPC
 	hidemonpic
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty::
+LittlerootTown_ProfessorBirchsLab_EventScript_SendGammamonToParty::
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_TOTODILE
+	removeobject LOCALID_BALL_GAMMAMON
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGammamon
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGammamon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC::
+LittlerootTown_ProfessorBirchsLab_EventScript_SendGammamonToPC::
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_TOTODILE
+	removeobject LOCALID_BALL_GAMMAMON
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
+	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_GammamonTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GammamonTransferredToPC
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC::
+LittlerootTown_ProfessorBirchsLab_EventScript_GammamonTransferredToPC::
 	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGammamon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile::
+LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGammamon::
 	hidemonpic
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
@@ -910,11 +910,11 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeFloramon:
 	.string "You're as sharp as ever!\p"
 	.string "So the FLORAMON is your choice?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
+LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGammamon:
 	.string "PROF. BIRCH: The WATER POKéMON\n"
-	.string "TOTODILE is your choice!\p"
+	.string "GAMMAMON is your choice.\p"
 	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the TOTODILE?$"
+	.string "So, you'll take the GAMMAMON?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeFalcomon_06:
 	.string "PROF. BIRCH: The GRASS POKéMON\n"

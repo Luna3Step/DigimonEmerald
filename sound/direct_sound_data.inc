@@ -1015,8 +1015,8 @@ Cry_Gabumon_x::
 	.incbin "sound/direct_sound_samples/cries/gabumon_x.bin"
 
 	.align 2
-Cry_Totodile::
-	.incbin "sound/direct_sound_samples/cries/totodile.bin"
+Cry_Gammamon::
+	.incbin "sound/direct_sound_samples/cries/gammamon.bin"
 
 	.align 2
 Cry_Croconaw::

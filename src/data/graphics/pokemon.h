@@ -1097,12 +1097,12 @@ const u32 gMonShinyPalette_Gabumon_x[] = INCBIN_U32("graphics/pokemon/gabumon_x/
 const u8 gMonIcon_Gabumon_x[] = INCBIN_U8("graphics/pokemon/gabumon_x/icon.4bpp");
 const u8 gMonFootprint_Gabumon_x[] = INCBIN_U8("graphics/pokemon/gabumon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Totodile[] = INCBIN_U32("graphics/pokemon/totodile/front.4bpp.lz");
-const u32 gMonPalette_Totodile[] = INCBIN_U32("graphics/pokemon/totodile/normal.gbapal.lz");
-const u32 gMonBackPic_Totodile[] = INCBIN_U32("graphics/pokemon/totodile/back.4bpp.lz");
-const u32 gMonShinyPalette_Totodile[] = INCBIN_U32("graphics/pokemon/totodile/shiny.gbapal.lz");
-const u8 gMonIcon_Totodile[] = INCBIN_U8("graphics/pokemon/totodile/icon.4bpp");
-const u8 gMonFootprint_Totodile[] = INCBIN_U8("graphics/pokemon/totodile/footprint.1bpp");
+const u32 gMonStillFrontPic_Gammamon[] = INCBIN_U32("graphics/pokemon/gammamon/front.4bpp.lz");
+const u32 gMonPalette_Gammamon[] = INCBIN_U32("graphics/pokemon/gammamon/normal.gbapal.lz");
+const u32 gMonBackPic_Gammamon[] = INCBIN_U32("graphics/pokemon/gammamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gammamon[] = INCBIN_U32("graphics/pokemon/gammamon/shiny.gbapal.lz");
+const u8 gMonIcon_Gammamon[] = INCBIN_U8("graphics/pokemon/gammamon/icon.4bpp");
+const u8 gMonFootprint_Gammamon[] = INCBIN_U8("graphics/pokemon/gammamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Croconaw[] = INCBIN_U32("graphics/pokemon/croconaw/front.4bpp.lz");
 const u32 gMonPalette_Croconaw[] = INCBIN_U32("graphics/pokemon/croconaw/normal.gbapal.lz");
