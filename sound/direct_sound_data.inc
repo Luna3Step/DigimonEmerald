@@ -1007,8 +1007,8 @@ Cry_Floramon::
 	.incbin "sound/direct_sound_samples/cries/floramon.bin"
 
 	.align 2
-Cry_Quilava::
-	.incbin "sound/direct_sound_samples/cries/quilava.bin"
+Cry_Gabumon::
+	.incbin "sound/direct_sound_samples/cries/gabumon.bin"
 
 	.align 2
 Cry_Typhlosion::
