@@ -2355,7 +2355,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_CalumonDoll48BP,
         gText_PuyomonDoll48BP,
         gText_CrabmonDoll48BP,
-        gText_CyndaquilDoll80BP,
+        gText_FloramonDoll80BP,
         gText_Falcomon_06Doll80BP,
         gText_TotodileDoll80BP,
         gText_Exit

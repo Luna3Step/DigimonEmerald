@@ -1003,8 +1003,8 @@ Cry_Flamemon::
 	.incbin "sound/direct_sound_samples/cries/flamemon.bin"
 
 	.align 2
-Cry_Cyndaquil::
-	.incbin "sound/direct_sound_samples/cries/cyndaquil.bin"
+Cry_Floramon::
+	.incbin "sound/direct_sound_samples/cries/floramon.bin"
 
 	.align 2
 Cry_Quilava::

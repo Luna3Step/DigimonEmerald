@@ -154,7 +154,7 @@ gCryTable::
 	cry Cry_Falcomon_06
 	cry Cry_Fanbeemon
 	cry Cry_Flamemon
-	cry Cry_Cyndaquil
+	cry Cry_Floramon
 	cry Cry_Quilava
 	cry Cry_Typhlosion
 	cry Cry_Totodile
@@ -545,7 +545,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Falcomon_06
 	cry_reverse Cry_Fanbeemon
 	cry_reverse Cry_Flamemon
-	cry_reverse Cry_Cyndaquil
+	cry_reverse Cry_Floramon
 	cry_reverse Cry_Quilava
 	cry_reverse Cry_Typhlosion
 	cry_reverse Cry_Totodile

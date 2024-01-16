@@ -2791,7 +2791,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FloramonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2806,7 +2806,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_CyndaquilDoll,
+    .images = sPicTable_FloramonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

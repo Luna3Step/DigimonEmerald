@@ -144,7 +144,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PetitmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FloramonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Falcomon_06Doll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SandmonDoll;
@@ -393,7 +393,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_PETITMON_DOLL] =             &gObjectEventGraphicsInfo_PetitmonDoll,
     [OBJ_EVENT_GFX_MARILL_DOLL] =              &gObjectEventGraphicsInfo_MarillDoll,
     [OBJ_EVENT_GFX_TOGEPI_DOLL] =              &gObjectEventGraphicsInfo_TogepiDoll,
-    [OBJ_EVENT_GFX_CYNDAQUIL_DOLL] =           &gObjectEventGraphicsInfo_CyndaquilDoll,
+    [OBJ_EVENT_GFX_FLORAMON_DOLL] =           &gObjectEventGraphicsInfo_FloramonDoll,
     [OBJ_EVENT_GFX_FALCOMON_06_DOLL] =           &gObjectEventGraphicsInfo_Falcomon_06Doll,
     [OBJ_EVENT_GFX_TOTODILE_DOLL] =            &gObjectEventGraphicsInfo_TotodileDoll,
     [OBJ_EVENT_GFX_SANDMON_DOLL] =          &gObjectEventGraphicsInfo_SandmonDoll,

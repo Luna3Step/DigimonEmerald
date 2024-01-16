@@ -478,8 +478,8 @@ const u16 DecorGfx_TOGEPI_DOLL[] = {
     OBJ_EVENT_GFX_TOGEPI_DOLL
 };
 
-const u16 DecorGfx_CYNDAQUIL_DOLL[] = {
-    OBJ_EVENT_GFX_CYNDAQUIL_DOLL
+const u16 DecorGfx_FLORAMON_DOLL[] = {
+    OBJ_EVENT_GFX_FLORAMON_DOLL
 };
 
 const u16 DecorGfx_FALCOMON_06_DOLL[] = {

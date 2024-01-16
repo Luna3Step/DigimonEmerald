@@ -1076,12 +1076,12 @@ const u32 gMonShinyPalette_Flamemon[] = INCBIN_U32("graphics/pokemon/flamemon/sh
 const u8 gMonIcon_Flamemon[] = INCBIN_U8("graphics/pokemon/flamemon/icon.4bpp");
 const u8 gMonFootprint_Flamemon[] = INCBIN_U8("graphics/pokemon/flamemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/front.4bpp.lz");
-const u32 gMonPalette_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/normal.gbapal.lz");
-const u32 gMonBackPic_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/back.4bpp.lz");
-const u32 gMonShinyPalette_Cyndaquil[] = INCBIN_U32("graphics/pokemon/cyndaquil/shiny.gbapal.lz");
-const u8 gMonIcon_Cyndaquil[] = INCBIN_U8("graphics/pokemon/cyndaquil/icon.4bpp");
-const u8 gMonFootprint_Cyndaquil[] = INCBIN_U8("graphics/pokemon/cyndaquil/footprint.1bpp");
+const u32 gMonStillFrontPic_Floramon[] = INCBIN_U32("graphics/pokemon/floramon/front.4bpp.lz");
+const u32 gMonPalette_Floramon[] = INCBIN_U32("graphics/pokemon/floramon/normal.gbapal.lz");
+const u32 gMonBackPic_Floramon[] = INCBIN_U32("graphics/pokemon/floramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Floramon[] = INCBIN_U32("graphics/pokemon/floramon/shiny.gbapal.lz");
+const u8 gMonIcon_Floramon[] = INCBIN_U8("graphics/pokemon/floramon/icon.4bpp");
+const u8 gMonFootprint_Floramon[] = INCBIN_U8("graphics/pokemon/floramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Quilava[] = INCBIN_U32("graphics/pokemon/quilava/front.4bpp.lz");
 const u32 gMonPalette_Quilava[] = INCBIN_U32("graphics/pokemon/quilava/normal.gbapal.lz");
