@@ -3261,7 +3261,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                             .spDefenseIV = 25,
                                             .abilityNum = 0,
                                             .personality = 0x3,
-                                            .nickname = _("CROCONAW"),
+                                            .nickname = _("GAOMON"),
                                             .friendship = 100,
                                         },
                                     [5] =

@@ -158,7 +158,7 @@ gCryTable::
 	cry Cry_Gabumon
 	cry Cry_Gabumon_x
 	cry Cry_Gammamon
-	cry Cry_Croconaw
+	cry Cry_Gaomon
 	cry Cry_Feraligatr
 	cry Cry_Sentret
 	cry Cry_Furret
@@ -549,7 +549,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gabumon
 	cry_reverse Cry_Gabumon_x
 	cry_reverse Cry_Gammamon
-	cry_reverse Cry_Croconaw
+	cry_reverse Cry_Gaomon
 	cry_reverse Cry_Feraligatr
 	cry_reverse Cry_Sentret
 	cry_reverse Cry_Furret
