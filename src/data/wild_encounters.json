@@ -90,17 +90,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CALUMON"
+                "species": "SPECIES_GAOMON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GAOGAMON"
+                "species": "SPECIES_AGUMON_FAKE_EXPERT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GAOGAMON"
+                "species": "SPECIES_MISSIMON"
               },
               {
                 "min_level": 5,
