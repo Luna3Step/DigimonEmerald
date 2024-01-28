@@ -1035,8 +1035,8 @@ Cry_Gazimon_x::
 	.incbin "sound/direct_sound_samples/cries/gazimon_x.bin"
 
 	.align 2
-Cry_Hoothoot::
-	.incbin "sound/direct_sound_samples/cries/hoothoot.bin"
+Cry_Ghostmon::
+	.incbin "sound/direct_sound_samples/cries/ghostmon.bin"
 
 	.align 2
 Cry_Noctowl::
