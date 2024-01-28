@@ -5546,33 +5546,27 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
                 break;
             case EVO_ATTACK:
                 if (gEvolutionTable[species][i].param <= attack)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_DEFENSE:
                 if (gEvolutionTable[species][i].param <= defense)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_SPATTACK:
                 if (gEvolutionTable[species][i].param <= spatk)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_SPDEFENSE:
                 if (gEvolutionTable[species][i].param <= spdef)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_SPEED:
                 if (gEvolutionTable[species][i].param <= speed)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             case EVO_HEALTH:
                 if (gEvolutionTable[species][i].param <= health)
-                    if (GetMonData(mon, MON_DATA_ATK, 0) > gEvolutionTable[species][i].param)
-                        targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
         }
