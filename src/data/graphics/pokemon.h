@@ -1111,12 +1111,12 @@ const u32 gMonShinyPalette_Gaomon[] = INCBIN_U32("graphics/pokemon/gaomon/shiny.
 const u8 gMonIcon_Gaomon[] = INCBIN_U8("graphics/pokemon/gaomon/icon.4bpp");
 const u8 gMonFootprint_Gaomon[] = INCBIN_U8("graphics/pokemon/gaomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Feraligatr[] = INCBIN_U32("graphics/pokemon/feraligatr/front.4bpp.lz");
-const u32 gMonPalette_Feraligatr[] = INCBIN_U32("graphics/pokemon/feraligatr/normal.gbapal.lz");
-const u32 gMonBackPic_Feraligatr[] = INCBIN_U32("graphics/pokemon/feraligatr/back.4bpp.lz");
-const u32 gMonShinyPalette_Feraligatr[] = INCBIN_U32("graphics/pokemon/feraligatr/shiny.gbapal.lz");
-const u8 gMonIcon_Feraligatr[] = INCBIN_U8("graphics/pokemon/feraligatr/icon.4bpp");
-const u8 gMonFootprint_Feraligatr[] = INCBIN_U8("graphics/pokemon/feraligatr/footprint.1bpp");
+const u32 gMonStillFrontPic_Gaossmon[] = INCBIN_U32("graphics/pokemon/gaossmon/front.4bpp.lz");
+const u32 gMonPalette_Gaossmon[] = INCBIN_U32("graphics/pokemon/gaossmon/normal.gbapal.lz");
+const u32 gMonBackPic_Gaossmon[] = INCBIN_U32("graphics/pokemon/gaossmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gaossmon[] = INCBIN_U32("graphics/pokemon/gaossmon/shiny.gbapal.lz");
+const u8 gMonIcon_Gaossmon[] = INCBIN_U8("graphics/pokemon/gaossmon/icon.4bpp");
+const u8 gMonFootprint_Gaossmon[] = INCBIN_U8("graphics/pokemon/gaossmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sentret[] = INCBIN_U32("graphics/pokemon/sentret/front.4bpp.lz");
 const u32 gMonPalette_Sentret[] = INCBIN_U32("graphics/pokemon/sentret/normal.gbapal.lz");
