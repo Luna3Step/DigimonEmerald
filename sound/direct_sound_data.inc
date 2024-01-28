@@ -1043,8 +1043,8 @@ Cry_Gizamon::
 	.incbin "sound/direct_sound_samples/cries/gizamon.bin"
 
 	.align 2
-Cry_Ledyba::
-	.incbin "sound/direct_sound_samples/cries/ledyba.bin"
+Cry_Gizumon::
+	.incbin "sound/direct_sound_samples/cries/gizumon.bin"
 
 	.align 2
 Cry_Ledian::

@@ -1146,12 +1146,12 @@ const u32 gMonShinyPalette_Gizamon[] = INCBIN_U32("graphics/pokemon/gizamon/shin
 const u8 gMonIcon_Gizamon[] = INCBIN_U8("graphics/pokemon/gizamon/icon.4bpp");
 const u8 gMonFootprint_Gizamon[] = INCBIN_U8("graphics/pokemon/gizamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/front.4bpp.lz");
-const u32 gMonPalette_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/normal.gbapal.lz");
-const u32 gMonBackPic_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/back.4bpp.lz");
-const u32 gMonShinyPalette_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/shiny.gbapal.lz");
-const u8 gMonIcon_Ledyba[] = INCBIN_U8("graphics/pokemon/ledyba/icon.4bpp");
-const u8 gMonFootprint_Ledyba[] = INCBIN_U8("graphics/pokemon/ledyba/footprint.1bpp");
+const u32 gMonStillFrontPic_Gizumon[] = INCBIN_U32("graphics/pokemon/gizumon/front.4bpp.lz");
+const u32 gMonPalette_Gizumon[] = INCBIN_U32("graphics/pokemon/gizumon/normal.gbapal.lz");
+const u32 gMonBackPic_Gizumon[] = INCBIN_U32("graphics/pokemon/gizumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gizumon[] = INCBIN_U32("graphics/pokemon/gizumon/shiny.gbapal.lz");
+const u8 gMonIcon_Gizumon[] = INCBIN_U8("graphics/pokemon/gizumon/icon.4bpp");
+const u8 gMonFootprint_Gizumon[] = INCBIN_U8("graphics/pokemon/gizumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/front.4bpp.lz");
 const u32 gMonPalette_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/normal.gbapal.lz");
