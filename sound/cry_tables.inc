@@ -160,7 +160,7 @@ gCryTable::
 	cry Cry_Gammamon
 	cry Cry_Gaomon
 	cry Cry_Gaossmon
-	cry Cry_Sentret
+	cry Cry_Gazimon
 	cry Cry_Furret
 	cry Cry_Hoothoot
 	cry Cry_Noctowl
@@ -551,7 +551,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gammamon
 	cry_reverse Cry_Gaomon
 	cry_reverse Cry_Gaossmon
-	cry_reverse Cry_Sentret
+	cry_reverse Cry_Gazimon
 	cry_reverse Cry_Furret
 	cry_reverse Cry_Hoothoot
 	cry_reverse Cry_Noctowl

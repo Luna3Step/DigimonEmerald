@@ -1027,8 +1027,8 @@ Cry_Gaossmon::
 	.incbin "sound/direct_sound_samples/cries/gaossmon.bin"
 
 	.align 2
-Cry_Sentret::
-	.incbin "sound/direct_sound_samples/cries/sentret.bin"
+Cry_Gazimon::
+	.incbin "sound/direct_sound_samples/cries/gazimon.bin"
 
 	.align 2
 Cry_Furret::
