@@ -237,10 +237,9 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                            {EVO_SPEED, 18, SPECIES_SWIMMON},
                            {EVO_SPATTACK, 16, SPECIES_KUDAMON_06},
                            {EVO_ATTACK, 17, SPECIES_GOBLIMON}},
-    [SPECIES_POROMON]      =  {{EVO_LEVEL, 13, SPECIES_HAWKMON},
+    [SPECIES_POROMON]      =  {{EVO_LEVEL, 13, SPECIES_HAWKMON}, // Add Ukkomon
                               {EVO_SPEED, 15, SPECIES_FALCOMON_06},
                               {EVO_SPATTACK, 15, SPECIES_TINKERMON},
-                              {EVO_SPDEFENSE, 14, SPECIES_TINKERMON}, // Ukkomon
                               {EVO_HEALTH, 31, SPECIES_POMUMON}},
     [SPECIES_PUROROMON]  =  {{EVO_LEVEL, 11, SPECIES_FANBEEMON},
                             {EVO_ATTACK, 13, SPECIES_DORUMON},
