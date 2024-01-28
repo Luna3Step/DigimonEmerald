@@ -161,7 +161,7 @@ gCryTable::
 	cry Cry_Gaomon
 	cry Cry_Gaossmon
 	cry Cry_Gazimon
-	cry Cry_Furret
+	cry Cry_Gazimon_x
 	cry Cry_Hoothoot
 	cry Cry_Noctowl
 	cry Cry_Ledyba
@@ -552,7 +552,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gaomon
 	cry_reverse Cry_Gaossmon
 	cry_reverse Cry_Gazimon
-	cry_reverse Cry_Furret
+	cry_reverse Cry_Gazimon_x
 	cry_reverse Cry_Hoothoot
 	cry_reverse Cry_Noctowl
 	cry_reverse Cry_Ledyba

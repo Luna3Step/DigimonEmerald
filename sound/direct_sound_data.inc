@@ -1031,8 +1031,8 @@ Cry_Gazimon::
 	.incbin "sound/direct_sound_samples/cries/gazimon.bin"
 
 	.align 2
-Cry_Furret::
-	.incbin "sound/direct_sound_samples/cries/furret.bin"
+Cry_Gazimon_x::
+	.incbin "sound/direct_sound_samples/cries/gazimon_x.bin"
 
 	.align 2
 Cry_Hoothoot::
