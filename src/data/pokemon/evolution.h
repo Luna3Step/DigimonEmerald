@@ -6,7 +6,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_BOTAMON]      = {{EVO_LEVEL, 5, SPECIES_KOROMON},
                             {EVO_ATTACK, 6, SPECIES_WANYAMON},
                             {EVO_SPEED, 7, SPECIES_PINAMON},
-                            {EVO_LEVEL, 5, SPECIES_PAGUMON},
+                            {EVO_SPATTACK, 6, SPECIES_PAGUMON},
                             {EVO_HEALTH, 16, SPECIES_BUDMON}},
     [SPECIES_CHIBICKMON] = {{EVO_LEVEL, 6, SPECIES_PICKMON_WHITE},
                            {EVO_DEFENSE, 5, SPECIES_PICKMON_SILVER},
