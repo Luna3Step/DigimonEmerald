@@ -1139,12 +1139,12 @@ const u32 gMonShinyPalette_Ghostmon[] = INCBIN_U32("graphics/pokemon/ghostmon/sh
 const u8 gMonIcon_Ghostmon[] = INCBIN_U8("graphics/pokemon/ghostmon/icon.4bpp");
 const u8 gMonFootprint_Ghostmon[] = INCBIN_U8("graphics/pokemon/ghostmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/front.4bpp.lz");
-const u32 gMonPalette_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/normal.gbapal.lz");
-const u32 gMonBackPic_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/back.4bpp.lz");
-const u32 gMonShinyPalette_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/shiny.gbapal.lz");
-const u8 gMonIcon_Noctowl[] = INCBIN_U8("graphics/pokemon/noctowl/icon.4bpp");
-const u8 gMonFootprint_Noctowl[] = INCBIN_U8("graphics/pokemon/noctowl/footprint.1bpp");
+const u32 gMonStillFrontPic_Gizamon[] = INCBIN_U32("graphics/pokemon/gizamon/front.4bpp.lz");
+const u32 gMonPalette_Gizamon[] = INCBIN_U32("graphics/pokemon/gizamon/normal.gbapal.lz");
+const u32 gMonBackPic_Gizamon[] = INCBIN_U32("graphics/pokemon/gizamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gizamon[] = INCBIN_U32("graphics/pokemon/gizamon/shiny.gbapal.lz");
+const u8 gMonIcon_Gizamon[] = INCBIN_U8("graphics/pokemon/gizamon/icon.4bpp");
+const u8 gMonFootprint_Gizamon[] = INCBIN_U8("graphics/pokemon/gizamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/front.4bpp.lz");
 const u32 gMonPalette_Ledyba[] = INCBIN_U32("graphics/pokemon/ledyba/normal.gbapal.lz");
