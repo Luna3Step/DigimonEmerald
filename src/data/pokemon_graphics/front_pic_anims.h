@@ -1917,7 +1917,7 @@ static const union AnimCmd sAnim_Gizumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Ledian_1[] =
+static const union AnimCmd sAnim_Goblimon_1[] =
 {
     ANIMCMD_FRAME(0, 3),
     ANIMCMD_FRAME(0, 3),
@@ -4988,7 +4988,7 @@ SINGLE_ANIMATION(Gazimon_x);
 SINGLE_ANIMATION(Ghostmon);
 SINGLE_ANIMATION(Gizamon);
 SINGLE_ANIMATION(Gizumon);
-SINGLE_ANIMATION(Ledian);
+SINGLE_ANIMATION(Goblimon);
 SINGLE_ANIMATION(Spinarak);
 SINGLE_ANIMATION(Ariados);
 SINGLE_ANIMATION(Crobat);
@@ -5420,7 +5420,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GHOSTMON]    = sAnims_Ghostmon,
     [SPECIES_GIZAMON]     = sAnims_Gizamon,
     [SPECIES_GIZUMON]      = sAnims_Gizumon,
-    [SPECIES_GOBLIMON]      = sAnims_Ledian,
+    [SPECIES_GOBLIMON]      = sAnims_Goblimon,
     [SPECIES_GOMAMON]    = sAnims_Spinarak,
     [SPECIES_GOMAMON_X]     = sAnims_Ariados,
     [SPECIES_GOTSUMON]      = sAnims_Crobat,

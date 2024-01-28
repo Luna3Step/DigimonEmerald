@@ -1153,12 +1153,12 @@ const u32 gMonShinyPalette_Gizumon[] = INCBIN_U32("graphics/pokemon/gizumon/shin
 const u8 gMonIcon_Gizumon[] = INCBIN_U8("graphics/pokemon/gizumon/icon.4bpp");
 const u8 gMonFootprint_Gizumon[] = INCBIN_U8("graphics/pokemon/gizumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/front.4bpp.lz");
-const u32 gMonPalette_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/normal.gbapal.lz");
-const u32 gMonBackPic_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/back.4bpp.lz");
-const u32 gMonShinyPalette_Ledian[] = INCBIN_U32("graphics/pokemon/ledian/shiny.gbapal.lz");
-const u8 gMonIcon_Ledian[] = INCBIN_U8("graphics/pokemon/ledian/icon.4bpp");
-const u8 gMonFootprint_Ledian[] = INCBIN_U8("graphics/pokemon/ledian/footprint.1bpp");
+const u32 gMonStillFrontPic_Goblimon[] = INCBIN_U32("graphics/pokemon/goblimon/front.4bpp.lz");
+const u32 gMonPalette_Goblimon[] = INCBIN_U32("graphics/pokemon/goblimon/normal.gbapal.lz");
+const u32 gMonBackPic_Goblimon[] = INCBIN_U32("graphics/pokemon/goblimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Goblimon[] = INCBIN_U32("graphics/pokemon/goblimon/shiny.gbapal.lz");
+const u8 gMonIcon_Goblimon[] = INCBIN_U8("graphics/pokemon/goblimon/icon.4bpp");
+const u8 gMonFootprint_Goblimon[] = INCBIN_U8("graphics/pokemon/goblimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/front.4bpp.lz");
 const u32 gMonPalette_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/normal.gbapal.lz");
