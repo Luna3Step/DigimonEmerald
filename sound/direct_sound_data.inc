@@ -1051,8 +1051,8 @@ Cry_Goblimon::
 	.incbin "sound/direct_sound_samples/cries/goblimon.bin"
 
 	.align 2
-Cry_Spinarak::
-	.incbin "sound/direct_sound_samples/cries/spinarak.bin"
+Cry_Gomamon::
+	.incbin "sound/direct_sound_samples/cries/gomamon.bin"
 
 	.align 2
 Cry_Ariados::

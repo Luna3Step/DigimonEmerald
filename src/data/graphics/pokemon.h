@@ -1160,12 +1160,12 @@ const u32 gMonShinyPalette_Goblimon[] = INCBIN_U32("graphics/pokemon/goblimon/sh
 const u8 gMonIcon_Goblimon[] = INCBIN_U8("graphics/pokemon/goblimon/icon.4bpp");
 const u8 gMonFootprint_Goblimon[] = INCBIN_U8("graphics/pokemon/goblimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/front.4bpp.lz");
-const u32 gMonPalette_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/normal.gbapal.lz");
-const u32 gMonBackPic_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/back.4bpp.lz");
-const u32 gMonShinyPalette_Spinarak[] = INCBIN_U32("graphics/pokemon/spinarak/shiny.gbapal.lz");
-const u8 gMonIcon_Spinarak[] = INCBIN_U8("graphics/pokemon/spinarak/icon.4bpp");
-const u8 gMonFootprint_Spinarak[] = INCBIN_U8("graphics/pokemon/spinarak/footprint.1bpp");
+const u32 gMonStillFrontPic_Gomamon[] = INCBIN_U32("graphics/pokemon/gomamon/front.4bpp.lz");
+const u32 gMonPalette_Gomamon[] = INCBIN_U32("graphics/pokemon/gomamon/normal.gbapal.lz");
+const u32 gMonBackPic_Gomamon[] = INCBIN_U32("graphics/pokemon/gomamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gomamon[] = INCBIN_U32("graphics/pokemon/gomamon/shiny.gbapal.lz");
+const u8 gMonIcon_Gomamon[] = INCBIN_U8("graphics/pokemon/gomamon/icon.4bpp");
+const u8 gMonFootprint_Gomamon[] = INCBIN_U8("graphics/pokemon/gomamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/front.4bpp.lz");
 const u32 gMonPalette_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/normal.gbapal.lz");

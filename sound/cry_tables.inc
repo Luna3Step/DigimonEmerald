@@ -166,7 +166,7 @@ gCryTable::
 	cry Cry_Gizamon
 	cry Cry_Gizumon
 	cry Cry_Goblimon
-	cry Cry_Spinarak
+	cry Cry_Gomamon
 	cry Cry_Ariados
 	cry Cry_Crobat
 	cry Cry_Chinchou
@@ -557,7 +557,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gizamon
 	cry_reverse Cry_Gizumon
 	cry_reverse Cry_Goblimon
-	cry_reverse Cry_Spinarak
+	cry_reverse Cry_Gomamon
 	cry_reverse Cry_Ariados
 	cry_reverse Cry_Crobat
 	cry_reverse Cry_Chinchou
