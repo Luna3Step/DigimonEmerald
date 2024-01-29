@@ -2224,7 +2224,7 @@ static const union AnimCmd sAnim_Keramon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Skiploom_1[] =
+static const union AnimCmd sAnim_Keramon_x_1[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(0, 12),
@@ -5010,7 +5010,7 @@ SINGLE_ANIMATION(Jellymon);
 SINGLE_ANIMATION(Junkmon);
 SINGLE_ANIMATION(Kamemon);
 SINGLE_ANIMATION(Keramon);
-SINGLE_ANIMATION(Skiploom);
+SINGLE_ANIMATION(Keramon_x);
 SINGLE_ANIMATION(Jumpluff);
 SINGLE_ANIMATION(Aipom);
 SINGLE_ANIMATION(Sunkern);
@@ -5442,7 +5442,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_JUNKMON]   = sAnims_Junkmon,
     [SPECIES_KAMEMON]    = sAnims_Kamemon,
     [SPECIES_KERAMON]      = sAnims_Keramon,
-    [SPECIES_KERAMON_X]    = sAnims_Skiploom,
+    [SPECIES_KERAMON_X]    = sAnims_Keramon_x,
     [SPECIES_KODOKGUMON]    = sAnims_Jumpluff,
     [SPECIES_KOKABUIMON]       = sAnims_Aipom,
     [SPECIES_KOKUWAMON]     = sAnims_Sunkern,
