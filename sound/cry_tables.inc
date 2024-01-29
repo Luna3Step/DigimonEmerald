@@ -180,7 +180,7 @@ gCryTable::
 	cry Cry_Herissmon
 	cry Cry_Hyokomon
 	cry Cry_Ignitemon
-	cry Cry_Ampharos
+	cry Cry_Impmon
 	cry Cry_Bellossom
 	cry Cry_Marill
 	cry Cry_Azumarill
@@ -571,7 +571,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Herissmon
 	cry_reverse Cry_Hyokomon
 	cry_reverse Cry_Ignitemon
-	cry_reverse Cry_Ampharos
+	cry_reverse Cry_Impmon
 	cry_reverse Cry_Bellossom
 	cry_reverse Cry_Marill
 	cry_reverse Cry_Azumarill

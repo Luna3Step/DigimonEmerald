@@ -1258,12 +1258,12 @@ const u32 gMonShinyPalette_Ignitemon[] = INCBIN_U32("graphics/pokemon/ignitemon/
 const u8 gMonIcon_Ignitemon[] = INCBIN_U8("graphics/pokemon/ignitemon/icon.4bpp");
 const u8 gMonFootprint_Ignitemon[] = INCBIN_U8("graphics/pokemon/ignitemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/front.4bpp.lz");
-const u32 gMonPalette_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/normal.gbapal.lz");
-const u32 gMonBackPic_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/back.4bpp.lz");
-const u32 gMonShinyPalette_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/shiny.gbapal.lz");
-const u8 gMonIcon_Ampharos[] = INCBIN_U8("graphics/pokemon/ampharos/icon.4bpp");
-const u8 gMonFootprint_Ampharos[] = INCBIN_U8("graphics/pokemon/ampharos/footprint.1bpp");
+const u32 gMonStillFrontPic_Impmon[] = INCBIN_U32("graphics/pokemon/impmon/front.4bpp.lz");
+const u32 gMonPalette_Impmon[] = INCBIN_U32("graphics/pokemon/impmon/normal.gbapal.lz");
+const u32 gMonBackPic_Impmon[] = INCBIN_U32("graphics/pokemon/impmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Impmon[] = INCBIN_U32("graphics/pokemon/impmon/shiny.gbapal.lz");
+const u8 gMonIcon_Impmon[] = INCBIN_U8("graphics/pokemon/impmon/icon.4bpp");
+const u8 gMonFootprint_Impmon[] = INCBIN_U8("graphics/pokemon/impmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/front.4bpp.lz");
 const u32 gMonPalette_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/normal.gbapal.lz");

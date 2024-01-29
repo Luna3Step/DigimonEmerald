@@ -1107,8 +1107,8 @@ Cry_Ignitemon::
 	.incbin "sound/direct_sound_samples/cries/ignitemon.bin"
 
 	.align 2
-Cry_Ampharos::
-	.incbin "sound/direct_sound_samples/cries/ampharos.bin"
+Cry_Impmon::
+	.incbin "sound/direct_sound_samples/cries/impmon.bin"
 
 	.align 2
 Cry_Bellossom::
