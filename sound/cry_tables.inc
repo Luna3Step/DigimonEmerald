@@ -192,7 +192,7 @@ gCryTable::
 	cry Cry_Kokabuimon
 	cry Cry_Kokuwamon
 	cry Cry_Kokuwamon_x
-	cry Cry_Yanma
+	cry Cry_Kotemon
 	cry Cry_Wooper
 	cry Cry_Quagsire
 	cry Cry_Espeon
@@ -583,7 +583,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kokabuimon
 	cry_reverse Cry_Kokuwamon
 	cry_reverse Cry_Kokuwamon_x
-	cry_reverse Cry_Yanma
+	cry_reverse Cry_Kotemon
 	cry_reverse Cry_Wooper
 	cry_reverse Cry_Quagsire
 	cry_reverse Cry_Espeon
