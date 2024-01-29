@@ -1103,8 +1103,8 @@ Cry_Hyokomon::
 	.incbin "sound/direct_sound_samples/cries/hyokomon.bin"
 
 	.align 2
-Cry_Flaaffy::
-	.incbin "sound/direct_sound_samples/cries/flaaffy.bin"
+Cry_Ignitemon::
+	.incbin "sound/direct_sound_samples/cries/ignitemon.bin"
 
 	.align 2
 Cry_Ampharos::

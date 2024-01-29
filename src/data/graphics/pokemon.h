@@ -1251,12 +1251,12 @@ const u32 gMonShinyPalette_Hyokomon[] = INCBIN_U32("graphics/pokemon/hyokomon/sh
 const u8 gMonIcon_Hyokomon[] = INCBIN_U8("graphics/pokemon/hyokomon/icon.4bpp");
 const u8 gMonFootprint_Hyokomon[] = INCBIN_U8("graphics/pokemon/hyokomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/front.4bpp.lz");
-const u32 gMonPalette_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/normal.gbapal.lz");
-const u32 gMonBackPic_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/back.4bpp.lz");
-const u32 gMonShinyPalette_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/shiny.gbapal.lz");
-const u8 gMonIcon_Flaaffy[] = INCBIN_U8("graphics/pokemon/flaaffy/icon.4bpp");
-const u8 gMonFootprint_Flaaffy[] = INCBIN_U8("graphics/pokemon/flaaffy/footprint.1bpp");
+const u32 gMonStillFrontPic_Ignitemon[] = INCBIN_U32("graphics/pokemon/ignitemon/front.4bpp.lz");
+const u32 gMonPalette_Ignitemon[] = INCBIN_U32("graphics/pokemon/ignitemon/normal.gbapal.lz");
+const u32 gMonBackPic_Ignitemon[] = INCBIN_U32("graphics/pokemon/ignitemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Ignitemon[] = INCBIN_U32("graphics/pokemon/ignitemon/shiny.gbapal.lz");
+const u8 gMonIcon_Ignitemon[] = INCBIN_U8("graphics/pokemon/ignitemon/icon.4bpp");
+const u8 gMonFootprint_Ignitemon[] = INCBIN_U8("graphics/pokemon/ignitemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/front.4bpp.lz");
 const u32 gMonPalette_Ampharos[] = INCBIN_U32("graphics/pokemon/ampharos/normal.gbapal.lz");
