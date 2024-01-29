@@ -175,7 +175,7 @@ gCryTable::
 	cry Cry_Gumdramon
 	cry Cry_Hackmon
 	cry Cry_Hagurumon
-	cry Cry_Togetic
+	cry Cry_Hagurumon_x
 	cry Cry_Natu
 	cry Cry_Xatu
 	cry Cry_Mareep
@@ -566,7 +566,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gumdramon
 	cry_reverse Cry_Hackmon
 	cry_reverse Cry_Hagurumon
-	cry_reverse Cry_Togetic
+	cry_reverse Cry_Hagurumon_x
 	cry_reverse Cry_Natu
 	cry_reverse Cry_Xatu
 	cry_reverse Cry_Mareep

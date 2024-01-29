@@ -2085,7 +2085,7 @@ static const union AnimCmd sAnim_Hagurumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Togetic_1[] =
+static const union AnimCmd sAnim_Hagurumon_x_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -4998,7 +4998,7 @@ DOUBLE_ANIMATION(Guilmon_x);
 SINGLE_ANIMATION(Gumdramon);
 DOUBLE_ANIMATION(Hackmon);
 SINGLE_ANIMATION(Hagurumon);
-SINGLE_ANIMATION(Togetic);
+SINGLE_ANIMATION(Hagurumon_x);
 DOUBLE_ANIMATION(Natu);
 DOUBLE_ANIMATION(Xatu);
 SINGLE_ANIMATION(Mareep);
@@ -5430,7 +5430,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GUMDRAMON]      = sAnims_Gumdramon,
     [SPECIES_HACKMON]   = sAnims_Hackmon,
     [SPECIES_HAGURUMON]      = sAnims_Hagurumon,
-    [SPECIES_HAGURUMON_X]     = sAnims_Togetic,
+    [SPECIES_HAGURUMON_X]     = sAnims_Hagurumon_x,
     [SPECIES_HAWKMON]        = sAnims_Natu,
     [SPECIES_HERISSMON]        = sAnims_Xatu,
     [SPECIES_HYOKOMON]      = sAnims_Mareep,
