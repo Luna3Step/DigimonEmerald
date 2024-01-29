@@ -2011,7 +2011,7 @@ static const union AnimCmd sAnim_Gotsumon_x_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Lanturn_1[] =
+static const union AnimCmd sAnim_Guilmon_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(0, 10),
@@ -2021,7 +2021,7 @@ static const union AnimCmd sAnim_Lanturn_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Lanturn_2[] =
+static const union AnimCmd sAnim_Guilmon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4993,7 +4993,7 @@ SINGLE_ANIMATION(Gomamon);
 SINGLE_ANIMATION(Gomamon_x);
 SINGLE_ANIMATION(Gotsumon);
 DOUBLE_ANIMATION(Gotsumon_x);
-DOUBLE_ANIMATION(Lanturn);
+DOUBLE_ANIMATION(Guilmon);
 DOUBLE_ANIMATION(Pichu);
 SINGLE_ANIMATION(Cleffa);
 DOUBLE_ANIMATION(Igglybuff);
@@ -5425,7 +5425,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GOMAMON_X]     = sAnims_Gomamon_x,
     [SPECIES_GOTSUMON]      = sAnims_Gotsumon,
     [SPECIES_GOTSUMON_X]    = sAnims_Gotsumon_x,
-    [SPECIES_GUILMON]     = sAnims_Lanturn,
+    [SPECIES_GUILMON]     = sAnims_Guilmon,
     [SPECIES_GUILMON_X]       = sAnims_Pichu,
     [SPECIES_GUMDRAMON]      = sAnims_Cleffa,
     [SPECIES_HACKMON]   = sAnims_Igglybuff,

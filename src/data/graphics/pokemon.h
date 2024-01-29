@@ -1188,12 +1188,12 @@ const u32 gMonShinyPalette_Gotsumon_x[] = INCBIN_U32("graphics/pokemon/gotsumon_
 const u8 gMonIcon_Gotsumon_x[] = INCBIN_U8("graphics/pokemon/gotsumon_x/icon.4bpp");
 const u8 gMonFootprint_Gotsumon_x[] = INCBIN_U8("graphics/pokemon/gotsumon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lanturn[] = INCBIN_U32("graphics/pokemon/lanturn/front.4bpp.lz");
-const u32 gMonPalette_Lanturn[] = INCBIN_U32("graphics/pokemon/lanturn/normal.gbapal.lz");
-const u32 gMonBackPic_Lanturn[] = INCBIN_U32("graphics/pokemon/lanturn/back.4bpp.lz");
-const u32 gMonShinyPalette_Lanturn[] = INCBIN_U32("graphics/pokemon/lanturn/shiny.gbapal.lz");
-const u8 gMonIcon_Lanturn[] = INCBIN_U8("graphics/pokemon/lanturn/icon.4bpp");
-const u8 gMonFootprint_Lanturn[] = INCBIN_U8("graphics/pokemon/lanturn/footprint.1bpp");
+const u32 gMonStillFrontPic_Guilmon[] = INCBIN_U32("graphics/pokemon/guilmon/front.4bpp.lz");
+const u32 gMonPalette_Guilmon[] = INCBIN_U32("graphics/pokemon/guilmon/normal.gbapal.lz");
+const u32 gMonBackPic_Guilmon[] = INCBIN_U32("graphics/pokemon/guilmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Guilmon[] = INCBIN_U32("graphics/pokemon/guilmon/shiny.gbapal.lz");
+const u8 gMonIcon_Guilmon[] = INCBIN_U8("graphics/pokemon/guilmon/icon.4bpp");
+const u8 gMonFootprint_Guilmon[] = INCBIN_U8("graphics/pokemon/guilmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pichu[] = INCBIN_U32("graphics/pokemon/pichu/front.4bpp.lz");
 const u32 gMonPalette_Pichu[] = INCBIN_U32("graphics/pokemon/pichu/normal.gbapal.lz");

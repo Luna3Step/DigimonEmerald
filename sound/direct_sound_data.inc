@@ -1067,8 +1067,8 @@ Cry_Gotsumon_x::
 	.incbin "sound/direct_sound_samples/cries/gotsumon_x.bin"
 
 	.align 2
-Cry_Lanturn::
-	.incbin "sound/direct_sound_samples/cries/lanturn.bin"
+Cry_Guilmon::
+	.incbin "sound/direct_sound_samples/cries/guilmon.bin"
 
 	.align 2
 Cry_Pichu::
