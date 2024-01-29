@@ -77,7 +77,7 @@
 #define OBJ_EVENT_GFX_SPENSER                     73
 #define OBJ_EVENT_GFX_NOLAND                      74
 #define OBJ_EVENT_GFX_LUCY                        75
-#define OBJ_EVENT_GFX_UNUSED_NATU_DOLL            76
+#define OBJ_EVENT_GFX_UNUSED_HAWKMON_DOLL            76
 #define OBJ_EVENT_GFX_UNUSED_PICKMON_WHITE_DOLL       77
 #define OBJ_EVENT_GFX_UNUSED_CONOMON_DOLL        78
 #define OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL          79

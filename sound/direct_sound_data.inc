@@ -1091,8 +1091,8 @@ Cry_Hagurumon_x::
 	.incbin "sound/direct_sound_samples/cries/hagurumon_x.bin"
 
 	.align 2
-Cry_Natu::
-	.incbin "sound/direct_sound_samples/cries/natu.bin"
+Cry_Hawkmon::
+	.incbin "sound/direct_sound_samples/cries/hawkmon.bin"
 
 	.align 2
 Cry_Xatu::

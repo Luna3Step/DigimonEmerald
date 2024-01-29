@@ -1230,12 +1230,12 @@ const u32 gMonShinyPalette_Hagurumon_x[] = INCBIN_U32("graphics/pokemon/hagurumo
 const u8 gMonIcon_Hagurumon_x[] = INCBIN_U8("graphics/pokemon/hagurumon_x/icon.4bpp");
 const u8 gMonFootprint_Hagurumon_x[] = INCBIN_U8("graphics/pokemon/hagurumon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Natu[] = INCBIN_U32("graphics/pokemon/natu/front.4bpp.lz");
-const u32 gMonPalette_Natu[] = INCBIN_U32("graphics/pokemon/natu/normal.gbapal.lz");
-const u32 gMonBackPic_Natu[] = INCBIN_U32("graphics/pokemon/natu/back.4bpp.lz");
-const u32 gMonShinyPalette_Natu[] = INCBIN_U32("graphics/pokemon/natu/shiny.gbapal.lz");
-const u8 gMonIcon_Natu[] = INCBIN_U8("graphics/pokemon/natu/icon.4bpp");
-const u8 gMonFootprint_Natu[] = INCBIN_U8("graphics/pokemon/natu/footprint.1bpp");
+const u32 gMonStillFrontPic_Hawkmon[] = INCBIN_U32("graphics/pokemon/hawkmon/front.4bpp.lz");
+const u32 gMonPalette_Hawkmon[] = INCBIN_U32("graphics/pokemon/hawkmon/normal.gbapal.lz");
+const u32 gMonBackPic_Hawkmon[] = INCBIN_U32("graphics/pokemon/hawkmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hawkmon[] = INCBIN_U32("graphics/pokemon/hawkmon/shiny.gbapal.lz");
+const u8 gMonIcon_Hawkmon[] = INCBIN_U8("graphics/pokemon/hawkmon/icon.4bpp");
+const u8 gMonFootprint_Hawkmon[] = INCBIN_U8("graphics/pokemon/hawkmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Xatu[] = INCBIN_U32("graphics/pokemon/xatu/front.4bpp.lz");
 const u32 gMonPalette_Xatu[] = INCBIN_U32("graphics/pokemon/xatu/normal.gbapal.lz");
