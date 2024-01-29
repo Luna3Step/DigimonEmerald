@@ -462,8 +462,8 @@ const u16 DecorGfx_KISS_POSTER[] = {
     DECOR_TILE(KissPoster_Right)
 };
 
-const u16 DecorGfx_PICHU_DOLL[] = {
-    OBJ_EVENT_GFX_PICHU_DOLL
+const u16 DecorGfx_GUILMON_X_DOLL[] = {
+    OBJ_EVENT_GFX_GUILMON_X_DOLL
 };
 
 const u16 DecorGfx_PETITMON_DOLL[] = {

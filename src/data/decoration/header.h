@@ -912,16 +912,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_KISS_POSTER,
     },
 
-    [DECOR_PICHU_DOLL] =
+    [DECOR_GUILMON_X_DOLL] =
     {
-        .id = DECOR_PICHU_DOLL,
-        .name = _("PICHU DOLL"),
+        .id = DECOR_GUILMON_X_DOLL,
+        .name = _("GUILMONX DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_PICHU_DOLL,
-        .tiles = DecorGfx_PICHU_DOLL,
+        .description = DecorDesc_GUILMON_X_DOLL,
+        .tiles = DecorGfx_GUILMON_X_DOLL,
     },
 
     [DECOR_PETITMON_DOLL] =
