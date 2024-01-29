@@ -1099,8 +1099,8 @@ Cry_Herissmon::
 	.incbin "sound/direct_sound_samples/cries/herissmon.bin"
 
 	.align 2
-Cry_Mareep::
-	.incbin "sound/direct_sound_samples/cries/mareep.bin"
+Cry_Hyokomon::
+	.incbin "sound/direct_sound_samples/cries/hyokomon.bin"
 
 	.align 2
 Cry_Flaaffy::

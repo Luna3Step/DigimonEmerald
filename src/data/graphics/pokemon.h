@@ -1244,12 +1244,12 @@ const u32 gMonShinyPalette_Herissmon[] = INCBIN_U32("graphics/pokemon/herissmon/
 const u8 gMonIcon_Herissmon[] = INCBIN_U8("graphics/pokemon/herissmon/icon.4bpp");
 const u8 gMonFootprint_Herissmon[] = INCBIN_U8("graphics/pokemon/herissmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Mareep[] = INCBIN_U32("graphics/pokemon/mareep/front.4bpp.lz");
-const u32 gMonPalette_Mareep[] = INCBIN_U32("graphics/pokemon/mareep/normal.gbapal.lz");
-const u32 gMonBackPic_Mareep[] = INCBIN_U32("graphics/pokemon/mareep/back.4bpp.lz");
-const u32 gMonShinyPalette_Mareep[] = INCBIN_U32("graphics/pokemon/mareep/shiny.gbapal.lz");
-const u8 gMonIcon_Mareep[] = INCBIN_U8("graphics/pokemon/mareep/icon.4bpp");
-const u8 gMonFootprint_Mareep[] = INCBIN_U8("graphics/pokemon/mareep/footprint.1bpp");
+const u32 gMonStillFrontPic_Hyokomon[] = INCBIN_U32("graphics/pokemon/hyokomon/front.4bpp.lz");
+const u32 gMonPalette_Hyokomon[] = INCBIN_U32("graphics/pokemon/hyokomon/normal.gbapal.lz");
+const u32 gMonBackPic_Hyokomon[] = INCBIN_U32("graphics/pokemon/hyokomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hyokomon[] = INCBIN_U32("graphics/pokemon/hyokomon/shiny.gbapal.lz");
+const u8 gMonIcon_Hyokomon[] = INCBIN_U8("graphics/pokemon/hyokomon/icon.4bpp");
+const u8 gMonFootprint_Hyokomon[] = INCBIN_U8("graphics/pokemon/hyokomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/front.4bpp.lz");
 const u32 gMonPalette_Flaaffy[] = INCBIN_U32("graphics/pokemon/flaaffy/normal.gbapal.lz");

@@ -2133,7 +2133,7 @@ static const union AnimCmd sAnim_Herissmon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Mareep_1[] =
+static const union AnimCmd sAnim_Hyokomon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5001,7 +5001,7 @@ SINGLE_ANIMATION(Hagurumon);
 SINGLE_ANIMATION(Hagurumon_x);
 DOUBLE_ANIMATION(Hawkmon);
 DOUBLE_ANIMATION(Herissmon);
-SINGLE_ANIMATION(Mareep);
+SINGLE_ANIMATION(Hyokomon);
 SINGLE_ANIMATION(Flaaffy);
 SINGLE_ANIMATION(Ampharos);
 SINGLE_ANIMATION(Bellossom);
@@ -5433,7 +5433,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_HAGURUMON_X]     = sAnims_Hagurumon_x,
     [SPECIES_HAWKMON]        = sAnims_Hawkmon,
     [SPECIES_HERISSMON]        = sAnims_Herissmon,
-    [SPECIES_HYOKOMON]      = sAnims_Mareep,
+    [SPECIES_HYOKOMON]      = sAnims_Hyokomon,
     [SPECIES_IGNITEMON]     = sAnims_Flaaffy,
     [SPECIES_IMPMON]    = sAnims_Ampharos,
     [SPECIES_IMPMON_X]   = sAnims_Bellossom,

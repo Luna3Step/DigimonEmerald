@@ -178,7 +178,7 @@ gCryTable::
 	cry Cry_Hagurumon_x
 	cry Cry_Hawkmon
 	cry Cry_Herissmon
-	cry Cry_Mareep
+	cry Cry_Hyokomon
 	cry Cry_Flaaffy
 	cry Cry_Ampharos
 	cry Cry_Bellossom
@@ -569,7 +569,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Hagurumon_x
 	cry_reverse Cry_Hawkmon
 	cry_reverse Cry_Herissmon
-	cry_reverse Cry_Mareep
+	cry_reverse Cry_Hyokomon
 	cry_reverse Cry_Flaaffy
 	cry_reverse Cry_Ampharos
 	cry_reverse Cry_Bellossom
