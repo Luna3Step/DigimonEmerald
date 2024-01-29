@@ -1314,12 +1314,12 @@ const u32 gMonShinyPalette_Keramon_x[] = INCBIN_U32("graphics/pokemon/keramon_x/
 const u8 gMonIcon_Keramon_x[] = INCBIN_U8("graphics/pokemon/keramon_x/icon.4bpp");
 const u8 gMonFootprint_Keramon_x[] = INCBIN_U8("graphics/pokemon/keramon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Jumpluff[] = INCBIN_U32("graphics/pokemon/jumpluff/front.4bpp.lz");
-const u32 gMonPalette_Jumpluff[] = INCBIN_U32("graphics/pokemon/jumpluff/normal.gbapal.lz");
-const u32 gMonBackPic_Jumpluff[] = INCBIN_U32("graphics/pokemon/jumpluff/back.4bpp.lz");
-const u32 gMonShinyPalette_Jumpluff[] = INCBIN_U32("graphics/pokemon/jumpluff/shiny.gbapal.lz");
-const u8 gMonIcon_Jumpluff[] = INCBIN_U8("graphics/pokemon/jumpluff/icon.4bpp");
-const u8 gMonFootprint_Jumpluff[] = INCBIN_U8("graphics/pokemon/jumpluff/footprint.1bpp");
+const u32 gMonStillFrontPic_Kodokgumon[] = INCBIN_U32("graphics/pokemon/kodokgumon/front.4bpp.lz");
+const u32 gMonPalette_Kodokgumon[] = INCBIN_U32("graphics/pokemon/kodokgumon/normal.gbapal.lz");
+const u32 gMonBackPic_Kodokgumon[] = INCBIN_U32("graphics/pokemon/kodokgumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kodokgumon[] = INCBIN_U32("graphics/pokemon/kodokgumon/shiny.gbapal.lz");
+const u8 gMonIcon_Kodokgumon[] = INCBIN_U8("graphics/pokemon/kodokgumon/icon.4bpp");
+const u8 gMonFootprint_Kodokgumon[] = INCBIN_U8("graphics/pokemon/kodokgumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Aipom[] = INCBIN_U32("graphics/pokemon/aipom/front.4bpp.lz");
 const u32 gMonPalette_Aipom[] = INCBIN_U32("graphics/pokemon/aipom/normal.gbapal.lz");

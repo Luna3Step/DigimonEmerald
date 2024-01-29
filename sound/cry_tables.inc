@@ -188,7 +188,7 @@ gCryTable::
 	cry Cry_Kamemon
 	cry Cry_Keramon
 	cry Cry_Keramon_x
-	cry Cry_Jumpluff
+	cry Cry_Kodokgumon
 	cry Cry_Aipom
 	cry Cry_Sunkern
 	cry Cry_Sunflora
@@ -579,7 +579,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kamemon
 	cry_reverse Cry_Keramon
 	cry_reverse Cry_Keramon_x
-	cry_reverse Cry_Jumpluff
+	cry_reverse Cry_Kodokgumon
 	cry_reverse Cry_Aipom
 	cry_reverse Cry_Sunkern
 	cry_reverse Cry_Sunflora
