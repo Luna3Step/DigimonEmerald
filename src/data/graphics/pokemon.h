@@ -1167,12 +1167,12 @@ const u32 gMonShinyPalette_Gomamon[] = INCBIN_U32("graphics/pokemon/gomamon/shin
 const u8 gMonIcon_Gomamon[] = INCBIN_U8("graphics/pokemon/gomamon/icon.4bpp");
 const u8 gMonFootprint_Gomamon[] = INCBIN_U8("graphics/pokemon/gomamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/front.4bpp.lz");
-const u32 gMonPalette_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/normal.gbapal.lz");
-const u32 gMonBackPic_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/back.4bpp.lz");
-const u32 gMonShinyPalette_Ariados[] = INCBIN_U32("graphics/pokemon/ariados/shiny.gbapal.lz");
-const u8 gMonIcon_Ariados[] = INCBIN_U8("graphics/pokemon/ariados/icon.4bpp");
-const u8 gMonFootprint_Ariados[] = INCBIN_U8("graphics/pokemon/ariados/footprint.1bpp");
+const u32 gMonStillFrontPic_Gomamon_x[] = INCBIN_U32("graphics/pokemon/gomamon_x/front.4bpp.lz");
+const u32 gMonPalette_Gomamon_x[] = INCBIN_U32("graphics/pokemon/gomamon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Gomamon_x[] = INCBIN_U32("graphics/pokemon/gomamon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Gomamon_x[] = INCBIN_U32("graphics/pokemon/gomamon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Gomamon_x[] = INCBIN_U8("graphics/pokemon/gomamon_x/icon.4bpp");
+const u8 gMonFootprint_Gomamon_x[] = INCBIN_U8("graphics/pokemon/gomamon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/front.4bpp.lz");
 const u32 gMonPalette_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/normal.gbapal.lz");
