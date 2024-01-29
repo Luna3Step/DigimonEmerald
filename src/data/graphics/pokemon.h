@@ -1279,12 +1279,12 @@ const u32 gMonShinyPalette_Jazamon[] = INCBIN_U32("graphics/pokemon/jazamon/shin
 const u8 gMonIcon_Jazamon[] = INCBIN_U8("graphics/pokemon/jazamon/icon.4bpp");
 const u8 gMonFootprint_Jazamon[] = INCBIN_U8("graphics/pokemon/jazamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/front.4bpp.lz");
-const u32 gMonPalette_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/normal.gbapal.lz");
-const u32 gMonBackPic_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/back.4bpp.lz");
-const u32 gMonShinyPalette_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/shiny.gbapal.lz");
-const u8 gMonIcon_Azumarill[] = INCBIN_U8("graphics/pokemon/azumarill/icon.4bpp");
-const u8 gMonFootprint_Azumarill[] = INCBIN_U8("graphics/pokemon/azumarill/footprint.1bpp");
+const u32 gMonStillFrontPic_Jellymon[] = INCBIN_U32("graphics/pokemon/jellymon/front.4bpp.lz");
+const u32 gMonPalette_Jellymon[] = INCBIN_U32("graphics/pokemon/jellymon/normal.gbapal.lz");
+const u32 gMonBackPic_Jellymon[] = INCBIN_U32("graphics/pokemon/jellymon/back.4bpp.lz");
+const u32 gMonShinyPalette_Jellymon[] = INCBIN_U32("graphics/pokemon/jellymon/shiny.gbapal.lz");
+const u8 gMonIcon_Jellymon[] = INCBIN_U8("graphics/pokemon/jellymon/icon.4bpp");
+const u8 gMonFootprint_Jellymon[] = INCBIN_U8("graphics/pokemon/jellymon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sudowoodo[] = INCBIN_U32("graphics/pokemon/sudowoodo/front.4bpp.lz");
 const u32 gMonPalette_Sudowoodo[] = INCBIN_U32("graphics/pokemon/sudowoodo/normal.gbapal.lz");

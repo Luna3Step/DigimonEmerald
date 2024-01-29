@@ -211,7 +211,7 @@
 #define OBJ_EVENT_GFX_RAYQUAZA                   207
 #define OBJ_EVENT_GFX_ZIGZAGOON_2                208
 #define OBJ_EVENT_GFX_PETITMON                    209
-#define OBJ_EVENT_GFX_AZUMARILL                  210
+#define OBJ_EVENT_GFX_JELLYMON                  210
 #define OBJ_EVENT_GFX_WINGULL                    211
 #define OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW      212
 #define OBJ_EVENT_GFX_TUBER_M_SWIMMING           213

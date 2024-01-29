@@ -1119,8 +1119,8 @@ Cry_Jazamon::
 	.incbin "sound/direct_sound_samples/cries/jazamon.bin"
 
 	.align 2
-Cry_Azumarill::
-	.incbin "sound/direct_sound_samples/cries/azumarill.bin"
+Cry_Jellymon::
+	.incbin "sound/direct_sound_samples/cries/jellymon.bin"
 
 	.align 2
 Cry_Sudowoodo::

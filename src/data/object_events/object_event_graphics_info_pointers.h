@@ -208,7 +208,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsle
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Petitmon;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jellymon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShadow;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming;
@@ -457,7 +457,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RAYQUAZA] =                 &gObjectEventGraphicsInfo_Rayquaza,
     [OBJ_EVENT_GFX_ZIGZAGOON_2] =              &gObjectEventGraphicsInfo_Zigzagoon,
     [OBJ_EVENT_GFX_PETITMON] =                  &gObjectEventGraphicsInfo_Petitmon,
-    [OBJ_EVENT_GFX_AZUMARILL] =                &gObjectEventGraphicsInfo_Azumarill,
+    [OBJ_EVENT_GFX_JELLYMON] =                &gObjectEventGraphicsInfo_Jellymon,
     [OBJ_EVENT_GFX_WINGULL] =                  &gObjectEventGraphicsInfo_Wingull,
     [OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW] =    &gObjectEventGraphicsInfo_KecleonBridgeShadow,
     [OBJ_EVENT_GFX_TUBER_M_SWIMMING] =         &gObjectEventGraphicsInfo_TuberMSwimming,

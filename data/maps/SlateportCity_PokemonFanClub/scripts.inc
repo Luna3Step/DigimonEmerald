@@ -242,12 +242,12 @@ SlateportCity_PokemonFanClub_EventScript_Zigzagoon::
 	release
 	end
 
-SlateportCity_PokemonFanClub_EventScript_Azumarill::
+SlateportCity_PokemonFanClub_EventScript_Jellymon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_JELLYMON, CRY_MODE_NORMAL
-	msgbox SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT
+	msgbox SlateportCity_PokemonFanClub_Text_Jellymon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -395,6 +395,6 @@ SlateportCity_PokemonFanClub_Text_Skitty:
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
 	.string "ZIGZAGOON: Kyuuu…$"
 
-SlateportCity_PokemonFanClub_Text_Azumarill:
-	.string "AZUMARILL: Marimari?$"
+SlateportCity_PokemonFanClub_Text_Jellymon:
+	.string "JELLYMON: Marimari?$"
 

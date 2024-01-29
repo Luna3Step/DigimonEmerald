@@ -123,15 +123,15 @@ LilycoveCity_DepartmentStore_1F_EventScript_LittleGirl::
 	end
 
 LilycoveCity_DepartmentStore_1F_EventScript_PokefanM::
-	msgbox LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill, MSGBOX_NPC
+	msgbox LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForJellymon, MSGBOX_NPC
 	end
 
-LilycoveCity_DepartmentStore_1F_EventScript_Azumarill::
+LilycoveCity_DepartmentStore_1F_EventScript_Jellymon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_JELLYMON, CRY_MODE_NORMAL
-	msgbox LilycoveCity_DepartmentStore_1F_Text_Azumarill, MSGBOX_DEFAULT
+	msgbox LilycoveCity_DepartmentStore_1F_Text_Jellymon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -152,12 +152,12 @@ LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 	.string "Today, my mom is going to buy me some\n"
 	.string "nice furniture.$"
 
-LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
-	.string "I'm buying something for my AZUMARILL\n"
+LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForJellymon:
+	.string "I'm buying something for my JELLYMON\n"
 	.string "as a reward for winning a CONTEST.$"
 
-LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "AZUMARILL: Maririroo!$"
+LilycoveCity_DepartmentStore_1F_Text_Jellymon:
+	.string "JELLYMON: Maririroo!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 	.string "1F: SERVICE COUNTER\n"
