@@ -1127,8 +1127,8 @@ Cry_Junkmon::
 	.incbin "sound/direct_sound_samples/cries/junkmon.bin"
 
 	.align 2
-Cry_Politoed::
-	.incbin "sound/direct_sound_samples/cries/politoed.bin"
+Cry_Kamemon::
+	.incbin "sound/direct_sound_samples/cries/kamemon.bin"
 
 	.align 2
 Cry_Hoppip::

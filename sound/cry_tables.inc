@@ -185,7 +185,7 @@ gCryTable::
 	cry Cry_Jazamon
 	cry Cry_Jellymon
 	cry Cry_Junkmon
-	cry Cry_Politoed
+	cry Cry_Kamemon
 	cry Cry_Hoppip
 	cry Cry_Skiploom
 	cry Cry_Jumpluff
@@ -576,7 +576,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Jazamon
 	cry_reverse Cry_Jellymon
 	cry_reverse Cry_Junkmon
-	cry_reverse Cry_Politoed
+	cry_reverse Cry_Kamemon
 	cry_reverse Cry_Hoppip
 	cry_reverse Cry_Skiploom
 	cry_reverse Cry_Jumpluff

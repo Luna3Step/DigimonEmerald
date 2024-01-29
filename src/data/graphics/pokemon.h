@@ -1293,12 +1293,12 @@ const u32 gMonShinyPalette_Junkmon[] = INCBIN_U32("graphics/pokemon/junkmon/shin
 const u8 gMonIcon_Junkmon[] = INCBIN_U8("graphics/pokemon/junkmon/icon.4bpp");
 const u8 gMonFootprint_Junkmon[] = INCBIN_U8("graphics/pokemon/junkmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Politoed[] = INCBIN_U32("graphics/pokemon/politoed/front.4bpp.lz");
-const u32 gMonPalette_Politoed[] = INCBIN_U32("graphics/pokemon/politoed/normal.gbapal.lz");
-const u32 gMonBackPic_Politoed[] = INCBIN_U32("graphics/pokemon/politoed/back.4bpp.lz");
-const u32 gMonShinyPalette_Politoed[] = INCBIN_U32("graphics/pokemon/politoed/shiny.gbapal.lz");
-const u8 gMonIcon_Politoed[] = INCBIN_U8("graphics/pokemon/politoed/icon.4bpp");
-const u8 gMonFootprint_Politoed[] = INCBIN_U8("graphics/pokemon/politoed/footprint.1bpp");
+const u32 gMonStillFrontPic_Kamemon[] = INCBIN_U32("graphics/pokemon/kamemon/front.4bpp.lz");
+const u32 gMonPalette_Kamemon[] = INCBIN_U32("graphics/pokemon/kamemon/normal.gbapal.lz");
+const u32 gMonBackPic_Kamemon[] = INCBIN_U32("graphics/pokemon/kamemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kamemon[] = INCBIN_U32("graphics/pokemon/kamemon/shiny.gbapal.lz");
+const u8 gMonIcon_Kamemon[] = INCBIN_U8("graphics/pokemon/kamemon/icon.4bpp");
+const u8 gMonFootprint_Kamemon[] = INCBIN_U8("graphics/pokemon/kamemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/front.4bpp.lz");
 const u32 gMonPalette_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/normal.gbapal.lz");
