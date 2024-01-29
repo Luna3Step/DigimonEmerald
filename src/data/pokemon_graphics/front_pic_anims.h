@@ -2161,7 +2161,7 @@ static const union AnimCmd sAnim_Impmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Bellossom_1[] =
+static const union AnimCmd sAnim_Impmon_x_1[] =
 {
     ANIMCMD_FRAME(0, 22),
     ANIMCMD_FRAME(0, 22),
@@ -5004,7 +5004,7 @@ DOUBLE_ANIMATION(Herissmon);
 SINGLE_ANIMATION(Hyokomon);
 SINGLE_ANIMATION(Ignitemon);
 SINGLE_ANIMATION(Impmon);
-SINGLE_ANIMATION(Bellossom);
+SINGLE_ANIMATION(Impmon_x);
 SINGLE_ANIMATION(Marill);
 SINGLE_ANIMATION(Azumarill);
 SINGLE_ANIMATION(Sudowoodo);
@@ -5436,7 +5436,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_HYOKOMON]      = sAnims_Hyokomon,
     [SPECIES_IGNITEMON]     = sAnims_Ignitemon,
     [SPECIES_IMPMON]    = sAnims_Impmon,
-    [SPECIES_IMPMON_X]   = sAnims_Bellossom,
+    [SPECIES_IMPMON_X]   = sAnims_Impmon_x,
     [SPECIES_JAZAMON]      = sAnims_Marill,
     [SPECIES_JELLYMON]   = sAnims_Azumarill,
     [SPECIES_JUNKMON]   = sAnims_Sudowoodo,

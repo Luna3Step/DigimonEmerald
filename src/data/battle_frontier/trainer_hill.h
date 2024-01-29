@@ -1432,7 +1432,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x6,
-                        .nickname = _("BELLOSSOM"),
+                        .nickname = _("IMPMONX"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [5] =

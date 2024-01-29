@@ -477,7 +477,7 @@ static const u8 sShadowMailDesc[] = _(
     "a POKéMON.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
+    "A IMPMONX-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 

@@ -1265,12 +1265,12 @@ const u32 gMonShinyPalette_Impmon[] = INCBIN_U32("graphics/pokemon/impmon/shiny.
 const u8 gMonIcon_Impmon[] = INCBIN_U8("graphics/pokemon/impmon/icon.4bpp");
 const u8 gMonFootprint_Impmon[] = INCBIN_U8("graphics/pokemon/impmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/front.4bpp.lz");
-const u32 gMonPalette_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/normal.gbapal.lz");
-const u32 gMonBackPic_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/back.4bpp.lz");
-const u32 gMonShinyPalette_Bellossom[] = INCBIN_U32("graphics/pokemon/bellossom/shiny.gbapal.lz");
-const u8 gMonIcon_Bellossom[] = INCBIN_U8("graphics/pokemon/bellossom/icon.4bpp");
-const u8 gMonFootprint_Bellossom[] = INCBIN_U8("graphics/pokemon/bellossom/footprint.1bpp");
+const u32 gMonStillFrontPic_Impmon_x[] = INCBIN_U32("graphics/pokemon/impmon_x/front.4bpp.lz");
+const u32 gMonPalette_Impmon_x[] = INCBIN_U32("graphics/pokemon/impmon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Impmon_x[] = INCBIN_U32("graphics/pokemon/impmon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Impmon_x[] = INCBIN_U32("graphics/pokemon/impmon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Impmon_x[] = INCBIN_U8("graphics/pokemon/impmon_x/icon.4bpp");
+const u8 gMonFootprint_Impmon_x[] = INCBIN_U8("graphics/pokemon/impmon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Marill[] = INCBIN_U32("graphics/pokemon/marill/front.4bpp.lz");
 const u32 gMonPalette_Marill[] = INCBIN_U32("graphics/pokemon/marill/normal.gbapal.lz");

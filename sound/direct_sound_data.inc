@@ -1111,8 +1111,8 @@ Cry_Impmon::
 	.incbin "sound/direct_sound_samples/cries/impmon.bin"
 
 	.align 2
-Cry_Bellossom::
-	.incbin "sound/direct_sound_samples/cries/bellossom.bin"
+Cry_Impmon_x::
+	.incbin "sound/direct_sound_samples/cries/impmon_x.bin"
 
 	.align 2
 Cry_Marill::
