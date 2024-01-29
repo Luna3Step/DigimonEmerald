@@ -1083,8 +1083,8 @@ Cry_Hackmon::
 	.incbin "sound/direct_sound_samples/cries/hackmon.bin"
 
 	.align 2
-Cry_Togepi::
-	.incbin "sound/direct_sound_samples/cries/togepi.bin"
+Cry_Hagurumon::
+	.incbin "sound/direct_sound_samples/cries/hagurumon.bin"
 
 	.align 2
 Cry_Togetic::

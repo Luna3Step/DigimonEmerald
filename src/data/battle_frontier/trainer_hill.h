@@ -903,7 +903,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 1,
                         .personality = 0x37,
-                        .nickname = _("TOGEPI"),
+                        .nickname = _("HAGURUMON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                 },

@@ -948,16 +948,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_MARILL_DOLL,
     },
 
-    [DECOR_TOGEPI_DOLL] =
+    [DECOR_HAGURUMON_DOLL] =
     {
-        .id = DECOR_TOGEPI_DOLL,
-        .name = _("TOGEPI DOLL"),
+        .id = DECOR_HAGURUMON_DOLL,
+        .name = _("HAGURUMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_TOGEPI_DOLL,
-        .tiles = DecorGfx_TOGEPI_DOLL,
+        .description = DecorDesc_HAGURUMON_DOLL,
+        .tiles = DecorGfx_HAGURUMON_DOLL,
     },
 
     [DECOR_FLORAMON_DOLL] =
