@@ -1328,12 +1328,12 @@ const u32 gMonShinyPalette_Kokabuimon[] = INCBIN_U32("graphics/pokemon/kokabuimo
 const u8 gMonIcon_Kokabuimon[] = INCBIN_U8("graphics/pokemon/kokabuimon/icon.4bpp");
 const u8 gMonFootprint_Kokabuimon[] = INCBIN_U8("graphics/pokemon/kokabuimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Sunkern[] = INCBIN_U32("graphics/pokemon/sunkern/front.4bpp.lz");
-const u32 gMonPalette_Sunkern[] = INCBIN_U32("graphics/pokemon/sunkern/normal.gbapal.lz");
-const u32 gMonBackPic_Sunkern[] = INCBIN_U32("graphics/pokemon/sunkern/back.4bpp.lz");
-const u32 gMonShinyPalette_Sunkern[] = INCBIN_U32("graphics/pokemon/sunkern/shiny.gbapal.lz");
-const u8 gMonIcon_Sunkern[] = INCBIN_U8("graphics/pokemon/sunkern/icon.4bpp");
-const u8 gMonFootprint_Sunkern[] = INCBIN_U8("graphics/pokemon/sunkern/footprint.1bpp");
+const u32 gMonStillFrontPic_Kokuwamon[] = INCBIN_U32("graphics/pokemon/kokuwamon/front.4bpp.lz");
+const u32 gMonPalette_Kokuwamon[] = INCBIN_U32("graphics/pokemon/kokuwamon/normal.gbapal.lz");
+const u32 gMonBackPic_Kokuwamon[] = INCBIN_U32("graphics/pokemon/kokuwamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kokuwamon[] = INCBIN_U32("graphics/pokemon/kokuwamon/shiny.gbapal.lz");
+const u8 gMonIcon_Kokuwamon[] = INCBIN_U8("graphics/pokemon/kokuwamon/icon.4bpp");
+const u8 gMonFootprint_Kokuwamon[] = INCBIN_U8("graphics/pokemon/kokuwamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sunflora[] = INCBIN_U32("graphics/pokemon/sunflora/front.4bpp.lz");
 const u32 gMonPalette_Sunflora[] = INCBIN_U32("graphics/pokemon/sunflora/normal.gbapal.lz");

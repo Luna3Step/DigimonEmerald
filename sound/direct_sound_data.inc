@@ -1147,8 +1147,8 @@ Cry_Kokabuimon::
 	.incbin "sound/direct_sound_samples/cries/kokabuimon.bin"
 
 	.align 2
-Cry_Sunkern::
-	.incbin "sound/direct_sound_samples/cries/sunkern.bin"
+Cry_Kokuwamon::
+	.incbin "sound/direct_sound_samples/cries/kokuwamon.bin"
 
 	.align 2
 Cry_Sunflora::
