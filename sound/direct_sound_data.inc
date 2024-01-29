@@ -1143,8 +1143,8 @@ Cry_Kodokgumon::
 	.incbin "sound/direct_sound_samples/cries/kodokgumon.bin"
 
 	.align 2
-Cry_Aipom::
-	.incbin "sound/direct_sound_samples/cries/aipom.bin"
+Cry_Kokabuimon::
+	.incbin "sound/direct_sound_samples/cries/kokabuimon.bin"
 
 	.align 2
 Cry_Sunkern::
