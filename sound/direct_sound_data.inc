@@ -1123,8 +1123,8 @@ Cry_Jellymon::
 	.incbin "sound/direct_sound_samples/cries/jellymon.bin"
 
 	.align 2
-Cry_Sudowoodo::
-	.incbin "sound/direct_sound_samples/cries/sudowoodo.bin"
+Cry_Junkmon::
+	.incbin "sound/direct_sound_samples/cries/junkmon.bin"
 
 	.align 2
 Cry_Politoed::

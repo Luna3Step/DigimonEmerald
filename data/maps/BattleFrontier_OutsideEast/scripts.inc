@@ -1,4 +1,4 @@
-.set LOCALID_SUDOWOODO, 14
+.set LOCALID_JUNKMON, 14
 
 BattleFrontier_OutsideEast_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume
@@ -6,10 +6,10 @@ BattleFrontier_OutsideEast_MapScripts::
 	.byte 0
 
 BattleFrontier_OutsideEast_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, BattleFrontier_OutsideEast_EventScript_TryRemoveJunkmon
 	end
 
-BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo::
+BattleFrontier_OutsideEast_EventScript_TryRemoveJunkmon::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject VAR_LAST_TALKED
@@ -18,11 +18,11 @@ BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo::
 BattleFrontier_OutsideEast_OnTransition:
 	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, 0
 	setflag FLAG_HIDE_BATTLE_TOWER_REPORTER
-	call_if_unset FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_ShowSudowoodo
+	call_if_unset FLAG_DEFEATED_JUNKMON, BattleFrontier_OutsideEast_EventScript_ShowJunkmon
 	end
 
-BattleFrontier_OutsideEast_EventScript_ShowSudowoodo::
-	clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+BattleFrontier_OutsideEast_EventScript_ShowJunkmon::
+	clearflag FLAG_HIDE_BATTLE_FRONTIER_JUNKMON
 	return
 
 BattleFrontier_OutsideEast_EventScript_BattleTowerSign::
@@ -103,50 +103,50 @@ BattleFrontier_OutsideEast_EventScript_TriathleteM::
 	msgbox BattleFrontier_OutsideEast_Text_DidScottBringYouHere, MSGBOX_NPC
 	end
 
-BattleFrontier_OutsideEast_EventScript_Sudowoodo::
+BattleFrontier_OutsideEast_EventScript_Junkmon::
 	lock
 	faceplayer
 	waitse
 	playse SE_SUDOWOODO_SHAKE
-	applymovement LOCALID_SUDOWOODO, BattleFrontier_OutsideEast_Movement_SudowoodoShake
+	applymovement LOCALID_JUNKMON, BattleFrontier_OutsideEast_Movement_JunkmonShake
 	waitmovement 0
 	release
 	end
 
-BattleFrontier_OutsideEast_EventScript_WaterSudowoodo::
+BattleFrontier_OutsideEast_EventScript_WaterJunkmon::
 	lock
 	faceplayer
 	special DoWateringBerryTreeAnim
 	waitstate
 	waitse
 	playse SE_SUDOWOODO_SHAKE
-	applymovement LOCALID_SUDOWOODO, BattleFrontier_OutsideEast_Movement_SudowoodoShake
+	applymovement LOCALID_JUNKMON, BattleFrontier_OutsideEast_Movement_JunkmonShake
 	waitmovement 0
-	msgbox gText_Sudowoodo_Attacked, MSGBOX_DEFAULT
+	msgbox gText_Junkmon_Attacked, MSGBOX_DEFAULT
 	closemessage
 	waitse
 	playmoncry SPECIES_JUNKMON, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
-	setvar VAR_LAST_TALKED, LOCALID_SUDOWOODO
+	setvar VAR_LAST_TALKED, LOCALID_JUNKMON
 	setwildbattle SPECIES_JUNKMON, 40
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
-	setflag FLAG_DEFEATED_SUDOWOODO
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, BattleFrontier_OutsideEast_EventScript_DefeatedJunkmon
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, BattleFrontier_OutsideEast_EventScript_DefeatedJunkmon
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, BattleFrontier_OutsideEast_EventScript_DefeatedJunkmon
+	setflag FLAG_DEFEATED_JUNKMON
 	release
 	end
 
-BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo::
-	setflag FLAG_DEFEATED_SUDOWOODO
+BattleFrontier_OutsideEast_EventScript_DefeatedJunkmon::
+	setflag FLAG_DEFEATED_JUNKMON
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-BattleFrontier_OutsideEast_Movement_SudowoodoShake:
+BattleFrontier_OutsideEast_Movement_JunkmonShake:
 	face_right
 	delay_8
 	face_down
@@ -219,12 +219,12 @@ BattleFrontier_OutsideEast_EventScript_Gentleman::
 BattleFrontier_OutsideEast_EventScript_OldWoman::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone
+	goto_if_set FLAG_DEFEATED_JUNKMON, BattleFrontier_OutsideEast_EventScript_OldWomanJunkmonGone
 	msgbox BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle, MSGBOX_DEFAULT
 	release
 	end
 
-BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone::
+BattleFrontier_OutsideEast_EventScript_OldWomanJunkmonGone::
 	msgbox BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere, MSGBOX_DEFAULT
 	release
 	end
