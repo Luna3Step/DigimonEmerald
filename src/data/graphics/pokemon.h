@@ -1174,12 +1174,12 @@ const u32 gMonShinyPalette_Gomamon_x[] = INCBIN_U32("graphics/pokemon/gomamon_x/
 const u8 gMonIcon_Gomamon_x[] = INCBIN_U8("graphics/pokemon/gomamon_x/icon.4bpp");
 const u8 gMonFootprint_Gomamon_x[] = INCBIN_U8("graphics/pokemon/gomamon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/front.4bpp.lz");
-const u32 gMonPalette_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/normal.gbapal.lz");
-const u32 gMonBackPic_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/back.4bpp.lz");
-const u32 gMonShinyPalette_Crobat[] = INCBIN_U32("graphics/pokemon/crobat/shiny.gbapal.lz");
-const u8 gMonIcon_Crobat[] = INCBIN_U8("graphics/pokemon/crobat/icon.4bpp");
-const u8 gMonFootprint_Crobat[] = INCBIN_U8("graphics/pokemon/crobat/footprint.1bpp");
+const u32 gMonStillFrontPic_Gotsumon[] = INCBIN_U32("graphics/pokemon/gotsumon/front.4bpp.lz");
+const u32 gMonPalette_Gotsumon[] = INCBIN_U32("graphics/pokemon/gotsumon/normal.gbapal.lz");
+const u32 gMonBackPic_Gotsumon[] = INCBIN_U32("graphics/pokemon/gotsumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gotsumon[] = INCBIN_U32("graphics/pokemon/gotsumon/shiny.gbapal.lz");
+const u8 gMonIcon_Gotsumon[] = INCBIN_U8("graphics/pokemon/gotsumon/icon.4bpp");
+const u8 gMonFootprint_Gotsumon[] = INCBIN_U8("graphics/pokemon/gotsumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Chinchou[] = INCBIN_U32("graphics/pokemon/chinchou/front.4bpp.lz");
 const u32 gMonPalette_Chinchou[] = INCBIN_U32("graphics/pokemon/chinchou/normal.gbapal.lz");

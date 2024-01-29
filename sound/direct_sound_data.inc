@@ -1059,8 +1059,8 @@ Cry_Gomamon_x::
 	.incbin "sound/direct_sound_samples/cries/gomamon_x.bin"
 
 	.align 2
-Cry_Crobat::
-	.incbin "sound/direct_sound_samples/cries/crobat.bin"
+Cry_Gotsumon::
+	.incbin "sound/direct_sound_samples/cries/gotsumon.bin"
 
 	.align 2
 Cry_Chinchou::
