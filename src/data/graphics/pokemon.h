@@ -1300,12 +1300,12 @@ const u32 gMonShinyPalette_Kamemon[] = INCBIN_U32("graphics/pokemon/kamemon/shin
 const u8 gMonIcon_Kamemon[] = INCBIN_U8("graphics/pokemon/kamemon/icon.4bpp");
 const u8 gMonFootprint_Kamemon[] = INCBIN_U8("graphics/pokemon/kamemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/front.4bpp.lz");
-const u32 gMonPalette_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/normal.gbapal.lz");
-const u32 gMonBackPic_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/back.4bpp.lz");
-const u32 gMonShinyPalette_Hoppip[] = INCBIN_U32("graphics/pokemon/hoppip/shiny.gbapal.lz");
-const u8 gMonIcon_Hoppip[] = INCBIN_U8("graphics/pokemon/hoppip/icon.4bpp");
-const u8 gMonFootprint_Hoppip[] = INCBIN_U8("graphics/pokemon/hoppip/footprint.1bpp");
+const u32 gMonStillFrontPic_Keramon[] = INCBIN_U32("graphics/pokemon/keramon/front.4bpp.lz");
+const u32 gMonPalette_Keramon[] = INCBIN_U32("graphics/pokemon/keramon/normal.gbapal.lz");
+const u32 gMonBackPic_Keramon[] = INCBIN_U32("graphics/pokemon/keramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Keramon[] = INCBIN_U32("graphics/pokemon/keramon/shiny.gbapal.lz");
+const u8 gMonIcon_Keramon[] = INCBIN_U8("graphics/pokemon/keramon/icon.4bpp");
+const u8 gMonFootprint_Keramon[] = INCBIN_U8("graphics/pokemon/keramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Skiploom[] = INCBIN_U32("graphics/pokemon/skiploom/front.4bpp.lz");
 const u32 gMonPalette_Skiploom[] = INCBIN_U32("graphics/pokemon/skiploom/normal.gbapal.lz");

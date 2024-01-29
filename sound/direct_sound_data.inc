@@ -1131,8 +1131,8 @@ Cry_Kamemon::
 	.incbin "sound/direct_sound_samples/cries/kamemon.bin"
 
 	.align 2
-Cry_Hoppip::
-	.incbin "sound/direct_sound_samples/cries/hoppip.bin"
+Cry_Keramon::
+	.incbin "sound/direct_sound_samples/cries/keramon.bin"
 
 	.align 2
 Cry_Skiploom::
