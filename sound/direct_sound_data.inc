@@ -1079,8 +1079,8 @@ Cry_Gumdramon::
 	.incbin "sound/direct_sound_samples/cries/gumdramon.bin"
 
 	.align 2
-Cry_Igglybuff::
-	.incbin "sound/direct_sound_samples/cries/igglybuff.bin"
+Cry_Hackmon::
+	.incbin "sound/direct_sound_samples/cries/hackmon.bin"
 
 	.align 2
 Cry_Togepi::

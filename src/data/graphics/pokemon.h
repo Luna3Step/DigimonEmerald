@@ -1209,12 +1209,12 @@ const u32 gMonShinyPalette_Gumdramon[] = INCBIN_U32("graphics/pokemon/gumdramon/
 const u8 gMonIcon_Gumdramon[] = INCBIN_U8("graphics/pokemon/gumdramon/icon.4bpp");
 const u8 gMonFootprint_Gumdramon[] = INCBIN_U8("graphics/pokemon/gumdramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/front.4bpp.lz");
-const u32 gMonPalette_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/normal.gbapal.lz");
-const u32 gMonBackPic_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/back.4bpp.lz");
-const u32 gMonShinyPalette_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/shiny.gbapal.lz");
-const u8 gMonIcon_Igglybuff[] = INCBIN_U8("graphics/pokemon/igglybuff/icon.4bpp");
-const u8 gMonFootprint_Igglybuff[] = INCBIN_U8("graphics/pokemon/igglybuff/footprint.1bpp");
+const u32 gMonStillFrontPic_Hackmon[] = INCBIN_U32("graphics/pokemon/hackmon/front.4bpp.lz");
+const u32 gMonPalette_Hackmon[] = INCBIN_U32("graphics/pokemon/hackmon/normal.gbapal.lz");
+const u32 gMonBackPic_Hackmon[] = INCBIN_U32("graphics/pokemon/hackmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Hackmon[] = INCBIN_U32("graphics/pokemon/hackmon/shiny.gbapal.lz");
+const u8 gMonIcon_Hackmon[] = INCBIN_U8("graphics/pokemon/hackmon/icon.4bpp");
+const u8 gMonFootprint_Hackmon[] = INCBIN_U8("graphics/pokemon/hackmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Togepi[] = INCBIN_U32("graphics/pokemon/togepi/front.4bpp.lz");
 const u32 gMonPalette_Togepi[] = INCBIN_U32("graphics/pokemon/togepi/normal.gbapal.lz");
