@@ -1115,8 +1115,8 @@ Cry_Impmon_x::
 	.incbin "sound/direct_sound_samples/cries/impmon_x.bin"
 
 	.align 2
-Cry_Marill::
-	.incbin "sound/direct_sound_samples/cries/marill.bin"
+Cry_Jazamon::
+	.incbin "sound/direct_sound_samples/cries/jazamon.bin"
 
 	.align 2
 Cry_Azumarill::

@@ -142,7 +142,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSTidal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Guilmon_xDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PetitmonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JazamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HagurumonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FloramonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Falcomon_06Doll;
@@ -391,7 +391,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SUBMARINE_SHADOW] =         &gObjectEventGraphicsInfo_SubmarineShadow,
     [OBJ_EVENT_GFX_GUILMON_X_DOLL] =               &gObjectEventGraphicsInfo_Guilmon_xDoll,
     [OBJ_EVENT_GFX_PETITMON_DOLL] =             &gObjectEventGraphicsInfo_PetitmonDoll,
-    [OBJ_EVENT_GFX_MARILL_DOLL] =              &gObjectEventGraphicsInfo_MarillDoll,
+    [OBJ_EVENT_GFX_JAZAMON_DOLL] =              &gObjectEventGraphicsInfo_JazamonDoll,
     [OBJ_EVENT_GFX_HAGURUMON_DOLL] =              &gObjectEventGraphicsInfo_HagurumonDoll,
     [OBJ_EVENT_GFX_FLORAMON_DOLL] =           &gObjectEventGraphicsInfo_FloramonDoll,
     [OBJ_EVENT_GFX_FALCOMON_06_DOLL] =           &gObjectEventGraphicsInfo_Falcomon_06Doll,

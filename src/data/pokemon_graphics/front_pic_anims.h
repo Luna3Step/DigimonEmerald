@@ -2173,7 +2173,7 @@ static const union AnimCmd sAnim_Impmon_x_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Marill_1[] =
+static const union AnimCmd sAnim_Jazamon_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 44),
@@ -5005,7 +5005,7 @@ SINGLE_ANIMATION(Hyokomon);
 SINGLE_ANIMATION(Ignitemon);
 SINGLE_ANIMATION(Impmon);
 SINGLE_ANIMATION(Impmon_x);
-SINGLE_ANIMATION(Marill);
+SINGLE_ANIMATION(Jazamon);
 SINGLE_ANIMATION(Azumarill);
 SINGLE_ANIMATION(Sudowoodo);
 SINGLE_ANIMATION(Politoed);
@@ -5437,7 +5437,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_IGNITEMON]     = sAnims_Ignitemon,
     [SPECIES_IMPMON]    = sAnims_Impmon,
     [SPECIES_IMPMON_X]   = sAnims_Impmon_x,
-    [SPECIES_JAZAMON]      = sAnims_Marill,
+    [SPECIES_JAZAMON]      = sAnims_Jazamon,
     [SPECIES_JELLYMON]   = sAnims_Azumarill,
     [SPECIES_JUNKMON]   = sAnims_Sudowoodo,
     [SPECIES_KAMEMON]    = sAnims_Politoed,

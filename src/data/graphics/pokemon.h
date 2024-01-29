@@ -1272,12 +1272,12 @@ const u32 gMonShinyPalette_Impmon_x[] = INCBIN_U32("graphics/pokemon/impmon_x/sh
 const u8 gMonIcon_Impmon_x[] = INCBIN_U8("graphics/pokemon/impmon_x/icon.4bpp");
 const u8 gMonFootprint_Impmon_x[] = INCBIN_U8("graphics/pokemon/impmon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Marill[] = INCBIN_U32("graphics/pokemon/marill/front.4bpp.lz");
-const u32 gMonPalette_Marill[] = INCBIN_U32("graphics/pokemon/marill/normal.gbapal.lz");
-const u32 gMonBackPic_Marill[] = INCBIN_U32("graphics/pokemon/marill/back.4bpp.lz");
-const u32 gMonShinyPalette_Marill[] = INCBIN_U32("graphics/pokemon/marill/shiny.gbapal.lz");
-const u8 gMonIcon_Marill[] = INCBIN_U8("graphics/pokemon/marill/icon.4bpp");
-const u8 gMonFootprint_Marill[] = INCBIN_U8("graphics/pokemon/marill/footprint.1bpp");
+const u32 gMonStillFrontPic_Jazamon[] = INCBIN_U32("graphics/pokemon/jazamon/front.4bpp.lz");
+const u32 gMonPalette_Jazamon[] = INCBIN_U32("graphics/pokemon/jazamon/normal.gbapal.lz");
+const u32 gMonBackPic_Jazamon[] = INCBIN_U32("graphics/pokemon/jazamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Jazamon[] = INCBIN_U32("graphics/pokemon/jazamon/shiny.gbapal.lz");
+const u8 gMonIcon_Jazamon[] = INCBIN_U8("graphics/pokemon/jazamon/icon.4bpp");
+const u8 gMonFootprint_Jazamon[] = INCBIN_U8("graphics/pokemon/jazamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/front.4bpp.lz");
 const u32 gMonPalette_Azumarill[] = INCBIN_U32("graphics/pokemon/azumarill/normal.gbapal.lz");

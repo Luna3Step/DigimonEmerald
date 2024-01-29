@@ -470,8 +470,8 @@ const u16 DecorGfx_PETITMON_DOLL[] = {
     OBJ_EVENT_GFX_PETITMON_DOLL
 };
 
-const u16 DecorGfx_MARILL_DOLL[] = {
-    OBJ_EVENT_GFX_MARILL_DOLL
+const u16 DecorGfx_JAZAMON_DOLL[] = {
+    OBJ_EVENT_GFX_JAZAMON_DOLL
 };
 
 const u16 DecorGfx_HAGURUMON_DOLL[] = {

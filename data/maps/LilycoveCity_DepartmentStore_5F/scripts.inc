@@ -31,7 +31,7 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft::
 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
 	.2byte DECOR_GUILMON_X_DOLL
 	.2byte DECOR_PETITMON_DOLL
-	.2byte DECOR_MARILL_DOLL
+	.2byte DECOR_JAZAMON_DOLL
 	.2byte DECOR_SANDMON_DOLL
 	.2byte DECOR_DUSKULL_DOLL
 	.2byte DECOR_WYNAUT_DOLL

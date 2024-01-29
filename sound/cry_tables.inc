@@ -182,7 +182,7 @@ gCryTable::
 	cry Cry_Ignitemon
 	cry Cry_Impmon
 	cry Cry_Impmon_x
-	cry Cry_Marill
+	cry Cry_Jazamon
 	cry Cry_Azumarill
 	cry Cry_Sudowoodo
 	cry Cry_Politoed
@@ -573,7 +573,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Ignitemon
 	cry_reverse Cry_Impmon
 	cry_reverse Cry_Impmon_x
-	cry_reverse Cry_Marill
+	cry_reverse Cry_Jazamon
 	cry_reverse Cry_Azumarill
 	cry_reverse Cry_Sudowoodo
 	cry_reverse Cry_Politoed

@@ -145,7 +145,7 @@
 #define OBJ_EVENT_GFX_SUBMARINE_SHADOW           141
 #define OBJ_EVENT_GFX_GUILMON_X_DOLL                 142
 #define OBJ_EVENT_GFX_PETITMON_DOLL               143
-#define OBJ_EVENT_GFX_MARILL_DOLL                144
+#define OBJ_EVENT_GFX_JAZAMON_DOLL                144
 #define OBJ_EVENT_GFX_HAGURUMON_DOLL                145
 #define OBJ_EVENT_GFX_FLORAMON_DOLL             146
 #define OBJ_EVENT_GFX_FALCOMON_06_DOLL             147
