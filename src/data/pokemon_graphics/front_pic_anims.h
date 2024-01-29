@@ -2112,7 +2112,7 @@ static const union AnimCmd sAnim_Hawkmon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Xatu_1[] =
+static const union AnimCmd sAnim_Herissmon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 45),
@@ -2124,7 +2124,7 @@ static const union AnimCmd sAnim_Xatu_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Xatu_2[] =
+static const union AnimCmd sAnim_Herissmon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5000,7 +5000,7 @@ DOUBLE_ANIMATION(Hackmon);
 SINGLE_ANIMATION(Hagurumon);
 SINGLE_ANIMATION(Hagurumon_x);
 DOUBLE_ANIMATION(Hawkmon);
-DOUBLE_ANIMATION(Xatu);
+DOUBLE_ANIMATION(Herissmon);
 SINGLE_ANIMATION(Mareep);
 SINGLE_ANIMATION(Flaaffy);
 SINGLE_ANIMATION(Ampharos);
@@ -5432,7 +5432,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_HAGURUMON]      = sAnims_Hagurumon,
     [SPECIES_HAGURUMON_X]     = sAnims_Hagurumon_x,
     [SPECIES_HAWKMON]        = sAnims_Hawkmon,
-    [SPECIES_HERISSMON]        = sAnims_Xatu,
+    [SPECIES_HERISSMON]        = sAnims_Herissmon,
     [SPECIES_HYOKOMON]      = sAnims_Mareep,
     [SPECIES_IGNITEMON]     = sAnims_Flaaffy,
     [SPECIES_IMPMON]    = sAnims_Ampharos,
