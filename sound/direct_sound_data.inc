@@ -1075,8 +1075,8 @@ Cry_Guilmon_x::
 	.incbin "sound/direct_sound_samples/cries/guilmon_x.bin"
 
 	.align 2
-Cry_Cleffa::
-	.incbin "sound/direct_sound_samples/cries/cleffa.bin"
+Cry_Gumdramon::
+	.incbin "sound/direct_sound_samples/cries/gumdramon.bin"
 
 	.align 2
 Cry_Igglybuff::

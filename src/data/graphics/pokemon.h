@@ -1202,12 +1202,12 @@ const u32 gMonShinyPalette_Guilmon_x[] = INCBIN_U32("graphics/pokemon/guilmon_x/
 const u8 gMonIcon_Guilmon_x[] = INCBIN_U8("graphics/pokemon/guilmon_x/icon.4bpp");
 const u8 gMonFootprint_Guilmon_x[] = INCBIN_U8("graphics/pokemon/guilmon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Cleffa[] = INCBIN_U32("graphics/pokemon/cleffa/front.4bpp.lz");
-const u32 gMonPalette_Cleffa[] = INCBIN_U32("graphics/pokemon/cleffa/normal.gbapal.lz");
-const u32 gMonBackPic_Cleffa[] = INCBIN_U32("graphics/pokemon/cleffa/back.4bpp.lz");
-const u32 gMonShinyPalette_Cleffa[] = INCBIN_U32("graphics/pokemon/cleffa/shiny.gbapal.lz");
-const u8 gMonIcon_Cleffa[] = INCBIN_U8("graphics/pokemon/cleffa/icon.4bpp");
-const u8 gMonFootprint_Cleffa[] = INCBIN_U8("graphics/pokemon/cleffa/footprint.1bpp");
+const u32 gMonStillFrontPic_Gumdramon[] = INCBIN_U32("graphics/pokemon/gumdramon/front.4bpp.lz");
+const u32 gMonPalette_Gumdramon[] = INCBIN_U32("graphics/pokemon/gumdramon/normal.gbapal.lz");
+const u32 gMonBackPic_Gumdramon[] = INCBIN_U32("graphics/pokemon/gumdramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gumdramon[] = INCBIN_U32("graphics/pokemon/gumdramon/shiny.gbapal.lz");
+const u8 gMonIcon_Gumdramon[] = INCBIN_U8("graphics/pokemon/gumdramon/icon.4bpp");
+const u8 gMonFootprint_Gumdramon[] = INCBIN_U8("graphics/pokemon/gumdramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/front.4bpp.lz");
 const u32 gMonPalette_Igglybuff[] = INCBIN_U32("graphics/pokemon/igglybuff/normal.gbapal.lz");

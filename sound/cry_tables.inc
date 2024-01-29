@@ -172,7 +172,7 @@ gCryTable::
 	cry Cry_Gotsumon_x
 	cry Cry_Guilmon
 	cry Cry_Guilmon_x
-	cry Cry_Cleffa
+	cry Cry_Gumdramon
 	cry Cry_Igglybuff
 	cry Cry_Togepi
 	cry Cry_Togetic
@@ -563,7 +563,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gotsumon_x
 	cry_reverse Cry_Guilmon
 	cry_reverse Cry_Guilmon_x
-	cry_reverse Cry_Cleffa
+	cry_reverse Cry_Gumdramon
 	cry_reverse Cry_Igglybuff
 	cry_reverse Cry_Togepi
 	cry_reverse Cry_Togetic

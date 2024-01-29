@@ -2049,7 +2049,7 @@ static const union AnimCmd sAnim_Guilmon_x_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Cleffa_1[] =
+static const union AnimCmd sAnim_Gumdramon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4995,7 +4995,7 @@ SINGLE_ANIMATION(Gotsumon);
 DOUBLE_ANIMATION(Gotsumon_x);
 DOUBLE_ANIMATION(Guilmon);
 DOUBLE_ANIMATION(Guilmon_x);
-SINGLE_ANIMATION(Cleffa);
+SINGLE_ANIMATION(Gumdramon);
 DOUBLE_ANIMATION(Igglybuff);
 SINGLE_ANIMATION(Togepi);
 SINGLE_ANIMATION(Togetic);
@@ -5427,7 +5427,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GOTSUMON_X]    = sAnims_Gotsumon_x,
     [SPECIES_GUILMON]     = sAnims_Guilmon,
     [SPECIES_GUILMON_X]       = sAnims_Guilmon_x,
-    [SPECIES_GUMDRAMON]      = sAnims_Cleffa,
+    [SPECIES_GUMDRAMON]      = sAnims_Gumdramon,
     [SPECIES_HACKMON]   = sAnims_Igglybuff,
     [SPECIES_HAGURUMON]      = sAnims_Togepi,
     [SPECIES_HAGURUMON_X]     = sAnims_Togetic,
