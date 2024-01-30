@@ -1227,8 +1227,8 @@ Cry_Monitamon::
 	.incbin "sound/direct_sound_samples/cries/monitamon.bin"
 
 	.align 2
-Cry_Qwilfish::
-	.incbin "sound/direct_sound_samples/cries/qwilfish.bin"
+Cry_Monmon::
+	.incbin "sound/direct_sound_samples/cries/monmon.bin"
 
 	.align 2
 Cry_Scizor::

@@ -2470,7 +2470,7 @@ static const union AnimCmd sAnim_Monitamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Qwilfish_1[] =
+static const union AnimCmd sAnim_Monmon_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 8),
@@ -5033,7 +5033,7 @@ SINGLE_ANIMATION(Metabee);
 SINGLE_ANIMATION(Kodekacmon);
 SINGLE_ANIMATION(Modbetamon);
 SINGLE_ANIMATION(Monitamon);
-SINGLE_ANIMATION(Qwilfish);
+SINGLE_ANIMATION(Monmon);
 SINGLE_ANIMATION(Scizor);
 SINGLE_ANIMATION(Shuckle);
 DOUBLE_ANIMATION(Heracross);
@@ -5465,7 +5465,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_KODEKACMON]     = sAnims_Kodekacmon,
     [SPECIES_MODBETAMON]    = sAnims_Modbetamon,
     [SPECIES_MONITAMON]    = sAnims_Monitamon,
-    [SPECIES_MONMON]    = sAnims_Qwilfish,
+    [SPECIES_MONMON]    = sAnims_Monmon,
     [SPECIES_MONODRAMON]      = sAnims_Scizor,
     [SPECIES_MORPHOMON]     = sAnims_Shuckle,
     [SPECIES_MUCHOMON]   = sAnims_Heracross,

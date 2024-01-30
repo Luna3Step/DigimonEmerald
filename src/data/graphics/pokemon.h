@@ -1468,12 +1468,12 @@ const u32 gMonShinyPalette_Monitamon[] = INCBIN_U32("graphics/pokemon/monitamon/
 const u8 gMonIcon_Monitamon[] = INCBIN_U8("graphics/pokemon/monitamon/icon.4bpp");
 const u8 gMonFootprint_Monitamon[] = INCBIN_U8("graphics/pokemon/monitamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/front.4bpp.lz");
-const u32 gMonPalette_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/normal.gbapal.lz");
-const u32 gMonBackPic_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/back.4bpp.lz");
-const u32 gMonShinyPalette_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/shiny.gbapal.lz");
-const u8 gMonIcon_Qwilfish[] = INCBIN_U8("graphics/pokemon/qwilfish/icon.4bpp");
-const u8 gMonFootprint_Qwilfish[] = INCBIN_U8("graphics/pokemon/qwilfish/footprint.1bpp");
+const u32 gMonStillFrontPic_Monmon[] = INCBIN_U32("graphics/pokemon/monmon/front.4bpp.lz");
+const u32 gMonPalette_Monmon[] = INCBIN_U32("graphics/pokemon/monmon/normal.gbapal.lz");
+const u32 gMonBackPic_Monmon[] = INCBIN_U32("graphics/pokemon/monmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Monmon[] = INCBIN_U32("graphics/pokemon/monmon/shiny.gbapal.lz");
+const u8 gMonIcon_Monmon[] = INCBIN_U8("graphics/pokemon/monmon/icon.4bpp");
+const u8 gMonFootprint_Monmon[] = INCBIN_U8("graphics/pokemon/monmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/front.4bpp.lz");
 const u32 gMonPalette_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/normal.gbapal.lz");

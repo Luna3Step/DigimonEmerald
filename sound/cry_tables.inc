@@ -210,7 +210,7 @@ gCryTable::
 	cry Cry_Kodekacmon
 	cry Cry_Modbetamon
 	cry Cry_Monitamon
-	cry Cry_Qwilfish
+	cry Cry_Monmon
 	cry Cry_Scizor
 	cry Cry_Shuckle
 	cry Cry_Heracross
@@ -601,7 +601,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kodekacmon
 	cry_reverse Cry_Modbetamon
 	cry_reverse Cry_Monitamon
-	cry_reverse Cry_Qwilfish
+	cry_reverse Cry_Monmon
 	cry_reverse Cry_Scizor
 	cry_reverse Cry_Shuckle
 	cry_reverse Cry_Heracross
