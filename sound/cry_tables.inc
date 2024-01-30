@@ -219,7 +219,7 @@ gCryTable::
 	cry Cry_Otamamon
 	cry Cry_Otamamon_red
 	cry Cry_Otamamon_x
-	cry Cry_Swinub
+	cry Cry_Palmon
 	cry Cry_Piloswine
 	cry Cry_Corsola
 	cry Cry_Remoraid
@@ -610,7 +610,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Otamamon
 	cry_reverse Cry_Otamamon_red
 	cry_reverse Cry_Otamamon_x
-	cry_reverse Cry_Swinub
+	cry_reverse Cry_Palmon
 	cry_reverse Cry_Piloswine
 	cry_reverse Cry_Corsola
 	cry_reverse Cry_Remoraid

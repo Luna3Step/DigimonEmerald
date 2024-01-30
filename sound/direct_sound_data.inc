@@ -1263,8 +1263,8 @@ Cry_Otamamon_x::
 	.incbin "sound/direct_sound_samples/cries/otamamon_x.bin"
 
 	.align 2
-Cry_Swinub::
-	.incbin "sound/direct_sound_samples/cries/swinub.bin"
+Cry_Palmon::
+	.incbin "sound/direct_sound_samples/cries/palmon.bin"
 
 	.align 2
 Cry_Piloswine::

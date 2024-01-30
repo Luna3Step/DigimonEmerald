@@ -1530,12 +1530,12 @@ const u32 gMonShinyPalette_Otamamon_x[] = INCBIN_U32("graphics/pokemon/otamamon_
 const u8 gMonIcon_Otamamon_x[] = INCBIN_U8("graphics/pokemon/otamamon_x/icon.4bpp");
 const u8 gMonFootprint_Otamamon_x[] = INCBIN_U8("graphics/pokemon/otamamon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/front.4bpp.lz");
-const u32 gMonPalette_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/normal.gbapal.lz");
-const u32 gMonBackPic_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/back.4bpp.lz");
-const u32 gMonShinyPalette_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/shiny.gbapal.lz");
-const u8 gMonIcon_Swinub[] = INCBIN_U8("graphics/pokemon/swinub/icon.4bpp");
-const u8 gMonFootprint_Swinub[] = INCBIN_U8("graphics/pokemon/swinub/footprint.1bpp");
+const u32 gMonStillFrontPic_Palmon[] = INCBIN_U32("graphics/pokemon/palmon/front.4bpp.lz");
+const u32 gMonPalette_Palmon[] = INCBIN_U32("graphics/pokemon/palmon/normal.gbapal.lz");
+const u32 gMonBackPic_Palmon[] = INCBIN_U32("graphics/pokemon/palmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Palmon[] = INCBIN_U32("graphics/pokemon/palmon/shiny.gbapal.lz");
+const u8 gMonIcon_Palmon[] = INCBIN_U8("graphics/pokemon/palmon/icon.4bpp");
+const u8 gMonFootprint_Palmon[] = INCBIN_U8("graphics/pokemon/palmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Piloswine[] = INCBIN_U32("graphics/pokemon/piloswine/front.4bpp.lz");
 const u32 gMonPalette_Piloswine[] = INCBIN_U32("graphics/pokemon/piloswine/normal.gbapal.lz");
