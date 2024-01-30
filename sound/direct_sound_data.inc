@@ -1211,8 +1211,8 @@ Cry_Luxmon::
 	.incbin "sound/direct_sound_samples/cries/luxmon.bin"
 
 	.align 2
-Cry_Gligar::
-	.incbin "sound/direct_sound_samples/cries/gligar.bin"
+Cry_Metabee::
+	.incbin "sound/direct_sound_samples/cries/metabee.bin"
 
 	.align 2
 Cry_Steelix::

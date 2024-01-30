@@ -1440,12 +1440,12 @@ const u32 gMonShinyPalette_Luxmon[] = INCBIN_U32("graphics/pokemon/luxmon/shiny.
 const u8 gMonIcon_Luxmon[] = INCBIN_U8("graphics/pokemon/luxmon/icon.4bpp");
 const u8 gMonFootprint_Luxmon[] = INCBIN_U8("graphics/pokemon/luxmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/front.4bpp.lz");
-const u32 gMonPalette_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/normal.gbapal.lz");
-const u32 gMonBackPic_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/back.4bpp.lz");
-const u32 gMonShinyPalette_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/shiny.gbapal.lz");
-const u8 gMonIcon_Gligar[] = INCBIN_U8("graphics/pokemon/gligar/icon.4bpp");
-const u8 gMonFootprint_Gligar[] = INCBIN_U8("graphics/pokemon/gligar/footprint.1bpp");
+const u32 gMonStillFrontPic_Metabee[] = INCBIN_U32("graphics/pokemon/metabee/front.4bpp.lz");
+const u32 gMonPalette_Metabee[] = INCBIN_U32("graphics/pokemon/metabee/normal.gbapal.lz");
+const u32 gMonBackPic_Metabee[] = INCBIN_U32("graphics/pokemon/metabee/back.4bpp.lz");
+const u32 gMonShinyPalette_Metabee[] = INCBIN_U32("graphics/pokemon/metabee/shiny.gbapal.lz");
+const u8 gMonIcon_Metabee[] = INCBIN_U8("graphics/pokemon/metabee/icon.4bpp");
+const u8 gMonFootprint_Metabee[] = INCBIN_U8("graphics/pokemon/metabee/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/front.4bpp.lz");
 const u32 gMonPalette_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/normal.gbapal.lz");
