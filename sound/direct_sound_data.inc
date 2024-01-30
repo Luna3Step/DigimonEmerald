@@ -1191,8 +1191,8 @@ Cry_Lopmon::
 	.incbin "sound/direct_sound_samples/cries/lopmon.bin"
 
 	.align 2
-Cry_Wobbuffet::
-	.incbin "sound/direct_sound_samples/cries/wobbuffet.bin"
+Cry_Lopmon_x::
+	.incbin "sound/direct_sound_samples/cries/lopmon_x.bin"
 
 	.align 2
 Cry_Girafarig::

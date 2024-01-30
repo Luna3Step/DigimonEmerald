@@ -1405,12 +1405,12 @@ const u32 gMonShinyPalette_Lopmon[] = INCBIN_U32("graphics/pokemon/lopmon/shiny.
 const u8 gMonIcon_Lopmon[] = INCBIN_U8("graphics/pokemon/lopmon/a/icon.4bpp");
 const u8 gMonFootprint_Lopmon[] = INCBIN_U8("graphics/pokemon/lopmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wobbuffet[] = INCBIN_U32("graphics/pokemon/wobbuffet/front.4bpp.lz");
-const u32 gMonPalette_Wobbuffet[] = INCBIN_U32("graphics/pokemon/wobbuffet/normal.gbapal.lz");
-const u32 gMonBackPic_Wobbuffet[] = INCBIN_U32("graphics/pokemon/wobbuffet/back.4bpp.lz");
-const u32 gMonShinyPalette_Wobbuffet[] = INCBIN_U32("graphics/pokemon/wobbuffet/shiny.gbapal.lz");
-const u8 gMonIcon_Wobbuffet[] = INCBIN_U8("graphics/pokemon/wobbuffet/icon.4bpp");
-const u8 gMonFootprint_Wobbuffet[] = INCBIN_U8("graphics/pokemon/wobbuffet/footprint.1bpp");
+const u32 gMonStillFrontPic_Lopmon_x[] = INCBIN_U32("graphics/pokemon/lopmon_x/front.4bpp.lz");
+const u32 gMonPalette_Lopmon_x[] = INCBIN_U32("graphics/pokemon/lopmon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Lopmon_x[] = INCBIN_U32("graphics/pokemon/lopmon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Lopmon_x[] = INCBIN_U32("graphics/pokemon/lopmon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Lopmon_x[] = INCBIN_U8("graphics/pokemon/lopmon_x/icon.4bpp");
+const u8 gMonFootprint_Lopmon_x[] = INCBIN_U8("graphics/pokemon/lopmon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Girafarig[] = INCBIN_U32("graphics/pokemon/girafarig/front.4bpp.lz");
 const u32 gMonPalette_Girafarig[] = INCBIN_U32("graphics/pokemon/girafarig/normal.gbapal.lz");
