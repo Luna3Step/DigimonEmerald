@@ -198,7 +198,7 @@ gCryTable::
 	cry Cry_Kunemon
 	cry Cry_Labramon
 	cry Cry_Lalamon
-	cry Cry_Slowking
+	cry Cry_Liollmon
 	cry Cry_Misdreavus
 	cry Cry_Unown
 	cry Cry_Wobbuffet
@@ -589,7 +589,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kunemon
 	cry_reverse Cry_Labramon
 	cry_reverse Cry_Lalamon
-	cry_reverse Cry_Slowking
+	cry_reverse Cry_Liollmon
 	cry_reverse Cry_Misdreavus
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Wobbuffet
