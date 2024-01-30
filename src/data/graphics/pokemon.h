@@ -1433,12 +1433,12 @@ const u32 gMonShinyPalette_Lunamon[] = INCBIN_U32("graphics/pokemon/lunamon/shin
 const u8 gMonIcon_Lunamon[] = INCBIN_U8("graphics/pokemon/lunamon/icon.4bpp");
 const u8 gMonFootprint_Lunamon[] = INCBIN_U8("graphics/pokemon/lunamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Dunsparce[] = INCBIN_U32("graphics/pokemon/dunsparce/front.4bpp.lz");
-const u32 gMonPalette_Dunsparce[] = INCBIN_U32("graphics/pokemon/dunsparce/normal.gbapal.lz");
-const u32 gMonBackPic_Dunsparce[] = INCBIN_U32("graphics/pokemon/dunsparce/back.4bpp.lz");
-const u32 gMonShinyPalette_Dunsparce[] = INCBIN_U32("graphics/pokemon/dunsparce/shiny.gbapal.lz");
-const u8 gMonIcon_Dunsparce[] = INCBIN_U8("graphics/pokemon/dunsparce/icon.4bpp");
-const u8 gMonFootprint_Dunsparce[] = INCBIN_U8("graphics/pokemon/dunsparce/footprint.1bpp");
+const u32 gMonStillFrontPic_Luxmon[] = INCBIN_U32("graphics/pokemon/luxmon/front.4bpp.lz");
+const u32 gMonPalette_Luxmon[] = INCBIN_U32("graphics/pokemon/luxmon/normal.gbapal.lz");
+const u32 gMonBackPic_Luxmon[] = INCBIN_U32("graphics/pokemon/luxmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Luxmon[] = INCBIN_U32("graphics/pokemon/luxmon/shiny.gbapal.lz");
+const u8 gMonIcon_Luxmon[] = INCBIN_U8("graphics/pokemon/luxmon/icon.4bpp");
+const u8 gMonFootprint_Luxmon[] = INCBIN_U8("graphics/pokemon/luxmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/front.4bpp.lz");
 const u32 gMonPalette_Gligar[] = INCBIN_U32("graphics/pokemon/gligar/normal.gbapal.lz");

@@ -1207,8 +1207,8 @@ Cry_Lunamon::
 	.incbin "sound/direct_sound_samples/cries/lunamon.bin"
 
 	.align 2
-Cry_Dunsparce::
-	.incbin "sound/direct_sound_samples/cries/dunsparce.bin"
+Cry_Luxmon::
+	.incbin "sound/direct_sound_samples/cries/luxmon.bin"
 
 	.align 2
 Cry_Gligar::
