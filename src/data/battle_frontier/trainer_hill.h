@@ -4297,7 +4297,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0x94,
-                                            .nickname = _("LOPMON_X"),
+                                            .nickname = _("LOPMONX"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =
