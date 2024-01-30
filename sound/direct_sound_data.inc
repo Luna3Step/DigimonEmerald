@@ -1199,8 +1199,8 @@ Cry_Lucemon::
 	.incbin "sound/direct_sound_samples/cries/lucemon.bin"
 
 	.align 2
-Cry_Pineco::
-	.incbin "sound/direct_sound_samples/cries/pineco.bin"
+Cry_Ludomon::
+	.incbin "sound/direct_sound_samples/cries/ludomon.bin"
 
 	.align 2
 Cry_Forretress::
