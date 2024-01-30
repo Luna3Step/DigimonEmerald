@@ -2537,7 +2537,7 @@ static const union AnimCmd sAnim_Otamamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Slugma_1[] =
+static const union AnimCmd sAnim_Otamamon_red_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -2547,7 +2547,7 @@ static const union AnimCmd sAnim_Slugma_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Slugma_2[] =
+static const union AnimCmd sAnim_Otamamon_red_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5040,7 +5040,7 @@ DOUBLE_ANIMATION(Muchomon);
 SINGLE_ANIMATION(Mushroomon);
 SINGLE_ANIMATION(Neemon);
 SINGLE_ANIMATION(Otamamon);
-DOUBLE_ANIMATION(Slugma);
+DOUBLE_ANIMATION(Otamamon_red);
 DOUBLE_ANIMATION(Magcargo);
 SINGLE_ANIMATION(Swinub);
 SINGLE_ANIMATION(Piloswine);
@@ -5472,7 +5472,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MUSHROOMON]     = sAnims_Mushroomon,
     [SPECIES_NEEMON]   = sAnims_Neemon,
     [SPECIES_OTAMAMON]    = sAnims_Otamamon,
-    [SPECIES_OTAMAMON_RED]      = sAnims_Slugma,
+    [SPECIES_OTAMAMON_RED]      = sAnims_Otamamon_red,
     [SPECIES_OTAMAMON_X]    = sAnims_Magcargo,
     [SPECIES_PALMON]      = sAnims_Swinub,
     [SPECIES_PALMON_X]   = sAnims_Piloswine,

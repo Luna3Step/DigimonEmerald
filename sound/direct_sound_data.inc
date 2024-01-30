@@ -1255,8 +1255,8 @@ Cry_Otamamon::
 	.incbin "sound/direct_sound_samples/cries/otamamon.bin"
 
 	.align 2
-Cry_Slugma::
-	.incbin "sound/direct_sound_samples/cries/slugma.bin"
+Cry_Otamamon_red::
+	.incbin "sound/direct_sound_samples/cries/otamamon_red.bin"
 
 	.align 2
 Cry_Magcargo::
