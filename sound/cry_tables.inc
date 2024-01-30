@@ -215,7 +215,7 @@ gCryTable::
 	cry Cry_Morphomon
 	cry Cry_Muchomon
 	cry Cry_Mushroomon
-	cry Cry_Teddiursa
+	cry Cry_Neemon
 	cry Cry_Ursaring
 	cry Cry_Slugma
 	cry Cry_Magcargo
@@ -606,7 +606,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Morphomon
 	cry_reverse Cry_Muchomon
 	cry_reverse Cry_Mushroomon
-	cry_reverse Cry_Teddiursa
+	cry_reverse Cry_Neemon
 	cry_reverse Cry_Ursaring
 	cry_reverse Cry_Slugma
 	cry_reverse Cry_Magcargo
