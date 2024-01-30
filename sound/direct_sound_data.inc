@@ -1175,8 +1175,8 @@ Cry_Labramon::
 	.incbin "sound/direct_sound_samples/cries/labramon.bin"
 
 	.align 2
-Cry_Murkrow::
-	.incbin "sound/direct_sound_samples/cries/murkrow.bin"
+Cry_Lalamon::
+	.incbin "sound/direct_sound_samples/cries/lalamon.bin"
 
 	.align 2
 Cry_Slowking::
