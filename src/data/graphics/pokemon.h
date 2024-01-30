@@ -1447,12 +1447,12 @@ const u32 gMonShinyPalette_Metabee[] = INCBIN_U32("graphics/pokemon/metabee/shin
 const u8 gMonIcon_Metabee[] = INCBIN_U8("graphics/pokemon/metabee/icon.4bpp");
 const u8 gMonFootprint_Metabee[] = INCBIN_U8("graphics/pokemon/metabee/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/front.4bpp.lz");
-const u32 gMonPalette_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/normal.gbapal.lz");
-const u32 gMonBackPic_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/back.4bpp.lz");
-const u32 gMonShinyPalette_Steelix[] = INCBIN_U32("graphics/pokemon/steelix/shiny.gbapal.lz");
-const u8 gMonIcon_Steelix[] = INCBIN_U8("graphics/pokemon/steelix/icon.4bpp");
-const u8 gMonFootprint_Steelix[] = INCBIN_U8("graphics/pokemon/steelix/footprint.1bpp");
+const u32 gMonStillFrontPic_Kodekacmon[] = INCBIN_U32("graphics/pokemon/kodekacmon/front.4bpp.lz");
+const u32 gMonPalette_Kodekacmon[] = INCBIN_U32("graphics/pokemon/kodekacmon/normal.gbapal.lz");
+const u32 gMonBackPic_Kodekacmon[] = INCBIN_U32("graphics/pokemon/kodekacmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kodekacmon[] = INCBIN_U32("graphics/pokemon/kodekacmon/shiny.gbapal.lz");
+const u8 gMonIcon_Kodekacmon[] = INCBIN_U8("graphics/pokemon/kodekacmon/icon.4bpp");
+const u8 gMonFootprint_Kodekacmon[] = INCBIN_U8("graphics/pokemon/kodekacmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/front.4bpp.lz");
 const u32 gMonPalette_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/normal.gbapal.lz");

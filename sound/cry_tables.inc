@@ -207,7 +207,7 @@ gCryTable::
 	cry Cry_Lunamon
 	cry Cry_Luxmon
 	cry Cry_Metabee
-	cry Cry_Steelix
+	cry Cry_Kodekacmon
 	cry Cry_Snubbull
 	cry Cry_Granbull
 	cry Cry_Qwilfish
@@ -598,7 +598,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Lunamon
 	cry_reverse Cry_Luxmon
 	cry_reverse Cry_Metabee
-	cry_reverse Cry_Steelix
+	cry_reverse Cry_Kodekacmon
 	cry_reverse Cry_Snubbull
 	cry_reverse Cry_Granbull
 	cry_reverse Cry_Qwilfish

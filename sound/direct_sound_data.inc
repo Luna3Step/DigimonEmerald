@@ -1215,8 +1215,8 @@ Cry_Metabee::
 	.incbin "sound/direct_sound_samples/cries/metabee.bin"
 
 	.align 2
-Cry_Steelix::
-	.incbin "sound/direct_sound_samples/cries/steelix.bin"
+Cry_Kodekacmon::
+	.incbin "sound/direct_sound_samples/cries/kodekacmon.bin"
 
 	.align 2
 Cry_Snubbull::
