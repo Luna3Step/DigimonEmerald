@@ -1271,8 +1271,8 @@ Cry_Palmon_x::
 	.incbin "sound/direct_sound_samples/cries/palmon_x.bin"
 
 	.align 2
-Cry_Corsola::
-	.incbin "sound/direct_sound_samples/cries/corsola.bin"
+Cry_Patamon::
+	.incbin "sound/direct_sound_samples/cries/patamon.bin"
 
 	.align 2
 Cry_Remoraid::
