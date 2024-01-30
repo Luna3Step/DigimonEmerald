@@ -1171,8 +1171,8 @@ Cry_Kunemon::
 	.incbin "sound/direct_sound_samples/cries/kunemon.bin"
 
 	.align 2
-Cry_Umbreon::
-	.incbin "sound/direct_sound_samples/cries/umbreon.bin"
+Cry_Labramon::
+	.incbin "sound/direct_sound_samples/cries/labramon.bin"
 
 	.align 2
 Cry_Murkrow::

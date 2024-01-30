@@ -1370,12 +1370,12 @@ const u32 gMonShinyPalette_Kunemon[] = INCBIN_U32("graphics/pokemon/kunemon/shin
 const u8 gMonIcon_Kunemon[] = INCBIN_U8("graphics/pokemon/kunemon/icon.4bpp");
 const u8 gMonFootprint_Kunemon[] = INCBIN_U8("graphics/pokemon/kunemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/front.4bpp.lz");
-const u32 gMonPalette_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/normal.gbapal.lz");
-const u32 gMonBackPic_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/back.4bpp.lz");
-const u32 gMonShinyPalette_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/shiny.gbapal.lz");
-const u8 gMonIcon_Umbreon[] = INCBIN_U8("graphics/pokemon/umbreon/icon.4bpp");
-const u8 gMonFootprint_Umbreon[] = INCBIN_U8("graphics/pokemon/umbreon/footprint.1bpp");
+const u32 gMonStillFrontPic_Labramon[] = INCBIN_U32("graphics/pokemon/labramon/front.4bpp.lz");
+const u32 gMonPalette_Labramon[] = INCBIN_U32("graphics/pokemon/labramon/normal.gbapal.lz");
+const u32 gMonBackPic_Labramon[] = INCBIN_U32("graphics/pokemon/labramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Labramon[] = INCBIN_U32("graphics/pokemon/labramon/shiny.gbapal.lz");
+const u8 gMonIcon_Labramon[] = INCBIN_U8("graphics/pokemon/labramon/icon.4bpp");
+const u8 gMonFootprint_Labramon[] = INCBIN_U8("graphics/pokemon/labramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Murkrow[] = INCBIN_U32("graphics/pokemon/murkrow/front.4bpp.lz");
 const u32 gMonPalette_Murkrow[] = INCBIN_U32("graphics/pokemon/murkrow/normal.gbapal.lz");
