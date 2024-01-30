@@ -1167,8 +1167,8 @@ Cry_Kudamon_06::
 	.incbin "sound/direct_sound_samples/cries/kudamon_06.bin"
 
 	.align 2
-Cry_Espeon::
-	.incbin "sound/direct_sound_samples/cries/espeon.bin"
+Cry_Kunemon::
+	.incbin "sound/direct_sound_samples/cries/kunemon.bin"
 
 	.align 2
 Cry_Umbreon::

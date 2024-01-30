@@ -1363,12 +1363,12 @@ const u32 gMonShinyPalette_Kudamon_06[] = INCBIN_U32("graphics/pokemon/kudamon_0
 const u8 gMonIcon_Kudamon_06[] = INCBIN_U8("graphics/pokemon/kudamon_06/icon.4bpp");
 const u8 gMonFootprint_Kudamon_06[] = INCBIN_U8("graphics/pokemon/kudamon_06/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Espeon[] = INCBIN_U32("graphics/pokemon/espeon/front.4bpp.lz");
-const u32 gMonPalette_Espeon[] = INCBIN_U32("graphics/pokemon/espeon/normal.gbapal.lz");
-const u32 gMonBackPic_Espeon[] = INCBIN_U32("graphics/pokemon/espeon/back.4bpp.lz");
-const u32 gMonShinyPalette_Espeon[] = INCBIN_U32("graphics/pokemon/espeon/shiny.gbapal.lz");
-const u8 gMonIcon_Espeon[] = INCBIN_U8("graphics/pokemon/espeon/icon.4bpp");
-const u8 gMonFootprint_Espeon[] = INCBIN_U8("graphics/pokemon/espeon/footprint.1bpp");
+const u32 gMonStillFrontPic_Kunemon[] = INCBIN_U32("graphics/pokemon/kunemon/front.4bpp.lz");
+const u32 gMonPalette_Kunemon[] = INCBIN_U32("graphics/pokemon/kunemon/normal.gbapal.lz");
+const u32 gMonBackPic_Kunemon[] = INCBIN_U32("graphics/pokemon/kunemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kunemon[] = INCBIN_U32("graphics/pokemon/kunemon/shiny.gbapal.lz");
+const u8 gMonIcon_Kunemon[] = INCBIN_U8("graphics/pokemon/kunemon/icon.4bpp");
+const u8 gMonFootprint_Kunemon[] = INCBIN_U8("graphics/pokemon/kunemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/front.4bpp.lz");
 const u32 gMonPalette_Umbreon[] = INCBIN_U32("graphics/pokemon/umbreon/normal.gbapal.lz");
