@@ -1496,12 +1496,12 @@ const u32 gMonShinyPalette_Muchomon[] = INCBIN_U32("graphics/pokemon/muchomon/sh
 const u8 gMonIcon_Muchomon[] = INCBIN_U8("graphics/pokemon/muchomon/icon.4bpp");
 const u8 gMonFootprint_Muchomon[] = INCBIN_U8("graphics/pokemon/muchomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Sneasel[] = INCBIN_U32("graphics/pokemon/sneasel/front.4bpp.lz");
-const u32 gMonPalette_Sneasel[] = INCBIN_U32("graphics/pokemon/sneasel/normal.gbapal.lz");
-const u32 gMonBackPic_Sneasel[] = INCBIN_U32("graphics/pokemon/sneasel/back.4bpp.lz");
-const u32 gMonShinyPalette_Sneasel[] = INCBIN_U32("graphics/pokemon/sneasel/shiny.gbapal.lz");
-const u8 gMonIcon_Sneasel[] = INCBIN_U8("graphics/pokemon/sneasel/icon.4bpp");
-const u8 gMonFootprint_Sneasel[] = INCBIN_U8("graphics/pokemon/sneasel/footprint.1bpp");
+const u32 gMonStillFrontPic_Mushroomon[] = INCBIN_U32("graphics/pokemon/mushroomon/front.4bpp.lz");
+const u32 gMonPalette_Mushroomon[] = INCBIN_U32("graphics/pokemon/mushroomon/normal.gbapal.lz");
+const u32 gMonBackPic_Mushroomon[] = INCBIN_U32("graphics/pokemon/mushroomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Mushroomon[] = INCBIN_U32("graphics/pokemon/mushroomon/shiny.gbapal.lz");
+const u8 gMonIcon_Mushroomon[] = INCBIN_U8("graphics/pokemon/mushroomon/icon.4bpp");
+const u8 gMonFootprint_Mushroomon[] = INCBIN_U8("graphics/pokemon/mushroomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Teddiursa[] = INCBIN_U32("graphics/pokemon/teddiursa/front.4bpp.lz");
 const u32 gMonPalette_Teddiursa[] = INCBIN_U32("graphics/pokemon/teddiursa/normal.gbapal.lz");

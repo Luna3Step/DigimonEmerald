@@ -1243,8 +1243,8 @@ Cry_Muchomon::
 	.incbin "sound/direct_sound_samples/cries/muchomon.bin"
 
 	.align 2
-Cry_Sneasel::
-	.incbin "sound/direct_sound_samples/cries/sneasel.bin"
+Cry_Mushroomon::
+	.incbin "sound/direct_sound_samples/cries/mushroomon.bin"
 
 	.align 2
 Cry_Teddiursa::

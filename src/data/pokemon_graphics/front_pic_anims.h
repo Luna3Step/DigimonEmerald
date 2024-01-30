@@ -2516,7 +2516,7 @@ static const union AnimCmd sAnim_Muchomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Sneasel_1[] =
+static const union AnimCmd sAnim_Mushroomon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5037,7 +5037,7 @@ SINGLE_ANIMATION(Monmon);
 SINGLE_ANIMATION(Monodramon);
 SINGLE_ANIMATION(Morphomon);
 DOUBLE_ANIMATION(Muchomon);
-SINGLE_ANIMATION(Sneasel);
+SINGLE_ANIMATION(Mushroomon);
 SINGLE_ANIMATION(Teddiursa);
 SINGLE_ANIMATION(Ursaring);
 DOUBLE_ANIMATION(Slugma);
@@ -5469,7 +5469,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MONODRAMON]      = sAnims_Monodramon,
     [SPECIES_MORPHOMON]     = sAnims_Morphomon,
     [SPECIES_MUCHOMON]   = sAnims_Muchomon,
-    [SPECIES_MUSHROOMON]     = sAnims_Sneasel,
+    [SPECIES_MUSHROOMON]     = sAnims_Mushroomon,
     [SPECIES_NEEMON]   = sAnims_Teddiursa,
     [SPECIES_OTAMAMON]    = sAnims_Ursaring,
     [SPECIES_OTAMAMON_RED]      = sAnims_Slugma,
