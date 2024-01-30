@@ -1183,8 +1183,8 @@ Cry_Liollmon::
 	.incbin "sound/direct_sound_samples/cries/liollmon.bin"
 
 	.align 2
-Cry_Misdreavus::
-	.incbin "sound/direct_sound_samples/cries/misdreavus.bin"
+Cry_Loogamon::
+	.incbin "sound/direct_sound_samples/cries/loogamon.bin"
 
 	.align 2
 Cry_Unown::

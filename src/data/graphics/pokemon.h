@@ -1391,12 +1391,12 @@ const u32 gMonShinyPalette_Liollmon[] = INCBIN_U32("graphics/pokemon/liollmon/sh
 const u8 gMonIcon_Liollmon[] = INCBIN_U8("graphics/pokemon/liollmon/icon.4bpp");
 const u8 gMonFootprint_Liollmon[] = INCBIN_U8("graphics/pokemon/liollmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Misdreavus[] = INCBIN_U32("graphics/pokemon/misdreavus/front.4bpp.lz");
-const u32 gMonPalette_Misdreavus[] = INCBIN_U32("graphics/pokemon/misdreavus/normal.gbapal.lz");
-const u32 gMonBackPic_Misdreavus[] = INCBIN_U32("graphics/pokemon/misdreavus/back.4bpp.lz");
-const u32 gMonShinyPalette_Misdreavus[] = INCBIN_U32("graphics/pokemon/misdreavus/shiny.gbapal.lz");
-const u8 gMonIcon_Misdreavus[] = INCBIN_U8("graphics/pokemon/misdreavus/icon.4bpp");
-const u8 gMonFootprint_Misdreavus[] = INCBIN_U8("graphics/pokemon/misdreavus/footprint.1bpp");
+const u32 gMonStillFrontPic_Loogamon[] = INCBIN_U32("graphics/pokemon/loogamon/front.4bpp.lz");
+const u32 gMonPalette_Loogamon[] = INCBIN_U32("graphics/pokemon/loogamon/normal.gbapal.lz");
+const u32 gMonBackPic_Loogamon[] = INCBIN_U32("graphics/pokemon/loogamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Loogamon[] = INCBIN_U32("graphics/pokemon/loogamon/shiny.gbapal.lz");
+const u8 gMonIcon_Loogamon[] = INCBIN_U8("graphics/pokemon/loogamon/icon.4bpp");
+const u8 gMonFootprint_Loogamon[] = INCBIN_U8("graphics/pokemon/loogamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_UnownA[] = INCBIN_U32("graphics/pokemon/unown/a/front.4bpp.lz");
 const u32 gMonPalette_Unown[] = INCBIN_U32("graphics/pokemon/unown/normal.gbapal.lz");

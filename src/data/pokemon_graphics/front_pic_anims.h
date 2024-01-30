@@ -2344,7 +2344,7 @@ static const union AnimCmd sAnim_Liollmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Misdreavus_1[] =
+static const union AnimCmd sAnim_Loogamon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5022,7 +5022,7 @@ SINGLE_ANIMATION(Kunemon);
 SINGLE_ANIMATION(Labramon);
 SINGLE_ANIMATION(Lalamon);
 SINGLE_ANIMATION(Liollmon);
-SINGLE_ANIMATION(Misdreavus);
+SINGLE_ANIMATION(Loogamon);
 SINGLE_ANIMATION(Unown);
 DOUBLE_ANIMATION(Wobbuffet);
 DOUBLE_ANIMATION(Girafarig);
@@ -5454,7 +5454,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_LABRAMON]     = sAnims_Labramon,
     [SPECIES_LALAMON]     = sAnims_Lalamon,
     [SPECIES_LIOLLMON]    = sAnims_Liollmon,
-    [SPECIES_LOOGAMON]  = sAnims_Misdreavus,
+    [SPECIES_LOOGAMON]  = sAnims_Loogamon,
     [SPECIES_LOPMON]       = sAnims_Unown,
     [SPECIES_LOPMON_X]   = sAnims_Wobbuffet,
     [SPECIES_LUCEMON]   = sAnims_Girafarig,
