@@ -5867,7 +5867,7 @@ u16 ModifyStatByNature(u8 nature, u16 stat, u8 statIndex)
 // positive nature and > 728 for a negative nature.
 // Neither occur in the base game, but this can happen if
 // any Nature-affected base stat is increased to a value
-// above 248. The closest by default is Shuckle at 230.
+// above 248. The closest by default is Morphomon at 230.
 #ifdef BUGFIX
     u32 retVal;
 #else

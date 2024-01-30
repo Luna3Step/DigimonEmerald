@@ -1482,12 +1482,12 @@ const u32 gMonShinyPalette_Monodramon[] = INCBIN_U32("graphics/pokemon/monodramo
 const u8 gMonIcon_Monodramon[] = INCBIN_U8("graphics/pokemon/monodramon/icon.4bpp");
 const u8 gMonFootprint_Monodramon[] = INCBIN_U8("graphics/pokemon/monodramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/front.4bpp.lz");
-const u32 gMonPalette_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/normal.gbapal.lz");
-const u32 gMonBackPic_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/back.4bpp.lz");
-const u32 gMonShinyPalette_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/shiny.gbapal.lz");
-const u8 gMonIcon_Shuckle[] = INCBIN_U8("graphics/pokemon/shuckle/icon.4bpp");
-const u8 gMonFootprint_Shuckle[] = INCBIN_U8("graphics/pokemon/shuckle/footprint.1bpp");
+const u32 gMonStillFrontPic_Morphomon[] = INCBIN_U32("graphics/pokemon/morphomon/front.4bpp.lz");
+const u32 gMonPalette_Morphomon[] = INCBIN_U32("graphics/pokemon/morphomon/normal.gbapal.lz");
+const u32 gMonBackPic_Morphomon[] = INCBIN_U32("graphics/pokemon/morphomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Morphomon[] = INCBIN_U32("graphics/pokemon/morphomon/shiny.gbapal.lz");
+const u8 gMonIcon_Morphomon[] = INCBIN_U8("graphics/pokemon/morphomon/icon.4bpp");
+const u8 gMonFootprint_Morphomon[] = INCBIN_U8("graphics/pokemon/morphomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Heracross[] = INCBIN_U32("graphics/pokemon/heracross/front.4bpp.lz");
 const u32 gMonPalette_Heracross[] = INCBIN_U32("graphics/pokemon/heracross/normal.gbapal.lz");
