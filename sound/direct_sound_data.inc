@@ -1275,8 +1275,8 @@ Cry_Patamon::
 	.incbin "sound/direct_sound_samples/cries/patamon.bin"
 
 	.align 2
-Cry_Remoraid::
-	.incbin "sound/direct_sound_samples/cries/remoraid.bin"
+Cry_Pawnmon::
+	.incbin "sound/direct_sound_samples/cries/pawnmon.bin"
 
 	.align 2
 Cry_Octillery::

@@ -222,7 +222,7 @@ gCryTable::
 	cry Cry_Palmon
 	cry Cry_Palmon_x
 	cry Cry_Patamon
-	cry Cry_Remoraid
+	cry Cry_Pawnmon
 	cry Cry_Octillery
 	cry Cry_Delibird
 	cry Cry_Mantine
@@ -613,7 +613,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Palmon
 	cry_reverse Cry_Palmon_x
 	cry_reverse Cry_Patamon
-	cry_reverse Cry_Remoraid
+	cry_reverse Cry_Pawnmon
 	cry_reverse Cry_Octillery
 	cry_reverse Cry_Delibird
 	cry_reverse Cry_Mantine

@@ -1551,12 +1551,12 @@ const u32 gMonShinyPalette_Patamon[] = INCBIN_U32("graphics/pokemon/patamon/shin
 const u8 gMonIcon_Patamon[] = INCBIN_U8("graphics/pokemon/patamon/icon.4bpp");
 const u8 gMonFootprint_Patamon[] = INCBIN_U8("graphics/pokemon/patamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Remoraid[] = INCBIN_U32("graphics/pokemon/remoraid/front.4bpp.lz");
-const u32 gMonPalette_Remoraid[] = INCBIN_U32("graphics/pokemon/remoraid/normal.gbapal.lz");
-const u32 gMonBackPic_Remoraid[] = INCBIN_U32("graphics/pokemon/remoraid/back.4bpp.lz");
-const u32 gMonShinyPalette_Remoraid[] = INCBIN_U32("graphics/pokemon/remoraid/shiny.gbapal.lz");
-const u8 gMonIcon_Remoraid[] = INCBIN_U8("graphics/pokemon/remoraid/icon.4bpp");
-const u8 gMonFootprint_Remoraid[] = INCBIN_U8("graphics/pokemon/remoraid/footprint.1bpp");
+const u32 gMonStillFrontPic_Pawnmon[] = INCBIN_U32("graphics/pokemon/pawnmon/front.4bpp.lz");
+const u32 gMonPalette_Pawnmon[] = INCBIN_U32("graphics/pokemon/pawnmon/normal.gbapal.lz");
+const u32 gMonBackPic_Pawnmon[] = INCBIN_U32("graphics/pokemon/pawnmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pawnmon[] = INCBIN_U32("graphics/pokemon/pawnmon/shiny.gbapal.lz");
+const u8 gMonIcon_Pawnmon[] = INCBIN_U8("graphics/pokemon/pawnmon/icon.4bpp");
+const u8 gMonFootprint_Pawnmon[] = INCBIN_U8("graphics/pokemon/pawnmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/front.4bpp.lz");
 const u32 gMonPalette_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/normal.gbapal.lz");
