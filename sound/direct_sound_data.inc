@@ -1195,8 +1195,8 @@ Cry_Lopmon_x::
 	.incbin "sound/direct_sound_samples/cries/lopmon_x.bin"
 
 	.align 2
-Cry_Girafarig::
-	.incbin "sound/direct_sound_samples/cries/girafarig.bin"
+Cry_Lucemon::
+	.incbin "sound/direct_sound_samples/cries/lucemon.bin"
 
 	.align 2
 Cry_Pineco::
