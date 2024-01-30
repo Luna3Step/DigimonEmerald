@@ -194,7 +194,7 @@ gCryTable::
 	cry Cry_Kokuwamon_x
 	cry Cry_Kotemon
 	cry Cry_Kudamon
-	cry Cry_Quagsire
+	cry Cry_Kudamon_06
 	cry Cry_Espeon
 	cry Cry_Umbreon
 	cry Cry_Murkrow
@@ -585,7 +585,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kokuwamon_x
 	cry_reverse Cry_Kotemon
 	cry_reverse Cry_Kudamon
-	cry_reverse Cry_Quagsire
+	cry_reverse Cry_Kudamon_06
 	cry_reverse Cry_Espeon
 	cry_reverse Cry_Umbreon
 	cry_reverse Cry_Murkrow
