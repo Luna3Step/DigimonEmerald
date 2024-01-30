@@ -1523,12 +1523,12 @@ const u32 gMonShinyPalette_Otamamon_red[] = INCBIN_U32("graphics/pokemon/otamamo
 const u8 gMonIcon_Otamamon_red[] = INCBIN_U8("graphics/pokemon/otamamon_red/icon.4bpp");
 const u8 gMonFootprint_Otamamon_red[] = INCBIN_U8("graphics/pokemon/otamamon_red/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Magcargo[] = INCBIN_U32("graphics/pokemon/magcargo/front.4bpp.lz");
-const u32 gMonPalette_Magcargo[] = INCBIN_U32("graphics/pokemon/magcargo/normal.gbapal.lz");
-const u32 gMonBackPic_Magcargo[] = INCBIN_U32("graphics/pokemon/magcargo/back.4bpp.lz");
-const u32 gMonShinyPalette_Magcargo[] = INCBIN_U32("graphics/pokemon/magcargo/shiny.gbapal.lz");
-const u8 gMonIcon_Magcargo[] = INCBIN_U8("graphics/pokemon/magcargo/icon.4bpp");
-const u8 gMonFootprint_Magcargo[] = INCBIN_U8("graphics/pokemon/magcargo/footprint.1bpp");
+const u32 gMonStillFrontPic_Otamamon_x[] = INCBIN_U32("graphics/pokemon/otamamon_x/front.4bpp.lz");
+const u32 gMonPalette_Otamamon_x[] = INCBIN_U32("graphics/pokemon/otamamon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Otamamon_x[] = INCBIN_U32("graphics/pokemon/otamamon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Otamamon_x[] = INCBIN_U32("graphics/pokemon/otamamon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Otamamon_x[] = INCBIN_U8("graphics/pokemon/otamamon_x/icon.4bpp");
+const u8 gMonFootprint_Otamamon_x[] = INCBIN_U8("graphics/pokemon/otamamon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/front.4bpp.lz");
 const u32 gMonPalette_Swinub[] = INCBIN_U32("graphics/pokemon/swinub/normal.gbapal.lz");
