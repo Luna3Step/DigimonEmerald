@@ -1203,8 +1203,8 @@ Cry_Ludomon::
 	.incbin "sound/direct_sound_samples/cries/ludomon.bin"
 
 	.align 2
-Cry_Forretress::
-	.incbin "sound/direct_sound_samples/cries/forretress.bin"
+Cry_Lunamon::
+	.incbin "sound/direct_sound_samples/cries/lunamon.bin"
 
 	.align 2
 Cry_Dunsparce::
