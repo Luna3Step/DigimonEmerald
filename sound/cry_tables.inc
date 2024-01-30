@@ -220,7 +220,7 @@ gCryTable::
 	cry Cry_Otamamon_red
 	cry Cry_Otamamon_x
 	cry Cry_Palmon
-	cry Cry_Piloswine
+	cry Cry_Palmon_x
 	cry Cry_Corsola
 	cry Cry_Remoraid
 	cry Cry_Octillery
@@ -611,7 +611,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Otamamon_red
 	cry_reverse Cry_Otamamon_x
 	cry_reverse Cry_Palmon
-	cry_reverse Cry_Piloswine
+	cry_reverse Cry_Palmon_x
 	cry_reverse Cry_Corsola
 	cry_reverse Cry_Remoraid
 	cry_reverse Cry_Octillery
