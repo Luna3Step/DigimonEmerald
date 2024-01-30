@@ -1454,12 +1454,12 @@ const u32 gMonShinyPalette_Kodekacmon[] = INCBIN_U32("graphics/pokemon/kodekacmo
 const u8 gMonIcon_Kodekacmon[] = INCBIN_U8("graphics/pokemon/kodekacmon/icon.4bpp");
 const u8 gMonFootprint_Kodekacmon[] = INCBIN_U8("graphics/pokemon/kodekacmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/front.4bpp.lz");
-const u32 gMonPalette_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/normal.gbapal.lz");
-const u32 gMonBackPic_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/back.4bpp.lz");
-const u32 gMonShinyPalette_Snubbull[] = INCBIN_U32("graphics/pokemon/snubbull/shiny.gbapal.lz");
-const u8 gMonIcon_Snubbull[] = INCBIN_U8("graphics/pokemon/snubbull/icon.4bpp");
-const u8 gMonFootprint_Snubbull[] = INCBIN_U8("graphics/pokemon/snubbull/footprint.1bpp");
+const u32 gMonStillFrontPic_Modbetamon[] = INCBIN_U32("graphics/pokemon/modbetamon/front.4bpp.lz");
+const u32 gMonPalette_Modbetamon[] = INCBIN_U32("graphics/pokemon/modbetamon/normal.gbapal.lz");
+const u32 gMonBackPic_Modbetamon[] = INCBIN_U32("graphics/pokemon/modbetamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Modbetamon[] = INCBIN_U32("graphics/pokemon/modbetamon/shiny.gbapal.lz");
+const u8 gMonIcon_Modbetamon[] = INCBIN_U8("graphics/pokemon/modbetamon/icon.4bpp");
+const u8 gMonFootprint_Modbetamon[] = INCBIN_U8("graphics/pokemon/modbetamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Granbull[] = INCBIN_U32("graphics/pokemon/granbull/front.4bpp.lz");
 const u32 gMonPalette_Granbull[] = INCBIN_U32("graphics/pokemon/granbull/normal.gbapal.lz");

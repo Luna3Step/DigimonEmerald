@@ -1219,8 +1219,8 @@ Cry_Kodekacmon::
 	.incbin "sound/direct_sound_samples/cries/kodekacmon.bin"
 
 	.align 2
-Cry_Snubbull::
-	.incbin "sound/direct_sound_samples/cries/snubbull.bin"
+Cry_Modbetamon::
+	.incbin "sound/direct_sound_samples/cries/modbetamon.bin"
 
 	.align 2
 Cry_Granbull::

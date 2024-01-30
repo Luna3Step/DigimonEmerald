@@ -208,7 +208,7 @@ gCryTable::
 	cry Cry_Luxmon
 	cry Cry_Metabee
 	cry Cry_Kodekacmon
-	cry Cry_Snubbull
+	cry Cry_Modbetamon
 	cry Cry_Granbull
 	cry Cry_Qwilfish
 	cry Cry_Scizor
@@ -599,7 +599,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Luxmon
 	cry_reverse Cry_Metabee
 	cry_reverse Cry_Kodekacmon
-	cry_reverse Cry_Snubbull
+	cry_reverse Cry_Modbetamon
 	cry_reverse Cry_Granbull
 	cry_reverse Cry_Qwilfish
 	cry_reverse Cry_Scizor
