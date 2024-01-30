@@ -2482,7 +2482,7 @@ static const union AnimCmd sAnim_Monmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Scizor_1[] =
+static const union AnimCmd sAnim_Monodramon_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 20),
@@ -5034,7 +5034,7 @@ SINGLE_ANIMATION(Kodekacmon);
 SINGLE_ANIMATION(Modbetamon);
 SINGLE_ANIMATION(Monitamon);
 SINGLE_ANIMATION(Monmon);
-SINGLE_ANIMATION(Scizor);
+SINGLE_ANIMATION(Monodramon);
 SINGLE_ANIMATION(Shuckle);
 DOUBLE_ANIMATION(Heracross);
 SINGLE_ANIMATION(Sneasel);
@@ -5466,7 +5466,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MODBETAMON]    = sAnims_Modbetamon,
     [SPECIES_MONITAMON]    = sAnims_Monitamon,
     [SPECIES_MONMON]    = sAnims_Monmon,
-    [SPECIES_MONODRAMON]      = sAnims_Scizor,
+    [SPECIES_MONODRAMON]      = sAnims_Monodramon,
     [SPECIES_MORPHOMON]     = sAnims_Shuckle,
     [SPECIES_MUCHOMON]   = sAnims_Heracross,
     [SPECIES_MUSHROOMON]     = sAnims_Sneasel,

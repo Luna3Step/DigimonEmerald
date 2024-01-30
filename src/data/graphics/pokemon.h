@@ -1475,12 +1475,12 @@ const u32 gMonShinyPalette_Monmon[] = INCBIN_U32("graphics/pokemon/monmon/shiny.
 const u8 gMonIcon_Monmon[] = INCBIN_U8("graphics/pokemon/monmon/icon.4bpp");
 const u8 gMonFootprint_Monmon[] = INCBIN_U8("graphics/pokemon/monmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/front.4bpp.lz");
-const u32 gMonPalette_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/normal.gbapal.lz");
-const u32 gMonBackPic_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/back.4bpp.lz");
-const u32 gMonShinyPalette_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/shiny.gbapal.lz");
-const u8 gMonIcon_Scizor[] = INCBIN_U8("graphics/pokemon/scizor/icon.4bpp");
-const u8 gMonFootprint_Scizor[] = INCBIN_U8("graphics/pokemon/scizor/footprint.1bpp");
+const u32 gMonStillFrontPic_Monodramon[] = INCBIN_U32("graphics/pokemon/monodramon/front.4bpp.lz");
+const u32 gMonPalette_Monodramon[] = INCBIN_U32("graphics/pokemon/monodramon/normal.gbapal.lz");
+const u32 gMonBackPic_Monodramon[] = INCBIN_U32("graphics/pokemon/monodramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Monodramon[] = INCBIN_U32("graphics/pokemon/monodramon/shiny.gbapal.lz");
+const u8 gMonIcon_Monodramon[] = INCBIN_U8("graphics/pokemon/monodramon/icon.4bpp");
+const u8 gMonFootprint_Monodramon[] = INCBIN_U8("graphics/pokemon/monodramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/front.4bpp.lz");
 const u32 gMonPalette_Shuckle[] = INCBIN_U32("graphics/pokemon/shuckle/normal.gbapal.lz");

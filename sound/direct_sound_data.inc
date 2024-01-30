@@ -1231,8 +1231,8 @@ Cry_Monmon::
 	.incbin "sound/direct_sound_samples/cries/monmon.bin"
 
 	.align 2
-Cry_Scizor::
-	.incbin "sound/direct_sound_samples/cries/scizor.bin"
+Cry_Monodramon::
+	.incbin "sound/direct_sound_samples/cries/monodramon.bin"
 
 	.align 2
 Cry_Shuckle::
