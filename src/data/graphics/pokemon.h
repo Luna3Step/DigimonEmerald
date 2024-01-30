@@ -1349,12 +1349,12 @@ const u32 gMonShinyPalette_Kotemon[] = INCBIN_U32("graphics/pokemon/kotemon/shin
 const u8 gMonIcon_Kotemon[] = INCBIN_U8("graphics/pokemon/kotemon/icon.4bpp");
 const u8 gMonFootprint_Kotemon[] = INCBIN_U8("graphics/pokemon/kotemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wooper[] = INCBIN_U32("graphics/pokemon/wooper/front.4bpp.lz");
-const u32 gMonPalette_Wooper[] = INCBIN_U32("graphics/pokemon/wooper/normal.gbapal.lz");
-const u32 gMonBackPic_Wooper[] = INCBIN_U32("graphics/pokemon/wooper/back.4bpp.lz");
-const u32 gMonShinyPalette_Wooper[] = INCBIN_U32("graphics/pokemon/wooper/shiny.gbapal.lz");
-const u8 gMonIcon_Wooper[] = INCBIN_U8("graphics/pokemon/wooper/icon.4bpp");
-const u8 gMonFootprint_Wooper[] = INCBIN_U8("graphics/pokemon/wooper/footprint.1bpp");
+const u32 gMonStillFrontPic_Kudamon[] = INCBIN_U32("graphics/pokemon/kudamon/front.4bpp.lz");
+const u32 gMonPalette_Kudamon[] = INCBIN_U32("graphics/pokemon/kudamon/normal.gbapal.lz");
+const u32 gMonBackPic_Kudamon[] = INCBIN_U32("graphics/pokemon/kudamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Kudamon[] = INCBIN_U32("graphics/pokemon/kudamon/shiny.gbapal.lz");
+const u8 gMonIcon_Kudamon[] = INCBIN_U8("graphics/pokemon/kudamon/icon.4bpp");
+const u8 gMonFootprint_Kudamon[] = INCBIN_U8("graphics/pokemon/kudamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Quagsire[] = INCBIN_U32("graphics/pokemon/quagsire/front.4bpp.lz");
 const u32 gMonPalette_Quagsire[] = INCBIN_U32("graphics/pokemon/quagsire/normal.gbapal.lz");

@@ -77,7 +77,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedHawkmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPickmon_whiteDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedConomonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedWooperDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedKudamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPetitmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
@@ -326,7 +326,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_UNUSED_HAWKMON_DOLL] =         &gObjectEventGraphicsInfo_UnusedHawkmonDoll,
     [OBJ_EVENT_GFX_UNUSED_PICKMON_WHITE_DOLL] =    &gObjectEventGraphicsInfo_UnusedPickmon_whiteDoll,
     [OBJ_EVENT_GFX_UNUSED_CONOMON_DOLL] =     &gObjectEventGraphicsInfo_UnusedConomonDoll,
-    [OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL] =       &gObjectEventGraphicsInfo_UnusedWooperDoll,
+    [OBJ_EVENT_GFX_UNUSED_KUDAMON_DOLL] =       &gObjectEventGraphicsInfo_UnusedKudamonDoll,
     [OBJ_EVENT_GFX_UNUSED_PETITMON_DOLL] =      &gObjectEventGraphicsInfo_UnusedPetitmonDoll,
     [OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL] =     &gObjectEventGraphicsInfo_UnusedPorygon2Doll,
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =            &gObjectEventGraphicsInfo_CuttableTree,

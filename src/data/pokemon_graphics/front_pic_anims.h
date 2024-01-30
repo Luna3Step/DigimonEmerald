@@ -2299,7 +2299,7 @@ static const union AnimCmd sAnim_Kotemon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Wooper_1[] =
+static const union AnimCmd sAnim_Kudamon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5016,7 +5016,7 @@ SINGLE_ANIMATION(Kokabuimon);
 SINGLE_ANIMATION(Kokuwamon);
 SINGLE_ANIMATION(Kokuwamon_x);
 SINGLE_ANIMATION(Kotemon);
-SINGLE_ANIMATION(Wooper);
+SINGLE_ANIMATION(Kudamon);
 SINGLE_ANIMATION(Quagsire);
 SINGLE_ANIMATION(Espeon);
 SINGLE_ANIMATION(Umbreon);
@@ -5448,7 +5448,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_KOKUWAMON]     = sAnims_Kokuwamon,
     [SPECIES_KOKUWAMON_X]    = sAnims_Kokuwamon_x,
     [SPECIES_KOTEMON]       = sAnims_Kotemon,
-    [SPECIES_KUDAMON]      = sAnims_Wooper,
+    [SPECIES_KUDAMON]      = sAnims_Kudamon,
     [SPECIES_KUDAMON_06]    = sAnims_Quagsire,
     [SPECIES_KUNEMON]      = sAnims_Espeon,
     [SPECIES_LABRAMON]     = sAnims_Umbreon,

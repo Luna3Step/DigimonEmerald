@@ -1159,8 +1159,8 @@ Cry_Kotemon::
 	.incbin "sound/direct_sound_samples/cries/kotemon.bin"
 
 	.align 2
-Cry_Wooper::
-	.incbin "sound/direct_sound_samples/cries/wooper.bin"
+Cry_Kudamon::
+	.incbin "sound/direct_sound_samples/cries/kudamon.bin"
 
 	.align 2
 Cry_Quagsire::
