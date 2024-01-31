@@ -225,7 +225,7 @@ gCryTable::
 	cry Cry_Pawnmon
 	cry Cry_Pawnmon_white
 	cry Cry_Penguinmon
-	cry Cry_Mantine
+	cry Cry_Petitmamon
 	cry Cry_Skarmory
 	cry Cry_Houndour
 	cry Cry_Houndoom
@@ -616,7 +616,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pawnmon
 	cry_reverse Cry_Pawnmon_white
 	cry_reverse Cry_Penguinmon
-	cry_reverse Cry_Mantine
+	cry_reverse Cry_Petitmamon
 	cry_reverse Cry_Skarmory
 	cry_reverse Cry_Houndour
 	cry_reverse Cry_Houndoom

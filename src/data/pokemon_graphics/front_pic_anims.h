@@ -2639,7 +2639,7 @@ static const union AnimCmd sAnim_Penguinmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Mantine_1[] =
+static const union AnimCmd sAnim_Petitmamon_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(0, 30),
@@ -5048,7 +5048,7 @@ DOUBLE_ANIMATION(Patamon);
 SINGLE_ANIMATION(Pawnmon);
 SINGLE_ANIMATION(Pawnmon_white);
 SINGLE_ANIMATION(Penguinmon);
-SINGLE_ANIMATION(Mantine);
+SINGLE_ANIMATION(Petitmamon);
 DOUBLE_ANIMATION(Skarmory);
 SINGLE_ANIMATION(Houndour);
 SINGLE_ANIMATION(Houndoom);
@@ -5480,7 +5480,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PAWNMON]    = sAnims_Pawnmon,
     [SPECIES_PAWNMON_WHITE]   = sAnims_Pawnmon_white,
     [SPECIES_PENGUINMON]    = sAnims_Penguinmon,
-    [SPECIES_PETITMAMON]     = sAnims_Mantine,
+    [SPECIES_PETITMAMON]     = sAnims_Petitmamon,
     [SPECIES_PHASCOMON]    = sAnims_Skarmory,
     [SPECIES_PILLOMON]    = sAnims_Houndour,
     [SPECIES_POMUMON]    = sAnims_Houndoom,

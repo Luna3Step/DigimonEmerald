@@ -1572,12 +1572,12 @@ const u32 gMonShinyPalette_Penguinmon[] = INCBIN_U32("graphics/pokemon/penguinmo
 const u8 gMonIcon_Penguinmon[] = INCBIN_U8("graphics/pokemon/penguinmon/icon.4bpp");
 const u8 gMonFootprint_Penguinmon[] = INCBIN_U8("graphics/pokemon/penguinmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Mantine[] = INCBIN_U32("graphics/pokemon/mantine/front.4bpp.lz");
-const u32 gMonPalette_Mantine[] = INCBIN_U32("graphics/pokemon/mantine/normal.gbapal.lz");
-const u32 gMonBackPic_Mantine[] = INCBIN_U32("graphics/pokemon/mantine/back.4bpp.lz");
-const u32 gMonShinyPalette_Mantine[] = INCBIN_U32("graphics/pokemon/mantine/shiny.gbapal.lz");
-const u8 gMonIcon_Mantine[] = INCBIN_U8("graphics/pokemon/mantine/icon.4bpp");
-const u8 gMonFootprint_Mantine[] = INCBIN_U8("graphics/pokemon/mantine/footprint.1bpp");
+const u32 gMonStillFrontPic_Petitmamon[] = INCBIN_U32("graphics/pokemon/petitmamon/front.4bpp.lz");
+const u32 gMonPalette_Petitmamon[] = INCBIN_U32("graphics/pokemon/petitmamon/normal.gbapal.lz");
+const u32 gMonBackPic_Petitmamon[] = INCBIN_U32("graphics/pokemon/petitmamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Petitmamon[] = INCBIN_U32("graphics/pokemon/petitmamon/shiny.gbapal.lz");
+const u8 gMonIcon_Petitmamon[] = INCBIN_U8("graphics/pokemon/petitmamon/icon.4bpp");
+const u8 gMonFootprint_Petitmamon[] = INCBIN_U8("graphics/pokemon/petitmamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/front.4bpp.lz");
 const u32 gMonPalette_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/normal.gbapal.lz");

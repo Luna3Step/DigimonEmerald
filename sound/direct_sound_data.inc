@@ -1287,8 +1287,8 @@ Cry_Penguinmon::
 	.incbin "sound/direct_sound_samples/cries/penguinmon.bin"
 
 	.align 2
-Cry_Mantine::
-	.incbin "sound/direct_sound_samples/cries/mantine.bin"
+Cry_Petitmamon::
+	.incbin "sound/direct_sound_samples/cries/petitmamon.bin"
 
 	.align 2
 Cry_Skarmory::
