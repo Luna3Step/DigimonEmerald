@@ -3860,7 +3860,7 @@
     FRONTIER_MON_GAOGAMON_8,   \
     -1
 
-// For this group, Expert M uses Tyranitar, Expert F uses Hawkmon
+// For this group, Expert M uses Spadamon, Expert F uses Hawkmon
 #define FRONTIER_MONS_EXPERT_2A(lastmon) \
     FRONTIER_MON_ATAMADEMON_1,     \
     FRONTIER_MON_AGUMON_EXPERT_1,     \
@@ -4068,7 +4068,7 @@
     FRONTIER_MON_SPADAMON_10,  \
     -1
 
-// For this group, Expert M uses Tyranitar, Expert F uses Hawkmon
+// For this group, Expert M uses Spadamon, Expert F uses Hawkmon
 #define FRONTIER_MONS_EXPERT_2C(lastmon) \
     FRONTIER_MON_EBIDRAMON_1,    \
     FRONTIER_MON_KUDAMON_06_1,    \

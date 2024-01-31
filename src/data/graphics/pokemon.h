@@ -1726,12 +1726,12 @@ const u32 gMonShinyPalette_Sounbrdmon[] = INCBIN_U32("graphics/pokemon/sounbrdmo
 const u8 gMonIcon_Sounbrdmon[] = INCBIN_U8("graphics/pokemon/sounbrdmon/icon.4bpp");
 const u8 gMonFootprint_Sounbrdmon[] = INCBIN_U8("graphics/pokemon/sounbrdmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tyranitar[] = INCBIN_U32("graphics/pokemon/tyranitar/front.4bpp.lz");
-const u32 gMonPalette_Tyranitar[] = INCBIN_U32("graphics/pokemon/tyranitar/normal.gbapal.lz");
-const u32 gMonBackPic_Tyranitar[] = INCBIN_U32("graphics/pokemon/tyranitar/back.4bpp.lz");
-const u32 gMonShinyPalette_Tyranitar[] = INCBIN_U32("graphics/pokemon/tyranitar/shiny.gbapal.lz");
-const u8 gMonIcon_Tyranitar[] = INCBIN_U8("graphics/pokemon/tyranitar/icon.4bpp");
-const u8 gMonFootprint_Tyranitar[] = INCBIN_U8("graphics/pokemon/tyranitar/footprint.1bpp");
+const u32 gMonStillFrontPic_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/front.4bpp.lz");
+const u32 gMonPalette_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/normal.gbapal.lz");
+const u32 gMonBackPic_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/shiny.gbapal.lz");
+const u8 gMonIcon_Spadamon[] = INCBIN_U8("graphics/pokemon/spadamon/icon.4bpp");
+const u8 gMonFootprint_Spadamon[] = INCBIN_U8("graphics/pokemon/spadamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/front.4bpp.lz");
 const u32 gMonPalette_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/normal.gbapal.lz");

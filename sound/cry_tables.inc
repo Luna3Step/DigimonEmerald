@@ -247,7 +247,7 @@ gCryTable::
 	cry Cry_Icegobimon
 	cry Cry_Solarmon
 	cry Cry_Sounbrdmon
-	cry Cry_Tyranitar
+	cry Cry_Spadamon
 	cry Cry_Lugia
 	cry Cry_HoOh
 	cry Cry_Celebi
@@ -638,7 +638,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Icegobimon
 	cry_reverse Cry_Solarmon
 	cry_reverse Cry_Sounbrdmon
-	cry_reverse Cry_Tyranitar
+	cry_reverse Cry_Spadamon
 	cry_reverse Cry_Lugia
 	cry_reverse Cry_HoOh
 	cry_reverse Cry_Celebi
