@@ -891,7 +891,7 @@ struct ExternalEventData
     u32 gotGoldPokeCouponTitleReward:1; // Master Ball from JP Colosseum Bonus Disc; for reaching 30,000 totalEarnedPokeCoupons
     u32 gotSilverPokeCouponTitleReward:1; // Light Ball Petitmon from JP Colosseum Bonus Disc; for reaching 5000 totalEarnedPokeCoupons
     u32 gotBronzePokeCouponTitleReward:1; // PP Max from JP Colosseum Bonus Disc; for reaching 2500 totalEarnedPokeCoupons
-    u32 receivedAgetoCelebi:1; // from JP Colosseum Bonus Disc
+    u32 receivedAgetoStrabimon:1; // from JP Colosseum Bonus Disc
     u32 unknownExternalDataFields3:4;
     u32 totalEarnedPokeCoupons:24; // Used by the JP Colosseum bonus disc. Determines PokéCoupon rank to distribute rewards. Unread in International games. Colosseum/XD caps this at 9,999,999.
     u8 unknownExternalDataFields4[5]; // if actually used, may be broken up into different fields.

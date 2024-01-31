@@ -253,7 +253,7 @@ const u32 gMonFrontPic_Sounbrdmon[] = INCBIN_U32("graphics/pokemon/sounbrdmon/an
 const u32 gMonFrontPic_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/anim_front.4bpp.lz");
 
 const u32 gMonFrontPic_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/anim_front.4bpp.lz");
 

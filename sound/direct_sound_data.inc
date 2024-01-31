@@ -1387,8 +1387,8 @@ Cry_Starmon_2010::
 	.incbin "sound/direct_sound_samples/cries/ho_oh.bin"
 
 	.align 2
-Cry_Celebi::
-	.incbin "sound/direct_sound_samples/cries/celebi.bin"
+Cry_Strabimon::
+	.incbin "sound/direct_sound_samples/cries/strabimon.bin"
 
 	.align 2
 Cry_Kecleon::

@@ -2900,7 +2900,7 @@ static const union AnimCmd sAnim_Starmon_2010_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Celebi_1[] =
+static const union AnimCmd sAnim_Strabimon_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(0, 30),
@@ -5073,7 +5073,7 @@ SINGLE_ANIMATION(Sounbrdmon);
 SINGLE_ANIMATION(Spadamon);
 SINGLE_ANIMATION(Sparrowmon);
 SINGLE_ANIMATION(Starmon_2010);
-SINGLE_ANIMATION(Celebi);
+SINGLE_ANIMATION(Strabimon);
 SINGLE_ANIMATION(OldUnownB);
 SINGLE_ANIMATION(Treecko);
 SINGLE_ANIMATION(Grovyle);
@@ -5505,7 +5505,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SPADAMON]   = sAnims_Spadamon,
     [SPECIES_SPARROWMON]       = sAnims_Sparrowmon,
     [SPECIES_STARMON_2010]       = sAnims_Starmon_2010,
-    [SPECIES_STRABIMON]      = sAnims_Celebi,
+    [SPECIES_STRABIMON]      = sAnims_Strabimon,
     [SPECIES_OLD_UNOWN_B] = sAnims_OldUnownB,
     [SPECIES_OLD_UNOWN_C] = sAnims_OldUnownB,
     [SPECIES_OLD_UNOWN_D] = sAnims_OldUnownB,

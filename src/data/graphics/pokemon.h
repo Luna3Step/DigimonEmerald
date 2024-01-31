@@ -1747,12 +1747,12 @@ const u32 gMonShinyPalette_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/s
 const u8 gMonIcon_Starmon_2010[] = INCBIN_U8("graphics/pokemon/ho_oh/icon.4bpp");
 const u8 gMonFootprint_Starmon_2010[] = INCBIN_U8("graphics/pokemon/ho_oh/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/front.4bpp.lz");
-const u32 gMonPalette_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/normal.gbapal.lz");
-const u32 gMonBackPic_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/back.4bpp.lz");
-const u32 gMonShinyPalette_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/shiny.gbapal.lz");
-const u8 gMonIcon_Celebi[] = INCBIN_U8("graphics/pokemon/celebi/icon.4bpp");
-const u8 gMonFootprint_Celebi[] = INCBIN_U8("graphics/pokemon/celebi/footprint.1bpp");
+const u32 gMonStillFrontPic_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/front.4bpp.lz");
+const u32 gMonPalette_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/normal.gbapal.lz");
+const u32 gMonBackPic_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/shiny.gbapal.lz");
+const u8 gMonIcon_Strabimon[] = INCBIN_U8("graphics/pokemon/strabimon/icon.4bpp");
+const u8 gMonFootprint_Strabimon[] = INCBIN_U8("graphics/pokemon/strabimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/front.4bpp.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
