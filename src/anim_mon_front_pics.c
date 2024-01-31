@@ -259,7 +259,7 @@ const u32 gMonFrontPic_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/quest
 
 const u32 gMonFrontPic_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Swimmon[] = INCBIN_U32("graphics/pokemon/swimmon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Sceptile[] = INCBIN_U32("graphics/pokemon/sceptile/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Syakomon[] = INCBIN_U32("graphics/pokemon/syakomon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/anim_front.4bpp.lz");

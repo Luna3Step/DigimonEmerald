@@ -1487,8 +1487,8 @@ Cry_Swimmon::
 	.incbin "sound/direct_sound_samples/cries/swimmon.bin"
 
 	.align 2
-Cry_Sceptile::
-	.incbin "sound/direct_sound_samples/cries/sceptile.bin"
+Cry_Syakomon::
+	.incbin "sound/direct_sound_samples/cries/syakomon.bin"
 
 	.align 2
 Cry_Mudkip::
