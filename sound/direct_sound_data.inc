@@ -1363,8 +1363,8 @@ Cry_Yukiagumon_06::
 	.incbin "sound/direct_sound_samples/cries/yukiagumon_06.bin"
 
 	.align 2
-Cry_Suicune::
-	.incbin "sound/direct_sound_samples/cries/suicune.bin"
+Cry_Icegobimon::
+	.incbin "sound/direct_sound_samples/cries/icegobimon.bin"
 
 	.align 2
 Cry_Larvitar::

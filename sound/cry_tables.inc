@@ -244,7 +244,7 @@ gCryTable::
 	cry Cry_Shoutmon
 	cry Cry_Yukiagumon
 	cry Cry_Yukiagumon_06
-	cry Cry_Suicune
+	cry Cry_Icegobimon
 	cry Cry_Larvitar
 	cry Cry_Pupitar
 	cry Cry_Tyranitar
@@ -635,7 +635,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Shoutmon
 	cry_reverse Cry_Yukiagumon
 	cry_reverse Cry_Yukiagumon_06
-	cry_reverse Cry_Suicune
+	cry_reverse Cry_Icegobimon
 	cry_reverse Cry_Larvitar
 	cry_reverse Cry_Pupitar
 	cry_reverse Cry_Tyranitar

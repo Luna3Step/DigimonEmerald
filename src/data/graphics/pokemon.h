@@ -1705,12 +1705,12 @@ const u32 gMonShinyPalette_Yukiagumon_06[] = INCBIN_U32("graphics/pokemon/yukiag
 const u8 gMonIcon_Yukiagumon_06[] = INCBIN_U8("graphics/pokemon/yukiagumon_06/icon.4bpp");
 const u8 gMonFootprint_Yukiagumon_06[] = INCBIN_U8("graphics/pokemon/yukiagumon_06/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Suicune[] = INCBIN_U32("graphics/pokemon/suicune/front.4bpp.lz");
-const u32 gMonPalette_Suicune[] = INCBIN_U32("graphics/pokemon/suicune/normal.gbapal.lz");
-const u32 gMonBackPic_Suicune[] = INCBIN_U32("graphics/pokemon/suicune/back.4bpp.lz");
-const u32 gMonShinyPalette_Suicune[] = INCBIN_U32("graphics/pokemon/suicune/shiny.gbapal.lz");
-const u8 gMonIcon_Suicune[] = INCBIN_U8("graphics/pokemon/suicune/icon.4bpp");
-const u8 gMonFootprint_Suicune[] = INCBIN_U8("graphics/pokemon/suicune/footprint.1bpp");
+const u32 gMonStillFrontPic_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimon/front.4bpp.lz");
+const u32 gMonPalette_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimon/normal.gbapal.lz");
+const u32 gMonBackPic_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimon/shiny.gbapal.lz");
+const u8 gMonIcon_Icegobimon[] = INCBIN_U8("graphics/pokemon/icegobimon/icon.4bpp");
+const u8 gMonFootprint_Icegobimon[] = INCBIN_U8("graphics/pokemon/icegobimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/front.4bpp.lz");
 const u32 gMonPalette_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/normal.gbapal.lz");

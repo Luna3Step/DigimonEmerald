@@ -2854,7 +2854,7 @@ static const union AnimCmd sAnim_Yukiagumon_06_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Suicune_1[] =
+static const union AnimCmd sAnim_Icegobimon_1[] =
 {
     ANIMCMD_FRAME(0, 40),
     ANIMCMD_FRAME(0, 20),
@@ -5067,7 +5067,7 @@ SINGLE_ANIMATION(Shamanmon);
 SINGLE_ANIMATION(Shoutmon);
 SINGLE_ANIMATION(Yukiagumon);
 SINGLE_ANIMATION(Yukiagumon_06);
-SINGLE_ANIMATION(Suicune);
+SINGLE_ANIMATION(Icegobimon);
 SINGLE_ANIMATION(Larvitar);
 SINGLE_ANIMATION(Pupitar);
 SINGLE_ANIMATION(Tyranitar);
@@ -5499,7 +5499,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SHOUTMON]     = sAnims_Shoutmon,
     [SPECIES_YUKIAGUMON]      = sAnims_Yukiagumon,
     [SPECIES_YUKIAGUMON_06]       = sAnims_Yukiagumon_06,
-    [SPECIES_ICEGOBIMON]     = sAnims_Suicune,
+    [SPECIES_ICEGOBIMON]     = sAnims_Icegobimon,
     [SPECIES_SOLARMON]    = sAnims_Larvitar,
     [SPECIES_SOUNBRDMON]     = sAnims_Pupitar,
     [SPECIES_SPADAMON]   = sAnims_Tyranitar,
