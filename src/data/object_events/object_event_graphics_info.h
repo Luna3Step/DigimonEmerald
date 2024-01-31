@@ -4634,7 +4634,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sparrowmon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Starmon_2010 = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_HO_OH,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4648,7 +4648,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
-    .anims = sAnimTable_HoOh,
-    .images = sPicTable_HoOh,
+    .anims = sAnimTable_Starmon_2010,
+    .images = sPicTable_Starmon_2010,
     .affineAnims = gDummySpriteAffineAnimTable,
 };

@@ -358,5 +358,5 @@ const u32 gObjectEventPic_Lucy[] = INCBIN_U32("graphics/object_events/pics/peopl
 const u32 gObjectEventPic_Brandon[] = INCBIN_U32("graphics/object_events/pics/people/frontier_brains/brandon.4bpp");
 const u32 gObjectEventPic_Sparrowmon[] = INCBIN_U32("graphics/object_events/pics/pokemon/sparrowmon.4bpp");
 const u16 gObjectEventPal_Sparrowmon[] = INCBIN_U16("graphics/object_events/palettes/sparrowmon.gbapal");
-const u32 gObjectEventPic_HoOh[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
-const u16 gObjectEventPal_HoOh[] = INCBIN_U16("graphics/object_events/palettes/ho_oh.gbapal");
+const u32 gObjectEventPic_Starmon_2010[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
+const u16 gObjectEventPal_Starmon_2010[] = INCBIN_U16("graphics/object_events/palettes/ho_oh.gbapal");

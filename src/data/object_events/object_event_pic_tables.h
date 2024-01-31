@@ -2137,16 +2137,16 @@ static const struct SpriteFrameImage sPicTable_Sparrowmon[] = {
     overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 1),
 };
 
-static const struct SpriteFrameImage sPicTable_HoOh[] = {
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 1),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 1),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 0),
-    overworld_frame(gObjectEventPic_HoOh, 4, 4, 1),
+static const struct SpriteFrameImage sPicTable_Starmon_2010[] = {
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Starmon_2010, 4, 4, 1),
 };
 
 static const struct SpriteFrameImage sPicTable_RubySapphireBrendan[] = {

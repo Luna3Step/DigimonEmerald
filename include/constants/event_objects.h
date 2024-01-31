@@ -239,7 +239,7 @@
 #define OBJ_EVENT_GFX_LINK_RS_BRENDAN            235
 #define OBJ_EVENT_GFX_LINK_RS_MAY                236
 #define OBJ_EVENT_GFX_SPARROWMON                      237
-#define OBJ_EVENT_GFX_HOOH                       238
+#define OBJ_EVENT_GFX_STARMON_2010                       238
 
 // NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
 //

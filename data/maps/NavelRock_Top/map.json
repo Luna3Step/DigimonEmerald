@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_HOOH",
+      "graphics_id": "OBJ_EVENT_GFX_STARMON_2010",
       "x": 12,
       "y": 4,
       "elevation": 0,
@@ -45,7 +45,7 @@
       "elevation": 3,
       "var": "VAR_TEMP_1",
       "var_value": "0",
-      "script": "NavelRock_Top_EventScript_HoOh"
+      "script": "NavelRock_Top_EventScript_Starmon_2010"
     }
   ],
   "bg_events": [

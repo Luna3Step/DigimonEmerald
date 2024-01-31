@@ -1383,7 +1383,7 @@ Cry_Sparrowmon::
 	.incbin "sound/direct_sound_samples/cries/sparrowmon.bin"
 
 	.align 2
-Cry_HoOh::
+Cry_Starmon_2010::
 	.incbin "sound/direct_sound_samples/cries/ho_oh.bin"
 
 	.align 2

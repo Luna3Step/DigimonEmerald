@@ -780,7 +780,7 @@ static const union AffineAnimCmd sAffineAnim_KyogreGroudon_DipWest[] =
     AFFINEANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_HoOhFlapWings[] =
+static const union AnimCmd sAnim_Starmon_2010FlapWings[] =
 {
     ANIMCMD_FRAME(3, 8),
     ANIMCMD_FRAME(4, 8),
@@ -789,7 +789,7 @@ static const union AnimCmd sAnim_HoOhFlapWings[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_HoOhStayStill[] =
+static const union AnimCmd sAnim_Starmon_2010StayStill[] =
 {
     ANIMCMD_FRAME(3, 16),
     ANIMCMD_JUMP(0),
@@ -845,13 +845,13 @@ static const union AnimCmd *const sAnimTable_Standard[] = {
     [ANIM_STD_GO_FASTEST_EAST] = sAnim_GoFastestEast,
 };
 
-static const union AnimCmd *const sAnimTable_HoOh[] = {
+static const union AnimCmd *const sAnimTable_Starmon_2010[] = {
     [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
     [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
     [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
     [ANIM_STD_FACE_EAST] = sAnim_FaceEast,
-    [ANIM_STD_GO_SOUTH] = sAnim_HoOhFlapWings,
-    [ANIM_STD_GO_NORTH] = sAnim_HoOhStayStill,
+    [ANIM_STD_GO_SOUTH] = sAnim_Starmon_2010FlapWings,
+    [ANIM_STD_GO_NORTH] = sAnim_Starmon_2010StayStill,
     [ANIM_STD_GO_WEST] = sAnim_GoWest,
     [ANIM_STD_GO_EAST] = sAnim_GoEast,
     [ANIM_STD_GO_FAST_SOUTH] = sAnim_GoFastSouth,
