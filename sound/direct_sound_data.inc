@@ -1279,8 +1279,8 @@ Cry_Pawnmon::
 	.incbin "sound/direct_sound_samples/cries/pawnmon.bin"
 
 	.align 2
-Cry_Octillery::
-	.incbin "sound/direct_sound_samples/cries/octillery.bin"
+Cry_Pawnmon_white::
+	.incbin "sound/direct_sound_samples/cries/pawnmon_white.bin"
 
 	.align 2
 Cry_Delibird::

@@ -1558,12 +1558,12 @@ const u32 gMonShinyPalette_Pawnmon[] = INCBIN_U32("graphics/pokemon/pawnmon/shin
 const u8 gMonIcon_Pawnmon[] = INCBIN_U8("graphics/pokemon/pawnmon/icon.4bpp");
 const u8 gMonFootprint_Pawnmon[] = INCBIN_U8("graphics/pokemon/pawnmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/front.4bpp.lz");
-const u32 gMonPalette_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/normal.gbapal.lz");
-const u32 gMonBackPic_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/back.4bpp.lz");
-const u32 gMonShinyPalette_Octillery[] = INCBIN_U32("graphics/pokemon/octillery/shiny.gbapal.lz");
-const u8 gMonIcon_Octillery[] = INCBIN_U8("graphics/pokemon/octillery/icon.4bpp");
-const u8 gMonFootprint_Octillery[] = INCBIN_U8("graphics/pokemon/octillery/footprint.1bpp");
+const u32 gMonStillFrontPic_Pawnmon_white[] = INCBIN_U32("graphics/pokemon/pawnmon_white/front.4bpp.lz");
+const u32 gMonPalette_Pawnmon_white[] = INCBIN_U32("graphics/pokemon/pawnmon_white/normal.gbapal.lz");
+const u32 gMonBackPic_Pawnmon_white[] = INCBIN_U32("graphics/pokemon/pawnmon_white/back.4bpp.lz");
+const u32 gMonShinyPalette_Pawnmon_white[] = INCBIN_U32("graphics/pokemon/pawnmon_white/shiny.gbapal.lz");
+const u8 gMonIcon_Pawnmon_white[] = INCBIN_U8("graphics/pokemon/pawnmon_white/icon.4bpp");
+const u8 gMonFootprint_Pawnmon_white[] = INCBIN_U8("graphics/pokemon/pawnmon_white/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Delibird[] = INCBIN_U32("graphics/pokemon/delibird/front.4bpp.lz");
 const u32 gMonPalette_Delibird[] = INCBIN_U32("graphics/pokemon/delibird/normal.gbapal.lz");
