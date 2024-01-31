@@ -1283,8 +1283,8 @@ Cry_Pawnmon_white::
 	.incbin "sound/direct_sound_samples/cries/pawnmon_white.bin"
 
 	.align 2
-Cry_Delibird::
-	.incbin "sound/direct_sound_samples/cries/delibird.bin"
+Cry_Penguinmon::
+	.incbin "sound/direct_sound_samples/cries/penguinmon.bin"
 
 	.align 2
 Cry_Mantine::
