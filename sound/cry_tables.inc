@@ -241,7 +241,7 @@ gCryTable::
 	cry Cry_santaagumon
 	cry Cry_Blktoyagumon
 	cry Cry_Shamanmon
-	cry Cry_Blissey
+	cry Cry_Shoutmon
 	cry Cry_Raikou
 	cry Cry_Entei
 	cry Cry_Suicune
@@ -632,7 +632,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_santaagumon
 	cry_reverse Cry_Blktoyagumon
 	cry_reverse Cry_Shamanmon
-	cry_reverse Cry_Blissey
+	cry_reverse Cry_Shoutmon
 	cry_reverse Cry_Raikou
 	cry_reverse Cry_Entei
 	cry_reverse Cry_Suicune

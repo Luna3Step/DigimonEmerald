@@ -1351,8 +1351,8 @@ Cry_Shamanmon::
 	.incbin "sound/direct_sound_samples/cries/shamanmon.bin"
 
 	.align 2
-Cry_Blissey::
-	.incbin "sound/direct_sound_samples/cries/blissey.bin"
+Cry_Shoutmon::
+	.incbin "sound/direct_sound_samples/cries/shoutmon.bin"
 
 	.align 2
 Cry_Raikou::
