@@ -1579,12 +1579,12 @@ const u32 gMonShinyPalette_Petitmamon[] = INCBIN_U32("graphics/pokemon/petitmamo
 const u8 gMonIcon_Petitmamon[] = INCBIN_U8("graphics/pokemon/petitmamon/icon.4bpp");
 const u8 gMonFootprint_Petitmamon[] = INCBIN_U8("graphics/pokemon/petitmamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/front.4bpp.lz");
-const u32 gMonPalette_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/normal.gbapal.lz");
-const u32 gMonBackPic_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/back.4bpp.lz");
-const u32 gMonShinyPalette_Skarmory[] = INCBIN_U32("graphics/pokemon/skarmory/shiny.gbapal.lz");
-const u8 gMonIcon_Skarmory[] = INCBIN_U8("graphics/pokemon/skarmory/icon.4bpp");
-const u8 gMonFootprint_Skarmory[] = INCBIN_U8("graphics/pokemon/skarmory/footprint.1bpp");
+const u32 gMonStillFrontPic_Phascomon[] = INCBIN_U32("graphics/pokemon/phascomon/front.4bpp.lz");
+const u32 gMonPalette_Phascomon[] = INCBIN_U32("graphics/pokemon/phascomon/normal.gbapal.lz");
+const u32 gMonBackPic_Phascomon[] = INCBIN_U32("graphics/pokemon/phascomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Phascomon[] = INCBIN_U32("graphics/pokemon/phascomon/shiny.gbapal.lz");
+const u8 gMonIcon_Phascomon[] = INCBIN_U8("graphics/pokemon/phascomon/icon.4bpp");
+const u8 gMonFootprint_Phascomon[] = INCBIN_U8("graphics/pokemon/phascomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/front.4bpp.lz");
 const u32 gMonPalette_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/normal.gbapal.lz");
