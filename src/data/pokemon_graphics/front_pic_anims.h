@@ -2927,7 +2927,7 @@ static const union AnimCmd sAnim_Sunarzamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Grovyle_1[] =
+static const union AnimCmd sAnim_Swimmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 18),
@@ -5076,7 +5076,7 @@ SINGLE_ANIMATION(Starmon_2010);
 SINGLE_ANIMATION(Strabimon);
 SINGLE_ANIMATION(OldUnownB);
 SINGLE_ANIMATION(Sunarzamon);
-SINGLE_ANIMATION(Grovyle);
+SINGLE_ANIMATION(Swimmon);
 SINGLE_ANIMATION(Sceptile);
 SINGLE_ANIMATION(Torchic);
 SINGLE_ANIMATION(Combusken);
@@ -5532,7 +5532,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_OLD_UNOWN_Y] = sAnims_OldUnownB,
     [SPECIES_OLD_UNOWN_Z] = sAnims_OldUnownB,
     [SPECIES_SUNARZAMON]     = sAnims_Sunarzamon,
-    [SPECIES_SWIMMON]     = sAnims_Grovyle,
+    [SPECIES_SWIMMON]     = sAnims_Swimmon,
     [SPECIES_SYAKOMON]    = sAnims_Sceptile,
     [SPECIES_SYAKOMON_X]     = sAnims_Torchic,
     [SPECIES_TAPIRMON]   = sAnims_Combusken,

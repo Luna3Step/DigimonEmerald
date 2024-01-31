@@ -1483,8 +1483,8 @@ Cry_Sunarzamon::
 	.incbin "sound/direct_sound_samples/cries/sunarzamon.bin"
 
 	.align 2
-Cry_Grovyle::
-	.incbin "sound/direct_sound_samples/cries/grovyle.bin"
+Cry_Swimmon::
+	.incbin "sound/direct_sound_samples/cries/swimmon.bin"
 
 	.align 2
 Cry_Sceptile::

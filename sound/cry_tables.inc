@@ -274,7 +274,7 @@ gCryTable::
 	cry Cry_Combusken
 	cry Cry_Blaziken
 	cry Cry_Sunarzamon
-	cry Cry_Grovyle
+	cry Cry_Swimmon
 	cry Cry_Sceptile
 	cry Cry_Mudkip
 	cry Cry_Marshtomp
@@ -665,7 +665,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Combusken
 	cry_reverse Cry_Blaziken
 	cry_reverse Cry_Sunarzamon
-	cry_reverse Cry_Grovyle
+	cry_reverse Cry_Swimmon
 	cry_reverse Cry_Sceptile
 	cry_reverse Cry_Mudkip
 	cry_reverse Cry_Marshtomp
