@@ -1367,8 +1367,8 @@ Cry_Icegobimon::
 	.incbin "sound/direct_sound_samples/cries/icegobimon.bin"
 
 	.align 2
-Cry_Larvitar::
-	.incbin "sound/direct_sound_samples/cries/larvitar.bin"
+Cry_Solarmon::
+	.incbin "sound/direct_sound_samples/cries/solarmon.bin"
 
 	.align 2
 Cry_Pupitar::

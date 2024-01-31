@@ -1712,12 +1712,12 @@ const u32 gMonShinyPalette_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimo
 const u8 gMonIcon_Icegobimon[] = INCBIN_U8("graphics/pokemon/icegobimon/icon.4bpp");
 const u8 gMonFootprint_Icegobimon[] = INCBIN_U8("graphics/pokemon/icegobimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/front.4bpp.lz");
-const u32 gMonPalette_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/normal.gbapal.lz");
-const u32 gMonBackPic_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/back.4bpp.lz");
-const u32 gMonShinyPalette_Larvitar[] = INCBIN_U32("graphics/pokemon/larvitar/shiny.gbapal.lz");
-const u8 gMonIcon_Larvitar[] = INCBIN_U8("graphics/pokemon/larvitar/icon.4bpp");
-const u8 gMonFootprint_Larvitar[] = INCBIN_U8("graphics/pokemon/larvitar/footprint.1bpp");
+const u32 gMonStillFrontPic_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/front.4bpp.lz");
+const u32 gMonPalette_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/normal.gbapal.lz");
+const u32 gMonBackPic_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/shiny.gbapal.lz");
+const u8 gMonIcon_Solarmon[] = INCBIN_U8("graphics/pokemon/solarmon/icon.4bpp");
+const u8 gMonFootprint_Solarmon[] = INCBIN_U8("graphics/pokemon/solarmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pupitar[] = INCBIN_U32("graphics/pokemon/pupitar/front.4bpp.lz");
 const u32 gMonPalette_Pupitar[] = INCBIN_U32("graphics/pokemon/pupitar/normal.gbapal.lz");
