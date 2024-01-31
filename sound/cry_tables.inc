@@ -239,7 +239,7 @@ gCryTable::
 	cry Cry_Salamon_x
 	cry Cry_Sangomon
 	cry Cry_santaagumon
-	cry Cry_Magby
+	cry Cry_Blktoyagumon
 	cry Cry_Miltank
 	cry Cry_Blissey
 	cry Cry_Raikou
@@ -630,7 +630,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Salamon_x
 	cry_reverse Cry_Sangomon
 	cry_reverse Cry_santaagumon
-	cry_reverse Cry_Magby
+	cry_reverse Cry_Blktoyagumon
 	cry_reverse Cry_Miltank
 	cry_reverse Cry_Blissey
 	cry_reverse Cry_Raikou

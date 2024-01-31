@@ -1343,8 +1343,8 @@ Cry_santaagumon::
 	.incbin "sound/direct_sound_samples/cries/santaagumon.bin"
 
 	.align 2
-Cry_Magby::
-	.incbin "sound/direct_sound_samples/cries/magby.bin"
+Cry_Blktoyagumon::
+	.incbin "sound/direct_sound_samples/cries/blktoyagumon.bin"
 
 	.align 2
 Cry_Miltank::

@@ -1670,12 +1670,12 @@ const u32 gMonShinyPalette_santaagumon[] = INCBIN_U32("graphics/pokemon/santaagu
 const u8 gMonIcon_santaagumon[] = INCBIN_U8("graphics/pokemon/santaagumon/icon.4bpp");
 const u8 gMonFootprint_santaagumon[] = INCBIN_U8("graphics/pokemon/santaagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Magby[] = INCBIN_U32("graphics/pokemon/magby/front.4bpp.lz");
-const u32 gMonPalette_Magby[] = INCBIN_U32("graphics/pokemon/magby/normal.gbapal.lz");
-const u32 gMonBackPic_Magby[] = INCBIN_U32("graphics/pokemon/magby/back.4bpp.lz");
-const u32 gMonShinyPalette_Magby[] = INCBIN_U32("graphics/pokemon/magby/shiny.gbapal.lz");
-const u8 gMonIcon_Magby[] = INCBIN_U8("graphics/pokemon/magby/icon.4bpp");
-const u8 gMonFootprint_Magby[] = INCBIN_U8("graphics/pokemon/magby/footprint.1bpp");
+const u32 gMonStillFrontPic_Blktoyagumon[] = INCBIN_U32("graphics/pokemon/blktoyagumon/front.4bpp.lz");
+const u32 gMonPalette_Blktoyagumon[] = INCBIN_U32("graphics/pokemon/blktoyagumon/normal.gbapal.lz");
+const u32 gMonBackPic_Blktoyagumon[] = INCBIN_U32("graphics/pokemon/blktoyagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Blktoyagumon[] = INCBIN_U32("graphics/pokemon/blktoyagumon/shiny.gbapal.lz");
+const u8 gMonIcon_Blktoyagumon[] = INCBIN_U8("graphics/pokemon/blktoyagumon/icon.4bpp");
+const u8 gMonFootprint_Blktoyagumon[] = INCBIN_U8("graphics/pokemon/blktoyagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/front.4bpp.lz");
 const u32 gMonPalette_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/normal.gbapal.lz");
