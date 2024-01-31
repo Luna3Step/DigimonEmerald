@@ -2683,7 +2683,7 @@ static const union AnimCmd sAnim_Pomumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Kingdra_1[] =
+static const union AnimCmd sAnim_Psychemon_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(0, 10),
@@ -2693,7 +2693,7 @@ static const union AnimCmd sAnim_Kingdra_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Kingdra_2[] =
+static const union AnimCmd sAnim_Psychemon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5052,7 +5052,7 @@ SINGLE_ANIMATION(Petitmamon);
 DOUBLE_ANIMATION(Phascomon);
 SINGLE_ANIMATION(Pillomon);
 SINGLE_ANIMATION(Pomumon);
-DOUBLE_ANIMATION(Kingdra);
+DOUBLE_ANIMATION(Psychemon);
 DOUBLE_ANIMATION(Phanpy);
 DOUBLE_ANIMATION(Donphan);
 SINGLE_ANIMATION(Porygon2);
@@ -5484,7 +5484,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_PHASCOMON]    = sAnims_Phascomon,
     [SPECIES_PILLOMON]    = sAnims_Pillomon,
     [SPECIES_POMUMON]    = sAnims_Pomumon,
-    [SPECIES_PSYCHEMON]     = sAnims_Kingdra,
+    [SPECIES_PSYCHEMON]     = sAnims_Psychemon,
     [SPECIES_PULSEMON]      = sAnims_Phanpy,
     [SPECIES_RENAMON]     = sAnims_Donphan,
     [SPECIES_RENAMON_X]    = sAnims_Porygon2,

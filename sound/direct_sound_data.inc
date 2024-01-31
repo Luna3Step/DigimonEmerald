@@ -1303,8 +1303,8 @@ Cry_Pomumon::
 	.incbin "sound/direct_sound_samples/cries/pomumon.bin"
 
 	.align 2
-Cry_Kingdra::
-	.incbin "sound/direct_sound_samples/cries/kingdra.bin"
+Cry_Psychemon::
+	.incbin "sound/direct_sound_samples/cries/psychemon.bin"
 
 	.align 2
 Cry_Phanpy::

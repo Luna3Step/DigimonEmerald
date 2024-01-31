@@ -1600,12 +1600,12 @@ const u32 gMonShinyPalette_Pomumon[] = INCBIN_U32("graphics/pokemon/pomumon/shin
 const u8 gMonIcon_Pomumon[] = INCBIN_U8("graphics/pokemon/pomumon/icon.4bpp");
 const u8 gMonFootprint_Pomumon[] = INCBIN_U8("graphics/pokemon/pomumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kingdra[] = INCBIN_U32("graphics/pokemon/kingdra/front.4bpp.lz");
-const u32 gMonPalette_Kingdra[] = INCBIN_U32("graphics/pokemon/kingdra/normal.gbapal.lz");
-const u32 gMonBackPic_Kingdra[] = INCBIN_U32("graphics/pokemon/kingdra/back.4bpp.lz");
-const u32 gMonShinyPalette_Kingdra[] = INCBIN_U32("graphics/pokemon/kingdra/shiny.gbapal.lz");
-const u8 gMonIcon_Kingdra[] = INCBIN_U8("graphics/pokemon/kingdra/icon.4bpp");
-const u8 gMonFootprint_Kingdra[] = INCBIN_U8("graphics/pokemon/kingdra/footprint.1bpp");
+const u32 gMonStillFrontPic_Psychemon[] = INCBIN_U32("graphics/pokemon/psychemon/front.4bpp.lz");
+const u32 gMonPalette_Psychemon[] = INCBIN_U32("graphics/pokemon/psychemon/normal.gbapal.lz");
+const u32 gMonBackPic_Psychemon[] = INCBIN_U32("graphics/pokemon/psychemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Psychemon[] = INCBIN_U32("graphics/pokemon/psychemon/shiny.gbapal.lz");
+const u8 gMonIcon_Psychemon[] = INCBIN_U8("graphics/pokemon/psychemon/icon.4bpp");
+const u8 gMonFootprint_Psychemon[] = INCBIN_U8("graphics/pokemon/psychemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/front.4bpp.lz");
 const u32 gMonPalette_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/normal.gbapal.lz");

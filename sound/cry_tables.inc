@@ -229,7 +229,7 @@ gCryTable::
 	cry Cry_Phascomon
 	cry Cry_Pillomon
 	cry Cry_Pomumon
-	cry Cry_Kingdra
+	cry Cry_Psychemon
 	cry Cry_Phanpy
 	cry Cry_Donphan
 	cry Cry_Porygon2
@@ -620,7 +620,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Phascomon
 	cry_reverse Cry_Pillomon
 	cry_reverse Cry_Pomumon
-	cry_reverse Cry_Kingdra
+	cry_reverse Cry_Psychemon
 	cry_reverse Cry_Phanpy
 	cry_reverse Cry_Donphan
 	cry_reverse Cry_Porygon2
