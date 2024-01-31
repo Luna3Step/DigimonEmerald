@@ -155,7 +155,7 @@
 #define OBJ_EVENT_GFX_PUYOMON_DOLL              151
 #define OBJ_EVENT_GFX_CRABMON_DOLL                 152
 #define OBJ_EVENT_GFX_SANGOMON_DOLL              153
-#define OBJ_EVENT_GFX_TREECKO_DOLL               154
+#define OBJ_EVENT_GFX_SUNARZAMON_DOLL               154
 #define OBJ_EVENT_GFX_TORCHIC_DOLL               155
 #define OBJ_EVENT_GFX_MUDKIP_DOLL                156
 #define OBJ_EVENT_GFX_DUSKULL_DOLL               157

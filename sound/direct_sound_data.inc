@@ -1384,7 +1384,7 @@ Cry_Sparrowmon::
 
 	.align 2
 Cry_Starmon_2010::
-	.incbin "sound/direct_sound_samples/cries/ho_oh.bin"
+	.incbin "sound/direct_sound_samples/cries/starmon_2010.bin"
 
 	.align 2
 Cry_Strabimon::
@@ -1479,8 +1479,8 @@ Cry_Blaziken::
 	.incbin "sound/direct_sound_samples/cries/blaziken.bin"
 
 	.align 2
-Cry_Treecko::
-	.incbin "sound/direct_sound_samples/cries/treecko.bin"
+Cry_Sunarzamon::
+	.incbin "sound/direct_sound_samples/cries/sunarzamon.bin"
 
 	.align 2
 Cry_Grovyle::

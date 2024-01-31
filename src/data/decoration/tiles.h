@@ -510,8 +510,8 @@ const u16 DecorGfx_SANGOMON_DOLL[] = {
     OBJ_EVENT_GFX_SANGOMON_DOLL
 };
 
-const u16 DecorGfx_TREECKO_DOLL[] = {
-    OBJ_EVENT_GFX_TREECKO_DOLL
+const u16 DecorGfx_SUNARZAMON_DOLL[] = {
+    OBJ_EVENT_GFX_SUNARZAMON_DOLL
 };
 
 const u16 DecorGfx_TORCHIC_DOLL[] = {

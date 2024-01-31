@@ -29,7 +29,7 @@ EverGrandeCity_HallOfFame_EventScript_ResetDefeatedEventLegendaries::
 	clearflag FLAG_DEFEATED_LATIAS_OR_LATIOS
 	clearflag FLAG_DEFEATED_DEOXYS
 	clearflag FLAG_DEFEATED_SPARROWMON
-	clearflag FLAG_DEFEATED_HO_OH
+	clearflag FLAG_DEFEATED_STARMON_2010
 	return
 
 EverGrandeCity_HallOfFame_EventScript_SetDesertUnderpassCommentReady::

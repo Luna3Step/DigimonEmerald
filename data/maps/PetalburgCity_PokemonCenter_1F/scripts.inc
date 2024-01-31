@@ -36,14 +36,14 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	end
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
-	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType
+	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SaySunarzamonType
 	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
 	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
 	release
 	end
 
-PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType::
-	msgbox PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType, MSGBOX_DEFAULT
+PetalburgCity_PokemonCenter_1F_EventScript_SaySunarzamonType::
+	msgbox PetalburgCity_PokemonCenter_1F_Text_SunarzamonIsGrassType, MSGBOX_DEFAULT
 	return
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType::
@@ -71,8 +71,8 @@ PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
 	.string "Depending on the types of POKéMON,\n"
 	.string "a battle could be easy or hard.$"
 
-PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
-	.string "For example, your TREECKO\n"
+PetalburgCity_PokemonCenter_1F_Text_SunarzamonIsGrassType:
+	.string "For example, your SUNARZAMON\n"
 	.string "is a GRASS type.\p"
 	.string "It's strong against the WATER and\n"
 	.string "GROUND types.\p"

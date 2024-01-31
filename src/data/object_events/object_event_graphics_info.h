@@ -2943,7 +2943,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SangomonDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SunarzamonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2958,7 +2958,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_TreeckoDoll,
+    .images = sPicTable_SunarzamonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -4636,7 +4636,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sparrowmon = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Starmon_2010 = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_HO_OH,
+    .paletteTag = OBJ_EVENT_PAL_TAG_STARMON_2010,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,

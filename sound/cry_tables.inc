@@ -273,7 +273,7 @@ gCryTable::
 	cry Cry_Torchic
 	cry Cry_Combusken
 	cry Cry_Blaziken
-	cry Cry_Treecko
+	cry Cry_Sunarzamon
 	cry Cry_Grovyle
 	cry Cry_Sceptile
 	cry Cry_Mudkip
@@ -664,7 +664,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Torchic
 	cry_reverse Cry_Combusken
 	cry_reverse Cry_Blaziken
-	cry_reverse Cry_Treecko
+	cry_reverse Cry_Sunarzamon
 	cry_reverse Cry_Grovyle
 	cry_reverse Cry_Sceptile
 	cry_reverse Cry_Mudkip

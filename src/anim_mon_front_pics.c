@@ -252,12 +252,12 @@ const u32 gMonFrontPic_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/anim_f
 const u32 gMonFrontPic_Sounbrdmon[] = INCBIN_U32("graphics/pokemon/sounbrdmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/starmon_2010/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/anim_front.4bpp.lz");
 
 const u32 gMonFrontPic_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/anim_front.4bpp.lz");
 
-const u32 gMonFrontPic_Treecko[] = INCBIN_U32("graphics/pokemon/treecko/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Grovyle[] = INCBIN_U32("graphics/pokemon/grovyle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sceptile[] = INCBIN_U32("graphics/pokemon/sceptile/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/anim_front.4bpp.lz");

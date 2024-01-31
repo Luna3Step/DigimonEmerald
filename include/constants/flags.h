@@ -163,7 +163,7 @@
 #define FLAG_RECOVERED_DEVON_GOODS           0x8F
 #define FLAG_RETURNED_DEVON_GOODS            0x90
 #define FLAG_CAUGHT_SPARROWMON                    0x91
-#define FLAG_CAUGHT_HO_OH                    0x92
+#define FLAG_CAUGHT_STARMON_2010                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
 #define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94
 #define FLAG_DELIVERED_DEVON_GOODS           0x95
@@ -508,7 +508,7 @@
 #define FLAG_UNUSED_0x1DA                    0x1DA // Unused Flag
 
 #define FLAG_SHOWN_MYSTIC_TICKET             0x1DB
-#define FLAG_DEFEATED_HO_OH                  0x1DC
+#define FLAG_DEFEATED_STARMON_2010                  0x1DC
 #define FLAG_DEFEATED_SPARROWMON                  0x1DD
 
 #define FLAG_UNUSED_0x1DE                    0x1DE // Unused Flag
@@ -844,7 +844,7 @@
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F
 #define FLAG_HIDE_SPARROWMON                                             0x320
-#define FLAG_HIDE_HO_OH                                             0x321
+#define FLAG_HIDE_STARMON_2010                                             0x321
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322
 #define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323
 #define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324

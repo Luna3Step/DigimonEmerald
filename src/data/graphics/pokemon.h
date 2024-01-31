@@ -1740,12 +1740,12 @@ const u32 gMonShinyPalette_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmo
 const u8 gMonIcon_Sparrowmon[] = INCBIN_U8("graphics/pokemon/sparrowmon/icon.4bpp");
 const u8 gMonFootprint_Sparrowmon[] = INCBIN_U8("graphics/pokemon/sparrowmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/front.4bpp.lz");
-const u32 gMonPalette_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/normal.gbapal.lz");
-const u32 gMonBackPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/back.4bpp.lz");
-const u32 gMonShinyPalette_Starmon_2010[] = INCBIN_U32("graphics/pokemon/ho_oh/shiny.gbapal.lz");
-const u8 gMonIcon_Starmon_2010[] = INCBIN_U8("graphics/pokemon/ho_oh/icon.4bpp");
-const u8 gMonFootprint_Starmon_2010[] = INCBIN_U8("graphics/pokemon/ho_oh/footprint.1bpp");
+const u32 gMonStillFrontPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/starmon_2010/front.4bpp.lz");
+const u32 gMonPalette_Starmon_2010[] = INCBIN_U32("graphics/pokemon/starmon_2010/normal.gbapal.lz");
+const u32 gMonBackPic_Starmon_2010[] = INCBIN_U32("graphics/pokemon/starmon_2010/back.4bpp.lz");
+const u32 gMonShinyPalette_Starmon_2010[] = INCBIN_U32("graphics/pokemon/starmon_2010/shiny.gbapal.lz");
+const u8 gMonIcon_Starmon_2010[] = INCBIN_U8("graphics/pokemon/starmon_2010/icon.4bpp");
+const u8 gMonFootprint_Starmon_2010[] = INCBIN_U8("graphics/pokemon/starmon_2010/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/front.4bpp.lz");
 const u32 gMonPalette_Strabimon[] = INCBIN_U32("graphics/pokemon/strabimon/normal.gbapal.lz");
@@ -1759,12 +1759,12 @@ const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/questi
 const u32 gMonBackPic_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/back.4bpp.lz");
 const u32 gMonShinyPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/shiny.gbapal.lz");
 
-const u32 gMonStillFrontPic_Treecko[] = INCBIN_U32("graphics/pokemon/treecko/front.4bpp.lz");
-const u32 gMonPalette_Treecko[] = INCBIN_U32("graphics/pokemon/treecko/normal.gbapal.lz");
-const u32 gMonBackPic_Treecko[] = INCBIN_U32("graphics/pokemon/treecko/back.4bpp.lz");
-const u32 gMonShinyPalette_Treecko[] = INCBIN_U32("graphics/pokemon/treecko/shiny.gbapal.lz");
-const u8 gMonIcon_Treecko[] = INCBIN_U8("graphics/pokemon/treecko/icon.4bpp");
-const u8 gMonFootprint_Treecko[] = INCBIN_U8("graphics/pokemon/treecko/footprint.1bpp");
+const u32 gMonStillFrontPic_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/front.4bpp.lz");
+const u32 gMonPalette_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/normal.gbapal.lz");
+const u32 gMonBackPic_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sunarzamon[] = INCBIN_U32("graphics/pokemon/sunarzamon/shiny.gbapal.lz");
+const u8 gMonIcon_Sunarzamon[] = INCBIN_U8("graphics/pokemon/sunarzamon/icon.4bpp");
+const u8 gMonFootprint_Sunarzamon[] = INCBIN_U8("graphics/pokemon/sunarzamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Grovyle[] = INCBIN_U32("graphics/pokemon/grovyle/front.4bpp.lz");
 const u32 gMonPalette_Grovyle[] = INCBIN_U32("graphics/pokemon/grovyle/normal.gbapal.lz");

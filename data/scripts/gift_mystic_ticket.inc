@@ -4,7 +4,7 @@ MysteryGiftScript_MysticTicket::
 	faceplayer
 	vgoto_if_set FLAG_RECEIVED_MYSTIC_TICKET, MysticTicket_Obtained
 	vgoto_if_set FLAG_CAUGHT_SPARROWMON, MysticTicket_Obtained
-	vgoto_if_set FLAG_CAUGHT_HO_OH, MysticTicket_Obtained
+	vgoto_if_set FLAG_CAUGHT_STARMON_2010, MysticTicket_Obtained
 	checkitem ITEM_MYSTIC_TICKET
 	vgoto_if_eq VAR_RESULT, TRUE, MysticTicket_Obtained
 	vmessage sText_MysticTicketForYou

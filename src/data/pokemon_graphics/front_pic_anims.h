@@ -2917,7 +2917,7 @@ static const union AnimCmd sAnim_OldUnownB_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Treecko_1[] =
+static const union AnimCmd sAnim_Sunarzamon_1[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(0, 15),
@@ -5075,7 +5075,7 @@ SINGLE_ANIMATION(Sparrowmon);
 SINGLE_ANIMATION(Starmon_2010);
 SINGLE_ANIMATION(Strabimon);
 SINGLE_ANIMATION(OldUnownB);
-SINGLE_ANIMATION(Treecko);
+SINGLE_ANIMATION(Sunarzamon);
 SINGLE_ANIMATION(Grovyle);
 SINGLE_ANIMATION(Sceptile);
 SINGLE_ANIMATION(Torchic);
@@ -5531,7 +5531,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_OLD_UNOWN_X] = sAnims_OldUnownB,
     [SPECIES_OLD_UNOWN_Y] = sAnims_OldUnownB,
     [SPECIES_OLD_UNOWN_Z] = sAnims_OldUnownB,
-    [SPECIES_SUNARZAMON]     = sAnims_Treecko,
+    [SPECIES_SUNARZAMON]     = sAnims_Sunarzamon,
     [SPECIES_SWIMMON]     = sAnims_Grovyle,
     [SPECIES_SYAKOMON]    = sAnims_Sceptile,
     [SPECIES_SYAKOMON_X]     = sAnims_Torchic,

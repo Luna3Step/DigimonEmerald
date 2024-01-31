@@ -1056,16 +1056,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_SANGOMON_DOLL,
     },
 
-    [DECOR_TREECKO_DOLL] =
+    [DECOR_SUNARZAMON_DOLL] =
     {
-        .id = DECOR_TREECKO_DOLL,
-        .name = _("TREECKO DOLL"),
+        .id = DECOR_SUNARZAMON_DOLL,
+        .name = _("SUNARZAMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_TREECKO_DOLL,
-        .tiles = DecorGfx_TREECKO_DOLL,
+        .description = DecorDesc_SUNARZAMON_DOLL,
+        .tiles = DecorGfx_SUNARZAMON_DOLL,
     },
 
     [DECOR_TORCHIC_DOLL] =

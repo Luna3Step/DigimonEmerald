@@ -123,16 +123,16 @@ MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize::
 MauvilleCity_GameCorner_EventScript_ChooseDollPrize::
 	multichoice 12, 0, MULTI_GAME_CORNER_DOLLS, FALSE
 	switch VAR_RESULT
-	case 0, MauvilleCity_GameCorner_EventScript_TreeckoDoll
+	case 0, MauvilleCity_GameCorner_EventScript_SunarzamonDoll
 	case 1, MauvilleCity_GameCorner_EventScript_TorchicDoll
 	case 2, MauvilleCity_GameCorner_EventScript_MudkipDoll
 	case 3, MauvilleCity_GameCorner_EventScript_CancelDollSelect
 	goto MauvilleCity_GameCorner_EventScript_CancelDollSelect
 	end
 
-MauvilleCity_GameCorner_EventScript_TreeckoDoll::
+MauvilleCity_GameCorner_EventScript_SunarzamonDoll::
 	setvar VAR_TEMP_1, 1
-	bufferdecorationname STR_VAR_1, DECOR_TREECKO_DOLL
+	bufferdecorationname STR_VAR_1, DECOR_SUNARZAMON_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ConfirmDollPrize
 
 MauvilleCity_GameCorner_EventScript_TorchicDoll::
@@ -149,19 +149,19 @@ MauvilleCity_GameCorner_EventScript_ConfirmDollPrize::
 	msgbox MauvilleCity_GameCorner_Text_SoYourChoiceIsX, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_CancelDollSelect
 	switch VAR_TEMP_1
-	case 1, MauvilleCity_GameCorner_EventScript_BuyTreeckoDoll
+	case 1, MauvilleCity_GameCorner_EventScript_BuySunarzamonDoll
 	case 2, MauvilleCity_GameCorner_EventScript_BuyTorchicDoll
 	case 3, MauvilleCity_GameCorner_EventScript_BuyMudkipDoll
 	end
 
-MauvilleCity_GameCorner_EventScript_BuyTreeckoDoll::
+MauvilleCity_GameCorner_EventScript_BuySunarzamonDoll::
 	checkcoins VAR_TEMP_2
 	goto_if_lt VAR_TEMP_2, DOLL_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll
-	bufferdecorationname STR_VAR_2, DECOR_TREECKO_DOLL
-	checkdecorspace DECOR_TREECKO_DOLL
+	bufferdecorationname STR_VAR_2, DECOR_SUNARZAMON_DOLL
+	checkdecorspace DECOR_SUNARZAMON_DOLL
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForDoll
 	removecoins DOLL_COINS
-	adddecoration DECOR_TREECKO_DOLL
+	adddecoration DECOR_SUNARZAMON_DOLL
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
@@ -383,17 +383,17 @@ MauvilleCity_GameCorner_EventScript_Girl::
 	msgbox MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_DeclineStarterDoll
 	switch VAR_STARTER_MON
-	case 0, MauvilleCity_GameCorner_EventScript_GiveTreeckoDoll
+	case 0, MauvilleCity_GameCorner_EventScript_GiveSunarzamonDoll
 	case 1, MauvilleCity_GameCorner_EventScript_GiveTorchicDoll
 	case 2, MauvilleCity_GameCorner_EventScript_GiveMudkipDoll
 	end
 
-MauvilleCity_GameCorner_EventScript_GiveTreeckoDoll::
-	bufferdecorationname STR_VAR_2, DECOR_TREECKO_DOLL
-	checkdecorspace DECOR_TREECKO_DOLL
+MauvilleCity_GameCorner_EventScript_GiveSunarzamonDoll::
+	bufferdecorationname STR_VAR_2, DECOR_SUNARZAMON_DOLL
+	checkdecorspace DECOR_SUNARZAMON_DOLL
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForStarterDoll
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo2, MSGBOX_DEFAULT
-	givedecoration DECOR_TREECKO_DOLL
+	givedecoration DECOR_SUNARZAMON_DOLL
 	setflag FLAG_RECEIVED_STARTER_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end
