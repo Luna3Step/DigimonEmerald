@@ -1371,8 +1371,8 @@ Cry_Solarmon::
 	.incbin "sound/direct_sound_samples/cries/solarmon.bin"
 
 	.align 2
-Cry_Pupitar::
-	.incbin "sound/direct_sound_samples/cries/pupitar.bin"
+Cry_Sounbrdmon::
+	.incbin "sound/direct_sound_samples/cries/sounbrdmon.bin"
 
 	.align 2
 Cry_Tyranitar::
