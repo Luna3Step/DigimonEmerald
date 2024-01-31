@@ -2761,7 +2761,7 @@ static const union AnimCmd sAnim_Rokusho_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Smeargle_1[] =
+static const union AnimCmd sAnim_Ryudamon_1[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(0, 12),
@@ -5057,7 +5057,7 @@ DOUBLE_ANIMATION(Pulsemon);
 DOUBLE_ANIMATION(Renamon);
 SINGLE_ANIMATION(Renamon_x);
 SINGLE_ANIMATION(Rokusho);
-SINGLE_ANIMATION(Smeargle);
+SINGLE_ANIMATION(Ryudamon);
 SINGLE_ANIMATION(Tyrogue);
 SINGLE_ANIMATION(Hitmontop);
 SINGLE_ANIMATION(Smoochum);
@@ -5489,7 +5489,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_RENAMON]     = sAnims_Renamon,
     [SPECIES_RENAMON_X]    = sAnims_Renamon_x,
     [SPECIES_ROKUSHO]    = sAnims_Rokusho,
-    [SPECIES_RYUDAMON]    = sAnims_Smeargle,
+    [SPECIES_RYUDAMON]    = sAnims_Ryudamon,
     [SPECIES_SALAMON]     = sAnims_Tyrogue,
     [SPECIES_SALAMON_X]   = sAnims_Hitmontop,
     [SPECIES_SANGOMON]    = sAnims_Smoochum,

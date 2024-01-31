@@ -1635,12 +1635,12 @@ const u32 gMonShinyPalette_Rokusho[] = INCBIN_U32("graphics/pokemon/rokusho/shin
 const u8 gMonIcon_Rokusho[] = INCBIN_U8("graphics/pokemon/rokusho/icon.4bpp");
 const u8 gMonFootprint_Rokusho[] = INCBIN_U8("graphics/pokemon/rokusho/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/front.4bpp.lz");
-const u32 gMonPalette_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/normal.gbapal.lz");
-const u32 gMonBackPic_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/back.4bpp.lz");
-const u32 gMonShinyPalette_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/shiny.gbapal.lz");
-const u8 gMonIcon_Smeargle[] = INCBIN_U8("graphics/pokemon/smeargle/icon.4bpp");
-const u8 gMonFootprint_Smeargle[] = INCBIN_U8("graphics/pokemon/smeargle/footprint.1bpp");
+const u32 gMonStillFrontPic_Ryudamon[] = INCBIN_U32("graphics/pokemon/ryudamon/front.4bpp.lz");
+const u32 gMonPalette_Ryudamon[] = INCBIN_U32("graphics/pokemon/ryudamon/normal.gbapal.lz");
+const u32 gMonBackPic_Ryudamon[] = INCBIN_U32("graphics/pokemon/ryudamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Ryudamon[] = INCBIN_U32("graphics/pokemon/ryudamon/shiny.gbapal.lz");
+const u8 gMonIcon_Ryudamon[] = INCBIN_U8("graphics/pokemon/ryudamon/icon.4bpp");
+const u8 gMonFootprint_Ryudamon[] = INCBIN_U8("graphics/pokemon/ryudamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/front.4bpp.lz");
 const u32 gMonPalette_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/normal.gbapal.lz");

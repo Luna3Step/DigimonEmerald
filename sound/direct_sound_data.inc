@@ -1323,8 +1323,8 @@ Cry_Rokusho::
 	.incbin "sound/direct_sound_samples/cries/rokusho.bin"
 
 	.align 2
-Cry_Smeargle::
-	.incbin "sound/direct_sound_samples/cries/smeargle.bin"
+Cry_Ryudamon::
+	.incbin "sound/direct_sound_samples/cries/ryudamon.bin"
 
 	.align 2
 Cry_Tyrogue::
