@@ -230,7 +230,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
     SPECIES_SPRITE(PETITMAMON,       gMonStillFrontPic_Petitmamon),
     SPECIES_SPRITE(PHASCOMON,      gMonStillFrontPic_Phascomon),
     SPECIES_SPRITE(PILLOMON,      gMonStillFrontPic_Pillomon),
-    SPECIES_SPRITE(POMUMON,      gMonStillFrontPic_Houndoom),
+    SPECIES_SPRITE(POMUMON,      gMonStillFrontPic_Pomumon),
     SPECIES_SPRITE(PSYCHEMON,       gMonStillFrontPic_Kingdra),
     SPECIES_SPRITE(PULSEMON,        gMonStillFrontPic_Phanpy),
     SPECIES_SPRITE(RENAMON,       gMonStillFrontPic_Donphan),

@@ -1299,8 +1299,8 @@ Cry_Pillomon::
 	.incbin "sound/direct_sound_samples/cries/pillomon.bin"
 
 	.align 2
-Cry_Houndoom::
-	.incbin "sound/direct_sound_samples/cries/houndoom.bin"
+Cry_Pomumon::
+	.incbin "sound/direct_sound_samples/cries/pomumon.bin"
 
 	.align 2
 Cry_Kingdra::
