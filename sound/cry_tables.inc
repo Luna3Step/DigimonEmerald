@@ -231,7 +231,7 @@ gCryTable::
 	cry Cry_Pomumon
 	cry Cry_Psychemon
 	cry Cry_Pulsemon
-	cry Cry_Donphan
+	cry Cry_Renamon
 	cry Cry_Porygon2
 	cry Cry_Stantler
 	cry Cry_Smeargle
@@ -622,7 +622,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pomumon
 	cry_reverse Cry_Psychemon
 	cry_reverse Cry_Pulsemon
-	cry_reverse Cry_Donphan
+	cry_reverse Cry_Renamon
 	cry_reverse Cry_Porygon2
 	cry_reverse Cry_Stantler
 	cry_reverse Cry_Smeargle

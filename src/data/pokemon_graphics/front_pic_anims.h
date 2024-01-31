@@ -2723,7 +2723,7 @@ static const union AnimCmd sAnim_Pulsemon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Donphan_1[] =
+static const union AnimCmd sAnim_Renamon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -2735,7 +2735,7 @@ static const union AnimCmd sAnim_Donphan_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Donphan_2[] =
+static const union AnimCmd sAnim_Renamon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5054,7 +5054,7 @@ SINGLE_ANIMATION(Pillomon);
 SINGLE_ANIMATION(Pomumon);
 DOUBLE_ANIMATION(Psychemon);
 DOUBLE_ANIMATION(Pulsemon);
-DOUBLE_ANIMATION(Donphan);
+DOUBLE_ANIMATION(Renamon);
 SINGLE_ANIMATION(Porygon2);
 SINGLE_ANIMATION(Stantler);
 SINGLE_ANIMATION(Smeargle);
@@ -5486,7 +5486,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_POMUMON]    = sAnims_Pomumon,
     [SPECIES_PSYCHEMON]     = sAnims_Psychemon,
     [SPECIES_PULSEMON]      = sAnims_Pulsemon,
-    [SPECIES_RENAMON]     = sAnims_Donphan,
+    [SPECIES_RENAMON]     = sAnims_Renamon,
     [SPECIES_RENAMON_X]    = sAnims_Porygon2,
     [SPECIES_ROKUSHO]    = sAnims_Stantler,
     [SPECIES_RYUDAMON]    = sAnims_Smeargle,
