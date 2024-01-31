@@ -79,7 +79,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPickm
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedConomonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedKudamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPetitmonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedRenamon_xDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MartEmployee;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RooftopSaleWoman;
@@ -328,7 +328,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_UNUSED_CONOMON_DOLL] =     &gObjectEventGraphicsInfo_UnusedConomonDoll,
     [OBJ_EVENT_GFX_UNUSED_KUDAMON_DOLL] =       &gObjectEventGraphicsInfo_UnusedKudamonDoll,
     [OBJ_EVENT_GFX_UNUSED_PETITMON_DOLL] =      &gObjectEventGraphicsInfo_UnusedPetitmonDoll,
-    [OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL] =     &gObjectEventGraphicsInfo_UnusedPorygon2Doll,
+    [OBJ_EVENT_GFX_UNUSED_RENAMON_X_DOLL] =     &gObjectEventGraphicsInfo_UnusedRenamon_xDoll,
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =            &gObjectEventGraphicsInfo_CuttableTree,
     [OBJ_EVENT_GFX_MART_EMPLOYEE] =            &gObjectEventGraphicsInfo_MartEmployee,
     [OBJ_EVENT_GFX_ROOFTOP_SALE_WOMAN] =       &gObjectEventGraphicsInfo_RooftopSaleWoman,

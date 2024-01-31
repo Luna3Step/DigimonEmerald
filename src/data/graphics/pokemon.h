@@ -1621,12 +1621,12 @@ const u32 gMonShinyPalette_Renamon[] = INCBIN_U32("graphics/pokemon/renamon/shin
 const u8 gMonIcon_Renamon[] = INCBIN_U8("graphics/pokemon/renamon/icon.4bpp");
 const u8 gMonFootprint_Renamon[] = INCBIN_U8("graphics/pokemon/renamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Porygon2[] = INCBIN_U32("graphics/pokemon/porygon2/front.4bpp.lz");
-const u32 gMonPalette_Porygon2[] = INCBIN_U32("graphics/pokemon/porygon2/normal.gbapal.lz");
-const u32 gMonBackPic_Porygon2[] = INCBIN_U32("graphics/pokemon/porygon2/back.4bpp.lz");
-const u32 gMonShinyPalette_Porygon2[] = INCBIN_U32("graphics/pokemon/porygon2/shiny.gbapal.lz");
-const u8 gMonIcon_Porygon2[] = INCBIN_U8("graphics/pokemon/porygon2/icon.4bpp");
-const u8 gMonFootprint_Porygon2[] = INCBIN_U8("graphics/pokemon/porygon2/footprint.1bpp");
+const u32 gMonStillFrontPic_Renamon_x[] = INCBIN_U32("graphics/pokemon/renamon_x/front.4bpp.lz");
+const u32 gMonPalette_Renamon_x[] = INCBIN_U32("graphics/pokemon/renamon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Renamon_x[] = INCBIN_U32("graphics/pokemon/renamon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Renamon_x[] = INCBIN_U32("graphics/pokemon/renamon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Renamon_x[] = INCBIN_U8("graphics/pokemon/renamon_x/icon.4bpp");
+const u8 gMonFootprint_Renamon_x[] = INCBIN_U8("graphics/pokemon/renamon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/front.4bpp.lz");
 const u32 gMonPalette_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/normal.gbapal.lz");

@@ -1537,7 +1537,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPetitmonDoll
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedRenamon_xDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -1552,7 +1552,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_UnusedPorygon2Doll,
+    .images = sPicTable_UnusedRenamon_xDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

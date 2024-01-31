@@ -1315,8 +1315,8 @@ Cry_Renamon::
 	.incbin "sound/direct_sound_samples/cries/renamon.bin"
 
 	.align 2
-Cry_Porygon2::
-	.incbin "sound/direct_sound_samples/cries/porygon2.bin"
+Cry_Renamon_x::
+	.incbin "sound/direct_sound_samples/cries/renamon_x.bin"
 
 	.align 2
 Cry_Stantler::
