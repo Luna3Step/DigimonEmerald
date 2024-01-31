@@ -1733,12 +1733,12 @@ const u32 gMonShinyPalette_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/sh
 const u8 gMonIcon_Spadamon[] = INCBIN_U8("graphics/pokemon/spadamon/icon.4bpp");
 const u8 gMonFootprint_Spadamon[] = INCBIN_U8("graphics/pokemon/spadamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/front.4bpp.lz");
-const u32 gMonPalette_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/normal.gbapal.lz");
-const u32 gMonBackPic_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/back.4bpp.lz");
-const u32 gMonShinyPalette_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/shiny.gbapal.lz");
-const u8 gMonIcon_Lugia[] = INCBIN_U8("graphics/pokemon/lugia/icon.4bpp");
-const u8 gMonFootprint_Lugia[] = INCBIN_U8("graphics/pokemon/lugia/footprint.1bpp");
+const u32 gMonStillFrontPic_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/front.4bpp.lz");
+const u32 gMonPalette_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/normal.gbapal.lz");
+const u32 gMonBackPic_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/shiny.gbapal.lz");
+const u8 gMonIcon_Sparrowmon[] = INCBIN_U8("graphics/pokemon/sparrowmon/icon.4bpp");
+const u8 gMonFootprint_Sparrowmon[] = INCBIN_U8("graphics/pokemon/sparrowmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_HoOh[] = INCBIN_U32("graphics/pokemon/ho_oh/front.4bpp.lz");
 const u32 gMonPalette_HoOh[] = INCBIN_U32("graphics/pokemon/ho_oh/normal.gbapal.lz");

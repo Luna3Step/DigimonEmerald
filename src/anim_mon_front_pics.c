@@ -251,7 +251,7 @@ const u32 gMonFrontPic_Icegobimon[] = INCBIN_U32("graphics/pokemon/icegobimon/an
 const u32 gMonFrontPic_Solarmon[] = INCBIN_U32("graphics/pokemon/solarmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sounbrdmon[] = INCBIN_U32("graphics/pokemon/sounbrdmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Spadamon[] = INCBIN_U32("graphics/pokemon/spadamon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Lugia[] = INCBIN_U32("graphics/pokemon/lugia/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Sparrowmon[] = INCBIN_U32("graphics/pokemon/sparrowmon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_HoOh[] = INCBIN_U32("graphics/pokemon/ho_oh/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Celebi[] = INCBIN_U32("graphics/pokemon/celebi/anim_front.4bpp.lz");
 

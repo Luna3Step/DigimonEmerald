@@ -2125,16 +2125,16 @@ static const struct SpriteFrameImage sPicTable_Brandon[] = {
     overworld_frame(gObjectEventPic_Brandon, 2, 4, 8),
 };
 
-static const struct SpriteFrameImage sPicTable_Lugia[] = {
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Lugia, 4, 4, 1),
+static const struct SpriteFrameImage sPicTable_Sparrowmon[] = {
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Sparrowmon, 4, 4, 1),
 };
 
 static const struct SpriteFrameImage sPicTable_HoOh[] = {

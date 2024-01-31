@@ -1379,8 +1379,8 @@ Cry_Spadamon::
 	.incbin "sound/direct_sound_samples/cries/spadamon.bin"
 
 	.align 2
-Cry_Lugia::
-	.incbin "sound/direct_sound_samples/cries/lugia.bin"
+Cry_Sparrowmon::
+	.incbin "sound/direct_sound_samples/cries/sparrowmon.bin"
 
 	.align 2
 Cry_HoOh::

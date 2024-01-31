@@ -4615,9 +4615,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = 
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sparrowmon = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_LUGIA,
+    .paletteTag = OBJ_EVENT_PAL_TAG_SPARROWMON,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
@@ -4630,7 +4630,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Lugia,
+    .images = sPicTable_Sparrowmon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

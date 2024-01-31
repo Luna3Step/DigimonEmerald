@@ -1,4 +1,4 @@
-.set LOCALID_LUGIA, 1
+.set LOCALID_SPARROWMON, 1
 
 NavelRock_Bottom_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, NavelRock_Bottom_OnTransition
@@ -6,30 +6,30 @@ NavelRock_Bottom_MapScripts::
 	.byte 0
 
 NavelRock_Bottom_OnTransition:
-	call_if_set FLAG_CAUGHT_LUGIA, NavelRock_Bottom_EventScript_HideLugia
-	call_if_unset FLAG_CAUGHT_LUGIA, NavelRock_Bottom_EventScript_TryShowLugia
+	call_if_set FLAG_CAUGHT_SPARROWMON, NavelRock_Bottom_EventScript_HideSparrowmon
+	call_if_unset FLAG_CAUGHT_SPARROWMON, NavelRock_Bottom_EventScript_TryShowSparrowmon
 	end
 
-NavelRock_Bottom_EventScript_HideLugia::
-	setflag FLAG_HIDE_LUGIA
+NavelRock_Bottom_EventScript_HideSparrowmon::
+	setflag FLAG_HIDE_SPARROWMON
 	return
 
-NavelRock_Bottom_EventScript_TryShowLugia::
-	goto_if_set FLAG_DEFEATED_LUGIA, Common_EventScript_NopReturn
-	clearflag FLAG_HIDE_LUGIA
+NavelRock_Bottom_EventScript_TryShowSparrowmon::
+	goto_if_set FLAG_DEFEATED_SPARROWMON, Common_EventScript_NopReturn
+	clearflag FLAG_HIDE_SPARROWMON
 	return
 
 NavelRock_Bottom_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, NavelRock_Bottom_EventScript_TryRemoveLugia
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, NavelRock_Bottom_EventScript_TryRemoveSparrowmon
 	end
 
-NavelRock_Bottom_EventScript_TryRemoveLugia::
+NavelRock_Bottom_EventScript_TryRemoveSparrowmon::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
-	removeobject LOCALID_LUGIA
+	removeobject LOCALID_SPARROWMON
 	return
 
-NavelRock_Bottom_EventScript_Lugia::
+NavelRock_Bottom_EventScript_Sparrowmon::
 	lock
 	faceplayer
 	waitse
@@ -59,20 +59,20 @@ NavelRock_Bottom_EventScript_Lugia::
 	waitstate
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NavelRock_Bottom_EventScript_DefeatedLugia
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NavelRock_Bottom_EventScript_RanFromLugia
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NavelRock_Bottom_EventScript_RanFromLugia
-	setflag FLAG_CAUGHT_LUGIA
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, NavelRock_Bottom_EventScript_DefeatedSparrowmon
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, NavelRock_Bottom_EventScript_RanFromSparrowmon
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, NavelRock_Bottom_EventScript_RanFromSparrowmon
+	setflag FLAG_CAUGHT_SPARROWMON
 	release
 	end
 
-NavelRock_Bottom_EventScript_DefeatedLugia::
-	setflag FLAG_DEFEATED_LUGIA
+NavelRock_Bottom_EventScript_DefeatedSparrowmon::
+	setflag FLAG_DEFEATED_SPARROWMON
 	setvar VAR_0x8004, SPECIES_SPARROWMON
 	goto Common_EventScript_LegendaryFlewAway
 	end
 
-NavelRock_Bottom_EventScript_RanFromLugia::
+NavelRock_Bottom_EventScript_RanFromSparrowmon::
 	setvar VAR_0x8004, SPECIES_SPARROWMON
 	goto Common_EventScript_LegendaryFlewAway
 	end
