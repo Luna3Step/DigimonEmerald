@@ -2824,7 +2824,7 @@ static const union AnimCmd sAnim_Blktoyagumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Miltank_1[] =
+static const union AnimCmd sAnim_Shamanmon_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(0, 30),
@@ -5063,7 +5063,7 @@ SINGLE_ANIMATION(Salamon_x);
 SINGLE_ANIMATION(Sangomon);
 SINGLE_ANIMATION(santaagumon);
 SINGLE_ANIMATION(Blktoyagumon);
-SINGLE_ANIMATION(Miltank);
+SINGLE_ANIMATION(Shamanmon);
 SINGLE_ANIMATION(Blissey);
 SINGLE_ANIMATION(Raikou);
 SINGLE_ANIMATION(Entei);
@@ -5495,7 +5495,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SANGOMON]    = sAnims_Sangomon,
     [SPECIES_SANTAAGUMON]      = sAnims_santaagumon,
     [SPECIES_BLKTOYAMON]       = sAnims_Blktoyagumon,
-    [SPECIES_SHAMANMON]     = sAnims_Miltank,
+    [SPECIES_SHAMANMON]     = sAnims_Shamanmon,
     [SPECIES_SHOUTMON]     = sAnims_Blissey,
     [SPECIES_YUKIAGUMON]      = sAnims_Raikou,
     [SPECIES_YUKIAGUMON_06]       = sAnims_Entei,

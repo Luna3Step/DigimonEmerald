@@ -1677,12 +1677,12 @@ const u32 gMonShinyPalette_Blktoyagumon[] = INCBIN_U32("graphics/pokemon/blktoya
 const u8 gMonIcon_Blktoyagumon[] = INCBIN_U8("graphics/pokemon/blktoyagumon/icon.4bpp");
 const u8 gMonFootprint_Blktoyagumon[] = INCBIN_U8("graphics/pokemon/blktoyagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/front.4bpp.lz");
-const u32 gMonPalette_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/normal.gbapal.lz");
-const u32 gMonBackPic_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/back.4bpp.lz");
-const u32 gMonShinyPalette_Miltank[] = INCBIN_U32("graphics/pokemon/miltank/shiny.gbapal.lz");
-const u8 gMonIcon_Miltank[] = INCBIN_U8("graphics/pokemon/miltank/icon.4bpp");
-const u8 gMonFootprint_Miltank[] = INCBIN_U8("graphics/pokemon/miltank/footprint.1bpp");
+const u32 gMonStillFrontPic_Shamanmon[] = INCBIN_U32("graphics/pokemon/shamanmon/front.4bpp.lz");
+const u32 gMonPalette_Shamanmon[] = INCBIN_U32("graphics/pokemon/shamanmon/normal.gbapal.lz");
+const u32 gMonBackPic_Shamanmon[] = INCBIN_U32("graphics/pokemon/shamanmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Shamanmon[] = INCBIN_U32("graphics/pokemon/shamanmon/shiny.gbapal.lz");
+const u8 gMonIcon_Shamanmon[] = INCBIN_U8("graphics/pokemon/shamanmon/icon.4bpp");
+const u8 gMonFootprint_Shamanmon[] = INCBIN_U8("graphics/pokemon/shamanmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Blissey[] = INCBIN_U32("graphics/pokemon/blissey/front.4bpp.lz");
 const u32 gMonPalette_Blissey[] = INCBIN_U32("graphics/pokemon/blissey/normal.gbapal.lz");

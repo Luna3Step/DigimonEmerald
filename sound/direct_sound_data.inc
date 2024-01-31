@@ -1347,8 +1347,8 @@ Cry_Blktoyagumon::
 	.incbin "sound/direct_sound_samples/cries/blktoyagumon.bin"
 
 	.align 2
-Cry_Miltank::
-	.incbin "sound/direct_sound_samples/cries/miltank.bin"
+Cry_Shamanmon::
+	.incbin "sound/direct_sound_samples/cries/shamanmon.bin"
 
 	.align 2
 Cry_Blissey::
