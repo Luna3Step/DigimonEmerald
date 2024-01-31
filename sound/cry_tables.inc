@@ -270,7 +270,7 @@ gCryTable::
 	cry Cry_Swellow
 	cry Cry_Unused268
 	cry Cry_Spinda
-	cry Cry_Torchic
+	cry Cry_Syakomon_x
 	cry Cry_Combusken
 	cry Cry_Blaziken
 	cry Cry_Sunarzamon
@@ -661,7 +661,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Swellow
 	cry_reverse Cry_Unused268
 	cry_reverse Cry_Spinda
-	cry_reverse Cry_Torchic
+	cry_reverse Cry_Syakomon_x
 	cry_reverse Cry_Combusken
 	cry_reverse Cry_Blaziken
 	cry_reverse Cry_Sunarzamon

@@ -2945,7 +2945,7 @@ static const union AnimCmd sAnim_Syakomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Torchic_1[] =
+static const union AnimCmd sAnim_Syakomon_x_1[] =
 {
     ANIMCMD_FRAME(0, 7),
     ANIMCMD_FRAME(0, 4),
@@ -5078,7 +5078,7 @@ SINGLE_ANIMATION(OldUnownB);
 SINGLE_ANIMATION(Sunarzamon);
 SINGLE_ANIMATION(Swimmon);
 SINGLE_ANIMATION(Syakomon);
-SINGLE_ANIMATION(Torchic);
+SINGLE_ANIMATION(Syakomon_x);
 SINGLE_ANIMATION(Combusken);
 static const union AnimCmd *const sAnims_Blaziken[] ={
     sAnim_GeneralFrame0,
@@ -5534,7 +5534,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SUNARZAMON]     = sAnims_Sunarzamon,
     [SPECIES_SWIMMON]     = sAnims_Swimmon,
     [SPECIES_SYAKOMON]    = sAnims_Syakomon,
-    [SPECIES_SYAKOMON_X]     = sAnims_Torchic,
+    [SPECIES_SYAKOMON_X]     = sAnims_Syakomon_x,
     [SPECIES_TAPIRMON]   = sAnims_Combusken,
     [SPECIES_TENTOMON]    = sAnims_Blaziken,
     [SPECIES_TERRIERMON]      = sAnims_Mudkip,

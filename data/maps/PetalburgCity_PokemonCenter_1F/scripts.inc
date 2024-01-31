@@ -37,7 +37,7 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
 	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SaySunarzamonType
-	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
+	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SaySyakomon_xType
 	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
 	release
 	end
@@ -46,8 +46,8 @@ PetalburgCity_PokemonCenter_1F_EventScript_SaySunarzamonType::
 	msgbox PetalburgCity_PokemonCenter_1F_Text_SunarzamonIsGrassType, MSGBOX_DEFAULT
 	return
 
-PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType::
-	msgbox PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType, MSGBOX_DEFAULT
+PetalburgCity_PokemonCenter_1F_EventScript_SaySyakomon_xType::
+	msgbox PetalburgCity_PokemonCenter_1F_Text_Syakomon_xIsFireType, MSGBOX_DEFAULT
 	return
 
 PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
@@ -79,8 +79,8 @@ PetalburgCity_PokemonCenter_1F_Text_SunarzamonIsGrassType:
 	.string "But, it's weak against FIRE-type\n"
 	.string "POKéMON.$"
 
-PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType:
-	.string "For example, your TORCHIC\n"
+PetalburgCity_PokemonCenter_1F_Text_Syakomon_xIsFireType:
+	.string "For example, your SYAKOMON_X\n"
 	.string "is a FIRE type.\p"
 	.string "It's strong against the GRASS and\n"
 	.string "BUG types.\p"

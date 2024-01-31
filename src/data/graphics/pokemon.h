@@ -1780,12 +1780,12 @@ const u32 gMonShinyPalette_Syakomon[] = INCBIN_U32("graphics/pokemon/syakomon/sh
 const u8 gMonIcon_Syakomon[] = INCBIN_U8("graphics/pokemon/syakomon/icon.4bpp");
 const u8 gMonFootprint_Syakomon[] = INCBIN_U8("graphics/pokemon/syakomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/front.4bpp.lz");
-const u32 gMonPalette_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/normal.gbapal.lz");
-const u32 gMonBackPic_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/back.4bpp.lz");
-const u32 gMonShinyPalette_Torchic[] = INCBIN_U32("graphics/pokemon/torchic/shiny.gbapal.lz");
-const u8 gMonIcon_Torchic[] = INCBIN_U8("graphics/pokemon/torchic/icon.4bpp");
-const u8 gMonFootprint_Torchic[] = INCBIN_U8("graphics/pokemon/torchic/footprint.1bpp");
+const u32 gMonStillFrontPic_Syakomon_x[] = INCBIN_U32("graphics/pokemon/syakomon_x/front.4bpp.lz");
+const u32 gMonPalette_Syakomon_x[] = INCBIN_U32("graphics/pokemon/syakomon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Syakomon_x[] = INCBIN_U32("graphics/pokemon/syakomon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Syakomon_x[] = INCBIN_U32("graphics/pokemon/syakomon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Syakomon_x[] = INCBIN_U8("graphics/pokemon/syakomon_x/icon.4bpp");
+const u8 gMonFootprint_Syakomon_x[] = INCBIN_U8("graphics/pokemon/syakomon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/front.4bpp.lz");
 const u32 gMonPalette_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/normal.gbapal.lz");

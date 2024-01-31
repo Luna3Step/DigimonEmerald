@@ -406,7 +406,7 @@ Route110_EventScript_MayBattle::
 	msgbox Route110_Text_MayLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route110_EventScript_MayBattleSunarzamon
-	case 1, Route110_EventScript_MayBattleTorchic
+	case 1, Route110_EventScript_MayBattleSyakomon_x
 	case 2, Route110_EventScript_MayBattleMudkip
 	end
 
@@ -415,8 +415,8 @@ Route110_EventScript_MayBattleSunarzamon::
 	goto Route110_EventScript_MayDefeated
 	end
 
-Route110_EventScript_MayBattleTorchic::
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_110_TORCHIC, Route110_Text_MayDefeated
+Route110_EventScript_MayBattleSyakomon_x::
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_110_SYAKOMON_X, Route110_Text_MayDefeated
 	goto Route110_EventScript_MayDefeated
 	end
 
@@ -436,7 +436,7 @@ Route110_EventScript_BrendanBattle::
 	msgbox Route110_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route110_EventScript_BrendanBattleSunarzamon
-	case 1, Route110_EventScript_BrendanBattleTorchic
+	case 1, Route110_EventScript_BrendanBattleSyakomon_x
 	case 2, Route110_EventScript_BrendanBattleMudkip
 	end
 
@@ -445,8 +445,8 @@ Route110_EventScript_BrendanBattleSunarzamon::
 	goto Route110_EventScript_BrendanDefeated
 	end
 
-Route110_EventScript_BrendanBattleTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TORCHIC, Route110_Text_BrendanDefeated
+Route110_EventScript_BrendanBattleSyakomon_x::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_SYAKOMON_X, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
 	end
 

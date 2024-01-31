@@ -2962,7 +2962,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SunarzamonDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Syakomon_xDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2977,7 +2977,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_TorchicDoll,
+    .images = sPicTable_Syakomon_xDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

@@ -147,7 +147,7 @@ Route104_EventScript_BattleMay::
 	msgbox Route104_Text_MayIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route104_EventScript_BattleMaySunarzamon
-	case 1, Route104_EventScript_BattleMayTorchic
+	case 1, Route104_EventScript_BattleMaySyakomon_x
 	case 2, Route104_EventScript_BattleMayMudkip
 	end
 
@@ -168,8 +168,8 @@ Route104_EventScript_BattleMaySunarzamon::
 	goto Route104_EventScript_MayDefeated
 	end
 
-Route104_EventScript_BattleMayTorchic::
-	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, Route104_Text_MayDefeat
+Route104_EventScript_BattleMaySyakomon_x::
+	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_SYAKOMON_X, Route104_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_MayDefeated
 	end
@@ -219,7 +219,7 @@ Route104_EventScript_BattleBrendan::
 	msgbox Route104_Text_BrendanIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route104_EventScript_BattleBrendanSunarzamon
-	case 1, Route104_EventScript_BattleBrendanTorchic
+	case 1, Route104_EventScript_BattleBrendanSyakomon_x
 	case 2, Route104_EventScript_BattleBrendanMudkip
 	end
 
@@ -235,8 +235,8 @@ Route104_EventScript_BattleBrendanSunarzamon::
 	goto Route104_EventScript_BrendanDefeated
 	end
 
-Route104_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, Route104_Text_BrendanDefeat
+Route104_EventScript_BattleBrendanSyakomon_x::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_SYAKOMON_X, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_BrendanDefeated
 	end

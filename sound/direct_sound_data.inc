@@ -1467,8 +1467,8 @@ Cry_Spinda::
 	.incbin "sound/direct_sound_samples/cries/spinda.bin"
 
 	.align 2
-Cry_Torchic::
-	.incbin "sound/direct_sound_samples/cries/torchic.bin"
+Cry_Syakomon_x::
+	.incbin "sound/direct_sound_samples/cries/syakomon_x.bin"
 
 	.align 2
 Cry_Combusken::

@@ -245,7 +245,7 @@ LilycoveCity_EventScript_May::
 	msgbox LilycoveCity_Text_MayWontBeBeaten, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, LilycoveCity_EventScript_BattleMaySunarzamon
-	case 1, LilycoveCity_EventScript_BattleMayTorchic
+	case 1, LilycoveCity_EventScript_BattleMaySyakomon_x
 	case 2, LilycoveCity_EventScript_BattleMayMudkip
 	end
 
@@ -273,7 +273,7 @@ LilycoveCity_EventScript_Brendan::
 	msgbox LilycoveCity_Text_BrendanWontBeBeaten, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, LilycoveCity_EventScript_BattleBrendanSunarzamon
-	case 1, LilycoveCity_EventScript_BattleBrendanTorchic
+	case 1, LilycoveCity_EventScript_BattleBrendanSyakomon_x
 	case 2, LilycoveCity_EventScript_BattleBrendanMudkip
 	end
 
@@ -298,8 +298,8 @@ LilycoveCity_EventScript_BattleMaySunarzamon::
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
-LilycoveCity_EventScript_BattleMayTorchic::
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TORCHIC, LilycoveCity_Text_MayDefeat
+LilycoveCity_EventScript_BattleMaySyakomon_x::
+	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_SYAKOMON_X, LilycoveCity_Text_MayDefeat
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
@@ -313,8 +313,8 @@ LilycoveCity_EventScript_BattleBrendanSunarzamon::
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
-LilycoveCity_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TORCHIC, LilycoveCity_Text_BrendanDefeat
+LilycoveCity_EventScript_BattleBrendanSyakomon_x::
+	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_SYAKOMON_X, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 

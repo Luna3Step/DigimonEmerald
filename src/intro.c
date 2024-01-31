@@ -68,7 +68,7 @@ static void Task_Scene2_BikeRide(u8);
 static void Task_Scene2_End(u8);
 
 // Scene 2 supplemental functions
-static void SpriteCB_Torchic(struct Sprite *sprite);
+static void SpriteCB_Syakomon_x(struct Sprite *sprite);
 static void SpriteCB_Manectric(struct Sprite *sprite);
 static void SpriteCB_Volbeat(struct Sprite *sprite);
 static void SpriteCB_Flygon(struct Sprite *);
@@ -113,7 +113,7 @@ extern const struct CompressedSpritePalette gBattleAnimPaletteTable[];
 extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 
 #define TAG_VOLBEAT   1500
-#define TAG_TORCHIC   1501
+#define TAG_SYAKOMON_X   1501
 #define TAG_MANECTRIC 1502
 #define TAG_LIGHTNING 1503
 #define TAG_BUBBLES   1504
@@ -155,13 +155,13 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 #define TIMER_PLAYER_DRIFT_BACK        1109
 #define TIMER_MANECTRIC_RUN_CIRCULAR   1168
 #define TIMER_PLAYER_MOVE_FORWARD      1214
-#define TIMER_TORCHIC_ENTER            1224
+#define TIMER_SYAKOMON_X_ENTER            1224
 #define TIMER_FLYGON_ENTER             1394
 #define TIMER_PLAYER_MOVE_BACKWARD     1398
 #define TIMER_PLAYER_HOLD_POSITION     1576
 #define TIMER_PLAYER_EXIT              1727
-#define TIMER_TORCHIC_SPEED_UP         1735
-#define TIMER_TORCHIC_EXIT             1856
+#define TIMER_SYAKOMON_X_SPEED_UP         1735
+#define TIMER_SYAKOMON_X_EXIT             1856
 #define TIMER_END_SCENE_2              1946
 #define TIMER_START_SCENE_3            2068
 // timer is reset for scene 3
@@ -268,14 +268,14 @@ static const u8 sSparkleCoords[][2] =
 static const struct CompressedSpriteSheet sSpriteSheet_RunningPokemon[] =
 {
     {gIntroVolbeat_Gfx, 0x400, TAG_VOLBEAT},
-    {gIntroTorchic_Gfx, 0xC00, TAG_TORCHIC},
+    {gIntroSyakomon_x_Gfx, 0xC00, TAG_SYAKOMON_X},
     {gIntroManectric_Gfx, 0x2000, TAG_MANECTRIC},
     {},
 };
 static const struct SpritePalette sSpritePalettes_RunningPokemon[] =
 {
     {gIntroVolbeat_Pal, TAG_VOLBEAT},
-    {gIntroTorchic_Pal, TAG_TORCHIC},
+    {gIntroSyakomon_x_Pal, TAG_SYAKOMON_X},
     {gIntroManectric_Pal, TAG_MANECTRIC},
     {},
 };
@@ -315,7 +315,7 @@ static const struct SpriteTemplate sSpriteTemplate_Volbeat =
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_Volbeat,
 };
-static const struct OamData sOamData_Torchic =
+static const struct OamData sOamData_Syakomon_x =
 {
     .y = DISPLAY_HEIGHT,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -331,7 +331,7 @@ static const struct OamData sOamData_Torchic =
     .paletteNum = 0,
     .affineParam = 0,
 };
-static const union AnimCmd sAnim_Torchic_Walk[] =
+static const union AnimCmd sAnim_Syakomon_x_Walk[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(16, 5),
@@ -339,7 +339,7 @@ static const union AnimCmd sAnim_Torchic_Walk[] =
     ANIMCMD_FRAME(16, 5),
     ANIMCMD_JUMP(0),
 };
-static const union AnimCmd sAnim_Torchic_Run[] =
+static const union AnimCmd sAnim_Syakomon_x_Run[] =
 {
     ANIMCMD_FRAME(0, 3),
     ANIMCMD_FRAME(16, 3),
@@ -347,7 +347,7 @@ static const union AnimCmd sAnim_Torchic_Run[] =
     ANIMCMD_FRAME(16, 3),
     ANIMCMD_JUMP(0),
 };
-static const union AnimCmd sAnim_Torchic_Trip[] =
+static const union AnimCmd sAnim_Syakomon_x_Trip[] =
 {
     ANIMCMD_FRAME(48, 4),
     ANIMCMD_FRAME(64, 6),
@@ -355,25 +355,25 @@ static const union AnimCmd sAnim_Torchic_Trip[] =
     ANIMCMD_END,
 };
 enum {
-    TORCHIC_ANIM_WALK,
-    TORCHIC_ANIM_RUN,
-    TORCHIC_ANIM_TRIP,
+    SYAKOMON_X_ANIM_WALK,
+    SYAKOMON_X_ANIM_RUN,
+    SYAKOMON_X_ANIM_TRIP,
 };
-static const union AnimCmd *const sAnims_Torchic[] =
+static const union AnimCmd *const sAnims_Syakomon_x[] =
 {
-    [TORCHIC_ANIM_WALK] = sAnim_Torchic_Walk,
-    [TORCHIC_ANIM_RUN]  = sAnim_Torchic_Run,
-    [TORCHIC_ANIM_TRIP] = sAnim_Torchic_Trip,
+    [SYAKOMON_X_ANIM_WALK] = sAnim_Syakomon_x_Walk,
+    [SYAKOMON_X_ANIM_RUN]  = sAnim_Syakomon_x_Run,
+    [SYAKOMON_X_ANIM_TRIP] = sAnim_Syakomon_x_Trip,
 };
-static const struct SpriteTemplate sSpriteTemplate_Torchic =
+static const struct SpriteTemplate sSpriteTemplate_Syakomon_x =
 {
-    .tileTag = TAG_TORCHIC,
-    .paletteTag = TAG_TORCHIC,
-    .oam = &sOamData_Torchic,
-    .anims = sAnims_Torchic,
+    .tileTag = TAG_SYAKOMON_X,
+    .paletteTag = TAG_SYAKOMON_X,
+    .oam = &sOamData_Syakomon_x,
+    .anims = sAnims_Syakomon_x,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_Torchic,
+    .callback = SpriteCB_Syakomon_x,
 };
 static const struct OamData sOamData_Manectric =
 {
@@ -1388,7 +1388,7 @@ static void Task_Scene2_CreateSprites(u8 taskId)
 
     // Create Pokémon and player sprites
     CreateSprite(&sSpriteTemplate_Manectric, DISPLAY_WIDTH + 32, 128, 0);
-    CreateSprite(&sSpriteTemplate_Torchic, DISPLAY_WIDTH + 48, 110, 1);
+    CreateSprite(&sSpriteTemplate_Syakomon_x, DISPLAY_WIDTH + 48, 110, 1);
 
     if (sIntroCharacterGender == MALE)
         spriteId = CreateIntroBrendanSprite(DISPLAY_WIDTH + 32, 100);
@@ -1415,9 +1415,9 @@ static void Task_Scene2_BikeRide(u8 taskId)
 {
     u16 offset;
 
-    if (gIntroFrameCounter == TIMER_TORCHIC_EXIT)
+    if (gIntroFrameCounter == TIMER_SYAKOMON_X_EXIT)
     {
-        // Stop the moving scenery/backgrounds, for when the camera fixes on Torchic
+        // Stop the moving scenery/backgrounds, for when the camera fixes on Syakomon_x
         gIntroCredits_MovingSceneryState = INTROCRED_SCENERY_FROZEN;
         DestroyTask(gTasks[taskId].tBgAnimTaskId);
     }
@@ -1576,21 +1576,21 @@ static void SpriteCB_Volbeat(struct Sprite *sprite)
 #define sMoveTimer data[1]
 #define sDelay     data[2]
 
-static void SpriteCB_Torchic(struct Sprite *sprite)
+static void SpriteCB_Syakomon_x(struct Sprite *sprite)
 {
     switch (sprite->sState)
     {
     case 0:
-        if (gIntroFrameCounter == TIMER_TORCHIC_ENTER)
+        if (gIntroFrameCounter == TIMER_SYAKOMON_X_ENTER)
         {
-            StartSpriteAnim(sprite, TORCHIC_ANIM_RUN);
+            StartSpriteAnim(sprite, SYAKOMON_X_ANIM_RUN);
             sprite->sState++;
         }
         break;
     case 1:
         if (gIntroFrameCounter == TIMER_PLAYER_HOLD_POSITION)
         {
-            StartSpriteAnim(sprite, TORCHIC_ANIM_WALK);
+            StartSpriteAnim(sprite, SYAKOMON_X_ANIM_WALK);
             sprite->sState++;
         }
         else
@@ -1604,7 +1604,7 @@ static void SpriteCB_Torchic(struct Sprite *sprite)
         }
         break;
     case 2:
-        if (gIntroFrameCounter != TIMER_TORCHIC_SPEED_UP)
+        if (gIntroFrameCounter != TIMER_SYAKOMON_X_SPEED_UP)
         {
             sprite->sMoveTimer += 32;
             if (sprite->sMoveTimer & 0xFF00)
@@ -1615,7 +1615,7 @@ static void SpriteCB_Torchic(struct Sprite *sprite)
         }
         else
         {
-            StartSpriteAnim(sprite, TORCHIC_ANIM_RUN);
+            StartSpriteAnim(sprite, SYAKOMON_X_ANIM_RUN);
             sprite->sState++;
             sprite->sDelay = 80;
         }
@@ -1632,7 +1632,7 @@ static void SpriteCB_Torchic(struct Sprite *sprite)
         }
         else
         {
-            StartSpriteAnim(sprite, TORCHIC_ANIM_TRIP);
+            StartSpriteAnim(sprite, SYAKOMON_X_ANIM_TRIP);
             sprite->sState++;
         }
         break;
@@ -1642,12 +1642,12 @@ static void SpriteCB_Torchic(struct Sprite *sprite)
 
         if (sprite->x > 336)
         {
-            StartSpriteAnim(sprite, TORCHIC_ANIM_RUN);
+            StartSpriteAnim(sprite, SYAKOMON_X_ANIM_RUN);
             sprite->sState++;
         }
         break;
     case 5:
-        if (gIntroFrameCounter >= TIMER_TORCHIC_EXIT)
+        if (gIntroFrameCounter >= TIMER_SYAKOMON_X_EXIT)
             sprite->x -= 2;
         break;
     }

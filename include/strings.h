@@ -1192,7 +1192,7 @@ extern const u8 gText_BlackFlute2[];
 extern const u8 gText_GlassChair[];
 extern const u8 gText_GlassDesk[];
 extern const u8 gText_SunarzamonDollAndPrice[];
-extern const u8 gText_TorchicDollAndPrice[];
+extern const u8 gText_Syakomon_xDollAndPrice[];
 extern const u8 gText_MudkipDollAndPrice[];
 extern const u8 gText_TM32AndPrice[];
 extern const u8 gText_TM29AndPrice[];

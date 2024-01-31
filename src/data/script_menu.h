@@ -260,7 +260,7 @@ static const struct MenuAction MultichoiceList_UnusedAshVendor[] =
 static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 {
     {gText_SunarzamonDollAndPrice},
-    {gText_TorchicDollAndPrice},
+    {gText_Syakomon_xDollAndPrice},
     {gText_MudkipDollAndPrice},
     {gText_Exit},
 };
