@@ -1359,8 +1359,8 @@ Cry_Yukiagumon::
 	.incbin "sound/direct_sound_samples/cries/yukiagumon.bin"
 
 	.align 2
-Cry_Entei::
-	.incbin "sound/direct_sound_samples/cries/entei.bin"
+Cry_Yukiagumon_06::
+	.incbin "sound/direct_sound_samples/cries/yukiagumon_06.bin"
 
 	.align 2
 Cry_Suicune::
