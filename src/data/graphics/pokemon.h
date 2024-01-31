@@ -1628,12 +1628,12 @@ const u32 gMonShinyPalette_Renamon_x[] = INCBIN_U32("graphics/pokemon/renamon_x/
 const u8 gMonIcon_Renamon_x[] = INCBIN_U8("graphics/pokemon/renamon_x/icon.4bpp");
 const u8 gMonFootprint_Renamon_x[] = INCBIN_U8("graphics/pokemon/renamon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/front.4bpp.lz");
-const u32 gMonPalette_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/normal.gbapal.lz");
-const u32 gMonBackPic_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/back.4bpp.lz");
-const u32 gMonShinyPalette_Stantler[] = INCBIN_U32("graphics/pokemon/stantler/shiny.gbapal.lz");
-const u8 gMonIcon_Stantler[] = INCBIN_U8("graphics/pokemon/stantler/icon.4bpp");
-const u8 gMonFootprint_Stantler[] = INCBIN_U8("graphics/pokemon/stantler/footprint.1bpp");
+const u32 gMonStillFrontPic_Rokusho[] = INCBIN_U32("graphics/pokemon/rokusho/front.4bpp.lz");
+const u32 gMonPalette_Rokusho[] = INCBIN_U32("graphics/pokemon/rokusho/normal.gbapal.lz");
+const u32 gMonBackPic_Rokusho[] = INCBIN_U32("graphics/pokemon/rokusho/back.4bpp.lz");
+const u32 gMonShinyPalette_Rokusho[] = INCBIN_U32("graphics/pokemon/rokusho/shiny.gbapal.lz");
+const u8 gMonIcon_Rokusho[] = INCBIN_U8("graphics/pokemon/rokusho/icon.4bpp");
+const u8 gMonFootprint_Rokusho[] = INCBIN_U8("graphics/pokemon/rokusho/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/front.4bpp.lz");
 const u32 gMonPalette_Smeargle[] = INCBIN_U32("graphics/pokemon/smeargle/normal.gbapal.lz");
