@@ -1331,8 +1331,8 @@ Cry_Salamon::
 	.incbin "sound/direct_sound_samples/cries/salamon.bin"
 
 	.align 2
-Cry_Hitmontop::
-	.incbin "sound/direct_sound_samples/cries/hitmontop.bin"
+Cry_Salamon_x::
+	.incbin "sound/direct_sound_samples/cries/salamon_x.bin"
 
 	.align 2
 Cry_Smoochum::

@@ -236,7 +236,7 @@ gCryTable::
 	cry Cry_Rokusho
 	cry Cry_Ryudamon
 	cry Cry_Salamon
-	cry Cry_Hitmontop
+	cry Cry_Salamon_x
 	cry Cry_Smoochum
 	cry Cry_Elekid
 	cry Cry_Magby
@@ -627,7 +627,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Rokusho
 	cry_reverse Cry_Ryudamon
 	cry_reverse Cry_Salamon
-	cry_reverse Cry_Hitmontop
+	cry_reverse Cry_Salamon_x
 	cry_reverse Cry_Smoochum
 	cry_reverse Cry_Elekid
 	cry_reverse Cry_Magby
