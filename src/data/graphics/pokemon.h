@@ -1663,12 +1663,12 @@ const u32 gMonShinyPalette_Sangomon[] = INCBIN_U32("graphics/pokemon/sangomon/sh
 const u8 gMonIcon_Sangomon[] = INCBIN_U8("graphics/pokemon/sangomon/icon.4bpp");
 const u8 gMonFootprint_Sangomon[] = INCBIN_U8("graphics/pokemon/sangomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/front.4bpp.lz");
-const u32 gMonPalette_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/normal.gbapal.lz");
-const u32 gMonBackPic_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/back.4bpp.lz");
-const u32 gMonShinyPalette_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/shiny.gbapal.lz");
-const u8 gMonIcon_Elekid[] = INCBIN_U8("graphics/pokemon/elekid/icon.4bpp");
-const u8 gMonFootprint_Elekid[] = INCBIN_U8("graphics/pokemon/elekid/footprint.1bpp");
+const u32 gMonStillFrontPic_santaagumon[] = INCBIN_U32("graphics/pokemon/santaagumon/front.4bpp.lz");
+const u32 gMonPalette_santaagumon[] = INCBIN_U32("graphics/pokemon/santaagumon/normal.gbapal.lz");
+const u32 gMonBackPic_santaagumon[] = INCBIN_U32("graphics/pokemon/santaagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_santaagumon[] = INCBIN_U32("graphics/pokemon/santaagumon/shiny.gbapal.lz");
+const u8 gMonIcon_santaagumon[] = INCBIN_U8("graphics/pokemon/santaagumon/icon.4bpp");
+const u8 gMonFootprint_santaagumon[] = INCBIN_U8("graphics/pokemon/santaagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Magby[] = INCBIN_U32("graphics/pokemon/magby/front.4bpp.lz");
 const u32 gMonPalette_Magby[] = INCBIN_U32("graphics/pokemon/magby/normal.gbapal.lz");

@@ -1339,8 +1339,8 @@ Cry_Sangomon::
 	.incbin "sound/direct_sound_samples/cries/sangomon.bin"
 
 	.align 2
-Cry_Elekid::
-	.incbin "sound/direct_sound_samples/cries/elekid.bin"
+Cry_santaagumon::
+	.incbin "sound/direct_sound_samples/cries/santaagumon.bin"
 
 	.align 2
 Cry_Magby::
