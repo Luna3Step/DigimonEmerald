@@ -1607,12 +1607,12 @@ const u32 gMonShinyPalette_Psychemon[] = INCBIN_U32("graphics/pokemon/psychemon/
 const u8 gMonIcon_Psychemon[] = INCBIN_U8("graphics/pokemon/psychemon/icon.4bpp");
 const u8 gMonFootprint_Psychemon[] = INCBIN_U8("graphics/pokemon/psychemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/front.4bpp.lz");
-const u32 gMonPalette_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/normal.gbapal.lz");
-const u32 gMonBackPic_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/back.4bpp.lz");
-const u32 gMonShinyPalette_Phanpy[] = INCBIN_U32("graphics/pokemon/phanpy/shiny.gbapal.lz");
-const u8 gMonIcon_Phanpy[] = INCBIN_U8("graphics/pokemon/phanpy/icon.4bpp");
-const u8 gMonFootprint_Phanpy[] = INCBIN_U8("graphics/pokemon/phanpy/footprint.1bpp");
+const u32 gMonStillFrontPic_Pulsemon[] = INCBIN_U32("graphics/pokemon/pulsemon/front.4bpp.lz");
+const u32 gMonPalette_Pulsemon[] = INCBIN_U32("graphics/pokemon/pulsemon/normal.gbapal.lz");
+const u32 gMonBackPic_Pulsemon[] = INCBIN_U32("graphics/pokemon/pulsemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pulsemon[] = INCBIN_U32("graphics/pokemon/pulsemon/shiny.gbapal.lz");
+const u8 gMonIcon_Pulsemon[] = INCBIN_U8("graphics/pokemon/pulsemon/icon.4bpp");
+const u8 gMonFootprint_Pulsemon[] = INCBIN_U8("graphics/pokemon/pulsemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Donphan[] = INCBIN_U32("graphics/pokemon/donphan/front.4bpp.lz");
 const u32 gMonPalette_Donphan[] = INCBIN_U32("graphics/pokemon/donphan/normal.gbapal.lz");

@@ -1307,8 +1307,8 @@ Cry_Psychemon::
 	.incbin "sound/direct_sound_samples/cries/psychemon.bin"
 
 	.align 2
-Cry_Phanpy::
-	.incbin "sound/direct_sound_samples/cries/phanpy.bin"
+Cry_Pulsemon::
+	.incbin "sound/direct_sound_samples/cries/pulsemon.bin"
 
 	.align 2
 Cry_Donphan::
