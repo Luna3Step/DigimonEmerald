@@ -1787,12 +1787,12 @@ const u32 gMonShinyPalette_Syakomon_x[] = INCBIN_U32("graphics/pokemon/syakomon_
 const u8 gMonIcon_Syakomon_x[] = INCBIN_U8("graphics/pokemon/syakomon_x/icon.4bpp");
 const u8 gMonFootprint_Syakomon_x[] = INCBIN_U8("graphics/pokemon/syakomon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/front.4bpp.lz");
-const u32 gMonPalette_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/normal.gbapal.lz");
-const u32 gMonBackPic_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/back.4bpp.lz");
-const u32 gMonShinyPalette_Combusken[] = INCBIN_U32("graphics/pokemon/combusken/shiny.gbapal.lz");
-const u8 gMonIcon_Combusken[] = INCBIN_U8("graphics/pokemon/combusken/icon.4bpp");
-const u8 gMonFootprint_Combusken[] = INCBIN_U8("graphics/pokemon/combusken/footprint.1bpp");
+const u32 gMonStillFrontPic_Tapirmon[] = INCBIN_U32("graphics/pokemon/tapirmon/front.4bpp.lz");
+const u32 gMonPalette_Tapirmon[] = INCBIN_U32("graphics/pokemon/tapirmon/normal.gbapal.lz");
+const u32 gMonBackPic_Tapirmon[] = INCBIN_U32("graphics/pokemon/tapirmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tapirmon[] = INCBIN_U32("graphics/pokemon/tapirmon/shiny.gbapal.lz");
+const u8 gMonIcon_Tapirmon[] = INCBIN_U8("graphics/pokemon/tapirmon/icon.4bpp");
+const u8 gMonFootprint_Tapirmon[] = INCBIN_U8("graphics/pokemon/tapirmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/front.4bpp.lz");
 const u32 gMonPalette_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/normal.gbapal.lz");

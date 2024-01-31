@@ -1471,8 +1471,8 @@ Cry_Syakomon_x::
 	.incbin "sound/direct_sound_samples/cries/syakomon_x.bin"
 
 	.align 2
-Cry_Combusken::
-	.incbin "sound/direct_sound_samples/cries/combusken.bin"
+Cry_Tapirmon::
+	.incbin "sound/direct_sound_samples/cries/tapirmon.bin"
 
 	.align 2
 Cry_Blaziken::
