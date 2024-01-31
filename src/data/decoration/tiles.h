@@ -506,8 +506,8 @@ const u16 DecorGfx_CRABMON_DOLL[] = {
     OBJ_EVENT_GFX_CRABMON_DOLL
 };
 
-const u16 DecorGfx_SMOOCHUM_DOLL[] = {
-    OBJ_EVENT_GFX_SMOOCHUM_DOLL
+const u16 DecorGfx_SANGOMON_DOLL[] = {
+    OBJ_EVENT_GFX_SANGOMON_DOLL
 };
 
 const u16 DecorGfx_TREECKO_DOLL[] = {

@@ -1656,12 +1656,12 @@ const u32 gMonShinyPalette_Salamon_x[] = INCBIN_U32("graphics/pokemon/salamon_x/
 const u8 gMonIcon_Salamon_x[] = INCBIN_U8("graphics/pokemon/salamon_x/icon.4bpp");
 const u8 gMonFootprint_Salamon_x[] = INCBIN_U8("graphics/pokemon/salamon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Smoochum[] = INCBIN_U32("graphics/pokemon/smoochum/front.4bpp.lz");
-const u32 gMonPalette_Smoochum[] = INCBIN_U32("graphics/pokemon/smoochum/normal.gbapal.lz");
-const u32 gMonBackPic_Smoochum[] = INCBIN_U32("graphics/pokemon/smoochum/back.4bpp.lz");
-const u32 gMonShinyPalette_Smoochum[] = INCBIN_U32("graphics/pokemon/smoochum/shiny.gbapal.lz");
-const u8 gMonIcon_Smoochum[] = INCBIN_U8("graphics/pokemon/smoochum/icon.4bpp");
-const u8 gMonFootprint_Smoochum[] = INCBIN_U8("graphics/pokemon/smoochum/footprint.1bpp");
+const u32 gMonStillFrontPic_Sangomon[] = INCBIN_U32("graphics/pokemon/sangomon/front.4bpp.lz");
+const u32 gMonPalette_Sangomon[] = INCBIN_U32("graphics/pokemon/sangomon/normal.gbapal.lz");
+const u32 gMonBackPic_Sangomon[] = INCBIN_U32("graphics/pokemon/sangomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sangomon[] = INCBIN_U32("graphics/pokemon/sangomon/shiny.gbapal.lz");
+const u8 gMonIcon_Sangomon[] = INCBIN_U8("graphics/pokemon/sangomon/icon.4bpp");
+const u8 gMonFootprint_Sangomon[] = INCBIN_U8("graphics/pokemon/sangomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/front.4bpp.lz");
 const u32 gMonPalette_Elekid[] = INCBIN_U32("graphics/pokemon/elekid/normal.gbapal.lz");
