@@ -1586,12 +1586,12 @@ const u32 gMonShinyPalette_Phascomon[] = INCBIN_U32("graphics/pokemon/phascomon/
 const u8 gMonIcon_Phascomon[] = INCBIN_U8("graphics/pokemon/phascomon/icon.4bpp");
 const u8 gMonFootprint_Phascomon[] = INCBIN_U8("graphics/pokemon/phascomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/front.4bpp.lz");
-const u32 gMonPalette_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/normal.gbapal.lz");
-const u32 gMonBackPic_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/back.4bpp.lz");
-const u32 gMonShinyPalette_Houndour[] = INCBIN_U32("graphics/pokemon/houndour/shiny.gbapal.lz");
-const u8 gMonIcon_Houndour[] = INCBIN_U8("graphics/pokemon/houndour/icon.4bpp");
-const u8 gMonFootprint_Houndour[] = INCBIN_U8("graphics/pokemon/houndour/footprint.1bpp");
+const u32 gMonStillFrontPic_Pillomon[] = INCBIN_U32("graphics/pokemon/pillomon/front.4bpp.lz");
+const u32 gMonPalette_Pillomon[] = INCBIN_U32("graphics/pokemon/pillomon/normal.gbapal.lz");
+const u32 gMonBackPic_Pillomon[] = INCBIN_U32("graphics/pokemon/pillomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Pillomon[] = INCBIN_U32("graphics/pokemon/pillomon/shiny.gbapal.lz");
+const u8 gMonIcon_Pillomon[] = INCBIN_U8("graphics/pokemon/pillomon/icon.4bpp");
+const u8 gMonFootprint_Pillomon[] = INCBIN_U8("graphics/pokemon/pillomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Houndoom[] = INCBIN_U32("graphics/pokemon/houndoom/front.4bpp.lz");
 const u32 gMonPalette_Houndoom[] = INCBIN_U32("graphics/pokemon/houndoom/normal.gbapal.lz");

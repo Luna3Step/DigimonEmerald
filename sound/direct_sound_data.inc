@@ -1295,8 +1295,8 @@ Cry_Phascomon::
 	.incbin "sound/direct_sound_samples/cries/phascomon.bin"
 
 	.align 2
-Cry_Houndour::
-	.incbin "sound/direct_sound_samples/cries/houndour.bin"
+Cry_Pillomon::
+	.incbin "sound/direct_sound_samples/cries/pillomon.bin"
 
 	.align 2
 Cry_Houndoom::

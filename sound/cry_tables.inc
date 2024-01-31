@@ -227,7 +227,7 @@ gCryTable::
 	cry Cry_Penguinmon
 	cry Cry_Petitmamon
 	cry Cry_Phascomon
-	cry Cry_Houndour
+	cry Cry_Pillomon
 	cry Cry_Houndoom
 	cry Cry_Kingdra
 	cry Cry_Phanpy
@@ -618,7 +618,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Penguinmon
 	cry_reverse Cry_Petitmamon
 	cry_reverse Cry_Phascomon
-	cry_reverse Cry_Houndour
+	cry_reverse Cry_Pillomon
 	cry_reverse Cry_Houndoom
 	cry_reverse Cry_Kingdra
 	cry_reverse Cry_Phanpy
