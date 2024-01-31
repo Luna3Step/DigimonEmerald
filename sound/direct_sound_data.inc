@@ -1327,8 +1327,8 @@ Cry_Ryudamon::
 	.incbin "sound/direct_sound_samples/cries/ryudamon.bin"
 
 	.align 2
-Cry_Tyrogue::
-	.incbin "sound/direct_sound_samples/cries/tyrogue.bin"
+Cry_Salamon::
+	.incbin "sound/direct_sound_samples/cries/salamon.bin"
 
 	.align 2
 Cry_Hitmontop::

@@ -1642,12 +1642,12 @@ const u32 gMonShinyPalette_Ryudamon[] = INCBIN_U32("graphics/pokemon/ryudamon/sh
 const u8 gMonIcon_Ryudamon[] = INCBIN_U8("graphics/pokemon/ryudamon/icon.4bpp");
 const u8 gMonFootprint_Ryudamon[] = INCBIN_U8("graphics/pokemon/ryudamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/front.4bpp.lz");
-const u32 gMonPalette_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/normal.gbapal.lz");
-const u32 gMonBackPic_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/back.4bpp.lz");
-const u32 gMonShinyPalette_Tyrogue[] = INCBIN_U32("graphics/pokemon/tyrogue/shiny.gbapal.lz");
-const u8 gMonIcon_Tyrogue[] = INCBIN_U8("graphics/pokemon/tyrogue/icon.4bpp");
-const u8 gMonFootprint_Tyrogue[] = INCBIN_U8("graphics/pokemon/tyrogue/footprint.1bpp");
+const u32 gMonStillFrontPic_Salamon[] = INCBIN_U32("graphics/pokemon/salamon/front.4bpp.lz");
+const u32 gMonPalette_Salamon[] = INCBIN_U32("graphics/pokemon/salamon/normal.gbapal.lz");
+const u32 gMonBackPic_Salamon[] = INCBIN_U32("graphics/pokemon/salamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Salamon[] = INCBIN_U32("graphics/pokemon/salamon/shiny.gbapal.lz");
+const u8 gMonIcon_Salamon[] = INCBIN_U8("graphics/pokemon/salamon/icon.4bpp");
+const u8 gMonFootprint_Salamon[] = INCBIN_U8("graphics/pokemon/salamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Hitmontop[] = INCBIN_U32("graphics/pokemon/hitmontop/front.4bpp.lz");
 const u32 gMonPalette_Hitmontop[] = INCBIN_U32("graphics/pokemon/hitmontop/normal.gbapal.lz");
