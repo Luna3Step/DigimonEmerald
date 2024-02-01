@@ -249,7 +249,7 @@
 #define EVO_LEVEL_ATK_GT_DEF 8  // Pokémon reaches the specified level with attack > defense
 #define EVO_LEVEL_ATK_EQ_DEF 9  // Pokémon reaches the specified level with attack = defense
 #define EVO_LEVEL_ATK_LT_DEF 10 // Pokémon reaches the specified level with attack < defense
-#define EVO_LEVEL_SILCOON    11 // Pokémon reaches the specified level with a Silcoon personality value
+#define EVO_LEVEL_VEMMON    11 // Pokémon reaches the specified level with a Vemmon personality value
 #define EVO_LEVEL_CASCOON    12 // Pokémon reaches the specified level with a Cascoon personality value
 #define EVO_LEVEL_NINJASK    13 // Pokémon reaches the specified level (special value for Ninjask)
 #define EVO_LEVEL_SHEDINJA   14 // Pokémon reaches the specified level (special value for Shedinja)
