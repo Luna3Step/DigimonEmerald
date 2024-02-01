@@ -1815,12 +1815,12 @@ const u32 gMonShinyPalette_Terriermon_assistant[] = INCBIN_U32("graphics/pokemon
 const u8 gMonIcon_Terriermon_assistant[] = INCBIN_U8("graphics/pokemon/terriermon_assistant/icon.4bpp");
 const u8 gMonFootprint_Terriermon_assistant[] = INCBIN_U8("graphics/pokemon/terriermon_assistant/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Swampert[] = INCBIN_U32("graphics/pokemon/swampert/front.4bpp.lz");
-const u32 gMonPalette_Swampert[] = INCBIN_U32("graphics/pokemon/swampert/normal.gbapal.lz");
-const u32 gMonBackPic_Swampert[] = INCBIN_U32("graphics/pokemon/swampert/back.4bpp.lz");
-const u32 gMonShinyPalette_Swampert[] = INCBIN_U32("graphics/pokemon/swampert/shiny.gbapal.lz");
-const u8 gMonIcon_Swampert[] = INCBIN_U8("graphics/pokemon/swampert/icon.4bpp");
-const u8 gMonFootprint_Swampert[] = INCBIN_U8("graphics/pokemon/swampert/footprint.1bpp");
+const u32 gMonStillFrontPic_Terriermon_x[] = INCBIN_U32("graphics/pokemon/terriermon_x/front.4bpp.lz");
+const u32 gMonPalette_Terriermon_x[] = INCBIN_U32("graphics/pokemon/terriermon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Terriermon_x[] = INCBIN_U32("graphics/pokemon/terriermon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Terriermon_x[] = INCBIN_U32("graphics/pokemon/terriermon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Terriermon_x[] = INCBIN_U8("graphics/pokemon/terriermon_x/icon.4bpp");
+const u8 gMonFootprint_Terriermon_x[] = INCBIN_U8("graphics/pokemon/terriermon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/front.4bpp.lz");
 const u32 gMonPalette_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/normal.gbapal.lz");

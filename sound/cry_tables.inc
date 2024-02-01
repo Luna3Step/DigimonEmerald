@@ -278,7 +278,7 @@ gCryTable::
 	cry Cry_Syakomon
 	cry Cry_Terriermon
 	cry Cry_Terriermon_assistant
-	cry Cry_Swampert
+	cry Cry_Terriermon_x
 	cry Cry_Pelipper
 	cry Cry_Wingull
 	cry Cry_Banette
@@ -669,7 +669,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Syakomon
 	cry_reverse Cry_Terriermon
 	cry_reverse Cry_Terriermon_assistant
-	cry_reverse Cry_Swampert
+	cry_reverse Cry_Terriermon_x
 	cry_reverse Cry_Pelipper
 	cry_reverse Cry_Wingull
 	cry_reverse Cry_Banette

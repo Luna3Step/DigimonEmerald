@@ -3020,7 +3020,7 @@ static const union AnimCmd sAnim_Terriermon_assistant_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Swampert_1[] =
+static const union AnimCmd sAnim_Terriermon_x_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 44),
@@ -5089,7 +5089,7 @@ static const union AnimCmd *const sAnims_Tentomon[] ={
 };
 SINGLE_ANIMATION(Terriermon);
 SINGLE_ANIMATION(Terriermon_assistant);
-SINGLE_ANIMATION(Swampert);
+SINGLE_ANIMATION(Terriermon_x);
 SINGLE_ANIMATION(Poochyena);
 SINGLE_ANIMATION(Mightyena);
 SINGLE_ANIMATION(Zigzagoon);
@@ -5539,7 +5539,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_TENTOMON]    = sAnims_Tentomon,
     [SPECIES_TERRIERMON]      = sAnims_Terriermon,
     [SPECIES_TERRIERMON_ASSISTANT]   = sAnims_Terriermon_assistant,
-    [SPECIES_TERRIERMON_X]    = sAnims_Swampert,
+    [SPECIES_TERRIERMON_X]    = sAnims_Terriermon_x,
     [SPECIES_TINKERMON]   = sAnims_Poochyena,
     [SPECIES_TINPET]   = sAnims_Mightyena,
     [SPECIES_TOYAGUMON]   = sAnims_Zigzagoon,
