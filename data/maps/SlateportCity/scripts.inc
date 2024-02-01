@@ -513,7 +513,7 @@ SlateportCity_EventScript_DollClerk::
 SlateportCity_PokemartDecor_Dolls:
 	.2byte DECOR_BIOSTEGMON_DOLL
 	.2byte DECOR_JAZAMON_DOLL
-	.2byte DECOR_SKITTY_DOLL
+	.2byte DECOR_BIRDRAMON_DOLL
 	.2byte DECOR_NONE
 	release
 	end

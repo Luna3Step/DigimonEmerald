@@ -160,7 +160,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaltoyDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BiostegmonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirdramonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZubamonDoll;
@@ -201,7 +201,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Birdramon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep;
@@ -409,7 +409,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BALTOY_DOLL] =              &gObjectEventGraphicsInfo_BaltoyDoll,
     [OBJ_EVENT_GFX_KECLEON_DOLL] =             &gObjectEventGraphicsInfo_KecleonDoll,
     [OBJ_EVENT_GFX_BIOSTEGMON_DOLL] =             &gObjectEventGraphicsInfo_BiostegmonDoll,
-    [OBJ_EVENT_GFX_SKITTY_DOLL] =              &gObjectEventGraphicsInfo_SkittyDoll,
+    [OBJ_EVENT_GFX_BIRDRAMON_DOLL] =              &gObjectEventGraphicsInfo_BirdramonDoll,
     [OBJ_EVENT_GFX_SWABLU_DOLL] =              &gObjectEventGraphicsInfo_SwabluDoll,
     [OBJ_EVENT_GFX_GULPIN_DOLL] =              &gObjectEventGraphicsInfo_GulpinDoll,
     [OBJ_EVENT_GFX_ZUBAMON_DOLL] =               &gObjectEventGraphicsInfo_ZubamonDoll,
@@ -450,7 +450,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_REGIROCK] =                 &gObjectEventGraphicsInfo_Regirock,
     [OBJ_EVENT_GFX_REGICE] =                   &gObjectEventGraphicsInfo_Regice,
     [OBJ_EVENT_GFX_REGISTEEL] =                &gObjectEventGraphicsInfo_Registeel,
-    [OBJ_EVENT_GFX_SKITTY] =                   &gObjectEventGraphicsInfo_Skitty,
+    [OBJ_EVENT_GFX_BIRDRAMON] =                   &gObjectEventGraphicsInfo_Birdramon,
     [OBJ_EVENT_GFX_KECLEON] =                  &gObjectEventGraphicsInfo_Kecleon,
     [OBJ_EVENT_GFX_KYOGRE_ASLEEP] =            &gObjectEventGraphicsInfo_KyogreAsleep,
     [OBJ_EVENT_GFX_GROUDON_ASLEEP] =           &gObjectEventGraphicsInfo_GroudonAsleep,

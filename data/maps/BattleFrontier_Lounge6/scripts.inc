@@ -41,7 +41,7 @@ BattleFrontier_Lounge6_EventScript_NotRequestedMon::
 	end
 
 BattleFrontier_Lounge6_EventScript_TradeCompleted::
-	msgbox BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined, MSGBOX_DEFAULT
+	msgbox BattleFrontier_Lounge6_Text_BirdramonSoMuchCuterThanImagined, MSGBOX_DEFAULT
 	release
 	end
 
@@ -71,7 +71,7 @@ BattleFrontier_Lounge6_Text_WellThatsFineToo:
 	.string "Well, that's fine, too.\l"
 	.string "Please come visit us again.$"
 
-BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
+BattleFrontier_Lounge6_Text_BirdramonSoMuchCuterThanImagined:
 	.string "Giggle!\n"
-	.string "A SKITTY is so much cuter than I had\l"
+	.string "A BIRDRAMON is so much cuter than I had\l"
 	.string "imagined. I'm delighted!$"

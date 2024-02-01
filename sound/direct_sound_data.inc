@@ -1635,8 +1635,8 @@ Cry_Argomon_champion::
 	.incbin "sound/direct_sound_samples/cries/argomon_champion.bin"
 
 	.align 2
-Cry_Skitty::
-	.incbin "sound/direct_sound_samples/cries/skitty.bin"
+Cry_Birdramon::
+	.incbin "sound/direct_sound_samples/cries/birdramon.bin"
 
 	.align 2
 Cry_Delcatty::

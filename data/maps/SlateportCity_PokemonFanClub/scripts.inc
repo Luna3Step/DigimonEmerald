@@ -222,12 +222,12 @@ SlateportCity_PokemonFanClub_EventScript_Twin::
 	msgbox SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein, MSGBOX_NPC
 	end
 
-SlateportCity_PokemonFanClub_EventScript_Skitty::
+SlateportCity_PokemonFanClub_EventScript_Birdramon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_BIRDRAMON, CRY_MODE_NORMAL
-	msgbox SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT
+	msgbox SlateportCity_PokemonFanClub_Text_Birdramon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -389,8 +389,8 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 	.string "Mine acted really happy when I gave\n"
 	.string "it some PROTEIN.$"
 
-SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "SKITTY: Fffnyaaaah…$"
+SlateportCity_PokemonFanClub_Text_Birdramon:
+	.string "BIRDRAMON: Fffnyaaaah…$"
 
 SlateportCity_PokemonFanClub_Text_Toyagumon:
 	.string "TOYAGUMON: Kyuuu…$"

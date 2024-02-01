@@ -2025,12 +2025,12 @@ const u32 gMonShinyPalette_Wailord[] = INCBIN_U32("graphics/pokemon/wailord/shin
 const u8 gMonIcon_Wailord[] = INCBIN_U8("graphics/pokemon/wailord/icon.4bpp");
 const u8 gMonFootprint_Wailord[] = INCBIN_U8("graphics/pokemon/wailord/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Skitty[] = INCBIN_U32("graphics/pokemon/skitty/front.4bpp.lz");
-const u32 gMonPalette_Skitty[] = INCBIN_U32("graphics/pokemon/skitty/normal.gbapal.lz");
-const u32 gMonBackPic_Skitty[] = INCBIN_U32("graphics/pokemon/skitty/back.4bpp.lz");
-const u32 gMonShinyPalette_Skitty[] = INCBIN_U32("graphics/pokemon/skitty/shiny.gbapal.lz");
-const u8 gMonIcon_Skitty[] = INCBIN_U8("graphics/pokemon/skitty/icon.4bpp");
-const u8 gMonFootprint_Skitty[] = INCBIN_U8("graphics/pokemon/skitty/footprint.1bpp");
+const u32 gMonStillFrontPic_Birdramon[] = INCBIN_U32("graphics/pokemon/birdramon/front.4bpp.lz");
+const u32 gMonPalette_Birdramon[] = INCBIN_U32("graphics/pokemon/birdramon/normal.gbapal.lz");
+const u32 gMonBackPic_Birdramon[] = INCBIN_U32("graphics/pokemon/birdramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Birdramon[] = INCBIN_U32("graphics/pokemon/birdramon/shiny.gbapal.lz");
+const u8 gMonIcon_Birdramon[] = INCBIN_U8("graphics/pokemon/birdramon/icon.4bpp");
+const u8 gMonFootprint_Birdramon[] = INCBIN_U8("graphics/pokemon/birdramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/front.4bpp.lz");
 const u32 gMonPalette_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/normal.gbapal.lz");

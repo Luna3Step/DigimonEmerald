@@ -453,7 +453,7 @@ $(OBJEVENTGFXDIR)/pokemon/tinkermon.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/rayquaza.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
-$(OBJEVENTGFXDIR)/pokemon/skitty.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/birdramon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 $(OBJEVENTGFXDIR)/pokemon/junkmon.4bpp: %.4bpp: %.png

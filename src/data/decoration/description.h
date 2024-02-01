@@ -213,7 +213,7 @@ const u8 DecorDesc_ROUND_TV[] = _(
 const u8 DecorDesc_CUTE_TV[] = _(
     "A toy TV modeled\n"
         "in the image of a\n"
-        "SKITTY.");
+        "BIRDRAMON.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
     "An odd mat that\n"
@@ -447,8 +447,8 @@ const u8 DecorDesc_BIOSTEGMON_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A SKITTY doll.\n"
+const u8 DecorDesc_BIRDRAMON_DOLL[] = _(
+    "A BIRDRAMON doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
