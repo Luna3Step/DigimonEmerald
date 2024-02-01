@@ -1969,12 +1969,12 @@ const u32 gMonShinyPalette_Aresdramon[] = INCBIN_U32("graphics/pokemon/aresdramo
 const u8 gMonIcon_Aresdramon[] = INCBIN_U8("graphics/pokemon/aresdramon/icon.4bpp");
 const u8 gMonFootprint_Aresdramon[] = INCBIN_U8("graphics/pokemon/aresdramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/front.4bpp.lz");
-const u32 gMonPalette_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/normal.gbapal.lz");
-const u32 gMonBackPic_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/back.4bpp.lz");
-const u32 gMonShinyPalette_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/shiny.gbapal.lz");
-const u8 gMonIcon_Breloom[] = INCBIN_U8("graphics/pokemon/breloom/icon.4bpp");
-const u8 gMonFootprint_Breloom[] = INCBIN_U8("graphics/pokemon/breloom/footprint.1bpp");
+const u32 gMonStillFrontPic_Atamademon[] = INCBIN_U32("graphics/pokemon/atamademon/front.4bpp.lz");
+const u32 gMonPalette_Atamademon[] = INCBIN_U32("graphics/pokemon/atamademon/normal.gbapal.lz");
+const u32 gMonBackPic_Atamademon[] = INCBIN_U32("graphics/pokemon/atamademon/back.4bpp.lz");
+const u32 gMonShinyPalette_Atamademon[] = INCBIN_U32("graphics/pokemon/atamademon/shiny.gbapal.lz");
+const u8 gMonIcon_Atamademon[] = INCBIN_U8("graphics/pokemon/atamademon/icon.4bpp");
+const u8 gMonFootprint_Atamademon[] = INCBIN_U8("graphics/pokemon/atamademon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/front.4bpp.lz");
 const u32 gMonPalette_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/normal.gbapal.lz");

@@ -1879,8 +1879,8 @@ Cry_Salamence::
 	.incbin "sound/direct_sound_samples/cries/salamence.bin"
 
 	.align 2
-Cry_Breloom::
-	.incbin "sound/direct_sound_samples/cries/breloom.bin"
+Cry_Atamademon::
+	.incbin "sound/direct_sound_samples/cries/atamademon.bin"
 
 	.align 2
 Cry_Aresdramon::

@@ -373,7 +373,7 @@ gCryTable::
 	cry Cry_Kyogre
 	cry Cry_Rayquaza
 	cry Cry_Salamence
-	cry Cry_Breloom
+	cry Cry_Atamademon
 	cry Cry_Aresdramon
 	cry Cry_Tsukaimon
 	cry Cry_Tropius
@@ -764,7 +764,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kyogre
 	cry_reverse Cry_Rayquaza
 	cry_reverse Cry_Salamence
-	cry_reverse Cry_Breloom
+	cry_reverse Cry_Atamademon
 	cry_reverse Cry_Aresdramon
 	cry_reverse Cry_Tsukaimon
 	cry_reverse Cry_Tropius
