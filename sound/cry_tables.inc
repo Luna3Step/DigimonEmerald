@@ -276,7 +276,7 @@ gCryTable::
 	cry Cry_Sunarzamon
 	cry Cry_Swimmon
 	cry Cry_Syakomon
-	cry Cry_Mudkip
+	cry Cry_Terriermon
 	cry Cry_Marshtomp
 	cry Cry_Swampert
 	cry Cry_Pelipper
@@ -667,7 +667,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sunarzamon
 	cry_reverse Cry_Swimmon
 	cry_reverse Cry_Syakomon
-	cry_reverse Cry_Mudkip
+	cry_reverse Cry_Terriermon
 	cry_reverse Cry_Marshtomp
 	cry_reverse Cry_Swampert
 	cry_reverse Cry_Pelipper

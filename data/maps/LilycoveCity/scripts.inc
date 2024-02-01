@@ -246,7 +246,7 @@ LilycoveCity_EventScript_May::
 	switch VAR_STARTER_MON
 	case 0, LilycoveCity_EventScript_BattleMaySunarzamon
 	case 1, LilycoveCity_EventScript_BattleMaySyakomon_x
-	case 2, LilycoveCity_EventScript_BattleMayMudkip
+	case 2, LilycoveCity_EventScript_BattleMayTerriermon
 	end
 
 LilycoveCity_EventScript_MayAskToBattleAgain::
@@ -274,7 +274,7 @@ LilycoveCity_EventScript_Brendan::
 	switch VAR_STARTER_MON
 	case 0, LilycoveCity_EventScript_BattleBrendanSunarzamon
 	case 1, LilycoveCity_EventScript_BattleBrendanSyakomon_x
-	case 2, LilycoveCity_EventScript_BattleBrendanMudkip
+	case 2, LilycoveCity_EventScript_BattleBrendanTerriermon
 	end
 
 LilycoveCity_EventScript_BrendanAskToBattleAgain::
@@ -303,8 +303,8 @@ LilycoveCity_EventScript_BattleMaySyakomon_x::
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
-LilycoveCity_EventScript_BattleMayMudkip::
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_MUDKIP, LilycoveCity_Text_MayDefeat
+LilycoveCity_EventScript_BattleMayTerriermon::
+	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TERRIERMON, LilycoveCity_Text_MayDefeat
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
@@ -318,8 +318,8 @@ LilycoveCity_EventScript_BattleBrendanSyakomon_x::
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
-LilycoveCity_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_MUDKIP, LilycoveCity_Text_BrendanDefeat
+LilycoveCity_EventScript_BattleBrendanTerriermon::
+	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TERRIERMON, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 

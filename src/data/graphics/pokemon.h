@@ -1801,12 +1801,12 @@ const u32 gMonShinyPalette_Tentomon[] = INCBIN_U32("graphics/pokemon/tentomon/sh
 const u8 gMonIcon_Tentomon[] = INCBIN_U8("graphics/pokemon/tentomon/icon.4bpp");
 const u8 gMonFootprint_Tentomon[] = INCBIN_U8("graphics/pokemon/tentomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/front.4bpp.lz");
-const u32 gMonPalette_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/normal.gbapal.lz");
-const u32 gMonBackPic_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/back.4bpp.lz");
-const u32 gMonShinyPalette_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/shiny.gbapal.lz");
-const u8 gMonIcon_Mudkip[] = INCBIN_U8("graphics/pokemon/mudkip/icon.4bpp");
-const u8 gMonFootprint_Mudkip[] = INCBIN_U8("graphics/pokemon/mudkip/footprint.1bpp");
+const u32 gMonStillFrontPic_Terriermon[] = INCBIN_U32("graphics/pokemon/terriermon/front.4bpp.lz");
+const u32 gMonPalette_Terriermon[] = INCBIN_U32("graphics/pokemon/terriermon/normal.gbapal.lz");
+const u32 gMonBackPic_Terriermon[] = INCBIN_U32("graphics/pokemon/terriermon/back.4bpp.lz");
+const u32 gMonShinyPalette_Terriermon[] = INCBIN_U32("graphics/pokemon/terriermon/shiny.gbapal.lz");
+const u8 gMonIcon_Terriermon[] = INCBIN_U8("graphics/pokemon/terriermon/icon.4bpp");
+const u8 gMonFootprint_Terriermon[] = INCBIN_U8("graphics/pokemon/terriermon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Marshtomp[] = INCBIN_U32("graphics/pokemon/marshtomp/front.4bpp.lz");
 const u32 gMonPalette_Marshtomp[] = INCBIN_U32("graphics/pokemon/marshtomp/normal.gbapal.lz");

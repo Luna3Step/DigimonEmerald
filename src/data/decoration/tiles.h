@@ -518,8 +518,8 @@ const u16 DecorGfx_SYAKOMON_X_DOLL[] = {
     OBJ_EVENT_GFX_SYAKOMON_X_DOLL
 };
 
-const u16 DecorGfx_MUDKIP_DOLL[] = {
-    OBJ_EVENT_GFX_MUDKIP_DOLL
+const u16 DecorGfx_TERRIERMON_DOLL[] = {
+    OBJ_EVENT_GFX_TERRIERMON_DOLL
 };
 
 const u16 DecorGfx_DUSKULL_DOLL[] = {

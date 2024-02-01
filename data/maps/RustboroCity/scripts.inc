@@ -868,7 +868,7 @@ RustboroCity_EventScript_BattleMay::
 	switch VAR_STARTER_MON
 	case 0, RustboroCity_EventScript_BattleMaySunarzamon
 	case 1, RustboroCity_EventScript_BattleMaySyakomon_x
-	case 2, RustboroCity_EventScript_BattleMayMudkip
+	case 2, RustboroCity_EventScript_BattleMayTerriermon
 	end
 
 RustboroCity_EventScript_MayBrineyHint::
@@ -894,8 +894,8 @@ RustboroCity_EventScript_BattleMaySyakomon_x::
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
 
-RustboroCity_EventScript_BattleMayMudkip::
-	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, RustboroCity_Text_MayDefeat
+RustboroCity_EventScript_BattleMayTerriermon::
+	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TERRIERMON, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
@@ -934,7 +934,7 @@ RustboroCity_EventScript_BattleBrendan::
 	switch VAR_STARTER_MON
 	case 0, RustboroCity_EventScript_BattleBrendanSunarzamon
 	case 1, RustboroCity_EventScript_BattleBrendanSyakomon_x
-	case 2, RustboroCity_EventScript_BattleBrendanMudkip
+	case 2, RustboroCity_EventScript_BattleBrendanTerriermon
 	end
 
 RustboroCity_EventScript_BrendanBrineyHint::
@@ -955,8 +955,8 @@ RustboroCity_EventScript_BattleBrendanSyakomon_x::
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
-RustboroCity_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, RustboroCity_Text_BrendanDefeat
+RustboroCity_EventScript_BattleBrendanTerriermon::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TERRIERMON, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end

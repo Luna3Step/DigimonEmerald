@@ -38,7 +38,7 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
 	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SaySunarzamonType
 	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SaySyakomon_xType
-	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
+	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayTerriermonType
 	release
 	end
 
@@ -50,8 +50,8 @@ PetalburgCity_PokemonCenter_1F_EventScript_SaySyakomon_xType::
 	msgbox PetalburgCity_PokemonCenter_1F_Text_Syakomon_xIsFireType, MSGBOX_DEFAULT
 	return
 
-PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
-	msgbox PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType, MSGBOX_DEFAULT
+PetalburgCity_PokemonCenter_1F_EventScript_SayTerriermonType::
+	msgbox PetalburgCity_PokemonCenter_1F_Text_TerriermonIsWaterType, MSGBOX_DEFAULT
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
@@ -87,8 +87,8 @@ PetalburgCity_PokemonCenter_1F_Text_Syakomon_xIsFireType:
 	.string "But, it's weak against WATER-type\n"
 	.string "POKéMON.$"
 
-PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
-	.string "For example, your MUDKIP\n"
+PetalburgCity_PokemonCenter_1F_Text_TerriermonIsWaterType:
+	.string "For example, your TERRIERMON\n"
 	.string "is a WATER type.\p"
 	.string "It's strong against the FIRE type.\p"
 	.string "But, it's weak against GRASS-type\n"

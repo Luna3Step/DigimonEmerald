@@ -1491,8 +1491,8 @@ Cry_Syakomon::
 	.incbin "sound/direct_sound_samples/cries/syakomon.bin"
 
 	.align 2
-Cry_Mudkip::
-	.incbin "sound/direct_sound_samples/cries/mudkip.bin"
+Cry_Terriermon::
+	.incbin "sound/direct_sound_samples/cries/terriermon.bin"
 
 	.align 2
 Cry_Marshtomp::

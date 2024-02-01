@@ -76,7 +76,7 @@ Route119_EventScript_BattleMay::
 	switch VAR_STARTER_MON
 	case 0, Route119_EventScript_BattleMaySunarzamon
 	case 1, Route119_EventScript_BattleMaySyakomon_x
-	case 2, Route119_EventScript_BattleMayMudkip
+	case 2, Route119_EventScript_BattleMayTerriermon
 	end
 
 Route119_EventScript_BattleMaySunarzamon::
@@ -89,8 +89,8 @@ Route119_EventScript_BattleMaySyakomon_x::
 	goto Route119_EventScript_DefeatedMay
 	end
 
-Route119_EventScript_BattleMayMudkip::
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_119_MUDKIP, Route119_Text_MayDefeat
+Route119_EventScript_BattleMayTerriermon::
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_119_TERRIERMON, Route119_Text_MayDefeat
 	goto Route119_EventScript_DefeatedMay
 	end
 
@@ -106,7 +106,7 @@ Route119_EventScript_BattleBrendan::
 	switch VAR_STARTER_MON
 	case 0, Route119_EventScript_BattleBrendanSunarzamon
 	case 1, Route119_EventScript_BattleBrendanSyakomon_x
-	case 2, Route119_EventScript_BattleBrendanMudkip
+	case 2, Route119_EventScript_BattleBrendanTerriermon
 	end
 
 Route119_EventScript_BattleBrendanSunarzamon::
@@ -119,8 +119,8 @@ Route119_EventScript_BattleBrendanSyakomon_x::
 	goto Route119_EventScript_DefeatedBrendan
 	end
 
-Route119_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_MUDKIP, Route119_Text_BrendanDefeat
+Route119_EventScript_BattleBrendanTerriermon::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_TERRIERMON, Route119_Text_BrendanDefeat
 	goto Route119_EventScript_DefeatedBrendan
 	end
 

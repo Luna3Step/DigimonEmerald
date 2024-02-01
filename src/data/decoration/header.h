@@ -1080,16 +1080,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_SYAKOMON_X_DOLL,
     },
 
-    [DECOR_MUDKIP_DOLL] =
+    [DECOR_TERRIERMON_DOLL] =
     {
-        .id = DECOR_MUDKIP_DOLL,
-        .name = _("MUDKIP DOLL"),
+        .id = DECOR_TERRIERMON_DOLL,
+        .name = _("TERRIERMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_MUDKIP_DOLL,
-        .tiles = DecorGfx_MUDKIP_DOLL,
+        .description = DecorDesc_TERRIERMON_DOLL,
+        .tiles = DecorGfx_TERRIERMON_DOLL,
     },
 
     [DECOR_DUSKULL_DOLL] =

@@ -125,7 +125,7 @@ MauvilleCity_GameCorner_EventScript_ChooseDollPrize::
 	switch VAR_RESULT
 	case 0, MauvilleCity_GameCorner_EventScript_SunarzamonDoll
 	case 1, MauvilleCity_GameCorner_EventScript_Syakomon_xDoll
-	case 2, MauvilleCity_GameCorner_EventScript_MudkipDoll
+	case 2, MauvilleCity_GameCorner_EventScript_TerriermonDoll
 	case 3, MauvilleCity_GameCorner_EventScript_CancelDollSelect
 	goto MauvilleCity_GameCorner_EventScript_CancelDollSelect
 	end
@@ -140,9 +140,9 @@ MauvilleCity_GameCorner_EventScript_Syakomon_xDoll::
 	bufferdecorationname STR_VAR_1, DECOR_SYAKOMON_X_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ConfirmDollPrize
 
-MauvilleCity_GameCorner_EventScript_MudkipDoll::
+MauvilleCity_GameCorner_EventScript_TerriermonDoll::
 	setvar VAR_TEMP_1, 3
-	bufferdecorationname STR_VAR_1, DECOR_MUDKIP_DOLL
+	bufferdecorationname STR_VAR_1, DECOR_TERRIERMON_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ConfirmDollPrize
 
 MauvilleCity_GameCorner_EventScript_ConfirmDollPrize::
@@ -151,7 +151,7 @@ MauvilleCity_GameCorner_EventScript_ConfirmDollPrize::
 	switch VAR_TEMP_1
 	case 1, MauvilleCity_GameCorner_EventScript_BuySunarzamonDoll
 	case 2, MauvilleCity_GameCorner_EventScript_BuySyakomon_xDoll
-	case 3, MauvilleCity_GameCorner_EventScript_BuyMudkipDoll
+	case 3, MauvilleCity_GameCorner_EventScript_BuyTerriermonDoll
 	end
 
 MauvilleCity_GameCorner_EventScript_BuySunarzamonDoll::
@@ -182,14 +182,14 @@ MauvilleCity_GameCorner_EventScript_BuySyakomon_xDoll::
 	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseDollPrize
 	end
 
-MauvilleCity_GameCorner_EventScript_BuyMudkipDoll::
+MauvilleCity_GameCorner_EventScript_BuyTerriermonDoll::
 	checkcoins VAR_TEMP_2
 	goto_if_lt VAR_TEMP_2, DOLL_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll
-	bufferdecorationname STR_VAR_2, DECOR_MUDKIP_DOLL
-	checkdecorspace DECOR_MUDKIP_DOLL
+	bufferdecorationname STR_VAR_2, DECOR_TERRIERMON_DOLL
+	checkdecorspace DECOR_TERRIERMON_DOLL
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForDoll
 	removecoins DOLL_COINS
-	adddecoration DECOR_MUDKIP_DOLL
+	adddecoration DECOR_TERRIERMON_DOLL
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
@@ -385,7 +385,7 @@ MauvilleCity_GameCorner_EventScript_Girl::
 	switch VAR_STARTER_MON
 	case 0, MauvilleCity_GameCorner_EventScript_GiveSunarzamonDoll
 	case 1, MauvilleCity_GameCorner_EventScript_GiveSyakomon_xDoll
-	case 2, MauvilleCity_GameCorner_EventScript_GiveMudkipDoll
+	case 2, MauvilleCity_GameCorner_EventScript_GiveTerriermonDoll
 	end
 
 MauvilleCity_GameCorner_EventScript_GiveSunarzamonDoll::
@@ -408,12 +408,12 @@ MauvilleCity_GameCorner_EventScript_GiveSyakomon_xDoll::
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end
 
-MauvilleCity_GameCorner_EventScript_GiveMudkipDoll::
-	bufferdecorationname STR_VAR_2, DECOR_MUDKIP_DOLL
-	checkdecorspace DECOR_MUDKIP_DOLL
+MauvilleCity_GameCorner_EventScript_GiveTerriermonDoll::
+	bufferdecorationname STR_VAR_2, DECOR_TERRIERMON_DOLL
+	checkdecorspace DECOR_TERRIERMON_DOLL
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForStarterDoll
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo2, MSGBOX_DEFAULT
-	givedecoration DECOR_MUDKIP_DOLL
+	givedecoration DECOR_TERRIERMON_DOLL
 	setflag FLAG_RECEIVED_STARTER_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end
