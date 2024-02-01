@@ -1096,7 +1096,7 @@ static bool8 BufferTradeParties(void)
                 {
                     GetMonData(mon, MON_DATA_NICKNAME, name);
 
-                    if (!StringCompareWithoutExtCtrlCodes(name, sJPText_Shedinja))
+                    if (!StringCompareWithoutExtCtrlCodes(name, sJPText_Baluchimon))
                     {
                         SetMonData(mon, MON_DATA_NICKNAME, gSpeciesNames[SPECIES_BALUCHIMON]);
                     }

@@ -77,7 +77,7 @@ static const u16 sUnusedPal3[]  = INCBIN_U16("graphics/evolution_scene/unused_3.
 static const u16 sUnusedPal4[] = INCBIN_U16("graphics/evolution_scene/unused_4.gbapal");
 static const u16 sBgAnim_Pal[] = INCBIN_U16("graphics/evolution_scene/bg_anim.gbapal");
 
-static const u8 sText_ShedinjaJapaneseName[] = _("ヌケニン");
+static const u8 sText_BaluchimonJapaneseName[] = _("ヌケニン");
 
 // The below table is used by Task_UpdateBgPalette to control the speed at which the bg color updates.
 // The first two values are indexes into sBgAnim_PalIndexes (indirectly, via sBgAnimPal), and are
@@ -545,13 +545,13 @@ static void CB2_TradeEvolutionSceneUpdate(void)
     RunTasks();
 }
 
-static void CreateShedinja(u16 preEvoSpecies, struct Pokemon *mon)
+static void CreateBaluchimon(u16 preEvoSpecies, struct Pokemon *mon)
 {
     u32 data = 0;
     if (gEvolutionTable[preEvoSpecies][0].method == EVO_LEVEL_BALISTAMON && gPlayerPartyCount < PARTY_SIZE)
     {
         s32 i;
-        struct Pokemon *shedinja = &gPlayerParty[gPlayerPartyCount];
+        struct Pokemon *baluchimon = &gPlayerParty[gPlayerPartyCount];
 
         CopyMon(&gPlayerParty[gPlayerPartyCount], mon, sizeof(struct Pokemon));
         SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_SPECIES, &gEvolutionTable[preEvoSpecies][1].targetSpecies);
@@ -575,10 +575,10 @@ static void CreateShedinja(u16 preEvoSpecies, struct Pokemon *mon)
         GetSetPokedexFlag(SpeciesToNationalPokedexNum(gEvolutionTable[preEvoSpecies][1].targetSpecies), FLAG_SET_SEEN);
         GetSetPokedexFlag(SpeciesToNationalPokedexNum(gEvolutionTable[preEvoSpecies][1].targetSpecies), FLAG_SET_CAUGHT);
 
-        if (GetMonData(shedinja, MON_DATA_SPECIES) == SPECIES_BALUCHIMON
-            && GetMonData(shedinja, MON_DATA_LANGUAGE) == LANGUAGE_JAPANESE
+        if (GetMonData(baluchimon, MON_DATA_SPECIES) == SPECIES_BALUCHIMON
+            && GetMonData(baluchimon, MON_DATA_LANGUAGE) == LANGUAGE_JAPANESE
             && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_BALISTAMON)
-                SetMonData(shedinja, MON_DATA_NICKNAME, sText_ShedinjaJapaneseName);
+                SetMonData(baluchimon, MON_DATA_NICKNAME, sText_BaluchimonJapaneseName);
     }
 }
 
@@ -812,7 +812,7 @@ static void Task_EvolutionScene(u8 taskId)
                 Overworld_PlaySpecialMapMusic();
             }
             if (!gTasks[taskId].tEvoWasStopped)
-                CreateShedinja(gTasks[taskId].tPreEvoSpecies, mon);
+                CreateBaluchimon(gTasks[taskId].tPreEvoSpecies, mon);
 
             DestroyTask(taskId);
             FreeMonSpritesGfx();

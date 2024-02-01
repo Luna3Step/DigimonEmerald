@@ -71,7 +71,7 @@ static void CB2_PreInitIngamePlayerPartnerBattle(void);
 static void CB2_HandleStartMultiPartnerBattle(void);
 static void CB2_HandleStartMultiBattle(void);
 static void CB2_HandleStartBattle(void);
-static void TryCorrectShedinjaLanguage(struct Pokemon *mon);
+static void TryCorrectBaluchimonLanguage(struct Pokemon *mon);
 static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 firstTrainer);
 static void BattleMainCB1(void);
 static void CB2_EndLinkBattle(void);
@@ -270,7 +270,7 @@ const struct SpriteTemplate gUnusedBattleInitSprite =
     .callback = SpriteCB_UnusedBattleInit,
 };
 
-static const u8 sText_ShedinjaJpnName[] = _("ヌケニン"); // Nukenin
+static const u8 sText_BaluchimonJpnName[] = _("ヌケニン"); // Nukenin
 
 const struct OamData gOamData_BattleSpriteOpponentSide =
 {
@@ -1128,12 +1128,12 @@ static void CB2_HandleStartBattle(void)
             ResetBlockReceivedFlags();
             memcpy(&gEnemyParty[4], gBlockRecvBuffer[enemyMultiplayerId], sizeof(struct Pokemon) * 2);
 
-            TryCorrectShedinjaLanguage(&gEnemyParty[0]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[1]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[2]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[3]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[4]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[5]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[0]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[1]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[2]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[3]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[4]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[5]);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1395,18 +1395,18 @@ static void CB2_HandleStartMultiPartnerBattle(void)
             if (GetMultiplayerId() != 0)
                 memcpy(&gEnemyParty[4], gBlockRecvBuffer[0], sizeof(struct Pokemon) * 2);
 
-            TryCorrectShedinjaLanguage(&gPlayerParty[0]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[1]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[2]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[3]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[4]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[5]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[0]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[1]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[2]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[3]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[4]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[5]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[0]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[1]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[2]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[3]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[4]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[5]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[0]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[1]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[2]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[3]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[4]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[5]);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -1825,19 +1825,19 @@ static void CB2_HandleStartMultiBattle(void)
                     }
                 }
             }
-            TryCorrectShedinjaLanguage(&gPlayerParty[0]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[1]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[2]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[3]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[4]);
-            TryCorrectShedinjaLanguage(&gPlayerParty[5]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[0]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[1]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[2]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[3]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[4]);
+            TryCorrectBaluchimonLanguage(&gPlayerParty[5]);
 
-            TryCorrectShedinjaLanguage(&gEnemyParty[0]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[1]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[2]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[3]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[4]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[5]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[0]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[1]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[2]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[3]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[4]);
+            TryCorrectBaluchimonLanguage(&gEnemyParty[5]);
 
             gBattleCommunication[MULTIUSE_STATE]++;
         }
@@ -2687,7 +2687,7 @@ static void AskRecordBattle(void)
     }
 }
 
-static void TryCorrectShedinjaLanguage(struct Pokemon *mon)
+static void TryCorrectBaluchimonLanguage(struct Pokemon *mon)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
     u8 language = LANGUAGE_JAPANESE;
@@ -2696,7 +2696,7 @@ static void TryCorrectShedinjaLanguage(struct Pokemon *mon)
      && GetMonData(mon, MON_DATA_LANGUAGE) != language)
     {
         GetMonData(mon, MON_DATA_NICKNAME, nickname);
-        if (StringCompareWithoutExtCtrlCodes(nickname, sText_ShedinjaJpnName) == 0)
+        if (StringCompareWithoutExtCtrlCodes(nickname, sText_BaluchimonJpnName) == 0)
             SetMonData(mon, MON_DATA_LANGUAGE, &language);
     }
 }

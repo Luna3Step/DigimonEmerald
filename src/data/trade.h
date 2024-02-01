@@ -633,7 +633,7 @@ static const struct WindowTemplate sTradeYesNoWindowTemplate =
     .baseBlock = 582
 };
 
-static const u8 sJPText_Shedinja[] = _("ヌケニン");
+static const u8 sJPText_Baluchimon[] = _("ヌケニン");
 static const u8 sTradeMenuPartyMonBoxDimensions[3][2] =
 {
     [TRADE_PLAYER]  = {4,  3},

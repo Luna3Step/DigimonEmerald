@@ -252,7 +252,7 @@
 #define EVO_LEVEL_VEMMON    11 // Pokémon reaches the specified level with a Vemmon personality value
 #define EVO_LEVEL_WORMMON    12 // Pokémon reaches the specified level with a Wormmon personality value
 #define EVO_LEVEL_BALISTAMON    13 // Pokémon reaches the specified level (special value for Balistamon)
-#define EVO_LEVEL_SHEDINJA   14 // Pokémon reaches the specified level (special value for Shedinja)
+#define EVO_LEVEL_BALUCHIMON   14 // Pokémon reaches the specified level (special value for Baluchimon)
 #define EVO_BEAUTY           15 // Pokémon levels up with beauty ≥ specified value
 #define EVO_ATTACK           16 // Species attack is at certain level
 #define EVO_DEFENSE          17 // Species defense is at certain level

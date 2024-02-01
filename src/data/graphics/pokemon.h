@@ -1941,12 +1941,12 @@ const u32 gMonShinyPalette_Balistamon[] = INCBIN_U32("graphics/pokemon/balistamo
 const u8 gMonIcon_Balistamon[] = INCBIN_U8("graphics/pokemon/balistamon/icon.4bpp");
 const u8 gMonFootprint_Balistamon[] = INCBIN_U8("graphics/pokemon/balistamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Shedinja[] = INCBIN_U32("graphics/pokemon/shedinja/front.4bpp.lz");
-const u32 gMonPalette_Shedinja[] = INCBIN_U32("graphics/pokemon/shedinja/normal.gbapal.lz");
-const u32 gMonBackPic_Shedinja[] = INCBIN_U32("graphics/pokemon/shedinja/back.4bpp.lz");
-const u32 gMonShinyPalette_Shedinja[] = INCBIN_U32("graphics/pokemon/shedinja/shiny.gbapal.lz");
-const u8 gMonIcon_Shedinja[] = INCBIN_U8("graphics/pokemon/shedinja/icon.4bpp");
-const u8 gMonFootprint_Shedinja[] = INCBIN_U8("graphics/pokemon/shedinja/footprint.1bpp");
+const u32 gMonStillFrontPic_Baluchimon[] = INCBIN_U32("graphics/pokemon/baluchimon/front.4bpp.lz");
+const u32 gMonPalette_Baluchimon[] = INCBIN_U32("graphics/pokemon/baluchimon/normal.gbapal.lz");
+const u32 gMonBackPic_Baluchimon[] = INCBIN_U32("graphics/pokemon/baluchimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Baluchimon[] = INCBIN_U32("graphics/pokemon/baluchimon/shiny.gbapal.lz");
+const u8 gMonIcon_Baluchimon[] = INCBIN_U8("graphics/pokemon/baluchimon/icon.4bpp");
+const u8 gMonFootprint_Baluchimon[] = INCBIN_U8("graphics/pokemon/baluchimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/front.4bpp.lz");
 const u32 gMonPalette_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/normal.gbapal.lz");
