@@ -1827,8 +1827,8 @@ Cry_Tinkermon::
 	.incbin "sound/direct_sound_samples/cries/tinkermon.bin"
 
 	.align 2
-Cry_Mightyena::
-	.incbin "sound/direct_sound_samples/cries/mightyena.bin"
+Cry_Tinpet::
+	.incbin "sound/direct_sound_samples/cries/tinpet.bin"
 
 	.align 2
 Cry_Dusclops::
