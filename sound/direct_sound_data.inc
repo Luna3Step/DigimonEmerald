@@ -1587,8 +1587,8 @@ Cry_Axemon::
 	.incbin "sound/direct_sound_samples/cries/axemon.bin"
 
 	.align 2
-Cry_Slaking::
-	.incbin "sound/direct_sound_samples/cries/slaking.bin"
+Cry_Baboonmon::
+	.incbin "sound/direct_sound_samples/cries/baboonmon.bin"
 
 	.align 2
 Cry_Nincada::
