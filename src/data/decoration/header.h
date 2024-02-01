@@ -1071,7 +1071,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SYAKOMON_X_DOLL] =
     {
         .id = DECOR_SYAKOMON_X_DOLL,
-        .name = _("SYAKOMON_X DOLL"),
+        .name = _("SYAKOMONX DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,

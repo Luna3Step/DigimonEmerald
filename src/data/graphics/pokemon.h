@@ -1794,12 +1794,12 @@ const u32 gMonShinyPalette_Tapirmon[] = INCBIN_U32("graphics/pokemon/tapirmon/sh
 const u8 gMonIcon_Tapirmon[] = INCBIN_U8("graphics/pokemon/tapirmon/icon.4bpp");
 const u8 gMonFootprint_Tapirmon[] = INCBIN_U8("graphics/pokemon/tapirmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/front.4bpp.lz");
-const u32 gMonPalette_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/normal.gbapal.lz");
-const u32 gMonBackPic_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/back.4bpp.lz");
-const u32 gMonShinyPalette_Blaziken[] = INCBIN_U32("graphics/pokemon/blaziken/shiny.gbapal.lz");
-const u8 gMonIcon_Blaziken[] = INCBIN_U8("graphics/pokemon/blaziken/icon.4bpp");
-const u8 gMonFootprint_Blaziken[] = INCBIN_U8("graphics/pokemon/blaziken/footprint.1bpp");
+const u32 gMonStillFrontPic_Tentomon[] = INCBIN_U32("graphics/pokemon/tentomon/front.4bpp.lz");
+const u32 gMonPalette_Tentomon[] = INCBIN_U32("graphics/pokemon/tentomon/normal.gbapal.lz");
+const u32 gMonBackPic_Tentomon[] = INCBIN_U32("graphics/pokemon/tentomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tentomon[] = INCBIN_U32("graphics/pokemon/tentomon/shiny.gbapal.lz");
+const u8 gMonIcon_Tentomon[] = INCBIN_U8("graphics/pokemon/tentomon/icon.4bpp");
+const u8 gMonFootprint_Tentomon[] = INCBIN_U8("graphics/pokemon/tentomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/front.4bpp.lz");
 const u32 gMonPalette_Mudkip[] = INCBIN_U32("graphics/pokemon/mudkip/normal.gbapal.lz");

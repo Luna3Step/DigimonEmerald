@@ -2965,7 +2965,7 @@ static const union AnimCmd sAnim_Tapirmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Blaziken_1[] =
+static const union AnimCmd sAnim_Tentomon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(0, 25),
@@ -2975,7 +2975,7 @@ static const union AnimCmd sAnim_Blaziken_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Blaziken_2[] =
+static const union AnimCmd sAnim_Tentomon_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(2, 8),
@@ -2983,14 +2983,14 @@ static const union AnimCmd sAnim_Blaziken_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Blaziken_3[] =
+static const union AnimCmd sAnim_Tentomon_3[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(2, 10),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Blaziken_4[] =
+static const union AnimCmd sAnim_Tentomon_4[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
@@ -5080,12 +5080,12 @@ SINGLE_ANIMATION(Swimmon);
 SINGLE_ANIMATION(Syakomon);
 SINGLE_ANIMATION(Syakomon_x);
 SINGLE_ANIMATION(Tapirmon);
-static const union AnimCmd *const sAnims_Blaziken[] ={
+static const union AnimCmd *const sAnims_Tentomon[] ={
     sAnim_GeneralFrame0,
-    sAnim_Blaziken_1,
-    sAnim_Blaziken_2,
-    sAnim_Blaziken_3,
-    sAnim_Blaziken_4,
+    sAnim_Tentomon_1,
+    sAnim_Tentomon_2,
+    sAnim_Tentomon_3,
+    sAnim_Tentomon_4,
 };
 SINGLE_ANIMATION(Mudkip);
 SINGLE_ANIMATION(Marshtomp);
@@ -5536,7 +5536,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SYAKOMON]    = sAnims_Syakomon,
     [SPECIES_SYAKOMON_X]     = sAnims_Syakomon_x,
     [SPECIES_TAPIRMON]   = sAnims_Tapirmon,
-    [SPECIES_TENTOMON]    = sAnims_Blaziken,
+    [SPECIES_TENTOMON]    = sAnims_Tentomon,
     [SPECIES_TERRIERMON]      = sAnims_Mudkip,
     [SPECIES_TERRIERMON_ASSISTANT]   = sAnims_Marshtomp,
     [SPECIES_TERRIERMON_X]    = sAnims_Swampert,

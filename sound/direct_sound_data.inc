@@ -1475,8 +1475,8 @@ Cry_Tapirmon::
 	.incbin "sound/direct_sound_samples/cries/tapirmon.bin"
 
 	.align 2
-Cry_Blaziken::
-	.incbin "sound/direct_sound_samples/cries/blaziken.bin"
+Cry_Tentomon::
+	.incbin "sound/direct_sound_samples/cries/tentomon.bin"
 
 	.align 2
 Cry_Sunarzamon::

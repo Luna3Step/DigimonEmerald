@@ -272,7 +272,7 @@ gCryTable::
 	cry Cry_Spinda
 	cry Cry_Syakomon_x
 	cry Cry_Tapirmon
-	cry Cry_Blaziken
+	cry Cry_Tentomon
 	cry Cry_Sunarzamon
 	cry Cry_Swimmon
 	cry Cry_Syakomon
@@ -663,7 +663,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Spinda
 	cry_reverse Cry_Syakomon_x
 	cry_reverse Cry_Tapirmon
-	cry_reverse Cry_Blaziken
+	cry_reverse Cry_Tentomon
 	cry_reverse Cry_Sunarzamon
 	cry_reverse Cry_Swimmon
 	cry_reverse Cry_Syakomon

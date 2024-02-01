@@ -1,5 +1,5 @@
 // unused and unkown
-static const union AnimCmd sUnusedAnim_Blaziken_1[] =
+static const union AnimCmd sUnusedAnim_Tentomon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(1, 25),
@@ -9,7 +9,7 @@ static const union AnimCmd sUnusedAnim_Blaziken_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Blaziken_2[] =
+static const union AnimCmd sUnusedAnim_Tentomon_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(2, 8),
@@ -17,14 +17,14 @@ static const union AnimCmd sUnusedAnim_Blaziken_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Blaziken_3[] =
+static const union AnimCmd sUnusedAnim_Tentomon_3[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(2, 10),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Blaziken_4[] =
+static const union AnimCmd sUnusedAnim_Tentomon_4[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
@@ -1221,7 +1221,7 @@ static const union AnimCmd *const sUnusedAnims_Swimmon[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Syakomon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Syakomon_x[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Tapirmon[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Blaziken[] = {sAnim_GeneralFrame0, sUnusedAnim_Blaziken_1, sUnusedAnim_Blaziken_2, sUnusedAnim_Blaziken_3, sUnusedAnim_Blaziken_4};
+static const union AnimCmd *const sUnusedAnims_Tentomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Tentomon_1, sUnusedAnim_Tentomon_2, sUnusedAnim_Tentomon_3, sUnusedAnim_Tentomon_4};
 static const union AnimCmd *const sUnusedAnims_Mudkip[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Marshtomp[] = {sAnim_GeneralFrame0, sUnusedAnim_Marshtomp_1, sUnusedAnim_Marshtomp_2, sUnusedAnim_Marshtomp_3};
 static const union AnimCmd *const sUnusedAnims_Swampert[] = {sAnim_GeneralFrame0};
@@ -1663,7 +1663,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_SYAKOMON] = sUnusedAnims_Syakomon,
     [SPECIES_SYAKOMON_X] = sUnusedAnims_Syakomon_x,
     [SPECIES_TAPIRMON] = sUnusedAnims_Tapirmon,
-    [SPECIES_TENTOMON] = sUnusedAnims_Blaziken,
+    [SPECIES_TENTOMON] = sUnusedAnims_Tentomon,
     [SPECIES_TERRIERMON] = sUnusedAnims_Mudkip,
     [SPECIES_TERRIERMON_ASSISTANT] = sUnusedAnims_Marshtomp,
     [SPECIES_TERRIERMON_X] = sUnusedAnims_Swampert,

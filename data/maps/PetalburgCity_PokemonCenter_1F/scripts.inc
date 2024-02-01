@@ -80,7 +80,7 @@ PetalburgCity_PokemonCenter_1F_Text_SunarzamonIsGrassType:
 	.string "POKéMON.$"
 
 PetalburgCity_PokemonCenter_1F_Text_Syakomon_xIsFireType:
-	.string "For example, your SYAKOMON_X\n"
+	.string "For example, your SYAKOMONX\n"
 	.string "is a FIRE type.\p"
 	.string "It's strong against the GRASS and\n"
 	.string "BUG types.\p"

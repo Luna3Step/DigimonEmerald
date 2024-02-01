@@ -316,7 +316,7 @@ const u8 DecorDesc_GREEN_POSTER[] = _(
 
 const u8 DecorDesc_RED_POSTER[] = _(
     "A small poster with\n"
-        "a SYAKOMON_X print.");
+        "a SYAKOMONX print.");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
     "A small poster with\n"
@@ -413,7 +413,7 @@ const u8 DecorDesc_SUNARZAMON_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_SYAKOMON_X_DOLL[] = _(
-    "A SYAKOMON_X doll.\n"
+    "A SYAKOMONX doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
