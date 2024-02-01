@@ -16,8 +16,8 @@ gTrickHouse_Mechadoll_Lotad::
 gTrickHouse_Mechadoll_Wingull::
 	.string "WINGULL$"
 
-gTrickHouse_Mechadoll_Dustox::
-	.string "DUSTOX$"
+gTrickHouse_Mechadoll_Zenimon::
+	.string "ZENIMON$"
 
 gTrickHouse_Mechadoll_Icebotamon::
 	.string "ICEBOTAMON$"

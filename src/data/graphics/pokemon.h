@@ -1878,12 +1878,12 @@ const u32 gMonShinyPalette_Wormmon[] = INCBIN_U32("graphics/pokemon/wormmon/shin
 const u8 gMonIcon_Wormmon[] = INCBIN_U8("graphics/pokemon/wormmon/icon.4bpp");
 const u8 gMonFootprint_Wormmon[] = INCBIN_U8("graphics/pokemon/wormmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Dustox[] = INCBIN_U32("graphics/pokemon/dustox/front.4bpp.lz");
-const u32 gMonPalette_Dustox[] = INCBIN_U32("graphics/pokemon/dustox/normal.gbapal.lz");
-const u32 gMonBackPic_Dustox[] = INCBIN_U32("graphics/pokemon/dustox/back.4bpp.lz");
-const u32 gMonShinyPalette_Dustox[] = INCBIN_U32("graphics/pokemon/dustox/shiny.gbapal.lz");
-const u8 gMonIcon_Dustox[] = INCBIN_U8("graphics/pokemon/dustox/icon.4bpp");
-const u8 gMonFootprint_Dustox[] = INCBIN_U8("graphics/pokemon/dustox/footprint.1bpp");
+const u32 gMonStillFrontPic_Zenimon[] = INCBIN_U32("graphics/pokemon/zenimon/front.4bpp.lz");
+const u32 gMonPalette_Zenimon[] = INCBIN_U32("graphics/pokemon/zenimon/normal.gbapal.lz");
+const u32 gMonBackPic_Zenimon[] = INCBIN_U32("graphics/pokemon/zenimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Zenimon[] = INCBIN_U32("graphics/pokemon/zenimon/shiny.gbapal.lz");
+const u8 gMonIcon_Zenimon[] = INCBIN_U8("graphics/pokemon/zenimon/icon.4bpp");
+const u8 gMonFootprint_Zenimon[] = INCBIN_U8("graphics/pokemon/zenimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/front.4bpp.lz");
 const u32 gMonPalette_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/normal.gbapal.lz");

@@ -1563,8 +1563,8 @@ Cry_Wormmon::
 	.incbin "sound/direct_sound_samples/cries/wormmon.bin"
 
 	.align 2
-Cry_Dustox::
-	.incbin "sound/direct_sound_samples/cries/dustox.bin"
+Cry_Zenimon::
+	.incbin "sound/direct_sound_samples/cries/zenimon.bin"
 
 	.align 2
 Cry_Ralts::
