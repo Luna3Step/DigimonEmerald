@@ -1527,8 +1527,8 @@ Cry_Aegiomon::
 	.incbin "sound/direct_sound_samples/cries/aegiomon.bin"
 
 	.align 2
-Cry_Ludicolo::
-	.incbin "sound/direct_sound_samples/cries/ludicolo.bin"
+Cry_Agunimon::
+	.incbin "sound/direct_sound_samples/cries/agunimon.bin"
 
 	.align 2
 Cry_Seedot::

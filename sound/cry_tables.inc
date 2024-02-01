@@ -285,7 +285,7 @@ gCryTable::
 	cry Cry_Shuppet
 	cry Cry_Zubamon
 	cry Cry_Aegiomon
-	cry Cry_Ludicolo
+	cry Cry_Agunimon
 	cry Cry_Seedot
 	cry Cry_Nuzleaf
 	cry Cry_Shiftry
@@ -676,7 +676,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Shuppet
 	cry_reverse Cry_Zubamon
 	cry_reverse Cry_Aegiomon
-	cry_reverse Cry_Ludicolo
+	cry_reverse Cry_Agunimon
 	cry_reverse Cry_Seedot
 	cry_reverse Cry_Nuzleaf
 	cry_reverse Cry_Shiftry
