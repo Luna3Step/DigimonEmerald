@@ -93,8 +93,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayAcroBike
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MaySurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBox;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AxemonCarryingBox;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AxemonFacingAway;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyToyagumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist;
@@ -342,8 +342,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MAY_SURFING] =              &gObjectEventGraphicsInfo_MaySurfing,
     [OBJ_EVENT_GFX_MAY_FIELD_MOVE] =           &gObjectEventGraphicsInfo_MayFieldMove,
     [OBJ_EVENT_GFX_TRUCK] =                    &gObjectEventGraphicsInfo_Truck,
-    [OBJ_EVENT_GFX_VIGOROTH_CARRYING_BOX] =    &gObjectEventGraphicsInfo_VigorothCarryingBox,
-    [OBJ_EVENT_GFX_VIGOROTH_FACING_AWAY] =     &gObjectEventGraphicsInfo_VigorothFacingAway,
+    [OBJ_EVENT_GFX_AXEMON_CARRYING_BOX] =    &gObjectEventGraphicsInfo_AxemonCarryingBox,
+    [OBJ_EVENT_GFX_AXEMON_FACING_AWAY] =     &gObjectEventGraphicsInfo_AxemonFacingAway,
     [OBJ_EVENT_GFX_BIRCHS_BAG] =               &gObjectEventGraphicsInfo_BirchsBag,
     [OBJ_EVENT_GFX_TOYAGUMON_1] =              &gObjectEventGraphicsInfo_EnemyToyagumon,
     [OBJ_EVENT_GFX_ARTIST] =                   &gObjectEventGraphicsInfo_Artist,

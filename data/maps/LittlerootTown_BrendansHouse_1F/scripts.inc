@@ -365,10 +365,10 @@ PlayersHouse_1F_Text_RegisteredMom:
 	.string "Registered MOM\n"
 	.string "in the POKéNAV.$"
 
-PlayersHouse_1F_Text_Vigoroth1:
+PlayersHouse_1F_Text_Axemon1:
 	.string "Fugiiiiih!$"
 
-PlayersHouse_1F_Text_Vigoroth2:
+PlayersHouse_1F_Text_Axemon2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:

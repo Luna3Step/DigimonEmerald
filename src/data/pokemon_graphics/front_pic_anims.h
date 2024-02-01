@@ -3986,7 +3986,7 @@ static const union AnimCmd sAnim_Aurumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Vigoroth_1[] =
+static const union AnimCmd sAnim_Axemon_1[] =
 {
     ANIMCMD_FRAME(0, 13),
     ANIMCMD_FRAME(0, 7),
@@ -5171,7 +5171,7 @@ SINGLE_ANIMATION(Duskull);
 SINGLE_ANIMATION(Dusclops);
 SINGLE_ANIMATION(Roselia);
 SINGLE_ANIMATION(Aurumon);
-SINGLE_ANIMATION(Vigoroth);
+SINGLE_ANIMATION(Axemon);
 SINGLE_ANIMATION(Slaking);
 SINGLE_ANIMATION(Gulpin);
 SINGLE_ANIMATION(Swalot);
@@ -5619,7 +5619,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_EBIDRAMON]    = sAnims_Dusclops,
     [SPECIES_BULLMON]     = sAnims_Roselia,
     [SPECIES_AURUMON]     = sAnims_Aurumon,
-    [SPECIES_AXEMON]    = sAnims_Vigoroth,
+    [SPECIES_AXEMON]    = sAnims_Axemon,
     [SPECIES_BABOONMON]     = sAnims_Slaking,
     [SPECIES_BURAIMON]      = sAnims_Gulpin,
     [SPECIES_BURGERMON_CHAMPION]      = sAnims_Swalot,

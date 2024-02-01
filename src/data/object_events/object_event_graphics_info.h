@@ -1803,9 +1803,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBox = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AxemonCarryingBox = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_VIGOROTH,
+    .paletteTag = OBJ_EVENT_PAL_TAG_AXEMON,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
@@ -1818,13 +1818,13 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBo
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_VigorothCarryingBox,
+    .images = sPicTable_AxemonCarryingBox,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AxemonFacingAway = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_VIGOROTH,
+    .paletteTag = OBJ_EVENT_PAL_TAG_AXEMON,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
@@ -1837,7 +1837,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_VigorothFacingAway,
+    .images = sPicTable_AxemonFacingAway,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

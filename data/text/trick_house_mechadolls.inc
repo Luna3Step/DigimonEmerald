@@ -5,7 +5,7 @@ gTrickHouse_Mechadoll_Tinkermon::
 	.string "TINKERMON$"
 
 gTrickHouse_Mechadoll_Allomon_x::
-	.string "ALLOMON_X$"
+	.string "ALLOMONX$"
 
 gTrickHouse_Mechadoll_Azurill::
 	.string "AZURILL$"

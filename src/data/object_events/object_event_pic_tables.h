@@ -925,28 +925,28 @@ static const struct SpriteFrameImage sPicTable_Truck[] = {
     obj_frame_tiles(gObjectEventPic_Truck),
 };
 
-static const struct SpriteFrameImage sPicTable_VigorothCarryingBox[] = {
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 2),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 2),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 2),
+static const struct SpriteFrameImage sPicTable_AxemonCarryingBox[] = {
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 2),
 };
 
-static const struct SpriteFrameImage sPicTable_VigorothFacingAway[] = {
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 3),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 3),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 3),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Vigoroth, 4, 4, 4),
+static const struct SpriteFrameImage sPicTable_AxemonFacingAway[] = {
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Axemon, 4, 4, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_BirchsBag[] = {
