@@ -378,7 +378,7 @@ gCryTable::
 	cry Cry_Linoone
 	cry Cry_Tropius
 	cry Cry_Wailmer
-	cry Cry_Zigzagoon
+	cry Cry_Toyagumon
 	cry Cry_Exploud
 	cry Cry_Loudred
 	cry Cry_Wailord
@@ -769,7 +769,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Linoone
 	cry_reverse Cry_Tropius
 	cry_reverse Cry_Wailmer
-	cry_reverse Cry_Zigzagoon
+	cry_reverse Cry_Toyagumon
 	cry_reverse Cry_Exploud
 	cry_reverse Cry_Loudred
 	cry_reverse Cry_Wailord

@@ -584,7 +584,7 @@ $(WALLPAPERGFXDIR)/friends_frame1.4bpp: %.4bpp: %.png
 $(WALLPAPERGFXDIR)/friends_frame2.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 57 -Wnum_tiles
 
-$(WALLPAPERGFXDIR)/zigzagoon/tiles.4bpp: $(WALLPAPERGFXDIR)/friends_frame1.4bpp $(WALLPAPERGFXDIR)/zigzagoon/bg.4bpp
+$(WALLPAPERGFXDIR)/toyagumon/tiles.4bpp: $(WALLPAPERGFXDIR)/friends_frame1.4bpp $(WALLPAPERGFXDIR)/toyagumon/bg.4bpp
 	@cat $^ >$@
 
 $(WALLPAPERGFXDIR)/screen/tiles.4bpp: $(WALLPAPERGFXDIR)/friends_frame1.4bpp $(WALLPAPERGFXDIR)/screen/bg.4bpp

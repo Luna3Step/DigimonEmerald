@@ -196,7 +196,7 @@ extern struct UnusedControllerStruct gUnusedControllerStruct;
 
 // general functions
 void HandleLinkBattleSetup(void);
-void SetUpBattleVarsAndBirchZigzagoon(void);
+void SetUpBattleVarsAndBirchToyagumon(void);
 void InitBattleControllers(void);
 void TryReceiveLinkBattleData(void);
 void PrepareBufferDataTransferLink(u8 bufferId, u16 size, u8 *data);

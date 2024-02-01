@@ -39,7 +39,7 @@ void HandleLinkBattleSetup(void)
     }
 }
 
-void SetUpBattleVarsAndBirchZigzagoon(void)
+void SetUpBattleVarsAndBirchToyagumon(void)
 {
     s32 i;
 

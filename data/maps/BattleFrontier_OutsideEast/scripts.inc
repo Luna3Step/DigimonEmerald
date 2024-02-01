@@ -67,12 +67,12 @@ BattleFrontier_OutsideEast_EventScript_Cook::
 	release
 	end
 
-BattleFrontier_OutsideEast_EventScript_Zigzagoon::
+BattleFrontier_OutsideEast_EventScript_Toyagumon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_TOYAGUMON, CRY_MODE_NORMAL
-	msgbox BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant, MSGBOX_DEFAULT
+	msgbox BattleFrontier_OutsideEast_Text_ToyagumonLooksVacant, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -305,8 +305,8 @@ BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
 	.string "I'll make my little ZIGG any favorite\n"
 	.string "tasty treats you like if you win!$"
 
-BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
-	.string "ZIGZAGOON looks vacant…$"
+BattleFrontier_OutsideEast_Text_ToyagumonLooksVacant:
+	.string "TOYAGUMON looks vacant…$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "People call me a busybody,\n"

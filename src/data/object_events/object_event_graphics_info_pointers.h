@@ -96,7 +96,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBox;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyZigzagoon;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyToyagumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanNormal;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanMachBike;
@@ -206,7 +206,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Toyagumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Petitmon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jellymon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull;
@@ -345,7 +345,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_VIGOROTH_CARRYING_BOX] =    &gObjectEventGraphicsInfo_VigorothCarryingBox,
     [OBJ_EVENT_GFX_VIGOROTH_FACING_AWAY] =     &gObjectEventGraphicsInfo_VigorothFacingAway,
     [OBJ_EVENT_GFX_BIRCHS_BAG] =               &gObjectEventGraphicsInfo_BirchsBag,
-    [OBJ_EVENT_GFX_ZIGZAGOON_1] =              &gObjectEventGraphicsInfo_EnemyZigzagoon,
+    [OBJ_EVENT_GFX_TOYAGUMON_1] =              &gObjectEventGraphicsInfo_EnemyToyagumon,
     [OBJ_EVENT_GFX_ARTIST] =                   &gObjectEventGraphicsInfo_Artist,
     [OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL] =     &gObjectEventGraphicsInfo_RivalBrendanNormal,
     [OBJ_EVENT_GFX_RIVAL_BRENDAN_MACH_BIKE] =  &gObjectEventGraphicsInfo_RivalBrendanMachBike,
@@ -455,7 +455,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_KYOGRE_ASLEEP] =            &gObjectEventGraphicsInfo_KyogreAsleep,
     [OBJ_EVENT_GFX_GROUDON_ASLEEP] =           &gObjectEventGraphicsInfo_GroudonAsleep,
     [OBJ_EVENT_GFX_RAYQUAZA] =                 &gObjectEventGraphicsInfo_Rayquaza,
-    [OBJ_EVENT_GFX_ZIGZAGOON_2] =              &gObjectEventGraphicsInfo_Zigzagoon,
+    [OBJ_EVENT_GFX_TOYAGUMON_2] =              &gObjectEventGraphicsInfo_Toyagumon,
     [OBJ_EVENT_GFX_PETITMON] =                  &gObjectEventGraphicsInfo_Petitmon,
     [OBJ_EVENT_GFX_JELLYMON] =                &gObjectEventGraphicsInfo_Jellymon,
     [OBJ_EVENT_GFX_WINGULL] =                  &gObjectEventGraphicsInfo_Wingull,

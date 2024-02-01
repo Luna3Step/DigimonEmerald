@@ -83,7 +83,7 @@ static const union AnimCmd sUnusedAnim_Tinpet_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Zigzagoon_1[] =
+static const union AnimCmd sUnusedAnim_Toyagumon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
@@ -1227,7 +1227,7 @@ static const union AnimCmd *const sUnusedAnims_Terriermon_assistant[] = {sAnim_G
 static const union AnimCmd *const sUnusedAnims_Terriermon_x[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Tinkermon[] = {sAnim_GeneralFrame0, sUnusedAnim_Tinkermon_1, sUnusedAnim_Tinkermon_2};
 static const union AnimCmd *const sUnusedAnims_Tinpet[] = {sAnim_GeneralFrame0, sUnusedAnim_Tinpet_1};
-static const union AnimCmd *const sUnusedAnims_Zigzagoon[] = {sAnim_GeneralFrame0, sUnusedAnim_Zigzagoon_1};
+static const union AnimCmd *const sUnusedAnims_Toyagumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Toyagumon_1};
 static const union AnimCmd *const sUnusedAnims_Linoone[] = {sAnim_GeneralFrame0, sUnusedAnim_Linoone_1};
 static const union AnimCmd *const sUnusedAnims_Wurmple[] = {sAnim_GeneralFrame0, sUnusedAnim_Wurmple_1, sUnusedAnim_Wurmple_2};
 static const union AnimCmd *const sUnusedAnims_Silcoon[] = {sAnim_GeneralFrame0, sUnusedAnim_Silcoon_1, sUnusedAnim_Silcoon_2};
@@ -1669,7 +1669,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_TERRIERMON_X] = sUnusedAnims_Terriermon_x,
     [SPECIES_TINKERMON] = sUnusedAnims_Tinkermon,
     [SPECIES_TINPET] = sUnusedAnims_Tinpet,
-    [SPECIES_TOYAGUMON] = sUnusedAnims_Zigzagoon,
+    [SPECIES_TOYAGUMON] = sUnusedAnims_Toyagumon,
     [SPECIES_TSUKAIMON] = sUnusedAnims_Linoone,
     [SPECIES_VEEMON] = sUnusedAnims_Wurmple,
     [SPECIES_VEMMON] = sUnusedAnims_Silcoon,

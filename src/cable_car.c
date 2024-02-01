@@ -810,7 +810,7 @@ static void CreateCableCarSprites(void)
         OBJ_EVENT_GFX_HIKER,
         OBJ_EVENT_GFX_CAMPER,
         OBJ_EVENT_GFX_PICNICKER,
-        OBJ_EVENT_GFX_ZIGZAGOON_1
+        OBJ_EVENT_GFX_TOYAGUMON_1
     };
     s16 hikerCoords[2][2] = {
         {   0,  80 }, // Going up
@@ -891,7 +891,7 @@ static void CreateCableCarSprites(void)
     // 1/64 chance for an NPC to appear hiking on the ground below the Cable Car
     if ((rval % 64) == 0)
     {
-        // Unclear if this was intentional, but the - 1 in the below ARRAY_COUNT means the Zigzagoon is never used
+        // Unclear if this was intentional, but the - 1 in the below ARRAY_COUNT means the Toyagumon is never used
         spriteId = CreateObjectGraphicsSprite(hikerGraphicsIds[rval % (ARRAY_COUNT(hikerGraphicsIds) - 1)], hikerCallbacks[GOING_DOWN], hikerCoords[GOING_DOWN][0], hikerCoords[GOING_DOWN][1], 106);
         if (spriteId != MAX_SPRITES)
         {

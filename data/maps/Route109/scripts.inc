@@ -353,15 +353,15 @@ Route109_EventScript_Woman::
 	end
 
 Route109_EventScript_OldMan::
-	msgbox Route109_Text_ZigzagoonPicksUpLitter, MSGBOX_NPC
+	msgbox Route109_Text_ToyagumonPicksUpLitter, MSGBOX_NPC
 	end
 
-Route109_EventScript_Zigzagoon::
+Route109_EventScript_Toyagumon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_TOYAGUMON, CRY_MODE_NORMAL
-	msgbox Route109_Text_ZigzagoonCry, MSGBOX_DEFAULT
+	msgbox Route109_Text_ToyagumonCry, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -539,17 +539,17 @@ Route109_Text_WereGoingToMakeBigCastle:
 	.string "queen.\p"
 	.string "We'll let you be a servant.$"
 
-Route109_Text_ZigzagoonPicksUpLitter:
+Route109_Text_ToyagumonPicksUpLitter:
 	.string "The water around these parts is clean.\p"
-	.string "But, I get my ZIGZAGOON to pick up\n"
+	.string "But, I get my TOYAGUMON to pick up\n"
 	.string "litter from the shoreline at times.\p"
 	.string "Dirty water becomes rain and joins our\n"
 	.string "rivers, which we drink from…\p"
 	.string "If we pollute the sea, it all comes\n"
 	.string "back to haunt us eventually.$"
 
-Route109_Text_ZigzagoonCry:
-	.string "ZIGZAGOON: Guguu?$"
+Route109_Text_ToyagumonCry:
+	.string "TOYAGUMON: Guguu?$"
 
 Route109_Text_SeashoreHouseSign:
 	.string "SEASHORE HOUSE\p"

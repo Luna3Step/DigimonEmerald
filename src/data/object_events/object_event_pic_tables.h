@@ -953,16 +953,16 @@ static const struct SpriteFrameImage sPicTable_BirchsBag[] = {
     obj_frame_tiles(gObjectEventPic_BirchsBag),
 };
 
-static const struct SpriteFrameImage sPicTable_EnemyZigzagoon[] = {
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 0),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 1),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 2),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 3),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 4),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 5),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 6),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 7),
-    overworld_frame(gObjectEventPic_EnemyZigzagoon, 4, 4, 8),
+static const struct SpriteFrameImage sPicTable_EnemyToyagumon[] = {
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 2),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 3),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 4),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 5),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 6),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 7),
+    overworld_frame(gObjectEventPic_EnemyToyagumon, 4, 4, 8),
 };
 
 static const struct SpriteFrameImage sPicTable_Tinkermon[] = {
@@ -1817,16 +1817,16 @@ static const struct SpriteFrameImage sPicTable_RayquazaStill[] = {
     obj_frame_tiles(gObjectEventPic_RayquazaStill),
 };
 
-static const struct SpriteFrameImage sPicTable_Zigzagoon[] = {
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 2),
+static const struct SpriteFrameImage sPicTable_Toyagumon[] = {
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Toyagumon, 2, 2, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_Petitmon[] = {

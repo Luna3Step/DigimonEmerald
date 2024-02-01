@@ -488,7 +488,7 @@ const u8 DecorDesc_KISS_CUSHION[] = _(
         "a mat or a desk.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A ZIGZAGOON\n"
+    "A TOYAGUMON\n"
         "cushion. Place it on\n"
         "a mat or a desk.");
 

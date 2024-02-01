@@ -1379,7 +1379,7 @@ void SetShoalItemFlag(u16 unused)
     FlagSet(FLAG_SYS_SHOAL_ITEM);
 }
 
-void PutZigzagoonInPlayerParty(void)
+void PutToyagumonInPlayerParty(void)
 {
     u16 monData;
     CreateMon(&gPlayerParty[0], SPECIES_TOYAGUMON, 7, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);

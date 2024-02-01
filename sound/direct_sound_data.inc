@@ -1899,8 +1899,8 @@ Cry_Wailmer::
 	.incbin "sound/direct_sound_samples/cries/wailmer.bin"
 
 	.align 2
-Cry_Zigzagoon::
-	.incbin "sound/direct_sound_samples/cries/zigzagoon.bin"
+Cry_Toyagumon::
+	.incbin "sound/direct_sound_samples/cries/toyagumon.bin"
 
 	.align 2
 Cry_Exploud::

@@ -28,8 +28,8 @@ gTrickHouse_Mechadoll_Nincada::
 gTrickHouse_Mechadoll_Ralts::
 	.string "RALTS$"
 
-gTrickHouse_Mechadoll_Zigzagoon::
-	.string "ZIGZAGOON$"
+gTrickHouse_Mechadoll_Toyagumon::
+	.string "TOYAGUMON$"
 
 gTrickHouse_Mechadoll_Slakoth::
 	.string "SLAKOTH$"
@@ -40,8 +40,8 @@ gTrickHouse_Mechadoll_Tinkermon2::
 gTrickHouse_Mechadoll_Shroomish::
 	.string "SHROOMISH$"
 
-gTrickHouse_Mechadoll_Zigzagoon2::
-	.string "ZIGZAGOON$"
+gTrickHouse_Mechadoll_Toyagumon2::
+	.string "TOYAGUMON$"
 
 gTrickHouse_Mechadoll_Tinkermon3::
 	.string "TINKERMON$"

@@ -437,7 +437,7 @@ static const u8 sHeartScaleDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
+    "A TOYAGUMON-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 

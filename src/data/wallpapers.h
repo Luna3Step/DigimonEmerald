@@ -198,13 +198,13 @@ static const struct Wallpaper sWallpapers[WALLPAPER_COUNT - 1] =
 
 static const u8 sArrow_Gfx[] = INCBIN_U8("graphics/pokemon_storage/arrow.4bpp");
 
-static const u16 sWallpaperPalettes_Zigzagoon[][16] =
+static const u16 sWallpaperPalettes_Toyagumon[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/wallpapers/friends_frame1.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/zigzagoon/bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/wallpapers/toyagumon/bg.gbapal"),
 };
-static const u32 sWallpaperTiles_Zigzagoon[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/zigzagoon/tiles.4bpp.lz");
-static const u32 sWallpaperTilemap_Zigzagoon[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/zigzagoon/tilemap.bin.lz");
+static const u32 sWallpaperTiles_Toyagumon[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/toyagumon/tiles.4bpp.lz");
+static const u32 sWallpaperTilemap_Toyagumon[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/toyagumon/tilemap.bin.lz");
 
 static const u16 sWallpaperPalettes_Screen[][16] =
 {
@@ -249,7 +249,7 @@ static const u32 sWallpaperTilemap_Frame[] = INCBIN_U32("graphics/pokemon_storag
 static const u16 sWallpaperPalettes_Blank[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/wallpapers/friends_frame1.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/zigzagoon/bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/wallpapers/toyagumon/bg.gbapal"),
 };
 static const u32 sWallpaperTiles_Blank[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/blank/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Blank[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/blank/tilemap.bin.lz");
@@ -340,7 +340,7 @@ static const u32 sWallpaperIcon_Magma[]        = INCBIN_U32("graphics/pokemon_st
 
 static const struct Wallpaper sWaldaWallpapers[] =
 {
-    WALLPAPER_ENTRY(Zigzagoon),
+    WALLPAPER_ENTRY(Toyagumon),
     WALLPAPER_ENTRY(Screen),
     WALLPAPER_ENTRY_G(Horizontal),
     WALLPAPER_ENTRY(Diagonal),

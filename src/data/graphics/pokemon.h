@@ -1836,12 +1836,12 @@ const u32 gMonShinyPalette_Tinpet[] = INCBIN_U32("graphics/pokemon/tinpet/shiny.
 const u8 gMonIcon_Tinpet[] = INCBIN_U8("graphics/pokemon/tinpet/icon.4bpp");
 const u8 gMonFootprint_Tinpet[] = INCBIN_U8("graphics/pokemon/tinpet/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Zigzagoon[] = INCBIN_U32("graphics/pokemon/zigzagoon/front.4bpp.lz");
-const u32 gMonPalette_Zigzagoon[] = INCBIN_U32("graphics/pokemon/zigzagoon/normal.gbapal.lz");
-const u32 gMonBackPic_Zigzagoon[] = INCBIN_U32("graphics/pokemon/zigzagoon/back.4bpp.lz");
-const u32 gMonShinyPalette_Zigzagoon[] = INCBIN_U32("graphics/pokemon/zigzagoon/shiny.gbapal.lz");
-const u8 gMonIcon_Zigzagoon[] = INCBIN_U8("graphics/pokemon/zigzagoon/icon.4bpp");
-const u8 gMonFootprint_Zigzagoon[] = INCBIN_U8("graphics/pokemon/zigzagoon/footprint.1bpp");
+const u32 gMonStillFrontPic_Toyagumon[] = INCBIN_U32("graphics/pokemon/toyagumon/front.4bpp.lz");
+const u32 gMonPalette_Toyagumon[] = INCBIN_U32("graphics/pokemon/toyagumon/normal.gbapal.lz");
+const u32 gMonBackPic_Toyagumon[] = INCBIN_U32("graphics/pokemon/toyagumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Toyagumon[] = INCBIN_U32("graphics/pokemon/toyagumon/shiny.gbapal.lz");
+const u8 gMonIcon_Toyagumon[] = INCBIN_U8("graphics/pokemon/toyagumon/icon.4bpp");
+const u8 gMonFootprint_Toyagumon[] = INCBIN_U8("graphics/pokemon/toyagumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/front.4bpp.lz");
 const u32 gMonPalette_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/normal.gbapal.lz");

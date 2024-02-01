@@ -472,19 +472,19 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon::
 	specialvar VAR_RESULT, GetContestLadyCategory
 	special Script_BufferContestLadyCategoryAndMonName
 	special GetContestLadyMonSpecies
-	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_COOL, LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon
+	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_COOL, LilycoveCity_PokemonCenter_1F_EventScript_Toyagumon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_BEAUTY, LilycoveCity_PokemonCenter_1F_EventScript_Skitty
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_CUTE, LilycoveCity_PokemonCenter_1F_EventScript_Tinkermon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_SMART, LilycoveCity_PokemonCenter_1F_EventScript_Kecleon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_TOUGH, LilycoveCity_PokemonCenter_1F_EventScript_Petitmon
 	end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon::
+LilycoveCity_PokemonCenter_1F_EventScript_Toyagumon::
 	lock
 	faceplayer
 	waitse
 	playmoncry VAR_0x8005, CRY_MODE_NORMAL
-	msgbox LilycoveCity_PokemonCenter_1F_Text_Zigzagoon, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonCenter_1F_Text_Toyagumon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -774,7 +774,7 @@ LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests:
 	.string "If you see us in one somewhere,\n"
 	.string "I hope you'll cheer for us.$"
 
-LilycoveCity_PokemonCenter_1F_Text_Zigzagoon:
+LilycoveCity_PokemonCenter_1F_Text_Toyagumon:
 	.string "{STR_VAR_1}: Guguuh!$"
 
 LilycoveCity_PokemonCenter_1F_Text_Kecleon:
