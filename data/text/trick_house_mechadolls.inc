@@ -37,8 +37,8 @@ gTrickHouse_Mechadoll_Slakoth::
 gTrickHouse_Mechadoll_Tinkermon2::
 	.string "TINKERMON$"
 
-gTrickHouse_Mechadoll_Shroomish::
-	.string "SHROOMISH$"
+gTrickHouse_Mechadoll_Aresdramon::
+	.string "ARESDRAMON$"
 
 gTrickHouse_Mechadoll_Toyagumon2::
 	.string "TOYAGUMON$"

@@ -1883,8 +1883,8 @@ Cry_Breloom::
 	.incbin "sound/direct_sound_samples/cries/breloom.bin"
 
 	.align 2
-Cry_Shroomish::
-	.incbin "sound/direct_sound_samples/cries/shroomish.bin"
+Cry_Aresdramon::
+	.incbin "sound/direct_sound_samples/cries/aresdramon.bin"
 
 	.align 2
 Cry_Tsukaimon::

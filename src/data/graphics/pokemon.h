@@ -1962,12 +1962,12 @@ const u32 gMonShinyPalette_Swellow[] = INCBIN_U32("graphics/pokemon/swellow/shin
 const u8 gMonIcon_Swellow[] = INCBIN_U8("graphics/pokemon/swellow/icon.4bpp");
 const u8 gMonFootprint_Swellow[] = INCBIN_U8("graphics/pokemon/swellow/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Shroomish[] = INCBIN_U32("graphics/pokemon/shroomish/front.4bpp.lz");
-const u32 gMonPalette_Shroomish[] = INCBIN_U32("graphics/pokemon/shroomish/normal.gbapal.lz");
-const u32 gMonBackPic_Shroomish[] = INCBIN_U32("graphics/pokemon/shroomish/back.4bpp.lz");
-const u32 gMonShinyPalette_Shroomish[] = INCBIN_U32("graphics/pokemon/shroomish/shiny.gbapal.lz");
-const u8 gMonIcon_Shroomish[] = INCBIN_U8("graphics/pokemon/shroomish/icon.4bpp");
-const u8 gMonFootprint_Shroomish[] = INCBIN_U8("graphics/pokemon/shroomish/footprint.1bpp");
+const u32 gMonStillFrontPic_Aresdramon[] = INCBIN_U32("graphics/pokemon/aresdramon/front.4bpp.lz");
+const u32 gMonPalette_Aresdramon[] = INCBIN_U32("graphics/pokemon/aresdramon/normal.gbapal.lz");
+const u32 gMonBackPic_Aresdramon[] = INCBIN_U32("graphics/pokemon/aresdramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Aresdramon[] = INCBIN_U32("graphics/pokemon/aresdramon/shiny.gbapal.lz");
+const u8 gMonIcon_Aresdramon[] = INCBIN_U8("graphics/pokemon/aresdramon/icon.4bpp");
+const u8 gMonFootprint_Aresdramon[] = INCBIN_U8("graphics/pokemon/aresdramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/front.4bpp.lz");
 const u32 gMonPalette_Breloom[] = INCBIN_U32("graphics/pokemon/breloom/normal.gbapal.lz");

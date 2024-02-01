@@ -57,7 +57,7 @@ RustboroCity_Mart_Pokemart_Expanded:
 	end
 
 RustboroCity_Mart_EventScript_PokefanF::
-	msgbox RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish, MSGBOX_NPC
+	msgbox RustboroCity_Mart_Text_BuyingHealsInCaseOfAresdramon, MSGBOX_NPC
 	end
 
 RustboroCity_Mart_EventScript_Boy::
@@ -68,10 +68,10 @@ RustboroCity_Mart_EventScript_BugCatcher::
 	msgbox RustboroCity_Mart_Text_GettingEscapeRopeJustInCase, MSGBOX_NPC
 	end
 
-RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
+RustboroCity_Mart_Text_BuyingHealsInCaseOfAresdramon:
 	.string "I'm buying some PARLYZ HEALS and\n"
 	.string "ANTIDOTES.\p"
-	.string "Just in case I run into SHROOMISH\n"
+	.string "Just in case I run into ARESDRAMON\n"
 	.string "in PETALBURG WOODS.$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:

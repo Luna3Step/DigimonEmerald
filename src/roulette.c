@@ -126,7 +126,7 @@
 #define PALTAG_BALL_COUNTER 3
 #define PALTAG_CURSOR 4
 #define PALTAG_INTERFACE 5
-#define PALTAG_SHROOMISH 6
+#define PALTAG_ARESDRAMON 6
 #define PALTAG_ALLOMON_X   7
 #define PALTAG_GRID_ICONS 8
 #define PALTAG_WYNAUT    9
@@ -144,16 +144,16 @@
 #define GFXTAG_BALL_COUNTER 10
 #define GFXTAG_CURSOR 11
 #define GFXTAG_BALL 12
-#define GFXTAG_SHROOMISH_ALLOMON_X 13
+#define GFXTAG_ARESDRAMON_ALLOMON_X 13
 #define GFXTAG_SHADOW 14
 
 // 2 different Roulette tables with 2 different rates (normal vs service day special)
 // & 1 gets which table, >> 7 gets if ROULETTE_SPECIAL_RATE is set
 #define GET_MIN_BET_ID(var)(((var) & 1) + (((var) >> 7) * 2))
 
-// Having Shroomish or Allomon_x in the party can make rolls more consistent in length
+// Having Aresdramon or Allomon_x in the party can make rolls more consistent in length
 // It also increases the likelihood that, if they appear to unstick a ball, they'll move it to a slot the player bet on
-#define HAS_SHROOMISH  (1 << 0)
+#define HAS_ARESDRAMON  (1 << 0)
 #define HAS_ALLOMON_X    (1 << 1)
 
 #define NO_DELAY 0xFFFF
@@ -229,7 +229,7 @@ enum {
     SPR_GRID_BALL_4,
     SPR_GRID_BALL_5,
     SPR_GRID_BALL_6,
-    SPR_CLEAR_MON, // Shroomish/Allomon_x
+    SPR_CLEAR_MON, // Aresdramon/Allomon_x
     SPR_CLEAR_MON_SHADOW_1,
     SPR_CLEAR_MON_SHADOW_2,
     SPR_58, // Here below unused
@@ -250,7 +250,7 @@ enum {
 #define SPR_COLOR_HEADERS SPR_COLOR_HEADER_1
 #define SPR_GRID_BALLS SPR_GRID_BALL_1
 
-struct Shroomish
+struct Aresdramon
 {
     u16 startAngle;
     u16 dropAngle;
@@ -271,7 +271,7 @@ struct RouletteTable
     u8 randDistanceLow;
     u8 wheelSpeed;
     u8 wheelDelay;
-    struct Shroomish shroomish;
+    struct Aresdramon aresdramon;
     struct Allomon_x allomon_x;
     u16 ballSpeed;
     u16 baseTravelDist;
@@ -304,7 +304,7 @@ struct RouletteSlot
 static EWRAM_DATA struct Roulette
 {
     u8 unk0; // Never read
-    u8 shroomishShadowTimer;
+    u8 aresdramonShadowTimer;
     u8 partySpeciesFlags;
     bool8 useAllomon_x:5;
     bool8 ballStuck:1;
@@ -329,7 +329,7 @@ static EWRAM_DATA struct Roulette
     s16 selectionRectDrawState;
     s16 updateGridHighlight;
     struct OamMatrix wheelRotation;
-    u16 shroomishShadowAlpha;
+    u16 aresdramonShadowAlpha;
     struct Sprite *ball;
     u8 spriteIds[MAX_SPRITES];
     u8 curBallSpriteId;
@@ -410,10 +410,10 @@ static void SpriteCB_WheelCenter(struct Sprite *);
 static void CreateWheelBallSprites(void);
 static void HideWheelBalls(void);
 static void SpriteCB_RollBall_Start(struct Sprite *);
-static void CreateShroomishSprite(struct Sprite *);
+static void CreateAresdramonSprite(struct Sprite *);
 static void CreateAllomon_xSprite(struct Sprite *);
 static void SetBallStuck(struct Sprite *);
-static void SpriteCB_Shroomish(struct Sprite *);
+static void SpriteCB_Aresdramon(struct Sprite *);
 static void SpriteCB_Allomon_x(struct Sprite *);
 
 static const u16 sWheel_Pal[] = INCBIN_U16("graphics/roulette/wheel.gbapal"); // also palette for grid
@@ -818,7 +818,7 @@ static const struct RouletteTable sRouletteTables[] =
         .randDistanceLow = DEGREES_PER_SLOT,
         .wheelSpeed = 1,
         .wheelDelay = 1,
-        .shroomish = {
+        .aresdramon = {
             .startAngle = 45,
             .dropAngle = 30,
             .fallSlowdown = 1,
@@ -839,7 +839,7 @@ static const struct RouletteTable sRouletteTables[] =
         .randDistanceLow = DEGREES_PER_SLOT / 2,
         .wheelSpeed = 1,
         .wheelDelay = 0,
-        .shroomish = {
+        .aresdramon = {
             .startAngle = 75,
             .dropAngle = 60,
             .fallSlowdown = 2,
@@ -1055,8 +1055,8 @@ static void VBlankCB_Roulette(void)
     UpdateWheelPosition();
     SetGpuReg(REG_OFFSET_BG1HOFS, 0x200 - sRoulette->gridX);
 
-    if (sRoulette->shroomishShadowTimer)
-        SetGpuReg(REG_OFFSET_BLDALPHA, sRoulette->shroomishShadowAlpha);
+    if (sRoulette->aresdramonShadowTimer)
+        SetGpuReg(REG_OFFSET_BLDALPHA, sRoulette->aresdramonShadowAlpha);
 
     if (sRoulette->updateGridHighlight)
     {
@@ -1147,7 +1147,7 @@ static void InitRouletteTableData(void)
         switch (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2))
         {
         case SPECIES_ARESDRAMON:
-            sRoulette->partySpeciesFlags |= HAS_SHROOMISH;
+            sRoulette->partySpeciesFlags |= HAS_ARESDRAMON;
             break;
         case SPECIES_ALLOMON_X:
             sRoulette->partySpeciesFlags |= HAS_ALLOMON_X;
@@ -1553,12 +1553,12 @@ static void Task_SlideGridOffscreen(u8 taskId)
 // Each roll a random value is generated to add onto this distance
 // Half the value returned by this function is the max distance that can be added on per roll
 // i.e. the lower this value is, the closer the roll will be to a consistent distance
-// Odds of a lower value increase as play continues, if the player has Shroomish and/or Allomon_x in the party, and dependent on the time
+// Odds of a lower value increase as play continues, if the player has Aresdramon and/or Allomon_x in the party, and dependent on the time
 static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
 {
     switch (sRoulette->partySpeciesFlags)
     {
-    case HAS_SHROOMISH:
+    case HAS_ARESDRAMON:
     case HAS_ALLOMON_X:
         // one of the two is in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 10)
@@ -1577,7 +1577,7 @@ static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
             return sRouletteTables[sRoulette->tableId].randDistanceLow;
         }
         break;
-    case HAS_SHROOMISH | HAS_ALLOMON_X:
+    case HAS_ARESDRAMON | HAS_ALLOMON_X:
         // both are in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 11)
         {
@@ -2328,7 +2328,7 @@ static const u16 sBall_Pal[] = INCBIN_U16("graphics/roulette/ball.gbapal");
 static const u16 sBallCounter_Pal[] = INCBIN_U16("graphics/roulette/ball_counter.gbapal");
 static const u16 sCursor_Pal[] = INCBIN_U16("graphics/roulette/cursor.gbapal");
 static const u16 sCredit_Pal[] = INCBIN_U16("graphics/roulette/credit.gbapal");
-static const u16 sShroomish_Pal[] = INCBIN_U16("graphics/roulette/shroomish.gbapal");
+static const u16 sAresdramon_Pal[] = INCBIN_U16("graphics/roulette/aresdramon.gbapal");
 static const u16 sAllomon_x_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
 static const u16 sGridIcons_Pal[] = INCBIN_U16("graphics/roulette/grid_icons.gbapal");
 static const u16 sWynaut_Pal[] = INCBIN_U16("graphics/roulette/wynaut.gbapal");
@@ -2341,7 +2341,7 @@ static const u16 sUnused3_Pal[] = INCBIN_U16("graphics/roulette/unused_3.gbapal"
 static const u16 sUnused4_Pal[] = INCBIN_U16("graphics/roulette/unused_4.gbapal");
 static const u32 sBall_Gfx[] = INCBIN_U32("graphics/roulette/ball.4bpp.lz");
 static const u32 sBallCounter_Gfx[] = INCBIN_U32("graphics/roulette/ball_counter.4bpp.lz");
-static const u32 sShroomishAllomon_x_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
+static const u32 sAresdramonAllomon_x_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
 static const u32 sGridIcons_Gfx[] = INCBIN_U32("graphics/roulette/grid_icons.4bpp.lz");
 static const u32 sWheelIcons_Gfx[] = INCBIN_U32("graphics/roulette/wheel_icons.4bpp.lz");
 static const u32 sShadow_Gfx[] = INCBIN_U32("graphics/roulette/shadow.4bpp.lz");
@@ -2354,7 +2354,7 @@ static const struct SpritePalette sSpritePalettes[] =
     { .data = sBallCounter_Pal, .tag = PALTAG_BALL_COUNTER },
     { .data = sCursor_Pal,      .tag = PALTAG_CURSOR },
     { .data = sCredit_Pal,      .tag = PALTAG_INTERFACE },
-    { .data = sShroomish_Pal,   .tag = PALTAG_SHROOMISH },
+    { .data = sAresdramon_Pal,   .tag = PALTAG_ARESDRAMON },
     { .data = sAllomon_x_Pal,     .tag = PALTAG_ALLOMON_X },
     { .data = sGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
     { .data = sWynaut_Pal,      .tag = PALTAG_WYNAUT },
@@ -3129,7 +3129,7 @@ static const struct SpriteTemplate sSpriteTemplate_WheelCenter =
     .callback = SpriteCB_WheelCenter
 };
 
-static const struct OamData sOam_Shroomish =
+static const struct OamData sOam_Aresdramon =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3147,14 +3147,14 @@ static const struct OamData sOam_Allomon_x =
     .priority = 2,
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ShroomishAllomon_x =
+static const struct CompressedSpriteSheet sSpriteSheet_AresdramonAllomon_x =
 {
-    .data = sShroomishAllomon_x_Gfx,
+    .data = sAresdramonAllomon_x_Gfx,
     .size = 0xE00,
-    .tag = GFXTAG_SHROOMISH_ALLOMON_X
+    .tag = GFXTAG_ARESDRAMON_ALLOMON_X
 };
 
-static const union AnimCmd sAnim_Shroomish[] =
+static const union AnimCmd sAnim_Aresdramon[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(16, 6),
@@ -3205,9 +3205,9 @@ static const union AnimCmd sAnim_Allomon_x_FlapFast_Right[] =
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd *const sAnims_Shroomish[] =
+static const union AnimCmd *const sAnims_Aresdramon[] =
 {
-    sAnim_Shroomish
+    sAnim_Aresdramon
 };
 
 static const union AnimCmd *const sAnims_Allomon_x[] =
@@ -3220,12 +3220,12 @@ static const union AnimCmd *const sAnims_Allomon_x[] =
     sAnim_Allomon_x_FlapFast_Right
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Shroomish =
+static const struct SpriteTemplate sSpriteTemplate_Aresdramon =
 {
-    .tileTag = GFXTAG_SHROOMISH_ALLOMON_X,
-    .paletteTag = PALTAG_SHROOMISH,
-    .oam = &sOam_Shroomish,
-    .anims = sAnims_Shroomish,
+    .tileTag = GFXTAG_ARESDRAMON_ALLOMON_X,
+    .paletteTag = PALTAG_ARESDRAMON,
+    .oam = &sOam_Aresdramon,
+    .anims = sAnims_Aresdramon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy
@@ -3233,7 +3233,7 @@ static const struct SpriteTemplate sSpriteTemplate_Shroomish =
 
 static const struct SpriteTemplate sSpriteTemplate_Allomon_x =
 {
-    .tileTag = GFXTAG_SHROOMISH_ALLOMON_X,
+    .tileTag = GFXTAG_ARESDRAMON_ALLOMON_X,
     .paletteTag = PALTAG_ALLOMON_X,
     .oam = &sOam_Allomon_x,
     .anims = sAnims_Allomon_x,
@@ -3242,7 +3242,7 @@ static const struct SpriteTemplate sSpriteTemplate_Allomon_x =
     .callback = SpriteCB_Allomon_x
 };
 
-static const struct OamData sOam_ShroomishBallShadow =
+static const struct OamData sOam_AresdramonBallShadow =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3251,7 +3251,7 @@ static const struct OamData sOam_ShroomishBallShadow =
     .priority = 2,
 };
 
-static const struct OamData sOam_ShroomishShadow =
+static const struct OamData sOam_AresdramonShadow =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3313,7 +3313,7 @@ static const union AffineAnimCmd *const sAffineAnims_Unused4[] =
     sAffineAnim_Unused4
 };
 
-static const union AnimCmd sAnim_ShroomishBallShadow[] =
+static const union AnimCmd sAnim_AresdramonBallShadow[] =
 {
     ANIMCMD_FRAME(0, 0),
     ANIMCMD_END
@@ -3325,9 +3325,9 @@ static const union AnimCmd sAnim_UnstickMonShadow[] =
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_ShroomishBallShadow[] =
+static const union AnimCmd *const sAnims_AresdramonBallShadow[] =
 {
-    sAnim_ShroomishBallShadow
+    sAnim_AresdramonBallShadow
 };
 
 static const union AnimCmd *const sAnims_UnstickMonShadow[] =
@@ -3335,27 +3335,27 @@ static const union AnimCmd *const sAnims_UnstickMonShadow[] =
     sAnim_UnstickMonShadow
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ShroomishShadow[] =
+static const struct SpriteTemplate sSpriteTemplate_AresdramonShadow[] =
 {
     // Ball's shadow as it flies up
     {
         .tileTag = GFXTAG_SHADOW,
         .paletteTag = PALTAG_SHADOW,
-        .oam = &sOam_ShroomishBallShadow,
-        .anims = sAnims_ShroomishBallShadow,
+        .oam = &sOam_AresdramonBallShadow,
+        .anims = sAnims_AresdramonBallShadow,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCallbackDummy
     },
-    // Shroomish's Shadow
+    // Aresdramon's Shadow
     {
         .tileTag = GFXTAG_SHADOW,
         .paletteTag = PALTAG_SHADOW,
-        .oam = &sOam_ShroomishShadow,
+        .oam = &sOam_AresdramonShadow,
         .anims = sAnims_UnstickMonShadow,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
-        .callback = SpriteCB_Shroomish
+        .callback = SpriteCB_Aresdramon
     }
 };
 
@@ -3488,14 +3488,14 @@ static void LoadOrFreeMiscSpritePalettesAndSheets(bool8 free)
         FreeAllSpritePalettes();
         LoadSpritePalettes(sSpritePalettes);
         LoadCompressedSpriteSheet(&sSpriteSheet_Ball);
-        LoadCompressedSpriteSheet(&sSpriteSheet_ShroomishAllomon_x);
+        LoadCompressedSpriteSheet(&sSpriteSheet_AresdramonAllomon_x);
         LoadCompressedSpriteSheet(&sSpriteSheet_Shadow);
     }
     else
     {
         // Unused
         FreeSpriteTilesByTag(GFXTAG_SHADOW);
-        FreeSpriteTilesByTag(GFXTAG_SHROOMISH_ALLOMON_X);
+        FreeSpriteTilesByTag(GFXTAG_ARESDRAMON_ALLOMON_X);
         FreeSpriteTilesByTag(GFXTAG_BALL);
         FreeAllSpritePalettes();
     }
@@ -4018,7 +4018,7 @@ static void SpriteCB_BallLandInSlot(struct Sprite *sprite)
     sprite->y2 += gSpriteCoordOffsetY;
 }
 
-static void SpriteCB_UnstickBall_ShroomishBallFall(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_AresdramonBallFall(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
     sprite->data[2]++;
@@ -4050,7 +4050,7 @@ static void SpriteCB_UnstickBall_ShroomishBallFall(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_Aresdramon(struct Sprite *sprite)
 {
     f32 slotOffset, ballFallDist, ballFallSpeed;
     UpdateBallPos(sprite);
@@ -4062,7 +4062,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
         {
             slotOffset = sprite->data[7];
             ballFallDist = (slotOffset * sRouletteTables[sRoulette->tableId].randDistanceHigh + (sRouletteTables[sRoulette->tableId].randDistanceLow - 1));
-            ballFallSpeed = (slotOffset / sRouletteTables[sRoulette->tableId].shroomish.fallSlowdown);
+            ballFallSpeed = (slotOffset / sRouletteTables[sRoulette->tableId].aresdramon.fallSlowdown);
         }
         else
         {
@@ -4074,7 +4074,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
         {
             slotOffset = sprite->data[7];
             ballFallDist = (slotOffset * sRouletteTables[sRoulette->tableId].randDistanceHigh + (sRouletteTables[sRoulette->tableId].randDistanceLow - 1));
-            ballFallSpeed = -(slotOffset / sRouletteTables[sRoulette->tableId].shroomish.fallSlowdown);
+            ballFallSpeed = -(slotOffset / sRouletteTables[sRoulette->tableId].aresdramon.fallSlowdown);
         }
         else
         {
@@ -4092,7 +4092,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
     sprite->animNum = 0;
     sprite->animBeginning = TRUE;
     sprite->animEnded = FALSE;
-    sprite->callback = SpriteCB_UnstickBall_ShroomishBallFall;
+    sprite->callback = SpriteCB_UnstickBall_AresdramonBallFall;
     sprite->data[2] = 0;
 }
 
@@ -4166,8 +4166,8 @@ static void SpriteCB_UnstickBall_Allomon_x(struct Sprite *sprite)
     }
 }
 
-// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Shroomish/Allomon_x
-// For what Shroomish/Allomon_x do during this sequence, see SpriteCB_Shroomish / SpriteCB_Allomon_x
+// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Aresdramon/Allomon_x
+// For what Aresdramon/Allomon_x do during this sequence, see SpriteCB_Aresdramon / SpriteCB_Allomon_x
 static void SpriteCB_UnstickBall(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
@@ -4175,8 +4175,8 @@ static void SpriteCB_UnstickBall(struct Sprite *sprite)
     {
     default:
     case FALSE:
-        CreateShroomishSprite(sprite);
-        sprite->callback = SpriteCB_UnstickBall_Shroomish;
+        CreateAresdramonSprite(sprite);
+        sprite->callback = SpriteCB_UnstickBall_Aresdramon;
         break;
     case TRUE:
         CreateAllomon_xSprite(sprite);
@@ -4203,7 +4203,7 @@ static void SpriteCB_RollBall_TryLandAdjacent(struct Sprite *sprite)
         }
         else
         {
-            // Ball is stuck, need Shroomish/Allomon_x to clear ball
+            // Ball is stuck, need Aresdramon/Allomon_x to clear ball
             sprite->animPaused = TRUE;
             m4aSongNumStart(SE_BALL_BOUNCE_1);
             SetBallStuck(sprite);
@@ -4340,12 +4340,12 @@ static void SpriteCB_RollBall_Start(struct Sprite *sprite)
     sprite->callback = SpriteCB_RollBall_Fast;
 }
 
-// Sprite data for Shroomish / its shadows
+// Sprite data for Aresdramon / its shadows
 #define sMonSpriteId        data[4]
 #define sBallShadowSpriteId data[5]
 #define sMonShadowSpriteId  data[6]
 
-static void CreateShroomishSprite(struct Sprite *ball)
+static void CreateAresdramonSprite(struct Sprite *ball)
 {
     u16 t;
     u8 i;
@@ -4357,9 +4357,9 @@ static void CreateShroomishSprite(struct Sprite *ball)
 
     t = ball->data[7] - 2;
     roulette = sRoulette;  // Unnecessary, needed to match
-    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Shroomish, 36, -12, 50);
-    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_ShroomishShadow[0], coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 59);
-    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2] = CreateSprite(&sSpriteTemplate_ShroomishShadow[1], 36, 140, 51);
+    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Aresdramon, 36, -12, 50);
+    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_AresdramonShadow[0], coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 59);
+    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2] = CreateSprite(&sSpriteTemplate_AresdramonShadow[1], 36, 140, 51);
     gSprites[sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2]].oam.objMode = ST_OAM_OBJ_BLEND;
     for (i = 0; i < 3; i++)
     {
@@ -4428,7 +4428,7 @@ static void SetBallStuck(struct Sprite *sprite)
     angle = (sRoulette->tableId * DEGREES_PER_SLOT + 33) + (1 - sRoulette->useAllomon_x) * 15;
 
     // Determine which quadrant the ball got stuck in
-    // Use either Shroomish or Allomon_x to clear the ball depending on where it's stuck
+    // Use either Aresdramon or Allomon_x to clear the ball depending on where it's stuck
     for (i = 0; i < 4; i++)
     {
         if (angle < sprite->sBallAngle && sprite->sBallAngle <= angle + 90)
@@ -4482,7 +4482,7 @@ static void SetBallStuck(struct Sprite *sprite)
     // The below slot ids are relative to the slot the ball got stuck on
     if ((sRoulette->useAllomon_x + 1) & sRoulette->partySpeciesFlags)
     {
-        // If the player has the corresponding pokemon in their party (HAS_SHROOMISH or HAS_ALLOMON_X),
+        // If the player has the corresponding pokemon in their party (HAS_ARESDRAMON or HAS_ALLOMON_X),
         // there's a 75% chance that the ball will be moved to a spot they bet on
         // assuming it was one of the slots identified as a candidate
         if (betSlotId && (rand % 256) < 192)
@@ -4498,7 +4498,7 @@ static void SetBallStuck(struct Sprite *sprite)
     sprite->callback = SpriteCB_UnstickBall;
 }
 
-static const u16 sShroomishShadowAlphas[] = {
+static const u16 sAresdramonShadowAlphas[] = {
     0x907,
     0x808,
     0x709,
@@ -4511,7 +4511,7 @@ static const u16 sShroomishShadowAlphas[] = {
     0x010,
 };
 
-static void SpriteCB_ShroomishExit(struct Sprite *sprite)
+static void SpriteCB_AresdramonExit(struct Sprite *sprite)
 {
     // Delay for screen shaking, then exit left
     if (sprite->data[1]++ >= sprite->data[3])
@@ -4522,14 +4522,14 @@ static void SpriteCB_ShroomishExit(struct Sprite *sprite)
             if (!sRoulette->ballUnstuck)
                 sRoulette->ballUnstuck = TRUE;
             DestroySprite(sprite);
-            sRoulette->shroomishShadowTimer = 0;
-            sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[0];
+            sRoulette->aresdramonShadowTimer = 0;
+            sRoulette->aresdramonShadowAlpha = sAresdramonShadowAlphas[0];
         }
     }
 }
 
-// Handles both the screen shake and ball shadow effect for when Shroomish unsticks the ball
-static void SpriteCB_ShroomishShakeScreen(struct Sprite *sprite)
+// Handles both the screen shake and ball shadow effect for when Aresdramon unsticks the ball
+static void SpriteCB_AresdramonShakeScreen(struct Sprite *sprite)
 {
     int screenShakeIdx;
     u16 screenShakeOffsets[][4] = {
@@ -4558,71 +4558,71 @@ static void SpriteCB_ShroomishShakeScreen(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_ShroomishFall(struct Sprite *sprite)
+static void SpriteCB_AresdramonFall(struct Sprite *sprite)
 {
     f32 timer;
     sprite->data[1]++;
     timer = sprite->data[1];
     sprite->y2 = timer * 0.039f * timer;
-    sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[(sRoulette->shroomishShadowTimer - 1) / 2];
-    if (sRoulette->shroomishShadowTimer < ARRAY_COUNT(sShroomishShadowAlphas) * 2 - 1)
-        sRoulette->shroomishShadowTimer++;
+    sRoulette->aresdramonShadowAlpha = sAresdramonShadowAlphas[(sRoulette->aresdramonShadowTimer - 1) / 2];
+    if (sRoulette->aresdramonShadowTimer < ARRAY_COUNT(sAresdramonShadowAlphas) * 2 - 1)
+        sRoulette->aresdramonShadowTimer++;
     if (sprite->data[1] > 60)
     {
         sprite->data[1] = 0;
-        sprite->callback = SpriteCB_ShroomishExit;
-        gSprites[sprite->sMonShadowSpriteId].callback  = SpriteCB_ShroomishExit;
+        sprite->callback = SpriteCB_AresdramonExit;
+        gSprites[sprite->sMonShadowSpriteId].callback  = SpriteCB_AresdramonExit;
         gSprites[sprite->sMonShadowSpriteId].data[1] = -2;
         gSprites[sprite->sBallShadowSpriteId].invisible = FALSE;
-        gSprites[sprite->sBallShadowSpriteId].callback  = SpriteCB_ShroomishShakeScreen;
+        gSprites[sprite->sBallShadowSpriteId].callback  = SpriteCB_AresdramonShakeScreen;
         m4aSongNumStart(SE_M_STRENGTH);
     }
 }
 
-static void SpriteCB_Shroomish(struct Sprite *sprite)
+static void SpriteCB_Aresdramon(struct Sprite *sprite)
 {
     if (sprite->data[7] == 0)
     {
         // Wait for the ball to be a specific angle (or its 180 degree opposite) specified by the table
-        // Once it is, reveal the shadow for Shroomish falling in
+        // Once it is, reveal the shadow for Aresdramon falling in
         if (!sRoulette->ball->sStuckOnWheelLeft)
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.startAngle)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].aresdramon.startAngle)
                 return;
         }
         else
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.startAngle + 180)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].aresdramon.startAngle + 180)
                 return;
         }
 
         sprite->invisible = FALSE;
         sprite->data[7]++;
         m4aSongNumStart(SE_FALL);
-        sRoulette->shroomishShadowTimer = 1;
-        sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[0];
+        sRoulette->aresdramonShadowTimer = 1;
+        sRoulette->aresdramonShadowAlpha = sAresdramonShadowAlphas[0];
     }
     else
     {
-        sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[(sRoulette->shroomishShadowTimer - 1) / 2];
-        if (sRoulette->shroomishShadowTimer < 19)
-            sRoulette->shroomishShadowTimer++;
+        sRoulette->aresdramonShadowAlpha = sAresdramonShadowAlphas[(sRoulette->aresdramonShadowTimer - 1) / 2];
+        if (sRoulette->aresdramonShadowTimer < 19)
+            sRoulette->aresdramonShadowTimer++;
 
         // Wait for the ball to be a specific angle (or its 180 degree opposite) specified by the table
-        // Once it is, have Shroomish begin to fall in
+        // Once it is, have Aresdramon begin to fall in
         // On both tables this angle is 15 degrees off the "start" angle
         if (!sRoulette->ball->sStuckOnWheelLeft)
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.dropAngle)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].aresdramon.dropAngle)
                 return;
         }
         else
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.dropAngle + 180)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].aresdramon.dropAngle + 180)
                 return;
         }
 
-        gSprites[sprite->sMonSpriteId].callback  = SpriteCB_ShroomishFall;
+        gSprites[sprite->sMonSpriteId].callback  = SpriteCB_AresdramonFall;
         gSprites[sprite->sMonSpriteId].invisible = FALSE;
         sprite->callback  = &SpriteCallbackDummy;
         sprite->data[7] = 0;
