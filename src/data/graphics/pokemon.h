@@ -2060,12 +2060,12 @@ const u32 gMonShinyPalette_Claydol[] = INCBIN_U32("graphics/pokemon/claydol/shin
 const u8 gMonIcon_Claydol[] = INCBIN_U8("graphics/pokemon/claydol/icon.4bpp");
 const u8 gMonFootprint_Claydol[] = INCBIN_U8("graphics/pokemon/claydol/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Nosepass[] = INCBIN_U32("graphics/pokemon/nosepass/front.4bpp.lz");
-const u32 gMonPalette_Nosepass[] = INCBIN_U32("graphics/pokemon/nosepass/normal.gbapal.lz");
-const u32 gMonBackPic_Nosepass[] = INCBIN_U32("graphics/pokemon/nosepass/back.4bpp.lz");
-const u32 gMonShinyPalette_Nosepass[] = INCBIN_U32("graphics/pokemon/nosepass/shiny.gbapal.lz");
-const u8 gMonIcon_Nosepass[] = INCBIN_U8("graphics/pokemon/nosepass/icon.4bpp");
-const u8 gMonFootprint_Nosepass[] = INCBIN_U8("graphics/pokemon/nosepass/footprint.1bpp");
+const u32 gMonStillFrontPic_Biothunmon[] = INCBIN_U32("graphics/pokemon/biothunmon/front.4bpp.lz");
+const u32 gMonPalette_Biothunmon[] = INCBIN_U32("graphics/pokemon/biothunmon/normal.gbapal.lz");
+const u32 gMonBackPic_Biothunmon[] = INCBIN_U32("graphics/pokemon/biothunmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Biothunmon[] = INCBIN_U32("graphics/pokemon/biothunmon/shiny.gbapal.lz");
+const u8 gMonIcon_Biothunmon[] = INCBIN_U8("graphics/pokemon/biothunmon/icon.4bpp");
+const u8 gMonFootprint_Biothunmon[] = INCBIN_U8("graphics/pokemon/biothunmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/front.4bpp.lz");
 const u32 gMonPalette_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/normal.gbapal.lz");

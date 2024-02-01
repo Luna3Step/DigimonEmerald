@@ -1611,8 +1611,8 @@ Cry_Bioquetmon::
 	.incbin "sound/direct_sound_samples/cries/bioquetmon.bin"
 
 	.align 2
-Cry_Nosepass::
-	.incbin "sound/direct_sound_samples/cries/nosepass.bin"
+Cry_Biothunmon::
+	.incbin "sound/direct_sound_samples/cries/biothunmon.bin"
 
 	.align 2
 Cry_Glalie::
