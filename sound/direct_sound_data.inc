@@ -1591,8 +1591,8 @@ Cry_Baboonmon::
 	.incbin "sound/direct_sound_samples/cries/baboonmon.bin"
 
 	.align 2
-Cry_Nincada::
-	.incbin "sound/direct_sound_samples/cries/nincada.bin"
+Cry_Bakemon::
+	.incbin "sound/direct_sound_samples/cries/bakemon.bin"
 
 	.align 2
 Cry_Ninjask::

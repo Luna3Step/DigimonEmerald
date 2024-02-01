@@ -22,8 +22,8 @@ gTrickHouse_Mechadoll_Zenimon::
 gTrickHouse_Mechadoll_Icebotamon::
 	.string "ICEBOTAMON$"
 
-gTrickHouse_Mechadoll_Nincada::
-	.string "NINCADA$"
+gTrickHouse_Mechadoll_Bakemon::
+	.string "BAKEMON$"
 
 gTrickHouse_Mechadoll_Apemon::
 	.string "APEMON$"

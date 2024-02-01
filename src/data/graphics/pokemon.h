@@ -1927,12 +1927,12 @@ const u32 gMonShinyPalette_Allomon[] = INCBIN_U32("graphics/pokemon/allomon/shin
 const u8 gMonIcon_Allomon[] = INCBIN_U8("graphics/pokemon/allomon/icon.4bpp");
 const u8 gMonFootprint_Allomon[] = INCBIN_U8("graphics/pokemon/allomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Nincada[] = INCBIN_U32("graphics/pokemon/nincada/front.4bpp.lz");
-const u32 gMonPalette_Nincada[] = INCBIN_U32("graphics/pokemon/nincada/normal.gbapal.lz");
-const u32 gMonBackPic_Nincada[] = INCBIN_U32("graphics/pokemon/nincada/back.4bpp.lz");
-const u32 gMonShinyPalette_Nincada[] = INCBIN_U32("graphics/pokemon/nincada/shiny.gbapal.lz");
-const u8 gMonIcon_Nincada[] = INCBIN_U8("graphics/pokemon/nincada/icon.4bpp");
-const u8 gMonFootprint_Nincada[] = INCBIN_U8("graphics/pokemon/nincada/footprint.1bpp");
+const u32 gMonStillFrontPic_Bakemon[] = INCBIN_U32("graphics/pokemon/bakemon/front.4bpp.lz");
+const u32 gMonPalette_Bakemon[] = INCBIN_U32("graphics/pokemon/bakemon/normal.gbapal.lz");
+const u32 gMonBackPic_Bakemon[] = INCBIN_U32("graphics/pokemon/bakemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bakemon[] = INCBIN_U32("graphics/pokemon/bakemon/shiny.gbapal.lz");
+const u8 gMonIcon_Bakemon[] = INCBIN_U8("graphics/pokemon/bakemon/icon.4bpp");
+const u8 gMonFootprint_Bakemon[] = INCBIN_U8("graphics/pokemon/bakemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Ninjask[] = INCBIN_U32("graphics/pokemon/ninjask/front.4bpp.lz");
 const u32 gMonPalette_Ninjask[] = INCBIN_U32("graphics/pokemon/ninjask/normal.gbapal.lz");
