@@ -3623,7 +3623,7 @@ static const union AnimCmd sAnim_Flygon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Makuhita_1[] =
+static const union AnimCmd sAnim_Betgamamon_1[] =
 {
     ANIMCMD_FRAME(0, 7),
     ANIMCMD_FRAME(0, 10),
@@ -5141,7 +5141,7 @@ SINGLE_ANIMATION(Sharpedo);
 SINGLE_ANIMATION(Trapinch);
 SINGLE_ANIMATION(Vibrava);
 SINGLE_ANIMATION(Flygon);
-SINGLE_ANIMATION(Makuhita);
+SINGLE_ANIMATION(Betgamamon);
 SINGLE_ANIMATION(Hariyama);
 SINGLE_ANIMATION(Electrike);
 SINGLE_ANIMATION(Manectric);
@@ -5589,7 +5589,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_COREDRAMON_GREEN]    = sAnims_Trapinch,
     [SPECIES_CYCLONEMON]     = sAnims_Vibrava,
     [SPECIES_DAMEMON_FUSION]      = sAnims_Flygon,
-    [SPECIES_BETGAMAMON]    = sAnims_Makuhita,
+    [SPECIES_BETGAMAMON]    = sAnims_Betgamamon,
     [SPECIES_BIOQUETMON]    = sAnims_Hariyama,
     [SPECIES_BOARMON]   = sAnims_Electrike,
     [SPECIES_BOMNANIMON]   = sAnims_Manectric,

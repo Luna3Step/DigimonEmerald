@@ -1603,8 +1603,8 @@ Cry_Baluchimon::
 	.incbin "sound/direct_sound_samples/cries/baluchimon.bin"
 
 	.align 2
-Cry_Makuhita::
-	.incbin "sound/direct_sound_samples/cries/makuhita.bin"
+Cry_Betgamamon::
+	.incbin "sound/direct_sound_samples/cries/betgamamon.bin"
 
 	.align 2
 Cry_Hariyama::

@@ -2165,12 +2165,12 @@ const u32 gMonShinyPalette_Flygon[] = INCBIN_U32("graphics/pokemon/flygon/shiny.
 const u8 gMonIcon_Flygon[] = INCBIN_U8("graphics/pokemon/flygon/icon.4bpp");
 const u8 gMonFootprint_Flygon[] = INCBIN_U8("graphics/pokemon/flygon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Makuhita[] = INCBIN_U32("graphics/pokemon/makuhita/front.4bpp.lz");
-const u32 gMonPalette_Makuhita[] = INCBIN_U32("graphics/pokemon/makuhita/normal.gbapal.lz");
-const u32 gMonBackPic_Makuhita[] = INCBIN_U32("graphics/pokemon/makuhita/back.4bpp.lz");
-const u32 gMonShinyPalette_Makuhita[] = INCBIN_U32("graphics/pokemon/makuhita/shiny.gbapal.lz");
-const u8 gMonIcon_Makuhita[] = INCBIN_U8("graphics/pokemon/makuhita/icon.4bpp");
-const u8 gMonFootprint_Makuhita[] = INCBIN_U8("graphics/pokemon/makuhita/footprint.1bpp");
+const u32 gMonStillFrontPic_Betgamamon[] = INCBIN_U32("graphics/pokemon/betgamamon/front.4bpp.lz");
+const u32 gMonPalette_Betgamamon[] = INCBIN_U32("graphics/pokemon/betgamamon/normal.gbapal.lz");
+const u32 gMonBackPic_Betgamamon[] = INCBIN_U32("graphics/pokemon/betgamamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Betgamamon[] = INCBIN_U32("graphics/pokemon/betgamamon/shiny.gbapal.lz");
+const u8 gMonIcon_Betgamamon[] = INCBIN_U8("graphics/pokemon/betgamamon/icon.4bpp");
+const u8 gMonFootprint_Betgamamon[] = INCBIN_U8("graphics/pokemon/betgamamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/front.4bpp.lz");
 const u32 gMonPalette_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/normal.gbapal.lz");

@@ -304,7 +304,7 @@ gCryTable::
 	cry Cry_Bakemon
 	cry Cry_Balistamon
 	cry Cry_Baluchimon
-	cry Cry_Makuhita
+	cry Cry_Betgamamon
 	cry Cry_Hariyama
 	cry Cry_Nosepass
 	cry Cry_Glalie
@@ -695,7 +695,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Bakemon
 	cry_reverse Cry_Balistamon
 	cry_reverse Cry_Baluchimon
-	cry_reverse Cry_Makuhita
+	cry_reverse Cry_Betgamamon
 	cry_reverse Cry_Hariyama
 	cry_reverse Cry_Nosepass
 	cry_reverse Cry_Glalie

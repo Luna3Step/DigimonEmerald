@@ -440,7 +440,7 @@ $(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/aresdramon.4bpp \
 $(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/wynaut.4bpp \
                                     $(ROULETTEGFXDIR)/azurill.4bpp \
                                     $(ROULETTEGFXDIR)/skitty.4bpp \
-                                    $(ROULETTEGFXDIR)/makuhita.4bpp
+                                    $(ROULETTEGFXDIR)/betgamamon.4bpp
 	@cat $^ >$@
 
 $(BATTRANSGFXDIR)/regis.4bpp: %.4bpp: %.png
