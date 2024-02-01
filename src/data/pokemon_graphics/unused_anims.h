@@ -30,7 +30,7 @@ static const union AnimCmd sUnusedAnim_Tentomon_4[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Marshtomp_1[] =
+static const union AnimCmd sUnusedAnim_Terriermon_assistant_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(1, 5),
@@ -41,7 +41,7 @@ static const union AnimCmd sUnusedAnim_Marshtomp_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Marshtomp_2[] =
+static const union AnimCmd sUnusedAnim_Terriermon_assistant_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(2, 12),
@@ -52,7 +52,7 @@ static const union AnimCmd sUnusedAnim_Marshtomp_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Marshtomp_3[] =
+static const union AnimCmd sUnusedAnim_Terriermon_assistant_3[] =
 {
     ANIMCMD_FRAME(0, 14),
     ANIMCMD_FRAME(2, 12),
@@ -1223,7 +1223,7 @@ static const union AnimCmd *const sUnusedAnims_Syakomon_x[] = {sAnim_GeneralFram
 static const union AnimCmd *const sUnusedAnims_Tapirmon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Tentomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Tentomon_1, sUnusedAnim_Tentomon_2, sUnusedAnim_Tentomon_3, sUnusedAnim_Tentomon_4};
 static const union AnimCmd *const sUnusedAnims_Terriermon[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Marshtomp[] = {sAnim_GeneralFrame0, sUnusedAnim_Marshtomp_1, sUnusedAnim_Marshtomp_2, sUnusedAnim_Marshtomp_3};
+static const union AnimCmd *const sUnusedAnims_Terriermon_assistant[] = {sAnim_GeneralFrame0, sUnusedAnim_Terriermon_assistant_1, sUnusedAnim_Terriermon_assistant_2, sUnusedAnim_Terriermon_assistant_3};
 static const union AnimCmd *const sUnusedAnims_Swampert[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Poochyena[] = {sAnim_GeneralFrame0, sUnusedAnim_Poochyena_1, sUnusedAnim_Poochyena_2};
 static const union AnimCmd *const sUnusedAnims_Mightyena[] = {sAnim_GeneralFrame0, sUnusedAnim_Mightyena_1};
@@ -1665,7 +1665,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_TAPIRMON] = sUnusedAnims_Tapirmon,
     [SPECIES_TENTOMON] = sUnusedAnims_Tentomon,
     [SPECIES_TERRIERMON] = sUnusedAnims_Terriermon,
-    [SPECIES_TERRIERMON_ASSISTANT] = sUnusedAnims_Marshtomp,
+    [SPECIES_TERRIERMON_ASSISTANT] = sUnusedAnims_Terriermon_assistant,
     [SPECIES_TERRIERMON_X] = sUnusedAnims_Swampert,
     [SPECIES_TINKERMON] = sUnusedAnims_Poochyena,
     [SPECIES_TINPET] = sUnusedAnims_Mightyena,

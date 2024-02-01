@@ -1495,8 +1495,8 @@ Cry_Terriermon::
 	.incbin "sound/direct_sound_samples/cries/terriermon.bin"
 
 	.align 2
-Cry_Marshtomp::
-	.incbin "sound/direct_sound_samples/cries/marshtomp.bin"
+Cry_Terriermon_assistant::
+	.incbin "sound/direct_sound_samples/cries/terriermon_assistant.bin"
 
 	.align 2
 Cry_Swampert::
