@@ -3805,7 +3805,7 @@ static const union AnimCmd sAnim_Solrock_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Azurill_1[] =
+static const union AnimCmd sAnim_Biostegmon_1[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(0, 12),
@@ -5156,7 +5156,7 @@ SINGLE_ANIMATION(Snorunt);
 SINGLE_ANIMATION(Glalie);
 DOUBLE_ANIMATION(Lunatone);
 DOUBLE_ANIMATION(Solrock);
-SINGLE_ANIMATION(Azurill);
+SINGLE_ANIMATION(Biostegmon);
 SINGLE_ANIMATION(Spoink);
 SINGLE_ANIMATION(Grumpig);
 SINGLE_ANIMATION(Plusle);
@@ -5604,7 +5604,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_EYESMON]      = sAnims_Glalie,
     [SPECIES_DECKDRAMON]    = sAnims_Lunatone,
     [SPECIES_DELTAMON]     = sAnims_Solrock,
-    [SPECIES_BIOSTEGMON]     = sAnims_Azurill,
+    [SPECIES_BIOSTEGMON]     = sAnims_Biostegmon,
     [SPECIES_CLOCKMON_FUSION]      = sAnims_Spoink,
     [SPECIES_COELAMON]     = sAnims_Grumpig,
     [SPECIES_BOOGIEMON]      = sAnims_Plusle,

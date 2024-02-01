@@ -96,7 +96,7 @@
 #define DECOR_WYNAUT_DOLL      92
 #define DECOR_BALTOY_DOLL      93
 #define DECOR_KECLEON_DOLL     94
-#define DECOR_AZURILL_DOLL     95
+#define DECOR_BIOSTEGMON_DOLL     95
 #define DECOR_SKITTY_DOLL      96
 #define DECOR_SWABLU_DOLL      97
 #define DECOR_GULPIN_DOLL      98

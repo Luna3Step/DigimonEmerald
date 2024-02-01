@@ -68,7 +68,7 @@ PacifidlogTown_House2_EventScript_ComeBackInXDays::
 	release
 	end
 
-PacifidlogTown_House2_EventScript_HappyAzurill::
+PacifidlogTown_House2_EventScript_HappyBiostegmon::
 	lock
 	faceplayer
 	waitse
@@ -79,7 +79,7 @@ PacifidlogTown_House2_EventScript_HappyAzurill::
 	release
 	end
 
-PacifidlogTown_House2_EventScript_UnhappyAzurill::
+PacifidlogTown_House2_EventScript_UnhappyBiostegmon::
 	lock
 	faceplayer
 	waitse
@@ -132,14 +132,14 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 	.string "your POKéMON.$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+	.string "BIOSTEGMON: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 	.string "It appears to be very friendly with the\n"
 	.string "TRAINER.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+	.string "BIOSTEGMON: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 	.string "It doesn't appear to like the TRAINER\n"

@@ -1435,8 +1435,8 @@ Cry_Zangoose::
 	.incbin "sound/direct_sound_samples/cries/zangoose.bin"
 
 	.align 2
-Cry_Azurill::
-	.incbin "sound/direct_sound_samples/cries/azurill.bin"
+Cry_Biostegmon::
+	.incbin "sound/direct_sound_samples/cries/biostegmon.bin"
 
 	.align 2
 Cry_Swablu::

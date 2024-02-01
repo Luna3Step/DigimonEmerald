@@ -55,7 +55,7 @@
 #define BIAS_REPLAY     (1 << 0)
 #define BIAS_CHERRY     (1 << 1)
 #define BIAS_ZUBAMON      (1 << 2)
-#define BIAS_AZURILL    (1 << 3)
+#define BIAS_BIOSTEGMON    (1 << 3)
 #define BIAS_POWER      (1 << 4)
 #define BIAS_REELTIME   (1 << 5)
 #define BIAS_MIXED_7    (1 << 6)
@@ -63,7 +63,7 @@
 
 #define BIAS_7       (BIAS_STRAIGHT_7 | BIAS_MIXED_7)
 #define BIAS_SPECIAL (BIAS_7 | BIAS_REELTIME)
-#define BIAS_REGULAR (BIAS_REPLAY | BIAS_CHERRY | BIAS_LOATAD | BIAS_AZURILL | BIAS_POWER)
+#define BIAS_REGULAR (BIAS_REPLAY | BIAS_CHERRY | BIAS_LOATAD | BIAS_BIOSTEGMON | BIAS_POWER)
 
 // The slot machine will try to manipulate the outcome by adding up to 4 extra
 // turns to the reel after you press stop.
@@ -76,7 +76,7 @@
 enum {
     SYMBOL_7_RED,
     SYMBOL_7_BLUE,
-    SYMBOL_AZURILL,
+    SYMBOL_BIOSTEGMON,
     SYMBOL_ZUBAMON,
     SYMBOL_CHERRY,
     SYMBOL_POWER,
@@ -87,7 +87,7 @@ enum
 {
     GFXTAG_7_RED,
     GFXTAG_7_BLUE,
-    GFXTAG_AZURILL,
+    GFXTAG_BIOSTEGMON,
     GFXTAG_ZUBAMON,
     GFXTAG_CHERRY,
     GFXTAG_POWER,
@@ -132,7 +132,7 @@ enum {
     MATCH_TOPBOT_CHERRY, // Cherry in top/bottom of first reel
     MATCH_REPLAY,
     MATCH_ZUBAMON,
-    MATCH_AZURILL,
+    MATCH_BIOSTEGMON,
     MATCH_POWER,
     MATCH_MIXED_7,       // First two 7's are same color; last is other color
     MATCH_RED_7,
@@ -5219,7 +5219,7 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
     [LEFT_REEL] = {
         SYMBOL_7_RED,
         SYMBOL_CHERRY,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_REPLAY,
         SYMBOL_POWER,
         SYMBOL_ZUBAMON,
@@ -5228,12 +5228,12 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_CHERRY,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_7_RED,
         SYMBOL_POWER,
         SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_7_BLUE,
         SYMBOL_POWER,
         SYMBOL_ZUBAMON,
@@ -5244,7 +5244,7 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_CHERRY,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_CHERRY,
         SYMBOL_REPLAY,
         SYMBOL_POWER,
@@ -5254,7 +5254,7 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_CHERRY,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_CHERRY,
@@ -5268,18 +5268,18 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_7_BLUE,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
         SYMBOL_POWER,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
-        SYMBOL_AZURILL,
+        SYMBOL_BIOSTEGMON,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
         SYMBOL_ZUBAMON,
@@ -5349,7 +5349,7 @@ static const u8 sBiasProbabilities_Regular[][NUM_SLOT_MACHINE_IDS] = {
         [SLOT_MACHINE_LUCKIEST]   = 25
     },
     {
-        // Probabilities for BIAS_AZURILL
+        // Probabilities for BIAS_BIOSTEGMON
         [SLOT_MACHINE_UNLUCKIEST] = 12,
         [SLOT_MACHINE_UNLUCKIER]  = 15,
         [SLOT_MACHINE_UNLUCKY]    = 15,
@@ -5457,7 +5457,7 @@ static const u8 sBiasSymbols[] = {
   SYMBOL_REPLAY,  // BIAS_REPLAY
   SYMBOL_CHERRY,  // BIAS_CHERRY
   SYMBOL_ZUBAMON,   // BIAS_ZUBAMON
-  SYMBOL_AZURILL, // BIAS_AZURILL
+  SYMBOL_BIOSTEGMON, // BIAS_BIOSTEGMON
   SYMBOL_POWER,   // BIAS_POWER
   SYMBOL_7_RED,   // BIAS_REELTIME
   SYMBOL_7_RED,   // BIAS_MIXED_7
@@ -5469,13 +5469,13 @@ static const u16 sBiasesSpecial[] = {
 };
 
 static const u16 sBiasesRegular[] = {
-    BIAS_POWER, BIAS_AZURILL, BIAS_ZUBAMON, BIAS_CHERRY, BIAS_REPLAY
+    BIAS_POWER, BIAS_BIOSTEGMON, BIAS_ZUBAMON, BIAS_CHERRY, BIAS_REPLAY
 };
 
 static const u8 sSymbolToMatch[] = {
     [SYMBOL_7_RED]   = MATCH_RED_7,
     [SYMBOL_7_BLUE]  = MATCH_BLUE_7,
-    [SYMBOL_AZURILL] = MATCH_AZURILL,
+    [SYMBOL_BIOSTEGMON] = MATCH_BIOSTEGMON,
     [SYMBOL_ZUBAMON]   = MATCH_ZUBAMON,
     [SYMBOL_CHERRY]  = MATCH_CHERRY,
     [SYMBOL_POWER]   = MATCH_POWER,
@@ -5487,7 +5487,7 @@ static const u16 sSlotMatchFlags[] = {
     [MATCH_TOPBOT_CHERRY] = 1 << MATCH_TOPBOT_CHERRY,
     [MATCH_REPLAY]        = 1 << MATCH_REPLAY,
     [MATCH_ZUBAMON]         = 1 << MATCH_ZUBAMON,
-    [MATCH_AZURILL]       = 1 << MATCH_AZURILL,
+    [MATCH_BIOSTEGMON]       = 1 << MATCH_BIOSTEGMON,
     [MATCH_POWER]         = 1 << MATCH_POWER,
     [MATCH_MIXED_7]       = 1 << MATCH_MIXED_7,
     [MATCH_RED_7]         = 1 << MATCH_RED_7,
@@ -5499,7 +5499,7 @@ static const u16 sSlotPayouts[] = {
     [MATCH_TOPBOT_CHERRY] = 4,
     [MATCH_REPLAY]        = 0,
     [MATCH_ZUBAMON]         = 6,
-    [MATCH_AZURILL]       = 12,
+    [MATCH_BIOSTEGMON]       = 12,
     [MATCH_POWER]         = 3,
     [MATCH_MIXED_7]       = 90,
     [MATCH_RED_7]         = 300,
@@ -7822,7 +7822,7 @@ static const struct SpriteSheet sSlotMachineSpriteSheets[22] =
 {
     { .data = gSlotMachineReelSymbol1Tiles, .size = 0x200, .tag = GFXTAG_7_RED },
     { .data = gSlotMachineReelSymbol2Tiles, .size = 0x200, .tag = GFXTAG_7_BLUE },
-    { .data = gSlotMachineReelSymbol3Tiles, .size = 0x200, .tag = GFXTAG_AZURILL },
+    { .data = gSlotMachineReelSymbol3Tiles, .size = 0x200, .tag = GFXTAG_BIOSTEGMON },
     { .data = gSlotMachineReelSymbol4Tiles, .size = 0x200, .tag = GFXTAG_ZUBAMON },
     { .data = gSlotMachineReelSymbol5Tiles, .size = 0x200, .tag = GFXTAG_CHERRY },
     { .data = gSlotMachineReelSymbol6Tiles, .size = 0x200, .tag = GFXTAG_POWER },

@@ -262,7 +262,7 @@ gCryTable::
 	cry Cry_Seviper
 	cry Cry_Sharpedo
 	cry Cry_Zangoose
-	cry Cry_Azurill
+	cry Cry_Biostegmon
 	cry Cry_Swablu
 	cry Cry_Altaria
 	cry Cry_Unused265
@@ -653,7 +653,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Seviper
 	cry_reverse Cry_Sharpedo
 	cry_reverse Cry_Zangoose
-	cry_reverse Cry_Azurill
+	cry_reverse Cry_Biostegmon
 	cry_reverse Cry_Swablu
 	cry_reverse Cry_Altaria
 	cry_reverse Cry_Unused265

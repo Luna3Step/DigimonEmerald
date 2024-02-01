@@ -2270,12 +2270,12 @@ const u32 gMonShinyPalette_Solrock[] = INCBIN_U32("graphics/pokemon/solrock/shin
 const u8 gMonIcon_Solrock[] = INCBIN_U8("graphics/pokemon/solrock/icon.4bpp");
 const u8 gMonFootprint_Solrock[] = INCBIN_U8("graphics/pokemon/solrock/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Azurill[] = INCBIN_U32("graphics/pokemon/azurill/front.4bpp.lz");
-const u32 gMonPalette_Azurill[] = INCBIN_U32("graphics/pokemon/azurill/normal.gbapal.lz");
-const u32 gMonBackPic_Azurill[] = INCBIN_U32("graphics/pokemon/azurill/back.4bpp.lz");
-const u32 gMonShinyPalette_Azurill[] = INCBIN_U32("graphics/pokemon/azurill/shiny.gbapal.lz");
-const u8 gMonIcon_Azurill[] = INCBIN_U8("graphics/pokemon/azurill/icon.4bpp");
-const u8 gMonFootprint_Azurill[] = INCBIN_U8("graphics/pokemon/azurill/footprint.1bpp");
+const u32 gMonStillFrontPic_Biostegmon[] = INCBIN_U32("graphics/pokemon/biostegmon/front.4bpp.lz");
+const u32 gMonPalette_Biostegmon[] = INCBIN_U32("graphics/pokemon/biostegmon/normal.gbapal.lz");
+const u32 gMonBackPic_Biostegmon[] = INCBIN_U32("graphics/pokemon/biostegmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Biostegmon[] = INCBIN_U32("graphics/pokemon/biostegmon/shiny.gbapal.lz");
+const u8 gMonIcon_Biostegmon[] = INCBIN_U8("graphics/pokemon/biostegmon/icon.4bpp");
+const u8 gMonFootprint_Biostegmon[] = INCBIN_U8("graphics/pokemon/biostegmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/front.4bpp.lz");
 const u32 gMonPalette_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/normal.gbapal.lz");

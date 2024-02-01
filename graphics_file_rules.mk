@@ -438,7 +438,7 @@ $(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/aresdramon.4bpp \
 	@cat $^ >$@
 
 $(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/wynaut.4bpp \
-                                    $(ROULETTEGFXDIR)/azurill.4bpp \
+                                    $(ROULETTEGFXDIR)/biostegmon.4bpp \
                                     $(ROULETTEGFXDIR)/skitty.4bpp \
                                     $(ROULETTEGFXDIR)/betgamamon.4bpp
 	@cat $^ >$@

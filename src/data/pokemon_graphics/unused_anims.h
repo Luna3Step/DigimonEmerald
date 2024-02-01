@@ -599,7 +599,7 @@ static const union AnimCmd sUnusedAnim_Walrein_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Azurill_1[] =
+static const union AnimCmd sUnusedAnim_Biostegmon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(2, 5),
@@ -619,7 +619,7 @@ static const union AnimCmd sUnusedAnim_Azurill_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Azurill_2[] =
+static const union AnimCmd sUnusedAnim_Biostegmon_2[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(1, 6),
@@ -632,7 +632,7 @@ static const union AnimCmd sUnusedAnim_Azurill_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Azurill_3[] =
+static const union AnimCmd sUnusedAnim_Biostegmon_3[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(5, 12),
@@ -641,7 +641,7 @@ static const union AnimCmd sUnusedAnim_Azurill_3[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Azurill_4[] =
+static const union AnimCmd sUnusedAnim_Biostegmon_4[] =
 {
     ANIMCMD_FRAME(7, 1),
     ANIMCMD_END,
@@ -1289,7 +1289,7 @@ static const union AnimCmd *const sUnusedAnims_Snorunt[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Glalie[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Lunatone[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Solrock[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Azurill[] = {sAnim_GeneralFrame0, sUnusedAnim_Azurill_1, sUnusedAnim_Azurill_2, sUnusedAnim_Azurill_3, sUnusedAnim_Azurill_4};
+static const union AnimCmd *const sUnusedAnims_Biostegmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Biostegmon_1, sUnusedAnim_Biostegmon_2, sUnusedAnim_Biostegmon_3, sUnusedAnim_Biostegmon_4};
 static const union AnimCmd *const sUnusedAnims_Spoink[] = {sAnim_GeneralFrame0, sUnusedAnim_Spoink_1, sUnusedAnim_Spoink_2};
 static const union AnimCmd *const sUnusedAnims_Grumpig[] = {sAnim_GeneralFrame0, sUnusedAnim_Grumpig_1};
 static const union AnimCmd *const sUnusedAnims_Plusle[] = {sAnim_GeneralFrame0, sUnusedAnim_Plusle_1};
@@ -1731,7 +1731,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_EYESMON] = sUnusedAnims_Glalie,
     [SPECIES_DECKDRAMON] = sUnusedAnims_Lunatone,
     [SPECIES_DELTAMON] = sUnusedAnims_Solrock,
-    [SPECIES_BIOSTEGMON] = sUnusedAnims_Azurill,
+    [SPECIES_BIOSTEGMON] = sUnusedAnims_Biostegmon,
     [SPECIES_CLOCKMON_FUSION] = sUnusedAnims_Spoink,
     [SPECIES_COELAMON] = sUnusedAnims_Grumpig,
     [SPECIES_BOOGIEMON] = sUnusedAnims_Plusle,

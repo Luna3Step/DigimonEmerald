@@ -511,7 +511,7 @@ SlateportCity_EventScript_DollClerk::
 
 	.align 2
 SlateportCity_PokemartDecor_Dolls:
-	.2byte DECOR_AZURILL_DOLL
+	.2byte DECOR_BIOSTEGMON_DOLL
 	.2byte DECOR_JAZAMON_DOLL
 	.2byte DECOR_SKITTY_DOLL
 	.2byte DECOR_NONE
