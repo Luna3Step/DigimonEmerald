@@ -157,7 +157,7 @@ const u16 gSlateportBattleTentTrainerMons_Kendall[] =
 const u16 gSlateportBattleTentTrainerMons_Colten[] =
 {
     SLATEPORT_TENT_MON_TOYAGUMON_1,
-    SLATEPORT_TENT_MON_BEAUTIFLY,
+    SLATEPORT_TENT_MON_VORVOMON,
     SLATEPORT_TENT_MON_SEEDOT,
     SLATEPORT_TENT_MON_ELECTRIKE_1,
     SLATEPORT_TENT_MON_TAILLOW,
@@ -175,7 +175,7 @@ const u16 gSlateportBattleTentTrainerMons_Irvin[] =
 {
     SLATEPORT_TENT_MON_TOYAGUMON_1,
     SLATEPORT_TENT_MON_TOYAGUMON_2,
-    SLATEPORT_TENT_MON_BEAUTIFLY,
+    SLATEPORT_TENT_MON_VORVOMON,
     SLATEPORT_TENT_MON_DUSTOX,
     SLATEPORT_TENT_MON_NINJASK_1,
     SLATEPORT_TENT_MON_NINJASK_2,
@@ -376,7 +376,7 @@ const u16 gSlateportBattleTentTrainerMons_Stefan[] =
 
 const u16 gSlateportBattleTentTrainerMons_Avery[] =
 {
-    SLATEPORT_TENT_MON_BEAUTIFLY,
+    SLATEPORT_TENT_MON_VORVOMON,
     SLATEPORT_TENT_MON_DUSTOX,
     SLATEPORT_TENT_MON_WINGULL_1,
     SLATEPORT_TENT_MON_PELIPPER_1,
@@ -493,7 +493,7 @@ const u16 gSlateportBattleTentTrainerMons_Donovan[] =
 
 const u16 gSlateportBattleTentTrainerMons_Tamia[] =
 {
-    SLATEPORT_TENT_MON_BEAUTIFLY,
+    SLATEPORT_TENT_MON_VORVOMON,
     SLATEPORT_TENT_MON_JAZAMON_1,
     SLATEPORT_TENT_MON_CACNEA_1,
     SLATEPORT_TENT_MON_NUZLEAF,
@@ -767,7 +767,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_JOLLY
     },
-    [SLATEPORT_TENT_MON_BEAUTIFLY] = {
+    [SLATEPORT_TENT_MON_VORVOMON] = {
         .species = SPECIES_VORVOMON,
         .moves = {MOVE_STUN_SPORE, MOVE_MEGA_DRAIN, MOVE_GUST, MOVE_HARDEN},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
@@ -2230,7 +2230,7 @@ const u16 gFallarborBattleTentTrainerMons_Jameson[] =
 const u16 gFallarborBattleTentTrainerMons_Alanzo[] =
 {
     FALLARBOR_TENT_MON_NINCADA,
-    FALLARBOR_TENT_MON_BEAUTIFLY,
+    FALLARBOR_TENT_MON_VORVOMON,
     FALLARBOR_TENT_MON_DUSTOX,
     FALLARBOR_TENT_MON_ILLUMISE,
     FALLARBOR_TENT_MON_VOLBEAT,
@@ -2757,7 +2757,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_SERIOUS
     },
-    [FALLARBOR_TENT_MON_BEAUTIFLY] = {
+    [FALLARBOR_TENT_MON_VORVOMON] = {
         .species = SPECIES_VORVOMON,
         .moves = {MOVE_FLASH, MOVE_MORNING_SUN, MOVE_HARDEN, MOVE_MEGA_DRAIN},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,

@@ -292,7 +292,7 @@ gCryTable::
 	cry Cry_Carvanha
 	cry Cry_Veemon
 	cry Cry_Vemmon
-	cry Cry_Beautifly
+	cry Cry_Vorvomon
 	cry Cry_Cascoon
 	cry Cry_Dustox
 	cry Cry_Ralts
@@ -683,7 +683,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Carvanha
 	cry_reverse Cry_Veemon
 	cry_reverse Cry_Vemmon
-	cry_reverse Cry_Beautifly
+	cry_reverse Cry_Vorvomon
 	cry_reverse Cry_Cascoon
 	cry_reverse Cry_Dustox
 	cry_reverse Cry_Ralts

@@ -1555,8 +1555,8 @@ Cry_Vemmon::
 	.incbin "sound/direct_sound_samples/cries/vemmon.bin"
 
 	.align 2
-Cry_Beautifly::
-	.incbin "sound/direct_sound_samples/cries/beautifly.bin"
+Cry_Vorvomon::
+	.incbin "sound/direct_sound_samples/cries/vorvomon.bin"
 
 	.align 2
 Cry_Cascoon::

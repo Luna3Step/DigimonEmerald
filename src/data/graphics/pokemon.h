@@ -1864,12 +1864,12 @@ const u32 gMonShinyPalette_Vemmon[] = INCBIN_U32("graphics/pokemon/vemmon/shiny.
 const u8 gMonIcon_Vemmon[] = INCBIN_U8("graphics/pokemon/vemmon/icon.4bpp");
 const u8 gMonFootprint_Vemmon[] = INCBIN_U8("graphics/pokemon/vemmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Beautifly[] = INCBIN_U32("graphics/pokemon/beautifly/front.4bpp.lz");
-const u32 gMonPalette_Beautifly[] = INCBIN_U32("graphics/pokemon/beautifly/normal.gbapal.lz");
-const u32 gMonBackPic_Beautifly[] = INCBIN_U32("graphics/pokemon/beautifly/back.4bpp.lz");
-const u32 gMonShinyPalette_Beautifly[] = INCBIN_U32("graphics/pokemon/beautifly/shiny.gbapal.lz");
-const u8 gMonIcon_Beautifly[] = INCBIN_U8("graphics/pokemon/beautifly/icon.4bpp");
-const u8 gMonFootprint_Beautifly[] = INCBIN_U8("graphics/pokemon/beautifly/footprint.1bpp");
+const u32 gMonStillFrontPic_Vorvomon[] = INCBIN_U32("graphics/pokemon/vorvomon/front.4bpp.lz");
+const u32 gMonPalette_Vorvomon[] = INCBIN_U32("graphics/pokemon/vorvomon/normal.gbapal.lz");
+const u32 gMonBackPic_Vorvomon[] = INCBIN_U32("graphics/pokemon/vorvomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Vorvomon[] = INCBIN_U32("graphics/pokemon/vorvomon/shiny.gbapal.lz");
+const u8 gMonIcon_Vorvomon[] = INCBIN_U8("graphics/pokemon/vorvomon/icon.4bpp");
+const u8 gMonFootprint_Vorvomon[] = INCBIN_U8("graphics/pokemon/vorvomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Cascoon[] = INCBIN_U32("graphics/pokemon/cascoon/front.4bpp.lz");
 const u32 gMonPalette_Cascoon[] = INCBIN_U32("graphics/pokemon/cascoon/normal.gbapal.lz");
