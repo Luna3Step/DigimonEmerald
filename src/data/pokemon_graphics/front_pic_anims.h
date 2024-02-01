@@ -3210,7 +3210,7 @@ static const union AnimCmd sAnim_Akatorimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Shiftry_1[] =
+static const union AnimCmd sAnim_Allomon_1[] =
 {
     ANIMCMD_FRAME(0, 7),
     ANIMCMD_FRAME(0, 35),
@@ -5104,7 +5104,7 @@ SINGLE_ANIMATION(Aegiomon);
 SINGLE_ANIMATION(Agunimon);
 SINGLE_ANIMATION(Airdramon);
 SINGLE_ANIMATION(Akatorimon);
-SINGLE_ANIMATION(Shiftry);
+SINGLE_ANIMATION(Allomon);
 SINGLE_ANIMATION(Nincada);
 SINGLE_ANIMATION(Ninjask);
 SINGLE_ANIMATION(Shedinja);
@@ -5554,7 +5554,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_AGUNIMON]    = sAnims_Agunimon,
     [SPECIES_AIRDRAMON]      = sAnims_Airdramon,
     [SPECIES_AKATORIMON]     = sAnims_Akatorimon,
-    [SPECIES_ALLOMON]     = sAnims_Shiftry,
+    [SPECIES_ALLOMON]     = sAnims_Allomon,
     [SPECIES_BAKEMON]     = sAnims_Nincada,
     [SPECIES_BALISTAMON]     = sAnims_Ninjask,
     [SPECIES_BALUCHIMON]    = sAnims_Shedinja,
