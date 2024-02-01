@@ -1579,8 +1579,8 @@ Cry_Arcadiamon_champion::
 	.incbin "sound/direct_sound_samples/cries/arcadiamon_champion.bin"
 
 	.align 2
-Cry_Slakoth::
-	.incbin "sound/direct_sound_samples/cries/slakoth.bin"
+Cry_Aurumon::
+	.incbin "sound/direct_sound_samples/cries/aurumon.bin"
 
 	.align 2
 Cry_Vigoroth::

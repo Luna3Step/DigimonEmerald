@@ -457,7 +457,7 @@ static const u8 sMechMailDesc[] = _(
     "a POKéMON.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
+    "A AURUMON-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 
