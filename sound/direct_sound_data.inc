@@ -1523,8 +1523,8 @@ Cry_Zubamon::
 	.incbin "sound/direct_sound_samples/cries/zubamon.bin"
 
 	.align 2
-Cry_Lombre::
-	.incbin "sound/direct_sound_samples/cries/lombre.bin"
+Cry_Aegiomon::
+	.incbin "sound/direct_sound_samples/cries/aegiomon.bin"
 
 	.align 2
 Cry_Ludicolo::

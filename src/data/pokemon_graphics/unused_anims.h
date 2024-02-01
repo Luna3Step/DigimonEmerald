@@ -155,7 +155,7 @@ static const union AnimCmd sUnusedAnim_Zenimon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Lombre_1[] =
+static const union AnimCmd sUnusedAnim_Aegiomon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -1235,7 +1235,7 @@ static const union AnimCmd *const sUnusedAnims_Vorvomon[] = {sAnim_GeneralFrame0
 static const union AnimCmd *const sUnusedAnims_Wormmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Wormmon_1, sUnusedAnim_Wormmon_2};
 static const union AnimCmd *const sUnusedAnims_Zenimon[] = {sAnim_GeneralFrame0, sUnusedAnim_Zenimon_1, sUnusedAnim_Zenimon_2};
 static const union AnimCmd *const sUnusedAnims_Zubamon[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Lombre[] = {sAnim_GeneralFrame0, sUnusedAnim_Lombre_1};
+static const union AnimCmd *const sUnusedAnims_Aegiomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Aegiomon_1};
 static const union AnimCmd *const sUnusedAnims_Ludicolo[] = {sAnim_GeneralFrame0, sUnusedAnim_Ludicolo_1, sUnusedAnim_Ludicolo_2};
 static const union AnimCmd *const sUnusedAnims_Seedot[] = {sAnim_GeneralFrame0, sUnusedAnim_Seedot_1};
 static const union AnimCmd *const sUnusedAnims_Nuzleaf[] = {sAnim_GeneralFrame0, sUnusedAnim_Nuzleaf_1};
@@ -1677,7 +1677,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_WORMMON] = sUnusedAnims_Wormmon,
     [SPECIES_ZENIMON] = sUnusedAnims_Zenimon,
     [SPECIES_ZUBAMON] = sUnusedAnims_Zubamon,
-    [SPECIES_AEGIOMON] = sUnusedAnims_Lombre,
+    [SPECIES_AEGIOMON] = sUnusedAnims_Aegiomon,
     [SPECIES_AGUNIMON] = sUnusedAnims_Ludicolo,
     [SPECIES_AIRDRAMON] = sUnusedAnims_Seedot,
     [SPECIES_AKATORIMON] = sUnusedAnims_Nuzleaf,
