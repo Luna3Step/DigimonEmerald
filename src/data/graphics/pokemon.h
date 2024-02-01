@@ -2172,12 +2172,12 @@ const u32 gMonShinyPalette_Betgamamon[] = INCBIN_U32("graphics/pokemon/betgamamo
 const u8 gMonIcon_Betgamamon[] = INCBIN_U8("graphics/pokemon/betgamamon/icon.4bpp");
 const u8 gMonFootprint_Betgamamon[] = INCBIN_U8("graphics/pokemon/betgamamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/front.4bpp.lz");
-const u32 gMonPalette_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/normal.gbapal.lz");
-const u32 gMonBackPic_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/back.4bpp.lz");
-const u32 gMonShinyPalette_Hariyama[] = INCBIN_U32("graphics/pokemon/hariyama/shiny.gbapal.lz");
-const u8 gMonIcon_Hariyama[] = INCBIN_U8("graphics/pokemon/hariyama/icon.4bpp");
-const u8 gMonFootprint_Hariyama[] = INCBIN_U8("graphics/pokemon/hariyama/footprint.1bpp");
+const u32 gMonStillFrontPic_Bioquetmon[] = INCBIN_U32("graphics/pokemon/bioquetmon/front.4bpp.lz");
+const u32 gMonPalette_Bioquetmon[] = INCBIN_U32("graphics/pokemon/bioquetmon/normal.gbapal.lz");
+const u32 gMonBackPic_Bioquetmon[] = INCBIN_U32("graphics/pokemon/bioquetmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bioquetmon[] = INCBIN_U32("graphics/pokemon/bioquetmon/shiny.gbapal.lz");
+const u8 gMonIcon_Bioquetmon[] = INCBIN_U8("graphics/pokemon/bioquetmon/icon.4bpp");
+const u8 gMonFootprint_Bioquetmon[] = INCBIN_U8("graphics/pokemon/bioquetmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/front.4bpp.lz");
 const u32 gMonPalette_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/normal.gbapal.lz");
