@@ -1571,8 +1571,8 @@ Cry_Apemon::
 	.incbin "sound/direct_sound_samples/cries/apemon.bin"
 
 	.align 2
-Cry_Kirlia::
-	.incbin "sound/direct_sound_samples/cries/kirlia.bin"
+Cry_Aquilamon::
+	.incbin "sound/direct_sound_samples/cries/aquilamon.bin"
 
 	.align 2
 Cry_Gardevoir::

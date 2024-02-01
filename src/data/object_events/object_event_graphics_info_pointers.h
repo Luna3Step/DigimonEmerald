@@ -223,7 +223,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonSide;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDeliveryman;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Aquilamon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Junkmon;
@@ -472,7 +472,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GROUDON_SIDE] =             &gObjectEventGraphicsInfo_GroudonSide,
     [OBJ_EVENT_GFX_MYSTERY_GIFT_MAN] =         &gObjectEventGraphicsInfo_MysteryEventDeliveryman,
     [OBJ_EVENT_GFX_TRICK_HOUSE_STATUE] =       &gObjectEventGraphicsInfo_Statue,
-    [OBJ_EVENT_GFX_KIRLIA] =                   &gObjectEventGraphicsInfo_Kirlia,
+    [OBJ_EVENT_GFX_AQUILAMON] =                   &gObjectEventGraphicsInfo_Aquilamon,
     [OBJ_EVENT_GFX_DUSCLOPS] =                 &gObjectEventGraphicsInfo_Dusclops,
     [OBJ_EVENT_GFX_UNION_ROOM_NURSE] =         &gObjectEventGraphicsInfo_UnionRoomAttendant,
     [OBJ_EVENT_GFX_JUNKMON] =                &gObjectEventGraphicsInfo_Junkmon,

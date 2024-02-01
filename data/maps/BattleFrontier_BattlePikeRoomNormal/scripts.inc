@@ -284,24 +284,24 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_EnterStatusRoom::
 	waitmovement 0
 	pike_getstatusmon
 	copyvar VAR_0x8004, VAR_RESULT
-	call_if_eq VAR_0x8004, PIKE_STATUSMON_KIRLIA, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack
+	call_if_eq VAR_0x8004, PIKE_STATUSMON_AQUILAMON, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonAttack
 	call_if_eq VAR_0x8004, PIKE_STATUSMON_DUSCLOPS, BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack::
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop, MSGBOX_DEFAULT
+BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonAttack::
+	msgbox BattleFrontier_BattlePikeRoomNormal_Text_AquilamonStop, MSGBOX_DEFAULT
 	closemessage
 	waitse
 	playmoncry SPECIES_AQUILAMON, CRY_MODE_NORMAL
 	waitmoncry
 	pike_getstatus
-	call_if_eq VAR_RESULT, PIKE_STATUS_TOXIC, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedToxic
-	call_if_eq VAR_RESULT, PIKE_STATUS_BURN, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedWillOWisp
-	call_if_eq VAR_RESULT, PIKE_STATUS_PARALYSIS, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedThunderWave
-	call_if_eq VAR_RESULT, PIKE_STATUS_SLEEP, BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedHypnosis
+	call_if_eq VAR_RESULT, PIKE_STATUS_TOXIC, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedToxic
+	call_if_eq VAR_RESULT, PIKE_STATUS_BURN, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedWillOWisp
+	call_if_eq VAR_RESULT, PIKE_STATUS_PARALYSIS, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedThunderWave
+	call_if_eq VAR_RESULT, PIKE_STATUS_SLEEP, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedHypnosis
 	pike_flashscreen
 	waitstate
 	applymovement LOCALID_OBJ_0, BattleFrontier_BattlePikeRoomNormal_Movement_NPCApproachMon
@@ -319,7 +319,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaAttack::
 	applymovement LOCALID_OBJ_1, BattleFrontier_BattlePikeRoomNormal_Movement_MonMoveAside
 	applymovement LOCALID_OBJ_0, BattleFrontier_BattlePikeRoomNormal_Movement_StatusNPCApproachPlayer
 	waitmovement 0
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForAquilamon, MSGBOX_DEFAULT
 	return
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
@@ -351,23 +351,23 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops, MSGBOX_DEFAULT
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedToxic::
-	message BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic
+BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedToxic::
+	message BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedToxic
 	waitmessage
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedWillOWisp::
-	message BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp
+BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedWillOWisp::
+	message BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedWillOWisp
 	waitmessage
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedThunderWave::
-	message BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave
+BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedThunderWave::
+	message BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedThunderWave
 	waitmessage
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_KirliaUsedHypnosis::
-	message BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis
+BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedHypnosis::
+	message BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedHypnosis
 	waitmessage
 	return
 
@@ -580,7 +580,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_WillRestoreTwoMons::
 	closemessage
 	return
 
-@ Dusclops or Kirlia
+@ Dusclops or Aquilamon
 BattleFrontier_BattlePikeRoomNormal_EventScript_StatusMon::
 	lock
 	faceplayer
@@ -699,25 +699,25 @@ BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 	.string "Oh, my!\p"
 	.string "Watch out!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
+BattleFrontier_BattlePikeRoomNormal_Text_AquilamonStop:
 	.string "Now, now!\n"
-	.string "KIRLIA, stop that!$"
+	.string "AQUILAMON, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
 	.string "Now, now!\n"
 	.string "DUSCLOPS, stop that!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-	.string "KIRLIA used TOXIC!$"
+BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedToxic:
+	.string "AQUILAMON used TOXIC!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
-	.string "KIRLIA used HYPNOSIS!$"
+BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedHypnosis:
+	.string "AQUILAMON used HYPNOSIS!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
-	.string "KIRLIA used THUNDER WAVE!$"
+BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedThunderWave:
+	.string "AQUILAMON used THUNDER WAVE!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-	.string "KIRLIA used WILL-O-WISP!$"
+BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedWillOWisp:
+	.string "AQUILAMON used WILL-O-WISP!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
 	.string "DUSCLOPS used WILL-O-WISP!$"
@@ -729,9 +729,9 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 	.string "Look here!\n"
 	.string "That's quite enough!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForAquilamon:
 	.string "I must apologize to you…\p"
-	.string "My KIRLIA has a TIMID nature…$"
+	.string "My AQUILAMON has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
 	.string "I must apologize to you…\p"

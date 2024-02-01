@@ -4273,7 +4273,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Aquilamon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4288,7 +4288,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Kirlia,
+    .images = sPicTable_Aquilamon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

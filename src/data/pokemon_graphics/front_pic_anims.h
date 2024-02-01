@@ -4296,7 +4296,7 @@ static const union AnimCmd sAnim_Apemon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Kirlia_1[] =
+static const union AnimCmd sAnim_Aquilamon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 39),
@@ -5204,7 +5204,7 @@ SINGLE_ANIMATION(Cradily);
 SINGLE_ANIMATION(Anorith);
 SINGLE_ANIMATION(Armaldo);
 SINGLE_ANIMATION(Apemon);
-SINGLE_ANIMATION(Kirlia);
+SINGLE_ANIMATION(Aquilamon);
 SINGLE_ANIMATION(Gardevoir);
 SINGLE_ANIMATION(Bagon);
 SINGLE_ANIMATION(Shelgon);
@@ -5647,7 +5647,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DOBERMON]     = sAnims_Anorith,
     [SPECIES_DOBERMON_X]     = sAnims_Armaldo,
     [SPECIES_APEMON]       = sAnims_Apemon,
-    [SPECIES_AQUILAMON]      = sAnims_Kirlia,
+    [SPECIES_AQUILAMON]      = sAnims_Aquilamon,
     [SPECIES_ARCADIAMON_CHAMPION]   = sAnims_Gardevoir,
     [SPECIES_FLYMON]       = sAnims_Bagon,
     [SPECIES_FRIGIMON]     = sAnims_Shelgon,

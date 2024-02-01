@@ -2571,12 +2571,12 @@ const u32 gMonShinyPalette_Apemon[] = INCBIN_U32("graphics/pokemon/apemon/shiny.
 const u8 gMonIcon_Apemon[] = INCBIN_U8("graphics/pokemon/apemon/icon.4bpp");
 const u8 gMonFootprint_Apemon[] = INCBIN_U8("graphics/pokemon/apemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/front.4bpp.lz");
-const u32 gMonPalette_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/normal.gbapal.lz");
-const u32 gMonBackPic_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/back.4bpp.lz");
-const u32 gMonShinyPalette_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/shiny.gbapal.lz");
-const u8 gMonIcon_Kirlia[] = INCBIN_U8("graphics/pokemon/kirlia/icon.4bpp");
-const u8 gMonFootprint_Kirlia[] = INCBIN_U8("graphics/pokemon/kirlia/footprint.1bpp");
+const u32 gMonStillFrontPic_Aquilamon[] = INCBIN_U32("graphics/pokemon/aquilamon/front.4bpp.lz");
+const u32 gMonPalette_Aquilamon[] = INCBIN_U32("graphics/pokemon/aquilamon/normal.gbapal.lz");
+const u32 gMonBackPic_Aquilamon[] = INCBIN_U32("graphics/pokemon/aquilamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Aquilamon[] = INCBIN_U32("graphics/pokemon/aquilamon/shiny.gbapal.lz");
+const u8 gMonIcon_Aquilamon[] = INCBIN_U8("graphics/pokemon/aquilamon/icon.4bpp");
+const u8 gMonFootprint_Aquilamon[] = INCBIN_U8("graphics/pokemon/aquilamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/front.4bpp.lz");
 const u32 gMonPalette_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/normal.gbapal.lz");
