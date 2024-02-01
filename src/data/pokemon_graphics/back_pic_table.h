@@ -286,7 +286,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(TERRIERMON, gMonBackPic_Terriermon),
     SPECIES_SPRITE(TERRIERMON_ASSISTANT, gMonBackPic_Terriermon_assistant),
     SPECIES_SPRITE(TERRIERMON_X, gMonBackPic_Terriermon_x),
-    SPECIES_SPRITE(TINKERMON, gMonBackPic_Poochyena),
+    SPECIES_SPRITE(TINKERMON, gMonBackPic_Tinkermon),
     SPECIES_SPRITE(TINPET, gMonBackPic_Mightyena),
     SPECIES_SPRITE(TOYAGUMON, gMonBackPic_Zigzagoon),
     SPECIES_SPRITE(TSUKAIMON, gMonBackPic_Linoone),

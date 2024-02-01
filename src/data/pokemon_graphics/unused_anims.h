@@ -59,7 +59,7 @@ static const union AnimCmd sUnusedAnim_Terriermon_assistant_3[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Poochyena_1[] =
+static const union AnimCmd sUnusedAnim_Tinkermon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -68,7 +68,7 @@ static const union AnimCmd sUnusedAnim_Poochyena_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Poochyena_2[] =
+static const union AnimCmd sUnusedAnim_Tinkermon_2[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(2, 10),
@@ -1225,7 +1225,7 @@ static const union AnimCmd *const sUnusedAnims_Tentomon[] = {sAnim_GeneralFrame0
 static const union AnimCmd *const sUnusedAnims_Terriermon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Terriermon_assistant[] = {sAnim_GeneralFrame0, sUnusedAnim_Terriermon_assistant_1, sUnusedAnim_Terriermon_assistant_2, sUnusedAnim_Terriermon_assistant_3};
 static const union AnimCmd *const sUnusedAnims_Terriermon_x[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Poochyena[] = {sAnim_GeneralFrame0, sUnusedAnim_Poochyena_1, sUnusedAnim_Poochyena_2};
+static const union AnimCmd *const sUnusedAnims_Tinkermon[] = {sAnim_GeneralFrame0, sUnusedAnim_Tinkermon_1, sUnusedAnim_Tinkermon_2};
 static const union AnimCmd *const sUnusedAnims_Mightyena[] = {sAnim_GeneralFrame0, sUnusedAnim_Mightyena_1};
 static const union AnimCmd *const sUnusedAnims_Zigzagoon[] = {sAnim_GeneralFrame0, sUnusedAnim_Zigzagoon_1};
 static const union AnimCmd *const sUnusedAnims_Linoone[] = {sAnim_GeneralFrame0, sUnusedAnim_Linoone_1};
@@ -1667,7 +1667,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_TERRIERMON] = sUnusedAnims_Terriermon,
     [SPECIES_TERRIERMON_ASSISTANT] = sUnusedAnims_Terriermon_assistant,
     [SPECIES_TERRIERMON_X] = sUnusedAnims_Terriermon_x,
-    [SPECIES_TINKERMON] = sUnusedAnims_Poochyena,
+    [SPECIES_TINKERMON] = sUnusedAnims_Tinkermon,
     [SPECIES_TINPET] = sUnusedAnims_Mightyena,
     [SPECIES_TOYAGUMON] = sUnusedAnims_Zigzagoon,
     [SPECIES_TSUKAIMON] = sUnusedAnims_Linoone,

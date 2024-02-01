@@ -1823,8 +1823,8 @@ Cry_Illumise::
 	.incbin "sound/direct_sound_samples/cries/illumise.bin"
 
 	.align 2
-Cry_Poochyena::
-	.incbin "sound/direct_sound_samples/cries/poochyena.bin"
+Cry_Tinkermon::
+	.incbin "sound/direct_sound_samples/cries/tinkermon.bin"
 
 	.align 2
 Cry_Mightyena::

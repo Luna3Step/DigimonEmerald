@@ -1,8 +1,8 @@
 gTrickHouse_Mechadoll_Zerimon::
 	.string "ZERIMON$"
 
-gTrickHouse_Mechadoll_Poochyena::
-	.string "POOCHYENA$"
+gTrickHouse_Mechadoll_Tinkermon::
+	.string "TINKERMON$"
 
 gTrickHouse_Mechadoll_Taillow::
 	.string "TAILLOW$"
@@ -34,8 +34,8 @@ gTrickHouse_Mechadoll_Zigzagoon::
 gTrickHouse_Mechadoll_Slakoth::
 	.string "SLAKOTH$"
 
-gTrickHouse_Mechadoll_Poochyena2::
-	.string "POOCHYENA$"
+gTrickHouse_Mechadoll_Tinkermon2::
+	.string "TINKERMON$"
 
 gTrickHouse_Mechadoll_Shroomish::
 	.string "SHROOMISH$"
@@ -43,8 +43,8 @@ gTrickHouse_Mechadoll_Shroomish::
 gTrickHouse_Mechadoll_Zigzagoon2::
 	.string "ZIGZAGOON$"
 
-gTrickHouse_Mechadoll_Poochyena3::
-	.string "POOCHYENA$"
+gTrickHouse_Mechadoll_Tinkermon3::
+	.string "TINKERMON$"
 
 gTrickHouse_Mechadoll_Icebotamon2::
 	.string "ICEBOTAMON$"

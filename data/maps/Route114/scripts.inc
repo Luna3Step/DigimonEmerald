@@ -57,12 +57,12 @@ Route114_EventScript_ReceivedRoar::
 	release
 	end
 
-Route114_EventScript_Poochyena::
+Route114_EventScript_Tinkermon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_TINKERMON, CRY_MODE_ENCOUNTER
-	msgbox Route114_Text_Poochyena, MSGBOX_DEFAULT
+	msgbox Route114_Text_Tinkermon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -186,7 +186,7 @@ Route114_Text_ExplainRoar:
 	.string "TM05 contains ROAR.\n"
 	.string "A ROAR sends POKéMON scurrying.$"
 
-Route114_Text_Poochyena:
+Route114_Text_Tinkermon:
 	.string "Bow! Bowwow!$"
 
 Route114_Text_MeteorFallsSign:

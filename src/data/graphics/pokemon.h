@@ -1822,12 +1822,12 @@ const u32 gMonShinyPalette_Terriermon_x[] = INCBIN_U32("graphics/pokemon/terrier
 const u8 gMonIcon_Terriermon_x[] = INCBIN_U8("graphics/pokemon/terriermon_x/icon.4bpp");
 const u8 gMonFootprint_Terriermon_x[] = INCBIN_U8("graphics/pokemon/terriermon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/front.4bpp.lz");
-const u32 gMonPalette_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/normal.gbapal.lz");
-const u32 gMonBackPic_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/back.4bpp.lz");
-const u32 gMonShinyPalette_Poochyena[] = INCBIN_U32("graphics/pokemon/poochyena/shiny.gbapal.lz");
-const u8 gMonIcon_Poochyena[] = INCBIN_U8("graphics/pokemon/poochyena/icon.4bpp");
-const u8 gMonFootprint_Poochyena[] = INCBIN_U8("graphics/pokemon/poochyena/footprint.1bpp");
+const u32 gMonStillFrontPic_Tinkermon[] = INCBIN_U32("graphics/pokemon/tinkermon/front.4bpp.lz");
+const u32 gMonPalette_Tinkermon[] = INCBIN_U32("graphics/pokemon/tinkermon/normal.gbapal.lz");
+const u32 gMonBackPic_Tinkermon[] = INCBIN_U32("graphics/pokemon/tinkermon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tinkermon[] = INCBIN_U32("graphics/pokemon/tinkermon/shiny.gbapal.lz");
+const u8 gMonIcon_Tinkermon[] = INCBIN_U8("graphics/pokemon/tinkermon/icon.4bpp");
+const u8 gMonFootprint_Tinkermon[] = INCBIN_U8("graphics/pokemon/tinkermon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Mightyena[] = INCBIN_U32("graphics/pokemon/mightyena/front.4bpp.lz");
 const u32 gMonPalette_Mightyena[] = INCBIN_U32("graphics/pokemon/mightyena/normal.gbapal.lz");

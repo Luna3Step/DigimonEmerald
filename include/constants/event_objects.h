@@ -221,7 +221,7 @@
 #define OBJ_EVENT_GFX_LINK_MAY                   217
 #define OBJ_EVENT_GFX_JUAN                       218
 #define OBJ_EVENT_GFX_SCOTT                      219
-#define OBJ_EVENT_GFX_POOCHYENA                  220
+#define OBJ_EVENT_GFX_TINKERMON                  220
 #define OBJ_EVENT_GFX_KYOGRE_SIDE                221
 #define OBJ_EVENT_GFX_GROUDON_SIDE               222
 #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223

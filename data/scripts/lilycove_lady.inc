@@ -474,7 +474,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon::
 	special GetContestLadyMonSpecies
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_COOL, LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_BEAUTY, LilycoveCity_PokemonCenter_1F_EventScript_Skitty
-	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_CUTE, LilycoveCity_PokemonCenter_1F_EventScript_Poochyena
+	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_CUTE, LilycoveCity_PokemonCenter_1F_EventScript_Tinkermon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_SMART, LilycoveCity_PokemonCenter_1F_EventScript_Kecleon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_TOUGH, LilycoveCity_PokemonCenter_1F_EventScript_Petitmon
 	end
@@ -499,12 +499,12 @@ LilycoveCity_PokemonCenter_1F_EventScript_Skitty::
 	release
 	end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Poochyena::
+LilycoveCity_PokemonCenter_1F_EventScript_Tinkermon::
 	lock
 	faceplayer
 	waitse
 	playmoncry VAR_0x8005, CRY_MODE_NORMAL
-	msgbox LilycoveCity_PokemonCenter_1F_Text_Poochyena, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonCenter_1F_Text_Tinkermon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -780,7 +780,7 @@ LilycoveCity_PokemonCenter_1F_Text_Zigzagoon:
 LilycoveCity_PokemonCenter_1F_Text_Kecleon:
 	.string "{STR_VAR_1}: Igigigiiih!$"
 
-LilycoveCity_PokemonCenter_1F_Text_Poochyena:
+LilycoveCity_PokemonCenter_1F_Text_Tinkermon:
 	.string "{STR_VAR_1}: Baaarun…$"
 
 LilycoveCity_PokemonCenter_1F_Text_Petitmon:

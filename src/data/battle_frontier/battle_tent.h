@@ -1288,7 +1288,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Markus[] =
 
 const u16 gVerdanturfBattleTentTrainerMons_Caitlyn[] =
 {
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_KECLEON,
     VERDANTURF_TENT_MON_ELECTRIKE,
     VERDANTURF_TENT_MON_MIGHTYENA,
@@ -1341,7 +1341,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Bradly[] =
 {
     VERDANTURF_TENT_MON_NUZLEAF,
     VERDANTURF_TENT_MON_TAILLOW,
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_DUSTOX,
     VERDANTURF_TENT_MON_BLKAGUMON_X_1,
     -1
@@ -1393,7 +1393,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Nala[] =
 
 const u16 gVerdanturfBattleTentTrainerMons_Darnell[] =
 {
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_SOLROCK,
     VERDANTURF_TENT_MON_LOUDRED,
     VERDANTURF_TENT_MON_TRAPINCH,
@@ -1416,7 +1416,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Ashlyn[] =
 
 const u16 gVerdanturfBattleTentTrainerMons_Addison[] =
 {
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_ZIGZAGOON,
     VERDANTURF_TENT_MON_SWABLU,
     VERDANTURF_TENT_MON_KAKKINMON,
@@ -1426,7 +1426,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Addison[] =
 
 const u16 gVerdanturfBattleTentTrainerMons_Justine[] =
 {
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_ZIGZAGOON,
     VERDANTURF_TENT_MON_SWABLU,
     VERDANTURF_TENT_MON_JAZAMON,
@@ -1459,7 +1459,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Laila[] =
 
 const u16 gVerdanturfBattleTentTrainerMons_Waren[] =
 {
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_ARON_1,
     VERDANTURF_TENT_MON_NUMEL_1,
     VERDANTURF_TENT_MON_SWALOT,
@@ -1522,7 +1522,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Lillian[] =
 const u16 gVerdanturfBattleTentTrainerMons_Lesley[] =
 {
     VERDANTURF_TENT_MON_NUZLEAF,
-    VERDANTURF_TENT_MON_POOCHYENA,
+    VERDANTURF_TENT_MON_TINKERMON,
     VERDANTURF_TENT_MON_LOTAD,
     VERDANTURF_TENT_MON_BALTOY,
     VERDANTURF_TENT_MON_ELECTRIKE,
@@ -1806,7 +1806,7 @@ const struct BattleFrontierTrainer gVerdanturfBattleTentTrainers[NUM_BATTLE_TENT
 
 const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
 {
-    [VERDANTURF_TENT_MON_POOCHYENA] = {
+    [VERDANTURF_TENT_MON_TINKERMON] = {
         .species = SPECIES_TINKERMON,
         .moves = {MOVE_ROAR, MOVE_THIEF, MOVE_BITE, MOVE_HOWL},
         .itemTableId = BATTLE_FRONTIER_ITEM_BLACK_GLASSES,
@@ -2221,7 +2221,7 @@ const u16 gFallarborBattleTentTrainerMons_Jameson[] =
 {
     FALLARBOR_TENT_MON_LINOONE_1,
     FALLARBOR_TENT_MON_PLUSLE,
-    FALLARBOR_TENT_MON_POOCHYENA,
+    FALLARBOR_TENT_MON_TINKERMON,
     FALLARBOR_TENT_MON_HAZYAGUMON,
     FALLARBOR_TENT_MON_NINCADA,
     -1
@@ -2296,7 +2296,7 @@ const u16 gFallarborBattleTentTrainerMons_Mariana[] =
 const u16 gFallarborBattleTentTrainerMons_Sheldon[] =
 {
     FALLARBOR_TENT_MON_PLUSLE,
-    FALLARBOR_TENT_MON_POOCHYENA,
+    FALLARBOR_TENT_MON_TINKERMON,
     FALLARBOR_TENT_MON_WHISMUR,
     FALLARBOR_TENT_MON_WAILMER,
     FALLARBOR_TENT_MON_SWALOT,
@@ -2402,7 +2402,7 @@ const u16 gFallarborBattleTentTrainerMons_Evelyn[] =
 const u16 gFallarborBattleTentTrainerMons_Arielle[] =
 {
     FALLARBOR_TENT_MON_LINOONE_1,
-    FALLARBOR_TENT_MON_POOCHYENA,
+    FALLARBOR_TENT_MON_TINKERMON,
     FALLARBOR_TENT_MON_POPOMON,
     FALLARBOR_TENT_MON_SWALOT,
     FALLARBOR_TENT_MON_KIRLIA,
@@ -2708,7 +2708,7 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
-    [FALLARBOR_TENT_MON_POOCHYENA] = {
+    [FALLARBOR_TENT_MON_TINKERMON] = {
         .species = SPECIES_TINKERMON,
         .moves = {MOVE_YAWN, MOVE_ODOR_SLEUTH, MOVE_HOWL, MOVE_FRUSTRATION},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEPPA_BERRY,

@@ -359,7 +359,7 @@ gCryTable::
 	cry Cry_Castform
 	cry Cry_Volbeat
 	cry Cry_Illumise
-	cry Cry_Poochyena
+	cry Cry_Tinkermon
 	cry Cry_Mightyena
 	cry Cry_Dusclops
 	cry Cry_Sableye
@@ -750,7 +750,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Castform
 	cry_reverse Cry_Volbeat
 	cry_reverse Cry_Illumise
-	cry_reverse Cry_Poochyena
+	cry_reverse Cry_Tinkermon
 	cry_reverse Cry_Mightyena
 	cry_reverse Cry_Dusclops
 	cry_reverse Cry_Sableye

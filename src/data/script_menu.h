@@ -106,7 +106,7 @@ static const struct MenuAction MultichoiceList_LevelMode[] =
 static const struct MenuAction MultichoiceList_Mechadoll1_Q1[] =
 {
     {gTrickHouse_Mechadoll_Zerimon},
-    {gTrickHouse_Mechadoll_Poochyena},
+    {gTrickHouse_Mechadoll_Tinkermon},
     {gTrickHouse_Mechadoll_Taillow},
 };
 
@@ -133,14 +133,14 @@ static const struct MenuAction MultichoiceList_Mechadoll2_Q1[] =
 
 static const struct MenuAction MultichoiceList_Mechadoll2_Q2[] =
 {
-    {gTrickHouse_Mechadoll_Poochyena2},
+    {gTrickHouse_Mechadoll_Tinkermon2},
     {gTrickHouse_Mechadoll_Shroomish},
     {gTrickHouse_Mechadoll_Zigzagoon2},
 };
 
 static const struct MenuAction MultichoiceList_Mechadoll2_Q3[] =
 {
-    {gTrickHouse_Mechadoll_Poochyena3},
+    {gTrickHouse_Mechadoll_Tinkermon3},
     {gTrickHouse_Mechadoll_Icebotamon2},
     {gTrickHouse_Mechadoll_Carvanha},
 };
