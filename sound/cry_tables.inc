@@ -380,7 +380,7 @@ gCryTable::
 	cry Cry_Wailmer
 	cry Cry_Toyagumon
 	cry Cry_Exploud
-	cry Cry_Loudred
+	cry Cry_Baromon
 	cry Cry_Wailord
 	cry Cry_Baohuckmon
 	cry Cry_Snorunt
@@ -771,7 +771,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Wailmer
 	cry_reverse Cry_Toyagumon
 	cry_reverse Cry_Exploud
-	cry_reverse Cry_Loudred
+	cry_reverse Cry_Baromon
 	cry_reverse Cry_Wailord
 	cry_reverse Cry_Baohuckmon
 	cry_reverse Cry_Snorunt

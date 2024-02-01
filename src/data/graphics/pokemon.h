@@ -2417,12 +2417,12 @@ const u32 gMonShinyPalette_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmo
 const u8 gMonIcon_Baohuckmon[] = INCBIN_U8("graphics/pokemon/baohuckmon/icon.4bpp");
 const u8 gMonFootprint_Baohuckmon[] = INCBIN_U8("graphics/pokemon/baohuckmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/front.4bpp.lz");
-const u32 gMonPalette_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/normal.gbapal.lz");
-const u32 gMonBackPic_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/back.4bpp.lz");
-const u32 gMonShinyPalette_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/shiny.gbapal.lz");
-const u8 gMonIcon_Loudred[] = INCBIN_U8("graphics/pokemon/loudred/icon.4bpp");
-const u8 gMonFootprint_Loudred[] = INCBIN_U8("graphics/pokemon/loudred/footprint.1bpp");
+const u32 gMonStillFrontPic_Baromon[] = INCBIN_U32("graphics/pokemon/baromon/front.4bpp.lz");
+const u32 gMonPalette_Baromon[] = INCBIN_U32("graphics/pokemon/baromon/normal.gbapal.lz");
+const u32 gMonBackPic_Baromon[] = INCBIN_U32("graphics/pokemon/baromon/back.4bpp.lz");
+const u32 gMonShinyPalette_Baromon[] = INCBIN_U32("graphics/pokemon/baromon/shiny.gbapal.lz");
+const u8 gMonIcon_Baromon[] = INCBIN_U8("graphics/pokemon/baromon/icon.4bpp");
+const u8 gMonFootprint_Baromon[] = INCBIN_U8("graphics/pokemon/baromon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/front.4bpp.lz");
 const u32 gMonPalette_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/normal.gbapal.lz");
