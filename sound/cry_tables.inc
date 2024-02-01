@@ -280,7 +280,7 @@ gCryTable::
 	cry Cry_Terriermon_assistant
 	cry Cry_Terriermon_x
 	cry Cry_Pelipper
-	cry Cry_Wingull
+	cry Cry_Angemon
 	cry Cry_Banette
 	cry Cry_Shuppet
 	cry Cry_Zubamon
@@ -671,7 +671,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Terriermon_assistant
 	cry_reverse Cry_Terriermon_x
 	cry_reverse Cry_Pelipper
-	cry_reverse Cry_Wingull
+	cry_reverse Cry_Angemon
 	cry_reverse Cry_Banette
 	cry_reverse Cry_Shuppet
 	cry_reverse Cry_Zubamon

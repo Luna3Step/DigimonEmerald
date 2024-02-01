@@ -341,7 +341,7 @@ const u8 DecorDesc_SEA_POSTER[] = _(
 
 const u8 DecorDesc_SKY_POSTER[] = _(
     "A large poster with\n"
-        "a WINGULL print.");
+        "a ANGEMON print.");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
     "A large poster with\n"

@@ -4064,7 +4064,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jellymon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Angemon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4079,7 +4079,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Wingull,
+    .images = sPicTable_Angemon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

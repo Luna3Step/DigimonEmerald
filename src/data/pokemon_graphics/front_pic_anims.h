@@ -3309,7 +3309,7 @@ static const union AnimCmd sAnim_Breloom_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Wingull_1[] =
+static const union AnimCmd sAnim_Angemon_1[] =
 {
     ANIMCMD_FRAME(0, 17),
     ANIMCMD_FRAME(0, 23),
@@ -5115,7 +5115,7 @@ SINGLE_ANIMATION(Breloom);
 static const union AnimCmd *const sAnims_Spinda[] ={
     sAnim_GeneralFrame0,
 };
-SINGLE_ANIMATION(Wingull);
+SINGLE_ANIMATION(Angemon);
 SINGLE_ANIMATION(Pelipper);
 DOUBLE_ANIMATION(Surskit);
 DOUBLE_ANIMATION(Masquerain);
@@ -5563,7 +5563,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ARESDRAMON]   = sAnims_Shroomish,
     [SPECIES_ATAMADEMON]     = sAnims_Breloom,
     [SPECIES_COREDRAMON_BLUE]      = sAnims_Spinda,
-    [SPECIES_ANGEMON]     = sAnims_Wingull,
+    [SPECIES_ANGEMON]     = sAnims_Angemon,
     [SPECIES_ANKYLOMON]    = sAnims_Pelipper,
     [SPECIES_ARCHELOMON]     = sAnims_Surskit,
     [SPECIES_ARGOMON_CHAMPION]  = sAnims_Masquerain,

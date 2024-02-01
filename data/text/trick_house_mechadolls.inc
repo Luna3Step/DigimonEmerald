@@ -13,8 +13,8 @@ gTrickHouse_Mechadoll_Azurill::
 gTrickHouse_Mechadoll_Zubamon::
 	.string "ZUBAMON$"
 
-gTrickHouse_Mechadoll_Wingull::
-	.string "WINGULL$"
+gTrickHouse_Mechadoll_Angemon::
+	.string "ANGEMON$"
 
 gTrickHouse_Mechadoll_Zenimon::
 	.string "ZENIMON$"

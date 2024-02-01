@@ -1507,8 +1507,8 @@ Cry_Pelipper::
 	.incbin "sound/direct_sound_samples/cries/pelipper.bin"
 
 	.align 2
-Cry_Wingull::
-	.incbin "sound/direct_sound_samples/cries/wingull.bin"
+Cry_Angemon::
+	.incbin "sound/direct_sound_samples/cries/angemon.bin"
 
 	.align 2
 Cry_Banette::

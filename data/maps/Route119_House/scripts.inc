@@ -5,12 +5,12 @@ Route119_House_EventScript_Woman::
 	msgbox Route119_House_Text_RumorAboutCaveOfOrigin, MSGBOX_NPC
 	end
 
-Route119_House_EventScript_Wingull::
+Route119_House_EventScript_Angemon::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_ANGEMON, CRY_MODE_NORMAL
-	msgbox Route119_House_Text_Wingull, MSGBOX_DEFAULT
+	msgbox Route119_House_Text_Angemon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -22,6 +22,6 @@ Route119_House_Text_RumorAboutCaveOfOrigin:
 	.string "POKéMON are revived there. Could\l"
 	.string "something like that really happen?$"
 
-Route119_House_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+Route119_House_Text_Angemon:
+	.string "ANGEMON: Pihyoh!$"
 

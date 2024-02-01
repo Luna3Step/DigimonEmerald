@@ -1983,12 +1983,12 @@ const u32 gMonShinyPalette_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/shiny.
 const u8 gMonIcon_Spinda[] = INCBIN_U8("graphics/pokemon/spinda/icon.4bpp");
 const u8 gMonFootprint_Spinda[] = INCBIN_U8("graphics/pokemon/spinda/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wingull[] = INCBIN_U32("graphics/pokemon/wingull/front.4bpp.lz");
-const u32 gMonPalette_Wingull[] = INCBIN_U32("graphics/pokemon/wingull/normal.gbapal.lz");
-const u32 gMonBackPic_Wingull[] = INCBIN_U32("graphics/pokemon/wingull/back.4bpp.lz");
-const u32 gMonShinyPalette_Wingull[] = INCBIN_U32("graphics/pokemon/wingull/shiny.gbapal.lz");
-const u8 gMonIcon_Wingull[] = INCBIN_U8("graphics/pokemon/wingull/icon.4bpp");
-const u8 gMonFootprint_Wingull[] = INCBIN_U8("graphics/pokemon/wingull/footprint.1bpp");
+const u32 gMonStillFrontPic_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/front.4bpp.lz");
+const u32 gMonPalette_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/normal.gbapal.lz");
+const u32 gMonBackPic_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/shiny.gbapal.lz");
+const u8 gMonIcon_Angemon[] = INCBIN_U8("graphics/pokemon/angemon/icon.4bpp");
+const u8 gMonFootprint_Angemon[] = INCBIN_U8("graphics/pokemon/angemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/front.4bpp.lz");
 const u32 gMonPalette_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/normal.gbapal.lz");
