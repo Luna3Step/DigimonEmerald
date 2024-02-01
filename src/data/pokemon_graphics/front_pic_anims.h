@@ -3347,7 +3347,7 @@ static const union AnimCmd sAnim_Archelomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Masquerain_1[] =
+static const union AnimCmd sAnim_Argomon_champion_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 8),
@@ -3361,7 +3361,7 @@ static const union AnimCmd sAnim_Masquerain_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Masquerain_2[] =
+static const union AnimCmd sAnim_Argomon_champion_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -5118,7 +5118,7 @@ static const union AnimCmd *const sAnims_Spinda[] ={
 SINGLE_ANIMATION(Angemon);
 SINGLE_ANIMATION(Ankylomon);
 DOUBLE_ANIMATION(Archelomon);
-DOUBLE_ANIMATION(Masquerain);
+DOUBLE_ANIMATION(Argomon_champion);
 SINGLE_ANIMATION(Wailmer);
 SINGLE_ANIMATION(Wailord);
 SINGLE_ANIMATION(Skitty);
@@ -5566,7 +5566,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ANGEMON]     = sAnims_Angemon,
     [SPECIES_ANKYLOMON]    = sAnims_Ankylomon,
     [SPECIES_ARCHELOMON]     = sAnims_Archelomon,
-    [SPECIES_ARGOMON_CHAMPION]  = sAnims_Masquerain,
+    [SPECIES_ARGOMON_CHAMPION]  = sAnims_Argomon_champion,
     [SPECIES_CHAMBLEMON]     = sAnims_Wailmer,
     [SPECIES_CHAMELEMON]     = sAnims_Wailord,
     [SPECIES_BIRDRAMON]      = sAnims_Skitty,

@@ -311,7 +311,7 @@ gCryTable::
 	cry Cry_Plusle
 	cry Cry_Minun
 	cry Cry_Archelomon
-	cry Cry_Masquerain
+	cry Cry_Argomon_champion
 	cry Cry_Skitty
 	cry Cry_Delcatty
 	cry Cry_Gulpin
@@ -702,7 +702,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Plusle
 	cry_reverse Cry_Minun
 	cry_reverse Cry_Archelomon
-	cry_reverse Cry_Masquerain
+	cry_reverse Cry_Argomon_champion
 	cry_reverse Cry_Skitty
 	cry_reverse Cry_Delcatty
 	cry_reverse Cry_Gulpin

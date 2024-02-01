@@ -2004,12 +2004,12 @@ const u32 gMonShinyPalette_Archelomon[] = INCBIN_U32("graphics/pokemon/archelomo
 const u8 gMonIcon_Archelomon[] = INCBIN_U8("graphics/pokemon/archelomon/icon.4bpp");
 const u8 gMonFootprint_Archelomon[] = INCBIN_U8("graphics/pokemon/archelomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/front.4bpp.lz");
-const u32 gMonPalette_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/normal.gbapal.lz");
-const u32 gMonBackPic_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/back.4bpp.lz");
-const u32 gMonShinyPalette_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/shiny.gbapal.lz");
-const u8 gMonIcon_Masquerain[] = INCBIN_U8("graphics/pokemon/masquerain/icon.4bpp");
-const u8 gMonFootprint_Masquerain[] = INCBIN_U8("graphics/pokemon/masquerain/footprint.1bpp");
+const u32 gMonStillFrontPic_Argomon_champion[] = INCBIN_U32("graphics/pokemon/argomon_champion/front.4bpp.lz");
+const u32 gMonPalette_Argomon_champion[] = INCBIN_U32("graphics/pokemon/argomon_champion/normal.gbapal.lz");
+const u32 gMonBackPic_Argomon_champion[] = INCBIN_U32("graphics/pokemon/argomon_champion/back.4bpp.lz");
+const u32 gMonShinyPalette_Argomon_champion[] = INCBIN_U32("graphics/pokemon/argomon_champion/shiny.gbapal.lz");
+const u8 gMonIcon_Argomon_champion[] = INCBIN_U8("graphics/pokemon/argomon_champion/icon.4bpp");
+const u8 gMonFootprint_Argomon_champion[] = INCBIN_U8("graphics/pokemon/argomon_champion/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/front.4bpp.lz");
 const u32 gMonPalette_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/normal.gbapal.lz");

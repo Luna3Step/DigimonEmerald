@@ -251,13 +251,13 @@ static const union AnimCmd sUnusedAnim_Archelomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Masquerain_1[] =
+static const union AnimCmd sUnusedAnim_Argomon_champion_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Masquerain_2[] =
+static const union AnimCmd sUnusedAnim_Argomon_champion_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
@@ -1251,7 +1251,7 @@ static const union AnimCmd *const sUnusedAnims_Spinda[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Angemon[] = {sAnim_GeneralFrame0, sUnusedAnim_Angemon_1};
 static const union AnimCmd *const sUnusedAnims_Ankylomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Ankylomon_1, sUnusedAnim_Ankylomon_2};
 static const union AnimCmd *const sUnusedAnims_Archelomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Archelomon_1, sUnusedAnim_Archelomon_2};
-static const union AnimCmd *const sUnusedAnims_Masquerain[] = {sAnim_GeneralFrame0, sUnusedAnim_Masquerain_1, sUnusedAnim_Masquerain_2};
+static const union AnimCmd *const sUnusedAnims_Argomon_champion[] = {sAnim_GeneralFrame0, sUnusedAnim_Argomon_champion_1, sUnusedAnim_Argomon_champion_2};
 static const union AnimCmd *const sUnusedAnims_Wailmer[] = {sAnim_GeneralFrame0, sUnusedAnim_Wailmer_1, sUnusedAnim_Wailmer_2, sUnusedAnim_Wailmer_3, sUnusedAnim_Wailmer_4};
 static const union AnimCmd *const sUnusedAnims_Wailord[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Skitty[] = {sAnim_GeneralFrame0, sUnusedAnim_Skitty_1};
@@ -1693,7 +1693,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_ANGEMON] = sUnusedAnims_Angemon,
     [SPECIES_ANKYLOMON] = sUnusedAnims_Ankylomon,
     [SPECIES_ARCHELOMON] = sUnusedAnims_Archelomon,
-    [SPECIES_ARGOMON_CHAMPION] = sUnusedAnims_Masquerain,
+    [SPECIES_ARGOMON_CHAMPION] = sUnusedAnims_Argomon_champion,
     [SPECIES_CHAMBLEMON] = sUnusedAnims_Wailmer,
     [SPECIES_CHAMELEMON] = sUnusedAnims_Wailord,
     [SPECIES_BIRDRAMON] = sUnusedAnims_Skitty,
