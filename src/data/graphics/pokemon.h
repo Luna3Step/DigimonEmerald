@@ -1990,12 +1990,12 @@ const u32 gMonShinyPalette_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/shin
 const u8 gMonIcon_Angemon[] = INCBIN_U8("graphics/pokemon/angemon/icon.4bpp");
 const u8 gMonFootprint_Angemon[] = INCBIN_U8("graphics/pokemon/angemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/front.4bpp.lz");
-const u32 gMonPalette_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/normal.gbapal.lz");
-const u32 gMonBackPic_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/back.4bpp.lz");
-const u32 gMonShinyPalette_Pelipper[] = INCBIN_U32("graphics/pokemon/pelipper/shiny.gbapal.lz");
-const u8 gMonIcon_Pelipper[] = INCBIN_U8("graphics/pokemon/pelipper/icon.4bpp");
-const u8 gMonFootprint_Pelipper[] = INCBIN_U8("graphics/pokemon/pelipper/footprint.1bpp");
+const u32 gMonStillFrontPic_Ankylomon[] = INCBIN_U32("graphics/pokemon/ankylomon/front.4bpp.lz");
+const u32 gMonPalette_Ankylomon[] = INCBIN_U32("graphics/pokemon/ankylomon/normal.gbapal.lz");
+const u32 gMonBackPic_Ankylomon[] = INCBIN_U32("graphics/pokemon/ankylomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Ankylomon[] = INCBIN_U32("graphics/pokemon/ankylomon/shiny.gbapal.lz");
+const u8 gMonIcon_Ankylomon[] = INCBIN_U8("graphics/pokemon/ankylomon/icon.4bpp");
+const u8 gMonFootprint_Ankylomon[] = INCBIN_U8("graphics/pokemon/ankylomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/front.4bpp.lz");
 const u32 gMonPalette_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/normal.gbapal.lz");

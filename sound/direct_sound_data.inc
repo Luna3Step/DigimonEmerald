@@ -1503,8 +1503,8 @@ Cry_Terriermon_x::
 	.incbin "sound/direct_sound_samples/cries/terriermon_x.bin"
 
 	.align 2
-Cry_Pelipper::
-	.incbin "sound/direct_sound_samples/cries/pelipper.bin"
+Cry_Ankylomon::
+	.incbin "sound/direct_sound_samples/cries/ankylomon.bin"
 
 	.align 2
 Cry_Angemon::
