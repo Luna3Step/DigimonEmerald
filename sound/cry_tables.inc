@@ -313,7 +313,7 @@ gCryTable::
 	cry Cry_Archelomon
 	cry Cry_Argomon_champion
 	cry Cry_Birdramon
-	cry Cry_Delcatty
+	cry Cry_Blgaogamon
 	cry Cry_Gulpin
 	cry Cry_Swalot
 	cry Cry_Numel
@@ -704,7 +704,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Archelomon
 	cry_reverse Cry_Argomon_champion
 	cry_reverse Cry_Birdramon
-	cry_reverse Cry_Delcatty
+	cry_reverse Cry_Blgaogamon
 	cry_reverse Cry_Gulpin
 	cry_reverse Cry_Swalot
 	cry_reverse Cry_Numel

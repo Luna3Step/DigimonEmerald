@@ -2032,12 +2032,12 @@ const u32 gMonShinyPalette_Birdramon[] = INCBIN_U32("graphics/pokemon/birdramon/
 const u8 gMonIcon_Birdramon[] = INCBIN_U8("graphics/pokemon/birdramon/icon.4bpp");
 const u8 gMonFootprint_Birdramon[] = INCBIN_U8("graphics/pokemon/birdramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/front.4bpp.lz");
-const u32 gMonPalette_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/normal.gbapal.lz");
-const u32 gMonBackPic_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/back.4bpp.lz");
-const u32 gMonShinyPalette_Delcatty[] = INCBIN_U32("graphics/pokemon/delcatty/shiny.gbapal.lz");
-const u8 gMonIcon_Delcatty[] = INCBIN_U8("graphics/pokemon/delcatty/icon.4bpp");
-const u8 gMonFootprint_Delcatty[] = INCBIN_U8("graphics/pokemon/delcatty/footprint.1bpp");
+const u32 gMonStillFrontPic_Blgaogamon[] = INCBIN_U32("graphics/pokemon/blgaogamon/front.4bpp.lz");
+const u32 gMonPalette_Blgaogamon[] = INCBIN_U32("graphics/pokemon/blgaogamon/normal.gbapal.lz");
+const u32 gMonBackPic_Blgaogamon[] = INCBIN_U32("graphics/pokemon/blgaogamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Blgaogamon[] = INCBIN_U32("graphics/pokemon/blgaogamon/shiny.gbapal.lz");
+const u8 gMonIcon_Blgaogamon[] = INCBIN_U8("graphics/pokemon/blgaogamon/icon.4bpp");
+const u8 gMonFootprint_Blgaogamon[] = INCBIN_U8("graphics/pokemon/blgaogamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kecleon[] = INCBIN_U32("graphics/pokemon/kecleon/front.4bpp.lz");
 const u32 gMonPalette_Kecleon[] = INCBIN_U32("graphics/pokemon/kecleon/normal.gbapal.lz");

@@ -3395,7 +3395,7 @@ static const union AnimCmd sAnim_Birdramon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Delcatty_1[] =
+static const union AnimCmd sAnim_Blgaogamon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 46),
@@ -5122,7 +5122,7 @@ DOUBLE_ANIMATION(Argomon_champion);
 SINGLE_ANIMATION(Wailmer);
 SINGLE_ANIMATION(Wailord);
 SINGLE_ANIMATION(Birdramon);
-SINGLE_ANIMATION(Delcatty);
+SINGLE_ANIMATION(Blgaogamon);
 SINGLE_ANIMATION(Kecleon);
 SINGLE_ANIMATION(Baltoy);
 SINGLE_ANIMATION(Claydol);
@@ -5570,7 +5570,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHAMBLEMON]     = sAnims_Wailmer,
     [SPECIES_CHAMELEMON]     = sAnims_Wailord,
     [SPECIES_BIRDRAMON]      = sAnims_Birdramon,
-    [SPECIES_BLGAOGAMON]    = sAnims_Delcatty,
+    [SPECIES_BLGAOGAMON]    = sAnims_Blgaogamon,
     [SPECIES_DONSHOUMON]     = sAnims_Kecleon,
     [SPECIES_DEXDORUMON]      = sAnims_Baltoy,
     [SPECIES_DIATRYMON]     = sAnims_Claydol,

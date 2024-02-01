@@ -1639,8 +1639,8 @@ Cry_Birdramon::
 	.incbin "sound/direct_sound_samples/cries/birdramon.bin"
 
 	.align 2
-Cry_Delcatty::
-	.incbin "sound/direct_sound_samples/cries/delcatty.bin"
+Cry_Blgaogamon::
+	.incbin "sound/direct_sound_samples/cries/blgaogamon.bin"
 
 	.align 2
 Cry_Gulpin::
