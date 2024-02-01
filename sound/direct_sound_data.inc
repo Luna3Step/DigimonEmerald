@@ -1595,8 +1595,8 @@ Cry_Bakemon::
 	.incbin "sound/direct_sound_samples/cries/bakemon.bin"
 
 	.align 2
-Cry_Ninjask::
-	.incbin "sound/direct_sound_samples/cries/ninjask.bin"
+Cry_Balistamon::
+	.incbin "sound/direct_sound_samples/cries/balistamon.bin"
 
 	.align 2
 Cry_Shedinja::
