@@ -5532,7 +5532,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem)
                 if (gEvolutionTable[species][i].param <= level && (upperPersonality % 10) <= 4)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-            case EVO_LEVEL_CASCOON:
+            case EVO_LEVEL_WORMMON:
                 if (gEvolutionTable[species][i].param <= level && (upperPersonality % 10) > 4)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;

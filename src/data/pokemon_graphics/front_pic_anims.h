@@ -3110,7 +3110,7 @@ static const union AnimCmd sAnim_Vorvomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Cascoon_1[] =
+static const union AnimCmd sAnim_Wormmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -3120,7 +3120,7 @@ static const union AnimCmd sAnim_Cascoon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Cascoon_2[] =
+static const union AnimCmd sAnim_Wormmon_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -5097,7 +5097,7 @@ SINGLE_ANIMATION(Tsukaimon);
 SINGLE_ANIMATION(Veemon);
 DOUBLE_ANIMATION(Vemmon);
 DOUBLE_ANIMATION(Vorvomon);
-DOUBLE_ANIMATION(Cascoon);
+DOUBLE_ANIMATION(Wormmon);
 DOUBLE_ANIMATION(Dustox);
 SINGLE_ANIMATION(Lotad);
 SINGLE_ANIMATION(Lombre);
@@ -5547,7 +5547,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_VEEMON]     = sAnims_Veemon,
     [SPECIES_VEMMON]     = sAnims_Vemmon,
     [SPECIES_VORVOMON]   = sAnims_Vorvomon,
-    [SPECIES_WORMMON]     = sAnims_Cascoon,
+    [SPECIES_WORMMON]     = sAnims_Wormmon,
     [SPECIES_ZENIMON]      = sAnims_Dustox,
     [SPECIES_ZUBAMON]       = sAnims_Lotad,
     [SPECIES_AEGIOMON]      = sAnims_Lombre,
