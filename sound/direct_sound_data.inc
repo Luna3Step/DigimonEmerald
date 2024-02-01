@@ -1887,8 +1887,8 @@ Cry_Shroomish::
 	.incbin "sound/direct_sound_samples/cries/shroomish.bin"
 
 	.align 2
-Cry_Linoone::
-	.incbin "sound/direct_sound_samples/cries/linoone.bin"
+Cry_Tsukaimon::
+	.incbin "sound/direct_sound_samples/cries/tsukaimon.bin"
 
 	.align 2
 Cry_Tropius::

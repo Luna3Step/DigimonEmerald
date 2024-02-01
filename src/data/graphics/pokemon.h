@@ -1843,12 +1843,12 @@ const u32 gMonShinyPalette_Toyagumon[] = INCBIN_U32("graphics/pokemon/toyagumon/
 const u8 gMonIcon_Toyagumon[] = INCBIN_U8("graphics/pokemon/toyagumon/icon.4bpp");
 const u8 gMonFootprint_Toyagumon[] = INCBIN_U8("graphics/pokemon/toyagumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/front.4bpp.lz");
-const u32 gMonPalette_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/normal.gbapal.lz");
-const u32 gMonBackPic_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/back.4bpp.lz");
-const u32 gMonShinyPalette_Linoone[] = INCBIN_U32("graphics/pokemon/linoone/shiny.gbapal.lz");
-const u8 gMonIcon_Linoone[] = INCBIN_U8("graphics/pokemon/linoone/icon.4bpp");
-const u8 gMonFootprint_Linoone[] = INCBIN_U8("graphics/pokemon/linoone/footprint.1bpp");
+const u32 gMonStillFrontPic_Tsukaimon[] = INCBIN_U32("graphics/pokemon/tsukaimon/front.4bpp.lz");
+const u32 gMonPalette_Tsukaimon[] = INCBIN_U32("graphics/pokemon/tsukaimon/normal.gbapal.lz");
+const u32 gMonBackPic_Tsukaimon[] = INCBIN_U32("graphics/pokemon/tsukaimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Tsukaimon[] = INCBIN_U32("graphics/pokemon/tsukaimon/shiny.gbapal.lz");
+const u8 gMonIcon_Tsukaimon[] = INCBIN_U8("graphics/pokemon/tsukaimon/icon.4bpp");
+const u8 gMonFootprint_Tsukaimon[] = INCBIN_U8("graphics/pokemon/tsukaimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/front.4bpp.lz");
 const u32 gMonPalette_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/normal.gbapal.lz");

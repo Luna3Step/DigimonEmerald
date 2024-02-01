@@ -375,7 +375,7 @@ gCryTable::
 	cry Cry_Salamence
 	cry Cry_Breloom
 	cry Cry_Shroomish
-	cry Cry_Linoone
+	cry Cry_Tsukaimon
 	cry Cry_Tropius
 	cry Cry_Wailmer
 	cry Cry_Toyagumon
@@ -766,7 +766,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Salamence
 	cry_reverse Cry_Breloom
 	cry_reverse Cry_Shroomish
-	cry_reverse Cry_Linoone
+	cry_reverse Cry_Tsukaimon
 	cry_reverse Cry_Tropius
 	cry_reverse Cry_Wailmer
 	cry_reverse Cry_Toyagumon
