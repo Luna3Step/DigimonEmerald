@@ -107,7 +107,7 @@ static const struct MenuAction MultichoiceList_Mechadoll1_Q1[] =
 {
     {gTrickHouse_Mechadoll_Zerimon},
     {gTrickHouse_Mechadoll_Tinkermon},
-    {gTrickHouse_Mechadoll_Taillow},
+    {gTrickHouse_Mechadoll_Allomon_x},
 };
 
 static const struct MenuAction MultichoiceList_Mechadoll1_Q2[] =

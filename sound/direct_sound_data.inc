@@ -1451,8 +1451,8 @@ Cry_Unused265::
 	.incbin "sound/direct_sound_samples/cries/unused_265.bin"
 
 	.align 2
-Cry_Taillow::
-	.incbin "sound/direct_sound_samples/cries/taillow.bin"
+Cry_Allomon_x::
+	.incbin "sound/direct_sound_samples/cries/allomon_x.bin"
 
 	.align 2
 Cry_Swellow::

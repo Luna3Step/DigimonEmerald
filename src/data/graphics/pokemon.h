@@ -1948,12 +1948,12 @@ const u32 gMonShinyPalette_Shedinja[] = INCBIN_U32("graphics/pokemon/shedinja/sh
 const u8 gMonIcon_Shedinja[] = INCBIN_U8("graphics/pokemon/shedinja/icon.4bpp");
 const u8 gMonFootprint_Shedinja[] = INCBIN_U8("graphics/pokemon/shedinja/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Taillow[] = INCBIN_U32("graphics/pokemon/taillow/front.4bpp.lz");
-const u32 gMonPalette_Taillow[] = INCBIN_U32("graphics/pokemon/taillow/normal.gbapal.lz");
-const u32 gMonBackPic_Taillow[] = INCBIN_U32("graphics/pokemon/taillow/back.4bpp.lz");
-const u32 gMonShinyPalette_Taillow[] = INCBIN_U32("graphics/pokemon/taillow/shiny.gbapal.lz");
-const u8 gMonIcon_Taillow[] = INCBIN_U8("graphics/pokemon/taillow/icon.4bpp");
-const u8 gMonFootprint_Taillow[] = INCBIN_U8("graphics/pokemon/taillow/footprint.1bpp");
+const u32 gMonStillFrontPic_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/front.4bpp.lz");
+const u32 gMonPalette_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Allomon_x[] = INCBIN_U32("graphics/pokemon/allomon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Allomon_x[] = INCBIN_U8("graphics/pokemon/allomon_x/icon.4bpp");
+const u8 gMonFootprint_Allomon_x[] = INCBIN_U8("graphics/pokemon/allomon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Swellow[] = INCBIN_U32("graphics/pokemon/swellow/front.4bpp.lz");
 const u32 gMonPalette_Swellow[] = INCBIN_U32("graphics/pokemon/swellow/normal.gbapal.lz");

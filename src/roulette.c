@@ -127,7 +127,7 @@
 #define PALTAG_CURSOR 4
 #define PALTAG_INTERFACE 5
 #define PALTAG_SHROOMISH 6
-#define PALTAG_TAILLOW   7
+#define PALTAG_ALLOMON_X   7
 #define PALTAG_GRID_ICONS 8
 #define PALTAG_WYNAUT    9
 #define PALTAG_AZURILL   10
@@ -144,17 +144,17 @@
 #define GFXTAG_BALL_COUNTER 10
 #define GFXTAG_CURSOR 11
 #define GFXTAG_BALL 12
-#define GFXTAG_SHROOMISH_TAILLOW 13
+#define GFXTAG_SHROOMISH_ALLOMON_X 13
 #define GFXTAG_SHADOW 14
 
 // 2 different Roulette tables with 2 different rates (normal vs service day special)
 // & 1 gets which table, >> 7 gets if ROULETTE_SPECIAL_RATE is set
 #define GET_MIN_BET_ID(var)(((var) & 1) + (((var) >> 7) * 2))
 
-// Having Shroomish or Taillow in the party can make rolls more consistent in length
+// Having Shroomish or Allomon_x in the party can make rolls more consistent in length
 // It also increases the likelihood that, if they appear to unstick a ball, they'll move it to a slot the player bet on
 #define HAS_SHROOMISH  (1 << 0)
-#define HAS_TAILLOW    (1 << 1)
+#define HAS_ALLOMON_X    (1 << 1)
 
 #define NO_DELAY 0xFFFF
 
@@ -229,7 +229,7 @@ enum {
     SPR_GRID_BALL_4,
     SPR_GRID_BALL_5,
     SPR_GRID_BALL_6,
-    SPR_CLEAR_MON, // Shroomish/Taillow
+    SPR_CLEAR_MON, // Shroomish/Allomon_x
     SPR_CLEAR_MON_SHADOW_1,
     SPR_CLEAR_MON_SHADOW_2,
     SPR_58, // Here below unused
@@ -257,7 +257,7 @@ struct Shroomish
     u16 fallSlowdown;
 };
 
-struct Taillow
+struct Allomon_x
 {
     u16 baseDropDelay;
     u16 rightStartAngle;
@@ -272,7 +272,7 @@ struct RouletteTable
     u8 wheelSpeed;
     u8 wheelDelay;
     struct Shroomish shroomish;
-    struct Taillow taillow;
+    struct Allomon_x allomon_x;
     u16 ballSpeed;
     u16 baseTravelDist;
     f32 var1C;
@@ -306,7 +306,7 @@ static EWRAM_DATA struct Roulette
     u8 unk0; // Never read
     u8 shroomishShadowTimer;
     u8 partySpeciesFlags;
-    bool8 useTaillow:5;
+    bool8 useAllomon_x:5;
     bool8 ballStuck:1;
     bool8 ballUnstuck:1;
     bool8 ballRolling:1; // Never read
@@ -411,10 +411,10 @@ static void CreateWheelBallSprites(void);
 static void HideWheelBalls(void);
 static void SpriteCB_RollBall_Start(struct Sprite *);
 static void CreateShroomishSprite(struct Sprite *);
-static void CreateTaillowSprite(struct Sprite *);
+static void CreateAllomon_xSprite(struct Sprite *);
 static void SetBallStuck(struct Sprite *);
 static void SpriteCB_Shroomish(struct Sprite *);
-static void SpriteCB_Taillow(struct Sprite *);
+static void SpriteCB_Allomon_x(struct Sprite *);
 
 static const u16 sWheel_Pal[] = INCBIN_U16("graphics/roulette/wheel.gbapal"); // also palette for grid
 static const u32 sGrid_Tilemap[] = INCBIN_U32("graphics/roulette/grid.bin.lz");
@@ -823,7 +823,7 @@ static const struct RouletteTable sRouletteTables[] =
             .dropAngle = 30,
             .fallSlowdown = 1,
         },
-        .taillow = {
+        .allomon_x = {
             .baseDropDelay = 75,
             .rightStartAngle = 27,
             .leftStartAngle = 24,
@@ -844,7 +844,7 @@ static const struct RouletteTable sRouletteTables[] =
             .dropAngle = 60,
             .fallSlowdown = 2,
         },
-        .taillow = {
+        .allomon_x = {
             .baseDropDelay = 0,
             .rightStartAngle = 54,
             .leftStartAngle = 48,
@@ -1150,7 +1150,7 @@ static void InitRouletteTableData(void)
             sRoulette->partySpeciesFlags |= HAS_SHROOMISH;
             break;
         case SPECIES_ALLOMON_X:
-            sRoulette->partySpeciesFlags |= HAS_TAILLOW;
+            sRoulette->partySpeciesFlags |= HAS_ALLOMON_X;
             break;
         }
     }
@@ -1553,13 +1553,13 @@ static void Task_SlideGridOffscreen(u8 taskId)
 // Each roll a random value is generated to add onto this distance
 // Half the value returned by this function is the max distance that can be added on per roll
 // i.e. the lower this value is, the closer the roll will be to a consistent distance
-// Odds of a lower value increase as play continues, if the player has Shroomish and/or Taillow in the party, and dependent on the time
+// Odds of a lower value increase as play continues, if the player has Shroomish and/or Allomon_x in the party, and dependent on the time
 static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
 {
     switch (sRoulette->partySpeciesFlags)
     {
     case HAS_SHROOMISH:
-    case HAS_TAILLOW:
+    case HAS_ALLOMON_X:
         // one of the two is in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 10)
         {
@@ -1577,7 +1577,7 @@ static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
             return sRouletteTables[sRoulette->tableId].randDistanceLow;
         }
         break;
-    case HAS_SHROOMISH | HAS_TAILLOW:
+    case HAS_SHROOMISH | HAS_ALLOMON_X:
         // both are in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 11)
         {
@@ -2030,7 +2030,7 @@ static void ResetBallDataForNewSpin(u8 taskId)
     sRoulette->ballRolling = FALSE;
     sRoulette->ballStuck = FALSE;
     sRoulette->ballUnstuck = FALSE;
-    sRoulette->useTaillow = FALSE;
+    sRoulette->useAllomon_x = FALSE;
 
     for (i = 0; i < BALLS_PER_ROUND; i++)
         sRoulette->betSelection[i] = SELECTION_NONE;
@@ -2329,7 +2329,7 @@ static const u16 sBallCounter_Pal[] = INCBIN_U16("graphics/roulette/ball_counter
 static const u16 sCursor_Pal[] = INCBIN_U16("graphics/roulette/cursor.gbapal");
 static const u16 sCredit_Pal[] = INCBIN_U16("graphics/roulette/credit.gbapal");
 static const u16 sShroomish_Pal[] = INCBIN_U16("graphics/roulette/shroomish.gbapal");
-static const u16 sTaillow_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
+static const u16 sAllomon_x_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
 static const u16 sGridIcons_Pal[] = INCBIN_U16("graphics/roulette/grid_icons.gbapal");
 static const u16 sWynaut_Pal[] = INCBIN_U16("graphics/roulette/wynaut.gbapal");
 static const u16 sAzurill_Pal[] = INCBIN_U16("graphics/roulette/azurill.gbapal");
@@ -2341,7 +2341,7 @@ static const u16 sUnused3_Pal[] = INCBIN_U16("graphics/roulette/unused_3.gbapal"
 static const u16 sUnused4_Pal[] = INCBIN_U16("graphics/roulette/unused_4.gbapal");
 static const u32 sBall_Gfx[] = INCBIN_U32("graphics/roulette/ball.4bpp.lz");
 static const u32 sBallCounter_Gfx[] = INCBIN_U32("graphics/roulette/ball_counter.4bpp.lz");
-static const u32 sShroomishTaillow_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
+static const u32 sShroomishAllomon_x_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
 static const u32 sGridIcons_Gfx[] = INCBIN_U32("graphics/roulette/grid_icons.4bpp.lz");
 static const u32 sWheelIcons_Gfx[] = INCBIN_U32("graphics/roulette/wheel_icons.4bpp.lz");
 static const u32 sShadow_Gfx[] = INCBIN_U32("graphics/roulette/shadow.4bpp.lz");
@@ -2355,7 +2355,7 @@ static const struct SpritePalette sSpritePalettes[] =
     { .data = sCursor_Pal,      .tag = PALTAG_CURSOR },
     { .data = sCredit_Pal,      .tag = PALTAG_INTERFACE },
     { .data = sShroomish_Pal,   .tag = PALTAG_SHROOMISH },
-    { .data = sTaillow_Pal,     .tag = PALTAG_TAILLOW },
+    { .data = sAllomon_x_Pal,     .tag = PALTAG_ALLOMON_X },
     { .data = sGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
     { .data = sWynaut_Pal,      .tag = PALTAG_WYNAUT },
     { .data = sAzurill_Pal,     .tag = PALTAG_AZURILL },
@@ -3138,7 +3138,7 @@ static const struct OamData sOam_Shroomish =
     .priority = 2,
 };
 
-static const struct OamData sOam_Taillow =
+static const struct OamData sOam_Allomon_x =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3147,11 +3147,11 @@ static const struct OamData sOam_Taillow =
     .priority = 2,
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ShroomishTaillow =
+static const struct CompressedSpriteSheet sSpriteSheet_ShroomishAllomon_x =
 {
-    .data = sShroomishTaillow_Gfx,
+    .data = sShroomishAllomon_x_Gfx,
     .size = 0xE00,
-    .tag = GFXTAG_SHROOMISH_TAILLOW
+    .tag = GFXTAG_SHROOMISH_ALLOMON_X
 };
 
 static const union AnimCmd sAnim_Shroomish[] =
@@ -3165,40 +3165,40 @@ static const union AnimCmd sAnim_Shroomish[] =
     ANIMCMD_JUMP(2)
 };
 
-static const union AnimCmd sAnim_Taillow_WingDown_Left[] =
+static const union AnimCmd sAnim_Allomon_x_WingDown_Left[] =
 {
     ANIMCMD_FRAME(80, 10),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_Taillow_WingDown_Right[] =
+static const union AnimCmd sAnim_Allomon_x_WingDown_Right[] =
 {
     ANIMCMD_FRAME(80, 10, .hFlip = TRUE),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_Taillow_FlapSlow_Left[] =
+static const union AnimCmd sAnim_Allomon_x_FlapSlow_Left[] =
 {
     ANIMCMD_FRAME(80, 20),
     ANIMCMD_FRAME(96, 20),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Taillow_FlapSlow_Right[] =
+static const union AnimCmd sAnim_Allomon_x_FlapSlow_Right[] =
 {
     ANIMCMD_FRAME(80, 20, .hFlip = TRUE),
     ANIMCMD_FRAME(96, 20, .hFlip = TRUE),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Taillow_FlapFast_Left[] =
+static const union AnimCmd sAnim_Allomon_x_FlapFast_Left[] =
 {
     ANIMCMD_FRAME(80, 10),
     ANIMCMD_FRAME(96, 10),
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd sAnim_Taillow_FlapFast_Right[] =
+static const union AnimCmd sAnim_Allomon_x_FlapFast_Right[] =
 {
     ANIMCMD_FRAME(80, 10, .hFlip = TRUE),
     ANIMCMD_FRAME(96, 10, .hFlip = TRUE),
@@ -3210,19 +3210,19 @@ static const union AnimCmd *const sAnims_Shroomish[] =
     sAnim_Shroomish
 };
 
-static const union AnimCmd *const sAnims_Taillow[] =
+static const union AnimCmd *const sAnims_Allomon_x[] =
 {
-    sAnim_Taillow_WingDown_Left,   // While gliding in
-    sAnim_Taillow_WingDown_Right,
-    sAnim_Taillow_FlapSlow_Left,   // While carrying ball
-    sAnim_Taillow_FlapSlow_Right,
-    sAnim_Taillow_FlapFast_Left,   // While flying off
-    sAnim_Taillow_FlapFast_Right
+    sAnim_Allomon_x_WingDown_Left,   // While gliding in
+    sAnim_Allomon_x_WingDown_Right,
+    sAnim_Allomon_x_FlapSlow_Left,   // While carrying ball
+    sAnim_Allomon_x_FlapSlow_Right,
+    sAnim_Allomon_x_FlapFast_Left,   // While flying off
+    sAnim_Allomon_x_FlapFast_Right
 };
 
 static const struct SpriteTemplate sSpriteTemplate_Shroomish =
 {
-    .tileTag = GFXTAG_SHROOMISH_TAILLOW,
+    .tileTag = GFXTAG_SHROOMISH_ALLOMON_X,
     .paletteTag = PALTAG_SHROOMISH,
     .oam = &sOam_Shroomish,
     .anims = sAnims_Shroomish,
@@ -3231,15 +3231,15 @@ static const struct SpriteTemplate sSpriteTemplate_Shroomish =
     .callback = SpriteCallbackDummy
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Taillow =
+static const struct SpriteTemplate sSpriteTemplate_Allomon_x =
 {
-    .tileTag = GFXTAG_SHROOMISH_TAILLOW,
-    .paletteTag = PALTAG_TAILLOW,
-    .oam = &sOam_Taillow,
-    .anims = sAnims_Taillow,
+    .tileTag = GFXTAG_SHROOMISH_ALLOMON_X,
+    .paletteTag = PALTAG_ALLOMON_X,
+    .oam = &sOam_Allomon_x,
+    .anims = sAnims_Allomon_x,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_Taillow
+    .callback = SpriteCB_Allomon_x
 };
 
 static const struct OamData sOam_ShroomishBallShadow =
@@ -3260,7 +3260,7 @@ static const struct OamData sOam_ShroomishShadow =
     .priority = 2,
 };
 
-static const struct OamData sOam_TaillowShadow =
+static const struct OamData sOam_Allomon_xShadow =
 {
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3283,7 +3283,7 @@ static const union AffineAnimCmd sAffineAnim_Unused3[] =
     AFFINEANIMCMD_END
 };
 
-static const union AffineAnimCmd sAffineAnim_TaillowShadow[] =
+static const union AffineAnimCmd sAffineAnim_Allomon_xShadow[] =
 {
     AFFINEANIMCMD_FRAME(0x100, 0x100, 0, 0),
     AFFINEANIMCMD_FRAME(-2,    0x0,   0, 15),
@@ -3297,9 +3297,9 @@ static const union AffineAnimCmd *const sAffineAnims_Unused3[] =
     sAffineAnim_Unused3
 };
 
-static const union AffineAnimCmd *const sAffineAnims_TaillowShadow[] =
+static const union AffineAnimCmd *const sAffineAnims_Allomon_xShadow[] =
 {
-    sAffineAnim_TaillowShadow
+    sAffineAnim_Allomon_xShadow
 };
 
 static const union AffineAnimCmd sAffineAnim_Unused4[] =
@@ -3359,15 +3359,15 @@ static const struct SpriteTemplate sSpriteTemplate_ShroomishShadow[] =
     }
 };
 
-static const struct SpriteTemplate sSpriteTemplate_TaillowShadow =
+static const struct SpriteTemplate sSpriteTemplate_Allomon_xShadow =
 {
     .tileTag = GFXTAG_SHADOW,
     .paletteTag = PALTAG_SHADOW,
-    .oam = &sOam_TaillowShadow,
+    .oam = &sOam_Allomon_xShadow,
     .anims = sAnims_UnstickMonShadow,
     .images = NULL,
-    .affineAnims = sAffineAnims_TaillowShadow,
-    .callback = SpriteCB_Taillow
+    .affineAnims = sAffineAnims_Allomon_xShadow,
+    .callback = SpriteCB_Allomon_x
 };
 
 static void Task_ShowMinBetYesNo(u8 taskId)
@@ -3488,14 +3488,14 @@ static void LoadOrFreeMiscSpritePalettesAndSheets(bool8 free)
         FreeAllSpritePalettes();
         LoadSpritePalettes(sSpritePalettes);
         LoadCompressedSpriteSheet(&sSpriteSheet_Ball);
-        LoadCompressedSpriteSheet(&sSpriteSheet_ShroomishTaillow);
+        LoadCompressedSpriteSheet(&sSpriteSheet_ShroomishAllomon_x);
         LoadCompressedSpriteSheet(&sSpriteSheet_Shadow);
     }
     else
     {
         // Unused
         FreeSpriteTilesByTag(GFXTAG_SHADOW);
-        FreeSpriteTilesByTag(GFXTAG_SHROOMISH_TAILLOW);
+        FreeSpriteTilesByTag(GFXTAG_SHROOMISH_ALLOMON_X);
         FreeSpriteTilesByTag(GFXTAG_BALL);
         FreeAllSpritePalettes();
     }
@@ -4096,7 +4096,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
     sprite->data[2] = 0;
 }
 
-static void SpriteCB_UnstickBall_TaillowDrop(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_Allomon_xDrop(struct Sprite *sprite)
 {
     sprite->y2 = (s16)(sprite->data[2] * 0.05f * sprite->data[2]) - 45;
     sprite->data[2]++;
@@ -4107,7 +4107,7 @@ static void SpriteCB_UnstickBall_TaillowDrop(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_UnstickBall_TaillowPickUp(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_Allomon_xPickUp(struct Sprite *sprite)
 {
     if (sprite->data[2]++ < 45)
     {
@@ -4137,13 +4137,13 @@ static void SpriteCB_UnstickBall_TaillowPickUp(struct Sprite *sprite)
             sprite->animBeginning = TRUE;
             sprite->animEnded = FALSE;
             sprite->data[2] = 0;
-            sprite->callback = SpriteCB_UnstickBall_TaillowDrop;
+            sprite->callback = SpriteCB_UnstickBall_Allomon_xDrop;
             m4aSongNumStart(SE_BALL_THROW);
         }
     }
 }
 
-static void SpriteCB_UnstickBall_Taillow(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_Allomon_x(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
 
@@ -4152,26 +4152,26 @@ static void SpriteCB_UnstickBall_Taillow(struct Sprite *sprite)
     case 90:
         if (sprite->sStuckOnWheelLeft != TRUE)
         {
-            sprite->callback = &SpriteCB_UnstickBall_TaillowPickUp;
+            sprite->callback = &SpriteCB_UnstickBall_Allomon_xPickUp;
             sprite->data[2] = 0;
         }
         break;
     case 270:
         if (sprite->sStuckOnWheelLeft)
         {
-            sprite->callback = &SpriteCB_UnstickBall_TaillowPickUp;
+            sprite->callback = &SpriteCB_UnstickBall_Allomon_xPickUp;
             sprite->data[2] = 0;
         }
         break;
     }
 }
 
-// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Shroomish/Taillow
-// For what Shroomish/Taillow do during this sequence, see SpriteCB_Shroomish / SpriteCB_Taillow
+// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Shroomish/Allomon_x
+// For what Shroomish/Allomon_x do during this sequence, see SpriteCB_Shroomish / SpriteCB_Allomon_x
 static void SpriteCB_UnstickBall(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
-    switch (sRoulette->useTaillow)
+    switch (sRoulette->useAllomon_x)
     {
     default:
     case FALSE:
@@ -4179,8 +4179,8 @@ static void SpriteCB_UnstickBall(struct Sprite *sprite)
         sprite->callback = SpriteCB_UnstickBall_Shroomish;
         break;
     case TRUE:
-        CreateTaillowSprite(sprite);
-        sprite->callback = SpriteCB_UnstickBall_Taillow;
+        CreateAllomon_xSprite(sprite);
+        sprite->callback = SpriteCB_UnstickBall_Allomon_x;
         break;
     }
 }
@@ -4203,7 +4203,7 @@ static void SpriteCB_RollBall_TryLandAdjacent(struct Sprite *sprite)
         }
         else
         {
-            // Ball is stuck, need Shroomish/Taillow to clear ball
+            // Ball is stuck, need Shroomish/Allomon_x to clear ball
             sprite->animPaused = TRUE;
             m4aSongNumStart(SE_BALL_BOUNCE_1);
             SetBallStuck(sprite);
@@ -4378,7 +4378,7 @@ static void CreateShroomishSprite(struct Sprite *ball)
     sRoulette->ball = ball;
 }
 
-static void CreateTaillowSprite(struct Sprite *ball)
+static void CreateAllomon_xSprite(struct Sprite *ball)
 {
     u8 i = 0;
     s16 t;
@@ -4388,12 +4388,12 @@ static void CreateTaillowSprite(struct Sprite *ball)
     };
 
     t = ball->data[7] - 2;
-    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Taillow, coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 50);
+    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Allomon_x, coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 50);
     StartSpriteAnim(&gSprites[sRoulette->spriteIds[SPR_CLEAR_MON]], ball->sStuckOnWheelLeft);
-    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_TaillowShadow, coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 51);
+    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_Allomon_xShadow, coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 51);
     gSprites[sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1]].affineAnimPaused = TRUE;
     gSprites[sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1]].animPaused = TRUE;
-    ball->data[7] = (t * sRouletteTables[sRoulette->tableId].randDistanceHigh) + (sRouletteTables[sRoulette->tableId].taillow.baseDropDelay + 45);
+    ball->data[7] = (t * sRouletteTables[sRoulette->tableId].randDistanceHigh) + (sRouletteTables[sRoulette->tableId].allomon_x.baseDropDelay + 45);
     for (; i < 2; i++)
     {
         gSprites[sRoulette->spriteIds[SPR_CLEAR_MON + i]].sMonSpriteId = sRoulette->spriteIds[SPR_CLEAR_MON];
@@ -4425,28 +4425,28 @@ static void SetBallStuck(struct Sprite *sprite)
     sRoulette->ballFallSpeed = 0.0f;
     sRoulette->ballAngleSpeed = sRouletteTables[sRoulette->tableId].var1C;
 
-    angle = (sRoulette->tableId * DEGREES_PER_SLOT + 33) + (1 - sRoulette->useTaillow) * 15;
+    angle = (sRoulette->tableId * DEGREES_PER_SLOT + 33) + (1 - sRoulette->useAllomon_x) * 15;
 
     // Determine which quadrant the ball got stuck in
-    // Use either Shroomish or Taillow to clear the ball depending on where it's stuck
+    // Use either Shroomish or Allomon_x to clear the ball depending on where it's stuck
     for (i = 0; i < 4; i++)
     {
         if (angle < sprite->sBallAngle && sprite->sBallAngle <= angle + 90)
         {
             sprite->sStuckOnWheelLeft = i / 2;
-            sRoulette->useTaillow = i % 2;
+            sRoulette->useAllomon_x = i % 2;
             break;
         }
         if (i == 3)
         {
             sprite->sStuckOnWheelLeft = TRUE;
-            sRoulette->useTaillow = TRUE;
+            sRoulette->useAllomon_x = TRUE;
             break;
         }
         angle += 90;
     }
 
-    if (sRoulette->useTaillow)
+    if (sRoulette->useAllomon_x)
     {
         if (sprite->sStuckOnWheelLeft)
             PlayCry_Normal(SPECIES_ALLOMON_X, -63);
@@ -4461,7 +4461,7 @@ static void SetBallStuck(struct Sprite *sprite)
     slotsToSkip = 2;
     slotId = (sRoulette->stuckHitSlot + 2) % NUM_ROULETTE_SLOTS;
 
-    if (sRoulette->useTaillow == TRUE && sRoulette->tableId == 1)
+    if (sRoulette->useAllomon_x == TRUE && sRoulette->tableId == 1)
         maxSlotToCheck += 6; // Check all remaining slots
     else
         maxSlotToCheck += slotsToSkip; // Check enough slots to guarantee an empty will be found
@@ -4480,9 +4480,9 @@ static void SetBallStuck(struct Sprite *sprite)
 
     // Determine which identified slot the ball should be moved to
     // The below slot ids are relative to the slot the ball got stuck on
-    if ((sRoulette->useTaillow + 1) & sRoulette->partySpeciesFlags)
+    if ((sRoulette->useAllomon_x + 1) & sRoulette->partySpeciesFlags)
     {
-        // If the player has the corresponding pokemon in their party (HAS_SHROOMISH or HAS_TAILLOW),
+        // If the player has the corresponding pokemon in their party (HAS_SHROOMISH or HAS_ALLOMON_X),
         // there's a 75% chance that the ball will be moved to a spot they bet on
         // assuming it was one of the slots identified as a candidate
         if (betSlotId && (rand % 256) < 192)
@@ -4629,12 +4629,12 @@ static void SpriteCB_Shroomish(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_TaillowShadow_Flash(struct Sprite *sprite)
+static void SpriteCB_Allomon_xShadow_Flash(struct Sprite *sprite)
 {
     sprite->invisible ^= 1;
 }
 
-static void SpriteCB_Taillow_FlyAway(struct Sprite *sprite)
+static void SpriteCB_Allomon_x_FlyAway(struct Sprite *sprite)
 {
     if (sprite->y > -16)
     {
@@ -4652,7 +4652,7 @@ static void SpriteCB_Taillow_FlyAway(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_Taillow_PickUpBall(struct Sprite *sprite)
+static void SpriteCB_Allomon_x_PickUpBall(struct Sprite *sprite)
 {
     if (sprite->data[1] >= 0)
     {
@@ -4678,13 +4678,13 @@ static void SpriteCB_Taillow_PickUpBall(struct Sprite *sprite)
         {
             m4aSongNumStart(SE_FALL);
             StartSpriteAnim(sprite, sRoulette->ball->sStuckOnWheelLeft + 4);
-            sprite->callback = SpriteCB_Taillow_FlyAway;
+            sprite->callback = SpriteCB_Allomon_x_FlyAway;
             gSprites[sprite->sMonShadowSpriteId].affineAnimPaused = FALSE;
         }
     }
 }
 
-static void SpriteCB_Taillow_FlyIn(struct Sprite *sprite)
+static void SpriteCB_Allomon_x_FlyIn(struct Sprite *sprite)
 {
     s8 xMoveOffsets[2] = {-1, 1};
     s8 yMoveOffsets[][2] = {
@@ -4724,12 +4724,12 @@ static void SpriteCB_Taillow_FlyIn(struct Sprite *sprite)
                 PlayCry_Normal(SPECIES_ALLOMON_X, -63);
             StartSpriteAnim(sprite, sRoulette->ball->sStuckOnWheelLeft + 2);
             sprite->data[1] = 45;
-            sprite->callback = SpriteCB_Taillow_PickUpBall;
+            sprite->callback = SpriteCB_Allomon_x_PickUpBall;
         }
     }
 }
 
-static void SpriteCB_TaillowShadow_FlyIn(struct Sprite *sprite)
+static void SpriteCB_Allomon_xShadow_FlyIn(struct Sprite *sprite)
 {
     s8 moveDir[2] = {-1, 1};
 
@@ -4740,15 +4740,15 @@ static void SpriteCB_TaillowShadow_FlyIn(struct Sprite *sprite)
     }
     else
     {
-        sprite->callback = SpriteCB_TaillowShadow_Flash;
+        sprite->callback = SpriteCB_Allomon_xShadow_Flash;
     }
 }
 
-static void SpriteCB_Taillow(struct Sprite *sprite)
+static void SpriteCB_Allomon_x(struct Sprite *sprite)
 {
     if (sRoulette->ball->sStuckOnWheelLeft == FALSE)
     {
-        if (sRoulette->ball->sBallAngle == sRouletteTables[sRoulette->tableId].taillow.rightStartAngle + 90)
+        if (sRoulette->ball->sBallAngle == sRouletteTables[sRoulette->tableId].allomon_x.rightStartAngle + 90)
         {
             gSprites[sprite->sMonShadowSpriteId].data[1] = 52;
             gSprites[sprite->sMonSpriteId].data[1] = 52;
@@ -4760,7 +4760,7 @@ static void SpriteCB_Taillow(struct Sprite *sprite)
     }
     else
     {
-        if (sRoulette->ball->sBallAngle == sRouletteTables[sRoulette->tableId].taillow.leftStartAngle + 270)
+        if (sRoulette->ball->sBallAngle == sRouletteTables[sRoulette->tableId].allomon_x.leftStartAngle + 270)
         {
             gSprites[sprite->sMonShadowSpriteId].data[1] = 46;
             gSprites[sprite->sMonSpriteId].data[1] = 46;
@@ -4770,7 +4770,7 @@ static void SpriteCB_Taillow(struct Sprite *sprite)
             return;
         }
     }
-    gSprites[sprite->sMonShadowSpriteId].callback = SpriteCB_TaillowShadow_FlyIn;
-    gSprites[sprite->sMonSpriteId].callback = SpriteCB_Taillow_FlyIn;
+    gSprites[sprite->sMonShadowSpriteId].callback = SpriteCB_Allomon_xShadow_FlyIn;
+    gSprites[sprite->sMonSpriteId].callback = SpriteCB_Allomon_x_FlyIn;
     m4aSongNumStart(SE_FALL);
 }

@@ -4,8 +4,8 @@ gTrickHouse_Mechadoll_Zerimon::
 gTrickHouse_Mechadoll_Tinkermon::
 	.string "TINKERMON$"
 
-gTrickHouse_Mechadoll_Taillow::
-	.string "TAILLOW$"
+gTrickHouse_Mechadoll_Allomon_x::
+	.string "ALLOMON_X$"
 
 gTrickHouse_Mechadoll_Azurill::
 	.string "AZURILL$"

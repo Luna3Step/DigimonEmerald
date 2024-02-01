@@ -197,7 +197,7 @@ static const union AnimCmd sUnusedAnim_Allomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Taillow_1[] =
+static const union AnimCmd sUnusedAnim_Allomon_x_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
@@ -1243,7 +1243,7 @@ static const union AnimCmd *const sUnusedAnims_Allomon[] = {sAnim_GeneralFrame0,
 static const union AnimCmd *const sUnusedAnims_Nincada[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Ninjask[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Shedinja[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Taillow[] = {sAnim_GeneralFrame0, sUnusedAnim_Taillow_1};
+static const union AnimCmd *const sUnusedAnims_Allomon_x[] = {sAnim_GeneralFrame0, sUnusedAnim_Allomon_x_1};
 static const union AnimCmd *const sUnusedAnims_Swellow[] = {sAnim_GeneralFrame0, sUnusedAnim_Swellow_1};
 static const union AnimCmd *const sUnusedAnims_Shroomish[] = {sAnim_GeneralFrame0, sUnusedAnim_Shroomish_1};
 static const union AnimCmd *const sUnusedAnims_Breloom[] = {sAnim_GeneralFrame0, sUnusedAnim_Breloom_1};
@@ -1685,7 +1685,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_BAKEMON] = sUnusedAnims_Nincada,
     [SPECIES_BALISTAMON] = sUnusedAnims_Ninjask,
     [SPECIES_BALUCHIMON] = sUnusedAnims_Shedinja,
-    [SPECIES_ALLOMON_X] = sUnusedAnims_Taillow,
+    [SPECIES_ALLOMON_X] = sUnusedAnims_Allomon_x,
     [SPECIES_ANGELAMON] = sUnusedAnims_Swellow,
     [SPECIES_ARESDRAMON] = sUnusedAnims_Shroomish,
     [SPECIES_ATAMADEMON] = sUnusedAnims_Breloom,
