@@ -1997,12 +1997,12 @@ const u32 gMonShinyPalette_Ankylomon[] = INCBIN_U32("graphics/pokemon/ankylomon/
 const u8 gMonIcon_Ankylomon[] = INCBIN_U8("graphics/pokemon/ankylomon/icon.4bpp");
 const u8 gMonFootprint_Ankylomon[] = INCBIN_U8("graphics/pokemon/ankylomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/front.4bpp.lz");
-const u32 gMonPalette_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/normal.gbapal.lz");
-const u32 gMonBackPic_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/back.4bpp.lz");
-const u32 gMonShinyPalette_Surskit[] = INCBIN_U32("graphics/pokemon/surskit/shiny.gbapal.lz");
-const u8 gMonIcon_Surskit[] = INCBIN_U8("graphics/pokemon/surskit/icon.4bpp");
-const u8 gMonFootprint_Surskit[] = INCBIN_U8("graphics/pokemon/surskit/footprint.1bpp");
+const u32 gMonStillFrontPic_Archelomon[] = INCBIN_U32("graphics/pokemon/archelomon/front.4bpp.lz");
+const u32 gMonPalette_Archelomon[] = INCBIN_U32("graphics/pokemon/archelomon/normal.gbapal.lz");
+const u32 gMonBackPic_Archelomon[] = INCBIN_U32("graphics/pokemon/archelomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Archelomon[] = INCBIN_U32("graphics/pokemon/archelomon/shiny.gbapal.lz");
+const u8 gMonIcon_Archelomon[] = INCBIN_U8("graphics/pokemon/archelomon/icon.4bpp");
+const u8 gMonFootprint_Archelomon[] = INCBIN_U8("graphics/pokemon/archelomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/front.4bpp.lz");
 const u32 gMonPalette_Masquerain[] = INCBIN_U32("graphics/pokemon/masquerain/normal.gbapal.lz");

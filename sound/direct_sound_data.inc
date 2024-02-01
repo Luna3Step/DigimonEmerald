@@ -1627,8 +1627,8 @@ Cry_Minun::
 	.incbin "sound/direct_sound_samples/cries/minun.bin"
 
 	.align 2
-Cry_Surskit::
-	.incbin "sound/direct_sound_samples/cries/surskit.bin"
+Cry_Archelomon::
+	.incbin "sound/direct_sound_samples/cries/archelomon.bin"
 
 	.align 2
 Cry_Masquerain::
