@@ -2424,12 +2424,12 @@ const u32 gMonShinyPalette_Baromon[] = INCBIN_U32("graphics/pokemon/baromon/shin
 const u8 gMonIcon_Baromon[] = INCBIN_U8("graphics/pokemon/baromon/icon.4bpp");
 const u8 gMonFootprint_Baromon[] = INCBIN_U8("graphics/pokemon/baromon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/front.4bpp.lz");
-const u32 gMonPalette_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/normal.gbapal.lz");
-const u32 gMonBackPic_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/back.4bpp.lz");
-const u32 gMonShinyPalette_Exploud[] = INCBIN_U32("graphics/pokemon/exploud/shiny.gbapal.lz");
-const u8 gMonIcon_Exploud[] = INCBIN_U8("graphics/pokemon/exploud/icon.4bpp");
-const u8 gMonFootprint_Exploud[] = INCBIN_U8("graphics/pokemon/exploud/footprint.1bpp");
+const u32 gMonStillFrontPic_Trailmon_battle_armament[] = INCBIN_U32("graphics/pokemon/trailmon_battle_armament/front.4bpp.lz");
+const u32 gMonPalette_Trailmon_battle_armament[] = INCBIN_U32("graphics/pokemon/trailmon_battle_armament/normal.gbapal.lz");
+const u32 gMonBackPic_Trailmon_battle_armament[] = INCBIN_U32("graphics/pokemon/trailmon_battle_armament/back.4bpp.lz");
+const u32 gMonShinyPalette_Trailmon_battle_armament[] = INCBIN_U32("graphics/pokemon/trailmon_battle_armament/shiny.gbapal.lz");
+const u8 gMonIcon_Trailmon_battle_armament[] = INCBIN_U8("graphics/pokemon/trailmon_battle_armament/icon.4bpp");
+const u8 gMonFootprint_Trailmon_battle_armament[] = INCBIN_U8("graphics/pokemon/trailmon_battle_armament/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Clamperl[] = INCBIN_U32("graphics/pokemon/clamperl/front.4bpp.lz");
 const u32 gMonPalette_Clamperl[] = INCBIN_U32("graphics/pokemon/clamperl/normal.gbapal.lz");

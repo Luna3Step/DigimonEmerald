@@ -1903,8 +1903,8 @@ Cry_Toyagumon::
 	.incbin "sound/direct_sound_samples/cries/toyagumon.bin"
 
 	.align 2
-Cry_Exploud::
-	.incbin "sound/direct_sound_samples/cries/exploud.bin"
+Cry_Trailmon_battle_armament::
+	.incbin "sound/direct_sound_samples/cries/trailmon_battle_armament.bin"
 
 	.align 2
 Cry_Baromon::
