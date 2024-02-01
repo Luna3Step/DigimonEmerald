@@ -1567,8 +1567,8 @@ Cry_Zenimon::
 	.incbin "sound/direct_sound_samples/cries/zenimon.bin"
 
 	.align 2
-Cry_Ralts::
-	.incbin "sound/direct_sound_samples/cries/ralts.bin"
+Cry_Apemon::
+	.incbin "sound/direct_sound_samples/cries/apemon.bin"
 
 	.align 2
 Cry_Kirlia::

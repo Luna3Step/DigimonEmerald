@@ -2564,12 +2564,12 @@ const u32 gMonShinyPalette_Armaldo[] = INCBIN_U32("graphics/pokemon/armaldo/shin
 const u8 gMonIcon_Armaldo[] = INCBIN_U8("graphics/pokemon/armaldo/icon.4bpp");
 const u8 gMonFootprint_Armaldo[] = INCBIN_U8("graphics/pokemon/armaldo/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Ralts[] = INCBIN_U32("graphics/pokemon/ralts/front.4bpp.lz");
-const u32 gMonPalette_Ralts[] = INCBIN_U32("graphics/pokemon/ralts/normal.gbapal.lz");
-const u32 gMonBackPic_Ralts[] = INCBIN_U32("graphics/pokemon/ralts/back.4bpp.lz");
-const u32 gMonShinyPalette_Ralts[] = INCBIN_U32("graphics/pokemon/ralts/shiny.gbapal.lz");
-const u8 gMonIcon_Ralts[] = INCBIN_U8("graphics/pokemon/ralts/icon.4bpp");
-const u8 gMonFootprint_Ralts[] = INCBIN_U8("graphics/pokemon/ralts/footprint.1bpp");
+const u32 gMonStillFrontPic_Apemon[] = INCBIN_U32("graphics/pokemon/apemon/front.4bpp.lz");
+const u32 gMonPalette_Apemon[] = INCBIN_U32("graphics/pokemon/apemon/normal.gbapal.lz");
+const u32 gMonBackPic_Apemon[] = INCBIN_U32("graphics/pokemon/apemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Apemon[] = INCBIN_U32("graphics/pokemon/apemon/shiny.gbapal.lz");
+const u8 gMonIcon_Apemon[] = INCBIN_U8("graphics/pokemon/apemon/icon.4bpp");
+const u8 gMonFootprint_Apemon[] = INCBIN_U8("graphics/pokemon/apemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/front.4bpp.lz");
 const u32 gMonPalette_Kirlia[] = INCBIN_U32("graphics/pokemon/kirlia/normal.gbapal.lz");
