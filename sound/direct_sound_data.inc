@@ -1575,8 +1575,8 @@ Cry_Aquilamon::
 	.incbin "sound/direct_sound_samples/cries/aquilamon.bin"
 
 	.align 2
-Cry_Gardevoir::
-	.incbin "sound/direct_sound_samples/cries/gardevoir.bin"
+Cry_Arcadiamon_champion::
+	.incbin "sound/direct_sound_samples/cries/arcadiamon_champion.bin"
 
 	.align 2
 Cry_Slakoth::

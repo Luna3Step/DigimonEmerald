@@ -4304,7 +4304,7 @@ static const union AnimCmd sAnim_Aquilamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Gardevoir_1[] =
+static const union AnimCmd sAnim_Arcadiamon_champion_1[] =
 {
     ANIMCMD_FRAME(0, 3),
     ANIMCMD_FRAME(0, 3),
@@ -5205,7 +5205,7 @@ SINGLE_ANIMATION(Anorith);
 SINGLE_ANIMATION(Armaldo);
 SINGLE_ANIMATION(Apemon);
 SINGLE_ANIMATION(Aquilamon);
-SINGLE_ANIMATION(Gardevoir);
+SINGLE_ANIMATION(Arcadiamon_champion);
 SINGLE_ANIMATION(Bagon);
 SINGLE_ANIMATION(Shelgon);
 SINGLE_ANIMATION(Salamence);
@@ -5648,7 +5648,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DOBERMON_X]     = sAnims_Armaldo,
     [SPECIES_APEMON]       = sAnims_Apemon,
     [SPECIES_AQUILAMON]      = sAnims_Aquilamon,
-    [SPECIES_ARCADIAMON_CHAMPION]   = sAnims_Gardevoir,
+    [SPECIES_ARCADIAMON_CHAMPION]   = sAnims_Arcadiamon_champion,
     [SPECIES_FLYMON]       = sAnims_Bagon,
     [SPECIES_FRIGIMON]     = sAnims_Shelgon,
     [SPECIES_FROGMON]   = sAnims_Salamence,

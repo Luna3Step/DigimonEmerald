@@ -2578,12 +2578,12 @@ const u32 gMonShinyPalette_Aquilamon[] = INCBIN_U32("graphics/pokemon/aquilamon/
 const u8 gMonIcon_Aquilamon[] = INCBIN_U8("graphics/pokemon/aquilamon/icon.4bpp");
 const u8 gMonFootprint_Aquilamon[] = INCBIN_U8("graphics/pokemon/aquilamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/front.4bpp.lz");
-const u32 gMonPalette_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/normal.gbapal.lz");
-const u32 gMonBackPic_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/back.4bpp.lz");
-const u32 gMonShinyPalette_Gardevoir[] = INCBIN_U32("graphics/pokemon/gardevoir/shiny.gbapal.lz");
-const u8 gMonIcon_Gardevoir[] = INCBIN_U8("graphics/pokemon/gardevoir/icon.4bpp");
-const u8 gMonFootprint_Gardevoir[] = INCBIN_U8("graphics/pokemon/gardevoir/footprint.1bpp");
+const u32 gMonStillFrontPic_Arcadiamon_champion[] = INCBIN_U32("graphics/pokemon/arcadiamon_champion/front.4bpp.lz");
+const u32 gMonPalette_Arcadiamon_champion[] = INCBIN_U32("graphics/pokemon/arcadiamon_champion/normal.gbapal.lz");
+const u32 gMonBackPic_Arcadiamon_champion[] = INCBIN_U32("graphics/pokemon/arcadiamon_champion/back.4bpp.lz");
+const u32 gMonShinyPalette_Arcadiamon_champion[] = INCBIN_U32("graphics/pokemon/arcadiamon_champion/shiny.gbapal.lz");
+const u8 gMonIcon_Arcadiamon_champion[] = INCBIN_U8("graphics/pokemon/arcadiamon_champion/icon.4bpp");
+const u8 gMonFootprint_Arcadiamon_champion[] = INCBIN_U8("graphics/pokemon/arcadiamon_champion/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/front.4bpp.lz");
 const u32 gMonPalette_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/normal.gbapal.lz");

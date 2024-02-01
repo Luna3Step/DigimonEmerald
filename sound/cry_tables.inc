@@ -297,7 +297,7 @@ gCryTable::
 	cry Cry_Zenimon
 	cry Cry_Apemon
 	cry Cry_Aquilamon
-	cry Cry_Gardevoir
+	cry Cry_Arcadiamon_champion
 	cry Cry_Slakoth
 	cry Cry_Vigoroth
 	cry Cry_Slaking
@@ -688,7 +688,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Zenimon
 	cry_reverse Cry_Apemon
 	cry_reverse Cry_Aquilamon
-	cry_reverse Cry_Gardevoir
+	cry_reverse Cry_Arcadiamon_champion
 	cry_reverse Cry_Slakoth
 	cry_reverse Cry_Vigoroth
 	cry_reverse Cry_Slaking
