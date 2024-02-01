@@ -2410,12 +2410,12 @@ const u32 gMonShinyPalette_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/shin
 const u8 gMonIcon_Tropius[] = INCBIN_U8("graphics/pokemon/tropius/icon.4bpp");
 const u8 gMonFootprint_Tropius[] = INCBIN_U8("graphics/pokemon/tropius/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Whismur[] = INCBIN_U32("graphics/pokemon/whismur/front.4bpp.lz");
-const u32 gMonPalette_Whismur[] = INCBIN_U32("graphics/pokemon/whismur/normal.gbapal.lz");
-const u32 gMonBackPic_Whismur[] = INCBIN_U32("graphics/pokemon/whismur/back.4bpp.lz");
-const u32 gMonShinyPalette_Whismur[] = INCBIN_U32("graphics/pokemon/whismur/shiny.gbapal.lz");
-const u8 gMonIcon_Whismur[] = INCBIN_U8("graphics/pokemon/whismur/icon.4bpp");
-const u8 gMonFootprint_Whismur[] = INCBIN_U8("graphics/pokemon/whismur/footprint.1bpp");
+const u32 gMonStillFrontPic_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/front.4bpp.lz");
+const u32 gMonPalette_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/normal.gbapal.lz");
+const u32 gMonBackPic_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/shiny.gbapal.lz");
+const u8 gMonIcon_Baohuckmon[] = INCBIN_U8("graphics/pokemon/baohuckmon/icon.4bpp");
+const u8 gMonFootprint_Baohuckmon[] = INCBIN_U8("graphics/pokemon/baohuckmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/front.4bpp.lz");
 const u32 gMonPalette_Loudred[] = INCBIN_U32("graphics/pokemon/loudred/normal.gbapal.lz");

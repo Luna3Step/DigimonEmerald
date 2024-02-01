@@ -1915,8 +1915,8 @@ Cry_Wailord::
 	.incbin "sound/direct_sound_samples/cries/wailord.bin"
 
 	.align 2
-Cry_Whismur::
-	.incbin "sound/direct_sound_samples/cries/whismur.bin"
+Cry_Baohuckmon::
+	.incbin "sound/direct_sound_samples/cries/baohuckmon.bin"
 
 	.align 2
 Cry_Snorunt::
