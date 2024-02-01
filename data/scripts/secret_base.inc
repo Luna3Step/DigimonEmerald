@@ -719,8 +719,8 @@ SecretBase_Text_ToyTV:
 	.string "A realistic toy TV. It could be easily\n"
 	.string "mistaken for the real thing.$"
 
-SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a SEEDOT.\n"
+SecretBase_Text_AirdramonTV:
+	.string "A toy TV shaped like a AIRDRAMON.\n"
 	.string "It looks ready to roll away on its own…$"
 
 SecretBase_Text_SkittyTV:

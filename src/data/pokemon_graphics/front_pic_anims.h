@@ -3182,7 +3182,7 @@ static const union AnimCmd sAnim_Agunimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Seedot_1[] =
+static const union AnimCmd sAnim_Airdramon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5102,7 +5102,7 @@ DOUBLE_ANIMATION(Zenimon);
 SINGLE_ANIMATION(Zubamon);
 SINGLE_ANIMATION(Aegiomon);
 SINGLE_ANIMATION(Agunimon);
-SINGLE_ANIMATION(Seedot);
+SINGLE_ANIMATION(Airdramon);
 SINGLE_ANIMATION(Nuzleaf);
 SINGLE_ANIMATION(Shiftry);
 SINGLE_ANIMATION(Nincada);
@@ -5552,7 +5552,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ZUBAMON]       = sAnims_Zubamon,
     [SPECIES_AEGIOMON]      = sAnims_Aegiomon,
     [SPECIES_AGUNIMON]    = sAnims_Agunimon,
-    [SPECIES_AIRDRAMON]      = sAnims_Seedot,
+    [SPECIES_AIRDRAMON]      = sAnims_Airdramon,
     [SPECIES_AKATORIMON]     = sAnims_Nuzleaf,
     [SPECIES_ALLOMON]     = sAnims_Shiftry,
     [SPECIES_BAKEMON]     = sAnims_Nincada,

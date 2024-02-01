@@ -558,8 +558,8 @@ const u16 DecorGfx_ZUBAMON_DOLL[] = {
     OBJ_EVENT_GFX_ZUBAMON_DOLL
 };
 
-const u16 DecorGfx_SEEDOT_DOLL[] = {
-    OBJ_EVENT_GFX_SEEDOT_DOLL
+const u16 DecorGfx_AIRDRAMON_DOLL[] = {
+    OBJ_EVENT_GFX_AIRDRAMON_DOLL
 };
 
 const u16 DecorGfx_PIKA_CUSHION[] = {

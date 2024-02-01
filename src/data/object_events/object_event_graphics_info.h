@@ -3171,7 +3171,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZubamonDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SeedotDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AirdramonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3186,7 +3186,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SeedotDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_SeedotDoll,
+    .images = sPicTable_AirdramonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

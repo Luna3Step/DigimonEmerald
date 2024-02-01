@@ -1531,8 +1531,8 @@ Cry_Agunimon::
 	.incbin "sound/direct_sound_samples/cries/agunimon.bin"
 
 	.align 2
-Cry_Seedot::
-	.incbin "sound/direct_sound_samples/cries/seedot.bin"
+Cry_Airdramon::
+	.incbin "sound/direct_sound_samples/cries/airdramon.bin"
 
 	.align 2
 Cry_Nuzleaf::

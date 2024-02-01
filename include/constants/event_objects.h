@@ -167,7 +167,7 @@
 #define OBJ_EVENT_GFX_SWABLU_DOLL                163
 #define OBJ_EVENT_GFX_GULPIN_DOLL                164
 #define OBJ_EVENT_GFX_ZUBAMON_DOLL                 165
-#define OBJ_EVENT_GFX_SEEDOT_DOLL                166
+#define OBJ_EVENT_GFX_AIRDRAMON_DOLL                166
 #define OBJ_EVENT_GFX_PIKA_CUSHION               167
 #define OBJ_EVENT_GFX_ROUND_CUSHION              168
 #define OBJ_EVENT_GFX_KISS_CUSHION               169

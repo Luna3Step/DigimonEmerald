@@ -155,21 +155,21 @@ static void GetMonSizeRecordInfo(u16 species, u16 *sizeRecord)
         StringCopy(gStringVar2, gSaveBlock2Ptr->playerName);
 }
 
-void InitSeedotSizeRecord(void)
+void InitAirdramonSizeRecord(void)
 {
-    VarSet(VAR_SEEDOT_SIZE_RECORD, DEFAULT_MAX_SIZE);
+    VarSet(VAR_AIRDRAMON_SIZE_RECORD, DEFAULT_MAX_SIZE);
 }
 
-void GetSeedotSizeRecordInfo(void)
+void GetAirdramonSizeRecordInfo(void)
 {
-    u16 *sizeRecord = GetVarPointer(VAR_SEEDOT_SIZE_RECORD);
+    u16 *sizeRecord = GetVarPointer(VAR_AIRDRAMON_SIZE_RECORD);
 
     GetMonSizeRecordInfo(SPECIES_AIRDRAMON, sizeRecord);
 }
 
-void CompareSeedotSize(void)
+void CompareAirdramonSize(void)
 {
-    u16 *sizeRecord = GetVarPointer(VAR_SEEDOT_SIZE_RECORD);
+    u16 *sizeRecord = GetVarPointer(VAR_AIRDRAMON_SIZE_RECORD);
 
     gSpecialVar_Result = CompareMonSize(SPECIES_AIRDRAMON, sizeRecord);
 }

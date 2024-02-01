@@ -286,7 +286,7 @@ gCryTable::
 	cry Cry_Zubamon
 	cry Cry_Aegiomon
 	cry Cry_Agunimon
-	cry Cry_Seedot
+	cry Cry_Airdramon
 	cry Cry_Nuzleaf
 	cry Cry_Shiftry
 	cry Cry_Carvanha
@@ -677,7 +677,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Zubamon
 	cry_reverse Cry_Aegiomon
 	cry_reverse Cry_Agunimon
-	cry_reverse Cry_Seedot
+	cry_reverse Cry_Airdramon
 	cry_reverse Cry_Nuzleaf
 	cry_reverse Cry_Shiftry
 	cry_reverse Cry_Carvanha

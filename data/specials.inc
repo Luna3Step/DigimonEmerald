@@ -130,8 +130,8 @@ gSpecials::
 	def_special IsDecorationCategoryFull
 	def_special TraderShowDecorationMenu
 	def_special TraderDoDecorationTrade
-	def_special GetSeedotSizeRecordInfo
-	def_special CompareSeedotSize
+	def_special GetAirdramonSizeRecordInfo
+	def_special CompareAirdramonSize
 	def_special GetZubamonSizeRecordInfo
 	def_special CompareZubamonSize
 	def_special TryPutNameRaterShowOnTheAir
