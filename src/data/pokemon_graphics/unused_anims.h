@@ -179,7 +179,7 @@ static const union AnimCmd sUnusedAnim_Airdramon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Nuzleaf_1[] =
+static const union AnimCmd sUnusedAnim_Akatorimon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -1238,7 +1238,7 @@ static const union AnimCmd *const sUnusedAnims_Zubamon[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Aegiomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Aegiomon_1};
 static const union AnimCmd *const sUnusedAnims_Agunimon[] = {sAnim_GeneralFrame0, sUnusedAnim_Agunimon_1, sUnusedAnim_Agunimon_2};
 static const union AnimCmd *const sUnusedAnims_Airdramon[] = {sAnim_GeneralFrame0, sUnusedAnim_Airdramon_1};
-static const union AnimCmd *const sUnusedAnims_Nuzleaf[] = {sAnim_GeneralFrame0, sUnusedAnim_Nuzleaf_1};
+static const union AnimCmd *const sUnusedAnims_Akatorimon[] = {sAnim_GeneralFrame0, sUnusedAnim_Akatorimon_1};
 static const union AnimCmd *const sUnusedAnims_Shiftry[] = {sAnim_GeneralFrame0, sUnusedAnim_Shiftry_1, sUnusedAnim_Shiftry_2};
 static const union AnimCmd *const sUnusedAnims_Nincada[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Ninjask[] = {sAnim_GeneralFrame0};
@@ -1680,7 +1680,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_AEGIOMON] = sUnusedAnims_Aegiomon,
     [SPECIES_AGUNIMON] = sUnusedAnims_Agunimon,
     [SPECIES_AIRDRAMON] = sUnusedAnims_Airdramon,
-    [SPECIES_AKATORIMON] = sUnusedAnims_Nuzleaf,
+    [SPECIES_AKATORIMON] = sUnusedAnims_Akatorimon,
     [SPECIES_ALLOMON] = sUnusedAnims_Shiftry,
     [SPECIES_BAKEMON] = sUnusedAnims_Nincada,
     [SPECIES_BALISTAMON] = sUnusedAnims_Ninjask,

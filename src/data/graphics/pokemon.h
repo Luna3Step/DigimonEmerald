@@ -1913,12 +1913,12 @@ const u32 gMonShinyPalette_Airdramon[] = INCBIN_U32("graphics/pokemon/airdramon/
 const u8 gMonIcon_Airdramon[] = INCBIN_U8("graphics/pokemon/airdramon/icon.4bpp");
 const u8 gMonFootprint_Airdramon[] = INCBIN_U8("graphics/pokemon/airdramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Nuzleaf[] = INCBIN_U32("graphics/pokemon/nuzleaf/front.4bpp.lz");
-const u32 gMonPalette_Nuzleaf[] = INCBIN_U32("graphics/pokemon/nuzleaf/normal.gbapal.lz");
-const u32 gMonBackPic_Nuzleaf[] = INCBIN_U32("graphics/pokemon/nuzleaf/back.4bpp.lz");
-const u32 gMonShinyPalette_Nuzleaf[] = INCBIN_U32("graphics/pokemon/nuzleaf/shiny.gbapal.lz");
-const u8 gMonIcon_Nuzleaf[] = INCBIN_U8("graphics/pokemon/nuzleaf/icon.4bpp");
-const u8 gMonFootprint_Nuzleaf[] = INCBIN_U8("graphics/pokemon/nuzleaf/footprint.1bpp");
+const u32 gMonStillFrontPic_Akatorimon[] = INCBIN_U32("graphics/pokemon/akatorimon/front.4bpp.lz");
+const u32 gMonPalette_Akatorimon[] = INCBIN_U32("graphics/pokemon/akatorimon/normal.gbapal.lz");
+const u32 gMonBackPic_Akatorimon[] = INCBIN_U32("graphics/pokemon/akatorimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Akatorimon[] = INCBIN_U32("graphics/pokemon/akatorimon/shiny.gbapal.lz");
+const u8 gMonIcon_Akatorimon[] = INCBIN_U8("graphics/pokemon/akatorimon/icon.4bpp");
+const u8 gMonFootprint_Akatorimon[] = INCBIN_U8("graphics/pokemon/akatorimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Shiftry[] = INCBIN_U32("graphics/pokemon/shiftry/front.4bpp.lz");
 const u32 gMonPalette_Shiftry[] = INCBIN_U32("graphics/pokemon/shiftry/normal.gbapal.lz");
