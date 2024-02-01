@@ -1529,8 +1529,8 @@ static const struct SpriteFrameImage sPicTable_GulpinDoll[] = {
     obj_frame_tiles(gObjectEventPic_GulpinDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_LotadDoll[] = {
-    obj_frame_tiles(gObjectEventPic_LotadDoll),
+static const struct SpriteFrameImage sPicTable_ZubamonDoll[] = {
+    obj_frame_tiles(gObjectEventPic_ZubamonDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_SeedotDoll[] = {

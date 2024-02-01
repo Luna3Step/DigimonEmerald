@@ -54,7 +54,7 @@
 // the round.
 #define BIAS_REPLAY     (1 << 0)
 #define BIAS_CHERRY     (1 << 1)
-#define BIAS_LOTAD      (1 << 2)
+#define BIAS_ZUBAMON      (1 << 2)
 #define BIAS_AZURILL    (1 << 3)
 #define BIAS_POWER      (1 << 4)
 #define BIAS_REELTIME   (1 << 5)
@@ -77,7 +77,7 @@ enum {
     SYMBOL_7_RED,
     SYMBOL_7_BLUE,
     SYMBOL_AZURILL,
-    SYMBOL_LOTAD,
+    SYMBOL_ZUBAMON,
     SYMBOL_CHERRY,
     SYMBOL_POWER,
     SYMBOL_REPLAY,
@@ -88,7 +88,7 @@ enum
     GFXTAG_7_RED,
     GFXTAG_7_BLUE,
     GFXTAG_AZURILL,
-    GFXTAG_LOTAD,
+    GFXTAG_ZUBAMON,
     GFXTAG_CHERRY,
     GFXTAG_POWER,
     GFXTAG_REPLAY,
@@ -131,7 +131,7 @@ enum {
     MATCH_CHERRY,        // Cherry in center of first reel
     MATCH_TOPBOT_CHERRY, // Cherry in top/bottom of first reel
     MATCH_REPLAY,
-    MATCH_LOTAD,
+    MATCH_ZUBAMON,
     MATCH_AZURILL,
     MATCH_POWER,
     MATCH_MIXED_7,       // First two 7's are same color; last is other color
@@ -5222,43 +5222,43 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_AZURILL,
         SYMBOL_REPLAY,
         SYMBOL_POWER,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_7_BLUE,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_CHERRY,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
         SYMBOL_AZURILL,
         SYMBOL_7_RED,
         SYMBOL_POWER,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_AZURILL,
         SYMBOL_7_BLUE,
         SYMBOL_POWER,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_REPLAY
     },
     [MIDDLE_REEL] = {
         SYMBOL_7_RED,
         SYMBOL_CHERRY,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_AZURILL,
         SYMBOL_CHERRY,
         SYMBOL_REPLAY,
         SYMBOL_POWER,
         SYMBOL_POWER,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_7_BLUE,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_CHERRY,
         SYMBOL_AZURILL,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_CHERRY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_REPLAY,
         SYMBOL_CHERRY
     },
@@ -5267,22 +5267,22 @@ static const u8 sReelSymbols[NUM_REELS][SYMBOLS_PER_REEL] =
         SYMBOL_POWER,
         SYMBOL_7_BLUE,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_AZURILL,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_POWER,
         SYMBOL_AZURILL,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_AZURILL,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_AZURILL,
         SYMBOL_POWER,
         SYMBOL_REPLAY,
-        SYMBOL_LOTAD,
+        SYMBOL_ZUBAMON,
         SYMBOL_CHERRY
     },
 };
@@ -5358,7 +5358,7 @@ static const u8 sBiasProbabilities_Regular[][NUM_SLOT_MACHINE_IDS] = {
         [SLOT_MACHINE_LUCKIEST]   = 22
     },
     {
-        // Probabilities for BIAS_LOTAD
+        // Probabilities for BIAS_ZUBAMON
         [SLOT_MACHINE_UNLUCKIEST] = 25,
         [SLOT_MACHINE_UNLUCKIER]  = 25,
         [SLOT_MACHINE_UNLUCKY]    = 25,
@@ -5456,7 +5456,7 @@ static const u16 sQuarterSpeed_ProbabilityBoost[] = {
 static const u8 sBiasSymbols[] = {
   SYMBOL_REPLAY,  // BIAS_REPLAY
   SYMBOL_CHERRY,  // BIAS_CHERRY
-  SYMBOL_LOTAD,   // BIAS_LOTAD
+  SYMBOL_ZUBAMON,   // BIAS_ZUBAMON
   SYMBOL_AZURILL, // BIAS_AZURILL
   SYMBOL_POWER,   // BIAS_POWER
   SYMBOL_7_RED,   // BIAS_REELTIME
@@ -5469,14 +5469,14 @@ static const u16 sBiasesSpecial[] = {
 };
 
 static const u16 sBiasesRegular[] = {
-    BIAS_POWER, BIAS_AZURILL, BIAS_LOTAD, BIAS_CHERRY, BIAS_REPLAY
+    BIAS_POWER, BIAS_AZURILL, BIAS_ZUBAMON, BIAS_CHERRY, BIAS_REPLAY
 };
 
 static const u8 sSymbolToMatch[] = {
     [SYMBOL_7_RED]   = MATCH_RED_7,
     [SYMBOL_7_BLUE]  = MATCH_BLUE_7,
     [SYMBOL_AZURILL] = MATCH_AZURILL,
-    [SYMBOL_LOTAD]   = MATCH_LOTAD,
+    [SYMBOL_ZUBAMON]   = MATCH_ZUBAMON,
     [SYMBOL_CHERRY]  = MATCH_CHERRY,
     [SYMBOL_POWER]   = MATCH_POWER,
     [SYMBOL_REPLAY]  = MATCH_REPLAY
@@ -5486,7 +5486,7 @@ static const u16 sSlotMatchFlags[] = {
     [MATCH_CHERRY]        = 1 << MATCH_CHERRY,
     [MATCH_TOPBOT_CHERRY] = 1 << MATCH_TOPBOT_CHERRY,
     [MATCH_REPLAY]        = 1 << MATCH_REPLAY,
-    [MATCH_LOTAD]         = 1 << MATCH_LOTAD,
+    [MATCH_ZUBAMON]         = 1 << MATCH_ZUBAMON,
     [MATCH_AZURILL]       = 1 << MATCH_AZURILL,
     [MATCH_POWER]         = 1 << MATCH_POWER,
     [MATCH_MIXED_7]       = 1 << MATCH_MIXED_7,
@@ -5498,7 +5498,7 @@ static const u16 sSlotPayouts[] = {
     [MATCH_CHERRY]        = 2,
     [MATCH_TOPBOT_CHERRY] = 4,
     [MATCH_REPLAY]        = 0,
-    [MATCH_LOTAD]         = 6,
+    [MATCH_ZUBAMON]         = 6,
     [MATCH_AZURILL]       = 12,
     [MATCH_POWER]         = 3,
     [MATCH_MIXED_7]       = 90,
@@ -7823,7 +7823,7 @@ static const struct SpriteSheet sSlotMachineSpriteSheets[22] =
     { .data = gSlotMachineReelSymbol1Tiles, .size = 0x200, .tag = GFXTAG_7_RED },
     { .data = gSlotMachineReelSymbol2Tiles, .size = 0x200, .tag = GFXTAG_7_BLUE },
     { .data = gSlotMachineReelSymbol3Tiles, .size = 0x200, .tag = GFXTAG_AZURILL },
-    { .data = gSlotMachineReelSymbol4Tiles, .size = 0x200, .tag = GFXTAG_LOTAD },
+    { .data = gSlotMachineReelSymbol4Tiles, .size = 0x200, .tag = GFXTAG_ZUBAMON },
     { .data = gSlotMachineReelSymbol5Tiles, .size = 0x200, .tag = GFXTAG_CHERRY },
     { .data = gSlotMachineReelSymbol6Tiles, .size = 0x200, .tag = GFXTAG_POWER },
     { .data = gSlotMachineReelSymbol7Tiles, .size = 0x200, .tag = GFXTAG_REPLAY },

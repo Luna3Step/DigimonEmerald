@@ -1885,12 +1885,12 @@ const u32 gMonShinyPalette_Zenimon[] = INCBIN_U32("graphics/pokemon/zenimon/shin
 const u8 gMonIcon_Zenimon[] = INCBIN_U8("graphics/pokemon/zenimon/icon.4bpp");
 const u8 gMonFootprint_Zenimon[] = INCBIN_U8("graphics/pokemon/zenimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/front.4bpp.lz");
-const u32 gMonPalette_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/normal.gbapal.lz");
-const u32 gMonBackPic_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/back.4bpp.lz");
-const u32 gMonShinyPalette_Lotad[] = INCBIN_U32("graphics/pokemon/lotad/shiny.gbapal.lz");
-const u8 gMonIcon_Lotad[] = INCBIN_U8("graphics/pokemon/lotad/icon.4bpp");
-const u8 gMonFootprint_Lotad[] = INCBIN_U8("graphics/pokemon/lotad/footprint.1bpp");
+const u32 gMonStillFrontPic_Zubamon[] = INCBIN_U32("graphics/pokemon/zubamon/front.4bpp.lz");
+const u32 gMonPalette_Zubamon[] = INCBIN_U32("graphics/pokemon/zubamon/normal.gbapal.lz");
+const u32 gMonBackPic_Zubamon[] = INCBIN_U32("graphics/pokemon/zubamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Zubamon[] = INCBIN_U32("graphics/pokemon/zubamon/shiny.gbapal.lz");
+const u8 gMonIcon_Zubamon[] = INCBIN_U8("graphics/pokemon/zubamon/icon.4bpp");
+const u8 gMonFootprint_Zubamon[] = INCBIN_U8("graphics/pokemon/zubamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lombre[] = INCBIN_U32("graphics/pokemon/lombre/front.4bpp.lz");
 const u32 gMonPalette_Lombre[] = INCBIN_U32("graphics/pokemon/lombre/normal.gbapal.lz");

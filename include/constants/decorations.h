@@ -100,7 +100,7 @@
 #define DECOR_SKITTY_DOLL      96
 #define DECOR_SWABLU_DOLL      97
 #define DECOR_GULPIN_DOLL      98
-#define DECOR_LOTAD_DOLL       99
+#define DECOR_ZUBAMON_DOLL       99
 #define DECOR_SEEDOT_DOLL      100
 #define DECOR_PIKA_CUSHION     101
 #define DECOR_ROUND_CUSHION    102

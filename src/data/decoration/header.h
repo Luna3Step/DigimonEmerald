@@ -1188,16 +1188,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_GULPIN_DOLL,
     },
 
-    [DECOR_LOTAD_DOLL] =
+    [DECOR_ZUBAMON_DOLL] =
     {
-        .id = DECOR_LOTAD_DOLL,
-        .name = _("LOTAD DOLL"),
+        .id = DECOR_ZUBAMON_DOLL,
+        .name = _("ZUBAMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_LOTAD_DOLL,
-        .tiles = DecorGfx_LOTAD_DOLL,
+        .description = DecorDesc_ZUBAMON_DOLL,
+        .tiles = DecorGfx_ZUBAMON_DOLL,
     },
 
     [DECOR_SEEDOT_DOLL] =

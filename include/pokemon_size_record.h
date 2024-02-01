@@ -5,9 +5,9 @@ void InitSeedotSizeRecord(void);
 void GetSeedotSizeRecordInfo(void);
 void CompareSeedotSize(void);
 
-void InitLotadSizeRecord(void);
-void GetLotadSizeRecordInfo(void);
-void CompareLotadSize(void);
+void InitZubamonSizeRecord(void);
+void GetZubamonSizeRecordInfo(void);
+void CompareZubamonSize(void);
 
 void GiveGiftRibbonToParty(u8 index, u8 ribbonId);
 

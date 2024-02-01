@@ -554,8 +554,8 @@ const u16 DecorGfx_GULPIN_DOLL[] = {
     OBJ_EVENT_GFX_GULPIN_DOLL
 };
 
-const u16 DecorGfx_LOTAD_DOLL[] = {
-    OBJ_EVENT_GFX_LOTAD_DOLL
+const u16 DecorGfx_ZUBAMON_DOLL[] = {
+    OBJ_EVENT_GFX_ZUBAMON_DOLL
 };
 
 const u16 DecorGfx_SEEDOT_DOLL[] = {

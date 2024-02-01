@@ -1519,8 +1519,8 @@ Cry_Shuppet::
 	.incbin "sound/direct_sound_samples/cries/shuppet.bin"
 
 	.align 2
-Cry_Lotad::
-	.incbin "sound/direct_sound_samples/cries/lotad.bin"
+Cry_Zubamon::
+	.incbin "sound/direct_sound_samples/cries/zubamon.bin"
 
 	.align 2
 Cry_Lombre::

@@ -1080,7 +1080,7 @@ extern const u8 gTrickHouse_Mechadoll_Zerimon[];
 extern const u8 gTrickHouse_Mechadoll_Tinkermon[];
 extern const u8 gTrickHouse_Mechadoll_Taillow[];
 extern const u8 gTrickHouse_Mechadoll_Azurill[];
-extern const u8 gTrickHouse_Mechadoll_Lotad[];
+extern const u8 gTrickHouse_Mechadoll_Zubamon[];
 extern const u8 gTrickHouse_Mechadoll_Wingull[];
 extern const u8 gTrickHouse_Mechadoll_Zenimon[];
 extern const u8 gTrickHouse_Mechadoll_Icebotamon[];

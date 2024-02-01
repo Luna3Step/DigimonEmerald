@@ -174,21 +174,21 @@ void CompareSeedotSize(void)
     gSpecialVar_Result = CompareMonSize(SPECIES_AIRDRAMON, sizeRecord);
 }
 
-void InitLotadSizeRecord(void)
+void InitZubamonSizeRecord(void)
 {
-    VarSet(VAR_LOTAD_SIZE_RECORD, DEFAULT_MAX_SIZE);
+    VarSet(VAR_ZUBAMON_SIZE_RECORD, DEFAULT_MAX_SIZE);
 }
 
-void GetLotadSizeRecordInfo(void)
+void GetZubamonSizeRecordInfo(void)
 {
-    u16 *sizeRecord = GetVarPointer(VAR_LOTAD_SIZE_RECORD);
+    u16 *sizeRecord = GetVarPointer(VAR_ZUBAMON_SIZE_RECORD);
 
     GetMonSizeRecordInfo(SPECIES_ZUBAMON, sizeRecord);
 }
 
-void CompareLotadSize(void)
+void CompareZubamonSize(void)
 {
-    u16 *sizeRecord = GetVarPointer(VAR_LOTAD_SIZE_RECORD);
+    u16 *sizeRecord = GetVarPointer(VAR_ZUBAMON_SIZE_RECORD);
 
     gSpecialVar_Result = CompareMonSize(SPECIES_ZUBAMON, sizeRecord);
 }
