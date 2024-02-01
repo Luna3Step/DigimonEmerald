@@ -290,7 +290,7 @@ gCryTable::
 	cry Cry_Nuzleaf
 	cry Cry_Shiftry
 	cry Cry_Carvanha
-	cry Cry_Wurmple
+	cry Cry_Veemon
 	cry Cry_Silcoon
 	cry Cry_Beautifly
 	cry Cry_Cascoon
@@ -681,7 +681,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Nuzleaf
 	cry_reverse Cry_Shiftry
 	cry_reverse Cry_Carvanha
-	cry_reverse Cry_Wurmple
+	cry_reverse Cry_Veemon
 	cry_reverse Cry_Silcoon
 	cry_reverse Cry_Beautifly
 	cry_reverse Cry_Cascoon

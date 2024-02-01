@@ -1850,12 +1850,12 @@ const u32 gMonShinyPalette_Tsukaimon[] = INCBIN_U32("graphics/pokemon/tsukaimon/
 const u8 gMonIcon_Tsukaimon[] = INCBIN_U8("graphics/pokemon/tsukaimon/icon.4bpp");
 const u8 gMonFootprint_Tsukaimon[] = INCBIN_U8("graphics/pokemon/tsukaimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/front.4bpp.lz");
-const u32 gMonPalette_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/normal.gbapal.lz");
-const u32 gMonBackPic_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/back.4bpp.lz");
-const u32 gMonShinyPalette_Wurmple[] = INCBIN_U32("graphics/pokemon/wurmple/shiny.gbapal.lz");
-const u8 gMonIcon_Wurmple[] = INCBIN_U8("graphics/pokemon/wurmple/icon.4bpp");
-const u8 gMonFootprint_Wurmple[] = INCBIN_U8("graphics/pokemon/wurmple/footprint.1bpp");
+const u32 gMonStillFrontPic_Veemon[] = INCBIN_U32("graphics/pokemon/veemon/front.4bpp.lz");
+const u32 gMonPalette_Veemon[] = INCBIN_U32("graphics/pokemon/veemon/normal.gbapal.lz");
+const u32 gMonBackPic_Veemon[] = INCBIN_U32("graphics/pokemon/veemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Veemon[] = INCBIN_U32("graphics/pokemon/veemon/shiny.gbapal.lz");
+const u8 gMonIcon_Veemon[] = INCBIN_U8("graphics/pokemon/veemon/icon.4bpp");
+const u8 gMonFootprint_Veemon[] = INCBIN_U8("graphics/pokemon/veemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Silcoon[] = INCBIN_U32("graphics/pokemon/silcoon/front.4bpp.lz");
 const u32 gMonPalette_Silcoon[] = INCBIN_U32("graphics/pokemon/silcoon/normal.gbapal.lz");

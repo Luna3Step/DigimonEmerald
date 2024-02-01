@@ -1547,8 +1547,8 @@ Cry_Carvanha::
 	.incbin "sound/direct_sound_samples/cries/carvanha.bin"
 
 	.align 2
-Cry_Wurmple::
-	.incbin "sound/direct_sound_samples/cries/wurmple.bin"
+Cry_Veemon::
+	.incbin "sound/direct_sound_samples/cries/veemon.bin"
 
 	.align 2
 Cry_Silcoon::
