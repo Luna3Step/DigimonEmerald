@@ -1835,8 +1835,8 @@ Cry_Dusclops::
 	.incbin "sound/direct_sound_samples/cries/dusclops.bin"
 
 	.align 2
-Cry_Sableye::
-	.incbin "sound/direct_sound_samples/cries/sableye.bin"
+Cry_Blgargomon::
+	.incbin "sound/direct_sound_samples/cries/blgargomon.bin"
 
 	.align 2
 Cry_Mawile::

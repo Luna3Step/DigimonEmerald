@@ -362,7 +362,7 @@ gCryTable::
 	cry Cry_Tinkermon
 	cry Cry_Tinpet
 	cry Cry_Dusclops
-	cry Cry_Sableye
+	cry Cry_Blgargomon
 	cry Cry_Mawile
 	cry Cry_Aron
 	cry Cry_Lairon
@@ -753,7 +753,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Tinkermon
 	cry_reverse Cry_Tinpet
 	cry_reverse Cry_Dusclops
-	cry_reverse Cry_Sableye
+	cry_reverse Cry_Blgargomon
 	cry_reverse Cry_Mawile
 	cry_reverse Cry_Aron
 	cry_reverse Cry_Lairon

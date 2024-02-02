@@ -2074,12 +2074,12 @@ const u32 gMonShinyPalette_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/shin
 const u8 gMonIcon_Torkoal[] = INCBIN_U8("graphics/pokemon/torkoal/icon.4bpp");
 const u8 gMonFootprint_Torkoal[] = INCBIN_U8("graphics/pokemon/torkoal/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Sableye[] = INCBIN_U32("graphics/pokemon/sableye/front.4bpp.lz");
-const u32 gMonPalette_Sableye[] = INCBIN_U32("graphics/pokemon/sableye/normal.gbapal.lz");
-const u32 gMonBackPic_Sableye[] = INCBIN_U32("graphics/pokemon/sableye/back.4bpp.lz");
-const u32 gMonShinyPalette_Sableye[] = INCBIN_U32("graphics/pokemon/sableye/shiny.gbapal.lz");
-const u8 gMonIcon_Sableye[] = INCBIN_U8("graphics/pokemon/sableye/icon.4bpp");
-const u8 gMonFootprint_Sableye[] = INCBIN_U8("graphics/pokemon/sableye/footprint.1bpp");
+const u32 gMonStillFrontPic_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/front.4bpp.lz");
+const u32 gMonPalette_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/normal.gbapal.lz");
+const u32 gMonBackPic_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/shiny.gbapal.lz");
+const u8 gMonIcon_Blgargomon[] = INCBIN_U8("graphics/pokemon/blgargomon/icon.4bpp");
+const u8 gMonFootprint_Blgargomon[] = INCBIN_U8("graphics/pokemon/blgargomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/front.4bpp.lz");
 const u32 gMonPalette_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/normal.gbapal.lz");
