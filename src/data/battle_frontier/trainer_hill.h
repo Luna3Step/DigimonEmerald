@@ -1826,7 +1826,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x96,
-                                            .nickname = _("TRAILMON_BATTLE_ARMAMENT"),
+                                            .nickname = _("TRAILMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [3] =
@@ -4317,7 +4317,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0x85,
-                                            .nickname = _("TRAILMON_BATTLE_ARMAMENT"),
+                                            .nickname = _("TRAILMON"),
                                             .friendship = 0,
                                         },
                                     [2] =
