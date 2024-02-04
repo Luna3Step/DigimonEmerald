@@ -3425,7 +3425,7 @@ static const union AnimCmd sAnim_Dexdorumon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Claydol_1[] =
+static const union AnimCmd sAnim_Diatrymon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5125,7 +5125,7 @@ SINGLE_ANIMATION(Birdramon);
 SINGLE_ANIMATION(Blgaogamon);
 SINGLE_ANIMATION(Kecleon);
 SINGLE_ANIMATION(Dexdorumon);
-SINGLE_ANIMATION(Claydol);
+SINGLE_ANIMATION(Diatrymon);
 SINGLE_ANIMATION(Biothunmon);
 SINGLE_ANIMATION(Clockmon);
 SINGLE_ANIMATION(Blgargomon);
@@ -5573,7 +5573,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BLGAOGAMON]    = sAnims_Blgaogamon,
     [SPECIES_DONSHOUMON]     = sAnims_Kecleon,
     [SPECIES_DEXDORUMON]      = sAnims_Dexdorumon,
-    [SPECIES_DIATRYMON]     = sAnims_Claydol,
+    [SPECIES_DIATRYMON]     = sAnims_Diatrymon,
     [SPECIES_BIOTHUNMON]    = sAnims_Biothunmon,
     [SPECIES_CLOCKMON]     = sAnims_Clockmon,
     [SPECIES_BLGARGOMON]     = sAnims_Blgargomon,
