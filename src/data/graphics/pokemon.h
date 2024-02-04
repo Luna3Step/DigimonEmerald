@@ -2284,12 +2284,12 @@ const u32 gMonShinyPalette_Clockmon_fusion[] = INCBIN_U32("graphics/pokemon/cloc
 const u8 gMonIcon_Clockmon_fusion[] = INCBIN_U8("graphics/pokemon/clockmon_fusion/icon.4bpp");
 const u8 gMonFootprint_Clockmon_fusion[] = INCBIN_U8("graphics/pokemon/clockmon_fusion/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/front.4bpp.lz");
-const u32 gMonPalette_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/normal.gbapal.lz");
-const u32 gMonBackPic_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/back.4bpp.lz");
-const u32 gMonShinyPalette_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/shiny.gbapal.lz");
-const u8 gMonIcon_Grumpig[] = INCBIN_U8("graphics/pokemon/grumpig/icon.4bpp");
-const u8 gMonFootprint_Grumpig[] = INCBIN_U8("graphics/pokemon/grumpig/footprint.1bpp");
+const u32 gMonStillFrontPic_Coelamon[] = INCBIN_U32("graphics/pokemon/coelamon/front.4bpp.lz");
+const u32 gMonPalette_Coelamon[] = INCBIN_U32("graphics/pokemon/coelamon/normal.gbapal.lz");
+const u32 gMonBackPic_Coelamon[] = INCBIN_U32("graphics/pokemon/coelamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Coelamon[] = INCBIN_U32("graphics/pokemon/coelamon/shiny.gbapal.lz");
+const u8 gMonIcon_Coelamon[] = INCBIN_U8("graphics/pokemon/coelamon/icon.4bpp");
+const u8 gMonFootprint_Coelamon[] = INCBIN_U8("graphics/pokemon/coelamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Boogiemon[] = INCBIN_U32("graphics/pokemon/boogiemon/front.4bpp.lz");
 const u32 gMonPalette_Boogiemon[] = INCBIN_U32("graphics/pokemon/boogiemon/normal.gbapal.lz");
