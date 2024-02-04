@@ -1731,8 +1731,8 @@ Cry_Absol::
 	.incbin "sound/direct_sound_samples/cries/absol.bin"
 
 	.align 2
-Cry_Meditite::
-	.incbin "sound/direct_sound_samples/cries/meditite.bin"
+Cry_Sawkuwamon::
+	.incbin "sound/direct_sound_samples/cries/sawkuwamon.bin"
 
 	.align 2
 Cry_Medicham::

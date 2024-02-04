@@ -2312,12 +2312,12 @@ const u32 gMonShinyPalette_Blgarurmon[] = INCBIN_U32("graphics/pokemon/blgarurmo
 const u8 gMonIcon_Blgarurmon[] = INCBIN_U8("graphics/pokemon/blgarurmon/icon.4bpp");
 const u8 gMonFootprint_Blgarurmon[] = INCBIN_U8("graphics/pokemon/blgarurmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Meditite[] = INCBIN_U32("graphics/pokemon/meditite/front.4bpp.lz");
-const u32 gMonPalette_Meditite[] = INCBIN_U32("graphics/pokemon/meditite/normal.gbapal.lz");
-const u32 gMonBackPic_Meditite[] = INCBIN_U32("graphics/pokemon/meditite/back.4bpp.lz");
-const u32 gMonShinyPalette_Meditite[] = INCBIN_U32("graphics/pokemon/meditite/shiny.gbapal.lz");
-const u8 gMonIcon_Meditite[] = INCBIN_U8("graphics/pokemon/meditite/icon.4bpp");
-const u8 gMonFootprint_Meditite[] = INCBIN_U8("graphics/pokemon/meditite/footprint.1bpp");
+const u32 gMonStillFrontPic_Sawkuwamon[] = INCBIN_U32("graphics/pokemon/sawkuwamon/front.4bpp.lz");
+const u32 gMonPalette_Sawkuwamon[] = INCBIN_U32("graphics/pokemon/sawkuwamon/normal.gbapal.lz");
+const u32 gMonBackPic_Sawkuwamon[] = INCBIN_U32("graphics/pokemon/sawkuwamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Sawkuwamon[] = INCBIN_U32("graphics/pokemon/sawkuwamon/shiny.gbapal.lz");
+const u8 gMonIcon_Sawkuwamon[] = INCBIN_U8("graphics/pokemon/sawkuwamon/icon.4bpp");
+const u8 gMonFootprint_Sawkuwamon[] = INCBIN_U8("graphics/pokemon/sawkuwamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Medicham[] = INCBIN_U32("graphics/pokemon/medicham/front.4bpp.lz");
 const u32 gMonPalette_Medicham[] = INCBIN_U32("graphics/pokemon/medicham/normal.gbapal.lz");

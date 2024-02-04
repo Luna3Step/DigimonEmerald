@@ -3875,7 +3875,7 @@ static const union AnimCmd sAnim_Blgarurmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Meditite_1[] =
+static const union AnimCmd sAnim_Sawkuwamon_1[] =
 {
     ANIMCMD_FRAME(0, 22),
     ANIMCMD_FRAME(0, 2),
@@ -5162,7 +5162,7 @@ SINGLE_ANIMATION(Grumpig);
 SINGLE_ANIMATION(Plusle);
 SINGLE_ANIMATION(Minun);
 SINGLE_ANIMATION(Blgarurmon);
-SINGLE_ANIMATION(Meditite);
+SINGLE_ANIMATION(Sawkuwamon);
 SINGLE_ANIMATION(Medicham);
 DOUBLE_ANIMATION(Swablu);
 DOUBLE_ANIMATION(Altaria);
@@ -5610,7 +5610,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BOOGIEMON]      = sAnims_Plusle,
     [SPECIES_BUCCHIEMON_RED]       = sAnims_Minun,
     [SPECIES_BLGARURMON]      = sAnims_Blgarurmon,
-    [SPECIES_SAWKUWAMON]    = sAnims_Meditite,
+    [SPECIES_SAWKUWAMON]    = sAnims_Sawkuwamon,
     [SPECIES_BLIMPMON]    = sAnims_Medicham,
     [SPECIES_DARLIZAMON]      = sAnims_Swablu,
     [SPECIES_DARMAILMON]     = sAnims_Altaria,
