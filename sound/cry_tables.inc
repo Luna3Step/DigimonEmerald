@@ -254,7 +254,7 @@ gCryTable::
 	cry Cry_Kecleon
 	cry Cry_Roselia
 	cry Cry_Torkoal
-	cry Cry_Electrike
+	cry Cry_Boarmon
 	cry Cry_Manectric
 	cry Cry_Duskull
 	cry Cry_Latias
@@ -645,7 +645,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Kecleon
 	cry_reverse Cry_Roselia
 	cry_reverse Cry_Torkoal
-	cry_reverse Cry_Electrike
+	cry_reverse Cry_Boarmon
 	cry_reverse Cry_Manectric
 	cry_reverse Cry_Duskull
 	cry_reverse Cry_Latias

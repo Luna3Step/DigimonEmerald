@@ -2179,12 +2179,12 @@ const u32 gMonShinyPalette_Bioquetmon[] = INCBIN_U32("graphics/pokemon/bioquetmo
 const u8 gMonIcon_Bioquetmon[] = INCBIN_U8("graphics/pokemon/bioquetmon/icon.4bpp");
 const u8 gMonFootprint_Bioquetmon[] = INCBIN_U8("graphics/pokemon/bioquetmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/front.4bpp.lz");
-const u32 gMonPalette_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/normal.gbapal.lz");
-const u32 gMonBackPic_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/back.4bpp.lz");
-const u32 gMonShinyPalette_Electrike[] = INCBIN_U32("graphics/pokemon/electrike/shiny.gbapal.lz");
-const u8 gMonIcon_Electrike[] = INCBIN_U8("graphics/pokemon/electrike/icon.4bpp");
-const u8 gMonFootprint_Electrike[] = INCBIN_U8("graphics/pokemon/electrike/footprint.1bpp");
+const u32 gMonStillFrontPic_Boarmon[] = INCBIN_U32("graphics/pokemon/boarmon/front.4bpp.lz");
+const u32 gMonPalette_Boarmon[] = INCBIN_U32("graphics/pokemon/boarmon/normal.gbapal.lz");
+const u32 gMonBackPic_Boarmon[] = INCBIN_U32("graphics/pokemon/boarmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Boarmon[] = INCBIN_U32("graphics/pokemon/boarmon/shiny.gbapal.lz");
+const u8 gMonIcon_Boarmon[] = INCBIN_U8("graphics/pokemon/boarmon/icon.4bpp");
+const u8 gMonFootprint_Boarmon[] = INCBIN_U8("graphics/pokemon/boarmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/front.4bpp.lz");
 const u32 gMonPalette_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/normal.gbapal.lz");

@@ -1403,8 +1403,8 @@ Cry_Torkoal::
 	.incbin "sound/direct_sound_samples/cries/torkoal.bin"
 
 	.align 2
-Cry_Electrike::
-	.incbin "sound/direct_sound_samples/cries/electrike.bin"
+Cry_Boarmon::
+	.incbin "sound/direct_sound_samples/cries/boarmon.bin"
 
 	.align 2
 Cry_Manectric::
