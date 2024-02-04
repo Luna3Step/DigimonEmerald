@@ -302,13 +302,13 @@ static const u16 sWallpaperPalettes_Agunimon[][16] =
 static const u32 sWallpaperTiles_Agunimon[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/agunimon/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Agunimon[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/agunimon/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Whiscash[][16] =
+static const u16 sWallpaperPalettes_Deputymon[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/wallpapers/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/whiscash/bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/wallpapers/deputymon/bg.gbapal"),
 };
-static const u32 sWallpaperTiles_Whiscash[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/whiscash/tiles.4bpp.lz");
-static const u32 sWallpaperTilemap_Whiscash[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/whiscash/tilemap.bin.lz");
+static const u32 sWallpaperTiles_Deputymon[]   = INCBIN_U32("graphics/pokemon_storage/wallpapers/deputymon/tiles.4bpp.lz");
+static const u32 sWallpaperTilemap_Deputymon[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/deputymon/tilemap.bin.lz");
 
 static const u32 sWallpaperIcon_Aqua[]         = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/aqua.4bpp.lz");
 static const u32 sWallpaperIcon_Heart[]        = INCBIN_U32("graphics/pokemon_storage/wallpapers/icons/heart.4bpp.lz");
@@ -355,7 +355,7 @@ static const struct Wallpaper sWaldaWallpapers[] =
     WALLPAPER_ENTRY(Legendary),
     WALLPAPER_ENTRY(Dusclops),
     WALLPAPER_ENTRY(Agunimon),
-    WALLPAPER_ENTRY(Whiscash),
+    WALLPAPER_ENTRY(Deputymon),
 };
 
 static const u32 *const sWaldaWallpaperIcons[] =

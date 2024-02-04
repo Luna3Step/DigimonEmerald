@@ -3487,7 +3487,7 @@ static const union AnimCmd sAnim_Depthmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Whiscash_1[] =
+static const union AnimCmd sAnim_Deputymon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5130,7 +5130,7 @@ SINGLE_ANIMATION(Biothunmon);
 SINGLE_ANIMATION(Clockmon);
 SINGLE_ANIMATION(Blgargomon);
 SINGLE_ANIMATION(Depthmon);
-SINGLE_ANIMATION(Whiscash);
+SINGLE_ANIMATION(Deputymon);
 SINGLE_ANIMATION(Luvdisc);
 SINGLE_ANIMATION(Corphish);
 SINGLE_ANIMATION(Crawdaunt);
@@ -5578,7 +5578,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CLOCKMON]     = sAnims_Clockmon,
     [SPECIES_BLGARGOMON]     = sAnims_Blgargomon,
     [SPECIES_DEPTHMON]    = sAnims_Depthmon,
-    [SPECIES_DEPUTYMON]    = sAnims_Whiscash,
+    [SPECIES_DEPUTYMON]    = sAnims_Deputymon,
     [SPECIES_FLYBEEMON]     = sAnims_Luvdisc,
     [SPECIES_DEVIDRAMON]    = sAnims_Corphish,
     [SPECIES_DEVIMON]   = sAnims_Crawdaunt,

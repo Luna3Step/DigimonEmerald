@@ -319,7 +319,7 @@ gCryTable::
 	cry Cry_Chrysalmon
 	cry Cry_Citramon
 	cry Cry_Depthmon
-	cry Cry_Whiscash
+	cry Cry_Deputymon
 	cry Cry_Corphish
 	cry Cry_Crawdaunt
 	cry Cry_Clockmon_fusion
@@ -710,7 +710,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Chrysalmon
 	cry_reverse Cry_Citramon
 	cry_reverse Cry_Depthmon
-	cry_reverse Cry_Whiscash
+	cry_reverse Cry_Deputymon
 	cry_reverse Cry_Corphish
 	cry_reverse Cry_Crawdaunt
 	cry_reverse Cry_Clockmon_fusion

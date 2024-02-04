@@ -1663,8 +1663,8 @@ Cry_Depthmon::
 	.incbin "sound/direct_sound_samples/cries/depthmon.bin"
 
 	.align 2
-Cry_Whiscash::
-	.incbin "sound/direct_sound_samples/cries/whiscash.bin"
+Cry_Deputymon::
+	.incbin "sound/direct_sound_samples/cries/deputymon.bin"
 
 	.align 2
 Cry_Corphish::
