@@ -2116,12 +2116,12 @@ const u32 gMonShinyPalette_Devimon[] = INCBIN_U32("graphics/pokemon/devimon/shin
 const u8 gMonIcon_Devimon[] = INCBIN_U8("graphics/pokemon/devimon/icon.4bpp");
 const u8 gMonFootprint_Devimon[] = INCBIN_U8("graphics/pokemon/devimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Feebas[] = INCBIN_U32("graphics/pokemon/feebas/front.4bpp.lz");
-const u32 gMonPalette_Feebas[] = INCBIN_U32("graphics/pokemon/feebas/normal.gbapal.lz");
-const u32 gMonBackPic_Feebas[] = INCBIN_U32("graphics/pokemon/feebas/back.4bpp.lz");
-const u32 gMonShinyPalette_Feebas[] = INCBIN_U32("graphics/pokemon/feebas/shiny.gbapal.lz");
-const u8 gMonIcon_Feebas[] = INCBIN_U8("graphics/pokemon/feebas/icon.4bpp");
-const u8 gMonFootprint_Feebas[] = INCBIN_U8("graphics/pokemon/feebas/footprint.1bpp");
+const u32 gMonStillFrontPic_Doggymon[] = INCBIN_U32("graphics/pokemon/doggymon/front.4bpp.lz");
+const u32 gMonPalette_Doggymon[] = INCBIN_U32("graphics/pokemon/doggymon/normal.gbapal.lz");
+const u32 gMonBackPic_Doggymon[] = INCBIN_U32("graphics/pokemon/doggymon/back.4bpp.lz");
+const u32 gMonShinyPalette_Doggymon[] = INCBIN_U32("graphics/pokemon/doggymon/shiny.gbapal.lz");
+const u8 gMonIcon_Doggymon[] = INCBIN_U8("graphics/pokemon/doggymon/icon.4bpp");
+const u8 gMonFootprint_Doggymon[] = INCBIN_U8("graphics/pokemon/doggymon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Milotic[] = INCBIN_U32("graphics/pokemon/milotic/front.4bpp.lz");
 const u32 gMonPalette_Milotic[] = INCBIN_U32("graphics/pokemon/milotic/normal.gbapal.lz");

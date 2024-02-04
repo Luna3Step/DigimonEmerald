@@ -333,7 +333,7 @@ gCryTable::
 	cry Cry_Diatrymon
 	cry Cry_Deckdramon
 	cry Cry_Deltamon
-	cry Cry_Feebas
+	cry Cry_Doggymon
 	cry Cry_Milotic
 	cry Cry_Absol
 	cry Cry_Sawkuwamon
@@ -724,7 +724,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Diatrymon
 	cry_reverse Cry_Deckdramon
 	cry_reverse Cry_Deltamon
-	cry_reverse Cry_Feebas
+	cry_reverse Cry_Doggymon
 	cry_reverse Cry_Milotic
 	cry_reverse Cry_Absol
 	cry_reverse Cry_Sawkuwamon

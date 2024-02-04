@@ -1719,8 +1719,8 @@ Cry_Deltamon::
 	.incbin "sound/direct_sound_samples/cries/deltamon.bin"
 
 	.align 2
-Cry_Feebas::
-	.incbin "sound/direct_sound_samples/cries/feebas.bin"
+Cry_Doggymon::
+	.incbin "sound/direct_sound_samples/cries/doggymon.bin"
 
 	.align 2
 Cry_Milotic::

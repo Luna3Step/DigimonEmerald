@@ -26,7 +26,7 @@ extern const u8 EventScript_RepelWoreOff[];
 
 #define MAX_ENCOUNTER_RATE 2880
 
-#define NUM_FEEBAS_SPOTS 6
+#define NUM_DOGGYMON_SPOTS 6
 
 // Number of accessible fishing spots in each section of Route 119
 // Each section is an area of the route between the y coordinates in sRoute119WaterTileData
@@ -47,8 +47,8 @@ enum {
 
 #define HEADER_NONE 0xFFFF
 
-static u16 FeebasRandom(void);
-static void FeebasSeedRng(u16 seed);
+static u16 DoggymonRandom(void);
+static void DoggymonSeedRng(u16 seed);
 static bool8 IsWildLevelAllowedByRepel(u8 level);
 static void ApplyFluteEncounterRateMod(u32 *encRate);
 static void ApplyCleanseTagEncounterRateMod(u32 *encRate);
@@ -56,11 +56,11 @@ static bool8 TryGetAbilityInfluencedWildMonIndex(const struct WildPokemon *wildM
 static bool8 IsAbilityAllowingEncounter(u8 level);
 
 EWRAM_DATA static u8 sWildEncountersDisabled = 0;
-EWRAM_DATA static u32 sFeebasRngValue = 0;
+EWRAM_DATA static u32 sDoggymonRngValue = 0;
 
 #include "data/wild_encounters.h"
 
-static const struct WildPokemon sWildFeebas = {20, 25, SPECIES_DOGGYMON};
+static const struct WildPokemon sWildDoggymon = {20, 25, SPECIES_DOGGYMON};
 
 static const u16 sRoute119WaterTileData[] =
 {
@@ -80,10 +80,10 @@ void DisableWildEncounters(bool8 disabled)
 // The map is divided into three sections, with each section having a pre-counted number of
 // fishing spots to start from to avoid counting a large number of spots at the bottom of the map.
 // Note that a spot is considered valid if it is surfable and not a waterfall. To exclude all
-// of the inaccessible water metatiles (so that they can't be selected as a Feebas spot) they
+// of the inaccessible water metatiles (so that they can't be selected as a Doggymon spot) they
 // use a different metatile that isn't actually surfable because it has MB_NORMAL instead.
 // This function is given the coordinates and section of a fishing spot and returns which number it is.
-static u16 GetFeebasFishingSpotId(s16 targetX, s16 targetY, u8 section)
+static u16 GetDoggymonFishingSpotId(s16 targetX, s16 targetY, u8 section)
 {
     u16 x, y;
     u16 yMin = sRoute119WaterTileData[section * 3 + 0];
@@ -106,10 +106,10 @@ static u16 GetFeebasFishingSpotId(s16 targetX, s16 targetY, u8 section)
     return spotId + 1;
 }
 
-static bool8 CheckFeebas(void)
+static bool8 CheckDoggymon(void)
 {
     u8 i;
-    u16 feebasSpots[NUM_FEEBAS_SPOTS];
+    u16 doggymonSpots[NUM_DOGGYMON_SPOTS];
     s16 x, y;
     u8 route119Section = 0;
     u16 spotId;
@@ -129,49 +129,49 @@ static bool8 CheckFeebas(void)
         if (y >= sRoute119WaterTileData[3 * 2 + 0] && y <= sRoute119WaterTileData[3 * 2 + 1])
             route119Section = 2;
 
-        // 50% chance of encountering Feebas (assuming this is a Feebas spot)
+        // 50% chance of encountering Doggymon (assuming this is a Doggymon spot)
         if (Random() % 100 > 49)
             return FALSE;
 
-        FeebasSeedRng(gSaveBlock1Ptr->dewfordTrends[0].rand);
+        DoggymonSeedRng(gSaveBlock1Ptr->dewfordTrends[0].rand);
 
-        // Assign each Feebas spot to a random fishing spot.
+        // Assign each Doggymon spot to a random fishing spot.
         // Randomness is fixed depending on the seed above.
-        for (i = 0; i != NUM_FEEBAS_SPOTS;)
+        for (i = 0; i != NUM_DOGGYMON_SPOTS;)
         {
-            feebasSpots[i] = FeebasRandom() % NUM_FISHING_SPOTS;
-            if (feebasSpots[i] == 0)
-                feebasSpots[i] = NUM_FISHING_SPOTS;
+            doggymonSpots[i] = DoggymonRandom() % NUM_FISHING_SPOTS;
+            if (doggymonSpots[i] == 0)
+                doggymonSpots[i] = NUM_FISHING_SPOTS;
 
             // < 1 below is a pointless check, it will never be TRUE.
             // >= 4 to skip fishing spots 1-3, because these are inaccessible
             // spots at the top of the map, at (9,7), (7,13), and (15,16).
             // The first accessible fishing spot is spot 4 at (18,18).
-            if (feebasSpots[i] < 1 || feebasSpots[i] >= 4)
+            if (doggymonSpots[i] < 1 || doggymonSpots[i] >= 4)
                 i++;
         }
 
         // Check which fishing spot the player is at, and see if
-        // it matches any of the Feebas spots.
-        spotId = GetFeebasFishingSpotId(x, y, route119Section);
-        for (i = 0; i < NUM_FEEBAS_SPOTS; i++)
+        // it matches any of the Doggymon spots.
+        spotId = GetDoggymonFishingSpotId(x, y, route119Section);
+        for (i = 0; i < NUM_DOGGYMON_SPOTS; i++)
         {
-            if (spotId == feebasSpots[i])
+            if (spotId == doggymonSpots[i])
                 return TRUE;
         }
     }
     return FALSE;
 }
 
-static u16 FeebasRandom(void)
+static u16 DoggymonRandom(void)
 {
-    sFeebasRngValue = ISO_RANDOMIZE2(sFeebasRngValue);
-    return sFeebasRngValue >> 16;
+    sDoggymonRngValue = ISO_RANDOMIZE2(sDoggymonRngValue);
+    return sDoggymonRngValue >> 16;
 }
 
-static void FeebasSeedRng(u16 seed)
+static void DoggymonSeedRng(u16 seed)
 {
-    sFeebasRngValue = seed;
+    sDoggymonRngValue = seed;
 }
 
 // LAND_WILD_COUNT
@@ -772,11 +772,11 @@ void FishingWildEncounter(u8 rod)
 {
     u16 species;
 
-    if (CheckFeebas() == TRUE)
+    if (CheckDoggymon() == TRUE)
     {
-        u8 level = ChooseWildMonLevel(&sWildFeebas);
+        u8 level = ChooseWildMonLevel(&sWildDoggymon);
 
-        species = sWildFeebas.species;
+        species = sWildDoggymon.species;
         CreateWildMon(species, level);
     }
     else
