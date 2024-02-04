@@ -1515,8 +1515,8 @@ Cry_Banette::
 	.incbin "sound/direct_sound_samples/cries/banette.bin"
 
 	.align 2
-Cry_Shuppet::
-	.incbin "sound/direct_sound_samples/cries/shuppet.bin"
+Cry_Dorugamon::
+	.incbin "sound/direct_sound_samples/cries/dorugamon.bin"
 
 	.align 2
 Cry_Zubamon::

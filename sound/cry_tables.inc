@@ -282,7 +282,7 @@ gCryTable::
 	cry Cry_Ankylomon
 	cry Cry_Angemon
 	cry Cry_Banette
-	cry Cry_Shuppet
+	cry Cry_Dorugamon
 	cry Cry_Zubamon
 	cry Cry_Aegiomon
 	cry Cry_Agunimon
@@ -673,7 +673,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Ankylomon
 	cry_reverse Cry_Angemon
 	cry_reverse Cry_Banette
-	cry_reverse Cry_Shuppet
+	cry_reverse Cry_Dorugamon
 	cry_reverse Cry_Zubamon
 	cry_reverse Cry_Aegiomon
 	cry_reverse Cry_Agunimon
