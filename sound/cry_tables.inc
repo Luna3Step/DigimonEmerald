@@ -344,7 +344,7 @@ gCryTable::
 	cry Cry_Clamperl
 	cry Cry_Huntail
 	cry Cry_Gorebyss
-	cry Cry_Lileep
+	cry Cry_Digmon
 	cry Cry_Cradily
 	cry Cry_Anorith
 	cry Cry_Armaldo
@@ -735,7 +735,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Clamperl
 	cry_reverse Cry_Huntail
 	cry_reverse Cry_Gorebyss
-	cry_reverse Cry_Lileep
+	cry_reverse Cry_Digmon
 	cry_reverse Cry_Cradily
 	cry_reverse Cry_Anorith
 	cry_reverse Cry_Armaldo

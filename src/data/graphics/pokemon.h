@@ -2536,12 +2536,12 @@ const u32 gMonShinyPalette_Bulkmon[] = INCBIN_U32("graphics/pokemon/bulkmon/shin
 const u8 gMonIcon_Bulkmon[] = INCBIN_U8("graphics/pokemon/bulkmon/icon.4bpp");
 const u8 gMonFootprint_Bulkmon[] = INCBIN_U8("graphics/pokemon/bulkmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/front.4bpp.lz");
-const u32 gMonPalette_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/normal.gbapal.lz");
-const u32 gMonBackPic_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/back.4bpp.lz");
-const u32 gMonShinyPalette_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/shiny.gbapal.lz");
-const u8 gMonIcon_Lileep[] = INCBIN_U8("graphics/pokemon/lileep/icon.4bpp");
-const u8 gMonFootprint_Lileep[] = INCBIN_U8("graphics/pokemon/lileep/footprint.1bpp");
+const u32 gMonStillFrontPic_Digmon[] = INCBIN_U32("graphics/pokemon/digmon/front.4bpp.lz");
+const u32 gMonPalette_Digmon[] = INCBIN_U32("graphics/pokemon/digmon/normal.gbapal.lz");
+const u32 gMonBackPic_Digmon[] = INCBIN_U32("graphics/pokemon/digmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Digmon[] = INCBIN_U32("graphics/pokemon/digmon/shiny.gbapal.lz");
+const u8 gMonIcon_Digmon[] = INCBIN_U8("graphics/pokemon/digmon/icon.4bpp");
+const u8 gMonFootprint_Digmon[] = INCBIN_U8("graphics/pokemon/digmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Cradily[] = INCBIN_U32("graphics/pokemon/cradily/front.4bpp.lz");
 const u32 gMonPalette_Cradily[] = INCBIN_U32("graphics/pokemon/cradily/normal.gbapal.lz");

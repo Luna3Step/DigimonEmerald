@@ -1763,8 +1763,8 @@ Cry_Gorebyss::
 	.incbin "sound/direct_sound_samples/cries/gorebyss.bin"
 
 	.align 2
-Cry_Lileep::
-	.incbin "sound/direct_sound_samples/cries/lileep.bin"
+Cry_Digmon::
+	.incbin "sound/direct_sound_samples/cries/digmon.bin"
 
 	.align 2
 Cry_Cradily::
