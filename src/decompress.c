@@ -105,7 +105,7 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
         LZ77UnCompWram(src->data, dest);
 
     DuplicateDeoxysTiles(dest, species);
-    DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
+    // DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
 }
 
 void Unused_LZDecompressWramIndirect(const void **src, void *dest)
@@ -327,7 +327,7 @@ void LoadSpecialPokePic_2(const struct CompressedSpriteSheet *src, void *dest, s
         LZ77UnCompWram(src->data, dest);
 
     DuplicateDeoxysTiles(dest, species);
-    DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
+    // DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
 }
 
 void HandleLoadSpecialPokePic_2(const struct CompressedSpriteSheet *src, void *dest, s32 species, u32 personality) // a copy of HandleLoadSpecialPokePic
@@ -384,7 +384,7 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
     else
         LZ77UnCompWram(src->data, dest);
 
-    DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
+    // DrawCoredramon_blueSpots(species, personality, dest, isFrontPic);
 }
 
 static void DuplicateDeoxysTiles(void *pointer, s32 species)

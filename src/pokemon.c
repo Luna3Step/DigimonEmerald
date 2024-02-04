@@ -5702,6 +5702,10 @@ u16 SpeciesToCryId(u16 species)
 
 // To draw a spot pixel, add 4 to the color index
 #define SPOT_COLOR_ADJUSTMENT 4
+
+// Below code is for Spinda's spots. If for some reason you want random spots on Digimon, this is
+// what you would be looking for. 
+
 /*
     The macro below handles drawing the randomly-placed spots on Coredramon_blue's front sprite.
     Coredramon_blue has 4 spots, each with an entry in gCoredramon_blueSpotGraphics. Each entry contains
@@ -5727,74 +5731,74 @@ u16 SpeciesToCryId(u16 species)
     (destPixels) is an 8 bit pointer, so it addresses two pixels. Shifting by 4 accesses the 2nd
     of these pixels, so this is done every other time.
 */
-#define DRAW_COREDRAMON_BLUE_SPOTS(personality, dest)                                    \
-{                                                                               \
-    s32 i;                                                                      \
-    for (i = 0; i < (s32)ARRAY_COUNT(gCoredramon_blueSpotGraphics); i++)                 \
-    {                                                                           \
-        s32 row;                                                                \
-        u8 x = gCoredramon_blueSpotGraphics[i].x + ((personality & 0x0F) - 8);           \
-        u8 y = gCoredramon_blueSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);    \
-                                                                                \
-        for (row = 0; row < COREDRAMON_BLUE_SPOT_HEIGHT; row++)                          \
-        {                                                                       \
-            s32 column;                                                         \
-            s32 spotPixelRow = gCoredramon_blueSpotGraphics[i].image[row];               \
-                                                                                \
-            for (column = x; column < x + COREDRAMON_BLUE_SPOT_WIDTH; column++)          \
-            {                                                                   \
-                /* Get target pixels on Coredramon_blue's sprite */                      \
-                u8 *destPixels = dest + ((column / 8) * TILE_SIZE_4BPP) +       \
-                                        ((column % 8) / 2) +                    \
-                                             ((y / 8) * TILE_SIZE_4BPP * 8) +   \
-                                             ((y % 8) * 4);                     \
-                                                                                \
-                /* Is this pixel in the 16x16 spot image part of the spot? */   \
-                if (spotPixelRow & 1)                                           \
-                {                                                               \
-                    /* destPixels addressess two pixels, alternate which */     \
-                    /* of the two pixels is being considered for drawing */     \
-                    if (column & 1)                                             \
-                    {                                                           \
-                        /* Draw spot pixel if this is Coredramon_blue's body color */    \
-                        if ((u8)((*destPixels & 0xF0) - (FIRST_SPOT_COLOR << 4))\
-                                 <= ((LAST_SPOT_COLOR - FIRST_SPOT_COLOR) << 4))\
-                            *destPixels += (SPOT_COLOR_ADJUSTMENT << 4);        \
-                    }                                                           \
-                    else                                                        \
-                    {                                                           \
-                        /* Draw spot pixel if this is Coredramon_blue's body color */    \
-                        if ((u8)((*destPixels & 0xF) - FIRST_SPOT_COLOR)        \
-                                 <= (LAST_SPOT_COLOR - FIRST_SPOT_COLOR))       \
-                            *destPixels += SPOT_COLOR_ADJUSTMENT;               \
-                    }                                                           \
-                }                                                               \
-                                                                                \
-                spotPixelRow >>= 1;                                             \
-            }                                                                   \
-                                                                                \
-            y++;                                                                \
-        }                                                                       \
-                                                                                \
-        personality >>= 8;                                                      \
-    }                                                                           \
-}
+// #define DRAW_COREDRAMON_BLUE_SPOTS(personality, dest)                                    \
+// {                                                                               \
+//     s32 i;                                                                      \
+//     for (i = 0; i < (s32)ARRAY_COUNT(gCoredramon_blueSpotGraphics); i++)                 \
+//     {                                                                           \
+//         s32 row;                                                                \
+//         u8 x = gCoredramon_blueSpotGraphics[i].x + ((personality & 0x0F) - 8);           \
+//         u8 y = gCoredramon_blueSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);    \
+//                                                                                 \
+//         for (row = 0; row < COREDRAMON_BLUE_SPOT_HEIGHT; row++)                          \
+//         {                                                                       \
+//             s32 column;                                                         \
+//             s32 spotPixelRow = gCoredramon_blueSpotGraphics[i].image[row];               \
+//                                                                                 \
+//             for (column = x; column < x + COREDRAMON_BLUE_SPOT_WIDTH; column++)          \
+//             {                                                                   \
+//                 /* Get target pixels on Coredramon_blue's sprite */                      \
+//                 u8 *destPixels = dest + ((column / 8) * TILE_SIZE_4BPP) +       \
+//                                         ((column % 8) / 2) +                    \
+//                                              ((y / 8) * TILE_SIZE_4BPP * 8) +   \
+//                                              ((y % 8) * 4);                     \
+//                                                                                 \
+//                 /* Is this pixel in the 16x16 spot image part of the spot? */   \
+//                 if (spotPixelRow & 1)                                           \
+//                 {                                                               \
+//                     /* destPixels addressess two pixels, alternate which */     \
+//                     /* of the two pixels is being considered for drawing */     \
+//                     if (column & 1)                                             \
+//                     {                                                           \
+//                         /* Draw spot pixel if this is Coredramon_blue's body color */    \
+//                         if ((u8)((*destPixels & 0xF0) - (FIRST_SPOT_COLOR << 4))\
+//                                  <= ((LAST_SPOT_COLOR - FIRST_SPOT_COLOR) << 4))\
+//                             *destPixels += (SPOT_COLOR_ADJUSTMENT << 4);        \
+//                     }                                                           \
+//                     else                                                        \
+//                     {                                                           \
+//                         /* Draw spot pixel if this is Coredramon_blue's body color */    \
+//                         if ((u8)((*destPixels & 0xF) - FIRST_SPOT_COLOR)        \
+//                                  <= (LAST_SPOT_COLOR - FIRST_SPOT_COLOR))       \
+//                             *destPixels += SPOT_COLOR_ADJUSTMENT;               \
+//                     }                                                           \
+//                 }                                                               \
+//                                                                                 \
+//                 spotPixelRow >>= 1;                                             \
+//             }                                                                   \
+//                                                                                 \
+//             y++;                                                                \
+//         }                                                                       \
+//                                                                                 \
+//         personality >>= 8;                                                      \
+//     }                                                                           \
+// }
 
-// Same as DrawCoredramon_blueSpots but attempts to discern for itself whether or
-// not it's the front pic.
-static void DrawCoredramon_blueSpotsUnused(u16 species, u32 personality, u8 *dest)
-{
-    if (species == SPECIES_COREDRAMON_BLUE
-        && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_LEFT]
-        && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_RIGHT])
-        DRAW_COREDRAMON_BLUE_SPOTS(personality, dest);
-}
+// // Same as DrawCoredramon_blueSpots but attempts to discern for itself whether or
+// // not it's the front pic.
+// static void DrawCoredramon_blueSpotsUnused(u16 species, u32 personality, u8 *dest)
+// {
+//     if (species == SPECIES_COREDRAMON_BLUE
+//         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_LEFT]
+//         && dest != gMonSpritesGfxPtr->sprites.ptr[B_POSITION_PLAYER_RIGHT])
+//         DRAW_COREDRAMON_BLUE_SPOTS(personality, dest);
+// }
 
-void DrawCoredramon_blueSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
-{
-    if (species == SPECIES_COREDRAMON_BLUE && isFrontPic)
-        DRAW_COREDRAMON_BLUE_SPOTS(personality, dest);
-}
+// void DrawCoredramon_blueSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
+// {
+//     if (species == SPECIES_COREDRAMON_BLUE && isFrontPic)
+//         DRAW_COREDRAMON_BLUE_SPOTS(personality, dest);
+// }
 
 void EvolutionRenameMon(struct Pokemon *mon, u16 oldSpecies, u16 newSpecies)
 {
