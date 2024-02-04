@@ -1101,7 +1101,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0xD,
-                        .nickname = _("MEDICHAM"),
+                        .nickname = _("BLIMPMON"),
                         .friendship = 0,
                     },
                     [2] =

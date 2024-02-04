@@ -337,7 +337,7 @@ gCryTable::
 	cry Cry_Milotic
 	cry Cry_Absol
 	cry Cry_Sawkuwamon
-	cry Cry_Medicham
+	cry Cry_Blimpmon
 	cry Cry_Spheal
 	cry Cry_Sealeo
 	cry Cry_Walrein
@@ -728,7 +728,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Milotic
 	cry_reverse Cry_Absol
 	cry_reverse Cry_Sawkuwamon
-	cry_reverse Cry_Medicham
+	cry_reverse Cry_Blimpmon
 	cry_reverse Cry_Spheal
 	cry_reverse Cry_Sealeo
 	cry_reverse Cry_Walrein

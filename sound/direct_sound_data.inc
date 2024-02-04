@@ -1735,8 +1735,8 @@ Cry_Sawkuwamon::
 	.incbin "sound/direct_sound_samples/cries/sawkuwamon.bin"
 
 	.align 2
-Cry_Medicham::
-	.incbin "sound/direct_sound_samples/cries/medicham.bin"
+Cry_Blimpmon::
+	.incbin "sound/direct_sound_samples/cries/blimpmon.bin"
 
 	.align 2
 Cry_Spheal::
