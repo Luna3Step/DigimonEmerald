@@ -29,7 +29,7 @@
 /*
     The intro is grouped into the following scenes
     Scene 0. Copyright screen
-    Scene 1. GF Logo, pan up over plants, Flygon silhouette goes by
+    Scene 1. GF Logo, pan up over plants, Damemon_fusion silhouette goes by
     Scene 2. Player biking on path, joined by Pokémon
     Scene 3. A fight between Groudon/Kyogre ends with Rayquaza
 
@@ -59,7 +59,7 @@ static void SpriteCB_WaterDrop_Ripple(struct Sprite *);
 static void SpriteCB_Sparkle(struct Sprite *sprite);
 static void SpriteCB_LogoLetter(struct Sprite *sprite);
 static void SpriteCB_GameFreakLogo(struct Sprite *sprite);
-static void SpriteCB_FlygonSilhouette(struct Sprite *sprite);
+static void SpriteCB_Damemon_fusionSilhouette(struct Sprite *sprite);
 
 // Scene 2 main tasks
 static void Task_Scene2_Load(u8);
@@ -71,7 +71,7 @@ static void Task_Scene2_End(u8);
 static void SpriteCB_Syakomon_x(struct Sprite *sprite);
 static void SpriteCB_Bomnanimon(struct Sprite *sprite);
 static void SpriteCB_Bucchiemon_green(struct Sprite *sprite);
-static void SpriteCB_Flygon(struct Sprite *);
+static void SpriteCB_Damemon_fusion(struct Sprite *);
 static void SpriteCB_PlayerOnBicycle(struct Sprite *);
 
 // Scene 3 main tasks
@@ -123,7 +123,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 #define PALTAG_DROPS      2000
 #define PALTAG_LOGO       2001
 
-#define TAG_FLYGON_SILHOUETTE 2002
+#define TAG_DAMEMON_FUSION_SILHOUETTE 2002
 #define TAG_RAYQUAZA_ORB      2003
 
 #define COLOSSEUM_GAME_CODE 0x65366347 // "Gc6e" in ASCII
@@ -147,7 +147,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 #define TIMER_SMALL_DROP_1              368
 #define TIMER_SMALL_DROP_2              384
 #define TIMER_SPARKLES                  560
-#define TIMER_FLYGON_SILHOUETTE_APPEAR  832
+#define TIMER_DAMEMON_FUSION_SILHOUETTE_APPEAR  832
 #define TIMER_END_PAN_UP                904
 #define TIMER_END_SCENE_1              1007
 #define TIMER_START_SCENE_2            1026
@@ -156,7 +156,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 #define TIMER_BOMNANIMON_RUN_CIRCULAR   1168
 #define TIMER_PLAYER_MOVE_FORWARD      1214
 #define TIMER_SYAKOMON_X_ENTER            1224
-#define TIMER_FLYGON_ENTER             1394
+#define TIMER_DAMEMON_FUSION_ENTER             1394
 #define TIMER_PLAYER_MOVE_BACKWARD     1398
 #define TIMER_PLAYER_HOLD_POSITION     1576
 #define TIMER_PLAYER_EXIT              1727
@@ -170,7 +170,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 
 static EWRAM_DATA u16 sIntroCharacterGender = 0;
 static EWRAM_DATA u16 sUnusedVar = 0;
-static EWRAM_DATA u16 sFlygonYOffset = 0;
+static EWRAM_DATA u16 sDamemon_fusionYOffset = 0;
 
 u32 gIntroFrameCounter;
 struct GcmbStruct gMultibootProgramStruct;
@@ -193,7 +193,7 @@ static const u32 sIntroStreaks_Tilemap[]      = INCBIN_U32("graphics/intro/scene
 static const u16 sIntroRayquzaOrb_Pal[]       = INCBIN_U16("graphics/intro/scene_3/rayquaza_orb.gbapal");
 static const u16 sIntroMisc_Pal[]             = INCBIN_U16("graphics/intro/scene_3/misc.gbapal"); // Unused
 static const u32 sIntroMisc_Gfx[]             = INCBIN_U32("graphics/intro/scene_3/misc.4bpp.lz"); // Rayquza orb, and misc unused gfx
-static const u16 sIntroFlygonSilhouette_Pal[] = INCBIN_U16("graphics/intro/scene_1/flygon.gbapal");
+static const u16 sIntroDamemon_fusionSilhouette_Pal[] = INCBIN_U16("graphics/intro/scene_1/damemon_fusion.gbapal");
 static const u32 sIntroLati_Gfx[]             = INCBIN_U32("graphics/intro/scene_1/lati.4bpp.lz"); // Unused
 static const u8 sUnusedData[] = {
     0x02, 0x03, 0x04, 0x05, 0x01, 0x01, 0x01, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x02, 0x0D,
@@ -926,7 +926,7 @@ static const u8 sGameFreakLetterStartDelays[NUM_GF_LETTERS] =
     10, // A
     10  // K
 };
-static const struct OamData sOamData_FlygonSilhouette =
+static const struct OamData sOamData_Damemon_fusionSilhouette =
 {
     .y = DISPLAY_HEIGHT,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -942,40 +942,40 @@ static const struct OamData sOamData_FlygonSilhouette =
     .paletteNum = 0,
     .affineParam = 0,
 };
-static const union AnimCmd sAnim_FlygonSilhouette[] =
+static const union AnimCmd sAnim_Damemon_fusionSilhouette[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_JUMP(0),
 };
-static const union AnimCmd *const sAnims_FlygonSilhouette[] =
+static const union AnimCmd *const sAnims_Damemon_fusionSilhouette[] =
 {
-    sAnim_FlygonSilhouette,
+    sAnim_Damemon_fusionSilhouette,
 };
-static const struct SpriteTemplate sSpriteTemplate_FlygonSilhouette =
+static const struct SpriteTemplate sSpriteTemplate_Damemon_fusionSilhouette =
 {
-    .tileTag = TAG_FLYGON_SILHOUETTE,
-    .paletteTag = TAG_FLYGON_SILHOUETTE,
-    .oam = &sOamData_FlygonSilhouette,
-    .anims = sAnims_FlygonSilhouette,
+    .tileTag = TAG_DAMEMON_FUSION_SILHOUETTE,
+    .paletteTag = TAG_DAMEMON_FUSION_SILHOUETTE,
+    .oam = &sOamData_Damemon_fusionSilhouette,
+    .anims = sAnims_Damemon_fusionSilhouette,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_FlygonSilhouette,
+    .callback = SpriteCB_Damemon_fusionSilhouette,
 };
 static const struct CompressedSpriteSheet sSpriteSheet_WaterDropsAndLogo[] =
 {
     {sIntroDropsLogo_Gfx, 0x1400, GFXTAG_DROPS_LOGO},
     {},
 };
-static const struct CompressedSpriteSheet sSpriteSheet_FlygonSilhouette[] =
+static const struct CompressedSpriteSheet sSpriteSheet_Damemon_fusionSilhouette[] =
 {
-    {gIntroFlygonSilhouette_Gfx, 0x400, TAG_FLYGON_SILHOUETTE},
+    {gIntroDamemon_fusionSilhouette_Gfx, 0x400, TAG_DAMEMON_FUSION_SILHOUETTE},
     {},
 };
 static const struct SpritePalette sSpritePalettes_Intro1[] =
 {
     {sIntroDrops_Pal, PALTAG_DROPS},
     {sIntroLogo_Pal, PALTAG_LOGO},
-    {sIntroFlygonSilhouette_Pal, TAG_FLYGON_SILHOUETTE},
+    {sIntroDamemon_fusionSilhouette_Pal, TAG_DAMEMON_FUSION_SILHOUETTE},
     {},
 };
 static const struct OamData sOamData_RayquazaOrb =
@@ -1184,7 +1184,7 @@ static void Task_Scene1_Load(u8 taskId)
     SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(18) | BGCNT_16COLOR | BGCNT_TXT256x512);
     SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(16) | BGCNT_16COLOR | BGCNT_TXT256x512);
     LoadCompressedSpriteSheet(sSpriteSheet_WaterDropsAndLogo);
-    LoadCompressedSpriteSheet(sSpriteSheet_FlygonSilhouette);
+    LoadCompressedSpriteSheet(sSpriteSheet_Damemon_fusionSilhouette);
     LoadSpritePalettes(sSpritePalettes_Intro1);
     LoadCompressedSpriteSheet(sSpriteSheet_Sparkle);
     LoadSpritePalettes(sSpritePalette_Sparkle);
@@ -1324,10 +1324,10 @@ static void Task_Scene1_PanUp(u8 taskId)
         gTasks[taskId].tBg3PosLo = offset;
         SetGpuReg(REG_OFFSET_BG0VOFS, gTasks[taskId].tBg3PosHi);
 
-        if (gIntroFrameCounter == TIMER_FLYGON_SILHOUETTE_APPEAR)
+        if (gIntroFrameCounter == TIMER_DAMEMON_FUSION_SILHOUETTE_APPEAR)
         {
-            // Show Flygon silhouette
-            u8 spriteId = CreateSprite(&sSpriteTemplate_FlygonSilhouette, 120, DISPLAY_HEIGHT, 10);
+            // Show Damemon_fusion silhouette
+            u8 spriteId = CreateSprite(&sSpriteTemplate_Damemon_fusionSilhouette, 120, DISPLAY_HEIGHT, 10);
             gSprites[spriteId].invisible = TRUE;
         }
     }
@@ -1356,15 +1356,15 @@ static void Task_Scene2_Load(u8 taskId)
     FreeAllSpritePalettes();
     gIntroCredits_MovingSceneryVBase = 0;
     gIntroCredits_MovingSceneryVOffset = 0;
-    sFlygonYOffset = 0;
+    sDamemon_fusionYOffset = 0;
     LoadIntroPart2Graphics(1);
     gTasks[taskId].func = Task_Scene2_CreateSprites;
 }
 
 #define tBgAnimTaskId   data[0]
 #define tPlayerSpriteId data[1]
-#define tFlygonSpriteId data[2]
-#define tFlygonTimer    data[3]
+#define tDamemon_fusionSpriteId data[2]
+#define tDamemon_fusionTimer    data[3]
 
 static void Task_Scene2_CreateSprites(u8 taskId)
 {
@@ -1377,13 +1377,13 @@ static void Task_Scene2_CreateSprites(u8 taskId)
         LoadCompressedSpriteSheet(gSpriteSheet_IntroMay);
 
     LoadCompressedSpriteSheet(gSpriteSheet_IntroBicycle);
-    LoadCompressedSpriteSheet(gSpriteSheet_IntroFlygon);
+    LoadCompressedSpriteSheet(gSpriteSheet_IntroDamemon_fusion);
 
     // Load sprite palettes
     for (spriteId = 0; spriteId < ARRAY_COUNT(sSpriteSheet_RunningPokemon) - 1; spriteId++)
         LoadCompressedSpriteSheet(&sSpriteSheet_RunningPokemon[spriteId]);
 
-    LoadSpritePalettes(gSpritePalettes_IntroPlayerFlygon);
+    LoadSpritePalettes(gSpritePalettes_IntroPlayerDamemon_fusion);
     LoadSpritePalettes(sSpritePalettes_RunningPokemon);
 
     // Create Pokémon and player sprites
@@ -1399,9 +1399,9 @@ static void Task_Scene2_CreateSprites(u8 taskId)
     gSprites[spriteId].anims = sAnims_PlayerBicycle;
     gTasks[taskId].tPlayerSpriteId = spriteId;
     CreateSprite(&sSpriteTemplate_Bucchiemon_green, DISPLAY_WIDTH + 32, 80, 4);
-    spriteId = CreateIntroFlygonSprite(-64, 60);
-    gSprites[spriteId].callback = SpriteCB_Flygon;
-    gTasks[taskId].tFlygonSpriteId = spriteId;
+    spriteId = CreateIntroDamemon_fusionSprite(-64, 60);
+    gSprites[spriteId].callback = SpriteCB_Damemon_fusion;
+    gTasks[taskId].tDamemon_fusionSpriteId = spriteId;
 
     // Fade in and start bike ride
     BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_WHITEALPHA);
@@ -1429,14 +1429,14 @@ static void Task_Scene2_BikeRide(u8 taskId)
         gTasks[taskId].func = Task_Scene2_End;
     }
 
-    // Check for updates to player/flygon sprites
-    // These states are for SpriteCB_PlayerOnBicycle and SpriteCB_Flygon respectively
+    // Check for updates to player/damemon_fusion sprites
+    // These states are for SpriteCB_PlayerOnBicycle and SpriteCB_Damemon_fusion respectively
     if (gIntroFrameCounter == TIMER_PLAYER_DRIFT_BACK)
         gSprites[gTasks[taskId].tPlayerSpriteId].sState = 1;
     if (gIntroFrameCounter == TIMER_PLAYER_MOVE_FORWARD)
         gSprites[gTasks[taskId].tPlayerSpriteId].sState = 0;
-    if (gIntroFrameCounter == TIMER_FLYGON_ENTER)
-        gSprites[gTasks[taskId].tFlygonSpriteId].sState = 1;
+    if (gIntroFrameCounter == TIMER_DAMEMON_FUSION_ENTER)
+        gSprites[gTasks[taskId].tDamemon_fusionSpriteId].sState = 1;
     if (gIntroFrameCounter == TIMER_PLAYER_MOVE_BACKWARD)
         gSprites[gTasks[taskId].tPlayerSpriteId].sState = 2;
     if (gIntroFrameCounter == TIMER_PLAYER_HOLD_POSITION)
@@ -1444,11 +1444,11 @@ static void Task_Scene2_BikeRide(u8 taskId)
     if (gIntroFrameCounter == TIMER_PLAYER_EXIT)
         gSprites[gTasks[taskId].tPlayerSpriteId].sState = 4;
 
-    // Handle flygon's y movement
-    offset = Sin(gTasks[taskId].tFlygonTimer >> 2 & 0x7F, 48);
-    sFlygonYOffset = offset;
-    if (gTasks[taskId].tFlygonTimer < 512)
-        gTasks[taskId].tFlygonTimer++;
+    // Handle damemon_fusion's y movement
+    offset = Sin(gTasks[taskId].tDamemon_fusionTimer >> 2 & 0x7F, 48);
+    sDamemon_fusionYOffset = offset;
+    if (gTasks[taskId].tDamemon_fusionTimer < 512)
+        gTasks[taskId].tDamemon_fusionTimer++;
 
     // Alternate colors of the trees
     CycleSceneryPalette(0);
@@ -3126,7 +3126,7 @@ static void SpriteCB_PlayerOnBicycle(struct Sprite *sprite)
 #define sSinIdx data[1]
 
 // Movement is started by setting state to 1 in Task_Scene2_BikeRide
-static void SpriteCB_Flygon(struct Sprite *sprite)
+static void SpriteCB_Damemon_fusion(struct Sprite *sprite)
 {
     switch (sprite->sState)
     {
@@ -3149,7 +3149,7 @@ static void SpriteCB_Flygon(struct Sprite *sprite)
             sprite->x2 -= 2;
         break;
     }
-    sprite->y2 = Sin((u8)sprite->sSinIdx, 8) - sFlygonYOffset;
+    sprite->y2 = Sin((u8)sprite->sSinIdx, 8) - sDamemon_fusionYOffset;
     sprite->sSinIdx += 4;
 }
 
@@ -3327,7 +3327,7 @@ static u8 CreateGameFreakLogoSprites(s16 x, s16 y, s16 unused)
 #define sPos     data[3]
 #define sTimer   data[7]
 
-static void SpriteCB_FlygonSilhouette(struct Sprite *sprite)
+static void SpriteCB_Damemon_fusionSilhouette(struct Sprite *sprite)
 {
     sprite->sTimer++;
 

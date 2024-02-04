@@ -2194,13 +2194,13 @@ extern const u32 gMonShinyPalette_Cyclonemon[];
 extern const u32 gMonStillFrontPic_Cyclonemon[];
 extern const u8 gMonIcon_Cyclonemon[];
 extern const u8 gMonFootprint_Cyclonemon[];
-extern const u32 gMonFrontPic_Flygon[];
-extern const u32 gMonPalette_Flygon[];
-extern const u32 gMonBackPic_Flygon[];
-extern const u32 gMonShinyPalette_Flygon[];
-extern const u32 gMonStillFrontPic_Flygon[];
-extern const u8 gMonIcon_Flygon[];
-extern const u8 gMonFootprint_Flygon[];
+extern const u32 gMonFrontPic_Damemon_fusion[];
+extern const u32 gMonPalette_Damemon_fusion[];
+extern const u32 gMonBackPic_Damemon_fusion[];
+extern const u32 gMonShinyPalette_Damemon_fusion[];
+extern const u32 gMonStillFrontPic_Damemon_fusion[];
+extern const u8 gMonIcon_Damemon_fusion[];
+extern const u8 gMonFootprint_Damemon_fusion[];
 extern const u32 gMonFrontPic_Betgamamon[];
 extern const u32 gMonPalette_Betgamamon[];
 extern const u32 gMonBackPic_Betgamamon[];
@@ -3875,7 +3875,7 @@ extern const u32 gBerryCheckCircle_Gfx[];
 
 //intro graphics
 extern const u32 gIntroSparkle_Gfx[];
-extern const u32 gIntroFlygonSilhouette_Gfx[];
+extern const u32 gIntroDamemon_fusionSilhouette_Gfx[];
 extern const u32 gIntroLightning_Gfx[];
 extern const u16 gIntroLightning_Pal[];
 extern const u32 gIntroCopyright_Gfx[];
@@ -3909,8 +3909,8 @@ extern const u16 gIntroGameFreakTextFade_Pal[];
 extern const u32 gIntroBrendan_Gfx[];
 extern const u32 gIntroMay_Gfx[];
 extern const u16 gIntroPlayer_Pal[];
-extern const u16 gIntroFlygon_Pal[];
-extern const u32 gIntroFlygon_Gfx[];
+extern const u16 gIntroDamemon_fusion_Pal[];
+extern const u32 gIntroDamemon_fusion_Gfx[];
 
 // party menu graphics
 extern const u32 gPartyMenuBg_Gfx[];
