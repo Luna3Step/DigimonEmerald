@@ -2081,12 +2081,12 @@ const u32 gMonShinyPalette_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomo
 const u8 gMonIcon_Blgargomon[] = INCBIN_U8("graphics/pokemon/blgargomon/icon.4bpp");
 const u8 gMonFootprint_Blgargomon[] = INCBIN_U8("graphics/pokemon/blgargomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/front.4bpp.lz");
-const u32 gMonPalette_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/normal.gbapal.lz");
-const u32 gMonBackPic_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/back.4bpp.lz");
-const u32 gMonShinyPalette_Barboach[] = INCBIN_U32("graphics/pokemon/barboach/shiny.gbapal.lz");
-const u8 gMonIcon_Barboach[] = INCBIN_U8("graphics/pokemon/barboach/icon.4bpp");
-const u8 gMonFootprint_Barboach[] = INCBIN_U8("graphics/pokemon/barboach/footprint.1bpp");
+const u32 gMonStillFrontPic_Depthmon[] = INCBIN_U32("graphics/pokemon/depthmon/front.4bpp.lz");
+const u32 gMonPalette_Depthmon[] = INCBIN_U32("graphics/pokemon/depthmon/normal.gbapal.lz");
+const u32 gMonBackPic_Depthmon[] = INCBIN_U32("graphics/pokemon/depthmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Depthmon[] = INCBIN_U32("graphics/pokemon/depthmon/shiny.gbapal.lz");
+const u8 gMonIcon_Depthmon[] = INCBIN_U8("graphics/pokemon/depthmon/icon.4bpp");
+const u8 gMonFootprint_Depthmon[] = INCBIN_U8("graphics/pokemon/depthmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Whiscash[] = INCBIN_U32("graphics/pokemon/whiscash/front.4bpp.lz");
 const u32 gMonPalette_Whiscash[] = INCBIN_U32("graphics/pokemon/whiscash/normal.gbapal.lz");
