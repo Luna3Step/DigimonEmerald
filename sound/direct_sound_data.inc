@@ -1675,8 +1675,8 @@ Cry_Crawdaunt::
 	.incbin "sound/direct_sound_samples/cries/crawdaunt.bin"
 
 	.align 2
-Cry_Spoink::
-	.incbin "sound/direct_sound_samples/cries/spoink.bin"
+Cry_Clockmon_fusion::
+	.incbin "sound/direct_sound_samples/cries/clockmon_fusion.bin"
 
 	.align 2
 Cry_Grumpig::

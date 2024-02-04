@@ -2277,12 +2277,12 @@ const u32 gMonShinyPalette_Biostegmon[] = INCBIN_U32("graphics/pokemon/biostegmo
 const u8 gMonIcon_Biostegmon[] = INCBIN_U8("graphics/pokemon/biostegmon/icon.4bpp");
 const u8 gMonFootprint_Biostegmon[] = INCBIN_U8("graphics/pokemon/biostegmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/front.4bpp.lz");
-const u32 gMonPalette_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/normal.gbapal.lz");
-const u32 gMonBackPic_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/back.4bpp.lz");
-const u32 gMonShinyPalette_Spoink[] = INCBIN_U32("graphics/pokemon/spoink/shiny.gbapal.lz");
-const u8 gMonIcon_Spoink[] = INCBIN_U8("graphics/pokemon/spoink/icon.4bpp");
-const u8 gMonFootprint_Spoink[] = INCBIN_U8("graphics/pokemon/spoink/footprint.1bpp");
+const u32 gMonStillFrontPic_Clockmon_fusion[] = INCBIN_U32("graphics/pokemon/clockmon_fusion/front.4bpp.lz");
+const u32 gMonPalette_Clockmon_fusion[] = INCBIN_U32("graphics/pokemon/clockmon_fusion/normal.gbapal.lz");
+const u32 gMonBackPic_Clockmon_fusion[] = INCBIN_U32("graphics/pokemon/clockmon_fusion/back.4bpp.lz");
+const u32 gMonShinyPalette_Clockmon_fusion[] = INCBIN_U32("graphics/pokemon/clockmon_fusion/shiny.gbapal.lz");
+const u8 gMonIcon_Clockmon_fusion[] = INCBIN_U8("graphics/pokemon/clockmon_fusion/icon.4bpp");
+const u8 gMonFootprint_Clockmon_fusion[] = INCBIN_U8("graphics/pokemon/clockmon_fusion/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/front.4bpp.lz");
 const u32 gMonPalette_Grumpig[] = INCBIN_U32("graphics/pokemon/grumpig/normal.gbapal.lz");
