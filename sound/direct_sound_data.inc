@@ -1767,8 +1767,8 @@ Cry_Digmon::
 	.incbin "sound/direct_sound_samples/cries/digmon.bin"
 
 	.align 2
-Cry_Cradily::
-	.incbin "sound/direct_sound_samples/cries/cradily.bin"
+Cry_Dinohyumon::
+	.incbin "sound/direct_sound_samples/cries/dinohyumon.bin"
 
 	.align 2
 Cry_Anorith::
