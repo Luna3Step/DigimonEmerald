@@ -364,7 +364,7 @@ gCryTable::
 	cry Cry_Dusclops
 	cry Cry_Blgargomon
 	cry Cry_Blgarurmon
-	cry Cry_Aron
+	cry Cry_Blkgatomon
 	cry Cry_Lairon
 	cry Cry_Aggron
 	cry Cry_Relicanth
@@ -755,7 +755,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Dusclops
 	cry_reverse Cry_Blgargomon
 	cry_reverse Cry_Blgarurmon
-	cry_reverse Cry_Aron
+	cry_reverse Cry_Blkgatomon
 	cry_reverse Cry_Lairon
 	cry_reverse Cry_Aggron
 	cry_reverse Cry_Relicanth

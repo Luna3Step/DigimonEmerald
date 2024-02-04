@@ -1843,8 +1843,8 @@ Cry_Blgarurmon::
 	.incbin "sound/direct_sound_samples/cries/blgarurmon.bin"
 
 	.align 2
-Cry_Aron::
-	.incbin "sound/direct_sound_samples/cries/aron.bin"
+Cry_Blkgatomon::
+	.incbin "sound/direct_sound_samples/cries/blkgatomon.bin"
 
 	.align 2
 Cry_Lairon::

@@ -4170,7 +4170,7 @@ static const union AnimCmd sAnim_Relicanth_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Aron_1[] =
+static const union AnimCmd sAnim_Blkgatomon_1[] =
 {
     ANIMCMD_FRAME(0, 33),
     ANIMCMD_FRAME(0, 44),
@@ -5188,7 +5188,7 @@ SINGLE_ANIMATION(Banette);
 SINGLE_ANIMATION(Seviper);
 SINGLE_ANIMATION(Zangoose);
 SINGLE_ANIMATION(Relicanth);
-SINGLE_ANIMATION(Aron);
+SINGLE_ANIMATION(Blkgatomon);
 SINGLE_ANIMATION(Lairon);
 SINGLE_ANIMATION(Aggron);
 static const union AnimCmd *const sAnims_Castform[] ={
@@ -5636,7 +5636,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DARKTYRMON_X]     = sAnims_Seviper,
     [SPECIES_DARKTYRMON]    = sAnims_Zangoose,
     [SPECIES_FLARIZAMON]   = sAnims_Relicanth,
-    [SPECIES_BLKGATOMON]        = sAnims_Aron,
+    [SPECIES_BLKGATOMON]        = sAnims_Blkgatomon,
     [SPECIES_BLKGATOMON_UVER]      = sAnims_Lairon,
     [SPECIES_BLGROWLMON]      = sAnims_Aggron,
     [SPECIES_DOLPHMON]    = sAnims_Castform,

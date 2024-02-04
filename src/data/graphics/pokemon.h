@@ -2494,12 +2494,12 @@ const u32 gMonShinyPalette_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/
 const u8 gMonIcon_Relicanth[] = INCBIN_U8("graphics/pokemon/relicanth/icon.4bpp");
 const u8 gMonFootprint_Relicanth[] = INCBIN_U8("graphics/pokemon/relicanth/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Aron[] = INCBIN_U32("graphics/pokemon/aron/front.4bpp.lz");
-const u32 gMonPalette_Aron[] = INCBIN_U32("graphics/pokemon/aron/normal.gbapal.lz");
-const u32 gMonBackPic_Aron[] = INCBIN_U32("graphics/pokemon/aron/back.4bpp.lz");
-const u32 gMonShinyPalette_Aron[] = INCBIN_U32("graphics/pokemon/aron/shiny.gbapal.lz");
-const u8 gMonIcon_Aron[] = INCBIN_U8("graphics/pokemon/aron/icon.4bpp");
-const u8 gMonFootprint_Aron[] = INCBIN_U8("graphics/pokemon/aron/footprint.1bpp");
+const u32 gMonStillFrontPic_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/front.4bpp.lz");
+const u32 gMonPalette_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/normal.gbapal.lz");
+const u32 gMonBackPic_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/shiny.gbapal.lz");
+const u8 gMonIcon_Blkgatomon[] = INCBIN_U8("graphics/pokemon/blkgatomon/icon.4bpp");
+const u8 gMonFootprint_Blkgatomon[] = INCBIN_U8("graphics/pokemon/blkgatomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/front.4bpp.lz");
 const u32 gMonPalette_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/normal.gbapal.lz");
