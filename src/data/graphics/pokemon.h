@@ -2501,12 +2501,12 @@ const u32 gMonShinyPalette_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomo
 const u8 gMonIcon_Blkgatomon[] = INCBIN_U8("graphics/pokemon/blkgatomon/icon.4bpp");
 const u8 gMonFootprint_Blkgatomon[] = INCBIN_U8("graphics/pokemon/blkgatomon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/front.4bpp.lz");
-const u32 gMonPalette_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/normal.gbapal.lz");
-const u32 gMonBackPic_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/back.4bpp.lz");
-const u32 gMonShinyPalette_Lairon[] = INCBIN_U32("graphics/pokemon/lairon/shiny.gbapal.lz");
-const u8 gMonIcon_Lairon[] = INCBIN_U8("graphics/pokemon/lairon/icon.4bpp");
-const u8 gMonFootprint_Lairon[] = INCBIN_U8("graphics/pokemon/lairon/footprint.1bpp");
+const u32 gMonStillFrontPic_Blkgatomon_uver[] = INCBIN_U32("graphics/pokemon/blkgatomon_uver/front.4bpp.lz");
+const u32 gMonPalette_Blkgatomon_uver[] = INCBIN_U32("graphics/pokemon/blkgatomon_uver/normal.gbapal.lz");
+const u32 gMonBackPic_Blkgatomon_uver[] = INCBIN_U32("graphics/pokemon/blkgatomon_uver/back.4bpp.lz");
+const u32 gMonShinyPalette_Blkgatomon_uver[] = INCBIN_U32("graphics/pokemon/blkgatomon_uver/shiny.gbapal.lz");
+const u8 gMonIcon_Blkgatomon_uver[] = INCBIN_U8("graphics/pokemon/blkgatomon_uver/icon.4bpp");
+const u8 gMonFootprint_Blkgatomon_uver[] = INCBIN_U8("graphics/pokemon/blkgatomon_uver/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Aggron[] = INCBIN_U32("graphics/pokemon/aggron/front.4bpp.lz");
 const u32 gMonPalette_Aggron[] = INCBIN_U32("graphics/pokemon/aggron/normal.gbapal.lz");
