@@ -3895,7 +3895,7 @@ static const union AnimCmd sAnim_Blimpmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Swablu_1[] =
+static const union AnimCmd sAnim_Darlizamon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(0, 10),
@@ -3907,7 +3907,7 @@ static const union AnimCmd sAnim_Swablu_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Swablu_2[] =
+static const union AnimCmd sAnim_Darlizamon_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(2, 8),
@@ -5164,7 +5164,7 @@ SINGLE_ANIMATION(Bucchiemon_red);
 SINGLE_ANIMATION(Blgarurmon);
 SINGLE_ANIMATION(Sawkuwamon);
 SINGLE_ANIMATION(Blimpmon);
-DOUBLE_ANIMATION(Swablu);
+DOUBLE_ANIMATION(Darlizamon);
 DOUBLE_ANIMATION(Altaria);
 SINGLE_ANIMATION(Wynaut);
 SINGLE_ANIMATION(Duskull);
@@ -5612,7 +5612,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BLGARURMON]      = sAnims_Blgarurmon,
     [SPECIES_SAWKUWAMON]    = sAnims_Sawkuwamon,
     [SPECIES_BLIMPMON]    = sAnims_Blimpmon,
-    [SPECIES_DARLIZAMON]      = sAnims_Swablu,
+    [SPECIES_DARLIZAMON]      = sAnims_Darlizamon,
     [SPECIES_DARMAILMON]     = sAnims_Altaria,
     [SPECIES_EXVEEMON]      = sAnims_Wynaut,
     [SPECIES_DRIMOGEMON]     = sAnims_Duskull,

@@ -263,7 +263,7 @@ gCryTable::
 	cry Cry_Centarumon
 	cry Cry_Zangoose
 	cry Cry_Biostegmon
-	cry Cry_Swablu
+	cry Cry_Darlizamon
 	cry Cry_Altaria
 	cry Cry_Unused265
 	cry Cry_Allomon_x
@@ -654,7 +654,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Centarumon
 	cry_reverse Cry_Zangoose
 	cry_reverse Cry_Biostegmon
-	cry_reverse Cry_Swablu
+	cry_reverse Cry_Darlizamon
 	cry_reverse Cry_Altaria
 	cry_reverse Cry_Unused265
 	cry_reverse Cry_Allomon_x

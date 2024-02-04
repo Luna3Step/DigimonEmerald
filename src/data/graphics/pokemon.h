@@ -2326,12 +2326,12 @@ const u32 gMonShinyPalette_Blimpmon[] = INCBIN_U32("graphics/pokemon/blimpmon/sh
 const u8 gMonIcon_Blimpmon[] = INCBIN_U8("graphics/pokemon/blimpmon/icon.4bpp");
 const u8 gMonFootprint_Blimpmon[] = INCBIN_U8("graphics/pokemon/blimpmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Swablu[] = INCBIN_U32("graphics/pokemon/swablu/front.4bpp.lz");
-const u32 gMonPalette_Swablu[] = INCBIN_U32("graphics/pokemon/swablu/normal.gbapal.lz");
-const u32 gMonBackPic_Swablu[] = INCBIN_U32("graphics/pokemon/swablu/back.4bpp.lz");
-const u32 gMonShinyPalette_Swablu[] = INCBIN_U32("graphics/pokemon/swablu/shiny.gbapal.lz");
-const u8 gMonIcon_Swablu[] = INCBIN_U8("graphics/pokemon/swablu/icon.4bpp");
-const u8 gMonFootprint_Swablu[] = INCBIN_U8("graphics/pokemon/swablu/footprint.1bpp");
+const u32 gMonStillFrontPic_Darlizamon[] = INCBIN_U32("graphics/pokemon/darlizamon/front.4bpp.lz");
+const u32 gMonPalette_Darlizamon[] = INCBIN_U32("graphics/pokemon/darlizamon/normal.gbapal.lz");
+const u32 gMonBackPic_Darlizamon[] = INCBIN_U32("graphics/pokemon/darlizamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Darlizamon[] = INCBIN_U32("graphics/pokemon/darlizamon/shiny.gbapal.lz");
+const u8 gMonIcon_Darlizamon[] = INCBIN_U8("graphics/pokemon/darlizamon/icon.4bpp");
+const u8 gMonFootprint_Darlizamon[] = INCBIN_U8("graphics/pokemon/darlizamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/front.4bpp.lz");
 const u32 gMonPalette_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/normal.gbapal.lz");

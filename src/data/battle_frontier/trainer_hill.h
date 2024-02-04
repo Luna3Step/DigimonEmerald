@@ -497,7 +497,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 24,
                         .abilityNum = 0,
                         .personality = 0x83,
-                        .nickname = _("DAMEMON_FUSION"),
+                        .nickname = _("DAMEMON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                 },

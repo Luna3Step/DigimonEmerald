@@ -1439,8 +1439,8 @@ Cry_Biostegmon::
 	.incbin "sound/direct_sound_samples/cries/biostegmon.bin"
 
 	.align 2
-Cry_Swablu::
-	.incbin "sound/direct_sound_samples/cries/swablu.bin"
+Cry_Darlizamon::
+	.incbin "sound/direct_sound_samples/cries/darlizamon.bin"
 
 	.align 2
 Cry_Altaria::

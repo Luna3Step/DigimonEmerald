@@ -695,7 +695,7 @@ static const union AnimCmd sUnusedAnim_Blimpmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Swablu_1[] =
+static const union AnimCmd sUnusedAnim_Darlizamon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(1, 10),
@@ -706,7 +706,7 @@ static const union AnimCmd sUnusedAnim_Swablu_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Swablu_2[] =
+static const union AnimCmd sUnusedAnim_Darlizamon_2[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(2, 8),
@@ -1297,7 +1297,7 @@ static const union AnimCmd *const sUnusedAnims_Bucchiemon_red[] = {sAnim_General
 static const union AnimCmd *const sUnusedAnims_Blgarurmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgarurmon_1};
 static const union AnimCmd *const sUnusedAnims_Sawkuwamon[] = {sAnim_GeneralFrame0, sUnusedAnim_Sawkuwamon_1};
 static const union AnimCmd *const sUnusedAnims_Blimpmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blimpmon_1};
-static const union AnimCmd *const sUnusedAnims_Swablu[] = {sAnim_GeneralFrame0, sUnusedAnim_Swablu_1, sUnusedAnim_Swablu_2};
+static const union AnimCmd *const sUnusedAnims_Darlizamon[] = {sAnim_GeneralFrame0, sUnusedAnim_Darlizamon_1, sUnusedAnim_Darlizamon_2};
 static const union AnimCmd *const sUnusedAnims_Altaria[] = {sAnim_GeneralFrame0, sUnusedAnim_Altaria_1};
 static const union AnimCmd *const sUnusedAnims_Wynaut[] = {sAnim_GeneralFrame0, sUnusedAnim_Wynaut_1, sUnusedAnim_Wynaut_2};
 static const union AnimCmd *const sUnusedAnims_Duskull[] = {sAnim_GeneralFrame0, sUnusedAnim_Duskull_1, sUnusedAnim_Duskull_2};
@@ -1739,7 +1739,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_BLGARURMON] = sUnusedAnims_Blgarurmon,
     [SPECIES_SAWKUWAMON] = sUnusedAnims_Sawkuwamon,
     [SPECIES_BLIMPMON] = sUnusedAnims_Blimpmon,
-    [SPECIES_DARLIZAMON] = sUnusedAnims_Swablu,
+    [SPECIES_DARLIZAMON] = sUnusedAnims_Darlizamon,
     [SPECIES_DARMAILMON] = sUnusedAnims_Altaria,
     [SPECIES_EXVEEMON] = sUnusedAnims_Wynaut,
     [SPECIES_DRIMOGEMON] = sUnusedAnims_Duskull,
