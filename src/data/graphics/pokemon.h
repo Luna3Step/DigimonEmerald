@@ -2235,12 +2235,12 @@ const u32 gMonShinyPalette_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/shin
 const u8 gMonIcon_Darcmon[] = INCBIN_U8("graphics/pokemon/darcmon/icon.4bpp");
 const u8 gMonFootprint_Darcmon[] = INCBIN_U8("graphics/pokemon/darcmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/front.4bpp.lz");
-const u32 gMonPalette_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/normal.gbapal.lz");
-const u32 gMonBackPic_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/back.4bpp.lz");
-const u32 gMonShinyPalette_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/shiny.gbapal.lz");
-const u8 gMonIcon_Cacturne[] = INCBIN_U8("graphics/pokemon/cacturne/icon.4bpp");
-const u8 gMonFootprint_Cacturne[] = INCBIN_U8("graphics/pokemon/cacturne/footprint.1bpp");
+const u32 gMonStillFrontPic_Trailmon_dark[] = INCBIN_U32("graphics/pokemon/trailmon_dark/front.4bpp.lz");
+const u32 gMonPalette_Trailmon_dark[] = INCBIN_U32("graphics/pokemon/trailmon_dark/normal.gbapal.lz");
+const u32 gMonBackPic_Trailmon_dark[] = INCBIN_U32("graphics/pokemon/trailmon_dark/back.4bpp.lz");
+const u32 gMonShinyPalette_Trailmon_dark[] = INCBIN_U32("graphics/pokemon/trailmon_dark/shiny.gbapal.lz");
+const u8 gMonIcon_Trailmon_dark[] = INCBIN_U8("graphics/pokemon/trailmon_dark/icon.4bpp");
+const u8 gMonFootprint_Trailmon_dark[] = INCBIN_U8("graphics/pokemon/trailmon_dark/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/front.4bpp.lz");
 const u32 gMonPalette_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/normal.gbapal.lz");

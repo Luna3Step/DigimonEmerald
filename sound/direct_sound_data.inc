@@ -1699,8 +1699,8 @@ Cry_Darcmon::
 	.incbin "sound/direct_sound_samples/cries/darcmon.bin"
 
 	.align 2
-Cry_Cacturne::
-	.incbin "sound/direct_sound_samples/cries/cacturne.bin"
+Cry_Trailmon_dark::
+	.incbin "sound/direct_sound_samples/cries/trailmon_dark.bin"
 
 	.align 2
 Cry_Baltoy::
