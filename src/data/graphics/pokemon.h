@@ -2529,12 +2529,12 @@ const u32 gMonShinyPalette_Bucchiemon_green[] = INCBIN_U32("graphics/pokemon/buc
 const u8 gMonIcon_Bucchiemon_green[] = INCBIN_U8("graphics/pokemon/bucchiemon_green/icon.4bpp");
 const u8 gMonFootprint_Bucchiemon_green[] = INCBIN_U8("graphics/pokemon/bucchiemon_green/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Illumise[] = INCBIN_U32("graphics/pokemon/illumise/front.4bpp.lz");
-const u32 gMonPalette_Illumise[] = INCBIN_U32("graphics/pokemon/illumise/normal.gbapal.lz");
-const u32 gMonBackPic_Illumise[] = INCBIN_U32("graphics/pokemon/illumise/back.4bpp.lz");
-const u32 gMonShinyPalette_Illumise[] = INCBIN_U32("graphics/pokemon/illumise/shiny.gbapal.lz");
-const u8 gMonIcon_Illumise[] = INCBIN_U8("graphics/pokemon/illumise/icon.4bpp");
-const u8 gMonFootprint_Illumise[] = INCBIN_U8("graphics/pokemon/illumise/footprint.1bpp");
+const u32 gMonStillFrontPic_Bulkmon[] = INCBIN_U32("graphics/pokemon/bulkmon/front.4bpp.lz");
+const u32 gMonPalette_Bulkmon[] = INCBIN_U32("graphics/pokemon/bulkmon/normal.gbapal.lz");
+const u32 gMonBackPic_Bulkmon[] = INCBIN_U32("graphics/pokemon/bulkmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bulkmon[] = INCBIN_U32("graphics/pokemon/bulkmon/shiny.gbapal.lz");
+const u8 gMonIcon_Bulkmon[] = INCBIN_U8("graphics/pokemon/bulkmon/icon.4bpp");
+const u8 gMonFootprint_Bulkmon[] = INCBIN_U8("graphics/pokemon/bulkmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/front.4bpp.lz");
 const u32 gMonPalette_Lileep[] = INCBIN_U32("graphics/pokemon/lileep/normal.gbapal.lz");

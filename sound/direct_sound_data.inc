@@ -1819,8 +1819,8 @@ Cry_Bucchiemon_green::
 	.incbin "sound/direct_sound_samples/cries/bucchiemon_green.bin"
 
 	.align 2
-Cry_Illumise::
-	.incbin "sound/direct_sound_samples/cries/illumise.bin"
+Cry_Bulkmon::
+	.incbin "sound/direct_sound_samples/cries/bulkmon.bin"
 
 	.align 2
 Cry_Tinkermon::

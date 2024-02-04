@@ -358,7 +358,7 @@ gCryTable::
 	cry Cry_Registeel
 	cry Cry_Castform
 	cry Cry_Bucchiemon_green
-	cry Cry_Illumise
+	cry Cry_Bulkmon
 	cry Cry_Tinkermon
 	cry Cry_Tinpet
 	cry Cry_Dusclops
@@ -749,7 +749,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Registeel
 	cry_reverse Cry_Castform
 	cry_reverse Cry_Bucchiemon_green
-	cry_reverse Cry_Illumise
+	cry_reverse Cry_Bulkmon
 	cry_reverse Cry_Tinkermon
 	cry_reverse Cry_Tinpet
 	cry_reverse Cry_Dusclops
