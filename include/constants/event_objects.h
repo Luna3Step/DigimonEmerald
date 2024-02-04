@@ -158,7 +158,7 @@
 #define OBJ_EVENT_GFX_SUNARZAMON_DOLL               154
 #define OBJ_EVENT_GFX_SYAKOMON_X_DOLL               155
 #define OBJ_EVENT_GFX_TERRIERMON_DOLL                156
-#define OBJ_EVENT_GFX_DUSKULL_DOLL               157
+#define OBJ_EVENT_GFX_DRIMOGEMON_DOLL               157
 #define OBJ_EVENT_GFX_WYNAUT_DOLL                158
 #define OBJ_EVENT_GFX_DEXDORUMON_DOLL                159
 #define OBJ_EVENT_GFX_DONSHOUMON_DOLL               160

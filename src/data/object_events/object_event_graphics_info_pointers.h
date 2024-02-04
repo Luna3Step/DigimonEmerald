@@ -155,7 +155,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SangomonDol
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SunarzamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Syakomon_xDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TerriermonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DuskullDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DrimogemonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DexdorumonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DonshoumonDoll;
@@ -404,7 +404,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SUNARZAMON_DOLL] =             &gObjectEventGraphicsInfo_SunarzamonDoll,
     [OBJ_EVENT_GFX_SYAKOMON_X_DOLL] =             &gObjectEventGraphicsInfo_Syakomon_xDoll,
     [OBJ_EVENT_GFX_TERRIERMON_DOLL] =              &gObjectEventGraphicsInfo_TerriermonDoll,
-    [OBJ_EVENT_GFX_DUSKULL_DOLL] =             &gObjectEventGraphicsInfo_DuskullDoll,
+    [OBJ_EVENT_GFX_DRIMOGEMON_DOLL] =             &gObjectEventGraphicsInfo_DrimogemonDoll,
     [OBJ_EVENT_GFX_WYNAUT_DOLL] =              &gObjectEventGraphicsInfo_WynautDoll,
     [OBJ_EVENT_GFX_DEXDORUMON_DOLL] =              &gObjectEventGraphicsInfo_DexdorumonDoll,
     [OBJ_EVENT_GFX_DONSHOUMON_DOLL] =             &gObjectEventGraphicsInfo_DonshoumonDoll,

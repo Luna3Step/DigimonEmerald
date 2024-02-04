@@ -472,7 +472,7 @@ static const u8 sBeadMailDesc[] = _(
     "holding POKéMON.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
+    "A DRIMOGEMON-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 

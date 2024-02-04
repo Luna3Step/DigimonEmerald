@@ -2347,12 +2347,12 @@ const u32 gMonShinyPalette_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/shiny.
 const u8 gMonIcon_Wynaut[] = INCBIN_U8("graphics/pokemon/wynaut/icon.4bpp");
 const u8 gMonFootprint_Wynaut[] = INCBIN_U8("graphics/pokemon/wynaut/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Duskull[] = INCBIN_U32("graphics/pokemon/duskull/front.4bpp.lz");
-const u32 gMonPalette_Duskull[] = INCBIN_U32("graphics/pokemon/duskull/normal.gbapal.lz");
-const u32 gMonBackPic_Duskull[] = INCBIN_U32("graphics/pokemon/duskull/back.4bpp.lz");
-const u32 gMonShinyPalette_Duskull[] = INCBIN_U32("graphics/pokemon/duskull/shiny.gbapal.lz");
-const u8 gMonIcon_Duskull[] = INCBIN_U8("graphics/pokemon/duskull/icon.4bpp");
-const u8 gMonFootprint_Duskull[] = INCBIN_U8("graphics/pokemon/duskull/footprint.1bpp");
+const u32 gMonStillFrontPic_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/front.4bpp.lz");
+const u32 gMonPalette_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/normal.gbapal.lz");
+const u32 gMonBackPic_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/shiny.gbapal.lz");
+const u8 gMonIcon_Drimogemon[] = INCBIN_U8("graphics/pokemon/drimogemon/icon.4bpp");
+const u8 gMonFootprint_Drimogemon[] = INCBIN_U8("graphics/pokemon/drimogemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Dusclops[] = INCBIN_U32("graphics/pokemon/dusclops/front.4bpp.lz");
 const u32 gMonPalette_Dusclops[] = INCBIN_U32("graphics/pokemon/dusclops/normal.gbapal.lz");

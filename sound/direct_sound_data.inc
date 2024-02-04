@@ -1411,8 +1411,8 @@ Cry_Bomnanimon::
 	.incbin "sound/direct_sound_samples/cries/bomnanimon.bin"
 
 	.align 2
-Cry_Duskull::
-	.incbin "sound/direct_sound_samples/cries/duskull.bin"
+Cry_Drimogemon::
+	.incbin "sound/direct_sound_samples/cries/drimogemon.bin"
 
 	.align 2
 Cry_Latias::
