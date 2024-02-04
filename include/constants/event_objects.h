@@ -161,7 +161,7 @@
 #define OBJ_EVENT_GFX_DUSKULL_DOLL               157
 #define OBJ_EVENT_GFX_WYNAUT_DOLL                158
 #define OBJ_EVENT_GFX_DEXDORUMON_DOLL                159
-#define OBJ_EVENT_GFX_KECLEON_DOLL               160
+#define OBJ_EVENT_GFX_DONSHOUMON_DOLL               160
 #define OBJ_EVENT_GFX_BIOSTEGMON_DOLL               161
 #define OBJ_EVENT_GFX_BIRDRAMON_DOLL                162
 #define OBJ_EVENT_GFX_DARLIZAMON_DOLL                163
@@ -205,7 +205,7 @@
 #define OBJ_EVENT_GFX_REGICE                     201
 #define OBJ_EVENT_GFX_REGISTEEL                  202
 #define OBJ_EVENT_GFX_BIRDRAMON                     203
-#define OBJ_EVENT_GFX_KECLEON                    204
+#define OBJ_EVENT_GFX_DONSHOUMON                    204
 #define OBJ_EVENT_GFX_KYOGRE_ASLEEP              205
 #define OBJ_EVENT_GFX_GROUDON_ASLEEP             206
 #define OBJ_EVENT_GFX_RAYQUAZA                   207
@@ -213,7 +213,7 @@
 #define OBJ_EVENT_GFX_PETITMON                    209
 #define OBJ_EVENT_GFX_JELLYMON                  210
 #define OBJ_EVENT_GFX_ANGEMON                    211
-#define OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW      212
+#define OBJ_EVENT_GFX_DONSHOUMON_BRIDGE_SHADOW      212
 #define OBJ_EVENT_GFX_TUBER_M_SWIMMING           213
 #define OBJ_EVENT_GFX_BIOSTEGMON                    214
 #define OBJ_EVENT_GFX_MOM                        215

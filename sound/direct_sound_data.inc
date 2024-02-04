@@ -1391,8 +1391,8 @@ Cry_Strabimon::
 	.incbin "sound/direct_sound_samples/cries/strabimon.bin"
 
 	.align 2
-Cry_Kecleon::
-	.incbin "sound/direct_sound_samples/cries/kecleon.bin"
+Cry_Donshoumon::
+	.incbin "sound/direct_sound_samples/cries/donshoumon.bin"
 
 	.align 2
 Cry_Bullmon::

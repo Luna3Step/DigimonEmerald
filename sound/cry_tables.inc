@@ -251,7 +251,7 @@ gCryTable::
 	cry Cry_Sparrowmon
 	cry Cry_Starmon_2010
 	cry Cry_Strabimon
-	cry Cry_Kecleon
+	cry Cry_Donshoumon
 	cry Cry_Bullmon
 	cry Cry_Clockmon
 	cry Cry_Boarmon
@@ -642,7 +642,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sparrowmon
 	cry_reverse Cry_Starmon_2010
 	cry_reverse Cry_Strabimon
-	cry_reverse Cry_Kecleon
+	cry_reverse Cry_Donshoumon
 	cry_reverse Cry_Bullmon
 	cry_reverse Cry_Clockmon
 	cry_reverse Cry_Boarmon

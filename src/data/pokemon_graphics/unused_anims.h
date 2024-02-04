@@ -323,7 +323,7 @@ static const union AnimCmd sUnusedAnim_Blgaogamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Kecleon_1[] =
+static const union AnimCmd sUnusedAnim_Donshoumon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 7),
@@ -350,7 +350,7 @@ static const union AnimCmd sUnusedAnim_Kecleon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Kecleon_2[] =
+static const union AnimCmd sUnusedAnim_Donshoumon_2[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(7, 12),
@@ -376,7 +376,7 @@ static const union AnimCmd sUnusedAnim_Kecleon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Kecleon_3[] =
+static const union AnimCmd sUnusedAnim_Donshoumon_3[] =
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(7, 12),
@@ -402,7 +402,7 @@ static const union AnimCmd sUnusedAnim_Kecleon_3[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Kecleon_4[] =
+static const union AnimCmd sUnusedAnim_Donshoumon_4[] =
 {
     ANIMCMD_FRAME(0,18),
     ANIMCMD_FRAME(10, 18),
@@ -1256,7 +1256,7 @@ static const union AnimCmd *const sUnusedAnims_Chamblemon[] = {sAnim_GeneralFram
 static const union AnimCmd *const sUnusedAnims_Chamelemon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Birdramon[] = {sAnim_GeneralFrame0, sUnusedAnim_Birdramon_1};
 static const union AnimCmd *const sUnusedAnims_Blgaogamon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgaogamon_1};
-static const union AnimCmd *const sUnusedAnims_Kecleon[] = {sAnim_GeneralFrame0, sUnusedAnim_Kecleon_1, sUnusedAnim_Kecleon_2, sUnusedAnim_Kecleon_3, sUnusedAnim_Kecleon_4};
+static const union AnimCmd *const sUnusedAnims_Donshoumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Donshoumon_1, sUnusedAnim_Donshoumon_2, sUnusedAnim_Donshoumon_3, sUnusedAnim_Donshoumon_4};
 static const union AnimCmd *const sUnusedAnims_Dexdorumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Dexdorumon_1};
 static const union AnimCmd *const sUnusedAnims_Diatrymon[] = {sAnim_GeneralFrame0, sUnusedAnim_Diatrymon_1};
 static const union AnimCmd *const sUnusedAnims_Biothunmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Biothunmon_1};
@@ -1698,7 +1698,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_CHAMELEMON] = sUnusedAnims_Chamelemon,
     [SPECIES_BIRDRAMON] = sUnusedAnims_Birdramon,
     [SPECIES_BLGAOGAMON] = sUnusedAnims_Blgaogamon,
-    [SPECIES_DONSHOUMON] = sUnusedAnims_Kecleon,
+    [SPECIES_DONSHOUMON] = sUnusedAnims_Donshoumon,
     [SPECIES_DEXDORUMON] = sUnusedAnims_Dexdorumon,
     [SPECIES_DIATRYMON] = sUnusedAnims_Diatrymon,
     [SPECIES_BIOTHUNMON] = sUnusedAnims_Biothunmon,

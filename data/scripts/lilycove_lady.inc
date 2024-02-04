@@ -475,7 +475,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon::
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_COOL, LilycoveCity_PokemonCenter_1F_EventScript_Toyagumon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_BEAUTY, LilycoveCity_PokemonCenter_1F_EventScript_Birdramon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_CUTE, LilycoveCity_PokemonCenter_1F_EventScript_Tinkermon
-	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_SMART, LilycoveCity_PokemonCenter_1F_EventScript_Kecleon
+	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_SMART, LilycoveCity_PokemonCenter_1F_EventScript_Donshoumon
 	goto_if_eq VAR_RESULT, CONTEST_CATEGORY_TOUGH, LilycoveCity_PokemonCenter_1F_EventScript_Petitmon
 	end
 
@@ -509,12 +509,12 @@ LilycoveCity_PokemonCenter_1F_EventScript_Tinkermon::
 	release
 	end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Kecleon::
+LilycoveCity_PokemonCenter_1F_EventScript_Donshoumon::
 	lock
 	faceplayer
 	waitse
 	playmoncry VAR_0x8005, CRY_MODE_NORMAL
-	msgbox LilycoveCity_PokemonCenter_1F_Text_Kecleon, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonCenter_1F_Text_Donshoumon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -777,7 +777,7 @@ LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests:
 LilycoveCity_PokemonCenter_1F_Text_Toyagumon:
 	.string "{STR_VAR_1}: Guguuh!$"
 
-LilycoveCity_PokemonCenter_1F_Text_Kecleon:
+LilycoveCity_PokemonCenter_1F_Text_Donshoumon:
 	.string "{STR_VAR_1}: Igigigiiih!$"
 
 LilycoveCity_PokemonCenter_1F_Text_Tinkermon:

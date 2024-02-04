@@ -1,71 +1,71 @@
-Route120_EventScript_Kecleon1::
+Route120_EventScript_Donshoumon1::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 1
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route120_EventScript_Kecleon2::
+Route120_EventScript_Donshoumon2::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 2
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route120_EventScript_Kecleon3::
+Route120_EventScript_Donshoumon3::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 3
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route120_EventScript_Kecleon4::
+Route120_EventScript_Donshoumon4::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 4
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route120_EventScript_Kecleon5::
+Route120_EventScript_Donshoumon5::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 5
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route119_EventScript_Kecleon1::
+Route119_EventScript_Donshoumon1::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 6
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-Route119_EventScript_Kecleon2::
+Route119_EventScript_Donshoumon2::
 	lock
 	faceplayer
 	setvar VAR_0x8009, 7
-	goto EventScript_Kecleon
+	goto EventScript_Donshoumon
 	end
 
-EventScript_Kecleon::
+EventScript_Donshoumon::
 	checkitem ITEM_DEVON_SCOPE
 	goto_if_eq VAR_RESULT, TRUE, EventScript_AskUseDevonScope
-	msgbox Kecleon_Text_SomethingUnseeable, MSGBOX_DEFAULT
+	msgbox Donshoumon_Text_SomethingUnseeable, MSGBOX_DEFAULT
 	release
 	end
 
 EventScript_AskUseDevonScope::
-	msgbox Kecleon_Text_WantToUseDevonScope, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, EventScript_BattleKecleon
+	msgbox Donshoumon_Text_WantToUseDevonScope, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_BattleDonshoumon
 	release
 	end
 
-EventScript_BattleKecleon::
-	msgbox Kecleon_Text_UseDevonScopeMonAttacked, MSGBOX_DEFAULT
+EventScript_BattleDonshoumon::
+	msgbox Donshoumon_Text_UseDevonScopeMonAttacked, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
-	applymovement VAR_LAST_TALKED, Movement_KecleonAppears
+	applymovement VAR_LAST_TALKED, Movement_DonshoumonAppears
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_DONSHOUMON, CRY_MODE_ENCOUNTER
@@ -76,17 +76,17 @@ EventScript_BattleKecleon::
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_RemoveKecleon
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, EventScript_RemoveKecleon
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, EventScript_RemoveKecleon
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_RemoveDonshoumon
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, EventScript_RemoveDonshoumon
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, EventScript_RemoveDonshoumon
 	release
 	end
 
-EventScript_RemoveKecleon::
+EventScript_RemoveDonshoumon::
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-Movement_KecleonAppears:
+Movement_DonshoumonAppears:
 	set_visible
 	delay_4
 	set_invisible

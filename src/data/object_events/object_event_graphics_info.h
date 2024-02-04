@@ -3057,7 +3057,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DexdorumonDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DonshoumonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3072,7 +3072,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_KecleonDoll,
+    .images = sPicTable_DonshoumonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -3931,7 +3931,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Birdramon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Donshoumon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3946,7 +3946,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Kecleon,
+    .images = sPicTable_Donshoumon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -4083,7 +4083,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Angemon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShadow = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DonshoumonBridgeShadow = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
@@ -4098,7 +4098,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShado
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Kecleon,
+    .images = sPicTable_Donshoumon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

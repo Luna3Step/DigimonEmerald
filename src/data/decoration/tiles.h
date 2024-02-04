@@ -534,8 +534,8 @@ const u16 DecorGfx_DEXDORUMON_DOLL[] = {
     OBJ_EVENT_GFX_DEXDORUMON_DOLL
 };
 
-const u16 DecorGfx_KECLEON_DOLL[] = {
-    OBJ_EVENT_GFX_KECLEON_DOLL
+const u16 DecorGfx_DONSHOUMON_DOLL[] = {
+    OBJ_EVENT_GFX_DONSHOUMON_DOLL
 };
 
 const u16 DecorGfx_BIOSTEGMON_DOLL[] = {
