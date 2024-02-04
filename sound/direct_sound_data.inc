@@ -1851,8 +1851,8 @@ Cry_Blkgatomon_uver::
 	.incbin "sound/direct_sound_samples/cries/blkgatomon_uver.bin"
 
 	.align 2
-Cry_Aggron::
-	.incbin "sound/direct_sound_samples/cries/aggron.bin"
+Cry_Blgrowlmon::
+	.incbin "sound/direct_sound_samples/cries/blgrowlmon.bin"
 
 	.align 2
 Cry_Relicanth::

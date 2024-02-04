@@ -4190,7 +4190,7 @@ static const union AnimCmd sAnim_Blkgatomon_uver_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Aggron_1[] =
+static const union AnimCmd sAnim_Blgrowlmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 44),
@@ -5190,7 +5190,7 @@ SINGLE_ANIMATION(Zangoose);
 SINGLE_ANIMATION(Relicanth);
 SINGLE_ANIMATION(Blkgatomon);
 SINGLE_ANIMATION(Blkgatomon_uver);
-SINGLE_ANIMATION(Aggron);
+SINGLE_ANIMATION(Blgrowlmon);
 static const union AnimCmd *const sAnims_Castform[] ={
     sAnim_Castform_0,
     sAnim_Castform_1,
@@ -5638,7 +5638,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_FLARIZAMON]   = sAnims_Relicanth,
     [SPECIES_BLKGATOMON]        = sAnims_Blkgatomon,
     [SPECIES_BLKGATOMON_UVER]      = sAnims_Blkgatomon_uver,
-    [SPECIES_BLGROWLMON]      = sAnims_Aggron,
+    [SPECIES_BLGROWLMON]      = sAnims_Blgrowlmon,
     [SPECIES_DOLPHMON]    = sAnims_Castform,
     [SPECIES_BUCCHIEMON_GREEN]     = sAnims_Volbeat,
     [SPECIES_BULKMON]    = sAnims_Illumise,

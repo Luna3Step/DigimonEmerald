@@ -837,7 +837,7 @@ static const union AnimCmd sUnusedAnim_Blkgatomon_uver_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Aggron_1[] =
+static const union AnimCmd sUnusedAnim_Blgrowlmon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
@@ -1323,7 +1323,7 @@ static const union AnimCmd *const sUnusedAnims_Zangoose[] = {sAnim_GeneralFrame0
 static const union AnimCmd *const sUnusedAnims_Relicanth[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Blkgatomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blkgatomon_1};
 static const union AnimCmd *const sUnusedAnims_Blkgatomon_uver[] = {sAnim_GeneralFrame0, sUnusedAnim_Blkgatomon_uver_1};
-static const union AnimCmd *const sUnusedAnims_Aggron[] = {sAnim_GeneralFrame0, sUnusedAnim_Aggron_1};
+static const union AnimCmd *const sUnusedAnims_Blgrowlmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgrowlmon_1};
 static const union AnimCmd *const sUnusedAnims_Castform[] = {sAnim_GeneralFrame0, sUnusedAnim_Castform_1, sUnusedAnim_Castform_2, sUnusedAnim_Castform_3, sUnusedAnim_Castform_4};
 static const union AnimCmd *const sUnusedAnims_Volbeat[] = {sAnim_GeneralFrame0, sUnusedAnim_Volbeat_1};
 static const union AnimCmd *const sUnusedAnims_Illumise[] = {sAnim_GeneralFrame0, sUnusedAnim_Illumise_1};
@@ -1765,7 +1765,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_FLARIZAMON] = sUnusedAnims_Relicanth,
     [SPECIES_BLKGATOMON] = sUnusedAnims_Blkgatomon,
     [SPECIES_BLKGATOMON_UVER] = sUnusedAnims_Blkgatomon_uver,
-    [SPECIES_BLGROWLMON] = sUnusedAnims_Aggron,
+    [SPECIES_BLGROWLMON] = sUnusedAnims_Blgrowlmon,
     [SPECIES_DOLPHMON] = sUnusedAnims_Castform,
     [SPECIES_BUCCHIEMON_GREEN] = sUnusedAnims_Volbeat,
     [SPECIES_BULKMON] = sUnusedAnims_Illumise,
