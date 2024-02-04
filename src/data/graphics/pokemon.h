@@ -2705,12 +2705,12 @@ const u16 gMonUnusedGarbage[] = INCBIN_U16("graphics/pokemon/unused_garbage.bin"
 
 const u8 gMonFootprint_Deoxys[] = INCBIN_U8("graphics/pokemon/deoxys/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Chimecho[] = INCBIN_U32("graphics/pokemon/chimecho/front.4bpp.lz");
-const u32 gMonPalette_Chimecho[] = INCBIN_U32("graphics/pokemon/chimecho/normal.gbapal.lz");
-const u32 gMonBackPic_Chimecho[] = INCBIN_U32("graphics/pokemon/chimecho/back.4bpp.lz");
-const u32 gMonShinyPalette_Chimecho[] = INCBIN_U32("graphics/pokemon/chimecho/shiny.gbapal.lz");
-const u8 gMonIcon_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/icon.4bpp");
-const u8 gMonFootprint_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/footprint.1bpp");
+const u32 gMonStillFrontPic_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/front.4bpp.lz");
+const u32 gMonPalette_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/normal.gbapal.lz");
+const u32 gMonBackPic_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/back.4bpp.lz");
+const u32 gMonShinyPalette_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/shiny.gbapal.lz");
+const u8 gMonIcon_Eosmon_champion[] = INCBIN_U8("graphics/pokemon/eosmon_champion/icon.4bpp");
+const u8 gMonFootprint_Eosmon_champion[] = INCBIN_U8("graphics/pokemon/eosmon_champion/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");

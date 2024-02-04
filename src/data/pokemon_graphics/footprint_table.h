@@ -411,6 +411,6 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_GATOMON] = gMonFootprint_Latios,
     [SPECIES_GEREMON] = gMonFootprint_Jirachi,
     [SPECIES_GESOMON] = gMonFootprint_Deoxys,
-    [SPECIES_EOSMON_CHAMPION] = gMonFootprint_Chimecho,
+    [SPECIES_EOSMON_CHAMPION] = gMonFootprint_Eosmon_champion,
     [SPECIES_EGG] = gMonFootprint_Argomon_f,
 };

@@ -1935,8 +1935,8 @@ Cry_Deoxys::
 	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
 
 	.align 2
-Cry_Chimecho::
-	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
+Cry_Eosmon_champion::
+	.incbin "sound/direct_sound_samples/cries/eosmon_champion.bin"
 
 	.align 2
 DirectSoundWaveData_register_noise::
