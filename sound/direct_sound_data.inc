@@ -1891,8 +1891,8 @@ Cry_Tsukaimon::
 	.incbin "sound/direct_sound_samples/cries/tsukaimon.bin"
 
 	.align 2
-Cry_Tropius::
-	.incbin "sound/direct_sound_samples/cries/tropius.bin"
+Cry_Elephanmon::
+	.incbin "sound/direct_sound_samples/cries/elephanmon.bin"
 
 	.align 2
 Cry_Chamblemon::

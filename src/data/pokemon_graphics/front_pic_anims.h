@@ -4029,7 +4029,7 @@ static const union AnimCmd sAnim_Burgermon_champion_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Tropius_1[] =
+static const union AnimCmd sAnim_Elephanmon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5175,7 +5175,7 @@ SINGLE_ANIMATION(Axemon);
 SINGLE_ANIMATION(Baboonmon);
 SINGLE_ANIMATION(Buraimon);
 SINGLE_ANIMATION(Burgermon_champion);
-SINGLE_ANIMATION(Tropius);
+SINGLE_ANIMATION(Elephanmon);
 SINGLE_ANIMATION(Baohuckmon);
 SINGLE_ANIMATION(Baromon);
 SINGLE_ANIMATION(Trailmon_battle_armament);
@@ -5623,7 +5623,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BABOONMON]     = sAnims_Baboonmon,
     [SPECIES_BURAIMON]      = sAnims_Buraimon,
     [SPECIES_BURGERMON_CHAMPION]      = sAnims_Burgermon_champion,
-    [SPECIES_ELEPHANMON]     = sAnims_Tropius,
+    [SPECIES_ELEPHANMON]     = sAnims_Elephanmon,
     [SPECIES_BAOHUCKMON]     = sAnims_Baohuckmon,
     [SPECIES_BAROMON]     = sAnims_Baromon,
     [SPECIES_TRAILMON_BATTLE_ARMAMENT]     = sAnims_Trailmon_battle_armament,

@@ -2403,12 +2403,12 @@ const u32 gMonShinyPalette_Burgermon_champion[] = INCBIN_U32("graphics/pokemon/b
 const u8 gMonIcon_Burgermon_champion[] = INCBIN_U8("graphics/pokemon/burgermon_champion/icon.4bpp");
 const u8 gMonFootprint_Burgermon_champion[] = INCBIN_U8("graphics/pokemon/burgermon_champion/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/front.4bpp.lz");
-const u32 gMonPalette_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/normal.gbapal.lz");
-const u32 gMonBackPic_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/back.4bpp.lz");
-const u32 gMonShinyPalette_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/shiny.gbapal.lz");
-const u8 gMonIcon_Tropius[] = INCBIN_U8("graphics/pokemon/tropius/icon.4bpp");
-const u8 gMonFootprint_Tropius[] = INCBIN_U8("graphics/pokemon/tropius/footprint.1bpp");
+const u32 gMonStillFrontPic_Elephanmon[] = INCBIN_U32("graphics/pokemon/elephanmon/front.4bpp.lz");
+const u32 gMonPalette_Elephanmon[] = INCBIN_U32("graphics/pokemon/elephanmon/normal.gbapal.lz");
+const u32 gMonBackPic_Elephanmon[] = INCBIN_U32("graphics/pokemon/elephanmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Elephanmon[] = INCBIN_U32("graphics/pokemon/elephanmon/shiny.gbapal.lz");
+const u8 gMonIcon_Elephanmon[] = INCBIN_U8("graphics/pokemon/elephanmon/icon.4bpp");
+const u8 gMonFootprint_Elephanmon[] = INCBIN_U8("graphics/pokemon/elephanmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/front.4bpp.lz");
 const u32 gMonPalette_Baohuckmon[] = INCBIN_U32("graphics/pokemon/baohuckmon/normal.gbapal.lz");
