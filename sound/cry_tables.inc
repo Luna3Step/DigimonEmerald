@@ -316,7 +316,7 @@ gCryTable::
 	cry Cry_Blgaogamon
 	cry Cry_Buraimon
 	cry Cry_Burgermon_champion
-	cry Cry_Numel
+	cry Cry_Chrysalmon
 	cry Cry_Camerupt
 	cry Cry_Barboach
 	cry Cry_Whiscash
@@ -707,7 +707,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Blgaogamon
 	cry_reverse Cry_Buraimon
 	cry_reverse Cry_Burgermon_champion
-	cry_reverse Cry_Numel
+	cry_reverse Cry_Chrysalmon
 	cry_reverse Cry_Camerupt
 	cry_reverse Cry_Barboach
 	cry_reverse Cry_Whiscash

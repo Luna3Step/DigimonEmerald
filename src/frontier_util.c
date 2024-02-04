@@ -2018,7 +2018,7 @@ static void CheckPartyIneligibility(void)
     s32 monIdLooper;
 
     // count is re-used, define for clarity
-    #define numEligibleMons count
+    #define chrysalmonigibleMons count
 
     switch (battleMode)
     {
@@ -2041,7 +2041,7 @@ static void CheckPartyIneligibility(void)
     do
     {
         monId = monIdLooper;
-        numEligibleMons = 0;
+        chrysalmonigibleMons = 0;
         do
         {
             u16 species = GetMonData(&gPlayerParty[monId], MON_DATA_SPECIES2);
@@ -2051,11 +2051,11 @@ static void CheckPartyIneligibility(void)
             if (VarGet(VAR_FRONTIER_FACILITY) == FRONTIER_FACILITY_PYRAMID)
             {
                 if (heldItem == ITEM_NONE)
-                    AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &numEligibleMons);
+                    AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &chrysalmonigibleMons);
             }
             else
             {
-                AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &numEligibleMons);
+                AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &chrysalmonigibleMons);
             }
             monId++;
             if (monId >= PARTY_SIZE)
@@ -2063,9 +2063,9 @@ static void CheckPartyIneligibility(void)
         } while (monId != monIdLooper);
 
         monIdLooper++;
-    } while (monIdLooper < PARTY_SIZE && numEligibleMons < toChoose);
+    } while (monIdLooper < PARTY_SIZE && chrysalmonigibleMons < toChoose);
 
-    if (numEligibleMons < toChoose)
+    if (chrysalmonigibleMons < toChoose)
     {
         s32 i;
         s32 caughtBannedMons = 0;
@@ -2100,7 +2100,7 @@ static void CheckPartyIneligibility(void)
         gSpecialVar_0x8004 = FALSE;
         gSaveBlock2Ptr->frontier.lvlMode = gSpecialVar_Result;
     }
-    #undef numEligibleMons
+    #undef chrysalmonigibleMons
 }
 
 static void ValidateVisitingTrainer(void)
