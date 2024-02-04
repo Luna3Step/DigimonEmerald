@@ -1511,8 +1511,8 @@ Cry_Angemon::
 	.incbin "sound/direct_sound_samples/cries/angemon.bin"
 
 	.align 2
-Cry_Banette::
-	.incbin "sound/direct_sound_samples/cries/banette.bin"
+Cry_Dorulumon::
+	.incbin "sound/direct_sound_samples/cries/dorulumon.bin"
 
 	.align 2
 Cry_Dorugamon::

@@ -281,7 +281,7 @@ gCryTable::
 	cry Cry_Terriermon_x
 	cry Cry_Ankylomon
 	cry Cry_Angemon
-	cry Cry_Banette
+	cry Cry_Dorulumon
 	cry Cry_Dorugamon
 	cry Cry_Zubamon
 	cry Cry_Aegiomon
@@ -672,7 +672,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Terriermon_x
 	cry_reverse Cry_Ankylomon
 	cry_reverse Cry_Angemon
-	cry_reverse Cry_Banette
+	cry_reverse Cry_Dorulumon
 	cry_reverse Cry_Dorugamon
 	cry_reverse Cry_Zubamon
 	cry_reverse Cry_Aegiomon

@@ -4124,7 +4124,7 @@ static const union AnimCmd sAnim_Dorugamon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Banette_1[] =
+static const union AnimCmd sAnim_Dorulumon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5184,7 +5184,7 @@ SINGLE_ANIMATION(Huntail);
 SINGLE_ANIMATION(Gorebyss);
 SINGLE_ANIMATION(Absol);
 SINGLE_ANIMATION(Dorugamon);
-SINGLE_ANIMATION(Banette);
+SINGLE_ANIMATION(Dorulumon);
 SINGLE_ANIMATION(Darktyrmon_x);
 SINGLE_ANIMATION(Darktyrmon);
 SINGLE_ANIMATION(Relicanth);
@@ -5632,7 +5632,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_FLAWIZAMON]    = sAnims_Gorebyss,
     [SPECIES_EXERMON]       = sAnims_Absol,
     [SPECIES_DORUGAMON]     = sAnims_Dorugamon,
-    [SPECIES_DORULUMON]     = sAnims_Banette,
+    [SPECIES_DORULUMON]     = sAnims_Dorulumon,
     [SPECIES_DARKTYRMON_X]     = sAnims_Darktyrmon_x,
     [SPECIES_DARKTYRMON]    = sAnims_Darktyrmon,
     [SPECIES_FLARIZAMON]   = sAnims_Relicanth,
