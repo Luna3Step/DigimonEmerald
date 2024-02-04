@@ -1727,8 +1727,8 @@ Cry_Dokugumon::
 	.incbin "sound/direct_sound_samples/cries/dokugumon.bin"
 
 	.align 2
-Cry_Absol::
-	.incbin "sound/direct_sound_samples/cries/absol.bin"
+Cry_Exermon::
+	.incbin "sound/direct_sound_samples/cries/exermon.bin"
 
 	.align 2
 Cry_Sawkuwamon::

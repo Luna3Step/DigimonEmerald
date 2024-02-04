@@ -2452,12 +2452,12 @@ const u32 gMonShinyPalette_Gorebyss[] = INCBIN_U32("graphics/pokemon/gorebyss/sh
 const u8 gMonIcon_Gorebyss[] = INCBIN_U8("graphics/pokemon/gorebyss/icon.4bpp");
 const u8 gMonFootprint_Gorebyss[] = INCBIN_U8("graphics/pokemon/gorebyss/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Absol[] = INCBIN_U32("graphics/pokemon/absol/front.4bpp.lz");
-const u32 gMonPalette_Absol[] = INCBIN_U32("graphics/pokemon/absol/normal.gbapal.lz");
-const u32 gMonBackPic_Absol[] = INCBIN_U32("graphics/pokemon/absol/back.4bpp.lz");
-const u32 gMonShinyPalette_Absol[] = INCBIN_U32("graphics/pokemon/absol/shiny.gbapal.lz");
-const u8 gMonIcon_Absol[] = INCBIN_U8("graphics/pokemon/absol/icon.4bpp");
-const u8 gMonFootprint_Absol[] = INCBIN_U8("graphics/pokemon/absol/footprint.1bpp");
+const u32 gMonStillFrontPic_Exermon[] = INCBIN_U32("graphics/pokemon/exermon/front.4bpp.lz");
+const u32 gMonPalette_Exermon[] = INCBIN_U32("graphics/pokemon/exermon/normal.gbapal.lz");
+const u32 gMonBackPic_Exermon[] = INCBIN_U32("graphics/pokemon/exermon/back.4bpp.lz");
+const u32 gMonShinyPalette_Exermon[] = INCBIN_U32("graphics/pokemon/exermon/shiny.gbapal.lz");
+const u8 gMonIcon_Exermon[] = INCBIN_U8("graphics/pokemon/exermon/icon.4bpp");
+const u8 gMonFootprint_Exermon[] = INCBIN_U8("graphics/pokemon/exermon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Dorugamon[] = INCBIN_U32("graphics/pokemon/dorugamon/front.4bpp.lz");
 const u32 gMonPalette_Dorugamon[] = INCBIN_U32("graphics/pokemon/dorugamon/normal.gbapal.lz");

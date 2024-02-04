@@ -335,7 +335,7 @@ gCryTable::
 	cry Cry_Deltamon
 	cry Cry_Doggymon
 	cry Cry_Dokugumon
-	cry Cry_Absol
+	cry Cry_Exermon
 	cry Cry_Sawkuwamon
 	cry Cry_Blimpmon
 	cry Cry_Spheal
@@ -726,7 +726,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Deltamon
 	cry_reverse Cry_Doggymon
 	cry_reverse Cry_Dokugumon
-	cry_reverse Cry_Absol
+	cry_reverse Cry_Exermon
 	cry_reverse Cry_Sawkuwamon
 	cry_reverse Cry_Blimpmon
 	cry_reverse Cry_Spheal

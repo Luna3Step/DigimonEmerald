@@ -4102,7 +4102,7 @@ static const union AnimCmd sAnim_Gorebyss_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Absol_1[] =
+static const union AnimCmd sAnim_Exermon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5182,7 +5182,7 @@ SINGLE_ANIMATION(Trailmon_battle_armament);
 SINGLE_ANIMATION(Clamperl);
 SINGLE_ANIMATION(Huntail);
 SINGLE_ANIMATION(Gorebyss);
-SINGLE_ANIMATION(Absol);
+SINGLE_ANIMATION(Exermon);
 SINGLE_ANIMATION(Dorugamon);
 SINGLE_ANIMATION(Dorulumon);
 SINGLE_ANIMATION(Darktyrmon_x);
@@ -5630,7 +5630,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_FIRAMON]    = sAnims_Clamperl,
     [SPECIES_FLADRAMON]     = sAnims_Huntail,
     [SPECIES_FLAWIZAMON]    = sAnims_Gorebyss,
-    [SPECIES_EXERMON]       = sAnims_Absol,
+    [SPECIES_EXERMON]       = sAnims_Exermon,
     [SPECIES_DORUGAMON]     = sAnims_Dorugamon,
     [SPECIES_DORULUMON]     = sAnims_Dorulumon,
     [SPECIES_DARKTYRMON_X]     = sAnims_Darktyrmon_x,
