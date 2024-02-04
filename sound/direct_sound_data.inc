@@ -1839,8 +1839,8 @@ Cry_Blgargomon::
 	.incbin "sound/direct_sound_samples/cries/blgargomon.bin"
 
 	.align 2
-Cry_Mawile::
-	.incbin "sound/direct_sound_samples/cries/mawile.bin"
+Cry_Blgarurmon::
+	.incbin "sound/direct_sound_samples/cries/blgarurmon.bin"
 
 	.align 2
 Cry_Aron::

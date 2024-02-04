@@ -3863,7 +3863,7 @@ static const union AnimCmd sAnim_Minun_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Mawile_1[] =
+static const union AnimCmd sAnim_Blgarurmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5161,7 +5161,7 @@ SINGLE_ANIMATION(Spoink);
 SINGLE_ANIMATION(Grumpig);
 SINGLE_ANIMATION(Plusle);
 SINGLE_ANIMATION(Minun);
-SINGLE_ANIMATION(Mawile);
+SINGLE_ANIMATION(Blgarurmon);
 SINGLE_ANIMATION(Meditite);
 SINGLE_ANIMATION(Medicham);
 DOUBLE_ANIMATION(Swablu);
@@ -5609,7 +5609,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_COELAMON]     = sAnims_Grumpig,
     [SPECIES_BOOGIEMON]      = sAnims_Plusle,
     [SPECIES_BUCCHIEMON_RED]       = sAnims_Minun,
-    [SPECIES_BLGARURMON]      = sAnims_Mawile,
+    [SPECIES_BLGARURMON]      = sAnims_Blgarurmon,
     [SPECIES_SAWKUWAMON]    = sAnims_Meditite,
     [SPECIES_BLIMPMON]    = sAnims_Medicham,
     [SPECIES_DARLIZAMON]      = sAnims_Swablu,
