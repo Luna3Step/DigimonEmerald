@@ -1695,8 +1695,8 @@ Cry_Damemon_fusion::
 	.incbin "sound/direct_sound_samples/cries/damemon_fusion.bin"
 
 	.align 2
-Cry_Cacnea::
-	.incbin "sound/direct_sound_samples/cries/cacnea.bin"
+Cry_Darcmon::
+	.incbin "sound/direct_sound_samples/cries/darcmon.bin"
 
 	.align 2
 Cry_Cacturne::

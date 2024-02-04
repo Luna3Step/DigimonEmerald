@@ -2228,12 +2228,12 @@ const u32 gMonShinyPalette_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/shin
 const u8 gMonIcon_Walrein[] = INCBIN_U8("graphics/pokemon/walrein/icon.4bpp");
 const u8 gMonFootprint_Walrein[] = INCBIN_U8("graphics/pokemon/walrein/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Cacnea[] = INCBIN_U32("graphics/pokemon/cacnea/front.4bpp.lz");
-const u32 gMonPalette_Cacnea[] = INCBIN_U32("graphics/pokemon/cacnea/normal.gbapal.lz");
-const u32 gMonBackPic_Cacnea[] = INCBIN_U32("graphics/pokemon/cacnea/back.4bpp.lz");
-const u32 gMonShinyPalette_Cacnea[] = INCBIN_U32("graphics/pokemon/cacnea/shiny.gbapal.lz");
-const u8 gMonIcon_Cacnea[] = INCBIN_U8("graphics/pokemon/cacnea/icon.4bpp");
-const u8 gMonFootprint_Cacnea[] = INCBIN_U8("graphics/pokemon/cacnea/footprint.1bpp");
+const u32 gMonStillFrontPic_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/front.4bpp.lz");
+const u32 gMonPalette_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/normal.gbapal.lz");
+const u32 gMonBackPic_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/shiny.gbapal.lz");
+const u8 gMonIcon_Darcmon[] = INCBIN_U8("graphics/pokemon/darcmon/icon.4bpp");
+const u8 gMonFootprint_Darcmon[] = INCBIN_U8("graphics/pokemon/darcmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/front.4bpp.lz");
 const u32 gMonPalette_Cacturne[] = INCBIN_U32("graphics/pokemon/cacturne/normal.gbapal.lz");

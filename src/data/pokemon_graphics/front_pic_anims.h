@@ -3721,7 +3721,7 @@ static const union AnimCmd sAnim_Walrein_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Cacnea_1[] =
+static const union AnimCmd sAnim_Darcmon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5150,7 +5150,7 @@ SINGLE_ANIMATION(Citramon);
 SINGLE_ANIMATION(Spheal);
 SINGLE_ANIMATION(Sealeo);
 SINGLE_ANIMATION(Walrein);
-SINGLE_ANIMATION(Cacnea);
+SINGLE_ANIMATION(Darcmon);
 SINGLE_ANIMATION(Cacturne);
 SINGLE_ANIMATION(Snorunt);
 SINGLE_ANIMATION(Glalie);
@@ -5598,7 +5598,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_EYESMON_SCATTERMODE]      = sAnims_Spheal,
     [SPECIES_FANGMON]      = sAnims_Sealeo,
     [SPECIES_FILMON]     = sAnims_Walrein,
-    [SPECIES_DARCMON]      = sAnims_Cacnea,
+    [SPECIES_DARCMON]      = sAnims_Darcmon,
     [SPECIES_TRAILMON_DARK]    = sAnims_Cacturne,
     [SPECIES_EXVEEMON_VIRUS]     = sAnims_Snorunt,
     [SPECIES_EYESMON]      = sAnims_Glalie,
