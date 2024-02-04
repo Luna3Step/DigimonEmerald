@@ -2067,12 +2067,12 @@ const u32 gMonShinyPalette_Biothunmon[] = INCBIN_U32("graphics/pokemon/biothunmo
 const u8 gMonIcon_Biothunmon[] = INCBIN_U8("graphics/pokemon/biothunmon/icon.4bpp");
 const u8 gMonFootprint_Biothunmon[] = INCBIN_U8("graphics/pokemon/biothunmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/front.4bpp.lz");
-const u32 gMonPalette_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/normal.gbapal.lz");
-const u32 gMonBackPic_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/back.4bpp.lz");
-const u32 gMonShinyPalette_Torkoal[] = INCBIN_U32("graphics/pokemon/torkoal/shiny.gbapal.lz");
-const u8 gMonIcon_Torkoal[] = INCBIN_U8("graphics/pokemon/torkoal/icon.4bpp");
-const u8 gMonFootprint_Torkoal[] = INCBIN_U8("graphics/pokemon/torkoal/footprint.1bpp");
+const u32 gMonStillFrontPic_Clockmon[] = INCBIN_U32("graphics/pokemon/clockmon/front.4bpp.lz");
+const u32 gMonPalette_Clockmon[] = INCBIN_U32("graphics/pokemon/clockmon/normal.gbapal.lz");
+const u32 gMonBackPic_Clockmon[] = INCBIN_U32("graphics/pokemon/clockmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Clockmon[] = INCBIN_U32("graphics/pokemon/clockmon/shiny.gbapal.lz");
+const u8 gMonIcon_Clockmon[] = INCBIN_U8("graphics/pokemon/clockmon/icon.4bpp");
+const u8 gMonFootprint_Clockmon[] = INCBIN_U8("graphics/pokemon/clockmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/front.4bpp.lz");
 const u32 gMonPalette_Blgargomon[] = INCBIN_U32("graphics/pokemon/blgargomon/normal.gbapal.lz");

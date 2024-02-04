@@ -1399,8 +1399,8 @@ Cry_Bullmon::
 	.incbin "sound/direct_sound_samples/cries/bullmon.bin"
 
 	.align 2
-Cry_Torkoal::
-	.incbin "sound/direct_sound_samples/cries/torkoal.bin"
+Cry_Clockmon::
+	.incbin "sound/direct_sound_samples/cries/clockmon.bin"
 
 	.align 2
 Cry_Boarmon::

@@ -253,7 +253,7 @@ gCryTable::
 	cry Cry_Strabimon
 	cry Cry_Kecleon
 	cry Cry_Bullmon
-	cry Cry_Torkoal
+	cry Cry_Clockmon
 	cry Cry_Boarmon
 	cry Cry_Bomnanimon
 	cry Cry_Duskull
@@ -644,7 +644,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Strabimon
 	cry_reverse Cry_Kecleon
 	cry_reverse Cry_Bullmon
-	cry_reverse Cry_Torkoal
+	cry_reverse Cry_Clockmon
 	cry_reverse Cry_Boarmon
 	cry_reverse Cry_Bomnanimon
 	cry_reverse Cry_Duskull
