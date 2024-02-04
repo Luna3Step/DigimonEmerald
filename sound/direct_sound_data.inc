@@ -1655,8 +1655,8 @@ Cry_Chrysalmon::
 	.incbin "sound/direct_sound_samples/cries/chrysalmon.bin"
 
 	.align 2
-Cry_Camerupt::
-	.incbin "sound/direct_sound_samples/cries/camerupt.bin"
+Cry_Citramon::
+	.incbin "sound/direct_sound_samples/cries/citramon.bin"
 
 	.align 2
 Cry_Barboach::
