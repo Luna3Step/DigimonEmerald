@@ -321,7 +321,7 @@ gCryTable::
 	cry Cry_Depthmon
 	cry Cry_Deputymon
 	cry Cry_Devidramon
-	cry Cry_Crawdaunt
+	cry Cry_Devimon
 	cry Cry_Clockmon_fusion
 	cry Cry_Coelamon
 	cry Cry_Coredramon_green
@@ -712,7 +712,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Depthmon
 	cry_reverse Cry_Deputymon
 	cry_reverse Cry_Devidramon
-	cry_reverse Cry_Crawdaunt
+	cry_reverse Cry_Devimon
 	cry_reverse Cry_Clockmon_fusion
 	cry_reverse Cry_Coelamon
 	cry_reverse Cry_Coredramon_green
