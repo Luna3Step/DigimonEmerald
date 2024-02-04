@@ -665,7 +665,7 @@ static const union AnimCmd sUnusedAnim_Grumpig_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Plusle_1[] =
+static const union AnimCmd sUnusedAnim_Boogiemon_1[] =
 {
     ANIMCMD_FRAME(0, 63),
     ANIMCMD_END,
@@ -1292,7 +1292,7 @@ static const union AnimCmd *const sUnusedAnims_Solrock[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Biostegmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Biostegmon_1, sUnusedAnim_Biostegmon_2, sUnusedAnim_Biostegmon_3, sUnusedAnim_Biostegmon_4};
 static const union AnimCmd *const sUnusedAnims_Spoink[] = {sAnim_GeneralFrame0, sUnusedAnim_Spoink_1, sUnusedAnim_Spoink_2};
 static const union AnimCmd *const sUnusedAnims_Grumpig[] = {sAnim_GeneralFrame0, sUnusedAnim_Grumpig_1};
-static const union AnimCmd *const sUnusedAnims_Plusle[] = {sAnim_GeneralFrame0, sUnusedAnim_Plusle_1};
+static const union AnimCmd *const sUnusedAnims_Boogiemon[] = {sAnim_GeneralFrame0, sUnusedAnim_Boogiemon_1};
 static const union AnimCmd *const sUnusedAnims_Minun[] = {sAnim_GeneralFrame0, sUnusedAnim_Minun_1};
 static const union AnimCmd *const sUnusedAnims_Blgarurmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgarurmon_1};
 static const union AnimCmd *const sUnusedAnims_Sawkuwamon[] = {sAnim_GeneralFrame0, sUnusedAnim_Sawkuwamon_1};
@@ -1734,7 +1734,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_BIOSTEGMON] = sUnusedAnims_Biostegmon,
     [SPECIES_CLOCKMON_FUSION] = sUnusedAnims_Spoink,
     [SPECIES_COELAMON] = sUnusedAnims_Grumpig,
-    [SPECIES_BOOGIEMON] = sUnusedAnims_Plusle,
+    [SPECIES_BOOGIEMON] = sUnusedAnims_Boogiemon,
     [SPECIES_BUCCHIEMON_RED] = sUnusedAnims_Minun,
     [SPECIES_BLGARURMON] = sUnusedAnims_Blgarurmon,
     [SPECIES_SAWKUWAMON] = sUnusedAnims_Sawkuwamon,

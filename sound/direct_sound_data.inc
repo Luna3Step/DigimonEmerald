@@ -1619,8 +1619,8 @@ Cry_Glalie::
 	.incbin "sound/direct_sound_samples/cries/glalie.bin"
 
 	.align 2
-Cry_Plusle::
-	.incbin "sound/direct_sound_samples/cries/plusle.bin"
+Cry_Boogiemon::
+	.incbin "sound/direct_sound_samples/cries/boogiemon.bin"
 
 	.align 2
 Cry_Minun::

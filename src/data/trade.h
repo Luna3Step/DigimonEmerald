@@ -1019,7 +1019,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_APEMON
     },
-    [INGAME_TRADE_PLUSLE] =
+    [INGAME_TRADE_BOOGIEMON] =
     {
         .nickname = _("PLUSES"),
         .species = SPECIES_BOOGIEMON,

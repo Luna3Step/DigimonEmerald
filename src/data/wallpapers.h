@@ -386,7 +386,7 @@ static const u32 *const sWaldaWallpaperIcons[] =
     sWallpaperIcon_StarInCircle,
     sWallpaperIcon_Spinda,
     sWallpaperIcon_Latis,
-    gWallpaperIcon_Plusle,
+    gWallpaperIcon_Boogiemon,
     sWallpaperIcon_Minun,
     sWallpaperIcon_Hagurumon,
     sWallpaperIcon_Magma,
