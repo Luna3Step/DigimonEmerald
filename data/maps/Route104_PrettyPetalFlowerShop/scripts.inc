@@ -63,19 +63,19 @@ Route104_PrettyPetalFlowerShop_Pokemart_Plants:
 	release
 	end
 
-Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
+Route104_PrettyPetalFlowerShop_EventScript_ChamblemonPailGirl::
 	lock
 	faceplayer
-	goto_if_unset FLAG_RECEIVED_WAILMER_PAIL, Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail
-	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
+	goto_if_unset FLAG_RECEIVED_CHAMBLEMON_PAIL, Route104_PrettyPetalFlowerShop_EventScript_GiveChamblemonPail
+	msgbox Route104_PrettyPetalFlowerShop_Text_ChamblemonPailExplanation, MSGBOX_DEFAULT
 	release
 	end
 
-Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail::
+Route104_PrettyPetalFlowerShop_EventScript_GiveChamblemonPail::
 	msgbox Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis, MSGBOX_DEFAULT
-	giveitem ITEM_WAILMER_PAIL
-	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_WAILMER_PAIL
+	giveitem ITEM_CHAMBLEMON_PAIL
+	msgbox Route104_PrettyPetalFlowerShop_Text_ChamblemonPailExplanation, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_CHAMBLEMON_PAIL
 	release
 	end
 

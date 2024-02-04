@@ -107,7 +107,7 @@
 #define FLAG_WATTSON_REMATCH_AVAILABLE       0x5B
 #define FLAG_COLLECTED_ALL_SILVER_SYMBOLS    0x5C
 #define FLAG_GOOD_LUCK_SAFARI_ZONE           0x5D // Set after talking to NPC blocking Safari Zone entrance/exit once.
-#define FLAG_RECEIVED_WAILMER_PAIL           0x5E
+#define FLAG_RECEIVED_CHAMBLEMON_PAIL           0x5E
 #define FLAG_RECEIVED_POKEBLOCK_CASE         0x5F
 #define FLAG_RECEIVED_SECRET_POWER           0x60
 #define FLAG_MET_TEAM_AQUA_HARBOR            0x61
@@ -235,7 +235,7 @@
 #define FLAG_ENABLE_SCOTT_MATCH_CALL         0xD7
 #define FLAG_ENABLE_MOM_MATCH_CALL           0xD8
 #define FLAG_MET_DIVING_TREASURE_HUNTER      0xD9
-#define FLAG_MET_WAILMER_TRAINER             0xDA
+#define FLAG_MET_CHAMBLEMON_TRAINER             0xDA
 #define FLAG_EVIL_LEADER_PLEASE_STOP         0xDB
 
 #define FLAG_NEVER_SET_0x0DC                 0xDC // This flag is read, but never written to
@@ -266,7 +266,7 @@
 #define FLAG_USED_ROOM_4_KEY                 0xF2
 #define FLAG_USED_ROOM_6_KEY                 0xF3
 #define FLAG_MET_PROF_COZMO                  0xF4
-#define FLAG_RECEIVED_WAILMER_DOLL           0xF5
+#define FLAG_RECEIVED_CHAMBLEMON_DOLL           0xF5
 #define FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104 0xF6
 #define FLAG_DEFEATED_SS_TIDAL_TRAINERS      0xF7
 #define FLAG_RECEIVED_SPELON_BERRY           0xF8

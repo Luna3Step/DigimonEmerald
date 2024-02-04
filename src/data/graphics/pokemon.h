@@ -2011,12 +2011,12 @@ const u32 gMonShinyPalette_Argomon_champion[] = INCBIN_U32("graphics/pokemon/arg
 const u8 gMonIcon_Argomon_champion[] = INCBIN_U8("graphics/pokemon/argomon_champion/icon.4bpp");
 const u8 gMonFootprint_Argomon_champion[] = INCBIN_U8("graphics/pokemon/argomon_champion/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/front.4bpp.lz");
-const u32 gMonPalette_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/normal.gbapal.lz");
-const u32 gMonBackPic_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/back.4bpp.lz");
-const u32 gMonShinyPalette_Wailmer[] = INCBIN_U32("graphics/pokemon/wailmer/shiny.gbapal.lz");
-const u8 gMonIcon_Wailmer[] = INCBIN_U8("graphics/pokemon/wailmer/icon.4bpp");
-const u8 gMonFootprint_Wailmer[] = INCBIN_U8("graphics/pokemon/wailmer/footprint.1bpp");
+const u32 gMonStillFrontPic_Chamblemon[] = INCBIN_U32("graphics/pokemon/chamblemon/front.4bpp.lz");
+const u32 gMonPalette_Chamblemon[] = INCBIN_U32("graphics/pokemon/chamblemon/normal.gbapal.lz");
+const u32 gMonBackPic_Chamblemon[] = INCBIN_U32("graphics/pokemon/chamblemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Chamblemon[] = INCBIN_U32("graphics/pokemon/chamblemon/shiny.gbapal.lz");
+const u8 gMonIcon_Chamblemon[] = INCBIN_U8("graphics/pokemon/chamblemon/icon.4bpp");
+const u8 gMonFootprint_Chamblemon[] = INCBIN_U8("graphics/pokemon/chamblemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wailord[] = INCBIN_U32("graphics/pokemon/wailord/front.4bpp.lz");
 const u32 gMonPalette_Wailord[] = INCBIN_U32("graphics/pokemon/wailord/normal.gbapal.lz");

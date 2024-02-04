@@ -1895,8 +1895,8 @@ Cry_Tropius::
 	.incbin "sound/direct_sound_samples/cries/tropius.bin"
 
 	.align 2
-Cry_Wailmer::
-	.incbin "sound/direct_sound_samples/cries/wailmer.bin"
+Cry_Chamblemon::
+	.incbin "sound/direct_sound_samples/cries/chamblemon.bin"
 
 	.align 2
 Cry_Toyagumon::

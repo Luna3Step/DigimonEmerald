@@ -112,8 +112,8 @@ const u32 gDecorIconPalette_ChibomonDoll[] = INCBIN_U32("graphics/decorations/ch
 const u32 gDecorIcon_curimonDoll[] = INCBIN_U32("graphics/decorations/curimon_doll.4bpp.lz");
 const u32 gDecorIconPalette_curimonDoll[] = INCBIN_U32("graphics/decorations/curimon_doll.gbapal.lz");
 
-const u32 gDecorIcon_WailmerDoll[] = INCBIN_U32("graphics/decorations/wailmer_doll.4bpp.lz");
-const u32 gDecorIconPalette_WailmerDoll[] = INCBIN_U32("graphics/decorations/wailmer_doll.gbapal.lz");
+const u32 gDecorIcon_ChamblemonDoll[] = INCBIN_U32("graphics/decorations/chamblemon_doll.4bpp.lz");
+const u32 gDecorIconPalette_ChamblemonDoll[] = INCBIN_U32("graphics/decorations/chamblemon_doll.gbapal.lz");
 
 const u32 gDecorIcon_RegiceDoll[] = INCBIN_U32("graphics/decorations/regice_doll.4bpp.lz");
 const u32 gDecorIconPalette_RegiceDoll[] = INCBIN_U32("graphics/decorations/regice_doll.gbapal.lz");

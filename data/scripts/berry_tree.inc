@@ -145,7 +145,7 @@ BerryTree_EventScript_ItemUsePlantBerry::
 	end
 
 BerryTree_EventScript_WantToWater::
-	checkitem ITEM_WAILMER_PAIL
+	checkitem ITEM_CHAMBLEMON_PAIL
 	goto_if_eq VAR_RESULT, FALSE, BerryTree_EventScript_DontWater
 	special ObjectEventInteractionGetBerryName
 	msgbox BerryTree_Text_WantToWater, MSGBOX_YESNO
@@ -156,7 +156,7 @@ BerryTree_EventScript_DontWater::
 	releaseall
 	end
 
-BerryTree_EventScript_ItemUseWailmerPail::
+BerryTree_EventScript_ItemUseChamblemonPail::
 	special ObjectEventInteractionGetBerryTreeData
 	lockall
 BerryTree_EventScript_WaterBerry::
@@ -239,7 +239,7 @@ BerryTree_Text_BerryLeftUnpicked:
 
 BerryTree_Text_WantToWater:
 	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "CHAMBLEMON PAIL?$"
 
 BerryTree_Text_WateredTheBerry:
 	.string "{PLAYER} watered the {STR_VAR_1}.$"

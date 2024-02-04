@@ -40,7 +40,7 @@ LilycoveCity_DepartmentStoreRooftop_PokemartDecor_ClearOutSale:
 	.2byte DECOR_TV
 	.2byte DECOR_ROUND_TV
 	.2byte DECOR_CUTE_TV
-	.2byte DECOR_WAILMER_DOLL
+	.2byte DECOR_CHAMBLEMON_DOLL
 	.2byte DECOR_BAKOMON_DOLL
 	.2byte 0
 	release

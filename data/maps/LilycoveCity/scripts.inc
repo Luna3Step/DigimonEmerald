@@ -15,22 +15,22 @@ LilycoveCity_OnTransition:
 	end
 
 LilycoveCity_OnLoad:
-	call_if_unset FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_SetWailmerMetatiles
+	call_if_unset FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_SetChamblemonMetatiles
 	end
 
-LilycoveCity_EventScript_SetWailmerMetatiles::
-	setmetatile 76, 12, METATILE_Lilycove_Wailmer0, TRUE
-	setmetatile 77, 12, METATILE_Lilycove_Wailmer1, TRUE
-	setmetatile 76, 13, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 77, 13, METATILE_Lilycove_Wailmer3, TRUE
-	setmetatile 76, 14, METATILE_Lilycove_Wailmer0_Alt, TRUE
-	setmetatile 77, 14, METATILE_Lilycove_Wailmer1_Alt, TRUE
-	setmetatile 76, 15, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 77, 15, METATILE_Lilycove_Wailmer3, TRUE
-	setmetatile 77, 16, METATILE_Lilycove_Wailmer0_Alt, TRUE
-	setmetatile 78, 16, METATILE_Lilycove_Wailmer1_Alt, TRUE
-	setmetatile 77, 17, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 78, 17, METATILE_Lilycove_Wailmer3, TRUE
+LilycoveCity_EventScript_SetChamblemonMetatiles::
+	setmetatile 76, 12, METATILE_Lilycove_Chamblemon0, TRUE
+	setmetatile 77, 12, METATILE_Lilycove_Chamblemon1, TRUE
+	setmetatile 76, 13, METATILE_Lilycove_Chamblemon2, TRUE
+	setmetatile 77, 13, METATILE_Lilycove_Chamblemon3, TRUE
+	setmetatile 76, 14, METATILE_Lilycove_Chamblemon0_Alt, TRUE
+	setmetatile 77, 14, METATILE_Lilycove_Chamblemon1_Alt, TRUE
+	setmetatile 76, 15, METATILE_Lilycove_Chamblemon2, TRUE
+	setmetatile 77, 15, METATILE_Lilycove_Chamblemon3, TRUE
+	setmetatile 77, 16, METATILE_Lilycove_Chamblemon0_Alt, TRUE
+	setmetatile 78, 16, METATILE_Lilycove_Chamblemon1_Alt, TRUE
+	setmetatile 77, 17, METATILE_Lilycove_Chamblemon2, TRUE
+	setmetatile 78, 17, METATILE_Lilycove_Chamblemon3, TRUE
 	return
 
 LilycoveCity_EventScript_BerryGentleman::
@@ -78,7 +78,7 @@ LilycoveCity_EventScript_Sailor2::
 	lock
 	faceplayer
 	goto_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_Sailor2AquaGone
-	msgbox LilycoveCity_Text_TeamAquaBeenTrainingWailmer, MSGBOX_DEFAULT
+	msgbox LilycoveCity_Text_TeamAquaBeenTrainingChamblemon, MSGBOX_DEFAULT
 	release
 	end
 
@@ -195,21 +195,21 @@ LilycoveCity_EventScript_MoveDeletersHouseSign::
 	msgbox LilycoveCity_Text_MoveDeletersHouseSign, MSGBOX_SIGN
 	end
 
-LilycoveCity_EventScript_WailmerTrainerGrunt::
+LilycoveCity_EventScript_ChamblemonTrainerGrunt::
 	lockall
-	goto_if_set FLAG_MET_WAILMER_TRAINER, LilycoveCity_EventScript_MetWailmerTrainer
-	msgbox LilycoveCity_Text_WailmerLeapOutOfWater, MSGBOX_DEFAULT
+	goto_if_set FLAG_MET_CHAMBLEMON_TRAINER, LilycoveCity_EventScript_MetChamblemonTrainer
+	msgbox LilycoveCity_Text_ChamblemonLeapOutOfWater, MSGBOX_DEFAULT
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox LilycoveCity_Text_GetLostMessingUpTraining, MSGBOX_DEFAULT
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
-	setflag FLAG_MET_WAILMER_TRAINER
+	setflag FLAG_MET_CHAMBLEMON_TRAINER
 	releaseall
 	end
 
-LilycoveCity_EventScript_MetWailmerTrainer::
-	msgbox LilycoveCity_Text_WailmerLeapOutOfWater, MSGBOX_DEFAULT
+LilycoveCity_EventScript_MetChamblemonTrainer::
+	msgbox LilycoveCity_Text_ChamblemonLeapOutOfWater, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -571,8 +571,8 @@ LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "TEAM AQUA's, it will be a happier\l"
 	.string "place for POKéMON, too.$"
 
-LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! WAILMER!\n"
+LilycoveCity_Text_ChamblemonLeapOutOfWater:
+	.string "There! CHAMBLEMON!\n"
 	.string "Leap out of the water now!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
@@ -605,9 +605,9 @@ LilycoveCity_Text_ImFromKanto:
 	.string "Could there be rare POKéMON that live\n"
 	.string "only in this area?$"
 
-LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
+LilycoveCity_Text_TeamAquaBeenTrainingChamblemon:
 	.string "TEAM AQUA's been training their\n"
-	.string "WAILMER in the cove.\p"
+	.string "CHAMBLEMON in the cove.\p"
 	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
@@ -615,7 +615,7 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
 	.string "Someone punted TEAM AQUA out of\n"
 	.string "the way for us!\p"
-	.string "That got the WAILMER out of the cove,\n"
+	.string "That got the CHAMBLEMON out of the cove,\n"
 	.string "so we can get our boats out again.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:

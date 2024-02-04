@@ -3255,16 +3255,16 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_WAILMER_PAIL] =
+    [ITEM_CHAMBLEMON_PAIL] =
     {
-        .name = _("WAILMER PAIL"),
-        .itemId = ITEM_WAILMER_PAIL,
+        .name = _("CHAMBLE PAIL"),
+        .itemId = ITEM_CHAMBLEMON_PAIL,
         .price = 0,
-        .description = sWailmerPailDesc,
+        .description = sChamblemonPailDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_WailmerPail,
+        .fieldUseFunc = ItemUseOutOfBattle_ChamblemonPail,
     },
 
     [ITEM_DEVON_GOODS] =

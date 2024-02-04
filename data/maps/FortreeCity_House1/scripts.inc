@@ -84,7 +84,7 @@ FortreeCity_House1_Text_YouWontTradeMe:
 	.string "Even after I bared my heart to you?$"
 
 FortreeCity_House1_Text_GoingToMakeBucchiemon_greenStrong:
-	.string "I'm going to make BUCCHIEMON_GREEN super\n"
+	.string "I'm going to make BUCCHIEMON super\n"
 	.string "strong from this moment on!\p"
 	.string "I hope you do the same with BOOGIEMON!$"
 

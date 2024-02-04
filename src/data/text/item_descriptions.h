@@ -462,7 +462,7 @@ static const u8 sWoodMailDesc[] = _(
     "a POKéMON.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
+    "A CHAMBLEMON-print\n"
     "MAIL to be held by\n"
     "a POKéMON.");
 
@@ -1012,7 +1012,7 @@ static const u8 sContestPassDesc[] = _(
     "for entering\n"
     "POKéMON CONTESTS.");
 
-static const u8 sWailmerPailDesc[] = _(
+static const u8 sChamblemonPailDesc[] = _(
     "A tool used for\n"
     "watering BERRIES\n"
     "and plants.");

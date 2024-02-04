@@ -823,7 +823,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x8C,
-                        .nickname = _("BUCCHIEMON_RED"),
+                        .nickname = _("BUCCHIEMON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [2] =
@@ -2447,7 +2447,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 1,
                                             .personality = 0xF,
-                                            .nickname = _("BUCCHIEMON_GREEN"),
+                                            .nickname = _("BUCCHIEMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                 },
@@ -2498,7 +2498,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x8C,
-                                            .nickname = _("BUCCHIEMON_RED"),
+                                            .nickname = _("BUCCHIEMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [2] =
