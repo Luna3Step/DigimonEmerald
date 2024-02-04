@@ -1463,8 +1463,8 @@ Cry_Unused268::
 	.incbin "sound/direct_sound_samples/cries/unused_268.bin"
 
 	.align 2
-Cry_Spinda::
-	.incbin "sound/direct_sound_samples/cries/spinda.bin"
+Cry_Coredramon_blue::
+	.incbin "sound/direct_sound_samples/cries/coredramon_blue.bin"
 
 	.align 2
 Cry_Syakomon_x::

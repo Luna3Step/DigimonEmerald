@@ -2045,7 +2045,7 @@ gTVWhatsNo1InHoennTodayText04::
 	.string "Toward the end, even {STR_VAR_1}\n"
 	.string "seemed to get dizzy.\p"
 	.string "The TRAINER appeared to totter\n"
-	.string "around like a SPINDA!$"
+	.string "around like a COREDRAMON!$"
 
 gTVWhatsNo1InHoennTodayText05::
 	.string "In just one day, {STR_VAR_1} planted\n"

@@ -2409,7 +2409,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x88FE980F,
-                                            .nickname = _("SPINDA"),
+                                            .nickname = _("COREDRAMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =
@@ -2479,7 +2479,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0xE2880098,
-                                            .nickname = _("SPINDA"),
+                                            .nickname = _("COREDRAMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =

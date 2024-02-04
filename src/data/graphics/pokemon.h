@@ -1976,12 +1976,12 @@ const u32 gMonShinyPalette_Atamademon[] = INCBIN_U32("graphics/pokemon/atamademo
 const u8 gMonIcon_Atamademon[] = INCBIN_U8("graphics/pokemon/atamademon/icon.4bpp");
 const u8 gMonFootprint_Atamademon[] = INCBIN_U8("graphics/pokemon/atamademon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/front.4bpp.lz");
-const u32 gMonPalette_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/normal.gbapal.lz");
-const u32 gMonBackPic_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/back.4bpp.lz");
-const u32 gMonShinyPalette_Spinda[] = INCBIN_U32("graphics/pokemon/spinda/shiny.gbapal.lz");
-const u8 gMonIcon_Spinda[] = INCBIN_U8("graphics/pokemon/spinda/icon.4bpp");
-const u8 gMonFootprint_Spinda[] = INCBIN_U8("graphics/pokemon/spinda/footprint.1bpp");
+const u32 gMonStillFrontPic_Coredramon_blue[] = INCBIN_U32("graphics/pokemon/coredramon_blue/front.4bpp.lz");
+const u32 gMonPalette_Coredramon_blue[] = INCBIN_U32("graphics/pokemon/coredramon_blue/normal.gbapal.lz");
+const u32 gMonBackPic_Coredramon_blue[] = INCBIN_U32("graphics/pokemon/coredramon_blue/back.4bpp.lz");
+const u32 gMonShinyPalette_Coredramon_blue[] = INCBIN_U32("graphics/pokemon/coredramon_blue/shiny.gbapal.lz");
+const u8 gMonIcon_Coredramon_blue[] = INCBIN_U8("graphics/pokemon/coredramon_blue/icon.4bpp");
+const u8 gMonFootprint_Coredramon_blue[] = INCBIN_U8("graphics/pokemon/coredramon_blue/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/front.4bpp.lz");
 const u32 gMonPalette_Angemon[] = INCBIN_U32("graphics/pokemon/angemon/normal.gbapal.lz");

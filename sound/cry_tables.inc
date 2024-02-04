@@ -269,7 +269,7 @@ gCryTable::
 	cry Cry_Allomon_x
 	cry Cry_Swellow
 	cry Cry_Unused268
-	cry Cry_Spinda
+	cry Cry_Coredramon_blue
 	cry Cry_Syakomon_x
 	cry Cry_Tapirmon
 	cry Cry_Tentomon
@@ -660,7 +660,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Allomon_x
 	cry_reverse Cry_Swellow
 	cry_reverse Cry_Unused268
-	cry_reverse Cry_Spinda
+	cry_reverse Cry_Coredramon_blue
 	cry_reverse Cry_Syakomon_x
 	cry_reverse Cry_Tapirmon
 	cry_reverse Cry_Tentomon

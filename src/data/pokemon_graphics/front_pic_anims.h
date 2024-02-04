@@ -5112,7 +5112,7 @@ SINGLE_ANIMATION(Allomon_x);
 SINGLE_ANIMATION(Swellow);
 SINGLE_ANIMATION(Aresdramon);
 SINGLE_ANIMATION(Atamademon);
-static const union AnimCmd *const sAnims_Spinda[] ={
+static const union AnimCmd *const sAnims_Coredramon_blue[] ={
     sAnim_GeneralFrame0,
 };
 SINGLE_ANIMATION(Angemon);
@@ -5562,7 +5562,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ANGELAMON]     = sAnims_Swellow,
     [SPECIES_ARESDRAMON]   = sAnims_Aresdramon,
     [SPECIES_ATAMADEMON]     = sAnims_Atamademon,
-    [SPECIES_COREDRAMON_BLUE]      = sAnims_Spinda,
+    [SPECIES_COREDRAMON_BLUE]      = sAnims_Coredramon_blue,
     [SPECIES_ANGEMON]     = sAnims_Angemon,
     [SPECIES_ANKYLOMON]    = sAnims_Ankylomon,
     [SPECIES_ARCHELOMON]     = sAnims_Archelomon,
