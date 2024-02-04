@@ -1911,8 +1911,8 @@ Cry_Baromon::
 	.incbin "sound/direct_sound_samples/cries/baromon.bin"
 
 	.align 2
-Cry_Wailord::
-	.incbin "sound/direct_sound_samples/cries/wailord.bin"
+Cry_Chamelemon::
+	.incbin "sound/direct_sound_samples/cries/chamelemon.bin"
 
 	.align 2
 Cry_Baohuckmon::

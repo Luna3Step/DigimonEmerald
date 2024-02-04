@@ -381,7 +381,7 @@ gCryTable::
 	cry Cry_Toyagumon
 	cry Cry_Trailmon_battle_armament
 	cry Cry_Baromon
-	cry Cry_Wailord
+	cry Cry_Chamelemon
 	cry Cry_Baohuckmon
 	cry Cry_Snorunt
 	cry Cry_Latios
@@ -772,7 +772,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Toyagumon
 	cry_reverse Cry_Trailmon_battle_armament
 	cry_reverse Cry_Baromon
-	cry_reverse Cry_Wailord
+	cry_reverse Cry_Chamelemon
 	cry_reverse Cry_Baohuckmon
 	cry_reverse Cry_Snorunt
 	cry_reverse Cry_Latios
