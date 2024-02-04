@@ -4292,7 +4292,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Aquilamon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ebidramon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4307,7 +4307,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Dusclops,
+    .images = sPicTable_Ebidramon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

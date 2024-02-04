@@ -84,7 +84,7 @@
 	special CallBattlePikeFunction
 	.endm
 
-	@ Flashes the screen 3 times for when the Dusclops/Aquilamon attacks the player
+	@ Flashes the screen 3 times for when the Ebidramon/Aquilamon attacks the player
 	.macro pike_flashscreen
 	setvar VAR_0x8004, BATTLE_PIKE_FUNC_STATUS_SCREEN_FLASH
 	special CallBattlePikeFunction

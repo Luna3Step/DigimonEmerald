@@ -361,7 +361,7 @@ gCryTable::
 	cry Cry_Bulkmon
 	cry Cry_Tinkermon
 	cry Cry_Tinpet
-	cry Cry_Dusclops
+	cry Cry_Ebidramon
 	cry Cry_Blgargomon
 	cry Cry_Blgarurmon
 	cry Cry_Blkgatomon
@@ -752,7 +752,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Bulkmon
 	cry_reverse Cry_Tinkermon
 	cry_reverse Cry_Tinpet
-	cry_reverse Cry_Dusclops
+	cry_reverse Cry_Ebidramon
 	cry_reverse Cry_Blgargomon
 	cry_reverse Cry_Blgarurmon
 	cry_reverse Cry_Blkgatomon

@@ -557,7 +557,7 @@ static void SetupRoomObjectEvents(void)
     u16 objGfx2;
 
     VarSet(VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_LINK_RECEPTIONIST);
-    VarSet(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_DUSCLOPS);
+    VarSet(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_EBIDRAMON);
     setObjGfx1 = TRUE;
     setObjGfx2 = FALSE;
     objGfx1 = 0;
@@ -577,8 +577,8 @@ static void SetupRoomObjectEvents(void)
         break;
     case PIKE_ROOM_STATUS:
         objGfx1 = OBJ_EVENT_GFX_GENTLEMAN;
-        if (sStatusMon == PIKE_STATUSMON_DUSCLOPS)
-            objGfx2 = OBJ_EVENT_GFX_DUSCLOPS;
+        if (sStatusMon == PIKE_STATUSMON_EBIDRAMON)
+            objGfx2 = OBJ_EVENT_GFX_EBIDRAMON;
         else
             objGfx2 = OBJ_EVENT_GFX_AQUILAMON;
         setObjGfx2 = TRUE;
@@ -944,11 +944,11 @@ static bool8 TryInflictRandomStatus(void)
     switch (sStatusFlags)
     {
     case STATUS1_FREEZE:
-        sStatusMon = PIKE_STATUSMON_DUSCLOPS;
+        sStatusMon = PIKE_STATUSMON_EBIDRAMON;
         break;
     case STATUS1_BURN:
         if (Random() % 2 != 0)
-            sStatusMon = PIKE_STATUSMON_DUSCLOPS;
+            sStatusMon = PIKE_STATUSMON_EBIDRAMON;
         else
             sStatusMon = PIKE_STATUSMON_AQUILAMON;
         break;

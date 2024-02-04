@@ -227,7 +227,7 @@
 #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223
 #define OBJ_EVENT_GFX_TRICK_HOUSE_STATUE         224
 #define OBJ_EVENT_GFX_AQUILAMON                     225
-#define OBJ_EVENT_GFX_DUSCLOPS                   226
+#define OBJ_EVENT_GFX_EBIDRAMON                   226
 #define OBJ_EVENT_GFX_UNION_ROOM_NURSE           227
 #define OBJ_EVENT_GFX_JUNKMON                  228
 #define OBJ_EVENT_GFX_FALCOMON                        229

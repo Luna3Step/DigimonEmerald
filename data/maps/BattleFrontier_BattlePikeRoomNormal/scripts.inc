@@ -285,7 +285,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_EnterStatusRoom::
 	pike_getstatusmon
 	copyvar VAR_0x8004, VAR_RESULT
 	call_if_eq VAR_0x8004, PIKE_STATUSMON_AQUILAMON, BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonAttack
-	call_if_eq VAR_0x8004, PIKE_STATUSMON_DUSCLOPS, BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack
+	call_if_eq VAR_0x8004, PIKE_STATUSMON_EBIDRAMON, BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonAttack
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled, MSGBOX_DEFAULT
 	closemessage
 	releaseall
@@ -322,15 +322,15 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonAttack::
 	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForAquilamon, MSGBOX_DEFAULT
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop, MSGBOX_DEFAULT
+BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonAttack::
+	msgbox BattleFrontier_BattlePikeRoomNormal_Text_EbidramonStop, MSGBOX_DEFAULT
 	closemessage
 	waitse
 	playmoncry SPECIES_EBIDRAMON, CRY_MODE_NORMAL
 	waitmoncry
 	pike_getstatus
-	call_if_eq VAR_RESULT, PIKE_STATUS_FREEZE, BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedIceBeam
-	call_if_eq VAR_RESULT, PIKE_STATUS_BURN, BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedWillOWisp
+	call_if_eq VAR_RESULT, PIKE_STATUS_FREEZE, BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonUsedIceBeam
+	call_if_eq VAR_RESULT, PIKE_STATUS_BURN, BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonUsedWillOWisp
 	pike_flashscreen
 	waitstate
 	applymovement LOCALID_OBJ_0, BattleFrontier_BattlePikeRoomNormal_Movement_NPCApproachMon
@@ -348,7 +348,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsAttack::
 	applymovement LOCALID_OBJ_1, BattleFrontier_BattlePikeRoomNormal_Movement_MonMoveAside
 	applymovement LOCALID_OBJ_0, BattleFrontier_BattlePikeRoomNormal_Movement_StatusNPCApproachPlayer
 	waitmovement 0
-	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForEbidramon, MSGBOX_DEFAULT
 	return
 
 BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedToxic::
@@ -371,13 +371,13 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_AquilamonUsedHypnosis::
 	waitmessage
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedIceBeam::
-	message BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam
+BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonUsedIceBeam::
+	message BattleFrontier_BattlePikeRoomNormal_Text_EbidramonUsedIceBeam
 	waitmessage
 	return
 
-BattleFrontier_BattlePikeRoomNormal_EventScript_DusclopsUsedWillOWisp::
-	message BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp
+BattleFrontier_BattlePikeRoomNormal_EventScript_EbidramonUsedWillOWisp::
+	message BattleFrontier_BattlePikeRoomNormal_Text_EbidramonUsedWillOWisp
 	waitmessage
 	return
 
@@ -580,7 +580,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_WillRestoreTwoMons::
 	closemessage
 	return
 
-@ Dusclops or Aquilamon
+@ Ebidramon or Aquilamon
 BattleFrontier_BattlePikeRoomNormal_EventScript_StatusMon::
 	lock
 	faceplayer
@@ -703,9 +703,9 @@ BattleFrontier_BattlePikeRoomNormal_Text_AquilamonStop:
 	.string "Now, now!\n"
 	.string "AQUILAMON, stop that!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
+BattleFrontier_BattlePikeRoomNormal_Text_EbidramonStop:
 	.string "Now, now!\n"
-	.string "DUSCLOPS, stop that!$"
+	.string "EBIDRAMON, stop that!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedToxic:
 	.string "AQUILAMON used TOXIC!$"
@@ -719,11 +719,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedThunderWave:
 BattleFrontier_BattlePikeRoomNormal_Text_AquilamonUsedWillOWisp:
 	.string "AQUILAMON used WILL-O-WISP!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-	.string "DUSCLOPS used WILL-O-WISP!$"
+BattleFrontier_BattlePikeRoomNormal_Text_EbidramonUsedWillOWisp:
+	.string "EBIDRAMON used WILL-O-WISP!$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "DUSCLOPS used ICE BEAM!$"
+BattleFrontier_BattlePikeRoomNormal_Text_EbidramonUsedIceBeam:
+	.string "EBIDRAMON used ICE BEAM!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 	.string "Look here!\n"
@@ -733,9 +733,9 @@ BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForAquilamon:
 	.string "I must apologize to you…\p"
 	.string "My AQUILAMON has a TIMID nature…$"
 
-BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForEbidramon:
 	.string "I must apologize to you…\p"
-	.string "My DUSCLOPS has a TIMID nature…$"
+	.string "My EBIDRAMON has a TIMID nature…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 	.string "It attacks without warning if it is\n"

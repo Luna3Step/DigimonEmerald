@@ -1831,8 +1831,8 @@ Cry_Tinpet::
 	.incbin "sound/direct_sound_samples/cries/tinpet.bin"
 
 	.align 2
-Cry_Dusclops::
-	.incbin "sound/direct_sound_samples/cries/dusclops.bin"
+Cry_Ebidramon::
+	.incbin "sound/direct_sound_samples/cries/ebidramon.bin"
 
 	.align 2
 Cry_Blgargomon::
