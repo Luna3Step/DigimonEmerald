@@ -2137,12 +2137,12 @@ const u32 gMonShinyPalette_Chouflymon[] = INCBIN_U32("graphics/pokemon/chouflymo
 const u8 gMonIcon_Chouflymon[] = INCBIN_U8("graphics/pokemon/chouflymon/icon.4bpp");
 const u8 gMonFootprint_Chouflymon[] = INCBIN_U8("graphics/pokemon/chouflymon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/front.4bpp.lz");
-const u32 gMonPalette_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/normal.gbapal.lz");
-const u32 gMonBackPic_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/back.4bpp.lz");
-const u32 gMonShinyPalette_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/shiny.gbapal.lz");
-const u8 gMonIcon_Sharpedo[] = INCBIN_U8("graphics/pokemon/sharpedo/icon.4bpp");
-const u8 gMonFootprint_Sharpedo[] = INCBIN_U8("graphics/pokemon/sharpedo/footprint.1bpp");
+const u32 gMonStillFrontPic_Centarumon[] = INCBIN_U32("graphics/pokemon/centarumon/front.4bpp.lz");
+const u32 gMonPalette_Centarumon[] = INCBIN_U32("graphics/pokemon/centarumon/normal.gbapal.lz");
+const u32 gMonBackPic_Centarumon[] = INCBIN_U32("graphics/pokemon/centarumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Centarumon[] = INCBIN_U32("graphics/pokemon/centarumon/shiny.gbapal.lz");
+const u8 gMonIcon_Centarumon[] = INCBIN_U8("graphics/pokemon/centarumon/icon.4bpp");
+const u8 gMonFootprint_Centarumon[] = INCBIN_U8("graphics/pokemon/centarumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/front.4bpp.lz");
 const u32 gMonPalette_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/normal.gbapal.lz");

@@ -1427,8 +1427,8 @@ Cry_Seviper::
 	.incbin "sound/direct_sound_samples/cries/seviper.bin"
 
 	.align 2
-Cry_Sharpedo::
-	.incbin "sound/direct_sound_samples/cries/sharpedo.bin"
+Cry_Centarumon::
+	.incbin "sound/direct_sound_samples/cries/centarumon.bin"
 
 	.align 2
 Cry_Zangoose::
