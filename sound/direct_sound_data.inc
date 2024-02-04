@@ -1687,8 +1687,8 @@ Cry_Coredramon_green::
 	.incbin "sound/direct_sound_samples/cries/coredramon_green.bin"
 
 	.align 2
-Cry_Vibrava::
-	.incbin "sound/direct_sound_samples/cries/vibrava.bin"
+Cry_Cyclonemon::
+	.incbin "sound/direct_sound_samples/cries/cyclonemon.bin"
 
 	.align 2
 Cry_Flygon::

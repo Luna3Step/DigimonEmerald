@@ -505,7 +505,7 @@ static const union AnimCmd sUnusedAnim_Coredramon_green_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Vibrava_1[] =
+static const union AnimCmd sUnusedAnim_Cyclonemon_1[] =
 {
     ANIMCMD_FRAME(0, 63),
     ANIMCMD_END,
@@ -1272,7 +1272,7 @@ static const union AnimCmd *const sUnusedAnims_Milotic[] = {sAnim_GeneralFrame0,
 static const union AnimCmd *const sUnusedAnims_Chouflymon[] = {sAnim_GeneralFrame0, sUnusedAnim_Chouflymon_1, sUnusedAnim_Chouflymon_2};
 static const union AnimCmd *const sUnusedAnims_Centarumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Centarumon_1, sUnusedAnim_Centarumon_2};
 static const union AnimCmd *const sUnusedAnims_Coredramon_green[] = {sAnim_GeneralFrame0, sUnusedAnim_Coredramon_green_1};
-static const union AnimCmd *const sUnusedAnims_Vibrava[] = {sAnim_GeneralFrame0, sUnusedAnim_Vibrava_1};
+static const union AnimCmd *const sUnusedAnims_Cyclonemon[] = {sAnim_GeneralFrame0, sUnusedAnim_Cyclonemon_1};
 static const union AnimCmd *const sUnusedAnims_Flygon[] = {sAnim_GeneralFrame0, sUnusedAnim_Flygon_1};
 static const union AnimCmd *const sUnusedAnims_Betgamamon[] = {sAnim_GeneralFrame0, sUnusedAnim_Betgamamon_1};
 static const union AnimCmd *const sUnusedAnims_Bioquetmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Bioquetmon_1};
@@ -1714,7 +1714,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_CHOUFLYMON] = sUnusedAnims_Chouflymon,
     [SPECIES_CENTARUMON] = sUnusedAnims_Centarumon,
     [SPECIES_COREDRAMON_GREEN] = sUnusedAnims_Coredramon_green,
-    [SPECIES_CYCLONEMON] = sUnusedAnims_Vibrava,
+    [SPECIES_CYCLONEMON] = sUnusedAnims_Cyclonemon,
     [SPECIES_DAMEMON_FUSION] = sUnusedAnims_Flygon,
     [SPECIES_BETGAMAMON] = sUnusedAnims_Betgamamon,
     [SPECIES_BIOQUETMON] = sUnusedAnims_Bioquetmon,
