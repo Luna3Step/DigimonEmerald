@@ -346,7 +346,7 @@ gCryTable::
 	cry Cry_Gorebyss
 	cry Cry_Digmon
 	cry Cry_Dinohyumon
-	cry Cry_Anorith
+	cry Cry_Dobermon
 	cry Cry_Armaldo
 	cry Cry_Beldum
 	cry Cry_Metang
@@ -737,7 +737,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Gorebyss
 	cry_reverse Cry_Digmon
 	cry_reverse Cry_Dinohyumon
-	cry_reverse Cry_Anorith
+	cry_reverse Cry_Dobermon
 	cry_reverse Cry_Armaldo
 	cry_reverse Cry_Beldum
 	cry_reverse Cry_Metang

@@ -2550,12 +2550,12 @@ const u32 gMonShinyPalette_Dinohyumon[] = INCBIN_U32("graphics/pokemon/dinohyumo
 const u8 gMonIcon_Dinohyumon[] = INCBIN_U8("graphics/pokemon/dinohyumon/icon.4bpp");
 const u8 gMonFootprint_Dinohyumon[] = INCBIN_U8("graphics/pokemon/dinohyumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Anorith[] = INCBIN_U32("graphics/pokemon/anorith/front.4bpp.lz");
-const u32 gMonPalette_Anorith[] = INCBIN_U32("graphics/pokemon/anorith/normal.gbapal.lz");
-const u32 gMonBackPic_Anorith[] = INCBIN_U32("graphics/pokemon/anorith/back.4bpp.lz");
-const u32 gMonShinyPalette_Anorith[] = INCBIN_U32("graphics/pokemon/anorith/shiny.gbapal.lz");
-const u8 gMonIcon_Anorith[] = INCBIN_U8("graphics/pokemon/anorith/icon.4bpp");
-const u8 gMonFootprint_Anorith[] = INCBIN_U8("graphics/pokemon/anorith/footprint.1bpp");
+const u32 gMonStillFrontPic_Dobermon[] = INCBIN_U32("graphics/pokemon/dobermon/front.4bpp.lz");
+const u32 gMonPalette_Dobermon[] = INCBIN_U32("graphics/pokemon/dobermon/normal.gbapal.lz");
+const u32 gMonBackPic_Dobermon[] = INCBIN_U32("graphics/pokemon/dobermon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dobermon[] = INCBIN_U32("graphics/pokemon/dobermon/shiny.gbapal.lz");
+const u8 gMonIcon_Dobermon[] = INCBIN_U8("graphics/pokemon/dobermon/icon.4bpp");
+const u8 gMonFootprint_Dobermon[] = INCBIN_U8("graphics/pokemon/dobermon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Armaldo[] = INCBIN_U32("graphics/pokemon/armaldo/front.4bpp.lz");
 const u32 gMonPalette_Armaldo[] = INCBIN_U32("graphics/pokemon/armaldo/normal.gbapal.lz");

@@ -1771,8 +1771,8 @@ Cry_Dinohyumon::
 	.incbin "sound/direct_sound_samples/cries/dinohyumon.bin"
 
 	.align 2
-Cry_Anorith::
-	.incbin "sound/direct_sound_samples/cries/anorith.bin"
+Cry_Dobermon::
+	.incbin "sound/direct_sound_samples/cries/dobermon.bin"
 
 	.align 2
 Cry_Armaldo::
