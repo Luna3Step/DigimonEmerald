@@ -1723,8 +1723,8 @@ Cry_Doggymon::
 	.incbin "sound/direct_sound_samples/cries/doggymon.bin"
 
 	.align 2
-Cry_Milotic::
-	.incbin "sound/direct_sound_samples/cries/milotic.bin"
+Cry_Dokugumon::
+	.incbin "sound/direct_sound_samples/cries/dokugumon.bin"
 
 	.align 2
 Cry_Absol::
