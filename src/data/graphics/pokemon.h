@@ -2396,12 +2396,12 @@ const u32 gMonShinyPalette_Buraimon[] = INCBIN_U32("graphics/pokemon/buraimon/sh
 const u8 gMonIcon_Buraimon[] = INCBIN_U8("graphics/pokemon/buraimon/icon.4bpp");
 const u8 gMonFootprint_Buraimon[] = INCBIN_U8("graphics/pokemon/buraimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Swalot[] = INCBIN_U32("graphics/pokemon/swalot/front.4bpp.lz");
-const u32 gMonPalette_Swalot[] = INCBIN_U32("graphics/pokemon/swalot/normal.gbapal.lz");
-const u32 gMonBackPic_Swalot[] = INCBIN_U32("graphics/pokemon/swalot/back.4bpp.lz");
-const u32 gMonShinyPalette_Swalot[] = INCBIN_U32("graphics/pokemon/swalot/shiny.gbapal.lz");
-const u8 gMonIcon_Swalot[] = INCBIN_U8("graphics/pokemon/swalot/icon.4bpp");
-const u8 gMonFootprint_Swalot[] = INCBIN_U8("graphics/pokemon/swalot/footprint.1bpp");
+const u32 gMonStillFrontPic_Burgermon_champion[] = INCBIN_U32("graphics/pokemon/burgermon_champion/front.4bpp.lz");
+const u32 gMonPalette_Burgermon_champion[] = INCBIN_U32("graphics/pokemon/burgermon_champion/normal.gbapal.lz");
+const u32 gMonBackPic_Burgermon_champion[] = INCBIN_U32("graphics/pokemon/burgermon_champion/back.4bpp.lz");
+const u32 gMonShinyPalette_Burgermon_champion[] = INCBIN_U32("graphics/pokemon/burgermon_champion/shiny.gbapal.lz");
+const u8 gMonIcon_Burgermon_champion[] = INCBIN_U8("graphics/pokemon/burgermon_champion/icon.4bpp");
+const u8 gMonFootprint_Burgermon_champion[] = INCBIN_U8("graphics/pokemon/burgermon_champion/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/front.4bpp.lz");
 const u32 gMonPalette_Tropius[] = INCBIN_U32("graphics/pokemon/tropius/normal.gbapal.lz");

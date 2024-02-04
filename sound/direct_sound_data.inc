@@ -1647,8 +1647,8 @@ Cry_Buraimon::
 	.incbin "sound/direct_sound_samples/cries/buraimon.bin"
 
 	.align 2
-Cry_Swalot::
-	.incbin "sound/direct_sound_samples/cries/swalot.bin"
+Cry_Burgermon_champion::
+	.incbin "sound/direct_sound_samples/cries/burgermon_champion.bin"
 
 	.align 2
 Cry_Numel::
