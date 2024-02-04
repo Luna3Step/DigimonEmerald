@@ -2298,12 +2298,12 @@ const u32 gMonShinyPalette_Boogiemon[] = INCBIN_U32("graphics/pokemon/boogiemon/
 const u8 gMonIcon_Boogiemon[] = INCBIN_U8("graphics/pokemon/boogiemon/icon.4bpp");
 const u8 gMonFootprint_Boogiemon[] = INCBIN_U8("graphics/pokemon/boogiemon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Minun[] = INCBIN_U32("graphics/pokemon/minun/front.4bpp.lz");
-const u32 gMonPalette_Minun[] = INCBIN_U32("graphics/pokemon/minun/normal.gbapal.lz");
-const u32 gMonBackPic_Minun[] = INCBIN_U32("graphics/pokemon/minun/back.4bpp.lz");
-const u32 gMonShinyPalette_Minun[] = INCBIN_U32("graphics/pokemon/minun/shiny.gbapal.lz");
-const u8 gMonIcon_Minun[] = INCBIN_U8("graphics/pokemon/minun/icon.4bpp");
-const u8 gMonFootprint_Minun[] = INCBIN_U8("graphics/pokemon/minun/footprint.1bpp");
+const u32 gMonStillFrontPic_Bucchiemon_red[] = INCBIN_U32("graphics/pokemon/bucchiemon_red/front.4bpp.lz");
+const u32 gMonPalette_Bucchiemon_red[] = INCBIN_U32("graphics/pokemon/bucchiemon_red/normal.gbapal.lz");
+const u32 gMonBackPic_Bucchiemon_red[] = INCBIN_U32("graphics/pokemon/bucchiemon_red/back.4bpp.lz");
+const u32 gMonShinyPalette_Bucchiemon_red[] = INCBIN_U32("graphics/pokemon/bucchiemon_red/shiny.gbapal.lz");
+const u8 gMonIcon_Bucchiemon_red[] = INCBIN_U8("graphics/pokemon/bucchiemon_red/icon.4bpp");
+const u8 gMonFootprint_Bucchiemon_red[] = INCBIN_U8("graphics/pokemon/bucchiemon_red/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Blgarurmon[] = INCBIN_U32("graphics/pokemon/blgarurmon/front.4bpp.lz");
 const u32 gMonPalette_Blgarurmon[] = INCBIN_U32("graphics/pokemon/blgarurmon/normal.gbapal.lz");

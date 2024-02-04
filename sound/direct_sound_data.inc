@@ -1623,8 +1623,8 @@ Cry_Boogiemon::
 	.incbin "sound/direct_sound_samples/cries/boogiemon.bin"
 
 	.align 2
-Cry_Minun::
-	.incbin "sound/direct_sound_samples/cries/minun.bin"
+Cry_Bucchiemon_red::
+	.incbin "sound/direct_sound_samples/cries/bucchiemon_red.bin"
 
 	.align 2
 Cry_Archelomon::

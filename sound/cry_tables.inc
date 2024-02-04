@@ -309,7 +309,7 @@ gCryTable::
 	cry Cry_Biothunmon
 	cry Cry_Glalie
 	cry Cry_Boogiemon
-	cry Cry_Minun
+	cry Cry_Bucchiemon_red
 	cry Cry_Archelomon
 	cry Cry_Argomon_champion
 	cry Cry_Birdramon
@@ -700,7 +700,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Biothunmon
 	cry_reverse Cry_Glalie
 	cry_reverse Cry_Boogiemon
-	cry_reverse Cry_Minun
+	cry_reverse Cry_Bucchiemon_red
 	cry_reverse Cry_Archelomon
 	cry_reverse Cry_Argomon_champion
 	cry_reverse Cry_Birdramon

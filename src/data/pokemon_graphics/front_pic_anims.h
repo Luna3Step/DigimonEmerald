@@ -3853,7 +3853,7 @@ static const union AnimCmd sAnim_Boogiemon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Minun_1[] =
+static const union AnimCmd sAnim_Bucchiemon_red_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5160,7 +5160,7 @@ SINGLE_ANIMATION(Biostegmon);
 SINGLE_ANIMATION(Spoink);
 SINGLE_ANIMATION(Grumpig);
 SINGLE_ANIMATION(Boogiemon);
-SINGLE_ANIMATION(Minun);
+SINGLE_ANIMATION(Bucchiemon_red);
 SINGLE_ANIMATION(Blgarurmon);
 SINGLE_ANIMATION(Sawkuwamon);
 SINGLE_ANIMATION(Blimpmon);
@@ -5608,7 +5608,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CLOCKMON_FUSION]      = sAnims_Spoink,
     [SPECIES_COELAMON]     = sAnims_Grumpig,
     [SPECIES_BOOGIEMON]      = sAnims_Boogiemon,
-    [SPECIES_BUCCHIEMON_RED]       = sAnims_Minun,
+    [SPECIES_BUCCHIEMON_RED]       = sAnims_Bucchiemon_red,
     [SPECIES_BLGARURMON]      = sAnims_Blgarurmon,
     [SPECIES_SAWKUWAMON]    = sAnims_Sawkuwamon,
     [SPECIES_BLIMPMON]    = sAnims_Blimpmon,
