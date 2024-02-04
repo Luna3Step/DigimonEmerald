@@ -2046,12 +2046,12 @@ const u32 gMonShinyPalette_Kecleon[] = INCBIN_U32("graphics/pokemon/kecleon/shin
 const u8 gMonIcon_Kecleon[] = INCBIN_U8("graphics/pokemon/kecleon/icon.4bpp");
 const u8 gMonFootprint_Kecleon[] = INCBIN_U8("graphics/pokemon/kecleon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Baltoy[] = INCBIN_U32("graphics/pokemon/baltoy/front.4bpp.lz");
-const u32 gMonPalette_Baltoy[] = INCBIN_U32("graphics/pokemon/baltoy/normal.gbapal.lz");
-const u32 gMonBackPic_Baltoy[] = INCBIN_U32("graphics/pokemon/baltoy/back.4bpp.lz");
-const u32 gMonShinyPalette_Baltoy[] = INCBIN_U32("graphics/pokemon/baltoy/shiny.gbapal.lz");
-const u8 gMonIcon_Baltoy[] = INCBIN_U8("graphics/pokemon/baltoy/icon.4bpp");
-const u8 gMonFootprint_Baltoy[] = INCBIN_U8("graphics/pokemon/baltoy/footprint.1bpp");
+const u32 gMonStillFrontPic_Dexdorumon[] = INCBIN_U32("graphics/pokemon/dexdorumon/front.4bpp.lz");
+const u32 gMonPalette_Dexdorumon[] = INCBIN_U32("graphics/pokemon/dexdorumon/normal.gbapal.lz");
+const u32 gMonBackPic_Dexdorumon[] = INCBIN_U32("graphics/pokemon/dexdorumon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dexdorumon[] = INCBIN_U32("graphics/pokemon/dexdorumon/shiny.gbapal.lz");
+const u8 gMonIcon_Dexdorumon[] = INCBIN_U8("graphics/pokemon/dexdorumon/icon.4bpp");
+const u8 gMonFootprint_Dexdorumon[] = INCBIN_U8("graphics/pokemon/dexdorumon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Claydol[] = INCBIN_U32("graphics/pokemon/claydol/front.4bpp.lz");
 const u32 gMonPalette_Claydol[] = INCBIN_U32("graphics/pokemon/claydol/normal.gbapal.lz");

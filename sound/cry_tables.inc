@@ -329,7 +329,7 @@ gCryTable::
 	cry Cry_Damemon_fusion
 	cry Cry_Darcmon
 	cry Cry_Trailmon_dark
-	cry Cry_Baltoy
+	cry Cry_Dexdorumon
 	cry Cry_Claydol
 	cry Cry_Deckdramon
 	cry Cry_Deltamon
@@ -720,7 +720,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Damemon_fusion
 	cry_reverse Cry_Darcmon
 	cry_reverse Cry_Trailmon_dark
-	cry_reverse Cry_Baltoy
+	cry_reverse Cry_Dexdorumon
 	cry_reverse Cry_Claydol
 	cry_reverse Cry_Deckdramon
 	cry_reverse Cry_Deltamon

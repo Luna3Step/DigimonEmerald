@@ -1703,8 +1703,8 @@ Cry_Trailmon_dark::
 	.incbin "sound/direct_sound_samples/cries/trailmon_dark.bin"
 
 	.align 2
-Cry_Baltoy::
-	.incbin "sound/direct_sound_samples/cries/baltoy.bin"
+Cry_Dexdorumon::
+	.incbin "sound/direct_sound_samples/cries/dexdorumon.bin"
 
 	.align 2
 Cry_Claydol::
