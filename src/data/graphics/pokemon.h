@@ -2144,12 +2144,12 @@ const u32 gMonShinyPalette_Centarumon[] = INCBIN_U32("graphics/pokemon/centarumo
 const u8 gMonIcon_Centarumon[] = INCBIN_U8("graphics/pokemon/centarumon/icon.4bpp");
 const u8 gMonFootprint_Centarumon[] = INCBIN_U8("graphics/pokemon/centarumon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/front.4bpp.lz");
-const u32 gMonPalette_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/normal.gbapal.lz");
-const u32 gMonBackPic_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/back.4bpp.lz");
-const u32 gMonShinyPalette_Trapinch[] = INCBIN_U32("graphics/pokemon/trapinch/shiny.gbapal.lz");
-const u8 gMonIcon_Trapinch[] = INCBIN_U8("graphics/pokemon/trapinch/icon.4bpp");
-const u8 gMonFootprint_Trapinch[] = INCBIN_U8("graphics/pokemon/trapinch/footprint.1bpp");
+const u32 gMonStillFrontPic_Coredramon_green[] = INCBIN_U32("graphics/pokemon/coredramon_green/front.4bpp.lz");
+const u32 gMonPalette_Coredramon_green[] = INCBIN_U32("graphics/pokemon/coredramon_green/normal.gbapal.lz");
+const u32 gMonBackPic_Coredramon_green[] = INCBIN_U32("graphics/pokemon/coredramon_green/back.4bpp.lz");
+const u32 gMonShinyPalette_Coredramon_green[] = INCBIN_U32("graphics/pokemon/coredramon_green/shiny.gbapal.lz");
+const u8 gMonIcon_Coredramon_green[] = INCBIN_U8("graphics/pokemon/coredramon_green/icon.4bpp");
+const u8 gMonFootprint_Coredramon_green[] = INCBIN_U8("graphics/pokemon/coredramon_green/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Vibrava[] = INCBIN_U32("graphics/pokemon/vibrava/front.4bpp.lz");
 const u32 gMonPalette_Vibrava[] = INCBIN_U32("graphics/pokemon/vibrava/normal.gbapal.lz");

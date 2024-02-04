@@ -1683,8 +1683,8 @@ Cry_Coelamon::
 	.incbin "sound/direct_sound_samples/cries/coelamon.bin"
 
 	.align 2
-Cry_Trapinch::
-	.incbin "sound/direct_sound_samples/cries/trapinch.bin"
+Cry_Coredramon_green::
+	.incbin "sound/direct_sound_samples/cries/coredramon_green.bin"
 
 	.align 2
 Cry_Vibrava::

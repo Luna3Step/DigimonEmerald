@@ -324,7 +324,7 @@ gCryTable::
 	cry Cry_Crawdaunt
 	cry Cry_Clockmon_fusion
 	cry Cry_Coelamon
-	cry Cry_Trapinch
+	cry Cry_Coredramon_green
 	cry Cry_Vibrava
 	cry Cry_Flygon
 	cry Cry_Cacnea
@@ -715,7 +715,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Crawdaunt
 	cry_reverse Cry_Clockmon_fusion
 	cry_reverse Cry_Coelamon
-	cry_reverse Cry_Trapinch
+	cry_reverse Cry_Coredramon_green
 	cry_reverse Cry_Vibrava
 	cry_reverse Cry_Flygon
 	cry_reverse Cry_Cacnea
