@@ -1431,8 +1431,8 @@ Cry_Centarumon::
 	.incbin "sound/direct_sound_samples/cries/centarumon.bin"
 
 	.align 2
-Cry_Zangoose::
-	.incbin "sound/direct_sound_samples/cries/zangoose.bin"
+Cry_Darktyrmon::
+	.incbin "sound/direct_sound_samples/cries/darktyrmon.bin"
 
 	.align 2
 Cry_Biostegmon::

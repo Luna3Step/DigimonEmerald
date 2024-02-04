@@ -2480,12 +2480,12 @@ const u32 gMonShinyPalette_Seviper[] = INCBIN_U32("graphics/pokemon/seviper/shin
 const u8 gMonIcon_Seviper[] = INCBIN_U8("graphics/pokemon/seviper/icon.4bpp");
 const u8 gMonFootprint_Seviper[] = INCBIN_U8("graphics/pokemon/seviper/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Zangoose[] = INCBIN_U32("graphics/pokemon/zangoose/front.4bpp.lz");
-const u32 gMonPalette_Zangoose[] = INCBIN_U32("graphics/pokemon/zangoose/normal.gbapal.lz");
-const u32 gMonBackPic_Zangoose[] = INCBIN_U32("graphics/pokemon/zangoose/back.4bpp.lz");
-const u32 gMonShinyPalette_Zangoose[] = INCBIN_U32("graphics/pokemon/zangoose/shiny.gbapal.lz");
-const u8 gMonIcon_Zangoose[] = INCBIN_U8("graphics/pokemon/zangoose/icon.4bpp");
-const u8 gMonFootprint_Zangoose[] = INCBIN_U8("graphics/pokemon/zangoose/footprint.1bpp");
+const u32 gMonStillFrontPic_Darktyrmon[] = INCBIN_U32("graphics/pokemon/darktyrmon/front.4bpp.lz");
+const u32 gMonPalette_Darktyrmon[] = INCBIN_U32("graphics/pokemon/darktyrmon/normal.gbapal.lz");
+const u32 gMonBackPic_Darktyrmon[] = INCBIN_U32("graphics/pokemon/darktyrmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Darktyrmon[] = INCBIN_U32("graphics/pokemon/darktyrmon/shiny.gbapal.lz");
+const u8 gMonIcon_Darktyrmon[] = INCBIN_U8("graphics/pokemon/darktyrmon/icon.4bpp");
+const u8 gMonFootprint_Darktyrmon[] = INCBIN_U8("graphics/pokemon/darktyrmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/front.4bpp.lz");
 const u32 gMonPalette_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/normal.gbapal.lz");
