@@ -1170,11 +1170,11 @@
 	.byte 0xe5
 	.endm
 
-	.macro docastformchangeanimation
+	.macro dodolphmonchangeanimation
 	.byte 0xe6
 	.endm
 
-	.macro trycastformdatachange
+	.macro trydolphmondatachange
 	.byte 0xe7
 	.endm
 

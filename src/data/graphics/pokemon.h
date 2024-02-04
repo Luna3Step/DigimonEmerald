@@ -2515,12 +2515,12 @@ const u32 gMonShinyPalette_Blgrowlmon[] = INCBIN_U32("graphics/pokemon/blgrowlmo
 const u8 gMonIcon_Blgrowlmon[] = INCBIN_U8("graphics/pokemon/blgrowlmon/icon.4bpp");
 const u8 gMonFootprint_Blgrowlmon[] = INCBIN_U8("graphics/pokemon/blgrowlmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Castform[] = INCBIN_U32("graphics/pokemon/castform/front.4bpp.lz");
-const u32 gMonPalette_Castform[] = INCBIN_U32("graphics/pokemon/castform/normal.gbapal.lz");
-const u32 gMonBackPic_Castform[] = INCBIN_U32("graphics/pokemon/castform/back.4bpp.lz");
-const u32 gMonShinyPalette_Castform[] = INCBIN_U32("graphics/pokemon/castform/shiny.gbapal.lz");
-const u8 gMonIcon_Castform[] = INCBIN_U8("graphics/pokemon/castform/icon.4bpp");
-const u8 gMonFootprint_Castform[] = INCBIN_U8("graphics/pokemon/castform/footprint.1bpp");
+const u32 gMonStillFrontPic_Dolphmon[] = INCBIN_U32("graphics/pokemon/dolphmon/front.4bpp.lz");
+const u32 gMonPalette_Dolphmon[] = INCBIN_U32("graphics/pokemon/dolphmon/normal.gbapal.lz");
+const u32 gMonBackPic_Dolphmon[] = INCBIN_U32("graphics/pokemon/dolphmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Dolphmon[] = INCBIN_U32("graphics/pokemon/dolphmon/shiny.gbapal.lz");
+const u8 gMonIcon_Dolphmon[] = INCBIN_U8("graphics/pokemon/dolphmon/icon.4bpp");
+const u8 gMonFootprint_Dolphmon[] = INCBIN_U8("graphics/pokemon/dolphmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Bucchiemon_green[] = INCBIN_U32("graphics/pokemon/bucchiemon_green/front.4bpp.lz");
 const u32 gMonPalette_Bucchiemon_green[] = INCBIN_U32("graphics/pokemon/bucchiemon_green/normal.gbapal.lz");

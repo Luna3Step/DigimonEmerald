@@ -312,12 +312,12 @@
 #define B_WAIT_TIME_MED   48
 #define B_WAIT_TIME_SHORT 32
 
-#define CASTFORM_NORMAL     0
-#define CASTFORM_FIRE       1
-#define CASTFORM_WATER      2
-#define CASTFORM_ICE        3
-#define NUM_CASTFORM_FORMS  4
-#define CASTFORM_SUBSTITUTE (1 << 7)
+#define DOLPHMON_NORMAL     0
+#define DOLPHMON_FIRE       1
+#define DOLPHMON_WATER      2
+#define DOLPHMON_ICE        3
+#define NUM_DOLPHMON_FORMS  4
+#define DOLPHMON_SUBSTITUTE (1 << 7)
 
 #define FLEE_ITEM    1
 #define FLEE_ABILITY 2

@@ -400,7 +400,7 @@ BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseDarktyrmon_x:
 	.string "I'm scared of going into the BATTLE\n"
-	.string "PIKE because of DARKTYRMON_X…\p"
+	.string "PIKE because of DARKTYRMONX…\p"
 	.string "B-but I came all the way here, so I will\n"
 	.string "try to conquer everything!\l"
 	.string "…Shudder…$"

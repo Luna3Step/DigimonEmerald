@@ -1811,8 +1811,8 @@ Cry_Registeel::
 	.incbin "sound/direct_sound_samples/cries/registeel.bin"
 
 	.align 2
-Cry_Castform::
-	.incbin "sound/direct_sound_samples/cries/castform.bin"
+Cry_Dolphmon::
+	.incbin "sound/direct_sound_samples/cries/dolphmon.bin"
 
 	.align 2
 Cry_Bucchiemon_green::

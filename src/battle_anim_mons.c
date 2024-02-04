@@ -51,30 +51,30 @@ static const struct UCoords8 sBattlerCoords[][MAX_BATTLERS_COUNT] =
     },
 };
 
-// One entry for each of the four Castform forms.
-const struct MonCoords gCastformFrontSpriteCoords[NUM_CASTFORM_FORMS] =
+// One entry for each of the four Dolphmon forms.
+const struct MonCoords gDolphmonFrontSpriteCoords[NUM_DOLPHMON_FORMS] =
 {
-    [CASTFORM_NORMAL] = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 17 },
-    [CASTFORM_FIRE]   = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
-    [CASTFORM_WATER]  = { .size = MON_COORDS_SIZE(32, 48), .y_offset =  9 },
-    [CASTFORM_ICE]    = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  8 },
+    [DOLPHMON_NORMAL] = { .size = MON_COORDS_SIZE(32, 32), .y_offset = 17 },
+    [DOLPHMON_FIRE]   = { .size = MON_COORDS_SIZE(48, 48), .y_offset =  9 },
+    [DOLPHMON_WATER]  = { .size = MON_COORDS_SIZE(32, 48), .y_offset =  9 },
+    [DOLPHMON_ICE]    = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  8 },
 };
 
-static const u8 sCastformElevations[NUM_CASTFORM_FORMS] =
+static const u8 sDolphmonElevations[NUM_DOLPHMON_FORMS] =
 {
-    [CASTFORM_NORMAL] = 13,
-    [CASTFORM_FIRE]   = 14,
-    [CASTFORM_WATER]  = 13,
-    [CASTFORM_ICE]    = 13,
+    [DOLPHMON_NORMAL] = 13,
+    [DOLPHMON_FIRE]   = 14,
+    [DOLPHMON_WATER]  = 13,
+    [DOLPHMON_ICE]    = 13,
 };
 
-// Y position of the backsprite for each of the four Castform forms.
-static const u8 sCastformBackSpriteYCoords[NUM_CASTFORM_FORMS] =
+// Y position of the backsprite for each of the four Dolphmon forms.
+static const u8 sDolphmonBackSpriteYCoords[NUM_DOLPHMON_FORMS] =
 {
-    [CASTFORM_NORMAL] = 0,
-    [CASTFORM_FIRE]   = 0,
-    [CASTFORM_WATER]  = 0,
-    [CASTFORM_ICE]    = 0,
+    [DOLPHMON_NORMAL] = 0,
+    [DOLPHMON_FIRE]   = 0,
+    [DOLPHMON_WATER]  = 0,
+    [DOLPHMON_ICE]    = 0,
 };
 
 // Placeholders for pokemon sprites to be created for a move animation effect (e.g. Role Play / Snatch)
@@ -205,7 +205,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
         }
         else if (species == SPECIES_DOLPHMON)
         {
-            ret = sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
+            ret = sDolphmonBackSpriteYCoords[gBattleMonForms[battlerId]];
         }
         else if (species > NUM_SPECIES)
         {
@@ -234,7 +234,7 @@ u8 GetBattlerYDelta(u8 battlerId, u16 species)
         }
         else if (species == SPECIES_DOLPHMON)
         {
-            ret = gCastformFrontSpriteCoords[gBattleMonForms[battlerId]].y_offset;
+            ret = gDolphmonFrontSpriteCoords[gBattleMonForms[battlerId]].y_offset;
         }
         else if (species > NUM_SPECIES)
         {
@@ -256,7 +256,7 @@ u8 GetBattlerElevation(u8 battlerId, u16 species)
         if (!IsContest())
         {
             if (species == SPECIES_DOLPHMON)
-                ret = sCastformElevations[gBattleMonForms[battlerId]];
+                ret = sDolphmonElevations[gBattleMonForms[battlerId]];
             else if (species > NUM_SPECIES)
                 ret = gEnemyMonElevation[0];
             else
@@ -1928,7 +1928,7 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                         species = spriteInfo[battlerId].transformSpecies;
 
                     if (species == SPECIES_DOLPHMON)
-                        return sCastformBackSpriteYCoords[gBattleMonForms[battlerId]];
+                        return sDolphmonBackSpriteYCoords[gBattleMonForms[battlerId]];
                     else
                         return gMonBackPicCoords[species].y_offset;
                 }
@@ -1941,7 +1941,7 @@ static u16 GetBattlerYDeltaFromSpriteId(u8 spriteId)
                         species = spriteInfo[battlerId].transformSpecies;
 
                     if (species == SPECIES_DOLPHMON)
-                        return sCastformElevations[gBattleMonForms[battlerId]];
+                        return sDolphmonElevations[gBattleMonForms[battlerId]];
                     else
                         return gMonFrontPicCoords[species].y_offset;
                 }
@@ -2189,7 +2189,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
         }
         else if (species == SPECIES_DOLPHMON)
         {
-            coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
+            coords = &gDolphmonFrontSpriteCoords[gBattleMonForms[battlerId]];
         }
         else if (species <= SPECIES_EGG)
         {
@@ -2259,7 +2259,7 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
             }
             else if (species == SPECIES_DOLPHMON)
             {
-                coords = &gCastformFrontSpriteCoords[gBattleMonForms[battlerId]];
+                coords = &gDolphmonFrontSpriteCoords[gBattleMonForms[battlerId]];
             }
             else if (species > NUM_SPECIES)
             {

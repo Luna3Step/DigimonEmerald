@@ -306,8 +306,8 @@ static void Cmd_switchoutabilities(void);
 static void Cmd_jumpifhasnohp(void);
 static void Cmd_getsecretpowereffect(void);
 static void Cmd_pickup(void);
-static void Cmd_docastformchangeanimation(void);
-static void Cmd_trycastformdatachange(void);
+static void Cmd_dodolphmonchangeanimation(void);
+static void Cmd_trydolphmondatachange(void);
 static void Cmd_settypebasedhalvers(void);
 static void Cmd_setweatherballtype(void);
 static void Cmd_tryrecycleitem(void);
@@ -558,8 +558,8 @@ void (* const gBattleScriptingCommandsTable[])(void) =
     Cmd_jumpifhasnohp,                           //0xE3
     Cmd_getsecretpowereffect,                    //0xE4
     Cmd_pickup,                                  //0xE5
-    Cmd_docastformchangeanimation,               //0xE6
-    Cmd_trycastformdatachange,                   //0xE7
+    Cmd_dodolphmonchangeanimation,               //0xE6
+    Cmd_trydolphmondatachange,                   //0xE7
     Cmd_settypebasedhalvers,                     //0xE8
     Cmd_setweatherballtype,                      //0xE9
     Cmd_tryrecycleitem,                          //0xEA
@@ -9663,28 +9663,28 @@ static void Cmd_pickup(void)
     gBattlescriptCurrInstr++;
 }
 
-static void Cmd_docastformchangeanimation(void)
+static void Cmd_dodolphmonchangeanimation(void)
 {
     gActiveBattler = gBattleScripting.battler;
 
     if (gBattleMons[gActiveBattler].status2 & STATUS2_SUBSTITUTE)
-        *(&gBattleStruct->formToChangeInto) |= CASTFORM_SUBSTITUTE;
+        *(&gBattleStruct->formToChangeInto) |= DOLPHMON_SUBSTITUTE;
 
-    BtlController_EmitBattleAnimation(BUFFER_A, B_ANIM_CASTFORM_CHANGE, gBattleStruct->formToChangeInto);
+    BtlController_EmitBattleAnimation(BUFFER_A, B_ANIM_DOLPHMON_CHANGE, gBattleStruct->formToChangeInto);
     MarkBattlerForControllerExec(gActiveBattler);
 
     gBattlescriptCurrInstr++;
 }
 
-static void Cmd_trycastformdatachange(void)
+static void Cmd_trydolphmondatachange(void)
 {
     u8 form;
 
     gBattlescriptCurrInstr++;
-    form = CastformDataTypeChange(gBattleScripting.battler);
+    form = DolphmonDataTypeChange(gBattleScripting.battler);
     if (form)
     {
-        BattleScriptPushCursorAndCallback(BattleScript_CastformChange);
+        BattleScriptPushCursorAndCallback(BattleScript_DolphmonChange);
         *(&gBattleStruct->formToChangeInto) = form - 1;
     }
 }

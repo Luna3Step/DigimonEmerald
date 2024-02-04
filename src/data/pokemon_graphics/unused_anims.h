@@ -843,25 +843,25 @@ static const union AnimCmd sUnusedAnim_Blgrowlmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Castform_1[] =
+static const union AnimCmd sUnusedAnim_Dolphmon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Castform_2[] =
+static const union AnimCmd sUnusedAnim_Dolphmon_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Castform_3[] =
+static const union AnimCmd sUnusedAnim_Dolphmon_3[] =
 {
     ANIMCMD_FRAME(2, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Castform_4[] =
+static const union AnimCmd sUnusedAnim_Dolphmon_4[] =
 {
     ANIMCMD_FRAME(3, 1),
     ANIMCMD_END,
@@ -1324,7 +1324,7 @@ static const union AnimCmd *const sUnusedAnims_Relicanth[] = {sAnim_GeneralFrame
 static const union AnimCmd *const sUnusedAnims_Blkgatomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blkgatomon_1};
 static const union AnimCmd *const sUnusedAnims_Blkgatomon_uver[] = {sAnim_GeneralFrame0, sUnusedAnim_Blkgatomon_uver_1};
 static const union AnimCmd *const sUnusedAnims_Blgrowlmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgrowlmon_1};
-static const union AnimCmd *const sUnusedAnims_Castform[] = {sAnim_GeneralFrame0, sUnusedAnim_Castform_1, sUnusedAnim_Castform_2, sUnusedAnim_Castform_3, sUnusedAnim_Castform_4};
+static const union AnimCmd *const sUnusedAnims_Dolphmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Dolphmon_1, sUnusedAnim_Dolphmon_2, sUnusedAnim_Dolphmon_3, sUnusedAnim_Dolphmon_4};
 static const union AnimCmd *const sUnusedAnims_Bucchiemon_green[] = {sAnim_GeneralFrame0, sUnusedAnim_Bucchiemon_green_1};
 static const union AnimCmd *const sUnusedAnims_Bulkmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Bulkmon_1};
 static const union AnimCmd *const sUnusedAnims_Digmon[] = {sAnim_GeneralFrame0};
@@ -1766,7 +1766,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_BLKGATOMON] = sUnusedAnims_Blkgatomon,
     [SPECIES_BLKGATOMON_UVER] = sUnusedAnims_Blkgatomon_uver,
     [SPECIES_BLGROWLMON] = sUnusedAnims_Blgrowlmon,
-    [SPECIES_DOLPHMON] = sUnusedAnims_Castform,
+    [SPECIES_DOLPHMON] = sUnusedAnims_Dolphmon,
     [SPECIES_BUCCHIEMON_GREEN] = sUnusedAnims_Bucchiemon_green,
     [SPECIES_BULKMON] = sUnusedAnims_Bulkmon,
     [SPECIES_DIGMON] = sUnusedAnims_Digmon,

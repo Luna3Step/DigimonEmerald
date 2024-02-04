@@ -3999,17 +3999,17 @@ BattleScript_ShedSkinActivates::
 BattleScript_WeatherFormChanges::
 	setbyte sBATTLER, 0
 BattleScript_WeatherFormChangesLoop::
-	trycastformdatachange
+	trydolphmondatachange
 	addbyte sBATTLER, 1
 	jumpifbytenotequal sBATTLER, gBattlersCount, BattleScript_WeatherFormChangesLoop
 	return
 
-BattleScript_CastformChange::
-	call BattleScript_DoCastformChange
+BattleScript_DolphmonChange::
+	call BattleScript_DoDolphmonChange
 	end3
 
-BattleScript_DoCastformChange::
-	docastformchangeanimation
+BattleScript_DoDolphmonChange::
+	dodolphmonchangeanimation
 	waitstate
 	printstring STRINGID_PKMNTRANSFORMED
 	waitmessage B_WAIT_TIME_LONG

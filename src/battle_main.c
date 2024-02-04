@@ -2785,7 +2785,7 @@ static void SpriteCB_Flicker(struct Sprite *sprite)
 #undef sDelay
 
 extern const struct MonCoords gMonFrontPicCoords[];
-extern const struct MonCoords gCastformFrontSpriteCoords[];
+extern const struct MonCoords gDolphmonFrontSpriteCoords[];
 
 void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
 {
@@ -2815,7 +2815,7 @@ void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
     }
     else if (species == SPECIES_DOLPHMON)
     {
-        yOffset = gCastformFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
+        yOffset = gDolphmonFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
     }
     else if (species > NUM_SPECIES)
     {

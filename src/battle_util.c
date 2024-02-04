@@ -2375,7 +2375,7 @@ bool8 HasNoMonsToSwitch(u8 battler, u8 partyIdBattlerOn1, u8 partyIdBattlerOn2)
     }
 }
 
-u8 CastformDataTypeChange(u8 battler)
+u8 DolphmonDataTypeChange(u8 battler)
 {
     u8 formChange = 0;
     if (gBattleMons[battler].species != SPECIES_DOLPHMON || gBattleMons[battler].ability != ABILITY_FORECAST || gBattleMons[battler].hp == 0)
@@ -2383,29 +2383,29 @@ u8 CastformDataTypeChange(u8 battler)
     if (!WEATHER_HAS_EFFECT && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL))
     {
         SET_BATTLER_TYPE(battler, TYPE_NORMAL);
-        return CASTFORM_NORMAL + 1;
+        return DOLPHMON_NORMAL + 1;
     }
     if (!WEATHER_HAS_EFFECT)
         return 0; // No change
     if (!(gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SUN | B_WEATHER_HAIL)) && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL))
     {
         SET_BATTLER_TYPE(battler, TYPE_NORMAL);
-        formChange = CASTFORM_NORMAL + 1;
+        formChange = DOLPHMON_NORMAL + 1;
     }
     if (gBattleWeather & B_WEATHER_SUN && !IS_BATTLER_OF_TYPE(battler, TYPE_FIRE))
     {
         SET_BATTLER_TYPE(battler, TYPE_FIRE);
-        formChange = CASTFORM_FIRE + 1;
+        formChange = DOLPHMON_FIRE + 1;
     }
     if (gBattleWeather & B_WEATHER_RAIN && !IS_BATTLER_OF_TYPE(battler, TYPE_WATER))
     {
         SET_BATTLER_TYPE(battler, TYPE_WATER);
-        formChange = CASTFORM_WATER + 1;
+        formChange = DOLPHMON_WATER + 1;
     }
     if (gBattleWeather & B_WEATHER_HAIL && !IS_BATTLER_OF_TYPE(battler, TYPE_ICE))
     {
         SET_BATTLER_TYPE(battler, TYPE_ICE);
-        formChange = CASTFORM_ICE + 1;
+        formChange = DOLPHMON_ICE + 1;
     }
     return formChange;
 }
@@ -2546,10 +2546,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 }
                 break;
             case ABILITY_FORECAST:
-                effect = CastformDataTypeChange(battler);
+                effect = DolphmonDataTypeChange(battler);
                 if (effect != 0)
                 {
-                    BattleScriptPushCursorAndCallback(BattleScript_CastformChange);
+                    BattleScriptPushCursorAndCallback(BattleScript_DolphmonChange);
                     gBattleScripting.battler = battler;
                     *(&gBattleStruct->formToChangeInto) = effect - 1;
                 }
@@ -2567,10 +2567,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                     // that's a weird choice for a variable, why not use i or battler?
                     for (target1 = 0; target1 < gBattlersCount; target1++)
                     {
-                        effect = CastformDataTypeChange(target1);
+                        effect = DolphmonDataTypeChange(target1);
                         if (effect != 0)
                         {
-                            BattleScriptPushCursorAndCallback(BattleScript_CastformChange);
+                            BattleScriptPushCursorAndCallback(BattleScript_DolphmonChange);
                             gBattleScripting.battler = target1;
                             *(&gBattleStruct->formToChangeInto) = effect - 1;
                             break;
@@ -2938,10 +2938,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
             {
                 if (gBattleMons[battler].ability == ABILITY_FORECAST)
                 {
-                    effect = CastformDataTypeChange(battler);
+                    effect = DolphmonDataTypeChange(battler);
                     if (effect != 0)
                     {
-                        BattleScriptPushCursorAndCallback(BattleScript_CastformChange);
+                        BattleScriptPushCursorAndCallback(BattleScript_DolphmonChange);
                         gBattleScripting.battler = battler;
                         *(&gBattleStruct->formToChangeInto) = effect - 1;
                         return effect;

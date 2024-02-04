@@ -83,51 +83,51 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	applymovement LOCALID_SCIENTIST, Route119_WeatherInstitute_2F_Movement_ScientistApproachPlayer
 	waitmovement 0
 	copyobjectxytoperm LOCALID_SCIENTIST
-	goto Route119_WeatherInstitute_2F_EventScript_ReceiveCastform
+	goto Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceiveCastform::
+Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmon::
 	msgbox Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_DOLPHMON
 	givemon SPECIES_DOLPHMON, 25, ITEM_MYSTIC_WATER
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmonParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmonPC
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
-	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmonParty::
+	call Route119_WeatherInstitute_2F_EventScript_ReceivedDolphmonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_ExplainDolphmon
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto Route119_WeatherInstitute_2F_EventScript_ExplainDolphmon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC::
-	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
+Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmonPC::
+	call Route119_WeatherInstitute_2F_EventScript_ReceivedDolphmonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendDolphmonToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
+	goto Route119_WeatherInstitute_2F_EventScript_SendDolphmonToPC
 	end
 
-Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
+Route119_WeatherInstitute_2F_EventScript_SendDolphmonToPC::
 	call Common_EventScript_TransferredToPC
-	goto Route119_WeatherInstitute_2F_EventScript_ExplainCastform
+	goto Route119_WeatherInstitute_2F_EventScript_ExplainDolphmon
 	end
 
-Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare::
+Route119_WeatherInstitute_2F_EventScript_ReceivedDolphmonFanfare::
 	playfanfare MUS_OBTAIN_ITEM
-	message Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform
+	message Route119_WeatherInstitute_2F_Text_PlayerReceivedDolphmon
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_DOLPHMON
 	return
 
-Route119_WeatherInstitute_2F_EventScript_ExplainCastform::
+Route119_WeatherInstitute_2F_EventScript_ExplainDolphmon::
 	msgbox Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_CASTFORM
+	setflag FLAG_RECEIVED_DOLPHMON
 	release
 	end
 
@@ -206,8 +206,8 @@ Route119_WeatherInstitute_2F_Movement_ScientistApproachPlayer:
 Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_CASTFORM, Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather
-	goto Route119_WeatherInstitute_2F_EventScript_ReceiveCastform
+	goto_if_set FLAG_RECEIVED_DOLPHMON, Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather
+	goto Route119_WeatherInstitute_2F_EventScript_ReceiveDolphmon
 	end
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro:
@@ -295,8 +295,8 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "Hm? You don't seem to have any room\n"
 	.string "for this POKéMON.$"
 
-Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CASTFORM!$"
+Route119_WeatherInstitute_2F_Text_PlayerReceivedDolphmon:
+	.string "{PLAYER} received DOLPHMON!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "That POKéMON changes shape according\n"

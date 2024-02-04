@@ -434,10 +434,10 @@ bool8 TryHandleLaunchBattleTableAnimation(u8 activeBattler, u8 atkBattler, u8 de
 {
     u8 taskId;
 
-    if (tableId == B_ANIM_CASTFORM_CHANGE && (argument & CASTFORM_SUBSTITUTE))
+    if (tableId == B_ANIM_DOLPHMON_CHANGE && (argument & DOLPHMON_SUBSTITUTE))
     {
-        // If Castform is behind substitute, set the new form but skip the animation
-        gBattleMonForms[activeBattler] = (argument & ~CASTFORM_SUBSTITUTE);
+        // If Dolphmon is behind substitute, set the new form but skip the animation
+        gBattleMonForms[activeBattler] = (argument & ~DOLPHMON_SUBSTITUTE);
         return TRUE;
     }
     if (gBattleSpritesDataPtr->battlerData[activeBattler].behindSubstitute
@@ -590,8 +590,8 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     if (species == SPECIES_DOLPHMON)
     {
         paletteOffset = 0x100 + battlerId * 16;
-        LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette);
-        LoadPalette(gBattleStruct->castformPalette[gBattleMonForms[battlerId]], paletteOffset, 0x20);
+        LZDecompressWram(lzPaletteData, gBattleStruct->dolphmonPalette);
+        LoadPalette(gBattleStruct->dolphmonPalette[gBattleMonForms[battlerId]], paletteOffset, 0x20);
     }
 
     // transform's pink color
@@ -653,8 +653,8 @@ void BattleLoadPlayerMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     if (species == SPECIES_DOLPHMON)
     {
         paletteOffset = 0x100 + battlerId * 16;
-        LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette);
-        LoadPalette(gBattleStruct->castformPalette[gBattleMonForms[battlerId]], paletteOffset, 0x20);
+        LZDecompressWram(lzPaletteData, gBattleStruct->dolphmonPalette);
+        LoadPalette(gBattleStruct->dolphmonPalette[gBattleMonForms[battlerId]], paletteOffset, 0x20);
     }
 
     // transform's pink color
@@ -892,7 +892,7 @@ void CopyBattleSpriteInvisibility(u8 battlerId)
     gBattleSpritesDataPtr->battlerData[battlerId].invisible = gSprites[gBattlerSpriteIds[battlerId]].invisible;
 }
 
-void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, bool8 castform)
+void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, bool8 dolphmon)
 {
     u16 paletteOffset;
     u32 personalityValue;
@@ -900,11 +900,11 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, bool8 castform)
     u8 position;
     const u32 *lzPaletteData;
 
-    if (castform)
+    if (dolphmon)
     {
         StartSpriteAnim(&gSprites[gBattlerSpriteIds[battlerAtk]], gBattleSpritesDataPtr->animationData->animArg);
         paletteOffset = 0x100 + battlerAtk * 16;
-        LoadPalette(gBattleStruct->castformPalette[gBattleSpritesDataPtr->animationData->animArg], paletteOffset, 32);
+        LoadPalette(gBattleStruct->dolphmonPalette[gBattleSpritesDataPtr->animationData->animArg], paletteOffset, 32);
         gBattleMonForms[battlerAtk] = gBattleSpritesDataPtr->animationData->animArg;
         if (gBattleSpritesDataPtr->battlerData[battlerAtk].transformSpecies != SPECIES_NONE)
         {
@@ -973,8 +973,8 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, bool8 castform)
         if (targetSpecies == SPECIES_DOLPHMON)
         {
             gSprites[gBattlerSpriteIds[battlerAtk]].anims = gMonFrontAnimsPtrTable[targetSpecies];
-            LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette);
-            LoadPalette(gBattleStruct->castformPalette[gBattleMonForms[battlerDef]], paletteOffset, 32);
+            LZDecompressWram(lzPaletteData, gBattleStruct->dolphmonPalette);
+            LoadPalette(gBattleStruct->dolphmonPalette[gBattleMonForms[battlerDef]], paletteOffset, 32);
         }
 
         BlendPalette(paletteOffset, 16, 6, RGB_WHITE);

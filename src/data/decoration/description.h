@@ -333,7 +333,7 @@ const u8 DecorDesc_PIKA_POSTER[] = _(
 
 const u8 DecorDesc_LONG_POSTER[] = _(
     "A large poster with\n"
-        "a DARKTYRMON_X print.");
+        "a DARKTYRMONX print.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "A large poster with\n"
