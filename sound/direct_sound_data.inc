@@ -1443,8 +1443,8 @@ Cry_Darlizamon::
 	.incbin "sound/direct_sound_samples/cries/darlizamon.bin"
 
 	.align 2
-Cry_Altaria::
-	.incbin "sound/direct_sound_samples/cries/altaria.bin"
+Cry_Darmailmon::
+	.incbin "sound/direct_sound_samples/cries/darmailmon.bin"
 
 	.align 2
 Cry_Unused265::

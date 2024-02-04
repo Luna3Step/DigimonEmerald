@@ -2333,12 +2333,12 @@ const u32 gMonShinyPalette_Darlizamon[] = INCBIN_U32("graphics/pokemon/darlizamo
 const u8 gMonIcon_Darlizamon[] = INCBIN_U8("graphics/pokemon/darlizamon/icon.4bpp");
 const u8 gMonFootprint_Darlizamon[] = INCBIN_U8("graphics/pokemon/darlizamon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/front.4bpp.lz");
-const u32 gMonPalette_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/normal.gbapal.lz");
-const u32 gMonBackPic_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/back.4bpp.lz");
-const u32 gMonShinyPalette_Altaria[] = INCBIN_U32("graphics/pokemon/altaria/shiny.gbapal.lz");
-const u8 gMonIcon_Altaria[] = INCBIN_U8("graphics/pokemon/altaria/icon.4bpp");
-const u8 gMonFootprint_Altaria[] = INCBIN_U8("graphics/pokemon/altaria/footprint.1bpp");
+const u32 gMonStillFrontPic_Darmailmon[] = INCBIN_U32("graphics/pokemon/darmailmon/front.4bpp.lz");
+const u32 gMonPalette_Darmailmon[] = INCBIN_U32("graphics/pokemon/darmailmon/normal.gbapal.lz");
+const u32 gMonBackPic_Darmailmon[] = INCBIN_U32("graphics/pokemon/darmailmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Darmailmon[] = INCBIN_U32("graphics/pokemon/darmailmon/shiny.gbapal.lz");
+const u8 gMonIcon_Darmailmon[] = INCBIN_U8("graphics/pokemon/darmailmon/icon.4bpp");
+const u8 gMonFootprint_Darmailmon[] = INCBIN_U8("graphics/pokemon/darmailmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/front.4bpp.lz");
 const u32 gMonPalette_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/normal.gbapal.lz");
