@@ -1419,8 +1419,8 @@ Cry_Latias::
 	.incbin "sound/direct_sound_samples/cries/latias.bin"
 
 	.align 2
-Cry_Wynaut::
-	.incbin "sound/direct_sound_samples/cries/wynaut.bin"
+Cry_Exveemon::
+	.incbin "sound/direct_sound_samples/cries/exveemon.bin"
 
 	.align 2
 Cry_Darktyrmon_x::

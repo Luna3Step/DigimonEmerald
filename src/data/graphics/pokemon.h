@@ -2340,12 +2340,12 @@ const u32 gMonShinyPalette_Darmailmon[] = INCBIN_U32("graphics/pokemon/darmailmo
 const u8 gMonIcon_Darmailmon[] = INCBIN_U8("graphics/pokemon/darmailmon/icon.4bpp");
 const u8 gMonFootprint_Darmailmon[] = INCBIN_U8("graphics/pokemon/darmailmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/front.4bpp.lz");
-const u32 gMonPalette_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/normal.gbapal.lz");
-const u32 gMonBackPic_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/back.4bpp.lz");
-const u32 gMonShinyPalette_Wynaut[] = INCBIN_U32("graphics/pokemon/wynaut/shiny.gbapal.lz");
-const u8 gMonIcon_Wynaut[] = INCBIN_U8("graphics/pokemon/wynaut/icon.4bpp");
-const u8 gMonFootprint_Wynaut[] = INCBIN_U8("graphics/pokemon/wynaut/footprint.1bpp");
+const u32 gMonStillFrontPic_Exveemon[] = INCBIN_U32("graphics/pokemon/exveemon/front.4bpp.lz");
+const u32 gMonPalette_Exveemon[] = INCBIN_U32("graphics/pokemon/exveemon/normal.gbapal.lz");
+const u32 gMonBackPic_Exveemon[] = INCBIN_U32("graphics/pokemon/exveemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Exveemon[] = INCBIN_U32("graphics/pokemon/exveemon/shiny.gbapal.lz");
+const u8 gMonIcon_Exveemon[] = INCBIN_U8("graphics/pokemon/exveemon/icon.4bpp");
+const u8 gMonFootprint_Exveemon[] = INCBIN_U8("graphics/pokemon/exveemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/front.4bpp.lz");
 const u32 gMonPalette_Drimogemon[] = INCBIN_U32("graphics/pokemon/drimogemon/normal.gbapal.lz");

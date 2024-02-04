@@ -258,7 +258,7 @@ gCryTable::
 	cry Cry_Bomnanimon
 	cry Cry_Drimogemon
 	cry Cry_Latias
-	cry Cry_Wynaut
+	cry Cry_Exveemon
 	cry Cry_Darktyrmon_x
 	cry Cry_Centarumon
 	cry Cry_Darktyrmon
@@ -649,7 +649,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Bomnanimon
 	cry_reverse Cry_Drimogemon
 	cry_reverse Cry_Latias
-	cry_reverse Cry_Wynaut
+	cry_reverse Cry_Exveemon
 	cry_reverse Cry_Darktyrmon_x
 	cry_reverse Cry_Centarumon
 	cry_reverse Cry_Darktyrmon
