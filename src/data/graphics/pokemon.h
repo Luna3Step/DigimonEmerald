@@ -2102,12 +2102,12 @@ const u32 gMonShinyPalette_Luvdisc[] = INCBIN_U32("graphics/pokemon/luvdisc/shin
 const u8 gMonIcon_Luvdisc[] = INCBIN_U8("graphics/pokemon/luvdisc/icon.4bpp");
 const u8 gMonFootprint_Luvdisc[] = INCBIN_U8("graphics/pokemon/luvdisc/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Corphish[] = INCBIN_U32("graphics/pokemon/corphish/front.4bpp.lz");
-const u32 gMonPalette_Corphish[] = INCBIN_U32("graphics/pokemon/corphish/normal.gbapal.lz");
-const u32 gMonBackPic_Corphish[] = INCBIN_U32("graphics/pokemon/corphish/back.4bpp.lz");
-const u32 gMonShinyPalette_Corphish[] = INCBIN_U32("graphics/pokemon/corphish/shiny.gbapal.lz");
-const u8 gMonIcon_Corphish[] = INCBIN_U8("graphics/pokemon/corphish/icon.4bpp");
-const u8 gMonFootprint_Corphish[] = INCBIN_U8("graphics/pokemon/corphish/footprint.1bpp");
+const u32 gMonStillFrontPic_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/front.4bpp.lz");
+const u32 gMonPalette_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/normal.gbapal.lz");
+const u32 gMonBackPic_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/shiny.gbapal.lz");
+const u8 gMonIcon_Devidramon[] = INCBIN_U8("graphics/pokemon/devidramon/icon.4bpp");
+const u8 gMonFootprint_Devidramon[] = INCBIN_U8("graphics/pokemon/devidramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Crawdaunt[] = INCBIN_U32("graphics/pokemon/crawdaunt/front.4bpp.lz");
 const u32 gMonPalette_Crawdaunt[] = INCBIN_U32("graphics/pokemon/crawdaunt/normal.gbapal.lz");

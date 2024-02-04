@@ -1667,8 +1667,8 @@ Cry_Deputymon::
 	.incbin "sound/direct_sound_samples/cries/deputymon.bin"
 
 	.align 2
-Cry_Corphish::
-	.incbin "sound/direct_sound_samples/cries/corphish.bin"
+Cry_Devidramon::
+	.incbin "sound/direct_sound_samples/cries/devidramon.bin"
 
 	.align 2
 Cry_Crawdaunt::
