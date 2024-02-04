@@ -1715,8 +1715,8 @@ Cry_Deckdramon::
 	.incbin "sound/direct_sound_samples/cries/deckdramon.bin"
 
 	.align 2
-Cry_Solrock::
-	.incbin "sound/direct_sound_samples/cries/solrock.bin"
+Cry_Deltamon::
+	.incbin "sound/direct_sound_samples/cries/deltamon.bin"
 
 	.align 2
 Cry_Feebas::
