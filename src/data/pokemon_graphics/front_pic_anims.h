@@ -4222,7 +4222,7 @@ static const union AnimCmd sAnim_Castform_3[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Volbeat_1[] =
+static const union AnimCmd sAnim_Bucchiemon_green_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(0, 11),
@@ -5197,7 +5197,7 @@ static const union AnimCmd *const sAnims_Castform[] ={
     sAnim_Castform_2,
     sAnim_Castform_3,
 };
-SINGLE_ANIMATION(Volbeat);
+SINGLE_ANIMATION(Bucchiemon_green);
 SINGLE_ANIMATION(Illumise);
 SINGLE_ANIMATION(Lileep);
 SINGLE_ANIMATION(Cradily);
@@ -5640,7 +5640,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BLKGATOMON_UVER]      = sAnims_Blkgatomon_uver,
     [SPECIES_BLGROWLMON]      = sAnims_Blgrowlmon,
     [SPECIES_DOLPHMON]    = sAnims_Castform,
-    [SPECIES_BUCCHIEMON_GREEN]     = sAnims_Volbeat,
+    [SPECIES_BUCCHIEMON_GREEN]     = sAnims_Bucchiemon_green,
     [SPECIES_BULKMON]    = sAnims_Illumise,
     [SPECIES_DIGMON]      = sAnims_Lileep,
     [SPECIES_DINOHYUMON]     = sAnims_Cradily,

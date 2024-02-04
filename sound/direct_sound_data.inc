@@ -1815,8 +1815,8 @@ Cry_Castform::
 	.incbin "sound/direct_sound_samples/cries/castform.bin"
 
 	.align 2
-Cry_Volbeat::
-	.incbin "sound/direct_sound_samples/cries/volbeat.bin"
+Cry_Bucchiemon_green::
+	.incbin "sound/direct_sound_samples/cries/bucchiemon_green.bin"
 
 	.align 2
 Cry_Illumise::

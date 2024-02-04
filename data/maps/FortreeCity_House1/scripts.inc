@@ -42,7 +42,7 @@ FortreeCity_House1_EventScript_NotRequestedMon::
 	end
 
 FortreeCity_House1_EventScript_TradeCompleted::
-	msgbox FortreeCity_House1_Text_GoingToMakeVolbeatStrong, MSGBOX_DEFAULT
+	msgbox FortreeCity_House1_Text_GoingToMakeBucchiemon_greenStrong, MSGBOX_DEFAULT
 	release
 	end
 
@@ -83,8 +83,8 @@ FortreeCity_House1_Text_YouWontTradeMe:
 	.string "No? You won't trade me?\n"
 	.string "Even after I bared my heart to you?$"
 
-FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VOLBEAT super\n"
+FortreeCity_House1_Text_GoingToMakeBucchiemon_greenStrong:
+	.string "I'm going to make BUCCHIEMON_GREEN super\n"
 	.string "strong from this moment on!\p"
 	.string "I hope you do the same with BOOGIEMON!$"
 

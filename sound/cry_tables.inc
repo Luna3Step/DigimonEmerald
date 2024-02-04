@@ -357,7 +357,7 @@ gCryTable::
 	cry Cry_Regice
 	cry Cry_Registeel
 	cry Cry_Castform
-	cry Cry_Volbeat
+	cry Cry_Bucchiemon_green
 	cry Cry_Illumise
 	cry Cry_Tinkermon
 	cry Cry_Tinpet
@@ -748,7 +748,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Regice
 	cry_reverse Cry_Registeel
 	cry_reverse Cry_Castform
-	cry_reverse Cry_Volbeat
+	cry_reverse Cry_Bucchiemon_green
 	cry_reverse Cry_Illumise
 	cry_reverse Cry_Tinkermon
 	cry_reverse Cry_Tinpet

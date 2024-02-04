@@ -70,7 +70,7 @@ static void Task_Scene2_End(u8);
 // Scene 2 supplemental functions
 static void SpriteCB_Syakomon_x(struct Sprite *sprite);
 static void SpriteCB_Bomnanimon(struct Sprite *sprite);
-static void SpriteCB_Volbeat(struct Sprite *sprite);
+static void SpriteCB_Bucchiemon_green(struct Sprite *sprite);
 static void SpriteCB_Flygon(struct Sprite *);
 static void SpriteCB_PlayerOnBicycle(struct Sprite *);
 
@@ -112,7 +112,7 @@ extern const struct CompressedSpriteSheet gBattleAnimPicTable[];
 extern const struct CompressedSpritePalette gBattleAnimPaletteTable[];
 extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 
-#define TAG_VOLBEAT   1500
+#define TAG_BUCCHIEMON_GREEN   1500
 #define TAG_SYAKOMON_X   1501
 #define TAG_BOMNANIMON 1502
 #define TAG_LIGHTNING 1503
@@ -267,19 +267,19 @@ static const u8 sSparkleCoords[][2] =
 };
 static const struct CompressedSpriteSheet sSpriteSheet_RunningPokemon[] =
 {
-    {gIntroVolbeat_Gfx, 0x400, TAG_VOLBEAT},
+    {gIntroBucchiemon_green_Gfx, 0x400, TAG_BUCCHIEMON_GREEN},
     {gIntroSyakomon_x_Gfx, 0xC00, TAG_SYAKOMON_X},
     {gIntroBomnanimon_Gfx, 0x2000, TAG_BOMNANIMON},
     {},
 };
 static const struct SpritePalette sSpritePalettes_RunningPokemon[] =
 {
-    {gIntroVolbeat_Pal, TAG_VOLBEAT},
+    {gIntroBucchiemon_green_Pal, TAG_BUCCHIEMON_GREEN},
     {gIntroSyakomon_x_Pal, TAG_SYAKOMON_X},
     {gIntroBomnanimon_Pal, TAG_BOMNANIMON},
     {},
 };
-static const struct OamData sOamData_Volbeat =
+static const struct OamData sOamData_Bucchiemon_green =
 {
     .y = DISPLAY_HEIGHT,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -295,25 +295,25 @@ static const struct OamData sOamData_Volbeat =
     .paletteNum = 0,
     .affineParam = 0,
 };
-static const union AnimCmd sAnim_Volbeat[] =
+static const union AnimCmd sAnim_Bucchiemon_green[] =
 {
     ANIMCMD_FRAME(0, 2),
     ANIMCMD_FRAME(16, 2),
     ANIMCMD_JUMP(0),
 };
-static const union AnimCmd *const sAnims_Volbeat[] =
+static const union AnimCmd *const sAnims_Bucchiemon_green[] =
 {
-    sAnim_Volbeat,
+    sAnim_Bucchiemon_green,
 };
-static const struct SpriteTemplate sSpriteTemplate_Volbeat =
+static const struct SpriteTemplate sSpriteTemplate_Bucchiemon_green =
 {
-    .tileTag = TAG_VOLBEAT,
-    .paletteTag = TAG_VOLBEAT,
-    .oam = &sOamData_Volbeat,
-    .anims = sAnims_Volbeat,
+    .tileTag = TAG_BUCCHIEMON_GREEN,
+    .paletteTag = TAG_BUCCHIEMON_GREEN,
+    .oam = &sOamData_Bucchiemon_green,
+    .anims = sAnims_Bucchiemon_green,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_Volbeat,
+    .callback = SpriteCB_Bucchiemon_green,
 };
 static const struct OamData sOamData_Syakomon_x =
 {
@@ -1398,7 +1398,7 @@ static void Task_Scene2_CreateSprites(u8 taskId)
     gSprites[spriteId].callback = SpriteCB_PlayerOnBicycle;
     gSprites[spriteId].anims = sAnims_PlayerBicycle;
     gTasks[taskId].tPlayerSpriteId = spriteId;
-    CreateSprite(&sSpriteTemplate_Volbeat, DISPLAY_WIDTH + 32, 80, 4);
+    CreateSprite(&sSpriteTemplate_Bucchiemon_green, DISPLAY_WIDTH + 32, 80, 4);
     spriteId = CreateIntroFlygonSprite(-64, 60);
     gSprites[spriteId].callback = SpriteCB_Flygon;
     gTasks[taskId].tFlygonSpriteId = spriteId;
@@ -1468,73 +1468,73 @@ static void Task_Scene2_End(u8 taskId)
 #define sFig8Loops  data[6]
 
 enum {
-    VOLBEAT_WAIT_ENTER,
-    VOLBEAT_ENTER,
-    VOLBEAT_ZIP_BACKWARD,
-    VOLBEAT_ZIP_DOWN,
-    VOLBEAT_ZIP_FORWARD,
-    VOLBEAT_INIT_FIGURE_8,
-    VOLBEAT_FIGURE_8,
-    VOLBEAT_EXIT,
-    VOLBEAT_WAIT_STATE
+    BUCCHIEMON_GREEN_WAIT_ENTER,
+    BUCCHIEMON_GREEN_ENTER,
+    BUCCHIEMON_GREEN_ZIP_BACKWARD,
+    BUCCHIEMON_GREEN_ZIP_DOWN,
+    BUCCHIEMON_GREEN_ZIP_FORWARD,
+    BUCCHIEMON_GREEN_INIT_FIGURE_8,
+    BUCCHIEMON_GREEN_FIGURE_8,
+    BUCCHIEMON_GREEN_EXIT,
+    BUCCHIEMON_GREEN_WAIT_STATE
 };
 
-static void SpriteCB_Volbeat(struct Sprite *sprite)
+static void SpriteCB_Bucchiemon_green(struct Sprite *sprite)
 {
     sprite->sCosYIdx += 4;
     switch (sprite->sState)
     {
-    case VOLBEAT_WAIT_ENTER:
+    case BUCCHIEMON_GREEN_WAIT_ENTER:
         if (++sprite->sStateDelay < 180)
             break;
         sprite->sState++;
         // fallthrough
-    case VOLBEAT_ENTER:
+    case BUCCHIEMON_GREEN_ENTER:
         sprite->x -= 4;
         if (sprite->x == 60)
         {
-            sprite->sState = VOLBEAT_WAIT_STATE;
+            sprite->sState = BUCCHIEMON_GREEN_WAIT_STATE;
             sprite->sStateDelay = 20;
-            sprite->sNextState = VOLBEAT_ZIP_BACKWARD;
+            sprite->sNextState = BUCCHIEMON_GREEN_ZIP_BACKWARD;
         }
         break;
-    case VOLBEAT_ZIP_BACKWARD:
+    case BUCCHIEMON_GREEN_ZIP_BACKWARD:
         sprite->x += 8;
         sprite->y -= 2;
         if (sprite->x == 124)
         {
-            sprite->sState = VOLBEAT_WAIT_STATE;
+            sprite->sState = BUCCHIEMON_GREEN_WAIT_STATE;
             sprite->sStateDelay = 20;
-            sprite->sNextState = VOLBEAT_ZIP_DOWN;
+            sprite->sNextState = BUCCHIEMON_GREEN_ZIP_DOWN;
         }
         break;
-    case VOLBEAT_ZIP_DOWN:
+    case BUCCHIEMON_GREEN_ZIP_DOWN:
         sprite->y += 4;
         if (sprite->y == 80)
         {
-            sprite->sState = VOLBEAT_WAIT_STATE;
+            sprite->sState = BUCCHIEMON_GREEN_WAIT_STATE;
             sprite->sStateDelay = 10;
-            sprite->sNextState = VOLBEAT_ZIP_FORWARD;
+            sprite->sNextState = BUCCHIEMON_GREEN_ZIP_FORWARD;
         }
         break;
-    case VOLBEAT_ZIP_FORWARD:
+    case BUCCHIEMON_GREEN_ZIP_FORWARD:
         sprite->x -= 8;
         sprite->y -= 2;
         if (sprite->x == 60)
         {
-            sprite->sState = VOLBEAT_WAIT_STATE;
+            sprite->sState = BUCCHIEMON_GREEN_WAIT_STATE;
             sprite->sStateDelay = 10;
-            sprite->sNextState = VOLBEAT_INIT_FIGURE_8;
+            sprite->sNextState = BUCCHIEMON_GREEN_INIT_FIGURE_8;
         }
         break;
-    case VOLBEAT_INIT_FIGURE_8:
+    case BUCCHIEMON_GREEN_INIT_FIGURE_8:
         sprite->x += 60;
         sprite->sSinXIdx = 0xC0;
         sprite->sSinYIdx = 0x80;
         sprite->sFig8Loops = 3;
         sprite->sState++;
         // fallthrough
-    case VOLBEAT_FIGURE_8:
+    case BUCCHIEMON_GREEN_FIGURE_8:
         sprite->x2 = Sin((u8)sprite->sSinXIdx, 0x3C);
         sprite->y2 = Sin((u8)sprite->sSinYIdx, 0x14);
         sprite->sSinXIdx += 2;
@@ -1550,14 +1550,14 @@ static void SpriteCB_Volbeat(struct Sprite *sprite)
             }
         }
         break;
-    case VOLBEAT_EXIT:
+    case BUCCHIEMON_GREEN_EXIT:
         sprite->x -= 2;
         sprite->y2 = Sin((u8)sprite->sSinYIdx, 0x14);
         sprite->sSinYIdx += 4;
         if (sprite->x < -16)
             DestroySprite(sprite);
         break;
-    case VOLBEAT_WAIT_STATE:
+    case BUCCHIEMON_GREEN_WAIT_STATE:
         // Wait for state progression, fly idly until then
         sprite->y2 = Cos((u8)sprite->sCosYIdx, 2);
         if (!--sprite->sStateDelay)
