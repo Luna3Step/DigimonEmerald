@@ -2186,12 +2186,12 @@ const u32 gMonShinyPalette_Boarmon[] = INCBIN_U32("graphics/pokemon/boarmon/shin
 const u8 gMonIcon_Boarmon[] = INCBIN_U8("graphics/pokemon/boarmon/icon.4bpp");
 const u8 gMonFootprint_Boarmon[] = INCBIN_U8("graphics/pokemon/boarmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/front.4bpp.lz");
-const u32 gMonPalette_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/normal.gbapal.lz");
-const u32 gMonBackPic_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/back.4bpp.lz");
-const u32 gMonShinyPalette_Manectric[] = INCBIN_U32("graphics/pokemon/manectric/shiny.gbapal.lz");
-const u8 gMonIcon_Manectric[] = INCBIN_U8("graphics/pokemon/manectric/icon.4bpp");
-const u8 gMonFootprint_Manectric[] = INCBIN_U8("graphics/pokemon/manectric/footprint.1bpp");
+const u32 gMonStillFrontPic_Bomnanimon[] = INCBIN_U32("graphics/pokemon/bomnanimon/front.4bpp.lz");
+const u32 gMonPalette_Bomnanimon[] = INCBIN_U32("graphics/pokemon/bomnanimon/normal.gbapal.lz");
+const u32 gMonBackPic_Bomnanimon[] = INCBIN_U32("graphics/pokemon/bomnanimon/back.4bpp.lz");
+const u32 gMonShinyPalette_Bomnanimon[] = INCBIN_U32("graphics/pokemon/bomnanimon/shiny.gbapal.lz");
+const u8 gMonIcon_Bomnanimon[] = INCBIN_U8("graphics/pokemon/bomnanimon/icon.4bpp");
+const u8 gMonFootprint_Bomnanimon[] = INCBIN_U8("graphics/pokemon/bomnanimon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Numel[] = INCBIN_U32("graphics/pokemon/numel/front.4bpp.lz");
 const u32 gMonPalette_Numel[] = INCBIN_U32("graphics/pokemon/numel/normal.gbapal.lz");

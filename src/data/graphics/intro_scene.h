@@ -3,12 +3,12 @@ const u16 gIntroPlayer_Pal[] = INCBIN_U16("graphics/intro/scene_2/player.gbapal"
 const u16 gIntro3Bg_Pal[] = INCBIN_U16("graphics/intro/scene_3/bg.gbapal");
 const u16 gIntroVolbeat_Pal[] = INCBIN_U16("graphics/intro/scene_2/volbeat.gbapal");
 const u16 gIntroSyakomon_x_Pal[] = INCBIN_U16("graphics/intro/scene_2/syakomon_x.gbapal");
-const u16 gIntroManectric_Pal[] = INCBIN_U16("graphics/intro/scene_2/manectric.gbapal");
+const u16 gIntroBomnanimon_Pal[] = INCBIN_U16("graphics/intro/scene_2/bomnanimon.gbapal");
 const u16 gIntroFlygon_Pal[] = INCBIN_U16("graphics/intro/scene_2/flygon.gbapal");
 
 const u32 gIntroVolbeat_Gfx[] = INCBIN_U32("graphics/intro/scene_2/volbeat.4bpp.lz");
 const u32 gIntroSyakomon_x_Gfx[] = INCBIN_U32("graphics/intro/scene_2/syakomon_x.4bpp.lz");
-const u32 gIntroManectric_Gfx[] = INCBIN_U32("graphics/intro/scene_2/manectric.4bpp.lz");
+const u32 gIntroBomnanimon_Gfx[] = INCBIN_U32("graphics/intro/scene_2/bomnanimon.4bpp.lz");
 const u32 gIntroFlygon_Gfx[] = INCBIN_U32("graphics/intro/scene_2/flygon.4bpp.lz");
 const u32 gIntroBrendan_Gfx[] = INCBIN_U32("graphics/intro/scene_2/brendan.4bpp.lz");
 const u32 gIntroMay_Gfx[] = INCBIN_U32("graphics/intro/scene_2/may.4bpp.lz");

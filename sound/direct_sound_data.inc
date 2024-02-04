@@ -1407,8 +1407,8 @@ Cry_Boarmon::
 	.incbin "sound/direct_sound_samples/cries/boarmon.bin"
 
 	.align 2
-Cry_Manectric::
-	.incbin "sound/direct_sound_samples/cries/manectric.bin"
+Cry_Bomnanimon::
+	.incbin "sound/direct_sound_samples/cries/bomnanimon.bin"
 
 	.align 2
 Cry_Duskull::

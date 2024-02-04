@@ -3656,7 +3656,7 @@ static const union AnimCmd sAnim_Boarmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Manectric_1[] =
+static const union AnimCmd sAnim_Bomnanimon_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(0, 33),
@@ -5144,7 +5144,7 @@ SINGLE_ANIMATION(Flygon);
 SINGLE_ANIMATION(Betgamamon);
 SINGLE_ANIMATION(Bioquetmon);
 SINGLE_ANIMATION(Boarmon);
-SINGLE_ANIMATION(Manectric);
+SINGLE_ANIMATION(Bomnanimon);
 SINGLE_ANIMATION(Numel);
 SINGLE_ANIMATION(Camerupt);
 SINGLE_ANIMATION(Spheal);
@@ -5592,7 +5592,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BETGAMAMON]    = sAnims_Betgamamon,
     [SPECIES_BIOQUETMON]    = sAnims_Bioquetmon,
     [SPECIES_BOARMON]   = sAnims_Boarmon,
-    [SPECIES_BOMNANIMON]   = sAnims_Manectric,
+    [SPECIES_BOMNANIMON]   = sAnims_Bomnanimon,
     [SPECIES_CHRYSALMON]       = sAnims_Numel,
     [SPECIES_CITRAMON]    = sAnims_Camerupt,
     [SPECIES_EYESMON_SCATTERMODE]      = sAnims_Spheal,
