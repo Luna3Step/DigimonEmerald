@@ -252,7 +252,7 @@ gCryTable::
 	cry Cry_Starmon_2010
 	cry Cry_Strabimon
 	cry Cry_Kecleon
-	cry Cry_Roselia
+	cry Cry_Bullmon
 	cry Cry_Torkoal
 	cry Cry_Boarmon
 	cry Cry_Bomnanimon
@@ -643,7 +643,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Starmon_2010
 	cry_reverse Cry_Strabimon
 	cry_reverse Cry_Kecleon
-	cry_reverse Cry_Roselia
+	cry_reverse Cry_Bullmon
 	cry_reverse Cry_Torkoal
 	cry_reverse Cry_Boarmon
 	cry_reverse Cry_Bomnanimon
