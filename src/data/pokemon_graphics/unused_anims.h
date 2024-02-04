@@ -777,7 +777,7 @@ static const union AnimCmd sUnusedAnim_Baboonmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Gulpin_1[] =
+static const union AnimCmd sUnusedAnim_Buraimon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
@@ -1306,7 +1306,7 @@ static const union AnimCmd *const sUnusedAnims_Bullmon[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Aurumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Aurumon_1};
 static const union AnimCmd *const sUnusedAnims_Axemon[] = {sAnim_GeneralFrame0, sUnusedAnim_Axemon_1};
 static const union AnimCmd *const sUnusedAnims_Baboonmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Baboonmon_1};
-static const union AnimCmd *const sUnusedAnims_Gulpin[] = {sAnim_GeneralFrame0, sUnusedAnim_Gulpin_1};
+static const union AnimCmd *const sUnusedAnims_Buraimon[] = {sAnim_GeneralFrame0, sUnusedAnim_Buraimon_1};
 static const union AnimCmd *const sUnusedAnims_Swalot[] = {sAnim_GeneralFrame0, sUnusedAnim_Swalot_1};
 static const union AnimCmd *const sUnusedAnims_Tropius[] = {sAnim_GeneralFrame0, sUnusedAnim_Tropius_1};
 static const union AnimCmd *const sUnusedAnims_Baohuckmon[] = {sAnim_GeneralFrame0};
@@ -1748,7 +1748,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_AURUMON] = sUnusedAnims_Aurumon,
     [SPECIES_AXEMON] = sUnusedAnims_Axemon,
     [SPECIES_BABOONMON] = sUnusedAnims_Baboonmon,
-    [SPECIES_BURAIMON] = sUnusedAnims_Gulpin,
+    [SPECIES_BURAIMON] = sUnusedAnims_Buraimon,
     [SPECIES_BURGERMON_CHAMPION] = sUnusedAnims_Swalot,
     [SPECIES_ELEPHANMON] = sUnusedAnims_Tropius,
     [SPECIES_BAOHUCKMON] = sUnusedAnims_Baohuckmon,

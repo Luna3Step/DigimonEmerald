@@ -579,14 +579,14 @@ gTV3CheersForPokeblocksText00::
 	.string "Today, we examine the {POKEBLOCK} blended\n"
 	.string "by {STR_VAR_1} and associates.\p"
 	.string "Without any delay, let me feed it\n"
-	.string "to my gourmet POKéMON GULPIN.\p"
+	.string "to my gourmet POKéMON BURAIMON.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
 gTV3CheersForPokeblocksText01::
-	.string "GULPIN: Gubi! Gubii!\p"
+	.string "BURAIMON: Gubi! Gubii!\p"
 	.string "MC: And the verdict is very {STR_VAR_1}!\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
+	.string "BURAIMON says it tastes “{STR_VAR_2}!”\p"
 	.string "Thank you so much, {STR_VAR_3}!$"
 
 gTV3CheersForPokeblocksText02::
@@ -596,9 +596,9 @@ gTV3CheersForPokeblocksText02::
 	.string "the {POKEBLOCK} would be much tastier.$"
 
 gTV3CheersForPokeblocksText03::
-	.string "GULPIN: Gubi! Gubii!\p"
+	.string "BURAIMON: Gubi! Gubii!\p"
 	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
+	.string "BURAIMON says it tastes “{STR_VAR_2}!”\p"
 	.string "It looks like {STR_VAR_3}'s errors\n"
 	.string "hurt the blending quality…$"
 

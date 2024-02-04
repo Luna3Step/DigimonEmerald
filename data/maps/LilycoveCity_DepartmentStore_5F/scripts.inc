@@ -40,7 +40,7 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
 	.2byte DECOR_BIOSTEGMON_DOLL
 	.2byte DECOR_BIRDRAMON_DOLL
 	.2byte DECOR_SWABLU_DOLL
-	.2byte DECOR_GULPIN_DOLL
+	.2byte DECOR_BURAIMON_DOLL
 	.2byte DECOR_NONE
 	release
 	end

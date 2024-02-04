@@ -165,7 +165,7 @@
 #define OBJ_EVENT_GFX_BIOSTEGMON_DOLL               161
 #define OBJ_EVENT_GFX_BIRDRAMON_DOLL                162
 #define OBJ_EVENT_GFX_SWABLU_DOLL                163
-#define OBJ_EVENT_GFX_GULPIN_DOLL                164
+#define OBJ_EVENT_GFX_BURAIMON_DOLL                164
 #define OBJ_EVENT_GFX_ZUBAMON_DOLL                 165
 #define OBJ_EVENT_GFX_AIRDRAMON_DOLL                166
 #define OBJ_EVENT_GFX_PIKA_CUSHION               167

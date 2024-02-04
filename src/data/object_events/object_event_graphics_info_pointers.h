@@ -162,7 +162,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BiostegmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirdramonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BuraimonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZubamonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AirdramonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikaCushion;
@@ -411,7 +411,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIOSTEGMON_DOLL] =             &gObjectEventGraphicsInfo_BiostegmonDoll,
     [OBJ_EVENT_GFX_BIRDRAMON_DOLL] =              &gObjectEventGraphicsInfo_BirdramonDoll,
     [OBJ_EVENT_GFX_SWABLU_DOLL] =              &gObjectEventGraphicsInfo_SwabluDoll,
-    [OBJ_EVENT_GFX_GULPIN_DOLL] =              &gObjectEventGraphicsInfo_GulpinDoll,
+    [OBJ_EVENT_GFX_BURAIMON_DOLL] =              &gObjectEventGraphicsInfo_BuraimonDoll,
     [OBJ_EVENT_GFX_ZUBAMON_DOLL] =               &gObjectEventGraphicsInfo_ZubamonDoll,
     [OBJ_EVENT_GFX_AIRDRAMON_DOLL] =              &gObjectEventGraphicsInfo_AirdramonDoll,
     [OBJ_EVENT_GFX_PIKA_CUSHION] =             &gObjectEventGraphicsInfo_PikaCushion,

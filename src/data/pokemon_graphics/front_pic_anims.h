@@ -4010,7 +4010,7 @@ static const union AnimCmd sAnim_Baboonmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Gulpin_1[] =
+static const union AnimCmd sAnim_Buraimon_1[] =
 {
     ANIMCMD_FRAME(0, 14),
     ANIMCMD_FRAME(0, 14),
@@ -5173,7 +5173,7 @@ SINGLE_ANIMATION(Bullmon);
 SINGLE_ANIMATION(Aurumon);
 SINGLE_ANIMATION(Axemon);
 SINGLE_ANIMATION(Baboonmon);
-SINGLE_ANIMATION(Gulpin);
+SINGLE_ANIMATION(Buraimon);
 SINGLE_ANIMATION(Swalot);
 SINGLE_ANIMATION(Tropius);
 SINGLE_ANIMATION(Baohuckmon);
@@ -5621,7 +5621,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_AURUMON]     = sAnims_Aurumon,
     [SPECIES_AXEMON]    = sAnims_Axemon,
     [SPECIES_BABOONMON]     = sAnims_Baboonmon,
-    [SPECIES_BURAIMON]      = sAnims_Gulpin,
+    [SPECIES_BURAIMON]      = sAnims_Buraimon,
     [SPECIES_BURGERMON_CHAMPION]      = sAnims_Swalot,
     [SPECIES_ELEPHANMON]     = sAnims_Tropius,
     [SPECIES_BAOHUCKMON]     = sAnims_Baohuckmon,

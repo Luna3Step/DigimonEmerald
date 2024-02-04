@@ -3133,7 +3133,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BuraimonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3148,7 +3148,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll = {
     .oam = &gObjectEventBaseOam_16x16,
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_GulpinDoll,
+    .images = sPicTable_BuraimonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

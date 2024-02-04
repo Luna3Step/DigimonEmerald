@@ -1643,8 +1643,8 @@ Cry_Blgaogamon::
 	.incbin "sound/direct_sound_samples/cries/blgaogamon.bin"
 
 	.align 2
-Cry_Gulpin::
-	.incbin "sound/direct_sound_samples/cries/gulpin.bin"
+Cry_Buraimon::
+	.incbin "sound/direct_sound_samples/cries/buraimon.bin"
 
 	.align 2
 Cry_Swalot::
