@@ -2130,12 +2130,12 @@ const u32 gMonShinyPalette_Milotic[] = INCBIN_U32("graphics/pokemon/milotic/shin
 const u8 gMonIcon_Milotic[] = INCBIN_U8("graphics/pokemon/milotic/icon.4bpp");
 const u8 gMonFootprint_Milotic[] = INCBIN_U8("graphics/pokemon/milotic/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Carvanha[] = INCBIN_U32("graphics/pokemon/carvanha/front.4bpp.lz");
-const u32 gMonPalette_Carvanha[] = INCBIN_U32("graphics/pokemon/carvanha/normal.gbapal.lz");
-const u32 gMonBackPic_Carvanha[] = INCBIN_U32("graphics/pokemon/carvanha/back.4bpp.lz");
-const u32 gMonShinyPalette_Carvanha[] = INCBIN_U32("graphics/pokemon/carvanha/shiny.gbapal.lz");
-const u8 gMonIcon_Carvanha[] = INCBIN_U8("graphics/pokemon/carvanha/icon.4bpp");
-const u8 gMonFootprint_Carvanha[] = INCBIN_U8("graphics/pokemon/carvanha/footprint.1bpp");
+const u32 gMonStillFrontPic_Chouflymon[] = INCBIN_U32("graphics/pokemon/chouflymon/front.4bpp.lz");
+const u32 gMonPalette_Chouflymon[] = INCBIN_U32("graphics/pokemon/chouflymon/normal.gbapal.lz");
+const u32 gMonBackPic_Chouflymon[] = INCBIN_U32("graphics/pokemon/chouflymon/back.4bpp.lz");
+const u32 gMonShinyPalette_Chouflymon[] = INCBIN_U32("graphics/pokemon/chouflymon/shiny.gbapal.lz");
+const u8 gMonIcon_Chouflymon[] = INCBIN_U8("graphics/pokemon/chouflymon/icon.4bpp");
+const u8 gMonFootprint_Chouflymon[] = INCBIN_U8("graphics/pokemon/chouflymon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/front.4bpp.lz");
 const u32 gMonPalette_Sharpedo[] = INCBIN_U32("graphics/pokemon/sharpedo/normal.gbapal.lz");

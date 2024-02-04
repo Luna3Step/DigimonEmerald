@@ -475,13 +475,13 @@ static const union AnimCmd sUnusedAnim_Milotic_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Carvanha_1[] =
+static const union AnimCmd sUnusedAnim_Chouflymon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Carvanha_2[] =
+static const union AnimCmd sUnusedAnim_Chouflymon_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
@@ -1269,7 +1269,7 @@ static const union AnimCmd *const sUnusedAnims_Corphish[] = {sAnim_GeneralFrame0
 static const union AnimCmd *const sUnusedAnims_Crawdaunt[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Feebas[] = {sAnim_GeneralFrame0, sUnusedAnim_Feebas_1, sUnusedAnim_Feebas_2};
 static const union AnimCmd *const sUnusedAnims_Milotic[] = {sAnim_GeneralFrame0, sUnusedAnim_Milotic_1, sUnusedAnim_Milotic_2};
-static const union AnimCmd *const sUnusedAnims_Carvanha[] = {sAnim_GeneralFrame0, sUnusedAnim_Carvanha_1, sUnusedAnim_Carvanha_2};
+static const union AnimCmd *const sUnusedAnims_Chouflymon[] = {sAnim_GeneralFrame0, sUnusedAnim_Chouflymon_1, sUnusedAnim_Chouflymon_2};
 static const union AnimCmd *const sUnusedAnims_Sharpedo[] = {sAnim_GeneralFrame0, sUnusedAnim_Sharpedo_1, sUnusedAnim_Sharpedo_2};
 static const union AnimCmd *const sUnusedAnims_Trapinch[] = {sAnim_GeneralFrame0, sUnusedAnim_Trapinch_1};
 static const union AnimCmd *const sUnusedAnims_Vibrava[] = {sAnim_GeneralFrame0, sUnusedAnim_Vibrava_1};
@@ -1711,7 +1711,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_DEVIMON] = sUnusedAnims_Crawdaunt,
     [SPECIES_DOGGYMON] = sUnusedAnims_Feebas,
     [SPECIES_DOKUGUMON] = sUnusedAnims_Milotic,
-    [SPECIES_CHOUFLYMON] = sUnusedAnims_Carvanha,
+    [SPECIES_CHOUFLYMON] = sUnusedAnims_Chouflymon,
     [SPECIES_CENTARUMON] = sUnusedAnims_Sharpedo,
     [SPECIES_COREDRAMON_GREEN] = sUnusedAnims_Trapinch,
     [SPECIES_CYCLONEMON] = sUnusedAnims_Vibrava,

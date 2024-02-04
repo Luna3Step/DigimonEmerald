@@ -1543,8 +1543,8 @@ Cry_Allomon::
 	.incbin "sound/direct_sound_samples/cries/allomon.bin"
 
 	.align 2
-Cry_Carvanha::
-	.incbin "sound/direct_sound_samples/cries/carvanha.bin"
+Cry_Chouflymon::
+	.incbin "sound/direct_sound_samples/cries/chouflymon.bin"
 
 	.align 2
 Cry_Veemon::

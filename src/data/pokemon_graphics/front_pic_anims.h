@@ -3561,7 +3561,7 @@ static const union AnimCmd sAnim_Milotic_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Carvanha_1[] =
+static const union AnimCmd sAnim_Chouflymon_1[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(0, 6),
@@ -5136,7 +5136,7 @@ SINGLE_ANIMATION(Corphish);
 SINGLE_ANIMATION(Crawdaunt);
 SINGLE_ANIMATION(Feebas);
 SINGLE_ANIMATION(Milotic);
-SINGLE_ANIMATION(Carvanha);
+SINGLE_ANIMATION(Chouflymon);
 SINGLE_ANIMATION(Sharpedo);
 SINGLE_ANIMATION(Trapinch);
 SINGLE_ANIMATION(Vibrava);
@@ -5584,7 +5584,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DEVIMON]   = sAnims_Crawdaunt,
     [SPECIES_DOGGYMON]      = sAnims_Feebas,
     [SPECIES_DOKUGUMON]     = sAnims_Milotic,
-    [SPECIES_CHOUFLYMON]    = sAnims_Carvanha,
+    [SPECIES_CHOUFLYMON]    = sAnims_Chouflymon,
     [SPECIES_CENTARUMON]    = sAnims_Sharpedo,
     [SPECIES_COREDRAMON_GREEN]    = sAnims_Trapinch,
     [SPECIES_CYCLONEMON]     = sAnims_Vibrava,

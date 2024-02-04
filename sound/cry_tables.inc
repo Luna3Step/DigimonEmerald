@@ -289,7 +289,7 @@ gCryTable::
 	cry Cry_Airdramon
 	cry Cry_Akatorimon
 	cry Cry_Allomon
-	cry Cry_Carvanha
+	cry Cry_Chouflymon
 	cry Cry_Veemon
 	cry Cry_Vemmon
 	cry Cry_Vorvomon
@@ -680,7 +680,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Airdramon
 	cry_reverse Cry_Akatorimon
 	cry_reverse Cry_Allomon
-	cry_reverse Cry_Carvanha
+	cry_reverse Cry_Chouflymon
 	cry_reverse Cry_Veemon
 	cry_reverse Cry_Vemmon
 	cry_reverse Cry_Vorvomon
