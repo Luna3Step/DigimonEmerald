@@ -2256,12 +2256,12 @@ const u32 gMonShinyPalette_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/shiny.
 const u8 gMonIcon_Glalie[] = INCBIN_U8("graphics/pokemon/glalie/icon.4bpp");
 const u8 gMonFootprint_Glalie[] = INCBIN_U8("graphics/pokemon/glalie/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Lunatone[] = INCBIN_U32("graphics/pokemon/lunatone/front.4bpp.lz");
-const u32 gMonPalette_Lunatone[] = INCBIN_U32("graphics/pokemon/lunatone/normal.gbapal.lz");
-const u32 gMonBackPic_Lunatone[] = INCBIN_U32("graphics/pokemon/lunatone/back.4bpp.lz");
-const u32 gMonShinyPalette_Lunatone[] = INCBIN_U32("graphics/pokemon/lunatone/shiny.gbapal.lz");
-const u8 gMonIcon_Lunatone[] = INCBIN_U8("graphics/pokemon/lunatone/icon.4bpp");
-const u8 gMonFootprint_Lunatone[] = INCBIN_U8("graphics/pokemon/lunatone/footprint.1bpp");
+const u32 gMonStillFrontPic_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/front.4bpp.lz");
+const u32 gMonPalette_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/normal.gbapal.lz");
+const u32 gMonBackPic_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/back.4bpp.lz");
+const u32 gMonShinyPalette_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/shiny.gbapal.lz");
+const u8 gMonIcon_Deckdramon[] = INCBIN_U8("graphics/pokemon/deckdramon/icon.4bpp");
+const u8 gMonFootprint_Deckdramon[] = INCBIN_U8("graphics/pokemon/deckdramon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Solrock[] = INCBIN_U32("graphics/pokemon/solrock/front.4bpp.lz");
 const u32 gMonPalette_Solrock[] = INCBIN_U32("graphics/pokemon/solrock/normal.gbapal.lz");

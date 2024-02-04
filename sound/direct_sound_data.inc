@@ -1711,8 +1711,8 @@ Cry_Claydol::
 	.incbin "sound/direct_sound_samples/cries/claydol.bin"
 
 	.align 2
-Cry_Lunatone::
-	.incbin "sound/direct_sound_samples/cries/lunatone.bin"
+Cry_Deckdramon::
+	.incbin "sound/direct_sound_samples/cries/deckdramon.bin"
 
 	.align 2
 Cry_Solrock::

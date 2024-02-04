@@ -3767,7 +3767,7 @@ static const union AnimCmd sAnim_Glalie_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Lunatone_1[] =
+static const union AnimCmd sAnim_Deckdramon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 20),
@@ -3777,7 +3777,7 @@ static const union AnimCmd sAnim_Lunatone_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Lunatone_2[] =
+static const union AnimCmd sAnim_Deckdramon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5154,7 +5154,7 @@ SINGLE_ANIMATION(Darcmon);
 SINGLE_ANIMATION(Trailmon_dark);
 SINGLE_ANIMATION(Snorunt);
 SINGLE_ANIMATION(Glalie);
-DOUBLE_ANIMATION(Lunatone);
+DOUBLE_ANIMATION(Deckdramon);
 DOUBLE_ANIMATION(Solrock);
 SINGLE_ANIMATION(Biostegmon);
 SINGLE_ANIMATION(Clockmon_fusion);
@@ -5602,7 +5602,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_TRAILMON_DARK]    = sAnims_Trailmon_dark,
     [SPECIES_EXVEEMON_VIRUS]     = sAnims_Snorunt,
     [SPECIES_EYESMON]      = sAnims_Glalie,
-    [SPECIES_DECKDRAMON]    = sAnims_Lunatone,
+    [SPECIES_DECKDRAMON]    = sAnims_Deckdramon,
     [SPECIES_DELTAMON]     = sAnims_Solrock,
     [SPECIES_BIOSTEGMON]     = sAnims_Biostegmon,
     [SPECIES_CLOCKMON_FUSION]      = sAnims_Clockmon_fusion,
