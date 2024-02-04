@@ -1423,8 +1423,8 @@ Cry_Wynaut::
 	.incbin "sound/direct_sound_samples/cries/wynaut.bin"
 
 	.align 2
-Cry_Seviper::
-	.incbin "sound/direct_sound_samples/cries/seviper.bin"
+Cry_Darktyrmon_x::
+	.incbin "sound/direct_sound_samples/cries/darktyrmon_x.bin"
 
 	.align 2
 Cry_Centarumon::

@@ -259,7 +259,7 @@ gCryTable::
 	cry Cry_Duskull
 	cry Cry_Latias
 	cry Cry_Wynaut
-	cry Cry_Seviper
+	cry Cry_Darktyrmon_x
 	cry Cry_Centarumon
 	cry Cry_Darktyrmon
 	cry Cry_Biostegmon
@@ -650,7 +650,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Duskull
 	cry_reverse Cry_Latias
 	cry_reverse Cry_Wynaut
-	cry_reverse Cry_Seviper
+	cry_reverse Cry_Darktyrmon_x
 	cry_reverse Cry_Centarumon
 	cry_reverse Cry_Darktyrmon
 	cry_reverse Cry_Biostegmon
