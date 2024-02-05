@@ -4549,7 +4549,7 @@ static const union AnimCmd sAnim_Geremon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Deoxys_1[] =
+static const union AnimCmd sAnim_Gesomon_1[] =
 {
     ANIMCMD_FRAME(0, 16),
     ANIMCMD_FRAME(0, 16),
@@ -4559,7 +4559,7 @@ static const union AnimCmd sAnim_Deoxys_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Deoxys_2[] =
+static const union AnimCmd sAnim_Gesomon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5221,7 +5221,7 @@ DOUBLE_ANIMATION(Geogreymon);
 DOUBLE_ANIMATION(Garurumon_x);
 DOUBLE_ANIMATION(Gatomon);
 DOUBLE_ANIMATION(Geremon);
-DOUBLE_ANIMATION(Deoxys);
+DOUBLE_ANIMATION(Gesomon);
 SINGLE_ANIMATION(Eosmon_champion);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
@@ -5664,7 +5664,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GARURUMON_X]      = sAnims_Garurumon_x,
     [SPECIES_GATOMON]      = sAnims_Gatomon,
     [SPECIES_GEREMON]     = sAnims_Geremon,
-    [SPECIES_GESOMON]      = sAnims_Deoxys,
+    [SPECIES_GESOMON]      = sAnims_Gesomon,
     [SPECIES_EOSMON_CHAMPION]    = sAnims_Eosmon_champion,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,

@@ -119,9 +119,9 @@ static void ScrollableMultichoice_RemoveScrollArrows(u8);
 static void Task_ScrollableMultichoice_WaitReturnToList(u8);
 static void Task_ScrollableMultichoice_ReturnToList(u8);
 static void ShowFrontierExchangeCornerItemIcon(u16);
-static void Task_DeoxysRockInteraction(u8);
-static void ChangeDeoxysRockLevel(u8);
-static void WaitForDeoxysRockMovement(u8);
+static void Task_GesomonRockInteraction(u8);
+static void ChangeGesomonRockLevel(u8);
+static void WaitForGesomonRockMovement(u8);
 static void Task_LinkRetireStatusWithBattleTowerPartner(u8);
 static void Task_LoopWingFlapSE(u8);
 static void Task_CloseBattlePikeCurtain(u8);
@@ -3189,26 +3189,26 @@ void ScrollableMultichoice_ClosePersistentMenu(void)
 #undef tListTaskId
 #undef tTaskId
 
-void DoDeoxysRockInteraction(void)
+void DoGesomonRockInteraction(void)
 {
-    CreateTask(Task_DeoxysRockInteraction, 8);
+    CreateTask(Task_GesomonRockInteraction, 8);
 }
 
-static const u16 sDeoxysRockPalettes[][16] = {
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_1.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_2.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_3.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_4.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_5.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_6.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_7.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_8.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_9.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_10.gbapal"),
-    INCBIN_U16("graphics/field_effects/palettes/deoxys_rock_11.gbapal"),
+static const u16 sGesomonRockPalettes[][16] = {
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_1.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_2.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_3.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_4.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_5.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_6.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_7.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_8.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_9.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_10.gbapal"),
+    INCBIN_U16("graphics/field_effects/palettes/gesomon_rock_11.gbapal"),
 };
 
-static const u8 sDeoxysRockCoords[][2] = {
+static const u8 sGesomonRockCoords[][2] = {
     { 15, 12 },
     { 11, 14 },
     { 15,  8 },
@@ -3222,11 +3222,11 @@ static const u8 sDeoxysRockCoords[][2] = {
     { 15, 10 },
 };
 
-static void Task_DeoxysRockInteraction(u8 taskId)
+static void Task_GesomonRockInteraction(u8 taskId)
 {
     static const u8 sStoneMaxStepCounts[] = { 4, 8, 8, 8, 4, 4, 4, 6, 3, 3 };
 
-    if (FlagGet(FLAG_DEOXYS_ROCK_COMPLETE) == TRUE)
+    if (FlagGet(FLAG_GESOMON_ROCK_COMPLETE) == TRUE)
     {
         gSpecialVar_Result = 3;
         ScriptContext_Enable();
@@ -3234,21 +3234,21 @@ static void Task_DeoxysRockInteraction(u8 taskId)
     }
     else
     {
-        u16 rockLevel = VarGet(VAR_DEOXYS_ROCK_LEVEL);
-        u16 stepCount = VarGet(VAR_DEOXYS_ROCK_STEP_COUNT);
+        u16 rockLevel = VarGet(VAR_GESOMON_ROCK_LEVEL);
+        u16 stepCount = VarGet(VAR_GESOMON_ROCK_STEP_COUNT);
 
-        VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, 0);
+        VarSet(VAR_GESOMON_ROCK_STEP_COUNT, 0);
         if (rockLevel != 0 && sStoneMaxStepCounts[rockLevel - 1] < stepCount)
         {
             // Player failed to take the shortest path to the stone, so it resets.
-            ChangeDeoxysRockLevel(0);
-            VarSet(VAR_DEOXYS_ROCK_LEVEL, 0);
+            ChangeGesomonRockLevel(0);
+            VarSet(VAR_GESOMON_ROCK_LEVEL, 0);
             gSpecialVar_Result = 0;
             DestroyTask(taskId);
         }
         else if (rockLevel == 10)
         {
-            FlagSet(FLAG_DEOXYS_ROCK_COMPLETE);
+            FlagSet(FLAG_GESOMON_ROCK_COMPLETE);
             gSpecialVar_Result = 2;
             ScriptContext_Enable();
             DestroyTask(taskId);
@@ -3256,18 +3256,18 @@ static void Task_DeoxysRockInteraction(u8 taskId)
         else
         {
             rockLevel++;
-            ChangeDeoxysRockLevel(rockLevel);
-            VarSet(VAR_DEOXYS_ROCK_LEVEL, rockLevel);
+            ChangeGesomonRockLevel(rockLevel);
+            VarSet(VAR_GESOMON_ROCK_LEVEL, rockLevel);
             gSpecialVar_Result = 1;
             DestroyTask(taskId);
         }
     }
 }
 
-static void ChangeDeoxysRockLevel(u8 rockLevel)
+static void ChangeGesomonRockLevel(u8 rockLevel)
 {
     u8 objectEventId;
-    LoadPalette(&sDeoxysRockPalettes[rockLevel], 0x1A0, 8);
+    LoadPalette(&sGesomonRockPalettes[rockLevel], 0x1A0, 8);
     TryGetObjectEventIdByLocalIdAndMap(LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, &objectEventId);
 
     if (rockLevel == 0)
@@ -3275,25 +3275,25 @@ static void ChangeDeoxysRockLevel(u8 rockLevel)
     else
         PlaySE(SE_RG_DEOXYS_MOVE);
 
-    CreateTask(WaitForDeoxysRockMovement, 8);
+    CreateTask(WaitForGesomonRockMovement, 8);
     gFieldEffectArguments[0] = LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK;
     gFieldEffectArguments[1] = MAP_NUM(BIRTH_ISLAND_EXTERIOR);
     gFieldEffectArguments[2] = MAP_GROUP(BIRTH_ISLAND_EXTERIOR);
-    gFieldEffectArguments[3] = sDeoxysRockCoords[rockLevel][0];
-    gFieldEffectArguments[4] = sDeoxysRockCoords[rockLevel][1];
+    gFieldEffectArguments[3] = sGesomonRockCoords[rockLevel][0];
+    gFieldEffectArguments[4] = sGesomonRockCoords[rockLevel][1];
 
     if (rockLevel == 0)
         gFieldEffectArguments[5] = 60;
     else
         gFieldEffectArguments[5] = 5;
 
-    FieldEffectStart(FLDEFF_MOVE_DEOXYS_ROCK);
-    SetObjEventTemplateCoords(LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK, sDeoxysRockCoords[rockLevel][0], sDeoxysRockCoords[rockLevel][1]);
+    FieldEffectStart(FLDEFF_MOVE_GESOMON_ROCK);
+    SetObjEventTemplateCoords(LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK, sGesomonRockCoords[rockLevel][0], sGesomonRockCoords[rockLevel][1]);
 }
 
-static void WaitForDeoxysRockMovement(u8 taskId)
+static void WaitForGesomonRockMovement(u8 taskId)
 {
-    if (FieldEffectActiveListContains(FLDEFF_MOVE_DEOXYS_ROCK) == FALSE)
+    if (FieldEffectActiveListContains(FLDEFF_MOVE_GESOMON_ROCK) == FALSE)
     {
         ScriptContext_Enable();
         DestroyTask(taskId);
@@ -3302,20 +3302,20 @@ static void WaitForDeoxysRockMovement(u8 taskId)
 
 void IncrementBirthIslandRockStepCount(void)
 {
-    u16 var = VarGet(VAR_DEOXYS_ROCK_STEP_COUNT);
+    u16 var = VarGet(VAR_GESOMON_ROCK_STEP_COUNT);
     if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BIRTH_ISLAND_EXTERIOR) && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(BIRTH_ISLAND_EXTERIOR))
     {
         var++;
         if (var > 99)
-            VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, 0);
+            VarSet(VAR_GESOMON_ROCK_STEP_COUNT, 0);
         else
-            VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, var);
+            VarSet(VAR_GESOMON_ROCK_STEP_COUNT, var);
     }
 }
 
-void SetDeoxysRockPalette(void)
+void SetGesomonRockPalette(void)
 {
-    LoadPalette(&sDeoxysRockPalettes[(u8)VarGet(VAR_DEOXYS_ROCK_LEVEL)], 0x1A0, 8);
+    LoadPalette(&sGesomonRockPalettes[(u8)VarGet(VAR_GESOMON_ROCK_LEVEL)], 0x1A0, 8);
     BlendPalettes(0x04000000, 16, 0);
 }
 

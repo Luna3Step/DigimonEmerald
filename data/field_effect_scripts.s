@@ -70,8 +70,8 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_HallOfFameRecord          @ FLDEFF_HALL_OF_FAME_RECORD
 	.4byte gFieldEffectScript_UseTeleport               @ FLDEFF_USE_TELEPORT
 	.4byte gFieldEffectScript_GeogreymonSpotlight         @ FLDEFF_GEOGREYMON_SPOTLIGHT
-	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
-	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
+	.4byte gFieldEffectScript_DestroyGesomonRock         @ FLDEFF_DESTROY_GESOMON_ROCK
+	.4byte gFieldEffectScript_MoveGesomonRock            @ FLDEFF_MOVE_GESOMON_ROCK
 
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon
@@ -336,10 +336,10 @@ gFieldEffectScript_GeogreymonSpotlight::
 	field_eff_callnative FldEff_GeogreymonSpotlight
 	field_eff_end
 
-gFieldEffectScript_DestroyDeoxysRock::
-	field_eff_callnative FldEff_DestroyDeoxysRock
+gFieldEffectScript_DestroyGesomonRock::
+	field_eff_callnative FldEff_DestroyGesomonRock
 	field_eff_end
 
-gFieldEffectScript_MoveDeoxysRock::
-	field_eff_callnative FldEff_MoveDeoxysRock
+gFieldEffectScript_MoveGesomonRock::
+	field_eff_callnative FldEff_MoveGesomonRock
 	field_eff_end

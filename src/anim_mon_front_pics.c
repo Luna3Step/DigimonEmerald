@@ -390,7 +390,7 @@ const u32 gMonFrontPic_Geogreymon[] = INCBIN_U32("graphics/pokemon/geogreymon/an
 const u32 gMonFrontPic_Garurumon_x[] = INCBIN_U32("graphics/pokemon/garurumon_x/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Gatomon[] = INCBIN_U32("graphics/pokemon/gatomon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Geremon[] = INCBIN_U32("graphics/pokemon/geremon/anim_front.4bpp.lz");
-const u32 gMonFrontPic_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Gesomon[] = INCBIN_U32("graphics/pokemon/gesomon/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/anim_front.4bpp.lz");
 
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");

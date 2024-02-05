@@ -222,14 +222,14 @@ static void FlyInFieldEffect_BirdReturnToBall(struct Task *);
 static void FlyInFieldEffect_WaitBirdReturn(struct Task *);
 static void FlyInFieldEffect_End(struct Task *);
 
-static void Task_DestroyDeoxysRock(u8 taskId);
-static void DestroyDeoxysRockEffect_CameraShake(s16 *, u8);
-static void DestroyDeoxysRockEffect_RockFragments(s16 *, u8);
-static void DestroyDeoxysRockEffect_WaitAndEnd(s16 *, u8);
-static void CreateDeoxysRockFragments(struct Sprite *);
-static void SpriteCB_DeoxysRockFragment(struct Sprite *sprite);
+static void Task_DestroyGesomonRock(u8 taskId);
+static void DestroyGesomonRockEffect_CameraShake(s16 *, u8);
+static void DestroyGesomonRockEffect_RockFragments(s16 *, u8);
+static void DestroyGesomonRockEffect_WaitAndEnd(s16 *, u8);
+static void CreateGesomonRockFragments(struct Sprite *);
+static void SpriteCB_GesomonRockFragment(struct Sprite *sprite);
 
-static void Task_MoveDeoxysRock(u8 taskId);
+static void Task_MoveGesomonRock(u8 taskId);
 
 // Static RAM declarations
 
@@ -266,10 +266,10 @@ static const u16 sFieldMoveStreaksIndoors_Tilemap[320] = INCBIN_U16("graphics/fi
 
 static const u16 sSpotlight_Pal[16] = INCBIN_U16("graphics/field_effects/pics/spotlight.gbapal");
 static const u8 sSpotlight_Gfx[] = INCBIN_U8("graphics/field_effects/pics/spotlight.4bpp");
-static const u8 sRockFragment_TopLeft[] = INCBIN_U8("graphics/field_effects/pics/deoxys_rock_fragment_top_left.4bpp");
-static const u8 sRockFragment_TopRight[] = INCBIN_U8("graphics/field_effects/pics/deoxys_rock_fragment_top_right.4bpp");
-static const u8 sRockFragment_BottomLeft[] = INCBIN_U8("graphics/field_effects/pics/deoxys_rock_fragment_bottom_left.4bpp");
-static const u8 sRockFragment_BottomRight[] = INCBIN_U8("graphics/field_effects/pics/deoxys_rock_fragment_bottom_right.4bpp");
+static const u8 sRockFragment_TopLeft[] = INCBIN_U8("graphics/field_effects/pics/gesomon_rock_fragment_top_left.4bpp");
+static const u8 sRockFragment_TopRight[] = INCBIN_U8("graphics/field_effects/pics/gesomon_rock_fragment_top_right.4bpp");
+static const u8 sRockFragment_BottomLeft[] = INCBIN_U8("graphics/field_effects/pics/gesomon_rock_fragment_bottom_left.4bpp");
+static const u8 sRockFragment_BottomRight[] = INCBIN_U8("graphics/field_effects/pics/gesomon_rock_fragment_bottom_right.4bpp");
 
 bool8 (*const gFieldEffectScriptFuncs[])(u8 **, u32 *) =
 {
@@ -914,7 +914,7 @@ u8 AddNewGameBirchObject(s16 x, s16 y, u8 subpriority)
 
 u8 CreateMonSprite_PicBox(u16 species, s16 x, s16 y, u8 subpriority)
 {
-    s32 spriteId = CreateMonPicSprite_HandleDeoxys(species, 0, 0x8000, TRUE, x, y, 0, gMonPaletteTable[species].tag);
+    s32 spriteId = CreateMonPicSprite_HandleGesomon(species, 0, 0x8000, TRUE, x, y, 0, gMonPaletteTable[species].tag);
     PreservePaletteInWeather(IndexOfSpritePaletteTag(gMonPaletteTable[species].tag) + 0x10);
     if (spriteId == 0xFFFF)
         return MAX_SPRITES;
@@ -925,7 +925,7 @@ u8 CreateMonSprite_PicBox(u16 species, s16 x, s16 y, u8 subpriority)
 u8 CreateMonSprite_FieldMove(u16 species, u32 otId, u32 personality, s16 x, s16 y, u8 subpriority)
 {
     const struct CompressedSpritePalette *spritePalette = GetMonSpritePalStructFromOtIdPersonality(species, otId, personality);
-    u16 spriteId = CreateMonPicSprite_HandleDeoxys(species, otId, personality, TRUE, x, y, 0, spritePalette->tag);
+    u16 spriteId = CreateMonPicSprite_HandleGesomon(species, otId, personality, TRUE, x, y, 0, spritePalette->tag);
     PreservePaletteInWeather(IndexOfSpritePaletteTag(spritePalette->tag) + 0x10);
     if (spriteId == 0xFFFF)
         return MAX_SPRITES;
@@ -3618,13 +3618,13 @@ static void FlyInFieldEffect_End(struct Task *task)
 #define tMapNum        data[7]
 #define tMapGroup      data[8]
 
-bool8 FldEff_DestroyDeoxysRock(void)
+bool8 FldEff_DestroyGesomonRock(void)
 {
     u8 taskId;
     u8 objectEventId;
     if (!TryGetObjectEventIdByLocalIdAndMap(gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2], &objectEventId))
     {
-        taskId = CreateTask(Task_DestroyDeoxysRock, 80);
+        taskId = CreateTask(Task_DestroyGesomonRock, 80);
         gTasks[taskId].tObjectEventId = objectEventId;
         gTasks[taskId].tLocalId = gFieldEffectArguments[0];
         gTasks[taskId].tMapNum = gFieldEffectArguments[1];
@@ -3632,7 +3632,7 @@ bool8 FldEff_DestroyDeoxysRock(void)
     }
     else
     {
-        FieldEffectActiveListRemove(FLDEFF_DESTROY_DEOXYS_ROCK);
+        FieldEffectActiveListRemove(FLDEFF_DESTROY_GESOMON_ROCK);
     }
     return FALSE;
 }
@@ -3643,7 +3643,7 @@ bool8 FldEff_DestroyDeoxysRock(void)
 #define tEndDelay   data[6]
 #define tEnding     data[7]
 
-static void Task_DeoxysRockCameraShake(u8 taskId)
+static void Task_GesomonRockCameraShake(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     if (tEnding)
@@ -3674,7 +3674,7 @@ static void Task_DeoxysRockCameraShake(u8 taskId)
         DestroyTask(taskId);
 }
 
-static void StartEndingDeoxysRockCameraShake(u8 taskId)
+static void StartEndingGesomonRockCameraShake(u8 taskId)
 {
     gTasks[taskId].tEnding = TRUE;
 }
@@ -3685,29 +3685,29 @@ static void StartEndingDeoxysRockCameraShake(u8 taskId)
 #undef tEndDelay
 #undef tEnding
 
-static void (*const sDestroyDeoxysRockEffectFuncs[])(s16 *, u8) = {
-    DestroyDeoxysRockEffect_CameraShake,
-    DestroyDeoxysRockEffect_RockFragments,
-    DestroyDeoxysRockEffect_WaitAndEnd,
+static void (*const sDestroyGesomonRockEffectFuncs[])(s16 *, u8) = {
+    DestroyGesomonRockEffect_CameraShake,
+    DestroyGesomonRockEffect_RockFragments,
+    DestroyGesomonRockEffect_WaitAndEnd,
 };
 
-static void Task_DestroyDeoxysRock(u8 taskId)
+static void Task_DestroyGesomonRock(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     InstallCameraPanAheadCallback();
     SetCameraPanningCallback(0);
-    sDestroyDeoxysRockEffectFuncs[tState](data, taskId);
+    sDestroyGesomonRockEffectFuncs[tState](data, taskId);
 }
 
-static void DestroyDeoxysRockEffect_CameraShake(s16 *data, u8 taskId)
+static void DestroyGesomonRockEffect_CameraShake(s16 *data, u8 taskId)
 {
-    u8 newTaskId = CreateTask(Task_DeoxysRockCameraShake, 90);
+    u8 newTaskId = CreateTask(Task_GesomonRockCameraShake, 90);
     PlaySE(SE_THUNDER2);
     tCameraTaskId = newTaskId;
     tState++;
 }
 
-static void DestroyDeoxysRockEffect_RockFragments(s16 *data, u8 taskId)
+static void DestroyGesomonRockEffect_RockFragments(s16 *data, u8 taskId)
 {
     if (++tTimer > 120)
     {
@@ -3715,21 +3715,21 @@ static void DestroyDeoxysRockEffect_RockFragments(s16 *data, u8 taskId)
         gObjectEvents[tObjectEventId].invisible = TRUE;
         BlendPalettes(PALETTES_BG, 0x10, RGB_WHITE);
         BeginNormalPaletteFade(PALETTES_BG, 0, 0x10, 0, RGB_WHITE);
-        CreateDeoxysRockFragments(sprite);
+        CreateGesomonRockFragments(sprite);
         PlaySE(SE_THUNDER);
-        StartEndingDeoxysRockCameraShake(tCameraTaskId);
+        StartEndingGesomonRockCameraShake(tCameraTaskId);
         tTimer = 0;
         tState++;
     }
 }
 
-static void DestroyDeoxysRockEffect_WaitAndEnd(s16 *data, u8 taskId)
+static void DestroyGesomonRockEffect_WaitAndEnd(s16 *data, u8 taskId)
 {
-    if (!gPaletteFade.active && !FuncIsActiveTask(Task_DeoxysRockCameraShake))
+    if (!gPaletteFade.active && !FuncIsActiveTask(Task_GesomonRockCameraShake))
     {
         InstallCameraPanAheadCallback();
         RemoveObjectEventByLocalIdAndMap(tLocalId, tMapNum, tMapGroup);
-        FieldEffectActiveListRemove(FLDEFF_DESTROY_DEOXYS_ROCK);
+        FieldEffectActiveListRemove(FLDEFF_DESTROY_GESOMON_ROCK);
         DestroyTask(taskId);
     }
 }
@@ -3742,7 +3742,7 @@ static void DestroyDeoxysRockEffect_WaitAndEnd(s16 *data, u8 taskId)
 #undef tMapNum
 #undef tMapGroup
 
-static const struct SpriteFrameImage sImages_DeoxysRockFragment[] = {
+static const struct SpriteFrameImage sImages_GesomonRockFragment[] = {
     obj_frame_tiles(sRockFragment_TopLeft),
     obj_frame_tiles(sRockFragment_TopRight),
     obj_frame_tiles(sRockFragment_BottomLeft),
@@ -3769,25 +3769,25 @@ static const union AnimCmd sAnim_RockFragment_BottomRight[] = {
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_DeoxysRockFragment[] = {
+static const union AnimCmd *const sAnims_GesomonRockFragment[] = {
     sAnim_RockFragment_TopLeft,
     sAnim_RockFragment_TopRight,
     sAnim_RockFragment_BottomLeft,
     sAnim_RockFragment_BottomRight,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DeoxysRockFragment =
+static const struct SpriteTemplate sSpriteTemplate_GesomonRockFragment =
 {
     .tileTag = TAG_NONE,
     .paletteTag = 4378,
     .oam = &sOam_8x8,
-    .anims = sAnims_DeoxysRockFragment,
-    .images = sImages_DeoxysRockFragment,
+    .anims = sAnims_GesomonRockFragment,
+    .images = sImages_GesomonRockFragment,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_DeoxysRockFragment
+    .callback = SpriteCB_GesomonRockFragment
 };
 
-static void CreateDeoxysRockFragments(struct Sprite *sprite)
+static void CreateGesomonRockFragments(struct Sprite *sprite)
 {
     int i;
     int xPos = (s16)gTotalCameraPixelOffsetX + sprite->x + sprite->x2;
@@ -3795,7 +3795,7 @@ static void CreateDeoxysRockFragments(struct Sprite *sprite)
 
     for (i = 0; i < 4; i++)
     {
-        u8 spriteId = CreateSprite(&sSpriteTemplate_DeoxysRockFragment, xPos, yPos, 0);
+        u8 spriteId = CreateSprite(&sSpriteTemplate_GesomonRockFragment, xPos, yPos, 0);
         if (spriteId != MAX_SPRITES)
         {
             StartSpriteAnim(&gSprites[spriteId], i);
@@ -3805,7 +3805,7 @@ static void CreateDeoxysRockFragments(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_DeoxysRockFragment(struct Sprite *sprite)
+static void SpriteCB_GesomonRockFragment(struct Sprite *sprite)
 {
     // 1 case for each fragment, fly off in 4 different directions
     switch (sprite->data[0])
@@ -3831,7 +3831,7 @@ static void SpriteCB_DeoxysRockFragment(struct Sprite *sprite)
         DestroySprite(sprite);
 }
 
-bool8 FldEff_MoveDeoxysRock(struct Sprite *sprite)
+bool8 FldEff_MoveGesomonRock(struct Sprite *sprite)
 {
     u8 objectEventIdBuffer;
     if (!TryGetObjectEventIdByLocalIdAndMap(gFieldEffectArguments[0], gFieldEffectArguments[1], gFieldEffectArguments[2], &objectEventIdBuffer))
@@ -3845,7 +3845,7 @@ bool8 FldEff_MoveDeoxysRock(struct Sprite *sprite)
         xPos = (gFieldEffectArguments[3] - xPos) * 16;
         yPos = (gFieldEffectArguments[4] - yPos) * 16;
         ShiftObjectEventCoords(object, gFieldEffectArguments[3] + MAP_OFFSET, gFieldEffectArguments[4] + MAP_OFFSET);
-        taskId = CreateTask(Task_MoveDeoxysRock, 80);
+        taskId = CreateTask(Task_MoveGesomonRock, 80);
         gTasks[taskId].data[1] = object->spriteId;
         gTasks[taskId].data[2] = gSprites[object->spriteId].x + xPos;
         gTasks[taskId].data[3] = gSprites[object->spriteId].y + yPos;
@@ -3855,7 +3855,7 @@ bool8 FldEff_MoveDeoxysRock(struct Sprite *sprite)
     return FALSE;
 }
 
-static void Task_MoveDeoxysRock(u8 taskId)
+static void Task_MoveGesomonRock(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     struct Sprite *sprite = &gSprites[data[1]];
@@ -3883,7 +3883,7 @@ static void Task_MoveDeoxysRock(u8 taskId)
                 sprite->y = data[3];
                 ShiftStillObjectEventCoords(object);
                 object->triggerGroundEffectsOnStop = TRUE;
-                FieldEffectActiveListRemove(FLDEFF_MOVE_DEOXYS_ROCK);
+                FieldEffectActiveListRemove(FLDEFF_MOVE_GESOMON_ROCK);
                 DestroyTask(taskId);
             }
             break;

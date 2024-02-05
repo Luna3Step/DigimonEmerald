@@ -386,7 +386,7 @@ gCryTable::
 	cry Cry_Exveemon_virus
 	cry Cry_Gatomon
 	cry Cry_Geremon
-	cry Cry_Deoxys
+	cry Cry_Gesomon
 	cry Cry_Eosmon_champion
 
 	.align 2
@@ -777,5 +777,5 @@ gCryTable_Reverse::
 	cry_reverse Cry_Exveemon_virus
 	cry_reverse Cry_Gatomon
 	cry_reverse Cry_Geremon
-	cry_reverse Cry_Deoxys
+	cry_reverse Cry_Gesomon
 	cry_reverse Cry_Eosmon_champion

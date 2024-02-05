@@ -68,8 +68,8 @@
 #define VAR_FRONTIER_GAMBLER_AMOUNT_BET                  0x4032
 #define VAR_FRONTIER_GAMBLER_STATE                       0x4033
 
-#define VAR_DEOXYS_ROCK_STEP_COUNT                       0x4034
-#define VAR_DEOXYS_ROCK_LEVEL                            0x4035
+#define VAR_GESOMON_ROCK_STEP_COUNT                       0x4034
+#define VAR_GESOMON_ROCK_LEVEL                            0x4035
 #define VAR_PC_BOX_TO_SEND_MON                           0x4036
 #define VAR_ABNORMAL_WEATHER_LOCATION                    0x4037
 #define VAR_ABNORMAL_WEATHER_STEP_COUNTER                0x4038

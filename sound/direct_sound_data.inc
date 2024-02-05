@@ -1931,8 +1931,8 @@ Cry_Geremon::
 	.incbin "sound/direct_sound_samples/cries/geremon.bin"
 
 	.align 2
-Cry_Deoxys::
-	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
+Cry_Gesomon::
+	.incbin "sound/direct_sound_samples/cries/gesomon.bin"
 
 	.align 2
 Cry_Eosmon_champion::

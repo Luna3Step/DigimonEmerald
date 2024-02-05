@@ -446,7 +446,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SUBMARINE_SHADOW        0x111B
 #define OBJ_EVENT_PAL_TAG_TINKERMON               0x111C
 #define OBJ_EVENT_PAL_TAG_RED_LEAF                0x111D
-#define OBJ_EVENT_PAL_TAG_DEOXYS                  0x111E
+#define OBJ_EVENT_PAL_TAG_GESOMON                  0x111E
 #define OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE      0x111F
 #define OBJ_EVENT_PAL_TAG_STARMON_2010                   0x1120
 #define OBJ_EVENT_PAL_TAG_SPARROWMON                   0x1121
@@ -492,7 +492,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_SubmarineShadow,       OBJ_EVENT_PAL_TAG_SUBMARINE_SHADOW},
     {gObjectEventPal_Tinkermon,             OBJ_EVENT_PAL_TAG_TINKERMON},
     {gObjectEventPal_RedLeaf,               OBJ_EVENT_PAL_TAG_RED_LEAF},
-    {gObjectEventPal_Deoxys,                OBJ_EVENT_PAL_TAG_DEOXYS},
+    {gObjectEventPal_Gesomon,                OBJ_EVENT_PAL_TAG_GESOMON},
     {gObjectEventPal_BirthIslandStone,      OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE},
     {gObjectEventPal_Starmon_2010,                  OBJ_EVENT_PAL_TAG_STARMON_2010},
     {gObjectEventPal_Sparrowmon,                 OBJ_EVENT_PAL_TAG_SPARROWMON},

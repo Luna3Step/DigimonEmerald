@@ -1874,7 +1874,7 @@ const u8 gStatStageRatios[MAX_STAT_STAGE + 1][2] =
     {40, 10}, // +6, MAX_STAT_STAGE
 };
 
-static const u16 sDeoxysBaseStats[] =
+static const u16 sGesomonBaseStats[] =
 {
     [STAT_HP]    = 50,
     [STAT_ATK]   = 95,
@@ -2630,8 +2630,8 @@ void CreateEventLegalMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV,
     SetMonData(mon, MON_DATA_EVENT_LEGAL, &isEventLegal);
 }
 
-// If FALSE, should load this game's Deoxys form. If TRUE, should load normal Deoxys form
-bool8 ShouldIgnoreDeoxysForm(u8 caseId, u8 battlerId)
+// If FALSE, should load this game's Gesomon form. If TRUE, should load normal Gesomon form
+bool8 ShouldIgnoreGesomonForm(u8 caseId, u8 battlerId)
 {
     switch (caseId)
     {
@@ -2687,7 +2687,7 @@ bool8 ShouldIgnoreDeoxysForm(u8 caseId, u8 battlerId)
     return TRUE;
 }
 
-static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
+static u16 GetGesomonStat(struct Pokemon *mon, s32 statId)
 {
     s32 ivVal, evVal;
     u16 statValue = 0;
@@ -2698,13 +2698,13 @@ static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
 
     ivVal = GetMonData(mon, MON_DATA_HP_IV + statId, NULL);
     evVal = GetMonData(mon, MON_DATA_HP_EV + statId, NULL);
-    statValue = ((sDeoxysBaseStats[statId] * 2 + ivVal + evVal / 4) * mon->level) / 100 + 5;
+    statValue = ((sGesomonBaseStats[statId] * 2 + ivVal + evVal / 4) * mon->level) / 100 + 5;
     nature = GetNature(mon);
     statValue = ModifyStatByNature(nature, statValue, (u8)statId);
     return statValue;
 }
 
-void SetDeoxysStats(void)
+void SetGesomonStats(void)
 {
     s32 i, value;
 
@@ -3643,27 +3643,27 @@ u32 GetMonData(struct Pokemon *mon, s32 field, u8 *data)
         ret = mon->maxHP;
         break;
     case MON_DATA_ATK:
-        ret = GetDeoxysStat(mon, STAT_ATK);
+        ret = GetGesomonStat(mon, STAT_ATK);
         if (!ret)
             ret = mon->attack;
         break;
     case MON_DATA_DEF:
-        ret = GetDeoxysStat(mon, STAT_DEF);
+        ret = GetGesomonStat(mon, STAT_DEF);
         if (!ret)
             ret = mon->defense;
         break;
     case MON_DATA_SPEED:
-        ret = GetDeoxysStat(mon, STAT_SPEED);
+        ret = GetGesomonStat(mon, STAT_SPEED);
         if (!ret)
             ret = mon->speed;
         break;
     case MON_DATA_SPATK:
-        ret = GetDeoxysStat(mon, STAT_SPATK);
+        ret = GetGesomonStat(mon, STAT_SPATK);
         if (!ret)
             ret = mon->spAttack;
         break;
     case MON_DATA_SPDEF:
-        ret = GetDeoxysStat(mon, STAT_SPDEF);
+        ret = GetGesomonStat(mon, STAT_SPDEF);
         if (!ret)
             ret = mon->spDefense;
         break;

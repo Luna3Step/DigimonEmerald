@@ -4406,9 +4406,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Falcomon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Deoxys = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gesomon = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_DEOXYS,
+    .paletteTag = OBJ_EVENT_PAL_TAG_GESOMON,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
@@ -4421,7 +4421,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Deoxys = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Deoxys,
+    .images = sPicTable_Gesomon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

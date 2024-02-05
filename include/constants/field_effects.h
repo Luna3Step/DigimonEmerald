@@ -66,8 +66,8 @@
 #define FLDEFF_HALL_OF_FAME_RECORD       62
 #define FLDEFF_USE_TELEPORT              63
 #define FLDEFF_GEOGREYMON_SPOTLIGHT        64
-#define FLDEFF_DESTROY_DEOXYS_ROCK       65
-#define FLDEFF_MOVE_DEOXYS_ROCK          66
+#define FLDEFF_DESTROY_GESOMON_ROCK       65
+#define FLDEFF_MOVE_GESOMON_ROCK          66
 
 #define FLDEFFOBJ_SHADOW_S              0
 #define FLDEFFOBJ_SHADOW_M              1

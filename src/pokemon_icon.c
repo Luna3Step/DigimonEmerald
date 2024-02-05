@@ -434,7 +434,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_GARURUMON_X] = gMonIcon_Garurumon_x,
     [SPECIES_GATOMON] = gMonIcon_Gatomon,
     [SPECIES_GEREMON] = gMonIcon_Geremon,
-    [SPECIES_GESOMON] = gMonIcon_Deoxys,
+    [SPECIES_GESOMON] = gMonIcon_Gesomon,
     [SPECIES_EOSMON_CHAMPION] = gMonIcon_Eosmon_champion,
     [SPECIES_EGG] = gMonIcon_Egg,
     [SPECIES_UNOWN_B] = gMonIcon_UnownB,
@@ -1026,13 +1026,13 @@ static const u16 sSpriteImageSizes[3][4] =
     },
 };
 
-u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, u32 personality, bool32 handleDeoxys)
+u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, u32 personality, bool32 handleGesomon)
 {
     u8 spriteId;
     struct MonIconSpriteTemplate iconTemplate =
     {
         .oam = &sMonIconOamData,
-        .image = GetMonIconPtr(species, personality, handleDeoxys),
+        .image = GetMonIconPtr(species, personality, handleGesomon),
         .anims = sMonIconAnims,
         .affineAnims = sMonIconAffineAnims,
         .callback = callback,
@@ -1049,7 +1049,7 @@ u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u
     return spriteId;
 }
 
-u8 CreateMonIconNoPersonality(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, bool32 handleDeoxys)
+u8 CreateMonIconNoPersonality(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, bool32 handleGesomon)
 {
     u8 spriteId;
     struct MonIconSpriteTemplate iconTemplate =
@@ -1062,7 +1062,7 @@ u8 CreateMonIconNoPersonality(u16 species, void (*callback)(struct Sprite *), s1
         .paletteTag = POKE_ICON_BASE_PAL_TAG + gMonIconPaletteIndices[species],
     };
 
-    iconTemplate.image = GetMonIconTiles(species, handleDeoxys);
+    iconTemplate.image = GetMonIconTiles(species, handleGesomon);
     spriteId = CreateMonIconSprite(&iconTemplate, x, y, subpriority);
 
     UpdateMonIconFrame(&gSprites[spriteId]);
@@ -1122,9 +1122,9 @@ u16 GetIconSpeciesNoPersonality(u16 species)
     }
 }
 
-const u8 *GetMonIconPtr(u16 species, u32 personality, bool32 handleDeoxys)
+const u8 *GetMonIconPtr(u16 species, u32 personality, bool32 handleGesomon)
 {
-    return GetMonIconTiles(GetIconSpecies(species, personality), handleDeoxys);
+    return GetMonIconTiles(GetIconSpecies(species, personality), handleGesomon);
 }
 
 void FreeAndDestroyMonIconSprite(struct Sprite *sprite)
@@ -1186,12 +1186,12 @@ void SpriteCB_MonIcon(struct Sprite *sprite)
     UpdateMonIconFrame(sprite);
 }
 
-const u8 *GetMonIconTiles(u16 species, bool32 handleDeoxys)
+const u8 *GetMonIconTiles(u16 species, bool32 handleGesomon)
 {
     const u8 *iconSprite = gMonIconTable[species];
-    if (species == SPECIES_GESOMON && handleDeoxys == TRUE)
+    if (species == SPECIES_GESOMON && handleGesomon == TRUE)
     {
-        iconSprite = (const u8 *)(0x400 + (u32)iconSprite); // use the specific Deoxys form icon (Speed in this case)
+        iconSprite = (const u8 *)(0x400 + (u32)iconSprite); // use the specific Gesomon form icon (Speed in this case)
     }
     return iconSprite;
 }

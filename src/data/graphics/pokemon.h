@@ -2690,20 +2690,20 @@ const u32 gMonShinyPalette_Geremon[] = INCBIN_U32("graphics/pokemon/geremon/shin
 const u8 gMonIcon_Geremon[] = INCBIN_U8("graphics/pokemon/geremon/icon.4bpp");
 const u8 gMonFootprint_Geremon[] = INCBIN_U8("graphics/pokemon/geremon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/front.4bpp.lz");
-const u32 gMonPalette_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/normal.gbapal.lz");
-const u32 gMonBackPic_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/back.4bpp.lz");
-const u32 gMonShinyPalette_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/shiny.gbapal.lz");
-const u8 gMonIcon_Deoxys[] = INCBIN_U8("graphics/pokemon/deoxys/icon.4bpp");
-const u8 gMonIcon_DeoxysSpeed[] = INCBIN_U8("graphics/pokemon/deoxys/icon_speed.4bpp");
-const u8 gMonIcon_DeoxysSpeedWide[] = INCBIN_U8("graphics/pokemon/deoxys/icon_speed_wide.4bpp"); // Unused
+const u32 gMonStillFrontPic_Gesomon[] = INCBIN_U32("graphics/pokemon/gesomon/front.4bpp.lz");
+const u32 gMonPalette_Gesomon[] = INCBIN_U32("graphics/pokemon/gesomon/normal.gbapal.lz");
+const u32 gMonBackPic_Gesomon[] = INCBIN_U32("graphics/pokemon/gesomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gesomon[] = INCBIN_U32("graphics/pokemon/gesomon/shiny.gbapal.lz");
+const u8 gMonIcon_Gesomon[] = INCBIN_U8("graphics/pokemon/gesomon/icon.4bpp");
+const u8 gMonIcon_GesomonSpeed[] = INCBIN_U8("graphics/pokemon/gesomon/icon_speed.4bpp");
+const u8 gMonIcon_GesomonSpeedWide[] = INCBIN_U8("graphics/pokemon/gesomon/icon_speed_wide.4bpp"); // Unused
 
-// Probably the leftover space from the other Deoxys forms
+// Probably the leftover space from the other Gesomon forms
 static const u8 sEmpty[0x6800] = {0};
 
 const u16 gMonUnusedGarbage[] = INCBIN_U16("graphics/pokemon/unused_garbage.bin");
 
-const u8 gMonFootprint_Deoxys[] = INCBIN_U8("graphics/pokemon/deoxys/footprint.1bpp");
+const u8 gMonFootprint_Gesomon[] = INCBIN_U8("graphics/pokemon/gesomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/front.4bpp.lz");
 const u32 gMonPalette_Eosmon_champion[] = INCBIN_U32("graphics/pokemon/eosmon_champion/normal.gbapal.lz");
