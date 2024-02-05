@@ -115,6 +115,7 @@
 #define ITEM_065 101
 #define ITEM_066 102
 
+
 // Unusable
 #define ITEM_TINY_MUSHROOM 103
 #define ITEM_BIG_MUSHROOM 104
@@ -476,7 +477,11 @@
 #define ITEM_MAGMA_EMBLEM 375
 #define ITEM_OLD_SEA_MAP 376
 
-#define ITEMS_COUNT 377
+// Digimon Additions
+
+#define ITEM_X_ANTIBODY 377
+
+#define ITEMS_COUNT 378
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow

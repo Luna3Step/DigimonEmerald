@@ -1022,7 +1022,13 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
-	givemon SPECIES_CALUMON, 5
+	giveitem ITEM_X_ANTIBODY
+	giveitem ITEM_FIRE_STONE
+	giveitem ITEM_WATER_STONE
+	giveitem ITEM_LEAF_STONE
+	giveitem ITEM_SUN_STONE
+	giveitem ITEM_MOON_STONE
+	giveitem ITEM_THUNDER_STONE
 	waitmessage
 	releaseall
 	return

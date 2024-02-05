@@ -180,7 +180,7 @@ const u32 gItemIconPalette_EscapeRope[] = INCBIN_U32("graphics/items/icon_palett
 
 const u32 gItemIconPalette_Repel[] = INCBIN_U32("graphics/items/icon_palettes/repel.gbapal.lz");
 
-// Evolution stones
+// Evolution Items
 
 const u32 gItemIcon_SunStone[] = INCBIN_U32("graphics/items/icons/sun_stone.4bpp.lz");
 const u32 gItemIconPalette_SunStone[] = INCBIN_U32("graphics/items/icon_palettes/sun_stone.gbapal.lz");
@@ -199,6 +199,9 @@ const u32 gItemIconPalette_WaterStone[] = INCBIN_U32("graphics/items/icon_palett
 
 const u32 gItemIcon_LeafStone[] = INCBIN_U32("graphics/items/icons/leaf_stone.4bpp.lz");
 const u32 gItemIconPalette_LeafStone[] = INCBIN_U32("graphics/items/icon_palettes/leaf_stone.gbapal.lz");
+
+const u32 gItemIcon_XAntibody[] = INCBIN_U32("graphics/items/icons/x_antibody.4bpp.lz");
+const u32 gItemIconPalette_XAntibody[] = INCBIN_U32("graphics/items/icon_palettes/x_antibody.gbapal.lz");
 
 // Valuables
 

@@ -1225,6 +1225,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
+    [ITEM_X_ANTIBODY] =
+    {
+        .name = _("X ANTIBODY"),
+        .itemId = ITEM_X_ANTIBODY,
+        .price = 2100,
+        .description = sXAntibodyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
     [ITEM_063] =
     {
         .name = _("????????"),

@@ -3482,7 +3482,7 @@ extern const u32 gItemIcon_EscapeRope[];
 extern const u32 gItemIconPalette_EscapeRope[];
 extern const u32 gItemIcon_Repel[];
 extern const u32 gItemIconPalette_Repel[];
-// Evolution stones
+// Evolution items
 extern const u32 gItemIcon_SunStone[];
 extern const u32 gItemIconPalette_SunStone[];
 extern const u32 gItemIcon_MoonStone[];
@@ -3495,6 +3495,8 @@ extern const u32 gItemIcon_WaterStone[];
 extern const u32 gItemIconPalette_WaterStone[];
 extern const u32 gItemIcon_LeafStone[];
 extern const u32 gItemIconPalette_LeafStone[];
+extern const u32 gItemIcon_XAntibody[];
+extern const u32 gItemIconPalette_XAntibody[];
 // Valuables
 extern const u32 gItemIcon_TinyMushroom[];
 extern const u32 gItemIconPalette_Mushroom[];
