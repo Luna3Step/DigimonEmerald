@@ -781,12 +781,12 @@ static const u8 sSoulDewDesc[] = _(
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
     "raises the SP. ATK\n"
-    "of CLAMPERL.");
+    "of FIRAMON.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "A hold item that\n"
     "raises the SP. DEF\n"
-    "of CLAMPERL.");
+    "of FIRAMON.");
 
 static const u8 sSmokeBallDesc[] = _(
     "A hold item that\n"

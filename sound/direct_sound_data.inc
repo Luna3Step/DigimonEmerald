@@ -1751,8 +1751,8 @@ Cry_Filmon::
 	.incbin "sound/direct_sound_samples/cries/filmon.bin"
 
 	.align 2
-Cry_Clamperl::
-	.incbin "sound/direct_sound_samples/cries/clamperl.bin"
+Cry_Firamon::
+	.incbin "sound/direct_sound_samples/cries/firamon.bin"
 
 	.align 2
 Cry_Huntail::
