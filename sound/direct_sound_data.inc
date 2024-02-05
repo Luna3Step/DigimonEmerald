@@ -1415,8 +1415,8 @@ Cry_Drimogemon::
 	.incbin "sound/direct_sound_samples/cries/drimogemon.bin"
 
 	.align 2
-Cry_Latias::
-	.incbin "sound/direct_sound_samples/cries/latias.bin"
+Cry_Garurumon_x::
+	.incbin "sound/direct_sound_samples/cries/garurumon_x.bin"
 
 	.align 2
 Cry_Exveemon::

@@ -3570,7 +3570,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGarurumonDoll =
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Garurumon_x = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3585,7 +3585,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_LatiasLatios,
+    .images = sPicTable_Garurumon_xLatios,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -3604,7 +3604,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_LatiasLatios,
+    .images = sPicTable_Garurumon_xLatios,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

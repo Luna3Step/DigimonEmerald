@@ -3376,7 +3376,7 @@ u8 CheckForPlayersHouseNews(void)
             return PLAYERS_HOUSE_TV_NONE;
     }
 
-    if (FlagGet(FLAG_SYS_TV_LATIAS_LATIOS) == TRUE)
+    if (FlagGet(FLAG_SYS_TV_GARURUMON_X_LATIOS) == TRUE)
         return PLAYERS_HOUSE_TV_LATI;
 
     if (FlagGet(FLAG_SYS_TV_HOME) == TRUE)

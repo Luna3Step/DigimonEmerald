@@ -2669,12 +2669,12 @@ const u32 gMonShinyPalette_Rayquaza[] = INCBIN_U32("graphics/pokemon/rayquaza/sh
 const u8 gMonIcon_Rayquaza[] = INCBIN_U8("graphics/pokemon/rayquaza/icon.4bpp");
 const u8 gMonFootprint_Rayquaza[] = INCBIN_U8("graphics/pokemon/rayquaza/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Latias[] = INCBIN_U32("graphics/pokemon/latias/front.4bpp.lz");
-const u32 gMonPalette_Latias[] = INCBIN_U32("graphics/pokemon/latias/normal.gbapal.lz");
-const u32 gMonBackPic_Latias[] = INCBIN_U32("graphics/pokemon/latias/back.4bpp.lz");
-const u32 gMonShinyPalette_Latias[] = INCBIN_U32("graphics/pokemon/latias/shiny.gbapal.lz");
-const u8 gMonIcon_Latias[] = INCBIN_U8("graphics/pokemon/latias/icon.4bpp");
-const u8 gMonFootprint_Latias[] = INCBIN_U8("graphics/pokemon/latias/footprint.1bpp");
+const u32 gMonStillFrontPic_Garurumon_x[] = INCBIN_U32("graphics/pokemon/garurumon_x/front.4bpp.lz");
+const u32 gMonPalette_Garurumon_x[] = INCBIN_U32("graphics/pokemon/garurumon_x/normal.gbapal.lz");
+const u32 gMonBackPic_Garurumon_x[] = INCBIN_U32("graphics/pokemon/garurumon_x/back.4bpp.lz");
+const u32 gMonShinyPalette_Garurumon_x[] = INCBIN_U32("graphics/pokemon/garurumon_x/shiny.gbapal.lz");
+const u8 gMonIcon_Garurumon_x[] = INCBIN_U8("graphics/pokemon/garurumon_x/icon.4bpp");
+const u8 gMonFootprint_Garurumon_x[] = INCBIN_U8("graphics/pokemon/garurumon_x/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Latios[] = INCBIN_U32("graphics/pokemon/latios/front.4bpp.lz");
 const u32 gMonPalette_Latios[] = INCBIN_U32("graphics/pokemon/latios/normal.gbapal.lz");
