@@ -571,7 +571,7 @@ static const union AnimCmd sUnusedAnim_Eyesmon_scattermode_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Sealeo_1[] =
+static const union AnimCmd sUnusedAnim_Fangmon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
@@ -1281,7 +1281,7 @@ static const union AnimCmd *const sUnusedAnims_Bomnanimon[] = {sAnim_GeneralFram
 static const union AnimCmd *const sUnusedAnims_Chrysalmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Chrysalmon_1, sUnusedAnim_Chrysalmon_2};
 static const union AnimCmd *const sUnusedAnims_Citramon[] = {sAnim_GeneralFrame0, sUnusedAnim_Citramon_1};
 static const union AnimCmd *const sUnusedAnims_Eyesmon_scattermode[] = {sAnim_GeneralFrame0, sUnusedAnim_Eyesmon_scattermode_1};
-static const union AnimCmd *const sUnusedAnims_Sealeo[] = {sAnim_GeneralFrame0, sUnusedAnim_Sealeo_1};
+static const union AnimCmd *const sUnusedAnims_Fangmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Fangmon_1};
 static const union AnimCmd *const sUnusedAnims_Walrein[] = {sAnim_GeneralFrame0, sUnusedAnim_Walrein_1, sUnusedAnim_Walrein_2};
 static const union AnimCmd *const sUnusedAnims_Darcmon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Trailmon_dark[] = {sAnim_GeneralFrame0};
@@ -1723,7 +1723,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_CHRYSALMON] = sUnusedAnims_Chrysalmon,
     [SPECIES_CITRAMON] = sUnusedAnims_Citramon,
     [SPECIES_EYESMON_SCATTERMODE] = sUnusedAnims_Eyesmon_scattermode,
-    [SPECIES_FANGMON] = sUnusedAnims_Sealeo,
+    [SPECIES_FANGMON] = sUnusedAnims_Fangmon,
     [SPECIES_FILMON] = sUnusedAnims_Walrein,
     [SPECIES_DARCMON] = sUnusedAnims_Darcmon,
     [SPECIES_TRAILMON_DARK] = sUnusedAnims_Trailmon_dark,

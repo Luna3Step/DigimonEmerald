@@ -3701,7 +3701,7 @@ static const union AnimCmd sAnim_Eyesmon_scattermode_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Sealeo_1[] =
+static const union AnimCmd sAnim_Fangmon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5148,7 +5148,7 @@ SINGLE_ANIMATION(Bomnanimon);
 SINGLE_ANIMATION(Chrysalmon);
 SINGLE_ANIMATION(Citramon);
 SINGLE_ANIMATION(Eyesmon_scattermode);
-SINGLE_ANIMATION(Sealeo);
+SINGLE_ANIMATION(Fangmon);
 SINGLE_ANIMATION(Walrein);
 SINGLE_ANIMATION(Darcmon);
 SINGLE_ANIMATION(Trailmon_dark);
@@ -5596,7 +5596,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_CHRYSALMON]       = sAnims_Chrysalmon,
     [SPECIES_CITRAMON]    = sAnims_Citramon,
     [SPECIES_EYESMON_SCATTERMODE]      = sAnims_Eyesmon_scattermode,
-    [SPECIES_FANGMON]      = sAnims_Sealeo,
+    [SPECIES_FANGMON]      = sAnims_Fangmon,
     [SPECIES_FILMON]     = sAnims_Walrein,
     [SPECIES_DARCMON]      = sAnims_Darcmon,
     [SPECIES_TRAILMON_DARK]    = sAnims_Trailmon_dark,

@@ -1743,8 +1743,8 @@ Cry_Eyesmon_scattermode::
 	.incbin "sound/direct_sound_samples/cries/eyesmon_scattermode.bin"
 
 	.align 2
-Cry_Sealeo::
-	.incbin "sound/direct_sound_samples/cries/sealeo.bin"
+Cry_Fangmon::
+	.incbin "sound/direct_sound_samples/cries/fangmon.bin"
 
 	.align 2
 Cry_Walrein::

@@ -2214,12 +2214,12 @@ const u32 gMonShinyPalette_Eyesmon_scattermode[] = INCBIN_U32("graphics/pokemon/
 const u8 gMonIcon_Eyesmon_scattermode[] = INCBIN_U8("graphics/pokemon/eyesmon_scattermode/icon.4bpp");
 const u8 gMonFootprint_Eyesmon_scattermode[] = INCBIN_U8("graphics/pokemon/eyesmon_scattermode/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/front.4bpp.lz");
-const u32 gMonPalette_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/normal.gbapal.lz");
-const u32 gMonBackPic_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/back.4bpp.lz");
-const u32 gMonShinyPalette_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/shiny.gbapal.lz");
-const u8 gMonIcon_Sealeo[] = INCBIN_U8("graphics/pokemon/sealeo/icon.4bpp");
-const u8 gMonFootprint_Sealeo[] = INCBIN_U8("graphics/pokemon/sealeo/footprint.1bpp");
+const u32 gMonStillFrontPic_Fangmon[] = INCBIN_U32("graphics/pokemon/fangmon/front.4bpp.lz");
+const u32 gMonPalette_Fangmon[] = INCBIN_U32("graphics/pokemon/fangmon/normal.gbapal.lz");
+const u32 gMonBackPic_Fangmon[] = INCBIN_U32("graphics/pokemon/fangmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Fangmon[] = INCBIN_U32("graphics/pokemon/fangmon/shiny.gbapal.lz");
+const u8 gMonIcon_Fangmon[] = INCBIN_U8("graphics/pokemon/fangmon/icon.4bpp");
+const u8 gMonFootprint_Fangmon[] = INCBIN_U8("graphics/pokemon/fangmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/front.4bpp.lz");
 const u32 gMonPalette_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/normal.gbapal.lz");
