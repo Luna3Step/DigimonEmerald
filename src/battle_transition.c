@@ -116,7 +116,7 @@ static void Task_Aqua(u8);
 static void Task_Magma(u8);
 static void Task_Regice(u8);
 static void Task_Registeel(u8);
-static void Task_Regirock(u8);
+static void Task_Gargomon(u8);
 static void Task_Kyogre(u8);
 static void Task_Groudon(u8);
 static void Task_Rayquaza(u8);
@@ -164,7 +164,7 @@ static bool8 FramesCountdown(struct Task *);
 static bool8 Regi_Init(struct Task *);
 static bool8 Regice_SetGfx(struct Task *);
 static bool8 Registeel_SetGfx(struct Task *);
-static bool8 Regirock_SetGfx(struct Task *);
+static bool8 Gargomon_SetGfx(struct Task *);
 static bool8 WeatherTrio_BgFadeBlack(struct Task *);
 static bool8 WeatherTrio_WaitFade(struct Task *);
 static bool8 Kyogre_Init(struct Task *);
@@ -310,10 +310,10 @@ static const u32 sTeamMagma_Tilemap[] = INCBIN_U32("graphics/battle_transitions/
 static const u32 sRegis_Tileset[] = INCBIN_U32("graphics/battle_transitions/regis.4bpp");
 static const u16 sRegice_Palette[] = INCBIN_U16("graphics/battle_transitions/regice.gbapal");
 static const u16 sRegisteel_Palette[] = INCBIN_U16("graphics/battle_transitions/registeel.gbapal");
-static const u16 sRegirock_Palette[] = INCBIN_U16("graphics/battle_transitions/regirock.gbapal");
+static const u16 sGargomon_Palette[] = INCBIN_U16("graphics/battle_transitions/gargomon.gbapal");
 static const u32 sRegice_Tilemap[] = INCBIN_U32("graphics/battle_transitions/regice.bin");
 static const u32 sRegisteel_Tilemap[] = INCBIN_U32("graphics/battle_transitions/registeel.bin");
-static const u32 sRegirock_Tilemap[] = INCBIN_U32("graphics/battle_transitions/regirock.bin");
+static const u32 sGargomon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/gargomon.bin");
 static const u16 sUnused_Palette[] = INCBIN_U16("graphics/battle_transitions/unused.gbapal");
 static const u32 sKyogre_Tileset[] = INCBIN_U32("graphics/battle_transitions/kyogre.4bpp.lz");
 static const u32 sKyogre_Tilemap[] = INCBIN_U32("graphics/battle_transitions/kyogre.bin.lz");
@@ -367,7 +367,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_MAGMA] = Task_Magma,
     [B_TRANSITION_REGICE] = Task_Regice,
     [B_TRANSITION_REGISTEEL] = Task_Registeel,
-    [B_TRANSITION_REGIROCK] = Task_Regirock,
+    [B_TRANSITION_GARGOMON] = Task_Gargomon,
     [B_TRANSITION_KYOGRE] = Task_Kyogre,
     [B_TRANSITION_GROUDON] = Task_Groudon,
     [B_TRANSITION_RAYQUAZA] = Task_Rayquaza,
@@ -469,10 +469,10 @@ static const TransitionStateFunc sRegisteel_Funcs[] =
     PatternWeave_CircularMask
 };
 
-static const TransitionStateFunc sRegirock_Funcs[] =
+static const TransitionStateFunc sGargomon_Funcs[] =
 {
     Regi_Init,
-    Regirock_SetGfx,
+    Gargomon_SetGfx,
     PatternWeave_Blend1,
     PatternWeave_Blend2,
     PatternWeave_FinishAppear,
@@ -1317,7 +1317,7 @@ static void HBlankCB_Shuffle(void)
 
 //------------------------------------------------------------------------
 // B_TRANSITION_BIG_POKEBALL, B_TRANSITION_AQUA, B_TRANSITION_MAGMA,
-// B_TRANSITION_REGICE, B_TRANSITION_REGISTEEL, B_TRANSITION_REGIROCK
+// B_TRANSITION_REGICE, B_TRANSITION_REGISTEEL, B_TRANSITION_GARGOMON
 // and B_TRANSITION_KYOGRE.
 //
 // With the exception of B_TRANSITION_KYOGRE, all of the above transitions
@@ -1363,9 +1363,9 @@ static void Task_Registeel(u8 taskId)
     while (sRegisteel_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static void Task_Regirock(u8 taskId)
+static void Task_Gargomon(u8 taskId)
 {
-    while (sRegirock_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sGargomon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
 static void Task_Kyogre(u8 taskId)
@@ -1525,13 +1525,13 @@ static bool8 Registeel_SetGfx(struct Task *task)
     return FALSE;
 }
 
-static bool8 Regirock_SetGfx(struct Task *task)
+static bool8 Gargomon_SetGfx(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
-    LoadPalette(sRegirock_Palette, 0xF0, sizeof(sRegirock_Palette));
-    CpuCopy16(sRegirock_Tilemap, tilemap, 0x500);
+    LoadPalette(sGargomon_Palette, 0xF0, sizeof(sGargomon_Palette));
+    CpuCopy16(sGargomon_Tilemap, tilemap, 0x500);
     SetSinWave(gScanlineEffectRegBuffers[0], 0, task->tSinIndex, 132, task->tAmplitude, DISPLAY_HEIGHT);
 
     task->tState++;

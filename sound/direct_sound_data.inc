@@ -1799,8 +1799,8 @@ Cry_Frigimon::
 	.incbin "sound/direct_sound_samples/cries/frigimon.bin"
 
 	.align 2
-Cry_Regirock::
-	.incbin "sound/direct_sound_samples/cries/regirock.bin"
+Cry_Gargomon::
+	.incbin "sound/direct_sound_samples/cries/gargomon.bin"
 
 	.align 2
 Cry_Regice::

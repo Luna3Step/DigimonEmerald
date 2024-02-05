@@ -120,13 +120,13 @@ static void Task_DoFieldMove_RunFunc(u8 taskId)
 // For interacting with a smashable rock in the field, see EventScript_RockSmash
 bool8 SetUpFieldMove_RockSmash(void)
 {
-    // In Ruby and Sapphire, Regirock's tomb is opened by using Strength. In Emerald,
+    // In Ruby and Sapphire, Gargomon's tomb is opened by using Strength. In Emerald,
     // it is opened by using Rock Smash.
-    if (ShouldDoBrailleRegirockEffect())
+    if (ShouldDoBrailleGargomonEffect())
     {
         gSpecialVar_Result = GetCursorSelectionMonId();
         gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
-        gPostMenuFieldCallback = SetUpPuzzleEffectRegirock;
+        gPostMenuFieldCallback = SetUpPuzzleEffectGargomon;
         return TRUE;
     }
     else if (CheckObjectGraphicsInFrontOfPlayer(OBJ_EVENT_GFX_BREAKABLE_ROCK) == TRUE)

@@ -1416,16 +1416,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_CHAMBLEMON_DOLL,
     },
 
-    [DECOR_REGIROCK_DOLL] =
+    [DECOR_GARGOMON_DOLL] =
     {
-        .id = DECOR_REGIROCK_DOLL,
-        .name = _("REGIROCK DOLL"),
+        .id = DECOR_GARGOMON_DOLL,
+        .name = _("GARGOMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
         .price = 10000,
-        .description = DecorDesc_REGIROCK_DOLL,
-        .tiles = DecorGfx_REGIROCK_DOLL,
+        .description = DecorDesc_GARGOMON_DOLL,
+        .tiles = DecorGfx_GARGOMON_DOLL,
     },
 
     [DECOR_REGICE_DOLL] =

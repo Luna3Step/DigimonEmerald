@@ -291,7 +291,7 @@ gSpecials::
 	def_special GetPokeblockNameByMonNature
 	def_special GetSecretBaseNearbyMapName
 	def_special CheckFlarizamonChamelemon
-	def_special ShouldDoBrailleRegirockEffectOld
+	def_special ShouldDoBrailleGargomonEffectOld
 	def_special DoOrbEffect
 	def_special FadeOutOrbEffect
 	def_special WaitWeather

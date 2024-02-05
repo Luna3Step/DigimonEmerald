@@ -55,7 +55,7 @@ static const u8 sRegicePathCoords[][2] =
 };
 
 static void Task_SealedChamberShakingEffect(u8);
-static void DoBrailleRegirockEffect(void);
+static void DoBrailleGargomonEffect(void);
 static void DoBrailleRegisteelEffect(void);
 
 bool8 ShouldDoBrailleDigEffect(void)
@@ -104,7 +104,7 @@ bool8 CheckFlarizamonChamelemon(void)
 }
 
 // THEORY: this was caused by block commenting out all of the older R/S braille functions but leaving the call to it itself, which creates the nullsub.
-void ShouldDoBrailleRegirockEffectOld(void)
+void ShouldDoBrailleGargomonEffectOld(void)
 {
 }
 
@@ -164,9 +164,9 @@ static void Task_SealedChamberShakingEffect(u8 taskId)
 #undef tDelay
 #undef tNumShakes
 
-bool8 ShouldDoBrailleRegirockEffect(void)
+bool8 ShouldDoBrailleGargomonEffect(void)
 {
-    if (!FlagGet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED)
+    if (!FlagGet(FLAG_SYS_GARGOMON_PUZZLE_COMPLETED)
         && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(DESERT_RUINS)
         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(DESERT_RUINS))
     {
@@ -190,19 +190,19 @@ bool8 ShouldDoBrailleRegirockEffect(void)
     return FALSE;
 }
 
-void SetUpPuzzleEffectRegirock(void)
+void SetUpPuzzleEffectGargomon(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
     FieldEffectStart(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
 }
 
-void UseRegirockHm_Callback(void)
+void UseGargomonHm_Callback(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
-    DoBrailleRegirockEffect();
+    DoBrailleGargomonEffect();
 }
 
-static void DoBrailleRegirockEffect(void)
+static void DoBrailleGargomonEffect(void)
 {
     MapGridSetMetatileIdAt(7 + MAP_OFFSET, 19 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_TopLeft);
     MapGridSetMetatileIdAt(8 + MAP_OFFSET, 19 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_TopMid);
@@ -212,7 +212,7 @@ static void DoBrailleRegirockEffect(void)
     MapGridSetMetatileIdAt(9 + MAP_OFFSET, 20 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_BottomRight | MAPGRID_COLLISION_MASK);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_GARGOMON_PUZZLE_COMPLETED);
     UnlockPlayerFieldControls();
 }
 
@@ -272,8 +272,8 @@ bool8 FldEff_UsePuzzleEffect(void)
     }
     else
     {
-        gTasks[taskId].data[8] = (u32)UseRegirockHm_Callback >> 16;
-        gTasks[taskId].data[9] = (u32)UseRegirockHm_Callback;
+        gTasks[taskId].data[8] = (u32)UseGargomonHm_Callback >> 16;
+        gTasks[taskId].data[9] = (u32)UseGargomonHm_Callback;
     }
     return FALSE;
 }

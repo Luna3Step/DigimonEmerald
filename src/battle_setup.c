@@ -634,7 +634,7 @@ void StartRegiBattle(void)
     switch (species)
     {
     case SPECIES_GARGOMON:
-        transitionId = B_TRANSITION_REGIROCK;
+        transitionId = B_TRANSITION_GARGOMON;
         break;
     case SPECIES_GARGOYLMON:
         transitionId = B_TRANSITION_REGICE;
