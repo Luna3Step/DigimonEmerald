@@ -2242,12 +2242,12 @@ const u32 gMonShinyPalette_Trailmon_dark[] = INCBIN_U32("graphics/pokemon/trailm
 const u8 gMonIcon_Trailmon_dark[] = INCBIN_U8("graphics/pokemon/trailmon_dark/icon.4bpp");
 const u8 gMonFootprint_Trailmon_dark[] = INCBIN_U8("graphics/pokemon/trailmon_dark/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/front.4bpp.lz");
-const u32 gMonPalette_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/normal.gbapal.lz");
-const u32 gMonBackPic_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/back.4bpp.lz");
-const u32 gMonShinyPalette_Snorunt[] = INCBIN_U32("graphics/pokemon/snorunt/shiny.gbapal.lz");
-const u8 gMonIcon_Snorunt[] = INCBIN_U8("graphics/pokemon/snorunt/icon.4bpp");
-const u8 gMonFootprint_Snorunt[] = INCBIN_U8("graphics/pokemon/snorunt/footprint.1bpp");
+const u32 gMonStillFrontPic_Exveemon_virus[] = INCBIN_U32("graphics/pokemon/exveemon_virus/front.4bpp.lz");
+const u32 gMonPalette_Exveemon_virus[] = INCBIN_U32("graphics/pokemon/exveemon_virus/normal.gbapal.lz");
+const u32 gMonBackPic_Exveemon_virus[] = INCBIN_U32("graphics/pokemon/exveemon_virus/back.4bpp.lz");
+const u32 gMonShinyPalette_Exveemon_virus[] = INCBIN_U32("graphics/pokemon/exveemon_virus/shiny.gbapal.lz");
+const u8 gMonIcon_Exveemon_virus[] = INCBIN_U8("graphics/pokemon/exveemon_virus/icon.4bpp");
+const u8 gMonFootprint_Exveemon_virus[] = INCBIN_U8("graphics/pokemon/exveemon_virus/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/front.4bpp.lz");
 const u32 gMonPalette_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/normal.gbapal.lz");

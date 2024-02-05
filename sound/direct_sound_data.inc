@@ -1919,8 +1919,8 @@ Cry_Baohuckmon::
 	.incbin "sound/direct_sound_samples/cries/baohuckmon.bin"
 
 	.align 2
-Cry_Snorunt::
-	.incbin "sound/direct_sound_samples/cries/snorunt.bin"
+Cry_Exveemon_virus::
+	.incbin "sound/direct_sound_samples/cries/exveemon_virus.bin"
 
 	.align 2
 Cry_Latios::
