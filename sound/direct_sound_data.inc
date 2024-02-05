@@ -1615,8 +1615,8 @@ Cry_Biothunmon::
 	.incbin "sound/direct_sound_samples/cries/biothunmon.bin"
 
 	.align 2
-Cry_Glalie::
-	.incbin "sound/direct_sound_samples/cries/glalie.bin"
+Cry_Eyesmon::
+	.incbin "sound/direct_sound_samples/cries/eyesmon.bin"
 
 	.align 2
 Cry_Boogiemon::

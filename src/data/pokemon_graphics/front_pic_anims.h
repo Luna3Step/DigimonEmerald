@@ -3757,7 +3757,7 @@ static const union AnimCmd sAnim_Exveemon_virus_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Glalie_1[] =
+static const union AnimCmd sAnim_Eyesmon_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 15),
@@ -5153,7 +5153,7 @@ SINGLE_ANIMATION(Walrein);
 SINGLE_ANIMATION(Darcmon);
 SINGLE_ANIMATION(Trailmon_dark);
 SINGLE_ANIMATION(Exveemon_virus);
-SINGLE_ANIMATION(Glalie);
+SINGLE_ANIMATION(Eyesmon);
 DOUBLE_ANIMATION(Deckdramon);
 DOUBLE_ANIMATION(Deltamon);
 SINGLE_ANIMATION(Biostegmon);
@@ -5601,7 +5601,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DARCMON]      = sAnims_Darcmon,
     [SPECIES_TRAILMON_DARK]    = sAnims_Trailmon_dark,
     [SPECIES_EXVEEMON_VIRUS]     = sAnims_Exveemon_virus,
-    [SPECIES_EYESMON]      = sAnims_Glalie,
+    [SPECIES_EYESMON]      = sAnims_Eyesmon,
     [SPECIES_DECKDRAMON]    = sAnims_Deckdramon,
     [SPECIES_DELTAMON]     = sAnims_Deltamon,
     [SPECIES_BIOSTEGMON]     = sAnims_Biostegmon,

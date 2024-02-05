@@ -2249,12 +2249,12 @@ const u32 gMonShinyPalette_Exveemon_virus[] = INCBIN_U32("graphics/pokemon/exvee
 const u8 gMonIcon_Exveemon_virus[] = INCBIN_U8("graphics/pokemon/exveemon_virus/icon.4bpp");
 const u8 gMonFootprint_Exveemon_virus[] = INCBIN_U8("graphics/pokemon/exveemon_virus/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/front.4bpp.lz");
-const u32 gMonPalette_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/normal.gbapal.lz");
-const u32 gMonBackPic_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/back.4bpp.lz");
-const u32 gMonShinyPalette_Glalie[] = INCBIN_U32("graphics/pokemon/glalie/shiny.gbapal.lz");
-const u8 gMonIcon_Glalie[] = INCBIN_U8("graphics/pokemon/glalie/icon.4bpp");
-const u8 gMonFootprint_Glalie[] = INCBIN_U8("graphics/pokemon/glalie/footprint.1bpp");
+const u32 gMonStillFrontPic_Eyesmon[] = INCBIN_U32("graphics/pokemon/eyesmon/front.4bpp.lz");
+const u32 gMonPalette_Eyesmon[] = INCBIN_U32("graphics/pokemon/eyesmon/normal.gbapal.lz");
+const u32 gMonBackPic_Eyesmon[] = INCBIN_U32("graphics/pokemon/eyesmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Eyesmon[] = INCBIN_U32("graphics/pokemon/eyesmon/shiny.gbapal.lz");
+const u8 gMonIcon_Eyesmon[] = INCBIN_U8("graphics/pokemon/eyesmon/icon.4bpp");
+const u8 gMonFootprint_Eyesmon[] = INCBIN_U8("graphics/pokemon/eyesmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/front.4bpp.lz");
 const u32 gMonPalette_Deckdramon[] = INCBIN_U32("graphics/pokemon/deckdramon/normal.gbapal.lz");
