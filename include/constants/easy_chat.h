@@ -1102,7 +1102,7 @@
 #define PHRASE_GREAT_BATTLE         1
 #define PHRASE_CHALLENGE_CONTEST    2
 #define PHRASE_OVERWHELMING_GARURUMON_X  3
-#define PHRASE_COOL_LATIOS          4
+#define PHRASE_COOL_GATOMON          4
 #define PHRASE_SUPER_HUSTLE         5
 
 #define EC_NUM_ALPHABET_GROUPS 27 // 26 (1 for each letter) + 1 (Others)

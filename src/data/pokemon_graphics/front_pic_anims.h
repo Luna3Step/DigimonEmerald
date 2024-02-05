@@ -4506,7 +4506,7 @@ static const union AnimCmd sAnim_Garurumon_x_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Latios_1[] =
+static const union AnimCmd sAnim_Gatomon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4516,7 +4516,7 @@ static const union AnimCmd sAnim_Latios_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Latios_2[] =
+static const union AnimCmd sAnim_Gatomon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5219,7 +5219,7 @@ DOUBLE_ANIMATION(Kyogre);
 DOUBLE_ANIMATION(Groudon);
 DOUBLE_ANIMATION(Rayquaza);
 DOUBLE_ANIMATION(Garurumon_x);
-DOUBLE_ANIMATION(Latios);
+DOUBLE_ANIMATION(Gatomon);
 DOUBLE_ANIMATION(Jirachi);
 DOUBLE_ANIMATION(Deoxys);
 SINGLE_ANIMATION(Eosmon_champion);
@@ -5662,7 +5662,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GEKOMON]     = sAnims_Groudon,
     [SPECIES_GEOGREYMON]    = sAnims_Rayquaza,
     [SPECIES_GARURUMON_X]      = sAnims_Garurumon_x,
-    [SPECIES_GATOMON]      = sAnims_Latios,
+    [SPECIES_GATOMON]      = sAnims_Gatomon,
     [SPECIES_GEREMON]     = sAnims_Jirachi,
     [SPECIES_GESOMON]      = sAnims_Deoxys,
     [SPECIES_EOSMON_CHAMPION]    = sAnims_Eosmon_champion,

@@ -435,7 +435,7 @@ $(OBJEVENTGFXDIR)/pokemon/aquilamon.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/kyogre.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/garurumon_x_latios.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/garurumon_x_gatomon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/sparrowmon.4bpp: %.4bpp: %.png

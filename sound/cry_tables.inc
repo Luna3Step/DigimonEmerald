@@ -384,7 +384,7 @@ gCryTable::
 	cry Cry_Chamelemon
 	cry Cry_Baohuckmon
 	cry Cry_Exveemon_virus
-	cry Cry_Latios
+	cry Cry_Gatomon
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Eosmon_champion
@@ -775,7 +775,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Chamelemon
 	cry_reverse Cry_Baohuckmon
 	cry_reverse Cry_Exveemon_virus
-	cry_reverse Cry_Latios
+	cry_reverse Cry_Gatomon
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
 	cry_reverse Cry_Eosmon_champion

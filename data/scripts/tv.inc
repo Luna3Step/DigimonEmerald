@@ -40,8 +40,8 @@ EventScript_PlayersHouseMovie::
 EventScript_PlayersHouseLatiNewsFlash::
 	msgbox PlayersHouse_1F_Text_LatiEmergencyNewsFlash, MSGBOX_DEFAULT
 	special InitRoamer
-	clearflag FLAG_SYS_TV_GARURUMON_X_LATIOS
-	setflag FLAG_LATIOS_OR_GARURUMON_X_ROAMING
+	clearflag FLAG_SYS_TV_GARURUMON_X_GATOMON
+	setflag FLAG_GATOMON_OR_GARURUMON_X_ROAMING
 	special TurnOffTVScreen
 	releaseall
 	end

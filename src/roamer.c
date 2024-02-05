@@ -81,9 +81,9 @@ void ClearRoamerLocationData(void)
     sRoamerLocation[MAP_NUM] = 0;
 }
 
-static void CreateInitialRoamerMon(bool16 createLatios)
+static void CreateInitialRoamerMon(bool16 createGatomon)
 {
-    if (!createLatios)
+    if (!createGatomon)
         ROAMER->species = SPECIES_GARURUMON_X;
     else
         ROAMER->species = SPECIES_GATOMON;

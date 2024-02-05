@@ -189,7 +189,7 @@
 #define OBJ_EVENT_GFX_BIG_GARGOYLMON_DOLL            185
 #define OBJ_EVENT_GFX_BIG_GARURUMON_DOLL         186
 #define OBJ_EVENT_GFX_GARURUMON_X                     187
-#define OBJ_EVENT_GFX_LATIOS                     188
+#define OBJ_EVENT_GFX_GATOMON                     188
 #define OBJ_EVENT_GFX_GAMEBOY_KID                189
 #define OBJ_EVENT_GFX_CONTEST_JUDGE              190
 #define OBJ_EVENT_GFX_BRENDAN_WATERING           191

@@ -1617,16 +1617,16 @@ static const struct SpriteFrameImage sPicTable_BigGarurumonDoll[] = {
     obj_frame_tiles(gObjectEventPic_BigGarurumonDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_Garurumon_xLatios[] = {
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 2),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 2),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Garurumon_xLatios, 4, 4, 2),
+static const struct SpriteFrameImage sPicTable_Garurumon_xGatomon[] = {
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Garurumon_xGatomon, 4, 4, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_GameboyKid[] = {

@@ -20,7 +20,7 @@
 #define TAG_BICYCLE 1001
 #define TAG_BRENDAN 1002
 #define TAG_MAY     1003
-#define TAG_DAMEMON_FUSION_LATIOS  1004
+#define TAG_DAMEMON_FUSION_GATOMON  1004
 #define TAG_DAMEMON_FUSION_GARURUMON_X  1005
 
 // Used for the Clouds/Trees/Houses sprites that pass by in the background
@@ -66,8 +66,8 @@ static const u16 sMayCredits_Pal[]        = INCBIN_U16("graphics/intro/scene_2/m
 static const u16 sUnused[0xF0]            = {0};
 static const u32 sMayCredits_Gfx[]        = INCBIN_U32("graphics/intro/scene_2/may_credits.4bpp.lz");
 static const u32 sBicycle_Gfx[]           = INCBIN_U32("graphics/intro/scene_2/bicycle.4bpp.lz");
-static const u16 sLatios_Pal[]            = INCBIN_U16("graphics/intro/scene_2/latios.gbapal");
-static const u32 sLatios_Gfx[]            = INCBIN_U32("graphics/intro/scene_2/latios.4bpp.lz");
+static const u16 sGatomon_Pal[]            = INCBIN_U16("graphics/intro/scene_2/gatomon.gbapal");
+static const u32 sGatomon_Gfx[]            = INCBIN_U32("graphics/intro/scene_2/gatomon.4bpp.lz");
 static const u16 sGarurumon_x_Pal[]            = INCBIN_U16("graphics/intro/scene_2/garurumon_x.gbapal");
 static const u32 sGarurumon_x_Gfx[]            = INCBIN_U32("graphics/intro/scene_2/garurumon_x.4bpp.lz");
 
@@ -554,10 +554,10 @@ static const union AnimCmd *const sAnims_Damemon_fusion[] =
     sAnim_Damemon_fusionRight
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Damemon_fusionLatios =
+static const struct SpriteTemplate sSpriteTemplate_Damemon_fusionGatomon =
 {
-    .tileTag = TAG_DAMEMON_FUSION_LATIOS,
-    .paletteTag = TAG_DAMEMON_FUSION_LATIOS,
+    .tileTag = TAG_DAMEMON_FUSION_GATOMON,
+    .paletteTag = TAG_DAMEMON_FUSION_GATOMON,
     .oam = &sOamData_Damemon_fusion,
     .anims = sAnims_Damemon_fusion,
     .images = NULL,
@@ -606,13 +606,13 @@ const struct CompressedSpriteSheet gSpriteSheet_IntroBicycle[] =
     {}
 };
 
-// In RS these were Latios/Garurumon_x. In Emerald both are replaced with Damemon_fusion and now only 1 is used
+// In RS these were Gatomon/Garurumon_x. In Emerald both are replaced with Damemon_fusion and now only 1 is used
 static const struct CompressedSpriteSheet sSpriteSheet_IntroDamemon_fusion_Unused[] =
 {
     {
         .data = gIntroDamemon_fusion_Gfx,
         .size = 0x1000,
-        .tag = TAG_DAMEMON_FUSION_LATIOS
+        .tag = TAG_DAMEMON_FUSION_GATOMON
     },
     {}
 };
@@ -631,7 +631,7 @@ const struct SpritePalette gSpritePalettes_IntroPlayerDamemon_fusion[] =
 {
     { .data = gIntroPlayer_Pal, .tag = TAG_BRENDAN },
     { .data = gIntroPlayer_Pal, .tag = TAG_MAY },
-    { .data = gIntroDamemon_fusion_Pal, .tag = TAG_DAMEMON_FUSION_LATIOS },
+    { .data = gIntroDamemon_fusion_Pal, .tag = TAG_DAMEMON_FUSION_GATOMON },
     { .data = gIntroDamemon_fusion_Pal, .tag = TAG_DAMEMON_FUSION_GARURUMON_X },
     {}
 };
@@ -667,12 +667,12 @@ const struct CompressedSpriteSheet gSpriteSheet_CreditsBicycle[] =
 };
 
 // Unused
-static const struct CompressedSpriteSheet sSpriteSheet_Latios[] =
+static const struct CompressedSpriteSheet sSpriteSheet_Gatomon[] =
 {
     {
-        .data = sLatios_Gfx,
+        .data = sGatomon_Gfx,
         .size = 0x1000,
-        .tag = TAG_DAMEMON_FUSION_LATIOS
+        .tag = TAG_DAMEMON_FUSION_GATOMON
     },
     {}
 };
@@ -692,7 +692,7 @@ const struct SpritePalette gSpritePalettes_Credits[] =
 {
     { .data = sBrendanCredits_Pal, .tag = TAG_BRENDAN },
     { .data = sMayCredits_Pal,     .tag = TAG_MAY },
-    { .data = sLatios_Pal,         .tag = TAG_DAMEMON_FUSION_LATIOS },
+    { .data = sGatomon_Pal,         .tag = TAG_DAMEMON_FUSION_GATOMON },
     { .data = sGarurumon_x_Pal,         .tag = TAG_DAMEMON_FUSION_GARURUMON_X },
     {}
 };
@@ -1147,11 +1147,11 @@ static void SpriteCB_Damemon_fusionRightHalf(struct Sprite *sprite)
     sprite->y2 = gSprites[sprite->sLeftSpriteId].y2;
 }
 
-// In RS these were for Latios/Garurumon_x. In Emerald both are replaced with Damemon_fusion and now only 1 is used
+// In RS these were for Gatomon/Garurumon_x. In Emerald both are replaced with Damemon_fusion and now only 1 is used
 static u8 CreateIntroDamemon_fusionSprite_Unused(s16 x, s16 y)
 {
-    u8 leftSpriteId = CreateSprite(&sSpriteTemplate_Damemon_fusionLatios, x - 32, y, 5);
-    u8 rightSpriteId = CreateSprite(&sSpriteTemplate_Damemon_fusionLatios, x + 32, y, 6);
+    u8 leftSpriteId = CreateSprite(&sSpriteTemplate_Damemon_fusionGatomon, x - 32, y, 5);
+    u8 rightSpriteId = CreateSprite(&sSpriteTemplate_Damemon_fusionGatomon, x + 32, y, 6);
     gSprites[rightSpriteId].sLeftSpriteId = leftSpriteId;
     StartSpriteAnim(&gSprites[rightSpriteId], 1);
     gSprites[rightSpriteId].callback = &SpriteCB_Damemon_fusionRightHalf;

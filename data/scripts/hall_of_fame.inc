@@ -26,7 +26,7 @@ EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags::
 
 EverGrandeCity_HallOfFame_EventScript_ResetDefeatedEventLegendaries::
 	clearflag FLAG_DEFEATED_MEW
-	clearflag FLAG_DEFEATED_GARURUMON_X_OR_LATIOS
+	clearflag FLAG_DEFEATED_GARURUMON_X_OR_GATOMON
 	clearflag FLAG_DEFEATED_DEOXYS
 	clearflag FLAG_DEFEATED_SPARROWMON
 	clearflag FLAG_DEFEATED_STARMON_2010

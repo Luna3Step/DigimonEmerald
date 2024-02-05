@@ -16,13 +16,13 @@ SouthernIsland_Interior_EventScript_TryRemoveLati::
 	return
 
 SouthernIsland_Interior_OnTransition:
-	call_if_eq VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetUpLatios
+	call_if_eq VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetUpGatomon
 	call_if_ne VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetUpGarurumon_x
 	call SouthernIsland_Interior_EventScript_SetUpPlayerGfx
 	end
 
-SouthernIsland_Interior_EventScript_SetUpLatios::
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_LATIOS
+SouthernIsland_Interior_EventScript_SetUpGatomon::
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_GATOMON
 	setvar VAR_TEMP_4, SPECIES_GATOMON
 	return
 
@@ -53,10 +53,10 @@ SouthernIsland_Interior_EventScript_TryLatiEncounter::
 
 SouthernIsland_Interior_EventScript_Lati::
 	goto_if_set FLAG_TEMP_2, SouthernIsland_Interior_EventScript_Sign
-	goto_if_set FLAG_DEFEATED_GARURUMON_X_OR_LATIOS, SouthernIsland_Interior_EventScript_Sign
-	goto_if_set FLAG_CAUGHT_GARURUMON_X_OR_LATIOS, SouthernIsland_Interior_EventScript_Sign
+	goto_if_set FLAG_DEFEATED_GARURUMON_X_OR_GATOMON, SouthernIsland_Interior_EventScript_Sign
+	goto_if_set FLAG_CAUGHT_GARURUMON_X_OR_GATOMON, SouthernIsland_Interior_EventScript_Sign
 	goto_if_unset FLAG_ENABLE_SHIP_SOUTHERN_ISLAND, SouthernIsland_Interior_EventScript_Sign
-	setflag FLAG_ENCOUNTERED_GARURUMON_X_OR_LATIOS
+	setflag FLAG_ENCOUNTERED_GARURUMON_X_OR_GATOMON
 	setflag FLAG_TEMP_2
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SouthernIsland_Interior_Movement_CameraPanUp
@@ -74,7 +74,7 @@ SouthernIsland_Interior_EventScript_Lati::
 	delay 50
 	special RemoveCameraObject
 	setvar VAR_LAST_TALKED, LOCALID_LATI
-	call_if_eq VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetLatiosBattleVars
+	call_if_eq VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetGatomonBattleVars
 	call_if_ne VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetGarurumon_xBattleVars
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	special BattleSetup_StartLatiBattle
@@ -84,12 +84,12 @@ SouthernIsland_Interior_EventScript_Lati::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, SouthernIsland_Interior_EventScript_LatiDefeated
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, SouthernIsland_Interior_EventScript_RanFromLati
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, SouthernIsland_Interior_EventScript_RanFromLati
-	setflag FLAG_CAUGHT_GARURUMON_X_OR_LATIOS
+	setflag FLAG_CAUGHT_GARURUMON_X_OR_GATOMON
 	releaseall
 	end
 
 SouthernIsland_Interior_EventScript_LatiDefeated::
-	setflag FLAG_DEFEATED_GARURUMON_X_OR_LATIOS
+	setflag FLAG_DEFEATED_GARURUMON_X_OR_GATOMON
 	copyvar VAR_0x8004, VAR_TEMP_4
 	goto Common_EventScript_LegendaryFlewAway
 	end
@@ -104,7 +104,7 @@ SouthernIsland_Interior_EventScript_Sign::
 	releaseall
 	end
 
-SouthernIsland_Interior_EventScript_SetLatiosBattleVars::
+SouthernIsland_Interior_EventScript_SetGatomonBattleVars::
 	seteventmon SPECIES_GATOMON, 50, ITEM_SOUL_DEW
 	return
 

@@ -1923,8 +1923,8 @@ Cry_Exveemon_virus::
 	.incbin "sound/direct_sound_samples/cries/exveemon_virus.bin"
 
 	.align 2
-Cry_Latios::
-	.incbin "sound/direct_sound_samples/cries/latios.bin"
+Cry_Gatomon::
+	.incbin "sound/direct_sound_samples/cries/gatomon.bin"
 
 	.align 2
 Cry_Jirachi::

@@ -186,7 +186,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGargomon
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGargoylmonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGarurumonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Garurumon_x;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ContestJudge;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanWatering;
@@ -435,7 +435,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIG_GARGOYLMON_DOLL] =          &gObjectEventGraphicsInfo_BigGargoylmonDoll,
     [OBJ_EVENT_GFX_BIG_GARURUMON_DOLL] =       &gObjectEventGraphicsInfo_BigGarurumonDoll,
     [OBJ_EVENT_GFX_GARURUMON_X] =                   &gObjectEventGraphicsInfo_Garurumon_x,
-    [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Latios,
+    [OBJ_EVENT_GFX_GATOMON] =                   &gObjectEventGraphicsInfo_Gatomon,
     [OBJ_EVENT_GFX_GAMEBOY_KID] =              &gObjectEventGraphicsInfo_GameboyKid,
     [OBJ_EVENT_GFX_CONTEST_JUDGE] =            &gObjectEventGraphicsInfo_ContestJudge,
     [OBJ_EVENT_GFX_BRENDAN_WATERING] =         &gObjectEventGraphicsInfo_BrendanWatering,
