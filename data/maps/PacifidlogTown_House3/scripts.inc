@@ -42,7 +42,7 @@ PacifidlogTown_House3_EventScript_NotRequestedMon::
 	end
 
 PacifidlogTown_House3_EventScript_TradeCompleted::
-	msgbox PacifidlogTown_House3_Text_ReallyWantedToGetBagon, MSGBOX_DEFAULT
+	msgbox PacifidlogTown_House3_Text_ReallyWantedToGetFlymon, MSGBOX_DEFAULT
 	release
 	end
 
@@ -75,10 +75,10 @@ PacifidlogTown_House3_Text_NotDesperateOrAnything:
 	.string "That's cool. I'm not desperate to make\n"
 	.string "a trade or anything.$"
 
-PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
+PacifidlogTown_House3_Text_ReallyWantedToGetFlymon:
 	.string "I know I could go looking for one\n"
 	.string "on my own, but…\p"
-	.string "But I really wanted to get a BAGON\n"
+	.string "But I really wanted to get a FLYMON\n"
 	.string "that another TRAINER caught…$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:

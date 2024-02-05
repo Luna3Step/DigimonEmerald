@@ -2585,12 +2585,12 @@ const u32 gMonShinyPalette_Arcadiamon_champion[] = INCBIN_U32("graphics/pokemon/
 const u8 gMonIcon_Arcadiamon_champion[] = INCBIN_U8("graphics/pokemon/arcadiamon_champion/icon.4bpp");
 const u8 gMonFootprint_Arcadiamon_champion[] = INCBIN_U8("graphics/pokemon/arcadiamon_champion/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/front.4bpp.lz");
-const u32 gMonPalette_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/normal.gbapal.lz");
-const u32 gMonBackPic_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/back.4bpp.lz");
-const u32 gMonShinyPalette_Bagon[] = INCBIN_U32("graphics/pokemon/bagon/shiny.gbapal.lz");
-const u8 gMonIcon_Bagon[] = INCBIN_U8("graphics/pokemon/bagon/icon.4bpp");
-const u8 gMonFootprint_Bagon[] = INCBIN_U8("graphics/pokemon/bagon/footprint.1bpp");
+const u32 gMonStillFrontPic_Flymon[] = INCBIN_U32("graphics/pokemon/flymon/front.4bpp.lz");
+const u32 gMonPalette_Flymon[] = INCBIN_U32("graphics/pokemon/flymon/normal.gbapal.lz");
+const u32 gMonBackPic_Flymon[] = INCBIN_U32("graphics/pokemon/flymon/back.4bpp.lz");
+const u32 gMonShinyPalette_Flymon[] = INCBIN_U32("graphics/pokemon/flymon/shiny.gbapal.lz");
+const u8 gMonIcon_Flymon[] = INCBIN_U8("graphics/pokemon/flymon/icon.4bpp");
+const u8 gMonFootprint_Flymon[] = INCBIN_U8("graphics/pokemon/flymon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Shelgon[] = INCBIN_U32("graphics/pokemon/shelgon/front.4bpp.lz");
 const u32 gMonPalette_Shelgon[] = INCBIN_U32("graphics/pokemon/shelgon/normal.gbapal.lz");
