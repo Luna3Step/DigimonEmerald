@@ -1,5 +1,5 @@
 .set LOCALID_STEVEN, 1
-.set LOCALID_BELDUM_BALL, 2
+.set LOCALID_FUGAMON_BALL, 2
 
 MossdeepCity_StevensHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_StevensHouse_OnLoad
@@ -72,61 +72,61 @@ MossdeepCity_StevensHouse_Movement_StevenReturn:
 	walk_in_place_faster_up
 	step_end
 
-MossdeepCity_StevensHouse_EventScript_BeldumPokeball::
+MossdeepCity_StevensHouse_EventScript_FugamonPokeball::
 	lockall
-	msgbox MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_LeaveBeldum
-	goto MossdeepCity_StevensHouse_EventScript_GiveBeldum
+	msgbox MossdeepCity_StevensHouse_Text_TakeBallContainingFugamon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_LeaveFugamon
+	goto MossdeepCity_StevensHouse_EventScript_GiveFugamon
 	end
 
-MossdeepCity_StevensHouse_EventScript_LeaveBeldum::
+MossdeepCity_StevensHouse_EventScript_LeaveFugamon::
 	msgbox MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas, MSGBOX_DEFAULT
 	releaseall
 	end
 
-MossdeepCity_StevensHouse_EventScript_GiveBeldum::
+MossdeepCity_StevensHouse_EventScript_GiveFugamon::
 	setvar VAR_TEMP_1, SPECIES_FUGAMON
 	givemon SPECIES_FUGAMON, 5
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_StevensHouse_EventScript_SendBeldumParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_StevensHouse_EventScript_SendBeldumPC
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_StevensHouse_EventScript_SendFugamonParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_StevensHouse_EventScript_SendFugamonPC
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-MossdeepCity_StevensHouse_EventScript_SendBeldumParty::
-	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
+MossdeepCity_StevensHouse_EventScript_SendFugamonParty::
+	call MossdeepCity_StevensHouse_EventScript_ReceivedFugamonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_ReceivedFugamon
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
+	goto MossdeepCity_StevensHouse_EventScript_ReceivedFugamon
 	end
 
-MossdeepCity_StevensHouse_EventScript_SendBeldumPC::
-	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
+MossdeepCity_StevensHouse_EventScript_SendFugamonPC::
+	call MossdeepCity_StevensHouse_EventScript_ReceivedFugamonFanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_FugamonTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
+	goto MossdeepCity_StevensHouse_EventScript_FugamonTransferredToPC
 	end
 
-MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC::
+MossdeepCity_StevensHouse_EventScript_FugamonTransferredToPC::
 	call Common_EventScript_TransferredToPC
-	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
+	goto MossdeepCity_StevensHouse_EventScript_ReceivedFugamon
 	end
 
-MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare::
+MossdeepCity_StevensHouse_EventScript_ReceivedFugamonFanfare::
 	bufferspeciesname STR_VAR_2, SPECIES_FUGAMON
-	removeobject LOCALID_BELDUM_BALL
+	removeobject LOCALID_FUGAMON_BALL
 	playfanfare MUS_OBTAIN_ITEM
-	message MossdeepCity_StevensHouse_Text_ObtainedBeldum
+	message MossdeepCity_StevensHouse_Text_ObtainedFugamon
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_FUGAMON
 	return
 
-MossdeepCity_StevensHouse_EventScript_ReceivedBeldum::
-	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL
-	setflag FLAG_RECEIVED_BELDUM
+MossdeepCity_StevensHouse_EventScript_ReceivedFugamon::
+	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_FUGAMON_POKEBALL
+	setflag FLAG_RECEIVED_FUGAMON
 	releaseall
 	end
 
@@ -177,14 +177,14 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 	.string "You know, the one that CAPT. STERN\n"
 	.string "found in his submarine.$"
 
-MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
+MossdeepCity_StevensHouse_Text_TakeBallContainingFugamon:
 	.string "{PLAYER} checked the POKé BALL.\p"
 	.string "It contained the POKéMON\n"
-	.string "BELDUM.\p"
+	.string "FUGAMON.\p"
 	.string "Take the POKé BALL?$"
 
-MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+MossdeepCity_StevensHouse_Text_ObtainedFugamon:
+	.string "{PLAYER} obtained a FUGAMON.$"
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
@@ -205,7 +205,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "I have a favor to ask of you.\p"
 	.string "I want you to take the POKé BALL on\n"
 	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
+	.string "Inside it is a FUGAMON, my favorite\n"
 	.string "POKéMON.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"

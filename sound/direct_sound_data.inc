@@ -1779,8 +1779,8 @@ Cry_Dobermon_x::
 	.incbin "sound/direct_sound_samples/cries/dobermon_x.bin"
 
 	.align 2
-Cry_Beldum::
-	.incbin "sound/direct_sound_samples/cries/beldum.bin"
+Cry_Fugamon::
+	.incbin "sound/direct_sound_samples/cries/fugamon.bin"
 
 	.align 2
 Cry_Metang::
