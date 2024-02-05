@@ -575,8 +575,8 @@ void BattleSetup_StartLegendaryBattle(void)
     {
     default:
     case SPECIES_GEKOMON:
-        gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
+        gBattleTypeFlags |= BATTLE_TYPE_GEKOMON;
+        CreateBattleStartTask(B_TRANSITION_GEKOMON, MUS_VS_KYOGRE_GROUDON);
         break;
     case SPECIES_GATOMON_X:
         gBattleTypeFlags |= BATTLE_TYPE_GATOMON_X;
@@ -604,14 +604,14 @@ void BattleSetup_StartLegendaryBattle(void)
     TryUpdateGymLeaderRematchFromWild();
 }
 
-void StartGroudonGatomon_xBattle(void)
+void StartGekomonGatomon_xBattle(void)
 {
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
-    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_GATOMON_X_GROUDON;
+    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_GATOMON_X_GEKOMON;
 
     if (gGameVersion == VERSION_RUBY)
-        CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_VS_KYOGRE_GROUDON); // GROUDON
+        CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_VS_KYOGRE_GROUDON); // GEKOMON
     else
         CreateBattleStartTask(B_TRANSITION_RIPPLE, MUS_VS_KYOGRE_GROUDON); // GATOMON_X
 

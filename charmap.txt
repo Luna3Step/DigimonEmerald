@@ -344,7 +344,7 @@ MAGMA          = FD 09
 ARCHIE         = FD 0A
 MAXIE          = FD 0B
 GATOMON_X         = FD 0C
-GROUDON        = FD 0D
+GEKOMON        = FD 0D
 
 @ battle string placeholders
 

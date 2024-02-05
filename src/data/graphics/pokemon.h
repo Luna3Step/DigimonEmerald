@@ -2655,12 +2655,12 @@ const u32 gMonShinyPalette_Gatomon_x[] = INCBIN_U32("graphics/pokemon/gatomon_x/
 const u8 gMonIcon_Gatomon_x[] = INCBIN_U8("graphics/pokemon/gatomon_x/icon.4bpp");
 const u8 gMonFootprint_Gatomon_x[] = INCBIN_U8("graphics/pokemon/gatomon_x/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Groudon[] = INCBIN_U32("graphics/pokemon/groudon/front.4bpp.lz");
-const u32 gMonPalette_Groudon[] = INCBIN_U32("graphics/pokemon/groudon/normal.gbapal.lz");
-const u32 gMonBackPic_Groudon[] = INCBIN_U32("graphics/pokemon/groudon/back.4bpp.lz");
-const u32 gMonShinyPalette_Groudon[] = INCBIN_U32("graphics/pokemon/groudon/shiny.gbapal.lz");
-const u8 gMonIcon_Groudon[] = INCBIN_U8("graphics/pokemon/groudon/icon.4bpp");
-const u8 gMonFootprint_Groudon[] = INCBIN_U8("graphics/pokemon/groudon/footprint.1bpp");
+const u32 gMonStillFrontPic_Gekomon[] = INCBIN_U32("graphics/pokemon/gekomon/front.4bpp.lz");
+const u32 gMonPalette_Gekomon[] = INCBIN_U32("graphics/pokemon/gekomon/normal.gbapal.lz");
+const u32 gMonBackPic_Gekomon[] = INCBIN_U32("graphics/pokemon/gekomon/back.4bpp.lz");
+const u32 gMonShinyPalette_Gekomon[] = INCBIN_U32("graphics/pokemon/gekomon/shiny.gbapal.lz");
+const u8 gMonIcon_Gekomon[] = INCBIN_U8("graphics/pokemon/gekomon/icon.4bpp");
+const u8 gMonFootprint_Gekomon[] = INCBIN_U8("graphics/pokemon/gekomon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Rayquaza[] = INCBIN_U32("graphics/pokemon/rayquaza/front.4bpp.lz");
 const u32 gMonPalette_Rayquaza[] = INCBIN_U32("graphics/pokemon/rayquaza/normal.gbapal.lz");

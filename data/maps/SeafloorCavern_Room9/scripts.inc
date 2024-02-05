@@ -128,7 +128,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenGatomon_x::
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GEKOMON
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GATOMON_X
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
@@ -309,7 +309,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "ARCHIE: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
 	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
+	.string "infuriated GEKOMON?\p"
 	.string "So long as I have this RED ORB,\n"
 	.string "I should be able to control GATOMONX…\p"
 	.string "I should be able to control it…$"

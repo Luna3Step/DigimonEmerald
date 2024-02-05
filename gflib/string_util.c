@@ -552,9 +552,9 @@ static const u8 *ExpandPlaceholder_Gatomon_x(void)
     return gText_ExpandedPlaceholder_Gatomon_x;
 }
 
-static const u8 *ExpandPlaceholder_Groudon(void)
+static const u8 *ExpandPlaceholder_Gekomon(void)
 {
-    return gText_ExpandedPlaceholder_Groudon;
+    return gText_ExpandedPlaceholder_Gekomon;
 }
 
 const u8 *GetExpandedPlaceholder(u32 id)
@@ -576,7 +576,7 @@ const u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_ARCHIE]       = ExpandPlaceholder_Archie,
         [PLACEHOLDER_ID_MAXIE]        = ExpandPlaceholder_Maxie,
         [PLACEHOLDER_ID_GATOMON_X]       = ExpandPlaceholder_Gatomon_x,
-        [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
+        [PLACEHOLDER_ID_GEKOMON]      = ExpandPlaceholder_Gekomon,
     };
 
     if (id >= ARRAY_COUNT(funcs))

@@ -31,7 +31,7 @@
     Scene 0. Copyright screen
     Scene 1. GF Logo, pan up over plants, Damemon_fusion silhouette goes by
     Scene 2. Player biking on path, joined by Pokémon
-    Scene 3. A fight between Groudon/Gatomon_x ends with Rayquaza
+    Scene 3. A fight between Gekomon/Gatomon_x ends with Rayquaza
 
     After this it progresses to the title screen
 */
@@ -77,13 +77,13 @@ static void SpriteCB_PlayerOnBicycle(struct Sprite *);
 // Scene 3 main tasks
 static void Task_Scene3_Load(u8);
 static void Task_Scene3_SpinPokeball(u8);
-static void Task_Scene3_WaitGroudon(u8);
-static void Task_Scene3_LoadGroudon(u8);
-static void Task_Scene3_InitGroudonBg(u8);
+static void Task_Scene3_WaitGekomon(u8);
+static void Task_Scene3_LoadGekomon(u8);
+static void Task_Scene3_InitGekomonBg(u8);
 static void Task_Scene3_NarrowWindow(u8);
 static void Task_Scene3_EndNarrowWindow(u8);
-static void Task_Scene3_StartGroudon(u8);
-static void Task_Scene3_Groudon(u8);
+static void Task_Scene3_StartGekomon(u8);
+static void Task_Scene3_Gekomon(u8);
 static void Task_Scene3_LoadGatomon_x(u8);
 static void Task_Scene3_Gatomon_x(u8);
 static void Task_Scene3_LoadClouds1(u8);
@@ -97,11 +97,11 @@ static void Task_Scene3_Rayquaza(u8);
 static void Task_EndIntroMovie(u8);
 
 // Scene 3 supplemental functions
-static void CreateGroudonRockSprites(u8);
+static void CreateGekomonRockSprites(u8);
 static void CreateGatomon_xBubbleSprites_Body(u8);
 static void CreateGatomon_xBubbleSprites_Fins(void);
 static void Task_RayquazaAttack(u8);
-static void SpriteCB_GroudonRocks(struct Sprite *);
+static void SpriteCB_GekomonRocks(struct Sprite *);
 static void SpriteCB_Gatomon_xBubbles(struct Sprite *sprite);
 static void SpriteCB_Lightning(struct Sprite *sprite);
 static void SpriteCB_RayquazaOrb(struct Sprite *sprite);
@@ -475,7 +475,7 @@ static const struct SpriteTemplate sSpriteTemplate_Lightning =
 };
 // x coord, anim number, speed
 // Smaller anim numbers are larger rocks, and are given slower speeds
-static const s16 sGroudonRockData[][3] =
+static const s16 sGekomonRockData[][3] =
 {
     {104, 0, 0x0C0},
     {142, 3, 0x280},
@@ -1743,7 +1743,7 @@ static void Task_Scene3_SpinPokeball(u8 taskId)
     }
     else
     {
-        gTasks[taskId].func = Task_Scene3_WaitGroudon;
+        gTasks[taskId].func = Task_Scene3_WaitGekomon;
     }
 
     PanFadeAndZoomScreen(0x78, 0x50, SAFE_DIV(0x10000, gTasks[taskId].tZoomDiv), gTasks[taskId].tAlpha);
@@ -1756,13 +1756,13 @@ static void Task_Scene3_SpinPokeball(u8 taskId)
 #undef tZoomDiv
 #undef tZoomDivSpeed
 
-static void Task_Scene3_WaitGroudon(u8 taskId)
+static void Task_Scene3_WaitGekomon(u8 taskId)
 {
     if (gIntroFrameCounter > TIMER_START_LEGENDARIES)
-        gTasks[taskId].func = Task_Scene3_LoadGroudon;
+        gTasks[taskId].func = Task_Scene3_LoadGekomon;
 }
 
-static void Task_Scene3_LoadGroudon(u8 taskId)
+static void Task_Scene3_LoadGekomon(u8 taskId)
 {
     if (!gPaletteFade.active)
     {
@@ -1770,14 +1770,14 @@ static void Task_Scene3_LoadGroudon(u8 taskId)
         ResetSpriteData();
         FreeAllSpritePalettes();
         gReservedSpritePaletteCount = 8;
-        LZDecompressVram(gIntroGroudon_Gfx, (void *)VRAM);
-        LZDecompressVram(gIntroGroudon_Tilemap, (void *)(BG_CHAR_ADDR(3)));
+        LZDecompressVram(gIntroGekomon_Gfx, (void *)VRAM);
+        LZDecompressVram(gIntroGekomon_Tilemap, (void *)(BG_CHAR_ADDR(3)));
         LZDecompressVram(gIntroLegendBg_Gfx, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gIntroGroudonBg_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gIntroGekomonBg_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
         LoadCompressedSpriteSheetUsingHeap(&gBattleAnimPicTable[GET_TRUE_SPRITE_INDEX(ANIM_TAG_ROCKS)]);
         LoadCompressedSpritePaletteUsingHeap(&gBattleAnimPaletteTable[GET_TRUE_SPRITE_INDEX(ANIM_TAG_ROCKS)]);
         CpuCopy16(gIntro3Bg_Pal, gPlttBufferUnfaded, sizeof(gIntro3Bg_Pal));
-        gTasks[taskId].func = Task_Scene3_InitGroudonBg;
+        gTasks[taskId].func = Task_Scene3_InitGekomonBg;
     }
 }
 
@@ -1786,7 +1786,7 @@ static void Task_Scene3_LoadGroudon(u8 taskId)
 #define tScreenY data[2]
 #define tZoom    data[3]
 
-static void Task_Scene3_InitGroudonBg(u8 taskId)
+static void Task_Scene3_InitGekomonBg(u8 taskId)
 {
     SetGpuReg(REG_OFFSET_WIN0H, DISPLAY_WIDTH);
     SetGpuReg(REG_OFFSET_WIN0V, DISPLAY_HEIGHT);
@@ -1818,7 +1818,7 @@ static void Task_Scene3_InitGroudonBg(u8 taskId)
     gTasks[taskId].func = Task_Scene3_NarrowWindow;
 }
 
-// Before the Groudon scene starts, the black top/bottom edges of the screen
+// Before the Gekomon scene starts, the black top/bottom edges of the screen
 // come inward for a more 'cinematic' look
 #define NARROW_HEIGHT 32
 static void Task_Scene3_NarrowWindow(u8 taskId)
@@ -1841,13 +1841,13 @@ static void Task_Scene3_NarrowWindow(u8 taskId)
 
 static void Task_Scene3_EndNarrowWindow(u8 taskId)
 {
-    gTasks[taskId].func = Task_Scene3_StartGroudon;
+    gTasks[taskId].func = Task_Scene3_StartGekomon;
 }
 
-static void Task_Scene3_StartGroudon(u8 taskId)
+static void Task_Scene3_StartGekomon(u8 taskId)
 {
     gTasks[taskId].tState = 0;
-    gTasks[taskId].func = Task_Scene3_Groudon;
+    gTasks[taskId].func = Task_Scene3_Gekomon;
     ScanlineEffect_InitWave(0, 160, 4, 4, 1, SCANLINE_EFFECT_REG_BG1HOFS, FALSE);
 }
 
@@ -1860,7 +1860,7 @@ static void Task_Scene3_StartGroudon(u8 taskId)
 #define tTrigIdx data[6] // Re-used
 #define tPalIdx  data[7]
 
-static void Task_Scene3_Groudon(u8 taskId)
+static void Task_Scene3_Gekomon(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -1877,7 +1877,7 @@ static void Task_Scene3_Groudon(u8 taskId)
             tState++;
             tDelay = 2;
             tPalIdx = 0x1E2;
-            CreateGroudonRockSprites(taskId);
+            CreateGekomonRockSprites(taskId);
         }
         break;
     case 1:
@@ -1980,23 +1980,23 @@ static void Task_Scene3_Groudon(u8 taskId)
 #define sTimer  data[3]
 #define sTaskId data[4]
 
-static void CreateGroudonRockSprites(u8 taskId)
+static void CreateGekomonRockSprites(u8 taskId)
 {
     int i;
     u8 spriteId;
 
-    for (i = 0; i < (int)ARRAY_COUNT(sGroudonRockData); i++)
+    for (i = 0; i < (int)ARRAY_COUNT(sGekomonRockData); i++)
     {
-        spriteId = CreateSprite(gAncientPowerRockSpriteTemplate, sGroudonRockData[i][0], DISPLAY_HEIGHT, i);
-        gSprites[spriteId].callback = SpriteCB_GroudonRocks;
+        spriteId = CreateSprite(gAncientPowerRockSpriteTemplate, sGekomonRockData[i][0], DISPLAY_HEIGHT, i);
+        gSprites[spriteId].callback = SpriteCB_GekomonRocks;
         gSprites[spriteId].oam.priority = 0;
         gSprites[spriteId].sRockId = i;
         gSprites[spriteId].sTaskId = taskId;
-        StartSpriteAnim(&gSprites[spriteId], sGroudonRockData[i][1]);
+        StartSpriteAnim(&gSprites[spriteId], sGekomonRockData[i][1]);
     }
 }
 
-static void SpriteCB_GroudonRocks(struct Sprite *sprite)
+static void SpriteCB_GekomonRocks(struct Sprite *sprite)
 {
     // Introduce some wobble to the floating
     sprite->sTimer++;
@@ -2007,11 +2007,11 @@ static void SpriteCB_GroudonRocks(struct Sprite *sprite)
     {
     case 0:
         // Rock floats up
-        sprite->sSpeed += sGroudonRockData[sprite->sRockId][2];
+        sprite->sSpeed += sGekomonRockData[sprite->sRockId][2];
         sprite->y -= (sprite->sSpeed & 0xFF00) >> 8;
         sprite->sSpeed &= 0xFF;
 
-        // Check if Groudon scene is ending
+        // Check if Gekomon scene is ending
         if (gTasks[sprite->sTaskId].tState > 7)
             sprite->sState++;
         break;

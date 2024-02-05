@@ -148,7 +148,7 @@ MtPyre_Summit_EventScript_OldManAfterRayquaza::
 	end
 
 MtPyre_Summit_EventScript_OldManTale::
-	msgbox MtPyre_Summit_Text_GroudonGatomon_xTale, MSGBOX_DEFAULT
+	msgbox MtPyre_Summit_Text_GekomonGatomon_xTale, MSGBOX_DEFAULT
 	return
 
 MtPyre_Summit_EventScript_DeclineOldManTale::
@@ -176,7 +176,7 @@ MtPyre_Summit_EventScript_OldLadyOrbsReturned::
 	end
 
 MtPyre_Summit_EventScript_OldLadyLegendariesAwake::
-	msgbox MtPyre_Summit_Text_GroudonGatomon_xAwakened, MSGBOX_DEFAULT
+	msgbox MtPyre_Summit_Text_GekomonGatomon_xAwakened, MSGBOX_DEFAULT
 	release
 	end
 
@@ -525,9 +525,9 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "They must never be apart…\n"
 	.string "I fear something terrible will happen…$"
 
-MtPyre_Summit_Text_GroudonGatomon_xAwakened:
+MtPyre_Summit_Text_GekomonGatomon_xAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and GATOMONX\n"
+	.string "You say that both GEKOMON and GATOMONX\n"
 	.string "have been awakened?\p"
 	.string "It is said that the BLUE ORB and\n"
 	.string "the RED ORB quelled the rage of\l"
@@ -567,7 +567,7 @@ MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "Will you hear out my tale? A tale long\n"
 	.string "told in the HOENN region?$"
 
-MtPyre_Summit_Text_GroudonGatomon_xTale:
+MtPyre_Summit_Text_GekomonGatomon_xTale:
 	.string "It happened long, long ago…\p"
 	.string "The world was wracked by a ferocious\n"
 	.string "clash between the POKéMON of the land\l"

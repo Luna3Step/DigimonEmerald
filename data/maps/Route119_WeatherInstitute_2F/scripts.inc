@@ -140,12 +140,12 @@ Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather::
 Route119_WeatherInstitute_2F_EventScript_TryStartAbnormalWeather::
 	setvar VAR_0x8004, 0
 	call_if_set FLAG_DEFEATED_GATOMON_X, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
-	call_if_set FLAG_DEFEATED_GROUDON, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
+	call_if_set FLAG_DEFEATED_GEKOMON, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
 	goto_if_eq VAR_0x8004, 2, Route119_WeatherInstitute_2F_EventScript_NoAbnormalWeather  @ Both defeated
 	call_if_unset FLAG_TEMP_2, Route119_WeatherInstitute_2F_EventScript_CreateAbnormalWeather
 	specialvar VAR_RESULT, GetAbnormalWeatherMapNameAndType
 	goto_if_eq VAR_RESULT, 1, Route119_WeatherInstitute_2F_EventScript_Gatomon_xWeather
-	msgbox Route119_WeatherInstitute_2F_Text_GroudonWeather, MSGBOX_DEFAULT
+	msgbox Route119_WeatherInstitute_2F_Text_GekomonWeather, MSGBOX_DEFAULT
 	release
 	end
 
@@ -309,7 +309,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 	.string "years, but it's ridiculous to think that\l"
 	.string "humans can freely change the weather.$"
 
-Route119_WeatherInstitute_2F_Text_GroudonWeather:
+Route119_WeatherInstitute_2F_Text_GekomonWeather:
 	.string "I track weather patterns over\n"
 	.string "the HOENN region.\p"
 	.string "Presently, a drought has been recorded\n"

@@ -25,7 +25,7 @@ void StartWallyTutorialBattle(void);
 void BattleSetup_StartScriptedWildBattle(void);
 void BattleSetup_StartLatiBattle(void);
 void BattleSetup_StartLegendaryBattle(void);
-void StartGroudonGatomon_xBattle(void);
+void StartGekomonGatomon_xBattle(void);
 void StartRegiBattle(void);
 u8 BattleSetup_GetTerrainId(void);
 u8 GetSpecialBattleTransition(s32 id);

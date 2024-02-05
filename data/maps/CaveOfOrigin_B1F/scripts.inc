@@ -71,7 +71,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "with the GYM's operation.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "GROUDON and GATOMONX, the two POKéMON\n"
+	.string "GEKOMON and GATOMONX, the two POKéMON\n"
 	.string "wreaking havoc here, are considered\l"
 	.string "to be super-ancient POKéMON.\p"
 	.string "But there aren't just two super-\n"

@@ -166,7 +166,7 @@ AbnormalWeather_StartGatomon_xWeather::
 	setweather WEATHER_DOWNPOUR
 	return
 
-AbnormalWeather_StartGroudonWeather::
+AbnormalWeather_StartGekomonWeather::
 	setweather WEATHER_DROUGHT
 	return
 

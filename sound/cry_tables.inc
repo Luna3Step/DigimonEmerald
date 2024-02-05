@@ -369,7 +369,7 @@ gCryTable::
 	cry Cry_Blgrowlmon
 	cry Cry_Flarizamon
 	cry Cry_Flybeemon
-	cry Cry_Groudon
+	cry Cry_Gekomon
 	cry Cry_Gatomon_x
 	cry Cry_Rayquaza
 	cry Cry_Frogmon
@@ -760,7 +760,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Blgrowlmon
 	cry_reverse Cry_Flarizamon
 	cry_reverse Cry_Flybeemon
-	cry_reverse Cry_Groudon
+	cry_reverse Cry_Gekomon
 	cry_reverse Cry_Gatomon_x
 	cry_reverse Cry_Rayquaza
 	cry_reverse Cry_Frogmon

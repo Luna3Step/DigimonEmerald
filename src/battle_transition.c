@@ -118,7 +118,7 @@ static void Task_Gargoylmon(u8);
 static void Task_Garurumon(u8);
 static void Task_Gargomon(u8);
 static void Task_Gatomon_x(u8);
-static void Task_Groudon(u8);
+static void Task_Gekomon(u8);
 static void Task_Rayquaza(u8);
 static void Task_ShredSplit(u8);
 static void Task_Blackhole(u8);
@@ -170,9 +170,9 @@ static bool8 WeatherTrio_WaitFade(struct Task *);
 static bool8 Gatomon_x_Init(struct Task *);
 static bool8 Gatomon_x_PaletteFlash(struct Task *);
 static bool8 Gatomon_x_PaletteBrighten(struct Task *);
-static bool8 Groudon_Init(struct Task *);
-static bool8 Groudon_PaletteFlash(struct Task *);
-static bool8 Groudon_PaletteBrighten(struct Task *);
+static bool8 Gekomon_Init(struct Task *);
+static bool8 Gekomon_PaletteFlash(struct Task *);
+static bool8 Gekomon_PaletteBrighten(struct Task *);
 static bool8 WeatherDuo_FadeOut(struct Task *);
 static bool8 WeatherDuo_End(struct Task *);
 static bool8 BigPokeball_Init(struct Task *);
@@ -317,12 +317,12 @@ static const u32 sGargomon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/g
 static const u16 sUnused_Palette[] = INCBIN_U16("graphics/battle_transitions/unused.gbapal");
 static const u32 sGatomon_x_Tileset[] = INCBIN_U32("graphics/battle_transitions/gatomon_x.4bpp.lz");
 static const u32 sGatomon_x_Tilemap[] = INCBIN_U32("graphics/battle_transitions/gatomon_x.bin.lz");
-static const u32 sGroudon_Tileset[] = INCBIN_U32("graphics/battle_transitions/groudon.4bpp.lz");
-static const u32 sGroudon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/groudon.bin.lz");
+static const u32 sGekomon_Tileset[] = INCBIN_U32("graphics/battle_transitions/gekomon.4bpp.lz");
+static const u32 sGekomon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/gekomon.bin.lz");
 static const u16 sGatomon_x1_Palette[] = INCBIN_U16("graphics/battle_transitions/gatomon_x_pt1.gbapal");
 static const u16 sGatomon_x2_Palette[] = INCBIN_U16("graphics/battle_transitions/gatomon_x_pt2.gbapal");
-static const u16 sGroudon1_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt1.gbapal");
-static const u16 sGroudon2_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt2.gbapal");
+static const u16 sGekomon1_Palette[] = INCBIN_U16("graphics/battle_transitions/gekomon_pt1.gbapal");
+static const u16 sGekomon2_Palette[] = INCBIN_U16("graphics/battle_transitions/gekomon_pt2.gbapal");
 static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
 static const u32 sRayquaza_Tileset[] = INCBIN_U32("graphics/battle_transitions/rayquaza.4bpp");
 static const u32 sRayquaza_Tilemap[] = INCBIN_U32("graphics/battle_transitions/rayquaza.bin");
@@ -369,7 +369,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_GARURUMON] = Task_Garurumon,
     [B_TRANSITION_GARGOMON] = Task_Gargomon,
     [B_TRANSITION_GATOMON_X] = Task_Gatomon_x,
-    [B_TRANSITION_GROUDON] = Task_Groudon,
+    [B_TRANSITION_GEKOMON] = Task_Gekomon,
     [B_TRANSITION_RAYQUAZA] = Task_Rayquaza,
     [B_TRANSITION_SHRED_SPLIT] = Task_ShredSplit,
     [B_TRANSITION_BLACKHOLE] = Task_Blackhole,
@@ -700,13 +700,13 @@ static const s16 *const *const sRectangularSpiral_MoveDataTables[] =
     sRectangularSpiral_MoveDataTable_MinorDiagonal
 };
 
-static const TransitionStateFunc sGroudon_Funcs[] =
+static const TransitionStateFunc sGekomon_Funcs[] =
 {
     WeatherTrio_BgFadeBlack,
     WeatherTrio_WaitFade,
-    Groudon_Init,
-    Groudon_PaletteFlash,
-    Groudon_PaletteBrighten,
+    Gekomon_Init,
+    Gekomon_PaletteFlash,
+    Gekomon_PaletteBrighten,
     FramesCountdown,
     WeatherDuo_FadeOut,
     WeatherDuo_End
@@ -1322,7 +1322,7 @@ static void HBlankCB_Shuffle(void)
 //
 // With the exception of B_TRANSITION_GATOMON_X, all of the above transitions
 // use the same weave effect (see the PatternWeave functions).
-// Unclear why Gatomon_x's was grouped here and not with Groudon/Rayquaza's.
+// Unclear why Gatomon_x's was grouped here and not with Gekomon/Rayquaza's.
 //------------------------------------------------------------------------
 
 #define tBlendTarget1 data[1]
@@ -3360,36 +3360,36 @@ static bool16 UpdateRectangularSpiralLine(const s16 * const *moveDataTable, stru
 }
 
 //----------------------
-// B_TRANSITION_GROUDON
+// B_TRANSITION_GEKOMON
 //----------------------
 
 #define tTimer data[1]
 
-static void Task_Groudon(u8 taskId)
+static void Task_Gekomon(u8 taskId)
 {
-    while (sGroudon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sGekomon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static bool8 Groudon_Init(struct Task *task)
+static bool8 Gekomon_Init(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, BG_SCREEN_SIZE);
-    LZ77UnCompVram(sGroudon_Tileset, tileset);
-    LZ77UnCompVram(sGroudon_Tilemap, tilemap);
+    LZ77UnCompVram(sGekomon_Tileset, tileset);
+    LZ77UnCompVram(sGekomon_Tilemap, tilemap);
 
     task->tState++;
     task->tTimer = 0;
     return FALSE;
 }
 
-static bool8 Groudon_PaletteFlash(struct Task *task)
+static bool8 Gekomon_PaletteFlash(struct Task *task)
 {
     if (task->tTimer % 3 == 0)
     {
         u16 offset = (task->tTimer % 30) / 3;
-        LoadPalette(&sGroudon1_Palette[offset * 16], 0xF0, 0x20);
+        LoadPalette(&sGekomon1_Palette[offset * 16], 0xF0, 0x20);
     }
     if (++task->tTimer > 58)
     {
@@ -3400,12 +3400,12 @@ static bool8 Groudon_PaletteFlash(struct Task *task)
     return FALSE;
 }
 
-static bool8 Groudon_PaletteBrighten(struct Task *task)
+static bool8 Gekomon_PaletteBrighten(struct Task *task)
 {
     if (task->tTimer % 5 == 0)
     {
         s16 offset = task->tTimer / 5;
-        LoadPalette(&sGroudon2_Palette[offset * 16], 0xF0, 0x20);
+        LoadPalette(&sGekomon2_Palette[offset * 16], 0xF0, 0x20);
     }
     if (++task->tTimer > 68)
     {

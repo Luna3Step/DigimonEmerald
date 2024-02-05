@@ -261,7 +261,7 @@
 #define PLACEHOLDER_ID_ARCHIE        0xA
 #define PLACEHOLDER_ID_MAXIE         0xB
 #define PLACEHOLDER_ID_GATOMON_X        0xC
-#define PLACEHOLDER_ID_GROUDON       0xD
+#define PLACEHOLDER_ID_GEKOMON       0xD
 
 // battle placeholders are located in battle_message.h
 

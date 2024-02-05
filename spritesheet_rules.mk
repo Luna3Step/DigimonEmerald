@@ -420,7 +420,7 @@ $(OBJEVENTGFXDIR)/pokemon/ebidramon.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/enemy_toyagumon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/groudon.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/gekomon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/starmon_2010.4bpp: %.4bpp: %.png

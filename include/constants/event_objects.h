@@ -199,7 +199,7 @@
 #define OBJ_EVENT_GFX_ARCHIE                     195
 #define OBJ_EVENT_GFX_MAXIE                      196
 #define OBJ_EVENT_GFX_GATOMON_X_FRONT               197
-#define OBJ_EVENT_GFX_GROUDON_FRONT              198
+#define OBJ_EVENT_GFX_GEKOMON_FRONT              198
 #define OBJ_EVENT_GFX_FOSSIL                     199
 #define OBJ_EVENT_GFX_GARGOMON                   200
 #define OBJ_EVENT_GFX_GARGOYLMON                     201
@@ -207,7 +207,7 @@
 #define OBJ_EVENT_GFX_BIRDRAMON                     203
 #define OBJ_EVENT_GFX_DONSHOUMON                    204
 #define OBJ_EVENT_GFX_GATOMON_X_ASLEEP              205
-#define OBJ_EVENT_GFX_GROUDON_ASLEEP             206
+#define OBJ_EVENT_GFX_GEKOMON_ASLEEP             206
 #define OBJ_EVENT_GFX_RAYQUAZA                   207
 #define OBJ_EVENT_GFX_TOYAGUMON_2                208
 #define OBJ_EVENT_GFX_PETITMON                    209
@@ -223,7 +223,7 @@
 #define OBJ_EVENT_GFX_SCOTT                      219
 #define OBJ_EVENT_GFX_TINKERMON                  220
 #define OBJ_EVENT_GFX_GATOMON_X_SIDE                221
-#define OBJ_EVENT_GFX_GROUDON_SIDE               222
+#define OBJ_EVENT_GFX_GEKOMON_SIDE               222
 #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223
 #define OBJ_EVENT_GFX_TRICK_HOUSE_STATUE         224
 #define OBJ_EVENT_GFX_AQUILAMON                     225

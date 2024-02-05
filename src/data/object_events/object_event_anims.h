@@ -733,7 +733,7 @@ static const union AnimCmd sAnim_HookedPokemonEast[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_GoSouthStart[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_GoSouthStart[] =
 {
     AFFINEANIMCMD_FRAME(0x0, 0x0, 1, 1),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 1),
@@ -743,7 +743,7 @@ static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_GoSouthStart[] =
     AFFINEANIMCMD_JUMP(0),
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_GoSouth[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_GoSouth[] =
 {
     AFFINEANIMCMD_FRAME(0x0, 0x0, -1, 1),
     AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 1),
@@ -754,26 +754,26 @@ static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_GoSouth[] =
     AFFINEANIMCMD_JUMP(0),
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_AttackEast[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_AttackEast[] =
 {
     AFFINEANIMCMD_FRAME(0x100, 0x100, 10, 0),
     AFFINEANIMCMD_END,
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_AttackWest[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_AttackWest[] =
 {
     AFFINEANIMCMD_FRAME(0x100, 0x100, 10, 0),
     AFFINEANIMCMD_END,
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_DipEast[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_DipEast[] =
 {
     AFFINEANIMCMD_FRAME(0x0, 0x0, -1, 1),
     AFFINEANIMCMD_LOOP(8),
     AFFINEANIMCMD_END,
 };
 
-static const union AffineAnimCmd sAffineAnim_Gatomon_xGroudon_DipWest[] =
+static const union AffineAnimCmd sAffineAnim_Gatomon_xGekomon_DipWest[] =
 {
     AFFINEANIMCMD_FRAME(0x0, 0x0, 1, 1),
     AFFINEANIMCMD_LOOP(8),
@@ -869,7 +869,7 @@ static const union AnimCmd *const sAnimTable_Starmon_2010[] = {
 };
 
 // The movements for going up use the animations for going right instead.
-static const union AnimCmd *const sAnimTable_GroudonSide[] = {
+static const union AnimCmd *const sAnimTable_GekomonSide[] = {
     [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
     [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
     [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
@@ -1134,13 +1134,13 @@ static const union AnimCmd *const sAnimTable_Fishing[] = {
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast,
 };
 
-static const union AffineAnimCmd *const sAffineAnimTable_Gatomon_xGroudon[] = {
-    sAffineAnim_Gatomon_xGroudon_GoSouthStart, // Used by Gatomon_x/Groudon when awakened
-    sAffineAnim_Gatomon_xGroudon_GoSouth,      // Used by Gatomon_x/Groudon when awakened
-    sAffineAnim_Gatomon_xGroudon_AttackWest,   // Used by Gatomon_x during Sootopolis fight
-    sAffineAnim_Gatomon_xGroudon_AttackEast,   // Unused
-    sAffineAnim_Gatomon_xGroudon_DipWest,      // Unused
-    sAffineAnim_Gatomon_xGroudon_DipEast,      // Unused
+static const union AffineAnimCmd *const sAffineAnimTable_Gatomon_xGekomon[] = {
+    sAffineAnim_Gatomon_xGekomon_GoSouthStart, // Used by Gatomon_x/Gekomon when awakened
+    sAffineAnim_Gatomon_xGekomon_GoSouth,      // Used by Gatomon_x/Gekomon when awakened
+    sAffineAnim_Gatomon_xGekomon_AttackWest,   // Used by Gatomon_x during Sootopolis fight
+    sAffineAnim_Gatomon_xGekomon_AttackEast,   // Unused
+    sAffineAnim_Gatomon_xGekomon_DipWest,      // Unused
+    sAffineAnim_Gatomon_xGekomon_DipEast,      // Unused
 };
 
 // For animations with alternating steps

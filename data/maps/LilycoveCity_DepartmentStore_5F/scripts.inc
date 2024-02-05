@@ -4,7 +4,7 @@ LilycoveCity_DepartmentStore_5F_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LilycoveCity_DepartmentStore_5F_OnWarp
 	.byte 0
 
-@ During the abnormal weather from Gatomon_x/Groudon awakening the dept store rooftop is inaccessible
+@ During the abnormal weather from Gatomon_x/Gekomon awakening the dept store rooftop is inaccessible
 @ Likely done to avoid dealing with showing the weather. Technically the rooftop is indoors
 LilycoveCity_DepartmentStore_5F_OnWarp:
 	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, LilycoveCity_DepartmentStore_5F_EventScript_BlockRoofStairs

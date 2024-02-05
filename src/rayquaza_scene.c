@@ -18,16 +18,16 @@
 #include "random.h"
 
 /*
-    This file handles the cutscene showing Rayquaza arriving to settle the Groudon/Gatomon_x fight
+    This file handles the cutscene showing Rayquaza arriving to settle the Gekomon/Gatomon_x fight
     It consists of 5 separate scenes:
-    - Groudon and Gatomon_x facing one another in a thunderstorm             (RAY_ANIM_DUO_FIGHT)
+    - Gekomon and Gatomon_x facing one another in a thunderstorm             (RAY_ANIM_DUO_FIGHT)
     - Over-the-shoulder of Rayquaza flying                                (RAY_ANIM_TAKES_FLIGHT)
     - Rayquaza emerging from a spotlight down through the clouds          (RAY_ANIM_DESCENDS)
     - A close-up of Rayquaza flying down                                  (RAY_ANIM_CHARGES)
-    - Rayquaza floating above Groudon/Gatomon_x as they back away offscreen  (RAY_ANIM_CHASES_AWAY)
+    - Rayquaza floating above Gekomon/Gatomon_x as they back away offscreen  (RAY_ANIM_CHASES_AWAY)
 
     A shortened version of the first scene is used when the player first arrives
-    in Sootopolis during the Groudon/Gatomon_x conflict, before awakening Rayquaza (RAY_ANIM_DUO_FIGHT_PRE)
+    in Sootopolis during the Gekomon/Gatomon_x conflict, before awakening Rayquaza (RAY_ANIM_DUO_FIGHT_PRE)
     This is indicated with the first two arguments to DoRayquazaScene
 */
 
@@ -42,17 +42,17 @@ enum
     RAY_ANIM_END
 };
 
-#define TAG_DUOFIGHT_GROUDON             30505
-#define TAG_DUOFIGHT_GROUDON_SHOULDER    30506
-#define TAG_DUOFIGHT_GROUDON_CLAW        30507
+#define TAG_DUOFIGHT_GEKOMON             30505
+#define TAG_DUOFIGHT_GEKOMON_SHOULDER    30506
+#define TAG_DUOFIGHT_GEKOMON_CLAW        30507
 #define TAG_DUOFIGHT_GATOMON_X              30508
 #define TAG_DUOFIGHT_GATOMON_X_PECTORAL_FIN 30509
 #define TAG_DUOFIGHT_GATOMON_X_DORSAL_FIN   30510
 #define TAG_FLIGHT_SMOKE                 30555
 #define TAG_DESCENDS_RAYQUAZA            30556
 #define TAG_DESCENDS_RAYQUAZA_TAIL       30557
-#define TAG_CHASE_GROUDON                30565
-#define TAG_CHASE_GROUDON_TAIL           30566
+#define TAG_CHASE_GEKOMON                30565
+#define TAG_CHASE_GEKOMON_TAIL           30566
 #define TAG_CHASE_GATOMON_X                 30568
 #define TAG_CHASE_RAYQUAZA               30569
 #define TAG_CHASE_RAYQUAZA_TAIL          30570
@@ -89,15 +89,15 @@ static void DuoFight_AnimateRain(void);
 static void DuoFight_Lightning1(void);
 static void DuoFight_Lightning2(void);
 static void DuoFight_LightningLong(void);
-static u8 DuoFightPre_CreateGroudonSprites(void);
+static u8 DuoFightPre_CreateGekomonSprites(void);
 static u8 DuoFightPre_CreateGatomon_xSprites(void);
-static u8 DuoFight_CreateGroudonSprites(void);
+static u8 DuoFight_CreateGekomonSprites(void);
 static u8 DuoFight_CreateGatomon_xSprites(void);
-static void SpriteCB_DuoFightPre_Groudon(struct Sprite *);
+static void SpriteCB_DuoFightPre_Gekomon(struct Sprite *);
 static void SpriteCB_DuoFightPre_Gatomon_x(struct Sprite *);
-static void SpriteCB_DuoFight_Groudon(struct Sprite *);
+static void SpriteCB_DuoFight_Gekomon(struct Sprite *);
 static void SpriteCB_DuoFight_Gatomon_x(struct Sprite *);
-static void DuoFight_SlideGroudonDown(struct Sprite *);
+static void DuoFight_SlideGekomonDown(struct Sprite *);
 static void DuoFight_SlideGatomon_xDown(struct Sprite *);
 
 // RAY_ANIM_TAKES_FLIGHT
@@ -128,10 +128,10 @@ static void Task_HandleRayChasesAway(u8);
 static void Task_RayChasesAwayEnd(u8);
 static void Task_ChasesAway_AnimateBg(u8);
 static void ChasesAway_Gatomon_xStartLeave(u8);
-static void ChasesAway_GroudonStartLeave(u8);
+static void ChasesAway_GekomonStartLeave(u8);
 static void ChasesAway_CreateTrioSprites(u8);
 static void Task_ChasesAway_AnimateRing(u8);
-static void SpriteCB_ChasesAway_GroudonLeave(struct Sprite *);
+static void SpriteCB_ChasesAway_GekomonLeave(struct Sprite *);
 static void SpriteCB_ChasesAway_Gatomon_xLeave(struct Sprite *);
 static void SpriteCB_ChasesAway_RayquazaFloat(struct Sprite *);
 static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *);
@@ -285,7 +285,7 @@ static const struct OamData sOam_32x8 =
     .affineParam = 0
 };
 
-static const union AnimCmd sAnim_DuoFightPre_Groudon_Head[] =
+static const union AnimCmd sAnim_DuoFightPre_Gekomon_Head[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(64, 30),
@@ -294,7 +294,7 @@ static const union AnimCmd sAnim_DuoFightPre_Groudon_Head[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_DuoFightPre_Groudon_Body[] =
+static const union AnimCmd sAnim_DuoFightPre_Gekomon_Body[] =
 {
     ANIMCMD_FRAME(192, 30),
     ANIMCMD_FRAME(256, 30),
@@ -303,62 +303,62 @@ static const union AnimCmd sAnim_DuoFightPre_Groudon_Body[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd *const sAnims_DuoFightPre_Groudon[] =
+static const union AnimCmd *const sAnims_DuoFightPre_Gekomon[] =
 {
-    sAnim_DuoFightPre_Groudon_Head,
-    sAnim_DuoFightPre_Groudon_Body
+    sAnim_DuoFightPre_Gekomon_Head,
+    sAnim_DuoFightPre_Gekomon_Body
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_Groudon =
+static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_Gekomon =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_64x64,
-    .anims = sAnims_DuoFightPre_Groudon,
+    .anims = sAnims_DuoFightPre_Gekomon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const union AnimCmd sAnim_DuoFightPre_GroudonShoulderGatomon_xDorsalFin[] =
+static const union AnimCmd sAnim_DuoFightPre_GekomonShoulderGatomon_xDorsalFin[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_DuoFightPre_GroudonShoulderGatomon_xDorsalFin[] =
+static const union AnimCmd *const sAnims_DuoFightPre_GekomonShoulderGatomon_xDorsalFin[] =
 {
-    sAnim_DuoFightPre_GroudonShoulderGatomon_xDorsalFin
+    sAnim_DuoFightPre_GekomonShoulderGatomon_xDorsalFin
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_GroudonShoulder =
+static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_GekomonShoulder =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON_SHOULDER,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON_SHOULDER,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_32x32,
-    .anims = sAnims_DuoFightPre_GroudonShoulderGatomon_xDorsalFin,
+    .anims = sAnims_DuoFightPre_GekomonShoulderGatomon_xDorsalFin,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const union AnimCmd sAnim_DuoFightPre_GroudonClaw[] =
+static const union AnimCmd sAnim_DuoFightPre_GekomonClaw[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_DuoFightPre_GroudonClaw[] =
+static const union AnimCmd *const sAnims_DuoFightPre_GekomonClaw[] =
 {
-    sAnim_DuoFightPre_GroudonClaw
+    sAnim_DuoFightPre_GekomonClaw
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_GroudonClaw =
+static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_GekomonClaw =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON_CLAW,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON_CLAW,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_64x32,
-    .anims = sAnims_DuoFightPre_GroudonClaw,
+    .anims = sAnims_DuoFightPre_GekomonClaw,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -482,7 +482,7 @@ static const struct SpriteTemplate sSpriteTemplate_DuoFightPre_Gatomon_xDorsalFi
     .tileTag = TAG_DUOFIGHT_GATOMON_X_DORSAL_FIN,
     .paletteTag = TAG_DUOFIGHT_GATOMON_X,
     .oam = &sOam_32x32,
-    .anims = sAnims_DuoFightPre_GroudonShoulderGatomon_xDorsalFin,
+    .anims = sAnims_DuoFightPre_GekomonShoulderGatomon_xDorsalFin,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -526,7 +526,7 @@ static const struct BgTemplate sBgTemplates_DuoFight[] =
     },
 };
 
-static const union AnimCmd sAnim_DuoFight_Groudon_Head[] =
+static const union AnimCmd sAnim_DuoFight_Gekomon_Head[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(64, 20),
@@ -535,7 +535,7 @@ static const union AnimCmd sAnim_DuoFight_Groudon_Head[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_DuoFight_Groudon_Body[] =
+static const union AnimCmd sAnim_DuoFight_Gekomon_Body[] =
 {
     ANIMCMD_FRAME(192, 20),
     ANIMCMD_FRAME(256, 20),
@@ -544,82 +544,82 @@ static const union AnimCmd sAnim_DuoFight_Groudon_Body[] =
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd *const sAnims_DuoFight_Groudon[] =
+static const union AnimCmd *const sAnims_DuoFight_Gekomon[] =
 {
-    sAnim_DuoFight_Groudon_Head,
-    sAnim_DuoFight_Groudon_Body
+    sAnim_DuoFight_Gekomon_Head,
+    sAnim_DuoFight_Gekomon_Body
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_Groudon =
+static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_Gekomon =
 {
-    gRaySceneDuoFight_Groudon_Gfx, 0x3000, TAG_DUOFIGHT_GROUDON
+    gRaySceneDuoFight_Gekomon_Gfx, 0x3000, TAG_DUOFIGHT_GEKOMON
 };
 
-static const struct CompressedSpritePalette sSpritePal_DuoFight_Groudon =
+static const struct CompressedSpritePalette sSpritePal_DuoFight_Gekomon =
 {
-    gRaySceneDuoFight_Groudon_Pal, TAG_DUOFIGHT_GROUDON
+    gRaySceneDuoFight_Gekomon_Pal, TAG_DUOFIGHT_GEKOMON
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFight_Groudon =
+static const struct SpriteTemplate sSpriteTemplate_DuoFight_Gekomon =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_64x64,
-    .anims = sAnims_DuoFight_Groudon,
+    .anims = sAnims_DuoFight_Gekomon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const union AnimCmd sAnim_DuoFight_GroudonShoulderGatomon_xDorsalFin[] =
+static const union AnimCmd sAnim_DuoFight_GekomonShoulderGatomon_xDorsalFin[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_DuoFight_GroudonShoulderGatomon_xDorsalFin[] =
+static const union AnimCmd *const sAnims_DuoFight_GekomonShoulderGatomon_xDorsalFin[] =
 {
-    sAnim_DuoFight_GroudonShoulderGatomon_xDorsalFin
+    sAnim_DuoFight_GekomonShoulderGatomon_xDorsalFin
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_GroudonShoulder =
+static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_GekomonShoulder =
 {
-    gRaySceneDuoFight_GroudonShoulder_Gfx, 0x200, TAG_DUOFIGHT_GROUDON_SHOULDER
+    gRaySceneDuoFight_GekomonShoulder_Gfx, 0x200, TAG_DUOFIGHT_GEKOMON_SHOULDER
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFight_GroudonShoulder =
+static const struct SpriteTemplate sSpriteTemplate_DuoFight_GekomonShoulder =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON_SHOULDER,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON_SHOULDER,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_32x32,
-    .anims = sAnims_DuoFight_GroudonShoulderGatomon_xDorsalFin,
+    .anims = sAnims_DuoFight_GekomonShoulderGatomon_xDorsalFin,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const union AnimCmd sAnim_DuoFight_GroudonClaw[] =
+static const union AnimCmd sAnim_DuoFight_GekomonClaw[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_DuoFight_GroudonClaw[] =
+static const union AnimCmd *const sAnims_DuoFight_GekomonClaw[] =
 {
-    sAnim_DuoFight_GroudonClaw
+    sAnim_DuoFight_GekomonClaw
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_GroudonClaw =
+static const struct CompressedSpriteSheet sSpriteSheet_DuoFight_GekomonClaw =
 {
-    gRaySceneDuoFight_GroudonClaw_Gfx, 0x400, TAG_DUOFIGHT_GROUDON_CLAW
+    gRaySceneDuoFight_GekomonClaw_Gfx, 0x400, TAG_DUOFIGHT_GEKOMON_CLAW
 };
 
-static const struct SpriteTemplate sSpriteTemplate_DuoFight_GroudonClaw =
+static const struct SpriteTemplate sSpriteTemplate_DuoFight_GekomonClaw =
 {
-    .tileTag = TAG_DUOFIGHT_GROUDON_CLAW,
-    .paletteTag = TAG_DUOFIGHT_GROUDON,
+    .tileTag = TAG_DUOFIGHT_GEKOMON_CLAW,
+    .paletteTag = TAG_DUOFIGHT_GEKOMON,
     .oam = &sOam_64x32,
-    .anims = sAnims_DuoFight_GroudonClaw,
+    .anims = sAnims_DuoFight_GekomonClaw,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -762,7 +762,7 @@ static const struct SpriteTemplate sSpriteTemplate_DuoFight_Gatomon_xDorsalFin =
     .tileTag = TAG_DUOFIGHT_GATOMON_X_DORSAL_FIN,
     .paletteTag = TAG_DUOFIGHT_GATOMON_X,
     .oam = &sOam_32x32,
-    .anims = sAnims_DuoFight_GroudonShoulderGatomon_xDorsalFin,
+    .anims = sAnims_DuoFight_GekomonShoulderGatomon_xDorsalFin,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -999,13 +999,13 @@ static const struct BgTemplate sBgTemplates_Charges[] =
     }
 };
 
-static const union AnimCmd sAnim_ChasesAway_Groudon_Still[] =
+static const union AnimCmd sAnim_ChasesAway_Gekomon_Still[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_Groudon_Moving[] =
+static const union AnimCmd sAnim_ChasesAway_Gekomon_Moving[] =
 {
     ANIMCMD_FRAME(0, 48),
     ANIMCMD_FRAME(64, 32),
@@ -1014,21 +1014,21 @@ static const union AnimCmd sAnim_ChasesAway_Groudon_Moving[] =
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd *const sAnims_ChasesAway_Groudon[] =
+static const union AnimCmd *const sAnims_ChasesAway_Gekomon[] =
 {
-    sAnim_ChasesAway_Groudon_Still,
-    sAnim_ChasesAway_Groudon_Moving
+    sAnim_ChasesAway_Gekomon_Still,
+    sAnim_ChasesAway_Gekomon_Moving
 };
 
-static const union AnimCmd sAnim_ChasesAway_GroudonTail[] =
+static const union AnimCmd sAnim_ChasesAway_GekomonTail[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_ChasesAway_GroudonTail[] =
+static const union AnimCmd *const sAnims_ChasesAway_GekomonTail[] =
 {
-    sAnim_ChasesAway_GroudonTail,
+    sAnim_ChasesAway_GekomonTail,
 };
 
 static const union AnimCmd sAnim_ChasesAway_Gatomon_x_Front[] =
@@ -1136,14 +1136,14 @@ static const union AnimCmd *const sAnims_ChasesAway_Gatomon_xSplash[] =
     sAnim_ChasesAway_Gatomon_xSplash
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Groudon =
+static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Gekomon =
 {
-    gRaySceneChasesAway_Groudon_Gfx, 0x1800, TAG_CHASE_GROUDON
+    gRaySceneChasesAway_Gekomon_Gfx, 0x1800, TAG_CHASE_GEKOMON
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_GroudonTail =
+static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_GekomonTail =
 {
-    gRaySceneChasesAway_GroudonTail_Gfx, 0x80, TAG_CHASE_GROUDON_TAIL
+    gRaySceneChasesAway_GekomonTail_Gfx, 0x80, TAG_CHASE_GEKOMON_TAIL
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Gatomon_x =
@@ -1166,9 +1166,9 @@ static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Gatomon_xSplas
     gRaySceneChasesAway_Gatomon_xSplash_Gfx, 0x300, TAG_CHASE_SPLASH
 };
 
-static const struct CompressedSpritePalette sSpritePal_ChasesAway_Groudon =
+static const struct CompressedSpritePalette sSpritePal_ChasesAway_Gekomon =
 {
-    gRaySceneChasesAway_Groudon_Pal, TAG_CHASE_GROUDON
+    gRaySceneChasesAway_Gekomon_Pal, TAG_CHASE_GEKOMON
 };
 
 static const struct CompressedSpritePalette sSpritePal_ChasesAway_Gatomon_x =
@@ -1186,23 +1186,23 @@ static const struct CompressedSpritePalette sSpritePal_ChasesAway_Gatomon_xSplas
     gRaySceneChasesAway_Gatomon_xSplash_Pal, TAG_CHASE_SPLASH
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ChasesAway_Groudon =
+static const struct SpriteTemplate sSpriteTemplate_ChasesAway_Gekomon =
 {
-    .tileTag = TAG_CHASE_GROUDON,
-    .paletteTag = TAG_CHASE_GROUDON,
+    .tileTag = TAG_CHASE_GEKOMON,
+    .paletteTag = TAG_CHASE_GEKOMON,
     .oam = &sOam_64x64,
-    .anims = sAnims_ChasesAway_Groudon,
+    .anims = sAnims_ChasesAway_Gekomon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ChasesAway_GroudonTail =
+static const struct SpriteTemplate sSpriteTemplate_ChasesAway_GekomonTail =
 {
-    .tileTag = TAG_CHASE_GROUDON_TAIL,
-    .paletteTag = TAG_CHASE_GROUDON,
+    .tileTag = TAG_CHASE_GEKOMON_TAIL,
+    .paletteTag = TAG_CHASE_GEKOMON,
     .oam = &sOam_16x16,
-    .anims = sAnims_ChasesAway_GroudonTail,
+    .anims = sAnims_ChasesAway_GekomonTail,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -1374,12 +1374,12 @@ static void ResetWindowDimensions(void)
 
 #define tTimer           data[0]
 #define tHelperTaskId    data[1]
-#define tGroudonSpriteId data[2]
+#define tGekomonSpriteId data[2]
 #define tGatomon_xSpriteId  data[3]
 
-#define sGroudonBodySpriteId     data[0]
-#define sGroudonShoulderSpriteId data[1]
-#define sGroudonClawSpriteId     data[2]
+#define sGekomonBodySpriteId     data[0]
+#define sGekomonShoulderSpriteId data[1]
+#define sGekomonClawSpriteId     data[2]
 
 static void Task_HandleDuoFightPre(u8 taskId)
 {
@@ -1413,22 +1413,22 @@ static void Task_HandleDuoFightPre(u8 taskId)
     }
 }
 
-static u8 DuoFightPre_CreateGroudonSprites(void)
+static u8 DuoFightPre_CreateGekomonSprites(void)
 {
     u8 spriteId;
     s16 *data;
 
-    spriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_Groudon, 88, 72, 3);
-    gSprites[spriteId].callback = SpriteCB_DuoFightPre_Groudon;
+    spriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_Gekomon, 88, 72, 3);
+    gSprites[spriteId].callback = SpriteCB_DuoFightPre_Gekomon;
     data = gSprites[spriteId].data;
-    sGroudonBodySpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_Groudon, 56, 104, 3);
-    sGroudonShoulderSpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_GroudonShoulder, 75, 101, 0);
-    sGroudonClawSpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_GroudonClaw, 109, 114, 1);
-    StartSpriteAnim(&gSprites[sGroudonBodySpriteId], 1);
+    sGekomonBodySpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_Gekomon, 56, 104, 3);
+    sGekomonShoulderSpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_GekomonShoulder, 75, 101, 0);
+    sGekomonClawSpriteId = CreateSprite(&sSpriteTemplate_DuoFightPre_GekomonClaw, 109, 114, 1);
+    StartSpriteAnim(&gSprites[sGekomonBodySpriteId], 1);
     return spriteId;
 }
 
-static void SpriteCB_DuoFightPre_Groudon(struct Sprite *sprite)
+static void SpriteCB_DuoFightPre_Gekomon(struct Sprite *sprite)
 {
     s16 *data = sprite->data;
     data[5]++;
@@ -1436,31 +1436,31 @@ static void SpriteCB_DuoFightPre_Groudon(struct Sprite *sprite)
     if (data[5] == 0 && sprite->x != 72)
     {
         sprite->x--;
-        gSprites[sprite->sGroudonBodySpriteId].x--;
-        gSprites[sGroudonShoulderSpriteId].x--;
-        gSprites[sGroudonClawSpriteId].x--;
+        gSprites[sprite->sGekomonBodySpriteId].x--;
+        gSprites[sGekomonShoulderSpriteId].x--;
+        gSprites[sGekomonClawSpriteId].x--;
     }
 
     switch (sprite->animCmdIndex)
     {
     case 0:
-        gSprites[sGroudonShoulderSpriteId].x2 = 0;
-        gSprites[sGroudonShoulderSpriteId].y2 = 0;
-        gSprites[sGroudonClawSpriteId].x2 = 0;
-        gSprites[sGroudonClawSpriteId].y2 = 0;
+        gSprites[sGekomonShoulderSpriteId].x2 = 0;
+        gSprites[sGekomonShoulderSpriteId].y2 = 0;
+        gSprites[sGekomonClawSpriteId].x2 = 0;
+        gSprites[sGekomonClawSpriteId].y2 = 0;
         break;
     case 1:
     case 3:
-        gSprites[sGroudonShoulderSpriteId].x2 = -1;
-        gSprites[sGroudonShoulderSpriteId].y2 = 0;
-        gSprites[sGroudonClawSpriteId].x2 = -1;
-        gSprites[sGroudonClawSpriteId].y2 = 0;
+        gSprites[sGekomonShoulderSpriteId].x2 = -1;
+        gSprites[sGekomonShoulderSpriteId].y2 = 0;
+        gSprites[sGekomonClawSpriteId].x2 = -1;
+        gSprites[sGekomonClawSpriteId].y2 = 0;
         break;
     case 2:
-        gSprites[sGroudonShoulderSpriteId].x2 = -1;
-        gSprites[sGroudonShoulderSpriteId].y2 = 1;
-        gSprites[sGroudonClawSpriteId].x2 = -2;
-        gSprites[sGroudonClawSpriteId].y2 = 1;
+        gSprites[sGekomonShoulderSpriteId].x2 = -1;
+        gSprites[sGekomonShoulderSpriteId].y2 = 1;
+        gSprites[sGekomonClawSpriteId].x2 = -2;
+        gSprites[sGekomonClawSpriteId].y2 = 1;
         break;
     }
 }
@@ -1593,13 +1593,13 @@ static void LoadDuoFightSceneGfx(void)
     LZDecompressWram(gRaySceneDuoFight_Clouds1_Tilemap, sRayScene->tilemapBuffers[1]);
     LZDecompressWram(gRaySceneDuoFight_Clouds3_Tilemap, sRayScene->tilemapBuffers[2]);
     LoadCompressedPalette(gRaySceneDuoFight_Clouds_Pal, 0, 0x40);
-    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_Groudon);
-    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_GroudonShoulder);
-    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_GroudonClaw);
+    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_Gekomon);
+    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_GekomonShoulder);
+    LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_GekomonClaw);
     LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_Gatomon_x);
     LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_Gatomon_xPectoralFin);
     LoadCompressedSpriteSheet(&sSpriteSheet_DuoFight_Gatomon_xDorsalFin);
-    LoadCompressedSpritePalette(&sSpritePal_DuoFight_Groudon);
+    LoadCompressedSpritePalette(&sSpritePal_DuoFight_Gekomon);
     LoadCompressedSpritePalette(&sSpritePal_DuoFight_Gatomon_x);
 }
 
@@ -1615,13 +1615,13 @@ static void Task_DuoFightAnim(u8 taskId)
     tHelperTaskId = CreateTask(Task_DuoFight_AnimateClouds, 0);
     if (sRayScene->animId == RAY_ANIM_DUO_FIGHT_PRE)
     {
-        tGroudonSpriteId = DuoFightPre_CreateGroudonSprites();
+        tGekomonSpriteId = DuoFightPre_CreateGekomonSprites();
         tGatomon_xSpriteId = DuoFightPre_CreateGatomon_xSprites();
         gTasks[taskId].func = Task_HandleDuoFightPre;
     }
     else
     {
-        tGroudonSpriteId = DuoFight_CreateGroudonSprites();
+        tGekomonSpriteId = DuoFight_CreateGekomonSprites();
         tGatomon_xSpriteId = DuoFight_CreateGatomon_xSprites();
         gTasks[taskId].func = Task_HandleDuoFight;
         StopMapMusic();
@@ -1767,7 +1767,7 @@ static void DuoFight_PanOffScene(u8 taskId)
 {
     u16 bgY;
     s16 *data = gTasks[taskId].data;
-    DuoFight_SlideGroudonDown(&gSprites[tGroudonSpriteId]);
+    DuoFight_SlideGekomonDown(&gSprites[tGekomonSpriteId]);
     DuoFight_SlideGatomon_xDown(&gSprites[tGatomon_xSpriteId]);
 
     bgY = GetBgY(1);
@@ -1805,22 +1805,22 @@ static void Task_DuoFightEnd(u8 taskId)
     }
 }
 
-static u8 DuoFight_CreateGroudonSprites(void)
+static u8 DuoFight_CreateGekomonSprites(void)
 {
     u8 spriteId;
     s16 *data;
 
-    spriteId = CreateSprite(&sSpriteTemplate_DuoFight_Groudon, 98, 72, 3);
-    gSprites[spriteId].callback = SpriteCB_DuoFight_Groudon;
+    spriteId = CreateSprite(&sSpriteTemplate_DuoFight_Gekomon, 98, 72, 3);
+    gSprites[spriteId].callback = SpriteCB_DuoFight_Gekomon;
     data = gSprites[spriteId].data;
-    sGroudonBodySpriteId = CreateSprite(&sSpriteTemplate_DuoFight_Groudon, 66, 104, 3);
-    sGroudonShoulderSpriteId = CreateSprite(&sSpriteTemplate_DuoFight_GroudonShoulder, 85, 101, 0);
-    sGroudonClawSpriteId = CreateSprite(&sSpriteTemplate_DuoFight_GroudonClaw, 119, 114, 1);
-    StartSpriteAnim(&gSprites[sGroudonBodySpriteId], 1);
+    sGekomonBodySpriteId = CreateSprite(&sSpriteTemplate_DuoFight_Gekomon, 66, 104, 3);
+    sGekomonShoulderSpriteId = CreateSprite(&sSpriteTemplate_DuoFight_GekomonShoulder, 85, 101, 0);
+    sGekomonClawSpriteId = CreateSprite(&sSpriteTemplate_DuoFight_GekomonClaw, 119, 114, 1);
+    StartSpriteAnim(&gSprites[sGekomonBodySpriteId], 1);
     return spriteId;
 }
 
-static void SpriteCB_DuoFight_Groudon(struct Sprite *sprite)
+static void SpriteCB_DuoFight_Gekomon(struct Sprite *sprite)
 {
     s16 *data = sprite->data;
     data[5]++;
@@ -1828,44 +1828,44 @@ static void SpriteCB_DuoFight_Groudon(struct Sprite *sprite)
     if (!(data[5] & 7) && sprite->x != 72)
     {
         sprite->x--;
-        gSprites[sprite->sGroudonBodySpriteId].x--;
-        gSprites[sGroudonShoulderSpriteId].x--;
-        gSprites[sGroudonClawSpriteId].x--;
+        gSprites[sprite->sGekomonBodySpriteId].x--;
+        gSprites[sGekomonShoulderSpriteId].x--;
+        gSprites[sGekomonClawSpriteId].x--;
     }
 
     switch (sprite->animCmdIndex)
     {
     case 0:
-        gSprites[sGroudonShoulderSpriteId].x2 = 0;
-        gSprites[sGroudonShoulderSpriteId].y2 = 0;
-        gSprites[sGroudonClawSpriteId].x2 = 0;
-        gSprites[sGroudonClawSpriteId].y2 = 0;
+        gSprites[sGekomonShoulderSpriteId].x2 = 0;
+        gSprites[sGekomonShoulderSpriteId].y2 = 0;
+        gSprites[sGekomonClawSpriteId].x2 = 0;
+        gSprites[sGekomonClawSpriteId].y2 = 0;
         break;
     case 1:
     case 3:
-        gSprites[sGroudonShoulderSpriteId].x2 = -1;
-        gSprites[sGroudonShoulderSpriteId].y2 = 0;
-        gSprites[sGroudonClawSpriteId].x2 = -1;
-        gSprites[sGroudonClawSpriteId].y2 = 0;
+        gSprites[sGekomonShoulderSpriteId].x2 = -1;
+        gSprites[sGekomonShoulderSpriteId].y2 = 0;
+        gSprites[sGekomonClawSpriteId].x2 = -1;
+        gSprites[sGekomonClawSpriteId].y2 = 0;
         break;
     case 2:
-        gSprites[sGroudonShoulderSpriteId].x2 = -1;
-        gSprites[sGroudonShoulderSpriteId].y2 = 1;
-        gSprites[sGroudonClawSpriteId].x2 = -2;
-        gSprites[sGroudonClawSpriteId].y2 = 1;
+        gSprites[sGekomonShoulderSpriteId].x2 = -1;
+        gSprites[sGekomonShoulderSpriteId].y2 = 1;
+        gSprites[sGekomonClawSpriteId].x2 = -2;
+        gSprites[sGekomonClawSpriteId].y2 = 1;
         break;
     }
 }
 
-static void DuoFight_SlideGroudonDown(struct Sprite *sprite)
+static void DuoFight_SlideGekomonDown(struct Sprite *sprite)
 {
     s16 *data = sprite->data;
     if (sprite->y <= DISPLAY_HEIGHT)
     {
         sprite->y += 8;
-        gSprites[sprite->sGroudonBodySpriteId].y += 8;
-        gSprites[sGroudonShoulderSpriteId].y += 8;
-        gSprites[sGroudonClawSpriteId].y += 8;
+        gSprites[sprite->sGekomonBodySpriteId].y += 8;
+        gSprites[sGekomonShoulderSpriteId].y += 8;
+        gSprites[sGekomonClawSpriteId].y += 8;
     }
 }
 
@@ -1983,12 +1983,12 @@ static void DuoFight_SlideGatomon_xDown(struct Sprite *sprite)
 
 #undef tTimer
 #undef tHelperTaskId
-#undef tGroudonSpriteId
+#undef tGekomonSpriteId
 #undef tGatomon_xSpriteId
 
-#undef sGroudonBodySpriteId
-#undef sGroudonShoulderSpriteId
-#undef sGroudonClawSpriteId
+#undef sGekomonBodySpriteId
+#undef sGekomonShoulderSpriteId
+#undef sGekomonClawSpriteId
 
 
 // RAY_ANIM_TAKES_FLIGHT
@@ -2672,13 +2672,13 @@ static void LoadChasesAwaySceneGfx(void)
     LZDecompressWram(gRaySceneChasesAway_Light_Tilemap, sRayScene->tilemapBuffers[0]);
     LZDecompressWram(gRaySceneChasesAway_Ring_Tilemap, sRayScene->tilemapBuffers[2]);
     LoadCompressedPalette(gRaySceneChasesAway_Bg_Pal, 0, 0x60);
-    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Groudon);
-    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_GroudonTail);
+    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gekomon);
+    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_GekomonTail);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gatomon_x);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Rayquaza);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_RayquazaTail);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gatomon_xSplash);
-    LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Groudon);
+    LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gekomon);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gatomon_x);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Rayquaza);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gatomon_xSplash);
@@ -2733,11 +2733,11 @@ static void Task_HandleRayChasesAway(u8 taskId)
         // Wait for Rayquaza to enter and finish shout anim
         if (gSprites[data[5]].callback == SpriteCB_ChasesAway_RayquazaFloat)
         {
-            // Delay, then start Groudon/Gatomon_x leaving
+            // Delay, then start Gekomon/Gatomon_x leaving
             if (tTimer == 64)
             {
                 ChasesAway_Gatomon_xStartLeave(taskId);
-                ChasesAway_GroudonStartLeave(taskId);
+                ChasesAway_GekomonStartLeave(taskId);
                 tTimer = 0;
                 tState++;
             }
@@ -2748,7 +2748,7 @@ static void Task_HandleRayChasesAway(u8 taskId)
         }
         break;
     case 2:
-        // Wait for Groudon/Gatomon_x to leave
+        // Wait for Gekomon/Gatomon_x to leave
         if (tTimer == 448)
         {
             tTimer = 0;
@@ -2838,7 +2838,7 @@ static void Task_RayChasesAwayEnd(u8 taskId)
 #undef tTimer
 #undef tBgTaskId
 
-#define tGroudonSpriteId  taskData[3]
+#define tGekomonSpriteId  taskData[3]
 #define tGatomon_xSpriteId   taskData[4]
 #define tRayquazaSpriteId taskData[5]
 
@@ -2848,10 +2848,10 @@ static void ChasesAway_CreateTrioSprites(u8 taskId)
 
     taskData = gTasks[taskId].data;
 
-    tGroudonSpriteId = CreateSprite(&sSpriteTemplate_ChasesAway_Groudon, 64, 120, 0);
-    spriteData = gSprites[tGroudonSpriteId].data;
-    spriteData[0] = CreateSprite(&sSpriteTemplate_ChasesAway_GroudonTail, 16, 130, 0);
-    gSprites[tGroudonSpriteId].oam.priority = 1;
+    tGekomonSpriteId = CreateSprite(&sSpriteTemplate_ChasesAway_Gekomon, 64, 120, 0);
+    spriteData = gSprites[tGekomonSpriteId].data;
+    spriteData[0] = CreateSprite(&sSpriteTemplate_ChasesAway_GekomonTail, 16, 130, 0);
+    gSprites[tGekomonSpriteId].oam.priority = 1;
     gSprites[spriteData[0]].oam.priority = 1;
 
     tGatomon_xSpriteId = CreateSprite(&sSpriteTemplate_ChasesAway_Gatomon_x, 160, 128, 1);
@@ -2882,11 +2882,11 @@ static void ChasesAway_PushDuoBack(u8 taskId)
 {
     s16 *taskData = gTasks[taskId].data;
 
-    gSprites[tGroudonSpriteId].callback = SpriteCB_ChasesAway_DuoRingPush;
-    gSprites[tGroudonSpriteId].sTimer = 0;
-    gSprites[tGroudonSpriteId].sDecel = 0;
-    gSprites[tGroudonSpriteId].sSpeed = 4;
-    gSprites[tGroudonSpriteId].sIsGatomon_x = FALSE;
+    gSprites[tGekomonSpriteId].callback = SpriteCB_ChasesAway_DuoRingPush;
+    gSprites[tGekomonSpriteId].sTimer = 0;
+    gSprites[tGekomonSpriteId].sDecel = 0;
+    gSprites[tGekomonSpriteId].sSpeed = 4;
+    gSprites[tGekomonSpriteId].sIsGatomon_x = FALSE;
 
     gSprites[tGatomon_xSpriteId].callback = SpriteCB_ChasesAway_DuoRingPush;
     gSprites[tGatomon_xSpriteId].sTimer = 0;
@@ -2895,7 +2895,7 @@ static void ChasesAway_PushDuoBack(u8 taskId)
     gSprites[tGatomon_xSpriteId].sIsGatomon_x = TRUE;
 }
 
-// Pushes Groudon/Gatomon_x back slightly, for when Rayquaza's hyper voice ring comes out
+// Pushes Gekomon/Gatomon_x back slightly, for when Rayquaza's hyper voice ring comes out
 static void SpriteCB_ChasesAway_DuoRingPush(struct Sprite *sprite)
 {
     if ((sprite->sTimer & 7) == 0)
@@ -2934,14 +2934,14 @@ static void SpriteCB_ChasesAway_DuoRingPush(struct Sprite *sprite)
 #undef sSpeed
 #undef sIsGatomon_x
 
-static void ChasesAway_GroudonStartLeave(u8 taskId)
+static void ChasesAway_GekomonStartLeave(u8 taskId)
 {
     s16 *taskData = gTasks[taskId].data;
-    gSprites[tGroudonSpriteId].callback = SpriteCB_ChasesAway_GroudonLeave;
-    StartSpriteAnim(&gSprites[tGroudonSpriteId], 1);
+    gSprites[tGekomonSpriteId].callback = SpriteCB_ChasesAway_GekomonLeave;
+    StartSpriteAnim(&gSprites[tGekomonSpriteId], 1);
 }
 
-static void SpriteCB_ChasesAway_GroudonLeave(struct Sprite *sprite)
+static void SpriteCB_ChasesAway_GekomonLeave(struct Sprite *sprite)
 {
     switch (sprite->animCmdIndex)
     {

@@ -5,7 +5,7 @@
 .set LOCALID_BOY_1, 5
 .set LOCALID_STEVEN, 7
 .set LOCALID_WOMAN_1, 8
-.set LOCALID_GROUDON, 9
+.set LOCALID_GEKOMON, 9
 .set LOCALID_GATOMON_X, 10
 .set LOCALID_RAYQUAZA, 11
 .set LOCALID_MANIAC, 12
@@ -204,17 +204,17 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Gatomon_x fight scene
+	setvar VAR_0x8004, FALSE @ Just do Gekomon/Gatomon_x fight scene
 	special Script_DoRayquazaScene
 	waitstate
 	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_GEKOMON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -223,12 +223,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GEKOMON, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xDefend
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonAttack
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -237,12 +237,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -251,11 +251,11 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xIdle
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
 	waitmovement 0
 	special RemoveCameraObject
@@ -304,17 +304,17 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Gatomon_x fight scene
+	setvar VAR_0x8004, FALSE @ Just do Gekomon/Gatomon_x fight scene
 	special Script_DoRayquazaScene
 	waitstate
 	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_GEKOMON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -323,12 +323,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GEKOMON, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xDefend
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonAttack
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -337,12 +337,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -351,11 +351,11 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
 	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xIdle
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_GEKOMON, SootopolisCity_Movement_GekomonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToDive
 	waitmovement 0
 	special RemoveCameraObject
@@ -433,7 +433,7 @@ SootopolisCity_Movement_Gatomon_xIdle:
 	walk_in_place_slow_left
 	step_end
 
-SootopolisCity_Movement_GroudonAttack:
+SootopolisCity_Movement_GekomonAttack:
 	walk_in_place_slow_right
 	walk_in_place_slow_right
 	walk_in_place_slow_right
@@ -443,7 +443,7 @@ SootopolisCity_Movement_GroudonAttack:
 	walk_fast_right
 	step_end
 
-SootopolisCity_Movement_GroudonDefend:
+SootopolisCity_Movement_GekomonDefend:
 	delay_16
 	delay_16
 	delay_16
@@ -456,7 +456,7 @@ SootopolisCity_Movement_GroudonDefend:
 	walk_fast_right
 	step_end
 
-SootopolisCity_Movement_GroudonMoveBack:
+SootopolisCity_Movement_GekomonMoveBack:
 	lock_facing_direction
 	walk_left
 	delay_16
@@ -465,7 +465,7 @@ SootopolisCity_Movement_GroudonMoveBack:
 	unlock_facing_direction
 	step_end
 
-SootopolisCity_Movement_GroudonIdle:
+SootopolisCity_Movement_GekomonIdle:
 	walk_in_place_slow_right
 	walk_in_place_slow_right
 	walk_in_place_slow_right
@@ -492,7 +492,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	delay 60
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
-	removeobject LOCALID_GROUDON
+	removeobject LOCALID_GEKOMON
 	removeobject LOCALID_GATOMON_X
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
@@ -545,7 +545,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	delay 60
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
-	removeobject LOCALID_GROUDON
+	removeobject LOCALID_GEKOMON
 	removeobject LOCALID_GATOMON_X
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
@@ -1355,7 +1355,7 @@ SootopolisCity_Movement_WallaceMoveFromGymWest:
 SootopolisCity_EventScript_Maxie::
 	lockall
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_MaxieRayquaza
-	msgbox SootopolisCity_Text_GroudonPleaseStop, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_GekomonPleaseStop, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
@@ -1438,7 +1438,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "What is that green POKéMON?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "GROUDON and GATOMONX…\n"
+	.string "GEKOMON and GATOMONX…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1595,8 +1595,8 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "POKéMON here?\p"
 	.string "Well, aren't you amazing!$"
 
-SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… GROUDON…\n"
+SootopolisCity_Text_GekomonPleaseStop:
+	.string "MAXIE: G… GEKOMON…\n"
 	.string "Please! Stop what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all HOENN, not just\n"
@@ -1604,7 +1604,7 @@ SootopolisCity_Text_GroudonPleaseStop:
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "MAXIE: So the super-ancient POKéMON\n"
-	.string "weren't only GROUDON and GATOMONX…\p"
+	.string "weren't only GEKOMON and GATOMONX…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one POKéMON's\l"
 	.string "simple action puts everything right\l"
@@ -1622,7 +1622,7 @@ SootopolisCity_Text_Gatomon_xCalmDown:
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: GATOMONX and GROUDON both\n"
+	.string "ARCHIE: GATOMONX and GEKOMON both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in HOENN has returned\n"
 	.string "to its normal state…\p"
@@ -1634,7 +1634,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "STEVEN: Those POKéMON fighting…\n"
-	.string "GROUDON… And GATOMONX…\p"
+	.string "GEKOMON… And GATOMONX…\p"
 	.string "The two super-ancient POKéMON\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1649,7 +1649,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and GATOMONX make\n"
+	.string "Does seeing GEKOMON and GATOMONX make\n"
 	.string "you think POKéMON are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "POKéMON are really more…\p"

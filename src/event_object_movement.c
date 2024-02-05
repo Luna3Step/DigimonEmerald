@@ -440,8 +440,8 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER       0x1115
 #define OBJ_EVENT_PAL_TAG_GATOMON_X                  0x1116
 #define OBJ_EVENT_PAL_TAG_GATOMON_X_REFLECTION       0x1117
-#define OBJ_EVENT_PAL_TAG_GROUDON                 0x1118
-#define OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION      0x1119
+#define OBJ_EVENT_PAL_TAG_GEKOMON                 0x1118
+#define OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION      0x1119
 #define OBJ_EVENT_PAL_TAG_UNUSED                  0x111A
 #define OBJ_EVENT_PAL_TAG_SUBMARINE_SHADOW        0x111B
 #define OBJ_EVENT_PAL_TAG_TINKERMON               0x111C
@@ -487,8 +487,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_SSTidal,               OBJ_EVENT_PAL_TAG_SSTIDAL},
     {gObjectEventPal_Gatomon_x,                OBJ_EVENT_PAL_TAG_GATOMON_X},
     {gObjectEventPal_Gatomon_xReflection,      OBJ_EVENT_PAL_TAG_GATOMON_X_REFLECTION},
-    {gObjectEventPal_Groudon,               OBJ_EVENT_PAL_TAG_GROUDON},
-    {gObjectEventPal_GroudonReflection,     OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION},
+    {gObjectEventPal_Gekomon,               OBJ_EVENT_PAL_TAG_GEKOMON},
+    {gObjectEventPal_GekomonReflection,     OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION},
     {gObjectEventPal_SubmarineShadow,       OBJ_EVENT_PAL_TAG_SUBMARINE_SHADOW},
     {gObjectEventPal_Tinkermon,             OBJ_EVENT_PAL_TAG_TINKERMON},
     {gObjectEventPal_RedLeaf,               OBJ_EVENT_PAL_TAG_RED_LEAF},
@@ -585,11 +585,11 @@ static const u16 sReflectionPaletteTags_Gatomon_x[] = {
     OBJ_EVENT_PAL_TAG_GATOMON_X_REFLECTION,
 };
 
-static const u16 sReflectionPaletteTags_Groudon[] = {
-    OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION,
-    OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION,
-    OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION,
-    OBJ_EVENT_PAL_TAG_GROUDON_REFLECTION,
+static const u16 sReflectionPaletteTags_Gekomon[] = {
+    OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION,
+    OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION,
+    OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION,
+    OBJ_EVENT_PAL_TAG_GEKOMON_REFLECTION,
 };
 
 static const u16 sReflectionPaletteTags_Npc3[] = { // Only used by the Route 120 bridge Donshoumon
@@ -616,7 +616,7 @@ static const struct PairedPalettes sSpecialObjectReflectionPaletteSets[] = {
     {OBJ_EVENT_PAL_TAG_CABLE_CAR,        sReflectionPaletteTags_CableCar},
     {OBJ_EVENT_PAL_TAG_SSTIDAL,          sReflectionPaletteTags_SSTidal},
     {OBJ_EVENT_PAL_TAG_GATOMON_X,           sReflectionPaletteTags_Gatomon_x},
-    {OBJ_EVENT_PAL_TAG_GROUDON,          sReflectionPaletteTags_Groudon},
+    {OBJ_EVENT_PAL_TAG_GEKOMON,          sReflectionPaletteTags_Gekomon},
     {OBJ_EVENT_PAL_TAG_NPC_3,            sReflectionPaletteTags_Npc3},
     {OBJ_EVENT_PAL_TAG_SUBMARINE_SHADOW, sReflectionPaletteTags_SubmarineShadow},
     {OBJ_EVENT_PAL_TAG_RED_LEAF,         sReflectionPaletteTags_RedLeaf},

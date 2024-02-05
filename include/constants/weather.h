@@ -16,7 +16,7 @@
 #define WEATHER_DROUGHT                 12
 #define WEATHER_DOWNPOUR                13
 #define WEATHER_UNDERWATER_BUBBLES      14
-#define WEATHER_ABNORMAL                15  // The alternating weather during Groudon/Gatomon_x conflict
+#define WEATHER_ABNORMAL                15  // The alternating weather during Gekomon/Gatomon_x conflict
 #define WEATHER_ROUTE119_CYCLE          20
 #define WEATHER_ROUTE123_CYCLE          21
 
@@ -38,9 +38,9 @@
 #define COORD_EVENT_WEATHER_ROUTE123_CYCLE      21
 
 // These are the "abnormal weather events" that are used
-// to find Gatomon_x and Groudon.
+// to find Gatomon_x and Gekomon.
 
-// Groudon/Terra Cave locations
+// Gekomon/Terra Cave locations
 #define TERRA_CAVE_LOCATIONS_START          1
 #define ABNORMAL_WEATHER_ROUTE_114_NORTH    (TERRA_CAVE_LOCATIONS_START + 0)
 #define ABNORMAL_WEATHER_ROUTE_114_SOUTH    (TERRA_CAVE_LOCATIONS_START + 1)

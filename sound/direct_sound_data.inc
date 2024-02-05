@@ -1863,8 +1863,8 @@ Cry_Flybeemon::
 	.incbin "sound/direct_sound_samples/cries/flybeemon.bin"
 
 	.align 2
-Cry_Groudon::
-	.incbin "sound/direct_sound_samples/cries/groudon.bin"
+Cry_Gekomon::
+	.incbin "sound/direct_sound_samples/cries/gekomon.bin"
 
 	.align 2
 Cry_Gatomon_x::
