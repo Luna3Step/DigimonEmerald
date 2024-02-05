@@ -1875,8 +1875,8 @@ Cry_Rayquaza::
 	.incbin "sound/direct_sound_samples/cries/rayquaza.bin"
 
 	.align 2
-Cry_Salamence::
-	.incbin "sound/direct_sound_samples/cries/salamence.bin"
+Cry_Frogmon::
+	.incbin "sound/direct_sound_samples/cries/frogmon.bin"
 
 	.align 2
 Cry_Atamademon::

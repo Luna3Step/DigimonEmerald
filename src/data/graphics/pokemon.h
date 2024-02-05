@@ -2599,12 +2599,12 @@ const u32 gMonShinyPalette_Frigimon[] = INCBIN_U32("graphics/pokemon/frigimon/sh
 const u8 gMonIcon_Frigimon[] = INCBIN_U8("graphics/pokemon/frigimon/icon.4bpp");
 const u8 gMonFootprint_Frigimon[] = INCBIN_U8("graphics/pokemon/frigimon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Salamence[] = INCBIN_U32("graphics/pokemon/salamence/front.4bpp.lz");
-const u32 gMonPalette_Salamence[] = INCBIN_U32("graphics/pokemon/salamence/normal.gbapal.lz");
-const u32 gMonBackPic_Salamence[] = INCBIN_U32("graphics/pokemon/salamence/back.4bpp.lz");
-const u32 gMonShinyPalette_Salamence[] = INCBIN_U32("graphics/pokemon/salamence/shiny.gbapal.lz");
-const u8 gMonIcon_Salamence[] = INCBIN_U8("graphics/pokemon/salamence/icon.4bpp");
-const u8 gMonFootprint_Salamence[] = INCBIN_U8("graphics/pokemon/salamence/footprint.1bpp");
+const u32 gMonStillFrontPic_Frogmon[] = INCBIN_U32("graphics/pokemon/frogmon/front.4bpp.lz");
+const u32 gMonPalette_Frogmon[] = INCBIN_U32("graphics/pokemon/frogmon/normal.gbapal.lz");
+const u32 gMonBackPic_Frogmon[] = INCBIN_U32("graphics/pokemon/frogmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Frogmon[] = INCBIN_U32("graphics/pokemon/frogmon/shiny.gbapal.lz");
+const u8 gMonIcon_Frogmon[] = INCBIN_U8("graphics/pokemon/frogmon/icon.4bpp");
+const u8 gMonFootprint_Frogmon[] = INCBIN_U8("graphics/pokemon/frogmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Beldum[] = INCBIN_U32("graphics/pokemon/beldum/front.4bpp.lz");
 const u32 gMonPalette_Beldum[] = INCBIN_U32("graphics/pokemon/beldum/normal.gbapal.lz");

@@ -4342,7 +4342,7 @@ static const union AnimCmd sAnim_Frigimon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Salamence_1[] =
+static const union AnimCmd sAnim_Frogmon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -5208,7 +5208,7 @@ SINGLE_ANIMATION(Aquilamon);
 SINGLE_ANIMATION(Arcadiamon_champion);
 SINGLE_ANIMATION(Flymon);
 SINGLE_ANIMATION(Frigimon);
-SINGLE_ANIMATION(Salamence);
+SINGLE_ANIMATION(Frogmon);
 SINGLE_ANIMATION(Beldum);
 SINGLE_ANIMATION(Metang);
 SINGLE_ANIMATION(Gaogamon);
@@ -5651,7 +5651,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_ARCADIAMON_CHAMPION]   = sAnims_Arcadiamon_champion,
     [SPECIES_FLYMON]       = sAnims_Flymon,
     [SPECIES_FRIGIMON]     = sAnims_Frigimon,
-    [SPECIES_FROGMON]   = sAnims_Salamence,
+    [SPECIES_FROGMON]   = sAnims_Frogmon,
     [SPECIES_FUGAMON]      = sAnims_Beldum,
     [SPECIES_GANEMON]      = sAnims_Metang,
     [SPECIES_GAOGAMON]   = sAnims_Gaogamon,
