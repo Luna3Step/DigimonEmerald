@@ -912,7 +912,7 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeFloramon:
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGammamon:
 	.string "PROF. BIRCH: The WATER POKéMON\n"
-	.string "GAMMAMON is your choice.\p"
+	.string "GAMMAMON is your choice!\p"
 	.string "You know how to pick a good one.\p"
 	.string "So, you'll take the GAMMAMON?$"
 
