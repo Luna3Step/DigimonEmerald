@@ -4411,7 +4411,7 @@ static const union AnimCmd sAnim_Gargoylmon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Registeel_1[] =
+static const union AnimCmd sAnim_Garurumon_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(0, 10),
@@ -4421,7 +4421,7 @@ static const union AnimCmd sAnim_Registeel_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Registeel_2[] =
+static const union AnimCmd sAnim_Garurumon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5214,7 +5214,7 @@ SINGLE_ANIMATION(Ganemon);
 SINGLE_ANIMATION(Gaogamon);
 DOUBLE_ANIMATION(Gargomon);
 SINGLE_ANIMATION(Gargoylmon);
-DOUBLE_ANIMATION(Registeel);
+DOUBLE_ANIMATION(Garurumon);
 DOUBLE_ANIMATION(Kyogre);
 DOUBLE_ANIMATION(Groudon);
 DOUBLE_ANIMATION(Rayquaza);
@@ -5657,7 +5657,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GAOGAMON]   = sAnims_Gaogamon,
     [SPECIES_GARGOMON]    = sAnims_Gargomon,
     [SPECIES_GARGOYLMON]      = sAnims_Gargoylmon,
-    [SPECIES_GARURUMON]   = sAnims_Registeel,
+    [SPECIES_GARURUMON]   = sAnims_Garurumon,
     [SPECIES_GATOMON_X]      = sAnims_Kyogre,
     [SPECIES_GEKOMON]     = sAnims_Groudon,
     [SPECIES_GEOGREYMON]    = sAnims_Rayquaza,

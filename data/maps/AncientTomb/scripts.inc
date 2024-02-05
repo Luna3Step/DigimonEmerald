@@ -5,10 +5,10 @@ AncientTomb_MapScripts::
 	.byte 0
 
 AncientTomb_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AncientTomb_EventScript_TryRemoveRegisteel
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AncientTomb_EventScript_TryRemoveGarurumon
 	end
 
-AncientTomb_EventScript_TryRemoveRegisteel::
+AncientTomb_EventScript_TryRemoveGarurumon::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject VAR_LAST_TALKED
@@ -16,15 +16,15 @@ AncientTomb_EventScript_TryRemoveRegisteel::
 
 AncientTomb_OnTransition:
 	setflag FLAG_LANDMARK_ANCIENT_TOMB
-	call_if_unset FLAG_DEFEATED_REGISTEEL, AncientTomb_EventScript_ShowRegisteel
+	call_if_unset FLAG_DEFEATED_GARURUMON, AncientTomb_EventScript_ShowGarurumon
 	end
 
-AncientTomb_EventScript_ShowRegisteel::
-	clearflag FLAG_HIDE_REGISTEEL
+AncientTomb_EventScript_ShowGarurumon::
+	clearflag FLAG_HIDE_GARURUMON
 	return
 
 AncientTomb_OnLoad:
-	call_if_unset FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED, AncientTomb_EventScript_HideRegiEntrance
+	call_if_unset FLAG_SYS_GARURUMON_PUZZLE_COMPLETED, AncientTomb_EventScript_HideRegiEntrance
 	end
 
 AncientTomb_EventScript_HideRegiEntrance::
@@ -38,7 +38,7 @@ AncientTomb_EventScript_HideRegiEntrance::
 
 AncientTomb_EventScript_CaveEntranceMiddle::
 	lockall
-	goto_if_set FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED, AncientTomb_EventScript_BigHoleInWall
+	goto_if_set FLAG_SYS_GARURUMON_PUZZLE_COMPLETED, AncientTomb_EventScript_BigHoleInWall
 	braillemsgbox AncientTomb_Braille_ShineInTheMiddle
 	releaseall
 	end
@@ -54,7 +54,7 @@ AncientTomb_EventScript_CaveEntranceSide::
 	releaseall
 	end
 
-AncientTomb_EventScript_Registeel::
+AncientTomb_EventScript_Garurumon::
 	lock
 	faceplayer
 	waitse
@@ -67,19 +67,19 @@ AncientTomb_EventScript_Registeel::
 	waitstate
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AncientTomb_EventScript_DefeatedRegisteel
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AncientTomb_EventScript_RanFromRegisteel
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AncientTomb_EventScript_RanFromRegisteel
-	setflag FLAG_DEFEATED_REGISTEEL
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AncientTomb_EventScript_DefeatedGarurumon
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AncientTomb_EventScript_RanFromGarurumon
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AncientTomb_EventScript_RanFromGarurumon
+	setflag FLAG_DEFEATED_GARURUMON
 	release
 	end
 
-AncientTomb_EventScript_DefeatedRegisteel::
-	setflag FLAG_DEFEATED_REGISTEEL
+AncientTomb_EventScript_DefeatedGarurumon::
+	setflag FLAG_DEFEATED_GARURUMON
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-AncientTomb_EventScript_RanFromRegisteel::
+AncientTomb_EventScript_RanFromGarurumon::
 	setvar VAR_0x8004, SPECIES_GARURUMON
 	goto Common_EventScript_LegendaryFlewAway
 	end

@@ -71,13 +71,13 @@ static const u32 sCaveTransitionTiles[] = INCBIN_U32("graphics/cave_transition/t
 
 bool8 SetUpFieldMove_Flash(void)
 {
-    // In Ruby and Sapphire, Registeel's tomb is opened by using Fly. In Emerald,
+    // In Ruby and Sapphire, Garurumon's tomb is opened by using Fly. In Emerald,
     // Flash is used instead.
-    if (ShouldDoBrailleRegisteelEffect())
+    if (ShouldDoBrailleGarurumonEffect())
     {
         gSpecialVar_Result = GetCursorSelectionMonId();
         gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
-        gPostMenuFieldCallback = SetUpPuzzleEffectRegisteel;
+        gPostMenuFieldCallback = SetUpPuzzleEffectGarurumon;
         return TRUE;
     }
     else if (gMapHeader.cave == TRUE && !FlagGet(FLAG_SYS_USE_FLASH))

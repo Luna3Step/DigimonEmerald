@@ -12,7 +12,7 @@
 #include "party_menu.h"
 #include "fldeff.h"
 
-EWRAM_DATA static bool8 sIsRegisteelPuzzle = 0;
+EWRAM_DATA static bool8 sIsGarurumonPuzzle = 0;
 
 static const u8 sGargoylmonPathCoords[][2] =
 {
@@ -56,7 +56,7 @@ static const u8 sGargoylmonPathCoords[][2] =
 
 static void Task_SealedChamberShakingEffect(u8);
 static void DoBrailleGargomonEffect(void);
-static void DoBrailleRegisteelEffect(void);
+static void DoBrailleGarurumonEffect(void);
 
 bool8 ShouldDoBrailleDigEffect(void)
 {
@@ -172,17 +172,17 @@ bool8 ShouldDoBrailleGargomonEffect(void)
     {
         if (gSaveBlock1Ptr->pos.x == 6 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sIsRegisteelPuzzle = FALSE;
+            sIsGarurumonPuzzle = FALSE;
             return TRUE;
         }
         else if (gSaveBlock1Ptr->pos.x == 5 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sIsRegisteelPuzzle = FALSE;
+            sIsGarurumonPuzzle = FALSE;
             return TRUE;
         }
         else if (gSaveBlock1Ptr->pos.x == 7 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sIsRegisteelPuzzle = FALSE;
+            sIsGarurumonPuzzle = FALSE;
             return TRUE;
         }
     }
@@ -216,32 +216,32 @@ static void DoBrailleGargomonEffect(void)
     UnlockPlayerFieldControls();
 }
 
-bool8 ShouldDoBrailleRegisteelEffect(void)
+bool8 ShouldDoBrailleGarurumonEffect(void)
 {
-    if (!FlagGet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED) && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ANCIENT_TOMB) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ANCIENT_TOMB)))
+    if (!FlagGet(FLAG_SYS_GARURUMON_PUZZLE_COMPLETED) && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ANCIENT_TOMB) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ANCIENT_TOMB)))
     {
         if (gSaveBlock1Ptr->pos.x == 8 && gSaveBlock1Ptr->pos.y == 25)
         {
-            sIsRegisteelPuzzle = TRUE;
+            sIsGarurumonPuzzle = TRUE;
             return TRUE;
         }
     }
     return FALSE;
 }
 
-void SetUpPuzzleEffectRegisteel(void)
+void SetUpPuzzleEffectGarurumon(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
     FieldEffectStart(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
 }
 
-void UseRegisteelHm_Callback(void)
+void UseGarurumonHm_Callback(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
-    DoBrailleRegisteelEffect();
+    DoBrailleGarurumonEffect();
 }
 
-static void DoBrailleRegisteelEffect(void)
+static void DoBrailleGarurumonEffect(void)
 {
     MapGridSetMetatileIdAt(7 + MAP_OFFSET, 19 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_TopLeft);
     MapGridSetMetatileIdAt(8 + MAP_OFFSET, 19 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_TopMid);
@@ -251,7 +251,7 @@ static void DoBrailleRegisteelEffect(void)
     MapGridSetMetatileIdAt(9 + MAP_OFFSET, 20 + MAP_OFFSET, METATILE_Cave_SealedChamberEntrance_BottomRight | MAPGRID_COLLISION_MASK);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_GARURUMON_PUZZLE_COMPLETED);
     UnlockPlayerFieldControls();
 }
 
@@ -265,10 +265,10 @@ bool8 FldEff_UsePuzzleEffect(void)
 {
     u8 taskId = CreateFieldMoveTask();
 
-    if (sIsRegisteelPuzzle == TRUE)
+    if (sIsGarurumonPuzzle == TRUE)
     {
-        gTasks[taskId].data[8] = (u32)UseRegisteelHm_Callback >> 16;
-        gTasks[taskId].data[9] = (u32)UseRegisteelHm_Callback;
+        gTasks[taskId].data[8] = (u32)UseGarurumonHm_Callback >> 16;
+        gTasks[taskId].data[9] = (u32)UseGarurumonHm_Callback;
     }
     else
     {

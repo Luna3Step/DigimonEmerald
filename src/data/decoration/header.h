@@ -1440,15 +1440,15 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_GARGOYLMON_DOLL,
     },
 
-    [DECOR_REGISTEEL_DOLL] =
+    [DECOR_GARURUMON_DOLL] =
     {
-        .id = DECOR_REGISTEEL_DOLL,
-        .name = _("REGISTEEL DOLL"),
+        .id = DECOR_GARURUMON_DOLL,
+        .name = _("GARURUMON DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
         .price = 10000,
-        .description = DecorDesc_REGISTEEL_DOLL,
-        .tiles = DecorGfx_REGISTEEL_DOLL,
+        .description = DecorDesc_GARURUMON_DOLL,
+        .tiles = DecorGfx_GARURUMON_DOLL,
     }
 };

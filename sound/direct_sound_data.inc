@@ -1807,8 +1807,8 @@ Cry_Gargoylmon::
 	.incbin "sound/direct_sound_samples/cries/gargoylmon.bin"
 
 	.align 2
-Cry_Registeel::
-	.incbin "sound/direct_sound_samples/cries/registeel.bin"
+Cry_Garurumon::
+	.incbin "sound/direct_sound_samples/cries/garurumon.bin"
 
 	.align 2
 Cry_Dolphmon::

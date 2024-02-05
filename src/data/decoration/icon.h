@@ -120,5 +120,5 @@ const u32 *const gDecorIconTable[][2] =
     [DECOR_CHAMBLEMON_DOLL]    = {gDecorIcon_ChamblemonDoll, gDecorIconPalette_ChamblemonDoll},
     [DECOR_GARGOMON_DOLL]   = {gDecorIcon_GargomonDoll, gDecorIconPalette_GargomonDoll},
     [DECOR_GARGOYLMON_DOLL]     = {gDecorIcon_GargoylmonDoll, gDecorIconPalette_GargoylmonDoll},
-    [DECOR_REGISTEEL_DOLL]  = {gDecorIcon_RegisteelDoll, gDecorIconPalette_RegisteelDoll}
+    [DECOR_GARURUMON_DOLL]  = {gDecorIcon_GarurumonDoll, gDecorIconPalette_GarurumonDoll}
 };

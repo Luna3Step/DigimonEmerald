@@ -3551,7 +3551,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGargoylmonDoll 
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGarurumonDoll = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3566,7 +3566,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll =
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
-    .images = sPicTable_BigRegisteelDoll,
+    .images = sPicTable_BigGarurumonDoll,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -3893,7 +3893,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gargoylmon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Garurumon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,

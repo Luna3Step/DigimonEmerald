@@ -184,7 +184,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigcurimonD
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigChamblemonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGargomonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGargoylmonDoll;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigGarurumonDoll;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid;
@@ -200,7 +200,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonFron
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gargomon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gargoylmon;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Garurumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Birdramon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Donshoumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep;
@@ -433,7 +433,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIG_CHAMBLEMON_DOLL] =         &gObjectEventGraphicsInfo_BigChamblemonDoll,
     [OBJ_EVENT_GFX_BIG_GARGOMON_DOLL] =        &gObjectEventGraphicsInfo_BigGargomonDoll,
     [OBJ_EVENT_GFX_BIG_GARGOYLMON_DOLL] =          &gObjectEventGraphicsInfo_BigGargoylmonDoll,
-    [OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL] =       &gObjectEventGraphicsInfo_BigRegisteelDoll,
+    [OBJ_EVENT_GFX_BIG_GARURUMON_DOLL] =       &gObjectEventGraphicsInfo_BigGarurumonDoll,
     [OBJ_EVENT_GFX_LATIAS] =                   &gObjectEventGraphicsInfo_Latias,
     [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Latios,
     [OBJ_EVENT_GFX_GAMEBOY_KID] =              &gObjectEventGraphicsInfo_GameboyKid,
@@ -449,7 +449,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_FOSSIL] =                   &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_GARGOMON] =                 &gObjectEventGraphicsInfo_Gargomon,
     [OBJ_EVENT_GFX_GARGOYLMON] =                   &gObjectEventGraphicsInfo_Gargoylmon,
-    [OBJ_EVENT_GFX_REGISTEEL] =                &gObjectEventGraphicsInfo_Registeel,
+    [OBJ_EVENT_GFX_GARURUMON] =                &gObjectEventGraphicsInfo_Garurumon,
     [OBJ_EVENT_GFX_BIRDRAMON] =                   &gObjectEventGraphicsInfo_Birdramon,
     [OBJ_EVENT_GFX_DONSHOUMON] =                  &gObjectEventGraphicsInfo_Donshoumon,
     [OBJ_EVENT_GFX_KYOGRE_ASLEEP] =            &gObjectEventGraphicsInfo_KyogreAsleep,
