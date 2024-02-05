@@ -1759,8 +1759,8 @@ Cry_Fladramon::
 	.incbin "sound/direct_sound_samples/cries/fladramon.bin"
 
 	.align 2
-Cry_Gorebyss::
-	.incbin "sound/direct_sound_samples/cries/gorebyss.bin"
+Cry_Flawizamon::
+	.incbin "sound/direct_sound_samples/cries/flawizamon.bin"
 
 	.align 2
 Cry_Digmon::

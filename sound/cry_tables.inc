@@ -343,7 +343,7 @@ gCryTable::
 	cry Cry_Filmon
 	cry Cry_Firamon
 	cry Cry_Fladramon
-	cry Cry_Gorebyss
+	cry Cry_Flawizamon
 	cry Cry_Digmon
 	cry Cry_Dinohyumon
 	cry Cry_Dobermon
@@ -734,7 +734,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Filmon
 	cry_reverse Cry_Firamon
 	cry_reverse Cry_Fladramon
-	cry_reverse Cry_Gorebyss
+	cry_reverse Cry_Flawizamon
 	cry_reverse Cry_Digmon
 	cry_reverse Cry_Dinohyumon
 	cry_reverse Cry_Dobermon
