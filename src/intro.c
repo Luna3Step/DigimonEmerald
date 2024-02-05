@@ -31,7 +31,7 @@
     Scene 0. Copyright screen
     Scene 1. GF Logo, pan up over plants, Damemon_fusion silhouette goes by
     Scene 2. Player biking on path, joined by Pokémon
-    Scene 3. A fight between Groudon/Kyogre ends with Rayquaza
+    Scene 3. A fight between Groudon/Gatomon_x ends with Rayquaza
 
     After this it progresses to the title screen
 */
@@ -84,8 +84,8 @@ static void Task_Scene3_NarrowWindow(u8);
 static void Task_Scene3_EndNarrowWindow(u8);
 static void Task_Scene3_StartGroudon(u8);
 static void Task_Scene3_Groudon(u8);
-static void Task_Scene3_LoadKyogre(u8);
-static void Task_Scene3_Kyogre(u8);
+static void Task_Scene3_LoadGatomon_x(u8);
+static void Task_Scene3_Gatomon_x(u8);
 static void Task_Scene3_LoadClouds1(u8);
 static void Task_Scene3_LoadClouds2(u8);
 static void Task_Scene3_InitClouds(u8);
@@ -98,11 +98,11 @@ static void Task_EndIntroMovie(u8);
 
 // Scene 3 supplemental functions
 static void CreateGroudonRockSprites(u8);
-static void CreateKyogreBubbleSprites_Body(u8);
-static void CreateKyogreBubbleSprites_Fins(void);
+static void CreateGatomon_xBubbleSprites_Body(u8);
+static void CreateGatomon_xBubbleSprites_Fins(void);
 static void Task_RayquazaAttack(u8);
 static void SpriteCB_GroudonRocks(struct Sprite *);
-static void SpriteCB_KyogreBubbles(struct Sprite *sprite);
+static void SpriteCB_Gatomon_xBubbles(struct Sprite *sprite);
 static void SpriteCB_Lightning(struct Sprite *sprite);
 static void SpriteCB_RayquazaOrb(struct Sprite *sprite);
 
@@ -497,16 +497,16 @@ static const struct SpritePalette sSpritePalette_Bubbles[] =
 #define NUM_BUBBLES_IN_SET 6
 // x coord, y coord, delay before animation
 // Can be produced in two different sets depending on the function called to create the sprites
-static const s16 sKyogreBubbleData[NUM_BUBBLES_IN_SET * 2][3] =
+static const s16 sGatomon_xBubbleData[NUM_BUBBLES_IN_SET * 2][3] =
 {
-    // Set 1, for Kyogre's body
+    // Set 1, for Gatomon_x's body
     { 66,  64,  1},
     { 96,  96,  8},
     {128,  64,  1},
     {144,  48,  8},
     {160,  72,  1},
     {176,  96,  8},
-    // Set 2, for Kyogre's fins
+    // Set 2, for Gatomon_x's fins
     { 96,  96,  4},
     {112, 104,  8},
     {128,  96,  4},
@@ -551,7 +551,7 @@ static const struct SpriteTemplate sSpriteTemplate_Bubbles =
     .anims = sAnims_Bubbles,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_KyogreBubbles,
+    .callback = SpriteCB_Gatomon_xBubbles,
 };
 static const struct OamData sOamData_WaterDrop =
 {
@@ -1959,7 +1959,7 @@ static void Task_Scene3_Groudon(u8 taskId)
     case 9:
         if (!gPaletteFade.active)
         {
-            gTasks[taskId].func = Task_Scene3_LoadKyogre;
+            gTasks[taskId].func = Task_Scene3_LoadGatomon_x;
             gScanlineEffect.state = 3;
         }
         break;
@@ -2042,16 +2042,16 @@ static void SpriteCB_GroudonRocks(struct Sprite *sprite)
 #define tTrigIdx data[6] // Re-used
 #define tPalIdx  data[7]
 
-static void Task_Scene3_LoadKyogre(u8 taskId)
+static void Task_Scene3_LoadGatomon_x(u8 taskId)
 {
     ResetSpriteData();
-    LZDecompressVram(gIntroKyogre_Gfx, (void *)VRAM);
-    LZDecompressVram(gIntroKyogre_Tilemap, (void *)(BG_CHAR_ADDR(3)));
-    LZDecompressVram(gIntroKyogreBg_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
+    LZDecompressVram(gIntroGatomon_x_Gfx, (void *)VRAM);
+    LZDecompressVram(gIntroGatomon_x_Tilemap, (void *)(BG_CHAR_ADDR(3)));
+    LZDecompressVram(gIntroGatomon_xBg_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
     LoadCompressedSpriteSheet(sSpriteSheet_Bubbles);
     LoadSpritePalette(sSpritePalette_Bubbles);
     BeginNormalPaletteFade(PALETTES_ALL & ~1, 0, 16, 0, RGB_WHITEALPHA);
-    gTasks[taskId].func = Task_Scene3_Kyogre;
+    gTasks[taskId].func = Task_Scene3_Gatomon_x;
     gTasks[taskId].tState = 0;
     gTasks[taskId].tScreenX = 336;
     gTasks[taskId].tScreenY = 80;
@@ -2061,7 +2061,7 @@ static void Task_Scene3_LoadKyogre(u8 taskId)
     ScanlineEffect_InitWave(0, 0xA0, 4, 4, 1, SCANLINE_EFFECT_REG_BG1VOFS, FALSE);
 }
 
-static void Task_Scene3_Kyogre(u8 taskId)
+static void Task_Scene3_Gatomon_x(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -2082,7 +2082,7 @@ static void Task_Scene3_Kyogre(u8 taskId)
             tDelay = 0x19;
             tPalIdx = 1;
             tState++;
-            CreateKyogreBubbleSprites_Body(0);
+            CreateGatomon_xBubbleSprites_Body(0);
         }
         break;
     case 2:
@@ -2092,8 +2092,8 @@ static void Task_Scene3_Kyogre(u8 taskId)
             gTasks[taskId].tScreenY -= 258;
             tDelay = 8;
             tState++;
-            CreateKyogreBubbleSprites_Body(0);
-            CreateKyogreBubbleSprites_Fins();
+            CreateGatomon_xBubbleSprites_Body(0);
+            CreateGatomon_xBubbleSprites_Fins();
         }
         break;
     case 3:
@@ -2175,7 +2175,7 @@ static void Task_Scene3_Kyogre(u8 taskId)
         {
             tTrigIdx = 0;
             tState++;
-            CreateKyogreBubbleSprites_Body(taskId);
+            CreateGatomon_xBubbleSprites_Body(taskId);
         }
         break;
     case 11:
@@ -2225,8 +2225,8 @@ static void Task_Scene3_Kyogre(u8 taskId)
 // The only time an actual taskId is given is when it actually needs the
 // result of reading it, to zoom in at the end of the scene.
 
-// Creates bubbles at positions spread across Kyogre's body
-static void CreateKyogreBubbleSprites_Body(u8 taskId)
+// Creates bubbles at positions spread across Gatomon_x's body
+static void CreateGatomon_xBubbleSprites_Body(u8 taskId)
 {
     int i;
     u8 spriteId;
@@ -2234,18 +2234,18 @@ static void CreateKyogreBubbleSprites_Body(u8 taskId)
     for (i = 0; i < NUM_BUBBLES_IN_SET; i++)
     {
         spriteId = CreateSprite(&sSpriteTemplate_Bubbles,
-                                sKyogreBubbleData[i][0],
-                                sKyogreBubbleData[i][1],
+                                sGatomon_xBubbleData[i][0],
+                                sGatomon_xBubbleData[i][1],
                                 i);
         gSprites[spriteId].invisible = TRUE;
         gSprites[spriteId].sTaskId = taskId;
-        gSprites[spriteId].sDelay = sKyogreBubbleData[i][2];
+        gSprites[spriteId].sDelay = sGatomon_xBubbleData[i][2];
         gSprites[spriteId].sUnk = 64;
     }
 }
 
-// Creates bubbles at positions around Kyogre's fins, for when it's moving them
-static void CreateKyogreBubbleSprites_Fins(void)
+// Creates bubbles at positions around Gatomon_x's fins, for when it's moving them
+static void CreateGatomon_xBubbleSprites_Fins(void)
 {
     int i;
     u8 spriteId;
@@ -2253,20 +2253,20 @@ static void CreateKyogreBubbleSprites_Fins(void)
     for (i = 0; i < NUM_BUBBLES_IN_SET; i++)
     {
         spriteId = CreateSprite(&sSpriteTemplate_Bubbles,
-                                sKyogreBubbleData[i + NUM_BUBBLES_IN_SET][0],
-                                sKyogreBubbleData[i + NUM_BUBBLES_IN_SET][1],
+                                sGatomon_xBubbleData[i + NUM_BUBBLES_IN_SET][0],
+                                sGatomon_xBubbleData[i + NUM_BUBBLES_IN_SET][1],
                                 i);
         gSprites[spriteId].invisible = TRUE;
 #ifdef BUGFIX
-        gSprites[spriteId].sDelay = sKyogreBubbleData[i + NUM_BUBBLES_IN_SET][2];
+        gSprites[spriteId].sDelay = sGatomon_xBubbleData[i + NUM_BUBBLES_IN_SET][2];
 #else
-        gSprites[spriteId].sDelay = sKyogreBubbleData[i][2]; // Using the wrong set of delays here
+        gSprites[spriteId].sDelay = sGatomon_xBubbleData[i][2]; // Using the wrong set of delays here
 #endif
         gSprites[spriteId].sUnk = 64;
     }
 }
 
-static void SpriteCB_KyogreBubbles(struct Sprite *sprite)
+static void SpriteCB_Gatomon_xBubbles(struct Sprite *sprite)
 {
     switch(sprite->sState)
     {
@@ -2288,7 +2288,7 @@ static void SpriteCB_KyogreBubbles(struct Sprite *sprite)
             sprite->invisible = FALSE;
         }
 
-        // Check if Kyogre scene is ending
+        // Check if Gatomon_x scene is ending
         // For all but the last bubbles, sTaskId isn't actually set
         if (gTasks[sprite->sTaskId].tState > 11)
             sprite->sState++;

@@ -162,7 +162,7 @@ AbnormalWeather_EventScript_HideMapNamePopup::
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	return
 
-AbnormalWeather_StartKyogreWeather::
+AbnormalWeather_StartGatomon_xWeather::
 	setweather WEATHER_DOWNPOUR
 	return
 

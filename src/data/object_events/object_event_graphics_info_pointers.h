@@ -195,7 +195,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanDeco
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreFront;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xFront;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonFront;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gargomon;
@@ -203,7 +203,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gargoylmon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Garurumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Birdramon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Donshoumon;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Toyagumon;
@@ -219,7 +219,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tinkermon;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xSide;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonSide;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDeliveryman;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue;
@@ -444,7 +444,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MAY_DECORATING] =           &gObjectEventGraphicsInfo_MayDecorating,
     [OBJ_EVENT_GFX_ARCHIE] =                   &gObjectEventGraphicsInfo_Archie,
     [OBJ_EVENT_GFX_MAXIE] =                    &gObjectEventGraphicsInfo_Maxie,
-    [OBJ_EVENT_GFX_KYOGRE_FRONT] =             &gObjectEventGraphicsInfo_KyogreFront,
+    [OBJ_EVENT_GFX_GATOMON_X_FRONT] =             &gObjectEventGraphicsInfo_Gatomon_xFront,
     [OBJ_EVENT_GFX_GROUDON_FRONT] =            &gObjectEventGraphicsInfo_GroudonFront,
     [OBJ_EVENT_GFX_FOSSIL] =                   &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_GARGOMON] =                 &gObjectEventGraphicsInfo_Gargomon,
@@ -452,7 +452,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GARURUMON] =                &gObjectEventGraphicsInfo_Garurumon,
     [OBJ_EVENT_GFX_BIRDRAMON] =                   &gObjectEventGraphicsInfo_Birdramon,
     [OBJ_EVENT_GFX_DONSHOUMON] =                  &gObjectEventGraphicsInfo_Donshoumon,
-    [OBJ_EVENT_GFX_KYOGRE_ASLEEP] =            &gObjectEventGraphicsInfo_KyogreAsleep,
+    [OBJ_EVENT_GFX_GATOMON_X_ASLEEP] =            &gObjectEventGraphicsInfo_Gatomon_xAsleep,
     [OBJ_EVENT_GFX_GROUDON_ASLEEP] =           &gObjectEventGraphicsInfo_GroudonAsleep,
     [OBJ_EVENT_GFX_RAYQUAZA] =                 &gObjectEventGraphicsInfo_Rayquaza,
     [OBJ_EVENT_GFX_TOYAGUMON_2] =              &gObjectEventGraphicsInfo_Toyagumon,
@@ -468,7 +468,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_JUAN] =                     &gObjectEventGraphicsInfo_Juan,
     [OBJ_EVENT_GFX_SCOTT] =                    &gObjectEventGraphicsInfo_Scott,
     [OBJ_EVENT_GFX_TINKERMON] =                &gObjectEventGraphicsInfo_Tinkermon,
-    [OBJ_EVENT_GFX_KYOGRE_SIDE] =              &gObjectEventGraphicsInfo_KyogreSide,
+    [OBJ_EVENT_GFX_GATOMON_X_SIDE] =              &gObjectEventGraphicsInfo_Gatomon_xSide,
     [OBJ_EVENT_GFX_GROUDON_SIDE] =             &gObjectEventGraphicsInfo_GroudonSide,
     [OBJ_EVENT_GFX_MYSTERY_GIFT_MAN] =         &gObjectEventGraphicsInfo_MysteryEventDeliveryman,
     [OBJ_EVENT_GFX_TRICK_HOUSE_STATUE] =       &gObjectEventGraphicsInfo_Statue,

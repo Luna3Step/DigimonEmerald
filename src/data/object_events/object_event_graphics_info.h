@@ -3760,7 +3760,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreFront = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xFront = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3775,8 +3775,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreFront = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_KyogreFront,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .images = sPicTable_Gatomon_xFront,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonFront = {
@@ -3795,10 +3795,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonFront = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_GroudonFront,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xSide = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -3813,8 +3813,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_KyogreSide,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .images = sPicTable_Gatomon_xSide,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonSide = {
@@ -3833,7 +3833,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonSide = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_GroudonSide,
     .images = sPicTable_GroudonSide,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil = {
@@ -3950,9 +3950,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Donshoumon = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xAsleep = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_KYOGRE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_GATOMON_X,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
     .width = 32,
@@ -3965,8 +3965,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_KyogreFront,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .images = sPicTable_Gatomon_xFront,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep = {
@@ -3985,7 +3985,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_GroudonFront,
-    .affineAnims = sAffineAnimTable_KyogreGroudon,
+    .affineAnims = sAffineAnimTable_Gatomon_xGroudon,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {

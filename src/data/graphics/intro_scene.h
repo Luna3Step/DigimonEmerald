@@ -16,12 +16,12 @@ const u32 gIntroMay_Gfx[] = INCBIN_U32("graphics/intro/scene_2/may.4bpp.lz");
 const u32 gIntroGroudon_Gfx[] = INCBIN_U32("graphics/intro/scene_3/groudon.8bpp.lz");
 const u32 gIntroGroudon_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/groudon.bin.lz");
 
-const u32 gIntroKyogre_Gfx[] = INCBIN_U32("graphics/intro/scene_3/kyogre.8bpp.lz");
-const u32 gIntroKyogre_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/kyogre.bin.lz");
+const u32 gIntroGatomon_x_Gfx[] = INCBIN_U32("graphics/intro/scene_3/gatomon_x.8bpp.lz");
+const u32 gIntroGatomon_x_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/gatomon_x.bin.lz");
 
-const u32 gIntroLegendBg_Gfx[] = INCBIN_U32("graphics/intro/scene_3/legend_bg.4bpp.lz"); // groudon/kyogre bg
+const u32 gIntroLegendBg_Gfx[] = INCBIN_U32("graphics/intro/scene_3/legend_bg.4bpp.lz"); // groudon/gatomon_x bg
 const u32 gIntroGroudonBg_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/groudon_bg.bin.lz");
-const u32 gIntroKyogreBg_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/kyogre_bg.bin.lz");
+const u32 gIntroGatomon_xBg_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/gatomon_x_bg.bin.lz");
 
 const u32 gIntroClouds_Gfx[] = INCBIN_U32("graphics/intro/scene_3/clouds.4bpp.lz");
 const u32 gIntroCloudsLeft_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/clouds_left.bin.lz");

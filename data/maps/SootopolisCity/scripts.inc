@@ -6,7 +6,7 @@
 .set LOCALID_STEVEN, 7
 .set LOCALID_WOMAN_1, 8
 .set LOCALID_GROUDON, 9
-.set LOCALID_KYOGRE, 10
+.set LOCALID_GATOMON_X, 10
 .set LOCALID_RAYQUAZA, 11
 .set LOCALID_MANIAC, 12
 .set LOCALID_GIRL, 13
@@ -26,7 +26,7 @@ SootopolisCity_MapScripts::
 
 SootopolisCity_OnLoad:
 	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockGymDoor
-	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
+	goto_if_unset FLAG_GATOMON_X_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
 	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockHouseDoors
 	end
 
@@ -204,16 +204,16 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
+	setvar VAR_0x8004, FALSE @ Just do Groudon/Gatomon_x fight scene
 	special Script_DoRayquazaScene
 	waitstate
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -222,12 +222,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GEKOMON, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xDefend
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -236,12 +236,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -250,11 +250,11 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xIdle
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
 	waitmovement 0
@@ -304,16 +304,16 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
+	setvar VAR_0x8004, FALSE @ Just do Groudon/Gatomon_x fight scene
 	special Script_DoRayquazaScene
 	waitstate
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -322,12 +322,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GEKOMON, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xDefend
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -336,12 +336,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GATOMON_X, CRY_MODE_ENCOUNTER
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -350,11 +350,11 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_GATOMON_X, SootopolisCity_Movement_Gatomon_xIdle
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToDive
 	waitmovement 0
@@ -388,7 +388,7 @@ SootopolisCity_Movement_PanBackToDive:
 	walk_slow_diag_southwest
 	step_end
 
-SootopolisCity_Movement_KyogreAttack:
+SootopolisCity_Movement_Gatomon_xAttack:
 	walk_in_place_slow_left
 	walk_in_place_slow_left
 	walk_in_place_slow_left
@@ -400,7 +400,7 @@ SootopolisCity_Movement_KyogreAttack:
 	clear_affine_anim
 	step_end
 
-SootopolisCity_Movement_KyogreDefend:
+SootopolisCity_Movement_Gatomon_xDefend:
 	delay_16
 	delay_16
 	delay_16
@@ -415,7 +415,7 @@ SootopolisCity_Movement_KyogreDefend:
 	clear_affine_anim
 	step_end
 
-SootopolisCity_Movement_KyogreMoveBack:
+SootopolisCity_Movement_Gatomon_xMoveBack:
 	lock_facing_direction
 	walk_right
 	delay_16
@@ -424,7 +424,7 @@ SootopolisCity_Movement_KyogreMoveBack:
 	unlock_facing_direction
 	step_end
 
-SootopolisCity_Movement_KyogreIdle:
+SootopolisCity_Movement_Gatomon_xIdle:
 	walk_in_place_slow_left
 	walk_in_place_slow_left
 	walk_in_place_slow_left
@@ -493,7 +493,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GROUDON
-	removeobject LOCALID_KYOGRE
+	removeobject LOCALID_GATOMON_X
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
 	special Script_DoRayquazaScene
@@ -546,7 +546,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GROUDON
-	removeobject LOCALID_KYOGRE
+	removeobject LOCALID_GATOMON_X
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
 	special Script_DoRayquazaScene
@@ -1370,7 +1370,7 @@ SootopolisCity_EventScript_MaxieRayquaza::
 SootopolisCity_EventScript_Archie::
 	lockall
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ArchieRayquaza
-	msgbox SootopolisCity_Text_KyogreCalmDown, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_Gatomon_xCalmDown, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
@@ -1438,7 +1438,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "What is that green POKéMON?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "GROUDON and KYOGRE…\n"
+	.string "GROUDON and GATOMONX…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1604,7 +1604,7 @@ SootopolisCity_Text_GroudonPleaseStop:
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "MAXIE: So the super-ancient POKéMON\n"
-	.string "weren't only GROUDON and KYOGRE…\p"
+	.string "weren't only GROUDON and GATOMONX…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one POKéMON's\l"
 	.string "simple action puts everything right\l"
@@ -1612,17 +1612,17 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fu…\n"
 	.string "Fuhahaha…$"
 
-SootopolisCity_Text_KyogreCalmDown:
-	.string "ARCHIE: KYOGRE! What's wrong?!\n"
+SootopolisCity_Text_Gatomon_xCalmDown:
+	.string "ARCHIE: GATOMONX! What's wrong?!\n"
 	.string "Look over here! It's the RED ORB!\l"
-	.string "Calm down! KYOGRE!\p"
+	.string "Calm down! GATOMONX!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
+	.string "ARCHIE: GATOMONX and GROUDON both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in HOENN has returned\n"
 	.string "to its normal state…\p"
@@ -1634,7 +1634,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "STEVEN: Those POKéMON fighting…\n"
-	.string "GROUDON… And KYOGRE…\p"
+	.string "GROUDON… And GATOMONX…\p"
 	.string "The two super-ancient POKéMON\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1649,7 +1649,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
+	.string "Does seeing GROUDON and GATOMONX make\n"
 	.string "you think POKéMON are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "POKéMON are really more…\p"

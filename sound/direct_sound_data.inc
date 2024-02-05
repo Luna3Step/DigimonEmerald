@@ -1867,8 +1867,8 @@ Cry_Groudon::
 	.incbin "sound/direct_sound_samples/cries/groudon.bin"
 
 	.align 2
-Cry_Kyogre::
-	.incbin "sound/direct_sound_samples/cries/kyogre.bin"
+Cry_Gatomon_x::
+	.incbin "sound/direct_sound_samples/cries/gatomon_x.bin"
 
 	.align 2
 Cry_Rayquaza::

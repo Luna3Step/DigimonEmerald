@@ -12,7 +12,7 @@ extern const u8 gText_ExpandedPlaceholder_Aqua[];
 extern const u8 gText_ExpandedPlaceholder_Magma[];
 extern const u8 gText_ExpandedPlaceholder_Archie[];
 extern const u8 gText_ExpandedPlaceholder_Maxie[];
-extern const u8 gText_ExpandedPlaceholder_Kyogre[];
+extern const u8 gText_ExpandedPlaceholder_Gatomon_x[];
 extern const u8 gText_ExpandedPlaceholder_Groudon[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];

@@ -139,18 +139,18 @@ Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather::
 
 Route119_WeatherInstitute_2F_EventScript_TryStartAbnormalWeather::
 	setvar VAR_0x8004, 0
-	call_if_set FLAG_DEFEATED_KYOGRE, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
+	call_if_set FLAG_DEFEATED_GATOMON_X, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
 	call_if_set FLAG_DEFEATED_GROUDON, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
 	goto_if_eq VAR_0x8004, 2, Route119_WeatherInstitute_2F_EventScript_NoAbnormalWeather  @ Both defeated
 	call_if_unset FLAG_TEMP_2, Route119_WeatherInstitute_2F_EventScript_CreateAbnormalWeather
 	specialvar VAR_RESULT, GetAbnormalWeatherMapNameAndType
-	goto_if_eq VAR_RESULT, 1, Route119_WeatherInstitute_2F_EventScript_KyogreWeather
+	goto_if_eq VAR_RESULT, 1, Route119_WeatherInstitute_2F_EventScript_Gatomon_xWeather
 	msgbox Route119_WeatherInstitute_2F_Text_GroudonWeather, MSGBOX_DEFAULT
 	release
 	end
 
-Route119_WeatherInstitute_2F_EventScript_KyogreWeather::
-	msgbox Route119_WeatherInstitute_2F_Text_KyogreWeather, MSGBOX_DEFAULT
+Route119_WeatherInstitute_2F_EventScript_Gatomon_xWeather::
+	msgbox Route119_WeatherInstitute_2F_Text_Gatomon_xWeather, MSGBOX_DEFAULT
 	release
 	end
 
@@ -317,7 +317,7 @@ Route119_WeatherInstitute_2F_Text_GroudonWeather:
 	.string "Could that mean, somewhere near\n"
 	.string "{STR_VAR_1}…$"
 
-Route119_WeatherInstitute_2F_Text_KyogreWeather:
+Route119_WeatherInstitute_2F_Text_Gatomon_xWeather:
 	.string "I track weather patterns over\n"
 	.string "the HOENN region.\p"
 	.string "Presently, heavy rainfall has been\n"

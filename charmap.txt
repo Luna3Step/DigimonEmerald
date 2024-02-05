@@ -343,7 +343,7 @@ AQUA           = FD 08
 MAGMA          = FD 09
 ARCHIE         = FD 0A
 MAXIE          = FD 0B
-KYOGRE         = FD 0C
+GATOMON_X         = FD 0C
 GROUDON        = FD 0D
 
 @ battle string placeholders

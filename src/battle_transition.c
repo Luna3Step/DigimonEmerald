@@ -117,7 +117,7 @@ static void Task_Magma(u8);
 static void Task_Gargoylmon(u8);
 static void Task_Garurumon(u8);
 static void Task_Gargomon(u8);
-static void Task_Kyogre(u8);
+static void Task_Gatomon_x(u8);
 static void Task_Groudon(u8);
 static void Task_Rayquaza(u8);
 static void Task_ShredSplit(u8);
@@ -167,9 +167,9 @@ static bool8 Garurumon_SetGfx(struct Task *);
 static bool8 Gargomon_SetGfx(struct Task *);
 static bool8 WeatherTrio_BgFadeBlack(struct Task *);
 static bool8 WeatherTrio_WaitFade(struct Task *);
-static bool8 Kyogre_Init(struct Task *);
-static bool8 Kyogre_PaletteFlash(struct Task *);
-static bool8 Kyogre_PaletteBrighten(struct Task *);
+static bool8 Gatomon_x_Init(struct Task *);
+static bool8 Gatomon_x_PaletteFlash(struct Task *);
+static bool8 Gatomon_x_PaletteBrighten(struct Task *);
 static bool8 Groudon_Init(struct Task *);
 static bool8 Groudon_PaletteFlash(struct Task *);
 static bool8 Groudon_PaletteBrighten(struct Task *);
@@ -315,12 +315,12 @@ static const u32 sGargoylmon_Tilemap[] = INCBIN_U32("graphics/battle_transitions
 static const u32 sGarurumon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/garurumon.bin");
 static const u32 sGargomon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/gargomon.bin");
 static const u16 sUnused_Palette[] = INCBIN_U16("graphics/battle_transitions/unused.gbapal");
-static const u32 sKyogre_Tileset[] = INCBIN_U32("graphics/battle_transitions/kyogre.4bpp.lz");
-static const u32 sKyogre_Tilemap[] = INCBIN_U32("graphics/battle_transitions/kyogre.bin.lz");
+static const u32 sGatomon_x_Tileset[] = INCBIN_U32("graphics/battle_transitions/gatomon_x.4bpp.lz");
+static const u32 sGatomon_x_Tilemap[] = INCBIN_U32("graphics/battle_transitions/gatomon_x.bin.lz");
 static const u32 sGroudon_Tileset[] = INCBIN_U32("graphics/battle_transitions/groudon.4bpp.lz");
 static const u32 sGroudon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/groudon.bin.lz");
-static const u16 sKyogre1_Palette[] = INCBIN_U16("graphics/battle_transitions/kyogre_pt1.gbapal");
-static const u16 sKyogre2_Palette[] = INCBIN_U16("graphics/battle_transitions/kyogre_pt2.gbapal");
+static const u16 sGatomon_x1_Palette[] = INCBIN_U16("graphics/battle_transitions/gatomon_x_pt1.gbapal");
+static const u16 sGatomon_x2_Palette[] = INCBIN_U16("graphics/battle_transitions/gatomon_x_pt2.gbapal");
 static const u16 sGroudon1_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt1.gbapal");
 static const u16 sGroudon2_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt2.gbapal");
 static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
@@ -368,7 +368,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_GARGOYLMON] = Task_Gargoylmon,
     [B_TRANSITION_GARURUMON] = Task_Garurumon,
     [B_TRANSITION_GARGOMON] = Task_Gargomon,
-    [B_TRANSITION_KYOGRE] = Task_Kyogre,
+    [B_TRANSITION_GATOMON_X] = Task_Gatomon_x,
     [B_TRANSITION_GROUDON] = Task_Groudon,
     [B_TRANSITION_RAYQUAZA] = Task_Rayquaza,
     [B_TRANSITION_SHRED_SPLIT] = Task_ShredSplit,
@@ -479,13 +479,13 @@ static const TransitionStateFunc sGargomon_Funcs[] =
     PatternWeave_CircularMask
 };
 
-static const TransitionStateFunc sKyogre_Funcs[] =
+static const TransitionStateFunc sGatomon_x_Funcs[] =
 {
     WeatherTrio_BgFadeBlack,
     WeatherTrio_WaitFade,
-    Kyogre_Init,
-    Kyogre_PaletteFlash,
-    Kyogre_PaletteBrighten,
+    Gatomon_x_Init,
+    Gatomon_x_PaletteFlash,
+    Gatomon_x_PaletteBrighten,
     FramesCountdown,
     WeatherDuo_FadeOut,
     WeatherDuo_End
@@ -1318,11 +1318,11 @@ static void HBlankCB_Shuffle(void)
 //------------------------------------------------------------------------
 // B_TRANSITION_BIG_POKEBALL, B_TRANSITION_AQUA, B_TRANSITION_MAGMA,
 // B_TRANSITION_GARGOYLMON, B_TRANSITION_GARURUMON, B_TRANSITION_GARGOMON
-// and B_TRANSITION_KYOGRE.
+// and B_TRANSITION_GATOMON_X.
 //
-// With the exception of B_TRANSITION_KYOGRE, all of the above transitions
+// With the exception of B_TRANSITION_GATOMON_X, all of the above transitions
 // use the same weave effect (see the PatternWeave functions).
-// Unclear why Kyogre's was grouped here and not with Groudon/Rayquaza's.
+// Unclear why Gatomon_x's was grouped here and not with Groudon/Rayquaza's.
 //------------------------------------------------------------------------
 
 #define tBlendTarget1 data[1]
@@ -1368,9 +1368,9 @@ static void Task_Gargomon(u8 taskId)
     while (sGargomon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static void Task_Kyogre(u8 taskId)
+static void Task_Gatomon_x(u8 taskId)
 {
-    while (sKyogre_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sGatomon_x_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
 static void InitPatternWeaveTransition(struct Task *task)
@@ -1540,26 +1540,26 @@ static bool8 Gargomon_SetGfx(struct Task *task)
 
 #define tTimer data[1]
 
-static bool8 Kyogre_Init(struct Task *task)
+static bool8 Gatomon_x_Init(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, BG_SCREEN_SIZE);
-    LZ77UnCompVram(sKyogre_Tileset, tileset);
-    LZ77UnCompVram(sKyogre_Tilemap, tilemap);
+    LZ77UnCompVram(sGatomon_x_Tileset, tileset);
+    LZ77UnCompVram(sGatomon_x_Tilemap, tilemap);
 
     task->tState++;
     return FALSE;
 }
 
-static bool8 Kyogre_PaletteFlash(struct Task *task)
+static bool8 Gatomon_x_PaletteFlash(struct Task *task)
 {
     if (task->tTimer % 3 == 0)
     {
         u16 offset = task->tTimer % 30;
         offset /= 3;
-        LoadPalette(&sKyogre1_Palette[offset * 16], 0xF0, 0x20);
+        LoadPalette(&sGatomon_x1_Palette[offset * 16], 0xF0, 0x20);
     }
     if (++task->tTimer > 58)
     {
@@ -1570,12 +1570,12 @@ static bool8 Kyogre_PaletteFlash(struct Task *task)
     return FALSE;
 }
 
-static bool8 Kyogre_PaletteBrighten(struct Task *task)
+static bool8 Gatomon_x_PaletteBrighten(struct Task *task)
 {
     if (task->tTimer % 5 == 0)
     {
         s16 offset = task->tTimer / 5;
-        LoadPalette(&sKyogre2_Palette[offset * 16], 0xF0, 0x20);
+        LoadPalette(&sGatomon_x2_Palette[offset * 16], 0xF0, 0x20);
     }
     if (++task->tTimer > 68)
     {
