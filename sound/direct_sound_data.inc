@@ -1739,8 +1739,8 @@ Cry_Blimpmon::
 	.incbin "sound/direct_sound_samples/cries/blimpmon.bin"
 
 	.align 2
-Cry_Spheal::
-	.incbin "sound/direct_sound_samples/cries/spheal.bin"
+Cry_Eyesmon_scattermode::
+	.incbin "sound/direct_sound_samples/cries/eyesmon_scattermode.bin"
 
 	.align 2
 Cry_Sealeo::

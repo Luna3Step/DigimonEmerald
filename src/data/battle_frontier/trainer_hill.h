@@ -1927,7 +1927,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xD,
-                                            .nickname = _("EOSMON_CHAMPION"),
+                                            .nickname = _("EOSMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =
@@ -2007,7 +2007,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xA,
-                                            .nickname = _("SPHEAL"),
+                                            .nickname = _("EYESMON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [5] =

@@ -2207,12 +2207,12 @@ const u32 gMonShinyPalette_Citramon[] = INCBIN_U32("graphics/pokemon/citramon/sh
 const u8 gMonIcon_Citramon[] = INCBIN_U8("graphics/pokemon/citramon/icon.4bpp");
 const u8 gMonFootprint_Citramon[] = INCBIN_U8("graphics/pokemon/citramon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Spheal[] = INCBIN_U32("graphics/pokemon/spheal/front.4bpp.lz");
-const u32 gMonPalette_Spheal[] = INCBIN_U32("graphics/pokemon/spheal/normal.gbapal.lz");
-const u32 gMonBackPic_Spheal[] = INCBIN_U32("graphics/pokemon/spheal/back.4bpp.lz");
-const u32 gMonShinyPalette_Spheal[] = INCBIN_U32("graphics/pokemon/spheal/shiny.gbapal.lz");
-const u8 gMonIcon_Spheal[] = INCBIN_U8("graphics/pokemon/spheal/icon.4bpp");
-const u8 gMonFootprint_Spheal[] = INCBIN_U8("graphics/pokemon/spheal/footprint.1bpp");
+const u32 gMonStillFrontPic_Eyesmon_scattermode[] = INCBIN_U32("graphics/pokemon/eyesmon_scattermode/front.4bpp.lz");
+const u32 gMonPalette_Eyesmon_scattermode[] = INCBIN_U32("graphics/pokemon/eyesmon_scattermode/normal.gbapal.lz");
+const u32 gMonBackPic_Eyesmon_scattermode[] = INCBIN_U32("graphics/pokemon/eyesmon_scattermode/back.4bpp.lz");
+const u32 gMonShinyPalette_Eyesmon_scattermode[] = INCBIN_U32("graphics/pokemon/eyesmon_scattermode/shiny.gbapal.lz");
+const u8 gMonIcon_Eyesmon_scattermode[] = INCBIN_U8("graphics/pokemon/eyesmon_scattermode/icon.4bpp");
+const u8 gMonFootprint_Eyesmon_scattermode[] = INCBIN_U8("graphics/pokemon/eyesmon_scattermode/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/front.4bpp.lz");
 const u32 gMonPalette_Sealeo[] = INCBIN_U32("graphics/pokemon/sealeo/normal.gbapal.lz");

@@ -338,7 +338,7 @@ gCryTable::
 	cry Cry_Exermon
 	cry Cry_Sawkuwamon
 	cry Cry_Blimpmon
-	cry Cry_Spheal
+	cry Cry_Eyesmon_scattermode
 	cry Cry_Sealeo
 	cry Cry_Walrein
 	cry Cry_Clamperl
@@ -729,7 +729,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Exermon
 	cry_reverse Cry_Sawkuwamon
 	cry_reverse Cry_Blimpmon
-	cry_reverse Cry_Spheal
+	cry_reverse Cry_Eyesmon_scattermode
 	cry_reverse Cry_Sealeo
 	cry_reverse Cry_Walrein
 	cry_reverse Cry_Clamperl
