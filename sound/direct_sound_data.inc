@@ -1795,8 +1795,8 @@ Cry_Flymon::
 	.incbin "sound/direct_sound_samples/cries/flymon.bin"
 
 	.align 2
-Cry_Shelgon::
-	.incbin "sound/direct_sound_samples/cries/shelgon.bin"
+Cry_Frigimon::
+	.incbin "sound/direct_sound_samples/cries/frigimon.bin"
 
 	.align 2
 Cry_Regirock::

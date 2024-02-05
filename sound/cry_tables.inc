@@ -352,7 +352,7 @@ gCryTable::
 	cry Cry_Metang
 	cry Cry_Gaogamon
 	cry Cry_Flymon
-	cry Cry_Shelgon
+	cry Cry_Frigimon
 	cry Cry_Regirock
 	cry Cry_Regice
 	cry Cry_Registeel
@@ -743,7 +743,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Metang
 	cry_reverse Cry_Gaogamon
 	cry_reverse Cry_Flymon
-	cry_reverse Cry_Shelgon
+	cry_reverse Cry_Frigimon
 	cry_reverse Cry_Regirock
 	cry_reverse Cry_Regice
 	cry_reverse Cry_Registeel
