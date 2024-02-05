@@ -1783,8 +1783,8 @@ Cry_Fugamon::
 	.incbin "sound/direct_sound_samples/cries/fugamon.bin"
 
 	.align 2
-Cry_Metang::
-	.incbin "sound/direct_sound_samples/cries/metang.bin"
+Cry_Ganemon::
+	.incbin "sound/direct_sound_samples/cries/ganemon.bin"
 
 	.align 2
 Cry_Gaogamon::
