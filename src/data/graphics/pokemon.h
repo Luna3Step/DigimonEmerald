@@ -2221,12 +2221,12 @@ const u32 gMonShinyPalette_Fangmon[] = INCBIN_U32("graphics/pokemon/fangmon/shin
 const u8 gMonIcon_Fangmon[] = INCBIN_U8("graphics/pokemon/fangmon/icon.4bpp");
 const u8 gMonFootprint_Fangmon[] = INCBIN_U8("graphics/pokemon/fangmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/front.4bpp.lz");
-const u32 gMonPalette_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/normal.gbapal.lz");
-const u32 gMonBackPic_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/back.4bpp.lz");
-const u32 gMonShinyPalette_Walrein[] = INCBIN_U32("graphics/pokemon/walrein/shiny.gbapal.lz");
-const u8 gMonIcon_Walrein[] = INCBIN_U8("graphics/pokemon/walrein/icon.4bpp");
-const u8 gMonFootprint_Walrein[] = INCBIN_U8("graphics/pokemon/walrein/footprint.1bpp");
+const u32 gMonStillFrontPic_Filmon[] = INCBIN_U32("graphics/pokemon/filmon/front.4bpp.lz");
+const u32 gMonPalette_Filmon[] = INCBIN_U32("graphics/pokemon/filmon/normal.gbapal.lz");
+const u32 gMonBackPic_Filmon[] = INCBIN_U32("graphics/pokemon/filmon/back.4bpp.lz");
+const u32 gMonShinyPalette_Filmon[] = INCBIN_U32("graphics/pokemon/filmon/shiny.gbapal.lz");
+const u8 gMonIcon_Filmon[] = INCBIN_U8("graphics/pokemon/filmon/icon.4bpp");
+const u8 gMonFootprint_Filmon[] = INCBIN_U8("graphics/pokemon/filmon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/front.4bpp.lz");
 const u32 gMonPalette_Darcmon[] = INCBIN_U32("graphics/pokemon/darcmon/normal.gbapal.lz");
