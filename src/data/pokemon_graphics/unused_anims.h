@@ -439,13 +439,13 @@ static const union AnimCmd sUnusedAnim_Blgargomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Luvdisc_1[] =
+static const union AnimCmd sUnusedAnim_Flybeemon_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Luvdisc_2[] =
+static const union AnimCmd sUnusedAnim_Flybeemon_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
@@ -1264,7 +1264,7 @@ static const union AnimCmd *const sUnusedAnims_Clockmon[] = {sAnim_GeneralFrame0
 static const union AnimCmd *const sUnusedAnims_Blgargomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Blgargomon_1, sUnusedAnim_Blgargomon_2};
 static const union AnimCmd *const sUnusedAnims_Depthmon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Deputymon[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Luvdisc[] = {sAnim_GeneralFrame0, sUnusedAnim_Luvdisc_1, sUnusedAnim_Luvdisc_2};
+static const union AnimCmd *const sUnusedAnims_Flybeemon[] = {sAnim_GeneralFrame0, sUnusedAnim_Flybeemon_1, sUnusedAnim_Flybeemon_2};
 static const union AnimCmd *const sUnusedAnims_Devidramon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Devimon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Doggymon[] = {sAnim_GeneralFrame0, sUnusedAnim_Doggymon_1, sUnusedAnim_Doggymon_2};
@@ -1706,7 +1706,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_BLGARGOMON] = sUnusedAnims_Blgargomon,
     [SPECIES_DEPTHMON] = sUnusedAnims_Depthmon,
     [SPECIES_DEPUTYMON] = sUnusedAnims_Deputymon,
-    [SPECIES_FLYBEEMON] = sUnusedAnims_Luvdisc,
+    [SPECIES_FLYBEEMON] = sUnusedAnims_Flybeemon,
     [SPECIES_DEVIDRAMON] = sUnusedAnims_Devidramon,
     [SPECIES_DEVIMON] = sUnusedAnims_Devimon,
     [SPECIES_DOGGYMON] = sUnusedAnims_Doggymon,

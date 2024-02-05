@@ -1859,8 +1859,8 @@ Cry_Flarizamon::
 	.incbin "sound/direct_sound_samples/cries/flarizamon.bin"
 
 	.align 2
-Cry_Luvdisc::
-	.incbin "sound/direct_sound_samples/cries/luvdisc.bin"
+Cry_Flybeemon::
+	.incbin "sound/direct_sound_samples/cries/flybeemon.bin"
 
 	.align 2
 Cry_Groudon::

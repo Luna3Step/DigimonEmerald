@@ -2095,12 +2095,12 @@ const u32 gMonShinyPalette_Deputymon[] = INCBIN_U32("graphics/pokemon/deputymon/
 const u8 gMonIcon_Deputymon[] = INCBIN_U8("graphics/pokemon/deputymon/icon.4bpp");
 const u8 gMonFootprint_Deputymon[] = INCBIN_U8("graphics/pokemon/deputymon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Luvdisc[] = INCBIN_U32("graphics/pokemon/luvdisc/front.4bpp.lz");
-const u32 gMonPalette_Luvdisc[] = INCBIN_U32("graphics/pokemon/luvdisc/normal.gbapal.lz");
-const u32 gMonBackPic_Luvdisc[] = INCBIN_U32("graphics/pokemon/luvdisc/back.4bpp.lz");
-const u32 gMonShinyPalette_Luvdisc[] = INCBIN_U32("graphics/pokemon/luvdisc/shiny.gbapal.lz");
-const u8 gMonIcon_Luvdisc[] = INCBIN_U8("graphics/pokemon/luvdisc/icon.4bpp");
-const u8 gMonFootprint_Luvdisc[] = INCBIN_U8("graphics/pokemon/luvdisc/footprint.1bpp");
+const u32 gMonStillFrontPic_Flybeemon[] = INCBIN_U32("graphics/pokemon/flybeemon/front.4bpp.lz");
+const u32 gMonPalette_Flybeemon[] = INCBIN_U32("graphics/pokemon/flybeemon/normal.gbapal.lz");
+const u32 gMonBackPic_Flybeemon[] = INCBIN_U32("graphics/pokemon/flybeemon/back.4bpp.lz");
+const u32 gMonShinyPalette_Flybeemon[] = INCBIN_U32("graphics/pokemon/flybeemon/shiny.gbapal.lz");
+const u8 gMonIcon_Flybeemon[] = INCBIN_U8("graphics/pokemon/flybeemon/icon.4bpp");
+const u8 gMonFootprint_Flybeemon[] = INCBIN_U8("graphics/pokemon/flybeemon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/front.4bpp.lz");
 const u32 gMonPalette_Devidramon[] = INCBIN_U32("graphics/pokemon/devidramon/normal.gbapal.lz");
