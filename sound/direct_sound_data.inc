@@ -1927,8 +1927,8 @@ Cry_Gatomon::
 	.incbin "sound/direct_sound_samples/cries/gatomon.bin"
 
 	.align 2
-Cry_Jirachi::
-	.incbin "sound/direct_sound_samples/cries/jirachi.bin"
+Cry_Geremon::
+	.incbin "sound/direct_sound_samples/cries/geremon.bin"
 
 	.align 2
 Cry_Deoxys::

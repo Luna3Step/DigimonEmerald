@@ -409,7 +409,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(GEOGREYMON, gMonBackPic_Geogreymon),
     SPECIES_SPRITE(GARURUMON_X, gMonBackPic_Garurumon_x),
     SPECIES_SPRITE(GATOMON, gMonBackPic_Gatomon),
-    SPECIES_SPRITE(GEREMON, gMonBackPic_Jirachi),
+    SPECIES_SPRITE(GEREMON, gMonBackPic_Geremon),
     SPECIES_SPRITE(GESOMON, gMonBackPic_Deoxys),
     SPECIES_SPRITE(EOSMON_CHAMPION, gMonBackPic_Eosmon_champion),
     SPECIES_SPRITE(EGG, gMonStillFrontPic_Egg),

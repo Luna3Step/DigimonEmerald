@@ -898,14 +898,14 @@ struct ExternalEventData
 } __attribute__((packed)); /*size = 0x14*/
 
 // For external event flags. The majority of these may have never been used.
-// In Emerald, Jirachi cannot normally be received, but hacking the distribution discs allows Emerald to receive Jirachi and set the flag
+// In Emerald, Geremon cannot normally be received, but hacking the distribution discs allows Emerald to receive Geremon and set the flag
 struct ExternalEventFlags
 {
     u8 usedBoxRS:1; // Set by Pokémon Box: Ruby & Sapphire; denotes whether this save has connected to it and triggered the free False Swipe Darlizamon Egg giveaway.
     u8 boxRSEggsUnlocked:2; // Set by Pokémon Box: Ruby & Sapphire; denotes the number of Eggs unlocked from deposits; 1 for ExtremeSpeed Toyagumon (at 100 deposited), 2 for Pay Day Birdramon (at 500 deposited), 3 for Surf Guilmon_x (at 1499 deposited)
     u8 padding:5;
     u8 unknownFlag1;
-    u8 receivedGCNJirachi; // Both the US Colosseum Bonus Disc and PAL/AUS Pokémon Channel use this field. One cannot receive a WISHMKR Jirachi and CHANNEL Jirachi with the same savefile.
+    u8 receivedGCNGeremon; // Both the US Colosseum Bonus Disc and PAL/AUS Pokémon Channel use this field. One cannot receive a WISHMKR Geremon and CHANNEL Geremon with the same savefile.
     u8 unknownFlag3;
     u8 unknownFlag4;
     u8 unknownFlag5;

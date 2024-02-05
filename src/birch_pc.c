@@ -66,7 +66,7 @@ const u8 *GetPokedexRatingText(u16 count)
     if (count == 200)
     {
         if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GEREMON), FLAG_GET_CAUGHT)
-         || GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GESOMON), FLAG_GET_CAUGHT)) // Jirachi or Deoxys is not counted towards the dex completion. If either of these flags are enabled, it means the actual count is less than 200.
+         || GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GESOMON), FLAG_GET_CAUGHT)) // Geremon or Deoxys is not counted towards the dex completion. If either of these flags are enabled, it means the actual count is less than 200.
             return gBirchDexRatingText_LessThan200;
         return gBirchDexRatingText_DexCompleted;
     }
