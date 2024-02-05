@@ -203,6 +203,9 @@ const u32 gItemIconPalette_LeafStone[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_XAntibody[] = INCBIN_U32("graphics/items/icons/x_antibody.4bpp.lz");
 const u32 gItemIconPalette_XAntibody[] = INCBIN_U32("graphics/items/icon_palettes/x_antibody.gbapal.lz");
 
+const u32 gItemIcon_DarkDigitron[] = INCBIN_U32("graphics/items/icons/dark_digitron.4bpp.lz");
+const u32 gItemIconPalette_DarkDigitron[] = INCBIN_U32("graphics/items/icon_palettes/dark_digitron.gbapal.lz");
+
 // Valuables
 
 const u32 gItemIcon_TinyMushroom[] = INCBIN_U32("graphics/items/icons/tiny_mushroom.4bpp.lz");

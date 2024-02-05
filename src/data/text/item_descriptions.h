@@ -399,6 +399,11 @@ static const u8 sXAntibodyDesc[] = _(
     "species of\n"
     "Digimon.");
 
+static const u8 sDarkDigitronDesc[] = _(
+    "Mutates some\n"
+    "species of\n"
+    "Digimon.");
+
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
     "A plain mushroom\n"

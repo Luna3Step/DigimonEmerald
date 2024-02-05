@@ -1236,6 +1236,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
+    [ITEM_DARK_DIGITRON] =
+    {
+        .name = _("DARK DIGITRON"),
+        .itemId = ITEM_DARK_DIGITRON,
+        .price = 2100,
+        .description = sDarkDigitronDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
     [ITEM_063] =
     {
         .name = _("????????"),

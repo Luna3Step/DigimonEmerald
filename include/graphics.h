@@ -3497,6 +3497,8 @@ extern const u32 gItemIcon_LeafStone[];
 extern const u32 gItemIconPalette_LeafStone[];
 extern const u32 gItemIcon_XAntibody[];
 extern const u32 gItemIconPalette_XAntibody[];
+extern const u32 gItemIcon_DarkDigitron[];
+extern const u32 gItemIconPalette_DarkDigitron[];
 // Valuables
 extern const u32 gItemIcon_TinyMushroom[];
 extern const u32 gItemIconPalette_Mushroom[];

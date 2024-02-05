@@ -1023,12 +1023,7 @@ GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
 	giveitem ITEM_X_ANTIBODY
-	giveitem ITEM_FIRE_STONE
-	giveitem ITEM_WATER_STONE
-	giveitem ITEM_LEAF_STONE
-	giveitem ITEM_SUN_STONE
-	giveitem ITEM_MOON_STONE
-	giveitem ITEM_THUNDER_STONE
+	giveitem ITEM_DARK_DIGITRON
 	waitmessage
 	releaseall
 	return

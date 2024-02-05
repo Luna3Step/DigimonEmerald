@@ -300,6 +300,10 @@ const u8 gItemEffect_XAntibody[6] = {
     [4] = ITEM4_EVO_STONE,
 };
 
+const u8 gItemEffect_DarkDigitron[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
 const u8 gItemEffect_CheriBerry[6] = {
     [3] = ITEM3_PARALYSIS,
 };
@@ -442,6 +446,7 @@ const u8 *const gItemEffectTable[] =
     [ITEM_WATER_STONE - ITEM_POTION]   = gItemEffect_WaterStone,
     [ITEM_LEAF_STONE - ITEM_POTION]    = gItemEffect_LeafStone,
     [ITEM_X_ANTIBODY - ITEM_POTION]    = gItemEffect_XAntibody,
+    [ITEM_DARK_DIGITRON - ITEM_POTION]    = gItemEffect_DarkDigitron,
     [ITEM_CHERI_BERRY - ITEM_POTION]   = gItemEffect_CheriBerry,
     [ITEM_CHESTO_BERRY - ITEM_POTION]  = gItemEffect_ChestoBerry,
     [ITEM_PECHA_BERRY - ITEM_POTION]   = gItemEffect_PechaBerry,
