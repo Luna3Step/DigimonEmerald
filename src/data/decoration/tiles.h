@@ -634,8 +634,8 @@ const u16 DecorGfx_GARGOMON_DOLL[] = {
     OBJ_EVENT_GFX_BIG_GARGOMON_DOLL
 };
 
-const u16 DecorGfx_REGICE_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_REGICE_DOLL
+const u16 DecorGfx_GARGOYLMON_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_GARGOYLMON_DOLL
 };
 
 const u16 DecorGfx_REGISTEEL_DOLL[] = {

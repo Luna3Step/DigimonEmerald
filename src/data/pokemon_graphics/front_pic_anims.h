@@ -4401,7 +4401,7 @@ static const union AnimCmd sAnim_Gargomon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Regice_1[] =
+static const union AnimCmd sAnim_Gargoylmon_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 15),
@@ -5213,7 +5213,7 @@ SINGLE_ANIMATION(Fugamon);
 SINGLE_ANIMATION(Ganemon);
 SINGLE_ANIMATION(Gaogamon);
 DOUBLE_ANIMATION(Gargomon);
-SINGLE_ANIMATION(Regice);
+SINGLE_ANIMATION(Gargoylmon);
 DOUBLE_ANIMATION(Registeel);
 DOUBLE_ANIMATION(Kyogre);
 DOUBLE_ANIMATION(Groudon);
@@ -5656,7 +5656,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_GANEMON]      = sAnims_Ganemon,
     [SPECIES_GAOGAMON]   = sAnims_Gaogamon,
     [SPECIES_GARGOMON]    = sAnims_Gargomon,
-    [SPECIES_GARGOYLMON]      = sAnims_Regice,
+    [SPECIES_GARGOYLMON]      = sAnims_Gargoylmon,
     [SPECIES_GARURUMON]   = sAnims_Registeel,
     [SPECIES_GATOMON_X]      = sAnims_Kyogre,
     [SPECIES_GEKOMON]     = sAnims_Groudon,

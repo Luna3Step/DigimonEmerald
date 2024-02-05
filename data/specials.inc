@@ -506,7 +506,7 @@ gSpecials::
 	def_special Unused_SetWeatherSunny
 	def_special SetUnlockedPokedexFlags
 	def_special IsTrainerRegistered
-	def_special ShouldDoBrailleRegicePuzzle
+	def_special ShouldDoBrailleGargoylmonPuzzle
 	def_special EnableNationalPokedex
 	def_special ScriptMenu_CreateLilycoveSSTidalMultichoice
 	def_special GetLilycoveSSTidalSelection

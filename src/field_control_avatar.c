@@ -581,7 +581,7 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
             ScriptContext_SetupScript(AbnormalWeather_EventScript_EndEventAndCleanup_1);
             return TRUE;
         }
-        if (ShouldDoBrailleRegicePuzzle() == TRUE)
+        if (ShouldDoBrailleGargoylmonPuzzle() == TRUE)
         {
             ScriptContext_SetupScript(IslandCave_EventScript_OpenRegiEntrance);
             return TRUE;

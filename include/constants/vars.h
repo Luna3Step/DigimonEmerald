@@ -75,9 +75,9 @@
 #define VAR_ABNORMAL_WEATHER_STEP_COUNTER                0x4038
 #define VAR_SHOULD_END_ABNORMAL_WEATHER                  0x4039
 #define VAR_FARAWAY_ISLAND_STEP_COUNTER                  0x403A
-#define VAR_REGICE_STEPS_1                               0x403B
-#define VAR_REGICE_STEPS_2                               0x403C
-#define VAR_REGICE_STEPS_3                               0x403D
+#define VAR_GARGOYLMON_STEPS_1                               0x403B
+#define VAR_GARGOYLMON_STEPS_2                               0x403C
+#define VAR_GARGOYLMON_STEPS_3                               0x403D
 #define VAR_ALTERING_CAVE_WILD_SET                       0x403E
 #define VAR_DISTRIBUTE_EON_TICKET                        0x403F // This var is read and written, but is always zero. The only way to obtain the Eon Ticket in Emerald is via Record Mixing
 #define VAR_DAYS                                         0x4040

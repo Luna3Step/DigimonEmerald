@@ -186,7 +186,7 @@
 #define OBJ_EVENT_GFX_BIG_curimon_DOLL         182
 #define OBJ_EVENT_GFX_BIG_CHAMBLEMON_DOLL           183
 #define OBJ_EVENT_GFX_BIG_GARGOMON_DOLL          184
-#define OBJ_EVENT_GFX_BIG_REGICE_DOLL            185
+#define OBJ_EVENT_GFX_BIG_GARGOYLMON_DOLL            185
 #define OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL         186
 #define OBJ_EVENT_GFX_LATIAS                     187
 #define OBJ_EVENT_GFX_LATIOS                     188
@@ -202,7 +202,7 @@
 #define OBJ_EVENT_GFX_GROUDON_FRONT              198
 #define OBJ_EVENT_GFX_FOSSIL                     199
 #define OBJ_EVENT_GFX_GARGOMON                   200
-#define OBJ_EVENT_GFX_REGICE                     201
+#define OBJ_EVENT_GFX_GARGOYLMON                     201
 #define OBJ_EVENT_GFX_REGISTEEL                  202
 #define OBJ_EVENT_GFX_BIRDRAMON                     203
 #define OBJ_EVENT_GFX_DONSHOUMON                    204

@@ -909,7 +909,7 @@ static const union AnimCmd sUnusedAnim_Gargomon_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Regice_1[] =
+static const union AnimCmd sUnusedAnim_Gargoylmon_1[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
@@ -1341,7 +1341,7 @@ static const union AnimCmd *const sUnusedAnims_Fugamon[] = {sAnim_GeneralFrame0}
 static const union AnimCmd *const sUnusedAnims_Ganemon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Gaogamon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Gargomon[] = {sAnim_GeneralFrame0, sUnusedAnim_Gargomon_1};
-static const union AnimCmd *const sUnusedAnims_Regice[] = {sAnim_GeneralFrame0, sUnusedAnim_Regice_1};
+static const union AnimCmd *const sUnusedAnims_Gargoylmon[] = {sAnim_GeneralFrame0, sUnusedAnim_Gargoylmon_1};
 static const union AnimCmd *const sUnusedAnims_Registeel[] = {sAnim_GeneralFrame0, sUnusedAnim_Registeel_1, sUnusedAnim_Registeel_2};
 static const union AnimCmd *const sUnusedAnims_Kyogre[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Groudon[] = {sAnim_GeneralFrame0};
@@ -1783,7 +1783,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_GANEMON] = sUnusedAnims_Ganemon,
     [SPECIES_GAOGAMON] = sUnusedAnims_Gaogamon,
     [SPECIES_GARGOMON] = sUnusedAnims_Gargomon,
-    [SPECIES_GARGOYLMON] = sUnusedAnims_Regice,
+    [SPECIES_GARGOYLMON] = sUnusedAnims_Gargoylmon,
     [SPECIES_GARURUMON] = sUnusedAnims_Registeel,
     [SPECIES_GATOMON_X] = sUnusedAnims_Kyogre,
     [SPECIES_GEKOMON] = sUnusedAnims_Groudon,

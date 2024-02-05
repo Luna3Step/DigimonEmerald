@@ -354,7 +354,7 @@ gCryTable::
 	cry Cry_Flymon
 	cry Cry_Frigimon
 	cry Cry_Gargomon
-	cry Cry_Regice
+	cry Cry_Gargoylmon
 	cry Cry_Registeel
 	cry Cry_Dolphmon
 	cry Cry_Bucchiemon_green
@@ -745,7 +745,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Flymon
 	cry_reverse Cry_Frigimon
 	cry_reverse Cry_Gargomon
-	cry_reverse Cry_Regice
+	cry_reverse Cry_Gargoylmon
 	cry_reverse Cry_Registeel
 	cry_reverse Cry_Dolphmon
 	cry_reverse Cry_Bucchiemon_green

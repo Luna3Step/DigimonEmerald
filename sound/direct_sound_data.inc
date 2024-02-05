@@ -1803,8 +1803,8 @@ Cry_Gargomon::
 	.incbin "sound/direct_sound_samples/cries/gargomon.bin"
 
 	.align 2
-Cry_Regice::
-	.incbin "sound/direct_sound_samples/cries/regice.bin"
+Cry_Gargoylmon::
+	.incbin "sound/direct_sound_samples/cries/gargoylmon.bin"
 
 	.align 2
 Cry_Registeel::
