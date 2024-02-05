@@ -478,7 +478,7 @@ gSpecials::
 	def_special PrintPlayerBerryPowderAmount
 	def_special ShowFrontierGamblerLookingMessage
 	def_special ShowFrontierGamblerGoMessage
-	def_special Script_DoRayquazaScene
+	def_special Script_DoGeogreymonScene
 	def_special OpenPokenavForTutorial
 	def_special ScriptMenu_CreateStartMenuForPokenavTutorial
 	def_special CountPlayerTrainerStars
@@ -516,7 +516,7 @@ gSpecials::
 	def_special LinkRetireStatusWithBattleTowerPartner
 	def_special BattleTowerReconnectLink
 	def_special CallTrainerHillFunction
-	def_special Script_DoRayquazaScene @ Listed twice
+	def_special Script_DoGeogreymonScene @ Listed twice
 	def_special LoopWingFlapSE
 	def_special DestroyMewEmergingGrassSprite
 	def_special ShowBerryCrushRankings

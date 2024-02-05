@@ -31,7 +31,7 @@
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
 #include "random.h"
-#include "rayquaza_scene.h"
+#include "geogreymon_scene.h"
 #include "region_map.h"
 #include "rtc.h"
 #include "script.h"
@@ -442,7 +442,7 @@ bool32 ShouldDoRoxanneCall(void)
     return TRUE;
 }
 
-bool32 ShouldDoRivalRayquazaCall(void)
+bool32 ShouldDoRivalGeogreymonCall(void)
 {
     if (FlagGet(FLAG_DEFEATED_MAGMA_SPACE_CENTER))
     {
@@ -452,7 +452,7 @@ bool32 ShouldDoRivalRayquazaCall(void)
         case MAP_TYPE_CITY:
         case MAP_TYPE_ROUTE:
         case MAP_TYPE_OCEAN_ROUTE:
-            if (++(*GetVarPointer(VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER)) < 250)
+            if (++(*GetVarPointer(VAR_RIVAL_GEOGREYMON_CALL_STEP_COUNTER)) < 250)
                 return FALSE;
             break;
         default:
@@ -3709,17 +3709,17 @@ static void Task_LinkRetireStatusWithBattleTowerPartner(u8 taskId)
 
 #undef tState
 
-void Script_DoRayquazaScene(void)
+void Script_DoGeogreymonScene(void)
 {
     if (!gSpecialVar_0x8004)
     {
         // Gekomon/Gatomon_x fight scene
-        DoRayquazaScene(0, TRUE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        DoGeogreymonScene(0, TRUE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
     else
     {
-        // Rayquaza arrives scene
-        DoRayquazaScene(1, FALSE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        // Geogreymon arrives scene
+        DoGeogreymonScene(1, FALSE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
 }
 

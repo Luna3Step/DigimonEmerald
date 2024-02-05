@@ -91,7 +91,7 @@
 #define FLAG_UNUSED_0x04F    0x4F // Unused Flag
 
 // Scripts
-#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
+#define FLAG_HIDE_SKY_PILLAR_TOP_GEOGREYMON_STILL  0x50
 #define FLAG_SET_WALL_CLOCK                      0x51
 #define FLAG_RESCUED_BIRCH                       0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
@@ -478,7 +478,7 @@
 #define FLAG_DEFEATED_GARURUMON              0x1BD
 #define FLAG_DEFEATED_GATOMON_X                 0x1BE
 #define FLAG_DEFEATED_GEKOMON                0x1BF
-#define FLAG_DEFEATED_RAYQUAZA               0x1C0
+#define FLAG_DEFEATED_GEOGREYMON               0x1C0
 #define FLAG_DEFEATED_XIAOMON_1_NEW_MAUVILLE 0x1C1
 #define FLAG_DEFEATED_XIAOMON_2_NEW_MAUVILLE 0x1C2
 #define FLAG_DEFEATED_XIAOMON_3_NEW_MAUVILLE 0x1C3
@@ -816,7 +816,7 @@
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
 #define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
-#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
+#define FLAG_HIDE_SKY_PILLAR_TOP_GEOGREYMON                           0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308
@@ -1039,7 +1039,7 @@
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
 #define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
 #define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA                          0x3E4
+#define FLAG_HIDE_SOOTOPOLIS_CITY_GEOGREYMON                          0x3E4
 #define FLAG_HIDE_SOOTOPOLIS_CITY_GATOMON_X                            0x3E5
 #define FLAG_HIDE_SOOTOPOLIS_CITY_GEKOMON                           0x3E6
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7

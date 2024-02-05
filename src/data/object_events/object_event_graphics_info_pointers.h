@@ -39,7 +39,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GeogreymonStill;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlackBelt;
@@ -205,7 +205,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Birdramon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Donshoumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gatomon_xAsleep;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GekomonAsleep;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Geogreymon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Toyagumon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Petitmon;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jellymon;
@@ -288,7 +288,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SCHOOL_KID_M] =             &gObjectEventGraphicsInfo_SchoolKidM,
     [OBJ_EVENT_GFX_MANIAC] =                   &gObjectEventGraphicsInfo_Maniac,
     [OBJ_EVENT_GFX_HEX_MANIAC] =               &gObjectEventGraphicsInfo_HexManiac,
-    [OBJ_EVENT_GFX_RAYQUAZA_STILL] =           &gObjectEventGraphicsInfo_RayquazaStill,
+    [OBJ_EVENT_GFX_GEOGREYMON_STILL] =           &gObjectEventGraphicsInfo_GeogreymonStill,
     [OBJ_EVENT_GFX_SWIMMER_M] =                &gObjectEventGraphicsInfo_SwimmerM,
     [OBJ_EVENT_GFX_SWIMMER_F] =                &gObjectEventGraphicsInfo_SwimmerF,
     [OBJ_EVENT_GFX_BLACK_BELT] =               &gObjectEventGraphicsInfo_BlackBelt,
@@ -454,7 +454,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DONSHOUMON] =                  &gObjectEventGraphicsInfo_Donshoumon,
     [OBJ_EVENT_GFX_GATOMON_X_ASLEEP] =            &gObjectEventGraphicsInfo_Gatomon_xAsleep,
     [OBJ_EVENT_GFX_GEKOMON_ASLEEP] =           &gObjectEventGraphicsInfo_GekomonAsleep,
-    [OBJ_EVENT_GFX_RAYQUAZA] =                 &gObjectEventGraphicsInfo_Rayquaza,
+    [OBJ_EVENT_GFX_GEOGREYMON] =                 &gObjectEventGraphicsInfo_Geogreymon,
     [OBJ_EVENT_GFX_TOYAGUMON_2] =              &gObjectEventGraphicsInfo_Toyagumon,
     [OBJ_EVENT_GFX_PETITMON] =                  &gObjectEventGraphicsInfo_Petitmon,
     [OBJ_EVENT_GFX_JELLYMON] =                &gObjectEventGraphicsInfo_Jellymon,

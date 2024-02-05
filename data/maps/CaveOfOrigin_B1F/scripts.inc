@@ -19,12 +19,12 @@ CaveOfOrigin_B1F_EventScript_Wallace::
 	delay 30
 	applymovement LOCALID_WALLACE, Common_Movement_FacePlayer
 	waitmovement 0
-	message CaveOfOrigin_B1F_Text_WhereIsRayquaza
+	message CaveOfOrigin_B1F_Text_WhereIsGeogreymon
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresGeogreymon
 
-CaveOfOrigin_B1F_EventScript_WheresRayquaza::
-	multichoice 0, 0, MULTI_WHERES_RAYQUAZA, FALSE
+CaveOfOrigin_B1F_EventScript_WheresGeogreymon::
+	multichoice 0, 0, MULTI_WHERES_GEOGREYMON, FALSE
 	switch VAR_RESULT
 	case 0, CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin
 	case 1, CaveOfOrigin_B1F_EventScript_AtMtPyre
@@ -36,17 +36,17 @@ CaveOfOrigin_B1F_EventScript_WheresRayquaza::
 CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin::
 	message CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresGeogreymon
 
 CaveOfOrigin_B1F_EventScript_AtMtPyre::
 	message CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresGeogreymon
 
 CaveOfOrigin_B1F_EventScript_DontRemember::
 	message CaveOfOrigin_B1F_Text_CantYouRememberSomehow
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresGeogreymon
 
 CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	msgbox CaveOfOrigin_B1F_Text_WellHeadToSkyPillar, MSGBOX_DEFAULT
@@ -78,16 +78,16 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "ancient POKéMON.\p"
 	.string "There is one more somewhere.\p"
 	.string "Somewhere, there is a super-\n"
-	.string "ancient POKéMON named RAYQUAZA.\p"
-	.string "It's said that it was RAYQUAZA that\n"
+	.string "ancient POKéMON named GEOGREYMON.\p"
+	.string "It's said that it was GEOGREYMON that\n"
 	.string "becalmed the two combatants in\l"
 	.string "the distant past.\p"
 	.string "But even I have no clue as to\n"
-	.string "RAYQUAZA's whereabouts…$"
+	.string "GEOGREYMON's whereabouts…$"
 
-CaveOfOrigin_B1F_Text_WhereIsRayquaza:
+CaveOfOrigin_B1F_Text_WhereIsGeogreymon:
 	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
-	.string "know where RAYQUAZA is now?\p"
+	.string "know where GEOGREYMON is now?\p"
 	.string "If you do, please tell me.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
@@ -95,7 +95,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
 	.string "But that's right here!\n"
 	.string "I need you to do better than that!\p"
 	.string "Please, I need you to think about\n"
-	.string "where RAYQUAZA might be right now.$"
+	.string "where GEOGREYMON might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 	.string "WALLACE: MT. PYRE?\p"

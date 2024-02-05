@@ -133,14 +133,14 @@ MtPyre_Summit_Movement_ArchieFacePlayer2:
 MtPyre_Summit_EventScript_OldMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, MtPyre_Summit_EventScript_OldManAfterRayquaza
+	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, MtPyre_Summit_EventScript_OldManAfterGeogreymon
 	msgbox MtPyre_Summit_Text_WillYouHearOutMyTale, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_OldManTale
 	call_if_eq VAR_RESULT, NO, MtPyre_Summit_EventScript_DeclineOldManTale
 	release
 	end
 
-MtPyre_Summit_EventScript_OldManAfterRayquaza::
+MtPyre_Summit_EventScript_OldManAfterGeogreymon::
 	msgbox MtPyre_Summit_Text_HearTheNewLegendOfHoenn, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_OldManNewTale
 	call_if_eq VAR_RESULT, NO, MtPyre_Summit_EventScript_DeclineOldManTale

@@ -7,7 +7,7 @@
 .set LOCALID_WOMAN_1, 8
 .set LOCALID_GEKOMON, 9
 .set LOCALID_GATOMON_X, 10
-.set LOCALID_RAYQUAZA, 11
+.set LOCALID_GEOGREYMON, 11
 .set LOCALID_MANIAC, 12
 .set LOCALID_GIRL, 13
 .set LOCALID_BLACK_BELT, 14
@@ -182,7 +182,7 @@ SootopolisCity_OnResume:
 
 SootopolisCity_OnFrame:
 	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_StartLegendariesScene
-	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartRayquazaScene
+	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartGeogreymonScene
 	.2byte 0
 
 @ If not at PokeCenter, assumed to have arrived via Dive
@@ -205,7 +205,7 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	setweather WEATHER_ABNORMAL
 	doweather
 	setvar VAR_0x8004, FALSE @ Just do Gekomon/Gatomon_x fight scene
-	special Script_DoRayquazaScene
+	special Script_DoGeogreymonScene
 	waitstate
 	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_GEKOMON, Common_Movement_WalkInPlaceFasterRight
@@ -305,7 +305,7 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	setweather WEATHER_ABNORMAL
 	doweather
 	setvar VAR_0x8004, FALSE @ Just do Gekomon/Gatomon_x fight scene
-	special Script_DoRayquazaScene
+	special Script_DoGeogreymonScene
 	waitstate
 	applymovement LOCALID_GATOMON_X, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_GEKOMON, Common_Movement_WalkInPlaceFasterRight
@@ -475,15 +475,15 @@ SootopolisCity_Movement_GekomonIdle:
 	step_end
 
 @ If not at PokeCenter, assumed to have arrived via Dive
-SootopolisCity_EventScript_StartRayquazaScene::
+SootopolisCity_EventScript_StartGeogreymonScene::
 	lockall
 	special StorePlayerCoordsInVars
-	goto_if_ne VAR_0x8004, 43, SootopolisCity_EventScript_RayquazaSceneFromDive
-	goto_if_ne VAR_0x8005, 32, SootopolisCity_EventScript_RayquazaSceneFromDive
-	goto SootopolisCity_EventScript_RayquazaSceneFromPokeCenter
+	goto_if_ne VAR_0x8004, 43, SootopolisCity_EventScript_GeogreymonSceneFromDive
+	goto_if_ne VAR_0x8005, 32, SootopolisCity_EventScript_GeogreymonSceneFromDive
+	goto SootopolisCity_EventScript_GeogreymonSceneFromPokeCenter
 	end
 
-SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
+SootopolisCity_EventScript_GeogreymonSceneFromPokeCenter::
 	delay 60
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
@@ -494,9 +494,9 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GEKOMON
 	removeobject LOCALID_GATOMON_X
-	addobject LOCALID_RAYQUAZA
+	addobject LOCALID_GEOGREYMON
 	setvar VAR_0x8004, TRUE
-	special Script_DoRayquazaScene
+	special Script_DoGeogreymonScene
 	waitstate
 	playse SE_THUNDER
 	special SpawnCameraObject
@@ -521,9 +521,9 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	waitmoncry
 	setweather WEATHER_NONE
 	doweather
-	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	applymovement LOCALID_GEOGREYMON, SootopolisCity_Movement_GeogreymonFlyOff
 	waitmovement 0
-	removeobject LOCALID_RAYQUAZA
+	removeobject LOCALID_GEOGREYMON
 	special WaitWeather
 	waitstate
 	clearflag FLAG_SYS_WEATHER_CTRL
@@ -536,7 +536,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	waitstate
 	end
 
-SootopolisCity_EventScript_RayquazaSceneFromDive::
+SootopolisCity_EventScript_GeogreymonSceneFromDive::
 	delay 60
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
@@ -547,9 +547,9 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GEKOMON
 	removeobject LOCALID_GATOMON_X
-	addobject LOCALID_RAYQUAZA
+	addobject LOCALID_GEOGREYMON
 	setvar VAR_0x8004, TRUE
-	special Script_DoRayquazaScene
+	special Script_DoGeogreymonScene
 	waitstate
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
@@ -574,9 +574,9 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	waitmoncry
 	setweather WEATHER_NONE
 	doweather
-	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	applymovement LOCALID_GEOGREYMON, SootopolisCity_Movement_GeogreymonFlyOff
 	waitmovement 0
-	removeobject LOCALID_RAYQUAZA
+	removeobject LOCALID_GEOGREYMON
 	special WaitWeather
 	waitstate
 	clearflag FLAG_SYS_WEATHER_CTRL
@@ -616,7 +616,7 @@ SootopolisCity_EventScript_SetRoughWater::
 	setmetatile 35, 45, METATILE_Sootopolis_RoughWater, FALSE
 	return
 
-SootopolisCity_Movement_RayquazaFlyOff:
+SootopolisCity_Movement_GeogreymonFlyOff:
 	walk_fast_up
 	walk_faster_up
 	walk_faster_up
@@ -711,7 +711,7 @@ SootopolisCity_EventScript_Kiri::
 	faceplayer
 	goto_if_le VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_KiriGiveBerry
 	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_KiriGiveBerry
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_KiriRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_KiriGeogreymon
 	msgbox SootopolisCity_Text_BigPokemonFighting, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_KIRI, Common_Movement_FaceOriginalDirection
@@ -719,7 +719,7 @@ SootopolisCity_EventScript_Kiri::
 	release
 	end
 
-SootopolisCity_EventScript_KiriRayquaza::
+SootopolisCity_EventScript_KiriGeogreymon::
 	msgbox SootopolisCity_Text_PrettyMonCameFromSky, MSGBOX_DEFAULT
 	closemessage
 	release
@@ -773,7 +773,7 @@ SootopolisCity_EventScript_Woman2::
 	lockall
 	applymovement LOCALID_WOMAN_2, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Woman2Rayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Woman2Geogreymon
 	msgbox SootopolisCity_Text_WeatherWentWild, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_WOMAN_2, Common_Movement_FaceOriginalDirection
@@ -781,7 +781,7 @@ SootopolisCity_EventScript_Woman2::
 	releaseall
 	end
 
-SootopolisCity_EventScript_Woman2Rayquaza::
+SootopolisCity_EventScript_Woman2Geogreymon::
 	msgbox SootopolisCity_Text_YouBroughtFlyingMon, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -803,7 +803,7 @@ SootopolisCity_EventScript_Woman1::
 	lock
 	faceplayer
 	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_Woman1PostLegendaries
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Woman1Rayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Woman1Geogreymon
 	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_Woman1Legendaries
 	msgbox SootopolisCity_Text_SootopolisSkyBeautiful, MSGBOX_DEFAULT
 	release
@@ -822,7 +822,7 @@ SootopolisCity_EventScript_Woman1PostLegendaries::
 	release
 	end
 
-SootopolisCity_EventScript_Woman1Rayquaza::
+SootopolisCity_EventScript_Woman1Geogreymon::
 	msgbox SootopolisCity_Text_FearedWorstWhenPokemonFlewDown, MSGBOX_DEFAULT
 	release
 	end
@@ -831,7 +831,7 @@ SootopolisCity_EventScript_NinjaBoy::
 	lockall
 	applymovement LOCALID_NINJA_BOY, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_NinjaBoyRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_NinjaBoyGeogreymon
 	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_NinjaBoyNormal
 	goto_if_le VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_NinjaBoyNormal
 	msgbox SootopolisCity_Text_ThisIsWicked, MSGBOX_DEFAULT
@@ -846,7 +846,7 @@ SootopolisCity_EventScript_NinjaBoyNormal::
 	release
 	end
 
-SootopolisCity_EventScript_NinjaBoyRayquaza::
+SootopolisCity_EventScript_NinjaBoyGeogreymon::
 	msgbox SootopolisCity_Text_ThatWasWicked, MSGBOX_DEFAULT
 	release
 	end
@@ -855,7 +855,7 @@ SootopolisCity_EventScript_Boy1::
 	lockall
 	applymovement LOCALID_BOY_1, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy1Rayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy1Geogreymon
 	goto_if_set FLAG_SYS_GAME_CLEAR, SootopolisCity_EventScript_Boy1GameClear
 	goto_if_ge VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_Boy1Normal
 	goto_if_le VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_Boy1Normal
@@ -866,7 +866,7 @@ SootopolisCity_EventScript_Boy1::
 	release
 	end
 
-SootopolisCity_EventScript_Boy1Rayquaza::
+SootopolisCity_EventScript_Boy1Geogreymon::
 	msgbox SootopolisCity_Text_WhatIsThatGreenPokemon, MSGBOX_DEFAULT
 	release
 	end
@@ -902,7 +902,7 @@ SootopolisCity_EventScript_Steven::
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_StevenHelpedWallace
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_StevenHelpedWallace
 	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_StevenMaxieArchieLeft
-	msgbox SootopolisCity_Text_SoThatsRayquaza, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_SoThatsGeogreymon, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -1226,7 +1226,7 @@ SootopolisCity_EventScript_Boy2::
 	lockall
 	applymovement LOCALID_BOY_2, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy2Rayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy2Geogreymon
 	msgbox SootopolisCity_Text_TwoPokemonArentAngry, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_BOY_2, Common_Movement_FaceOriginalDirection
@@ -1234,7 +1234,7 @@ SootopolisCity_EventScript_Boy2::
 	releaseall
 	end
 
-SootopolisCity_EventScript_Boy2Rayquaza::
+SootopolisCity_EventScript_Boy2Geogreymon::
 	msgbox SootopolisCity_Text_FlyingMonStoppedRampage, MSGBOX_DEFAULT
 	closemessage
 	releaseall
@@ -1242,7 +1242,7 @@ SootopolisCity_EventScript_Boy2Rayquaza::
 
 SootopolisCity_EventScript_BlackBelt::
 	lockall
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_BlackBeltRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_BlackBeltGeogreymon
 	msgbox SootopolisCity_Text_GoRedAndBlueMon, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
@@ -1254,7 +1254,7 @@ SootopolisCity_EventScript_BlackBelt::
 	releaseall
 	end
 
-SootopolisCity_EventScript_BlackBeltRayquaza::
+SootopolisCity_EventScript_BlackBeltGeogreymon::
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SootopolisCity_Text_GreenOneSettlesThings, MSGBOX_DEFAULT
@@ -1265,7 +1265,7 @@ SootopolisCity_EventScript_Girl::
 	lockall
 	applymovement LOCALID_GIRL, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_GirlRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_GirlGeogreymon
 	msgbox SootopolisCity_Text_SootopolisWillBeWrecked, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_GIRL, Common_Movement_FaceOriginalDirection
@@ -1273,7 +1273,7 @@ SootopolisCity_EventScript_Girl::
 	releaseall
 	end
 
-SootopolisCity_EventScript_GirlRayquaza::
+SootopolisCity_EventScript_GirlGeogreymon::
 	msgbox SootopolisCity_Text_SootopolisDidntGetWrecked, MSGBOX_DEFAULT
 	closemessage
 	releaseall
@@ -1283,7 +1283,7 @@ SootopolisCity_EventScript_Maniac::
 	lockall
 	applymovement LOCALID_MANIAC, Common_Movement_FacePlayer
 	waitmovement 0
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ManiacRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ManiacGeogreymon
 	msgbox SootopolisCity_Text_SeeingLegendWithOwnEyes, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MANIAC, Common_Movement_FaceOriginalDirection
@@ -1291,7 +1291,7 @@ SootopolisCity_EventScript_Maniac::
 	releaseall
 	end
 
-SootopolisCity_EventScript_ManiacRayquaza::
+SootopolisCity_EventScript_ManiacGeogreymon::
 	msgbox SootopolisCity_Text_SawLegendWithOwnEyes, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -1354,13 +1354,13 @@ SootopolisCity_Movement_WallaceMoveFromGymWest:
 
 SootopolisCity_EventScript_Maxie::
 	lockall
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_MaxieRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_MaxieGeogreymon
 	msgbox SootopolisCity_Text_GekomonPleaseStop, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
 
-SootopolisCity_EventScript_MaxieRayquaza::
+SootopolisCity_EventScript_MaxieGeogreymon::
 	msgbox SootopolisCity_Text_AfterAllOurScheming, MSGBOX_DEFAULT
 	setflag FLAG_MET_MAXIE_SOOTOPOLIS
 	goto_if_set FLAG_MET_ARCHIE_SOOTOPOLIS, SootopolisCity_EventScript_MaxieArchieLeave
@@ -1369,13 +1369,13 @@ SootopolisCity_EventScript_MaxieRayquaza::
 
 SootopolisCity_EventScript_Archie::
 	lockall
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ArchieRayquaza
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ArchieGeogreymon
 	msgbox SootopolisCity_Text_Gatomon_xCalmDown, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
 
-SootopolisCity_EventScript_ArchieRayquaza::
+SootopolisCity_EventScript_ArchieGeogreymon::
 	msgbox SootopolisCity_Text_TryingMeaninglessToPokemon, MSGBOX_DEFAULT
 	setflag FLAG_MET_ARCHIE_SOOTOPOLIS
 	goto_if_set FLAG_MET_MAXIE_SOOTOPOLIS, SootopolisCity_EventScript_MaxieArchieLeave
@@ -1672,8 +1672,8 @@ SootopolisCity_Text_NeverBeenToSkyPillar:
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
-SootopolisCity_Text_SoThatsRayquaza:
-	.string "STEVEN: So that's RAYQUAZA…\p"
+SootopolisCity_Text_SoThatsGeogreymon:
+	.string "STEVEN: So that's GEOGREYMON…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "POKéMON would flee from it in fear…$"
 

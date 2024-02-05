@@ -65,7 +65,7 @@
 #define FLDEFF_PCTURN_ON                 61
 #define FLDEFF_HALL_OF_FAME_RECORD       62
 #define FLDEFF_USE_TELEPORT              63
-#define FLDEFF_RAYQUAZA_SPOTLIGHT        64
+#define FLDEFF_GEOGREYMON_SPOTLIGHT        64
 #define FLDEFF_DESTROY_DEOXYS_ROCK       65
 #define FLDEFF_MOVE_DEOXYS_ROCK          66
 
@@ -105,7 +105,7 @@
 #define FLDEFFOBJ_ASH_LAUNCH            33
 #define FLDEFFOBJ_BUBBLES               34
 #define FLDEFFOBJ_SMALL_SPARKLE         35
-#define FLDEFFOBJ_RAYQUAZA              36
+#define FLDEFFOBJ_GEOGREYMON              36
 
 #define FLDEFF_PAL_TAG_CUT_GRASS          0x1000
 #define FLDEFF_PAL_TAG_SECRET_POWER_TREE  0x1003

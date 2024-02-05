@@ -1871,8 +1871,8 @@ Cry_Gatomon_x::
 	.incbin "sound/direct_sound_samples/cries/gatomon_x.bin"
 
 	.align 2
-Cry_Rayquaza::
-	.incbin "sound/direct_sound_samples/cries/rayquaza.bin"
+Cry_Geogreymon::
+	.incbin "sound/direct_sound_samples/cries/geogreymon.bin"
 
 	.align 2
 Cry_Frogmon::

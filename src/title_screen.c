@@ -54,8 +54,8 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite);
 // const rom data
 static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.gbapal");
 
-static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.lz");
-static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/rayquaza.bin.lz");
+static const u32 sTitleScreenGeogreymonGfx[] = INCBIN_U32("graphics/title_screen/geogreymon.4bpp.lz");
+static const u32 sTitleScreenGeogreymonTilemap[] = INCBIN_U32("graphics/title_screen/geogreymon.bin.lz");
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
 static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
 
@@ -550,8 +550,8 @@ void CB2_InitTitleScreen(void)
         LZ77UnCompVram(gTitleScreenPokemonLogoTilemap, (void *)(BG_SCREEN_ADDR(9)));
         LoadPalette(gTitleScreenBgPalettes, 0, 0x1E0);
         // bg3
-        LZ77UnCompVram(sTitleScreenRayquazaGfx, (void *)(BG_CHAR_ADDR(2)));
-        LZ77UnCompVram(sTitleScreenRayquazaTilemap, (void *)(BG_SCREEN_ADDR(26)));
+        LZ77UnCompVram(sTitleScreenGeogreymonGfx, (void *)(BG_CHAR_ADDR(2)));
+        LZ77UnCompVram(sTitleScreenGeogreymonTilemap, (void *)(BG_SCREEN_ADDR(26)));
         // bg1
         LZ77UnCompVram(sTitleScreenCloudsGfx, (void *)(BG_CHAR_ADDR(3)));
         LZ77UnCompVram(gTitleScreenCloudsTilemap, (void *)(BG_SCREEN_ADDR(27)));
@@ -723,7 +723,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
     gTasks[taskId].data[6] = 6;
 }
 
-// Show Rayquaza silhouette and process main title screen input
+// Show Geogreymon silhouette and process main title screen input
 static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((JOY_NEW(A_BUTTON)) || (JOY_NEW(START_BUTTON)))

@@ -583,8 +583,8 @@ void BattleSetup_StartLegendaryBattle(void)
         CreateBattleStartTask(B_TRANSITION_GATOMON_X, MUS_VS_KYOGRE_GROUDON);
         break;
     case SPECIES_GEOGREYMON:
-        gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_RAYQUAZA);
+        gBattleTypeFlags |= BATTLE_TYPE_GEOGREYMON;
+        CreateBattleStartTask(B_TRANSITION_GEOGREYMON, MUS_VS_RAYQUAZA);
         break;
     case SPECIES_GESOMON:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);

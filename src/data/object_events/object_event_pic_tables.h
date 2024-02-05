@@ -1797,24 +1797,24 @@ static const struct SpriteFrameImage sPicTable_Donshoumon[] = {
     overworld_frame(gObjectEventPic_Donshoumon, 2, 2, 2),
 };
 
-static const struct SpriteFrameImage sPicTable_Rayquaza[] = {
-    overworld_frame(gObjectEventPic_Rayquaza, 8, 8, 0),
-    overworld_frame(gObjectEventPic_Rayquaza, 8, 8, 1),
-    overworld_frame(gObjectEventPic_Rayquaza, 8, 8, 2),
-    overworld_frame(gObjectEventPic_Rayquaza, 8, 8, 3),
-    overworld_frame(gObjectEventPic_Rayquaza, 8, 8, 4),
+static const struct SpriteFrameImage sPicTable_Geogreymon[] = {
+    overworld_frame(gObjectEventPic_Geogreymon, 8, 8, 0),
+    overworld_frame(gObjectEventPic_Geogreymon, 8, 8, 1),
+    overworld_frame(gObjectEventPic_Geogreymon, 8, 8, 2),
+    overworld_frame(gObjectEventPic_Geogreymon, 8, 8, 3),
+    overworld_frame(gObjectEventPic_Geogreymon, 8, 8, 4),
 };
 
-static const struct SpriteFrameImage sPicTable_RayquazaStill[] = {
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
-    obj_frame_tiles(gObjectEventPic_RayquazaStill),
+static const struct SpriteFrameImage sPicTable_GeogreymonStill[] = {
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
+    obj_frame_tiles(gObjectEventPic_GeogreymonStill),
 };
 
 static const struct SpriteFrameImage sPicTable_Toyagumon[] = {

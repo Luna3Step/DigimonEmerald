@@ -69,7 +69,7 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_SecretBaseBootPC          @ FLDEFF_PCTURN_ON
 	.4byte gFieldEffectScript_HallOfFameRecord          @ FLDEFF_HALL_OF_FAME_RECORD
 	.4byte gFieldEffectScript_UseTeleport               @ FLDEFF_USE_TELEPORT
-	.4byte gFieldEffectScript_RayquazaSpotlight         @ FLDEFF_RAYQUAZA_SPOTLIGHT
+	.4byte gFieldEffectScript_GeogreymonSpotlight         @ FLDEFF_GEOGREYMON_SPOTLIGHT
 	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
 	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
 
@@ -332,8 +332,8 @@ gFieldEffectScript_UseTeleport::
 	field_eff_callnative FldEff_UseTeleport
 	field_eff_end
 
-gFieldEffectScript_RayquazaSpotlight::
-	field_eff_callnative FldEff_RayquazaSpotlight
+gFieldEffectScript_GeogreymonSpotlight::
+	field_eff_callnative FldEff_GeogreymonSpotlight
 	field_eff_end
 
 gFieldEffectScript_DestroyDeoxysRock::

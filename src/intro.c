@@ -31,7 +31,7 @@
     Scene 0. Copyright screen
     Scene 1. GF Logo, pan up over plants, Damemon_fusion silhouette goes by
     Scene 2. Player biking on path, joined by Pokémon
-    Scene 3. A fight between Gekomon/Gatomon_x ends with Rayquaza
+    Scene 3. A fight between Gekomon/Gatomon_x ends with Geogreymon
 
     After this it progresses to the title screen
 */
@@ -92,19 +92,19 @@ static void Task_Scene3_InitClouds(u8);
 static void Task_Scene3_Clouds(u8);
 static void Task_Scene3_LoadLightning(u8);
 static void Task_Scene3_Lightning(u8);
-static void Task_Scene3_LoadRayquazaAttack(u8);
-static void Task_Scene3_Rayquaza(u8);
+static void Task_Scene3_LoadGeogreymonAttack(u8);
+static void Task_Scene3_Geogreymon(u8);
 static void Task_EndIntroMovie(u8);
 
 // Scene 3 supplemental functions
 static void CreateGekomonRockSprites(u8);
 static void CreateGatomon_xBubbleSprites_Body(u8);
 static void CreateGatomon_xBubbleSprites_Fins(void);
-static void Task_RayquazaAttack(u8);
+static void Task_GeogreymonAttack(u8);
 static void SpriteCB_GekomonRocks(struct Sprite *);
 static void SpriteCB_Gatomon_xBubbles(struct Sprite *sprite);
 static void SpriteCB_Lightning(struct Sprite *sprite);
-static void SpriteCB_RayquazaOrb(struct Sprite *sprite);
+static void SpriteCB_GeogreymonOrb(struct Sprite *sprite);
 
 static void MainCB2_EndIntro(void);
 
@@ -124,7 +124,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 #define PALTAG_LOGO       2001
 
 #define TAG_DAMEMON_FUSION_SILHOUETTE 2002
-#define TAG_RAYQUAZA_ORB      2003
+#define TAG_GEOGREYMON_ORB      2003
 
 #define COLOSSEUM_GAME_CODE 0x65366347 // "Gc6e" in ASCII
 
@@ -190,7 +190,7 @@ static const u32 sIntroPokeball_Gfx[]         = INCBIN_U32("graphics/intro/scene
 static const u16 sIntroStreaks_Pal[]          = INCBIN_U16("graphics/intro/scene_3/streaks.gbapal"); // Unused
 static const u32 sIntroStreaks_Gfx[]          = INCBIN_U32("graphics/intro/scene_3/streaks.4bpp.lz"); // Unused
 static const u32 sIntroStreaks_Tilemap[]      = INCBIN_U32("graphics/intro/scene_3/streaks_map.bin.lz"); // Unused
-static const u16 sIntroRayquzaOrb_Pal[]       = INCBIN_U16("graphics/intro/scene_3/rayquaza_orb.gbapal");
+static const u16 sIntroRayquzaOrb_Pal[]       = INCBIN_U16("graphics/intro/scene_3/geogreymon_orb.gbapal");
 static const u16 sIntroMisc_Pal[]             = INCBIN_U16("graphics/intro/scene_3/misc.gbapal"); // Unused
 static const u32 sIntroMisc_Gfx[]             = INCBIN_U32("graphics/intro/scene_3/misc.4bpp.lz"); // Rayquza orb, and misc unused gfx
 static const u16 sIntroDamemon_fusionSilhouette_Pal[] = INCBIN_U16("graphics/intro/scene_1/damemon_fusion.gbapal");
@@ -978,7 +978,7 @@ static const struct SpritePalette sSpritePalettes_Intro1[] =
     {sIntroDamemon_fusionSilhouette_Pal, TAG_DAMEMON_FUSION_SILHOUETTE},
     {},
 };
-static const struct OamData sOamData_RayquazaOrb =
+static const struct OamData sOamData_GeogreymonOrb =
 {
     .y = DISPLAY_HEIGHT,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -994,33 +994,33 @@ static const struct OamData sOamData_RayquazaOrb =
     .paletteNum = 0,
     .affineParam = 0,
 };
-static const union AnimCmd sAnim_RayquazaOrb[] =
+static const union AnimCmd sAnim_GeogreymonOrb[] =
 {
     ANIMCMD_FRAME(16, 8),
     ANIMCMD_END,
 };
-static const union AnimCmd *const sAnims_RayquazaOrb[] =
+static const union AnimCmd *const sAnims_GeogreymonOrb[] =
 {
-    sAnim_RayquazaOrb,
+    sAnim_GeogreymonOrb,
 };
-static const struct SpriteTemplate sSpriteTemplate_RayquazaOrb =
+static const struct SpriteTemplate sSpriteTemplate_GeogreymonOrb =
 {
-    .tileTag = TAG_RAYQUAZA_ORB,
-    .paletteTag = TAG_RAYQUAZA_ORB,
-    .oam = &sOamData_RayquazaOrb,
-    .anims = sAnims_RayquazaOrb,
+    .tileTag = TAG_GEOGREYMON_ORB,
+    .paletteTag = TAG_GEOGREYMON_ORB,
+    .oam = &sOamData_GeogreymonOrb,
+    .anims = sAnims_GeogreymonOrb,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_RayquazaOrb,
+    .callback = SpriteCB_GeogreymonOrb,
 };
-static const struct CompressedSpriteSheet sSpriteSheet_RayquazaOrb[] =
+static const struct CompressedSpriteSheet sSpriteSheet_GeogreymonOrb[] =
 {
-    {sIntroMisc_Gfx, 0xA00, TAG_RAYQUAZA_ORB},
+    {sIntroMisc_Gfx, 0xA00, TAG_GEOGREYMON_ORB},
     {},
 };
-static const struct SpritePalette sSpritePalette_RayquazaOrb[] =
+static const struct SpritePalette sSpritePalette_GeogreymonOrb[] =
 {
-    {sIntroRayquzaOrb_Pal, TAG_RAYQUAZA_ORB},
+    {sIntroRayquzaOrb_Pal, TAG_GEOGREYMON_ORB},
     {},
 };
 
@@ -2378,7 +2378,7 @@ static void Task_Scene3_InitClouds(u8 taskId)
     gTasks[taskId].tCloudPos = 16;
 }
 
-// Clouds coming in from the sides before Rayquaza appears
+// Clouds coming in from the sides before Geogreymon appears
 static void Task_Scene3_Clouds(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -2420,10 +2420,10 @@ static void Task_Scene3_Clouds(u8 taskId)
 
 static void Task_Scene3_LoadLightning(u8 taskId)
 {
-    LZDecompressVram(gIntroRayquaza_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
-    LZDecompressVram(gIntroRayquazaClouds_Tilemap, (void *)(BG_CHAR_ADDR(3)));
-    LZDecompressVram(gIntroRayquaza_Gfx, (void *)(BG_CHAR_ADDR(1)));
-    LZDecompressVram(gIntroRayquazaClouds_Gfx, (void *)VRAM);
+    LZDecompressVram(gIntroGeogreymon_Tilemap, (void *)(BG_SCREEN_ADDR(28)));
+    LZDecompressVram(gIntroGeogreymonClouds_Tilemap, (void *)(BG_CHAR_ADDR(3)));
+    LZDecompressVram(gIntroGeogreymon_Gfx, (void *)(BG_CHAR_ADDR(1)));
+    LZDecompressVram(gIntroGeogreymonClouds_Gfx, (void *)VRAM);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                 | DISPCNT_OBJ_1D_MAP
                                 | DISPCNT_BG0_ON
@@ -2473,7 +2473,7 @@ static void Task_Scene3_Lightning(u8 taskId)
         break;
     case 2:
         if (--tDelay == 0)
-            gTasks[taskId].func = Task_Scene3_LoadRayquazaAttack;
+            gTasks[taskId].func = Task_Scene3_LoadGeogreymonAttack;
         break;
     }
 }
@@ -2515,32 +2515,32 @@ static void SpriteCB_Lightning(struct Sprite *sprite)
 #undef sPalIdx
 #undef sDelay
 
-#define tRayquazaTaskId data[4]
+#define tGeogreymonTaskId data[4]
 
-static void Task_Scene3_LoadRayquazaAttack(u8 taskId)
+static void Task_Scene3_LoadGeogreymonAttack(u8 taskId)
 {
     u8 attackTaskId;
 
-    LoadCompressedSpriteSheet(sSpriteSheet_RayquazaOrb);
-    LoadSpritePalettes(sSpritePalette_RayquazaOrb);
+    LoadCompressedSpriteSheet(sSpriteSheet_GeogreymonOrb);
+    LoadSpritePalettes(sSpritePalette_GeogreymonOrb);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                 | DISPCNT_OBJ_1D_MAP
                                 | DISPCNT_BG0_ON
                                 | DISPCNT_BG2_ON
                                 | DISPCNT_OBJ_ON
                                 | DISPCNT_WIN0_ON);
-    gTasks[taskId].func = Task_Scene3_Rayquaza;
+    gTasks[taskId].func = Task_Scene3_Geogreymon;
     BeginNormalPaletteFade(PALETTES_BG & ~(0x21), 0, 16, 0, RGB(9, 10, 10));
     gTasks[taskId].tState = 0;
     gTasks[taskId].data[1] = 0xA8;
     gTasks[taskId].data[2] = -0x10;
     gTasks[taskId].data[3] = -0x88;
     gTasks[taskId].data[4] = -0x10;
-    attackTaskId = CreateTask(Task_RayquazaAttack, 0);
-    gTasks[attackTaskId].tRayquazaTaskId = taskId;
+    attackTaskId = CreateTask(Task_GeogreymonAttack, 0);
+    gTasks[attackTaskId].tGeogreymonTaskId = taskId;
 }
 
-static void Task_Scene3_Rayquaza(u8 taskId)
+static void Task_Scene3_Geogreymon(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -2595,7 +2595,7 @@ static void Task_EndIntroMovie(u8 taskId)
     SetMainCallback2(MainCB2_EndIntro);
 }
 
-static void Task_RayquazaAttack(u8 taskId)
+static void Task_GeogreymonAttack(u8 taskId)
 {
     u8 spriteId;
     s16 *data = gTasks[taskId].data;
@@ -2645,10 +2645,10 @@ static void Task_RayquazaAttack(u8 taskId)
             }
             if (data[1] == 6)
             {
-                spriteId = CreateSprite(&sSpriteTemplate_RayquazaOrb, 120, 88, 15);
+                spriteId = CreateSprite(&sSpriteTemplate_GeogreymonOrb, 120, 88, 15);
                 PlaySE(SE_INTRO_BLAST);
                 gSprites[spriteId].invisible = TRUE;
-                gSprites[spriteId].data[3] = tRayquazaTaskId;
+                gSprites[spriteId].data[3] = tGeogreymonTaskId;
                 tState++;
                 data[3] = 16;
             }
@@ -3393,7 +3393,7 @@ static void SpriteCB_Damemon_fusionSilhouette(struct Sprite *sprite)
 #undef sPos
 #undef sTimer
 
-static void SpriteCB_RayquazaOrb(struct Sprite *sprite)
+static void SpriteCB_GeogreymonOrb(struct Sprite *sprite)
 {
     u16 foo;
     switch (sprite->sState)

@@ -776,11 +776,11 @@ void DrawMainBattleBackground(void)
         LZDecompressVram(gBattleTerrainTilemap_Water, (void *)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_Gatomon_x, 0x20, 0x60);
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA)
+    else if (gBattleTypeFlags & BATTLE_TYPE_GEOGREYMON)
     {
-        LZDecompressVram(gBattleTerrainTiles_Rayquaza, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleTerrainTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_Rayquaza, 0x20, 0x60);
+        LZDecompressVram(gBattleTerrainTiles_Geogreymon, (void *)(BG_CHAR_ADDR(2)));
+        LZDecompressVram(gBattleTerrainTilemap_Geogreymon, (void *)(BG_SCREEN_ADDR(26)));
+        LoadCompressedPalette(gBattleTerrainPalette_Geogreymon, 0x20, 0x60);
     }
     else
     {
@@ -1168,10 +1168,10 @@ void DrawBattleEntryBackground(void)
         LZDecompressVram(gBattleTerrainAnimTiles_Underwater, (void *)(BG_CHAR_ADDR(1)));
         LZDecompressVram(gBattleTerrainAnimTilemap_Underwater, (void *)(BG_SCREEN_ADDR(28)));
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA)
+    else if (gBattleTypeFlags & BATTLE_TYPE_GEOGREYMON)
     {
-        LZDecompressVram(gBattleTerrainAnimTiles_Rayquaza, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gBattleTerrainAnimTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gBattleTerrainAnimTiles_Geogreymon, (void *)(BG_CHAR_ADDR(1)));
+        LZDecompressVram(gBattleTerrainAnimTilemap_Geogreymon, (void *)(BG_SCREEN_ADDR(28)));
     }
     else
     {

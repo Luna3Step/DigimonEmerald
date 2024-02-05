@@ -796,7 +796,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GeogreymonStill = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -811,7 +811,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill = {
     .oam = &gObjectEventBaseOam_64x64,
     .subspriteTables = sOamTables_64x64,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_RayquazaStill,
+    .images = sPicTable_GeogreymonStill,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
@@ -3988,7 +3988,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GekomonAsleep = {
     .affineAnims = sAffineAnimTable_Gatomon_xGekomon,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Geogreymon = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4002,8 +4002,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_64x64,
     .subspriteTables = sOamTables_64x64,
-    .anims = sAnimTable_Rayquaza,
-    .images = sPicTable_Rayquaza,
+    .anims = sAnimTable_Geogreymon,
+    .images = sPicTable_Geogreymon,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

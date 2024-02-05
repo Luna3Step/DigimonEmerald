@@ -9,7 +9,7 @@ BATINTGFXDIR := graphics/battle_interface
 MASKSGFXDIR := graphics/battle_anims/masks
 BATTRANSGFXDIR := graphics/battle_transitions
 TYPESGFXDIR := graphics/types
-RAYQUAZAGFXDIR := graphics/rayquaza_scene
+GEOGREYMONGFXDIR := graphics/geogreymon_scene
 ROULETTEGFXDIR := graphics/roulette
 SLOTMACHINEGFXDIR := graphics/slot_machine
 PKNAVGFXDIR := graphics/pokenav
@@ -411,23 +411,23 @@ $(TYPESGFXDIR)/move_types.gbapal: $(TYPESGFXDIR)/move_types_1.gbapal \
 graphics/bag/menu.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 53 -Wnum_tiles
 
-$(RAYQUAZAGFXDIR)/scene_2/rayquaza.8bpp: %.8bpp: %.png
+$(GEOGREYMONGFXDIR)/scene_2/geogreymon.8bpp: %.8bpp: %.png
 	$(GFX) $< $@ -num_tiles 227 -Wnum_tiles
 
-$(RAYQUAZAGFXDIR)/scene_2/bg.4bpp: %.4bpp: %.png
+$(GEOGREYMONGFXDIR)/scene_2/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 313 -Wnum_tiles
 
-$(RAYQUAZAGFXDIR)/scene_3/rayquaza.4bpp: %.4bpp: %.png
+$(GEOGREYMONGFXDIR)/scene_3/geogreymon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 124 -Wnum_tiles
 
-$(RAYQUAZAGFXDIR)/scene_3/rayquaza_tail_fix.4bpp: $(RAYQUAZAGFXDIR)/scene_3/rayquaza_tail.4bpp
+$(GEOGREYMONGFXDIR)/scene_3/geogreymon_tail_fix.4bpp: $(GEOGREYMONGFXDIR)/scene_3/geogreymon_tail.4bpp
 	cp $< $@
 	head -c 12 /dev/zero >> $@
 
-$(RAYQUAZAGFXDIR)/scene_4/streaks.4bpp: %.4bpp: %.png
+$(GEOGREYMONGFXDIR)/scene_4/streaks.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 19 -Wnum_tiles
 
-$(RAYQUAZAGFXDIR)/scene_4/rayquaza.4bpp: %.4bpp: %.png
+$(GEOGREYMONGFXDIR)/scene_4/geogreymon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 155 -Wnum_tiles
 
 graphics/picture_frame/lobby.4bpp: %.4bpp: %.png
@@ -446,7 +446,7 @@ $(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/exveemon.4bpp \
 $(BATTRANSGFXDIR)/regis.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 53 -Wnum_tiles
 
-$(BATTRANSGFXDIR)/rayquaza.4bpp: %.4bpp: %.png
+$(BATTRANSGFXDIR)/geogreymon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 938 -Wnum_tiles
 
 $(BATTRANSGFXDIR)/frontier_square_1.4bpp: $(BATTRANSGFXDIR)/frontier_squares_blanktiles.4bpp \

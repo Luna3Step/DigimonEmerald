@@ -927,7 +927,7 @@ static const union AnimCmd sUnusedAnim_Garurumon_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Rayquaza_1[] =
+static const union AnimCmd sUnusedAnim_Geogreymon_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(1, 30),
@@ -936,7 +936,7 @@ static const union AnimCmd sUnusedAnim_Rayquaza_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sUnusedAnim_Rayquaza_2[] =
+static const union AnimCmd sUnusedAnim_Geogreymon_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -1345,7 +1345,7 @@ static const union AnimCmd *const sUnusedAnims_Gargoylmon[] = {sAnim_GeneralFram
 static const union AnimCmd *const sUnusedAnims_Garurumon[] = {sAnim_GeneralFrame0, sUnusedAnim_Garurumon_1, sUnusedAnim_Garurumon_2};
 static const union AnimCmd *const sUnusedAnims_Gatomon_x[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Gekomon[] = {sAnim_GeneralFrame0};
-static const union AnimCmd *const sUnusedAnims_Rayquaza[] = {sAnim_GeneralFrame0, sUnusedAnim_Rayquaza_1, sUnusedAnim_Rayquaza_2};
+static const union AnimCmd *const sUnusedAnims_Geogreymon[] = {sAnim_GeneralFrame0, sUnusedAnim_Geogreymon_1, sUnusedAnim_Geogreymon_2};
 static const union AnimCmd *const sUnusedAnims_Garurumon_x[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Gatomon[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_Jirachi[] = {sAnim_GeneralFrame0, sUnusedAnim_Jirachi_1};
@@ -1787,7 +1787,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_GARURUMON] = sUnusedAnims_Garurumon,
     [SPECIES_GATOMON_X] = sUnusedAnims_Gatomon_x,
     [SPECIES_GEKOMON] = sUnusedAnims_Gekomon,
-    [SPECIES_GEOGREYMON] = sUnusedAnims_Rayquaza,
+    [SPECIES_GEOGREYMON] = sUnusedAnims_Geogreymon,
     [SPECIES_GARURUMON_X] = sUnusedAnims_Garurumon_x,
     [SPECIES_GATOMON] = sUnusedAnims_Gatomon,
     [SPECIES_GEREMON] = sUnusedAnims_Jirachi,

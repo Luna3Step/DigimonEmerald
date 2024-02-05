@@ -892,88 +892,88 @@ static const union AnimCmd *const sAnimTable_GekomonSide[] = {
     [ANIM_STD_GO_FASTEST_EAST] = sAnim_GoFastestEast,
 };
 
-static const union AnimCmd sAnim_RayquazaCoiledAwake[] =
+static const union AnimCmd sAnim_GeogreymonCoiledAwake[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_RayquazaFlyUp[] =
+static const union AnimCmd sAnim_GeogreymonFlyUp[] =
 {
     ANIMCMD_FRAME(4, 1),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_RayquazaCoiledAsleep[] =
+static const union AnimCmd sAnim_GeogreymonCoiledAsleep[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_RayquazaCoiledMouthOpen[] =
+static const union AnimCmd sAnim_GeogreymonCoiledMouthOpen[] =
 {
     ANIMCMD_FRAME(2, 1),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd sAnim_RayquazaNormal[] =
+static const union AnimCmd sAnim_GeogreymonNormal[] =
 {
     ANIMCMD_FRAME(3, 1),
     ANIMCMD_JUMP(0),
 };
 
-// Identical to sAnim_RayquazaCoiledAsleep
-static const union AnimCmd sAnim_RayquazaFaceSouth[] =
+// Identical to sAnim_GeogreymonCoiledAsleep
+static const union AnimCmd sAnim_GeogreymonFaceSouth[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_JUMP(0),
 };
 
-// Identical to sAnim_RayquazaCoiledAsleep
-static const union AnimCmd sAnim_RayquazaFaceNorth[] =
+// Identical to sAnim_GeogreymonCoiledAsleep
+static const union AnimCmd sAnim_GeogreymonFaceNorth[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_JUMP(0),
 };
 
-// Identical to sAnim_RayquazaCoiledAsleep
-static const union AnimCmd sAnim_RayquazaFaceWest[] =
+// Identical to sAnim_GeogreymonCoiledAsleep
+static const union AnimCmd sAnim_GeogreymonFaceWest[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_JUMP(0),
 };
 
-// Identical to sAnim_RayquazaNormal
-static const union AnimCmd sAnim_RayquazaFaceEast[] =
+// Identical to sAnim_GeogreymonNormal
+static const union AnimCmd sAnim_GeogreymonFaceEast[] =
 {
     ANIMCMD_FRAME(3, 1),
     ANIMCMD_JUMP(0),
 };
 
-// Though they correspond to facing/walking movements, Rayquaza doesn't have
+// Though they correspond to facing/walking movements, Geogreymon doesn't have
 // equivalent images aside from flying up. Its other frames aside from the 'normal'
 // frame are for the sequence where it awakens on Sky Pillar.
-static const union AnimCmd *const sAnimTable_Rayquaza[] = {
-    [ANIM_STD_FACE_SOUTH] = sAnim_RayquazaFaceSouth,
-    [ANIM_STD_FACE_NORTH] = sAnim_RayquazaFaceNorth,
-    [ANIM_STD_FACE_WEST] = sAnim_RayquazaFaceWest,
-    [ANIM_STD_FACE_EAST] = sAnim_RayquazaFaceEast,
-    [ANIM_STD_GO_SOUTH] = sAnim_RayquazaCoiledAsleep,
-    [ANIM_STD_GO_NORTH] = sAnim_RayquazaFlyUp,
-    [ANIM_STD_GO_WEST] = sAnim_RayquazaCoiledMouthOpen,
-    [ANIM_STD_GO_EAST] = sAnim_RayquazaNormal,
-    [ANIM_STD_GO_FAST_SOUTH] = sAnim_RayquazaCoiledAsleep,
-    [ANIM_STD_GO_FAST_NORTH] = sAnim_RayquazaFlyUp,
-    [ANIM_STD_GO_FAST_WEST] = sAnim_RayquazaCoiledAwake,
-    [ANIM_STD_GO_FAST_EAST] = sAnim_RayquazaNormal,
-    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_RayquazaCoiledAsleep,
-    [ANIM_STD_GO_FASTER_NORTH] = sAnim_RayquazaFlyUp,
-    [ANIM_STD_GO_FASTER_WEST] = sAnim_RayquazaCoiledMouthOpen,
-    [ANIM_STD_GO_FASTER_EAST] = sAnim_RayquazaNormal,
-    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_RayquazaCoiledAsleep,
-    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_RayquazaFlyUp,
-    [ANIM_STD_GO_FASTEST_WEST] = sAnim_RayquazaCoiledMouthOpen,
-    [ANIM_STD_GO_FASTEST_EAST] = sAnim_RayquazaNormal,
+static const union AnimCmd *const sAnimTable_Geogreymon[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_GeogreymonFaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_GeogreymonFaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_GeogreymonFaceWest,
+    [ANIM_STD_FACE_EAST] = sAnim_GeogreymonFaceEast,
+    [ANIM_STD_GO_SOUTH] = sAnim_GeogreymonCoiledAsleep,
+    [ANIM_STD_GO_NORTH] = sAnim_GeogreymonFlyUp,
+    [ANIM_STD_GO_WEST] = sAnim_GeogreymonCoiledMouthOpen,
+    [ANIM_STD_GO_EAST] = sAnim_GeogreymonNormal,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_GeogreymonCoiledAsleep,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_GeogreymonFlyUp,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_GeogreymonCoiledAwake,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_GeogreymonNormal,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_GeogreymonCoiledAsleep,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_GeogreymonFlyUp,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_GeogreymonCoiledMouthOpen,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_GeogreymonNormal,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_GeogreymonCoiledAsleep,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_GeogreymonFlyUp,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_GeogreymonCoiledMouthOpen,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_GeogreymonNormal,
 };
 
 static const union AnimCmd *const sAnimTable_BrendanMayNormal[] = {

@@ -3075,10 +3075,10 @@ static void SurfFieldEffect_End(struct Task *task)
 #undef tDestY
 #undef tMonId
 
-u8 FldEff_RayquazaSpotlight(void)
+u8 FldEff_GeogreymonSpotlight(void)
 {
     u8 i, j, k;
-    u8 spriteId = CreateSprite(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_RAYQUAZA], 120, -24, 1);
+    u8 spriteId = CreateSprite(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_GEOGREYMON], 120, -24, 1);
     struct Sprite *sprite = &gSprites[spriteId];
 
     sprite->oam.priority = 1;

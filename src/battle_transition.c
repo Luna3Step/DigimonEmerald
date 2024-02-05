@@ -119,7 +119,7 @@ static void Task_Garurumon(u8);
 static void Task_Gargomon(u8);
 static void Task_Gatomon_x(u8);
 static void Task_Gekomon(u8);
-static void Task_Rayquaza(u8);
+static void Task_Geogreymon(u8);
 static void Task_ShredSplit(u8);
 static void Task_Blackhole(u8);
 static void Task_BlackholePulsate(u8);
@@ -148,7 +148,7 @@ static void VBlankCB_WhiteBarsFade(void);
 static void VBlankCB_WhiteBarsFade_Blend(void);
 static void HBlankCB_WhiteBarsFade(void);
 static void VBlankCB_AngledWipes(void);
-static void VBlankCB_Rayquaza(void);
+static void VBlankCB_Geogreymon(void);
 static bool8 Blur_Init(struct Task *);
 static bool8 Blur_Main(struct Task *);
 static bool8 Blur_End(struct Task *);
@@ -229,13 +229,13 @@ static bool8 FrontierLogoWave_Init(struct Task *);
 static bool8 FrontierLogoWave_SetGfx(struct Task *);
 static bool8 FrontierLogoWave_InitScanline(struct Task *);
 static bool8 FrontierLogoWave_Main(struct Task *);
-static bool8 Rayquaza_Init(struct Task *);
-static bool8 Rayquaza_SetGfx(struct Task *);
-static bool8 Rayquaza_PaletteFlash(struct Task *);
-static bool8 Rayquaza_FadeToBlack(struct Task *);
-static bool8 Rayquaza_WaitFade(struct Task *);
-static bool8 Rayquaza_SetBlack(struct Task *);
-static bool8 Rayquaza_TriRing(struct Task *);
+static bool8 Geogreymon_Init(struct Task *);
+static bool8 Geogreymon_SetGfx(struct Task *);
+static bool8 Geogreymon_PaletteFlash(struct Task *);
+static bool8 Geogreymon_FadeToBlack(struct Task *);
+static bool8 Geogreymon_WaitFade(struct Task *);
+static bool8 Geogreymon_SetBlack(struct Task *);
+static bool8 Geogreymon_TriRing(struct Task *);
 static bool8 FrontierSquares_Init(struct Task *);
 static bool8 FrontierSquares_Draw(struct Task *);
 static bool8 FrontierSquares_Shrink(struct Task *);
@@ -323,9 +323,9 @@ static const u16 sGatomon_x1_Palette[] = INCBIN_U16("graphics/battle_transitions
 static const u16 sGatomon_x2_Palette[] = INCBIN_U16("graphics/battle_transitions/gatomon_x_pt2.gbapal");
 static const u16 sGekomon1_Palette[] = INCBIN_U16("graphics/battle_transitions/gekomon_pt1.gbapal");
 static const u16 sGekomon2_Palette[] = INCBIN_U16("graphics/battle_transitions/gekomon_pt2.gbapal");
-static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
-static const u32 sRayquaza_Tileset[] = INCBIN_U32("graphics/battle_transitions/rayquaza.4bpp");
-static const u32 sRayquaza_Tilemap[] = INCBIN_U32("graphics/battle_transitions/rayquaza.bin");
+static const u16 sGeogreymon_Palette[] = INCBIN_U16("graphics/battle_transitions/geogreymon.gbapal");
+static const u32 sGeogreymon_Tileset[] = INCBIN_U32("graphics/battle_transitions/geogreymon.4bpp");
+static const u32 sGeogreymon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/geogreymon.bin");
 static const u16 sFrontierLogo_Palette[] = INCBIN_U16("graphics/battle_transitions/frontier_logo.gbapal");
 static const u32 sFrontierLogo_Tileset[] = INCBIN_U32("graphics/battle_transitions/frontier_logo.4bpp.lz");
 static const u32 sFrontierLogo_Tilemap[] = INCBIN_U32("graphics/battle_transitions/frontier_logo.bin.lz");
@@ -370,7 +370,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_GARGOMON] = Task_Gargomon,
     [B_TRANSITION_GATOMON_X] = Task_Gatomon_x,
     [B_TRANSITION_GEKOMON] = Task_Gekomon,
-    [B_TRANSITION_RAYQUAZA] = Task_Rayquaza,
+    [B_TRANSITION_GEOGREYMON] = Task_Geogreymon,
     [B_TRANSITION_SHRED_SPLIT] = Task_ShredSplit,
     [B_TRANSITION_BLACKHOLE] = Task_Blackhole,
     [B_TRANSITION_BLACKHOLE_PULSATE] = Task_BlackholePulsate,
@@ -712,17 +712,17 @@ static const TransitionStateFunc sGekomon_Funcs[] =
     WeatherDuo_End
 };
 
-static const TransitionStateFunc sRayquaza_Funcs[] =
+static const TransitionStateFunc sGeogreymon_Funcs[] =
 {
     WeatherTrio_BgFadeBlack,
     WeatherTrio_WaitFade,
-    Rayquaza_Init,
-    Rayquaza_SetGfx,
-    Rayquaza_PaletteFlash,
-    Rayquaza_FadeToBlack,
-    Rayquaza_WaitFade,
-    Rayquaza_SetBlack,
-    Rayquaza_TriRing,
+    Geogreymon_Init,
+    Geogreymon_SetGfx,
+    Geogreymon_PaletteFlash,
+    Geogreymon_FadeToBlack,
+    Geogreymon_WaitFade,
+    Geogreymon_SetBlack,
+    Geogreymon_TriRing,
     Blackhole_Vibrate,
     Blackhole_GrowEnd
 };
@@ -1322,7 +1322,7 @@ static void HBlankCB_Shuffle(void)
 //
 // With the exception of B_TRANSITION_GATOMON_X, all of the above transitions
 // use the same weave effect (see the PatternWeave functions).
-// Unclear why Gatomon_x's was grouped here and not with Gekomon/Rayquaza's.
+// Unclear why Gatomon_x's was grouped here and not with Gekomon/Geogreymon's.
 //------------------------------------------------------------------------
 
 #define tBlendTarget1 data[1]
@@ -3421,19 +3421,19 @@ static bool8 Gekomon_PaletteBrighten(struct Task *task)
 #undef tEndDelay
 
 //-----------------------
-// B_TRANSITION_RAYQUAZA
+// B_TRANSITION_GEOGREYMON
 //-----------------------
 
 #define tTimer     data[1]
 #define tGrowSpeed data[2] // Shared from B_TRANSITION_BLACKHOLE
 #define tFlag      data[7] // Shared from B_TRANSITION_BLACKHOLE
 
-static void Task_Rayquaza(u8 taskId)
+static void Task_Geogreymon(u8 taskId)
 {
-    while (sRayquaza_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sGeogreymon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static bool8 Rayquaza_Init(struct Task *task)
+static bool8 Geogreymon_Init(struct Task *task)
 {
     u16 *tilemap, *tileset;
     u16 i;
@@ -3444,11 +3444,11 @@ static bool8 Rayquaza_Init(struct Task *task)
     SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(26) | BGCNT_TXT256x512);
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, BG_SCREEN_SIZE);
-    CpuCopy16(sRayquaza_Tileset, tileset, 0x2000);
+    CpuCopy16(sGeogreymon_Tileset, tileset, 0x2000);
 
     sTransitionData->counter = 0;
     task->tState++;
-    LoadPalette(&sRayquaza_Palette[0x50], 0xF0, 0x20);
+    LoadPalette(&sGeogreymon_Palette[0x50], 0xF0, 0x20);
 
     for (i = 0; i < DISPLAY_HEIGHT; i++)
     {
@@ -3456,26 +3456,26 @@ static bool8 Rayquaza_Init(struct Task *task)
         gScanlineEffectRegBuffers[1][i] = 0x100;
     }
 
-    SetVBlankCallback(VBlankCB_Rayquaza);
+    SetVBlankCallback(VBlankCB_Geogreymon);
     return FALSE;
 }
 
-static bool8 Rayquaza_SetGfx(struct Task *task)
+static bool8 Geogreymon_SetGfx(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
-    CpuCopy16(sRayquaza_Tilemap, tilemap, sizeof(sRayquaza_Tilemap));
+    CpuCopy16(sGeogreymon_Tilemap, tilemap, sizeof(sGeogreymon_Tilemap));
     task->tState++;
     return FALSE;
 }
 
-static bool8 Rayquaza_PaletteFlash(struct Task *task)
+static bool8 Geogreymon_PaletteFlash(struct Task *task)
 {
     if ((task->tTimer % 4) == 0)
     {
         u16 value = task->tTimer / 4;
-        const u16 *palPtr = &sRayquaza_Palette[(value + 5) * 16];
+        const u16 *palPtr = &sGeogreymon_Palette[(value + 5) * 16];
         LoadPalette(palPtr, 0xF0, 0x20);
     }
     if (++task->tTimer > 40)
@@ -3487,7 +3487,7 @@ static bool8 Rayquaza_PaletteFlash(struct Task *task)
     return FALSE;
 }
 
-static bool8 Rayquaza_FadeToBlack(struct Task *task)
+static bool8 Geogreymon_FadeToBlack(struct Task *task)
 {
     if (++task->tTimer > 20)
     {
@@ -3499,7 +3499,7 @@ static bool8 Rayquaza_FadeToBlack(struct Task *task)
     return FALSE;
 }
 
-static bool8 Rayquaza_WaitFade(struct Task *task)
+static bool8 Geogreymon_WaitFade(struct Task *task)
 {
     if (!gPaletteFade.active)
     {
@@ -3509,7 +3509,7 @@ static bool8 Rayquaza_WaitFade(struct Task *task)
     return FALSE;
 }
 
-static bool8 Rayquaza_SetBlack(struct Task *task)
+static bool8 Geogreymon_SetBlack(struct Task *task)
 {
     BlendPalettes(PALETTES_BG & ~(1 << 15), 8, RGB_BLACK);
     BlendPalettes(PALETTES_OBJECTS | (1 << 15), 0, RGB_BLACK);
@@ -3518,12 +3518,12 @@ static bool8 Rayquaza_SetBlack(struct Task *task)
     return FALSE;
 }
 
-static bool8 Rayquaza_TriRing(struct Task *task)
+static bool8 Geogreymon_TriRing(struct Task *task)
 {
     if ((task->tTimer % 3) == 0)
     {
         u16 value = task->tTimer / 3;
-        const u16 *palPtr = &sRayquaza_Palette[(value + 0) * 16];
+        const u16 *palPtr = &sGeogreymon_Palette[(value + 0) * 16];
         LoadPalette(palPtr, 0xF0, 0x20);
     }
     if (++task->tTimer >= 40)
@@ -3548,7 +3548,7 @@ static bool8 Rayquaza_TriRing(struct Task *task)
     return FALSE;
 }
 
-static void VBlankCB_Rayquaza(void)
+static void VBlankCB_Geogreymon(void)
 {
     void *dmaSrc;
 

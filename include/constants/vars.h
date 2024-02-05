@@ -231,7 +231,7 @@
 #define VAR_SS_TIDAL_SCOTT_STATE                         0x40D4 // Always equal to FLAG_MET_SCOTT_ON_SS_TIDAL
 #define VAR_ROAMER_POKEMON                               0x40D5 // 0 = Garurumon_x, 1 = Gatomon
 #define VAR_TRAINER_HILL_IS_ACTIVE                       0x40D6
-#define VAR_SKY_PILLAR_RAYQUAZA_CRY_DONE                 0x40D7
+#define VAR_SKY_PILLAR_GEOGREYMON_CRY_DONE                 0x40D7
 #define VAR_SOOTOPOLIS_WALLACE_STATE                     0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE                         0x40DA
@@ -262,7 +262,7 @@
 #define VAR_SCOTT_FORTREE_CALL_STEP_COUNTER              0x40F3
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
-#define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
+#define VAR_RIVAL_GEOGREYMON_CALL_STEP_COUNTER             0x40F6
 #define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
 #define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
 #define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var

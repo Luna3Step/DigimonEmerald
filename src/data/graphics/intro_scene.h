@@ -31,14 +31,14 @@ const u32 gIntroCloudsSun_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/clouds_
 const u32 gIntroLightning_Gfx[] = INCBIN_U32("graphics/intro/scene_3/lightning.4bpp.lz");
 const u16 gIntroLightning_Pal[] = INCBIN_U16("graphics/intro/scene_3/lightning.gbapal");
 
-const u32 gIntroRayquaza_Gfx[] = INCBIN_U32("graphics/intro/scene_3/rayquaza.4bpp.lz");
-const u32 gIntroRayquaza_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/rayquaza.bin.lz");
+const u32 gIntroGeogreymon_Gfx[] = INCBIN_U32("graphics/intro/scene_3/geogreymon.4bpp.lz");
+const u32 gIntroGeogreymon_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/geogreymon.bin.lz");
 
 const u32 gIntroUnused1_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/unused_1.bin.lz");
 const u32 gIntroUnused2_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/unused_2.bin.lz");
 
-const u32 gIntroRayquazaClouds_Gfx[] = INCBIN_U32("graphics/intro/scene_3/rayquaza_clouds.4bpp.lz");
-const u32 gIntroRayquazaClouds_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/rayquaza_clouds.bin.lz");
+const u32 gIntroGeogreymonClouds_Gfx[] = INCBIN_U32("graphics/intro/scene_3/geogreymon_clouds.4bpp.lz");
+const u32 gIntroGeogreymonClouds_Tilemap[] = INCBIN_U32("graphics/intro/scene_3/geogreymon_clouds.bin.lz");
 
 const u32 gIntroBubbles_Gfx[] = INCBIN_U32("graphics/intro/scene_3/bubbles.4bpp.lz");
 const u16 gIntroBubbles_Pal[] = INCBIN_U16("graphics/intro/scene_3/bubbles.gbapal");

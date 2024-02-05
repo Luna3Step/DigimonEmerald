@@ -2306,7 +2306,7 @@ MatchCall_Text_Wallace::
 	.string "But what is a rare stone exactly?\n"
 	.string "All I can think of is a METEORITE…$"
 
-MatchCall_Text_MayRayquazaCall:
+MatchCall_Text_MayGeogreymonCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
@@ -2321,7 +2321,7 @@ MatchCall_Text_MayRayquazaCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
-MatchCall_Text_BrendanRayquazaCall:
+MatchCall_Text_BrendanGeogreymonCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "BRENDAN: Hey, {PLAYER}!\n"

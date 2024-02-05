@@ -1,5 +1,5 @@
 #include "global.h"
-#include "rayquaza_scene.h"
+#include "geogreymon_scene.h"
 #include "sprite.h"
 #include "task.h"
 #include "graphics.h"
@@ -18,17 +18,17 @@
 #include "random.h"
 
 /*
-    This file handles the cutscene showing Rayquaza arriving to settle the Gekomon/Gatomon_x fight
+    This file handles the cutscene showing Geogreymon arriving to settle the Gekomon/Gatomon_x fight
     It consists of 5 separate scenes:
     - Gekomon and Gatomon_x facing one another in a thunderstorm             (RAY_ANIM_DUO_FIGHT)
-    - Over-the-shoulder of Rayquaza flying                                (RAY_ANIM_TAKES_FLIGHT)
-    - Rayquaza emerging from a spotlight down through the clouds          (RAY_ANIM_DESCENDS)
-    - A close-up of Rayquaza flying down                                  (RAY_ANIM_CHARGES)
-    - Rayquaza floating above Gekomon/Gatomon_x as they back away offscreen  (RAY_ANIM_CHASES_AWAY)
+    - Over-the-shoulder of Geogreymon flying                                (RAY_ANIM_TAKES_FLIGHT)
+    - Geogreymon emerging from a spotlight down through the clouds          (RAY_ANIM_DESCENDS)
+    - A close-up of Geogreymon flying down                                  (RAY_ANIM_CHARGES)
+    - Geogreymon floating above Gekomon/Gatomon_x as they back away offscreen  (RAY_ANIM_CHASES_AWAY)
 
     A shortened version of the first scene is used when the player first arrives
-    in Sootopolis during the Gekomon/Gatomon_x conflict, before awakening Rayquaza (RAY_ANIM_DUO_FIGHT_PRE)
-    This is indicated with the first two arguments to DoRayquazaScene
+    in Sootopolis during the Gekomon/Gatomon_x conflict, before awakening Geogreymon (RAY_ANIM_DUO_FIGHT_PRE)
+    This is indicated with the first two arguments to DoGeogreymonScene
 */
 
 enum
@@ -49,18 +49,18 @@ enum
 #define TAG_DUOFIGHT_GATOMON_X_PECTORAL_FIN 30509
 #define TAG_DUOFIGHT_GATOMON_X_DORSAL_FIN   30510
 #define TAG_FLIGHT_SMOKE                 30555
-#define TAG_DESCENDS_RAYQUAZA            30556
-#define TAG_DESCENDS_RAYQUAZA_TAIL       30557
+#define TAG_DESCENDS_GEOGREYMON            30556
+#define TAG_DESCENDS_GEOGREYMON_TAIL       30557
 #define TAG_CHASE_GEKOMON                30565
 #define TAG_CHASE_GEKOMON_TAIL           30566
 #define TAG_CHASE_GATOMON_X                 30568
-#define TAG_CHASE_RAYQUAZA               30569
-#define TAG_CHASE_RAYQUAZA_TAIL          30570
+#define TAG_CHASE_GEOGREYMON               30569
+#define TAG_CHASE_GEOGREYMON_TAIL          30570
 #define TAG_CHASE_SPLASH                 30571
 
 #define MAX_SMOKE 10
 
-struct RayquazaScene
+struct GeogreymonScene
 {
     MainCallback exitCallback;
     u8 tilemapBuffers[4][BG_SCREEN_SIZE];
@@ -72,10 +72,10 @@ struct RayquazaScene
     u8 unused[12];
 };
 
-static EWRAM_DATA struct RayquazaScene *sRayScene = NULL;
+static EWRAM_DATA struct GeogreymonScene *sRayScene = NULL;
 
-static void CB2_InitRayquazaScene(void);
-static void CB2_RayquazaScene(void);
+static void CB2_InitGeogreymonScene(void);
+static void CB2_GeogreymonScene(void);
 static void Task_EndAfterFadeScreen(u8);
 
 // RAY_ANIM_DUO_FIGHT_PRE / RAY_ANIM_DUO_FIGHT
@@ -111,14 +111,14 @@ static void SpriteCB_TakesFlight_Smoke(struct Sprite *);
 static void Task_RayDescendsAnim(u8);
 static void Task_HandleRayDescends(u8);
 static void Task_RayDescendsEnd(u8);
-static u8 CreateDescendsRayquazaSprite(void);
-static void SpriteCB_Descends_Rayquaza(struct Sprite *);
+static u8 CreateDescendsGeogreymonSprite(void);
+static void SpriteCB_Descends_Geogreymon(struct Sprite *);
 
 // RAY_ANIM_CHARGES
 static void Task_RayChargesAnim(u8);
 static void Task_HandleRayCharges(u8);
 static void Task_RayChargesEnd(u8);
-static void Task_RayCharges_ShakeRayquaza(u8);
+static void Task_RayCharges_ShakeGeogreymon(u8);
 static void Task_RayCharges_FlyOffscreen(u8);
 static void RayCharges_AnimateBg(void);
 
@@ -133,10 +133,10 @@ static void ChasesAway_CreateTrioSprites(u8);
 static void Task_ChasesAway_AnimateRing(u8);
 static void SpriteCB_ChasesAway_GekomonLeave(struct Sprite *);
 static void SpriteCB_ChasesAway_Gatomon_xLeave(struct Sprite *);
-static void SpriteCB_ChasesAway_RayquazaFloat(struct Sprite *);
-static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *);
+static void SpriteCB_ChasesAway_GeogreymonFloat(struct Sprite *);
+static void SpriteCB_ChasesAway_Geogreymon(struct Sprite *);
 static void SpriteCB_ChasesAway_DuoRingPush(struct Sprite *);
-static void ChasesAway_SetRayquazaAnim(struct Sprite *, u8, s16, s16);
+static void ChasesAway_SetGeogreymonAnim(struct Sprite *, u8, s16, s16);
 
 static const TaskFunc sTasksForAnimations[] =
 {
@@ -898,62 +898,62 @@ static const struct BgTemplate sBgTemplates_Descends[] =
     }
 };
 
-static const union AnimCmd sAnim_Descends_Rayquaza[] =
+static const union AnimCmd sAnim_Descends_Geogreymon[] =
 {
     ANIMCMD_FRAME(0, 32),
     ANIMCMD_FRAME(64, 32),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd *const sAnims_Descends_Rayquaza[] =
+static const union AnimCmd *const sAnims_Descends_Geogreymon[] =
 {
-    sAnim_Descends_Rayquaza
+    sAnim_Descends_Geogreymon
 };
 
-static const union AnimCmd sAnim_Descends_RayquazaTail[] =
+static const union AnimCmd sAnim_Descends_GeogreymonTail[] =
 {
     ANIMCMD_FRAME(0, 32),
     ANIMCMD_FRAME(8, 32),
     ANIMCMD_JUMP(0),
 };
 
-static const union AnimCmd *const sAnims_Descends_RayquazaTail[] =
+static const union AnimCmd *const sAnims_Descends_GeogreymonTail[] =
 {
-    sAnim_Descends_RayquazaTail
+    sAnim_Descends_GeogreymonTail
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_Descends_Rayquaza =
+static const struct CompressedSpriteSheet sSpriteSheet_Descends_Geogreymon =
 {
-    gRaySceneDescends_Rayquaza_Gfx, 0x1000, TAG_DESCENDS_RAYQUAZA
+    gRaySceneDescends_Geogreymon_Gfx, 0x1000, TAG_DESCENDS_GEOGREYMON
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_Descends_RayquazaTail =
+static const struct CompressedSpriteSheet sSpriteSheet_Descends_GeogreymonTail =
 {
-    gRaySceneDescends_RayquazaTail_Gfx, 0x200, TAG_DESCENDS_RAYQUAZA_TAIL
+    gRaySceneDescends_GeogreymonTail_Gfx, 0x200, TAG_DESCENDS_GEOGREYMON_TAIL
 };
 
-static const struct CompressedSpritePalette sSpritePal_Descends_Rayquaza =
+static const struct CompressedSpritePalette sSpritePal_Descends_Geogreymon =
 {
-    gRaySceneTakesFlight_Rayquaza_Pal, TAG_DESCENDS_RAYQUAZA // "Takes flight" palette re-used here
+    gRaySceneTakesFlight_Geogreymon_Pal, TAG_DESCENDS_GEOGREYMON // "Takes flight" palette re-used here
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Descends_Rayquaza =
+static const struct SpriteTemplate sSpriteTemplate_Descends_Geogreymon =
 {
-    .tileTag = TAG_DESCENDS_RAYQUAZA,
-    .paletteTag = TAG_DESCENDS_RAYQUAZA,
+    .tileTag = TAG_DESCENDS_GEOGREYMON,
+    .paletteTag = TAG_DESCENDS_GEOGREYMON,
     .oam = &sOam_64x64,
-    .anims = sAnims_Descends_Rayquaza,
+    .anims = sAnims_Descends_Geogreymon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Descends_RayquazaTail =
+static const struct SpriteTemplate sSpriteTemplate_Descends_GeogreymonTail =
 {
-    .tileTag = TAG_DESCENDS_RAYQUAZA_TAIL,
-    .paletteTag = TAG_DESCENDS_RAYQUAZA,
+    .tileTag = TAG_DESCENDS_GEOGREYMON_TAIL,
+    .paletteTag = TAG_DESCENDS_GEOGREYMON,
     .oam = &sOam_16x32,
-    .anims = sAnims_Descends_RayquazaTail,
+    .anims = sAnims_Descends_GeogreymonTail,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -1056,68 +1056,68 @@ static const union AnimCmd *const sAnims_ChasesAway_Gatomon_x[] =
     sAnim_ChasesAway_Gatomon_x_Tail
 };
 
-static const union AnimCmd sAnim_ChasesAway_Rayquaza_FlyingDown[] =
+static const union AnimCmd sAnim_ChasesAway_Geogreymon_FlyingDown[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_Rayquaza_Arriving[] =
+static const union AnimCmd sAnim_ChasesAway_Geogreymon_Arriving[] =
 {
     ANIMCMD_FRAME(64, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_Rayquaza_Floating[] =
+static const union AnimCmd sAnim_ChasesAway_Geogreymon_Floating[] =
 {
     ANIMCMD_FRAME(128, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_Rayquaza_Shouting[] =
+static const union AnimCmd sAnim_ChasesAway_Geogreymon_Shouting[] =
 {
     ANIMCMD_FRAME(192, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_ChasesAway_Rayquaza[] =
+static const union AnimCmd *const sAnims_ChasesAway_Geogreymon[] =
 {
-    sAnim_ChasesAway_Rayquaza_FlyingDown,
-    sAnim_ChasesAway_Rayquaza_Arriving,
-    sAnim_ChasesAway_Rayquaza_Floating,
-    sAnim_ChasesAway_Rayquaza_Shouting
+    sAnim_ChasesAway_Geogreymon_FlyingDown,
+    sAnim_ChasesAway_Geogreymon_Arriving,
+    sAnim_ChasesAway_Geogreymon_Floating,
+    sAnim_ChasesAway_Geogreymon_Shouting
 };
 
-static const union AnimCmd sAnim_ChasesAway_RayquazaTail_FlyingDown[] =
+static const union AnimCmd sAnim_ChasesAway_GeogreymonTail_FlyingDown[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_RayquazaTail_Arriving[] =
+static const union AnimCmd sAnim_ChasesAway_GeogreymonTail_Arriving[] =
 {
     ANIMCMD_FRAME(16, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_RayquazaTail_Floating[] =
+static const union AnimCmd sAnim_ChasesAway_GeogreymonTail_Floating[] =
 {
     ANIMCMD_FRAME(32, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd sAnim_ChasesAway_RayquazaTail_Shouting[] =
+static const union AnimCmd sAnim_ChasesAway_GeogreymonTail_Shouting[] =
 {
     ANIMCMD_FRAME(48, 1),
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_ChasesAway_RayquazaTail[] =
+static const union AnimCmd *const sAnims_ChasesAway_GeogreymonTail[] =
 {
-    sAnim_ChasesAway_RayquazaTail_FlyingDown,
-    sAnim_ChasesAway_RayquazaTail_Arriving,
-    sAnim_ChasesAway_RayquazaTail_Floating,
-    sAnim_ChasesAway_RayquazaTail_Shouting
+    sAnim_ChasesAway_GeogreymonTail_FlyingDown,
+    sAnim_ChasesAway_GeogreymonTail_Arriving,
+    sAnim_ChasesAway_GeogreymonTail_Floating,
+    sAnim_ChasesAway_GeogreymonTail_Shouting
 };
 
 static const union AnimCmd sAnim_ChasesAway_Gatomon_xSplash[] =
@@ -1151,14 +1151,14 @@ static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Gatomon_x =
     gRaySceneChasesAway_Gatomon_x_Gfx, 0x600, TAG_CHASE_GATOMON_X
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Rayquaza =
+static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Geogreymon =
 {
-    gRaySceneChasesAway_Rayquaza_Gfx, 0x2000, TAG_CHASE_RAYQUAZA
+    gRaySceneChasesAway_Geogreymon_Gfx, 0x2000, TAG_CHASE_GEOGREYMON
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_RayquazaTail =
+static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_GeogreymonTail =
 {
-    gRaySceneChasesAway_RayquazaTail_Gfx, 0x800, TAG_CHASE_RAYQUAZA_TAIL
+    gRaySceneChasesAway_GeogreymonTail_Gfx, 0x800, TAG_CHASE_GEOGREYMON_TAIL
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_ChasesAway_Gatomon_xSplash =
@@ -1176,9 +1176,9 @@ static const struct CompressedSpritePalette sSpritePal_ChasesAway_Gatomon_x =
     gRaySceneChasesAway_Gatomon_x_Pal, TAG_CHASE_GATOMON_X
 };
 
-static const struct CompressedSpritePalette sSpritePal_ChasesAway_Rayquaza =
+static const struct CompressedSpritePalette sSpritePal_ChasesAway_Geogreymon =
 {
-    gRaySceneChasesAway_Rayquaza_Pal, TAG_CHASE_RAYQUAZA
+    gRaySceneChasesAway_Geogreymon_Pal, TAG_CHASE_GEOGREYMON
 };
 
 static const struct CompressedSpritePalette sSpritePal_ChasesAway_Gatomon_xSplash =
@@ -1219,23 +1219,23 @@ static const struct SpriteTemplate sSpriteTemplate_ChasesAway_Gatomon_x =
     .callback = SpriteCallbackDummy,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ChasesAway_Rayquaza =
+static const struct SpriteTemplate sSpriteTemplate_ChasesAway_Geogreymon =
 {
-    .tileTag = TAG_CHASE_RAYQUAZA,
-    .paletteTag = TAG_CHASE_RAYQUAZA,
+    .tileTag = TAG_CHASE_GEOGREYMON,
+    .paletteTag = TAG_CHASE_GEOGREYMON,
     .oam = &sOam_64x64,
-    .anims = sAnims_ChasesAway_Rayquaza,
+    .anims = sAnims_ChasesAway_Geogreymon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_ChasesAway_Rayquaza,
+    .callback = SpriteCB_ChasesAway_Geogreymon,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ChasesAway_RayquazaTail =
+static const struct SpriteTemplate sSpriteTemplate_ChasesAway_GeogreymonTail =
 {
-    .tileTag = TAG_CHASE_RAYQUAZA_TAIL,
-    .paletteTag = TAG_CHASE_RAYQUAZA,
+    .tileTag = TAG_CHASE_GEOGREYMON_TAIL,
+    .paletteTag = TAG_CHASE_GEOGREYMON,
     .oam = &sOam_32x32,
-    .anims = sAnims_ChasesAway_RayquazaTail,
+    .anims = sAnims_ChasesAway_GeogreymonTail,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
@@ -1283,16 +1283,16 @@ static const struct BgTemplate sBgTemplates_ChasesAway[] =
     }
 };
 
-void DoRayquazaScene(u8 animId, bool8 endEarly, void (*exitCallback)(void))
+void DoGeogreymonScene(u8 animId, bool8 endEarly, void (*exitCallback)(void))
 {
     sRayScene = AllocZeroed(sizeof(*sRayScene));
     sRayScene->animId = animId;
     sRayScene->exitCallback = exitCallback;
     sRayScene->endEarly = endEarly;
-    SetMainCallback2(CB2_InitRayquazaScene);
+    SetMainCallback2(CB2_InitGeogreymonScene);
 }
 
-static void CB2_InitRayquazaScene(void)
+static void CB2_InitGeogreymonScene(void)
 {
     SetVBlankHBlankCallbacksToNull();
     ClearScheduledBgCopiesToVram();
@@ -1303,10 +1303,10 @@ static void CB2_InitRayquazaScene(void)
     ResetTasks();
     FillPalette(RGB_BLACK, 0xF0, 32);
     CreateTask(sTasksForAnimations[sRayScene->animId], 0);
-    SetMainCallback2(CB2_RayquazaScene);
+    SetMainCallback2(CB2_GeogreymonScene);
 }
 
-static void CB2_RayquazaScene(void)
+static void CB2_GeogreymonScene(void)
 {
     RunTasks();
     AnimateSprites();
@@ -1315,7 +1315,7 @@ static void CB2_RayquazaScene(void)
     UpdatePaletteFade();
 }
 
-static void VBlankCB_RayquazaScene(void)
+static void VBlankCB_GeogreymonScene(void)
 {
     LoadOam();
     ProcessSpriteCopyRequests();
@@ -1560,7 +1560,7 @@ static void SpriteCB_DuoFightPre_Gatomon_x(struct Sprite *sprite)
 
 static void VBlankCB_DuoFight(void)
 {
-    VBlankCB_RayquazaScene();
+    VBlankCB_GeogreymonScene();
     ScanlineEffect_InitHBlankDmaTransfer();
 }
 
@@ -2026,13 +2026,13 @@ static void LoadTakesFlightSceneGfx(void)
     ResetTempTileDataBuffers();
     DecompressAndCopyTileDataToVram(0, gRaySceneDuoFight_Clouds_Gfx, 0, 0, 0); // Re-uses clouds from previous scene
     DecompressAndCopyTileDataToVram(1, gRaySceneTakesFlight_Bg_Gfx, 0, 0, 0);
-    DecompressAndCopyTileDataToVram(2, gRaySceneTakesFlight_Rayquaza_Gfx, 0, 0, 0);
+    DecompressAndCopyTileDataToVram(2, gRaySceneTakesFlight_Geogreymon_Gfx, 0, 0, 0);
     while (FreeTempTileDataBuffersIfPossible())
         ;
     LZDecompressWram(gRaySceneDuoFight_Clouds2_Tilemap, sRayScene->tilemapBuffers[0]);
     LZDecompressWram(gRaySceneTakesFlight_Bg_Tilemap, sRayScene->tilemapBuffers[1]);
-    LZDecompressWram(gRaySceneTakesFlight_Rayquaza_Tilemap, sRayScene->tilemapBuffers[2]);
-    LoadCompressedPalette(gRaySceneTakesFlight_Rayquaza_Pal, 0, 64);
+    LZDecompressWram(gRaySceneTakesFlight_Geogreymon_Tilemap, sRayScene->tilemapBuffers[2]);
+    LoadCompressedPalette(gRaySceneTakesFlight_Geogreymon_Pal, 0, 64);
     LoadCompressedSpriteSheet(&sSpriteSheet_TakesFlight_Smoke);
     LoadCompressedSpritePalette(&sSpritePal_TakesFlight_Smoke);
 }
@@ -2046,15 +2046,15 @@ static void Task_RayTakesFlightAnim(u8 taskId)
     SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_OBJ | BLDCNT_TGT2_BG1 | BLDCNT_EFFECT_BLEND);
     SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(8, 8));
     BlendPalettes(PALETTES_ALL, 16, 0);
-    SetVBlankCallback(VBlankCB_RayquazaScene);
+    SetVBlankCallback(VBlankCB_GeogreymonScene);
     CreateTask(Task_TakesFlight_CreateSmoke, 0);
     tState = 0;
     tTimer = 0;
     gTasks[taskId].func = Task_HandleRayTakesFlight;
 }
 
-// Animate Rayquaza (flying up and down, and changing size as it gets further from the screen)
-// In this scene Rayquaza is a bg tilemap on bg 2, not a sprite
+// Animate Geogreymon (flying up and down, and changing size as it gets further from the screen)
+// In this scene Geogreymon is a bg tilemap on bg 2, not a sprite
 static void Task_HandleRayTakesFlight(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -2241,9 +2241,9 @@ static void LoadDescendsSceneGfx(void)
     LoadCompressedPalette(gRaySceneDescends_Bg_Pal, 0, 0x40);
     gPlttBufferUnfaded[0] = RGB_WHITE;
     gPlttBufferFaded[0] = RGB_WHITE;
-    LoadCompressedSpriteSheet(&sSpriteSheet_Descends_Rayquaza);
-    LoadCompressedSpriteSheet(&sSpriteSheet_Descends_RayquazaTail);
-    LoadCompressedSpritePalette(&sSpritePal_Descends_Rayquaza);
+    LoadCompressedSpriteSheet(&sSpriteSheet_Descends_Geogreymon);
+    LoadCompressedSpriteSheet(&sSpriteSheet_Descends_GeogreymonTail);
+    LoadCompressedSpritePalette(&sSpritePal_Descends_Geogreymon);
 }
 
 // Draw ray of light emerging from the clouds
@@ -2285,7 +2285,7 @@ static void Task_RayDescendsAnim(u8 taskId)
     SetGpuRegBits(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG0 | BLDCNT_TGT2_BG1 | BLDCNT_TGT2_BG2 | BLDCNT_TGT2_BG3 | BLDCNT_TGT2_OBJ | BLDCNT_EFFECT_BLEND);
     SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, 16));
     BlendPalettes(PALETTES_ALL, 0x10, RGB_BLACK);
-    SetVBlankCallback(VBlankCB_RayquazaScene);
+    SetVBlankCallback(VBlankCB_GeogreymonScene);
     sRayScene->revealedLightLine = 0;
     sRayScene->revealedLightTimer = 0;
     tState = 0;
@@ -2332,12 +2332,12 @@ static void Task_HandleRayDescends(u8 taskId)
         }
         break;
     case 2:
-        // Delay, then start Rayquaza emerging from clouds
+        // Delay, then start Geogreymon emerging from clouds
         if (tTimer == 80)
         {
             tTimer = 0;
             tState++;
-            CreateDescendsRayquazaSprite();
+            CreateDescendsGeogreymonSprite();
         }
         else
         {
@@ -2345,7 +2345,7 @@ static void Task_HandleRayDescends(u8 taskId)
         }
         break;
     case 3:
-        // Wait while Rayquaza descends
+        // Wait while Geogreymon descends
         if (++tTimer == 368)
         {
             tTimer = 0;
@@ -2377,23 +2377,23 @@ static void Task_RayDescendsEnd(u8 taskId)
 #define sXMovePeriod  data[3]
 #define sYMovePeriod  data[4]
 
-static u8 CreateDescendsRayquazaSprite(void)
+static u8 CreateDescendsGeogreymonSprite(void)
 {
-    u8 spriteId = CreateSprite(&sSpriteTemplate_Descends_Rayquaza, 160, 0, 0);
+    u8 spriteId = CreateSprite(&sSpriteTemplate_Descends_Geogreymon, 160, 0, 0);
     s16 *data = gSprites[spriteId].data;
-    sTailSpriteId = CreateSprite(&sSpriteTemplate_Descends_RayquazaTail, 184, -48, 0);
-    gSprites[spriteId].callback = SpriteCB_Descends_Rayquaza;
+    sTailSpriteId = CreateSprite(&sSpriteTemplate_Descends_GeogreymonTail, 184, -48, 0);
+    gSprites[spriteId].callback = SpriteCB_Descends_Geogreymon;
     gSprites[spriteId].oam.priority = 3;
     gSprites[sTailSpriteId].oam.priority = 3;
     return spriteId;
 }
 
-static void SpriteCB_Descends_Rayquaza(struct Sprite *sprite)
+static void SpriteCB_Descends_Geogreymon(struct Sprite *sprite)
 {
     s16 *data = sprite->data;
     s16 frame = sTimer;
 
-    // Updates to Rayquaza's coords occur more frequently
+    // Updates to Geogreymon's coords occur more frequently
     // as time goes on (it accelerates as it emerges)
     if (frame == 0)
     {
@@ -2478,13 +2478,13 @@ static void InitChargesSceneBgs(void)
 static void LoadChargesSceneGfx(void)
 {
     ResetTempTileDataBuffers();
-    DecompressAndCopyTileDataToVram(1, gRaySceneCharges_Rayquaza_Gfx, 0, 0, 0);
+    DecompressAndCopyTileDataToVram(1, gRaySceneCharges_Geogreymon_Gfx, 0, 0, 0);
     DecompressAndCopyTileDataToVram(2, gRaySceneCharges_Streaks_Gfx, 0, 0, 0);
     DecompressAndCopyTileDataToVram(3, gRaySceneCharges_Bg_Gfx, 0, 0, 0);
     while (FreeTempTileDataBuffersIfPossible())
         ;
     LZDecompressWram(gRaySceneCharges_Orbs_Tilemap, sRayScene->tilemapBuffers[0]);
-    LZDecompressWram(gRaySceneCharges_Rayquaza_Tilemap, sRayScene->tilemapBuffers[1]);
+    LZDecompressWram(gRaySceneCharges_Geogreymon_Tilemap, sRayScene->tilemapBuffers[1]);
     LZDecompressWram(gRaySceneCharges_Streaks_Tilemap, sRayScene->tilemapBuffers[2]);
     LZDecompressWram(gRaySceneCharges_Bg_Tilemap, sRayScene->tilemapBuffers[3]);
     LoadCompressedPalette(gRaySceneCharges_Bg_Pal, 0, 0x80);
@@ -2492,7 +2492,7 @@ static void LoadChargesSceneGfx(void)
 
 #define tState          data[0]
 #define tTimer          data[1]
-#define tRayquazaTaskId data[2]
+#define tGeogreymonTaskId data[2]
 #define tSoundTimer     data[3]
 
 static void Task_RayChargesAnim(u8 taskId)
@@ -2502,10 +2502,10 @@ static void Task_RayChargesAnim(u8 taskId)
     LoadChargesSceneGfx();
     SetWindowsHideVertBorders();
     BlendPalettes(PALETTES_ALL, 0x10, RGB_BLACK);
-    SetVBlankCallback(VBlankCB_RayquazaScene);
+    SetVBlankCallback(VBlankCB_GeogreymonScene);
     tState = 0;
     tTimer = 0;
-    tRayquazaTaskId = CreateTask(Task_RayCharges_ShakeRayquaza, 0);
+    tGeogreymonTaskId = CreateTask(Task_RayCharges_ShakeGeogreymon, 0);
     gTasks[taskId].func = Task_HandleRayCharges;
 }
 
@@ -2533,12 +2533,12 @@ static void Task_HandleRayCharges(u8 taskId)
         }
         break;
     case 1:
-        // Delay while Rayquaza shakes, then start Rayquaza moving offscreen
+        // Delay while Geogreymon shakes, then start Geogreymon moving offscreen
         if (tTimer == 127)
         {
             tTimer = 0;
             tState++;
-            gTasks[tRayquazaTaskId].func = Task_RayCharges_FlyOffscreen;
+            gTasks[tGeogreymonTaskId].func = Task_RayCharges_FlyOffscreen;
         }
         else
         {
@@ -2546,7 +2546,7 @@ static void Task_HandleRayCharges(u8 taskId)
         }
         break;
     case 2:
-        // Delay for Rayquaza's flying animation
+        // Delay for Geogreymon's flying animation
         if (tTimer == 12)
         {
             tTimer = 0;
@@ -2574,7 +2574,7 @@ static void Task_HandleRayCharges(u8 taskId)
 #define tShakeDir data[2]
 #define tTimer    data[15]
 
-static void Task_RayCharges_ShakeRayquaza(u8 taskId)
+static void Task_RayCharges_ShakeGeogreymon(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     if ((tTimer & 3) == 0)
@@ -2586,7 +2586,7 @@ static void Task_RayCharges_ShakeRayquaza(u8 taskId)
     tTimer++;
 }
 
-// Rayquaza backs up then launches forward
+// Geogreymon backs up then launches forward
 static void Task_RayCharges_FlyOffscreen(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -2632,12 +2632,12 @@ static void Task_RayChargesEnd(u8 taskId)
     {
         SetVBlankCallback(NULL);
         ResetWindowDimensions();
-        DestroyTask(tRayquazaTaskId);
+        DestroyTask(tGeogreymonTaskId);
         gTasks[taskId].func = Task_SetNextAnim;
     }
 }
 
-#undef tRayquazaTaskId
+#undef tGeogreymonTaskId
 
 
 // RAY_ANIM_CHASES_AWAY
@@ -2675,12 +2675,12 @@ static void LoadChasesAwaySceneGfx(void)
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gekomon);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_GekomonTail);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gatomon_x);
-    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Rayquaza);
-    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_RayquazaTail);
+    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Geogreymon);
+    LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_GeogreymonTail);
     LoadCompressedSpriteSheet(&sSpriteSheet_ChasesAway_Gatomon_xSplash);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gekomon);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gatomon_x);
-    LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Rayquaza);
+    LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Geogreymon);
     LoadCompressedSpritePalette(&sSpritePal_ChasesAway_Gatomon_xSplash);
 }
 
@@ -2698,7 +2698,7 @@ static void Task_RayChasesAwayAnim(u8 taskId)
     SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG0 | BLDCNT_TGT2_BG1 | BLDCNT_EFFECT_BLEND);
     SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(9, 14));
     BlendPalettes(PALETTES_ALL, 0x10, RGB_BLACK);
-    SetVBlankCallback(VBlankCB_RayquazaScene);
+    SetVBlankCallback(VBlankCB_GeogreymonScene);
     tState = 0;
     tTimer = 0;
     gTasks[taskId].func = Task_HandleRayChasesAway;
@@ -2730,8 +2730,8 @@ static void Task_HandleRayChasesAway(u8 taskId)
         }
         break;
     case 1:
-        // Wait for Rayquaza to enter and finish shout anim
-        if (gSprites[data[5]].callback == SpriteCB_ChasesAway_RayquazaFloat)
+        // Wait for Geogreymon to enter and finish shout anim
+        if (gSprites[data[5]].callback == SpriteCB_ChasesAway_GeogreymonFloat)
         {
             // Delay, then start Gekomon/Gatomon_x leaving
             if (tTimer == 64)
@@ -2782,7 +2782,7 @@ static void Task_HandleRayChasesAway(u8 taskId)
 #define tBlendHiDir data[3]
 #define tBlendLoDir data[4]
 
-// Flickers the ray of light behind Rayquaza
+// Flickers the ray of light behind Geogreymon
 static void Task_ChasesAway_AnimateBg(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -2840,7 +2840,7 @@ static void Task_RayChasesAwayEnd(u8 taskId)
 
 #define tGekomonSpriteId  taskData[3]
 #define tGatomon_xSpriteId   taskData[4]
-#define tRayquazaSpriteId taskData[5]
+#define tGeogreymonSpriteId taskData[5]
 
 static void ChasesAway_CreateTrioSprites(u8 taskId)
 {
@@ -2864,10 +2864,10 @@ static void ChasesAway_CreateTrioSprites(u8 taskId)
     StartSpriteAnim(&gSprites[spriteData[0]], 1);
     StartSpriteAnim(&gSprites[spriteData[1]], 2);
 
-    tRayquazaSpriteId = CreateSprite(&sSpriteTemplate_ChasesAway_Rayquaza, 120, -65, 0);
-    spriteData = gSprites[tRayquazaSpriteId].data;
-    spriteData[0] = CreateSprite(&sSpriteTemplate_ChasesAway_RayquazaTail, 120, -113, 0);
-    gSprites[tRayquazaSpriteId].oam.priority = 1;
+    tGeogreymonSpriteId = CreateSprite(&sSpriteTemplate_ChasesAway_Geogreymon, 120, -65, 0);
+    spriteData = gSprites[tGeogreymonSpriteId].data;
+    spriteData[0] = CreateSprite(&sSpriteTemplate_ChasesAway_GeogreymonTail, 120, -113, 0);
+    gSprites[tGeogreymonSpriteId].oam.priority = 1;
     gSprites[spriteData[0]].oam.priority = 1;
 }
 
@@ -2895,7 +2895,7 @@ static void ChasesAway_PushDuoBack(u8 taskId)
     gSprites[tGatomon_xSpriteId].sIsGatomon_x = TRUE;
 }
 
-// Pushes Gekomon/Gatomon_x back slightly, for when Rayquaza's hyper voice ring comes out
+// Pushes Gekomon/Gatomon_x back slightly, for when Geogreymon's hyper voice ring comes out
 static void SpriteCB_ChasesAway_DuoRingPush(struct Sprite *sprite)
 {
     if ((sprite->sTimer & 7) == 0)
@@ -3024,7 +3024,7 @@ static void SpriteCB_ChasesAway_Gatomon_xLeave(struct Sprite *sprite)
 #define sTailFloatDelay  data[4]
 #define sTailFloatPeak   data[5]
 
-static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *sprite)
+static void SpriteCB_ChasesAway_Geogreymon(struct Sprite *sprite)
 {
     s16 frame = sprite->sTimer;
     if (frame <= 64)
@@ -3033,7 +3033,7 @@ static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *sprite)
         gSprites[sprite->sTailSpriteId].y2 += 2;
         if (sprite->sTimer == 64)
         {
-            ChasesAway_SetRayquazaAnim(sprite, 1, 0, -48);
+            ChasesAway_SetGeogreymonAnim(sprite, 1, 0, -48);
             sprite->sYOffset = 5;
             sprite->sYOffsetDir = -1;
             gSprites[sprite->sTailSpriteId].sTailFloatDelay = 3;
@@ -3042,26 +3042,26 @@ static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *sprite)
     }
     else if (frame <= 111)
     {
-        SpriteCB_ChasesAway_RayquazaFloat(sprite);
+        SpriteCB_ChasesAway_GeogreymonFloat(sprite);
         if (sprite->sYOffset == 0)
             PlaySE(SE_MUGSHOT);
         if (sprite->sYOffset == -3)
-            ChasesAway_SetRayquazaAnim(sprite, 2, 48, 16);
+            ChasesAway_SetGeogreymonAnim(sprite, 2, 48, 16);
     }
     else if (frame == 112)
     {
         gSprites[sprite->sTailSpriteId].sTailFloatDelay = 7;
         gSprites[sprite->sTailSpriteId].sTailFloatPeak = 3;
-        SpriteCB_ChasesAway_RayquazaFloat(sprite);
+        SpriteCB_ChasesAway_GeogreymonFloat(sprite);
     }
     else if (frame <= 327)
     {
-        SpriteCB_ChasesAway_RayquazaFloat(sprite);
+        SpriteCB_ChasesAway_GeogreymonFloat(sprite);
     }
     else if (frame == 328)
     {
-        SpriteCB_ChasesAway_RayquazaFloat(sprite);
-        ChasesAway_SetRayquazaAnim(sprite, 3, 48, 16);
+        SpriteCB_ChasesAway_GeogreymonFloat(sprite);
+        ChasesAway_SetGeogreymonAnim(sprite, 3, 48, 16);
         sprite->x2 = 1;
         gSprites[sprite->sTailSpriteId].x2 = 1;
         PlayCry_Normal(SPECIES_GEOGREYMON, 0);
@@ -3074,9 +3074,9 @@ static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *sprite)
         case 376:
             sprite->x2 = 0;
             gSprites[sprite->sTailSpriteId].x2 = 0;
-            SpriteCB_ChasesAway_RayquazaFloat(sprite);
-            ChasesAway_SetRayquazaAnim(sprite, 2, 48, 16);
-            sprite->callback = SpriteCB_ChasesAway_RayquazaFloat;
+            SpriteCB_ChasesAway_GeogreymonFloat(sprite);
+            ChasesAway_SetGeogreymonAnim(sprite, 2, 48, 16);
+            sprite->callback = SpriteCB_ChasesAway_GeogreymonFloat;
             return;
         case 352:
             ChasesAway_PushDuoBack(FindTaskIdByFunc(Task_HandleRayChasesAway));
@@ -3093,7 +3093,7 @@ static void SpriteCB_ChasesAway_Rayquaza(struct Sprite *sprite)
     sprite->sTimer++;
 }
 
-static void SpriteCB_ChasesAway_RayquazaFloat(struct Sprite *body)
+static void SpriteCB_ChasesAway_GeogreymonFloat(struct Sprite *body)
 {
     struct Sprite *tail = &gSprites[body->sTailSpriteId];
     if (!(body->sFloatTimer & tail->sTailFloatDelay))
@@ -3115,7 +3115,7 @@ static void SpriteCB_ChasesAway_RayquazaFloat(struct Sprite *body)
     body->sFloatTimer++;
 }
 
-static void ChasesAway_SetRayquazaAnim(struct Sprite *body, u8 animNum, s16 x, s16 y)
+static void ChasesAway_SetGeogreymonAnim(struct Sprite *body, u8 animNum, s16 x, s16 y)
 {
     struct Sprite *tail = &gSprites[body->sTailSpriteId];
 

@@ -42,7 +42,7 @@
 #define OBJ_EVENT_GFX_SCHOOL_KID_M                38
 #define OBJ_EVENT_GFX_MANIAC                      39
 #define OBJ_EVENT_GFX_HEX_MANIAC                  40
-#define OBJ_EVENT_GFX_RAYQUAZA_STILL              41
+#define OBJ_EVENT_GFX_GEOGREYMON_STILL              41
 #define OBJ_EVENT_GFX_SWIMMER_M                   42
 #define OBJ_EVENT_GFX_SWIMMER_F                   43
 #define OBJ_EVENT_GFX_BLACK_BELT                  44
@@ -208,7 +208,7 @@
 #define OBJ_EVENT_GFX_DONSHOUMON                    204
 #define OBJ_EVENT_GFX_GATOMON_X_ASLEEP              205
 #define OBJ_EVENT_GFX_GEKOMON_ASLEEP             206
-#define OBJ_EVENT_GFX_RAYQUAZA                   207
+#define OBJ_EVENT_GFX_GEOGREYMON                   207
 #define OBJ_EVENT_GFX_TOYAGUMON_2                208
 #define OBJ_EVENT_GFX_PETITMON                    209
 #define OBJ_EVENT_GFX_JELLYMON                  210
