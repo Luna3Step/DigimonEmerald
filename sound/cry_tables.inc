@@ -367,7 +367,7 @@ gCryTable::
 	cry Cry_Blkgatomon
 	cry Cry_Blkgatomon_uver
 	cry Cry_Blgrowlmon
-	cry Cry_Relicanth
+	cry Cry_Flarizamon
 	cry Cry_Luvdisc
 	cry Cry_Groudon
 	cry Cry_Kyogre
@@ -758,7 +758,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Blkgatomon
 	cry_reverse Cry_Blkgatomon_uver
 	cry_reverse Cry_Blgrowlmon
-	cry_reverse Cry_Relicanth
+	cry_reverse Cry_Flarizamon
 	cry_reverse Cry_Luvdisc
 	cry_reverse Cry_Groudon
 	cry_reverse Cry_Kyogre

@@ -3,9 +3,9 @@ SealedChamber_InnerRoom_MapScripts::
 
 SealedChamber_InnerRoom_EventScript_BrailleBackWall::
 	lockall
-	braillemsgbox SealedChamber_InnerRoom_Braille_FirstChamelemonLastRelicanth
+	braillemsgbox SealedChamber_InnerRoom_Braille_FirstChamelemonLastFlarizamon
 	goto_if_set FLAG_REGI_DOORS_OPENED, SealedChamber_InnerRoom_EventScript_NoEffect
-	specialvar VAR_RESULT, CheckRelicanthChamelemon
+	specialvar VAR_RESULT, CheckFlarizamonChamelemon
 	goto_if_eq VAR_RESULT, FALSE, SealedChamber_InnerRoom_EventScript_NoEffect
 	fadeoutbgm 0
 	playse SE_TRUCK_MOVE

@@ -50,12 +50,12 @@ SealedChamber_OuterRoom_Braille_DigHere:
 	brailleformat 7, 4, 23, 15, 10, 7
 	.braille "DIG HERE.$"
 
-SealedChamber_InnerRoom_Braille_FirstChamelemonLastRelicanth:
+SealedChamber_InnerRoom_Braille_FirstChamelemonLastFlarizamon:
 	brailleformat 0, 0, 29, 19, 3, 3
 	.braille "FIRST COMES\n"
 	.braille "CHAMELEMON.\n"
 	.braille "LAST COMES\n"
-	.braille "RELICANTH.$"
+	.braille "FLARIZAMON.$"
 
 SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived:
 	brailleformat 2, 0, 26, 19, 5, 3

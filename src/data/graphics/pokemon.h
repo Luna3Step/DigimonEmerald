@@ -2487,12 +2487,12 @@ const u32 gMonShinyPalette_Darktyrmon[] = INCBIN_U32("graphics/pokemon/darktyrmo
 const u8 gMonIcon_Darktyrmon[] = INCBIN_U8("graphics/pokemon/darktyrmon/icon.4bpp");
 const u8 gMonFootprint_Darktyrmon[] = INCBIN_U8("graphics/pokemon/darktyrmon/footprint.1bpp");
 
-const u32 gMonStillFrontPic_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/front.4bpp.lz");
-const u32 gMonPalette_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/normal.gbapal.lz");
-const u32 gMonBackPic_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/back.4bpp.lz");
-const u32 gMonShinyPalette_Relicanth[] = INCBIN_U32("graphics/pokemon/relicanth/shiny.gbapal.lz");
-const u8 gMonIcon_Relicanth[] = INCBIN_U8("graphics/pokemon/relicanth/icon.4bpp");
-const u8 gMonFootprint_Relicanth[] = INCBIN_U8("graphics/pokemon/relicanth/footprint.1bpp");
+const u32 gMonStillFrontPic_Flarizamon[] = INCBIN_U32("graphics/pokemon/flarizamon/front.4bpp.lz");
+const u32 gMonPalette_Flarizamon[] = INCBIN_U32("graphics/pokemon/flarizamon/normal.gbapal.lz");
+const u32 gMonBackPic_Flarizamon[] = INCBIN_U32("graphics/pokemon/flarizamon/back.4bpp.lz");
+const u32 gMonShinyPalette_Flarizamon[] = INCBIN_U32("graphics/pokemon/flarizamon/shiny.gbapal.lz");
+const u8 gMonIcon_Flarizamon[] = INCBIN_U8("graphics/pokemon/flarizamon/icon.4bpp");
+const u8 gMonFootprint_Flarizamon[] = INCBIN_U8("graphics/pokemon/flarizamon/footprint.1bpp");
 
 const u32 gMonStillFrontPic_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/front.4bpp.lz");
 const u32 gMonPalette_Blkgatomon[] = INCBIN_U32("graphics/pokemon/blkgatomon/normal.gbapal.lz");
