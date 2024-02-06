@@ -112,6 +112,18 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_LEAF_STONE] = {gItemIcon_LeafStone, gItemIconPalette_LeafStone},
     [ITEM_X_ANTIBODY] = {gItemIcon_XAntibody, gItemIconPalette_XAntibody},
     [ITEM_DARK_DIGITRON] = {gItemIcon_DarkDigitron, gItemIconPalette_DarkDigitron},
+    [ITEM_COURAGE_EGG] = {gItemIcon_CourageEgg, gItemIconPalette_CourageEgg},
+    [ITEM_FRIEND_EGG] = {gItemIcon_FriendEgg, gItemIconPalette_FriendEgg},
+    [ITEM_LOVE_EGG] = {gItemIcon_LoveEgg, gItemIconPalette_LoveEgg},
+    [ITEM_PURITY_EGG] = {gItemIcon_PurityEgg, gItemIconPalette_PurityEgg},
+    [ITEM_KNOWLEDGE_EGG] = {gItemIcon_KnowledgeEgg, gItemIconPalette_KnowledgeEgg},
+    [ITEM_SINCERITY_EGG] = {gItemIcon_SincerityEgg, gItemIconPalette_SincerityEgg},
+    [ITEM_HOPE_EGG] = {gItemIcon_HopeEgg, gItemIconPalette_HopeEgg},
+    [ITEM_LIGHT_EGG] = {gItemIcon_LightEgg, gItemIconPalette_LightEgg},
+    [ITEM_KINDNESS_EGG] = {gItemIcon_KindnessEgg, gItemIconPalette_KindnessEgg},
+    [ITEM_MIRACLES_EGG] = {gItemIcon_MiraclesEgg, gItemIconPalette_MiraclesEgg},
+    [ITEM_FATE_EGG] = {gItemIcon_FateEgg, gItemIconPalette_FateEgg},
+    
     // ????????
     [ITEM_063] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_064] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},

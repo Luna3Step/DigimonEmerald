@@ -304,6 +304,50 @@ const u8 gItemEffect_DarkDigitron[6] = {
     [4] = ITEM4_EVO_STONE,
 };
 
+const u8 gItemEffect_CourageEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_FriendEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_LoveEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_PurityEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_KnowledgeEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_SincerityEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_HopeEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_LightEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_KindnessEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_MiraclesEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+const u8 gItemEffect_FateEgg[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
 const u8 gItemEffect_CheriBerry[6] = {
     [3] = ITEM3_PARALYSIS,
 };
@@ -447,6 +491,17 @@ const u8 *const gItemEffectTable[] =
     [ITEM_LEAF_STONE - ITEM_POTION]    = gItemEffect_LeafStone,
     [ITEM_X_ANTIBODY - ITEM_POTION]    = gItemEffect_XAntibody,
     [ITEM_DARK_DIGITRON - ITEM_POTION]    = gItemEffect_DarkDigitron,
+    [ITEM_COURAGE_EGG - ITEM_POTION]    = gItemEffect_CourageEgg,
+    [ITEM_FRIEND_EGG - ITEM_POTION]    = gItemEffect_FriendEgg,
+    [ITEM_LOVE_EGG - ITEM_POTION]    = gItemEffect_LoveEgg,
+    [ITEM_PURITY_EGG - ITEM_POTION]    = gItemEffect_PurityEgg,
+    [ITEM_KNOWLEDGE_EGG - ITEM_POTION]    = gItemEffect_KnowledgeEgg,
+    [ITEM_SINCERITY_EGG - ITEM_POTION]    = gItemEffect_SincerityEgg,
+    [ITEM_HOPE_EGG - ITEM_POTION]    = gItemEffect_HopeEgg,
+    [ITEM_LIGHT_EGG - ITEM_POTION]    = gItemEffect_LightEgg,
+    [ITEM_KINDNESS_EGG - ITEM_POTION]    = gItemEffect_KindnessEgg,
+    [ITEM_MIRACLES_EGG - ITEM_POTION]    = gItemEffect_MiraclesEgg,
+    [ITEM_FATE_EGG - ITEM_POTION]    = gItemEffect_FateEgg,
     [ITEM_CHERI_BERRY - ITEM_POTION]   = gItemEffect_CheriBerry,
     [ITEM_CHESTO_BERRY - ITEM_POTION]  = gItemEffect_ChestoBerry,
     [ITEM_PECHA_BERRY - ITEM_POTION]   = gItemEffect_PechaBerry,

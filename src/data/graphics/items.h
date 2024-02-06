@@ -206,6 +206,40 @@ const u32 gItemIconPalette_XAntibody[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_DarkDigitron[] = INCBIN_U32("graphics/items/icons/dark_digitron.4bpp.lz");
 const u32 gItemIconPalette_DarkDigitron[] = INCBIN_U32("graphics/items/icon_palettes/dark_digitron.gbapal.lz");
 
+const u32 gItemIcon_CourageEgg[] = INCBIN_U32("graphics/items/icons/courage_egg.4bpp.lz");
+const u32 gItemIconPalette_CourageEgg[] = INCBIN_U32("graphics/items/icon_palettes/courage_egg.gbapal.lz");
+
+const u32 gItemIcon_FriendEgg[] = INCBIN_U32("graphics/items/icons/friend_egg.4bpp.lz");
+const u32 gItemIconPalette_FriendEgg[] = INCBIN_U32("graphics/items/icon_palettes/friend_egg.gbapal.lz");
+
+const u32 gItemIcon_LoveEgg[] = INCBIN_U32("graphics/items/icons/love_egg.4bpp.lz");
+const u32 gItemIconPalette_LoveEgg[] = INCBIN_U32("graphics/items/icon_palettes/love_egg.gbapal.lz");
+
+const u32 gItemIcon_PurityEgg[] = INCBIN_U32("graphics/items/icons/purity_egg.4bpp.lz");
+const u32 gItemIconPalette_PurityEgg[] = INCBIN_U32("graphics/items/icon_palettes/purity_egg.gbapal.lz");
+
+const u32 gItemIcon_KnowledgeEgg[] = INCBIN_U32("graphics/items/icons/knowledge_egg.4bpp.lz");
+const u32 gItemIconPalette_KnowledgeEgg[] = INCBIN_U32("graphics/items/icon_palettes/knowledge_egg.gbapal.lz");
+
+const u32 gItemIcon_SincerityEgg[] = INCBIN_U32("graphics/items/icons/sincerity_egg.4bpp.lz");
+const u32 gItemIconPalette_SincerityEgg[] = INCBIN_U32("graphics/items/icon_palettes/sincerity_egg.gbapal.lz");
+
+const u32 gItemIcon_HopeEgg[] = INCBIN_U32("graphics/items/icons/hope_egg.4bpp.lz");
+const u32 gItemIconPalette_HopeEgg[] = INCBIN_U32("graphics/items/icon_palettes/hope_egg.gbapal.lz");
+
+const u32 gItemIcon_LightEgg[] = INCBIN_U32("graphics/items/icons/light_egg.4bpp.lz");
+const u32 gItemIconPalette_LightEgg[] = INCBIN_U32("graphics/items/icon_palettes/light_egg.gbapal.lz");
+
+const u32 gItemIcon_KindnessEgg[] = INCBIN_U32("graphics/items/icons/kindness_egg.4bpp.lz");
+const u32 gItemIconPalette_KindnessEgg[] = INCBIN_U32("graphics/items/icon_palettes/kindness_egg.gbapal.lz");
+
+const u32 gItemIcon_MiraclesEgg[] = INCBIN_U32("graphics/items/icons/miracles_egg.4bpp.lz");
+const u32 gItemIconPalette_MiraclesEgg[] = INCBIN_U32("graphics/items/icon_palettes/miracles_egg.gbapal.lz");
+
+const u32 gItemIcon_FateEgg[] = INCBIN_U32("graphics/items/icons/fate_egg.4bpp.lz");
+const u32 gItemIconPalette_FateEgg[] = INCBIN_U32("graphics/items/icon_palettes/fate_egg.gbapal.lz");
+
+
 // Valuables
 
 const u32 gItemIcon_TinyMushroom[] = INCBIN_U32("graphics/items/icons/tiny_mushroom.4bpp.lz");

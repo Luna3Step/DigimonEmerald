@@ -404,6 +404,61 @@ static const u8 sDarkDigitronDesc[] = _(
     "species of\n"
     "Digimon.");
 
+static const u8 sCourageEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sFriendEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sLoveEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sPurityEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sKnowledgeEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sSincerityEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sHopeEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sLightEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sKindnessEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sMiraclesEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
+static const u8 sFateEggDesc[] = _(
+    "Allows Digimon\n"
+    "to draw on\n"
+    "external power.");
+
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
     "A plain mushroom\n"

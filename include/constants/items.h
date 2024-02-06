@@ -481,8 +481,19 @@
 
 #define ITEM_X_ANTIBODY 377
 #define ITEM_DARK_DIGITRON 378
+#define ITEM_COURAGE_EGG 379
+#define ITEM_FRIEND_EGG 380
+#define ITEM_LOVE_EGG 381
+#define ITEM_PURITY_EGG 382
+#define ITEM_KNOWLEDGE_EGG 383
+#define ITEM_SINCERITY_EGG 384
+#define ITEM_HOPE_EGG 385
+#define ITEM_LIGHT_EGG 386
+#define ITEM_KINDNESS_EGG 387
+#define ITEM_MIRACLES_EGG 388
+#define ITEM_FATE_EGG 389
 
-#define ITEMS_COUNT 379
+#define ITEMS_COUNT 390
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow

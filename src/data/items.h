@@ -1247,6 +1247,127 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
+    [ITEM_COURAGE_EGG] =
+    {
+        .name = _("COURAGE EGG"),
+        .itemId = ITEM_COURAGE_EGG,
+        .price = 2100,
+        .description = sCourageEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_FRIEND_EGG] =
+    {
+        .name = _("FRIEND EGG"),
+        .itemId = ITEM_FRIEND_EGG,
+        .price = 2100,
+        .description = sFriendEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_LOVE_EGG] =
+    {
+        .name = _("LOVE EGG"),
+        .itemId = ITEM_LOVE_EGG,
+        .price = 2100,
+        .description = sLoveEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_PURITY_EGG] =
+    {
+        .name = _("PURITY EGG"),
+        .itemId = ITEM_PURITY_EGG,
+        .price = 2100,
+        .description = sPurityEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_KNOWLEDGE_EGG] =
+    {
+        .name = _("KNOWLEDGE EGG"),
+        .itemId = ITEM_KNOWLEDGE_EGG,
+        .price = 2100,
+        .description = sKnowledgeEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_SINCERITY_EGG] =
+    {
+        .name = _("SINCERITY EGG"),
+        .itemId = ITEM_SINCERITY_EGG,
+        .price = 2100,
+        .description = sSincerityEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_HOPE_EGG] =
+    {
+        .name = _("HOPE EGG"),
+        .itemId = ITEM_HOPE_EGG,
+        .price = 2100,
+        .description = sHopeEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_LIGHT_EGG] =
+    {
+        .name = _("LIGHT EGG"),
+        .itemId = ITEM_LIGHT_EGG,
+        .price = 2100,
+        .description = sLightEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_KINDNESS_EGG] =
+    {
+        .name = _("KINDNESS EGG"),
+        .itemId = ITEM_KINDNESS_EGG,
+        .price = 2100,
+        .description = sKindnessEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_MIRACLES_EGG] =
+    {
+        .name = _("MIRACLES EGG"),
+        .itemId = ITEM_MIRACLES_EGG,
+        .price = 2100,
+        .description = sMiraclesEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
+    [ITEM_FATE_EGG] =
+    {
+        .name = _("FATE EGG"),
+        .itemId = ITEM_FATE_EGG,
+        .price = 2100,
+        .description = sFateEggDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+
     [ITEM_063] =
     {
         .name = _("????????"),
