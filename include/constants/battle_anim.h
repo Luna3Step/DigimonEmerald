@@ -370,6 +370,7 @@
 #define B_ANIM_FOCUS_PUNCH_SETUP        20
 #define B_ANIM_INGRAIN_HEAL             21
 #define B_ANIM_WISH_HEAL                22
+#define B_ANIM_PROPHECY_HIT             23
 
 // special animations table (gBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0

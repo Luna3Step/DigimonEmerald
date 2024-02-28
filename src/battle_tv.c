@@ -62,6 +62,7 @@ enum {
     FNT_SPIKES,
     FNT_FUTURE_SIGHT,
     FNT_DOOM_DESIRE,
+    FNT_PROPHECY,
     FNT_PERISH_SONG,
     FNT_DESTINY_BOND,
     FNT_CONFUSION,
@@ -603,6 +604,10 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         tvPtr->side[atkSide].futureSightMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
         tvPtr->side[atkSide].futureSightMoveSlot = moveSlot;
         break;
+    case STRINGID_PKMNPROPHESIEDPATTACK:
+        tvPtr->side[atkSide].prophecyMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
+        tvPtr->side[atkSide].prophecyMoveSlot = moveSlot;
+        break;
     case STRINGID_PKMNCHOSEXASDESTINY:
         tvPtr->side[atkSide].doomDesireMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
         tvPtr->side[atkSide].doomDesireMoveSlot = moveSlot;
@@ -1044,6 +1049,14 @@ void BattleTv_SetDataBasedOnAnimation(u8 animationId)
             tvPtr->side[atkSide].faintCause = FNT_DOOM_DESIRE;
         }
         break;
+    case B_ANIM_PROPHECY_HIT:
+        if (tvPtr->side[atkSide].futureSightMonId != 0)
+        {
+            AddMovePoints(PTS_SET_UP, 0, atkSide,
+                        (tvPtr->side[atkSide].prophecyMonId - 1) * 4 + tvPtr->side[atkSide].prophecyMoveSlot);
+            tvPtr->side[atkSide].faintCause = FNT_PROPHECY;
+        }
+        break;
     }
 }
 
@@ -1343,6 +1356,13 @@ static void AddPointsOnFainting(bool8 targetFainted)
             {
                 AddMovePoints(PTS_FAINT_SET_UP, 0, atkSide,
                 (tvPtr->side[atkSide].doomDesireMonId - 1) * 4 + tvPtr->side[atkSide].doomDesireMoveSlot);
+            }
+            break;
+        case FNT_PROPHECY:
+            if (tvPtr->side[atkSide].prophecyMonId != 0)
+            {
+                AddMovePoints(PTS_FAINT_SET_UP, 0, atkSide,
+                (tvPtr->side[atkSide].prophecyMonId - 1) * 4 + tvPtr->side[atkSide].prophecyMonId);
             }
             break;
         case FNT_PERISH_SONG:

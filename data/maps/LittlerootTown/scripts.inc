@@ -1022,17 +1022,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
-	giveitem ITEM_COURAGE_EGG
-	giveitem ITEM_FRIEND_EGG
-	giveitem ITEM_LOVE_EGG
-	giveitem ITEM_PURITY_EGG
-	giveitem ITEM_KNOWLEDGE_EGG
-	giveitem ITEM_SINCERITY_EGG
-	giveitem ITEM_HOPE_EGG
-	giveitem ITEM_LIGHT_EGG
-	giveitem ITEM_KINDNESS_EGG
-	giveitem ITEM_MIRACLES_EGG
-	giveitem ITEM_FATE_EGG
+	givemon SPECIES_CALUMON, 5
 	waitmessage
 	releaseall
 	return

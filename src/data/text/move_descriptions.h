@@ -993,6 +993,10 @@ static const u8 sFutureSightDescription[] = _(
     "Heightens inner power to\n"
     "strike 2 turns later.");
 
+static const u8 sProphecyDescription[] = _(
+    "Prophesies a holy\n"
+    "attack 2 turns later.");
+
 static const u8 sRockSmashDescription[] = _(
     "A rock-crushing attack\n"
     "that may lower DEFENSE.");
@@ -1668,6 +1672,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ANCIENT_POWER - 1] = sAncientPowerDescription,
     [MOVE_SHADOW_BALL - 1] = sShadowBallDescription,
     [MOVE_FUTURE_SIGHT - 1] = sFutureSightDescription,
+    [MOVE_PROPHECY - 1] = sProphecyDescription,
     [MOVE_ROCK_SMASH - 1] = sRockSmashDescription,
     [MOVE_WHIRLPOOL - 1] = sWhirlpoolDescription,
     [MOVE_BEAT_UP - 1] = sBeatUpDescription,

@@ -1998,6 +1998,14 @@ const struct BardSound gBardSounds_Moves[MOVES_COUNT][6] = {
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
     },
+    [MOVE_PROPHECY] = {
+        { .songLengthId = 39 },
+        { .songLengthId = 48 },
+        { .songLengthId = 18 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+    },
     [MOVE_ROCK_SMASH] = {
         { .songLengthId = 27 },
         { .songLengthId =  0 },

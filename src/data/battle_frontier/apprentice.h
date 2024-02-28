@@ -821,6 +821,7 @@ static const bool8 sValidApprenticeMoves[MOVES_COUNT] =
     [MOVE_ANCIENT_POWER] = TRUE,
     [MOVE_SHADOW_BALL] = TRUE,
     [MOVE_FUTURE_SIGHT] = TRUE,
+    [MOVE_PROPHECY] = TRUE,
     [MOVE_ROCK_SMASH] = TRUE,
     [MOVE_WHIRLPOOL] = TRUE,
     [MOVE_BEAT_UP] = TRUE,
