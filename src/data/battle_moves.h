@@ -4627,4 +4627,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = 0,
     },
+
+    [MOVE_BLESSING] =
+    {
+        .effect = EFFECT_WILL_O_WISP,
+        .power = 0,
+        .type = TYPE_LIGHT,
+        .accuracy = 75,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+    },
 };
