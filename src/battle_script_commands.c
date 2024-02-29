@@ -622,6 +622,7 @@ static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
     [MOVE_EFFECT_PREVENT_ESCAPE] = STATUS2_ESCAPE_PREVENTION,
     [MOVE_EFFECT_NIGHTMARE]      = STATUS2_NIGHTMARE,
     [MOVE_EFFECT_THRASH]         = STATUS2_LOCK_CONFUSE,
+    [MOVE_EFFECT_CONVERTED]      = STATUS1_CONVERTED,
 };
 
 static const u8 *const sMoveEffectBS_Ptrs[] =
@@ -665,6 +666,7 @@ static const u8 *const sMoveEffectBS_Ptrs[] =
     [MOVE_EFFECT_REMOVE_PARALYSIS] = BattleScript_MoveEffectSleep,
     [MOVE_EFFECT_ATK_DEF_DOWN]     = BattleScript_MoveEffectSleep,
     [MOVE_EFFECT_RECOIL_33]        = BattleScript_MoveEffectRecoil,
+    [MOVE_EFFECT_CONVERTED]        = BattleScript_MoveEffectConverted,
 };
 
 static const struct WindowTemplate sUnusedWinTemplate =
@@ -2262,10 +2264,26 @@ void SetMoveEffect(bool8 primary, u8 certain)
     if (gBattleMons[gEffectBattler].status2 & STATUS2_SUBSTITUTE && affectsUser != MOVE_EFFECT_AFFECTS_USER)
         INCREMENT_RESET_RETURN
 
-    if (gBattleCommunication[MOVE_EFFECT_BYTE] <= PRIMARY_STATUS_MOVE_EFFECT)
+    if (gBattleCommunication[MOVE_EFFECT_BYTE] >= MOVE_EFFECT_CONVERTED)
     {
         switch (sStatusFlagsForMoveEffects[gBattleCommunication[MOVE_EFFECT_BYTE]])
         {
+        case STATUS1_CONVERTED:
+            if (gBattleMons[gEffectBattler].status1)
+            {
+                break;
+            }
+            if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_DARK))
+            {
+                break;
+            }
+            if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_LIGHT))
+            {
+                break;
+            }
+            statusChanged = TRUE;
+            break;
+
         case STATUS1_SLEEP:
             // check active uproar
             if (gBattleMons[gEffectBattler].ability != ABILITY_SOUNDPROOF)

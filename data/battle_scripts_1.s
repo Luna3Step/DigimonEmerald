@@ -232,6 +232,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectCalmMind               @ EFFECT_CALM_MIND
 	.4byte BattleScript_EffectDragonDance            @ EFFECT_DRAGON_DANCE
 	.4byte BattleScript_EffectCamouflage             @ EFFECT_CAMOUFLAGE
+	.4byte BattleScript_EffectBlessing               @ EFFECT_BLESSING
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -2188,6 +2189,19 @@ BattleScript_EffectWillOWisp::
 	seteffectprimary
 	goto BattleScript_MoveEnd
 
+BattleScript_EffectBlessing::
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifstatus BS_TARGET, STATUS1_CONVERTED, BattleScript_AlreadyBurned
+	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
+	jumpifsideaffecting BS_TARGET, SIDE_STATUS_SAFEGUARD, BattleScript_SafeguardProtected
+	attackanimation
+	waitanimation
+	setmoveeffect MOVE_EFFECT_CONVERTED
+    seteffectprimary
+	goto BattleScript_MoveEnd
+
 BattleScript_WaterVeilPrevents::
 	copybyte gEffectBattler, gBattlerTarget
 	setbyte cMULTISTRING_CHOOSER, B_MSG_ABILITY_PREVENTS_MOVE_STATUS
@@ -3739,6 +3753,11 @@ BattleScript_MonWokeUpInUproar::
 	updatestatusicon BS_ATTACKER
 	end2
 
+BattleScript_ConvertedTurnDmg::
+    printstring STRINGID_PKMNHURTBYBURN
+    waitmessage B_WAIT_TIME_LONG
+    goto BattleScript_DoStatusTurnDmg
+
 BattleScript_PoisonTurnDmg::
 	printstring STRINGID_PKMNHURTBYPOISON
 	waitmessage B_WAIT_TIME_LONG
@@ -3897,6 +3916,12 @@ BattleScript_MoveEffectPoison::
 	goto BattleScript_UpdateEffectStatusIconRet
 
 BattleScript_MoveEffectBurn::
+	statusanimation BS_EFFECT_BATTLER
+	printfromtable gGotBurnedStringIds
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_UpdateEffectStatusIconRet
+
+BattleScript_MoveEffectConverted::
 	statusanimation BS_EFFECT_BATTLER
 	printfromtable gGotBurnedStringIds
 	waitmessage B_WAIT_TIME_LONG

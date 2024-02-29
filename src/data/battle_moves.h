@@ -4630,7 +4630,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BLESSING] =
     {
-        .effect = EFFECT_WILL_O_WISP,
+        .effect = EFFECT_BLESSING,
         .power = 0,
         .type = TYPE_LIGHT,
         .accuracy = 75,
