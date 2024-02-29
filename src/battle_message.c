@@ -431,6 +431,11 @@ static const u8 sText_SpDef2[] = _("SP. DEF");
 static const u8 sText_Accuracy[] = _("accuracy");
 static const u8 sText_Evasiveness[] = _("evasiveness");
 static const u8 sText_PkmnProphesiedAttack[] = _("{B_ATK_NAME_WITH_PREFIX} saw\na prophecy!");
+static const u8 sText_PkmnAlreadyConverted[] = _("{B_DEF_NAME_WITH_PREFIX} is\nalready converted.");
+static const u8 sText_PkmnHurtByConverted[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby its lack of faith!");
+static const u8 sText_PkmnWasConverted[] = _("{B_EFF_NAME_WITH_PREFIX} was converted!");
+static const u8 sText_PkmnConvertedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\nconverted {B_EFF_NAME_WITH_PREFIX}!");
+
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
@@ -887,6 +892,11 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_S
     [STRINGID_TRAINER1WINTEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer1WinText,
     [STRINGID_TRAINER2WINTEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer2WinText,
     [STRINGID_PKMNPROPHESIEDPATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnProphesiedAttack,
+    [STRINGID_PKMNALREADYCONVERTED - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyConverted,
+    [STRINGID_PKMNHURTBYCONVERTED - BATTLESTRINGS_TABLE_START] = sText_PkmnHurtByConverted,
+    [STRINGID_PKMNWASCONVERTED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasConverted,
+    [STRINGID_PKMNCONVERTEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnConvertedBy,
+    
 };
 
 const u16 gMissStringIds[] =
@@ -1093,6 +1103,12 @@ const u16 gGotBurnedStringIds[] =
 {
     [B_MSG_STATUSED]            = STRINGID_PKMNWASBURNED,
     [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNBURNEDBY
+};
+
+const u16 gGotConvertedStringIds[] =
+{
+    [B_MSG_STATUSED]            = STRINGID_PKMNWASCONVERTED,
+    [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNCONVERTEDBY
 };
 
 const u16 gGotFrozenStringIds[] =

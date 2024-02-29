@@ -2193,7 +2193,7 @@ BattleScript_EffectBlessing::
 	attackcanceler
 	attackstring
 	ppreduce
-	jumpifstatus BS_TARGET, STATUS1_CONVERTED, BattleScript_AlreadyBurned
+	jumpifstatus BS_TARGET, STATUS1_CONVERTED, BattleScript_AlreadyConverted
 	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
 	jumpifsideaffecting BS_TARGET, SIDE_STATUS_SAFEGUARD, BattleScript_SafeguardProtected
 	attackanimation
@@ -2206,6 +2206,13 @@ BattleScript_WaterVeilPrevents::
 	copybyte gEffectBattler, gBattlerTarget
 	setbyte cMULTISTRING_CHOOSER, B_MSG_ABILITY_PREVENTS_MOVE_STATUS
 	call BattleScript_BRNPrevention
+	goto BattleScript_MoveEnd
+
+BattleScript_AlreadyConverted::
+	setalreadystatusedmoveattempt BS_ATTACKER
+	pause B_WAIT_TIME_SHORT
+	printstring STRINGID_PKMNALREADYCONVERTED
+	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
 
 BattleScript_AlreadyBurned::
@@ -3773,7 +3780,7 @@ BattleScript_DoTurnDmgEnd::
 	end2
 
 BattleScript_BurnTurnDmg::
-	printstring STRINGID_PKMNHURTBYBURN
+	printstring STRINGID_PKMNHURTBYCONVERTED
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_DoStatusTurnDmg
 
@@ -3923,7 +3930,7 @@ BattleScript_MoveEffectBurn::
 
 BattleScript_MoveEffectConverted::
 	statusanimation BS_EFFECT_BATTLER
-	printfromtable gGotBurnedStringIds
+	printfromtable gGotConvertedStringIds
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_UpdateEffectStatusIconRet
 
