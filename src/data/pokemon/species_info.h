@@ -8999,11 +8999,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AEGIOMON] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 94,
-        .baseDefense   = 84,
-        .baseSpeed     = 99,
-        .baseSpAttack  = 89,
+        .baseHP        = 65,
+        .baseAttack    = 84,
+        .baseDefense   = 74,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 79,
         .baseSpDefense = 91,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_LIGHT,
@@ -9032,12 +9032,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AGUNIMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 97,
-        .baseDefense   = 75,
-        .baseSpeed     = 83,
-        .baseSpAttack  = 94,
-        .baseSpDefense = 81,
+        .baseDefense   = 65,
+        .baseSpeed     = 73,
+        .baseSpAttack  = 84,
+        .baseSpDefense = 71,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_VACCNE,
@@ -9065,12 +9065,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AIRDRAMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 85,
-        .baseDefense   = 80,
+        .baseHP        = 66,
+        .baseAttack    = 75,
+        .baseDefense   = 70,
         .baseSpeed     = 102,
-        .baseSpAttack  = 93,
-        .baseSpDefense = 82,
+        .baseSpAttack  = 83,
+        .baseSpDefense = 72,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -9098,12 +9098,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AKATORIMON] =
     {
-        .baseHP        = 81,
+        .baseHP        = 71,
         .baseAttack    = 89,
-        .baseDefense   = 84,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 75,
+        .baseDefense   = 74,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 65,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_DATA,
@@ -9131,12 +9131,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ALLOMON] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 88,
-        .baseDefense   = 82,
+        .baseHP        = 75,
+        .baseAttack    = 78,
+        .baseDefense   = 72,
         .baseSpeed     = 98,
-        .baseSpAttack  = 77,
-        .baseSpDefense = 82,
+        .baseSpAttack  = 67,
+        .baseSpDefense = 72,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -9164,12 +9164,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BAKEMON] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 79,
+        .baseHP        = 62,
+        .baseAttack    = 69,
         .baseDefense   = 91,
-        .baseSpeed     = 82,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 80,
+        .baseSpeed     = 72,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 70,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -9197,12 +9197,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BALISTAMON] =
     {
-        .baseHP        = 84,
+        .baseHP        = 74,
         .baseAttack    = 94,
-        .baseDefense   = 88,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 75,
-        .baseSpDefense = 83,
+        .baseDefense   = 78,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 73,
         .type1 = TYPE_BUG,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -9230,12 +9230,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BALUCHIMON] =
     {
-        .baseHP        = 81,
-        .baseAttack    = 86,
-        .baseDefense   = 85,
+        .baseHP        = 71,
+        .baseAttack    = 76,
+        .baseDefense   = 75,
         .baseSpeed     = 89,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 88,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 78,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_LIGHT,
         .type3 = TYPE_DATA,
@@ -9263,12 +9263,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ALLOMON_X] =
     {
-        .baseHP        = 81,
-        .baseAttack    = 83,
-        .baseDefense   = 82,
+        .baseHP        = 71,
+        .baseAttack    = 73,
+        .baseDefense   = 72,
         .baseSpeed     = 100,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 68,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_DATA,
@@ -9329,12 +9329,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARESDRAMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 91,
-        .baseDefense   = 86,
-        .baseSpeed     = 84,
-        .baseSpAttack  = 76,
-        .baseSpDefense = 80,
+        .baseDefense   = 76,
+        .baseSpeed     = 74,
+        .baseSpAttack  = 66,
+        .baseSpDefense = 70,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -9362,12 +9362,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ATAMADEMON] =
     {
-        .baseHP        = 87,
+        .baseHP        = 77,
         .baseAttack    = 90,
-        .baseDefense   = 85,
-        .baseSpeed     = 73,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 81,
+        .baseDefense   = 75,
+        .baseSpeed     = 63,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 71,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -9395,12 +9395,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_COREDRAMON_BLUE] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 89,
-        .baseDefense   = 87,
-        .baseSpeed     = 85,
+        .baseHP        = 75,
+        .baseAttack    = 79,
+        .baseDefense   = 77,
+        .baseSpeed     = 75,
         .baseSpAttack  = 91,
-        .baseSpDefense = 88,
+        .baseSpDefense = 78,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -9428,12 +9428,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ANGEMON] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 83,
-        .baseDefense   = 80,
-        .baseSpeed     = 79,
+        .baseHP        = 65,
+        .baseAttack    = 73,
+        .baseDefense   = 70,
+        .baseSpeed     = 69,
         .baseSpAttack  = 104,
-        .baseSpDefense = 99,
+        .baseSpDefense = 89,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -9461,12 +9461,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ANKYLOMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 91,
+        .baseHP        = 73,
+        .baseAttack    = 81,
         .baseDefense   = 95,
-        .baseSpeed     = 72,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 89,
+        .baseSpeed     = 62,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 79,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .type3 = TYPE_VACCNE,
@@ -9494,12 +9494,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARCHELOMON] =
     {
-        .baseHP        = 82,
-        .baseAttack    = 84,
+        .baseHP        = 72,
+        .baseAttack    = 74,
         .baseDefense   = 91,
-        .baseSpeed     = 72,
-        .baseSpAttack  = 76,
-        .baseSpDefense = 84,
+        .baseSpeed     = 62,
+        .baseSpAttack  = 66,
+        .baseSpDefense = 74,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .type3 = TYPE_DATA,
@@ -9527,12 +9527,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARGOMON_CHAMPION] =
     {
-        .baseHP        = 79,
-        .baseAttack    = 85,
-        .baseDefense   = 82,
+        .baseHP        = 69,
+        .baseAttack    = 75,
+        .baseDefense   = 72,
         .baseSpeed     = 85,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 71,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VIRUS,
@@ -9560,12 +9560,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CHAMBLEMON] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 81,
-        .baseDefense   = 83,
-        .baseSpeed     = 76,
+        .baseHP        = 74,
+        .baseAttack    = 71,
+        .baseDefense   = 73,
+        .baseSpeed     = 66,
         .baseSpAttack  = 88,
-        .baseSpDefense = 87,
+        .baseSpDefense = 77,
         .type1 = TYPE_POISON,
         .type2 = TYPE_POISON,
         .type3 = TYPE_VIRUS,
@@ -9593,12 +9593,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CHAMELEMON] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 82,
-        .baseDefense   = 84,
+        .baseHP        = 62,
+        .baseAttack    = 72,
+        .baseDefense   = 74,
         .baseSpeed     = 90,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 86,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 76,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_VIRUS,
@@ -9626,12 +9626,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BIRDRAMON] =
     {
-        .baseHP        = 86,
-        .baseAttack    = 84,
-        .baseDefense   = 79,
+        .baseHP        = 76,
+        .baseAttack    = 74,
+        .baseDefense   = 69,
         .baseSpeed     = 92,
-        .baseSpAttack  = 88,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 78,
+        .baseSpDefense = 71,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -9659,12 +9659,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLGAOGAMON] =
     {
-        .baseHP        = 85,
+        .baseHP        = 75,
         .baseAttack    = 92,
-        .baseDefense   = 89,
-        .baseSpeed     = 84,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 76,
+        .baseDefense   = 79,
+        .baseSpeed     = 74,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 66,
         .type1 = TYPE_DARK,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_DATA,
@@ -9692,12 +9692,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DONSHOUMON] =
     {
-        .baseHP        = 88,
-        .baseAttack    = 90,
-        .baseDefense   = 85,
-        .baseSpeed     = 78,
-        .baseSpAttack  = 82,
-        .baseSpDefense = 80,
+        .baseHP        = 78,
+        .baseAttack    = 80,
+        .baseDefense   = 75,
+        .baseSpeed     = 68,
+        .baseSpAttack  = 72,
+        .baseSpDefense = 70,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_DATA,
@@ -9725,12 +9725,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DEXDORUMON] =
     {
-        .baseHP        = 84,
+        .baseHP        = 74,
         .baseAttack    = 93,
-        .baseDefense   = 81,
-        .baseSpeed     = 84,
-        .baseSpAttack  = 81,
-        .baseSpDefense = 86,
+        .baseDefense   = 71,
+        .baseSpeed     = 74,
+        .baseSpAttack  = 71,
+        .baseSpDefense = 76,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -9758,12 +9758,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DIATRYMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 87,
-        .baseDefense   = 85,
+        .baseHP        = 73,
+        .baseAttack    = 77,
+        .baseDefense   = 75,
         .baseSpeed     = 91,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 82,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 72,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -9791,12 +9791,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BIOTHUNMON] = // Bio digimon ability maybe?
     {
-        .baseHP        = 71,
-        .baseAttack    = 91,
-        .baseDefense   = 81,
+        .baseHP        = 61,
+        .baseAttack    = 81,
+        .baseDefense   = 71,
         .baseSpeed     = 101,
-        .baseSpAttack  = 89,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 66,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -9824,12 +9824,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CLOCKMON] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 89,
-        .baseDefense   = 79,
-        .baseSpeed     = 90,
+        .baseHP        = 65,
+        .baseAttack    = 79,
+        .baseDefense   = 69,
+        .baseSpeed     = 80,
         .baseSpAttack  = 92,
-        .baseSpDefense = 75,
+        .baseSpDefense = 65,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -9857,12 +9857,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLGARGOMON] =
     {
-        .baseHP        = 89,
-        .baseAttack    = 87,
-        .baseDefense   = 83,
-        .baseSpeed     = 79,
+        .baseHP        = 79,
+        .baseAttack    = 77,
+        .baseDefense   = 73,
+        .baseSpeed     = 69,
         .baseSpAttack  = 91,
-        .baseSpDefense = 82,
+        .baseSpDefense = 72,
         .type1 = TYPE_DARK,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_VACCNE,
@@ -9890,12 +9890,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DEPTHMON] =
     {
-        .baseHP        = 74,
-        .baseAttack    = 82,
+        .baseHP        = 64,
+        .baseAttack    = 72,
         .baseDefense   = 96,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 94,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 84,
         .type1 = TYPE_WATER,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -9923,12 +9923,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DEPUTYMON] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 76,
-        .baseDefense   = 80,
-        .baseSpeed     = 82,
+        .baseHP        = 75,
+        .baseAttack    = 66,
+        .baseDefense   = 70,
+        .baseSpeed     = 72,
         .baseSpAttack  = 100,
-        .baseSpDefense = 83,
+        .baseSpDefense = 73,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -9956,12 +9956,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FLYBEEMON] =
     {
-        .baseHP        = 74,
-        .baseAttack    = 85,
-        .baseDefense   = 87,
+        .baseHP        = 64,
+        .baseAttack    = 75,
+        .baseDefense   = 77,
         .baseSpeed     = 93,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 77,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 67,
         .type1 = TYPE_BUG,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -9989,12 +9989,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DEVIDRAMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 88,
-        .baseDefense   = 78,
-        .baseSpeed     = 88,
+        .baseHP        = 73,
+        .baseAttack    = 78,
+        .baseDefense   = 68,
+        .baseSpeed     = 78,
         .baseSpAttack  = 93,
-        .baseSpDefense = 81,
+        .baseSpDefense = 71,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -10022,12 +10022,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DEVIMON] =
     {
-        .baseHP        = 84,
+        .baseHP        = 74,
         .baseAttack    = 89,
-        .baseDefense   = 83,
-        .baseSpeed     = 79,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 84,
+        .baseDefense   = 73,
+        .baseSpeed     = 69,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 74,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -10056,11 +10056,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DOGGYMON] =
     {
         .baseHP        = 97,
-        .baseAttack    = 70,
-        .baseDefense   = 95,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 74,
-        .baseSpDefense = 90,
+        .baseAttack    = 60,
+        .baseDefense   = 85,
+        .baseSpeed     = 61,
+        .baseSpAttack  = 64,
+        .baseSpDefense = 80,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_DATA,
@@ -10088,12 +10088,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DOKUGUMON] =
     {
-        .baseHP        = 77,
-        .baseAttack    = 75,
-        .baseDefense   = 80,
+        .baseHP        = 67,
+        .baseAttack    = 65,
+        .baseDefense   = 70,
         .baseSpeed     = 99,
-        .baseSpAttack  = 93,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 83,
+        .baseSpDefense = 71,
         .type1 = TYPE_BUG,
         .type2 = TYPE_POISON,
         .type3 = TYPE_VIRUS,
@@ -10121,12 +10121,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CHOUFLYMON] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 83,
-        .baseDefense   = 81,
+        .baseHP        = 75,
+        .baseAttack    = 73,
+        .baseDefense   = 71,
         .baseSpeed     = 89,
-        .baseSpAttack  = 88,
-        .baseSpDefense = 77,
+        .baseSpAttack  = 78,
+        .baseSpDefense = 67,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -10154,12 +10154,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CENTARUMON] =
     {
-        .baseHP        = 86,
-        .baseAttack    = 88,
-        .baseDefense   = 87,
+        .baseHP        = 76,
+        .baseAttack    = 78,
+        .baseDefense   = 77,
         .baseSpeed     = 95,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 75,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_DATA,
@@ -10187,12 +10187,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_COREDRAMON_GREEN] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 89,
-        .baseDefense   = 85,
-        .baseSpeed     = 89,
+        .baseHP        = 74,
+        .baseAttack    = 79,
+        .baseDefense   = 75,
+        .baseSpeed     = 79,
         .baseSpAttack  = 90,
-        .baseSpDefense = 88,
+        .baseSpDefense = 78,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_GRASS,
         .type3 = TYPE_VACCNE,
@@ -10220,12 +10220,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CYCLONEMON] =
     {
-        .baseHP        = 88,
+        .baseHP        = 78,
         .baseAttack    = 103,
-        .baseDefense   = 82,
-        .baseSpeed     = 79,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 81,
+        .baseDefense   = 72,
+        .baseSpeed     = 69,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 71,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -10253,12 +10253,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DAMEMON_FUSION] =
     {
-        .baseHP        = 80,
+        .baseHP        = 70,
         .baseAttack    = 86,
-        .baseDefense   = 81,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 83,
+        .baseDefense   = 71,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 73,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VIRUS,
@@ -10286,12 +10286,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BETGAMAMON] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 93,
-        .baseDefense   = 74,
+        .baseHP        = 62,
+        .baseAttack    = 83,
+        .baseDefense   = 64,
         .baseSpeed     = 94,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 71,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 61,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -10319,12 +10319,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BIOQUETMON] =
     {
-        .baseHP        = 88,
-        .baseAttack    = 88,
-        .baseDefense   = 79,
+        .baseHP        = 78,
+        .baseAttack    = 78,
+        .baseDefense   = 69,
         .baseSpeed     = 96,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 71,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -10352,12 +10352,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BOARMON] =
     {
-        .baseHP        = 91,
-        .baseAttack    = 89,
-        .baseDefense   = 90,
+        .baseHP        = 81,
+        .baseAttack    = 79,
+        .baseDefense   = 80,
         .baseSpeed     = 92,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 66,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIRE,
         .type3 = TYPE_VACCNE,
@@ -10385,12 +10385,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BOMNANIMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 94,
-        .baseDefense   = 81,
-        .baseSpeed     = 82,
+        .baseHP        = 66,
+        .baseAttack    = 84,
+        .baseDefense   = 71,
+        .baseSpeed     = 72,
         .baseSpAttack  = 96,
-        .baseSpDefense = 80,
+        .baseSpDefense = 70,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_VIRUS,
@@ -10418,12 +10418,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CHRYSALMON] =
     {
-        .baseHP        = 93,
-        .baseAttack    = 87,
+        .baseHP        = 83,
+        .baseAttack    = 77,
         .baseDefense   = 99,
-        .baseSpeed     = 62,
-        .baseSpAttack  = 76,
-        .baseSpDefense = 95,
+        .baseSpeed     = 52,
+        .baseSpAttack  = 66,
+        .baseSpDefense = 85,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_UKNOWN,
@@ -10451,12 +10451,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CITRAMON] =
     {
-        .baseHP        = 73,
-        .baseAttack    = 97,
-        .baseDefense   = 79,
-        .baseSpeed     = 85,
+        .baseHP        = 63,
+        .baseAttack    = 87,
+        .baseDefense   = 69,
+        .baseSpeed     = 75,
         .baseSpAttack  = 100,
-        .baseSpDefense = 79,
+        .baseSpDefense = 69,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_GRASS,
         .type3 = TYPE_VIRUS,
@@ -10517,12 +10517,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FANGMON] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 85,
-        .baseDefense   = 80,
+        .baseHP        = 77,
+        .baseAttack    = 75,
+        .baseDefense   = 70,
         .baseSpeed     = 90,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 79,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 69,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_DARK,
         .type3 = TYPE_DATA,
@@ -10550,12 +10550,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FILMON] =
     {
-        .baseHP        = 83,
+        .baseHP        = 73,
         .baseAttack    = 88,
-        .baseDefense   = 83,
-        .baseSpeed     = 82,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 85,
+        .baseDefense   = 73,
+        .baseSpeed     = 72,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 75,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .type3 = TYPE_DATA,
@@ -10583,12 +10583,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DARCMON] =
     {
-        .baseHP        = 93,
+        .baseHP        = 83,
         .baseAttack    = 93,
-        .baseDefense   = 82,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 81,
-        .baseSpDefense = 84,
+        .baseDefense   = 72,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 71,
+        .baseSpDefense = 74,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -10616,12 +10616,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_TRAILMON_DARK] =
     {
-        .baseHP        = 89,
-        .baseAttack    = 75,
-        .baseDefense   = 86,
+        .baseHP        = 79,
+        .baseAttack    = 65,
+        .baseDefense   = 76,
         .baseSpeed     = 102,
-        .baseSpAttack  = 72,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 62,
+        .baseSpDefense = 75,
         .type1 = TYPE_DARK,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -10649,12 +10649,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EXVEEMON_VIRUS] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 85,
-        .baseDefense   = 80,
-        .baseSpeed     = 80,
+        .baseHP        = 77,
+        .baseAttack    = 75,
+        .baseDefense   = 70,
+        .baseSpeed     = 70,
         .baseSpAttack  = 89,
-        .baseSpDefense = 79,
+        .baseSpDefense = 69,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -10682,12 +10682,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EYESMON] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 76,
-        .baseDefense   = 81,
+        .baseHP        = 77,
+        .baseAttack    = 66,
+        .baseDefense   = 71,
         .baseSpeed     = 90,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 77,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 67,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -10715,12 +10715,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DECKDRAMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 81,
-        .baseDefense   = 86,
-        .baseSpeed     = 80,
+        .baseHP        = 66,
+        .baseAttack    = 71,
+        .baseDefense   = 76,
+        .baseSpeed     = 70,
         .baseSpAttack  = 112,
-        .baseSpDefense = 85,
+        .baseSpDefense = 75,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -10748,12 +10748,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DELTAMON] =
     {
-        .baseHP        = 83,
+        .baseHP        = 73,
         .baseAttack    = 90,
-        .baseDefense   = 84,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 85,
+        .baseDefense   = 74,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 75,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -10781,12 +10781,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BIOSTEGMON] =
     {
-        .baseHP        = 92,
+        .baseHP        = 82,
         .baseAttack    = 97,
-        .baseDefense   = 90,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 79,
+        .baseDefense   = 80,
+        .baseSpeed     = 61,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 69,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -10814,12 +10814,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CLOCKMON_FUSION] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 84,
-        .baseDefense   = 79,
-        .baseSpeed     = 87,
+        .baseHP        = 65,
+        .baseAttack    = 74,
+        .baseDefense   = 69,
+        .baseSpeed     = 77,
         .baseSpAttack  = 92,
-        .baseSpDefense = 75,
+        .baseSpDefense = 65,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -10847,12 +10847,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_COELAMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 88,
+        .baseHP        = 73,
+        .baseAttack    = 78,
         .baseDefense   = 92,
-        .baseSpeed     = 82,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 90,
+        .baseSpeed     = 72,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 80,
         .type1 = TYPE_WATER,
         .type2 = TYPE_ROCK,
         .type3 = TYPE_DATA,
@@ -10880,12 +10880,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BOOGIEMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 80,
-        .baseDefense   = 87,
-        .baseSpeed     = 84,
+        .baseHP        = 73,
+        .baseAttack    = 70,
+        .baseDefense   = 77,
+        .baseSpeed     = 74,
         .baseSpAttack  = 92,
-        .baseSpDefense = 81,
+        .baseSpDefense = 71,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -10913,12 +10913,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BUCCHIEMON_RED] =
     {
-        .baseHP        = 77,
-        .baseAttack    = 73,
-        .baseDefense   = 75,
-        .baseSpeed     = 77,
+        .baseHP        = 67,
+        .baseAttack    = 63,
+        .baseDefense   = 65,
+        .baseSpeed     = 67,
         .baseSpAttack  = 80,
-        .baseSpDefense = 74,
+        .baseSpDefense = 64,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
         .type3 = TYPE_VACCNE,
@@ -10946,12 +10946,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLGARURMON] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 87,
-        .baseDefense   = 81,
+        .baseHP        = 74,
+        .baseAttack    = 77,
+        .baseDefense   = 71,
         .baseSpeed     = 93,
-        .baseSpAttack  = 88,
-        .baseSpDefense = 83,
+        .baseSpAttack  = 78,
+        .baseSpDefense = 73,
         .type1 = TYPE_ICE,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -10979,12 +10979,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_SAWKUWAMON] =
     {
-        .baseHP        = 61,
-        .baseAttack    = 88,
-        .baseDefense   = 87,
+        .baseHP        = 51,
+        .baseAttack    = 78,
+        .baseDefense   = 77,
         .baseSpeed     = 90,
-        .baseSpAttack  = 71,
-        .baseSpDefense = 62,
+        .baseSpAttack  = 61,
+        .baseSpDefense = 52,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_BUG,
         .type3 = TYPE_VIRUS,
@@ -11012,12 +11012,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLIMPMON] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 78,
-        .baseDefense   = 79,
-        .baseSpeed     = 85,
+        .baseHP        = 62,
+        .baseAttack    = 68,
+        .baseDefense   = 69,
+        .baseSpeed     = 75,
         .baseSpAttack  = 90,
-        .baseSpDefense = 79,
+        .baseSpDefense = 69,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -11046,11 +11046,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DARLIZAMON] =
     {
         .baseHP        = 93,
-        .baseAttack    = 88,
-        .baseDefense   = 82,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 81,
+        .baseAttack    = 78,
+        .baseDefense   = 72,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 71,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -11078,12 +11078,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DARMAILMON] =
     {
-        .baseHP        = 77,
-        .baseAttack    = 81,
+        .baseHP        = 67,
+        .baseAttack    = 71,
         .baseDefense   = 90,
-        .baseSpeed     = 83,
-        .baseSpAttack  = 89,
-        .baseSpDefense = 86,
+        .baseSpeed     = 73,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 76,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -11111,12 +11111,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EXVEEMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 88,
-        .baseDefense   = 80,
-        .baseSpeed     = 81,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 79,
+        .baseDefense   = 70,
+        .baseSpeed     = 71,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 69,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -11145,11 +11145,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DRIMOGEMON] =
     {
         .baseHP        = 93,
-        .baseAttack    = 92,
-        .baseDefense   = 87,
-        .baseSpeed     = 77,
-        .baseSpAttack  = 72,
-        .baseSpDefense = 80,
+        .baseAttack    = 82,
+        .baseDefense   = 77,
+        .baseSpeed     = 67,
+        .baseSpAttack  = 62,
+        .baseSpDefense = 70,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .type3 = TYPE_DATA,
@@ -11177,12 +11177,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EBIDRAMON] =
     {
-        .baseHP        = 80,
+        .baseHP        = 70,
         .baseAttack    = 91,
-        .baseDefense   = 90,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 77,
+        .baseDefense   = 80,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 67,
         .type1 = TYPE_WATER,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -11210,12 +11210,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BULLMON] =
     {
-        .baseHP        = 79,
-        .baseAttack    = 88,
-        .baseDefense   = 86,
+        .baseHP        = 69,
+        .baseAttack    = 78,
+        .baseDefense   = 76,
         .baseSpeed     = 93,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 71,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -11243,12 +11243,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AURUMON] =
     {
-        .baseHP        = 79,
-        .baseAttack    = 75,
-        .baseDefense   = 73,
+        .baseHP        = 69,
+        .baseAttack    = 65,
+        .baseDefense   = 63,
         .baseSpeed     = 98,
-        .baseSpAttack  = 73,
-        .baseSpDefense = 74,
+        .baseSpAttack  = 63,
+        .baseSpDefense = 64,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VIRUS,
@@ -11276,12 +11276,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AXEMON] =
     {
-        .baseHP        = 88,
-        .baseAttack    = 90,
-        .baseDefense   = 81,
+        .baseHP        = 78,
+        .baseAttack    = 80,
+        .baseDefense   = 71,
         .baseSpeed     = 96,
-        .baseSpAttack  = 75,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 75,
         .type1 = TYPE_DARK,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VIRUS,
@@ -11309,12 +11309,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BABOONMON] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 86,
+        .baseHP        = 74,
+        .baseAttack    = 76,
         .baseDefense   = 91,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 72,
-        .baseSpDefense = 91,
+        .baseSpeed     = 61,
+        .baseSpAttack  = 62,
+        .baseSpDefense = 81,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_ROCK,
         .type3 = TYPE_VACCNE,
@@ -11342,12 +11342,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BURAIMON] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 93,
-        .baseDefense   = 80,
+        .baseHP        = 68,
+        .baseAttack    = 83,
+        .baseDefense   = 70,
         .baseSpeed     = 97,
-        .baseSpAttack  = 81,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 71,
+        .baseSpDefense = 66,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_VACCNE,
@@ -11375,12 +11375,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BURGERMON_CHAMPION] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 70,
-        .baseDefense   = 73,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 77,
-        .baseSpDefense = 78,
+        .baseHP        = 62,
+        .baseAttack    = 60,
+        .baseDefense   = 63,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 67,
+        .baseSpDefense = 68,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_VACCNE,
@@ -11408,12 +11408,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ELEPHANMON] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 84,
-        .baseDefense   = 85,
+        .baseHP        = 77,
+        .baseAttack    = 74,
+        .baseDefense   = 75,
         .baseSpeed     = 89,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 75,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -11442,11 +11442,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_BAOHUCKMON] =
     {
         .baseHP        = 91,
-        .baseAttack    = 89,
-        .baseDefense   = 83,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 80,
+        .baseAttack    = 79,
+        .baseDefense   = 73,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 70,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -11474,12 +11474,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BAROMON] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 75,
-        .baseDefense   = 80,
-        .baseSpeed     = 73,
+        .baseHP        = 68,
+        .baseAttack    = 65,
+        .baseDefense   = 70,
+        .baseSpeed     = 63,
         .baseSpAttack  = 84,
-        .baseSpDefense = 82,
+        .baseSpDefense = 72,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .type3 = TYPE_VIRUS,
@@ -11507,12 +11507,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_TRAILMON_BATTLE_ARMAMENT] =
     {
-        .baseHP        = 89,
+        .baseHP        = 79,
         .baseAttack    = 102,
-        .baseDefense   = 88,
-        .baseSpeed     = 99,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 87,
+        .baseDefense   = 78,
+        .baseSpeed     = 89,
+        .baseSpAttack  = 55,
+        .baseSpDefense = 77,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_DATA,
@@ -11540,12 +11540,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FIRAMON] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 85,
-        .baseDefense   = 81,
+        .baseHP        = 74,
+        .baseAttack    = 75,
+        .baseDefense   = 71,
         .baseSpeed     = 90,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 79,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 69,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -11573,12 +11573,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FLADRAMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 91,
-        .baseDefense   = 85,
-        .baseSpeed     = 90,
+        .baseHP        = 66,
+        .baseAttack    = 81,
+        .baseDefense   = 75,
+        .baseSpeed     = 80,
         .baseSpAttack  = 93,
-        .baseSpDefense = 87,
+        .baseSpDefense = 77,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -11606,12 +11606,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FLAWIZAMON] =
     {
-        .baseHP        = 86,
-        .baseAttack    = 73,
-        .baseDefense   = 80,
-        .baseSpeed     = 87,
+        .baseHP        = 76,
+        .baseAttack    = 63,
+        .baseDefense   = 70,
+        .baseSpeed     = 77,
         .baseSpAttack  = 98,
-        .baseSpDefense = 92,
+        .baseSpDefense = 82,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_PSYCHIC,
         .type3 = TYPE_VIRUS,
@@ -11639,12 +11639,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EXERMON] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 85,
-        .baseDefense   = 80,
+        .baseHP        = 77,
+        .baseAttack    = 75,
+        .baseDefense   = 70,
         .baseSpeed     = 89,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 68,
         .type1 = TYPE_BUG,
         .type2 = TYPE_ELECTRIC,
         .type3 = TYPE_DATA,
@@ -11672,12 +11672,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DORUGAMON] =
     {
-        .baseHP        = 85,
+        .baseHP        = 75,
         .baseAttack    = 86,
-        .baseDefense   = 82,
-        .baseSpeed     = 84,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 81,
+        .baseDefense   = 72,
+        .baseSpeed     = 74,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 71,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -11705,12 +11705,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DORULUMON] =
     {
-        .baseHP        = 88,
+        .baseHP        = 78,
         .baseAttack    = 92,
-        .baseDefense   = 84,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 78,
-        .baseSpDefense = 80,
+        .baseDefense   = 74,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 68,
+        .baseSpDefense = 70,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_GROUND,
         .type3 = TYPE_VIRUS,
@@ -11738,12 +11738,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DARKTYRMON_X] =
     {
-        .baseHP        = 89,
+        .baseHP        = 79,
         .baseAttack    = 95,
-        .baseDefense   = 88,
-        .baseSpeed     = 74,
-        .baseSpAttack  = 92,
-        .baseSpDefense = 82,
+        .baseDefense   = 78,
+        .baseSpeed     = 64,
+        .baseSpAttack  = 82,
+        .baseSpDefense = 72,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -11771,12 +11771,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DARKTYRMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 93,
-        .baseDefense   = 83,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 93,
-        .baseSpDefense = 85,
+        .baseDefense   = 73,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 83,
+        .baseSpDefense = 75,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VIRUS,
@@ -11805,11 +11805,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_FLARIZAMON] =
     {
         .baseHP        = 99,
-        .baseAttack    = 82,
-        .baseDefense   = 80,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 79,
+        .baseAttack    = 72,
+        .baseDefense   = 70,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 69,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -11837,12 +11837,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLKGATOMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 75,
-        .baseDefense   = 72,
+        .baseHP        = 66,
+        .baseAttack    = 65,
+        .baseDefense   = 62,
         .baseSpeed     = 89,
-        .baseSpAttack  = 77,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 67,
+        .baseSpDefense = 68,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -11870,12 +11870,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLKGATOMON_UVER] =
     {
-        .baseHP        = 93,
-        .baseAttack    = 71,
-        .baseDefense   = 72,
+        .baseHP        = 83,
+        .baseAttack    = 61,
+        .baseDefense   = 62,
         .baseSpeed     = 95,
-        .baseSpAttack  = 72,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 62,
+        .baseSpDefense = 68,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -11903,12 +11903,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BLGROWLMON] =
     {
-        .baseHP        = 94,
-        .baseAttack    = 83,
-        .baseDefense   = 85,
-        .baseSpeed     = 73,
+        .baseHP        = 84,
+        .baseAttack    = 73,
+        .baseDefense   = 75,
+        .baseSpeed     = 63,
         .baseSpAttack  = 98,
-        .baseSpDefense = 80,
+        .baseSpDefense = 70,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -11936,12 +11936,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DOLPHMON] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 78,
-        .baseDefense   = 82,
+        .baseHP        = 70,
+        .baseAttack    = 68,
+        .baseDefense   = 72,
         .baseSpeed     = 96,
-        .baseSpAttack  = 92,
-        .baseSpDefense = 90,
+        .baseSpAttack  = 82,
+        .baseSpDefense = 80,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .type3 = TYPE_VACCNE,
@@ -11969,12 +11969,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BUCCHIEMON_GREEN] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 73,
-        .baseDefense   = 73,
-        .baseSpeed     = 79,
+        .baseHP        = 65,
+        .baseAttack    = 63,
+        .baseDefense   = 63,
+        .baseSpeed     = 69,
         .baseSpAttack  = 80,
-        .baseSpDefense = 76,
+        .baseSpDefense = 66,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
         .type3 = TYPE_VACCNE,
@@ -12003,11 +12003,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_BULKMON] =
     {
         .baseHP        = 95,
-        .baseAttack    = 92,
-        .baseDefense   = 87,
-        .baseSpeed     = 89,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 80,
+        .baseAttack    = 82,
+        .baseDefense   = 77,
+        .baseSpeed     = 79,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 70,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -12036,11 +12036,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_DIGMON] =
     {
         .baseHP        = 95,
-        .baseAttack    = 89,
-        .baseDefense   = 84,
-        .baseSpeed     = 81,
-        .baseSpAttack  = 76,
-        .baseSpDefense = 82,
+        .baseAttack    = 79,
+        .baseDefense   = 74,
+        .baseSpeed     = 71,
+        .baseSpAttack  = 66,
+        .baseSpDefense = 72,
         .type1 = TYPE_BUG,
         .type2 = TYPE_GROUND,
         .type3 = TYPE_VACCNE,
@@ -12068,12 +12068,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DINOHYUMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 90,
-        .baseDefense   = 81,
-        .baseSpeed     = 82,
-        .baseSpAttack  = 78,
-        .baseSpDefense = 81,
+        .baseDefense   = 71,
+        .baseSpeed     = 72,
+        .baseSpAttack  = 68,
+        .baseSpDefense = 71,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_DATA,
@@ -12101,12 +12101,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DOBERMON] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 85,
-        .baseDefense   = 81,
+        .baseHP        = 65,
+        .baseAttack    = 75,
+        .baseDefense   = 71,
         .baseSpeed     = 93,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 68,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VACCNE,
@@ -12134,12 +12134,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_DOBERMON_X] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 90,
-        .baseDefense   = 78,
+        .baseHP        = 65,
+        .baseAttack    = 80,
+        .baseDefense   = 68,
         .baseSpeed     = 92,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 66,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -12167,12 +12167,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_APEMON] =
     {
-        .baseHP        = 79,
+        .baseHP        = 69,
         .baseAttack    = 86,
-        .baseDefense   = 82,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 78,
-        .baseSpDefense = 77,
+        .baseDefense   = 72,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 68,
+        .baseSpDefense = 67,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_VACCNE,
@@ -12200,12 +12200,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_AQUILAMON] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 86,
-        .baseDefense   = 76,
+        .baseHP        = 68,
+        .baseAttack    = 76,
+        .baseDefense   = 66,
         .baseSpeed     = 103,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 75,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 65,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
         .type3 = TYPE_VACCNE,
@@ -12233,12 +12233,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARCADIAMON_CHAMPION] =
     {
-        .baseHP        = 72,
+        .baseHP        = 62,
         .baseAttack    = 97,
-        .baseDefense   = 80,
-        .baseSpeed     = 86,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 76,
+        .baseDefense   = 70,
+        .baseSpeed     = 76,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 66,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -12266,12 +12266,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FLYMON] =
     {
-        .baseHP        = 77,
-        .baseAttack    = 87,
-        .baseDefense   = 88,
+        .baseHP        = 67,
+        .baseAttack    = 77,
+        .baseDefense   = 78,
         .baseSpeed     = 88,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 66,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_BUG,
         .type3 = TYPE_VIRUS,
@@ -12299,12 +12299,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FRIGIMON] =
     {
-        .baseHP        = 73,
-        .baseAttack    = 83,
-        .baseDefense   = 81,
-        .baseSpeed     = 80,
+        .baseHP        = 63,
+        .baseAttack    = 73,
+        .baseDefense   = 71,
+        .baseSpeed     = 70,
         .baseSpAttack  = 85,
-        .baseSpDefense = 74,
+        .baseSpDefense = 64,
         .type1 = TYPE_ICE,
         .type2 = TYPE_ICE,
         .type3 = TYPE_VACCNE,
@@ -12332,12 +12332,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FROGMON] =
     {
-        .baseHP        = 82,
+        .baseHP        = 72,
         .baseAttack    = 89,
-        .baseDefense   = 82,
-        .baseSpeed     = 87,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 85,
+        .baseDefense   = 72,
+        .baseSpeed     = 77,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 75,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .type3 = TYPE_DATA,
@@ -12365,12 +12365,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FUGAMON] =
     {
-        .baseHP        = 83,
+        .baseHP        = 73,
         .baseAttack    = 88,
-        .baseDefense   = 82,
-        .baseSpeed     = 78,
-        .baseSpAttack  = 87,
-        .baseSpDefense = 80,
+        .baseDefense   = 72,
+        .baseSpeed     = 68,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 70,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_VIRUS,
@@ -12399,11 +12399,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_GANEMON] =
     {
         .baseHP        = 94,
-        .baseAttack    = 79,
-        .baseDefense   = 90,
-        .baseSpeed     = 78,
-        .baseSpAttack  = 82,
-        .baseSpDefense = 85,
+        .baseAttack    = 69,
+        .baseDefense   = 80,
+        .baseSpeed     = 68,
+        .baseSpAttack  = 72,
+        .baseSpDefense = 75,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,
         .type3 = TYPE_VACCNE,
@@ -12431,12 +12431,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GAOGAMON] =
     {
-        .baseHP        = 86,
+        .baseHP        = 76,
         .baseAttack    = 91,
-        .baseDefense   = 85,
-        .baseSpeed     = 88,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 76,
+        .baseDefense   = 75,
+        .baseSpeed     = 78,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 66,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_FIGHTING,
         .type3 = TYPE_DATA,
@@ -12465,11 +12465,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_GARGOMON] =
     {
         .baseHP        = 89,
-        .baseAttack    = 84,
-        .baseDefense   = 85,
-        .baseSpeed     = 82,
-        .baseSpAttack  = 88,
-        .baseSpDefense = 83,
+        .baseAttack    = 74,
+        .baseDefense   = 75,
+        .baseSpeed     = 72,
+        .baseSpAttack  = 78,
+        .baseSpDefense = 73,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .type3 = TYPE_VACCNE,
@@ -12497,12 +12497,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GARGOYLMON] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 77,
-        .baseDefense   = 80,
-        .baseSpeed     = 87,
+        .baseHP        = 70,
+        .baseAttack    = 67,
+        .baseDefense   = 70,
+        .baseSpeed     = 77,
         .baseSpAttack  = 90,
-        .baseSpDefense = 90,
+        .baseSpDefense = 80,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_DARK,
         .type3 = TYPE_VIRUS,
@@ -12530,12 +12530,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GARURUMON] =
     {
-        .baseHP        = 82,
-        .baseAttack    = 86,
-        .baseDefense   = 83,
+        .baseHP        = 72,
+        .baseAttack    = 76,
+        .baseDefense   = 73,
         .baseSpeed     = 94,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 83,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 73,
         .type1 = TYPE_ICE,
         .type2 = TYPE_ICE,
         .type3 = TYPE_VACCNE,
@@ -12563,12 +12563,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GATOMON_X] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 75,
-        .baseDefense   = 72,
+        .baseHP        = 66,
+        .baseAttack    = 65,
+        .baseDefense   = 62,
         .baseSpeed     = 87,
-        .baseSpAttack  = 84,
-        .baseSpDefense = 82,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 72,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_LIGHT,
         .type3 = TYPE_VACCNE,
@@ -12596,12 +12596,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GEKOMON] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 76,
-        .baseDefense   = 79,
-        .baseSpeed     = 85,
+        .baseHP        = 73,
+        .baseAttack    = 66,
+        .baseDefense   = 69,
+        .baseSpeed     = 75,
         .baseSpAttack  = 92,
-        .baseSpDefense = 86,
+        .baseSpDefense = 76,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .type3 = TYPE_VIRUS,
@@ -12629,12 +12629,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GEOGREYMON] =
     {
-        .baseHP        = 84,
+        .baseHP        = 74,
         .baseAttack    = 94,
-        .baseDefense   = 86,
-        .baseSpeed     = 83,
-        .baseSpAttack  = 89,
-        .baseSpDefense = 83,
+        .baseDefense   = 76,
+        .baseSpeed     = 73,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 73,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_DRAGON,
         .type3 = TYPE_VACCNE,
@@ -12662,12 +12662,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GARURUMON_X] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 89,
-        .baseDefense   = 87,
+        .baseHP        = 70,
+        .baseAttack    = 79,
+        .baseDefense   = 77,
         .baseSpeed     = 92,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 76,
+        .baseSpDefense = 75,
         .type1 = TYPE_ICE,
         .type2 = TYPE_ICE,
         .type3 = TYPE_VACCNE,
@@ -12695,12 +12695,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GATOMON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 77,
-        .baseDefense   = 72,
+        .baseHP        = 66,
+        .baseAttack    = 67,
+        .baseDefense   = 62,
         .baseSpeed     = 89,
-        .baseSpAttack  = 75,
-        .baseSpDefense = 78,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 68,
         .type1 = TYPE_LIGHT,
         .type2 = TYPE_LIGHT,
         .type3 = TYPE_VACCNE,
@@ -12729,11 +12729,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_GEREMON] =
     {
         .baseHP        = 84,
-        .baseAttack    = 74,
-        .baseDefense   = 75,
-        .baseSpeed     = 72,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 70,
+        .baseAttack    = 64,
+        .baseDefense   = 65,
+        .baseSpeed     = 62,
+        .baseSpAttack  = 73,
+        .baseSpDefense = 60,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .type3 = TYPE_VIRUS,
@@ -12761,12 +12761,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GESOMON] =
     {
-        .baseHP        = 83,
+        .baseHP        = 73,
         .baseAttack    = 90,
-        .baseDefense   = 84,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 79,
-        .baseSpDefense = 80,
+        .baseDefense   = 74,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 70,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .type3 = TYPE_VIRUS,
@@ -12794,11 +12794,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EOSMON_CHAMPION] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 84,
-        .baseDefense   = 97,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 85,
+        .baseHP        = 70,
+        .baseAttack    = 74,
+        .baseDefense   = 87,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 75,
         .baseSpDefense = 100,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_BUG,
