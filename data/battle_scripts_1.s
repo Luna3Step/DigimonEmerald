@@ -2667,6 +2667,7 @@ BattleScript_EffectPoisonFang::
 	setmoveeffect MOVE_EFFECT_TOXIC
 	goto BattleScript_EffectHit
 
+
 BattleScript_EffectWeatherBall::
 	setweatherballtype
 	goto BattleScript_EffectHit

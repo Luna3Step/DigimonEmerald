@@ -359,9 +359,10 @@
 #define MOVE_PROPHECY 355
 #define MOVE_BLESSING 356
 #define MOVE_HOLY_BEAM 357
+#define MOVE_THUNDER_FANG 358
 
 
-#define MOVES_COUNT 358
+#define MOVES_COUNT 359
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
