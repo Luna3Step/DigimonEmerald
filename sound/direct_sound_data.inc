@@ -1455,8 +1455,8 @@ Cry_Allomon_x::
 	.incbin "sound/direct_sound_samples/cries/allomon_x.bin"
 
 	.align 2
-Cry_Swellow::
-	.incbin "sound/direct_sound_samples/cries/swellow.bin"
+Cry_Angelamon::
+	.incbin "sound/direct_sound_samples/cries/angelamon.bin"
 
 	.align 2
 Cry_Unused268::

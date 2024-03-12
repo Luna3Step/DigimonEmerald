@@ -3275,7 +3275,7 @@ static const union AnimCmd sAnim_Allomon_x_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Swellow_1[] =
+static const union AnimCmd sAnim_Angelamon_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(0, 18),
@@ -5109,7 +5109,7 @@ SINGLE_ANIMATION(Bakemon);
 SINGLE_ANIMATION(Balistamon);
 SINGLE_ANIMATION(Baluchimon);
 SINGLE_ANIMATION(Allomon_x);
-SINGLE_ANIMATION(Swellow);
+SINGLE_ANIMATION(Angelamon);
 SINGLE_ANIMATION(Aresdramon);
 SINGLE_ANIMATION(Atamademon);
 static const union AnimCmd *const sAnims_Coredramon_blue[] ={
@@ -5559,7 +5559,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BALISTAMON]     = sAnims_Balistamon,
     [SPECIES_BALUCHIMON]    = sAnims_Baluchimon,
     [SPECIES_ALLOMON_X]     = sAnims_Allomon_x,
-    [SPECIES_ANGELAMON]     = sAnims_Swellow,
+    [SPECIES_ANGELAMON]     = sAnims_Angelamon,
     [SPECIES_ARESDRAMON]   = sAnims_Aresdramon,
     [SPECIES_ATAMADEMON]     = sAnims_Atamademon,
     [SPECIES_COREDRAMON_BLUE]      = sAnims_Coredramon_blue,
