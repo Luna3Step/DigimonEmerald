@@ -1425,6 +1425,10 @@ static const u8 sBlessingDescription[] = _(
     "Blesses the opposing Digimon\n"
     "converting it.");
 
+static const u8 sHolyBeamDescription[] = _(
+    "Focuses holy power into a\n"
+    "beam that may convert it.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1783,4 +1787,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_WATER_PULSE - 1] = sWaterPulseDescription,
     [MOVE_DOOM_DESIRE - 1] = sDoomDesireDescription,
     [MOVE_PSYCHO_BOOST - 1] = sPsychoBoostDescription,
+    [MOVE_HOLY_BEAM - 1] = sHolyBeamDescription,
 };

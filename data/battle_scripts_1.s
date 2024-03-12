@@ -233,6 +233,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectDragonDance            @ EFFECT_DRAGON_DANCE
 	.4byte BattleScript_EffectCamouflage             @ EFFECT_CAMOUFLAGE
 	.4byte BattleScript_EffectBlessing               @ EFFECT_BLESSING
+	.4byte BattleScript_EffectConvertHit             @ EFFECT_CONVERT_HIT
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -366,6 +367,10 @@ BattleScript_EffectBurnHit::
 
 BattleScript_EffectFreezeHit::
 	setmoveeffect MOVE_EFFECT_FREEZE
+	goto BattleScript_EffectHit
+
+BattleScript_EffectConvertHit::
+	setmoveeffect MOVE_EFFECT_CONVERTED
 	goto BattleScript_EffectHit
 
 BattleScript_EffectParalyzeHit::

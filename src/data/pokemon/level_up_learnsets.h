@@ -438,7 +438,7 @@ static const u16 sBukamonLevelUpLearnset[] = {
 static const u16 sCalumonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BLESSING),
     LEVEL_UP_MOVE( 1, MOVE_PROPHECY),
-    LEVEL_UP_MOVE( 1, MOVE_HEADBUTT),
+    LEVEL_UP_MOVE( 1, MOVE_HOLY_BEAM),
     LEVEL_UP_MOVE( 8, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(11, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE(14, MOVE_DOUBLE_TEAM),
