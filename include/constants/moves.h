@@ -360,9 +360,14 @@
 #define MOVE_BLESSING 356
 #define MOVE_HOLY_BEAM 357
 #define MOVE_THUNDER_FANG 358
+#define MOVE_AIR_SLASH 359
+#define MOVE_X_SCISSOR 360
+#define MOVE_STRUGGLE_BUG 361
+#define MOVE_DRACO_METEOR 362
+#define MOVE_BUG_BUZZ 363
 
 
-#define MOVES_COUNT 359
+#define MOVES_COUNT 364
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

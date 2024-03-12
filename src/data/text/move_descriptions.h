@@ -1433,6 +1433,26 @@ static const u8 sThunderFangDescription[] = _(
     "The user bites with charged\n"
     "fangs. May paralyze target.");
 
+static const u8 sAirSlashDescription[] = _(
+    "Attacks with a blade of air\n"
+    "that may flinch the target.");
+
+static const u8 sXScissorDescription[] = _(
+    "The user slashes at the foe\n"
+    "crossing its claws.");
+
+static const u8 sStruggleBugDescription[] = _(
+    "Resisting, the user attacks the\n"
+    "opponent reducing their SP. ATK.");
+
+static const u8 sDracoMeteorDescription[] = _(
+    "Comets are summoned but the users\n"
+    "SP. ATK is sharply reduced.");
+
+static const u8 sBugBuzzDescription[] = _(
+    "The user vibrates its wings. It\n"
+    "may lower the targets SP. DEF.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1793,4 +1813,9 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PSYCHO_BOOST - 1] = sPsychoBoostDescription,
     [MOVE_HOLY_BEAM - 1] = sHolyBeamDescription,
     [MOVE_THUNDER_FANG - 1] = sThunderFangDescription,
+    [MOVE_AIR_SLASH - 1] = sAirSlashDescription,
+    [MOVE_X_SCISSOR - 1] = sXScissorDescription,
+    [MOVE_STRUGGLE_BUG - 1] = sStruggleBugDescription,
+    [MOVE_DRACO_METEOR - 1] = sDracoMeteorDescription,
+    [MOVE_BUG_BUZZ - 1] = sBugBuzzDescription,
 };
