@@ -2292,7 +2292,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Atsushi),
     },
-
+    
     [TRAINER_KIRK] =
     {
         .trainerClass = TRAINER_CLASS_GUITARIST,
