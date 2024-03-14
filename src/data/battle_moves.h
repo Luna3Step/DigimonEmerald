@@ -5120,7 +5120,49 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .secondaryEffectChance = 50,
         .target = MOVE_TARGET_SELECTED,
         .priority = 1,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAKES_CONTACT | FLAG_MIRROR_MOVE_AFFECTED | FLAG_MAKES_CONTACT,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAKES_CONTACT | FLAG_MIRROR_MOVE_AFFECTED,
         .category= MOVE_CATEGORY_PHYSICAL,
+    },
+
+    [MOVE_DRGLESS_SPKR] =
+    {
+        .effect = EFFECT_HIGH_CRITICAL,
+        .power = 60,
+        .type = TYPE_STEEL,
+        .accuracy = 90,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAKES_CONTACT | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
+
+    [MOVE_MUD_BOMB] =
+    {
+        .effect = EFFECT_ACCURACY_DOWN_HIT,
+        .power = 60,
+        .type = TYPE_GROUND,
+        .accuracy = 85,
+        .pp = 10,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
+    },
+
+    [MOVE_HONE_CLAWS] =
+    {
+        .effect = EFFECT_HONE_CLAWS, // New Effect
+        .power = 0,
+        .type = TYPE_DARK,
+        .accuracy = 0,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .flags = FLAG_SNATCH_AFFECTED,
+        .category= MOVE_CATEGORY_STATUS,
     },
 };

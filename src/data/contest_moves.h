@@ -2910,6 +2910,27 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_RAIN_DANCE},
     },
+    [MOVE_DRGLESS_SPKR] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_BELLY_DRUM},
+    },
+    [MOVE_MUD_BOMB] =
+    {
+        .effect = CONTEST_EFFECT_BETTER_WHEN_AUDIENCE_EXCITED,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_RAIN_DANCE},
+    },
+    [MOVE_HONE_CLAWS] =
+    {
+        .effect = CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONE,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_LEER},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

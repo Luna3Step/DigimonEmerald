@@ -366,4 +366,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_DRACO_METEOR] = _("DRACO METEOR"),
     [MOVE_RAZOR_SHELL] = _("RAZOR SHELL"),
     [MOVE_AQUA_JET] = _("AQUA JET"),
+    [MOVE_DRGLESS_SPKR] = _("Drgless Spkr"),
+    [MOVE_MUD_BOMB] = _("MUD BOMB"),
+    [MOVE_HONE_CLAWS] = _("HONE CLAWS"),
 };

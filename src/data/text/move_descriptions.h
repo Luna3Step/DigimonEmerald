@@ -1460,6 +1460,18 @@ static const u8 sRazorShellDescription[] = _(
 static const u8 sAquaJetDescription[] = _(
     "The user lunges at the foe.\n"
     "This move always goes first");
+
+static const u8 sDrglessSpkrDescription[] = _(
+    "Bisects the enemy with its\n"
+    "claws. High critical-hit ratio ");
+
+static const u8 sMudBombDescription[] = _(
+    "The user launches a hard mud\n"
+    "ball. This may lower accuracy");
+
+static const u8 sHoneClawsDescription[] = _(
+    "The user sharpens its claws\n"
+    "to boost ATK and accuracy.");
     
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -1828,4 +1840,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_BUG_BUZZ - 1] = sBugBuzzDescription,
     [MOVE_RAZOR_SHELL - 1] = sRazorShellDescription,
     [MOVE_AQUA_JET - 1] = sAquaJetDescription,
+    [MOVE_DRGLESS_SPKR - 1] = sDrglessSpkrDescription,
+    [MOVE_MUD_BOMB - 1] = sMudBombDescription,
+    [MOVE_HONE_CLAWS - 1] = sHoneClawsDescription,
 };

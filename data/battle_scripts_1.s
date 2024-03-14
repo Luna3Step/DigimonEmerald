@@ -234,6 +234,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectCamouflage             @ EFFECT_CAMOUFLAGE
 	.4byte BattleScript_EffectBlessing               @ EFFECT_BLESSING
 	.4byte BattleScript_EffectConvertHit             @ EFFECT_CONVERT_HIT
+	.4byte BattleScript_EffectHoneClaws              @ EFFECT_HONE_CLAWS
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -372,6 +373,31 @@ BattleScript_EffectFreezeHit::
 BattleScript_EffectConvertHit::
 	setmoveeffect MOVE_EFFECT_CONVERTED
 	goto BattleScript_EffectHit
+
+BattleScript_EffectHoneClaws::
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_ATK, MAX_STAT_STAGE, BattleScript_AttackAccUpDoMoveAnim
+	jumpifstat BS_ATTACKER, CMP_EQUAL, STAT_ACC, MAX_STAT_STAGE, BattleScript_CantRaiseMultipleStats
+BattleScript_AttackAccUpDoMoveAnim::
+	attackanimation
+	waitanimation
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	playstatchangeanimation BS_ATTACKER, BIT_SPATK | BIT_SPDEF, 0
+	setstatchanger STAT_ATK, 1, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_AttackAccUpTrySpDef
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_AttackAccUpTrySpDef
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_AttackAccUpTrySpDef::
+	setstatchanger STAT_ACC, 1, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_AttackAccUpEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_AttackAccUpEnd
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_AttackAccUpEnd:
+	goto BattleScript_MoveEnd
 
 BattleScript_EffectParalyzeHit::
 	setmoveeffect MOVE_EFFECT_PARALYSIS

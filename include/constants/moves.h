@@ -367,9 +367,12 @@
 #define MOVE_BUG_BUZZ 363
 #define MOVE_RAZOR_SHELL 364
 #define MOVE_AQUA_JET 365
+#define MOVE_DRGLESS_SPKR 366
+#define MOVE_MUD_BOMB 367
+#define MOVE_HONE_CLAWS 368
 
 
-#define MOVES_COUNT 366
+#define MOVES_COUNT 369
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
