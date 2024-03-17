@@ -19,6 +19,29 @@ OldaleTown_EventScript_SetOldaleState::
 	setvar VAR_OLDALE_TOWN_STATE, 1
 	return
 
+OldaleTown_EventScript_Nurse::
+	lock
+	faceplayer
+	msgbox OldaleTown_Text_Nurse, MSGBOX_DEFAULT
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart OldaleTown_Nurse_Basic
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+OldaleTown_Nurse_Basic:
+	.2byte ITEM_HP_PLUS
+	.2byte ITEM_PROTEIN_PLUS
+	.2byte ITEM_IRON_PLUS
+	.2byte ITEM_CARBOS_PLUS
+	.2byte ITEM_CALCIUM_PLUS
+	.2byte ITEM_ZINC_PLUS
+	.2byte ITEM_NONE
+	release
+	end
+
 OldaleTown_EventScript_BlockWestEntrance::
 	setobjectxyperm LOCALID_FOOTPRINTS_MAN, 1, 11
 	setobjectmovementtype LOCALID_FOOTPRINTS_MAN, MOVEMENT_TYPE_FACE_LEFT
@@ -378,6 +401,12 @@ OldaleTown_Text_DiscoveredFootprints:
 	.string "a rare POKéMON!\p"
 	.string "Wait until I finish sketching\n"
 	.string "them, okay?$"
+
+OldaleTown_Text_Nurse:
+	.string "Hello there!\n"
+	.string "For a low price you can try\p"
+	.string "our experimental items for\n"
+	.string "your Digimon!$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
 	.string "I finished sketching the footprints of\n"

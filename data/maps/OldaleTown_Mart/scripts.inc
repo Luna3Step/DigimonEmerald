@@ -22,6 +22,7 @@ OldaleTown_Mart_Pokemart_Basic:
 	release
 	end
 
+
 OldaleTown_Mart_ExpandedItems::
 	pokemart OldaleTown_Mart_Pokemart_Expanded
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
