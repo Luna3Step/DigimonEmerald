@@ -6656,12 +6656,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin1[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_GUMMYMON,
     },
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_TORBALLMON,
     }
 };
 
@@ -6669,12 +6669,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hector[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_DARKTYRMON,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_DARKTYRMON_X,
+    .species = SPECIES_VEMMON,
     }
 };
 
@@ -6682,17 +6682,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMossdeep[] = {
     {
     .iv = 100,
     .lvl = 36,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 100,
     .lvl = 38,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 100,
     .lvl = 40,
-    .species = SPECIES_YURAMON,
+    .species = SPECIES_FLAWIZAMON,
     }
 };
 
@@ -6700,12 +6700,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin2[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_TERRIERMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_EBIBURGMON,
     }
 };
 
@@ -6713,12 +6713,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin3[] = {
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_TERRIERMON,
     },
     {
     .iv = 0,
     .lvl = 29,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_EBIBURGMON,
     }
 };
 
@@ -6726,12 +6726,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin4[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -6739,12 +6739,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin5[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_AGUNIMON,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_ALLOMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -6752,31 +6752,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_GARGOYLMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
     .iv = 150,
     .lvl = 43,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_MAGICAL_LEAF, MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     },
     {
     .iv = 150,
     .lvl = 41,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BALUCHIMON,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
     .iv = 250,
     .lvl = 45,
-    .species = SPECIES_ARCADIAMON_CHAMPION,
+    .species = SPECIES_GARGOMON,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -6785,7 +6785,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Terriermo
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_SUNARZAMON,
+    .species = SPECIES_TSUNOMON,
     }
 };
 
@@ -6793,17 +6793,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Terriermo
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -6811,17 +6811,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Terriermo
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GARURUMON,
     }
 };
 
@@ -6829,7 +6829,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Sunarzamo
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_SYAKOMON_X,
+    .species = SPECIES_KOROMON,
     }
 };
 
@@ -6837,17 +6837,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Sunarzamo
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_AGUMON,
     }
 };
 
@@ -6855,17 +6855,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Sunarzamo
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_GEOGREYMON,
     }
 };
 
@@ -6873,7 +6873,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Syakomon_
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_TERRIERMON,
+    .species = SPECIES_TANEMON,
     }
 };
 
@@ -6881,17 +6881,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Syakomon_
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_PALMON,
     }
 };
 
@@ -6899,17 +6899,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Syakomon_
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_FANBEEMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_FANGMON,
     }
 };
 
@@ -6917,7 +6917,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Terriermon[] 
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_SUNARZAMON,
+    .species = SPECIES_TSUNOMON,
     }
 };
 
@@ -6925,17 +6925,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Terriermon[] 
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -6943,17 +6943,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Terriermon[] 
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GARURUMON,
     }
 };
 
@@ -6961,7 +6961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Sunarzamon[] 
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_SYAKOMON_X,
+    .species = SPECIES_KOROMON,
     }
 };
 
@@ -6969,17 +6969,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Sunarzamon[] 
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_AGUMON,
     }
 };
 
@@ -6987,17 +6987,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Sunarzamon[] 
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_GEOGREYMON,
     }
 };
 
@@ -7005,7 +7005,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Syakomon_x[] 
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_TERRIERMON,
+    .species = SPECIES_TANEMON,
     }
 };
 
@@ -7013,17 +7013,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Syakomon_x[] 
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_PALMON,
     }
 };
 
@@ -7031,17 +7031,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Syakomon_x[] 
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_TENTOMON,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_FANGMON,
     }
 };
 
@@ -7049,32 +7049,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BAOHUCKMON,
+    .species = SPECIES_DEMMERAMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_TOYAGUMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_BUKAMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_TINKERMON,
+    .species = SPECIES_HOPMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ALLOMON_X,
+    .species = SPECIES_MISSIMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_BABYDMON,
     }
 };
 
@@ -7082,7 +7082,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Davis[] = {
     {
     .iv = 0,
     .lvl = 27,
-    .species = SPECIES_TYUTYUMON,
+    .species = SPECIES_KUDAMON_06,
     }
 };
 
@@ -7090,13 +7090,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_Mitchell[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_DECKDRAMON,
+    .species = SPECIES_BLGROWLMON,
     .moves = {MOVE_EXPLOSION, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_PSYCHIC}
     },
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_DELTAMON,
+    .species = SPECIES_BUCCHIEMON_RED,
     .moves = {MOVE_EXPLOSION, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_SHADOW_BALL}
     }
 };
@@ -7105,32 +7105,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac2[] = {
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_CANDLEMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_KOKUWAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_GOMAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_MONODRAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_DRACOMON,
     }
 };
 
@@ -7138,32 +7138,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac3[] = {
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_CANDLEMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_KOKUWAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_GOMAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_MONODRAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_DRACOMON,
     }
 };
 
@@ -7171,32 +7171,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac4[] = {
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_CANDLEMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_KOKUWAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_GOMAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_MONODRAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_DRACOMON,
     }
 };
 
@@ -7204,32 +7204,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_BAKEMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BLKGATOMON_UVER,
+    .species = SPECIES_GAOGAMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_AIRDRAMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_DOBERMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_COREDRAMON_BLUE,
     }
 };
 
@@ -7237,32 +7237,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia1[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_TSUNOMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_TOKOMON_X,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_MINOMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_MISSIMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BIRDRAMON,
+    .species = SPECIES_BOSAMON,
     },
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_KAKKINMON,
     }
 };
 
@@ -7270,12 +7270,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Halle[] = {
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_BLGARGOMON,
+    .species = SPECIES_GATOMON,
     },
     {
     .iv = 0,
     .lvl = 43,
-    .species = SPECIES_EXERMON,
+    .species = SPECIES_DORULUMON,
     }
 };
 
@@ -7283,7 +7283,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Garrison[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_POYOMON,
+    .species = SPECIES_HYOKOMON,
     }
 };
 
@@ -7291,32 +7291,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia2[] = {
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_GABUMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_PATAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_FLORAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BIRDRAMON,
+    .species = SPECIES_ANGORAMON,
     },
     {
     .iv = 10,
     .lvl = 22,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_LUDOMON,
     }
 };
 
@@ -7324,32 +7324,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia3[] = {
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_GABUMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_PATAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_FLORAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_ANGORAMON,
     },
     {
     .iv = 20,
     .lvl = 25,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_LUDOMON,
     }
 };
 
@@ -7357,32 +7357,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia4[] = {
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_GABUMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_PATAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_FLORAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_COMMDRAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_ANGORAMON,
     },
     {
     .iv = 30,
     .lvl = 28,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_LUDOMON,
     }
 };
 
@@ -7390,32 +7390,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_GARURUMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_ANGEMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_JELLYMON,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DOBERMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_DOGGYMON,
     },
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_BLKGABUMON,
+    .species = SPECIES_BLKGATOMON_UVER,
     }
 };
 
@@ -7423,7 +7423,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson1[] = {
     {
     .iv = 50,
     .lvl = 27,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_SOLARMON,
     }
 };
 
@@ -7431,17 +7431,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lorenzo[] = {
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_AIRDRAMON,
+    .species = SPECIES_GABUMON,
     },
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_ARMADILMON,
     },
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_VEMMON,
     }
 };
 
@@ -7449,7 +7449,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sebastian[] = {
     {
     .iv = 50,
     .lvl = 39,
-    .species = SPECIES_TRAILMON_DARK,
+    .species = SPECIES_BIOSTEGMON,
     }
 };
 
@@ -7457,7 +7457,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson2[] = {
     {
     .iv = 60,
     .lvl = 31,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_TRAILMON_DARK,
     }
 };
 
@@ -7465,7 +7465,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson3[] = {
     {
     .iv = 70,
     .lvl = 34,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_TRAILMON_DARK,
     }
 };
 
@@ -7473,7 +7473,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson4[] = {
     {
     .iv = 80,
     .lvl = 37,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_TRAILMON_DARK,
     }
 };
 
@@ -7481,12 +7481,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson5[] = {
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_DONSHOUMON,
+    .species = SPECIES_TRAILMON_DARK,
     },
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     }
 };
 
@@ -7494,12 +7494,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine1[] = {
     {
     .iv = 50,
     .lvl = 26,
-    .species = SPECIES_ZURUMON,
+    .species = SPECIES_JUNKMON,
     },
     {
     .iv = 50,
     .lvl = 26,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_EBIBURGMON,
     }
 };
 
@@ -7507,17 +7507,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenna[] = {
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_TSUKAIMON,
     },
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_DRACMON,
     },
     {
     .iv = 50,
     .lvl = 28,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_MUSHROOMON,
     }
 };
 
@@ -7538,12 +7538,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine2[] = {
     {
     .iv = 60,
     .lvl = 30,
-    .species = SPECIES_ZURUMON,
+    .species = SPECIES_JUNKMON,
     },
     {
     .iv = 60,
     .lvl = 30,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -7551,12 +7551,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine3[] = {
     {
     .iv = 70,
     .lvl = 33,
-    .species = SPECIES_ZURUMON,
+    .species = SPECIES_JUNKMON,
     },
     {
     .iv = 70,
     .lvl = 33,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -7564,12 +7564,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine4[] = {
     {
     .iv = 80,
     .lvl = 36,
-    .species = SPECIES_ZURUMON,
+    .species = SPECIES_JUNKMON,
     },
     {
     .iv = 80,
     .lvl = 36,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -7577,12 +7577,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine5[] = {
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_IMPMON_X,
+    .species = SPECIES_JUNKMON,
     },
     {
     .iv = 90,
     .lvl = 39,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -7590,7 +7590,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julio[] = {
     {
     .iv = 0,
     .lvl = 21,
-    .species = SPECIES_PICKMON_WHITE,
+    .species = SPECIES_HERISSMON,
     }
 };
 
@@ -7598,12 +7598,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern5[] =
     {
     .iv = 50,
     .lvl = 35,
-    .species = SPECIES_BLKTOYAMON,
+    .species = SPECIES_GARGOYLMON,
     },
     {
     .iv = 50,
     .lvl = 35,
-    .species = SPECIES_YURAMON,
+    .species = SPECIES_GARURUMON_X,
     }
 };
 
@@ -7624,12 +7624,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre4[] = {
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_CHAMBLEMON,
+    .species = SPECIES_ARGOMON_CHAMPION,
     },
     {
     .iv = 0,
     .lvl = 30,
-    .species = SPECIES_BLGARURMON,
+    .species = SPECIES_BAROMON,
     }
 };
 
@@ -7642,7 +7642,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntJaggedPass[] = {
     {
     .iv = 50,
     .lvl = 22,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_LOPMON_X,
     }
 };
 
@@ -7671,7 +7671,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lilith[] = {
     {
     .iv = 150,
     .lvl = 13,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_TORBALLMON,
     }
 };
 
@@ -7679,7 +7679,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
     {
     .iv = 200,
     .lvl = 13,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_MINOMON,
     }
 };
 
@@ -7710,7 +7710,7 @@ static const struct TrainerMonItemCustomMoves sParty_Athena[] = {
     {
     .iv = 100,
     .lvl = 32,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_DARMAILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SURF, MOVE_THIEF, MOVE_NONE, MOVE_NONE}
     }
@@ -7720,7 +7720,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Harrison[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_MISSIMON,
+    .species = SPECIES_ARESDRAMON,
     }
 };
 
@@ -7744,7 +7744,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Terry[] = {
     {
     .iv = 0,
     .lvl = 37,
-    .species = SPECIES_LUCEMON,
+    .species = SPECIES_BAOHUCKMON,
     }
 };
 
@@ -7760,7 +7760,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kathleen[] = {
     {
     .iv = 100,
     .lvl = 36,
-    .species = SPECIES_KAKKINMON,
+    .species = SPECIES_FRIGIMON,
     }
 };
 
@@ -7768,7 +7768,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Clifford[] = {
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_LUCEMON,
+    .species = SPECIES_DARLIZAMON,
     }
 };
 
@@ -7776,7 +7776,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicholas[] = {
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_LOPMON_X,
+    .species = SPECIES_BETGAMAMON,
     }
 };
 
@@ -7813,7 +7813,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter6[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_BLKTOYAMON,
+    .species = SPECIES_BUCCHIEMON_GREEN,
     }
 };
 
@@ -7829,7 +7829,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Macey[] = {
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_HAWKMON,
+    .species = SPECIES_ARCHELOMON,
     }
 };
 
@@ -7837,12 +7837,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroSunarzamo
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_SYAKOMON_X,
+    .species = SPECIES_AGUMON,
     }
 };
 
@@ -7850,12 +7850,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTerriermo
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_SUNARZAMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -7897,22 +7897,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMtChimney[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_FLAMEMON,
     },
     {
     .iv = 50,
     .lvl = 20,
-    .species = SPECIES_TINKERMON,
+    .species = SPECIES_STARMON_2010,
     },
     {
     .iv = 50,
     .lvl = 22,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_FLAMEMON,
     },
     {
     .iv = 50,
     .lvl = 22,
-    .species = SPECIES_ICEBOTAMON,
+    .species = SPECIES_TENTOMON,
     }
 };
 
@@ -7933,12 +7933,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroSyakomon_
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_TERRIERMON,
+    .species = SPECIES_PALMON,
     }
 };
 
@@ -7946,12 +7946,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTerriermon[] 
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_SUNARZAMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -7959,17 +7959,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMagmaHideout[] = {
     {
     .iv = 150,
     .lvl = 37,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 150,
     .lvl = 38,
-    .species = SPECIES_GOTSUMON,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 150,
     .lvl = 39,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_BOARMON,
     }
 };
 
@@ -7977,17 +7977,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
     {
     .iv = 150,
     .lvl = 24,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_BIYOMON,
     },
     {
     .iv = 150,
     .lvl = 24,
-    .species = SPECIES_ICEBOTAMON,
+    .species = SPECIES_GAMMAMON,
     },
     {
     .iv = 150,
     .lvl = 25,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_ARMADILMON,
     }
 };
 
@@ -7995,12 +7995,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_TOYAGUMON,
+    .species = SPECIES_CHIBICKMON,
     },
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_KEEMON,
     }
 };
 
@@ -8008,12 +8008,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_MINOMON,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_TOKOMON,
     }
 };
 
@@ -8021,7 +8021,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Janice[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_TOKOMON_X,
     }
 };
 
@@ -8034,12 +8034,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vivi[] = {
     {
     .iv = 100,
     .lvl = 15,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_STARMON_2010,
     },
     {
     .iv = 100,
     .lvl = 15,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_STARMON_2010,
     }
 };
 
@@ -8047,12 +8047,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_WORMMON,
     },
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_PATAMON,
     }
 };
 
@@ -8060,12 +8060,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_WORMMON,
     },
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_PATAMON,
     }
 };
 
@@ -8073,12 +8073,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_AURUMON,
     },
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8086,7 +8086,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_AURUMON,
     },
     {
     .iv = 40,
@@ -8096,7 +8096,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_ATAMADEMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8104,7 +8104,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sally[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_ZERIMON,
+    .species = SPECIES_TYUTYUMON,
     }
 };
 
@@ -8112,17 +8112,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robin[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_BIRDRAMON,
+    .species = SPECIES_BOSAMON,
     },
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_KOZENIMON,
     },
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_GIGIMON,
     }
 };
 
@@ -8138,7 +8138,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Crissy[] = {
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_BIOSTEGMON,
     },
     {
     .iv = 100,
@@ -8151,12 +8151,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_LEAFMON,
     },
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_PAFUMON,
     }
 };
 
@@ -8164,22 +8164,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lyle[] = {
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_NYOKIMON,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_ARGOMON_F,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_PETITMON,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_FUFUMON,
     }
 };
 
@@ -8187,12 +8187,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jose[] = {
     {
     .iv = 50,
     .lvl = 8,
-    .species = SPECIES_VEEMON,
+    .species = SPECIES_CHAPMON,
     },
     {
     .iv = 50,
     .lvl = 8,
-    .species = SPECIES_BAKEMON,
+    .species = SPECIES_PUROROMON,
     }
 };
 
@@ -8200,12 +8200,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Doug[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_BAKEMON,
+    .species = SPECIES_KOKABUIMON,
     },
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_CRABMON,
     }
 };
 
@@ -8213,12 +8213,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greg[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_IMPMON_X,
     },
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_OTAMAMON_RED,
     }
 };
 
@@ -8226,7 +8226,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kent[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_TAPIRMON,
     }
 };
 
@@ -8234,12 +8234,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_BAKEMON,
+    .species = SPECIES_TSUNOMON,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_BAKEMON,
+    .species = SPECIES_VIXIMON,
     }
 };
 
@@ -8247,7 +8247,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_RENAMON,
     }
 };
 
@@ -8255,12 +8255,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_ZENIMON,
+    .species = SPECIES_RENAMON,
     },
     {
     .iv = 20,
     .lvl = 29,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -8268,12 +8268,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_ARCHELOMON,
+    .species = SPECIES_GARURUMON,
     },
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_ZENIMON,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 30,
@@ -8291,12 +8291,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_GARURUMON,
     },
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_ZENIMON,
+    .species = SPECIES_BALISTAMON,
     },
     {
     .iv = 40,
@@ -8309,12 +8309,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brice[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_BETAMON_X,
     },
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_CORONAMON,
     }
 };
 
@@ -8322,17 +8322,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent1[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_SHOUTMON,
     },
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_DONDOKOMON,
     }
 };
 
@@ -8340,12 +8340,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lenny[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_ARURAUMON,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_JUNKMON,
     }
 };
 
@@ -8353,12 +8353,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lucas1[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_EBIBURGMON,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_MUCHOMON,
     }
 };
 
@@ -8366,17 +8366,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alan[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_NEEMON,
     },
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_BLKGUILMON,
     }
 };
 
@@ -8392,12 +8392,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eric[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_EBIBURGMON,
     },
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_DEXDORUMON,
+    .species = SPECIES_OTAMAMON,
     }
 };
 
@@ -8405,7 +8405,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lucas2[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_CHAMBLEMON,
+    .species = SPECIES_TORBALLMON,
     .moves = {MOVE_SPLASH, MOVE_WATER_GUN, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -8414,13 +8414,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_Mike1[] = {
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_ARCADIAMON_IT,
     .moves = {MOVE_GUST, MOVE_GROWL, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_TINKERMON,
+    .species = SPECIES_PICKMON_RED,
     .moves = {MOVE_BITE, MOVE_SCARY_FACE, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -8429,17 +8429,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mike2[] = {
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_ARCADIAMON_ROOKIE,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_STARMON_2010,
     },
     {
     .iv = 0,
     .lvl = 16,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_LOPMON,
     }
 };
 
@@ -8447,22 +8447,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent2[] = {
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_SHOUTMON,
     },
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_DONDOKOMON,
     },
     {
     .iv = 10,
     .lvl = 24,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_STARMON_2010,
     }
 };
 
@@ -8470,22 +8470,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent3[] = {
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_SHOUTMON,
     },
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_DONDOKOMON,
     },
     {
     .iv = 20,
     .lvl = 27,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_STARMON_2010,
     }
 };
 
@@ -8493,46 +8493,36 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent4[] = {
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_BALISTAMON,
     },
-    {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_MOONMON,
-    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Trent5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_DORULUMON,
     },
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_BALISTAMON,
     },
-    {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_MOTIMON,
-    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
@@ -8565,12 +8555,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan1[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_TERRIERMON_ASSISTANT,
     },
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_CHIKURIMON,
     }
 };
 
@@ -8578,12 +8568,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan2[] = {
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8591,12 +8581,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8604,12 +8594,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8617,12 +8607,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan5[] = {
     {
     .iv = 40,
     .lvl = 39,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_GARGOMON,
     },
     {
     .iv = 40,
     .lvl = 39,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_ANGEMON,
     }
 };
 
@@ -8630,7 +8620,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Johanna[] = {
     {
     .iv = 0,
     .lvl = 13,
-    .species = SPECIES_BLKAGUMON_X,
+    .species = SPECIES_KOROMON,
     }
 };
 
@@ -8638,7 +8628,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Gerald[] = {
     {
     .iv = 100,
     .lvl = 23,
-    .species = SPECIES_DONSHOUMON,
+    .species = SPECIES_IGNITEMON,
     .moves = {MOVE_FLAMETHROWER, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK, MOVE_BIND}
     }
 };
@@ -8647,13 +8637,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_Vivian[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_TERRIERMON_X,
     .moves = {MOVE_BIDE, MOVE_DETECT, MOVE_CONFUSION, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_ELECMON_VIOLET,
     .moves = {MOVE_THUNDER_PUNCH, MOVE_DETECT, MOVE_CONFUSION, MOVE_MEDITATE}
     }
 };
@@ -8662,7 +8652,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Danielle[] = {
     {
     .iv = 100,
     .lvl = 23,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_BAKOMON,
     .moves = {MOVE_BIDE, MOVE_DETECT, MOVE_CONFUSION, MOVE_FIRE_PUNCH}
     }
 };
@@ -8692,7 +8682,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_IMPMON_X,
     .moves = {MOVE_SAND_ATTACK, MOVE_DOUBLE_TEAM, MOVE_FURY_CUTTER, MOVE_SWORDS_DANCE}
     }
 };
@@ -8701,7 +8691,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_BAKEMON,
+    .species = SPECIES_LABRAMON,
     .moves = {MOVE_LEECH_LIFE, MOVE_FURY_SWIPES, MOVE_MIND_READER, MOVE_DIG}
     },
     {
@@ -8716,7 +8706,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Flint[] = {
     {
     .iv = 150,
     .lvl = 29,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_SALAMON,
     },
     {
     .iv = 150,
@@ -8729,17 +8719,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ashley[] = {
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_DARLIZAMON,
+    .species = SPECIES_GHOSTMON,
     },
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_DARLIZAMON,
+    .species = SPECIES_AGUMON_06,
     },
     {
     .iv = 100,
     .lvl = 27,
-    .species = SPECIES_DARLIZAMON,
+    .species = SPECIES_PALMON,
     }
 };
 
@@ -8747,7 +8737,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
     {
     .iv = 30,
     .lvl = 16,
-    .species = SPECIES_APEMON,
+    .species = SPECIES_TERRIERMON,
     }
 };
 
@@ -8755,31 +8745,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR2[] = {
     {
     .iv = 150,
     .lvl = 47,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_GARGOYLMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
     .iv = 150,
     .lvl = 46,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
     .iv = 150,
     .lvl = 47,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_MAGICAL_LEAF, MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     },
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BALUCHIMON,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
     .iv = 250,
     .lvl = 48,
-    .species = SPECIES_ARCADIAMON_CHAMPION,
+    .species = SPECIES_GARGOMON,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8788,31 +8778,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR3[] = {
     {
     .iv = 150,
     .lvl = 50,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_GARGOYLMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
     .iv = 150,
     .lvl = 49,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
     .iv = 150,
     .lvl = 50,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_MAGICAL_LEAF, MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     },
     {
     .iv = 150,
     .lvl = 47,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BALUCHIMON,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
     .iv = 250,
     .lvl = 51,
-    .species = SPECIES_ARCADIAMON_CHAMPION,
+    .species = SPECIES_GARGOMON,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8821,31 +8811,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR4[] = {
     {
     .iv = 150,
     .lvl = 53,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_GARGOYLMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
     .iv = 150,
     .lvl = 52,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
     .iv = 150,
     .lvl = 53,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_MAGICAL_LEAF, MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     },
     {
     .iv = 150,
     .lvl = 50,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BALUCHIMON,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
     .iv = 250,
     .lvl = 54,
-    .species = SPECIES_ARCADIAMON_CHAMPION,
+    .species = SPECIES_GARGOMON,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8854,31 +8844,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_WallyVR5[] = {
     {
     .iv = 150,
     .lvl = 56,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_GARGOYLMON,
     .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
     },
     {
     .iv = 150,
     .lvl = 55,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .moves = {MOVE_SING, MOVE_ASSIST, MOVE_CHARM, MOVE_FAINT_ATTACK}
     },
     {
     .iv = 150,
     .lvl = 56,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_DECKDRAMON,
     .moves = {MOVE_MAGICAL_LEAF, MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     },
     {
     .iv = 150,
     .lvl = 53,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BALUCHIMON,
     .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
     },
     {
     .iv = 250,
     .lvl = 57,
-    .species = SPECIES_ARCADIAMON_CHAMPION,
+    .species = SPECIES_GARGOMON,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT}
     }
 };
@@ -8887,12 +8877,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTerriermo
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_FLYMON,
     },
     {
     .iv = 150,
@@ -8902,7 +8892,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTerriermo
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GARURUMON,
     }
 };
 
@@ -8910,7 +8900,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveSunarzamo
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 150,
@@ -8920,12 +8910,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveSunarzamo
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_AGUNIMON,
+    .species = SPECIES_FLYMON,
     },
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_GEOGREYMON,
     }
 };
 
@@ -8933,22 +8923,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveSyakomon_
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_AGUNIMON,
+    .species = SPECIES_ANKYLOMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_FLYMON,
     },
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_FANGMON,
     }
 };
 
@@ -8956,12 +8946,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTerriermon[] 
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_FLAWIZAMON,
     },
     {
     .iv = 150,
@@ -8971,7 +8961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTerriermon[] 
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_SWIMMON,
+    .species = SPECIES_GARURUMON,
     }
 };
 
@@ -8979,7 +8969,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveSunarzamon[] 
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
+    .species = SPECIES_FLAWIZAMON,
     },
     {
     .iv = 150,
@@ -8987,14 +8982,9 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveSunarzamon[] 
     .species = SPECIES_ANKYLOMON,
     },
     {
-    .iv = 150,
-    .lvl = 32,
-    .species = SPECIES_AGUNIMON,
-    },
-    {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_TAPIRMON,
+    .species = SPECIES_GEOGREYMON,
     }
 };
 
@@ -9002,22 +8992,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveSyakomon_x[] 
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_AGUNIMON,
+    .species = SPECIES_FLAWIZAMON,
     },
     {
     .iv = 150,
     .lvl = 32,
-    .species = SPECIES_OTAMAMON_RED,
+    .species = SPECIES_ANKYLOMON,
     },
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_TERRIERMON_ASSISTANT,
+    .species = SPECIES_FANGMON,
     }
 };
 
@@ -9030,7 +9020,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jonah[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_GATOMON_X,
     },
     {
     .iv = 0,
@@ -9048,7 +9038,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Henry[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_MISSIMON,
+    .species = SPECIES_ALLOMON_X,
     }
 };
 
@@ -9066,7 +9056,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Roger[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_COMMDRAMON,
+    .species = SPECIES_DARMAILMON,
     }
 };
 
@@ -9074,12 +9064,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alexa[] = {
     {
     .iv = 100,
     .lvl = 34,
-    .species = SPECIES_ZURUMON,
+    .species = SPECIES_CENTARUMON,
     },
     {
     .iv = 100,
     .lvl = 34,
-    .species = SPECIES_JELLYMON,
+    .species = SPECIES_EXVEEMON_VIRUS,
     }
 };
 
@@ -9100,7 +9090,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji1[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_AKATORIMON,
     }
 };
 
@@ -9108,12 +9098,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wayne[] = {
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_BALUCHIMON,
     },
     {
     .iv = 0,
     .lvl = 31,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
@@ -9131,7 +9121,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aidan[] = {
     {
     .iv = 0,
     .lvl = 32,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_ARCADIAMON_CHAMPION,
     }
 };
 
@@ -9139,7 +9129,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Reed[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_EYESMON_SCATTERMODE,
+    .species = SPECIES_COREDRAMON_GREEN,
     },
     {
     .iv = 0,
@@ -9152,7 +9142,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tisha[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GOTSUMON_X,
+    .species = SPECIES_EXVEEMON_VIRUS,
     }
 };
 
@@ -9160,12 +9150,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ToriAndTia[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_KOKUWAMON_X,
     },
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_GOMAMON,
     }
 };
 
@@ -9188,13 +9178,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_TyraAndIvy[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_HACKMON,
     .moves = {MOVE_GROWTH, MOVE_STUN_SPORE, MOVE_MEGA_DRAIN, MOVE_LEECH_SEED}
     },
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_LUCEMON,
     .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_MUD_SPORT, MOVE_ROCK_THROW}
     }
 };
@@ -9293,7 +9283,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ReliAndIan[] = {
     {
     .iv = 0,
     .lvl = 35,
-    .species = SPECIES_JELLYMON,
+    .species = SPECIES_APEMON,
     },
     {
     .iv = 0,
@@ -9306,7 +9296,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy1[] = {
     {
     .iv = 0,
     .lvl = 34,
-    .species = SPECIES_GOTSUMON_X,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
@@ -9319,7 +9309,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy2[] = {
     {
     .iv = 0,
     .lvl = 42,
-    .species = SPECIES_GOTSUMON_X,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
@@ -9332,7 +9322,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy3[] = {
     {
     .iv = 0,
     .lvl = 45,
-    .species = SPECIES_GUILMON,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
@@ -9345,12 +9335,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy4[] = {
     {
     .iv = 0,
     .lvl = 48,
-    .species = SPECIES_GUILMON,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
     .lvl = 46,
-    .species = SPECIES_CENTARUMON,
+    .species = SPECIES_CHOUFLYMON,
     }
 };
 
@@ -9358,12 +9348,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy5[] = {
     {
     .iv = 0,
     .lvl = 51,
-    .species = SPECIES_GUILMON,
+    .species = SPECIES_DOBERMON_X,
     },
     {
     .iv = 0,
     .lvl = 49,
-    .species = SPECIES_CENTARUMON,
+    .species = SPECIES_CHOUFLYMON,
     }
 };
 
@@ -9376,7 +9366,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LisaAndRay[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_YUKIAGUMON_06,
     }
 };
 
@@ -9389,17 +9379,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chris[] = {
     {
     .iv = 0,
     .lvl = 20,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_MUSHROOMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_DOGGYMON,
+    .species = SPECIES_MONITAMON,
     },
     {
     .iv = 0,
     .lvl = 23,
-    .species = SPECIES_CHOUFLYMON,
+    .species = SPECIES_TSUKAIMON,
     }
 };
 
@@ -9407,13 +9397,13 @@ static const struct TrainerMonItemDefaultMoves sParty_Dawson[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_TOYAGUMON,
+    .species = SPECIES_BIBIMON,
     .heldItem = ITEM_NUGGET
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_TINKERMON,
+    .species = SPECIES_TANEMON,
     .heldItem = ITEM_NONE
     }
 };
@@ -9422,13 +9412,13 @@ static const struct TrainerMonItemDefaultMoves sParty_Sarah[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_PICKMON_SILVER,
     .heldItem = ITEM_NONE
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_TOYAGUMON,
+    .species = SPECIES_DEMMERAMON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -9437,7 +9427,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darian[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_HAZYAGUMON,
+    .species = SPECIES_GUMMYMON,
     }
 };
 
@@ -9445,7 +9435,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hailey[] = {
     {
     .iv = 0,
     .lvl = 13,
-    .species = SPECIES_JAZAMON,
+    .species = SPECIES_PINAMON,
     }
 };
 
@@ -9466,13 +9456,13 @@ static const struct TrainerMonItemDefaultMoves sParty_Kaleb[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_BUCCHIEMON_RED,
+    .species = SPECIES_YOKOMON,
     .heldItem = ITEM_ORAN_BERRY
     },
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_BOOGIEMON,
+    .species = SPECIES_HIYARIMON,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -9481,7 +9471,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joseph[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_BOARMON,
+    .species = SPECIES_WANYAMON,
     },
     {
     .iv = 0,
@@ -9510,7 +9500,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     {
     .iv = 100,
     .lvl = 15,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_GAZIMON_X,
     }
 };
 
@@ -9518,7 +9508,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tyron[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_LABRAMON,
     }
 };
 
@@ -9526,7 +9516,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Celina[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_SHAMANMON,
     }
 };
 
@@ -9534,7 +9524,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bianca[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_CANDLEMON,
     }
 };
 
@@ -9542,7 +9532,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hayden[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_KERAMON,
     }
 };
 
@@ -9555,7 +9545,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sophie[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_SYAKOMON,
     }
 };
 
@@ -9568,7 +9558,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Coby[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_CORONAMON,
     }
 };
 
@@ -9576,12 +9566,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lawrence[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_DEXDORUMON,
+    .species = SPECIES_ELECMON,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_KODEKACMON,
     }
 };
 
@@ -9589,12 +9579,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wyatt[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_SYAKOMON_X,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_BLKGATOMON,
+    .species = SPECIES_DONDOKOMON,
     }
 };
 
@@ -9602,7 +9592,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Angelina[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_GOBLIMON,
     },
     {
     .iv = 0,
@@ -9615,7 +9605,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kai[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_DEPTHMON,
+    .species = SPECIES_SANGOMON,
     }
 };
 
@@ -9623,7 +9613,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Charlotte[] = {
     {
     .iv = 0,
     .lvl = 19,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_SPADAMON,
     }
 };
 
@@ -9641,7 +9631,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Deandre[] = {
     {
     .iv = 0,
     .lvl = 14,
-    .species = SPECIES_BOARMON,
+    .species = SPECIES_UPAMON,
     }
 };
 
@@ -9787,22 +9777,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMagmaHideout[] = 
     {
     .iv = 75,
     .lvl = 26,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_FLAMEMON,
     },
     {
     .iv = 75,
     .lvl = 28,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_STARMON_2010,
     },
     {
     .iv = 75,
     .lvl = 30,
-    .species = SPECIES_BLGARURMON,
+    .species = SPECIES_AGUNIMON,
     },
     {
     .iv = 75,
     .lvl = 33,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_FLAWIZAMON,
     }
 };
 
@@ -9823,17 +9813,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMossdeep[] = {
     {
     .iv = 150,
     .lvl = 42,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_BIRDRAMON,
     },
     {
     .iv = 150,
     .lvl = 43,
-    .species = SPECIES_GOTSUMON,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 150,
     .lvl = 44,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_BOARMON,
     }
 };
 
@@ -9857,12 +9847,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres1[] = {
     {
     .iv = 50,
     .lvl = 25,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_TOYAGUMON,
     },
     {
     .iv = 50,
     .lvl = 25,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_TOYAGUMON,
     }
 };
 
@@ -9870,12 +9860,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Josue[] = {
     {
     .iv = 50,
     .lvl = 25,
-    .species = SPECIES_ALLOMON_X,
+    .species = SPECIES_KOKUWAMON_X,
     },
     {
     .iv = 50,
     .lvl = 25,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_VEEMON,
     }
 };
 
@@ -9891,17 +9881,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory1[] = {
     {
     .iv = 0,
     .lvl = 24,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_KOTEMON,
     },
     {
     .iv = 0,
     .lvl = 24,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_ARMADILMON,
     },
     {
     .iv = 0,
     .lvl = 24,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_EKAKIMON,
     }
 };
 
@@ -9909,17 +9899,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carolina[] = {
     {
     .iv = 50,
     .lvl = 24,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_MORPHOMON,
     },
     {
     .iv = 50,
     .lvl = 24,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_GUILMON_X,
     },
     {
     .iv = 50,
     .lvl = 24,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_ARCADIAMON_ROOKIE,
     }
 };
 
@@ -9945,7 +9935,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Celia[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_AEGIOMON,
+    .species = SPECIES_GAOSSMON,
     }
 };
 
@@ -9953,12 +9943,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryan[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_BLKAGUMON_X,
     },
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_POYOMON,
+    .species = SPECIES_BLKAGUMON,
     }
 };
 
@@ -9966,12 +9956,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Branden[] = {
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_ALLOMON_X,
+    .species = SPECIES_BLKAGUMON,
     },
     {
     .iv = 0,
     .lvl = 22,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_AGUMON_FAKE_EXPERT,
     }
 };
 
@@ -9979,7 +9969,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryant[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_DOTAGUMON,
     },
     {
     .iv = 0,
@@ -9992,12 +9982,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shayla[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_BURGERMON,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_BULLMON,
+    .species = SPECIES_ZENIMON,
     }
 };
 
@@ -10005,12 +9995,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyra[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_POROMON,
+    .species = SPECIES_ESPIMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_PUROROMON,
+    .species = SPECIES_GABUMON,
     }
 };
 
@@ -10018,12 +10008,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jaiden[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_BALISTAMON,
+    .species = SPECIES_LABRAMON,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_BURAIMON,
+    .species = SPECIES_WORMMON,
     }
 };
 
@@ -10031,12 +10021,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alix[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_KAKKINMON,
+    .species = SPECIES_LOPMON_X,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_AQUILAMON,
+    .species = SPECIES_SYAKOMON,
     }
 };
 
@@ -10044,12 +10034,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Helene[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_OTAMAMON_RED,
     },
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_HAZYAGUMON,
     }
 };
 
@@ -10057,12 +10047,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marlene[] = {
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_RENAMON,
     },
     {
     .iv = 0,
     .lvl = 18,
-    .species = SPECIES_CLOCKMON_FUSION,
+    .species = SPECIES_SOUNBRDMON,
     }
 };
 
@@ -10083,12 +10073,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Johnson[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_KYUPIMON,
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_KYUPIMON,
     }
 };
 
@@ -10096,7 +10086,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Melina[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_POROMON,
+    .species = SPECIES_CHUUMON,
     }
 };
 
@@ -10104,7 +10094,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandi[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_APEMON,
+    .species = SPECIES_CRABMON_X,
     }
 };
 
@@ -10112,7 +10102,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aisha[] = {
     {
     .iv = 0,
     .lvl = 17,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_SUNARZAMON,
     }
 };
 
@@ -10133,7 +10123,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fabian[] = {
     {
     .iv = 0,
     .lvl = 26,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_JAZAMON,
     }
 };
 
@@ -10146,7 +10136,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dayton[] = {
     {
     .iv = 0,
     .lvl = 25,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_CUTEMON,
     }
 };
 
@@ -10171,12 +10161,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Callie[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_LOPMON_X,
     },
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_ARURAUMON,
     }
 };
 
@@ -10197,17 +10187,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_ZENIMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_BOKOMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_POMUMON,
     },
     {
     .iv = 10,
@@ -10217,12 +10207,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_BOARMON,
+    .species = SPECIES_EBIBURGMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_BURGERMON,
     }
 };
 
@@ -10230,17 +10220,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_TINKERMON,
+    .species = SPECIES_SHOUTMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_ARESDRAMON,
+    .species = SPECIES_GUILMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_BOARMON,
+    .species = SPECIES_STRABIMON,
     },
     {
     .iv = 10,
@@ -10250,12 +10240,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CRABMON,
     },
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_BURAIMON,
+    .species = SPECIES_DONDOKOMON,
     }
 };
 
@@ -10263,12 +10253,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin1[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_FLORAMON,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_AXEMON,
+    .species = SPECIES_PULSEMON,
     }
 };
 
@@ -10276,12 +10266,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroSunarzamon[] 
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_SYAKOMON_X,
+    .species = SPECIES_AGUMON,
     }
 };
 
@@ -10289,12 +10279,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroSyakomon_x[] 
     {
     .iv = 25,
     .lvl = 13,
-    .species = SPECIES_CLOCKMON,
+    .species = SPECIES_KAPURIMON,
     },
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_TERRIERMON,
+    .species = SPECIES_TANEMON,
     }
 };
 
@@ -10302,28 +10292,28 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     {
     .iv = 255,
     .lvl = 32,
-    .species = SPECIES_MOTIMON,
+    .species = SPECIES_BOARMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 35,
-    .species = SPECIES_DOTAGUMON,
+    .species = SPECIES_BIOSTEGMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 35,
-    .species = SPECIES_TSUNOMON,
+    .species = SPECIES_DIGMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_BABOONMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
@@ -10333,35 +10323,35 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_DONDOKOMON,
+    .species = SPECIES_BOARMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_MOTIMON,
+    .species = SPECIES_BIOSTEGMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_DOTFALCMON,
+    .species = SPECIES_DIGMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_TSUNOMON,
+    .species = SPECIES_BABOONMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
@@ -10371,35 +10361,35 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_DORUMON,
+    .species = SPECIES_BOARMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_MOTIMON,
+    .species = SPECIES_BIOSTEGMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_DOTFALCMON,
+    .species = SPECIES_DIGMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_TSUNOMON,
+    .species = SPECIES_BABOONMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
@@ -10409,42 +10399,42 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_DRACMON,
+    .species = SPECIES_BOARMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM, MOVE_SUPERSONIC, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_MOTIMON,
+    .species = SPECIES_BIOSTEGMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_DORUMON,
+    .species = SPECIES_DIGMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_DOTFALCMON,
+    .species = SPECIES_BABOONMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_KODEKACMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_DRIMOGEMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
@@ -10454,28 +10444,28 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly2[] = {
     {
     .iv = 255,
     .lvl = 33,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_DINOHYUMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
     },
     {
     .iv = 255,
     .lvl = 33,
-    .species = SPECIES_SAWKUWAMON,
+    .species = SPECIES_GAOGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PSYCHIC, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 35,
-    .species = SPECIES_SALAMON_X,
+    .species = SPECIES_FUGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
     },
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_ARESDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10485,28 +10475,28 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly3[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_DINOHYUMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
     },
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_BLIMPMON,
+    .species = SPECIES_GAOGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PSYCHIC, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_SALAMON_X,
+    .species = SPECIES_FUGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
     },
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_ARESDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10516,35 +10506,35 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly4[] = {
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_ANGORAMON,
+    .species = SPECIES_DINOHYUMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SKY_UPPERCUT, MOVE_PROTECT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_BLIMPMON,
+    .species = SPECIES_GAOGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_SALAMON_X,
+    .species = SPECIES_FUGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_ARESDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10554,42 +10544,42 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_AGUMON_X,
+    .species = SPECIES_DINOHYUMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_EARTHQUAKE, MOVE_BULK_UP}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_ANGORAMON,
+    .species = SPECIES_BLGAOGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SKY_UPPERCUT, MOVE_PROTECT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_GAOGAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_CROSS_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_BLIMPMON,
+    .species = SPECIES_FUGAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_SALAMON_X,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
     },
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_ARESDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
     }
@@ -10599,28 +10589,28 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     {
     .iv = 255,
     .lvl = 36,
-    .species = SPECIES_HYOKOMON,
+    .species = SPECIES_FILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 36,
-    .species = SPECIES_YAAMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROLLOUT, MOVE_THUNDER, MOVE_EXPLOSION, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_BULKMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10630,35 +10620,35 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     {
     .iv = 255,
     .lvl = 39,
-    .species = SPECIES_PETITMON,
+    .species = SPECIES_FILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_SLAM, MOVE_RAIN_DANCE, MOVE_SHOCK_WAVE}
     },
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_IGNITEMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_YAAMON,
+    .species = SPECIES_BULKMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROLLOUT, MOVE_THUNDER, MOVE_EXPLOSION, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10668,35 +10658,35 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson4[] = {
     {
     .iv = 255,
     .lvl = 44,
-    .species = SPECIES_PICHIMON,
+    .species = SPECIES_FILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_SLAM, MOVE_RAIN_DANCE, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_IMPMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_YAAMON,
+    .species = SPECIES_BULKMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROLLOUT, MOVE_THUNDER, MOVE_EXPLOSION, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10706,42 +10696,42 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_CANDLEMON,
+    .species = SPECIES_FILMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SWIFT, MOVE_FOCUS_PUNCH, MOVE_THUNDER_PUNCH, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_PICHIMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_SLAM, MOVE_RAIN_DANCE, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_IMPMON,
+    .species = SPECIES_BULKMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_YAAMON,
+    .species = SPECIES_ELEPHANMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROLLOUT, MOVE_THUNDER, MOVE_EXPLOSION, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_PICKMON_RED,
+    .species = SPECIES_EXERMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
     }
@@ -10751,28 +10741,28 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_OTAMAMON_X,
+    .species = SPECIES_TRAILMON_DARK,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 36,
-    .species = SPECIES_NEGAMON,
+    .species = SPECIES_GEOGREYMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_CLOCKMON,
+    .species = SPECIES_DARKTYRMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
     }
@@ -10782,35 +10772,35 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery3[] = {
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_FRIMON,
+    .species = SPECIES_TRAILMON_DARK,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_ROAR, MOVE_SUNNY_DAY}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_OTAMAMON_X,
+    .species = SPECIES_GEOGREYMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_NEGAMON,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_FLADRAMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_CLOCKMON,
+    .species = SPECIES_DARKTYRMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
     }
@@ -10820,42 +10810,42 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery4[] = {
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_PILLOMON,
+    .species = SPECIES_TRAILMON_DARK,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROAR, MOVE_SOLAR_BEAM, MOVE_TAUNT, MOVE_SUNNY_DAY}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_FRIMON,
+    .species = SPECIES_GEOGREYMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_ROAR}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_OTAMAMON_X,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_NYAROMON,
+    .species = SPECIES_FLADRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_CLOCKMON,
+    .species = SPECIES_DARKTYRMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
     }
@@ -10865,42 +10855,42 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery5[] = {
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_GIGIMON,
+    .species = SPECIES_TRAILMON_DARK,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_ROAR}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_OTAMAMON_X,
+    .species = SPECIES_GEOGREYMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_POMUMON,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_ROAR, MOVE_SOLAR_BEAM, MOVE_TAUNT, MOVE_SUNNY_DAY}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_NYAROMON,
+    .species = SPECIES_FLADRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_CLOCKMON,
+    .species = SPECIES_DARKTYRMON,
     .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
     }
@@ -10910,28 +10900,28 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_BEARMON,
+    .species = SPECIES_DOBERMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_LIGHT_SCREEN, MOVE_SING, MOVE_SKILL_SWAP, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DAMEMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_DOUBLE_EDGE, MOVE_FIRE_BLAST}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DEPUTYMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_BEAM, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
     }
@@ -10941,35 +10931,35 @@ static const struct TrainerMonItemCustomMoves sParty_Norman3[] = {
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DOBERMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_DOUBLE_EDGE, MOVE_FIRE_BLAST}
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_BEARMON,
+    .species = SPECIES_DAMEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_LIGHT_SCREEN, MOVE_SING, MOVE_SKILL_SWAP, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_BETAMON_X,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FAKE_OUT, MOVE_DIZZY_PUNCH, MOVE_ENDURE, MOVE_REVERSAL}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_GARGOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DEPUTYMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_BEAM, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
     }
@@ -10979,35 +10969,35 @@ static const struct TrainerMonItemCustomMoves sParty_Norman4[] = {
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DOBERMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_DOUBLE_EDGE, MOVE_FIRE_BLAST}
     },
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_SHOUTMON,
+    .species = SPECIES_DAMEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_LIGHT_SCREEN, MOVE_SING, MOVE_SKILL_SWAP, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_BETAMON_X,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FAKE_OUT, MOVE_DIZZY_PUNCH, MOVE_ENDURE, MOVE_REVERSAL}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_GARGOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DEPUTYMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_BEAM, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
     }
@@ -11017,42 +11007,42 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     {
     .iv = 255,
     .lvl = 57,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DOBERMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_DOUBLE_EDGE, MOVE_FIRE_BLAST}
     },
     {
     .iv = 255,
     .lvl = 57,
-    .species = SPECIES_SHOUTMON,
+    .species = SPECIES_DAMEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_SING, MOVE_SKILL_SWAP, MOVE_FOCUS_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_BETAMON_X,
+    .species = SPECIES_BOMNANIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FAKE_OUT, MOVE_DIZZY_PUNCH, MOVE_ENDURE, MOVE_REVERSAL}
     },
     {
     .iv = 255,
     .lvl = 57,
-    .species = SPECIES_CHUUMON,
+    .species = SPECIES_GARGOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TAKE_DOWN, MOVE_PROTECT, MOVE_FIRE_BLAST, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_BULLMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_SKILL_SWAP, MOVE_FACADE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_DEPUTYMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_BEAM, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
     }
@@ -11062,35 +11052,35 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_ELECMON,
+    .species = SPECIES_TINKERMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 38,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_ANGEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 41,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_AIRDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11100,42 +11090,42 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_GHOSTMON,
+    .species = SPECIES_TINKERMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
     },
     {
     .iv = 255,
     .lvl = 43,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_ANGEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_ELECMON_VIOLET,
+    .species = SPECIES_AIRDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_BURAIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11145,42 +11135,42 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_GIZAMON,
+    .species = SPECIES_TINKERMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
     },
     {
     .iv = 255,
     .lvl = 49,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_ANGEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_ELECMON_VIOLET,
+    .species = SPECIES_AIRDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_BURAIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11190,42 +11180,42 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_GIZAMON,
+    .species = SPECIES_TINKERMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
     },
     {
     .iv = 255,
     .lvl = 54,
-    .species = SPECIES_ELEPHANMON,
+    .species = SPECIES_ANGEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_AIRDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_ESPIMON,
+    .species = SPECIES_BIRDRAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_BEAM, MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_BURAIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
     },
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_DARMAILMON,
+    .species = SPECIES_FIRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_SKY_ATTACK, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
     }
@@ -11235,35 +11225,35 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_PAGUMON,
+    .species = SPECIES_AEGIOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_YAWN, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 49,
-    .species = SPECIES_DIATRYMON,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 49,
-    .species = SPECIES_HERISSMON,
+    .species = SPECIES_BAROMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_REST, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_DECKDRAMON,
+    .species = SPECIES_BALUCHIMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_DELTAMON,
+    .species = SPECIES_FLAWIZAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
     }
@@ -11273,42 +11263,42 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_TUMBLEMON,
+    .species = SPECIES_AEGIOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_HEADBUTT, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_PAGUMON,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_YAWN, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 54,
-    .species = SPECIES_DIATRYMON,
+    .species = SPECIES_GARGOYLMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 54,
-    .species = SPECIES_HERISSMON,
+    .species = SPECIES_BALUCHIMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_REST, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_DECKDRAMON,
+    .species = SPECIES_BAROMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_DELTAMON,
+    .species = SPECIES_FLAWIZAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
     }
@@ -11318,42 +11308,42 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza4[] = {
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_UPAMON,
+    .species = SPECIES_AEGIOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_HEADBUTT, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 59,
-    .species = SPECIES_DIATRYMON,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_PAGUMON,
+    .species = SPECIES_GARGOYLMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_YAWN, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 59,
-    .species = SPECIES_HERISSMON,
+    .species = SPECIES_BALUCHIMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_REST, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_DECKDRAMON,
+    .species = SPECIES_BAROMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 60,
-    .species = SPECIES_DELTAMON,
+    .species = SPECIES_FLAWIZAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
     }
@@ -11363,42 +11353,42 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
     {
     .iv = 255,
     .lvl = 63,
-    .species = SPECIES_UPAMON,
+    .species = SPECIES_AEGIOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_HEADBUTT, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 64,
-    .species = SPECIES_DIATRYMON,
+    .species = SPECIES_BOOGIEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 63,
-    .species = SPECIES_LIOLLMON,
+    .species = SPECIES_GARGOYLMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_YAWN, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 64,
-    .species = SPECIES_HERISSMON,
+    .species = SPECIES_BALUCHIMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_REST, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 65,
-    .species = SPECIES_DECKDRAMON,
+    .species = SPECIES_BAROMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_REST, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
     .lvl = 65,
-    .species = SPECIES_DELTAMON,
+    .species = SPECIES_FLAWIZAMON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
     }
@@ -11408,35 +11398,35 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_GUMMYMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_RAIN_DANCE, MOVE_PROTECT, MOVE_HYDRO_PUMP}
     },
     {
     .iv = 255,
     .lvl = 46,
-    .species = SPECIES_DEPUTYMON,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_FISSURE}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_FILMON,
+    .species = SPECIES_DEPTHMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_BODY_SLAM, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 48,
-    .species = SPECIES_DEVIMON,
+    .species = SPECIES_EBIDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_REST, MOVE_CRABHAMMER, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_PSYCHEMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11446,35 +11436,35 @@ static const struct TrainerMonItemCustomMoves sParty_Juan3[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_GURIMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_RAIN_DANCE, MOVE_PROTECT, MOVE_HYDRO_PUMP}
     },
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_DEPUTYMON,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_FISSURE}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_FILMON,
+    .species = SPECIES_DEPTHMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_BODY_SLAM, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 53,
-    .species = SPECIES_DEVIMON,
+    .species = SPECIES_EBIDRAMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_REST, MOVE_GUILLOTINE, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
     },
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_PSYCHEMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11484,42 +11474,42 @@ static const struct TrainerMonItemCustomMoves sParty_Juan4[] = {
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_CORONAMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYDRO_PUMP, MOVE_PERISH_SONG, MOVE_ICE_BEAM, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_DEPUTYMON,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_FISSURE}
     },
     {
     .iv = 255,
     .lvl = 56,
-    .species = SPECIES_GURIMON,
+    .species = SPECIES_DEPTHMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_RAIN_DANCE, MOVE_PROTECT, MOVE_HYDRO_PUMP}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_FILMON,
+    .species = SPECIES_EBIDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_BODY_SLAM, MOVE_PROTECT, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
     .lvl = 58,
-    .species = SPECIES_DEVIMON,
+    .species = SPECIES_DOLPHMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_REST, MOVE_GUILLOTINE, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
     },
     {
     .iv = 255,
     .lvl = 61,
-    .species = SPECIES_PSYCHEMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11529,42 +11519,42 @@ static const struct TrainerMonItemCustomMoves sParty_Juan5[] = {
     {
     .iv = 255,
     .lvl = 61,
-    .species = SPECIES_CORONAMON,
+    .species = SPECIES_COELAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYDRO_PUMP, MOVE_PERISH_SONG, MOVE_ICE_BEAM, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 255,
     .lvl = 63,
-    .species = SPECIES_DEPUTYMON,
+    .species = SPECIES_ARCHELOMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_FISSURE}
     },
     {
     .iv = 255,
     .lvl = 61,
-    .species = SPECIES_KAMEMON,
+    .species = SPECIES_DEPTHMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_HYPNOSIS, MOVE_RAIN_DANCE, MOVE_HYDRO_PUMP, MOVE_PERISH_SONG}
     },
     {
     .iv = 255,
     .lvl = 63,
-    .species = SPECIES_FILMON,
+    .species = SPECIES_EBIDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_BODY_SLAM, MOVE_PROTECT, MOVE_SHEER_COLD}
     },
     {
     .iv = 255,
     .lvl = 63,
-    .species = SPECIES_DEVIMON,
+    .species = SPECIES_DOLPHMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_REST, MOVE_GUILLOTINE, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
     },
     {
     .iv = 255,
     .lvl = 66,
-    .species = SPECIES_PSYCHEMON,
+    .species = SPECIES_GESOMON,
     .heldItem = ITEM_CHESTO_BERRY,
     .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
     }
@@ -11574,14 +11564,14 @@ static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_BULKMON,
+    .species = SPECIES_LUCEMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_CHARM, MOVE_NONE}
     },
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_BUCCHIEMON_GREEN,
+    .species = SPECIES_ARGOMON_ROOKIE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_CONFUSE_RAY, MOVE_NONE}
     }
@@ -11599,42 +11589,42 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
     .lvl = 77,
-    .species = SPECIES_PHASCOMON,
+    .species = SPECIES_DECKDRAMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_SPIKES, MOVE_STEEL_WING}
     },
     {
     .iv = 255,
     .lvl = 75,
-    .species = SPECIES_DIATRYMON,
+    .species = SPECIES_AGUNIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_ANCIENT_POWER, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_BLGROWLMON,
+    .species = SPECIES_BURAIMON,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM, MOVE_DRAGON_CLAW}
     },
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_DINOHYUMON,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_INGRAIN, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_DOBERMON_X,
+    .species = SPECIES_DARKTYRMON_X,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_WATER_PULSE, MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_SLASH}
     },
     {
     .iv = 255,
     .lvl = 78,
-    .species = SPECIES_GAOGAMON,
+    .species = SPECIES_EOSMON_CHAMPION,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_METEOR_MASH, MOVE_SHADOW_BALL}
     }
@@ -11644,7 +11634,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Anabel[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_CONOMON,
     }
 };
 
@@ -11652,7 +11642,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tucker[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_BOTAMON,
     }
 };
 
@@ -11660,7 +11650,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Spenser[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_PUNIMON,
     }
 };
 
@@ -11668,7 +11658,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greta[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_LEAFMON,
     }
 };
 
@@ -11676,7 +11666,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Noland[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_PUYOMON,
     }
 };
 
@@ -11684,7 +11674,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lucy[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_TSUBUMON,
     }
 };
 
@@ -11692,7 +11682,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandon[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_FUGAMON,
+    .species = SPECIES_BOTAMON,
     }
 };
 
@@ -11700,12 +11690,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 
@@ -11713,17 +11703,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON,
     }
 };
 
@@ -11731,17 +11721,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres4[] = {
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_POPOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     }
 };
 
@@ -11749,17 +11739,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_BIOTHUNMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_POYOMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_POYOMON,
+    .species = SPECIES_CLOCKMON,
     }
 };
 
@@ -11767,21 +11757,26 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory2[] = {
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_ANKYLOMON,
     },
     {
     .iv = 10,
     .lvl = 30,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_EKAKIMON,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cory3[] = {
+    {
+    .iv = 20,
+    .lvl = 32,
+    .species = SPECIES_DINOHYUMON,
+    },
     {
     .iv = 20,
     .lvl = 32,
@@ -11790,12 +11785,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory3[] = {
     {
     .iv = 20,
     .lvl = 32,
-    .species = SPECIES_KOKOMON,
-    },
-    {
-    .iv = 20,
-    .lvl = 32,
-    .species = SPECIES_MINOMON,
+    .species = SPECIES_EKAKIMON,
     }
 };
 
@@ -11808,12 +11798,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory4[] = {
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 30,
     .lvl = 34,
-    .species = SPECIES_MISSIMON,
+    .species = SPECIES_EKAKIMON,
     }
 };
 
@@ -11826,12 +11816,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory5[] = {
     {
     .iv = 40,
     .lvl = 36,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_DINOHYUMON,
     },
     {
     .iv = 40,
     .lvl = 36,
-    .species = SPECIES_MISSIMON,
+    .species = SPECIES_EKAKIMON,
     }
 };
 
@@ -11839,12 +11829,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo2[] = {
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_GEKOMON,
     }
 };
 
@@ -11852,17 +11842,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo3[] = {
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_ANGEMON,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_GEKOMON,
     },
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_DEPTHMON,
     }
 };
 
@@ -11870,17 +11860,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_GEKOMON,
     },
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_BLKGUILMON,
+    .species = SPECIES_DEPTHMON,
     }
 };
 
@@ -11888,17 +11878,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_ANKYLOMON,
+    .species = SPECIES_ARCHELOMON,
     },
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_BOKOMON,
+    .species = SPECIES_GEKOMON,
     },
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_BOKOMON,
+    .species = SPECIES_DEPTHMON,
     }
 };
 
@@ -11906,12 +11896,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji2[] = {
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_AKATORIMON,
     },
     {
     .iv = 10,
     .lvl = 37,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_ALLOMON,
     }
 };
 
@@ -11919,17 +11909,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji3[] = {
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_BETGAMAMON,
+    .species = SPECIES_AKATORIMON,
     },
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_ALLOMON,
     },
     {
     .iv = 20,
     .lvl = 39,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_GAOGAMON,
     }
 };
 
@@ -11937,17 +11927,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji4[] = {
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_AKATORIMON,
     },
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_ALLOMON,
     },
     {
     .iv = 30,
     .lvl = 41,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_GAOGAMON,
     }
 };
 
@@ -11955,17 +11945,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji5[] = {
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_BIOQUETMON,
+    .species = SPECIES_AKATORIMON,
     },
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_ALLOMON,
     },
     {
     .iv = 40,
     .lvl = 43,
-    .species = SPECIES_KOZENIMON,
+    .species = SPECIES_GAOGAMON,
     }
 };
 
@@ -11973,12 +11963,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin2[] = {
     {
     .iv = 110,
     .lvl = 35,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 110,
     .lvl = 35,
-    .species = SPECIES_AXEMON,
+    .species = SPECIES_BULKMON,
     }
 };
 
@@ -11986,17 +11976,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin3[] = {
     {
     .iv = 120,
     .lvl = 37,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 120,
     .lvl = 37,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_DRIMOGEMON,
     },
     {
     .iv = 120,
     .lvl = 37,
-    .species = SPECIES_AXEMON,
+    .species = SPECIES_BULKMON,
     }
 };
 
@@ -12004,17 +11994,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin4[] = {
     {
     .iv = 130,
     .lvl = 39,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 130,
     .lvl = 39,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_DRIMOGEMON,
     },
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_AXEMON,
+    .species = SPECIES_BULKMON,
     }
 };
 
@@ -12022,17 +12012,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristin5[] = {
     {
     .iv = 140,
     .lvl = 41,
-    .species = SPECIES_COREDRAMON_BLUE,
+    .species = SPECIES_BLKGATOMON,
     },
     {
     .iv = 140,
     .lvl = 41,
-    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
+    .species = SPECIES_DRIMOGEMON,
     },
     {
     .iv = 140,
     .lvl = 41,
-    .species = SPECIES_BABOONMON,
+    .species = SPECIES_BULKMON,
     }
 };
 
@@ -12040,17 +12030,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando2[] = {
     {
     .iv = 10,
     .lvl = 35,
-    .species = SPECIES_BOARMON,
+    .species = SPECIES_DONSHOUMON,
+    },
+    {
+    .iv = 10,
+    .lvl = 35,
+    .species = SPECIES_GANEMON,
     },
     {
     .iv = 10,
     .lvl = 35,
     .species = SPECIES_BOARMON,
-    },
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_BAROMON,
     }
 };
 
@@ -12058,17 +12048,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando3[] = {
     {
     .iv = 20,
     .lvl = 37,
+    .species = SPECIES_DONSHOUMON,
+    },
+    {
+    .iv = 20,
+    .lvl = 37,
+    .species = SPECIES_GANEMON,
+    },
+    {
+    .iv = 20,
+    .lvl = 37,
     .species = SPECIES_BOARMON,
-    },
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_BOMNANIMON,
-    },
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_BAROMON,
     }
 };
 
@@ -12076,17 +12066,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando4[] = {
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_GANEMON,
     },
     {
     .iv = 30,
     .lvl = 39,
-    .species = SPECIES_BAROMON,
+    .species = SPECIES_BOARMON,
     }
 };
 
@@ -12094,17 +12084,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando5[] = {
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_DONSHOUMON,
     },
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_BOMNANIMON,
+    .species = SPECIES_GANEMON,
     },
     {
     .iv = 40,
     .lvl = 41,
-    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
+    .species = SPECIES_BOARMON,
     }
 };
 
@@ -12112,12 +12102,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_MONIMON,
+    .species = SPECIES_GOTSUMON,
     },
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_CUTEMON,
     }
 };
 
@@ -12125,17 +12115,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer3[] = {
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_GOTSUMON,
     },
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 20,
     .lvl = 28,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_KUNEMON,
     }
 };
 
@@ -12143,17 +12133,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer4[] = {
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_KOKOMON,
+    .species = SPECIES_BIOSTEGMON,
     },
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_CHRYSALMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_MOONMON,
+    .species = SPECIES_FLYMON,
     }
 };
 
@@ -12161,17 +12151,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer5[] = {
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_KOROMON,
+    .species = SPECIES_BIOSTEGMON,
     },
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_CITRAMON,
+    .species = SPECIES_CUTEMON,
     },
     {
     .iv = 40,
     .lvl = 33,
-    .species = SPECIES_MOTIMON,
+    .species = SPECIES_FLYMON,
     }
 };
 
@@ -12179,32 +12169,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle2[] = {
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_BIRDRAMON,
+    .species = SPECIES_BAKOMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_AEGIOMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_TOYAGUMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_ZUBAMON,
+    .species = SPECIES_CLOCKMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_AIRDRAMON,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 10,
     .lvl = 31,
-    .species = SPECIES_ALLOMON_X,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -12212,17 +12202,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_BIRDRAMON,
-    },
-    {
-    .iv = 20,
-    .lvl = 33,
-    .species = SPECIES_TINPET,
-    },
-    {
-    .iv = 20,
-    .lvl = 33,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_BAKOMON,
     },
     {
     .iv = 20,
@@ -12232,12 +12212,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle3[] = {
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 20,
     .lvl = 33,
-    .species = SPECIES_ALLOMON_X,
+    .species = SPECIES_CLOCKMON,
+    },
+    {
+    .iv = 20,
+    .lvl = 33,
+    .species = SPECIES_BETGAMAMON,
+    },
+    {
+    .iv = 20,
+    .lvl = 33,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -12245,17 +12235,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle4[] = {
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_BLGAOGAMON,
-    },
-    {
-    .iv = 30,
-    .lvl = 35,
-    .species = SPECIES_TINPET,
-    },
-    {
-    .iv = 30,
-    .lvl = 35,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_BAKOMON,
     },
     {
     .iv = 30,
@@ -12265,12 +12245,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle4[] = {
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_AKATORIMON,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 30,
     .lvl = 35,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_CLOCKMON,
+    },
+    {
+    .iv = 30,
+    .lvl = 35,
+    .species = SPECIES_BETGAMAMON,
+    },
+    {
+    .iv = 30,
+    .lvl = 35,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -12278,32 +12268,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle5[] = {
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_BLGAOGAMON,
+    .species = SPECIES_BAKOMON,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_TINPET,
+    .species = SPECIES_CLOCKMON_FUSION,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_TSUKAIMON,
+    .species = SPECIES_AEGIOMON,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_AGUNIMON,
+    .species = SPECIES_CLOCKMON,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_ALLOMON,
+    .species = SPECIES_BETGAMAMON,
     },
     {
     .iv = 40,
     .lvl = 37,
-    .species = SPECIES_ANGELAMON,
+    .species = SPECIES_BURGERMON_CHAMPION,
     }
 };
 
@@ -12311,12 +12301,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia2[] = {
     {
     .iv = 10,
     .lvl = 34,
-    .species = SPECIES_CHAMBLEMON,
+    .species = SPECIES_FRIGIMON,
     },
     {
     .iv = 10,
     .lvl = 34,
-    .species = SPECIES_BIYOMON,
+    .species = SPECIES_GATOMON_X,
     }
 };
 
@@ -12324,17 +12314,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia3[] = {
     {
     .iv = 20,
     .lvl = 36,
-    .species = SPECIES_FLYBEEMON,
+    .species = SPECIES_FRIGIMON,
     },
     {
     .iv = 20,
     .lvl = 36,
-    .species = SPECIES_CHAMBLEMON,
+    .species = SPECIES_GATOMON_X,
     },
     {
     .iv = 20,
     .lvl = 36,
-    .species = SPECIES_BLKAGUMON,
+    .species = SPECIES_GATOMON_X,
     }
 };
 
@@ -12342,17 +12332,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia4[] = {
     {
     .iv = 30,
     .lvl = 38,
-    .species = SPECIES_FLYBEEMON,
+    .species = SPECIES_FRIGIMON,
     },
     {
     .iv = 30,
     .lvl = 38,
-    .species = SPECIES_CHAMBLEMON,
+    .species = SPECIES_GATOMON_X,
     },
     {
     .iv = 30,
     .lvl = 38,
-    .species = SPECIES_BLKAGUMON,
+    .species = SPECIES_GATOMON_X,
     }
 };
 
@@ -12360,17 +12350,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia5[] = {
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_FLYBEEMON,
+    .species = SPECIES_FRIGIMON,
     },
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_CHAMELEMON,
+    .species = SPECIES_GATOMON_X,
     },
     {
     .iv = 40,
     .lvl = 40,
-    .species = SPECIES_PSYCHEMON,
+    .species = SPECIES_GATOMON_X,
     }
 };
 
@@ -12391,7 +12381,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alvaro[] = {
     {
     .iv = 0,
     .lvl = 41,
-    .species = SPECIES_KAKKINMON,
+    .species = SPECIES_TRAILMON_BATTLE_ARMAMENT,
     }
 };
 
@@ -12399,7 +12389,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Everett[] = {
     {
     .iv = 0,
     .lvl = 41,
-    .species = SPECIES_LOPMON_X,
+    .species = SPECIES_BUCCHIEMON_RED,
     }
 };
 
