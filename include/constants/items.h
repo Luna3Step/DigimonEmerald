@@ -477,7 +477,7 @@
 #define ITEM_MAGMA_EMBLEM 375
 #define ITEM_OLD_SEA_MAP 376
 
-// Digimon Additions
+// Digimon Evo
 
 #define ITEM_X_ANTIBODY 377
 #define ITEM_DARK_DIGITRON 378
@@ -493,7 +493,23 @@
 #define ITEM_MIRACLES_EGG 388
 #define ITEM_FATE_EGG 389
 
-#define ITEMS_COUNT 390
+// IV Items
+
+#define ITEM_HP_DOWN 390
+#define ITEM_PROTEIN_MINUS 391
+#define ITEM_IRON_MINUS 392
+#define ITEM_CARBOS_MINUS 393
+#define ITEM_CALCIUM_MINUS 394
+#define ITEM_ZINC_MINUS 395
+#define ITEM_HP_PLUS 396
+#define ITEM_PROTEIN_PLUS 397
+#define ITEM_IRON_PLUS 398
+#define ITEM_CARBOS_PLUS 399
+#define ITEM_CALCIUM_PLUS 400
+#define ITEM_ZINC_PLUS 401
+
+#define ITEMS_COUNT 402
+
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow
@@ -553,6 +569,6 @@
 #define ITEM_B_USE_OTHER    2
 
 // Check if the item is one that can be used on a Pokemon.
-#define ITEM_HAS_EFFECT(item) ((item) >= ITEM_POTION && (item) <= MAX_BERRY_INDEX)
+#define ITEM_HAS_EFFECT(item) (((item) >= ITEM_POTION && (item) <= LAST_BERRY_INDEX) || ((item) >= ITEM_X_ANTIBODY && (item) < ITEM_FATE_EGG))
 
 #endif  // GUARD_CONSTANTS_ITEMS_H

@@ -415,6 +415,19 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     // Emerald-only key items
     [ITEM_MAGMA_EMBLEM] = {gItemIcon_MagmaEmblem, gItemIconPalette_MagmaEmblem},
     [ITEM_OLD_SEA_MAP] = {gItemIcon_OldSeaMap, gItemIconPalette_OldSeaMap},
+    // Custom
+    [ITEM_HP_DOWN] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_PROTEIN_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_IRON_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_CARBOS_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_CALCIUM_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_ZINC_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_HP_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_PROTEIN_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_IRON_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_CARBOS_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_CALCIUM_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_ZINC_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };
