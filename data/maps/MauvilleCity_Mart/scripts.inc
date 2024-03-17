@@ -29,6 +29,35 @@ MauvilleCity_Mart_Pokemart:
 	release
 	end
 
+MauvilleCity_Mart_EventScript_Clerk2::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart MauvilleCity_Mart_Pokemart2
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+MauvilleCity_Mart_Pokemart2:
+	.2byte ITEM_X_ANTIBODY
+	.2byte ITEM_DARK_DIGITRON
+	.2byte ITEM_COURAGE_EGG
+	.2byte ITEM_FRIEND_EGG
+	.2byte ITEM_LOVE_EGG
+	.2byte ITEM_PURITY_EGG
+	.2byte ITEM_KNOWLEDGE_EGG
+	.2byte ITEM_SINCERITY_EGG
+	.2byte ITEM_HOPE_EGG
+	.2byte ITEM_LIGHT_EGG
+	.2byte ITEM_KINDNESS_EGG
+	.2byte ITEM_MIRACLES_EGG
+	.2byte ITEM_NONE
+	release
+	end
+
+
 MauvilleCity_Mart_EventScript_ExpertM::
 	msgbox MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats, MSGBOX_NPC
 	end
