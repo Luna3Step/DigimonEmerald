@@ -43,8 +43,7 @@ PetalburgCity_EventScript_WallyTutorial::
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_WallyTutorialPlayer
 	waitmovement 0
 	msgbox Route102_Text_WatchMeCatchPokemon, MSGBOX_DEFAULT
-	special StartWallyTutorialBattle
-	waitstate
+	closemessage
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
 	waitmovement LOCALID_WALLY, MAP_PETALBURG_CITY
@@ -60,6 +59,14 @@ PetalburgCity_EventScript_WallyTutorial::
 	waitstate
 	releaseall
 	end
+
+PetalburgCity_GiveMePokemon::
+	lockall
+	msgbox GiveMePokemon_Text_0
+	givemon SPECIES_DECKDRAMON, 20
+	waitmessage
+	releaseall
+	return
 
 PetalburgCity_EventScript_WalkToWallyHouse::
 	lockall
@@ -765,3 +772,5 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+	
