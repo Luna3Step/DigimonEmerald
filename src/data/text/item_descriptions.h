@@ -794,9 +794,9 @@ static const u8 sMachoBraceDesc[] = _(
     "but reduces SPEED.");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets EXP. points\n"
-    "from battles.");
+    "Turning this on\n"
+    "gives all in party\n"
+    "EXP. points.");
 
 static const u8 sQuickClawDesc[] = _(
     "A hold item that\n"

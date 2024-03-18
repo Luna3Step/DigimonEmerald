@@ -383,8 +383,9 @@
 #define STRINGID_PKMNHURTBYCONVERTED        383
 #define STRINGID_PKMNWASCONVERTED           384
 #define STRINGID_PKMNCONVERTEDBY            385
+#define STRINGID_PKMNGAINEDEXPALL           386
 
-#define BATTLESTRINGS_COUNT                 386
+#define BATTLESTRINGS_COUNT                 387
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
