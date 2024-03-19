@@ -1497,6 +1497,18 @@ static const u8 sIceShardDescription[] = _(
     "The user flings a frozen chunk\n"
     "of ice. This move goes first.");
 
+static const u8 sNightSlashDescription[] = _(
+    "The user slashes as soon as it\n"
+    "sees fit. Has a high crit ratio.");
+
+static const u8 sMoonblastDescription[] = _(
+    "Blasts a foe with the power of\n"
+    "the moon. May lower SP. ATK.");
+
+static const u8 sNastyPlotDescription[] = _(
+    "The user stimulates its mind\n"
+    "with bad plans raising SP. ATK.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1873,4 +1885,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_FLAME_BURST - 1] = sFlameBurstDescription,
     [MOVE_DRAGON_PULSE - 1] = sDragonPulseDescription,
     [MOVE_ICE_SHARD - 1] = sIceShardDescription,
+    [MOVE_NIGHT_SLASH - 1] = sNightSlashDescription,
+    [MOVE_MOONBLAST - 1] = sMoonblastDescription,
+    [MOVE_NASTY_PLOT - 1] = sNastyPlotDescription,
 };

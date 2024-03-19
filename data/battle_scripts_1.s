@@ -235,6 +235,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectBlessing               @ EFFECT_BLESSING
 	.4byte BattleScript_EffectConvertHit             @ EFFECT_CONVERT_HIT
 	.4byte BattleScript_EffectHoneClaws              @ EFFECT_HONE_CLAWS
+	.4byte BattleScript_EffectSpATKDown2Hit          @ EFFECT_SP_ATK_DOWN_2_HIT
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -998,6 +999,10 @@ BattleScript_EffectDefenseDown2::
 BattleScript_EffectSpeedDown2::
 	setstatchanger STAT_SPEED, 2, TRUE
 	goto BattleScript_EffectStatDown
+
+BattleScript_EffectSpATKDown2Hit::
+	setmoveeffect MOVE_EFFECT_SP_ATK_MINUS_2
+	goto BattleScript_EffectHit
 
 BattleScript_EffectSpecialDefenseDown2::
 	setstatchanger STAT_SPDEF, 2, TRUE
