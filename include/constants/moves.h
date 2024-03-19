@@ -374,8 +374,9 @@
 #define MOVE_POISON_JAB 370
 #define MOVE_ICE_FANG 371
 #define MOVE_FLAME_BURST 372
+#define MOVE_DRAGON_PULSE 373
 
-#define MOVES_COUNT 373
+#define MOVES_COUNT 374
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
