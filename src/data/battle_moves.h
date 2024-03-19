@@ -5154,7 +5154,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_HONE_CLAWS] =
     {
-        .effect = EFFECT_HONE_CLAWS, // New Effect
+        .effect = EFFECT_HONE_CLAWS,
         .power = 0,
         .type = TYPE_DARK,
         .accuracy = 0,
@@ -5164,5 +5164,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_SNATCH_AFFECTED,
         .category= MOVE_CATEGORY_STATUS,
+    },
+
+    [MOVE_DISCHARGE] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 80,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
     },
 };

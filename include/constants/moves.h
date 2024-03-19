@@ -370,9 +370,10 @@
 #define MOVE_DRGLESS_SPKR 366
 #define MOVE_MUD_BOMB 367
 #define MOVE_HONE_CLAWS 368
+#define MOVE_DISCHARGE 369
 
 
-#define MOVES_COUNT 369
+#define MOVES_COUNT 370
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
