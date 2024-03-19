@@ -374,4 +374,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_ICE_FANG] = _("ICE FANG"),
     [MOVE_FLAME_BURST] = _("FLAME BURST"),
     [MOVE_DRAGON_PULSE] = _("DRAGON PULSE"),
+    [MOVE_ICE_SHARD] = _("ICE SHARD"),
 };
