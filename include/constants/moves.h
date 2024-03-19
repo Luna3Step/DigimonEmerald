@@ -371,9 +371,10 @@
 #define MOVE_MUD_BOMB 367
 #define MOVE_HONE_CLAWS 368
 #define MOVE_DISCHARGE 369
+#define MOVE_POISON_JAB 370
 
 
-#define MOVES_COUNT 370
+#define MOVES_COUNT 371
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

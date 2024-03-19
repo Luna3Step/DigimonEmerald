@@ -370,4 +370,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_MUD_BOMB] = _("MUD BOMB"),
     [MOVE_HONE_CLAWS] = _("HONE CLAWS"),
     [MOVE_DISCHARGE] = _("DISCHARGE"),
+    [MOVE_POISON_JAB] = _("POISON JAB"),
 };

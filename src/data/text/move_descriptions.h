@@ -1476,6 +1476,10 @@ static const u8 sHoneClawsDescription[] = _(
 static const u8 sDischargeDescription[] = _(
     "Electricity strikes alls foes.\n"
     "May cause paralysis.");
+
+static const u8 sPoisonJabDescription[] = _(
+    "The foe is stabbed with poison.\n"
+    "May poison the target.");
     
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -1848,4 +1852,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_MUD_BOMB - 1] = sMudBombDescription,
     [MOVE_HONE_CLAWS - 1] = sHoneClawsDescription,
     [MOVE_DISCHARGE - 1] = sDischargeDescription,
+    [MOVE_POISON_JAB - 1] = sPoisonJabDescription,
 };
