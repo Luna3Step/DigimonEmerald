@@ -4680,4 +4680,148 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+
+    [ITEM_HP_DOWN] =
+    {
+        .name = _("HP DOWN"),
+        .itemId = ITEM_HP_DOWN,
+        .price = 1100,
+        .description = sHPDownDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_HP,
+    },
+
+    [ITEM_PROTEIN_MINUS] =
+    {
+        .name = _("PROTEIN MINUS"),
+        .itemId = ITEM_PROTEIN_MINUS,
+        .price = 1100,
+        .description = sProteinMinusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_ATK,
+    },
+
+    [ITEM_IRON_MINUS] =
+    {
+        .name = _("IRON MINUS"),
+        .itemId = ITEM_IRON_MINUS,
+        .price = 1100,
+        .description = sIronMinusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_DEF,
+    },
+
+    [ITEM_CARBOS_MINUS] =
+    {
+        .name = _("CARBOS MINUS"),
+        .itemId = ITEM_CARBOS_MINUS,
+        .price = 1100,
+        .description = sCarbosMinusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_SPEED,
+    },
+
+    [ITEM_CALCIUM_MINUS] =
+    {
+        .name = _("CALCIUMMINUS"),
+        .itemId = ITEM_CALCIUM_MINUS,
+        .price = 1100,
+        .description = sCalciumMinusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_SPATK,
+    },
+
+    [ITEM_ZINC_MINUS] =
+    {
+        .name = _("ZINC MINUS"),
+        .itemId = ITEM_ZINC_MINUS,
+        .price = 1100,
+        .description = sZincMinusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_ReduceIV,
+        .secondaryId = STAT_SPDEF,
+    },
+
+    [ITEM_HP_PLUS] =
+    {
+        .name = _("HP PLUS"),
+        .itemId = ITEM_HP_PLUS,
+        .price = 1100,
+        .description = sHPPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_HP,
+    },
+
+    [ITEM_PROTEIN_PLUS] =
+    {
+        .name = _("PROTEIN PLUS"),
+        .itemId = ITEM_PROTEIN_PLUS,
+        .price = 1100,
+        .description = sProteinPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_ATK,
+    },
+
+    [ITEM_IRON_PLUS] =
+    {
+        .name = _("IRON PLUS"),
+        .itemId = ITEM_IRON_PLUS,
+        .price = 1100,
+        .description = sIronPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_DEF,
+    },
+
+    [ITEM_CARBOS_PLUS] =
+    {
+        .name = _("CARBOS PLUS"),
+        .itemId = ITEM_CARBOS_PLUS,
+        .price = 1100,
+        .description = sCarbosPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_SPEED,
+    },
+
+    [ITEM_CALCIUM_PLUS] =
+    {
+        .name = _("CALCIUMPLUS"),
+        .itemId = ITEM_CALCIUM_PLUS,
+        .price = 1100,
+        .description = sCalciumPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_SPATK,
+    },
+
+    [ITEM_ZINC_PLUS] =
+    {
+        .name = _("ZINC PLUS"),
+        .itemId = ITEM_ZINC_PLUS,
+        .price = 1100,
+        .description = sZincPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_IncreaseIV,
+        .secondaryId = STAT_SPDEF,
+    },
 };
