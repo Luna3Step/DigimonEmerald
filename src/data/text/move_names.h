@@ -372,4 +372,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_DISCHARGE] = _("DISCHARGE"),
     [MOVE_POISON_JAB] = _("POISON JAB"),
     [MOVE_ICE_FANG] = _("ICE FANG"),
+    [MOVE_FLAME_BURST] = _("FLAME BURST"),
 };

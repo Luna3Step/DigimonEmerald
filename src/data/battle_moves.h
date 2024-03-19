@@ -5207,4 +5207,18 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         .category= MOVE_CATEGORY_PHYSICAL,
     },
+
+    [MOVE_FLAME_BURST] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 70,
+        .type = TYPE_FIRE,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
+    },
 };
