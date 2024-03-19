@@ -1023,6 +1023,8 @@ GiveMePokemon::
 	lockall
 	msgbox GiveMePokemon_Text_0
 	givemon SPECIES_SUNARZAMON, 17
+	giveitem ITEM_HP_DOWN
+	giveitem ITEM_HP_PLUS
 	waitmessage
 	releaseall
 	return

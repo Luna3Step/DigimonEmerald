@@ -5096,4 +5096,9 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+extern const u32 gItemIcon_Meat[];
+extern const u32 gItemIconPalette_Meat[];
+extern const u32 gItemIcon_RottenMeat[];
+extern const u32 gItemIconPalette_RottenMeat[];
+
 #endif //GUARD_GRAPHICS_H
