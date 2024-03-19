@@ -4683,7 +4683,7 @@ const struct Item gItems[] =
 
     [ITEM_HP_DOWN] =
     {
-        .name = _("HP DOWN"),
+        .name = _("ROTTEN MEAT"),
         .itemId = ITEM_HP_DOWN,
         .price = 1100,
         .description = sHPDownDesc,
@@ -4755,7 +4755,7 @@ const struct Item gItems[] =
 
     [ITEM_HP_PLUS] =
     {
-        .name = _("HP PLUS"),
+        .name = _("MEAT"),
         .itemId = ITEM_HP_PLUS,
         .price = 1100,
         .description = sHPPlusDesc,
