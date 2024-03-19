@@ -5100,5 +5100,16 @@ extern const u32 gItemIcon_Meat[];
 extern const u32 gItemIconPalette_Meat[];
 extern const u32 gItemIcon_RottenMeat[];
 extern const u32 gItemIconPalette_RottenMeat[];
+extern const u32 gItemIcon_PowerFruit[];
+extern const u32 gItemIconPalette_PowerFruit[];
+extern const u32 gItemIcon_MuscleYam[];
+extern const u32 gItemIconPalette_MuscleYam[];
+extern const u32 gItemIcon_SuperCarrot[];
+extern const u32 gItemIconPalette_SuperCarrot[];
+extern const u32 gItemIcon_HawkRadish[];
+extern const u32 gItemIconPalette_HawkRadish[];
+extern const u32 gItemIcon_DigiPine[];
+extern const u32 gItemIconPalette_DigiPine[];
+
 
 #endif //GUARD_GRAPHICS_H

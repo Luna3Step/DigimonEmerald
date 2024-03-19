@@ -4767,7 +4767,7 @@ const struct Item gItems[] =
 
     [ITEM_PROTEIN_PLUS] =
     {
-        .name = _("PROTEIN PLUS"),
+        .name = _("POWER FRUIT"),
         .itemId = ITEM_PROTEIN_PLUS,
         .price = 1100,
         .description = sProteinPlusDesc,
@@ -4779,7 +4779,7 @@ const struct Item gItems[] =
 
     [ITEM_IRON_PLUS] =
     {
-        .name = _("IRON PLUS"),
+        .name = _("MUSCLE YAM"),
         .itemId = ITEM_IRON_PLUS,
         .price = 1100,
         .description = sIronPlusDesc,
@@ -4791,7 +4791,7 @@ const struct Item gItems[] =
 
     [ITEM_CARBOS_PLUS] =
     {
-        .name = _("CARBOS PLUS"),
+        .name = _("SUPERCARROT"),
         .itemId = ITEM_CARBOS_PLUS,
         .price = 1100,
         .description = sCarbosPlusDesc,
@@ -4803,7 +4803,7 @@ const struct Item gItems[] =
 
     [ITEM_CALCIUM_PLUS] =
     {
-        .name = _("CALCIUMPLUS"),
+        .name = _("HAWK RADISH"),
         .itemId = ITEM_CALCIUM_PLUS,
         .price = 1100,
         .description = sCalciumPlusDesc,
@@ -4815,7 +4815,7 @@ const struct Item gItems[] =
 
     [ITEM_ZINC_PLUS] =
     {
-        .name = _("ZINC PLUS"),
+        .name = _("DIGIPINE"),
         .itemId = ITEM_ZINC_PLUS,
         .price = 1100,
         .description = sZincPlusDesc,

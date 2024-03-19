@@ -423,11 +423,11 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_CALCIUM_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_ZINC_MINUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_HP_PLUS] = {gItemIcon_Meat, gItemIconPalette_Meat},
-    [ITEM_PROTEIN_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_IRON_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_CARBOS_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_CALCIUM_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_ZINC_PLUS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_PROTEIN_PLUS] = {gItemIcon_PowerFruit, gItemIconPalette_PowerFruit},
+    [ITEM_IRON_PLUS] = {gItemIcon_MuscleYam, gItemIconPalette_MuscleYam},
+    [ITEM_CARBOS_PLUS] = {gItemIcon_SuperCarrot, gItemIconPalette_SuperCarrot},
+    [ITEM_CALCIUM_PLUS] = {gItemIcon_HawkRadish, gItemIconPalette_HawkRadish},
+    [ITEM_ZINC_PLUS] = {gItemIcon_DigiPine, gItemIconPalette_DigiPine},
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };
