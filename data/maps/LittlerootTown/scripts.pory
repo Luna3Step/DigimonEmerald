@@ -1025,9 +1025,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 script GiveMePokemon {
     lockall
     msgbox(format("Have this!"))
-    givemon(SPECIES_SUNARZAMON, 17)
-	giveitem(ITEM_HP_DOWN)
-	giveitem(ITEM_HP_PLUS)
+    givemon(SPECIES_GAOGAMON, 60)
     waitmessage
     releaseall
 }

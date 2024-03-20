@@ -83,34 +83,34 @@
             "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_GESOMON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 55,
+                "species": "SPECIES_GESOMON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 55,
+                "species": "SPECIES_GESOMON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 55,
+                "species": "SPECIES_GESOMON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 55,
+                "species": "SPECIES_GESOMON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_BOTAMON"
+                "min_level": 55,
+                "max_level": 55,
+                "species": "SPECIES_GESOMON"
               },
               {
                 "min_level": 5,
