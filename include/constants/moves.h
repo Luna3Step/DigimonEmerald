@@ -381,8 +381,10 @@
 #define MOVE_NASTY_PLOT 377
 #define MOVE_MIRROR_SHOT 378
 #define MOVE_BULLET_PUNCH 379
+#define MOVE_WORK_UP 380
+#define MOVE_CLOSE_COMBAT 381
 
-#define MOVES_COUNT 380
+#define MOVES_COUNT 382
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

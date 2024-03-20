@@ -225,5 +225,6 @@ extern const u8 BattleScript_ActionThrowPokeblock[];
 extern const u8 BattleScript_MoveEffectConverted[];
 extern const u8 BattleScript_ConvertedTurnDmg[];
 extern const u8 BattleScript_EffectBlessing[];
+extern const u8 BattleScript_DefSpDefDown[];
 
 #endif // GUARD_BATTLE_SCRIPTS_H
