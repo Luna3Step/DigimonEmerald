@@ -384,8 +384,9 @@
 #define MOVE_WORK_UP 380
 #define MOVE_CLOSE_COMBAT 381
 #define MOVE_IRON_HEAD 382
+#define MOVE_PYRO_BALL 383
 
-#define MOVES_COUNT 383
+#define MOVES_COUNT 384
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
