@@ -379,8 +379,10 @@
 #define MOVE_NIGHT_SLASH 375
 #define MOVE_MOONBLAST 376
 #define MOVE_NASTY_PLOT 377
+#define MOVE_MIRROR_SHOT 378
+#define MOVE_BULLET_PUNCH 379
 
-#define MOVES_COUNT 378
+#define MOVES_COUNT 380
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -1509,6 +1509,14 @@ static const u8 sNastyPlotDescription[] = _(
     "The user stimulates its mind\n"
     "with bad plans raising SP. ATK.");
 
+static const u8 sMirrorShotDescription[] = _(
+    "The user looses a flash of\n"
+    "energy that may lower accuracy");
+
+static const u8 sBulletPunchDescription[] = _(
+    "The user strikes with a\n"
+    "punch as fast as a bullet");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1888,4 +1896,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_NIGHT_SLASH - 1] = sNightSlashDescription,
     [MOVE_MOONBLAST - 1] = sMoonblastDescription,
     [MOVE_NASTY_PLOT - 1] = sNastyPlotDescription,
+    [MOVE_MIRROR_SHOT - 1] = sMirrorShotDescription,
+    [MOVE_BULLET_PUNCH - 1] = sBulletPunchDescription,
 };
