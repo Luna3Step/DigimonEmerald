@@ -3033,6 +3033,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_SUNNY_DAY},
     },
+
+    [MOVE_IRON_HEAD] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_METAL_SOUND},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

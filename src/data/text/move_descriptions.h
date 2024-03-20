@@ -1525,6 +1525,10 @@ static const u8 sCloseCombatDescription[] = _(
     "The user fights without any\n"
     "guard lowering DEF and SP. DEF");
 
+static const u8 sIronHeadDescription[] = _(
+    "The user slams the target\n"
+    "with its hard head. May flinch");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1908,4 +1912,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_BULLET_PUNCH - 1] = sBulletPunchDescription,
     [MOVE_WORK_UP - 1] = sWorkUpDescription,
     [MOVE_CLOSE_COMBAT - 1] = sCloseCombatDescription,
+    [MOVE_IRON_HEAD - 1] = sIronHeadDescription,
 };
