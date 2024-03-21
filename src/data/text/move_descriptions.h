@@ -1562,12 +1562,12 @@ static const u8 sChargeBeamDescription[] = _(
     "that may raise its SP. ATK");
 
 static const u8 sDrillRunDescription[] = _(
-    "The user attacks by encircling\n"
-    "target. May lower accuracy");
+    "The user attacks by rotating it\n"
+    "body. Has a high crit ratio");
 
 static const u8 sLeafTornadoDescription[] = _(
     "The user attacks by encircling\n"
-    "target. May lower accuracy");
+    "the target. May lower accuracy");
 
 static const u8 sElectroShockDescription[] = _(
     "The user discharges an electric\n"
