@@ -1958,4 +1958,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PLAY_ROUGH - 1] = sPlayRoughDescription,
     [MOVE_CHARGE_BEAM - 1] = sChargeBeamDescription,
     [MOVE_DRILL_RUN - 1] = sDrillRunDescription,
+    [MOVE_LEAF_TORNADO - 1] = sLeafTornadoDescription,
 };
