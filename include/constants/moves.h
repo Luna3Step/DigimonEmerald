@@ -394,8 +394,9 @@
 #define MOVE_CHARGE_BEAM 390
 #define MOVE_DRILL_RUN 391
 #define MOVE_LEAF_TORNADO 392
+#define MOVE_ELECTROSHOCK 393
 
-#define MOVES_COUNT 393
+#define MOVES_COUNT 394
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
