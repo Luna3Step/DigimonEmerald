@@ -3089,6 +3089,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_MEAN_LOOK},
     },
+
+    [MOVE_PLAY_ROUGH] =
+    {
+        .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_CHARM},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
