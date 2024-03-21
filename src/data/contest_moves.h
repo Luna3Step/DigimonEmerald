@@ -3057,6 +3057,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_RAGE},
     },
+
+    [MOVE_BRAVE_BIRD] =
+    {
+        .effect = CONTEST_EFFECT_SHIFT_JUDGE_ATTENTION,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_SING},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

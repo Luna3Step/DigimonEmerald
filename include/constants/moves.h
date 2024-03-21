@@ -386,8 +386,9 @@
 #define MOVE_IRON_HEAD 382
 #define MOVE_PYRO_BALL 383
 #define MOVE_POWER_WHIP 384
+#define MOVE_BRAVE_BIRD 385
 
-#define MOVES_COUNT 385
+#define MOVES_COUNT 386
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
