@@ -1546,8 +1546,8 @@ static const u8 sPowerUpPunchDescription[] = _(
     "trained fist that raises ATK");
 
 static const u8 sHammerArmDescription[] = _(
-    "The user swings hits with a\n"
-    "heavy fist. Lowers users speed");
+    "The user hits with a heavy\n"
+    "fist. Lowers users SPEED");
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
