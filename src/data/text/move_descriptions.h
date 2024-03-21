@@ -1549,6 +1549,10 @@ static const u8 sHammerArmDescription[] = _(
     "The user hits with a heavy\n"
     "fist. Lowers users SPEED");
 
+static const u8 sDarkPulseDescription[] = _(
+    "The user releases a dark aura\n"
+    "that may flinch the target");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1938,4 +1942,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
     [MOVE_POWER_UP_PUNCH - 1] = sPowerUpPunchDescription,
     [MOVE_HAMMER_ARM - 1] = sHammerArmDescription,
+    [MOVE_DARK_PULSE - 1] = sDarkPulseDescription,
 };
