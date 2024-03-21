@@ -1541,6 +1541,14 @@ static const u8 sBraveBirdDescription[] = _(
     "The user tucks and charges\n"
     "damaging the user and foe");
 
+static const u8 sPowerUpPunchDescription[] = _(
+    "The user strikes with a well\n"
+    "trained fist that raises ATK");
+
+static const u8 sHammerArmDescription[] = _(
+    "The user swings hits with a\n"
+    "heavy fist. Lowers users speed");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1928,4 +1936,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PYRO_BALL - 1] = sPyroBallDescription,
     [MOVE_POWER_WHIP - 1] = sPowerWhipDescription,
     [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
+    [MOVE_POWER_UP_PUNCH - 1] = sPowerUpPunchDescription,
+    [MOVE_HAMMER_ARM - 1] = sHammerArmDescription,
 };

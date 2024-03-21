@@ -238,6 +238,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectSpATKDown2Hit          @ EFFECT_SP_ATK_DOWN_2_HIT
 	.4byte BattleScript_EffectAttackSpAttackUp       @ EFFECT_ATTACK_SPATK_UP
 	.4byte BattleScript_EffectCloseCombat            @ EFFECT_CLOSE_COMBAT
+	.4byte BattleScript_EffectHammerArm              @ EFFECT_HAMMER_ARM
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -3357,6 +3358,10 @@ BattleScript_SideStatusWoreOff::
 	printstring STRINGID_PKMNSXWOREOFF
 	waitmessage B_WAIT_TIME_LONG
 	end2
+
+BattleScript_EffectHammerArm::
+	setmoveeffect MOVE_EFFECT_SPD_MINUS_1 | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
+	goto BattleScript_EffectHit
 
 BattleScript_SafeguardProtected::
 	pause B_WAIT_TIME_SHORT
