@@ -4433,7 +4433,7 @@ static const u16 sExveemonLevelUpLearnset[] = {
 static const u16 sDrimogemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_HORN_ATTACK),
-    LEVEL_UP_MOVE(34, MOVE_HORN_DRILL), // Drill Run
+    LEVEL_UP_MOVE(34, MOVE_DRILL_RUN),
     LEVEL_UP_MOVE(35, MOVE_DIG),
     LEVEL_UP_MOVE(37, MOVE_BONE_CLUB),
     LEVEL_UP_MOVE(40, MOVE_CRUSH_CLAW),

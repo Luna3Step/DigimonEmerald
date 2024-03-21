@@ -392,8 +392,9 @@
 #define MOVE_DARK_PULSE 388
 #define MOVE_PLAY_ROUGH 389
 #define MOVE_CHARGE_BEAM 390
+#define MOVE_DRILL_RUN 391
 
-#define MOVES_COUNT 391
+#define MOVES_COUNT 392
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

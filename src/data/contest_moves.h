@@ -3105,6 +3105,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_CHARGE},
     },
+
+    [MOVE_DRILL_RUN] =
+    {
+        .effect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_EARTHQUAKE},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

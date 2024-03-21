@@ -1561,6 +1561,10 @@ static const u8 sChargeBeamDescription[] = _(
     "The user fires an electric beam\n"
     "that may raise its SP. ATK");
 
+static const u8 sDrillRunDescription[] = _(
+    "The user crashes into its target\n"
+    "while rotating. High crit ratio");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1953,4 +1957,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DARK_PULSE - 1] = sDarkPulseDescription,
     [MOVE_PLAY_ROUGH - 1] = sPlayRoughDescription,
     [MOVE_CHARGE_BEAM - 1] = sChargeBeamDescription,
+    [MOVE_DRILL_RUN - 1] = sDrillRunDescription,
 };

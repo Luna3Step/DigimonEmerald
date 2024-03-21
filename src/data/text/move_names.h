@@ -391,4 +391,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_DARK_PULSE] = _("DARK PULSE"),
     [MOVE_PLAY_ROUGH] = _("PLAY ROUGH"),
     [MOVE_CHARGE_BEAM] = _("CHARGE BEAM"),
+    [MOVE_DRILL_RUN] = _("DRILL RUN"),
 };
