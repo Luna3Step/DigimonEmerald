@@ -1533,6 +1533,10 @@ static const u8 sPyroBallDescription[] = _(
     "The user blasts a fiery ball\n"
     "at the target. May burn");
 
+static const u8 sPowerWhipDescription[] = _(
+    "The user violently whirls its\n"
+    "tentacles or vines at the foe");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1918,4 +1922,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_CLOSE_COMBAT - 1] = sCloseCombatDescription,
     [MOVE_IRON_HEAD - 1] = sIronHeadDescription,
     [MOVE_PYRO_BALL - 1] = sPyroBallDescription,
+    [MOVE_POWER_WHIP - 1] = sPowerWhipDescription,
 };

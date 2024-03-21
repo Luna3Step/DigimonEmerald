@@ -384,4 +384,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_CLOSE_COMBAT] = _("CLOSE COMBAT"),
     [MOVE_IRON_HEAD] = _("IRON HEAD"),
     [MOVE_PYRO_BALL] = _("PYRO BALL"),
+    [MOVE_POWER_WHIP] = _("POWER WHIP"),
 };
