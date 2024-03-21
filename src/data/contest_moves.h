@@ -3137,6 +3137,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_HARDEN},
     },
+
+    [MOVE_GIGA_SCISSOR] =
+    {
+        .effect = CONTEST_EFFECT_STARTLE_MON_WITH_JUDGES_ATTENTION,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_HORN_ATTACK},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
