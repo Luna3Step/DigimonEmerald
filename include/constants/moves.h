@@ -400,8 +400,11 @@
 #define MOVE_AQUA_TAIL 396
 #define MOVE_BITTER_BLADE 397
 #define MOVE_THUNDEROUS_KICK 398
+#define MOVE_SEARING_SHOT 399
+#define MOVE_DRAGON_RUSH 400
+#define MOVE_INFERO 401
 
-#define MOVES_COUNT 399
+#define MOVES_COUNT 402
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

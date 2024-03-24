@@ -1593,6 +1593,18 @@ static const u8 sThunderousKickDescription[] = _(
     "The user kicks with lightning-like\n"
     "movements. May lower targets DEF.");
 
+static const u8 sSearingShotDescription[] = _(
+    "An inferno of flames torches\n"
+    "everyone. May burn the target.");
+
+static const u8 sDragonRushDescription[] = _(
+    "The user tackles the foe in a\n"
+    "menacing manner. Target may flinch.");
+
+static const u8 sInfernoDescription[] = _(
+    "The target is engulfed in an\n"
+    "intense inferno. Always burns");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1993,4 +2005,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_AQUA_TAIL - 1] = sAquaTailDescription,
     [MOVE_BITTER_BLADE - 1] = sBitterBladeDescription,
     [MOVE_THUNDEROUS_KICK - 1] = sThunderousKickDescription,
+    [MOVE_SEARING_SHOT - 1] = sSearingShotDescription,
+    [MOVE_DRAGON_RUSH - 1] = sDragonRushDescription,
+    [MOVE_INFERO - 1] = sInfernoDescription,
 };

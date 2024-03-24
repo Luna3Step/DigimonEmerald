@@ -3169,6 +3169,30 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_FOCUS_ENERGY},
     },
+
+    [MOVE_SEARING_SHOT] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_RAGE},
+    },
+
+    [MOVE_DRAGON_RUSH] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_DRAGON_DANCE},
+    },
+
+    [MOVE_INFERO] =
+    {
+        .effect = CONTEST_EFFECT_AVOID_STARTLE_SLIGHTLY,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_RAGE},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
