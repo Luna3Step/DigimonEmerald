@@ -405,8 +405,9 @@
 #define MOVE_INFERNO 401
 #define MOVE_HURRICANE 402
 #define MOVE_ZEN_HEADBUTT 403
+#define MOVE_FLARE_BLITZ 404
 
-#define MOVES_COUNT 404
+#define MOVES_COUNT 405
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
