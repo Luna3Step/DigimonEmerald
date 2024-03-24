@@ -5614,7 +5614,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .category= MOVE_CATEGORY_PHYSICAL,
     },
 
-    [MOVE_INFERO] =
+    [MOVE_INFERNO] =
     {
         .effect = EFFECT_BURN_HIT,
         .power = 100,

@@ -3186,7 +3186,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboMoves = {COMBO_STARTER_DRAGON_DANCE},
     },
 
-    [MOVE_INFERO] =
+    [MOVE_INFERNO] =
     {
         .effect = CONTEST_EFFECT_AVOID_STARTLE_SLIGHTLY,
         .contestCategory = CONTEST_CATEGORY_TOUGH,

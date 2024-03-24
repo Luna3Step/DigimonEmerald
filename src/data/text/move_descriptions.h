@@ -2007,5 +2007,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_THUNDEROUS_KICK - 1] = sThunderousKickDescription,
     [MOVE_SEARING_SHOT - 1] = sSearingShotDescription,
     [MOVE_DRAGON_RUSH - 1] = sDragonRushDescription,
-    [MOVE_INFERO - 1] = sInfernoDescription,
+    [MOVE_INFERNO - 1] = sInfernoDescription,
 };
