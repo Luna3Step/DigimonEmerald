@@ -1605,6 +1605,10 @@ static const u8 sInfernoDescription[] = _(
     "The target is engulfed in an\n"
     "intense inferno. Always burns");
 
+static const u8 sHurricaneDescription[] = _(
+    "The user attacks by wrapping its\n"
+    "foe in fierce winds. May confuse");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2008,4 +2012,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SEARING_SHOT - 1] = sSearingShotDescription,
     [MOVE_DRAGON_RUSH - 1] = sDragonRushDescription,
     [MOVE_INFERNO - 1] = sInfernoDescription,
+    [MOVE_HURRICANE - 1] = sHurricaneDescription,
 };

@@ -403,8 +403,9 @@
 #define MOVE_SEARING_SHOT 399
 #define MOVE_DRAGON_RUSH 400
 #define MOVE_INFERNO 401
+#define MOVE_HURRICANE 402
 
-#define MOVES_COUNT 402
+#define MOVES_COUNT 403
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
