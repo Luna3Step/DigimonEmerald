@@ -397,8 +397,9 @@
 #define MOVE_ELECTROSHOCK 393
 #define MOVE_HORN_BUSTER 394
 #define MOVE_GIGA_SCISSOR 395
+#define MOVE_AQUA_TAIL 396
 
-#define MOVES_COUNT 396
+#define MOVES_COUNT 397
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

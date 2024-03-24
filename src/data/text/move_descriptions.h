@@ -1581,6 +1581,10 @@ static const u8 sGigaScissorDescription[] = _(
     "The user crushes the target with\n"
     "its horns forcing a switch out.");
 
+static const u8 sAquaTailDescription[] = _(
+    "The user attacks by swinging\n"
+    "its tail in a vicious manner.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1978,4 +1982,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ELECTROSHOCK - 1] = sElectroShockDescription,
     [MOVE_HORN_BUSTER - 1] = sHornBusterDescription,
     [MOVE_GIGA_SCISSOR - 1] = sGigaScissorDescription,
+    [MOVE_AQUA_TAIL - 1] = sAquaTailDescription,
 };
