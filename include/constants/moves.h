@@ -398,8 +398,9 @@
 #define MOVE_HORN_BUSTER 394
 #define MOVE_GIGA_SCISSOR 395
 #define MOVE_AQUA_TAIL 396
+#define MOVE_BITTER_BLADE 397
 
-#define MOVES_COUNT 397
+#define MOVES_COUNT 398
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
