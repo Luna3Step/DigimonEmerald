@@ -1613,9 +1613,17 @@ static const u8 sZenHeadbuttDescription[] = _(
     "The user focuses its willpower to\n"
     "its head to ram the foe. May flinch");
 
-static const u8 sZenHeadbuttDescription[] = _(
+static const u8 sFlareBlitzDescription[] = _(
     "The user cloaks itself in fire and\n"
     "charges the foe. User sustains DMG");
+
+static const u8 sBabyFlameDescription[] = _(
+    "The user breathes out spicy flames\n"
+    "at the foe. Always burns");
+
+static const u8 sBlueBlasterDescription[] = _(
+    "The user breathes out ice-cold\n"
+    "flames that may burn the target");
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -2023,4 +2031,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_HURRICANE - 1] = sHurricaneDescription,
     [MOVE_ZEN_HEADBUTT - 1] = sZenHeadbuttDescription,
     [MOVE_FLARE_BLITZ - 1] = sFlareBlitzDescription,
+    [MOVE_BABY_FLAME - 1] = sBabyFlameDescription,
+    [MOVE_BLUE_BLASTER - 1] = sBlueBlasterDescription,
 };
