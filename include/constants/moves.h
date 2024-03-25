@@ -410,8 +410,9 @@
 #define MOVE_BLUE_BLASTER 406
 #define MOVE_SNARL 407
 #define MOVE_ORDER_UP 408
+#define MOVE_STONE_EDGE 409
 
-#define MOVES_COUNT 409
+#define MOVES_COUNT 410
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -409,4 +409,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_BLUE_BLASTER] = _("BLUE BLASTER"),
     [MOVE_SNARL] = _("SNARL"),
     [MOVE_ORDER_UP] = _("ORDER UP"),
+    [MOVE_STONE_EDGE] = _("STONE EDGE"),
 };
