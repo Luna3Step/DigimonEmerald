@@ -408,8 +408,9 @@
 #define MOVE_FLARE_BLITZ 404
 #define MOVE_BABY_FLAME 405
 #define MOVE_BLUE_BLASTER 406
+#define MOVE_SNARL 407
 
-#define MOVES_COUNT 407
+#define MOVES_COUNT 408
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

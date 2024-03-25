@@ -1625,6 +1625,10 @@ static const u8 sBlueBlasterDescription[] = _(
     "The user breathes out ice-cold\n"
     "flames that may burn the target");
 
+static const u8 sSnarlDescription[] = _(
+    "The user yells as if it is ranting\n"
+    "about something. Lowers SP. ATK");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2033,4 +2037,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_FLARE_BLITZ - 1] = sFlareBlitzDescription,
     [MOVE_BABY_FLAME - 1] = sBabyFlameDescription,
     [MOVE_BLUE_BLASTER - 1] = sBlueBlasterDescription,
+    [MOVE_SNARL - 1] = sSnarlDescription,
 };

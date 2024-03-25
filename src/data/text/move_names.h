@@ -407,4 +407,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_FLARE_BLITZ] = _("FLARE BLITZ"),
     [MOVE_BABY_FLAME] = _("BABY FLAME"),
     [MOVE_BLUE_BLASTER] = _("BLUE BLASTER"),
+    [MOVE_SNARL] = _("SNARL"),
 };
