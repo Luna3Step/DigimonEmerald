@@ -5837,4 +5837,32 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         .category= MOVE_CATEGORY_PHYSICAL,
     },
+
+    [MOVE_NUZZLE] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 20,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
+
+    [MOVE_SHOCK_QUILL] =
+    {
+        .effect = EFFECT_MULTI_HIT,
+        .power = 18,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 90,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = -5,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
 };

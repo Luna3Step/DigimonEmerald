@@ -418,8 +418,10 @@
 #define MOVE_SMART_STRIKE 414
 #define MOVE_GEAR_GRIND 415
 #define MOVE_METAL_BURST 416
+#define MOVE_NUZZLE 417
+#define MOVE_SHOCK_QUILL 418
 
-#define MOVES_COUNT 417
+#define MOVES_COUNT 419
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
