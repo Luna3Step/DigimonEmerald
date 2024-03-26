@@ -3257,6 +3257,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_HARDEN},
     },
+
+    [MOVE_CHATTER] =
+    {
+        .effect = CONTEST_EFFECT_REPETITION_NOT_BORING,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_SING},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
