@@ -414,8 +414,9 @@
 #define MOVE_CHATTER 410
 #define MOVE_GAO_RUSH 411
 #define MOVE_DASH_DOUBLE_CLAW 412
+#define MOVE_LEAFAGE 413
 
-#define MOVES_COUNT 411
+#define MOVES_COUNT 414
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -1649,6 +1649,10 @@ static const u8 sDashDoubleClawDescription[] = _(
     "The user slams both forepaws into\n"
     "the foe. Hits twice.");
 
+static const u8 sLeafageClawDescription[] = _(
+    "The user attacks by pelting the\n"
+    "target with leaves.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2063,4 +2067,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_CHATTER - 1] = sChatterDescription,
     [MOVE_GAO_RUSH - 1] = sGaoRushDescription,
     [MOVE_DASH_DOUBLE_CLAW - 1] = sDashDoubleClawDescription,   
+    [MOVE_LEAFAGE - 1] = sLeafageDescription,   
 };

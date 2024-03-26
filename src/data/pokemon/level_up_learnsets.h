@@ -1278,7 +1278,7 @@ static const u16 sBulucomonLevelUpLearnset[] = {
 static const u16 sBurgermonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(14, MOVE_BARRAGE),
     LEVEL_UP_MOVE(16, MOVE_SWEET_SCENT),
-    LEVEL_UP_MOVE(19, MOVE_LEAF_BLADE), // Leafage
+    LEVEL_UP_MOVE(19, MOVE_LEAFAGE),
     LEVEL_UP_MOVE(23, MOVE_BIND),
     LEVEL_UP_MOVE(25, MOVE_HEADBUTT),
     LEVEL_UP_MOVE(28, MOVE_BLOCK),

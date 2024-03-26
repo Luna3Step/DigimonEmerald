@@ -413,4 +413,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_CHATTER] = _("CHATTER"),
     [MOVE_GAO_RUSH] = _("GAO RUSH"),
     [MOVE_DASH_DOUBLE_CLAW] = _("DSH DBL CLAW"),
+    [MOVE_LEAFAGE] = _("LEAFAGE"),
 };
