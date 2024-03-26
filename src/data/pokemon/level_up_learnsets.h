@@ -1257,11 +1257,10 @@ static const u16 sBlkguilmonLevelUpLearnset[] = {
 };
 
 static const u16 sBokomonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
-    LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
-    LEVEL_UP_MOVE( 1, MOVE_RECOVER),
-    LEVEL_UP_MOVE( 1, MOVE_SWIFT),
-    LEVEL_UP_MOVE(33, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE(14, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE(15, MOVE_FORESIGHT),
+    LEVEL_UP_MOVE(20, MOVE_RECOVER), // Chatter
+    LEVEL_UP_MOVE(25, MOVE_CALM_MIND),
     LEVEL_UP_END
 };
 
