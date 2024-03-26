@@ -411,4 +411,6 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_ORDER_UP] = _("ORDER UP"),
     [MOVE_STONE_EDGE] = _("STONE EDGE"),
     [MOVE_CHATTER] = _("CHATTER"),
+    [MOVE_GAO_RUSH] = _("GAO RUSH"),
+    [MOVE_DASH_DOUBLE_CLAW] = _("DSH DBL CLAW"),
 };
