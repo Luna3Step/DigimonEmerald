@@ -416,8 +416,10 @@
 #define MOVE_DASH_DOUBLE_CLAW 412
 #define MOVE_LEAFAGE 413
 #define MOVE_SMART_STRIKE 414
+#define MOVE_GEAR_GRIND 415
+#define MOVE_METAL_BURST 416
 
-#define MOVES_COUNT 415
+#define MOVES_COUNT 417
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

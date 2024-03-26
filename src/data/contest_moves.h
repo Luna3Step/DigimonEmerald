@@ -3297,6 +3297,22 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_FOCUS_ENERGY},
     },
+
+    [MOVE_GEAR_GRIND] =
+    {
+        .effect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_METAL_SOUND},
+    },
+
+    [MOVE_METAL_BURST] =
+    {
+        .effect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_METAL_SOUND},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

@@ -1657,6 +1657,14 @@ static const u8 sSmartStrikeDescription[] = _(
     "The user stabs the target with a\n"
     "sharp horn. Always hits.");
 
+static const u8 sGearGrindDescription[] = _(
+    "The user attacks by pelting two\n"
+    "steel gears at its target.");
+
+static const u8 sMetalBurstDescription[] = _(
+    "The user returns any damage dealt\n"
+    "to it against the foe.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2073,4 +2081,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DASH_DOUBLE_CLAW - 1] = sDashDoubleClawDescription,   
     [MOVE_LEAFAGE - 1] = sLeafageDescription,   
     [MOVE_SMART_STRIKE - 1] = sSmartStrikeDescription,   
+    [MOVE_GEAR_GRIND - 1] = sGearGrindDescription,   
+    [MOVE_METAL_BURST - 1] = sMetalBurstDescription, 
 };
