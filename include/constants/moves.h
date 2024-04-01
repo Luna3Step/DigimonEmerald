@@ -420,8 +420,9 @@
 #define MOVE_METAL_BURST 416
 #define MOVE_NUZZLE 417
 #define MOVE_SHOCK_QUILL 418
+#define MOVE_ZING_ZAP 419
 
-#define MOVES_COUNT 419
+#define MOVES_COUNT 420
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

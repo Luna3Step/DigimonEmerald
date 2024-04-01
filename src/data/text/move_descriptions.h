@@ -1673,6 +1673,10 @@ static const u8 sShockQuillDescription[] = _(
     "The user repeatedly fires\n"
     "electrified quills 2-5 times.");
 
+static const u8 sZingZapDescription[] = _(
+    "A strong electric blast crashes\n"
+    "onto the foe. May flinch them.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2093,4 +2097,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_METAL_BURST - 1] = sMetalBurstDescription, 
     [MOVE_NUZZLE - 1] = sNuzzleDescription,   
     [MOVE_SHOCK_QUILL - 1] = sShockQuillDescription, 
+    [MOVE_ZING_ZAP - 1] = sZingZapDescription, 
 };
