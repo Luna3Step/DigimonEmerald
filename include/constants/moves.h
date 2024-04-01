@@ -427,8 +427,9 @@
 #define MOVE_CORONA_FLAME 423
 #define MOVE_GRAND_CROSS 424
 #define MOVE_CELSTL_CROSS 425
+#define MOVE_DRUM_BEATING 426
 
-#define MOVES_COUNT 426
+#define MOVES_COUNT 427
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
