@@ -1713,6 +1713,17 @@ static const u8 sFlameChargeDescription[] = _(
     "The user cloaks itself with flames\n"
     "and attacks. Raises the users SPD");
 
+static const u8 sMagnetBombDescription[] = _(
+    "The user launches a steel bomb\n"
+    "that always hits the opponent");
+
+static const u8 sScaleShotDescription[] = _(
+    "The user attacks by shooting\n"
+    "scales two to five times in a row");
+
+static const u8 sSeedBombDescription[] = _(
+    "The user slams a barrage of\n"
+    "seeds on the foe");
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -2144,4 +2155,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DRUM_BEATING - 1] = sDrumBeatingDescription, 
     [MOVE_DRAIN_PUNCH - 1] = sDrainPunchDescription, 
     [MOVE_FLAME_CHARGE - 1] = sFlameChargeDescription, 
+    [MOVE_MAGNET_BOMB - 1] = sMagnetBombDescription, 
+    [MOVE_SCALE_SHOT - 1] = sScaleShotDescription, 
+    [MOVE_SEED_BOMB - 1] = sSeedBombDescription, 
 };

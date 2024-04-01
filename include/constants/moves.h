@@ -430,8 +430,11 @@
 #define MOVE_DRUM_BEATING 426
 #define MOVE_DRAIN_PUNCH 427
 #define MOVE_FLAME_CHARGE 428
+#define MOVE_MAGNET_BOMB 429
+#define MOVE_SCALE_SHOT 430
+#define MOVE_SEED_BOMB 431
 
-#define MOVES_COUNT 429
+#define MOVES_COUNT 432
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
