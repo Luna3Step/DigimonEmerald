@@ -3345,6 +3345,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_CHARGE},
     },
+
+    [MOVE_STUN_STINGER] =
+    {
+        .effect = CONTEST_EFFECT_AVOID_STARTLE,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_CHARGE},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

@@ -5893,4 +5893,18 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .category= MOVE_CATEGORY_SPECIAL,
     },
+    
+    [MOVE_STUN_STINGER] =
+    {
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+        .power = 60,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 40,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
 };
