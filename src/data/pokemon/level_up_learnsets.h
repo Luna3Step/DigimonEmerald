@@ -1426,6 +1426,7 @@ static const u16 sCutemonLevelUpLearnset[] = {
 static const u16 sDamemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE(15, MOVE_SPLASH),
+    LEVEL_UP_MOVE(99, MOVE_CELSTL_CROSS),
     LEVEL_UP_END
 };
 
