@@ -423,8 +423,9 @@
 #define MOVE_ZING_ZAP 419
 #define MOVE_PARACHARGE 420
 #define MOVE_STUN_STINGER 421
+#define MOVE_HOLY_SHOOT 422
 
-#define MOVES_COUNT 422
+#define MOVES_COUNT 423
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

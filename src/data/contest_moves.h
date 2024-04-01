@@ -3353,6 +3353,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_CHARGE},
     },
+
+    [MOVE_HOLY_SHOOT] =
+    {
+        .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_WATER_SPORT},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

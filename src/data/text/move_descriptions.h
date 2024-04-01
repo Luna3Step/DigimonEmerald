@@ -1685,6 +1685,10 @@ static const u8 sStunStingerDescription[] = _(
     "The user skewers the foe with\n"
     "its quills. Lowers SP. DEF.");
 
+static const u8 sHolyShootDescription[] = _(
+    "The user causes an explosion\n"
+    "with a small ball of light.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2108,4 +2112,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ZING_ZAP - 1] = sZingZapDescription, 
     [MOVE_PARACHARGE - 1] = sParachargeDescription, 
     [MOVE_STUN_STINGER - 1] = sStunStingerDescription, 
+    [MOVE_HOLY_SHOOT - 1] = sHolyShootDescription, 
 };
