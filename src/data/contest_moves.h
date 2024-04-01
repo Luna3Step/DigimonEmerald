@@ -3361,6 +3361,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_WATER_SPORT},
     },
+
+    [MOVE_CORONA_FLAME] =
+    {
+        .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_BELLY_DRUM},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
