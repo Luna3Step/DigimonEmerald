@@ -1697,6 +1697,10 @@ static const u8 sGrandCrossDescription[] = _(
     "The user administers order\n"
     "with a holy blade");
 
+static const u8 sCelstlCrossDescription[] = _(
+    "The user passes judgement with\n"
+    "a holy sword. Converts the foe");
+
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -2124,4 +2128,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_HOLY_SHOOT - 1] = sHolyShootDescription, 
     [MOVE_CORONA_FLAME - 1] = sCoronaFlameDescription, 
     [MOVE_GRAND_CROSS - 1] = sGrandCrossDescription, 
+    [MOVE_CELSTL_CROSS - 1] = sCelstlCrossDescription, 
 };
