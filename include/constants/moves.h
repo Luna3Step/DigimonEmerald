@@ -438,8 +438,9 @@
 #define MOVE_NIGHT_DAZE 434
 #define MOVE_FIERY_WRATH 435
 #define MOVE_TAIL_SLAP 436
+#define MOVE_ENERGY_BALL 437
 
-#define MOVES_COUNT 437
+#define MOVES_COUNT 438
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
