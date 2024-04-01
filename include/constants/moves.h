@@ -435,8 +435,9 @@
 #define MOVE_SEED_BOMB 431
 #define MOVE_DISARMING_VOICE 432
 #define MOVE_BOOMBURST 433
+#define MOVE_NIGHT_DAZE 434
 
-#define MOVES_COUNT 434
+#define MOVES_COUNT 435
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -3449,6 +3449,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_BELLY_DRUM},
     },
+
+    [MOVE_NIGHT_DAZE] =
+    {
+        .effect = CONTEST_EFFECT_STARTLE_MONS_COOL_APPEAL,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_LEER},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
