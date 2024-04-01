@@ -1741,6 +1741,10 @@ static const u8 sFieryWrathDescription[] = _(
     "The user transforms its wrath into\n"
     "a fire-like aura. Foes may flinch");
 
+static const u8 sTailSlapDescription[] = _(
+    "The user attacks by striking the\n"
+    "foe with its tail 2 to 5 times");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2178,4 +2182,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_BOOMBURST - 1] = sBoomburstDescription,
     [MOVE_NIGHT_DAZE - 1] = sNightDazeDescription,  
     [MOVE_FIERY_WRATH - 1] = sFieryWrathDescription,  
+    [MOVE_TAIL_SLAP - 1] = sTailSlapDescription,  
 };

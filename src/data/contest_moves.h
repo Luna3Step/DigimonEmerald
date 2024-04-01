@@ -3465,6 +3465,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_CURSE},
     },
+
+    [MOVE_TAIL_SLAP] =
+    {
+        .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_DRAGON_DANCE},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =
