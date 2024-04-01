@@ -1709,6 +1709,10 @@ static const u8 sDrainPunchDescription[] = _(
     "An energy-draining punch. Restores\n"
     "the users HP on hit");
 
+static const u8 sFlameChargeDescription[] = _(
+    "The user cloaks itself with flames\n"
+    "and attacks. Raises the users SPD");
+
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -2139,4 +2143,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_CELSTL_CROSS - 1] = sCelstlCrossDescription, 
     [MOVE_DRUM_BEATING - 1] = sDrumBeatingDescription, 
     [MOVE_DRAIN_PUNCH - 1] = sDrainPunchDescription, 
+    [MOVE_FLAME_CHARGE - 1] = sFlameChargeDescription, 
 };
