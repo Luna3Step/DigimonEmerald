@@ -421,8 +421,9 @@
 #define MOVE_NUZZLE 417
 #define MOVE_SHOCK_QUILL 418
 #define MOVE_ZING_ZAP 419
+#define MOVE_PARACHARGE 420
 
-#define MOVES_COUNT 420
+#define MOVES_COUNT 421
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

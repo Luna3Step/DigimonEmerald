@@ -420,4 +420,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_NUZZLE] = _("NUZZLE"),
     [MOVE_SHOCK_QUILL] = _("SHOCK QUILL"),
     [MOVE_ZING_ZAP] = _("ZING ZAP"),
+    [MOVE_PARACHARGE] = _("PARACHARGE"),
 };
