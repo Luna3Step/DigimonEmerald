@@ -425,8 +425,9 @@
 #define MOVE_STUN_STINGER 421
 #define MOVE_HOLY_SHOOT 422
 #define MOVE_CORONA_FLAME 423
+#define MOVE_GRAND_CROSS 424
 
-#define MOVES_COUNT 424
+#define MOVES_COUNT 425
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
