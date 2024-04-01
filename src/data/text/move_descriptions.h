@@ -1737,6 +1737,10 @@ static const u8 sNightDazeDescription[] = _(
     "The user lets loose a pitch black\n"
     "shock wave that may lower Accuracy");
 
+static const u8 sFieryWrathDescription[] = _(
+    "The user transforms its wrath into\n"
+    "a fire-like aura. Foes may flinch");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2173,4 +2177,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DISARMING_VOICE - 1] = sDisarmingVoiceDescription, 
     [MOVE_BOOMBURST - 1] = sBoomburstDescription,
     [MOVE_NIGHT_DAZE - 1] = sNightDazeDescription,  
+    [MOVE_FIERY_WRATH - 1] = sFieryWrathDescription,  
 };

@@ -436,8 +436,9 @@
 #define MOVE_DISARMING_VOICE 432
 #define MOVE_BOOMBURST 433
 #define MOVE_NIGHT_DAZE 434
+#define MOVE_FIERY_WRATH 435
 
-#define MOVES_COUNT 435
+#define MOVES_COUNT 436
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
