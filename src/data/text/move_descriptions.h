@@ -1729,7 +1729,7 @@ static const u8 sDisarmingVoiceDescription[] = _(
     "The user lets out a charming cry\n"
     "that always hits opponents");
 
-static const u8 sboomburstDescription[] = _(
+static const u8 sBoomburstDescription[] = _(
     "The user attacks around it with\n"
     "a terribly destructive sound");
 
