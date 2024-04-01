@@ -428,8 +428,9 @@
 #define MOVE_GRAND_CROSS 424
 #define MOVE_CELSTL_CROSS 425
 #define MOVE_DRUM_BEATING 426
+#define MOVE_DRAIN_PUNCH 427
 
-#define MOVES_COUNT 427
+#define MOVES_COUNT 428
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
