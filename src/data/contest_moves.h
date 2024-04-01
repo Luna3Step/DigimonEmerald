@@ -3441,6 +3441,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_RAGE},
     },
+
+    [MOVE_BOOMBURST] =
+    {
+        .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_BELLY_DRUM},
+    },
 };
 
 const struct ContestEffect gContestEffects[] =

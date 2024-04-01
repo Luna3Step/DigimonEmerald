@@ -1477,8 +1477,8 @@ static const u16 sDondokomonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(33, MOVE_BUG_BUZZ),
     LEVEL_UP_MOVE(36, MOVE_HYPER_VOICE),
     LEVEL_UP_MOVE(38, MOVE_DRUM_BEATING),
-    LEVEL_UP_MOVE(41, MOVE_CLAMP), // Clangorous Soul
-    LEVEL_UP_MOVE(43, MOVE_SONIC_BOOM), // Boomburst
+    LEVEL_UP_MOVE(41, MOVE_DRAGON_DANCE), // Clangorous Soul
+    LEVEL_UP_MOVE(43, MOVE_BOOMBURST),
     LEVEL_UP_END
 };
 
