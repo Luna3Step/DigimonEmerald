@@ -439,8 +439,9 @@
 #define MOVE_FIERY_WRATH 435
 #define MOVE_TAIL_SLAP 436
 #define MOVE_ENERGY_BALL 437
+#define MOVE_ROAR_OF_TIME 438
 
-#define MOVES_COUNT 438
+#define MOVES_COUNT 439
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

@@ -1749,6 +1749,10 @@ static const u8 sEnergyBallDescription[] = _(
     "The user draws from nature and fires\n"
     "it at the foe. May lower SP. DEF");
 
+static const u8 sRoarOfTimeDescription[] = _(
+    "The foe is hit by a blast that \n"
+    "distorts time. User must recharge.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2188,4 +2192,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_FIERY_WRATH - 1] = sFieryWrathDescription,  
     [MOVE_TAIL_SLAP - 1] = sTailSlapDescription,  
     [MOVE_ENERGY_BALL - 1] = sEnergyBallDescription,  
+    [MOVE_ROAR_OF_TIME - 1] = sRoarOfTimeDescription,  
 };
