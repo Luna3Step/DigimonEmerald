@@ -441,8 +441,9 @@
 #define MOVE_ENERGY_BALL 437
 #define MOVE_ROAR_OF_TIME 438
 #define MOVE_METEOR_ASSAULT 439
+#define MOVE_HEAD_SMASH 440
 
-#define MOVES_COUNT 440
+#define MOVES_COUNT 441
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

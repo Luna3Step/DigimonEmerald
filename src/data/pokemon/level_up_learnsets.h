@@ -3553,7 +3553,7 @@ static const u16 sAtamademonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(43, MOVE_UPROAR),
     LEVEL_UP_MOVE(44, MOVE_CRUNCH),
     LEVEL_UP_MOVE(50, MOVE_OUTRAGE),
-    LEVEL_UP_MOVE(93, MOVE_HYPER_VOICE), // Head Smash
+    LEVEL_UP_MOVE(58, MOVE_HEAD_SMASH),
     LEVEL_UP_END
 };
 
