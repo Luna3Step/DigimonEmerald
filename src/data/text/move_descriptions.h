@@ -1753,6 +1753,10 @@ static const u8 sRoarOfTimeDescription[] = _(
     "The foe is hit by a blast that \n"
     "distorts time. User must recharge.");
 
+static const u8 sMeteorAssaultDescription[] = _(
+    "The foe is attacked as if though it\n"
+    "was hit by a meteor. User recharges.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2193,4 +2197,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_TAIL_SLAP - 1] = sTailSlapDescription,  
     [MOVE_ENERGY_BALL - 1] = sEnergyBallDescription,  
     [MOVE_ROAR_OF_TIME - 1] = sRoarOfTimeDescription,  
+    [MOVE_METEOR_ASSAULT - 1] = sMeteorAssaultDescription,  
 };
