@@ -1761,6 +1761,10 @@ static const u8 sHeadSmashDescription[] = _(
     "The user delivers a dangerous head\n"
     "butt at full power. Has recoil dmg.");
 
+static const u8 sDrainingKissDescription[] = _(
+    "The user steals the targets energy\n"
+    "with a kiss healing the user..");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -2203,4 +2207,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ROAR_OF_TIME - 1] = sRoarOfTimeDescription,  
     [MOVE_METEOR_ASSAULT - 1] = sMeteorAssaultDescription,  
     [MOVE_HEAD_SMASH - 1] = sHeadSmashDescription,  
+    [MOVE_DRAINING_KISS - 1] = sDrainingKissDescription,  
 };
