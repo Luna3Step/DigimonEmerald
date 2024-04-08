@@ -773,4 +773,14 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
 
-	
+PetalburgCity_EventScript_RareCandy::
+	lockall
+	msgbox PetalburgCity_EventScript_RareCandy_Text_0
+	giveitem ITEM_RARE_CANDY, 99
+	waitmessage
+	releaseall
+	return
+
+
+PetalburgCity_EventScript_RareCandy_Text_0:
+	.string "Free Candy!!$"
