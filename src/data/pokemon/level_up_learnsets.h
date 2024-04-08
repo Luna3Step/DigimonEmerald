@@ -33,7 +33,6 @@ static const u16 sBotamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 2, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_GROWL),
-    LEVEL_UP_MOVE( 6, MOVE_SING),
     LEVEL_UP_END
 };
 
@@ -291,7 +290,6 @@ static const u16 sPuyomonLevelUpLearnset[] = {
 static const u16 sPyonmonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 3, MOVE_SLAM),
-    LEVEL_UP_MOVE( 4, MOVE_SING),
     LEVEL_UP_END
 };
 
@@ -404,7 +402,6 @@ static const u16 sBibimonLevelUpLearnset[] = {
 static const u16 sBosamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SLAM),
-    LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 6, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 9, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(13, MOVE_HEADBUTT),
@@ -599,7 +596,6 @@ static const u16 sKoromonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    LEVEL_UP_MOVE( 6, MOVE_SING),
     LEVEL_UP_MOVE(19, MOVE_STOCKPILE),
     LEVEL_UP_MOVE(19, MOVE_SWALLOW),
     LEVEL_UP_MOVE(19, MOVE_SPIT_UP),
@@ -790,7 +786,6 @@ static const u16 sPinamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 5, MOVE_PECK),
     LEVEL_UP_MOVE( 8, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(13, MOVE_GUST),
-    LEVEL_UP_MOVE(17, MOVE_SING),
     LEVEL_UP_END
 };
 
@@ -868,9 +863,9 @@ static const u16 sTanemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_INGRAIN),
     LEVEL_UP_MOVE( 1, MOVE_SCARY_FACE),
-    LEVEL_UP_MOVE( 5, MOVE_BULLET_SEED),
+    LEVEL_UP_MOVE( 5, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE( 9, MOVE_ABSORB),
-    LEVEL_UP_MOVE(12, MOVE_VINE_WHIP),
+    LEVEL_UP_MOVE(12, MOVE_BULLET_SEED),
     LEVEL_UP_MOVE(17, MOVE_POISON_POWDER),
     LEVEL_UP_MOVE(20, MOVE_HEADBUTT),
     LEVEL_UP_END
@@ -1067,7 +1062,6 @@ static const u16 sAgumon_XLevelUpLearnset[] = {
 static const u16 sAngoramonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SLAM),
-    LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(14, MOVE_HEADBUTT),
@@ -1416,7 +1410,6 @@ static const u16 sCutemonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(24, MOVE_DISARMING_VOICE),
     LEVEL_UP_MOVE(26, MOVE_FOCUS_ENERGY), // Laser Focus
     LEVEL_UP_MOVE(29, MOVE_CHARM), // Echoed Voice
-    LEVEL_UP_MOVE(30, MOVE_SING),
     LEVEL_UP_MOVE(32, MOVE_SUPERSONIC),
     LEVEL_UP_MOVE(35, MOVE_AMNESIA), // Round
     LEVEL_UP_MOVE(40, MOVE_HYPER_VOICE),
@@ -4294,7 +4287,6 @@ static const u16 sBirdramonLevelUpLearnset[] = {
 static const u16 sBlgaogamonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_ATTRACT),
-    LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_END
 };
