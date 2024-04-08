@@ -2265,26 +2265,10 @@ void SetMoveEffect(bool8 primary, u8 certain)
     if (gBattleMons[gEffectBattler].status2 & STATUS2_SUBSTITUTE && affectsUser != MOVE_EFFECT_AFFECTS_USER)
         INCREMENT_RESET_RETURN
 
-    if (gBattleCommunication[MOVE_EFFECT_BYTE] >= MOVE_EFFECT_CONVERTED)
+    if (gBattleCommunication[MOVE_EFFECT_BYTE]  <= PRIMARY_STATUS_MOVE_EFFECT)
     {
         switch (sStatusFlagsForMoveEffects[gBattleCommunication[MOVE_EFFECT_BYTE]])
         {
-        case STATUS1_CONVERTED:
-            if (gBattleMons[gEffectBattler].status1)
-            {
-                break;
-            }
-            if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_DARK))
-            {
-                break;
-            }
-            if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_LIGHT))
-            {
-                break;
-            }
-            statusChanged = TRUE;
-            break;
-
         case STATUS1_SLEEP:
             // check active uproar
             if (gBattleMons[gEffectBattler].ability != ABILITY_SOUNDPROOF)
@@ -2874,6 +2858,21 @@ void SetMoveEffect(bool8 primary, u8 certain)
                     gLockedMoves[gEffectBattler] = gCurrentMove;
                     gBattleMons[gEffectBattler].status2 |= STATUS2_LOCK_CONFUSE_TURN((Random() & 1) + 2); // thrash for 2-3 turns
                 }
+                break;
+            case STATUS1_CONVERTED:
+                if (gBattleMons[gEffectBattler].status1)
+                {
+                    break;
+                }
+                if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_DARK))
+                {
+                    break;
+                }
+                if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_LIGHT))
+                {
+                    break;
+                }
+                statusChanged = TRUE;
                 break;
             case MOVE_EFFECT_KNOCK_OFF:
                 if (gBattleMons[gEffectBattler].ability == ABILITY_STICKY_HOLD)
