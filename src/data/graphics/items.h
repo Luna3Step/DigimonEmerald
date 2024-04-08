@@ -776,3 +776,18 @@ const u32 gItemIconPalette_MagmaEmblem[] = INCBIN_U32("graphics/items/icon_palet
 
 const u32 gItemIcon_OldSeaMap[] = INCBIN_U32("graphics/items/icons/old_sea_map.4bpp.lz");
 const u32 gItemIconPalette_OldSeaMap[] = INCBIN_U32("graphics/items/icon_palettes/old_sea_map.gbapal.lz");
+
+const u32 gItemIcon_Meat[] = INCBIN_U32("graphics/items/icons/meat.4bpp.lz");
+const u32 gItemIconPalette_Meat[] = INCBIN_U32("graphics/items/icon_palettes/meat.gbapal.lz");
+const u32 gItemIcon_RottenMeat[] = INCBIN_U32("graphics/items/icons/rottenmeat.4bpp.lz");
+const u32 gItemIconPalette_RottenMeat[] = INCBIN_U32("graphics/items/icon_palettes/rottenmeat.gbapal.lz");
+const u32 gItemIcon_PowerFruit[] = INCBIN_U32("graphics/items/icons/powerfruit.4bpp.lz");
+const u32 gItemIconPalette_PowerFruit[] = INCBIN_U32("graphics/items/icon_palettes/powerfruit.gbapal.lz");
+const u32 gItemIcon_MuscleYam[] = INCBIN_U32("graphics/items/icons/muscleyam.4bpp.lz");
+const u32 gItemIconPalette_MuscleYam[] = INCBIN_U32("graphics/items/icon_palettes/muscleyam.gbapal.lz");
+const u32 gItemIcon_SuperCarrot[] = INCBIN_U32("graphics/items/icons/supercarrot.4bpp.lz");
+const u32 gItemIconPalette_SuperCarrot[] = INCBIN_U32("graphics/items/icon_palettes/supercarrot.gbapal.lz");
+const u32 gItemIcon_HawkRadish[] = INCBIN_U32("graphics/items/icons/hawkradish.4bpp.lz");
+const u32 gItemIconPalette_HawkRadish[] = INCBIN_U32("graphics/items/icon_palettes/hawkradish.gbapal.lz");
+const u32 gItemIcon_DigiPine[] = INCBIN_U32("graphics/items/icons/digipine.4bpp.lz");
+const u32 gItemIconPalette_DigiPine[] = INCBIN_U32("graphics/items/icon_palettes/digipine.gbapal.lz");

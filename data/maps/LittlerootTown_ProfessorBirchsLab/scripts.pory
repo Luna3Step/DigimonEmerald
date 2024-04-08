@@ -919,9 +919,9 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGammamon:
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeFalcomon_06:
 	.string "PROF. BIRCH: The GRASS POKéMON\n"
-	.string "FALCOMON_06 is your choice!\p"
+	.string "FALCOMON06 is your choice!\p"
 	.string "You sure know what you're doing.\p"
-	.string "So, you'll take the FALCOMON_06?$"
+	.string "So, you'll take the FALCOMON06?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
 	.string "PROF. BIRCH: Take your time before\n"

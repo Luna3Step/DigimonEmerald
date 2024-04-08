@@ -1615,7 +1615,6 @@ static const u8 sOldSeaMapDesc[] = _(
     "that shows the way\n"
     "to a certain island.");
 
-
 static const u8 sHPDownDesc[] = _("-1 HP IV");
 static const u8 sProteinMinusDesc[] = _("-1 ATK IV");
 static const u8 sIronMinusDesc[] = _("-1 DEF IV");
